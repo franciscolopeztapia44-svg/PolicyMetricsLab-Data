@@ -1,0 +1,513 @@
+{
+  "metadata": {
+    "product": "PML Morning Brief",
+    "version": "0.2.4",
+    "status": "validated",
+    "date": "2026-09-23",
+    "data_latest_timestamp": "2026-09-23T21:52:41-0300",
+    "data_age_hours": 0,
+    "generated_at": "2026-09-23T21:55:10-0300",
+    "timezone": "America/Santiago",
+    "relevance_model": "PML Relevance Score v0.3.1",
+    "selector_model": "PML Top Stories Selector v0.1",
+    "chile_selector_model": "PML Chile Political Science Selector v0.1",
+    "top_diversity_fallback": false,
+    "editorial_topic_diversity_met": false
+  },
+  "summary": {
+    "headline": "Panorama Político Diario",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 3 tipos de evento político.",
+    "why_it_matters": null
+  },
+  "metrics": {
+    "key_stories": 5,
+    "ranked_events": 33,
+    "topics": 2,
+    "geographies": 3,
+    "representative_sources": 2,
+    "average_top5_relevance": 66.1,
+    "maximum_relevance": 70.4
+  },
+  "top_stories": [
+    {
+      "position": 1,
+      "cluster_id": "PML-EVENT-028",
+      "title": "El presidente de Irán acusa en la ONU a EE UU e Israel de violar el derecho internacional en sus ataques",
+      "url": "https://elpais.com/internacional/2026-09-23/el-presidente-de-iran-acusa-en-la-onu-a-ee-uu-e-israel-de-violar-el-derecho-internacional-en-sus-ataques.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "CONFLICT_ESCALATION",
+      "geography": {
+        "group": "Internacional",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 70.4,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 70.4
+      },
+      "selection": {
+        "reason": "PML 70.4",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-23T13:44:27-0300",
+      "last_seen": "2026-09-23T13:44:27-0300",
+      "entities": [
+        "iran",
+        "onu",
+        "israel"
+      ],
+      "event_terms": [],
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El presidente de Irán acusa en la ONU a EE UU e Israel de violar el derecho internacional en sus ataques",
+          "description": "“Estamos dispuestos al diálogo, pero no aceptamos el lenguaje de la fuerza”, ha declarado Masud Pezeshkián en su discurso ante los líderes mundiales",
+          "url": "https://elpais.com/internacional/2026-09-23/el-presidente-de-iran-acusa-en-la-onu-a-ee-uu-e-israel-de-violar-el-derecho-internacional-en-sus-ataques.html",
+          "image_url": "",
+          "published_raw": "Wed, 23 Sep 2026 16:44:27 GMT",
+          "published_at": "2026-09-23T13:44:27-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 1,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-028"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-029",
+      "title": "La rinoceronte y el Trump de pega: historias de las elecciones en Brasil",
+      "url": "https://elpais.com/opinion/2026-09-23/la-rinoceronte-y-el-trump-de-pega-historias-de-las-elecciones-en-brasil.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 61.4,
+        "level": "MEDIA",
+        "editorial_utility": 73.4
+      },
+      "selection": {
+        "reason": "PML 61.4; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-23T00:30:01-0300",
+      "last_seen": "2026-09-23T00:30:01-0300",
+      "entities": [
+        "trump",
+        "brasil"
+      ],
+      "event_terms": [],
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "La rinoceronte y el Trump de pega: historias de las elecciones en Brasil",
+          "description": "Los candidatos ridículos y su presencia memética en redes son desde hace décadas reflejo del desinterés de una parte de la población por los comicios",
+          "url": "https://elpais.com/opinion/2026-09-23/la-rinoceronte-y-el-trump-de-pega-historias-de-las-elecciones-en-brasil.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/DZQVEZG72NEYNHIIJFVT5X2NDA.jpg?auth=4c94b524a0858c95497eeb6855a87a4e7ca468f1fcbdbd715ac2be4e7eef2bba",
+          "published_raw": "Wed, 23 Sep 2026 03:30:01 GMT",
+          "published_at": "2026-09-23T00:30:01-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-029"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-002",
+      "title": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-gobierno-confirmo-que-insistira-en-el-senado/2026-09-23/143812.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 67.1,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 70.1
+      },
+      "selection": {
+        "reason": "PML 67.1; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-09-23T14:38:12-0300",
+      "last_seen": "2026-09-23T14:38:12-0300",
+      "entities": [
+        "senado",
+        "congreso"
+      ],
+      "event_terms": "sanciones",
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado",
+          "description": "Tras e l revés sufrido ayer en la Cámara de Diputadas y Diputados —donde la iniciativa fue rechazada por apenas un voto tras alcanzar 88 de los 89 apoyos requeridos (con 28 votos en contra y 19 abstenciones)—, el Gobierno confirmó este miércoles que insistirá con su reforma constitucional para ampliar de cinco a 30 días el plazo de detención para las expulsiones administrativas de extranjeros . La propuesta facultaba además al Ejecutivo para habilitar recintos especiales destinados a albergar a los ciudadanos sometidos a este proceso. La determinación fue ratificada por el vicepresidente de la República, Claudio Alvarado , quien fustigó las abstenciones y ausencias en la Sala y confirmó la decisión de recurrir a la Cámara Alta. \"Los dejaron entrar y hoy día ellos mismos no quieren que se vayan, pero nosotros, como estamos conscientes de que tenemos que hacer cumplir la ley y que necesitamos regularizar la situación, vamos a insistir por el Senado con los dos tercios para que se pueda seguir tramitando esta iniciativa . Lo único que quiero pedir es un sentido de responsabilidad\", abogó. \"Realismo legislativo\": el escenario en la Cámara Alta Para rehabilitar la tramitación mediante la insistencia constitucional, el Gobierno requiere alcanzar un quórum de dos tercios de los senadores presentes. Ante esta exigencia, la presidenta del Senado, Paulina Núñez (Renovación Nacional), instó al Ejecutivo a actuar con \"realismo legislativo\" y manifestarse abierto a flexibilizar la propuesta. \"Para insistir en el Senado, convengamos que no vamos a insistir con el mismo texto, sino con el argumento de fondo , porque ese argumento operó también en el Gobierno pasado, cuando se amplió el plazo de detención, porque se entiende que efectivamente en ese plazo ampliado se producen mayoritariamente las expulsiones necesarias\", sostuvo la parlamentaria. \"Si tiene que ser un plazo menor con tal de insistir en el Senado, bueno, será parte de la discusión que tengamos\" , agregó Núñez. Por su parte, el senador Iván Flores (DC) señaló que \"tal como fue (la votación) en la Cámara, yo diría que lo estoy pensando\" . \"Si arreglan las cosas, por supuesto que vamos a apoyar la agenda de seguridad . Si los proyectos que están allí en general, excepto la reforma constitucional, son todos acompañables, pero arreglen primero la mochila y y los proyectos\", enfatizó. La lección, según Arrau: \"No hay que confiarse\" Por su parte, el ministro de Seguridad, Martín Arrau , lamentó la falta de respaldo durante una intervención en el ciclo \"Conoce a tu Ministro\" de Icare. \"Llegado el momento de la votación en general, desaparecieron algunos votos y se rechaza esto. Es gravísimo , porque es una herramienta tremendamente práctica y hoy día quedamos sin esa herramienta. Hicimos este sistema laborioso, costoso, inoperante que tenemos... No hay que confiarse, parece \", enfatizó. Arrau rambién argmentó que \"yo por mí no iría al Congreso, porque creo que la gestión es tremendamente más importante. Por ejemplo, en obras públicas no iba el ministro al Congreso, iba el especialista de tal tema. Y usted entenderá que yo no soy especialista en materias penales constitucionales, cosas de ese estilo\". \"Espero no tener que ir más de un día al Congreso . Ya se votó una ley muy importante, antibarrricadas 2.0, pero no puedo estar ahí. Hay que ir a tramitar las leyes que sean realmente necesarias y urgentes\", resaltó. La respuesta a sus palabras no se hizo esperar, y fue el diputado Diego Schalper (RN) sostuvo que los \"ministros del presidente Kast tienen que tener claro que parte de sus obligaciones como colegisladores es concurrir al Congreso , sacar adelante la agenda legislativa\". \"Uno pocas veces en la vida hace lo que quiere, normalmente corresponde hacer lo que uno tiene que hacer y el ministro de seguridad tiene que venir al Congreso a tramitar la agenda legislativa\", indicó. Desde la Cámara Alta, en tanto, el senador Matías Walker (independiente) fustigó que \"el ministro de Seguridad se aburra en los viajes al Congreso, porque al parecer para él es una molestia . No tenemos problemas en entendernos con el ministro (de la Segpres), José García Ruminot, que es un ministro que sí respeta al Congreso Nacional\". En paralelo al debate migratorio, la Cámara Baja aprobó y despachó al Senado el denominado proyecto \"Antibarricadas 2.0\" , que endurece las sanciones penales para quienes interrumpan el tránsito o corten vías públicas mediante violencia, intimidación u obstáculos que generen un peligro concreto para la vida o la integridad física de las personas. Asimismo, la normativa extiende la aplicación de multas de hasta 20 UTM y penas de presidio menor a quienes causen afectaciones graves a los servicios de transporte masivo, como la interrupción de la red del Metro de Santiago.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-gobierno-confirmo-que-insistira-en-el-senado/2026-09-23/143812.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260923/imag/foto_0000000320260923143812.jpg",
+          "published_raw": "Wed, 23 Sep 2026 14:38:12 -0300",
+          "published_at": "2026-09-23T14:38:12-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 11,
+          "score_elections": 1,
+          "score_international": 1,
+          "score_conflict": 2,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 20,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-002"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-020",
+      "title": "Delcy Rodríguez agradece a Trump su papel en Venezuela y anuncia que habrá elecciones sin concretar la fecha",
+      "url": "https://elpais.com/america/2026-09-23/delcy-rodriguez-agradece-a-trump-su-cooperacion-con-venezuela-y-anuncia-que-habra-elecciones-sin-concretar-la-fecha.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / América Latina"
+      },
+      "relevance": {
+        "score": 67.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 62.2
+      },
+      "selection": {
+        "reason": "PML 67.2; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-23T20:57:37-0300",
+      "last_seen": "2026-09-23T20:57:37-0300",
+      "entities": [
+        "trump",
+        "venezuela",
+        "onu"
+      ],
+      "event_terms": [],
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Delcy Rodríguez agradece a Trump su papel en Venezuela y anuncia que habrá elecciones sin concretar la fecha",
+          "description": "La presidenta encargada vuelve a la Asamblea General, foro en el que arremetió contra EE UU, y no menciona a Maduro, encarcelado a tan solo 14 kilómetros de la sede de la ONU",
+          "url": "https://elpais.com/america/2026-09-23/delcy-rodriguez-agradece-a-trump-su-cooperacion-con-venezuela-y-anuncia-que-habra-elecciones-sin-concretar-la-fecha.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/G6V7LE2S5NP3NAEVYT5DPQCAZ4.jpg?auth=047a97a0b58850f17cdd50294abc291a7092594464e55d58de7d8b3f3b79f0d2",
+          "published_raw": "Wed, 23 Sep 2026 23:57:37 GMT",
+          "published_at": "2026-09-23T20:57:37-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 1,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-020"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-008",
+      "title": "Reforma de expulsiones: cruce por ausencias, plazos y garantías",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-cruce-por-ausencias-plazos-y-garantias/2026-09-23/115522.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 64.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 57.2
+      },
+      "selection": {
+        "reason": "PML 64.2; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-09-23T11:55:22-0300",
+      "last_seen": "2026-09-23T11:55:22-0300",
+      "entities": "chile",
+      "event_terms": "judicial",
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Reforma de expulsiones: cruce por ausencias, plazos y garantías",
+          "description": "El rechazo por un voto de la reforma constitucional sobre detención para ejecutar expulsiones administrativas enfrentó en El Primer Café a los diputados Jorge Guzmán (Evópoli) y Constanza Schönhaut (FA) . La iniciativa obtuvo 88 votos a favor, 28 en contra y 19 abstenciones : le faltó un respaldo para alcanzar el quorum requerido. El proyecto, correspondiente al boletín 18.314-07 de la Cámara , buscaba modificar el margen constitucional para que una ley pudiera ampliar el plazo de privación de libertad destinado a materializar expulsiones ya decretadas . La discusión también incorporó una propuesta relativa a procedimientos de extradición. Guzmán calificó el resultado como un revés para la seguridad y cuestionó que algunos parlamentarios no respaldaran en la Sala un texto que habían apoyado durante su tramitación. \"La izquierda se dio un lujo, pero no un lujo para complejizar o para atacar al Gobierno, sino un lujo simplemente para ganar un punto que perjudica la seguridad de Chile \", afirmó. Reconoció, a la vez, que faltaron votos de la derecha. Entre los casos que mencionó figuran Marcos Ilabaca (PS) y Pamela Jiles (PDG) , quienes se abstuvieron, y José Montalva (IND-PPD) y Patricio Pinilla (DC) , que no estaban presentes al momento de votar. Según el informe de comisión, Ilabaca y Jiles habían respaldado allí el texto acordado, mientras que Montalva se abstuvo. Cooperativa informó que Pinilla y Montalva habían anunciado votos favorables durante el debate en Sala, pero posteriormente explicaron sus reparos. Schönhaut cuestionó las reglas pendientes Schönhaut confirmó que votó en contra. Sostuvo que la reforma permitiría avanzar hacia una retención de hasta 30 días para las expulsiones administrativas, mientras dejaba para una ley posterior aspectos como la intervención judicial y las condiciones de aplicación. \"Se dice retención, pero en el fondo era básicamente pasar, para las expulsiones administrativas, a poder detener a la gente sin control judicial durante 30 días\", planteó. También pidió definir resguardos para niños y niñas: \"Pero dejarlo como cheque en blanco , eso es algo que no se puede hacer y eso era lo que el gobierno tampoco estuvo disponible\". El secretario general del Partido Republicano, Vicente Bruna , defendió que una reforma constitucional establezca una habilitación general y que la regulación específica quede para una ley posterior. Guzmán compartió ese argumento y sostuvo que extender el plazo permitiría resolver casos en que las gestiones para concretar una expulsión o extradición exceden el tiempo disponible. Qué señaló la PDI en la comisión Schönhaut afirmó en el programa que la Policía de Investigaciones había advertido dificultades de capacidad e infraestructura. Guzmán objetó esa caracterización. El informe de la Comisión de Constitución permite precisar que el prefecto general Ricardo Gatica , en representación de la PDI, consideró que el plazo vigente de cinco días para materializar expulsiones puede ser insuficiente en determinadas circunstancias y que su ampliación podría ayudar a completar esos procedimientos. Gatica informó, al mismo tiempo, que el centro de retención de extranjeros de Santiago tiene 50 cupos . Explicó que en regiones se utilizan unidades policiales propias, pero que, si el procedimiento exige superar los cinco días, las personas deben ser trasladadas a Santiago porque no existen otros recintos regionales destinados a esa retención. Reconoció que ampliar el plazo supone un desafío logístico y señaló que la PDI no cuenta con antecedentes para definir un número óptimo de días . De acuerdo con las cifras expuestas por la institución ante la comisión, 53 de 1.247 casos de expulsión administrativa examinados durante el año no pudieron concretarse dentro de cinco días , equivalentes al 4,25% . La PDI indicó que esas situaciones no constituyen la regla general y que el objetivo debe ser ejecutar cada expulsión tan pronto se cumplan las condiciones necesarias. Alejandra Krauss (DC) advirtió que la aprobación de la reforma tampoco habría significado una solución inmediata, dado que su implementación requería una ley posterior. \"Cualquier implementación de algo consagrado en la Constitución habría requerido más tiempo, no habríamos resuelto el tema en este mes o en los siguientes\", señaló.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-cruce-por-ausencias-plazos-y-garantias/2026-09-23/115522.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260923/imag/foto_0000000220260923115522.jpg",
+          "published_raw": "Wed, 23 Sep 2026 11:55:22 -0300",
+          "published_at": "2026-09-23T11:55:22-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 2,
+          "score_policy": 0,
+          "score_ideology": 2,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 12,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-008"
+        }
+      ]
+    }
+  ],
+  "chile_brief": {
+    "country": "Chile",
+    "title": "Chile | Política e instituciones",
+    "story_count": 3,
+    "selector_model": "PML Chile Political Science Selector v0.1",
+    "stories": [
+      {
+        "position": 1,
+        "cluster_id": "PML-EVENT-004",
+        "title": "Cámara Baja aprobó y despachó al Senado la \"Ley Antibarricadas 2.0\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 63,
+          "level": "MEDIA-ALTA",
+          "components": {
+            "political_impact": 86,
+            "freshness": 88,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 32
+          }
+        },
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 85
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-014",
+        "title": "\"El foco deben ser los vecinos\", dice alcaldesa tras asesinato de líder narco que la amenazó",
+        "topic": "Conflictos y seguridad",
+        "event_type": "POLITICAL_STATEMENT",
+        "representative_source": "Cooperativa",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 52.2,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 50,
+            "freshness": 88,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 32
+          }
+        },
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 7,
+          "labels": "Seguridad y Estado",
+          "chile_utility": 59.2
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-006",
+        "title": "Por un voto: Cámara rechazó reforma para agilizar expulsiones",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 55.7,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 87,
+            "freshness": 52,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 46
+          }
+        },
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 77.7
+        },
+        "repeated_in_general_top5": false
+      }
+    ]
+  },
+  "topics": [
+    {
+      "topic": "Instituciones y gobierno",
+      "event_count": 26,
+      "maximum_relevance": 70.4,
+      "leading_story": "El presidente de Irán acusa en la ONU a EE UU e Israel de violar el derecho internacional en sus ataques"
+    },
+    {
+      "topic": "Elecciones y opinión pública",
+      "event_count": 2,
+      "maximum_relevance": 61.4,
+      "leading_story": "La rinoceronte y el Trump de pega: historias de las elecciones en Brasil"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 4,
+      "maximum_relevance": 57.3,
+      "leading_story": "Colombia: la turística Santa Marta es militarizada ante la arremetida de un grupo narcoparamilitar"
+    },
+    {
+      "topic": "Relaciones internacionales",
+      "event_count": 1,
+      "maximum_relevance": 44.6,
+      "leading_story": "Excanciller van Klaveren destaca liderazgo de Bachelet tras retiro de su candidatura ONU"
+    }
+  ],
+  "changes_since_yesterday": {
+    "status": "not_available",
+    "data": []
+  },
+  "sources": {
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "source_count": 3
+  },
+  "system": {
+    "collection_status": "completed",
+    "classification_status": "completed",
+    "clustering_status": "completed",
+    "ranking_status": "completed",
+    "top_stories_status": "completed",
+    "chile_stories_status": "completed",
+    "latest_builder_status": "completed"
+  }
+}
