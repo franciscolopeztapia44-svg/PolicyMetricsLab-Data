@@ -4,35 +4,35 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-24",
-    "data_latest_timestamp": "2026-09-24T06:30:00-0300",
-    "data_age_hours": 2.8,
-    "generated_at": "2026-09-24T09:18:39-0300",
+    "data_latest_timestamp": "2026-09-24T12:00:06-0300",
+    "data_age_hours": 0.3,
+    "generated_at": "2026-09-24T12:15:40-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": false
+    "editorial_topic_diversity_met": true
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 38 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 34,
-    "topics": 1,
-    "geographies": 2,
-    "representative_sources": 3,
-    "average_top5_relevance": 62.5,
-    "maximum_relevance": 65.1
+    "ranked_events": 38,
+    "topics": 3,
+    "geographies": 3,
+    "representative_sources": 2,
+    "average_top5_relevance": 61.8,
+    "maximum_relevance": 64.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-018",
+      "cluster_id": "PML-EVENT-021",
       "title": "Delcy Rodríguez agradece a Trump su papel en Venezuela y asegura que habrá elecciones sin concretar la fecha",
       "url": "https://elpais.com/america/2026-09-23/delcy-rodriguez-agradece-a-trump-su-cooperacion-con-venezuela-y-anuncia-que-habra-elecciones-sin-concretar-la-fecha.html",
       "representative_source": "EL PAÍS",
@@ -96,7 +96,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-018"
+          "cluster_id": "PML-EVENT-021"
         },
         {
           "source_id": "elpais_america",
@@ -124,12 +124,141 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-018"
+          "cluster_id": "PML-EVENT-021"
         }
       ]
     },
     {
       "position": 2,
+      "cluster_id": "PML-EVENT-019",
+      "title": "Últimas noticias de la Asamblea General de la ONU, en directo | Abbas acusa a Israel de limpieza étnica: “Es un plan colonial maligno cuyo objetivo es hacer imposible la vida de los palestinos”",
+      "url": "https://elpais.com/internacional/2026-09-24/ultimas-noticias-de-la-asamblea-general-de-la-onu-en-directo.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Conflictos y seguridad",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Internacional",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 61.6,
+        "level": "MEDIA",
+        "editorial_utility": 73.6
+      },
+      "selection": {
+        "reason": "PML 61.6; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-24T12:00:06-0300",
+      "last_seen": "2026-09-24T12:00:06-0300",
+      "entities": [
+        "onu",
+        "israel"
+      ],
+      "event_terms": [],
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Últimas noticias de la Asamblea General de la ONU, en directo | Abbas acusa a Israel de limpieza étnica: “Es un plan colonial maligno cuyo objetivo es hacer imposible la vida de los palestinos”",
+          "description": "El conflicto palestino-israelí llega a la Asamblea con los discursos de Abbas y Netanyahu | Hay manifestaciones convocadas en Nueva York contra la presencia del primer ministro israelí",
+          "url": "https://elpais.com/internacional/2026-09-24/ultimas-noticias-de-la-asamblea-general-de-la-onu-en-directo.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/I2QKDAYXBFC2NALT3GK4F4HHYU.jpg?auth=74d9c323e6c3c2a0a1fe166e7f1c1282504f3862635d4653f5d22b239f98aafc",
+          "published_raw": "Thu, 24 Sep 2026 15:00:06 GMT",
+          "published_at": "2026-09-24T12:00:06-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 1,
+          "score_conflict": 2,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-019"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-012",
+      "title": "\"EE.UU. hace bullying si no lo sigues\": Economistas debaten sobre adhesión al Escudo de las Américas",
+      "url": "https://www.cooperativa.cl/noticias/economia/ee-uu-hace-bullying-si-no-lo-sigues-economistas-debaten-sobre/2026-09-24/115712.html",
+      "representative_source": "Cooperativa",
+      "topic": "Relaciones internacionales",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 58,
+        "level": "MEDIA",
+        "editorial_utility": 67
+      },
+      "selection": {
+        "reason": "PML 58; aporta diversidad temática; aporta diversidad geográfica",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-09-24T11:57:12-0300",
+      "last_seen": "2026-09-24T11:57:12-0300",
+      "entities": "chile",
+      "event_terms": "aranceles",
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "\"EE.UU. hace bullying si no lo sigues\": Economistas debaten sobre adhesión al Escudo de las Américas",
+          "description": "En El Primer Café , economistas debatieron sobre la decisión del gobierno de José Antonio Kast de sumarse al Escudo de las Américas , iniciativa impulsada por Estados Unidos y que puede tener una serie de implicaciones en materia geopolítica. El economista Rodrigo Wagner, profesor de la Universidad Adolfo Ibáñez, planteó que \"Estados Unidos no quiere que ciertos servicios digitales directos sean controlados directamente por China, sin pasar por otras etapas. Si eso va a ocurrir, a veces es mejor saberlo desde el principio para no terminar en problemas diplomáticos al final\". \"Hay que entender la situación, yo no estoy muy de acuerdo con la firma, el protocolo, la forma en que se hizo es muy distinto a cuando uno firma un tratado, pero también el presidente de Estados Unidos hace bullying si tú no le sigues, entonces habría tirado un par de aranceles, cinco puntos más, si son expertos del bullying\" , recalcó. Cecilia Cifuentes , directora del Centro de Estudios Financieros de la U. de Los Andes, manifestó que \"el aspecto más positivo para Chile de esta firma es en materia de seguridad y control del crimen organizado, porque ya queda bastante claro que Chile tiene capacidades de inteligencia que están siendo insuficientes, y además este tema es transnacional, por lo que esa cooperación yo la veo como un aspecto positivo y necesario\". \"Chile tiene un equilibrio muy complejo, porque nuestros dos principales socios comerciales son las cabezas del conflicto geopolítico. Entonces ahí es donde están los riesgos y el cuidado en que va a tener que manejarse Chile en esta materia\", puntualizó. Para Rodrigo Echecopar (FA), \" hay un problema de comunicación, que obviamente genera desconfianza, suspicacias, porque el comunicado que sacó Cancillería estuvo enfocado en crimen organizado (...) después se ve contrastado con este comunicado mucho más largo del Departamento de Estado de Estados Unidos, que demuestra que tiene un alcance bastante mayor\". \"Son señales erróneas, donde pareciera ser que la afinidad ideológica está pesando más que los intereses de Chile, que han estado anclados en una tradición más larga que este gobierno. Es una expresión de cómo se lleva la batalla cultural en el campo de las relaciones internacionales, que no sirve a los intereses de Chile, sino que todo lo contrario\", dijo. Finalmente, la economista Macarena García (LyD) comentó que \"no hay que dejar fuera el tema de seguridad, porque a estas alturas tiene un impacto económico relevante. Hasta el minuto no hay nada claro, si efectivamente va a ser muy restrictivo, poco restrictivo, qué nos impone. Yo creo que en eso hay que imponer los límites y eso hay que hablarlo internamente\". \"No puede haber sesgos, no puede haber discriminación en contra de otros países que piensan distinto, hay que tener una mirada más integral. No podemos pelearnos ni con uno ni con otro\", sentenció.",
+          "url": "https://www.cooperativa.cl/noticias/economia/ee-uu-hace-bullying-si-no-lo-sigues-economistas-debaten-sobre/2026-09-24/115712.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260924/imag/foto_0000000220260924115712.jpg",
+          "published_raw": "Thu, 24 Sep 2026 11:57:12 -0300",
+          "published_at": "2026-09-24T11:57:12-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 3,
+          "score_conflict": 3,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 1,
+          "score_accident": 0,
+          "political_evidence": 8,
+          "primary_topic": "Relaciones internacionales",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-012"
+        }
+      ]
+    },
+    {
+      "position": 4,
       "cluster_id": "PML-EVENT-002",
       "title": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-gobierno-confirmo-que-insistira-en-el-senado/2026-09-23/143812.html",
@@ -141,12 +270,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 65.1,
+        "score": 63.1,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 68.1
+        "editorial_utility": 61.1
       },
       "selection": {
-        "reason": "PML 65.1; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 63.1; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -168,7 +297,7 @@
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
           "title": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado",
-          "description": "Tras e l revés sufrido ayer en la Cámara de Diputadas y Diputados —donde la iniciativa fue rechazada por apenas un voto tras alcanzar 88 de los 89 apoyos requeridos (con 28 votos en contra y 19 abstenciones)—, el Gobierno confirmó este miércoles que insistirá con su reforma constitucional para ampliar de cinco a 30 días el plazo de detención para las expulsiones administrativas de extranjeros . La propuesta facultaba además al Ejecutivo para habilitar recintos especiales destinados a albergar a los ciudadanos sometidos a este proceso. La determinación fue ratificada por el vicepresidente de la República, Claudio Alvarado , quien fustigó las abstenciones y ausencias en la Sala y confirmó la decisión de recurrir a la Cámara Alta. \"Los dejaron entrar y hoy día ellos mismos no quieren que se vayan, pero nosotros, como estamos conscientes de que tenemos que hacer cumplir la ley y que necesitamos regularizar la situación, vamos a insistir por el Senado con los dos tercios para que se pueda seguir tramitando esta iniciativa . Lo único que quiero pedir es un sentido de responsabilidad\", abogó. Frente a la intención anunciada por Alvarado de insistir en la Cámara Alta con el articulado rechazado, el ministro José García Ruminot adoptó un tono más cauto, afirmando que están \" evaluando esa situación junto con el ministro del Interior \". \" Estamos conversando con las senadoras , con los senadores . Nos gustaría mucho insistir \", puntualizó el secretario de Estado. \"Realismo legislativo\": el escenario en la Cámara Alta Para rehabilitar la tramitación mediante la insistencia constitucional, el Gobierno requiere alcanzar un quórum de dos tercios de los senadores presentes. Ante esta exigencia, la presidenta del Senado, Paulina Núñez (Renovación Nacional), instó al Ejecutivo a actuar con \"realismo legislativo\" y manifestarse abierto a flexibilizar la propuesta. \"Para insistir en el Senado, convengamos que no vamos a insistir con el mismo texto, sino con el argumento de fondo , porque ese argumento operó también en el Gobierno pasado, cuando se amplió el plazo de detención, porque se entiende que efectivamente en ese plazo ampliado se producen mayoritariamente las expulsiones necesarias\", sostuvo la parlamentaria. \"Si tiene que ser un plazo menor con tal de insistir en el Senado, bueno, será parte de la discusión que tengamos\" , agregó Núñez. Por su parte, el senador Iván Flores (DC) señaló que \"tal como fue (la votación) en la Cámara, yo diría que lo estoy pensando\" . \"Si arreglan las cosas, por supuesto que vamos a apoyar la agenda de seguridad . Si los proyectos que están allí en general, excepto la reforma constitucional, son todos acompañables, pero arreglen primero la mochila y y los proyectos\", enfatizó. La lección, según Arrau: \"No hay que confiarse\" Por su parte, el ministro de Seguridad, Martín Arrau , lamentó la falta de respaldo durante una intervención en el ciclo \"Conoce a tu Ministro\" de Icare. \"Llegado el momento de la votación en general, desaparecieron algunos votos y se rechaza esto. Es gravísimo , porque es una herramienta tremendamente práctica y hoy día quedamos sin esa herramienta. Hicimos este sistema laborioso, costoso, inoperante que tenemos... No hay que confiarse, parece \", enfatizó. Arrau rambién argmentó que \"yo por mí no iría al Congreso, porque creo que la gestión es tremendamente más importante. Por ejemplo, en obras públicas no iba el ministro al Congreso, iba el especialista de tal tema. Y usted entenderá que yo no soy especialista en materias penales constitucionales, cosas de ese estilo\". \"Espero no tener que ir más de un día al Congreso . Ya se votó una ley muy importante, antibarrricadas 2.0, pero no puedo estar ahí. Hay que ir a tramitar las leyes que sean realmente necesarias y urgentes\", resaltó. La respuesta a sus palabras no se hizo esperar, y fue el diputado Diego Schalper (RN) sostuvo que los \"ministros del presidente Kast tienen que tener claro que parte de sus obligaciones como colegisladores es concurrir al Congreso , sacar adelante la agenda legislativa\". \"Uno pocas veces en la vida hace lo que quiere, normalmente corresponde hacer lo que uno tiene que hacer y el ministro de seguridad tiene que venir al Congreso a tramitar la agenda legislativa\", indicó. Desde la Cámara Alta, en tanto, el senador Matías Walker (independiente) fustigó que \"el ministro de Seguridad se aburra en los viajes al Congreso, porque al parecer para él es una molestia . No tenemos problemas en entendernos con el ministro (de la Segpres), José García Ruminot, que es un ministro que sí respeta al Congreso Nacional\". En paralelo al debate migratorio, la Cámara Baja aprobó y despachó al Senado el denominado proyecto \"Antibarricadas 2.0\" , que endurece las sanciones penales para quienes interrumpan el tránsito o corten vías públicas mediante violencia, intimidación u obstáculos que generen un peligro concreto para la vida o la integridad física de las personas. Asimismo, la normativa extiende la aplicación de multas de hasta 20 UTM y penas de presidio menor a quienes causen afectaciones graves a los servicios de transporte masivo, como la interrupción de la red del Metro de Santiago.",
+          "description": "Tras e l revés sufrido ayer en la Cámara de Diputadas y Diputados —donde la iniciativa fue rechazada por apenas un voto tras alcanzar 88 de los 89 apoyos requeridos (con 28 votos en contra y 19 abstenciones)—, el Gobierno confirmó este miércoles que insistirá con su reforma constitucional para ampliar de cinco a 30 días el plazo de detención para las expulsiones administrativas de extranjeros . La propuesta facultaba además al Ejecutivo para habilitar recintos especiales destinados a albergar a los ciudadanos sometidos a este proceso. La determinación fue ratificada por el vicepresidente de la República, Claudio Alvarado , quien fustigó las abstenciones y ausencias en la Sala y confirmó la decisión de recurrir a la Cámara Alta. \"Los dejaron entrar y hoy día ellos mismos no quieren que se vayan, pero nosotros, como estamos conscientes de que tenemos que hacer cumplir la ley y que necesitamos regularizar la situación, vamos a insistir por el Senado con los dos tercios para que se pueda seguir tramitando esta iniciativa . Lo único que quiero pedir es un sentido de responsabilidad\", abogó. Frente a la intención anunciada por Alvarado de insistir en la Cámara Alta con el articulado rechazado, el ministro José García Ruminot adoptó un tono más cauto, afirmando que están \" evaluando esa situación junto con el ministro del Interior \". \" Estamos conversando con las senadoras , con los senadores . Nos gustaría mucho insistir \", puntualizó el secretario de Estado. \"Realismo legislativo\": el escenario en la Cámara Alta Para rehabilitar la tramitación mediante la insistencia constitucional, el Gobierno requiere alcanzar un quórum de dos tercios de los senadores presentes. Ante esta exigencia, la presidenta del Senado, Paulina Núñez (Renovación Nacional), instó al Ejecutivo a actuar con \"realismo legislativo\" y manifestarse abierto a flexibilizar la propuesta. \"Para insistir en el Senado, convengamos que no vamos a insistir con el mismo texto, sino con el argumento de fondo , porque ese argumento operó también en el Gobierno pasado, cuando se amplió el plazo de detención, porque se entiende que efectivamente en ese plazo ampliado se producen mayoritariamente las expulsiones necesarias\", sostuvo la parlamentaria. \"Si tiene que ser un plazo menor con tal de insistir en el Senado, bueno, será parte de la discusión que tengamos\" , agregó Núñez. Por su parte, el senador Iván Flores (DC) señaló que \"tal como fue (la votación) en la Cámara, yo diría que lo estoy pensando\" . \"Si arreglan las cosas, por supuesto que vamos a apoyar la agenda de seguridad . Si los proyectos que están allí en general, excepto la reforma constitucional, son todos acompañables, pero arreglen primero la mochila y y los proyectos\", enfatizó. La lección, según Arrau: \"No hay que confiarse\" Por su parte, el ministro de Seguridad, Martín Arrau , lamentó la falta de respaldo durante una intervención en el ciclo \"Conoce a tu Ministro\" de Icare. \"Llegado el momento de la votación en general, desaparecieron algunos votos y se rechaza esto. Es gravísimo , porque es una herramienta tremendamente práctica y hoy día quedamos sin esa herramienta. Hicimos este sistema laborioso, costoso, inoperante que tenemos... No hay que confiarse, parece \", enfatizó. Arrau rambién argmentó que \"yo por mí no iría al Congreso, porque creo que la gestión es tremendamente más importante. Por ejemplo, en obras públicas no iba el ministro al Congreso, iba el especialista de tal tema. Y usted entenderá que yo no soy especialista en materias penales constitucionales, cosas de ese estilo\". \"Espero no tener que ir más de un día al Congreso . Ya se votó una ley muy importante, antibarrricadas 2.0, pero no puedo estar ahí. Hay que ir a tramitar las leyes que sean realmente necesarias y urgentes\", resaltó. La respuesta a sus palabras no se hizo esperar, y fue el diputado Diego Schalper (RN) sostuvo que los \"ministros del presidente Kast tienen que tener claro que parte de sus obligaciones como colegisladores es concurrir al Congreso , sacar adelante la agenda legislativa\". \"Uno pocas veces en la vida hace lo que quiere, normalmente corresponde hacer lo que uno tiene que hacer y el ministro de seguridad tiene que venir al Congreso a tramitar la agenda legislativa\", indicó. Desde la Cámara Alta, en tanto, el senador Matías Walker (independiente) instó a que \" el ministro de Seguridad se ahorre los viajes al Congreso, porque al parecer para él es una molestia . No tenemos problemas en entendernos con el ministro (de la Segpres) José García Ruminot, que sí respeta al Congreso Nacional \". En paralelo al debate migratorio, la Cámara Baja aprobó y despachó al Senado el denominado proyecto \"Antibarricadas 2.0\" , que endurece las sanciones penales para quienes interrumpan el tránsito o corten vías públicas mediante violencia, intimidación u obstáculos que generen un peligro concreto para la vida o la integridad física de las personas. Asimismo, la normativa extiende la aplicación de multas de hasta 20 UTM y penas de presidio menor a quienes causen afectaciones graves a los servicios de transporte masivo, como la interrupción de la red del Metro de Santiago.",
           "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-gobierno-confirmo-que-insistira-en-el-senado/2026-09-23/143812.html",
           "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260923/imag/foto_0000000320260923143812.jpg",
           "published_raw": "Wed, 23 Sep 2026 14:38:12 -0300",
@@ -195,24 +324,24 @@
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-017",
-      "title": "Netanyahu interviene ante la ONU en medio de protestas y su pulso con Mamdani",
-      "url": "https://elpais.com/us/2026-09-24/netanyahu-interviene-ante-la-onu-en-medio-de-protestas-y-su-pulso-con-mamdani.html",
+      "position": 5,
+      "cluster_id": "PML-EVENT-025",
+      "title": "El partido más próximo al rey gana las elecciones en Marruecos con una abstención del 62%",
+      "url": "https://elpais.com/internacional/2026-09-24/el-partido-mas-proximo-al-rey-gana-las-elecciones-en-marruecos-con-una-abstencion-del-62.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "event_type": "ELECTORAL_EVENT",
       "geography": {
         "group": "No identificado",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 61.4,
+        "score": 61.9,
         "level": "MEDIA",
-        "editorial_utility": 57.4
+        "editorial_utility": 57.9
       },
       "selection": {
-        "reason": "PML 61.4; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 61.9; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -222,173 +351,38 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-09-24T01:00:00-0300",
-      "last_seen": "2026-09-24T01:00:00-0300",
-      "entities": "onu",
-      "event_terms": "protestas",
+      "first_seen": "2026-09-24T02:44:10-0300",
+      "last_seen": "2026-09-24T02:44:10-0300",
+      "entities": [],
+      "event_terms": [],
       "articles": [
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Netanyahu interviene ante la ONU en medio de protestas y su pulso con Mamdani",
-          "description": "El primer ministro israelí llega a Nueva York tras una disputa pública con el alcalde de la ciudad, quien lo ha calificado de “artífice de un genocidio atroz” y ha pedido su detención",
-          "url": "https://elpais.com/us/2026-09-24/netanyahu-interviene-ante-la-onu-en-medio-de-protestas-y-su-pulso-con-mamdani.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/6Q3KNXJS55JQTLO2PXO5JCUC24.jpg?auth=47e63ff3c39292b9c967a215cfba22160c74ef9592823a6ca7a597fe1ed69829",
-          "published_raw": "Thu, 24 Sep 2026 04:00:00 GMT",
-          "published_at": "2026-09-24T01:00:00-0300",
+          "title": "El partido más próximo al rey gana las elecciones en Marruecos con una abstención del 62%",
+          "description": "El Partido de la Autenticidad y la Modernidad, fundado por el principal consejero de Mohamed VI, recibirá previsiblemente el encargo de formar un Gobierno de coalición junto con los actuales socios en el poder",
+          "url": "https://elpais.com/internacional/2026-09-24/el-partido-mas-proximo-al-rey-gana-las-elecciones-en-marruecos-con-una-abstencion-del-62.html",
+          "image_url": "",
+          "published_raw": "Thu, 24 Sep 2026 05:44:10 GMT",
+          "published_at": "2026-09-24T02:44:10-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-017"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-019",
-      "title": "Brasil: cómo la crisis del Tribunal Supremo remece las elecciones a la Presidencia",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260922-brasil-c%C3%B3mo-la-crisis-del-tribunal-supremo-remece-las-elecciones-a-la-presidencia",
-      "representative_source": "France 24",
-      "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Brasil / América Latina"
-      },
-      "relevance": {
-        "score": 61,
-        "level": "MEDIA",
-        "editorial_utility": 55
-      },
-      "selection": {
-        "reason": "PML 61; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-09-22T18:56:43-0300",
-      "last_seen": "2026-09-22T18:56:43-0300",
-      "entities": [
-        "brasil",
-        "supremo",
-        "bolsonaro",
-        "lula"
-      ],
-      "event_terms": [
-        "crisis",
-        "tribunal",
-        "supremo"
-      ],
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Brasil: cómo la crisis del Tribunal Supremo remece las elecciones a la Presidencia",
-          "description": "Brasil atraviesa una de las crisis más graves de los últimos años y el epicentro está, paradójicamente, en la institución que durante la última década se ha convertido en el baluarte de la defensa de la democracia: el Tribunal Supremo. La fractura en la máxima corte tiene lugar en medio de una campaña presidencial polarizada, en la que el ultraderechista Flávio Bolsonaro y el mandatario de izquierdas Luiz Inácio Lula da Silva también resultan salpicados. ¿Quién pierde y quién se beneficia?",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260922-brasil-c%C3%B3mo-la-crisis-del-tribunal-supremo-remece-las-elecciones-a-la-presidencia",
-          "image_url": "https://s.france24.com/media/display/08307768-b69d-11f1-9fbb-1d61c7110e09/w:1024/p:16x9/d734cc25bbfd3d1375f82ac9da5035b06a9d668a-1.jpg",
-          "published_raw": "Tue, 22 Sep 2026 21:56:43 GMT",
-          "published_at": "2026-09-22T18:56:43-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 3,
-          "score_elections": 2,
+          "score_institutional": 2,
+          "score_elections": 1,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 0,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 5,
+          "political_evidence": 4,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-004",
-      "title": "Cámara Baja aprobó y despachó al Senado la \"Ley Antibarricadas 2.0\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/camara-baja-aprobo-y-despacho-al-senado-la-ley-antibarricadas-2-0/2026-09-23/140543.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 61,
-        "level": "MEDIA",
-        "editorial_utility": 52
-      },
-      "selection": {
-        "reason": "PML 61; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-09-23T14:05:43-0300",
-      "last_seen": "2026-09-23T14:05:43-0300",
-      "entities": "senado",
-      "event_terms": "sanciones",
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Cámara Baja aprobó y despachó al Senado la \"Ley Antibarricadas 2.0\"",
-          "description": "La Cámara de Diputadas y Diputados aprobó este miércoles y despachó al Senado —para su segundo trámite constitucional— el denominado proyecto \"Antibarricadas 2.0\" . La iniciativa endurece las sanciones penales para quienes interrumpan el tránsito o corten vías públicas utilizando violencia, intimidación u obstáculos que generen un peligro concreto para la vida o la integridad física de las personas . La norma extiende la aplicación de estas multas y penas de presidio menor —además de sanciones económicas de hasta 20 UTM — a afectaciones graves como la interrupción del servicio del Metro. La iniciativa también establece que, en los casos de intimidación o de instalación de barricadas, se aplicaría también la pena de prisión de 540 días. La sesión estuvo marcada por un fuerte enfrentamiento verbal tras los dichos del diputado socialista Marcos Ilabaca , quien criticó con dureza el sentido de la normativa y desató la inmediata réplica de su par republicano Cristian Araya . \"Ustedes\" , fustigó Ilabaca al Ejecutivo, \"quieren acallar al pueblo ante las medidas indolentes que día a día están llevando adelante . Ustedes no quieren que el pueblo les diga que están equivocados y que están errados. Hoy día el único peligro concreto son ustedes, que están tratando de asesinar día a día al pueblo que está pasando muchas necesidades\". \"Lo que acabamos de escuchar resulta impresentable. Ustedes (la mesa de la Cámara) tienen el deber de poder sancionar de forma inmediata al diputado Ilabaca frente a las bazofias que acaba de manifestar\", respondió Araya. Indicación que excluye a quienes ejerzan una manifestación de forma pacífica Finalmente, el texto principal contó con los votos del oficialismo como el Partido Nacional Libertario (PNL); además del Partido de la Gente (PDG) y la Democracia Cristiana (DC) , incorporando además una indicación impulsada por el diputado socialista Raúl Leiva que excluye de la normativa a quienes ejerzan de forma pacífica el derecho a reunión, huelga o manifestación . \"A mi juicio, esta es la peor derrota que tiene el Gobierno de presidente Kast en materia legislativa, mucho más que el rechazo del día de ayer a la reforma constitucional que establecía a 30 días de plazo para el establecimiento administrativo, porque este proyecto de ley era la piedra angular del Gobierno del Presidente Kast en materia de control de orden público \", dijo el impulsor de la indicación. \"Por eso, con ese artículo que se aprobó, desarticulamos el principal objetivo iliberal del Gobierno del Presidente Kast de poder impedir cualquier tipo de manifestación pacífica en nuestro país \", enfatizó Leiva. Por su parte, la diputada Gloria Naveillán (PNL) apuntó: \"Todos están pensando en el 2019. ¿Han pensado en la macrozona sur? En los camioneros atacados en las carreteras, en cómo logramos a través de la manifestación de la cual orgullosamente participé, de la toma de carretera s , gracias a eso poder dar a conocer el terrorismo en la Araucanía\".",
-          "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/camara-baja-aprobo-y-despacho-al-senado-la-ley-antibarricadas-2-0/2026-09-23/140543.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260923/imag/foto_0000000220260923140543.jpg",
-          "published_raw": "Wed, 23 Sep 2026 14:05:43 -0300",
-          "published_at": "2026-09-23T14:05:43-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 8,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 3,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 4,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 17,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-025"
         }
       ]
     }
@@ -401,7 +395,72 @@
     "stories": [
       {
         "position": 1,
+        "cluster_id": "PML-EVENT-004",
+        "title": "Cámara Baja aprobó y despachó al Senado la \"Ley Antibarricadas 2.0\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 59,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 86,
+            "freshness": 72,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 32
+          }
+        },
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 81
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
         "cluster_id": "PML-EVENT-008",
+        "title": "\"¿Qué posibilidad real tendrá Chile de decirle 'no' a EE.UU. cuando el Escudo avance en una dirección peligrosa?\"",
+        "topic": "Conflictos y seguridad",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 57.3,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 51,
+            "freshness": 100,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 28
+          }
+        },
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 7,
+          "labels": "Seguridad y Estado",
+          "chile_utility": 64.3
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-009",
         "title": "Reforma de expulsiones: cruce por ausencias, plazos y garantías",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -411,11 +470,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 60.2,
+          "score": 57.7,
           "level": "MEDIA",
           "components": {
             "political_impact": 86,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 44
@@ -429,72 +488,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 82.2
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-013",
-        "title": "\"El foco deben ser los vecinos\", dice alcaldesa tras asesinato de líder narco que la amenazó",
-        "topic": "Conflictos y seguridad",
-        "event_type": "POLITICAL_STATEMENT",
-        "representative_source": "Cooperativa",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 48.2,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 50,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 32
-          }
-        },
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 7,
-          "labels": "Seguridad y Estado",
-          "chile_utility": 55.2
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-006",
-        "title": "Por un voto: Cámara rechazó reforma para agilizar expulsiones",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 52.7,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 87,
-            "freshness": 40,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 46
-          }
-        },
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 74.7
+          "chile_utility": 79.7
         },
         "repeated_in_general_top5": false
       }
@@ -503,32 +497,32 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 24,
-      "maximum_relevance": 65.1,
-      "leading_story": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado"
+      "event_count": 25,
+      "maximum_relevance": 64.2,
+      "leading_story": "Delcy Rodríguez agradece a Trump su papel en Venezuela y asegura que habrá elecciones sin concretar la fecha"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 6,
+      "maximum_relevance": 61.6,
+      "leading_story": "Últimas noticias de la Asamblea General de la ONU, en directo | Abbas acusa a Israel de limpieza étnica: “Es un plan colonial maligno cuyo objetivo es hacer imposible la vida de los palestinos”"
+    },
+    {
+      "topic": "Relaciones internacionales",
+      "event_count": 4,
+      "maximum_relevance": 58,
+      "leading_story": "\"EE.UU. hace bullying si no lo sigues\": Economistas debaten sobre adhesión al Escudo de las Américas"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 2,
-      "maximum_relevance": 55.7,
+      "maximum_relevance": 54.4,
       "leading_story": "El sombrero de Lula, de accesorio médico a marca personal y foto electoral"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 4,
-      "maximum_relevance": 54.3,
-      "leading_story": "Colombia: la turística Santa Marta es militarizada ante la arremetida de un grupo narcoparamilitar"
-    },
-    {
-      "topic": "Relaciones internacionales",
-      "event_count": 3,
-      "maximum_relevance": 53.8,
-      "leading_story": "“Pusimos la esperanza en Trump”: los exiliados venezolanos ante el viraje de Washington con el chavismo"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 53.5,
+      "maximum_relevance": 51.8,
       "leading_story": "Neonazis, exactores porno, una proxeneta y un condenado por robo entre los nuevos diputados regionales de AfD"
     }
   ],
@@ -537,7 +531,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
