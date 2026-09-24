@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-09-23",
-    "data_latest_timestamp": "2026-09-23T22:10:21-0300",
-    "data_age_hours": 2.1,
-    "generated_at": "2026-09-24T00:14:24-0300",
+    "date": "2026-09-24",
+    "data_latest_timestamp": "2026-09-24T01:00:00-0300",
+    "data_age_hours": 2.3,
+    "generated_at": "2026-09-24T03:19:16-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,61 +16,92 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 2 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 33,
+    "ranked_events": 35,
     "topics": 2,
     "geographies": 2,
-    "representative_sources": 3,
-    "average_top5_relevance": 64.7,
+    "representative_sources": 2,
+    "average_top5_relevance": 63.8,
     "maximum_relevance": 67.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-020",
-      "title": "Delcy Rodríguez agradece a Trump su papel en Venezuela y anuncia que habrá elecciones sin concretar la fecha",
+      "cluster_id": "PML-EVENT-019",
+      "title": "Delcy Rodríguez agradece a Trump su papel en Venezuela y asegura que habrá elecciones sin concretar la fecha",
       "url": "https://elpais.com/america/2026-09-23/delcy-rodriguez-agradece-a-trump-su-cooperacion-con-venezuela-y-anuncia-que-habra-elecciones-sin-concretar-la-fecha.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
+      "event_type": "POLITICAL_STATEMENT",
       "geography": {
         "group": "América Latina",
-        "country": "No identificado / América Latina"
+        "country": "Venezuela / América Latina / No identificado"
       },
       "relevance": {
         "score": 67.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 67.2
+        "editorial_utility": 71.2
       },
       "selection": {
-        "reason": "PML 67.2",
+        "reason": "PML 67.2; multifuente",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
+        "article_count": 2,
+        "source_count": 2,
+        "sources": [
+          "France 24",
+          "EL PAÍS"
+        ]
       },
       "first_seen": "2026-09-23T20:57:37-0300",
-      "last_seen": "2026-09-23T20:57:37-0300",
+      "last_seen": "2026-09-24T00:16:38-0300",
       "entities": [
-        "trump",
         "venezuela",
-        "onu"
+        "onu",
+        "trump"
       ],
       "event_terms": [],
       "articles": [
         {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”",
+          "description": "La presidenta encargada pronunció un discurso de 18 minutos ante la Asamblea General de la ONU, en el que agradeció al mandatario estadounidense Donald Trump por “su disposición a retomar el camino de las relaciones diplomáticas y de cooperación”, no mencionó a sus antecesores en la llamada Revolución Bolivariana Hugo Chávez y Nicolás Maduro, y prometió elecciones, no sin antes recordar que “la democracia no se mide por la existencia de elecciones”.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260924-delcy-rodr%C3%ADguez-promete-que-en-venezuela-habr%C3%A1-elecciones-en-igualdad-de-condiciones-para-todos",
+          "image_url": "https://s.france24.com/media/display/d07569b4-b7c3-11f1-af14-a5615d7a48ac/w:1024/p:16x9/AP26266836312668.jpg",
+          "published_raw": "Thu, 24 Sep 2026 03:16:38 GMT",
+          "published_at": "2026-09-24T00:16:38-0300",
+          "country": "Venezuela",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 2,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Relaciones internacionales",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-019"
+        },
+        {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Delcy Rodríguez agradece a Trump su papel en Venezuela y anuncia que habrá elecciones sin concretar la fecha",
+          "title": "Delcy Rodríguez agradece a Trump su papel en Venezuela y asegura que habrá elecciones sin concretar la fecha",
           "description": "La presidenta vuelve a la Asamblea General, foro en el que arremetió contra EE UU, sin mencionar a Maduro, encarcelado a tan solo 14 kilómetros de la sede de la ONU",
           "url": "https://elpais.com/america/2026-09-23/delcy-rodriguez-agradece-a-trump-su-cooperacion-con-venezuela-y-anuncia-que-habra-elecciones-sin-concretar-la-fecha.html",
           "image_url": "",
@@ -93,7 +124,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     },
@@ -165,7 +196,7 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-029",
+      "cluster_id": "PML-EVENT-031",
       "title": "La rinoceronte y el Trump de pega: historias de las elecciones en Brasil",
       "url": "https://elpais.com/opinion/2026-09-23/la-rinoceronte-y-el-trump-de-pega-historias-de-las-elecciones-en-brasil.html",
       "representative_source": "EL PAÍS",
@@ -176,12 +207,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 61.4,
+        "score": 58.9,
         "level": "MEDIA",
-        "editorial_utility": 65.4
+        "editorial_utility": 65.9
       },
       "selection": {
-        "reason": "PML 61.4; aporta diversidad temática",
+        "reason": "PML 58.9; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -225,15 +256,78 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
+          "cluster_id": "PML-EVENT-031"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-008",
-      "title": "Reforma de expulsiones: cruce por ausencias, plazos y garantías",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-cruce-por-ausencias-plazos-y-garantias/2026-09-23/115522.html",
+      "cluster_id": "PML-EVENT-018",
+      "title": "Netanyahu interviene ante la ONU en medio de protestas y su pulso con Mamdani",
+      "url": "https://elpais.com/us/2026-09-24/netanyahu-interviene-ante-la-onu-en-medio-de-protestas-y-su-pulso-con-mamdani.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 62.7,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 58.7
+      },
+      "selection": {
+        "reason": "PML 62.7; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-24T01:00:00-0300",
+      "last_seen": "2026-09-24T01:00:00-0300",
+      "entities": "onu",
+      "event_terms": "protestas",
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Netanyahu interviene ante la ONU en medio de protestas y su pulso con Mamdani",
+          "description": "El primer ministro israelí llega a Nueva York tras una disputa pública con el alcalde de la ciudad, quien lo ha calificado de “artífice de un genocidio atroz” y ha pedido su detención",
+          "url": "https://elpais.com/us/2026-09-24/netanyahu-interviene-ante-la-onu-en-medio-de-protestas-y-su-pulso-con-mamdani.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/6Q3KNXJS55JQTLO2PXO5JCUC24.jpg?auth=47e63ff3c39292b9c967a215cfba22160c74ef9592823a6ca7a597fe1ed69829",
+          "published_raw": "Thu, 24 Sep 2026 04:00:00 GMT",
+          "published_at": "2026-09-24T01:00:00-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 1,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-018"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-004",
+      "title": "Cámara Baja aprobó y despachó al Senado la \"Ley Antibarricadas 2.0\"",
+      "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/camara-baja-aprobo-y-despacho-al-senado-la-ley-antibarricadas-2-0/2026-09-23/140543.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -242,12 +336,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 64.2,
+        "score": 63,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 59.2
+        "editorial_utility": 56
       },
       "selection": {
-        "reason": "PML 64.2; diversidad relajada para completar el brief",
+        "reason": "PML 63; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -257,110 +351,38 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-09-23T11:55:22-0300",
-      "last_seen": "2026-09-23T11:55:22-0300",
-      "entities": "chile",
-      "event_terms": "judicial",
+      "first_seen": "2026-09-23T14:05:43-0300",
+      "last_seen": "2026-09-23T14:05:43-0300",
+      "entities": "senado",
+      "event_terms": "sanciones",
       "articles": [
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Reforma de expulsiones: cruce por ausencias, plazos y garantías",
-          "description": "El rechazo por un voto de la reforma constitucional sobre detención para ejecutar expulsiones administrativas enfrentó en El Primer Café a los diputados Jorge Guzmán (Evópoli) y Constanza Schönhaut (FA) . La iniciativa obtuvo 88 votos a favor, 28 en contra y 19 abstenciones : le faltó un respaldo para alcanzar el quorum requerido. El proyecto, correspondiente al boletín 18.314-07 de la Cámara , buscaba modificar el margen constitucional para que una ley pudiera ampliar el plazo de privación de libertad destinado a materializar expulsiones ya decretadas . La discusión también incorporó una propuesta relativa a procedimientos de extradición. Guzmán calificó el resultado como un revés para la seguridad y cuestionó que algunos parlamentarios no respaldaran en la Sala un texto que habían apoyado durante su tramitación. \"La izquierda se dio un lujo, pero no un lujo para complejizar o para atacar al Gobierno, sino un lujo simplemente para ganar un punto que perjudica la seguridad de Chile \", afirmó. Reconoció, a la vez, que faltaron votos de la derecha. Entre los casos que mencionó figuran Marcos Ilabaca (PS) y Pamela Jiles (PDG) , quienes se abstuvieron, y José Montalva (IND-PPD) y Patricio Pinilla (DC) , que no estaban presentes al momento de votar. Según el informe de comisión, Ilabaca y Jiles habían respaldado allí el texto acordado, mientras que Montalva se abstuvo. Cooperativa informó que Pinilla y Montalva habían anunciado votos favorables durante el debate en Sala, pero posteriormente explicaron sus reparos. Schönhaut cuestionó las reglas pendientes Schönhaut confirmó que votó en contra. Sostuvo que la reforma permitiría avanzar hacia una retención de hasta 30 días para las expulsiones administrativas, mientras dejaba para una ley posterior aspectos como la intervención judicial y las condiciones de aplicación. \"Se dice retención, pero en el fondo era básicamente pasar, para las expulsiones administrativas, a poder detener a la gente sin control judicial durante 30 días\", planteó. También pidió definir resguardos para niños y niñas: \"Pero dejarlo como cheque en blanco , eso es algo que no se puede hacer y eso era lo que el gobierno tampoco estuvo disponible\". El secretario general del Partido Republicano, Vicente Bruna , defendió que una reforma constitucional establezca una habilitación general y que la regulación específica quede para una ley posterior. Guzmán compartió ese argumento y sostuvo que extender el plazo permitiría resolver casos en que las gestiones para concretar una expulsión o extradición exceden el tiempo disponible. Qué señaló la PDI en la comisión Schönhaut afirmó en el programa que la Policía de Investigaciones había advertido dificultades de capacidad e infraestructura. Guzmán objetó esa caracterización. El informe de la Comisión de Constitución permite precisar que el prefecto general Ricardo Gatica , en representación de la PDI, consideró que el plazo vigente de cinco días para materializar expulsiones puede ser insuficiente en determinadas circunstancias y que su ampliación podría ayudar a completar esos procedimientos. Gatica informó, al mismo tiempo, que el centro de retención de extranjeros de Santiago tiene 50 cupos . Explicó que en regiones se utilizan unidades policiales propias, pero que, si el procedimiento exige superar los cinco días, las personas deben ser trasladadas a Santiago porque no existen otros recintos regionales destinados a esa retención. Reconoció que ampliar el plazo supone un desafío logístico y señaló que la PDI no cuenta con antecedentes para definir un número óptimo de días . De acuerdo con las cifras expuestas por la institución ante la comisión, 53 de 1.247 casos de expulsión administrativa examinados durante el año no pudieron concretarse dentro de cinco días , equivalentes al 4,25% . La PDI indicó que esas situaciones no constituyen la regla general y que el objetivo debe ser ejecutar cada expulsión tan pronto se cumplan las condiciones necesarias. Alejandra Krauss (DC) advirtió que la aprobación de la reforma tampoco habría significado una solución inmediata, dado que su implementación requería una ley posterior. \"Cualquier implementación de algo consagrado en la Constitución habría requerido más tiempo, no habríamos resuelto el tema en este mes o en los siguientes\", señaló.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-cruce-por-ausencias-plazos-y-garantias/2026-09-23/115522.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260923/imag/foto_0000000220260923115522.jpg",
-          "published_raw": "Wed, 23 Sep 2026 11:55:22 -0300",
-          "published_at": "2026-09-23T11:55:22-0300",
+          "title": "Cámara Baja aprobó y despachó al Senado la \"Ley Antibarricadas 2.0\"",
+          "description": "La Cámara de Diputadas y Diputados aprobó este miércoles y despachó al Senado —para su segundo trámite constitucional— el denominado proyecto \"Antibarricadas 2.0\" . La iniciativa endurece las sanciones penales para quienes interrumpan el tránsito o corten vías públicas utilizando violencia, intimidación u obstáculos que generen un peligro concreto para la vida o la integridad física de las personas . La norma extiende la aplicación de estas multas y penas de presidio menor —además de sanciones económicas de hasta 20 UTM — a afectaciones graves como la interrupción del servicio del Metro. La iniciativa también establece que, en los casos de intimidación o de instalación de barricadas, se aplicaría también la pena de prisión de 540 días. La sesión estuvo marcada por un fuerte enfrentamiento verbal tras los dichos del diputado socialista Marcos Ilabaca , quien criticó con dureza el sentido de la normativa y desató la inmediata réplica de su par republicano Cristian Araya . \"Ustedes\" , fustigó Ilabaca al Ejecutivo, \"quieren acallar al pueblo ante las medidas indolentes que día a día están llevando adelante . Ustedes no quieren que el pueblo les diga que están equivocados y que están errados. Hoy día el único peligro concreto son ustedes, que están tratando de asesinar día a día al pueblo que está pasando muchas necesidades\". \"Lo que acabamos de escuchar resulta impresentable. Ustedes (la mesa de la Cámara) tienen el deber de poder sancionar de forma inmediata al diputado Ilabaca frente a las bazofias que acaba de manifestar\", respondió Araya. Indicación que excluye a quienes ejerzan una manifestación de forma pacífica Finalmente, el texto principal contó con los votos del oficialismo como el Partido Nacional Libertario (PNL); además del Partido de la Gente (PDG) y la Democracia Cristiana (DC) , incorporando además una indicación impulsada por el diputado socialista Raúl Leiva que excluye de la normativa a quienes ejerzan de forma pacífica el derecho a reunión, huelga o manifestación . \"A mi juicio, esta es la peor derrota que tiene el Gobierno de presidente Kast en materia legislativa, mucho más que el rechazo del día de ayer a la reforma constitucional que establecía a 30 días de plazo para el establecimiento administrativo, porque este proyecto de ley era la piedra angular del Gobierno del Presidente Kast en materia de control de orden público \", dijo el impulsor de la indicación. \"Por eso, con ese artículo que se aprobó, desarticulamos el principal objetivo iliberal del Gobierno del Presidente Kast de poder impedir cualquier tipo de manifestación pacífica en nuestro país \", enfatizó Leiva. Por su parte, la diputada Gloria Naveillán (PNL) apuntó: \"Todos están pensando en el 2019. ¿Han pensado en la macrozona sur? En los camioneros atacados en las carreteras, en cómo logramos a través de la manifestación de la cual orgullosamente participé, de la toma de carretera s , gracias a eso poder dar a conocer el terrorismo en la Araucanía\".",
+          "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/camara-baja-aprobo-y-despacho-al-senado-la-ley-antibarricadas-2-0/2026-09-23/140543.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260923/imag/foto_0000000220260923140543.jpg",
+          "published_raw": "Wed, 23 Sep 2026 14:05:43 -0300",
+          "published_at": "2026-09-23T14:05:43-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 6,
+          "score_institutional": 8,
           "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 2,
+          "score_international": 1,
+          "score_conflict": 3,
           "score_policy": 0,
-          "score_ideology": 2,
-          "score_actor": 2,
+          "score_ideology": 1,
+          "score_actor": 4,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 12,
+          "political_evidence": 17,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-018",
-      "title": "Brasil: cómo la crisis del Tribunal Supremo remece las elecciones a la Presidencia",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260922-brasil-c%C3%B3mo-la-crisis-del-tribunal-supremo-remece-las-elecciones-a-la-presidencia",
-      "representative_source": "France 24",
-      "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Brasil / América Latina"
-      },
-      "relevance": {
-        "score": 63.5,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 55.5
-      },
-      "selection": {
-        "reason": "PML 63.5; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-09-22T18:56:43-0300",
-      "last_seen": "2026-09-22T18:56:43-0300",
-      "entities": [
-        "brasil",
-        "supremo",
-        "bolsonaro",
-        "lula"
-      ],
-      "event_terms": [
-        "crisis",
-        "tribunal",
-        "supremo"
-      ],
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Brasil: cómo la crisis del Tribunal Supremo remece las elecciones a la Presidencia",
-          "description": "Brasil atraviesa una de las crisis más graves de los últimos años y el epicentro está, paradójicamente, en la institución que durante la última década se ha convertido en el baluarte de la defensa de la democracia: el Tribunal Supremo. La fractura en la máxima corte tiene lugar en medio de una campaña presidencial polarizada, en la que el ultraderechista Flávio Bolsonaro y el mandatario de izquierdas Luiz Inácio Lula da Silva también resultan salpicados. ¿Quién pierde y quién se beneficia?",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260922-brasil-c%C3%B3mo-la-crisis-del-tribunal-supremo-remece-las-elecciones-a-la-presidencia",
-          "image_url": "https://s.france24.com/media/display/08307768-b69d-11f1-9fbb-1d61c7110e09/w:1024/p:16x9/d734cc25bbfd3d1375f82ac9da5035b06a9d668a-1.jpg",
-          "published_raw": "Tue, 22 Sep 2026 21:56:43 GMT",
-          "published_at": "2026-09-22T18:56:43-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 3,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-018"
+          "cluster_id": "PML-EVENT-004"
         }
       ]
     }
@@ -373,8 +395,8 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-004",
-        "title": "Cámara Baja aprobó y despachó al Senado la \"Ley Antibarricadas 2.0\"",
+        "cluster_id": "PML-EVENT-008",
+        "title": "Reforma de expulsiones: cruce por ausencias, plazos y garantías",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
@@ -383,14 +405,14 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 63,
+          "score": 62.2,
           "level": "MEDIA-ALTA",
           "components": {
             "political_impact": 86,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 32
+            "continuity": 44
           }
         },
         "article_count": 1,
@@ -401,7 +423,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 85
+          "chile_utility": 84.2
         },
         "repeated_in_general_top5": false
       },
@@ -417,11 +439,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.2,
-          "level": "MEDIA",
+          "score": 50.2,
+          "level": "BAJA",
           "components": {
             "political_impact": 50,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 32
@@ -432,7 +454,7 @@
         "political_science_fit": {
           "bonus": 7,
           "labels": "Seguridad y Estado",
-          "chile_utility": 59.2
+          "chile_utility": 57.2
         },
         "repeated_in_general_top5": false
       },
@@ -475,32 +497,36 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 26,
+      "event_count": 27,
       "maximum_relevance": 67.2,
-      "leading_story": "Delcy Rodríguez agradece a Trump su papel en Venezuela y anuncia que habrá elecciones sin concretar la fecha"
+      "leading_story": "Delcy Rodríguez agradece a Trump su papel en Venezuela y asegura que habrá elecciones sin concretar la fecha"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 2,
-      "maximum_relevance": 61.4,
+      "maximum_relevance": 58.9,
       "leading_story": "La rinoceronte y el Trump de pega: historias de las elecciones en Brasil"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 4,
-      "maximum_relevance": 57.3,
+      "maximum_relevance": 56.1,
       "leading_story": "Colombia: la turística Santa Marta es militarizada ante la arremetida de un grupo narcoparamilitar"
     },
     {
       "topic": "Relaciones internacionales",
-      "event_count": 1,
-      "maximum_relevance": 44.6,
-      "leading_story": "Excanciller van Klaveren destaca liderazgo de Bachelet tras retiro de su candidatura ONU"
+      "event_count": 2,
+      "maximum_relevance": 55.1,
+      "leading_story": "“Pusimos la esperanza en Trump”: los exiliados venezolanos ante el viraje de Washington con el chavismo"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-019", "PML-EVENT-031", "PML-EVENT-004"],
+      "exited_top5": ["PML-EVENT-020", "PML-EVENT-029", "PML-EVENT-008"],
+      "retained_top5": ["PML-EVENT-002", "PML-EVENT-018"]
+    }
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
