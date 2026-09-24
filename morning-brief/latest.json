@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-09-24",
     "data_latest_timestamp": "2026-09-24T01:00:00-0300",
-    "data_age_hours": 2.3,
-    "generated_at": "2026-09-24T03:19:16-0300",
+    "data_age_hours": 5.3,
+    "generated_at": "2026-09-24T06:15:46-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,13 +16,13 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 35,
+    "ranked_events": 34,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 2,
@@ -196,7 +196,7 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-031",
+      "cluster_id": "PML-EVENT-030",
       "title": "La rinoceronte y el Trump de pega: historias de las elecciones en Brasil",
       "url": "https://elpais.com/opinion/2026-09-23/la-rinoceronte-y-el-trump-de-pega-historias-de-las-elecciones-en-brasil.html",
       "representative_source": "EL PAÍS",
@@ -256,7 +256,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-031"
+          "cluster_id": "PML-EVENT-030"
         }
       ]
     },
@@ -497,7 +497,7 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 27,
+      "event_count": 26,
       "maximum_relevance": 67.2,
       "leading_story": "Delcy Rodríguez agradece a Trump su papel en Venezuela y asegura que habrá elecciones sin concretar la fecha"
     },
@@ -521,12 +521,8 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-019", "PML-EVENT-031", "PML-EVENT-004"],
-      "exited_top5": ["PML-EVENT-020", "PML-EVENT-029", "PML-EVENT-008"],
-      "retained_top5": ["PML-EVENT-002", "PML-EVENT-018"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
