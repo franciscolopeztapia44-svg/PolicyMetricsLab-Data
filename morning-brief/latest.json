@@ -4,64 +4,127 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-24",
-    "data_latest_timestamp": "2026-09-24T15:01:10-0300",
-    "data_age_hours": 0.3,
-    "generated_at": "2026-09-24T15:18:18-0300",
+    "data_latest_timestamp": "2026-09-24T17:26:01-0300",
+    "data_age_hours": 0.8,
+    "generated_at": "2026-09-24T18:15:01-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": false
+    "editorial_topic_diversity_met": true
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Conflictos y seguridad.",
+    "diversity": "La selección cubre 3 temas, 4 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 33,
-    "topics": 1,
-    "geographies": 3,
+    "ranked_events": 35,
+    "topics": 3,
+    "geographies": 4,
     "representative_sources": 3,
-    "average_top5_relevance": 61,
-    "maximum_relevance": 64.9
+    "average_top5_relevance": 64.1,
+    "maximum_relevance": 74.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-019",
-      "title": "Delcy Rodríguez agradece a Trump su papel en Venezuela y asegura que habrá elecciones sin concretar la fecha",
-      "url": "https://elpais.com/america/2026-09-23/delcy-rodriguez-agradece-a-trump-su-cooperacion-con-venezuela-y-anuncia-que-habra-elecciones-sin-concretar-la-fecha.html",
+      "cluster_id": "PML-EVENT-016",
+      "title": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”",
+      "url": "https://elpais.com/internacional/2026-09-24/netanyahu-reta-a-una-asamblea-de-la-onu-semivacia-en-protesta-por-su-invasion-de-gaza-acusarnos-de-genocidio-es-la-mayor-mentira-del-siglo.html",
       "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "POLITICAL_STATEMENT",
+      "topic": "Conflictos y seguridad",
+      "event_type": "CONFLICT_ESCALATION",
       "geography": {
-        "group": "América Latina",
-        "country": "Venezuela / América Latina / No identificado"
+        "group": "Internacional",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 62.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 66.2
+        "score": 74.2,
+        "level": "ALTA",
+        "editorial_utility": 74.2
       },
       "selection": {
-        "reason": "PML 62.2; multifuente",
+        "reason": "PML 74.2",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 2,
-        "source_count": 2,
-        "sources": [
-          "France 24",
-          "EL PAÍS"
-        ]
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-09-23T20:57:37-0300",
+      "first_seen": "2026-09-24T17:26:01-0300",
+      "last_seen": "2026-09-24T17:26:01-0300",
+      "entities": [
+        "onu",
+        "gaza"
+      ],
+      "event_terms": [],
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”",
+          "description": "El primer ministro israelí, que se juega su futuro el próximo mes en las elecciones, lanza un mensaje de dureza frente a las críticas. Abbas denuncia una “limpieza étnica” contra los palestinos",
+          "url": "https://elpais.com/internacional/2026-09-24/netanyahu-reta-a-una-asamblea-de-la-onu-semivacia-en-protesta-por-su-invasion-de-gaza-acusarnos-de-genocidio-es-la-mayor-mentira-del-siglo.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/3ZK6KGB5T5KTHKDTIWDXZ4FIOE.jpg?auth=dcf6d35757bca90cfe1f6a86b1c8b5f51d02e54270fca90e3a0a65f3844a63c6",
+          "published_raw": "Thu, 24 Sep 2026 20:26:01 GMT",
+          "published_at": "2026-09-24T17:26:01-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 1,
+          "score_conflict": 2,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 6,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-016"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-020",
+      "title": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260924-delcy-rodr%C3%ADguez-promete-que-en-venezuela-habr%C3%A1-elecciones-en-igualdad-de-condiciones-para-todos",
+      "representative_source": "France 24",
+      "topic": "Relaciones internacionales",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Venezuela / América Latina"
+      },
+      "relevance": {
+        "score": 64.1,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 76.1
+      },
+      "selection": {
+        "reason": "PML 64.1; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-09-24T00:16:38-0300",
       "last_seen": "2026-09-24T00:16:38-0300",
       "entities": [
         "venezuela",
@@ -96,98 +159,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Delcy Rodríguez agradece a Trump su papel en Venezuela y asegura que habrá elecciones sin concretar la fecha",
-          "description": "La presidenta vuelve a la Asamblea General, foro en el que arremetió contra EE UU, sin mencionar a Maduro, encarcelado a tan solo 14 kilómetros de la sede de la ONU",
-          "url": "https://elpais.com/america/2026-09-23/delcy-rodriguez-agradece-a-trump-su-cooperacion-con-venezuela-y-anuncia-que-habra-elecciones-sin-concretar-la-fecha.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/G6V7LE2S5NP3NAEVYT5DPQCAZ4.jpg?auth=047a97a0b58850f17cdd50294abc291a7092594464e55d58de7d8b3f3b79f0d2&width=1200",
-          "published_raw": "Wed, 23 Sep 2026 23:57:37 GMT",
-          "published_at": "2026-09-23T20:57:37-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 1,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-018",
-      "title": "El partido más próximo al rey gana unas elecciones en Marruecos en las que los votantes han dado la espalda a las urnas",
-      "url": "https://elpais.com/internacional/2026-09-24/el-partido-mas-proximo-al-rey-gana-las-elecciones-en-marruecos-con-una-abstencion-del-62.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 64.9,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 63.9
-      },
-      "selection": {
-        "reason": "PML 64.9; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-09-24T13:58:56-0300",
-      "last_seen": "2026-09-24T13:58:56-0300",
-      "entities": [],
-      "event_terms": [],
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El partido más próximo al rey gana unas elecciones en Marruecos en las que los votantes han dado la espalda a las urnas",
-          "description": "Fundado por el principal consejero de Mohamed VI, el PAM recibirá previsiblemente el encargo de formar un Gobierno de coalición junto con sus actuales socios en el poder",
-          "url": "https://elpais.com/internacional/2026-09-24/el-partido-mas-proximo-al-rey-gana-las-elecciones-en-marruecos-con-una-abstencion-del-62.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/MMGP67YOYNGBBBV4AEGIZ4ERQI.jpg?auth=9029e712d668838ec8672cfc5059552e55779e5b42290b5a2fad8277c2908735&width=1200",
-          "published_raw": "Thu, 24 Sep 2026 16:58:56 GMT",
-          "published_at": "2026-09-24T13:58:56-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-018"
+          "cluster_id": "PML-EVENT-020"
         }
       ]
     },
@@ -206,10 +178,10 @@
       "relevance": {
         "score": 60.6,
         "level": "MEDIA",
-        "editorial_utility": 56.6
+        "editorial_utility": 72.6
       },
       "selection": {
-        "reason": "PML 60.6; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 60.6; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -259,8 +231,8 @@
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-028",
-      "title": "Xi Jinping llama a una competición “benigna” entre China y Estados Unidos",
+      "cluster_id": "PML-EVENT-030",
+      "title": "Xi Jinping llama a establecer una relación “sana” entre China y Estados Unidos",
       "url": "https://elpais.com/internacional/2026-09-24/xi-defiende-ante-trump-en-la-casa-blanca-la-estabilidad-estrategica-entre-estados-unidos-y-china.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
@@ -270,12 +242,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 59.3,
+        "score": 58,
         "level": "MEDIA",
-        "editorial_utility": 53.3
+        "editorial_utility": 61
       },
       "selection": {
-        "reason": "PML 59.3; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 58; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -293,10 +265,10 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Xi Jinping llama a una competición “benigna” entre China y Estados Unidos",
+          "title": "Xi Jinping llama a establecer una relación “sana” entre China y Estados Unidos",
           "description": "“Los intereses de los dos países están profundamente entrelazados”, ha subrayado el presidente chino al comienzo de su cumbre",
           "url": "https://elpais.com/internacional/2026-09-24/xi-defiende-ante-trump-en-la-casa-blanca-la-estabilidad-estrategica-entre-estados-unidos-y-china.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/BLMOMYXCKFASZBRKBA6W7O4VZE.jpg?auth=448fba9075f6e69151b80db565425f2815a598e25c8a84668e4c5a33133b43fc&width=1200",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/D4A335RB4ZG2RJBHI2P5RBB4OQ.JPG?auth=7b95159572c30f435f970fab8d7f653d4a045f6b7d9901dfd3028345be06e17e&width=1200",
           "published_raw": "Thu, 24 Sep 2026 15:30:20 GMT",
           "published_at": "2026-09-24T12:30:20-0300",
           "country": "No identificado",
@@ -316,29 +288,29 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
+          "cluster_id": "PML-EVENT-030"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-020",
-      "title": "Brasil: cómo la crisis del Tribunal Supremo remece las elecciones a la Presidencia",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260922-brasil-c%C3%B3mo-la-crisis-del-tribunal-supremo-remece-las-elecciones-a-la-presidencia",
-      "representative_source": "France 24",
+      "cluster_id": "PML-EVENT-019",
+      "title": "El partido más próximo al rey gana unas elecciones en Marruecos en las que los votantes han dado la espalda a las urnas",
+      "url": "https://elpais.com/internacional/2026-09-24/el-partido-mas-proximo-al-rey-gana-las-elecciones-en-marruecos-con-una-abstencion-del-62.html",
+      "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "ELECTORAL_EVENT",
       "geography": {
-        "group": "América Latina",
-        "country": "Brasil / América Latina"
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 58,
-        "level": "MEDIA",
-        "editorial_utility": 49
+        "score": 63.7,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 58.7
       },
       "selection": {
-        "reason": "PML 58; diversidad relajada para completar el brief",
+        "reason": "PML 63.7; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -346,41 +318,32 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "France 24"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-09-22T18:56:43-0300",
-      "last_seen": "2026-09-22T18:56:43-0300",
-      "entities": [
-        "brasil",
-        "supremo",
-        "bolsonaro",
-        "lula"
-      ],
-      "event_terms": [
-        "crisis",
-        "tribunal",
-        "supremo"
-      ],
+      "first_seen": "2026-09-24T13:58:56-0300",
+      "last_seen": "2026-09-24T13:58:56-0300",
+      "entities": [],
+      "event_terms": [],
       "articles": [
         {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Brasil: cómo la crisis del Tribunal Supremo remece las elecciones a la Presidencia",
-          "description": "Brasil atraviesa una de las crisis más graves de los últimos años y el epicentro está, paradójicamente, en la institución que durante la última década se ha convertido en el baluarte de la defensa de la democracia: el Tribunal Supremo. La fractura en la máxima corte tiene lugar en medio de una campaña presidencial polarizada, en la que el ultraderechista Flávio Bolsonaro y el mandatario de izquierdas Luiz Inácio Lula da Silva también resultan salpicados. ¿Quién pierde y quién se beneficia?",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260922-brasil-c%C3%B3mo-la-crisis-del-tribunal-supremo-remece-las-elecciones-a-la-presidencia",
-          "image_url": "https://s.france24.com/media/display/08307768-b69d-11f1-9fbb-1d61c7110e09/w:1024/p:16x9/d734cc25bbfd3d1375f82ac9da5035b06a9d668a-1.jpg",
-          "published_raw": "Tue, 22 Sep 2026 21:56:43 GMT",
-          "published_at": "2026-09-22T18:56:43-0300",
-          "country": "Brasil",
-          "region": "América Latina",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El partido más próximo al rey gana unas elecciones en Marruecos en las que los votantes han dado la espalda a las urnas",
+          "description": "Fundado por el principal consejero de Mohamed VI, el PAM recibirá previsiblemente el encargo de formar un Gobierno de coalición junto con sus actuales socios en el poder",
+          "url": "https://elpais.com/internacional/2026-09-24/el-partido-mas-proximo-al-rey-gana-las-elecciones-en-marruecos-con-una-abstencion-del-62.html",
+          "image_url": "",
+          "published_raw": "Thu, 24 Sep 2026 16:58:56 GMT",
+          "published_at": "2026-09-24T13:58:56-0300",
+          "country": "No identificado",
+          "region": "Internacional",
           "language": "es",
-          "score_institutional": 3,
+          "score_institutional": 2,
           "score_elections": 2,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 0,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 5,
@@ -388,7 +351,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-020"
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     }
@@ -476,11 +439,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 56.1,
+          "score": 54.3,
           "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 95,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 28
@@ -491,7 +454,7 @@
         "political_science_fit": {
           "bonus": 7,
           "labels": "Seguridad y Estado",
-          "chile_utility": 63.1
+          "chile_utility": 61.3
         },
         "repeated_in_general_top5": false
       }
@@ -499,22 +462,22 @@
   },
   "topics": [
     {
-      "topic": "Instituciones y gobierno",
-      "event_count": 23,
-      "maximum_relevance": 64.9,
-      "leading_story": "El partido más próximo al rey gana unas elecciones en Marruecos en las que los votantes han dado la espalda a las urnas"
+      "topic": "Conflictos y seguridad",
+      "event_count": 5,
+      "maximum_relevance": 74.2,
+      "leading_story": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”"
     },
     {
       "topic": "Relaciones internacionales",
-      "event_count": 3,
-      "maximum_relevance": 56.8,
-      "leading_story": "\"EE.UU. hace bullying si no lo sigues\": Economistas debaten sobre adhesión al Escudo de las Américas"
+      "event_count": 5,
+      "maximum_relevance": 64.1,
+      "leading_story": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”"
     },
     {
-      "topic": "Conflictos y seguridad",
-      "event_count": 4,
-      "maximum_relevance": 56.1,
-      "leading_story": "\"¿Qué posibilidad real tendrá Chile de decirle 'no' a EE.UU. cuando el Escudo avance en una dirección peligrosa?\""
+      "topic": "Instituciones y gobierno",
+      "event_count": 22,
+      "maximum_relevance": 63.7,
+      "leading_story": "El partido más próximo al rey gana unas elecciones en Marruecos en las que los votantes han dado la espalda a las urnas"
     },
     {
       "topic": "Elecciones y opinión pública",
@@ -534,7 +497,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
     "source_count": 3
   },
   "system": {
