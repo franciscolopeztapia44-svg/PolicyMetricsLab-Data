@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-24",
-    "data_latest_timestamp": "2026-09-24T01:00:00-0300",
-    "data_age_hours": 5.3,
-    "generated_at": "2026-09-24T06:15:46-0300",
+    "data_latest_timestamp": "2026-09-24T06:30:00-0300",
+    "data_age_hours": 2.8,
+    "generated_at": "2026-09-24T09:18:39-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -17,22 +17,22 @@
   "summary": {
     "headline": "Panorama Político Diario",
     "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
     "ranked_events": 34,
-    "topics": 2,
+    "topics": 1,
     "geographies": 2,
-    "representative_sources": 2,
-    "average_top5_relevance": 63.8,
-    "maximum_relevance": 67.2
+    "representative_sources": 3,
+    "average_top5_relevance": 62.5,
+    "maximum_relevance": 65.1
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-019",
+      "cluster_id": "PML-EVENT-018",
       "title": "Delcy Rodríguez agradece a Trump su papel en Venezuela y asegura que habrá elecciones sin concretar la fecha",
       "url": "https://elpais.com/america/2026-09-23/delcy-rodriguez-agradece-a-trump-su-cooperacion-con-venezuela-y-anuncia-que-habra-elecciones-sin-concretar-la-fecha.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +43,12 @@
         "country": "Venezuela / América Latina / No identificado"
       },
       "relevance": {
-        "score": 67.2,
+        "score": 64.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 71.2
+        "editorial_utility": 68.2
       },
       "selection": {
-        "reason": "PML 67.2; multifuente",
+        "reason": "PML 64.2; multifuente",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -96,7 +96,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-018"
         },
         {
           "source_id": "elpais_america",
@@ -124,7 +124,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-018"
         }
       ]
     },
@@ -141,12 +141,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 67.1,
+        "score": 65.1,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 70.1
+        "editorial_utility": 68.1
       },
       "selection": {
-        "reason": "PML 67.1; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 65.1; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -196,73 +196,7 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-030",
-      "title": "La rinoceronte y el Trump de pega: historias de las elecciones en Brasil",
-      "url": "https://elpais.com/opinion/2026-09-23/la-rinoceronte-y-el-trump-de-pega-historias-de-las-elecciones-en-brasil.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 58.9,
-        "level": "MEDIA",
-        "editorial_utility": 65.9
-      },
-      "selection": {
-        "reason": "PML 58.9; aporta diversidad temática; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-09-23T00:30:01-0300",
-      "last_seen": "2026-09-23T00:30:01-0300",
-      "entities": [
-        "trump",
-        "brasil"
-      ],
-      "event_terms": [],
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "La rinoceronte y el Trump de pega: historias de las elecciones en Brasil",
-          "description": "Los candidatos ridículos y su presencia memética en redes son desde hace décadas reflejo del desinterés de una parte de la población por los comicios",
-          "url": "https://elpais.com/opinion/2026-09-23/la-rinoceronte-y-el-trump-de-pega-historias-de-las-elecciones-en-brasil.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/DZQVEZG72NEYNHIIJFVT5X2NDA.jpg?auth=4c94b524a0858c95497eeb6855a87a4e7ca468f1fcbdbd715ac2be4e7eef2bba",
-          "published_raw": "Wed, 23 Sep 2026 03:30:01 GMT",
-          "published_at": "2026-09-23T00:30:01-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-018",
+      "cluster_id": "PML-EVENT-017",
       "title": "Netanyahu interviene ante la ONU en medio de protestas y su pulso con Mamdani",
       "url": "https://elpais.com/us/2026-09-24/netanyahu-interviene-ante-la-onu-en-medio-de-protestas-y-su-pulso-con-mamdani.html",
       "representative_source": "EL PAÍS",
@@ -273,12 +207,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 62.7,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 58.7
+        "score": 61.4,
+        "level": "MEDIA",
+        "editorial_utility": 57.4
       },
       "selection": {
-        "reason": "PML 62.7; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 61.4; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -319,7 +253,79 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-018"
+          "cluster_id": "PML-EVENT-017"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-019",
+      "title": "Brasil: cómo la crisis del Tribunal Supremo remece las elecciones a la Presidencia",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260922-brasil-c%C3%B3mo-la-crisis-del-tribunal-supremo-remece-las-elecciones-a-la-presidencia",
+      "representative_source": "France 24",
+      "topic": "Instituciones y gobierno",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Brasil / América Latina"
+      },
+      "relevance": {
+        "score": 61,
+        "level": "MEDIA",
+        "editorial_utility": 55
+      },
+      "selection": {
+        "reason": "PML 61; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-09-22T18:56:43-0300",
+      "last_seen": "2026-09-22T18:56:43-0300",
+      "entities": [
+        "brasil",
+        "supremo",
+        "bolsonaro",
+        "lula"
+      ],
+      "event_terms": [
+        "crisis",
+        "tribunal",
+        "supremo"
+      ],
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Brasil: cómo la crisis del Tribunal Supremo remece las elecciones a la Presidencia",
+          "description": "Brasil atraviesa una de las crisis más graves de los últimos años y el epicentro está, paradójicamente, en la institución que durante la última década se ha convertido en el baluarte de la defensa de la democracia: el Tribunal Supremo. La fractura en la máxima corte tiene lugar en medio de una campaña presidencial polarizada, en la que el ultraderechista Flávio Bolsonaro y el mandatario de izquierdas Luiz Inácio Lula da Silva también resultan salpicados. ¿Quién pierde y quién se beneficia?",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260922-brasil-c%C3%B3mo-la-crisis-del-tribunal-supremo-remece-las-elecciones-a-la-presidencia",
+          "image_url": "https://s.france24.com/media/display/08307768-b69d-11f1-9fbb-1d61c7110e09/w:1024/p:16x9/d734cc25bbfd3d1375f82ac9da5035b06a9d668a-1.jpg",
+          "published_raw": "Tue, 22 Sep 2026 21:56:43 GMT",
+          "published_at": "2026-09-22T18:56:43-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 3,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     },
@@ -336,12 +342,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 63,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 56
+        "score": 61,
+        "level": "MEDIA",
+        "editorial_utility": 52
       },
       "selection": {
-        "reason": "PML 63; diversidad relajada para completar el brief",
+        "reason": "PML 61; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -405,11 +411,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 62.2,
-          "level": "MEDIA-ALTA",
+          "score": 60.2,
+          "level": "MEDIA",
           "components": {
             "political_impact": 86,
-            "freshness": 80,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 44
@@ -423,13 +429,13 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 84.2
+          "chile_utility": 82.2
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-014",
+        "cluster_id": "PML-EVENT-013",
         "title": "\"El foco deben ser los vecinos\", dice alcaldesa tras asesinato de líder narco que la amenazó",
         "topic": "Conflictos y seguridad",
         "event_type": "POLITICAL_STATEMENT",
@@ -439,11 +445,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 50.2,
+          "score": 48.2,
           "level": "BAJA",
           "components": {
             "political_impact": 50,
-            "freshness": 80,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 32
@@ -454,7 +460,7 @@
         "political_science_fit": {
           "bonus": 7,
           "labels": "Seguridad y Estado",
-          "chile_utility": 57.2
+          "chile_utility": 55.2
         },
         "repeated_in_general_top5": false
       },
@@ -470,11 +476,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.7,
+          "score": 52.7,
           "level": "MEDIA",
           "components": {
             "political_impact": 87,
-            "freshness": 52,
+            "freshness": 40,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 46
@@ -488,7 +494,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 77.7
+          "chile_utility": 74.7
         },
         "repeated_in_general_top5": false
       }
@@ -497,27 +503,33 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 26,
-      "maximum_relevance": 67.2,
-      "leading_story": "Delcy Rodríguez agradece a Trump su papel en Venezuela y asegura que habrá elecciones sin concretar la fecha"
+      "event_count": 24,
+      "maximum_relevance": 65.1,
+      "leading_story": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 2,
-      "maximum_relevance": 58.9,
-      "leading_story": "La rinoceronte y el Trump de pega: historias de las elecciones en Brasil"
+      "maximum_relevance": 55.7,
+      "leading_story": "El sombrero de Lula, de accesorio médico a marca personal y foto electoral"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 4,
-      "maximum_relevance": 56.1,
+      "maximum_relevance": 54.3,
       "leading_story": "Colombia: la turística Santa Marta es militarizada ante la arremetida de un grupo narcoparamilitar"
     },
     {
       "topic": "Relaciones internacionales",
-      "event_count": 2,
-      "maximum_relevance": 55.1,
+      "event_count": 3,
+      "maximum_relevance": 53.8,
       "leading_story": "“Pusimos la esperanza en Trump”: los exiliados venezolanos ante el viraje de Washington con el chavismo"
+    },
+    {
+      "topic": "Ideología y competencia política",
+      "event_count": 1,
+      "maximum_relevance": 53.5,
+      "leading_story": "Neonazis, exactores porno, una proxeneta y un condenado por robo entre los nuevos diputados regionales de AfD"
     }
   ],
   "changes_since_yesterday": {
@@ -525,7 +537,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
     "source_count": 3
   },
   "system": {
