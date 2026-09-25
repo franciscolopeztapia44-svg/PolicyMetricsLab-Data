@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-25",
-    "data_latest_timestamp": "2026-09-25T01:00:00-0300",
-    "data_age_hours": 5.3,
-    "generated_at": "2026-09-25T06:15:28-0300",
+    "data_latest_timestamp": "2026-09-25T06:30:00-0300",
+    "data_age_hours": 2.8,
+    "generated_at": "2026-09-25T09:19:16-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,130 +16,22 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Conflictos y seguridad.",
     "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 34,
+    "ranked_events": 35,
     "topics": 3,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 66.4,
-    "maximum_relevance": 76
+    "average_top5_relevance": 62.8,
+    "maximum_relevance": 69.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-029",
-      "title": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260925-colombia-rompe-relaciones-con-ir%C3%A1n-y-profundiza-su-giro-hacia-israel-y-estados-unidos",
-      "representative_source": "France 24",
-      "topic": "Instituciones y gobierno",
-      "event_type": "DIPLOMATIC_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Colombia / América Latina"
-      },
-      "relevance": {
-        "score": 76,
-        "level": "ALTA",
-        "editorial_utility": 80
-      },
-      "selection": {
-        "reason": "PML 76; multifuente",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 2,
-        "source_count": 2,
-        "sources": [
-          "France 24",
-          "EL PAÍS"
-        ]
-      },
-      "first_seen": "2026-09-24T18:32:30-0300",
-      "last_seen": "2026-09-24T22:55:03-0300",
-      "entities": [
-        "colombia",
-        "iran",
-        "israel"
-      ],
-      "event_terms": "soberania",
-      "analysis": {
-        "summary": "La decisión del presidente ultraderechista Abelardo de la Espriella se suma a otras previas, como el restablecimiento de relaciones con Israel (luego de la ruptura durante el mandato de Gustavo Petro), el traslado de la embajada a Jerusalén y el reconocimiento de la soberanía israelí sobre los Altos del Golán. El cambio de rumbo coincide con un mayor acercamiento a Washington y con el respaldo a Israel de otros gobiernos latinoamericanos.",
-        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
-        "watch_next": [
-          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
-          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos",
-          "description": "La decisión del presidente ultraderechista Abelardo de la Espriella se suma a otras previas, como el restablecimiento de relaciones con Israel (luego de la ruptura durante el mandato de Gustavo Petro), el traslado de la embajada a Jerusalén y el reconocimiento de la soberanía israelí sobre los Altos del Golán. El cambio de rumbo coincide con un mayor acercamiento a Washington y con el respaldo a Israel de otros gobiernos latinoamericanos.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260925-colombia-rompe-relaciones-con-ir%C3%A1n-y-profundiza-su-giro-hacia-israel-y-estados-unidos",
-          "image_url": "https://s.france24.com/media/display/31054096-ae83-11f1-bb0a-005056bf30b7/w:1024/p:16x9/d540242e27d3cfcf17d2e05dc57ce16031de1782.jpg",
-          "published_raw": "Fri, 25 Sep 2026 01:55:03 GMT",
-          "published_at": "2026-09-24T22:55:03-0300",
-          "country": "Colombia",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Colombia rompe relaciones diplomáticas con Irán",
-          "description": "El Gobierno justifica su decisión en los “presuntos vínculos” de la República Islámica con “grupos terroristas internacionales”",
-          "url": "https://elpais.com/america-colombia/2026-09-24/colombia-rompe-las-relaciones-diplomaticas-con-iran.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/LV3GJZEUCZFKLO4TG2HBVJZPVI.jpg?auth=6be5ec018dadd7bb26f96e23b963c0fa97c7f35ae18449be16bfd7cbd381f809",
-          "published_raw": "Thu, 24 Sep 2026 21:32:30 GMT",
-          "published_at": "2026-09-24T18:32:30-0300",
-          "country": "Colombia",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
-        }
-      ]
-    },
-    {
-      "position": 2,
       "cluster_id": "PML-EVENT-016",
       "title": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”",
       "url": "https://elpais.com/internacional/2026-09-24/netanyahu-reta-a-una-asamblea-de-la-onu-semivacia-en-protesta-por-su-invasion-de-gaza-acusarnos-de-genocidio-es-la-mayor-mentira-del-siglo.html",
@@ -151,12 +43,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 71.2,
+        "score": 69.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 83.2
+        "editorial_utility": 69.2
       },
       "selection": {
-        "reason": "PML 71.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 69.2",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -215,8 +107,85 @@
       ]
     },
     {
+      "position": 2,
+      "cluster_id": "PML-EVENT-030",
+      "title": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260925-colombia-rompe-relaciones-con-ir%C3%A1n-y-profundiza-su-giro-hacia-israel-y-estados-unidos",
+      "representative_source": "France 24",
+      "topic": "Instituciones y gobierno",
+      "event_type": "DIPLOMATIC_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Colombia / América Latina"
+      },
+      "relevance": {
+        "score": 64,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 76
+      },
+      "selection": {
+        "reason": "PML 64; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-09-24T22:55:03-0300",
+      "last_seen": "2026-09-24T22:55:03-0300",
+      "entities": [
+        "colombia",
+        "iran",
+        "israel"
+      ],
+      "event_terms": "soberania",
+      "analysis": {
+        "summary": "La decisión del presidente ultraderechista Abelardo de la Espriella se suma a otras previas, como el restablecimiento de relaciones con Israel (luego de la ruptura durante el mandato de Gustavo Petro), el traslado de la embajada a Jerusalén y el reconocimiento de la soberanía israelí sobre los Altos del Golán. El cambio de rumbo coincide con un mayor acercamiento a Washington y con el respaldo a Israel de otros gobiernos latinoamericanos.",
+        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
+        "watch_next": [
+          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
+          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos",
+          "description": "La decisión del presidente ultraderechista Abelardo de la Espriella se suma a otras previas, como el restablecimiento de relaciones con Israel (luego de la ruptura durante el mandato de Gustavo Petro), el traslado de la embajada a Jerusalén y el reconocimiento de la soberanía israelí sobre los Altos del Golán. El cambio de rumbo coincide con un mayor acercamiento a Washington y con el respaldo a Israel de otros gobiernos latinoamericanos.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260925-colombia-rompe-relaciones-con-ir%C3%A1n-y-profundiza-su-giro-hacia-israel-y-estados-unidos",
+          "image_url": "https://s.france24.com/media/display/31054096-ae83-11f1-bb0a-005056bf30b7/w:1024/p:16x9/d540242e27d3cfcf17d2e05dc57ce16031de1782.jpg",
+          "published_raw": "Fri, 25 Sep 2026 01:55:03 GMT",
+          "published_at": "2026-09-24T22:55:03-0300",
+          "country": "Colombia",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 1,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-030"
+        }
+      ]
+    },
+    {
       "position": 3,
-      "cluster_id": "PML-EVENT-020",
+      "cluster_id": "PML-EVENT-019",
       "title": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260924-delcy-rodr%C3%ADguez-promete-que-en-venezuela-habr%C3%A1-elecciones-en-igualdad-de-condiciones-para-todos",
       "representative_source": "France 24",
@@ -227,12 +196,12 @@
         "country": "Venezuela / América Latina"
       },
       "relevance": {
-        "score": 59.6,
+        "score": 57.1,
         "level": "MEDIA",
-        "editorial_utility": 66.6
+        "editorial_utility": 64.1
       },
       "selection": {
-        "reason": "PML 59.6; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 57.1; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -287,13 +256,86 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-020"
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-023",
+      "cluster_id": "PML-EVENT-029",
+      "title": "Penalización por subir el alquiler, facilidad para construir y protección del inquilino: los puntos calientes del decreto de vivienda",
+      "url": "https://elpais.com/economia/2026-09-25/penalizacion-por-subir-el-alquiler-facilidad-para-construir-y-proteccion-del-inquilino-los-puntos-calientes-del-decreto-de-vivienda.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 62.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 61.2
+      },
+      "selection": {
+        "reason": "PML 62.2; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-25T00:30:01-0300",
+      "last_seen": "2026-09-25T00:30:01-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "El Gobierno rescata el borrador que no logró sacar en julio y que toca varios aspectos en la regulación del mercado inmobiliario que hacen que los intereses de los grupos políticos choquen entre sí",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Penalización por subir el alquiler, facilidad para construir y protección del inquilino: los puntos calientes del decreto de vivienda",
+          "description": "El Gobierno rescata el borrador que no logró sacar en julio y que toca varios aspectos en la regulación del mercado inmobiliario que hacen que los intereses de los grupos políticos choquen entre sí",
+          "url": "https://elpais.com/economia/2026-09-25/penalizacion-por-subir-el-alquiler-facilidad-para-construir-y-proteccion-del-inquilino-los-puntos-calientes-del-decreto-de-vivienda.html",
+          "image_url": "",
+          "published_raw": "Fri, 25 Sep 2026 03:30:01 GMT",
+          "published_at": "2026-09-25T00:30:01-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-029"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-022",
       "title": "La presidenta de Costa Rica destituye al canciller por no avisarla de una reunión del Escudo de las Américas",
       "url": "https://elpais.com/america/2026-09-24/la-presidenta-de-costa-rica-destituye-al-canciller-por-no-avisarla-de-una-reunion-del-escudo-de-las-americas.html",
       "representative_source": "EL PAÍS",
@@ -304,12 +346,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 63.4,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 62.4
+        "score": 61.7,
+        "level": "MEDIA",
+        "editorial_utility": 56.7
       },
       "selection": {
-        "reason": "PML 63.4; nuevo tipo de evento",
+        "reason": "PML 61.7; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -360,80 +402,7 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-019",
-      "title": "El partido más próximo al rey gana unas elecciones en Marruecos en las que los votantes han dado la espalda a las urnas",
-      "url": "https://elpais.com/internacional/2026-09-24/el-partido-mas-proximo-al-rey-gana-las-elecciones-en-marruecos-con-una-abstencion-del-62.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 61.9,
-        "level": "MEDIA",
-        "editorial_utility": 56.9
-      },
-      "selection": {
-        "reason": "PML 61.9; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-09-24T13:58:56-0300",
-      "last_seen": "2026-09-24T13:58:56-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "Fundado por el principal consejero de Mohamed VI, el PAM recibirá previsiblemente el encargo de formar un Gobierno de coalición junto con sus actuales socios en el poder",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El partido más próximo al rey gana unas elecciones en Marruecos en las que los votantes han dado la espalda a las urnas",
-          "description": "Fundado por el principal consejero de Mohamed VI, el PAM recibirá previsiblemente el encargo de formar un Gobierno de coalición junto con sus actuales socios en el poder",
-          "url": "https://elpais.com/internacional/2026-09-24/el-partido-mas-proximo-al-rey-gana-las-elecciones-en-marruecos-con-una-abstencion-del-62.html",
-          "image_url": "",
-          "published_raw": "Thu, 24 Sep 2026 16:58:56 GMT",
-          "published_at": "2026-09-24T13:58:56-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-022"
         }
       ]
     }
@@ -456,11 +425,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 58.1,
+          "score": 55.1,
           "level": "MEDIA",
           "components": {
             "political_impact": 95,
-            "freshness": 52,
+            "freshness": 40,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 46
@@ -474,7 +443,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 80.1
+          "chile_utility": 77.1
         },
         "repeated_in_general_top5": false
       },
@@ -490,11 +459,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 53,
-          "level": "MEDIA",
+          "score": 51,
+          "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 80,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 58,
             "continuity": 30
@@ -505,7 +474,7 @@
         "political_science_fit": {
           "bonus": 10,
           "labels": "Relaciones internacionales",
-          "chile_utility": 63
+          "chile_utility": 61
         },
         "repeated_in_general_top5": false
       },
@@ -521,11 +490,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.3,
-          "level": "MEDIA",
+          "score": 50.3,
+          "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 80,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 28
@@ -536,7 +505,7 @@
         "political_science_fit": {
           "bonus": 7,
           "labels": "Seguridad y Estado",
-          "chile_utility": 59.3
+          "chile_utility": 57.3
         },
         "repeated_in_general_top5": false
       }
@@ -544,34 +513,28 @@
   },
   "topics": [
     {
+      "topic": "Conflictos y seguridad",
+      "event_count": 5,
+      "maximum_relevance": 69.2,
+      "leading_story": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”"
+    },
+    {
       "topic": "Instituciones y gobierno",
       "event_count": 23,
-      "maximum_relevance": 76,
+      "maximum_relevance": 64,
       "leading_story": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos"
     },
     {
-      "topic": "Conflictos y seguridad",
-      "event_count": 5,
-      "maximum_relevance": 71.2,
-      "leading_story": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”"
+      "topic": "Elecciones y opinión pública",
+      "event_count": 3,
+      "maximum_relevance": 57.9,
+      "leading_story": "La China Polo, la periodista peruana asesinada que pasó de denunciar al poder a intentar conquistarlo"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 4,
-      "maximum_relevance": 59.6,
+      "maximum_relevance": 57.1,
       "leading_story": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”"
-    },
-    {
-      "topic": "Ideología y competencia política",
-      "event_count": 1,
-      "maximum_relevance": 45.3,
-      "leading_story": "Neonazis, exactores porno, una proxeneta y un condenado por robo entre los nuevos diputados regionales de AfD"
-    },
-    {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 1,
-      "maximum_relevance": 43.4,
-      "leading_story": "En pleno choque con Trump, Lula defiende a Brasil en la ONU: \"No cabe en el patio trasero de nadie\""
     }
   ],
   "changes_since_yesterday": {
@@ -579,7 +542,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
+    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
     "source_count": 3
   },
   "system": {
