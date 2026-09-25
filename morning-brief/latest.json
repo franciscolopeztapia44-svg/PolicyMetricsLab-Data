@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-09-24",
     "data_latest_timestamp": "2026-09-24T19:10:04-0300",
-    "data_age_hours": 2.2,
-    "generated_at": "2026-09-24T21:21:22-0300",
+    "data_age_hours": 3.4,
+    "generated_at": "2026-09-24T22:31:12-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -65,6 +65,16 @@
         "gaza"
       ],
       "event_terms": [],
+      "analysis": {
+        "summary": "El primer ministro israelí, que se juega su futuro el próximo mes en las elecciones, lanza un mensaje de dureza frente a las críticas. Abbas denuncia una “limpieza étnica” contra los palestinos",
+        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
+          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
       "articles": [
         {
           "source_id": "elpais_america",
@@ -131,6 +141,16 @@
         "iran"
       ],
       "event_terms": [],
+      "analysis": {
+        "summary": "El Gobierno justifica su decisión en los “presuntos vínculos” de la República Islámica con “grupos terroristas internacionales”",
+        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
+        "watch_next": [
+          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
+          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
       "articles": [
         {
           "source_id": "elpais_america",
@@ -198,6 +218,16 @@
         "trump"
       ],
       "event_terms": [],
+      "analysis": {
+        "summary": "La presidenta encargada pronunció un discurso de 18 minutos ante la Asamblea General de la ONU, en el que agradeció al mandatario estadounidense Donald Trump por “su disposición a retomar el camino de las relaciones diplomáticas y de cooperación”, no mencionó a sus antecesores en la llamada Revolución Bolivariana Hugo Chávez y Nicolás Maduro, y prometió elecciones, no sin antes recordar que “la democracia no se mide por la existencia de elecciones”.",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en Venezuela / América Latina.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
       "articles": [
         {
           "source_id": "france24_latam",
@@ -261,6 +291,16 @@
       "last_seen": "2026-09-24T19:10:04-0300",
       "entities": "colombia",
       "event_terms": [],
+      "analysis": {
+        "summary": "Laura Fernández acusa a Manuel Tovar, una pieza importante del oficialismo, de no remitirle la invitación en Nueva York mientras ella estaba de visita en Colombia",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
       "articles": [
         {
           "source_id": "elpais_america",
@@ -324,6 +364,16 @@
       "last_seen": "2026-09-24T13:58:56-0300",
       "entities": [],
       "event_terms": [],
+      "analysis": {
+        "summary": "Fundado por el principal consejero de Mohamed VI, el PAM recibirá previsiblemente el encargo de formar un Gobierno de coalición junto con sus actuales socios en el poder",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
       "articles": [
         {
           "source_id": "elpais_america",
