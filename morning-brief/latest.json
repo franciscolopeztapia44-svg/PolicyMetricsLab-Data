@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-25",
-    "data_latest_timestamp": "2026-09-25T14:42:54-0300",
-    "data_age_hours": 0.6,
-    "generated_at": "2026-09-25T15:16:44-0300",
+    "data_latest_timestamp": "2026-09-25T15:33:04-0300",
+    "data_age_hours": 1.6,
+    "generated_at": "2026-09-25T17:10:43-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,13 +16,13 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 40 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Conflictos y seguridad.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Conflictos y seguridad.",
     "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 5 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 40,
+    "ranked_events": 39,
     "topics": 3,
     "geographies": 3,
     "representative_sources": 2,
@@ -264,7 +264,7 @@
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-034",
+      "cluster_id": "PML-EVENT-033",
       "title": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260925-colombia-rompe-relaciones-con-ir%C3%A1n-y-profundiza-su-giro-hacia-israel-y-estados-unidos",
       "representative_source": "France 24",
@@ -335,29 +335,29 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-034"
+          "cluster_id": "PML-EVENT-033"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-011",
-      "title": "¿Lula o Flávio Bolsonaro? Brasil decide su rumbo político",
-      "url": "https://www.france24.com/es/programas/enlace/20260925-lula-o-fl%C3%A1vio-bolsonaro-brasil-decide-su-rumbo-pol%C3%ADtico",
-      "representative_source": "France 24",
+      "cluster_id": "PML-EVENT-032",
+      "title": "Irán envía a Estados Unidos un plan para la reapertura del estrecho de Ormuz en siete días",
+      "url": "https://elpais.com/internacional/2026-09-25/iran-envia-a-estados-unidos-un-plan-para-la-reapertura-del-estrecho-de-ormuz-en-siete-dias.html",
+      "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "América Latina",
-        "country": "Brasil / América Latina"
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 58.1,
+        "score": 58,
         "level": "MEDIA",
-        "editorial_utility": 54.1
+        "editorial_utility": 54
       },
       "selection": {
-        "reason": "PML 58.1; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 58; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -365,20 +365,15 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "France 24"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-09-25T12:03:08-0300",
-      "last_seen": "2026-09-25T12:03:08-0300",
-      "entities": [
-        "lula",
-        "bolsonaro",
-        "brasil",
-        "congreso"
-      ],
-      "event_terms": "eleccion",
+      "first_seen": "2026-09-25T10:28:39-0300",
+      "last_seen": "2026-09-25T10:28:39-0300",
+      "entities": "iran",
+      "event_terms": [],
       "analysis": {
-        "summary": "Brasil se prepara para las elecciones presidenciales y legislativas del 4 de octubre, en un escenario marcado por la polarización política, la inseguridad y el desgaste del Gobierno. El presidente Luiz Inácio Lula da Silva y el senador Flávio Bolsonaro protagonizan una disputa ajustada según varios sondeos, mientras la composición del Congreso será determinante para el próximo mandato.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Brasil / América Latina.",
+        "summary": "El ministro de Exteriores, Abbas Araqchi, condiciona el desbloqueo de la ruta marítima a que Washington vuelva a los compromisos del memorando de junio",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -388,32 +383,32 @@
       },
       "articles": [
         {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "¿Lula o Flávio Bolsonaro? Brasil decide su rumbo político",
-          "description": "Brasil se prepara para las elecciones presidenciales y legislativas del 4 de octubre, en un escenario marcado por la polarización política, la inseguridad y el desgaste del Gobierno. El presidente Luiz Inácio Lula da Silva y el senador Flávio Bolsonaro protagonizan una disputa ajustada según varios sondeos, mientras la composición del Congreso será determinante para el próximo mandato. Con cerca de 158 millones de electores convocados, analizamos las claves de una votación que puede redefinir el rumbo del gigante sudamericano. Enlace de France 24 sigue el pulso electoral de Brasil.",
-          "url": "https://www.france24.com/es/programas/enlace/20260925-lula-o-fl%C3%A1vio-bolsonaro-brasil-decide-su-rumbo-pol%C3%ADtico",
-          "image_url": "https://s.france24.com/media/display/242f7114-4f6e-11ea-aa1f-005056bfd1d9/w:1024/p:16x9/Brasil-bandera-comercio-economia-Reuters.jpg",
-          "published_raw": "Fri, 25 Sep 2026 15:03:08 GMT",
-          "published_at": "2026-09-25T12:03:08-0300",
-          "country": "Brasil",
-          "region": "América Latina",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Irán envía a Estados Unidos un plan para la reapertura del estrecho de Ormuz en siete días",
+          "description": "El ministro de Exteriores, Abbas Araqchi, condiciona el desbloqueo de la ruta marítima a que Washington vuelva a los compromisos del memorando de junio",
+          "url": "https://elpais.com/internacional/2026-09-25/iran-envia-a-estados-unidos-un-plan-para-la-reapertura-del-estrecho-de-ormuz-en-siete-dias.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/WL7RT2T4SZGKTITKQD3XIS7EZA.jpg?auth=4c1c297fcb25edaa9a284d837d5b1f21f701ebcbb42f1deea49db2e8b09f62c8",
+          "published_raw": "Fri, 25 Sep 2026 13:28:39 GMT",
+          "published_at": "2026-09-25T10:28:39-0300",
+          "country": "No identificado",
+          "region": "Internacional",
           "language": "es",
-          "score_institutional": 3,
-          "score_elections": 3,
-          "score_international": 0,
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 1,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 2,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 8,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-011"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-032"
         }
       ]
     }
@@ -431,6 +426,7 @@
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-gobierno-confirmo-que-insistira-en-el-senado/2026-09-23/143812.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
@@ -446,6 +442,43 @@
             "continuity": 46
           }
         },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-09-23T14:38:12-0300",
+        "last_seen": "2026-09-23T14:38:12-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado",
+            "description": "Tras e l revés sufrido ayer en la Cámara de Diputadas y Diputados —donde la iniciativa fue rechazada por apenas un voto tras alcanzar 88 de los 89 apoyos requeridos (con 28 votos en contra y 19 abstenciones)—, el Gobierno confirmó este miércoles que insistirá con su reforma constitucional para ampliar de cinco a 30 días el plazo de detención para las expulsiones administrativas de extranjeros . La propuesta facultaba además al Ejecutivo para habilitar recintos especiales destinados a albergar a los ciudadanos sometidos a este proceso. La determinación fue ratificada por el vicepresidente de la República, Claudio Alvarado , quien fustigó las abstenciones y ausencias en la Sala y confirmó la decisión de recurrir a la Cámara Alta. \"Los dejaron entrar y hoy día ellos mismos no quieren que se vayan, pero nosotros, como estamos conscientes de que tenemos que hacer cumplir la ley y que necesitamos regularizar la situación, vamos a insistir por el Senado con los dos tercios para que se pueda seguir tramitando esta iniciativa . Lo único que quiero pedir es un sentido de responsabilidad\", abogó. Frente a la intención anunciada por Alvarado de insistir en la Cámara Alta con el articulado rechazado, el ministro José García Ruminot adoptó un tono más cauto, afirmando que están \" evaluando esa situación junto con el ministro del Interior \". \" Estamos conversando con las senadoras , con los senadores . Nos gustaría mucho insistir \", puntualizó el secretario de Estado. \"Realismo legislativo\": el escenario en la Cámara Alta Para rehabilitar la tramitación mediante la insistencia constitucional, el Gobierno requiere alcanzar un quórum de dos tercios de los senadores presentes. Ante esta exigencia, la presidenta del Senado, Paulina Núñez (Renovación Nacional), instó al Ejecutivo a actuar con \"realismo legislativo\" y manifestarse abierto a flexibilizar la propuesta. \"Para insistir en el Senado, convengamos que no vamos a insistir con el mismo texto, sino con el argumento de fondo , porque ese argumento operó también en el Gobierno pasado, cuando se amplió el plazo de detención, porque se entiende que efectivamente en ese plazo ampliado se producen mayoritariamente las expulsiones necesarias\", sostuvo la parlamentaria. \"Si tiene que ser un plazo menor con tal de insistir en el Senado, bueno, será parte de la discusión que tengamos\" , agregó Núñez. Por su parte, el senador Iván Flores (DC) señaló que \"tal como fue (la votación) en la Cámara, yo diría que lo estoy pensando\" . \"Si arreglan las cosas, por supuesto que vamos a apoyar la agenda de seguridad . Si los proyectos que están allí en general, excepto la reforma constitucional, son todos acompañables, pero arreglen primero la mochila y y los proyectos\", enfatizó. La lección, según Arrau: \"No hay que confiarse\" Por su parte, el ministro de Seguridad, Martín Arrau , lamentó la falta de respaldo durante una intervención en el ciclo \"Conoce a tu Ministro\" de Icare. \"Llegado el momento de la votación en general, desaparecieron algunos votos y se rechaza esto. Es gravísimo , porque es una herramienta tremendamente práctica y hoy día quedamos sin esa herramienta. Hicimos este sistema laborioso, costoso, inoperante que tenemos... No hay que confiarse, parece \", enfatizó. Arrau rambién argmentó que \"yo por mí no iría al Congreso, porque creo que la gestión es tremendamente más importante. Por ejemplo, en obras públicas no iba el ministro al Congreso, iba el especialista de tal tema. Y usted entenderá que yo no soy especialista en materias penales constitucionales, cosas de ese estilo\". \"Espero no tener que ir más de un día al Congreso . Ya se votó una ley muy importante, antibarrricadas 2.0, pero no puedo estar ahí. Hay que ir a tramitar las leyes que sean realmente necesarias y urgentes\", resaltó. La respuesta a sus palabras no se hizo esperar, y fue el diputado Diego Schalper (RN) sostuvo que los \"ministros del presidente Kast tienen que tener claro que parte de sus obligaciones como colegisladores es concurrir al Congreso , sacar adelante la agenda legislativa\". \"Uno pocas veces en la vida hace lo que quiere, normalmente corresponde hacer lo que uno tiene que hacer y el ministro de seguridad tiene que venir al Congreso a tramitar la agenda legislativa\", indicó. Desde la Cámara Alta, en tanto, el senador Matías Walker (independiente) instó a que \" el ministro de Seguridad se ahorre los viajes al Congreso, porque al parecer para él es una molestia . No tenemos problemas en entendernos con el ministro (de la Segpres) José García Ruminot, que sí respeta al Congreso Nacional \". En paralelo al debate migratorio, la Cámara Baja aprobó y despachó al Senado el denominado proyecto \"Antibarricadas 2.0\" , que endurece las sanciones penales para quienes interrumpan el tránsito o corten vías públicas mediante violencia, intimidación u obstáculos que generen un peligro concreto para la vida o la integridad física de las personas. Asimismo, la normativa extiende la aplicación de multas de hasta 20 UTM y penas de presidio menor a quienes causen afectaciones graves a los servicios de transporte masivo, como la interrupción de la red del Metro de Santiago.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-gobierno-confirmo-que-insistira-en-el-senado/2026-09-23/143812.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260923/imag/foto_0000000320260923143812.jpg",
+            "published_raw": "Wed, 23 Sep 2026 14:38:12 -0300",
+            "published_at": "2026-09-23T14:38:12-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 11,
+            "score_elections": 1,
+            "score_international": 1,
+            "score_conflict": 2,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 5,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 20,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-002"
+          }
+        ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
@@ -465,6 +498,7 @@
         "topic": "Relaciones internacionales",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/ee-uu-hace-bullying-si-no-lo-sigues-economistas-debaten-sobre/2026-09-24/115712.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
@@ -480,6 +514,43 @@
             "continuity": 30
           }
         },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-09-24T11:57:12-0300",
+        "last_seen": "2026-09-24T11:57:12-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "\"EE.UU. hace bullying si no lo sigues\": Economistas debaten sobre adhesión al Escudo de las Américas",
+            "description": "En El Primer Café , economistas debatieron sobre la decisión del gobierno de José Antonio Kast de sumarse al Escudo de las Américas , iniciativa impulsada por Estados Unidos y que puede tener una serie de implicaciones en materia geopolítica. El economista Rodrigo Wagner, profesor de la Universidad Adolfo Ibáñez, planteó que \"Estados Unidos no quiere que ciertos servicios digitales directos sean controlados directamente por China, sin pasar por otras etapas. Si eso va a ocurrir, a veces es mejor saberlo desde el principio para no terminar en problemas diplomáticos al final\". \"Hay que entender la situación, yo no estoy muy de acuerdo con la firma, el protocolo, la forma en que se hizo es muy distinto a cuando uno firma un tratado, pero también el presidente de Estados Unidos hace bullying si tú no le sigues, entonces habría tirado un par de aranceles, cinco puntos más, si son expertos del bullying\" , recalcó. Cecilia Cifuentes , directora del Centro de Estudios Financieros de la U. de Los Andes, manifestó que \"el aspecto más positivo para Chile de esta firma es en materia de seguridad y control del crimen organizado, porque ya queda bastante claro que Chile tiene capacidades de inteligencia que están siendo insuficientes, y además este tema es transnacional, por lo que esa cooperación yo la veo como un aspecto positivo y necesario\". \"Chile tiene un equilibrio muy complejo, porque nuestros dos principales socios comerciales son las cabezas del conflicto geopolítico. Entonces ahí es donde están los riesgos y el cuidado en que va a tener que manejarse Chile en esta materia\", puntualizó. Para Rodrigo Echecopar (FA), \" hay un problema de comunicación, que obviamente genera desconfianza, suspicacias, porque el comunicado que sacó Cancillería estuvo enfocado en crimen organizado (...) después se ve contrastado con este comunicado mucho más largo del Departamento de Estado de Estados Unidos, que demuestra que tiene un alcance bastante mayor\". \"Son señales erróneas, donde pareciera ser que la afinidad ideológica está pesando más que los intereses de Chile, que han estado anclados en una tradición más larga que este gobierno. Es una expresión de cómo se lleva la batalla cultural en el campo de las relaciones internacionales, que no sirve a los intereses de Chile, sino que todo lo contrario\", dijo. Finalmente, la economista Macarena García (LyD) comentó que \"no hay que dejar fuera el tema de seguridad, porque a estas alturas tiene un impacto económico relevante. Hasta el minuto no hay nada claro, si efectivamente va a ser muy restrictivo, poco restrictivo, qué nos impone. Yo creo que en eso hay que imponer los límites y eso hay que hablarlo internamente\". \"No puede haber sesgos, no puede haber discriminación en contra de otros países que piensan distinto, hay que tener una mirada más integral. No podemos pelearnos ni con uno ni con otro\", sentenció.",
+            "url": "https://www.cooperativa.cl/noticias/economia/ee-uu-hace-bullying-si-no-lo-sigues-economistas-debaten-sobre/2026-09-24/115712.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260924/imag/foto_0000000220260924115712.jpg",
+            "published_raw": "Thu, 24 Sep 2026 11:57:12 -0300",
+            "published_at": "2026-09-24T11:57:12-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 2,
+            "score_elections": 0,
+            "score_international": 3,
+            "score_conflict": 3,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 1,
+            "score_noise": 1,
+            "score_accident": 0,
+            "political_evidence": 8,
+            "primary_topic": "Relaciones internacionales",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-012"
+          }
+        ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
@@ -496,27 +567,65 @@
         "topic": "Conflictos y seguridad",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/relaciones-exteriores/que-posibilidad-real-tendra-chile-de-decirle-no-a-ee-uu-cuando-el/2026-09-24/090258.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 47.8,
+          "score": 45.3,
           "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 62,
+            "freshness": 52,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 28
           }
         },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-09-24T09:02:58-0300",
+        "last_seen": "2026-09-24T09:02:58-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "\"¿Qué posibilidad real tendrá Chile de decirle 'no' a EE.UU. cuando el Escudo avance en una dirección peligrosa?\"",
+            "description": "El diputado Raúl Soto, presidente del PPD, afirmó que Chile quedó \"amarrado\" al adherirse al Escudo de las Américas y apuntó a una nula posibilidad de retirarse del grupo -liderado por Estados Unidos para combatir al crimen organizado- si es que éste \"avanza en una dirección peligrosa, que es lo más probable\" . En conversación con El Diario de Cooperativa, el timonel opositor calificó la incorporación a la iniciativa trumpista como \"un paso en falso \" que compromete la autonomía del país ya que, a su juicio, va mucho más allá de la cooperación policial contra la delincuencia y el narcotráfico. [Lea también] Escudo de las Américas va más allá de la seguridad: aborda inversiones y minerales críticos \" Se ha cometido un grave error porque si el objetivo era realmente avanzar en una cooperación internacional para combatir el crimen organizado, para eso ya existía el acuerdo y el consenso de Santiago, un espacio donde Chile aparecía liderando a nuestros países vecinos de manera tal de dar un paso juntos hacia el combate al crimen organizado y la inseguridad que nuestros países están viviendo\", fustigó. El legislador,  miembro de la delegación que acompaña al Presidente Kast en Nueva York, en el marco de la Asamblea General de la ONU, afirmó que Chile terminó \"cediendo a las presiones de EE.UU . al adherirse al Escudo de las Américas,   un espacio de influencia política ideológica de subordinación al interés de EE.UU., que busca debilitar el derecho internacional para adecuar las reglas, incluso saltárselas en beneficio del interés de su propio país\". \"¿Qué posibilidades reales va a tener Chile de salirse del Escudo de las Américas , si en un momento determinado nos damos cuenta de que esto está avanzando en una dirección peligrosa, que es lo más probable?\", planteó. Según Soto, si el Gobierno \"intenta dar un paso atrás y salirse, es evidente que EE.UU. va a venir con represalias y con amenazas que van a ir contra el interés nacional , por lo tanto, quedamos de cierta manera amarrados . Ese es el peligro\". \"Consecuencias insospechadas\" e interpelación a canciller Pérez El timonel PPD también fue consultado por la interpelación al canciller Francisco Pérez Mackenna en la Cámara , prevista para el próximo lunes: \"Cobra más sentido después de la adhesión de Chile al Escudo de las Américas. Ese paso en falso de Chile , que eventualmente puede tener consecuencias insospechadas , hace más necesaria aún esta acción\", enfatizó. \"Bajo una apariencia de combate al crimen organizado, algo políticamente muy razonable, (el grupo) eventualmente también va a tener consecuencias en materias económicas  en materia de definición estratégica respecto de las inversiones y también en materias militares\", argumentó. Finalmente, Soto acusó que la decisión del Gobierno -que no fue informada ni consultada con los parlamentarios de las comisiones de RR.EE.- \" le ha dado la razón al embajador de EE.UU. en Chile, (Brandon Judd), cuando -en el contexto del foro Madrid señaló- de forma irónica que en Chile era fácil aplicar la doctrina Donroe , dejando entrever que nuestra política exterior era débil, moldeable e influenciable en función del interés de EE.UU. \". [Radio en vivo📻] En El Diario de Cooperativa conversamos con el diputado Raúl Soto, presidente del PPD. Escucha en https://t.co/T95z68V3dL pic.twitter.com/hN0X7tbO7x — Cooperativa (@Cooperativa) September 24, 2026",
+            "url": "https://www.cooperativa.cl/noticias/pais/relaciones-exteriores/que-posibilidad-real-tendra-chile-de-decirle-no-a-ee-uu-cuando-el/2026-09-24/090258.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260924/imag/foto_0000000220260924090258.jpeg",
+            "published_raw": "Thu, 24 Sep 2026 09:02:58 -0300",
+            "published_at": "2026-09-24T09:02:58-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 4,
+            "score_elections": 0,
+            "score_international": 3,
+            "score_conflict": 5,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 2,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Conflictos y seguridad",
+            "secondary_topic": "Instituciones y gobierno",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-008"
+          }
+        ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
           "bonus": 7,
           "labels": "Seguridad y Estado",
-          "chile_utility": 54.8
+          "chile_utility": 52.3
         },
         "repeated_in_general_top5": false
       }
@@ -531,7 +640,7 @@
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 27,
+      "event_count": 26,
       "maximum_relevance": 65.1,
       "leading_story": "El Tribunal Supremo respalda a Trump en el uso de un polémico programa para descartar electores"
     },
