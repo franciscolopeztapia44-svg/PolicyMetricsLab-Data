@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-25",
-    "data_latest_timestamp": "2026-09-25T06:30:00-0300",
-    "data_age_hours": 2.8,
-    "generated_at": "2026-09-25T09:19:16-0300",
+    "data_latest_timestamp": "2026-09-25T06:54:41-0300",
+    "data_age_hours": 2.6,
+    "generated_at": "2026-09-25T09:32:40-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Conflictos y seguridad.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Conflictos y seguridad.",
     "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 35,
+    "ranked_events": 36,
     "topics": 3,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 62.8,
+    "average_top5_relevance": 62.5,
     "maximum_relevance": 69.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-016",
+      "cluster_id": "PML-EVENT-017",
       "title": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”",
       "url": "https://elpais.com/internacional/2026-09-24/netanyahu-reta-a-una-asamblea-de-la-onu-semivacia-en-protesta-por-su-invasion-de-gaza-acusarnos-de-genocidio-es-la-mayor-mentira-del-siglo.html",
       "representative_source": "EL PAÍS",
@@ -102,13 +102,13 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-016"
+          "cluster_id": "PML-EVENT-017"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-030",
+      "cluster_id": "PML-EVENT-031",
       "title": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260925-colombia-rompe-relaciones-con-ir%C3%A1n-y-profundiza-su-giro-hacia-israel-y-estados-unidos",
       "representative_source": "France 24",
@@ -179,13 +179,13 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
+          "cluster_id": "PML-EVENT-031"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-019",
+      "cluster_id": "PML-EVENT-020",
       "title": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260924-delcy-rodr%C3%ADguez-promete-que-en-venezuela-habr%C3%A1-elecciones-en-igualdad-de-condiciones-para-todos",
       "representative_source": "France 24",
@@ -256,86 +256,13 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-020"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-029",
-      "title": "Penalización por subir el alquiler, facilidad para construir y protección del inquilino: los puntos calientes del decreto de vivienda",
-      "url": "https://elpais.com/economia/2026-09-25/penalizacion-por-subir-el-alquiler-facilidad-para-construir-y-proteccion-del-inquilino-los-puntos-calientes-del-decreto-de-vivienda.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 62.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 61.2
-      },
-      "selection": {
-        "reason": "PML 62.2; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-09-25T00:30:01-0300",
-      "last_seen": "2026-09-25T00:30:01-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "El Gobierno rescata el borrador que no logró sacar en julio y que toca varios aspectos en la regulación del mercado inmobiliario que hacen que los intereses de los grupos políticos choquen entre sí",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Penalización por subir el alquiler, facilidad para construir y protección del inquilino: los puntos calientes del decreto de vivienda",
-          "description": "El Gobierno rescata el borrador que no logró sacar en julio y que toca varios aspectos en la regulación del mercado inmobiliario que hacen que los intereses de los grupos políticos choquen entre sí",
-          "url": "https://elpais.com/economia/2026-09-25/penalizacion-por-subir-el-alquiler-facilidad-para-construir-y-proteccion-del-inquilino-los-puntos-calientes-del-decreto-de-vivienda.html",
-          "image_url": "",
-          "published_raw": "Fri, 25 Sep 2026 03:30:01 GMT",
-          "published_at": "2026-09-25T00:30:01-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-022",
+      "cluster_id": "PML-EVENT-023",
       "title": "La presidenta de Costa Rica destituye al canciller por no avisarla de una reunión del Escudo de las Américas",
       "url": "https://elpais.com/america/2026-09-24/la-presidenta-de-costa-rica-destituye-al-canciller-por-no-avisarla-de-una-reunion-del-escudo-de-las-americas.html",
       "representative_source": "EL PAÍS",
@@ -348,10 +275,10 @@
       "relevance": {
         "score": 61.7,
         "level": "MEDIA",
-        "editorial_utility": 56.7
+        "editorial_utility": 60.7
       },
       "selection": {
-        "reason": "PML 61.7; diversidad relajada para completar el brief",
+        "reason": "PML 61.7; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -402,7 +329,80 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-022"
+          "cluster_id": "PML-EVENT-023"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-030",
+      "title": "Penalización por subir el alquiler, facilidad para construir y protección del inquilino: los puntos calientes del decreto de vivienda",
+      "url": "https://elpais.com/economia/2026-09-25/penalizacion-por-subir-el-alquiler-facilidad-para-construir-y-proteccion-del-inquilino-los-puntos-calientes-del-decreto-de-vivienda.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 60.5,
+        "level": "MEDIA",
+        "editorial_utility": 55.5
+      },
+      "selection": {
+        "reason": "PML 60.5; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-25T00:30:01-0300",
+      "last_seen": "2026-09-25T00:30:01-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "El Gobierno rescata el borrador que no logró sacar en julio y que toca varios aspectos en la regulación del mercado inmobiliario que hacen que los intereses de los grupos políticos choquen entre sí",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Penalización por subir el alquiler, facilidad para construir y protección del inquilino: los puntos calientes del decreto de vivienda",
+          "description": "El Gobierno rescata el borrador que no logró sacar en julio y que toca varios aspectos en la regulación del mercado inmobiliario que hacen que los intereses de los grupos políticos choquen entre sí",
+          "url": "https://elpais.com/economia/2026-09-25/penalizacion-por-subir-el-alquiler-facilidad-para-construir-y-proteccion-del-inquilino-los-puntos-calientes-del-decreto-de-vivienda.html",
+          "image_url": "",
+          "published_raw": "Fri, 25 Sep 2026 03:30:01 GMT",
+          "published_at": "2026-09-25T00:30:01-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-030"
         }
       ]
     }
@@ -520,7 +520,7 @@
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 23,
+      "event_count": 24,
       "maximum_relevance": 64,
       "leading_story": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos"
     },
