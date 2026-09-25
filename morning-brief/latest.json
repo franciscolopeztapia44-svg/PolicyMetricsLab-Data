@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-09-24",
-    "data_latest_timestamp": "2026-09-24T22:55:03-0300",
-    "data_age_hours": 1.3,
-    "generated_at": "2026-09-25T00:14:31-0300",
+    "date": "2026-09-25",
+    "data_latest_timestamp": "2026-09-25T01:00:00-0300",
+    "data_age_hours": 2.3,
+    "generated_at": "2026-09-25T03:18:50-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,17 +16,17 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 35,
+    "ranked_events": 34,
     "topics": 3,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 67.3,
+    "average_top5_relevance": 66.4,
     "maximum_relevance": 76
   },
   "top_stories": [
@@ -151,12 +151,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 73,
-        "level": "ALTA",
-        "editorial_utility": 85
+        "score": 71.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 83.2
       },
       "selection": {
-        "reason": "PML 73; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 71.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -190,7 +190,7 @@
           "title": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”",
           "description": "El primer ministro israelí, que se juega su futuro el próximo mes en las elecciones, lanza un mensaje de dureza frente a las críticas. Abbas denuncia una “limpieza étnica” contra los palestinos",
           "url": "https://elpais.com/internacional/2026-09-24/netanyahu-reta-a-una-asamblea-de-la-onu-semivacia-en-protesta-por-su-invasion-de-gaza-acusarnos-de-genocidio-es-la-mayor-mentira-del-siglo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/3ZK6KGB5T5KTHKDTIWDXZ4FIOE.jpg?auth=dcf6d35757bca90cfe1f6a86b1c8b5f51d02e54270fca90e3a0a65f3844a63c6&width=1200",
+          "image_url": "",
           "published_raw": "Thu, 24 Sep 2026 20:26:01 GMT",
           "published_at": "2026-09-24T17:26:01-0300",
           "country": "No identificado",
@@ -227,12 +227,12 @@
         "country": "Venezuela / América Latina"
       },
       "relevance": {
-        "score": 62.1,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 69.1
+        "score": 59.6,
+        "level": "MEDIA",
+        "editorial_utility": 66.6
       },
       "selection": {
-        "reason": "PML 62.1; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 59.6; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -413,7 +413,7 @@
           "title": "El partido más próximo al rey gana unas elecciones en Marruecos en las que los votantes han dado la espalda a las urnas",
           "description": "Fundado por el principal consejero de Mohamed VI, el PAM recibirá previsiblemente el encargo de formar un Gobierno de coalición junto con sus actuales socios en el poder",
           "url": "https://elpais.com/internacional/2026-09-24/el-partido-mas-proximo-al-rey-gana-las-elecciones-en-marruecos-con-una-abstencion-del-62.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/MMGP67YOYNGBBBV4AEGIZ4ERQI.jpg?auth=9029e712d668838ec8672cfc5059552e55779e5b42290b5a2fad8277c2908735&width=1200",
+          "image_url": "",
           "published_raw": "Thu, 24 Sep 2026 16:58:56 GMT",
           "published_at": "2026-09-24T13:58:56-0300",
           "country": "No identificado",
@@ -490,11 +490,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55,
+          "score": 53,
           "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 58,
             "continuity": 30
@@ -505,7 +505,7 @@
         "political_science_fit": {
           "bonus": 10,
           "labels": "Relaciones internacionales",
-          "chile_utility": 65
+          "chile_utility": 63
         },
         "repeated_in_general_top5": false
       },
@@ -552,19 +552,19 @@
     {
       "topic": "Conflictos y seguridad",
       "event_count": 5,
-      "maximum_relevance": 73,
+      "maximum_relevance": 71.2,
       "leading_story": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”"
     },
     {
       "topic": "Relaciones internacionales",
-      "event_count": 5,
-      "maximum_relevance": 62.1,
+      "event_count": 4,
+      "maximum_relevance": 59.6,
       "leading_story": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 47.8,
+      "maximum_relevance": 45.3,
       "leading_story": "Neonazis, exactores porno, una proxeneta y un condenado por robo entre los nuevos diputados regionales de AfD"
     },
     {
@@ -575,8 +575,12 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": [],
+      "exited_top5": [],
+      "retained_top5": ["PML-EVENT-029", "PML-EVENT-016", "PML-EVENT-020", "PML-EVENT-023", "PML-EVENT-019"]
+    }
   },
   "sources": {
     "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
