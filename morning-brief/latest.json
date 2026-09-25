@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-24",
-    "data_latest_timestamp": "2026-09-24T19:10:04-0300",
-    "data_age_hours": 3.4,
-    "generated_at": "2026-09-24T22:31:12-0300",
+    "data_latest_timestamp": "2026-09-24T22:55:03-0300",
+    "data_age_hours": 1.3,
+    "generated_at": "2026-09-25T00:14:31-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,22 +16,130 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Conflictos y seguridad.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 36,
+    "ranked_events": 35,
     "topics": 3,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 66,
-    "maximum_relevance": 74.2
+    "average_top5_relevance": 67.3,
+    "maximum_relevance": 76
   },
   "top_stories": [
     {
       "position": 1,
+      "cluster_id": "PML-EVENT-029",
+      "title": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260925-colombia-rompe-relaciones-con-ir%C3%A1n-y-profundiza-su-giro-hacia-israel-y-estados-unidos",
+      "representative_source": "France 24",
+      "topic": "Instituciones y gobierno",
+      "event_type": "DIPLOMATIC_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Colombia / América Latina"
+      },
+      "relevance": {
+        "score": 76,
+        "level": "ALTA",
+        "editorial_utility": 80
+      },
+      "selection": {
+        "reason": "PML 76; multifuente",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 2,
+        "source_count": 2,
+        "sources": [
+          "France 24",
+          "EL PAÍS"
+        ]
+      },
+      "first_seen": "2026-09-24T18:32:30-0300",
+      "last_seen": "2026-09-24T22:55:03-0300",
+      "entities": [
+        "colombia",
+        "iran",
+        "israel"
+      ],
+      "event_terms": "soberania",
+      "analysis": {
+        "summary": "La decisión del presidente ultraderechista Abelardo de la Espriella se suma a otras previas, como el restablecimiento de relaciones con Israel (luego de la ruptura durante el mandato de Gustavo Petro), el traslado de la embajada a Jerusalén y el reconocimiento de la soberanía israelí sobre los Altos del Golán. El cambio de rumbo coincide con un mayor acercamiento a Washington y con el respaldo a Israel de otros gobiernos latinoamericanos.",
+        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
+        "watch_next": [
+          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
+          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos",
+          "description": "La decisión del presidente ultraderechista Abelardo de la Espriella se suma a otras previas, como el restablecimiento de relaciones con Israel (luego de la ruptura durante el mandato de Gustavo Petro), el traslado de la embajada a Jerusalén y el reconocimiento de la soberanía israelí sobre los Altos del Golán. El cambio de rumbo coincide con un mayor acercamiento a Washington y con el respaldo a Israel de otros gobiernos latinoamericanos.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260925-colombia-rompe-relaciones-con-ir%C3%A1n-y-profundiza-su-giro-hacia-israel-y-estados-unidos",
+          "image_url": "https://s.france24.com/media/display/31054096-ae83-11f1-bb0a-005056bf30b7/w:1024/p:16x9/d540242e27d3cfcf17d2e05dc57ce16031de1782.jpg",
+          "published_raw": "Fri, 25 Sep 2026 01:55:03 GMT",
+          "published_at": "2026-09-24T22:55:03-0300",
+          "country": "Colombia",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 1,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-029"
+        },
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Colombia rompe relaciones diplomáticas con Irán",
+          "description": "El Gobierno justifica su decisión en los “presuntos vínculos” de la República Islámica con “grupos terroristas internacionales”",
+          "url": "https://elpais.com/america-colombia/2026-09-24/colombia-rompe-las-relaciones-diplomaticas-con-iran.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/LV3GJZEUCZFKLO4TG2HBVJZPVI.jpg?auth=6be5ec018dadd7bb26f96e23b963c0fa97c7f35ae18449be16bfd7cbd381f809",
+          "published_raw": "Thu, 24 Sep 2026 21:32:30 GMT",
+          "published_at": "2026-09-24T18:32:30-0300",
+          "country": "Colombia",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 1,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-029"
+        }
+      ]
+    },
+    {
+      "position": 2,
       "cluster_id": "PML-EVENT-016",
       "title": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”",
       "url": "https://elpais.com/internacional/2026-09-24/netanyahu-reta-a-una-asamblea-de-la-onu-semivacia-en-protesta-por-su-invasion-de-gaza-acusarnos-de-genocidio-es-la-mayor-mentira-del-siglo.html",
@@ -43,12 +151,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 74.2,
+        "score": 73,
         "level": "ALTA",
-        "editorial_utility": 74.2
+        "editorial_utility": 85
       },
       "selection": {
-        "reason": "PML 74.2",
+        "reason": "PML 73; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -82,7 +190,7 @@
           "title": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”",
           "description": "El primer ministro israelí, que se juega su futuro el próximo mes en las elecciones, lanza un mensaje de dureza frente a las críticas. Abbas denuncia una “limpieza étnica” contra los palestinos",
           "url": "https://elpais.com/internacional/2026-09-24/netanyahu-reta-a-una-asamblea-de-la-onu-semivacia-en-protesta-por-su-invasion-de-gaza-acusarnos-de-genocidio-es-la-mayor-mentira-del-siglo.html",
-          "image_url": "",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/3ZK6KGB5T5KTHKDTIWDXZ4FIOE.jpg?auth=dcf6d35757bca90cfe1f6a86b1c8b5f51d02e54270fca90e3a0a65f3844a63c6&width=1200",
           "published_raw": "Thu, 24 Sep 2026 20:26:01 GMT",
           "published_at": "2026-09-24T17:26:01-0300",
           "country": "No identificado",
@@ -103,82 +211,6 @@
           "decision": "ACCEPT",
           "filter_confidence": "high",
           "cluster_id": "PML-EVENT-016"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-030",
-      "title": "Colombia rompe relaciones diplomáticas con Irán",
-      "url": "https://elpais.com/america-colombia/2026-09-24/colombia-rompe-las-relaciones-diplomaticas-con-iran.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "DIPLOMATIC_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Colombia / América Latina"
-      },
-      "relevance": {
-        "score": 65.3,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 77.3
-      },
-      "selection": {
-        "reason": "PML 65.3; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-09-24T18:32:30-0300",
-      "last_seen": "2026-09-24T18:32:30-0300",
-      "entities": [
-        "colombia",
-        "iran"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "El Gobierno justifica su decisión en los “presuntos vínculos” de la República Islámica con “grupos terroristas internacionales”",
-        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
-        "watch_next": [
-          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
-          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Colombia rompe relaciones diplomáticas con Irán",
-          "description": "El Gobierno justifica su decisión en los “presuntos vínculos” de la República Islámica con “grupos terroristas internacionales”",
-          "url": "https://elpais.com/america-colombia/2026-09-24/colombia-rompe-las-relaciones-diplomaticas-con-iran.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/LV3GJZEUCZFKLO4TG2HBVJZPVI.jpg?auth=6be5ec018dadd7bb26f96e23b963c0fa97c7f35ae18449be16bfd7cbd381f809",
-          "published_raw": "Thu, 24 Sep 2026 21:32:30 GMT",
-          "published_at": "2026-09-24T18:32:30-0300",
-          "country": "Colombia",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
         }
       ]
     },
@@ -272,12 +304,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 64.7,
+        "score": 63.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 63.7
+        "editorial_utility": 62.4
       },
       "selection": {
-        "reason": "PML 64.7; nuevo tipo de evento",
+        "reason": "PML 63.4; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -345,12 +377,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 63.7,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 58.7
+        "score": 61.9,
+        "level": "MEDIA",
+        "editorial_utility": 56.9
       },
       "selection": {
-        "reason": "PML 63.7; diversidad relajada para completar el brief",
+        "reason": "PML 61.9; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -381,7 +413,7 @@
           "title": "El partido más próximo al rey gana unas elecciones en Marruecos en las que los votantes han dado la espalda a las urnas",
           "description": "Fundado por el principal consejero de Mohamed VI, el PAM recibirá previsiblemente el encargo de formar un Gobierno de coalición junto con sus actuales socios en el poder",
           "url": "https://elpais.com/internacional/2026-09-24/el-partido-mas-proximo-al-rey-gana-las-elecciones-en-marruecos-con-una-abstencion-del-62.html",
-          "image_url": "",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/MMGP67YOYNGBBBV4AEGIZ4ERQI.jpg?auth=9029e712d668838ec8672cfc5059552e55779e5b42290b5a2fad8277c2908735&width=1200",
           "published_raw": "Thu, 24 Sep 2026 16:58:56 GMT",
           "published_at": "2026-09-24T13:58:56-0300",
           "country": "No identificado",
@@ -424,11 +456,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 60.6,
+          "score": 58.1,
           "level": "MEDIA",
           "components": {
             "political_impact": 95,
-            "freshness": 62,
+            "freshness": 52,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 46
@@ -442,7 +474,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 82.6
+          "chile_utility": 80.1
         },
         "repeated_in_general_top5": false
       },
@@ -489,11 +521,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.3,
+          "score": 52.3,
           "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 28
@@ -504,7 +536,7 @@
         "political_science_fit": {
           "bonus": 7,
           "labels": "Seguridad y Estado",
-          "chile_utility": 61.3
+          "chile_utility": 59.3
         },
         "repeated_in_general_top5": false
       }
@@ -512,16 +544,16 @@
   },
   "topics": [
     {
-      "topic": "Conflictos y seguridad",
-      "event_count": 5,
-      "maximum_relevance": 74.2,
-      "leading_story": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”"
+      "topic": "Instituciones y gobierno",
+      "event_count": 23,
+      "maximum_relevance": 76,
+      "leading_story": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos"
     },
     {
-      "topic": "Instituciones y gobierno",
-      "event_count": 24,
-      "maximum_relevance": 65.3,
-      "leading_story": "Colombia rompe relaciones diplomáticas con Irán"
+      "topic": "Conflictos y seguridad",
+      "event_count": 5,
+      "maximum_relevance": 73,
+      "leading_story": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”"
     },
     {
       "topic": "Relaciones internacionales",
@@ -547,7 +579,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
+    "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
     "source_count": 3
   },
   "system": {
