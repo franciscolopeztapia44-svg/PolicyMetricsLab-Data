@@ -5,34 +5,34 @@
     "status": "validated",
     "date": "2026-09-25",
     "data_latest_timestamp": "2026-09-25T23:53:36-0300",
-    "data_age_hours": 0.3,
-    "generated_at": "2026-09-26T00:14:02-0300",
+    "data_age_hours": 3.4,
+    "generated_at": "2026-09-26T03:18:51-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": true
+    "editorial_topic_diversity_met": false
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 36,
-    "topics": 3,
-    "geographies": 3,
+    "ranked_events": 34,
+    "topics": 2,
+    "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 57.6,
+    "average_top5_relevance": 55.8,
     "maximum_relevance": 62.7
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-024",
+      "cluster_id": "PML-EVENT-023",
       "title": "El chavismo se compromete a mejorar la libertad de prensa en la segunda ronda de negociaciones con la oposición",
       "url": "https://elpais.com/america/2026-09-26/el-chavismo-se-compromete-a-mejorar-la-libertad-de-prensa-en-la-segunda-ronda-de-negociaciones-con-la-oposicion.html",
       "representative_source": "EL PAÍS",
@@ -99,89 +99,13 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
+          "cluster_id": "PML-EVENT-023"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-018",
-      "title": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”",
-      "url": "https://elpais.com/internacional/2026-09-24/netanyahu-reta-a-una-asamblea-de-la-onu-semivacia-en-protesta-por-su-invasion-de-gaza-acusarnos-de-genocidio-es-la-mayor-mentira-del-siglo.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Conflictos y seguridad",
-      "event_type": "CONFLICT_ESCALATION",
-      "geography": {
-        "group": "Internacional",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 62.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 74.2
-      },
-      "selection": {
-        "reason": "PML 62.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-09-24T17:26:01-0300",
-      "last_seen": "2026-09-24T17:26:01-0300",
-      "entities": [
-        "onu",
-        "gaza"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "El primer ministro israelí, que se juega su futuro el próximo mes en las elecciones, lanza un mensaje de dureza frente a las críticas. Abbas denuncia una “limpieza étnica” contra los palestinos",
-        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
-          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”",
-          "description": "El primer ministro israelí, que se juega su futuro el próximo mes en las elecciones, lanza un mensaje de dureza frente a las críticas. Abbas denuncia una “limpieza étnica” contra los palestinos",
-          "url": "https://elpais.com/internacional/2026-09-24/netanyahu-reta-a-una-asamblea-de-la-onu-semivacia-en-protesta-por-su-invasion-de-gaza-acusarnos-de-genocidio-es-la-mayor-mentira-del-siglo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/VZQLUNSXVFDY7IXYYUNDBDP44Y.JPG?auth=0efaaaa4b41ec5d18dabfce98d8336489fc6cf7d7c5317b6d5a54a11e1d72576",
-          "published_raw": "Thu, 24 Sep 2026 20:26:01 GMT",
-          "published_at": "2026-09-24T17:26:01-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 1,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 6,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-018"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-021",
+      "cluster_id": "PML-EVENT-020",
       "title": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260924-delcy-rodr%C3%ADguez-promete-que-en-venezuela-habr%C3%A1-elecciones-en-igualdad-de-condiciones-para-todos",
       "representative_source": "France 24",
@@ -252,12 +176,12 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-020"
         }
       ]
     },
     {
-      "position": 4,
+      "position": 3,
       "cluster_id": "PML-EVENT-002",
       "title": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-gobierno-confirmo-que-insistira-en-el-senado/2026-09-23/143812.html",
@@ -333,8 +257,8 @@
       ]
     },
     {
-      "position": 5,
-      "cluster_id": "PML-EVENT-030",
+      "position": 4,
+      "cluster_id": "PML-EVENT-029",
       "title": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260925-colombia-rompe-relaciones-con-ir%C3%A1n-y-profundiza-su-giro-hacia-israel-y-estados-unidos",
       "representative_source": "France 24",
@@ -403,6 +327,79 @@
           "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-029"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-030",
+      "title": "Las preguntas de los alumnos sobre corrupción, Pegasus, Ceuta y Venezuela cambian el guion de Sánchez en Harvard",
+      "url": "https://elpais.com/espana/2026-09-25/las-preguntas-de-los-alumnos-sobre-corrupcion-pegasus-ceuta-y-venezuela-cambian-el-guion-de-sanchez-en-harvard.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 53.5,
+        "level": "MEDIA",
+        "editorial_utility": 47.5
+      },
+      "selection": {
+        "reason": "PML 53.5; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-24T22:11:11-0300",
+      "last_seen": "2026-09-24T22:11:11-0300",
+      "entities": "venezuela",
+      "event_terms": [],
+      "analysis": {
+        "summary": "El presidente de España ofrece un alegato contra la oligarquía tecnológica en la prestigiosa universidad y defiende su actuación en los casos que salpican a su partido",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Las preguntas de los alumnos sobre corrupción, Pegasus, Ceuta y Venezuela cambian el guion de Sánchez en Harvard",
+          "description": "El presidente de España ofrece un alegato contra la oligarquía tecnológica en la prestigiosa universidad y defiende su actuación en los casos que salpican a su partido",
+          "url": "https://elpais.com/espana/2026-09-25/las-preguntas-de-los-alumnos-sobre-corrupcion-pegasus-ceuta-y-venezuela-cambian-el-guion-de-sanchez-en-harvard.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/NXD5MKPVYJA5FJBA57NZH3SYP4.jpg?auth=ae5467b5ae9b15ff7049620851136d5b2dfd25637baf62d102ae9079215cad43",
+          "published_raw": "Fri, 25 Sep 2026 01:11:11 GMT",
+          "published_at": "2026-09-24T22:11:11-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
           "cluster_id": "PML-EVENT-030"
@@ -662,21 +659,21 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 24,
+      "event_count": 23,
       "maximum_relevance": 62.7,
       "leading_story": "El chavismo se compromete a mejorar la libertad de prensa en la segunda ronda de negociaciones con la oposición"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 6,
-      "maximum_relevance": 62.2,
-      "leading_story": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 4,
       "maximum_relevance": 54.1,
       "leading_story": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 5,
+      "maximum_relevance": 50.1,
+      "leading_story": "La policía de Nueva York arresta a las actrices Susan Sarandon y Hannah Einbinder en una protesta contra Netanyahu"
     },
     {
       "topic": "Elecciones y opinión pública",
