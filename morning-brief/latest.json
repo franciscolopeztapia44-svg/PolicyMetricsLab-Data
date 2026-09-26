@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-25",
-    "data_latest_timestamp": "2026-09-25T15:33:04-0300",
-    "data_age_hours": 1.6,
-    "generated_at": "2026-09-25T17:10:43-0300",
+    "data_latest_timestamp": "2026-09-25T19:11:32-0300",
+    "data_age_hours": 2.1,
+    "generated_at": "2026-09-25T21:19:15-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Conflictos y seguridad.",
-    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 5 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 37 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Conflictos y seguridad.",
+    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 39,
+    "ranked_events": 37,
     "topics": 3,
     "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 61.3,
-    "maximum_relevance": 67.2
+    "average_top5_relevance": 59.7,
+    "maximum_relevance": 64.7
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-019",
+      "cluster_id": "PML-EVENT-018",
       "title": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”",
       "url": "https://elpais.com/internacional/2026-09-24/netanyahu-reta-a-una-asamblea-de-la-onu-semivacia-en-protesta-por-su-invasion-de-gaza-acusarnos-de-genocidio-es-la-mayor-mentira-del-siglo.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +43,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 67.2,
+        "score": 64.7,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 67.2
+        "editorial_utility": 64.7
       },
       "selection": {
-        "reason": "PML 67.2",
+        "reason": "PML 64.7",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -102,13 +102,13 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-018"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-025",
+      "cluster_id": "PML-EVENT-024",
       "title": "El Tribunal Supremo respalda a Trump en el uso de un polémico programa para descartar electores",
       "url": "https://elpais.com/us/2026-09-25/el-tribunal-supremo-respalda-a-trump-en-el-uso-de-un-polemico-programa-para-descartar-electores.html",
       "representative_source": "EL PAÍS",
@@ -119,12 +119,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 65.1,
+        "score": 63.9,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 77.1
+        "editorial_utility": 75.9
       },
       "selection": {
-        "reason": "PML 65.1; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 63.9; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -181,13 +181,13 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "cluster_id": "PML-EVENT-024"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-022",
+      "cluster_id": "PML-EVENT-021",
       "title": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260924-delcy-rodr%C3%ADguez-promete-que-en-venezuela-habr%C3%A1-elecciones-en-igualdad-de-condiciones-para-todos",
       "representative_source": "France 24",
@@ -258,13 +258,13 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-022"
+          "cluster_id": "PML-EVENT-021"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-033",
+      "cluster_id": "PML-EVENT-031",
       "title": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260925-colombia-rompe-relaciones-con-ir%C3%A1n-y-profundiza-su-giro-hacia-israel-y-estados-unidos",
       "representative_source": "France 24",
@@ -275,12 +275,12 @@
         "country": "Colombia / América Latina"
       },
       "relevance": {
-        "score": 62,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 60
+        "score": 60,
+        "level": "MEDIA",
+        "editorial_utility": 58
       },
       "selection": {
-        "reason": "PML 62; nuevo tipo de evento",
+        "reason": "PML 60; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -335,29 +335,29 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-033"
+          "cluster_id": "PML-EVENT-031"
         }
       ]
     },
     {
       "position": 5,
       "cluster_id": "PML-EVENT-032",
-      "title": "Irán envía a Estados Unidos un plan para la reapertura del estrecho de Ormuz en siete días",
-      "url": "https://elpais.com/internacional/2026-09-25/iran-envia-a-estados-unidos-un-plan-para-la-reapertura-del-estrecho-de-ormuz-en-siete-dias.html",
+      "title": "Las preguntas de los alumnos sobre corrupción, Pegasus, Ceuta y Venezuela cambian el guion de Sánchez en Harvard",
+      "url": "https://elpais.com/espana/2026-09-25/las-preguntas-de-los-alumnos-sobre-corrupcion-pegasus-ceuta-y-venezuela-cambian-el-guion-de-sanchez-en-harvard.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
+      "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
-        "group": "Estados Unidos",
+        "group": "América Latina",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 58,
+        "score": 56,
         "level": "MEDIA",
-        "editorial_utility": 54
+        "editorial_utility": 51
       },
       "selection": {
-        "reason": "PML 58; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 56; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -367,12 +367,12 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-09-25T10:28:39-0300",
-      "last_seen": "2026-09-25T10:28:39-0300",
-      "entities": "iran",
+      "first_seen": "2026-09-24T22:11:11-0300",
+      "last_seen": "2026-09-24T22:11:11-0300",
+      "entities": "venezuela",
       "event_terms": [],
       "analysis": {
-        "summary": "El ministro de Exteriores, Abbas Araqchi, condiciona el desbloqueo de la ruta marítima a que Washington vuelva a los compromisos del memorando de junio",
+        "summary": "El presidente de España ofrece un alegato contra la oligarquía tecnológica en la prestigiosa universidad y defiende su actuación en los casos que salpican a su partido",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -385,27 +385,27 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Irán envía a Estados Unidos un plan para la reapertura del estrecho de Ormuz en siete días",
-          "description": "El ministro de Exteriores, Abbas Araqchi, condiciona el desbloqueo de la ruta marítima a que Washington vuelva a los compromisos del memorando de junio",
-          "url": "https://elpais.com/internacional/2026-09-25/iran-envia-a-estados-unidos-un-plan-para-la-reapertura-del-estrecho-de-ormuz-en-siete-dias.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/WL7RT2T4SZGKTITKQD3XIS7EZA.jpg?auth=4c1c297fcb25edaa9a284d837d5b1f21f701ebcbb42f1deea49db2e8b09f62c8",
-          "published_raw": "Fri, 25 Sep 2026 13:28:39 GMT",
-          "published_at": "2026-09-25T10:28:39-0300",
+          "title": "Las preguntas de los alumnos sobre corrupción, Pegasus, Ceuta y Venezuela cambian el guion de Sánchez en Harvard",
+          "description": "El presidente de España ofrece un alegato contra la oligarquía tecnológica en la prestigiosa universidad y defiende su actuación en los casos que salpican a su partido",
+          "url": "https://elpais.com/espana/2026-09-25/las-preguntas-de-los-alumnos-sobre-corrupcion-pegasus-ceuta-y-venezuela-cambian-el-guion-de-sanchez-en-harvard.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/NXD5MKPVYJA5FJBA57NZH3SYP4.jpg?auth=ae5467b5ae9b15ff7049620851136d5b2dfd25637baf62d102ae9079215cad43",
+          "published_raw": "Fri, 25 Sep 2026 01:11:11 GMT",
+          "published_at": "2026-09-24T22:11:11-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
           "score_institutional": 1,
           "score_elections": 0,
-          "score_international": 1,
+          "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
+          "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
           "cluster_id": "PML-EVENT-032"
@@ -421,79 +421,107 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado",
+        "cluster_id": "PML-EVENT-004",
+        "title": "Presupuesto 2027: Quiroz descarta riesgos en regiones y el Servel por recortes",
         "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
+        "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-gobierno-confirmo-que-insistira-en-el-senado/2026-09-23/143812.html",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-quiroz-descarta-riesgos-en-regiones-y-el-servel-por/2026-09-25/191132.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 51.4,
-          "level": "BAJA",
+          "score": 56.5,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 95,
-            "freshness": 25,
-            "source_count": 30,
+            "political_impact": 51,
+            "freshness": 100,
+            "source_count": 32,
             "geographic_scope": 40,
-            "continuity": 46
+            "continuity": 38
           }
         },
         "coverage": {
-          "article_count": 1,
+          "article_count": 2,
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-09-23T14:38:12-0300",
-        "last_seen": "2026-09-23T14:38:12-0300",
+        "first_seen": "2026-09-25T15:33:04-0300",
+        "last_seen": "2026-09-25T19:11:32-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado",
-            "description": "Tras e l revés sufrido ayer en la Cámara de Diputadas y Diputados —donde la iniciativa fue rechazada por apenas un voto tras alcanzar 88 de los 89 apoyos requeridos (con 28 votos en contra y 19 abstenciones)—, el Gobierno confirmó este miércoles que insistirá con su reforma constitucional para ampliar de cinco a 30 días el plazo de detención para las expulsiones administrativas de extranjeros . La propuesta facultaba además al Ejecutivo para habilitar recintos especiales destinados a albergar a los ciudadanos sometidos a este proceso. La determinación fue ratificada por el vicepresidente de la República, Claudio Alvarado , quien fustigó las abstenciones y ausencias en la Sala y confirmó la decisión de recurrir a la Cámara Alta. \"Los dejaron entrar y hoy día ellos mismos no quieren que se vayan, pero nosotros, como estamos conscientes de que tenemos que hacer cumplir la ley y que necesitamos regularizar la situación, vamos a insistir por el Senado con los dos tercios para que se pueda seguir tramitando esta iniciativa . Lo único que quiero pedir es un sentido de responsabilidad\", abogó. Frente a la intención anunciada por Alvarado de insistir en la Cámara Alta con el articulado rechazado, el ministro José García Ruminot adoptó un tono más cauto, afirmando que están \" evaluando esa situación junto con el ministro del Interior \". \" Estamos conversando con las senadoras , con los senadores . Nos gustaría mucho insistir \", puntualizó el secretario de Estado. \"Realismo legislativo\": el escenario en la Cámara Alta Para rehabilitar la tramitación mediante la insistencia constitucional, el Gobierno requiere alcanzar un quórum de dos tercios de los senadores presentes. Ante esta exigencia, la presidenta del Senado, Paulina Núñez (Renovación Nacional), instó al Ejecutivo a actuar con \"realismo legislativo\" y manifestarse abierto a flexibilizar la propuesta. \"Para insistir en el Senado, convengamos que no vamos a insistir con el mismo texto, sino con el argumento de fondo , porque ese argumento operó también en el Gobierno pasado, cuando se amplió el plazo de detención, porque se entiende que efectivamente en ese plazo ampliado se producen mayoritariamente las expulsiones necesarias\", sostuvo la parlamentaria. \"Si tiene que ser un plazo menor con tal de insistir en el Senado, bueno, será parte de la discusión que tengamos\" , agregó Núñez. Por su parte, el senador Iván Flores (DC) señaló que \"tal como fue (la votación) en la Cámara, yo diría que lo estoy pensando\" . \"Si arreglan las cosas, por supuesto que vamos a apoyar la agenda de seguridad . Si los proyectos que están allí en general, excepto la reforma constitucional, son todos acompañables, pero arreglen primero la mochila y y los proyectos\", enfatizó. La lección, según Arrau: \"No hay que confiarse\" Por su parte, el ministro de Seguridad, Martín Arrau , lamentó la falta de respaldo durante una intervención en el ciclo \"Conoce a tu Ministro\" de Icare. \"Llegado el momento de la votación en general, desaparecieron algunos votos y se rechaza esto. Es gravísimo , porque es una herramienta tremendamente práctica y hoy día quedamos sin esa herramienta. Hicimos este sistema laborioso, costoso, inoperante que tenemos... No hay que confiarse, parece \", enfatizó. Arrau rambién argmentó que \"yo por mí no iría al Congreso, porque creo que la gestión es tremendamente más importante. Por ejemplo, en obras públicas no iba el ministro al Congreso, iba el especialista de tal tema. Y usted entenderá que yo no soy especialista en materias penales constitucionales, cosas de ese estilo\". \"Espero no tener que ir más de un día al Congreso . Ya se votó una ley muy importante, antibarrricadas 2.0, pero no puedo estar ahí. Hay que ir a tramitar las leyes que sean realmente necesarias y urgentes\", resaltó. La respuesta a sus palabras no se hizo esperar, y fue el diputado Diego Schalper (RN) sostuvo que los \"ministros del presidente Kast tienen que tener claro que parte de sus obligaciones como colegisladores es concurrir al Congreso , sacar adelante la agenda legislativa\". \"Uno pocas veces en la vida hace lo que quiere, normalmente corresponde hacer lo que uno tiene que hacer y el ministro de seguridad tiene que venir al Congreso a tramitar la agenda legislativa\", indicó. Desde la Cámara Alta, en tanto, el senador Matías Walker (independiente) instó a que \" el ministro de Seguridad se ahorre los viajes al Congreso, porque al parecer para él es una molestia . No tenemos problemas en entendernos con el ministro (de la Segpres) José García Ruminot, que sí respeta al Congreso Nacional \". En paralelo al debate migratorio, la Cámara Baja aprobó y despachó al Senado el denominado proyecto \"Antibarricadas 2.0\" , que endurece las sanciones penales para quienes interrumpan el tránsito o corten vías públicas mediante violencia, intimidación u obstáculos que generen un peligro concreto para la vida o la integridad física de las personas. Asimismo, la normativa extiende la aplicación de multas de hasta 20 UTM y penas de presidio menor a quienes causen afectaciones graves a los servicios de transporte masivo, como la interrupción de la red del Metro de Santiago.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-gobierno-confirmo-que-insistira-en-el-senado/2026-09-23/143812.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260923/imag/foto_0000000320260923143812.jpg",
-            "published_raw": "Wed, 23 Sep 2026 14:38:12 -0300",
-            "published_at": "2026-09-23T14:38:12-0300",
+            "title": "Presupuesto 2027: Crecimiento de 1% inquieta a regiones y Servel",
+            "description": "A cinco días del plazo para ingresar al Congreso el proyecto de Ley de Presupuestos 2027 , el Gobierno anticipó que el gasto público crecería en torno al 1%. La estrechez fiscal ya genera preocupación por las rebajas que podrían afectar a distintos organismos. Uno de los puntos de mayor tensión es el financiamiento de los gobiernos regionales, cuyos recursos podrían disminuir un 7% el próximo año. La cifra aún está sujeta a la presentación y tramitación del proyecto. La presidenta del Consejo Directivo del Servicio Electoral (Servel) , Pamela Figueroa, también alertó sobre una eventual rebaja del 15% respecto de los recursos solicitados por el organismo. \"Los recursos solicitados son los que se requieren. No fue con el tejo pasado. Nosotros nunca hemos hecho un presupuesto con tejo pasado\", dijo a CNN Chile . Lea también: Presupuesto 2027: Quiroz cambia el \"más con menos\" por \"más con lo mismo\" El ministro de Defensa, Fernando Barros , abordó este viernes la estrechez presupuestaria durante una sesión de la comisión de zonas extremas de la Cámara, realizada en Punta Arenas. \"Efectivamente enfrentamos dificultades, no nos olvidemos que el primer recorte presupuestario fue en febrero. Y ya en febrero se hizo un recorte de 300 millones de dólares repartido entre distintas instituciones y ha seguido\", aseveró. Por su parte, el gobernador de Magallanes, Jorge Flies , manifestó su inquietud por el financiamiento regional: \"tenemos una discusión de la Ley del Presupuesto, ya a ingresarse la próxima semana, de la que estamos muy atentos. Hemos discutido y conversado con el ministro (de Hacienda, Jorge) Quiróz por posibles rebajas presupuestarias y que nos tienen preocupados\" . El diputado Jorge Díaz (DC) , presidente de la comisión, sostuvo que \"los recortes en todo ámbito han sido la tónica de la forma de administración de este Gobierno, pero lo más impactante es que ojalá este recorte no afecte a los presupuestos de los gobiernos regionales\". Marcel advierte que el Gobierno deberá ordenar prioridades El exministro de Hacienda Mario Marcel también abordó la discusión presupuestaria y señaló que \"es un espacio fiscal limitado en que el Gobierno y el ministro (Quiroz), vamos a ver cómo ordenan las prioridades y las compatibiliza con las obligaciones que también existen, porque también hay obligaciones por ley en materia de pensiones y en otras áreas\". \"También hay ministerios que tienen una dinámica muy pesada como producto de fenómenos de más largo plazo , como es los gastos en salud ligados al envejecimiento de la población, así que hay muchas cosas que compatibilizar en este próximo presupuesto\" , agregó tras exponer ante la comisión asesora que estudia cambios a la arquitectura del Estado. Gobierno afina el proyecto antes de su ingreso al Congreso Durante la jornada, el Presidente José Antonio Kast y el biministro Claudio Alvarado encabezaron reuniones para afinar el proyecto. El subsecretario del Interior, Máximo Pavez , afirmó que su elaboración se realiza con rigurosidad técnica y profesional. También se reunió el ministro del Trabajo, Tomás Rau , con integrantes de la mesa de reactivación laboral . En la cita revisaron iniciativas como el proyecto de sala cuna universal y medidas destinadas a impulsar el empleo.",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-crecimiento-de-1-inquieta-a-regiones-y-servel/2026-09-25/153304.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260925/imag/foto_0000000220260925153304.jpg",
+            "published_raw": "Fri, 25 Sep 2026 15:33:04 -0300",
+            "published_at": "2026-09-25T15:33:04-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 11,
+            "score_institutional": 8,
             "score_elections": 1,
-            "score_international": 1,
-            "score_conflict": 2,
-            "score_policy": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 4,
             "score_ideology": 0,
             "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 20,
+            "political_evidence": 18,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
+            "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
+            "cluster_id": "PML-EVENT-004"
+          },
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Presupuesto 2027: Quiroz descarta riesgos en regiones y el Servel por recortes",
+            "description": "A pocos días de que el Ejecutivo ingrese el proyecto de Ley de Presupuestos 2027 —que contempla un acotado aumento del gasto público cercano al 1% —, el ministro de Hacienda, Jorge Quiroz , puso paños fríos a las inquietudes generadas por las rebajas previstas en distintas reparticiones . Tras reunirse este viernes por la tarde en La Moneda con el Presidente José Antonio Kast , el jefe de la billetera fiscal respondió a los reparos planteados por los Gobiernos Regionales (Gores) y el Servicio Electoral (Servel) . Ante las advertencias de la Asociación de Gobernadores Regionales sobre una rebaja del 7% en sus recursos y un eventual rechazo en el Congreso, Quiroz señaló que el foco estará en \"que haya inversión en las regiones y que esa inversión se pueda hacer con la menor burocracia posible\". \"Hemos planteado medidas para quitar burocracia y dar transparencia, y pienso que finalmente vamos a llegar a un acuerdo con los gobernadores\" , afirmó. Por su parte, la presidenta del Servel, Pamela Figueroa , calificó como \"inédito\" el eventual recorte del 15% solicitado para el organismo, advirtiendo que podría comprometer la fiscalización de partidos y la preparación del ciclo electoral de 2028. \"Nunca habíamos tenido un cuestionamiento del presupuesto y lo hemos hecho ver de esta forma al Poder Ejecutivo. Hemos tenido recepción de nuestra solicitud y esperamos que en los próximos días el presupuesto que sea presentado al Congreso y que se discutirá represente las reales necesidades que el Servicio Electoral, como garante de los procesos electorales de la fiscalización de los partidos políticos y el financiamiento de la política, requiere \", dijo la encargada del organismo. Frente a la preocupación, Quiroz descartó que el ajuste ponga en riesgo las funciones esenciales del Servel y adelantó que instruyó a la Dirección de Presupuestos (Dipres) sostener una reunión con Figueroa para detallar el marco financiero.",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-quiroz-descarta-riesgos-en-regiones-y-el-servel-por/2026-09-25/191132.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260925/imag/foto_0000000220260925191132.jpg",
+            "published_raw": "Fri, 25 Sep 2026 19:11:32 -0300",
+            "published_at": "2026-09-25T19:11:32-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 5,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 0,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 11,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-004"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 22,
+          "bonus": 18,
           "labels": [
             "Estado e instituciones",
-            "Congreso y proceso legislativo"
+            "Economía y políticas públicas"
           ],
-          "chile_utility": 73.4
+          "chile_utility": 74.5
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-012",
+        "cluster_id": "PML-EVENT-011",
         "title": "\"EE.UU. hace bullying si no lo sigues\": Economistas debaten sobre adhesión al Escudo de las Américas",
         "topic": "Relaciones internacionales",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -504,11 +532,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 48.5,
+          "score": 46,
           "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 62,
+            "freshness": 52,
             "source_count": 30,
             "geographic_scope": 58,
             "continuity": 30
@@ -548,7 +576,7 @@
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-012"
+            "cluster_id": "PML-EVENT-011"
           }
         ],
         "article_count": 1,
@@ -556,7 +584,7 @@
         "political_science_fit": {
           "bonus": 10,
           "labels": "Relaciones internacionales",
-          "chile_utility": 58.5
+          "chile_utility": 56
         },
         "repeated_in_general_top5": false
       },
@@ -635,25 +663,25 @@
     {
       "topic": "Conflictos y seguridad",
       "event_count": 6,
-      "maximum_relevance": 67.2,
+      "maximum_relevance": 64.7,
       "leading_story": "Netanyahu reta a una Asamblea de la ONU semivacía en protesta por su invasión de Gaza: “Acusarnos de genocidio es la mayor mentira del siglo”"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 26,
-      "maximum_relevance": 65.1,
+      "event_count": 24,
+      "maximum_relevance": 63.9,
       "leading_story": "El Tribunal Supremo respalda a Trump en el uso de un polémico programa para descartar electores"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 5,
-      "maximum_relevance": 54.8,
-      "leading_story": "De la foto de Delcy Rodríguez a la soledad de Netanyahu: los momentos clave de la Asamblea General de la ONU"
+      "maximum_relevance": 54.1,
+      "leading_story": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 2,
-      "maximum_relevance": 43.7,
+      "maximum_relevance": 40.7,
       "leading_story": "El sombrero de Lula, de accesorio médico a marca personal y foto electoral"
     }
   ],
