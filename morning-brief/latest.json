@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-26",
-    "data_latest_timestamp": "2026-09-26T14:06:06-0300",
-    "data_age_hours": 1.2,
-    "generated_at": "2026-09-26T15:16:14-0300",
+    "data_latest_timestamp": "2026-09-26T17:51:50-0300",
+    "data_age_hours": 0.4,
+    "generated_at": "2026-09-26T18:13:53-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
     "diversity": "La selección cubre 4 temas, 3 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 35,
+    "ranked_events": 36,
     "topics": 4,
     "geographies": 3,
     "representative_sources": 3,
-    "average_top5_relevance": 62.1,
-    "maximum_relevance": 70
+    "average_top5_relevance": 62.9,
+    "maximum_relevance": 68.8
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-024",
+      "cluster_id": "PML-EVENT-025",
       "title": "El presidente Lula prohíbe las apuestas ‘online’ en la recta final de la reñida campaña electoral en Brasil",
       "url": "https://elpais.com/america/2026-09-26/el-presidente-lula-prohibe-las-apuestas-online-en-la-recta-final-de-la-renida-campana-electoral-en-brasil.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +43,12 @@
         "country": "No identificado / América Latina / Brasil"
       },
       "relevance": {
-        "score": 70,
+        "score": 68.8,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 74
+        "editorial_utility": 72.8
       },
       "selection": {
-        "reason": "PML 70; multifuente",
+        "reason": "PML 68.8; multifuente",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -109,7 +109,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
+          "cluster_id": "PML-EVENT-025"
         },
         {
           "source_id": "france24_latam",
@@ -137,12 +137,161 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
+          "cluster_id": "PML-EVENT-025"
         }
       ]
     },
     {
       "position": 2,
+      "cluster_id": "PML-EVENT-030",
+      "title": "Trump rechaza la propuesta de Irán para reabrir el estrecho de Ormuz",
+      "url": "https://elpais.com/us/2026-09-26/trump-rechaza-la-propuesta-de-iran-para-reabrir-el-estrecho-de-ormuz.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 66.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 78.2
+      },
+      "selection": {
+        "reason": "PML 66.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-26T16:00:16-0300",
+      "last_seen": "2026-09-26T16:00:16-0300",
+      "entities": [
+        "trump",
+        "iran"
+      ],
+      "event_terms": [],
+      "analysis": {
+        "summary": "El presidente de Estados Unidos amenaza con nuevos bombardeos tras las elecciones de noviembre",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Trump rechaza la propuesta de Irán para reabrir el estrecho de Ormuz",
+          "description": "El presidente de Estados Unidos amenaza con nuevos bombardeos tras las elecciones de noviembre",
+          "url": "https://elpais.com/us/2026-09-26/trump-rechaza-la-propuesta-de-iran-para-reabrir-el-estrecho-de-ormuz.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/L47QCZ5AXBNE7BILFYMOQ4UJ2I.jpg?auth=4e6be93383214a9ded22ad9330fd49a7ceb14ad722a93f8b098454ed7a0ea7eb",
+          "published_raw": "Sat, 26 Sep 2026 19:00:16 GMT",
+          "published_at": "2026-09-26T16:00:16-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-030"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-023",
+      "title": "Manifestación contra los desahucios, en directo | Los manifestantes por la crisis de la vivienda acampan en Sol y animan a la gente a que se una",
+      "url": "https://elpais.com/espana/2026-09-26/manifestacion-contra-los-desahucios-en-directo.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Conflictos y seguridad",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 62.8,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 70.8
+      },
+      "selection": {
+        "reason": "PML 62.8; aporta diversidad temática; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-26T17:51:50-0300",
+      "last_seen": "2026-09-26T17:51:50-0300",
+      "entities": "congreso",
+      "event_terms": "crisis",
+      "analysis": {
+        "summary": "Decenas de miles de personas recorren Madrid en protesta por los alquileres y los desahucios: “Nos quedamos sin casa” | La marcha ha ido desde la Puerta del Sol hacia el Congreso bajo el lema “Ni una Maricarmen más”",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Manifestación contra los desahucios, en directo | Los manifestantes por la crisis de la vivienda acampan en Sol y animan a la gente a que se una",
+          "description": "Decenas de miles de personas recorren Madrid en protesta por los alquileres y los desahucios: “Nos quedamos sin casa” | La marcha ha ido desde la Puerta del Sol hacia el Congreso bajo el lema “Ni una Maricarmen más”",
+          "url": "https://elpais.com/espana/2026-09-26/manifestacion-contra-los-desahucios-en-directo.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/HN7XMRCZCZH2XER5DPNLKM627A.jpg?auth=87a8d81722d32267a57a2353581bc926b5d00d5789fe6f931750316f4b736c4b",
+          "published_raw": "Sat, 26 Sep 2026 20:51:50 GMT",
+          "published_at": "2026-09-26T17:51:50-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 2,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-023"
+        }
+      ]
+    },
+    {
+      "position": 4,
       "cluster_id": "PML-EVENT-003",
       "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
@@ -154,12 +303,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 67.3,
+        "score": 66.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 79.3
+        "editorial_utility": 66.2
       },
       "selection": {
-        "reason": "PML 67.3; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 66.2; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -182,7 +331,8 @@
       ],
       "event_terms": [
         "interpelacion",
-        "oposicion"
+        "oposicion",
+        "soberania"
       ],
       "analysis": {
         "summary": "El diputado y presidente del PPD, Raúl Soto, elevó el tono contra la adhesión de Chile al Escudo de las Américas y subrayó que esa \"pésima decisión\" debe ser el centro de la interpelación que enfrentará el canciller Francisco Pérez Mackenna el lunes en la Cámara.  LEl interrogatorio -a cargo del diputado socialista e integrante de la Comisión de RR.EE.",
@@ -199,7 +349,7 @@
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
           "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
-          "description": "El diputado y presidente del PPD, Raúl Soto, elevó el tono contra la adhesión de Chile al Escudo de las Américas y subrayó que esa \"pésima decisión\" debe ser el centro de la interpelación que enfrentará el canciller Francisco Pérez Mackenna el lunes en la Cámara.  LEl interrogatorio -a cargo del diputado socialista e integrante de la Comisión de RR.EE. Nelson Venegas- abordará la gestión diplomática del ministro, marcada por reiteradas polémicas como la de Argentina y el Estrecho de Magallanes, el apoyo chileno a la reclamación trasandina en la cuestión de las Malvinas y los opacos alcances de la integración nacional al mentado Escudo. La interpelación contempla 13 puntos, entre ellos el retiro del respaldo del Estado a la fallida candidatura a la ONU de la expresidenta Michelle Bachelet y las controversias que rodean al embajador de Chile en Israel, Gabriel Zaliasnik. En este contexto, Soto espera que la iniciativa \"sea una oportunidad para que la política exterior de Chile se encauce de forma correcta\". \"(Hasta ahora) ha sido débil, errática y genera muchas dudas, y creo que se debe centrar en los fundamentos y también las posibles consecuencias de la pésima decisión de adherir al Escudo de las Américas\" ,  consideró Soto. Schubert: \"(Hay que) ser oposición, pero una prudente\" Desde el oficialismo volvieron a criticar la posibilidad de que la sesión aborde temas sensibles para la seguridad nacional, por lo que reiteraron el carácter \"poco patriota\" de la ofensiva opositora. \"Los diputados que han impulsado esta interpelación no han pensado en la patria. Yo creo que aquí, claramente, no es la oportunidad (adecuada para hacerla, pues) tenemos a un canciller que está negociando temas importantes, y ponerlo hoy en cuestión debilita no solamente a la persona, sino también la postura chilena, y eso sí es muy grave y muy peligroso\", dijo el diputado republicano Stephan Schubert.  \"(Hay que) ser oposición, pero una oposición prudente\", filosofó el también integrante de la Comisión de Relaciones Exteriores. Respecto al Escudo de las Américas, Schubert defendió que \"no es una medida a favor de alguien o de un país en particular, sino una en contra del crimen organizado y el terrorismo. Y es aceptada no solamente por Chile, sino que también por otros 15 países más\".   \"Los expresidentes (Bachelet y Boric, que cuestionaron la adhesión) han tomado su decisión (en materias de seguridad), pero el Presidente Kast, que conduce las relaciones internacionales, ha tomado una decisión distinta, que es utilizar todas las herramientas y todas las instancias posibles para combatir el crimen organizado\", expresó el parlamentario republicano. [Lea también]  Monckeberg atribuye a una \"pasada de cuenta\" la crítica de Bachelet al Escudo de las Américas Holzmann cree que interpelación puede servir para unir a la oposición El analista político Guillermo Holzmann considera que la interpelación opositora \"tiene, en primer lugar, un análisis político-ideológico que consiste en poder establecer un punto de convergencia que lleve a una sola propuesta  a los partidos y movimientos que están en contra del Gobierno\". \"En esa perspectiva, la falta de unidad y contenido que ha mostrado la oposición pasa a ser un elemento que alimenta, y le da mayor fuerza a la necesidad de que esta interpelación al canciller se transforme en una suerte de ícono o pilar de lo que va a ser la reunificación o la propuesta que pueda tener la oposición\", teorizó.",
+          "description": "El diputado y presidente del PPD, Raúl Soto, elevó el tono contra la adhesión de Chile al Escudo de las Américas y subrayó que esa \"pésima decisión\" debe ser el centro de la interpelación que enfrentará el canciller Francisco Pérez Mackenna el lunes en la Cámara.  LEl interrogatorio -a cargo del diputado socialista e integrante de la Comisión de RR.EE. Nelson Venegas- abordará la gestión diplomática del ministro, marcada por reiteradas polémicas como la de Argentina y el Estrecho de Magallanes, el apoyo chileno a la reclamación trasandina en la cuestión de las Malvinas y los opacos alcances de la integración nacional al mentado Escudo. La interpelación contempla 13 puntos, entre ellos el retiro del respaldo del Estado a la fallida candidatura a la ONU de la expresidenta Michelle Bachelet y las controversias que rodean al embajador de Chile en Israel, Gabriel Zaliasnik. En este contexto, Soto espera que la iniciativa \"sea una oportunidad para que la política exterior de Chile se encauce de forma correcta\". \"(Hasta ahora) ha sido débil, errática y genera muchas dudas, y creo que se debe centrar en los fundamentos y también las posibles consecuencias de la pésima decisión de adherir al Escudo de las Américas\" ,  consideró Soto. Schubert: \"No pensaron en la patria\" Desde el oficialismo volvieron a criticar la posibilidad de que la sesión aborde temas sensibles para la seguridad nacional, por lo que reiteraron el carácter \"poco patriota\" de la ofensiva opositora. \"Los diputados que han impulsado esta interpelación no han pensado en la patria. Yo creo que aquí, claramente, no es la oportunidad (adecuada para hacerla, pues) tenemos a un canciller que está negociando temas importantes, y ponerlo hoy en cuestión debilita no solamente a la persona, sino también la postura chilena, y eso sí es muy grave y muy peligroso\", dijo el diputado republicano Stephan Schubert.  \"(Hay que) ser oposición, pero una oposición prudente\", filosofó el también integrante de la Comisión de Relaciones Exteriores. Respecto al Escudo de las Américas, Schubert defendió que \"no es una medida a favor de alguien o de un país en particular, sino una en contra del crimen organizado y el terrorismo. Y es aceptada no solamente por Chile, sino que también por otros 15 países más\".   \"Los expresidentes (Bachelet y Boric, que cuestionaron la adhesión) han tomado su decisión (en materias de seguridad), pero el Presidente Kast, que conduce las relaciones internacionales, ha tomado una decisión distinta, que es utilizar todas las herramientas y todas las instancias posibles para combatir el crimen organizado\", expresó el parlamentario republicano. [Lea también]  Monckeberg atribuye a una \"pasada de cuenta\" la crítica de Bachelet al Escudo de las Américas Holzmann cree que interpelación puede servir para unir a la oposición El analista político Guillermo Holzmann considera que la interpelación opositora \"tiene, en primer lugar, un análisis político-ideológico que consiste en poder establecer un punto de convergencia que lleve a una sola propuesta  a los partidos y movimientos que están en contra del Gobierno\". \"En esa perspectiva, la falta de unidad y contenido que ha mostrado la oposición pasa a ser un elemento que alimenta, y le da mayor fuerza a la necesidad de que esta interpelación al canciller se transforme en una suerte de ícono o pilar de lo que va a ser la reunificación o la propuesta que pueda tener la oposición\", teorizó. Timoneles de Chile Vamos y Republicanos rechazan crítica \"desafortunada y mezquina\" de Bachelet y Boric Durante esta jornada se conoció, en tanto, una declaración conjunta de los timoneles de la UDI (Guillermo Ramírez), RN (Andrea Balladares), Partido Republicano (Arturo Squella) y Evópoli (Luciano Cruz-Coke) rechazando el cuestionamiento público de los exmandatarios. \"Resulta especialmente grave que los ex Presidentes Michelle Bachelet y Gabriel Boric hayan suscrito una declaración cuestionando la incorporación de Chile al Escudo de las Américas  sin siquiera haber conocido –de primera fuente– los alcances, condiciones y resguardos bajo los cuales el Gobierno adoptó dicha decisión . Mucho más aún cuando ambos saben, por la responsabilidad que alguna vez ejercieron, cómo se conduce la política exterior, las complejidades propias de las relaciones internacionales y el rigor con que se toman las decisiones de Estado\", señalaron los dirigentes oficialistas. \"Precisamente por la investidura que ambos ostentaron y por la responsabilidad de Estado que conllevan, su actuación merece ser reprochada desde un punto de vista político (...) Es inadmisible cuestionar la soberanía de Chile desde el desconocimiento de los antecedentes que sustentan esta decisión ni mucho menos atribuir al Gobierno una supuesta subordinación de nuestra política exterior , sin contar con los elementos que permitan sostener una afirmación de esa gravedad. Más grave aún es poner en duda que el actual Mandatario está ejerciendo sus facultades para defender los intereses permanentes de Chile \", se quejaron. \"Ningún Presidente de Chile, desde los albores de nuestra República, ha puesto en riesgo la soberanía nacional. Y el Presidente José Antonio Kast no será el primero en hacerlo. Chile es un país soberano precisamente porque tiene la facultad de decidir con quién coopera, bajo qué condiciones y con qué objetivos . Y frente al avance del crimen organizado transnacional, la coordinación con otras naciones no implica ceder soberanía , sino ejercerla en defensa de los intereses de todos los chilenos\", argumentaron los timoneles. Por las consideraciones anteriores, \" rechazamos categóricamente una declaración que, viniendo de dos ex Jefes de Estado, resulta especialmente desafortunada e insalvablemente mezquina , al transformar una legítima diferencia política en una imputación sobre la soberanía nacional\", sentenciaron Ramírez, Balladares, Squella y Cruz-Coke ( ver archivo adjunto ).",
           "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
           "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260926/imag/foto_0000000220260926140606.png",
           "published_raw": "Sat, 26 Sep 2026 14:06:06 -0300",
@@ -213,168 +363,15 @@
           "score_conflict": 3,
           "score_policy": 0,
           "score_ideology": 1,
-          "score_actor": 5,
+          "score_actor": 6,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 19,
+          "political_evidence": 20,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
           "cluster_id": "PML-EVENT-003"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-023",
-      "title": "Trump dice que Estados Unidos llegará a un acuerdo con Cuba y descarta una intervención militar",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260926-trump-dice-que-estados-unidos-llegar%C3%A1-a-un-acuerdo-con-cuba-y-descarta-una-intervenci%C3%B3n-militar",
-      "representative_source": "France 24",
-      "topic": "Conflictos y seguridad",
-      "event_type": "POLITICAL_STATEMENT",
-      "geography": {
-        "group": "Estados Unidos",
-        "country": "Estados Unidos"
-      },
-      "relevance": {
-        "score": 56.8,
-        "level": "MEDIA",
-        "editorial_utility": 68.8
-      },
-      "selection": {
-        "reason": "PML 56.8; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-09-26T14:05:07-0300",
-      "last_seen": "2026-09-26T14:05:07-0300",
-      "entities": "trump",
-      "event_terms": [],
-      "analysis": {
-        "summary": "El presidente de Estados Unidos, Donald Trump, afirmó este sábado que espera alcanzar un acuerdo con Cuba y aseguró que no será necesaria una intervención militar en la isla. La declaración llega después de que CBS News revelara que la Reserva del Ejército analiza la posibilidad de aportar personal policial, médico y otras unidades de apoyo al Comando Sur para los próximos cuatro meses, en el marco de una planificación militar vinculada a Cuba.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Estados Unidos.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Trump dice que Estados Unidos llegará a un acuerdo con Cuba y descarta una intervención militar",
-          "description": "El presidente de Estados Unidos, Donald Trump, afirmó este sábado que espera alcanzar un acuerdo con Cuba y aseguró que no será necesaria una intervención militar en la isla. La declaración llega después de que CBS News revelara que la Reserva del Ejército analiza la posibilidad de aportar personal policial, médico y otras unidades de apoyo al Comando Sur para los próximos cuatro meses, en el marco de una planificación militar vinculada a Cuba.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260926-trump-dice-que-estados-unidos-llegar%C3%A1-a-un-acuerdo-con-cuba-y-descarta-una-intervenci%C3%B3n-militar",
-          "image_url": "https://s.france24.com/media/display/5880077a-b732-11f1-a74e-a5615d7a48ac/w:1024/p:16x9/2026-09-23T005200Z-286321362-RC2JONAS182S-RTRMADP-3-CUBA-DAILYLIFE.jpg",
-          "published_raw": "Sat, 26 Sep 2026 17:05:07 GMT",
-          "published_at": "2026-09-26T14:05:07-0300",
-          "country": "Estados Unidos",
-          "region": "Estados Unidos",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-004",
-      "title": "Analista: \"El candidato Kast le habría pedido ya la renuncia al Presidente Kast en más de una ocasión\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/analista-el-candidato-kast-le-habria-pedido-ya-la-renuncia-al/2026-09-26/094547.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 65.9,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 60.9
-      },
-      "selection": {
-        "reason": "PML 65.9",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-09-26T09:45:47-0300",
-      "last_seen": "2026-09-26T09:45:47-0300",
-      "entities": [
-        "chile",
-        "boric",
-        "nicaragua"
-      ],
-      "event_terms": [
-        "oposicion",
-        "interpelacion"
-      ],
-      "analysis": {
-        "summary": "El cientista político y gerente de la consultora Imaginacción, Ignacio Imas, dijo a Cooperativa que transcurridos seis meses de Gobierno, vistos los pésimos resultados económicos y el desorden y falta de coordinación entre el Ejecutivo y los partidos oficialistas, \"el candidato Kast le habría pedido la renuncia en más de una ocasión al Presidente Kast\".",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Analista: \"El candidato Kast le habría pedido ya la renuncia al Presidente Kast en más de una ocasión\"",
-          "description": "El cientista político y gerente de la consultora Imaginacción, Ignacio Imas, dijo a Cooperativa que transcurridos seis meses de Gobierno, vistos los pésimos resultados económicos y el desorden y falta de coordinación entre el Ejecutivo y los partidos oficialistas, \"el candidato Kast le habría pedido la renuncia en más de una ocasión al Presidente Kast\". \"(Su Administración) tiene problemas profundos en economía, (que busca resultados) que están llegando demasiado atrasados, particularmente en el desempleo; y el problema de base es la coordinación o los problemas políticos que tiene el oficialismo y también el Gobierno\", analizó Imas este sábado en El Diario de Cooperativa. \"En el caso del oficialismo, es claro que hay al menos dos perfiles muy marcados: uno que es una derecha más bien de corte liberal, que viene desde Chile Vamos y que está permanentemente cuestionando lo que hace el Partido Republicano, que -a su vez- prefiere sentirse más cómodo con Libertarios. Pareciera que ahí está su nicho, y eso también le ha jugado en contra al propio Ejecutivo\", observó el experto. \"También tenemos una descoordinación importante a nivel de gabinete. Sabíamos de origen que era débil, y (hoy) tiene bajo reconocimiento ciudadano (...). Eso interpela el liderazgo no solamente del ministro del Interior (Claudio Alvarado), sino que del propio Presidente Kast\", agregó. El fundador del Partido Republicano, \"como Presidente y como líder de esta coalición de Gobierno o del oficialismo, debería aspirar a un orden, porque si uno lo mira en retrospectiva, ¿qué diría el candidato Kast de lo que está haciendo hoy el Presidente Kast? Probablemente -no tengo duda de aquello-, le habría pedido la renuncia o que, al menos, dé un paso al costado en más de alguna ocasión\", señaló el gerente de Imaginacción. \"Al menos desde Boric, la política interna se está inmiscuyendo en la política exterior\" A juicio de Imas, el desorden demostrado por la Administración Kast en el frente interno también se ha extendido a las relaciones internacionales, aunque el problema, en este punto, no es estrictamente nuevo. \"Lamentablemente, la política interna en Chile, al menos desde la administración de Gabriel Boric, ya se está inmiscuyendo en la política exterior. En ese período la oposición de derecha, y más fuertemente el Partido Republicano, fue bastante crítica respecto a algunos movimientos diplomáticos que tuvo el expresidente Boric. Por ejemplo, lo que tuvo que ver con (el foro)  Democracia Siempre\",   recordó el cientista político. \"Si bien ahí eran en su mayoría o casi en su totalidad primeros ministros o mandatarios de corte progresista, Boric también tuvo movimientos diplomáticos que lo llevaron mucho más allá de su línea ideológica: la buena relación con Emmanuel Macron,  por ejemplo; las reuniones con Volodímir Zelenski; o las críticas que hizo recurrentemente a regímenes como el de Cuba y el de Nicaragua\", indicó. Por último, respecto a la interpelación que enfrentará el lunes el canciller Francisco Pérez Mackenna en la Cámara Baja,   Imas dijo esperar que no sea \"un show mediático\" y que el ministro pueda explicar debidamente \"lo que ha hecho (hasta ahora), porque hay que decir que ha carecido de una buena gestión en política exterior\".",
-          "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/analista-el-candidato-kast-le-habria-pedido-ya-la-renuncia-al/2026-09-26/094547.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260926/imag/foto_0000001320260926094547.png",
-          "published_raw": "Sat, 26 Sep 2026 09:45:47 -0300",
-          "published_at": "2026-09-26T09:45:47-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 7,
-          "score_elections": 1,
-          "score_international": 2,
-          "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 2,
-          "score_actor": 6,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 19,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
         }
       ]
     },
@@ -464,7 +461,79 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-002",
+        "cluster_id": "PML-EVENT-005",
+        "title": "Analista: \"El candidato Kast le habría pedido ya la renuncia al Presidente Kast en más de una ocasión\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/analista-el-candidato-kast-le-habria-pedido-ya-la-renuncia-al/2026-09-26/094547.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 64.2,
+          "level": "MEDIA-ALTA",
+          "components": {
+            "political_impact": 83,
+            "freshness": 88,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-09-26T09:45:47-0300",
+        "last_seen": "2026-09-26T09:45:47-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Analista: \"El candidato Kast le habría pedido ya la renuncia al Presidente Kast en más de una ocasión\"",
+            "description": "El cientista político y gerente de la consultora Imaginacción, Ignacio Imas, dijo a Cooperativa que transcurridos seis meses de Gobierno, vistos los pésimos resultados económicos y el desorden y falta de coordinación entre el Ejecutivo y los partidos oficialistas, \"el candidato Kast le habría pedido la renuncia en más de una ocasión al Presidente Kast\". \"(Su Administración) tiene problemas profundos en economía, (que busca resultados) que están llegando demasiado atrasados, particularmente en el desempleo; y el problema de base es la coordinación o los problemas políticos que tiene el oficialismo y también el Gobierno\", analizó Imas este sábado en El Diario de Cooperativa. \"En el caso del oficialismo, es claro que hay al menos dos perfiles muy marcados: uno que es una derecha más bien de corte liberal, que viene desde Chile Vamos y que está permanentemente cuestionando lo que hace el Partido Republicano, que -a su vez- prefiere sentirse más cómodo con Libertarios. Pareciera que ahí está su nicho, y eso también le ha jugado en contra al propio Ejecutivo\", observó el experto. \"También tenemos una descoordinación importante a nivel de gabinete. Sabíamos de origen que era débil, y (hoy) tiene bajo reconocimiento ciudadano (...). Eso interpela el liderazgo no solamente del ministro del Interior (Claudio Alvarado), sino que del propio Presidente Kast\", agregó. El fundador del Partido Republicano, \"como Presidente y como líder de esta coalición de Gobierno o del oficialismo, debería aspirar a un orden, porque si uno lo mira en retrospectiva, ¿qué diría el candidato Kast de lo que está haciendo hoy el Presidente Kast? Probablemente -no tengo duda de aquello-, le habría pedido la renuncia o que, al menos, dé un paso al costado en más de alguna ocasión\", señaló el gerente de Imaginacción. \"Al menos desde Boric, la política interna se está inmiscuyendo en la política exterior\" A juicio de Imas, el desorden demostrado por la Administración Kast en el frente interno también se ha extendido a las relaciones internacionales, aunque el problema, en este punto, no es estrictamente nuevo. \"Lamentablemente, la política interna en Chile, al menos desde la administración de Gabriel Boric, ya se está inmiscuyendo en la política exterior. En ese período la oposición de derecha, y más fuertemente el Partido Republicano, fue bastante crítica respecto a algunos movimientos diplomáticos que tuvo el expresidente Boric. Por ejemplo, lo que tuvo que ver con (el foro)  Democracia Siempre\",   recordó el cientista político. \"Si bien ahí eran en su mayoría o casi en su totalidad primeros ministros o mandatarios de corte progresista, Boric también tuvo movimientos diplomáticos que lo llevaron mucho más allá de su línea ideológica: la buena relación con Emmanuel Macron,  por ejemplo; las reuniones con Volodímir Zelenski; o las críticas que hizo recurrentemente a regímenes como el de Cuba y el de Nicaragua\", indicó. Por último, respecto a la interpelación que enfrentará el lunes el canciller Francisco Pérez Mackenna en la Cámara Baja,   Imas dijo esperar que no sea \"un show mediático\" y que el ministro pueda explicar debidamente \"lo que ha hecho (hasta ahora), porque hay que decir que ha carecido de una buena gestión en política exterior\".",
+            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/analista-el-candidato-kast-le-habria-pedido-ya-la-renuncia-al/2026-09-26/094547.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260926/imag/foto_0000001320260926094547.png",
+            "published_raw": "Sat, 26 Sep 2026 09:45:47 -0300",
+            "published_at": "2026-09-26T09:45:47-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 7,
+            "score_elections": 1,
+            "score_international": 2,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 2,
+            "score_actor": 6,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 19,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Relaciones internacionales",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-005"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Elecciones y opinión pública"
+          ],
+          "chile_utility": 86.2
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-004",
         "title": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -475,11 +544,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 51.4,
+          "score": 47.6,
           "level": "BAJA",
           "components": {
             "political_impact": 95,
-            "freshness": 25,
+            "freshness": 10,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 46
@@ -519,7 +588,7 @@
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
+            "cluster_id": "PML-EVENT-004"
           }
         ],
         "article_count": 1,
@@ -530,13 +599,13 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 73.4
+          "chile_utility": 69.6
         },
         "repeated_in_general_top5": false
       },
       {
-        "position": 2,
-        "cluster_id": "PML-EVENT-006",
+        "position": 3,
+        "cluster_id": "PML-EVENT-007",
         "title": "Presupuesto 2027: Quiroz descarta riesgos en regiones y el Servel por recortes",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -591,7 +660,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
+            "cluster_id": "PML-EVENT-007"
           },
           {
             "source_id": "cooperativa_politica",
@@ -619,7 +688,7 @@
             "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
+            "cluster_id": "PML-EVENT-007"
           }
         ],
         "article_count": 1,
@@ -633,75 +702,6 @@
           "chile_utility": 67.7
         },
         "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-005",
-        "title": "Paulina Núñez pide \"cirugía mayor\" para remediar el déficit político del gabinete",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/paulina-nunez-pide-cirugia-mayor-para-remediar-el-deficit-politico-del/2026-09-25/144254.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 48.8,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 52,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 32
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-09-25T14:42:54-0300",
-        "last_seen": "2026-09-25T14:42:54-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Paulina Núñez pide \"cirugía mayor\" para remediar el déficit político del gabinete",
-            "description": "La presidenta del Senado, Paulina Núñez (RN), cuestionó la gestión política del Gobierno y planteó la necesidad de una \"cirugía mayor\" en el gabinete , acusando falta de conducción y errores en la tramitación de distintos proyectos en el Congreso. En entrevista con T13 , la senadora apuntó a un déficit político entre quienes acompañan al Presidente José Antonio Kast , aunque defendió la labor del ministro de la Segpres, José García Ruminot. Las críticas encontraron respaldo en la oposición. La diputada y presidenta del Frente Amplio, Gael Yeomans , afirmó que \"en este Gobierno hay déficit político, impericia y nula disposición al diálogo\" , y pidió al Mandatario \"ordenar a su equipo\" ante el inicio de la discusión presupuestaria. En la misma línea, la senadora y presidenta del Partido Socialista, Paulina Vodanovic, cuestionó el desempeño de distintos secretarios de Estado en el Congreso, en proyectos como la megarreforma y Sala Cuna Universal. También mencionó al ministro de Seguridad, Martín Arrau , quien, según recordó, \" ha confesado que por él no iría al Congreso\". \"Hay un déficit de conducción y coincido plenamente con la senadora Paulina Núñez\" , sostuvo Vodanovic. También se sumó el jefe de bancada del Partido de la Gente, Juan Marcelo Valenzuela , quien apuntó a los problemas de coordinación legislativa: \"Gobernar también significa (para el Ejecutivo)  ordenar a sus propios parlamentarios, asegurar sus votos y construir los acuerdos necesarios en el Congreso en vez de buscar responsables por fuera\". \"No se entiende que una reforma que ellos mismos consideran fundamental se vote con parlamentarios del oficialismo fuera del país y con errores de coordinación. Cuando un proyecto tan importante termina cayéndose por un voto, lo primero es asumir las responsabilidades propias. Este Gobierno fue muy crítico del anterior por su falta de experiencia y conducción y, por lo mismo, hoy tiene que demostrar que puede hacerlo mejor\", afirmó.  Republicanos cuestionan críticas   Desde el Partido Republicano, en tanto, salieron a respaldar al Ejecutivo y cuestionaron que las diferencias dentro del oficialismo fueran planteadas a través de la prensa. La diputada Macarena Santelices sostuvo que \"usar la prensa para evaluar públicamente la gestión del Ejecutivo solo desgasta la confianza y entorpece la agenda \", y llamó a plantear los reparos directamente en las instancias internas. Su par Stephan Schubert aseguró que Núñez tiene mecanismos para hacer llegar sus sugerencias \"sin publicidad, sin ir a la prensa\" , porque \"si uno realmente quiere que las cosas anden mejor, tiene que buscar los caminos apropiados para no generar más problemas, sino permitir que haya soluciones\". En tanto, el diputado Alejandro Riquelme afirmó que sus declaraciones \"solo debilitan al Gobierno y la coordinación en nuestro sector\" y pidió abordar las diferencias \"de frente y en reserva\".",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/paulina-nunez-pide-cirugia-mayor-para-remediar-el-deficit-politico-del/2026-09-25/144254.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260925/imag/foto_0000001420260925144254.jpg",
-            "published_raw": "Fri, 25 Sep 2026 14:42:54 -0300",
-            "published_at": "2026-09-25T14:42:54-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 9,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 8,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 19,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 57.8
-        },
-        "repeated_in_general_top5": false
       }
     ]
   },
@@ -709,20 +709,20 @@
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 3,
-      "maximum_relevance": 70,
+      "maximum_relevance": 68.8,
       "leading_story": "El presidente Lula prohíbe las apuestas ‘online’ en la recta final de la reñida campaña electoral en Brasil"
     },
     {
       "topic": "Instituciones y gobierno",
       "event_count": 24,
-      "maximum_relevance": 67.3,
-      "leading_story": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo"
+      "maximum_relevance": 66.2,
+      "leading_story": "Trump rechaza la propuesta de Irán para reabrir el estrecho de Ormuz"
     },
     {
       "topic": "Conflictos y seguridad",
-      "event_count": 4,
-      "maximum_relevance": 56.8,
-      "leading_story": "Trump dice que Estados Unidos llegará a un acuerdo con Cuba y descarta una intervención militar"
+      "event_count": 5,
+      "maximum_relevance": 62.8,
+      "leading_story": "Manifestación contra los desahucios, en directo | Los manifestantes por la crisis de la vivienda acampan en Sol y animan a la gente a que se una"
     },
     {
       "topic": "Relaciones internacionales",
