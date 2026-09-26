@@ -4,76 +4,81 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-26",
-    "data_latest_timestamp": "2026-09-26T06:30:00-0300",
-    "data_age_hours": 2.8,
-    "generated_at": "2026-09-26T09:17:16-0300",
+    "data_latest_timestamp": "2026-09-26T12:00:59-0300",
+    "data_age_hours": 0.2,
+    "generated_at": "2026-09-26T12:14:08-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": false
+    "editorial_topic_diversity_met": true
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Relaciones internacionales.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
+    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 34,
-    "topics": 2,
+    "ranked_events": 35,
+    "topics": 3,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 56.9,
-    "maximum_relevance": 68.2
+    "average_top5_relevance": 59.5,
+    "maximum_relevance": 70
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-029",
-      "title": "El estreno del canciller Velasco en la ONU: “México demuestra que puede cooperar con sus socios y hacer valer su soberanía”",
-      "url": "https://elpais.com/mexico/2026-09-26/el-estreno-del-canciller-velasco-en-la-onu-mexico-demuestra-que-puede-cooperar-con-sus-socios-y-hacer-valer-su-soberania.html",
+      "cluster_id": "PML-EVENT-024",
+      "title": "El presidente Lula prohíbe las apuestas ‘online’ en la recta final de la reñida campaña electoral en Brasil",
+      "url": "https://elpais.com/america/2026-09-26/el-presidente-lula-prohibe-las-apuestas-online-en-la-recta-final-de-la-renida-campana-electoral-en-brasil.html",
       "representative_source": "EL PAÍS",
-      "topic": "Relaciones internacionales",
-      "event_type": "DIPLOMATIC_EVENT",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
         "group": "América Latina",
-        "country": "México / América Latina"
+        "country": "No identificado / América Latina / Brasil"
       },
       "relevance": {
-        "score": 68.2,
+        "score": 70,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 68.2
+        "editorial_utility": 74
       },
       "selection": {
-        "reason": "PML 68.2",
+        "reason": "PML 70; multifuente",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
+        "article_count": 2,
+        "source_count": 2,
+        "sources": [
+          "EL PAÍS",
+          "France 24"
+        ]
       },
-      "first_seen": "2026-09-26T06:30:00-0300",
-      "last_seen": "2026-09-26T06:30:00-0300",
+      "first_seen": "2026-09-26T11:59:17-0300",
+      "last_seen": "2026-09-26T12:00:59-0300",
       "entities": [
-        "onu",
-        "mexico",
-        "sheinbaum",
-        "trump"
+        "lula",
+        "brasil",
+        "bolsonaro"
       ],
-      "event_terms": "soberania",
+      "event_terms": [
+        "eleccion",
+        "crisis"
+      ],
       "analysis": {
-        "summary": "El secretario de Relaciones Exteriores, que representa al país ante al ausencia de Sheinbaum, no menciona a Trump ni a Estados Unidos en la Asamblea General, al final de una semana de reuniones bilaterales y también de polémicas",
-        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en México / América Latina.",
+        "summary": "El mandatario, empatado con Bolsonaro hijo, veta los juegos de azar digitales para afrontar la grave crisis de deuda y adicción",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / América Latina / Brasil.",
         "watch_next": [
-          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
-          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
@@ -81,100 +86,55 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "El estreno del canciller Velasco en la ONU: “México demuestra que puede cooperar con sus socios y hacer valer su soberanía”",
-          "description": "El secretario de Relaciones Exteriores, que representa al país ante al ausencia de Sheinbaum, no menciona a Trump ni a Estados Unidos en la Asamblea General, al final de una semana de reuniones bilaterales y también de polémicas",
-          "url": "https://elpais.com/mexico/2026-09-26/el-estreno-del-canciller-velasco-en-la-onu-mexico-demuestra-que-puede-cooperar-con-sus-socios-y-hacer-valer-su-soberania.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/LS4G6EOII5LLREYWPTAJAQXD7E.jpg?auth=f4491acb0da49091e795abb0f54fe6d10df57e78763feceba7cfbf21d5faa829",
-          "published_raw": "Sat, 26 Sep 2026 09:30:00 GMT",
-          "published_at": "2026-09-26T06:30:00-0300",
-          "country": "México",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 0,
-          "score_international": 3,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Relaciones internacionales",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-024",
-      "title": "El chavismo se compromete a mejorar la libertad de prensa en la segunda ronda de negociaciones con la oposición",
-      "url": "https://elpais.com/america/2026-09-26/el-chavismo-se-compromete-a-mejorar-la-libertad-de-prensa-en-la-segunda-ronda-de-negociaciones-con-la-oposicion.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "DIPLOMATIC_EVENT",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / América Latina"
-      },
-      "relevance": {
-        "score": 59.7,
-        "level": "MEDIA",
-        "editorial_utility": 64.7
-      },
-      "selection": {
-        "reason": "PML 59.7; aporta diversidad temática",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-09-25T23:53:36-0300",
-      "last_seen": "2026-09-25T23:53:36-0300",
-      "entities": [],
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "El presidente de la Asamblea, Jorge Rodríguez, da a entender con evasivas que el Gobierno no se opone al regreso al país de María Corina Machado",
-        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
-        "watch_next": [
-          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
-          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El chavismo se compromete a mejorar la libertad de prensa en la segunda ronda de negociaciones con la oposición",
-          "description": "El presidente de la Asamblea, Jorge Rodríguez, da a entender con evasivas que el Gobierno no se opone al regreso al país de María Corina Machado",
-          "url": "https://elpais.com/america/2026-09-26/el-chavismo-se-compromete-a-mejorar-la-libertad-de-prensa-en-la-segunda-ronda-de-negociaciones-con-la-oposicion.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/YYVLVGLXMBPW5BL6N3REKGV6NI.jpg?auth=07b709f177373b422fd6413a9e9ca4ec1fa1fa9deef79dbdb69be0dd7f391c55",
-          "published_raw": "Sat, 26 Sep 2026 02:53:36 GMT",
-          "published_at": "2026-09-25T23:53:36-0300",
+          "title": "El presidente Lula prohíbe las apuestas ‘online’ en la recta final de la reñida campaña electoral en Brasil",
+          "description": "El mandatario, empatado con Bolsonaro hijo, veta los juegos de azar digitales para afrontar la grave crisis de deuda y adicción",
+          "url": "https://elpais.com/america/2026-09-26/el-presidente-lula-prohibe-las-apuestas-online-en-la-recta-final-de-la-renida-campana-electoral-en-brasil.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/Q6A2LT3ZEFOVBETPL37T2EJFXE.jpg?auth=e442b210fc3700e1476a8bf9270c7026504eafbd3129454a2b5564fab6b54a2c",
+          "published_raw": "Sat, 26 Sep 2026 15:00:59 GMT",
+          "published_at": "2026-09-26T12:00:59-0300",
           "country": "No identificado",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
+          "score_institutional": 1,
+          "score_elections": 2,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 2,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-024"
+        },
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Lula prohíbe las apuestas online en Brasil a nueve días de las elecciones",
+          "description": "El presidente brasileño Luiz Inácio Lula da Silva anunció la prohibición de las apuestas online y los casinos digitales en Brasil, una decisión que llega a apenas nueve días de las elecciones presidenciales y legislativas y que el Gobierno presenta como una medida para proteger las finanzas de las familias. La decisión supone un giro para un sector que la propia administración de Lula había regulado y que en los últimos años se convirtió en un negocio multimillonario.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260926-lula-proh%C3%ADbe-las-apuestas-online-en-brasil-a-nueve-d%C3%ADas-de-las-elecciones",
+          "image_url": "https://s.france24.com/media/display/d002bc9c-b936-11f1-8b95-852b23529bb9/w:1024/p:16x9/969292e5ada988f781066493d18012f7fdb7ed72.jpg",
+          "published_raw": "Sat, 26 Sep 2026 14:59:17 GMT",
+          "published_at": "2026-09-26T11:59:17-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 4,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
           "cluster_id": "PML-EVENT-024"
@@ -182,10 +142,10 @@
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-002",
-      "title": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-gobierno-confirmo-que-insistira-en-el-senado/2026-09-23/143812.html",
+      "position": 2,
+      "cluster_id": "PML-EVENT-003",
+      "title": "Analista: \"El candidato Kast le habría pedido ya la renuncia al Presidente Kast en más de una ocasión\"",
+      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/analista-el-candidato-kast-le-habria-pedido-ya-la-renuncia-al/2026-09-26/094547.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -194,12 +154,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 51.4,
-        "level": "BAJA",
-        "editorial_utility": 54.4
+        "score": 67.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 79.2
       },
       "selection": {
-        "reason": "PML 51.4; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 67.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -209,15 +169,19 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-09-23T14:38:12-0300",
-      "last_seen": "2026-09-23T14:38:12-0300",
+      "first_seen": "2026-09-26T09:45:47-0300",
+      "last_seen": "2026-09-26T09:45:47-0300",
       "entities": [
-        "senado",
-        "congreso"
+        "chile",
+        "boric",
+        "nicaragua"
       ],
-      "event_terms": "sanciones",
+      "event_terms": [
+        "oposicion",
+        "interpelacion"
+      ],
       "analysis": {
-        "summary": "Tras e l revés sufrido ayer en la Cámara de Diputadas y Diputados —donde la iniciativa fue rechazada por apenas un voto tras alcanzar 88 de los 89 apoyos requeridos (con 28 votos en contra y 19 abstenciones)—, el Gobierno confirmó este miércoles que insistirá con su reforma constitucional para ampliar de cinco a 30 días el plazo de detención para las expulsiones administrativas de extranjeros .",
+        "summary": "El cientista político y gerente de la consultora Imaginacción, Ignacio Imas, dijo a Cooperativa que transcurridos seis meses de Gobierno, vistos los pésimos resultados económicos y el desorden y falta de coordinación entre el Ejecutivo y los partidos oficialistas, \"el candidato Kast le habría pedido la renuncia en más de una ocasión al Presidente Kast\".",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -230,36 +194,36 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado",
-          "description": "Tras e l revés sufrido ayer en la Cámara de Diputadas y Diputados —donde la iniciativa fue rechazada por apenas un voto tras alcanzar 88 de los 89 apoyos requeridos (con 28 votos en contra y 19 abstenciones)—, el Gobierno confirmó este miércoles que insistirá con su reforma constitucional para ampliar de cinco a 30 días el plazo de detención para las expulsiones administrativas de extranjeros . La propuesta facultaba además al Ejecutivo para habilitar recintos especiales destinados a albergar a los ciudadanos sometidos a este proceso. La determinación fue ratificada por el vicepresidente de la República, Claudio Alvarado , quien fustigó las abstenciones y ausencias en la Sala y confirmó la decisión de recurrir a la Cámara Alta. \"Los dejaron entrar y hoy día ellos mismos no quieren que se vayan, pero nosotros, como estamos conscientes de que tenemos que hacer cumplir la ley y que necesitamos regularizar la situación, vamos a insistir por el Senado con los dos tercios para que se pueda seguir tramitando esta iniciativa . Lo único que quiero pedir es un sentido de responsabilidad\", abogó. Frente a la intención anunciada por Alvarado de insistir en la Cámara Alta con el articulado rechazado, el ministro José García Ruminot adoptó un tono más cauto, afirmando que están \" evaluando esa situación junto con el ministro del Interior \". \" Estamos conversando con las senadoras , con los senadores . Nos gustaría mucho insistir \", puntualizó el secretario de Estado. \"Realismo legislativo\": el escenario en la Cámara Alta Para rehabilitar la tramitación mediante la insistencia constitucional, el Gobierno requiere alcanzar un quórum de dos tercios de los senadores presentes. Ante esta exigencia, la presidenta del Senado, Paulina Núñez (Renovación Nacional), instó al Ejecutivo a actuar con \"realismo legislativo\" y manifestarse abierto a flexibilizar la propuesta. \"Para insistir en el Senado, convengamos que no vamos a insistir con el mismo texto, sino con el argumento de fondo , porque ese argumento operó también en el Gobierno pasado, cuando se amplió el plazo de detención, porque se entiende que efectivamente en ese plazo ampliado se producen mayoritariamente las expulsiones necesarias\", sostuvo la parlamentaria. \"Si tiene que ser un plazo menor con tal de insistir en el Senado, bueno, será parte de la discusión que tengamos\" , agregó Núñez. Por su parte, el senador Iván Flores (DC) señaló que \"tal como fue (la votación) en la Cámara, yo diría que lo estoy pensando\" . \"Si arreglan las cosas, por supuesto que vamos a apoyar la agenda de seguridad . Si los proyectos que están allí en general, excepto la reforma constitucional, son todos acompañables, pero arreglen primero la mochila y y los proyectos\", enfatizó. La lección, según Arrau: \"No hay que confiarse\" Por su parte, el ministro de Seguridad, Martín Arrau , lamentó la falta de respaldo durante una intervención en el ciclo \"Conoce a tu Ministro\" de Icare. \"Llegado el momento de la votación en general, desaparecieron algunos votos y se rechaza esto. Es gravísimo , porque es una herramienta tremendamente práctica y hoy día quedamos sin esa herramienta. Hicimos este sistema laborioso, costoso, inoperante que tenemos... No hay que confiarse, parece \", enfatizó. Arrau rambién argmentó que \"yo por mí no iría al Congreso, porque creo que la gestión es tremendamente más importante. Por ejemplo, en obras públicas no iba el ministro al Congreso, iba el especialista de tal tema. Y usted entenderá que yo no soy especialista en materias penales constitucionales, cosas de ese estilo\". \"Espero no tener que ir más de un día al Congreso . Ya se votó una ley muy importante, antibarrricadas 2.0, pero no puedo estar ahí. Hay que ir a tramitar las leyes que sean realmente necesarias y urgentes\", resaltó. La respuesta a sus palabras no se hizo esperar, y fue el diputado Diego Schalper (RN) sostuvo que los \"ministros del presidente Kast tienen que tener claro que parte de sus obligaciones como colegisladores es concurrir al Congreso , sacar adelante la agenda legislativa\". \"Uno pocas veces en la vida hace lo que quiere, normalmente corresponde hacer lo que uno tiene que hacer y el ministro de seguridad tiene que venir al Congreso a tramitar la agenda legislativa\", indicó. Desde la Cámara Alta, en tanto, el senador Matías Walker (independiente) instó a que \" el ministro de Seguridad se ahorre los viajes al Congreso, porque al parecer para él es una molestia . No tenemos problemas en entendernos con el ministro (de la Segpres) José García Ruminot, que sí respeta al Congreso Nacional \". En paralelo al debate migratorio, la Cámara Baja aprobó y despachó al Senado el denominado proyecto \"Antibarricadas 2.0\" , que endurece las sanciones penales para quienes interrumpan el tránsito o corten vías públicas mediante violencia, intimidación u obstáculos que generen un peligro concreto para la vida o la integridad física de las personas. Asimismo, la normativa extiende la aplicación de multas de hasta 20 UTM y penas de presidio menor a quienes causen afectaciones graves a los servicios de transporte masivo, como la interrupción de la red del Metro de Santiago.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-gobierno-confirmo-que-insistira-en-el-senado/2026-09-23/143812.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260923/imag/foto_0000000320260923143812.jpg",
-          "published_raw": "Wed, 23 Sep 2026 14:38:12 -0300",
-          "published_at": "2026-09-23T14:38:12-0300",
+          "title": "Analista: \"El candidato Kast le habría pedido ya la renuncia al Presidente Kast en más de una ocasión\"",
+          "description": "El cientista político y gerente de la consultora Imaginacción, Ignacio Imas, dijo a Cooperativa que transcurridos seis meses de Gobierno, vistos los pésimos resultados económicos y el desorden y falta de coordinación entre el Ejecutivo y los partidos oficialistas, \"el candidato Kast le habría pedido la renuncia en más de una ocasión al Presidente Kast\". \"(Su Administración) tiene problemas profundos en economía, (que busca resultados) que están llegando demasiado atrasados, particularmente en el desempleo; y el problema de base es la coordinación o los problemas políticos que tiene el oficialismo y también el Gobierno\", analizó Imas este sábado en El Diario de Cooperativa. \"En el caso del oficialismo, es claro que hay al menos dos perfiles muy marcados: uno que es una derecha más bien de corte liberal, que viene desde Chile Vamos y que está permanentemente cuestionando lo que hace el Partido Republicano, que -a su vez- prefiere sentirse más cómodo con Libertarios. Pareciera que ahí está su nicho, y eso también le ha jugado en contra al propio Ejecutivo\", observó el experto. \"También tenemos una descoordinación importante a nivel de gabinete. Sabíamos de origen que era débil, y (hoy) tiene bajo reconocimiento ciudadano (...). Eso interpela el liderazgo no solamente del ministro del Interior (Claudio Alvarado), sino que del propio Presidente Kast\", agregó. El fundador del Partido Republicano, \"como Presidente y como líder de esta coalición de Gobierno o del oficialismo, debería aspirar a un orden, porque si uno lo mira en retrospectiva, ¿qué diría el candidato Kast de lo que está haciendo hoy el Presidente Kast? Probablemente -no tengo duda de aquello-, le habría pedido la renuncia o que, al menos, dé un paso al costado en más de alguna ocasión\", señaló el gerente de Imaginacción. \"Al menos desde Boric, la política interna se está inmiscuyendo en la política exterior\" A juicio de Imas, el desorden demostrado por la Administración Kast en el frente interno también se ha extendido a las relaciones internacionales, aunque el problema, en este punto, no es estrictamente nuevo. \"Lamentablemente, la política interna en Chile, al menos desde la administración de Gabriel Boric, ya se está inmiscuyendo en la política exterior. En ese período la oposición de derecha, y más fuertemente el Partido Republicano, fue bastante crítica respecto a algunos movimientos diplomáticos que tuvo el expresidente Boric. Por ejemplo, lo que tuvo que ver con (el foro)  Democracia Siempre\",   recordó el cientista político. \"Si bien ahí eran en su mayoría o casi en su totalidad primeros ministros o mandatarios de corte progresista, Boric también tuvo movimientos diplomáticos que lo llevaron mucho más allá de su línea ideológica: la buena relación con Emmanuel Macron,  por ejemplo; las reuniones con Volodímir Zelenski; o las críticas que hizo recurrentemente a regímenes como el de Cuba y el de Nicaragua\", indicó. Por último, respecto a la interpelación que enfrentará el lunes el canciller Francisco Pérez Mackenna en la Cámara Baja,   Imas dijo esperar que no sea \"un show mediático\" y que el ministro pueda explicar debidamente \"lo que ha hecho (hasta ahora), porque hay que decir que ha carecido de una buena gestión en política exterior\".",
+          "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/analista-el-candidato-kast-le-habria-pedido-ya-la-renuncia-al/2026-09-26/094547.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260926/imag/foto_0000001320260926094547.png",
+          "published_raw": "Sat, 26 Sep 2026 09:45:47 -0300",
+          "published_at": "2026-09-26T09:45:47-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 11,
+          "score_institutional": 7,
           "score_elections": 1,
-          "score_international": 1,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 5,
+          "score_international": 2,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 2,
+          "score_actor": 6,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 20,
+          "political_evidence": 19,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-002"
+          "cluster_id": "PML-EVENT-003"
         }
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-020",
+      "position": 3,
+      "cluster_id": "PML-EVENT-021",
       "title": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260924-delcy-rodr%C3%ADguez-promete-que-en-venezuela-habr%C3%A1-elecciones-en-igualdad-de-condiciones-para-todos",
       "representative_source": "France 24",
@@ -272,10 +236,10 @@
       "relevance": {
         "score": 50.4,
         "level": "BAJA",
-        "editorial_utility": 48.4
+        "editorial_utility": 57.4
       },
       "selection": {
-        "reason": "PML 50.4; nuevo tipo de evento",
+        "reason": "PML 50.4; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -330,13 +294,86 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-020"
+          "cluster_id": "PML-EVENT-021"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-026",
+      "title": "El chavismo se compromete a mejorar la libertad de prensa en la segunda ronda de negociaciones con la oposición",
+      "url": "https://elpais.com/america/2026-09-26/el-chavismo-se-compromete-a-mejorar-la-libertad-de-prensa-en-la-segunda-ronda-de-negociaciones-con-la-oposicion.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "DIPLOMATIC_EVENT",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / América Latina"
+      },
+      "relevance": {
+        "score": 57.7,
+        "level": "MEDIA",
+        "editorial_utility": 56.7
+      },
+      "selection": {
+        "reason": "PML 57.7; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-25T23:53:36-0300",
+      "last_seen": "2026-09-25T23:53:36-0300",
+      "entities": [],
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "El presidente de la Asamblea, Jorge Rodríguez, da a entender con evasivas que el Gobierno no se opone al regreso al país de María Corina Machado",
+        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "watch_next": [
+          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
+          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El chavismo se compromete a mejorar la libertad de prensa en la segunda ronda de negociaciones con la oposición",
+          "description": "El presidente de la Asamblea, Jorge Rodríguez, da a entender con evasivas que el Gobierno no se opone al regreso al país de María Corina Machado",
+          "url": "https://elpais.com/america/2026-09-26/el-chavismo-se-compromete-a-mejorar-la-libertad-de-prensa-en-la-segunda-ronda-de-negociaciones-con-la-oposicion.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/YYVLVGLXMBPW5BL6N3REKGV6NI.jpg?auth=07b709f177373b422fd6413a9e9ca4ec1fa1fa9deef79dbdb69be0dd7f391c55",
+          "published_raw": "Sat, 26 Sep 2026 02:53:36 GMT",
+          "published_at": "2026-09-25T23:53:36-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-026"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-030",
+      "cluster_id": "PML-EVENT-031",
       "title": "Colombia rompe relaciones con Irán y profundiza su giro hacia Israel y Estados Unidos",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260925-colombia-rompe-relaciones-con-ir%C3%A1n-y-profundiza-su-giro-hacia-israel-y-estados-unidos",
       "representative_source": "France 24",
@@ -347,12 +384,12 @@
         "country": "Colombia / América Latina"
       },
       "relevance": {
-        "score": 55,
+        "score": 52,
         "level": "MEDIA",
-        "editorial_utility": 49
+        "editorial_utility": 47
       },
       "selection": {
-        "reason": "PML 55; diversidad relajada para completar el brief",
+        "reason": "PML 52; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -407,7 +444,7 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
+          "cluster_id": "PML-EVENT-031"
         }
       ]
     }
@@ -420,7 +457,79 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-004",
+        "cluster_id": "PML-EVENT-002",
+        "title": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-gobierno-confirmo-que-insistira-en-el-senado/2026-09-23/143812.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 51.4,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 95,
+            "freshness": 25,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 46
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-09-23T14:38:12-0300",
+        "last_seen": "2026-09-23T14:38:12-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Reforma de expulsiones: Gobierno confirmó que insistirá en el Senado",
+            "description": "Tras e l revés sufrido ayer en la Cámara de Diputadas y Diputados —donde la iniciativa fue rechazada por apenas un voto tras alcanzar 88 de los 89 apoyos requeridos (con 28 votos en contra y 19 abstenciones)—, el Gobierno confirmó este miércoles que insistirá con su reforma constitucional para ampliar de cinco a 30 días el plazo de detención para las expulsiones administrativas de extranjeros . La propuesta facultaba además al Ejecutivo para habilitar recintos especiales destinados a albergar a los ciudadanos sometidos a este proceso. La determinación fue ratificada por el vicepresidente de la República, Claudio Alvarado , quien fustigó las abstenciones y ausencias en la Sala y confirmó la decisión de recurrir a la Cámara Alta. \"Los dejaron entrar y hoy día ellos mismos no quieren que se vayan, pero nosotros, como estamos conscientes de que tenemos que hacer cumplir la ley y que necesitamos regularizar la situación, vamos a insistir por el Senado con los dos tercios para que se pueda seguir tramitando esta iniciativa . Lo único que quiero pedir es un sentido de responsabilidad\", abogó. Frente a la intención anunciada por Alvarado de insistir en la Cámara Alta con el articulado rechazado, el ministro José García Ruminot adoptó un tono más cauto, afirmando que están \" evaluando esa situación junto con el ministro del Interior \". \" Estamos conversando con las senadoras , con los senadores . Nos gustaría mucho insistir \", puntualizó el secretario de Estado. \"Realismo legislativo\": el escenario en la Cámara Alta Para rehabilitar la tramitación mediante la insistencia constitucional, el Gobierno requiere alcanzar un quórum de dos tercios de los senadores presentes. Ante esta exigencia, la presidenta del Senado, Paulina Núñez (Renovación Nacional), instó al Ejecutivo a actuar con \"realismo legislativo\" y manifestarse abierto a flexibilizar la propuesta. \"Para insistir en el Senado, convengamos que no vamos a insistir con el mismo texto, sino con el argumento de fondo , porque ese argumento operó también en el Gobierno pasado, cuando se amplió el plazo de detención, porque se entiende que efectivamente en ese plazo ampliado se producen mayoritariamente las expulsiones necesarias\", sostuvo la parlamentaria. \"Si tiene que ser un plazo menor con tal de insistir en el Senado, bueno, será parte de la discusión que tengamos\" , agregó Núñez. Por su parte, el senador Iván Flores (DC) señaló que \"tal como fue (la votación) en la Cámara, yo diría que lo estoy pensando\" . \"Si arreglan las cosas, por supuesto que vamos a apoyar la agenda de seguridad . Si los proyectos que están allí en general, excepto la reforma constitucional, son todos acompañables, pero arreglen primero la mochila y y los proyectos\", enfatizó. La lección, según Arrau: \"No hay que confiarse\" Por su parte, el ministro de Seguridad, Martín Arrau , lamentó la falta de respaldo durante una intervención en el ciclo \"Conoce a tu Ministro\" de Icare. \"Llegado el momento de la votación en general, desaparecieron algunos votos y se rechaza esto. Es gravísimo , porque es una herramienta tremendamente práctica y hoy día quedamos sin esa herramienta. Hicimos este sistema laborioso, costoso, inoperante que tenemos... No hay que confiarse, parece \", enfatizó. Arrau rambién argmentó que \"yo por mí no iría al Congreso, porque creo que la gestión es tremendamente más importante. Por ejemplo, en obras públicas no iba el ministro al Congreso, iba el especialista de tal tema. Y usted entenderá que yo no soy especialista en materias penales constitucionales, cosas de ese estilo\". \"Espero no tener que ir más de un día al Congreso . Ya se votó una ley muy importante, antibarrricadas 2.0, pero no puedo estar ahí. Hay que ir a tramitar las leyes que sean realmente necesarias y urgentes\", resaltó. La respuesta a sus palabras no se hizo esperar, y fue el diputado Diego Schalper (RN) sostuvo que los \"ministros del presidente Kast tienen que tener claro que parte de sus obligaciones como colegisladores es concurrir al Congreso , sacar adelante la agenda legislativa\". \"Uno pocas veces en la vida hace lo que quiere, normalmente corresponde hacer lo que uno tiene que hacer y el ministro de seguridad tiene que venir al Congreso a tramitar la agenda legislativa\", indicó. Desde la Cámara Alta, en tanto, el senador Matías Walker (independiente) instó a que \" el ministro de Seguridad se ahorre los viajes al Congreso, porque al parecer para él es una molestia . No tenemos problemas en entendernos con el ministro (de la Segpres) José García Ruminot, que sí respeta al Congreso Nacional \". En paralelo al debate migratorio, la Cámara Baja aprobó y despachó al Senado el denominado proyecto \"Antibarricadas 2.0\" , que endurece las sanciones penales para quienes interrumpan el tránsito o corten vías públicas mediante violencia, intimidación u obstáculos que generen un peligro concreto para la vida o la integridad física de las personas. Asimismo, la normativa extiende la aplicación de multas de hasta 20 UTM y penas de presidio menor a quienes causen afectaciones graves a los servicios de transporte masivo, como la interrupción de la red del Metro de Santiago.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-gobierno-confirmo-que-insistira-en-el-senado/2026-09-23/143812.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260923/imag/foto_0000000320260923143812.jpg",
+            "published_raw": "Wed, 23 Sep 2026 14:38:12 -0300",
+            "published_at": "2026-09-23T14:38:12-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 11,
+            "score_elections": 1,
+            "score_international": 1,
+            "score_conflict": 2,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 5,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 20,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-002"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 73.4
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-005",
         "title": "Presupuesto 2027: Quiroz descarta riesgos en regiones y el Servel por recortes",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -431,11 +540,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 53.7,
-          "level": "MEDIA",
+          "score": 51.7,
+          "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 32,
             "geographic_scope": 40,
             "continuity": 40
@@ -453,7 +562,7 @@
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
             "title": "Presupuesto 2027: Crecimiento de 1% inquieta a regiones y Servel",
-            "description": "A cinco días del plazo para ingresar al Congreso el proyecto de Ley de Presupuestos 2027 , el Gobierno anticipó que el gasto público crecería en torno al 1%. La estrechez fiscal ya genera preocupación por las rebajas que podrían afectar a distintos organismos. Uno de los puntos de mayor tensión es el financiamiento de los gobiernos regionales, cuyos recursos podrían disminuir un 7% el próximo año. La cifra aún está sujeta a la presentación y tramitación del proyecto. La presidenta del Consejo Directivo del Servicio Electoral (Servel) , Pamela Figueroa, también alertó sobre una eventual rebaja del 15% respecto de los recursos solicitados por el organismo. \"Los recursos solicitados son los que se requieren. No fue con el tejo pasado. Nosotros nunca hemos hecho un presupuesto con tejo pasado\", dijo a CNN Chile . Lea también: Presupuesto 2027: Quiroz cambia el \"más con menos\" por \"más con lo mismo\" El ministro de Defensa, Fernando Barros , abordó este viernes la estrechez presupuestaria durante una sesión de la comisión de zonas extremas de la Cámara, realizada en Punta Arenas. \"Efectivamente enfrentamos dificultades, no nos olvidemos que el primer recorte presupuestario fue en febrero. Y ya en febrero se hizo un recorte de 300 millones de dólares repartido entre distintas instituciones y ha seguido\", aseveró. Por su parte, el gobernador de Magallanes, Jorge Flies , manifestó su inquietud por el financiamiento regional: \"tenemos una discusión de la Ley del Presupuesto, ya a ingresarse la próxima semana, de la que estamos muy atentos. Hemos discutido y conversado con el ministro (de Hacienda, Jorge) Quiróz por posibles rebajas presupuestarias y que nos tienen preocupados\" . El diputado Jorge Díaz (DC) , presidente de la comisión, sostuvo que \"los recortes en todo ámbito han sido la tónica de la forma de administración de este Gobierno, pero lo más impactante es que ojalá este recorte no afecte a los presupuestos de los gobiernos regionales\". Marcel advierte que el Gobierno deberá ordenar prioridades El exministro de Hacienda Mario Marcel también abordó la discusión presupuestaria y señaló que \"es un espacio fiscal limitado en que el Gobierno y el ministro (Quiroz), vamos a ver cómo ordenan las prioridades y las compatibiliza con las obligaciones que también existen, porque también hay obligaciones por ley en materia de pensiones y en otras áreas\". \"También hay ministerios que tienen una dinámica muy pesada como producto de fenómenos de más largo plazo , como es los gastos en salud ligados al envejecimiento de la población, así que hay muchas cosas que compatibilizar en este próximo presupuesto\" , agregó tras exponer ante la comisión asesora que estudia cambios a la arquitectura del Estado. Gobierno afina el proyecto antes de su ingreso al Congreso Durante la jornada, el Presidente José Antonio Kast y el biministro Claudio Alvarado encabezaron reuniones para afinar el proyecto. El subsecretario del Interior, Máximo Pavez , afirmó que su elaboración se realiza con rigurosidad técnica y profesional. También se reunió el ministro del Trabajo, Tomás Rau , con integrantes de la mesa de reactivación laboral . En la cita revisaron iniciativas como el proyecto de sala cuna universal y medidas destinadas a impulsar el empleo.",
+            "description": "A cinco días del plazo para ingresar al Congreso el proyecto de Ley de Presupuestos 2027 , el Gobierno anticipó que el gasto público crecería en torno al 1%. La estrechez fiscal ya genera preocupación por las rebajas que podrían afectar a distintos organismos. Uno de los puntos de mayor tensión es el financiamiento de los gobiernos regionales, cuyos recursos podrían disminuir un 7% el próximo año. La cifra aún está sujeta a la presentación y tramitación del proyecto. La presidenta del Consejo Directivo del Servicio Electoral (Servel) , Pamela Figueroa, también alertó sobre una eventual rebaja del 15% respecto de los recursos solicitados por el organismo. \"Los recursos solicitados son los que se requieren. No fue con el tejo pasado. Nosotros nunca hemos hecho un presupuesto con tejo pasado\", dijo a CNN Chile . Lea también: Presupuesto 2027: Quiroz cambia el \"más con menos\" por \"más con lo mismo\" El ministro de Defensa, Fernando Barros , abordó este viernes la estrechez presupuestaria durante una sesión de la comisión de zonas extremas de la Cámara, realizada en Punta Arenas. \"Efectivamente enfrentamos dificultades, no nos olvidemos que el primer recorte presupuestario fue en febrero. Y ya en febrero se hizo un recorte de 300 millones de dólares repartido entre distintas instituciones y ha seguido\", aseveró. Por su parte, el gobernador de Magallanes, Jorge Flies , manifestó su inquietud por el financiamiento regional: \"tenemos una discusión de la Ley del Presupuesto, ya a ingresarse la próxima semana, de la que estamos muy atentos. Hemos discutido y conversado con el ministro (de Hacienda, Jorge) Quiróz por posibles rebajas presupuestarias y que nos tienen preocupados\" . El diputado Jorge Díaz (DC) , presidente de la comisión, sostuvo que \"los recortes en todo ámbito han sido la tónica de la forma de administración de este Gobierno, pero lo más impactante es que ojalá este recorte no afecte a los presupuestos de los gobiernos regionales\". Marcel advierte que el Gobierno deberá ordenar prioridades El exministro de Hacienda Mario Marcel también abordó la discusión presupuestaria y señaló que \"es un espacio fiscal limitado en que el Gobierno y el ministro (Quiroz), vamos a ver cómo ordenan las prioridades y las compatibiliza con las obligaciones que también existen, porque también hay obligaciones por ley en materia de pensiones y en otras áreas\". \"También hay ministerios que tienen una dinámica muy pesada como producto de fenómenos de más largo plazo , como es los gastos en salud ligados al envejecimiento de la población, así que hay muchas cosas que compatibilizar en este próximo presupuesto\" , agregó tras exponer ante la comisión asesora que estudia cambios a la arquitectura del Estado. Gobierno afina el proyecto antes de su ingreso al Congreso Durante la jornada, el Presidente José Antonio Kast y el biministro Claudio Alvarado encabezaron reuniones para afinar el proyecto. El subsecretario del Interior, Máximo Pavez , afirmó que su elaboración se realiza con rigurosidad técnica y profesional. También se reunió el ministro del Trabajo, Tomás Rau , con integrantes de la mesa de reactivación laboral . En la cita revisaron iniciativas como el proyecto de sala cuna universal y medidas destinadas a impulsar el empleo. El economista David Bravo, quien presidió la instancia, sostuvo que \"el grado de deterioro del mercado laboral es tal y tan persistente  porque, lamentablemente, no se abordó la emergencia laboral cuatro años atrás\". \"En este minuto, lamentablemente, lo único que podemos hacer como país es abordar las dos cosas al mismo tiempo . El riesgo que tenemos es empeorar aún más la situación, (por lo que) tenemos que abordar la emergencia y al mismo tiempo tenemos que abordar para la emergencia aquellos temas que son de carácter un poco más estructural\", resaltó.",
             "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-crecimiento-de-1-inquieta-a-regiones-y-servel/2026-09-25/153304.html",
             "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260925/imag/foto_0000000220260925153304.jpg",
             "published_raw": "Fri, 25 Sep 2026 15:33:04 -0300",
@@ -475,7 +584,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
+            "cluster_id": "PML-EVENT-005"
           },
           {
             "source_id": "cooperativa_politica",
@@ -503,7 +612,7 @@
             "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
+            "cluster_id": "PML-EVENT-005"
           }
         ],
         "article_count": 1,
@@ -514,85 +623,13 @@
             "Estado e instituciones",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 71.7
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-009",
-        "title": "Reforma de expulsiones: cruce por ausencias, plazos y garantías",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-cruce-por-ausencias-plazos-y-garantias/2026-09-23/115522.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 48.4,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 86,
-            "freshness": 25,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 44
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-09-23T11:55:22-0300",
-        "last_seen": "2026-09-23T11:55:22-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Reforma de expulsiones: cruce por ausencias, plazos y garantías",
-            "description": "El rechazo por un voto de la reforma constitucional sobre detención para ejecutar expulsiones administrativas enfrentó en El Primer Café a los diputados Jorge Guzmán (Evópoli) y Constanza Schönhaut (FA) . La iniciativa obtuvo 88 votos a favor, 28 en contra y 19 abstenciones : le faltó un respaldo para alcanzar el quorum requerido. El proyecto, correspondiente al boletín 18.314-07 de la Cámara , buscaba modificar el margen constitucional para que una ley pudiera ampliar el plazo de privación de libertad destinado a materializar expulsiones ya decretadas . La discusión también incorporó una propuesta relativa a procedimientos de extradición. Guzmán calificó el resultado como un revés para la seguridad y cuestionó que algunos parlamentarios no respaldaran en la Sala un texto que habían apoyado durante su tramitación. \"La izquierda se dio un lujo, pero no un lujo para complejizar o para atacar al Gobierno, sino un lujo simplemente para ganar un punto que perjudica la seguridad de Chile \", afirmó. Reconoció, a la vez, que faltaron votos de la derecha. Entre los casos que mencionó figuran Marcos Ilabaca (PS) y Pamela Jiles (PDG) , quienes se abstuvieron, y José Montalva (IND-PPD) y Patricio Pinilla (DC) , que no estaban presentes al momento de votar. Según el informe de comisión, Ilabaca y Jiles habían respaldado allí el texto acordado, mientras que Montalva se abstuvo. Cooperativa informó que Pinilla y Montalva habían anunciado votos favorables durante el debate en Sala, pero posteriormente explicaron sus reparos. Schönhaut cuestionó las reglas pendientes Schönhaut confirmó que votó en contra. Sostuvo que la reforma permitiría avanzar hacia una retención de hasta 30 días para las expulsiones administrativas, mientras dejaba para una ley posterior aspectos como la intervención judicial y las condiciones de aplicación. \"Se dice retención, pero en el fondo era básicamente pasar, para las expulsiones administrativas, a poder detener a la gente sin control judicial durante 30 días\", planteó. También pidió definir resguardos para niños y niñas: \"Pero dejarlo como cheque en blanco , eso es algo que no se puede hacer y eso era lo que el gobierno tampoco estuvo disponible\". El secretario general del Partido Republicano, Vicente Bruna , defendió que una reforma constitucional establezca una habilitación general y que la regulación específica quede para una ley posterior. Guzmán compartió ese argumento y sostuvo que extender el plazo permitiría resolver casos en que las gestiones para concretar una expulsión o extradición exceden el tiempo disponible. Qué señaló la PDI en la comisión Schönhaut afirmó en el programa que la Policía de Investigaciones había advertido dificultades de capacidad e infraestructura. Guzmán objetó esa caracterización. El informe de la Comisión de Constitución permite precisar que el prefecto general Ricardo Gatica , en representación de la PDI, consideró que el plazo vigente de cinco días para materializar expulsiones puede ser insuficiente en determinadas circunstancias y que su ampliación podría ayudar a completar esos procedimientos. Gatica informó, al mismo tiempo, que el centro de retención de extranjeros de Santiago tiene 50 cupos . Explicó que en regiones se utilizan unidades policiales propias, pero que, si el procedimiento exige superar los cinco días, las personas deben ser trasladadas a Santiago porque no existen otros recintos regionales destinados a esa retención. Reconoció que ampliar el plazo supone un desafío logístico y señaló que la PDI no cuenta con antecedentes para definir un número óptimo de días . De acuerdo con las cifras expuestas por la institución ante la comisión, 53 de 1.247 casos de expulsión administrativa examinados durante el año no pudieron concretarse dentro de cinco días , equivalentes al 4,25% . La PDI indicó que esas situaciones no constituyen la regla general y que el objetivo debe ser ejecutar cada expulsión tan pronto se cumplan las condiciones necesarias. Alejandra Krauss (DC) advirtió que la aprobación de la reforma tampoco habría significado una solución inmediata, dado que su implementación requería una ley posterior. \"Cualquier implementación de algo consagrado en la Constitución habría requerido más tiempo, no habríamos resuelto el tema en este mes o en los siguientes\", señaló.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-expulsiones-cruce-por-ausencias-plazos-y-garantias/2026-09-23/115522.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260923/imag/foto_0000000220260923115522.jpg",
-            "published_raw": "Wed, 23 Sep 2026 11:55:22 -0300",
-            "published_at": "2026-09-23T11:55:22-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 6,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 2,
-            "score_policy": 0,
-            "score_ideology": 2,
-            "score_actor": 2,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 12,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-009"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 70.4
+          "chile_utility": 69.7
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-005",
+        "cluster_id": "PML-EVENT-006",
         "title": "Cámara Baja aprobó y despachó al Senado la \"Ley Antibarricadas 2.0\"",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -647,7 +684,7 @@
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
+            "cluster_id": "PML-EVENT-006"
           }
         ],
         "article_count": 1,
@@ -666,40 +703,36 @@
   },
   "topics": [
     {
-      "topic": "Relaciones internacionales",
-      "event_count": 5,
-      "maximum_relevance": 68.2,
-      "leading_story": "El estreno del canciller Velasco en la ONU: “México demuestra que puede cooperar con sus socios y hacer valer su soberanía”"
+      "topic": "Elecciones y opinión pública",
+      "event_count": 4,
+      "maximum_relevance": 70,
+      "leading_story": "El presidente Lula prohíbe las apuestas ‘online’ en la recta final de la reñida campaña electoral en Brasil"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 21,
-      "maximum_relevance": 59.7,
-      "leading_story": "El chavismo se compromete a mejorar la libertad de prensa en la segunda ronda de negociaciones con la oposición"
+      "event_count": 22,
+      "maximum_relevance": 67.2,
+      "leading_story": "Analista: \"El candidato Kast le habría pedido ya la renuncia al Presidente Kast en más de una ocasión\""
     },
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 3,
-      "maximum_relevance": 54,
-      "leading_story": "Friedrich Merz, el impopular ‘canciller de las reformas’ que lucha por mantenerse a flote"
+      "topic": "Relaciones internacionales",
+      "event_count": 4,
+      "maximum_relevance": 50.4,
+      "leading_story": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 5,
-      "maximum_relevance": 48.1,
+      "maximum_relevance": 45.6,
       "leading_story": "La policía de Nueva York arresta a las actrices Susan Sarandon y Hannah Einbinder en una protesta contra Netanyahu"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": "PML-EVENT-024",
-      "exited_top5": "PML-EVENT-023",
-      "retained_top5": ["PML-EVENT-029", "PML-EVENT-002", "PML-EVENT-020", "PML-EVENT-030"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
