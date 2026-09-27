@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-09-27",
     "data_latest_timestamp": "2026-09-27T02:13:16-0300",
-    "data_age_hours": 1.1,
-    "generated_at": "2026-09-27T03:18:25-0300",
+    "data_age_hours": 4,
+    "generated_at": "2026-09-27T06:14:01-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -669,12 +669,8 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-014", "PML-EVENT-024"],
-      "exited_top5": ["PML-EVENT-025", "PML-EVENT-020"],
-      "retained_top5": ["PML-EVENT-031", "PML-EVENT-030", "PML-EVENT-003"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
