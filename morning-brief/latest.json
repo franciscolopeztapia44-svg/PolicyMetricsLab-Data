@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-27",
-    "data_latest_timestamp": "2026-09-27T15:10:38-0300",
-    "data_age_hours": 0.1,
-    "generated_at": "2026-09-27T15:16:35-0300",
+    "data_latest_timestamp": "2026-09-27T14:46:19-0300",
+    "data_age_hours": 3.5,
+    "generated_at": "2026-09-27T18:13:49-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,39 +16,39 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 38 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 2 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 37 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 38,
+    "ranked_events": 37,
     "topics": 1,
     "geographies": 2,
-    "representative_sources": 3,
-    "average_top5_relevance": 57.6,
-    "maximum_relevance": 64
+    "representative_sources": 2,
+    "average_top5_relevance": 56.4,
+    "maximum_relevance": 58
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-020",
-      "title": "Sánchez apremia a los socios a apoyar el decreto de vivienda “por Maricarmen y los millones de españoles que sufren la crisis”",
-      "url": "https://elpais.com/espana/2026-09-27/sanchez-apremia-a-los-socios-a-apoyar-el-decreto-de-vivienda-por-maricarmen-y-los-millones-de-espanoles-que-sufren-la-crisis.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-003",
+      "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
+      "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 64,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 64
+        "score": 58,
+        "level": "MEDIA",
+        "editorial_utility": 58
       },
       "selection": {
-        "reason": "PML 64",
+        "reason": "PML 58",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -56,15 +56,27 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-09-27T10:24:26-0300",
-      "last_seen": "2026-09-27T10:24:26-0300",
-      "entities": [],
-      "event_terms": "crisis",
+      "first_seen": "2026-09-26T14:06:06-0300",
+      "last_seen": "2026-09-26T14:06:06-0300",
+      "entities": [
+        "chile",
+        "argentina",
+        "malvinas",
+        "onu",
+        "bachelet",
+        "israel",
+        "boric"
+      ],
+      "event_terms": [
+        "interpelacion",
+        "oposicion",
+        "soberania"
+      ],
       "analysis": {
-        "summary": "El presidente, que trabaja “contra reloj” para aprobarlo el martes, insiste en que apoyarlo “es una cuestión de humanidad” y “no de ideología”",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "El diputado y presidente del PPD, Raúl Soto, elevó el tono contra la adhesión de Chile al Escudo de las Américas y subrayó que esa \"pésima decisión\" debe ser el centro de la interpelación que enfrentará el canciller Francisco Pérez Mackenna el lunes en la Cámara.  LEl interrogatorio -a cargo del diputado socialista e integrante de la Comisión de RR.EE.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
           "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
@@ -74,38 +86,38 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Sánchez apremia a los socios a apoyar el decreto de vivienda “por Maricarmen y los millones de españoles que sufren la crisis”",
-          "description": "El presidente, que trabaja “contra reloj” para aprobarlo el martes, insiste en que apoyarlo “es una cuestión de humanidad” y “no de ideología”",
-          "url": "https://elpais.com/espana/2026-09-27/sanchez-apremia-a-los-socios-a-apoyar-el-decreto-de-vivienda-por-maricarmen-y-los-millones-de-espanoles-que-sufren-la-crisis.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/4QS2SIDG7NH43CCP4N4WXSA5AE.jpg?auth=166297bb9e229443dfe979457a25cc5547eb5b66e75882e7bacb9070c5aad60d",
-          "published_raw": "Sun, 27 Sep 2026 13:24:26 GMT",
-          "published_at": "2026-09-27T10:24:26-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
+          "description": "El diputado y presidente del PPD, Raúl Soto, elevó el tono contra la adhesión de Chile al Escudo de las Américas y subrayó que esa \"pésima decisión\" debe ser el centro de la interpelación que enfrentará el canciller Francisco Pérez Mackenna el lunes en la Cámara.  LEl interrogatorio -a cargo del diputado socialista e integrante de la Comisión de RR.EE. Nelson Venegas- abordará la gestión diplomática del ministro, marcada por reiteradas polémicas como la de Argentina y el Estrecho de Magallanes, el apoyo chileno a la reclamación trasandina en la cuestión de las Malvinas y los opacos alcances de la integración nacional al mentado Escudo. La interpelación contempla 13 puntos, entre ellos el retiro del respaldo del Estado a la fallida candidatura a la ONU de la expresidenta Michelle Bachelet y las controversias que rodean al embajador de Chile en Israel, Gabriel Zaliasnik. En este contexto, Soto espera que la iniciativa \"sea una oportunidad para que la política exterior de Chile se encauce de forma correcta\". \"(Hasta ahora) ha sido débil, errática y genera muchas dudas, y creo que se debe centrar en los fundamentos y también las posibles consecuencias de la pésima decisión de adherir al Escudo de las Américas\" ,  consideró Soto. Schubert: \"No pensaron en la patria\" Desde el oficialismo volvieron a criticar la posibilidad de que la sesión aborde temas sensibles para la seguridad nacional, por lo que reiteraron el carácter \"poco patriota\" de la ofensiva opositora. \"Los diputados que han impulsado esta interpelación no han pensado en la patria. Yo creo que aquí, claramente, no es la oportunidad (adecuada para hacerla, pues) tenemos a un canciller que está negociando temas importantes, y ponerlo hoy en cuestión debilita no solamente a la persona, sino también la postura chilena, y eso sí es muy grave y muy peligroso\", dijo el diputado republicano Stephan Schubert.  \"(Hay que) ser oposición, pero una oposición prudente\", filosofó el también integrante de la Comisión de Relaciones Exteriores. Respecto al Escudo de las Américas, Schubert defendió que \"no es una medida a favor de alguien o de un país en particular, sino una en contra del crimen organizado y el terrorismo. Y es aceptada no solamente por Chile, sino que también por otros 15 países más\".   \"Los expresidentes (Bachelet y Boric, que cuestionaron la adhesión) han tomado su decisión (en materias de seguridad), pero el Presidente Kast, que conduce las relaciones internacionales, ha tomado una decisión distinta, que es utilizar todas las herramientas y todas las instancias posibles para combatir el crimen organizado\", expresó el parlamentario republicano. [Lea también]  Monckeberg atribuye a una \"pasada de cuenta\" la crítica de Bachelet al Escudo de las Américas Holzmann cree que interpelación puede servir para unir a la oposición El analista político Guillermo Holzmann considera que la interpelación opositora \"tiene, en primer lugar, un análisis político-ideológico que consiste en poder establecer un punto de convergencia que lleve a una sola propuesta  a los partidos y movimientos que están en contra del Gobierno\". \"En esa perspectiva, la falta de unidad y contenido que ha mostrado la oposición pasa a ser un elemento que alimenta, y le da mayor fuerza a la necesidad de que esta interpelación al canciller se transforme en una suerte de ícono o pilar de lo que va a ser la reunificación o la propuesta que pueda tener la oposición\", teorizó. Timoneles de Chile Vamos y Republicanos rechazan crítica \"desafortunada y mezquina\" de Bachelet y Boric Durante esta jornada se conoció, en tanto, una declaración conjunta de los timoneles de la UDI (Guillermo Ramírez), RN (Andrea Balladares), Partido Republicano (Arturo Squella) y Evópoli (Luciano Cruz-Coke) rechazando el cuestionamiento público de los exmandatarios. \"Resulta especialmente grave que los ex Presidentes Michelle Bachelet y Gabriel Boric hayan suscrito una declaración cuestionando la incorporación de Chile al Escudo de las Américas  sin siquiera haber conocido –de primera fuente– los alcances, condiciones y resguardos bajo los cuales el Gobierno adoptó dicha decisión . Mucho más aún cuando ambos saben, por la responsabilidad que alguna vez ejercieron, cómo se conduce la política exterior, las complejidades propias de las relaciones internacionales y el rigor con que se toman las decisiones de Estado\", señalaron los dirigentes oficialistas. \"Precisamente por la investidura que ambos ostentaron y por la responsabilidad de Estado que conllevan, su actuación merece ser reprochada desde un punto de vista político (...) Es inadmisible cuestionar la soberanía de Chile desde el desconocimiento de los antecedentes que sustentan esta decisión ni mucho menos atribuir al Gobierno una supuesta subordinación de nuestra política exterior , sin contar con los elementos que permitan sostener una afirmación de esa gravedad. Más grave aún es poner en duda que el actual Mandatario está ejerciendo sus facultades para defender los intereses permanentes de Chile \", se quejaron. \"Ningún Presidente de Chile, desde los albores de nuestra República, ha puesto en riesgo la soberanía nacional. Y el Presidente José Antonio Kast no será el primero en hacerlo. Chile es un país soberano precisamente porque tiene la facultad de decidir con quién coopera, bajo qué condiciones y con qué objetivos . Y frente al avance del crimen organizado transnacional, la coordinación con otras naciones no implica ceder soberanía , sino ejercerla en defensa de los intereses de todos los chilenos\", argumentaron los timoneles. Por las consideraciones anteriores, \" rechazamos categóricamente una declaración que, viniendo de dos ex Jefes de Estado, resulta especialmente desafortunada e insalvablemente mezquina , al transformar una legítima diferencia política en una imputación sobre la soberanía nacional\", sentenciaron Ramírez, Balladares, Squella y Cruz-Coke ( ver archivo adjunto ).",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260926/imag/foto_0000000220260926140606.png",
+          "published_raw": "Sat, 26 Sep 2026 14:06:06 -0300",
+          "published_at": "2026-09-26T14:06:06-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 5,
           "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
+          "score_international": 5,
+          "score_conflict": 3,
+          "score_policy": 0,
           "score_ideology": 1,
-          "score_actor": 1,
+          "score_actor": 6,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 5,
+          "political_evidence": 20,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-020"
+          "cluster_id": "PML-EVENT-003"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-025",
+      "cluster_id": "PML-EVENT-024",
       "title": "Lula prohíbe las apuestas online en Brasil a nueve días de las elecciones",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260926-lula-proh%C3%ADbe-las-apuestas-online-en-brasil-a-nueve-d%C3%ADas-de-las-elecciones",
       "representative_source": "France 24",
@@ -175,31 +187,31 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "cluster_id": "PML-EVENT-024"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-003",
-      "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
+      "cluster_id": "PML-EVENT-010",
+      "title": "Pulso Ciudadano: Aprobación a Kast bajó a 28% y la desaprobación subió a 57%",
+      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/pulso-ciudadano-aprobacion-a-kast-bajo-a-28-y-la-desaprobacion-subio-a/2026-09-27/115526.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
         "group": "Chile",
         "country": "Chile"
       },
       "relevance": {
-        "score": 58,
+        "score": 57.8,
         "level": "MEDIA",
-        "editorial_utility": 53
+        "editorial_utility": 53.8
       },
       "selection": {
-        "reason": "PML 58; diversidad relajada para completar el brief; aporta diversidad geográfica",
-        "tier": "STRICT",
-        "strict_eligible": true,
+        "reason": "PML 57.8; fallback editorial controlado; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
@@ -207,29 +219,20 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-09-26T14:06:06-0300",
-      "last_seen": "2026-09-26T14:06:06-0300",
+      "first_seen": "2026-09-27T11:55:26-0300",
+      "last_seen": "2026-09-27T11:55:26-0300",
       "entities": [
         "chile",
-        "argentina",
-        "malvinas",
-        "onu",
-        "bachelet",
-        "israel",
-        "boric"
+        "trump"
       ],
-      "event_terms": [
-        "interpelacion",
-        "oposicion",
-        "soberania"
-      ],
+      "event_terms": [],
       "analysis": {
-        "summary": "El diputado y presidente del PPD, Raúl Soto, elevó el tono contra la adhesión de Chile al Escudo de las Américas y subrayó que esa \"pésima decisión\" debe ser el centro de la interpelación que enfrentará el canciller Francisco Pérez Mackenna el lunes en la Cámara.  LEl interrogatorio -a cargo del diputado socialista e integrante de la Comisión de RR.EE.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "summary": "La última edición de la encuesta Pulso Ciudadano , publicada este domingo, arrojó que la aprobación del Presidente José Antonio Kast cayó un 5,4% respecto a la medición de agosto  y llegó al 28,2% . La desaprobación presidencial , en tanto, aumentó en 3,2 puntos porcentuales   y se ubicó en un 57,6% . Sobre la evaluación del gabinete de Kast, un 63,6% desaprueba la forma en que los ministros están desarrollando su labor, mientras que un 21,2% señaló aprobar su gestión.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
@@ -237,30 +240,30 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
-          "description": "El diputado y presidente del PPD, Raúl Soto, elevó el tono contra la adhesión de Chile al Escudo de las Américas y subrayó que esa \"pésima decisión\" debe ser el centro de la interpelación que enfrentará el canciller Francisco Pérez Mackenna el lunes en la Cámara.  LEl interrogatorio -a cargo del diputado socialista e integrante de la Comisión de RR.EE. Nelson Venegas- abordará la gestión diplomática del ministro, marcada por reiteradas polémicas como la de Argentina y el Estrecho de Magallanes, el apoyo chileno a la reclamación trasandina en la cuestión de las Malvinas y los opacos alcances de la integración nacional al mentado Escudo. La interpelación contempla 13 puntos, entre ellos el retiro del respaldo del Estado a la fallida candidatura a la ONU de la expresidenta Michelle Bachelet y las controversias que rodean al embajador de Chile en Israel, Gabriel Zaliasnik. En este contexto, Soto espera que la iniciativa \"sea una oportunidad para que la política exterior de Chile se encauce de forma correcta\". \"(Hasta ahora) ha sido débil, errática y genera muchas dudas, y creo que se debe centrar en los fundamentos y también las posibles consecuencias de la pésima decisión de adherir al Escudo de las Américas\" ,  consideró Soto. Schubert: \"No pensaron en la patria\" Desde el oficialismo volvieron a criticar la posibilidad de que la sesión aborde temas sensibles para la seguridad nacional, por lo que reiteraron el carácter \"poco patriota\" de la ofensiva opositora. \"Los diputados que han impulsado esta interpelación no han pensado en la patria. Yo creo que aquí, claramente, no es la oportunidad (adecuada para hacerla, pues) tenemos a un canciller que está negociando temas importantes, y ponerlo hoy en cuestión debilita no solamente a la persona, sino también la postura chilena, y eso sí es muy grave y muy peligroso\", dijo el diputado republicano Stephan Schubert.  \"(Hay que) ser oposición, pero una oposición prudente\", filosofó el también integrante de la Comisión de Relaciones Exteriores. Respecto al Escudo de las Américas, Schubert defendió que \"no es una medida a favor de alguien o de un país en particular, sino una en contra del crimen organizado y el terrorismo. Y es aceptada no solamente por Chile, sino que también por otros 15 países más\".   \"Los expresidentes (Bachelet y Boric, que cuestionaron la adhesión) han tomado su decisión (en materias de seguridad), pero el Presidente Kast, que conduce las relaciones internacionales, ha tomado una decisión distinta, que es utilizar todas las herramientas y todas las instancias posibles para combatir el crimen organizado\", expresó el parlamentario republicano. [Lea también]  Monckeberg atribuye a una \"pasada de cuenta\" la crítica de Bachelet al Escudo de las Américas Holzmann cree que interpelación puede servir para unir a la oposición El analista político Guillermo Holzmann considera que la interpelación opositora \"tiene, en primer lugar, un análisis político-ideológico que consiste en poder establecer un punto de convergencia que lleve a una sola propuesta  a los partidos y movimientos que están en contra del Gobierno\". \"En esa perspectiva, la falta de unidad y contenido que ha mostrado la oposición pasa a ser un elemento que alimenta, y le da mayor fuerza a la necesidad de que esta interpelación al canciller se transforme en una suerte de ícono o pilar de lo que va a ser la reunificación o la propuesta que pueda tener la oposición\", teorizó. Timoneles de Chile Vamos y Republicanos rechazan crítica \"desafortunada y mezquina\" de Bachelet y Boric Durante esta jornada se conoció, en tanto, una declaración conjunta de los timoneles de la UDI (Guillermo Ramírez), RN (Andrea Balladares), Partido Republicano (Arturo Squella) y Evópoli (Luciano Cruz-Coke) rechazando el cuestionamiento público de los exmandatarios. \"Resulta especialmente grave que los ex Presidentes Michelle Bachelet y Gabriel Boric hayan suscrito una declaración cuestionando la incorporación de Chile al Escudo de las Américas  sin siquiera haber conocido –de primera fuente– los alcances, condiciones y resguardos bajo los cuales el Gobierno adoptó dicha decisión . Mucho más aún cuando ambos saben, por la responsabilidad que alguna vez ejercieron, cómo se conduce la política exterior, las complejidades propias de las relaciones internacionales y el rigor con que se toman las decisiones de Estado\", señalaron los dirigentes oficialistas. \"Precisamente por la investidura que ambos ostentaron y por la responsabilidad de Estado que conllevan, su actuación merece ser reprochada desde un punto de vista político (...) Es inadmisible cuestionar la soberanía de Chile desde el desconocimiento de los antecedentes que sustentan esta decisión ni mucho menos atribuir al Gobierno una supuesta subordinación de nuestra política exterior , sin contar con los elementos que permitan sostener una afirmación de esa gravedad. Más grave aún es poner en duda que el actual Mandatario está ejerciendo sus facultades para defender los intereses permanentes de Chile \", se quejaron. \"Ningún Presidente de Chile, desde los albores de nuestra República, ha puesto en riesgo la soberanía nacional. Y el Presidente José Antonio Kast no será el primero en hacerlo. Chile es un país soberano precisamente porque tiene la facultad de decidir con quién coopera, bajo qué condiciones y con qué objetivos . Y frente al avance del crimen organizado transnacional, la coordinación con otras naciones no implica ceder soberanía , sino ejercerla en defensa de los intereses de todos los chilenos\", argumentaron los timoneles. Por las consideraciones anteriores, \" rechazamos categóricamente una declaración que, viniendo de dos ex Jefes de Estado, resulta especialmente desafortunada e insalvablemente mezquina , al transformar una legítima diferencia política en una imputación sobre la soberanía nacional\", sentenciaron Ramírez, Balladares, Squella y Cruz-Coke ( ver archivo adjunto ).",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260926/imag/foto_0000000220260926140606.png",
-          "published_raw": "Sat, 26 Sep 2026 14:06:06 -0300",
-          "published_at": "2026-09-26T14:06:06-0300",
+          "title": "Pulso Ciudadano: Aprobación a Kast bajó a 28% y la desaprobación subió a 57%",
+          "description": "La última edición de la encuesta Pulso Ciudadano , publicada este domingo, arrojó que la aprobación del Presidente José Antonio Kast cayó un 5,4% respecto a la medición de agosto  y llegó al 28,2% . La desaprobación presidencial , en tanto, aumentó en 3,2 puntos porcentuales   y se ubicó en un 57,6% . Sobre la evaluación del gabinete de Kast, un 63,6% desaprueba la forma en que los ministros están desarrollando su labor, mientras que un 21,2% señaló aprobar su gestión. Adhesión al Escudo de las Américas En el estudio también se consultó por la reciente adhesión de Chile a la coalición creada por Estados Unidos para combatir el narcotráfico , el denominado \"Escudo de las Américas\" . Los resultados arrojaron que un 41,8% de los encuestados se manifestó a favor de que el país se integrara al acuerdo, mientras que un 25,3% rechazó la incorporación. Asimismo, un 32,9% de los chilenos dijo no estar de acuerdo ni en desacuerdo con la idea. El sondeo muestra diferencias respecto a la última edición de la encuesta Panel Ciudadano UDD , publicada ayer, en la que un 51% de la ciudadanía aprobó la adhesión de Chile al grupo liderado por Donald Trump.",
+          "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/pulso-ciudadano-aprobacion-a-kast-bajo-a-28-y-la-desaprobacion-subio-a/2026-09-27/115526.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260927/imag/foto_0000001520260927115526.jpeg",
+          "published_raw": "Sun, 27 Sep 2026 11:55:26 -0300",
+          "published_at": "2026-09-27T11:55:26-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 5,
-          "score_elections": 0,
-          "score_international": 5,
-          "score_conflict": 3,
+          "score_institutional": 4,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 1,
           "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 6,
+          "score_ideology": 0,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 20,
+          "political_evidence": 9,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
+          "cluster_id": "PML-EVENT-010"
         }
       ]
     },
@@ -279,7 +282,7 @@
       "relevance": {
         "score": 57.6,
         "level": "MEDIA",
-        "editorial_utility": 49.6
+        "editorial_utility": 50.6
       },
       "selection": {
         "reason": "PML 57.6; diversidad relajada para completar el brief",
@@ -346,7 +349,7 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-022",
+      "cluster_id": "PML-EVENT-021",
       "title": "Brasil: cómo la crisis del Tribunal Supremo remece las elecciones a la Presidencia",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260922-brasil-c%C3%B3mo-la-crisis-del-tribunal-supremo-remece-las-elecciones-a-la-presidencia",
       "representative_source": "France 24",
@@ -422,7 +425,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-022"
+          "cluster_id": "PML-EVENT-021"
         }
       ]
     }
@@ -435,75 +438,6 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-010",
-        "title": "Pulso Ciudadano: Aprobación a Kast bajó a 28% y la desaprobación subió a 57%",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/pulso-ciudadano-aprobacion-a-kast-bajo-a-28-y-la-desaprobacion-subio-a/2026-09-27/115526.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 56.5,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 51,
-            "freshness": 95,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 32
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-09-27T11:55:26-0300",
-        "last_seen": "2026-09-27T11:55:26-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Pulso Ciudadano: Aprobación a Kast bajó a 28% y la desaprobación subió a 57%",
-            "description": "La última edición de la encuesta Pulso Ciudadano , publicada este domingo, arrojó que la aprobación del Presidente José Antonio Kast cayó un 5,4% respecto a la medición de agosto  y llegó al 28,2% . La desaprobación presidencial , en tanto, aumentó en 3,2 puntos porcentuales   y se ubicó en un 57,6% . Sobre la evaluación del gabinete de Kast, un 63,6% desaprueba la forma en que los ministros están desarrollando su labor, mientras que un 21,2% señaló aprobar su gestión. Adhesión al Escudo de las Américas En el estudio también se consultó por la reciente adhesión de Chile a la coalición creada por Estados Unidos para combatir el narcotráfico , el denominado \"Escudo de las Américas\" . Los resultados arrojaron que un 41,8% de los encuestados se manifestó a favor de que el país se integrara al acuerdo, mientras que un 25,3% rechazó la incorporación. Asimismo, un 32,9% de los chilenos dijo no estar de acuerdo ni en desacuerdo con la idea. El sondeo muestra diferencias respecto a la última edición de la encuesta Panel Ciudadano UDD , publicada ayer, en la que un 51% de la ciudadanía aprobó la adhesión de Chile al grupo liderado por Donald Trump.",
-            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/pulso-ciudadano-aprobacion-a-kast-bajo-a-28-y-la-desaprobacion-subio-a/2026-09-27/115526.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260927/imag/foto_0000001520260927115526.jpeg",
-            "published_raw": "Sun, 27 Sep 2026 11:55:26 -0300",
-            "published_at": "2026-09-27T11:55:26-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 4,
-            "score_elections": 2,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 2,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 9,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-010"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 65.5
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
         "cluster_id": "PML-EVENT-007",
         "title": "Panel Ciudadano UDD: un 51% apoya la incorporación de Chile al Escudo de las Américas",
         "topic": "Instituciones y gobierno",
@@ -572,7 +506,7 @@
         "repeated_in_general_top5": false
       },
       {
-        "position": 3,
+        "position": 2,
         "cluster_id": "PML-EVENT-002",
         "title": "Frente Amplio: \"El manejo económico de Kast ha sido tan dañino como la pandemia\"",
         "topic": "Instituciones y gobierno",
@@ -639,15 +573,87 @@
           "chile_utility": 59.5
         },
         "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-003",
+        "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 58,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 80,
+            "freshness": 62,
+            "source_count": 30,
+            "geographic_scope": 62,
+            "continuity": 32
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-09-26T14:06:06-0300",
+        "last_seen": "2026-09-26T14:06:06-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
+            "description": "El diputado y presidente del PPD, Raúl Soto, elevó el tono contra la adhesión de Chile al Escudo de las Américas y subrayó que esa \"pésima decisión\" debe ser el centro de la interpelación que enfrentará el canciller Francisco Pérez Mackenna el lunes en la Cámara.  LEl interrogatorio -a cargo del diputado socialista e integrante de la Comisión de RR.EE. Nelson Venegas- abordará la gestión diplomática del ministro, marcada por reiteradas polémicas como la de Argentina y el Estrecho de Magallanes, el apoyo chileno a la reclamación trasandina en la cuestión de las Malvinas y los opacos alcances de la integración nacional al mentado Escudo. La interpelación contempla 13 puntos, entre ellos el retiro del respaldo del Estado a la fallida candidatura a la ONU de la expresidenta Michelle Bachelet y las controversias que rodean al embajador de Chile en Israel, Gabriel Zaliasnik. En este contexto, Soto espera que la iniciativa \"sea una oportunidad para que la política exterior de Chile se encauce de forma correcta\". \"(Hasta ahora) ha sido débil, errática y genera muchas dudas, y creo que se debe centrar en los fundamentos y también las posibles consecuencias de la pésima decisión de adherir al Escudo de las Américas\" ,  consideró Soto. Schubert: \"No pensaron en la patria\" Desde el oficialismo volvieron a criticar la posibilidad de que la sesión aborde temas sensibles para la seguridad nacional, por lo que reiteraron el carácter \"poco patriota\" de la ofensiva opositora. \"Los diputados que han impulsado esta interpelación no han pensado en la patria. Yo creo que aquí, claramente, no es la oportunidad (adecuada para hacerla, pues) tenemos a un canciller que está negociando temas importantes, y ponerlo hoy en cuestión debilita no solamente a la persona, sino también la postura chilena, y eso sí es muy grave y muy peligroso\", dijo el diputado republicano Stephan Schubert.  \"(Hay que) ser oposición, pero una oposición prudente\", filosofó el también integrante de la Comisión de Relaciones Exteriores. Respecto al Escudo de las Américas, Schubert defendió que \"no es una medida a favor de alguien o de un país en particular, sino una en contra del crimen organizado y el terrorismo. Y es aceptada no solamente por Chile, sino que también por otros 15 países más\".   \"Los expresidentes (Bachelet y Boric, que cuestionaron la adhesión) han tomado su decisión (en materias de seguridad), pero el Presidente Kast, que conduce las relaciones internacionales, ha tomado una decisión distinta, que es utilizar todas las herramientas y todas las instancias posibles para combatir el crimen organizado\", expresó el parlamentario republicano. [Lea también]  Monckeberg atribuye a una \"pasada de cuenta\" la crítica de Bachelet al Escudo de las Américas Holzmann cree que interpelación puede servir para unir a la oposición El analista político Guillermo Holzmann considera que la interpelación opositora \"tiene, en primer lugar, un análisis político-ideológico que consiste en poder establecer un punto de convergencia que lleve a una sola propuesta  a los partidos y movimientos que están en contra del Gobierno\". \"En esa perspectiva, la falta de unidad y contenido que ha mostrado la oposición pasa a ser un elemento que alimenta, y le da mayor fuerza a la necesidad de que esta interpelación al canciller se transforme en una suerte de ícono o pilar de lo que va a ser la reunificación o la propuesta que pueda tener la oposición\", teorizó. Timoneles de Chile Vamos y Republicanos rechazan crítica \"desafortunada y mezquina\" de Bachelet y Boric Durante esta jornada se conoció, en tanto, una declaración conjunta de los timoneles de la UDI (Guillermo Ramírez), RN (Andrea Balladares), Partido Republicano (Arturo Squella) y Evópoli (Luciano Cruz-Coke) rechazando el cuestionamiento público de los exmandatarios. \"Resulta especialmente grave que los ex Presidentes Michelle Bachelet y Gabriel Boric hayan suscrito una declaración cuestionando la incorporación de Chile al Escudo de las Américas  sin siquiera haber conocido –de primera fuente– los alcances, condiciones y resguardos bajo los cuales el Gobierno adoptó dicha decisión . Mucho más aún cuando ambos saben, por la responsabilidad que alguna vez ejercieron, cómo se conduce la política exterior, las complejidades propias de las relaciones internacionales y el rigor con que se toman las decisiones de Estado\", señalaron los dirigentes oficialistas. \"Precisamente por la investidura que ambos ostentaron y por la responsabilidad de Estado que conllevan, su actuación merece ser reprochada desde un punto de vista político (...) Es inadmisible cuestionar la soberanía de Chile desde el desconocimiento de los antecedentes que sustentan esta decisión ni mucho menos atribuir al Gobierno una supuesta subordinación de nuestra política exterior , sin contar con los elementos que permitan sostener una afirmación de esa gravedad. Más grave aún es poner en duda que el actual Mandatario está ejerciendo sus facultades para defender los intereses permanentes de Chile \", se quejaron. \"Ningún Presidente de Chile, desde los albores de nuestra República, ha puesto en riesgo la soberanía nacional. Y el Presidente José Antonio Kast no será el primero en hacerlo. Chile es un país soberano precisamente porque tiene la facultad de decidir con quién coopera, bajo qué condiciones y con qué objetivos . Y frente al avance del crimen organizado transnacional, la coordinación con otras naciones no implica ceder soberanía , sino ejercerla en defensa de los intereses de todos los chilenos\", argumentaron los timoneles. Por las consideraciones anteriores, \" rechazamos categóricamente una declaración que, viniendo de dos ex Jefes de Estado, resulta especialmente desafortunada e insalvablemente mezquina , al transformar una legítima diferencia política en una imputación sobre la soberanía nacional\", sentenciaron Ramírez, Balladares, Squella y Cruz-Coke ( ver archivo adjunto ).",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260926/imag/foto_0000000220260926140606.png",
+            "published_raw": "Sat, 26 Sep 2026 14:06:06 -0300",
+            "published_at": "2026-09-26T14:06:06-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 5,
+            "score_elections": 0,
+            "score_international": 5,
+            "score_conflict": 3,
+            "score_policy": 0,
+            "score_ideology": 1,
+            "score_actor": 6,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 20,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Relaciones internacionales",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-003"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Relaciones internacionales"
+          ],
+          "chile_utility": 70
+        },
+        "repeated_in_general_top5": true
       }
     ]
   },
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 26,
-      "maximum_relevance": 64,
-      "leading_story": "Sánchez apremia a los socios a apoyar el decreto de vivienda “por Maricarmen y los millones de españoles que sufren la crisis”"
+      "event_count": 24,
+      "maximum_relevance": 58,
+      "leading_story": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo"
     },
     {
       "topic": "Elecciones y opinión pública",
@@ -657,7 +663,7 @@
     },
     {
       "topic": "Conflictos y seguridad",
-      "event_count": 4,
+      "event_count": 5,
       "maximum_relevance": 52.1,
       "leading_story": "La denuncia por una ejecución extrajudicial opaca el operativo militar de De la Espriella en Santa Marta: “Era un campesino pobre, no un criminal”"
     },
@@ -679,7 +685,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["Cooperativa", "France 24", "EL PAÍS"],
     "source_count": 3
   },
   "system": {
