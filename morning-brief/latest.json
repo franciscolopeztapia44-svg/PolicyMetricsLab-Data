@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-28",
-    "data_latest_timestamp": "2026-09-28T09:07:43-0300",
-    "data_age_hours": 0.2,
-    "generated_at": "2026-09-28T09:19:56-0300",
+    "data_latest_timestamp": "2026-09-28T14:19:23-0300",
+    "data_age_hours": 1,
+    "generated_at": "2026-09-28T15:17:48-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,39 +16,39 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 42 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 2 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 39,
-    "topics": 2,
+    "ranked_events": 42,
+    "topics": 1,
     "geographies": 2,
-    "representative_sources": 2,
-    "average_top5_relevance": 64,
-    "maximum_relevance": 66.1
+    "representative_sources": 3,
+    "average_top5_relevance": 66.3,
+    "maximum_relevance": 69.9
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-030",
-      "title": "El Gobierno apura la negociación del decreto de vivienda con ayudas a la compra y blindaje del parque público",
-      "url": "https://elpais.com/economia/2026-09-28/el-gobierno-apura-la-negociacion-del-decreto-de-vivienda-con-ayudas-a-la-compra-y-blindaje-del-parque-publico.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-010",
+      "title": "Gobierno retira reforma que creaba un nuevo estado de excepción",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-retira-reforma-que-creaba-un-nuevo-estado-de-excepcion/2026-09-28/134651.html",
+      "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 66.1,
+        "score": 69.9,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 66.1
+        "editorial_utility": 69.9
       },
       "selection": {
-        "reason": "PML 66.1",
+        "reason": "PML 69.9",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -56,15 +56,18 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-09-28T08:21:27-0300",
-      "last_seen": "2026-09-28T08:21:27-0300",
-      "entities": [],
-      "event_terms": [],
+      "first_seen": "2026-09-28T13:46:51-0300",
+      "last_seen": "2026-09-28T13:46:51-0300",
+      "entities": [
+        "congreso",
+        "senado"
+      ],
+      "event_terms": "oposicion",
       "analysis": {
-        "summary": "Las partes avanzan en impedir a los fondos buitre que adquieran inmuebles residenciales y en activar una batería de rebajas fiscales, además de dar “estabilización” a los contratos",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "El Gobierno retiró este lunes del Congreso la reforma constitucional en materia de seguridad , entre medio de los cuestionamientos por la creación de un nuevo estado de excepción para enfrentar amenazas vinculadas al crimen organizado y el terrorismo. En su diseño original, la propuesta permite al Presidente decretar el estado de excepción por 120 días y renovarlo por otros 120 sin autorización del Congreso, situación que generó críticas de la oposición y sectores del…",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
           "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
@@ -74,111 +77,38 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El Gobierno apura la negociación del decreto de vivienda con ayudas a la compra y blindaje del parque público",
-          "description": "Las partes avanzan en impedir a los fondos buitre que adquieran inmuebles residenciales y en activar una batería de rebajas fiscales, además de dar “estabilización” a los contratos",
-          "url": "https://elpais.com/economia/2026-09-28/el-gobierno-apura-la-negociacion-del-decreto-de-vivienda-con-ayudas-a-la-compra-y-blindaje-del-parque-publico.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/RE2MCASVBZAUXFTI7QNVGQONCI.jpeg?auth=cf588019e7edd41a8dd414500d4ce1aec1cae880bf91019c26db8fcc0e2b9006",
-          "published_raw": "Mon, 28 Sep 2026 11:21:27 GMT",
-          "published_at": "2026-09-28T08:21:27-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Gobierno retira reforma que creaba un nuevo estado de excepción",
+          "description": "El Gobierno retiró este lunes del Congreso la reforma constitucional en materia de seguridad , entre medio de los cuestionamientos por la creación de un nuevo estado de excepción para enfrentar amenazas vinculadas al crimen organizado y el terrorismo. En su diseño original, la propuesta permite al Presidente decretar el estado de excepción por 120 días y renovarlo por otros 120 sin autorización del Congreso, situación que generó críticas de la oposición y sectores del oficialismo. La decisión fue confirmada por el presidente del Partido Republicano, Arturo Squella , quien comentó que \" el gobierno no tiene problema en bajar su propuesta con el propósito de que ingrese una nueva , a la luz de lo que estuvimos trabajando junto al senador Longton, y pusimos a disposición del resto de los integrantes de la Comisión de Constitución del Senado y eso a su vez tramitarlo de la mano con la reforma constitucional que ya presentó la senadora Vodanovic\". \"Desde esa perspectiva tendríamos un texto que representaría el propósito buscado por el gobierno\", insistió.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-retira-reforma-que-creaba-un-nuevo-estado-de-excepcion/2026-09-28/134651.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260928/imag/foto_0000000220260928134651.jpg",
+          "published_raw": "Mon, 28 Sep 2026 13:46:51 -0300",
+          "published_at": "2026-09-28T13:46:51-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 6,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
+          "score_conflict": 3,
+          "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 0,
+          "score_actor": 5,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 14,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-010"
         }
       ]
     },
     {
       "position": 2,
       "cluster_id": "PML-EVENT-032",
-      "title": "El Reino Unido sospecha que la mano de Irán está detrás del intento de atentado contra una base militar",
-      "url": "https://elpais.com/internacional/2026-09-28/el-reino-unido-sospecha-que-la-mano-de-iran-esta-detras-del-intento-de-atentado-contra-una-base-militar.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Conflictos y seguridad",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Internacional",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 58.3,
-        "level": "MEDIA",
-        "editorial_utility": 70.3
-      },
-      "selection": {
-        "reason": "PML 58.3; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-09-28T05:33:22-0300",
-      "last_seen": "2026-09-28T05:33:22-0300",
-      "entities": "iran",
-      "event_terms": [],
-      "analysis": {
-        "summary": "Cinco personas siguen detenidas bajo la ley antiterrorista, mientras se mantiene acordonada la zona en torno a las instalaciones de la RAF en Fairford",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El Reino Unido sospecha que la mano de Irán está detrás del intento de atentado contra una base militar",
-          "description": "Cinco personas siguen detenidas bajo la ley antiterrorista, mientras se mantiene acordonada la zona en torno a las instalaciones de la RAF en Fairford",
-          "url": "https://elpais.com/internacional/2026-09-28/el-reino-unido-sospecha-que-la-mano-de-iran-esta-detras-del-intento-de-atentado-contra-una-base-militar.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/XAQXJLPB4JPNFHKSGRR5TOYA4I.jpg?auth=f7611e388e63db8dbb66c3d793f8b8764ebbb7516d49e069e7d8c4d2738ce43a",
-          "published_raw": "Mon, 28 Sep 2026 08:33:22 GMT",
-          "published_at": "2026-09-28T05:33:22-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-032"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-027",
       "title": "Lula prohíbe las apuestas online en Brasil a nueve días de las elecciones",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260926-lula-proh%C3%ADbe-las-apuestas-online-en-brasil-a-nueve-d%C3%ADas-de-las-elecciones",
       "representative_source": "France 24",
@@ -189,12 +119,12 @@
         "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 65.2,
+        "score": 63.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 68.2
+        "editorial_utility": 66.2
       },
       "selection": {
-        "reason": "PML 65.2; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 63.2; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -248,7 +178,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-032"
         },
         {
           "source_id": "france24_latam",
@@ -276,29 +206,146 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-032"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-003",
+      "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 67.6,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 62.6
+      },
+      "selection": {
+        "reason": "PML 67.6; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 2,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-09-26T14:06:06-0300",
+      "last_seen": "2026-09-28T09:07:43-0300",
+      "entities": [
+        "chile",
+        "argentina",
+        "malvinas",
+        "onu",
+        "bachelet",
+        "israel",
+        "boric",
+        "congreso",
+        "rubio",
+        "trump",
+        "venezuela"
+      ],
+      "event_terms": [
+        "interpelacion",
+        "oposicion",
+        "soberania"
+      ],
+      "analysis": {
+        "summary": "El diputado y presidente del PPD, Raúl Soto, elevó el tono contra la adhesión de Chile al Escudo de las Américas y subrayó que esa \"pésima decisión\" debe ser el centro de la interpelación que enfrentará el canciller Francisco Pérez Mackenna el lunes en la Cámara.  LEl interrogatorio -a cargo del diputado socialista e integrante de la Comisión de RR.EE.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
+          "description": "El diputado y presidente del PPD, Raúl Soto, elevó el tono contra la adhesión de Chile al Escudo de las Américas y subrayó que esa \"pésima decisión\" debe ser el centro de la interpelación que enfrentará el canciller Francisco Pérez Mackenna el lunes en la Cámara.  LEl interrogatorio -a cargo del diputado socialista e integrante de la Comisión de RR.EE. Nelson Venegas- abordará la gestión diplomática del ministro, marcada por reiteradas polémicas como la de Argentina y el Estrecho de Magallanes, el apoyo chileno a la reclamación trasandina en la cuestión de las Malvinas y los opacos alcances de la integración nacional al mentado Escudo. La interpelación contempla 13 puntos, entre ellos el retiro del respaldo del Estado a la fallida candidatura a la ONU de la expresidenta Michelle Bachelet y las controversias que rodean al embajador de Chile en Israel, Gabriel Zaliasnik. En este contexto, Soto espera que la iniciativa \"sea una oportunidad para que la política exterior de Chile se encauce de forma correcta\". \"(Hasta ahora) ha sido débil, errática y genera muchas dudas, y creo que se debe centrar en los fundamentos y también las posibles consecuencias de la pésima decisión de adherir al Escudo de las Américas\" ,  consideró Soto. Schubert: \"No pensaron en la patria\" Desde el oficialismo volvieron a criticar la posibilidad de que la sesión aborde temas sensibles para la seguridad nacional, por lo que reiteraron el carácter \"poco patriota\" de la ofensiva opositora. \"Los diputados que han impulsado esta interpelación no han pensado en la patria. Yo creo que aquí, claramente, no es la oportunidad (adecuada para hacerla, pues) tenemos a un canciller que está negociando temas importantes, y ponerlo hoy en cuestión debilita no solamente a la persona, sino también la postura chilena, y eso sí es muy grave y muy peligroso\", dijo el diputado republicano Stephan Schubert.  \"(Hay que) ser oposición, pero una oposición prudente\", filosofó el también integrante de la Comisión de Relaciones Exteriores. Respecto al Escudo de las Américas, Schubert defendió que \"no es una medida a favor de alguien o de un país en particular, sino una en contra del crimen organizado y el terrorismo. Y es aceptada no solamente por Chile, sino que también por otros 15 países más\".   \"Los expresidentes (Bachelet y Boric, que cuestionaron la adhesión) han tomado su decisión (en materias de seguridad), pero el Presidente Kast, que conduce las relaciones internacionales, ha tomado una decisión distinta, que es utilizar todas las herramientas y todas las instancias posibles para combatir el crimen organizado\", expresó el parlamentario republicano. [Lea también]  Monckeberg atribuye a una \"pasada de cuenta\" la crítica de Bachelet al Escudo de las Américas Holzmann cree que interpelación puede servir para unir a la oposición El analista político Guillermo Holzmann considera que la interpelación opositora \"tiene, en primer lugar, un análisis político-ideológico que consiste en poder establecer un punto de convergencia que lleve a una sola propuesta  a los partidos y movimientos que están en contra del Gobierno\". \"En esa perspectiva, la falta de unidad y contenido que ha mostrado la oposición pasa a ser un elemento que alimenta, y le da mayor fuerza a la necesidad de que esta interpelación al canciller se transforme en una suerte de ícono o pilar de lo que va a ser la reunificación o la propuesta que pueda tener la oposición\", teorizó. Timoneles de Chile Vamos y Republicanos rechazan crítica \"desafortunada y mezquina\" de Bachelet y Boric Durante esta jornada se conoció, en tanto, una declaración conjunta de los timoneles de la UDI (Guillermo Ramírez), RN (Andrea Balladares), Partido Republicano (Arturo Squella) y Evópoli (Luciano Cruz-Coke) rechazando el cuestionamiento público de los exmandatarios. \"Resulta especialmente grave que los ex Presidentes Michelle Bachelet y Gabriel Boric hayan suscrito una declaración cuestionando la incorporación de Chile al Escudo de las Américas  sin siquiera haber conocido –de primera fuente– los alcances, condiciones y resguardos bajo los cuales el Gobierno adoptó dicha decisión . Mucho más aún cuando ambos saben, por la responsabilidad que alguna vez ejercieron, cómo se conduce la política exterior, las complejidades propias de las relaciones internacionales y el rigor con que se toman las decisiones de Estado\", señalaron los dirigentes oficialistas. \"Precisamente por la investidura que ambos ostentaron y por la responsabilidad de Estado que conllevan, su actuación merece ser reprochada desde un punto de vista político (...) Es inadmisible cuestionar la soberanía de Chile desde el desconocimiento de los antecedentes que sustentan esta decisión ni mucho menos atribuir al Gobierno una supuesta subordinación de nuestra política exterior , sin contar con los elementos que permitan sostener una afirmación de esa gravedad. Más grave aún es poner en duda que el actual Mandatario está ejerciendo sus facultades para defender los intereses permanentes de Chile \", se quejaron. \"Ningún Presidente de Chile, desde los albores de nuestra República, ha puesto en riesgo la soberanía nacional. Y el Presidente José Antonio Kast no será el primero en hacerlo. Chile es un país soberano precisamente porque tiene la facultad de decidir con quién coopera, bajo qué condiciones y con qué objetivos . Y frente al avance del crimen organizado transnacional, la coordinación con otras naciones no implica ceder soberanía , sino ejercerla en defensa de los intereses de todos los chilenos\", argumentaron los timoneles. Por las consideraciones anteriores, \" rechazamos categóricamente una declaración que, viniendo de dos ex Jefes de Estado, resulta especialmente desafortunada e insalvablemente mezquina , al transformar una legítima diferencia política en una imputación sobre la soberanía nacional\", sentenciaron Ramírez, Balladares, Squella y Cruz-Coke ( ver archivo adjunto ).",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260926/imag/foto_0000000220260926140606.png",
+          "published_raw": "Sat, 26 Sep 2026 14:06:06 -0300",
+          "published_at": "2026-09-26T14:06:06-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 5,
+          "score_elections": 0,
+          "score_international": 5,
+          "score_conflict": 3,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 6,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 20,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-003"
+        },
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Insulza: Es indispensable interpelar al canciller tras la adhesión al Escudo",
+          "description": "El excanciller José Miguel Insulza (PS) consideró que, tras la adhesión de Chile al \"Escudo de las Américas\", la interpelación al actual titular de Relaciones Exteriores, Francisco Pérez Mackenna , que tendrá lugar la tarde de este lunes en la Cámara Baja, es una acción \"indispensable\" . \"Creo que es indispensable (interpelar al ministro). Hace días, yo tuve algunas dudas respecto de si nos íbamos a meter en la discusión sobre Argentina y otras cosas, pero la verdad es que ahora, después de este gravísimo documento que se ha firmado por parte del Presidente de la República, creo que es necesaria una interpelación . Más aún: incluso creo que el Congreso debería tomar cartas en este asunto\", advirtió en El Diario de Cooperativa . El también extitular de Interior relevó: \" Por un lado, se dice que esta es una declaración política, de intenciones , y que es solamente sobre el tema de la seguridad y el crimen organizado. Y, ¿quién no va a estar a favor de trabajar en conjunto respecto de eso? Pero en la reunión sobre el Escudo, el secretario de Estado (de EE.UU.) Marco Rubio dijo claramente que esto no es solamente sobre crimen organizado transnacional \". Citando al representante del gobierno de Donald Trump , Insulza apuntó que el documento \"es la piedra angular de lo que estamos haciendo juntos, la oportunidad de asociarnos en el tema económico y en el frente diplomático para hablar con una sola voz sobre temas que nos unen\". Entre tales materias, Rubio mencionó \"la famosa revisión de inversiones extranjeras y el blindaje de las cadenas de suministro de minerales críticos\" , así como  \"las redes digitales, la defensa militar y el alineamiento diplomático\" , lo que a juicio del excanciller, equivale a una \"entrega de soberanía\" . Apuntando al caso de Venezuela , donde EE.UU. ahora se dedica a la extracción de petróleo , alertó que \"nosotros (como país) firmamos un documento que implica que pueden hacer lo mismo con nuestro cobre ... La verdad es una vergüenza\". [Lea también]   Arrau dijo que el Escudo no es aún un tratado, y si llega a serlo, pasará por el Congreso Consultado respecto a si se debió declarar la reserva de la interpelación , por la posibilidad de que se aborden temas de inteligencia, defensa o negociaciones diplomáticas, Insulza se limitó a señalar: \" No tengo información de que el canciller haya dicho que no va a contestar sobre algunas cosas ; sería más grave todavía que no lo hiciera\". Para el exministro, las preguntas sobre el Escudo tendrán relación con el documento \" publicado por la Embajada de EE.UU , con sus membretes y unas lindas fotos, en el cual se dice -por parte del señor Marco Rubio- qué es lo que va a ocurrir, y qué es lo que se ha hecho. Eso no es reservado\". \" Nadie le está preguntando al canciller qué hizo, si no que por qué hizo lo que hizo , si ya lo sabemos\", sentenció. Críticas oficialistas Desde el oficialismo, el diputado Diego Schalper (RN) comentó que \"hemos conversado con el canciller y hemos compartido impresiones sobre cómo tiene que llevarse adelante una interpelación que yo creo le va a hacer bien a Chile, y acuérdense de mí, se van a terminar arrepintiendo de haberla hecho, porque el canciller va a explicar con mucha claridad toda y cada una de las razones que han motivado a la Cancillería y al gobierno del Presidente Kast a enfrentar como hemos enfrentado los desafíos geopolíticos que enfrenta el país hoy día y en ese cuadro estamos seguros que vamos a tener una buena interpelación\". El diputado republicano Stephan Schubert dijo que \"no podrán pretender que se conteste en público más de lo que ya se dijo en privado , lo que además atenta en algunas materias en contra del interés nacional. Creo que no es oportuno ventilar situaciones como esta cuando el canciller está negociando cosas importantes en favor de nuestro país\". \"Insisto, es una facultad, pero que tiene que ser utilizada con sabiduría y prudencia, y de eso se ha adolecido en esta oportunidad\", agregó.",
+          "url": "https://www.cooperativa.cl/noticias/pais/relaciones-exteriores/ee-uu/insulza-es-indispensable-interpelar-al-canciller-tras-la-adhesion-al/2026-09-28/090743.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260928/imag/foto_0000000220260928090743.png",
+          "published_raw": "Mon, 28 Sep 2026 09:07:43 -0300",
+          "published_at": "2026-09-28T09:07:43-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 0,
+          "score_international": 4,
+          "score_conflict": 3,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 17,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-003"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-024",
-      "title": "Netanyahu pide al presidente de Emiratos Árabes que desmienta que le avisó sobre un ataque de Hamás antes del 7 de octubre",
-      "url": "https://elpais.com/internacional/2026-09-28/netanyahu-pide-al-presidente-de-emiratos-arabes-que-desmienta-que-le-aviso-sobre-un-ataque-de-hamas-antes-del-7-de-octubre.html",
+      "cluster_id": "PML-EVENT-027",
+      "title": "Sheinbaum, sobre la renuncia de Bachelet a la candidatura de la ONU: “No tenemos a nadie a quien apoyar, vamos a esperar”",
+      "url": "https://elpais.com/mexico/2026-09-28/sheinbaum-sobre-la-renuncia-de-bachelet-a-la-candidatura-de-la-onu-no-tenemos-a-nadie-a-quien-apoyar-vamos-a-esperar.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "CONFLICT_ESCALATION",
+      "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
+        "group": "Chile",
+        "country": "México / América Latina"
       },
       "relevance": {
-        "score": 65.6,
+        "score": 66.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 61.6
+        "editorial_utility": 58.2
       },
       "selection": {
-        "reason": "PML 65.6; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 66.2; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -308,16 +355,21 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-09-28T08:27:09-0300",
-      "last_seen": "2026-09-28T08:27:09-0300",
-      "entities": [],
-      "event_terms": "ataque",
+      "first_seen": "2026-09-28T13:28:29-0300",
+      "last_seen": "2026-09-28T13:28:29-0300",
+      "entities": [
+        "sheinbaum",
+        "bachelet",
+        "onu",
+        "mexico"
+      ],
+      "event_terms": [],
       "analysis": {
-        "summary": "El primer ministro israelí viaja en secreto a Abu Dabi para convencer a Mohamed bin Zayed, según ha adelantado el medio local Canal 12",
-        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "La presidenta de México pide una reforma de la ONU para que sea un organismo más ágil y que abogue por la pacificación y los derechos humanos",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en México / América Latina.",
         "watch_next": [
-          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
-          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
@@ -326,38 +378,38 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Netanyahu pide al presidente de Emiratos Árabes que desmienta que le avisó sobre un ataque de Hamás antes del 7 de octubre",
-          "description": "El primer ministro israelí viaja en secreto a Abu Dabi para convencer a Mohamed bin Zayed, según ha adelantado el medio local Canal 12",
-          "url": "https://elpais.com/internacional/2026-09-28/netanyahu-pide-al-presidente-de-emiratos-arabes-que-desmienta-que-le-aviso-sobre-un-ataque-de-hamas-antes-del-7-de-octubre.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/Q2HKAFB4ARKO7IODYYKGRPN6EY.jpg?auth=48a71c6036be65d306f6049d3d9bf0a9fb33403382ad65e91e2797e6e673d0ac",
-          "published_raw": "Mon, 28 Sep 2026 11:27:09 GMT",
-          "published_at": "2026-09-28T08:27:09-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "title": "Sheinbaum, sobre la renuncia de Bachelet a la candidatura de la ONU: “No tenemos a nadie a quien apoyar, vamos a esperar”",
+          "description": "La presidenta de México pide una reforma de la ONU para que sea un organismo más ágil y que abogue por la pacificación y los derechos humanos",
+          "url": "https://elpais.com/mexico/2026-09-28/sheinbaum-sobre-la-renuncia-de-bachelet-a-la-candidatura-de-la-onu-no-tenemos-a-nadie-a-quien-apoyar-vamos-a-esperar.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/FEJSYW4SJJOYFE4NUO6HZBMJYA.jpg?auth=dc0c6fcd5a3dadb7ba6cff31abe974a80fab1be137d0cabcadc952f211405af8",
+          "published_raw": "Mon, 28 Sep 2026 16:28:29 GMT",
+          "published_at": "2026-09-28T13:28:29-0300",
+          "country": "México",
+          "region": "América Latina",
           "language": "es",
           "score_institutional": 2,
           "score_elections": 0,
-          "score_international": 0,
+          "score_international": 1,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 2,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 4,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
+          "cluster_id": "PML-EVENT-027"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-018",
-      "title": "La socialdemócrata Magdalena Andersson renuncia a formar Gobierno en Suecia",
-      "url": "https://elpais.com/internacional/2026-09-28/la-lider-socialdemocrata-de-suecia-renuncia-a-formar-gobierno.html",
+      "cluster_id": "PML-EVENT-034",
+      "title": "El Gobierno apura la negociación del decreto de vivienda con ayudas a la compra y blindaje del parque público",
+      "url": "https://elpais.com/economia/2026-09-28/el-gobierno-apura-la-negociacion-del-decreto-de-vivienda-con-ayudas-a-la-compra-y-blindaje-del-parque-publico.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -366,12 +418,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 64.7,
+        "score": 64.8,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 57.7
+        "editorial_utility": 53.8
       },
       "selection": {
-        "reason": "PML 64.7; diversidad relajada para completar el brief",
+        "reason": "PML 64.8; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -381,12 +433,12 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-09-28T06:50:16-0300",
-      "last_seen": "2026-09-28T06:50:16-0300",
+      "first_seen": "2026-09-28T08:21:27-0300",
+      "last_seen": "2026-09-28T08:21:27-0300",
       "entities": [],
       "event_terms": [],
       "analysis": {
-        "summary": "La decisión llega después de que sus aliados del Partido de la Izquierda apoyasen a un conservador para presidir el Parlamento. Pese al revés, el bloque progresista aún tiene opciones",
+        "summary": "Las partes avanzan en impedir a los fondos buitre que adquieran inmuebles residenciales y en activar una batería de rebajas fiscales, además de dar “estabilización” a los contratos",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -399,12 +451,12 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "La socialdemócrata Magdalena Andersson renuncia a formar Gobierno en Suecia",
-          "description": "La decisión llega después de que sus aliados del Partido de la Izquierda apoyasen a un conservador para presidir el Parlamento. Pese al revés, el bloque progresista aún tiene opciones",
-          "url": "https://elpais.com/internacional/2026-09-28/la-lider-socialdemocrata-de-suecia-renuncia-a-formar-gobierno.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/HCUQ57VBLVIZHEPP5GAVQJ7SQA.jpg?auth=c9b30d837b21420ebbe540a79d813215d64468ac494bcfd47b6698bd071209ed",
-          "published_raw": "Mon, 28 Sep 2026 09:50:16 GMT",
-          "published_at": "2026-09-28T06:50:16-0300",
+          "title": "El Gobierno apura la negociación del decreto de vivienda con ayudas a la compra y blindaje del parque público",
+          "description": "Las partes avanzan en impedir a los fondos buitre que adquieran inmuebles residenciales y en activar una batería de rebajas fiscales, además de dar “estabilización” a los contratos",
+          "url": "https://elpais.com/economia/2026-09-28/el-gobierno-apura-la-negociacion-del-decreto-de-vivienda-con-ayudas-a-la-compra-y-blindaje-del-parque-publico.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/RE2MCASVBZAUXFTI7QNVGQONCI.jpeg?auth=cf588019e7edd41a8dd414500d4ce1aec1cae880bf91019c26db8fcc0e2b9006",
+          "published_raw": "Mon, 28 Sep 2026 11:21:27 GMT",
+          "published_at": "2026-09-28T08:21:27-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
@@ -412,17 +464,17 @@
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 2,
-          "score_actor": 1,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 5,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
+          "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-018"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-034"
         }
       ]
     }
@@ -435,78 +487,6 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-003",
-        "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 52.5,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 80,
-            "freshness": 40,
-            "source_count": 30,
-            "geographic_scope": 62,
-            "continuity": 32
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-09-26T14:06:06-0300",
-        "last_seen": "2026-09-26T14:06:06-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
-            "description": "El diputado y presidente del PPD, Raúl Soto, elevó el tono contra la adhesión de Chile al Escudo de las Américas y subrayó que esa \"pésima decisión\" debe ser el centro de la interpelación que enfrentará el canciller Francisco Pérez Mackenna el lunes en la Cámara.  LEl interrogatorio -a cargo del diputado socialista e integrante de la Comisión de RR.EE. Nelson Venegas- abordará la gestión diplomática del ministro, marcada por reiteradas polémicas como la de Argentina y el Estrecho de Magallanes, el apoyo chileno a la reclamación trasandina en la cuestión de las Malvinas y los opacos alcances de la integración nacional al mentado Escudo. La interpelación contempla 13 puntos, entre ellos el retiro del respaldo del Estado a la fallida candidatura a la ONU de la expresidenta Michelle Bachelet y las controversias que rodean al embajador de Chile en Israel, Gabriel Zaliasnik. En este contexto, Soto espera que la iniciativa \"sea una oportunidad para que la política exterior de Chile se encauce de forma correcta\". \"(Hasta ahora) ha sido débil, errática y genera muchas dudas, y creo que se debe centrar en los fundamentos y también las posibles consecuencias de la pésima decisión de adherir al Escudo de las Américas\" ,  consideró Soto. Schubert: \"No pensaron en la patria\" Desde el oficialismo volvieron a criticar la posibilidad de que la sesión aborde temas sensibles para la seguridad nacional, por lo que reiteraron el carácter \"poco patriota\" de la ofensiva opositora. \"Los diputados que han impulsado esta interpelación no han pensado en la patria. Yo creo que aquí, claramente, no es la oportunidad (adecuada para hacerla, pues) tenemos a un canciller que está negociando temas importantes, y ponerlo hoy en cuestión debilita no solamente a la persona, sino también la postura chilena, y eso sí es muy grave y muy peligroso\", dijo el diputado republicano Stephan Schubert.  \"(Hay que) ser oposición, pero una oposición prudente\", filosofó el también integrante de la Comisión de Relaciones Exteriores. Respecto al Escudo de las Américas, Schubert defendió que \"no es una medida a favor de alguien o de un país en particular, sino una en contra del crimen organizado y el terrorismo. Y es aceptada no solamente por Chile, sino que también por otros 15 países más\".   \"Los expresidentes (Bachelet y Boric, que cuestionaron la adhesión) han tomado su decisión (en materias de seguridad), pero el Presidente Kast, que conduce las relaciones internacionales, ha tomado una decisión distinta, que es utilizar todas las herramientas y todas las instancias posibles para combatir el crimen organizado\", expresó el parlamentario republicano. [Lea también]  Monckeberg atribuye a una \"pasada de cuenta\" la crítica de Bachelet al Escudo de las Américas Holzmann cree que interpelación puede servir para unir a la oposición El analista político Guillermo Holzmann considera que la interpelación opositora \"tiene, en primer lugar, un análisis político-ideológico que consiste en poder establecer un punto de convergencia que lleve a una sola propuesta  a los partidos y movimientos que están en contra del Gobierno\". \"En esa perspectiva, la falta de unidad y contenido que ha mostrado la oposición pasa a ser un elemento que alimenta, y le da mayor fuerza a la necesidad de que esta interpelación al canciller se transforme en una suerte de ícono o pilar de lo que va a ser la reunificación o la propuesta que pueda tener la oposición\", teorizó. Timoneles de Chile Vamos y Republicanos rechazan crítica \"desafortunada y mezquina\" de Bachelet y Boric Durante esta jornada se conoció, en tanto, una declaración conjunta de los timoneles de la UDI (Guillermo Ramírez), RN (Andrea Balladares), Partido Republicano (Arturo Squella) y Evópoli (Luciano Cruz-Coke) rechazando el cuestionamiento público de los exmandatarios. \"Resulta especialmente grave que los ex Presidentes Michelle Bachelet y Gabriel Boric hayan suscrito una declaración cuestionando la incorporación de Chile al Escudo de las Américas  sin siquiera haber conocido –de primera fuente– los alcances, condiciones y resguardos bajo los cuales el Gobierno adoptó dicha decisión . Mucho más aún cuando ambos saben, por la responsabilidad que alguna vez ejercieron, cómo se conduce la política exterior, las complejidades propias de las relaciones internacionales y el rigor con que se toman las decisiones de Estado\", señalaron los dirigentes oficialistas. \"Precisamente por la investidura que ambos ostentaron y por la responsabilidad de Estado que conllevan, su actuación merece ser reprochada desde un punto de vista político (...) Es inadmisible cuestionar la soberanía de Chile desde el desconocimiento de los antecedentes que sustentan esta decisión ni mucho menos atribuir al Gobierno una supuesta subordinación de nuestra política exterior , sin contar con los elementos que permitan sostener una afirmación de esa gravedad. Más grave aún es poner en duda que el actual Mandatario está ejerciendo sus facultades para defender los intereses permanentes de Chile \", se quejaron. \"Ningún Presidente de Chile, desde los albores de nuestra República, ha puesto en riesgo la soberanía nacional. Y el Presidente José Antonio Kast no será el primero en hacerlo. Chile es un país soberano precisamente porque tiene la facultad de decidir con quién coopera, bajo qué condiciones y con qué objetivos . Y frente al avance del crimen organizado transnacional, la coordinación con otras naciones no implica ceder soberanía , sino ejercerla en defensa de los intereses de todos los chilenos\", argumentaron los timoneles. Por las consideraciones anteriores, \" rechazamos categóricamente una declaración que, viniendo de dos ex Jefes de Estado, resulta especialmente desafortunada e insalvablemente mezquina , al transformar una legítima diferencia política en una imputación sobre la soberanía nacional\", sentenciaron Ramírez, Balladares, Squella y Cruz-Coke ( ver archivo adjunto ).",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260926/imag/foto_0000000220260926140606.png",
-            "published_raw": "Sat, 26 Sep 2026 14:06:06 -0300",
-            "published_at": "2026-09-26T14:06:06-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 5,
-            "score_elections": 0,
-            "score_international": 5,
-            "score_conflict": 3,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 6,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 20,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Relaciones internacionales",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Relaciones internacionales"
-          ],
-          "chile_utility": 74.5
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
         "cluster_id": "PML-EVENT-004",
         "title": "Analista: \"El candidato Kast le habría pedido ya la renuncia al Presidente Kast en más de una ocasión\"",
         "topic": "Instituciones y gobierno",
@@ -518,11 +498,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.1,
-          "level": "MEDIA",
+          "score": 48.4,
+          "level": "BAJA",
           "components": {
             "political_impact": 83,
-            "freshness": 40,
+            "freshness": 25,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 30
@@ -573,31 +553,31 @@
             "Estado e instituciones",
             "Elecciones y opinión pública"
           ],
-          "chile_utility": 74.1
+          "chile_utility": 70.4
         },
         "repeated_in_general_top5": false
       },
       {
-        "position": 3,
-        "cluster_id": "PML-EVENT-010",
-        "title": "Insulza: Es indispensable interpelar al canciller tras la adhesión al Escudo",
+        "position": 2,
+        "cluster_id": "PML-EVENT-009",
+        "title": "Republicanos invitó a reflexionar qué aporta cada sector oficialista en medio de disputa con RN",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/relaciones-exteriores/ee-uu/insulza-es-indispensable-interpelar-al-canciller-tras-la-adhesion-al/2026-09-28/090743.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/renovacion-nacional/republicanos-invito-a-reflexionar-que-aporta-cada-sector-oficialista-en/2026-09-28/141923.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.8,
+          "score": 56.4,
           "level": "MEDIA",
           "components": {
             "political_impact": 50,
             "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 28
+            "continuity": 44
           }
         },
         "coverage": {
@@ -605,47 +585,113 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-09-28T09:07:43-0300",
-        "last_seen": "2026-09-28T09:07:43-0300",
+        "first_seen": "2026-09-28T14:19:23-0300",
+        "last_seen": "2026-09-28T14:19:23-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Insulza: Es indispensable interpelar al canciller tras la adhesión al Escudo",
-            "description": "El excanciller José Miguel Insulza (PS) consideró que, tras la adhesión de Chile al \"Escudo de las Américas\", la interpelación al actual titular de Relaciones Exteriores, Francisco Pérez Mackenna , que tendrá lugar la tarde de este lunes en la Cámara Baja, es una acción \"indispensable\" . \"Creo que es indispensable (interpelar al ministro). Hace días, yo tuve algunas dudas respecto de si nos íbamos a meter en la discusión sobre Argentina y otras cosas, pero la verdad es que ahora, después de este gravísimo documento que se ha firmado por parte del Presidente de la República, creo que es necesaria una interpelación . Más aún: incluso creo que el Congreso debería tomar cartas en este asunto\", advirtió en El Diario de Cooperativa . Más información en instantes",
-            "url": "https://www.cooperativa.cl/noticias/pais/relaciones-exteriores/ee-uu/insulza-es-indispensable-interpelar-al-canciller-tras-la-adhesion-al/2026-09-28/090743.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260928/imag/foto_0000000220260928090743.png",
-            "published_raw": "Mon, 28 Sep 2026 09:07:43 -0300",
-            "published_at": "2026-09-28T09:07:43-0300",
+            "title": "Republicanos invitó a reflexionar qué aporta cada sector oficialista en medio de disputa con RN",
+            "description": "El presidente del Partido Republicano, Arturo Squella , invitó a reflexionar cuál es el aporte de cada sector del oficialismo , en medio de disputas con Renovación Nacional por los revés que ha tenido el Gobierno en el Congreso. Los traspiés del Ejecutivo han generado críticas al rol de la Secretaría General de la Presidencial , liderada por José García Ruminot (RN). No obstante, desde Renovación Nacional han blindado a su militante y concentraron su ofensiva en el jefe de la Dirección Política de la Segpres, Emiliano García (Republicanos). La presidenta del Senado, Paulina Núñez (RN) , planteó que \"se necesita una cirugía mayor\" hace unos días; mientras, que la senadora María José Gatica (RN) sugirió hoy en Radio Infinita hacer un cambio de gabinete para mejorar el desempeño del Gobierno en su agenda. La convicción de que existe un déficit político en el elenco que acompaña al Presidente José Antonio Kast no ha caído muy bien en los partidos fuertes del oficialismo. Por ello, el timonel republicano Arturo Squella invitó a reflexionar sobre el aporte de cada uno al Ejecutivo. \"Quienes estamos en política en general siempre somos buenos para hacer análisis, para hacer estudios de qué cambios se harían. Lo que nos enseña la experiencia es que cada vez que públicamente se sale a pedir estos cambios, en definitiva, no van a ocurrir . Cuando uno llega a la conclusión de que hay déficit en un equipo de trabajo en materia política, lo primero que uno tiene que hacer es preguntarse: '¿en qué puedo colaborar yo para superar ese déficit?' \", aseveró. En ese sentido, sostuvo que \"cuando se trata en el fondo de avanzar y uno vuelve atrás hablando de la necesidad de hacer ajustes, cambios, la verdad es que obviamente eso no colabora con un fluido avance, sino que evidentemente pone trabas \". Desde el Partido Cristiano de Chile , apuntaron en un comunicado que la propuesta de RN es legítima, pero no puede transformarse en una disputa de poder o en una carrera para obtener cargos públicos. La presidenta de la colectividad, la diputada Sara Concha , señaló a Cooperativa que \" si vamos a estar con el Presidente, estemos con él; o si no, entonces no sean parte del oficialismo \". RN: Llevamos meses diciéndolo, pero un cambio de gabinete es potestad del Presidente Por su parte, la timonel de Renovación Nacional, senadora Andrea Balladares, defendió la postura de la colectividad y sostuvo que la crítica de déficit político ya la han planteado con anterioridad. \" Llevamos meses diciéndolo . Hemos entregado, por ejemplo, documentos formales de qué tipos de coordinaciones distintas deberíamos tener , y creo que ahí hemos ido creando nuevas instancias de coordinación. Creo que todavía falta aún, creo que hay harto más que hacer, sobre todo con los ministerios sectoriales, pero confío en que es el rumbo que va a tomar el gobierno\", afirmó. Asimismo, reconoció que \"todo cambio de gabinete es potestad del Presidente; creo que él es el que tiene que hacer las evaluaciones. Hoy día espero que nos concentremos en lo que se venga en el presupuesto y en que claramente cada uno de los ministerios sectoriales haga también su trabajo\".",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/renovacion-nacional/republicanos-invito-a-reflexionar-que-aporta-cada-sector-oficialista-en/2026-09-28/141923.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260928/imag/foto_0000000220260928141923.jpg",
+            "published_raw": "Mon, 28 Sep 2026 14:19:23 -0300",
+            "published_at": "2026-09-28T14:19:23-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 4,
+            "score_institutional": 7,
             "score_elections": 0,
-            "score_international": 2,
+            "score_international": 0,
             "score_conflict": 0,
-            "score_policy": 0,
+            "score_policy": 1,
             "score_ideology": 0,
-            "score_actor": 2,
+            "score_actor": 6,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 8,
+            "political_evidence": 14,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Relaciones internacionales",
+            "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-010"
+            "cluster_id": "PML-EVENT-009"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 19,
-          "labels": [
-            "Estado e instituciones",
-            "Relaciones internacionales"
-          ],
-          "chile_utility": 73.8
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 65.4
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-011",
+        "title": "Pulso Ciudadano: Aprobación a Kast bajó a 28% y la desaprobación subió a 57%",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/pulso-ciudadano-aprobacion-a-kast-bajo-a-28-y-la-desaprobacion-subio-a/2026-09-27/115526.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 48.2,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 51,
+            "freshness": 62,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 32
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-09-27T11:55:26-0300",
+        "last_seen": "2026-09-27T11:55:26-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Pulso Ciudadano: Aprobación a Kast bajó a 28% y la desaprobación subió a 57%",
+            "description": "La última edición de la encuesta Pulso Ciudadano , publicada este domingo, arrojó que la aprobación del Presidente José Antonio Kast cayó un 5,4% respecto a la medición de agosto  y llegó al 28,2% . La desaprobación presidencial , en tanto, aumentó en 3,2 puntos porcentuales   y se ubicó en un 57,6% . Sobre la evaluación del gabinete de Kast, un 63,6% desaprueba la forma en que los ministros están desarrollando su labor, mientras que un 21,2% señaló aprobar su gestión. Adhesión al Escudo de las Américas En el estudio también se consultó por la reciente adhesión de Chile a la coalición creada por Estados Unidos para combatir el narcotráfico , el denominado \"Escudo de las Américas\" . Los resultados arrojaron que un 41,8% de los encuestados se manifestó a favor de que el país se integrara al acuerdo, mientras que un 25,3% rechazó la incorporación. Asimismo, un 32,9% de los chilenos dijo no estar de acuerdo ni en desacuerdo con la idea. El sondeo muestra diferencias respecto a la última edición de la encuesta Panel Ciudadano UDD , publicada ayer, en la que un 51% de la ciudadanía aprobó la adhesión de Chile al grupo liderado por Donald Trump.",
+            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/pulso-ciudadano-aprobacion-a-kast-bajo-a-28-y-la-desaprobacion-subio-a/2026-09-27/115526.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260927/imag/foto_0000001520260927115526.jpeg",
+            "published_raw": "Sun, 27 Sep 2026 11:55:26 -0300",
+            "published_at": "2026-09-27T11:55:26-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 4,
+            "score_elections": 2,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 2,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 9,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-011"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 57.2
         },
         "repeated_in_general_top5": false
       }
@@ -654,25 +700,25 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 28,
-      "maximum_relevance": 66.1,
-      "leading_story": "El Gobierno apura la negociación del decreto de vivienda con ayudas a la compra y blindaje del parque público"
+      "event_count": 31,
+      "maximum_relevance": 69.9,
+      "leading_story": "Gobierno retira reforma que creaba un nuevo estado de excepción"
+    },
+    {
+      "topic": "Elecciones y opinión pública",
+      "event_count": 4,
+      "maximum_relevance": 57.5,
+      "leading_story": "Brasil: Lula amplía ventaja sobre Bolsonaro en sondeos de primera vuelta; habría empate técnico en un balotaje"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 5,
-      "maximum_relevance": 58.3,
-      "leading_story": "El Reino Unido sospecha que la mano de Irán está detrás del intento de atentado contra una base militar"
-    },
-    {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 3,
-      "maximum_relevance": 50.5,
-      "leading_story": "Flávio Bolsonaro: el heredero que navega sobre la ola ultraderechista global en busca de un nombre propio"
+      "maximum_relevance": 55.1,
+      "leading_story": "La policía británica libera bajo fianza a los cinco detenidos por el presunto intento de atentado contra una base militar"
     },
     {
       "topic": "Relaciones internacionales",
-      "event_count": 2,
+      "event_count": 1,
       "maximum_relevance": 46.6,
       "leading_story": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”"
     },
@@ -688,7 +734,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
+    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
     "source_count": 3
   },
   "system": {
