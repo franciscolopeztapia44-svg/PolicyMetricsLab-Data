@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-28",
-    "data_latest_timestamp": "2026-09-28T14:19:23-0300",
-    "data_age_hours": 1,
-    "generated_at": "2026-09-28T15:17:48-0300",
+    "data_latest_timestamp": "2026-09-28T16:12:26-0300",
+    "data_age_hours": 2,
+    "generated_at": "2026-09-28T18:15:25-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 42 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 38 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 2 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 42,
+    "ranked_events": 38,
     "topics": 1,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 66.3,
+    "average_top5_relevance": 66.1,
     "maximum_relevance": 69.9
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-010",
+      "cluster_id": "PML-EVENT-008",
       "title": "Gobierno retira reforma que creaba un nuevo estado de excepción",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-retira-reforma-que-creaba-un-nuevo-estado-de-excepcion/2026-09-28/134651.html",
       "representative_source": "Cooperativa",
@@ -102,13 +102,13 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-010"
+          "cluster_id": "PML-EVENT-008"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-032",
+      "cluster_id": "PML-EVENT-030",
       "title": "Lula prohíbe las apuestas online en Brasil a nueve días de las elecciones",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260926-lula-proh%C3%ADbe-las-apuestas-online-en-brasil-a-nueve-d%C3%ADas-de-las-elecciones",
       "representative_source": "France 24",
@@ -178,7 +178,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-032"
+          "cluster_id": "PML-EVENT-030"
         },
         {
           "source_id": "france24_latam",
@@ -206,13 +206,13 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-032"
+          "cluster_id": "PML-EVENT-030"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-003",
+      "cluster_id": "PML-EVENT-001",
       "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
       "representative_source": "Cooperativa",
@@ -223,43 +223,45 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 67.6,
+        "score": 69.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 62.6
+        "editorial_utility": 64.4
       },
       "selection": {
-        "reason": "PML 67.6; diversidad relajada para completar el brief",
+        "reason": "PML 69.4; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 2,
+        "article_count": 3,
         "source_count": 1,
         "sources": "Cooperativa"
       },
       "first_seen": "2026-09-26T14:06:06-0300",
-      "last_seen": "2026-09-28T09:07:43-0300",
+      "last_seen": "2026-09-28T15:19:41-0300",
       "entities": [
         "chile",
+        "trump",
+        "congreso",
         "argentina",
         "malvinas",
         "onu",
         "bachelet",
         "israel",
         "boric",
-        "congreso",
         "rubio",
-        "trump",
         "venezuela"
       ],
       "event_terms": [
         "interpelacion",
-        "oposicion",
-        "soberania"
+        "soberania",
+        "aranceles",
+        "tribunal",
+        "oposicion"
       ],
       "analysis": {
-        "summary": "El diputado y presidente del PPD, Raúl Soto, elevó el tono contra la adhesión de Chile al Escudo de las Américas y subrayó que esa \"pésima decisión\" debe ser el centro de la interpelación que enfrentará el canciller Francisco Pérez Mackenna el lunes en la Cámara.  LEl interrogatorio -a cargo del diputado socialista e integrante de la Comisión de RR.EE.",
+        "summary": "La Sala de la Cámara de Diputadas y Diputados llevó a cabo este lunes la interpelación al ministro de Relaciones Exteriores, Francisco Pérez Mackenna , quien debe responder ante los parlamentarios por los primeros seis meses de conducción de la política exterior bajo el Gobierno del Presidente José Antonio Kast , en una sesión centrada en trece ejes críticos de las relaciones internacionales del país.",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -269,6 +271,34 @@
         "status": "ready"
       },
       "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "\"¿Por qué no renuncia?\", preguntó diputado PS al canciller al cierre de su interpelación",
+          "description": "La Sala de la Cámara de Diputadas y Diputados llevó a cabo este lunes la interpelación al ministro de Relaciones Exteriores, Francisco Pérez Mackenna , quien debe responder ante los parlamentarios por los primeros seis meses de conducción de la política exterior bajo el Gobierno del Presidente José Antonio Kast , en una sesión centrada en trece ejes críticos de las relaciones internacionales del país. La acción fiscalizadora, ratificada previamente en el hemiciclo por 57 votos favorables, 49 en contra y una abstención, estuvo a cargo del diputado socialista Nelson Venegas , quien cuestionó la labor del secretario de Estado al atribuirle una actitud débil y una falta de resguardo frente a los intereses soberanos de la nación . Pese a las abundantes críticas que ha recibido durante sus primeros seis meses de gestión, aseguró haber defendido la soberanía de Chile \"con todas las fuerzas\". (FOTO: ATON) La comparecencia representó un hecho sin precedentes para la diplomacia chilena, dado que nunca un canciller había sido convocado a una interpelación parlamentaria , transformando a Pérez Mackenna en el primer ministro de la actual administración que enfrentó este formato de control legislativo . Uno de los capítulos más tensos de la sesión apuntó a la confirmación realizada por el Presidente Kast en Nueva York respecto al ingreso del país al \"Escudo de las Américas \", iniciativa de seguridad transnacional promovida por el presidente Donald Trump . \"Mientras yo sea canciller, la soberanía de Chile será defendida con todas nuestras fuerzas\" Durante la interpelación, el canciller Pérez Mackenna ratificó en el Congreso la postura de Chile respecto a la autonomía política del país, descartando cualquier intento de intervención por parte de representaciones diplomáticas o potencias internacionales . Al fijar la postura oficial, la autoridad ministerial indicó que \"en Chile se respeta la independencia política y soberanía de nuestra nación. Ningún embajador extranjero define lo que hace este país . Las políticas de Chile son proChile \". \"No renuncio porque usted no es el Presidente de la República\", contestó Francisco Pérez Mackenna frente al duro emplazamiento de Nelson Venegas. (FOTO: ATON) \" Mientras yo sea canciller , la soberanía de Chile será defendida con todas nuestras fuerzas . No hay ningún embajador, ningún país que pueda pasar por arriba de nuestra soberanía. Así que puede estar tranquilo de que ese sagrado derecho de mantener nuestra soberanía será defendido con todas nuestras fuerzas \", puntualizó el canciller. \"Estamos siguiendo la misma línea del gobierno anterior\" En tanto, se confirmó que el Gobierno mantendrá sin alteraciones la política de Estado trazada por la administración anterior para abordar los aranceles comerciales impuestos por Estados Unidos a los envíos chilenos . \"Estamos negociando, porque esa de nuevo esa pregunta también habría que habérsela hecho el 2025. Y la respuesta de la anterior administración fue que era mejor sentarse a negociar que llevar esto a un tribunal . Eso es lo que estamos haciendo , estamos siguiendo la misma línea del gobierno anterior en materia de negociación . Esperamos llegar a buen puerto con esta, porque eso es lo que le interesa a Chile\", puntualizó el secretario de Estado. Canciller defiende soberanía en el Estrecho de Magallanes: \"Siempre fue, es y será chileno\" Tras los cuestionamientos del diputado Venegas, el ministro de Relaciones Exteriores enfatizó que los derechos del país en el paso austral constituyen una política de Estado inalterable desde el siglo XIX , señalando que \" el Estrecho de Magallanes siempre fue , es y será chileno \". Recordó que la soberanía nacional está consagrada y respaldada en los tratados limítrofes suscritos en 1881 y 1984, y destacó que el reciente acuerdo firmado en La Moneda entre ambos mandatarios deja sin efecto cualquier declaración informal trasandina . El canciller afirmó que que la adhesión al Escudo de las Américas \"es simplemente una declaración y, básicamente, no es vinculante\". (FOTO: ATON) Añadió que ya se han interpuesto cinco notas de protesta diplomáticas a lo largo de tres gobiernos para exigir la corrección del Decreto 457 . Tensa interpelación por el \"Escudo de las Américas\" Respecto a los alcances jurídicos y políticos tras la incorporación de Chile a la declaración del \"Escudo de las Américas\", el diputado Venegas cuestionó la postura del Ejecutivo y señaló que los acuerdos conjuntos entre naciones representan compromisos políticos que, pese a no estar redactados bajo la fórmula de un tratado convencional, pueden adquirir efectos vinculantes con el paso del tiempo . Bajo este argumento, el legislador emplazó formalmente a la autoridad ministerial por los filtros previos a la adhesión: \" ¿Qué abogado de su ministerio revisó la declaración del Escudo de las Américas y aprobó que Chile firmara? ¿O acaso los documentos que Chile firma no los revisa?\" . Frente a la consulta parlamentaria, el ministro señaló que \" para firmar se necesita un papel y un lápiz . En este caso no hubo firma ; esta es simplemente una declaración \". \" Esto es simplemente una declaración (...) Básicamente no es vinculante \", puntualizó. En el último cruce en la interpelación, el diputado Venegas le pidió la renuncia al canciller, cuestionando su labor al mando de la cartera de Relaciones Exteriores: \"¿Por qué no renuncio? Bueno, porque usted no es el Presidente de la República\" , le respondió el secretario de Estado. Diputados exigen antecedentes a Kast por pacto del \"Escudo de las Américas\" Al cierre de la sesión de interpelación, la Cámara Baja aprobó remitir un oficio de antecedentes al Presidente Kast para que explique los compromisos derivados del Escudo de las Américas . La iniciativa parlamentaria concluyó con un registro de 66 votos a favor , 72 sufragios en contra y una abstención , alcanzando el tercio de respaldo necesario para viabilizar la solicitud de información. La Cámara de Diputadas y Diputados solicitó formalmente al presidente José Antonio Kast esclarecer los alcances del Escudo de las Américas. (FOTO: ATON) Según se detalló, la corporación demandó el envío de los textos íntegros en español e inglés correspondientes a la declaración conjunta sobre la defensa de la soberanía hemisférica , suscrita el pasado 23 de septiembre. El requerimiento legislativo incluyó además la entrega de las declaraciones conjuntas emitidas por los Estados miembros de la alianza con fechas 21 de mayo , 23 de junio y 10 de julio de este año . Asimismo, ordenó al Ejecutivo detallar la identidad y cargo de las autoridades que firmaron o autorizaron cada uno de estos compromisos en representación del Estado chileno.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/por-que-no-renuncia-pregunto-diputado-ps-al-canciller-al-cierre-de/2026-09-28/151941.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260928/imag/foto_0000001620260928151941.png",
+          "published_raw": "Mon, 28 Sep 2026 15:19:41 -0300",
+          "published_at": "2026-09-28T15:19:41-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 9,
+          "score_elections": 0,
+          "score_international": 5,
+          "score_conflict": 2,
+          "score_policy": 1,
+          "score_ideology": 1,
+          "score_actor": 3,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 21,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-001"
+        },
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
@@ -295,7 +325,7 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
+          "cluster_id": "PML-EVENT-001"
         },
         {
           "source_id": "cooperativa_politica",
@@ -323,7 +353,7 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
+          "cluster_id": "PML-EVENT-001"
         }
       ]
     },
@@ -407,9 +437,9 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-034",
-      "title": "El Gobierno apura la negociación del decreto de vivienda con ayudas a la compra y blindaje del parque público",
-      "url": "https://elpais.com/economia/2026-09-28/el-gobierno-apura-la-negociacion-del-decreto-de-vivienda-con-ayudas-a-la-compra-y-blindaje-del-parque-publico.html",
+      "cluster_id": "PML-EVENT-019",
+      "title": "La socialdemócrata Magdalena Andersson renuncia a formar Gobierno en Suecia",
+      "url": "https://elpais.com/internacional/2026-09-28/la-lider-socialdemocrata-de-suecia-renuncia-a-formar-gobierno.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -418,12 +448,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 64.8,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 53.8
+        "score": 61.7,
+        "level": "MEDIA",
+        "editorial_utility": 50.7
       },
       "selection": {
-        "reason": "PML 64.8; diversidad relajada para completar el brief",
+        "reason": "PML 61.7; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -433,12 +463,12 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-09-28T08:21:27-0300",
-      "last_seen": "2026-09-28T08:21:27-0300",
+      "first_seen": "2026-09-28T06:50:16-0300",
+      "last_seen": "2026-09-28T06:50:16-0300",
       "entities": [],
       "event_terms": [],
       "analysis": {
-        "summary": "Las partes avanzan en impedir a los fondos buitre que adquieran inmuebles residenciales y en activar una batería de rebajas fiscales, además de dar “estabilización” a los contratos",
+        "summary": "La decisión llega después de que sus aliados del Partido de la Izquierda apoyasen a un conservador para presidir el Parlamento. Pese al revés, el bloque progresista aún tiene opciones",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -451,12 +481,12 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "El Gobierno apura la negociación del decreto de vivienda con ayudas a la compra y blindaje del parque público",
-          "description": "Las partes avanzan en impedir a los fondos buitre que adquieran inmuebles residenciales y en activar una batería de rebajas fiscales, además de dar “estabilización” a los contratos",
-          "url": "https://elpais.com/economia/2026-09-28/el-gobierno-apura-la-negociacion-del-decreto-de-vivienda-con-ayudas-a-la-compra-y-blindaje-del-parque-publico.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/RE2MCASVBZAUXFTI7QNVGQONCI.jpeg?auth=cf588019e7edd41a8dd414500d4ce1aec1cae880bf91019c26db8fcc0e2b9006",
-          "published_raw": "Mon, 28 Sep 2026 11:21:27 GMT",
-          "published_at": "2026-09-28T08:21:27-0300",
+          "title": "La socialdemócrata Magdalena Andersson renuncia a formar Gobierno en Suecia",
+          "description": "La decisión llega después de que sus aliados del Partido de la Izquierda apoyasen a un conservador para presidir el Parlamento. Pese al revés, el bloque progresista aún tiene opciones",
+          "url": "https://elpais.com/internacional/2026-09-28/la-lider-socialdemocrata-de-suecia-renuncia-a-formar-gobierno.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/HCUQ57VBLVIZHEPP5GAVQJ7SQA.jpg?auth=c9b30d837b21420ebbe540a79d813215d64468ac494bcfd47b6698bd071209ed",
+          "published_raw": "Mon, 28 Sep 2026 09:50:16 GMT",
+          "published_at": "2026-09-28T06:50:16-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
@@ -464,17 +494,17 @@
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 0,
+          "score_policy": 0,
+          "score_ideology": 2,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 5,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
+          "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-034"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     }
@@ -487,7 +517,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-004",
+        "cluster_id": "PML-EVENT-003",
         "title": "Analista: \"El candidato Kast le habría pedido ya la renuncia al Presidente Kast en más de una ocasión\"",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -542,7 +572,7 @@
             "secondary_topic": "Relaciones internacionales",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
+            "cluster_id": "PML-EVENT-003"
           }
         ],
         "article_count": 1,
@@ -559,7 +589,7 @@
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-009",
+        "cluster_id": "PML-EVENT-007",
         "title": "Republicanos invitó a reflexionar qué aporta cada sector oficialista en medio de disputa con RN",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -614,7 +644,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-009"
+            "cluster_id": "PML-EVENT-007"
           }
         ],
         "article_count": 1,
@@ -628,25 +658,25 @@
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-011",
-        "title": "Pulso Ciudadano: Aprobación a Kast bajó a 28% y la desaprobación subió a 57%",
+        "cluster_id": "PML-EVENT-026",
+        "title": "Exalcalde de Puerto Natales irá a la cárcel, condenado por cohecho",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/pulso-ciudadano-aprobacion-a-kast-bajo-a-28-y-la-desaprobacion-subio-a/2026-09-27/115526.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/exalcalde-de-puerto-natales-ira-a-la-carcel-condenado-por-cohecho/2026-09-28/155106.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 48.2,
-          "level": "BAJA",
+          "score": 56.2,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 51,
-            "freshness": 62,
+            "political_impact": 52,
+            "freshness": 100,
             "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 32
+            "geographic_scope": 40,
+            "continuity": 36
           }
         },
         "coverage": {
@@ -654,36 +684,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-09-27T11:55:26-0300",
-        "last_seen": "2026-09-27T11:55:26-0300",
+        "first_seen": "2026-09-28T15:51:06-0300",
+        "last_seen": "2026-09-28T15:51:06-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Pulso Ciudadano: Aprobación a Kast bajó a 28% y la desaprobación subió a 57%",
-            "description": "La última edición de la encuesta Pulso Ciudadano , publicada este domingo, arrojó que la aprobación del Presidente José Antonio Kast cayó un 5,4% respecto a la medición de agosto  y llegó al 28,2% . La desaprobación presidencial , en tanto, aumentó en 3,2 puntos porcentuales   y se ubicó en un 57,6% . Sobre la evaluación del gabinete de Kast, un 63,6% desaprueba la forma en que los ministros están desarrollando su labor, mientras que un 21,2% señaló aprobar su gestión. Adhesión al Escudo de las Américas En el estudio también se consultó por la reciente adhesión de Chile a la coalición creada por Estados Unidos para combatir el narcotráfico , el denominado \"Escudo de las Américas\" . Los resultados arrojaron que un 41,8% de los encuestados se manifestó a favor de que el país se integrara al acuerdo, mientras que un 25,3% rechazó la incorporación. Asimismo, un 32,9% de los chilenos dijo no estar de acuerdo ni en desacuerdo con la idea. El sondeo muestra diferencias respecto a la última edición de la encuesta Panel Ciudadano UDD , publicada ayer, en la que un 51% de la ciudadanía aprobó la adhesión de Chile al grupo liderado por Donald Trump.",
-            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/pulso-ciudadano-aprobacion-a-kast-bajo-a-28-y-la-desaprobacion-subio-a/2026-09-27/115526.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260927/imag/foto_0000001520260927115526.jpeg",
-            "published_raw": "Sun, 27 Sep 2026 11:55:26 -0300",
-            "published_at": "2026-09-27T11:55:26-0300",
+            "title": "Exalcalde de Puerto Natales irá a la cárcel, condenado por cohecho",
+            "description": "En un fallo unánime, el Tribunal de Juicio Oral en lo Penal de Punta Arenas condenó a José Fernando Paredes Mansilla a la pena de presidio efectivo de 5 años y un día , en calidad de autor del delito consumado de cohecho de funcionario público . El ilícito fue perpetrado entre 2019 y 2020 en Puerto Natales , comuna en la que el antisocial era alcalde, electo como militante UDI en 2008, después de haber ejercido el mismo cargo por 12 años en Torres del Paine . Los jueces Julio Álvarez, Guillermo Cádiz y Rosa Cáceres además  determinaron la aplicación de medidas accesorias legales de \"inhabilitación absoluta temporal para ejercer cargos, empleos, oficios o profesiones en empresas que contraten con órganos o empresas del Estado o con empresas o asociaciones en que éste tenga una participación mayoritaria o para desempeñarse en empresas que participen en concesiones otorgadas por el Estado o cuyo objeto sea la provisión de servicios de utilidad mientras dure la condena; y al pago de una multa de 30 millones de pesos \". El fallo enfatiza que Paredes Mansilla no tiene derecho a una pena sustitutiva, por lo que \"deberá cumplir la pena corporal de manera efectiva\", aunque se abonarán a la sentencia los 739 días que cumplió en prisión preventiva , es decir, estará privado de libertad casi tres años. \"Ofreció dinero a varios funcionarios públicos\" El Poder Judicial detalló que en el fallo queda acreditado, más allá de toda duda razonable, que \"en el mes de agosto del año 2014, a partir de la agenda presidencial de energía, el Ministerio de Energía implementó el Programa de Recambio de Alumbrado Público para Municipios, comprometiéndose la ejecución hasta el año 2017 atendida la disponibilidad presupuestaria existente en ese momento\". \"Las adquisiciones derivadas del programa como de las otras fuentes de financiamiento operarían mediante licitaciones, por lo que la ejecución de las respectivas actividades estaría a cargo de empresas privadas, entre las que se encuentra la empresa ITELECOM Holding Chile SPA y otras vinculadas a aquella. Entre los meses de mayo y julio de 2019, el representante legal, gerente general y socio de las empresas mencionadas, el imputado LEÓN MARCELO LEFORT HERNÁNDEZ, con conocimiento de los imputados RODRÍGUEZ y GUERRA, ofreció dinero a varios funcionarios públicos de la Municipalidad de Puerto Natales , entre ellos al alcalde de la época JOSÉ FERNANDO PAREDES MANSILLA a través del imputado CRISTIAN URETA BRAVO, para que aquellos, con infracción de los deberes de sus respectivos cargos, realizaran conductas ilícitas con la finalidad de favorecer a las empresas señaladas en el marco de los procesos de licitación pública llevado adelante por la Municipalidad de Puerto Natales para el recambio masivo del alumbrado público a tecnología LED\". \"De este modo, conforme los parámetros establecidos por el imputado LEFORT, el imputado CRISTIAN URETA BRAVO, en ocasiones solo y en otras, acompañado por el imputado PEDRO GUERRA GUERRERO, viajó a la Región de Magallanes entre los meses de mayo de 2019 y febrero de 2020, y sostuvo reuniones con el alcalde de la Municipalidad de Puerto Natales, el imputado JOSÉ FERNANDO PAREDES MANSILLA, en las que le ofreció una cantidad total de dinero equivalente al 5% del precio de la licitación, esto es, una suma aproximada de $67.000.000. -, para que, con infracción de los deberes de su cargo, realizara conductas ilícitas con la finalidad de favorecer a las empresas señaladas en el marco del proceso de licitación llevado adelante por dicha municipalidad para el recambio del alumbrado público a tecnología LED, o por haber realizado estas conductas con anterioridad, todo lo cual fue aceptado por los imputados\".",
+            "url": "https://www.cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/exalcalde-de-puerto-natales-ira-a-la-carcel-condenado-por-cohecho/2026-09-28/155106.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260928/imag/foto_0000000220260928155106.jpg",
+            "published_raw": "Mon, 28 Sep 2026 15:51:06 -0300",
+            "published_at": "2026-09-28T15:51:06-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 4,
-            "score_elections": 2,
+            "score_institutional": 2,
+            "score_elections": 0,
             "score_international": 0,
             "score_conflict": 1,
             "score_policy": 0,
             "score_ideology": 0,
-            "score_actor": 2,
+            "score_actor": 1,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 9,
+            "political_evidence": 4,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
+            "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-011"
+            "filter_confidence": "medium",
+            "cluster_id": "PML-EVENT-026"
           }
         ],
         "article_count": 1,
@@ -691,7 +721,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 57.2
+          "chile_utility": 65.2
         },
         "repeated_in_general_top5": false
       }
@@ -700,7 +730,7 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 31,
+      "event_count": 27,
       "maximum_relevance": 69.9,
       "leading_story": "Gobierno retira reforma que creaba un nuevo estado de excepción"
     },
