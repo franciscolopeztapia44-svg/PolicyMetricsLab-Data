@@ -4,30 +4,30 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-29",
-    "data_latest_timestamp": "2026-09-29T12:00:18-0300",
-    "data_age_hours": 0.3,
-    "generated_at": "2026-09-29T12:18:08-0300",
+    "data_latest_timestamp": "2026-09-29T15:08:30-0300",
+    "data_age_hours": 0.2,
+    "generated_at": "2026-09-29T15:18:36-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": false
+    "editorial_topic_diversity_met": true
   },
   "summary": {
     "headline": "Panorama Político Diario",
     "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
     "ranked_events": 34,
-    "topics": 2,
-    "geographies": 2,
-    "representative_sources": 2,
-    "average_top5_relevance": 66,
-    "maximum_relevance": 70.4
+    "topics": 3,
+    "geographies": 3,
+    "representative_sources": 3,
+    "average_top5_relevance": 65.8,
+    "maximum_relevance": 69.1
   },
   "top_stories": [
     {
@@ -43,12 +43,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 70.4,
+        "score": 69.1,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 70.4
+        "editorial_utility": 69.1
       },
       "selection": {
-        "reason": "PML 70.4",
+        "reason": "PML 69.1",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -71,7 +71,7 @@
         "eleccion"
       ],
       "analysis": {
-        "summary": "Lula, Bolsonaro, los obispos católicos y el Supremo entran en una controversia alentada por la izquierda y que puede influir en una elección muy reñida",
+        "summary": "Lula, Bolsonaro, los obispos católicos y el Supremo entran en una controversia alentada por la izquierda y que puede influir en una elección extremadamente reñida",
         "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / América Latina.",
         "watch_next": [
           "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
@@ -85,7 +85,7 @@
           "source_id": "elpais_america",
           "source": "EL PAÍS",
           "title": "Una noticia falsa sobre la virgen de Aparecida, patrona de Brasil, marca el final de la campaña presidencial",
-          "description": "Lula, Bolsonaro, los obispos católicos y el Supremo entran en una controversia alentada por la izquierda y que puede influir en una elección muy reñida",
+          "description": "Lula, Bolsonaro, los obispos católicos y el Supremo entran en una controversia alentada por la izquierda y que puede influir en una elección extremadamente reñida",
           "url": "https://elpais.com/america/2026-09-29/una-noticia-falsa-sobre-la-virgen-de-aparecida-patrona-de-brasil-marca-el-final-de-la-campana-presidencial.html",
           "image_url": "https://imagenes.elpais.com/resizer/v2/VD7CWTG3CZE7JHDURAMBSZPJTQ.jpg?auth=ef0f0c80f6171f610b9be3d47c4e5cef064e5478c64170b89a3351ecbeead0f0",
           "published_raw": "Tue, 29 Sep 2026 13:51:25 GMT",
@@ -114,8 +114,8 @@
     {
       "position": 2,
       "cluster_id": "PML-EVENT-004",
-      "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
+      "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -124,12 +124,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 66.2,
+        "score": 66,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 78.2
+        "editorial_utility": 78
       },
       "selection": {
-        "reason": "PML 66.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 66; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -139,15 +139,15 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-09-29T08:09:24-0300",
-      "last_seen": "2026-09-29T08:09:24-0300",
+      "first_seen": "2026-09-29T11:55:12-0300",
+      "last_seen": "2026-09-29T11:55:12-0300",
       "entities": [
-        "senado",
-        "congreso"
+        "congreso",
+        "chile"
       ],
-      "event_terms": "sanciones",
+      "event_terms": "oposicion",
       "analysis": {
-        "summary": "Las atribuciones de Gendarmería para segregar a personas privadas de libertad serán el eje de la nueva reforma constitucional de seguridad, afirmó este martes el presidente de la Comisión de Constitución del Senado, Pedro Araya (PPD), en El Diario de Cooperativa . \"En lo central de la reforma, sin duda van a ser las nuevas atribuciones a Gendarmería , eso es lo que se está pensando\", afirmó Araya.",
+        "summary": "El ministro de Seguridad Pública, Martín Arrau , descartó que el posible retiro de la reforma constitucional de seguridad , dando paso al ingreso de un nuevo texto al Congreso, pueda significar una \"derrota\" para el Gobierno de José Antonio Kast . Ayer lunes, el senador y presidente del Partido Republicano, Arturo Squella , confirmó la apertura del Ejecutivo a bajar su propuesta inicial , que generó un fuerte rechazo en la oposición y dividió al oficialismo por un eventual…",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -160,25 +160,25 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
-          "description": "Las atribuciones de Gendarmería para segregar a personas privadas de libertad serán el eje de la nueva reforma constitucional de seguridad, afirmó este martes el presidente de la Comisión de Constitución del Senado, Pedro Araya (PPD), en El Diario de Cooperativa . \"En lo central de la reforma, sin duda van a ser las nuevas atribuciones a Gendarmería , eso es lo que se está pensando\", afirmó Araya. El senador explicó que a esa facultad \"se le entrega el rango constitucional para evitar cualquier tipo de discusión y que Gendarmería tenga un mayor blindaje respecto de las atribuciones que va a tener en orden a la segregación penal \". Según sostuvo, el objetivo es ofrecer mayor respaldo jurídico a las decisiones de Gendarmería sobre el traslado o la separación de internos considerados peligrosos, que hoy pueden ser impugnadas ante los tribunales. \"Eso se va a recoger absolutamente\", señaló Araya. A su juicio, elevar la atribución a rango constitucional permitiría dar a Gendarmería \"un blindaje jurídicamente más fuerte\" frente a esas reclamaciones. Qué pasará con los estados de excepción Araya aseguró que el nuevo estado de excepción propuesto originalmente por el Gobierno quedó descartado . En su reemplazo, los senadores estudian precisiones al estado de emergencia vigente para evitar diferencias de interpretación sobre el apoyo de las Fuerzas Armadas a las policías. El legislador recalcó que las conversaciones no apuntan a ampliar las atribuciones militares ni a establecer un estado de excepción de 120 días prorrogables sin control del Congreso. Por el contrario, planteó que, en casos relacionados con seguridad pública, el Parlamento pueda revocar la medida. Una tercera materia en estudio es incorporar en la Constitución una condena al crimen organizado , como ocurre con el terrorismo. Araya precisó que los efectos concretos de esa declaración, entre ellos eventuales cambios en sanciones o derechos, tendrían que desarrollarse mediante leyes. Plazos y lectura política Los cinco integrantes de la Comisión de Constitución trabajan en la propuesta. Araya espera contar con un primer borrador entre este martes y el miércoles, para ingresar el proyecto a más tardar la próxima semana . La reforma original del Ejecutivo todavía se encuentra técnicamente en la comisión. Según el senador, el Gobierno desistiría de ella y la retiraría una vez presentado el nuevo texto. Araya interpretó la disposición del Ejecutivo a negociar una nueva reforma como una señal de que busca ampliar sus acuerdos en el Congreso , luego de los tropiezos legislativos en sala cuna universal y expulsiones . A su juicio, esas votaciones mostraron al Gobierno que no puede depender de uno o dos votos para sacar adelante iniciativas relevantes. \"Pareciera ser que el gobierno está buscando un nuevo trato con el Congreso y empezar a generar, sobre todo en los temas de seguridad, acuerdos más transversales\", sostuvo. De todos modos, llamó a observar los próximos proyectos para comprobar si esta apertura al diálogo se mantiene más allá de la reforma de seguridad.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929080924.jpg",
-          "published_raw": "Tue, 29 Sep 2026 08:09:24 -0300",
-          "published_at": "2026-09-29T08:09:24-0300",
+          "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
+          "description": "El ministro de Seguridad Pública, Martín Arrau , descartó que el posible retiro de la reforma constitucional de seguridad , dando paso al ingreso de un nuevo texto al Congreso, pueda significar una \"derrota\" para el Gobierno de José Antonio Kast . Ayer lunes, el senador y presidente del Partido Republicano, Arturo Squella , confirmó la apertura del Ejecutivo a bajar su propuesta inicial , que generó un fuerte rechazo en la oposición y dividió al oficialismo por un eventual presidencialismo excesivo, al contener medidas como un nuevo estado de excepción de 120 días renovables sin autorización del Congreso . Por lo pronto, ha trascendido que una nueva reforma estaría suscrita por Squella y sus colegas de la Comisión de Constitución de la Cámara Alta, Pedro Araya (PPD) y Andrés Longton (RN), además de incorporar una iniciativa de la senadora Paulina Vodanovic (PS) relativa a segregación penitenciaria. Arrau , que ha mantenido conversaciones con aquellos parlamentarios en las últimas semanas, señaló este martes que \"como hemos dicho, no nos enamoramos de una redacción particular; lo que nos interesa es tener las herramientas , una mayor segregación y segmentación penitenciaria por parte de Gendarmería, y más herramientas para el combate al crimen organizado\". En ese sentido, \" estamos viendo cuál es el mejor camino : si es que se potencia una posible indicación o un posible texto ingresado por los senadores . Eso implicaría quizás algún retiro, pero estamos a la espera de esa propuesta\". [Lea también]   Senadores Longton y Squella proponen indicaciones para destrabar la reforma de seguridad Dado que ha dialogado en esta línea con senadores de oposición, el ministro dijo esperar que \"se destrabe el espacio y podamos avanzar en otros proyectos tan importantes que estamos empujando\" , insistiendo en el llamado a la unidad del Gobierno a raíz de la muerte del cabo segundo de Carabineros Cristopher Aguilera . La autoridad pidió \" aunar voluntades y botar ciertas diferencias que hay , en pos de que tengamos mejores herramientas para el combate del crimen organizado, Reglas de Uso de la Fuerza, y tantas otras cosas que pueden cambiar el combate a las organizaciones grandes, como también de que nuestras policías tengan mejores herramientas y medios para pararse mejor en la calle y defender mejor a la ciudadanía\". Finalmente, consultado sobre si retirar la reforma original significaría un fracaso para el Gobierno , Arrau relevó: \" Avanzar en cualquier ley que le haga bien a Chile en seguridad por supuesto que no es una derrota . Creo que hay que superar esas cosas políticas en pos de tener mejores herramientas para dar más seguridad a los chilenos\".",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929115512.jpg",
+          "published_raw": "Tue, 29 Sep 2026 11:55:12 -0300",
+          "published_at": "2026-09-29T11:55:12-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 7,
+          "score_institutional": 8,
           "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 6,
+          "score_international": 0,
+          "score_conflict": 3,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 2,
+          "score_actor": 6,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 16,
+          "political_evidence": 17,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
@@ -189,23 +189,23 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-023",
-      "title": "Andy Burnham coloca la crisis de la vivienda como prioridad de su programa de Gobierno",
-      "url": "https://elpais.com/internacional/2026-09-29/andy-burnham-coloca-la-crisis-de-la-vivienda-como-prioridad-de-su-programa-de-gobierno.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
+      "cluster_id": "PML-EVENT-016",
+      "title": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260929-ee-uu-ampl%C3%ADa-proceso-judicial-por-el-asesinato-del-presidente-haitiano-jovenel-mo%C3%AFse-habr%C3%A1-un-giro-en-el-caso",
+      "representative_source": "France 24",
+      "topic": "Conflictos y seguridad",
       "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
+        "group": "Estados Unidos",
+        "country": "Estados Unidos"
       },
       "relevance": {
-        "score": 63.7,
+        "score": 65.1,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 62.7
+        "editorial_utility": 77.1
       },
       "selection": {
-        "reason": "PML 63.7; nuevo tipo de evento",
+        "reason": "PML 65.1; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -213,15 +213,15 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "France 24"
       },
-      "first_seen": "2026-09-29T12:00:18-0300",
-      "last_seen": "2026-09-29T12:00:18-0300",
+      "first_seen": "2026-09-29T15:08:30-0300",
+      "last_seen": "2026-09-29T15:08:30-0300",
       "entities": [],
-      "event_terms": "crisis",
+      "event_terms": "judicial",
       "analysis": {
-        "summary": "“No debe ser un juego de ganadores y perdedores, sino el bien esencial para una buena vida”, ha dicho el primer ministro británico",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "La violencia en Haití no cesa. Al menos 11 personas murieron en la región central de Artibonite, Haití, a manos de miembros de bandas tras una operación de seguridad letal, según informó el alcalde local. Entretanto, Estados Unidos amplió considerablemente el proceso judicial relacionado con el asesinato del presidente haitiano Jovenel Moïse, ocurrido en 2021. ¿Qué cambia ahora? Lo desciframos.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Estados Unidos.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -231,38 +231,111 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Andy Burnham coloca la crisis de la vivienda como prioridad de su programa de Gobierno",
-          "description": "“No debe ser un juego de ganadores y perdedores, sino el bien esencial para una buena vida”, ha dicho el primer ministro británico",
-          "url": "https://elpais.com/internacional/2026-09-29/andy-burnham-coloca-la-crisis-de-la-vivienda-como-prioridad-de-su-programa-de-gobierno.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/75BVY5OHZJNE5O76WC7LASTHRY.jpg?auth=d3459a94a166ea7f5facdf1d226323f5f23981b9f80ab9f38a91e875a3380c72",
-          "published_raw": "Tue, 29 Sep 2026 15:00:18 GMT",
-          "published_at": "2026-09-29T12:00:18-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?",
+          "description": "La violencia en Haití no cesa. Al menos 11 personas murieron en la región central de Artibonite, Haití, a manos de miembros de bandas tras una operación de seguridad letal, según informó el alcalde local. Entretanto, Estados Unidos amplió considerablemente el proceso judicial relacionado con el asesinato del presidente haitiano Jovenel Moïse, ocurrido en 2021. ¿Qué cambia ahora? Lo desciframos.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260929-ee-uu-ampl%C3%ADa-proceso-judicial-por-el-asesinato-del-presidente-haitiano-jovenel-mo%C3%AFse-habr%C3%A1-un-giro-en-el-caso",
+          "image_url": "https://s.france24.com/media/display/7a2893b6-1c5c-11ee-b2e3-005056a90284/w:1024/p:16x9/000_1NN6LS.jpg",
+          "published_raw": "Tue, 29 Sep 2026 18:08:30 GMT",
+          "published_at": "2026-09-29T15:08:30-0300",
+          "country": "Estados Unidos",
+          "region": "Estados Unidos",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 1,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
+          "score_conflict": 2,
+          "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
+          "political_evidence": 5,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-016"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-029",
+      "cluster_id": "PML-EVENT-028",
+      "title": "Marruecos nombra a Fátima Mansouri como primera mujer al frente del Gobierno en Rabat",
+      "url": "https://elpais.com/internacional/2026-09-29/marruecos-nombra-a-fatima-mansouri-como-primera-ministra-del-pais-la-primera-mujer-al-frente-del-gobierno-en-rabat.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 65.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 61.2
+      },
+      "selection": {
+        "reason": "PML 65.2",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-29T14:27:41-0300",
+      "last_seen": "2026-09-29T14:27:41-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "El rey Mohamed VI designa a la líder de la formación política de centroderecha PAM después de las elecciones del pasado 23 de septiembre",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Marruecos nombra a Fátima Mansouri como primera mujer al frente del Gobierno en Rabat",
+          "description": "El rey Mohamed VI designa a la líder de la formación política de centroderecha PAM después de las elecciones del pasado 23 de septiembre",
+          "url": "https://elpais.com/internacional/2026-09-29/marruecos-nombra-a-fatima-mansouri-como-primera-ministra-del-pais-la-primera-mujer-al-frente-del-gobierno-en-rabat.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/L5W6UFMZWBE5BLRVFED6EZPIRQ.jpg?auth=9507e97556b8dc787f2f9160c091b669565e6189672dd38c7d35b16ce52b1d1b",
+          "published_raw": "Tue, 29 Sep 2026 17:27:41 GMT",
+          "published_at": "2026-09-29T14:27:41-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-028"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-030",
       "title": "Los Reyes reciben con honores a Macron en uno de sus últimos viajes de Estado antes de las elecciones en Francia",
       "url": "https://elpais.com/espana/2026-09-29/los-reyes-reciben-con-honores-a-macron-en-uno-de-sus-ultimos-viajes-de-estado-antes-de-las-elecciones-en-francia.html",
       "representative_source": "EL PAÍS",
@@ -273,12 +346,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 64.9,
+        "score": 63.7,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 59.9
+        "editorial_utility": 58.7
       },
       "selection": {
-        "reason": "PML 64.9; diversidad relajada para completar el brief",
+        "reason": "PML 63.7; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -329,80 +402,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-028",
-      "title": "El Gobierno aprueba la protección frente a los desahucios hasta 2030 y la prórroga de los contratos de alquiler hasta 2028",
-      "url": "https://elpais.com/espana/2026-09-29/el-gobierno-aprueba-la-proteccion-frente-a-los-desahucios-hasta-2030-y-la-prorroga-de-los-contratos-de-alquiler-hasta-2028.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 64.7,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 57.7
-      },
-      "selection": {
-        "reason": "PML 64.7; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-09-29T10:40:03-0300",
-      "last_seen": "2026-09-29T10:40:03-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "El Ejecutivo lleva a un segundo decreto ley la renovación automática de los alquileres, petición de la izquierdas que por ahora no tiene mayoría. Los textos se votarán el viernes",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El Gobierno aprueba la protección frente a los desahucios hasta 2030 y la prórroga de los contratos de alquiler hasta 2028",
-          "description": "El Ejecutivo lleva a un segundo decreto ley la renovación automática de los alquileres, petición de la izquierdas que por ahora no tiene mayoría. Los textos se votarán el viernes",
-          "url": "https://elpais.com/espana/2026-09-29/el-gobierno-aprueba-la-proteccion-frente-a-los-desahucios-hasta-2030-y-la-prorroga-de-los-contratos-de-alquiler-hasta-2028.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/XPK7TDINQZASFK6WXDSNGGOABU.jpg?auth=b51e82f4037d25806e6c13979e17247f9ba6e7b2c27fecb9b233f660b8c35952",
-          "published_raw": "Tue, 29 Sep 2026 13:40:03 GMT",
-          "published_at": "2026-09-29T10:40:03-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 3,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
+          "cluster_id": "PML-EVENT-030"
         }
       ]
     }
@@ -415,22 +415,22 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-006",
-        "title": "Gobierno se abrió a retirar reforma que crea un nuevo estado de excepción",
+        "cluster_id": "PML-EVENT-003",
+        "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abrio-a-retirar-reforma-que-crea-un-nuevo-estado-de-excepcion/2026-09-28/134651.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 62.9,
+          "score": 64.5,
           "level": "MEDIA-ALTA",
           "components": {
-            "political_impact": 95,
-            "freshness": 72,
+            "political_impact": 87,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 44
@@ -441,36 +441,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-09-28T13:46:51-0300",
-        "last_seen": "2026-09-28T13:46:51-0300",
+        "first_seen": "2026-09-29T08:09:24-0300",
+        "last_seen": "2026-09-29T08:09:24-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Gobierno se abrió a retirar reforma que crea un nuevo estado de excepción",
-            "description": "El Gobierno abrió la puerta este lunes a retirar del Congreso la reforma constitucional en materia de seguridad , condicionando la medida a que la Comisión de Constitución del Senado elabore y presente un texto consensuado y transversal. La propuesta inicial del Ejecutivo —que permitía decretar un estado de excepción de 120 días renovables sin autorización del Congreso— generó un fuerte rechazo en la oposición y dividió al oficialismo por los reparos frente a un eventual presidencialismo excesivo. La decisión fue confirmada por el presidente del Partido Republicano, Arturo Squella , quien comentó que \" el Gobierno no tiene problema en bajar su propuesta con el propósito de que ingrese una nueva , a la luz de lo que estuvimos trabajando junto al senador Longton, y pusimos a disposición del resto de los integrantes de la Comisión de Constitución del Senado y eso a su vez tramitarlo de la mano con la reforma constitucional que ya presentó la senadora Vodanovic\". \"Desde esa perspectiva,  tendríamos un texto que representaría el propósito buscado por el Gobierno\", insistió. Respecto a que si el retiro significa un fracaso en las ideas iniciales del Gobierno, Squella aseveró que \"sería muy pequeño pensar que l os éxitos o los fracasos están en función de quién puede tener un crédito respecto de un proyecto de ley o no\" . \"El éxito se mide en función del resultado, y el resultado exitoso va a estar cuando se logren los 4/7 para una reforma constitucional que nos dé paso a un estándar de protección distinto, y al final del día los que ganamos somos todos los chilenos\", reflexionó. El presidente de la Comisión de Constitución del Senado, Pedro Araya , apuntó que el retiro del proyecto tiene la condición de que \" exista una nueva propuesta constitucional para abordar los temas de seguridad pública completa \". \"El resto de la agenda corta se sigue trabajando en las distintas comisiones\", agregó el legislador. Por su parte, el biministro del Interior y Segegob, Claudio Alvarado , afirmó que   \"como Gobierno siempre estamos disponibles para recoger esas propuestas, ampliar las bases de apoyo, llegar a un acuerdo y sacar adelante una reforma que sea compartida por la oposición. Vamos a conversar con ellos y, una vez que tengamos esa conversación, es probable que suceda lo que se señala o que la propuesta se mejore\", indicó la autoridad. El senador Andrés Longton (RN) reconoció que el proyecto \"se podría haber ingresado de una manera distinta desde el punto de vista del contenido si se hubiera sociabilizado, porque probablemente hubiéramos hecho las aprensiones antes de que se hubiera presentado y eso obviamente sirve de lección. No va el quinto estado de excepción, no va porque nosotros creemos que el estado de emergencia ha sido eficiente y, como tal, hay que potenciarlo y no dejarlo de lado, no debilitarlo al crear uno nuevo\". En la misma línea, la presidenta del PS, senadora Paulina Vodanovic —quien cuestionó que el anuncio no se diera tras un diálogo más amplio en el Congreso—, busca que el consenso contemple la fusión con su proyecto de ley orientado a establecer un nuevo régimen carcelario de alta seguridad.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abrio-a-retirar-reforma-que-crea-un-nuevo-estado-de-excepcion/2026-09-28/134651.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260928/imag/foto_0000000220260928134651.jpg",
-            "published_raw": "Mon, 28 Sep 2026 13:46:51 -0300",
-            "published_at": "2026-09-28T13:46:51-0300",
+            "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
+            "description": "Las atribuciones de Gendarmería para segregar a personas privadas de libertad serán el eje de la nueva reforma constitucional de seguridad, afirmó este martes el presidente de la Comisión de Constitución del Senado, Pedro Araya (PPD), en El Diario de Cooperativa . \"En lo central de la reforma, sin duda van a ser las nuevas atribuciones a Gendarmería , eso es lo que se está pensando\", afirmó Araya. El senador explicó que a esa facultad \"se le entrega el rango constitucional para evitar cualquier tipo de discusión y que Gendarmería tenga un mayor blindaje respecto de las atribuciones que va a tener en orden a la segregación penal \". Según sostuvo, el objetivo es ofrecer mayor respaldo jurídico a las decisiones de Gendarmería sobre el traslado o la separación de internos considerados peligrosos, que hoy pueden ser impugnadas ante los tribunales. \"Eso se va a recoger absolutamente\", señaló Araya. A su juicio, elevar la atribución a rango constitucional permitiría dar a Gendarmería \"un blindaje jurídicamente más fuerte\" frente a esas reclamaciones. Qué pasará con los estados de excepción Araya aseguró que el nuevo estado de excepción propuesto originalmente por el Gobierno quedó descartado . En su reemplazo, los senadores estudian precisiones al estado de emergencia vigente para evitar diferencias de interpretación sobre el apoyo de las Fuerzas Armadas a las policías. El legislador recalcó que las conversaciones no apuntan a ampliar las atribuciones militares ni a establecer un estado de excepción de 120 días prorrogables sin control del Congreso. Por el contrario, planteó que, en casos relacionados con seguridad pública, el Parlamento pueda revocar la medida. Una tercera materia en estudio es incorporar en la Constitución una condena al crimen organizado , como ocurre con el terrorismo. Araya precisó que los efectos concretos de esa declaración, entre ellos eventuales cambios en sanciones o derechos, tendrían que desarrollarse mediante leyes. Plazos y lectura política Los cinco integrantes de la Comisión de Constitución trabajan en la propuesta. Araya espera contar con un primer borrador entre este martes y el miércoles, para ingresar el proyecto a más tardar la próxima semana . La reforma original del Ejecutivo todavía se encuentra técnicamente en la comisión. Según el senador, el Gobierno desistiría de ella y la retiraría una vez presentado el nuevo texto. Araya interpretó la disposición del Ejecutivo a negociar una nueva reforma como una señal de que busca ampliar sus acuerdos en el Congreso , luego de los tropiezos legislativos en sala cuna universal y expulsiones . A su juicio, esas votaciones mostraron al Gobierno que no puede depender de uno o dos votos para sacar adelante iniciativas relevantes. \"Pareciera ser que el gobierno está buscando un nuevo trato con el Congreso y empezar a generar, sobre todo en los temas de seguridad, acuerdos más transversales\", sostuvo. De todos modos, llamó a observar los próximos proyectos para comprobar si esta apertura al diálogo se mantiene más allá de la reforma de seguridad. Gobierno descarta \"derrota\" El ministro de Seguridad, Martín Arrau, planteó que \" avanzar en cualquier ley que le haga bien a Chile en seguridad no es una derrota , esas cosas políticas yo creo que hay que superarlas en pos de tener mejores herramientas para darle mejor seguridad a los chilenos\". \"Agradezco el trabajo de los senadores y estamos viendo cuál va a ser el mejor camino, si se potencia como una posible indicación o posible texto ingresado por los senadores, eso implicaría quizás un retiro (del proyecto actual), pero estamos a la espera de esa propuesta\", detalló. Arrau valoró que \"por mientras si eso genera que se destraben espacios y podamos avanzar en otros proyectos tan importantes que estamos empujando, es lo que estamos buscando\".",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929080924.jpg",
+            "published_raw": "Tue, 29 Sep 2026 08:09:24 -0300",
+            "published_at": "2026-09-29T08:09:24-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 8,
+            "score_institutional": 9,
             "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 1,
+            "score_international": 1,
+            "score_conflict": 6,
             "score_policy": 0,
             "score_ideology": 0,
-            "score_actor": 6,
+            "score_actor": 3,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 15,
+            "political_evidence": 19,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
+            "cluster_id": "PML-EVENT-003"
           }
         ],
         "article_count": 1,
@@ -481,7 +481,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 84.9
+          "chile_utility": 86.5
         },
         "repeated_in_general_top5": false
       },
@@ -616,21 +616,21 @@
       {
         "position": 3,
         "cluster_id": "PML-EVENT-007",
-        "title": "Republicanos invitó a reflexionar qué aporta cada sector oficialista en medio de disputa con RN",
+        "title": "Gobierno se abrió a retirar reforma que crea un nuevo estado de excepción",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/renovacion-nacional/republicanos-invito-a-reflexionar-que-aporta-cada-sector-oficialista-en/2026-09-28/141923.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abrio-a-retirar-reforma-que-crea-un-nuevo-estado-de-excepcion/2026-09-28/134651.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 49.4,
-          "level": "BAJA",
+          "score": 60.4,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 50,
-            "freshness": 72,
+            "political_impact": 95,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 44
@@ -641,33 +641,33 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-09-28T14:19:23-0300",
-        "last_seen": "2026-09-28T14:19:23-0300",
+        "first_seen": "2026-09-28T13:46:51-0300",
+        "last_seen": "2026-09-28T13:46:51-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Republicanos invitó a reflexionar qué aporta cada sector oficialista en medio de disputa con RN",
-            "description": "El presidente del Partido Republicano, Arturo Squella , invitó a reflexionar cuál es el aporte de cada sector del oficialismo , en medio de disputas con Renovación Nacional por los revés que ha tenido el Gobierno en el Congreso. Los traspiés del Ejecutivo han generado críticas al rol de la Secretaría General de la Presidencial , liderada por José García Ruminot (RN). No obstante, desde Renovación Nacional han blindado a su militante y concentraron su ofensiva en el jefe de la Dirección Política de la Segpres, Emiliano García (Republicanos). La presidenta del Senado, Paulina Núñez (RN) , planteó que \"se necesita una cirugía mayor\" hace unos días; mientras, que la senadora María José Gatica (RN) sugirió hoy en Radio Infinita hacer un cambio de gabinete para mejorar el desempeño del Gobierno en su agenda. La convicción de que existe un déficit político en el elenco que acompaña al Presidente José Antonio Kast no ha caído muy bien en los partidos fuertes del oficialismo. Por ello, el timonel republicano Arturo Squella invitó a reflexionar sobre el aporte de cada uno al Ejecutivo. \"Quienes estamos en política en general siempre somos buenos para hacer análisis, para hacer estudios de qué cambios se harían. Lo que nos enseña la experiencia es que cada vez que públicamente se sale a pedir estos cambios, en definitiva, no van a ocurrir . Cuando uno llega a la conclusión de que hay déficit en un equipo de trabajo en materia política, lo primero que uno tiene que hacer es preguntarse: '¿en qué puedo colaborar yo para superar ese déficit?' \", aseveró. En ese sentido, sostuvo que \"cuando se trata en el fondo de avanzar y uno vuelve atrás hablando de la necesidad de hacer ajustes, cambios, la verdad es que obviamente eso no colabora con un fluido avance, sino que evidentemente pone trabas \". Desde el Partido Cristiano de Chile , apuntaron en un comunicado que la propuesta de RN es legítima, pero no puede transformarse en una disputa de poder o en una carrera para obtener cargos públicos. La presidenta de la colectividad, la diputada Sara Concha , señaló a Cooperativa que \" si vamos a estar con el Presidente, estemos con él; o si no, entonces no sean parte del oficialismo (...) Más que colaborar, es aportillar al Gobierno del Presidente José Antonio Kast \". Igualmente, apuntó directamente a RN y afirmó que \"siempre han tenido esta ansia de poder y que se manifiesta a todas luces. Y si hoy día existen diferencias, nosotros igual hacemos el llamado a hacerla desde adentro y no por la prensa , por supuesto. RN: Llevamos meses diciéndolo, pero un cambio de gabinete es potestad del Presidente Por su parte, la timonel de Renovación Nacional, senadora Andrea Balladares, defendió la postura de la colectividad y sostuvo que la crítica de déficit político ya la han planteado con anterioridad. \" Llevamos meses diciéndolo . Hemos entregado, por ejemplo, documentos formales de qué tipos de coordinaciones distintas deberíamos tener , y creo que ahí hemos ido creando nuevas instancias de coordinación. Creo que todavía falta aún, creo que hay harto más que hacer, sobre todo con los ministerios sectoriales, pero confío en que es el rumbo que va a tomar el gobierno\", afirmó. Asimismo, reconoció que \"todo cambio de gabinete es potestad del Presidente; creo que él es el que tiene que hacer las evaluaciones. Hoy día espero que nos concentremos en lo que se venga en el presupuesto y en que claramente cada uno de los ministerios sectoriales haga también su trabajo\".",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/renovacion-nacional/republicanos-invito-a-reflexionar-que-aporta-cada-sector-oficialista-en/2026-09-28/141923.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260928/imag/foto_0000000220260928141923.jpg",
-            "published_raw": "Mon, 28 Sep 2026 14:19:23 -0300",
-            "published_at": "2026-09-28T14:19:23-0300",
+            "title": "Gobierno se abrió a retirar reforma que crea un nuevo estado de excepción",
+            "description": "El Gobierno abrió la puerta este lunes a retirar del Congreso la reforma constitucional en materia de seguridad , condicionando la medida a que la Comisión de Constitución del Senado elabore y presente un texto consensuado y transversal. La propuesta inicial del Ejecutivo —que permitía decretar un estado de excepción de 120 días renovables sin autorización del Congreso— generó un fuerte rechazo en la oposición y dividió al oficialismo por los reparos frente a un eventual presidencialismo excesivo. La decisión fue confirmada por el presidente del Partido Republicano, Arturo Squella , quien comentó que \" el Gobierno no tiene problema en bajar su propuesta con el propósito de que ingrese una nueva , a la luz de lo que estuvimos trabajando junto al senador Longton, y pusimos a disposición del resto de los integrantes de la Comisión de Constitución del Senado y eso a su vez tramitarlo de la mano con la reforma constitucional que ya presentó la senadora Vodanovic\". \"Desde esa perspectiva,  tendríamos un texto que representaría el propósito buscado por el Gobierno\", insistió. Respecto a que si el retiro significa un fracaso en las ideas iniciales del Gobierno, Squella aseveró que \"sería muy pequeño pensar que l os éxitos o los fracasos están en función de quién puede tener un crédito respecto de un proyecto de ley o no\" . \"El éxito se mide en función del resultado, y el resultado exitoso va a estar cuando se logren los 4/7 para una reforma constitucional que nos dé paso a un estándar de protección distinto, y al final del día los que ganamos somos todos los chilenos\", reflexionó. El presidente de la Comisión de Constitución del Senado, Pedro Araya , apuntó que el retiro del proyecto tiene la condición de que \" exista una nueva propuesta constitucional para abordar los temas de seguridad pública completa \". \"El resto de la agenda corta se sigue trabajando en las distintas comisiones\", agregó el legislador. Por su parte, el biministro del Interior y Segegob, Claudio Alvarado , afirmó que   \"como Gobierno siempre estamos disponibles para recoger esas propuestas, ampliar las bases de apoyo, llegar a un acuerdo y sacar adelante una reforma que sea compartida por la oposición. Vamos a conversar con ellos y, una vez que tengamos esa conversación, es probable que suceda lo que se señala o que la propuesta se mejore\", indicó la autoridad. El senador Andrés Longton (RN) reconoció que el proyecto \"se podría haber ingresado de una manera distinta desde el punto de vista del contenido si se hubiera sociabilizado, porque probablemente hubiéramos hecho las aprensiones antes de que se hubiera presentado y eso obviamente sirve de lección. No va el quinto estado de excepción, no va porque nosotros creemos que el estado de emergencia ha sido eficiente y, como tal, hay que potenciarlo y no dejarlo de lado, no debilitarlo al crear uno nuevo\". En la misma línea, la presidenta del PS, senadora Paulina Vodanovic —quien cuestionó que el anuncio no se diera tras un diálogo más amplio en el Congreso—, busca que el consenso contemple la fusión con su proyecto de ley orientado a establecer un nuevo régimen carcelario de alta seguridad.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abrio-a-retirar-reforma-que-crea-un-nuevo-estado-de-excepcion/2026-09-28/134651.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260928/imag/foto_0000000220260928134651.jpg",
+            "published_raw": "Mon, 28 Sep 2026 13:46:51 -0300",
+            "published_at": "2026-09-28T13:46:51-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 7,
+            "score_institutional": 8,
             "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 1,
+            "score_conflict": 1,
+            "score_policy": 0,
             "score_ideology": 0,
             "score_actor": 6,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 14,
+            "political_evidence": 15,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
             "cluster_id": "PML-EVENT-007"
@@ -676,9 +676,12 @@
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 58.4
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 82.4
         },
         "repeated_in_general_top5": false
       }
@@ -688,26 +691,26 @@
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 5,
-      "maximum_relevance": 70.4,
+      "maximum_relevance": 69.1,
       "leading_story": "Una noticia falsa sobre la virgen de Aparecida, patrona de Brasil, marca el final de la campaña presidencial"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 24,
-      "maximum_relevance": 66.2,
-      "leading_story": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad"
+      "event_count": 23,
+      "maximum_relevance": 66,
+      "leading_story": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\""
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 4,
+      "maximum_relevance": 65.1,
+      "leading_story": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
       "maximum_relevance": 46.6,
       "leading_story": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 3,
-      "maximum_relevance": 38,
-      "leading_story": "Trump dice que Estados Unidos llegará a un acuerdo con Cuba y descarta una intervención militar"
     },
     {
       "topic": "Ideología y competencia política",
