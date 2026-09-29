@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-29",
-    "data_latest_timestamp": "2026-09-29T15:08:30-0300",
-    "data_age_hours": 0.2,
-    "generated_at": "2026-09-29T15:18:36-0300",
+    "data_latest_timestamp": "2026-09-29T17:25:17-0300",
+    "data_age_hours": 0.8,
+    "generated_at": "2026-09-29T18:15:17-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,39 +16,39 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
     "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 34,
+    "ranked_events": 36,
     "topics": 3,
     "geographies": 3,
     "representative_sources": 3,
-    "average_top5_relevance": 65.8,
-    "maximum_relevance": 69.1
+    "average_top5_relevance": 66.4,
+    "maximum_relevance": 68.4
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-024",
-      "title": "Una noticia falsa sobre la virgen de Aparecida, patrona de Brasil, marca el final de la campaña presidencial",
-      "url": "https://elpais.com/america/2026-09-29/una-noticia-falsa-sobre-la-virgen-de-aparecida-patrona-de-brasil-marca-el-final-de-la-campana-presidencial.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-029",
+      "title": "El peso del abstencionismo de cara a las elecciones generales en Brasil",
+      "url": "https://www.france24.com/es/video/20260929-el-peso-del-abstencionismo-de-cara-a-las-elecciones-generales-en-brasil",
+      "representative_source": "France 24",
       "topic": "Elecciones y opinión pública",
       "event_type": "ELECTORAL_EVENT",
       "geography": {
         "group": "América Latina",
-        "country": "No identificado / América Latina"
+        "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 69.1,
+        "score": 68.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 69.1
+        "editorial_utility": 68.4
       },
       "selection": {
-        "reason": "PML 69.1",
+        "reason": "PML 68.4",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -56,23 +56,15 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "France 24"
       },
-      "first_seen": "2026-09-29T10:51:25-0300",
-      "last_seen": "2026-09-29T10:51:25-0300",
-      "entities": [
-        "brasil",
-        "lula",
-        "bolsonaro",
-        "supremo"
-      ],
-      "event_terms": [
-        "supremo",
-        "eleccion"
-      ],
+      "first_seen": "2026-09-29T17:25:17-0300",
+      "last_seen": "2026-09-29T17:25:17-0300",
+      "entities": "brasil",
+      "event_terms": [],
       "analysis": {
-        "summary": "Lula, Bolsonaro, los obispos católicos y el Supremo entran en una controversia alentada por la izquierda y que puede influir en una elección extremadamente reñida",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / América Latina.",
+        "summary": "🇧🇷🗳️ A pocos días de las elecciones generales de Brasil, y pese a la obligatoriedad del voto en el país, se prevé que este año la abstención crezca ante el aumento de la apatía política y la desconfianza hacia los candidatos y sus proyectos políticos.",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
         "watch_next": [
           "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
           "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
@@ -82,38 +74,38 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Una noticia falsa sobre la virgen de Aparecida, patrona de Brasil, marca el final de la campaña presidencial",
-          "description": "Lula, Bolsonaro, los obispos católicos y el Supremo entran en una controversia alentada por la izquierda y que puede influir en una elección extremadamente reñida",
-          "url": "https://elpais.com/america/2026-09-29/una-noticia-falsa-sobre-la-virgen-de-aparecida-patrona-de-brasil-marca-el-final-de-la-campana-presidencial.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/VD7CWTG3CZE7JHDURAMBSZPJTQ.jpg?auth=ef0f0c80f6171f610b9be3d47c4e5cef064e5478c64170b89a3351ecbeead0f0",
-          "published_raw": "Tue, 29 Sep 2026 13:51:25 GMT",
-          "published_at": "2026-09-29T10:51:25-0300",
-          "country": "No identificado",
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "El peso del abstencionismo de cara a las elecciones generales en Brasil",
+          "description": "🇧🇷🗳️ A pocos días de las elecciones generales de Brasil, y pese a la obligatoriedad del voto en el país, se prevé que este año la abstención crezca ante el aumento de la apatía política y la desconfianza hacia los candidatos y sus proyectos políticos.",
+          "url": "https://www.france24.com/es/video/20260929-el-peso-del-abstencionismo-de-cara-a-las-elecciones-generales-en-brasil",
+          "image_url": "https://s.france24.com/media/display/51778f9c-bc3d-11f1-8f41-8f3418d01115/w:1024/p:16x9/El-peso-del-abstencionismo-de-cara-a-las-elecciones-generales.png",
+          "published_raw": "Tue, 29 Sep 2026 20:25:17 GMT",
+          "published_at": "2026-09-29T17:25:17-0300",
+          "country": "Brasil",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 1,
+          "score_institutional": 0,
           "score_elections": 2,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
+          "political_evidence": 3,
           "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
+          "cluster_id": "PML-EVENT-029"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-004",
+      "cluster_id": "PML-EVENT-001",
       "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
       "representative_source": "Cooperativa",
@@ -161,7 +153,7 @@
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
           "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
-          "description": "El ministro de Seguridad Pública, Martín Arrau , descartó que el posible retiro de la reforma constitucional de seguridad , dando paso al ingreso de un nuevo texto al Congreso, pueda significar una \"derrota\" para el Gobierno de José Antonio Kast . Ayer lunes, el senador y presidente del Partido Republicano, Arturo Squella , confirmó la apertura del Ejecutivo a bajar su propuesta inicial , que generó un fuerte rechazo en la oposición y dividió al oficialismo por un eventual presidencialismo excesivo, al contener medidas como un nuevo estado de excepción de 120 días renovables sin autorización del Congreso . Por lo pronto, ha trascendido que una nueva reforma estaría suscrita por Squella y sus colegas de la Comisión de Constitución de la Cámara Alta, Pedro Araya (PPD) y Andrés Longton (RN), además de incorporar una iniciativa de la senadora Paulina Vodanovic (PS) relativa a segregación penitenciaria. Arrau , que ha mantenido conversaciones con aquellos parlamentarios en las últimas semanas, señaló este martes que \"como hemos dicho, no nos enamoramos de una redacción particular; lo que nos interesa es tener las herramientas , una mayor segregación y segmentación penitenciaria por parte de Gendarmería, y más herramientas para el combate al crimen organizado\". En ese sentido, \" estamos viendo cuál es el mejor camino : si es que se potencia una posible indicación o un posible texto ingresado por los senadores . Eso implicaría quizás algún retiro, pero estamos a la espera de esa propuesta\". [Lea también]   Senadores Longton y Squella proponen indicaciones para destrabar la reforma de seguridad Dado que ha dialogado en esta línea con senadores de oposición, el ministro dijo esperar que \"se destrabe el espacio y podamos avanzar en otros proyectos tan importantes que estamos empujando\" , insistiendo en el llamado a la unidad del Gobierno a raíz de la muerte del cabo segundo de Carabineros Cristopher Aguilera . La autoridad pidió \" aunar voluntades y botar ciertas diferencias que hay , en pos de que tengamos mejores herramientas para el combate del crimen organizado, Reglas de Uso de la Fuerza, y tantas otras cosas que pueden cambiar el combate a las organizaciones grandes, como también de que nuestras policías tengan mejores herramientas y medios para pararse mejor en la calle y defender mejor a la ciudadanía\". Finalmente, consultado sobre si retirar la reforma original significaría un fracaso para el Gobierno , Arrau relevó: \" Avanzar en cualquier ley que le haga bien a Chile en seguridad por supuesto que no es una derrota . Creo que hay que superar esas cosas políticas en pos de tener mejores herramientas para dar más seguridad a los chilenos\".",
+          "description": "El ministro de Seguridad Pública, Martín Arrau , descartó que el posible retiro de la reforma constitucional de seguridad , dando paso al ingreso de un nuevo texto al Congreso, pueda significar una \"derrota\" para el Gobierno de José Antonio Kast . Ayer lunes, el senador y presidente del Partido Republicano, Arturo Squella , confirmó la apertura del Ejecutivo a bajar su propuesta inicial , que generó un fuerte rechazo en la oposición y dividió al oficialismo por un eventual presidencialismo excesivo, al contener medidas como un nuevo estado de excepción de 120 días renovables sin autorización del Congreso . Por lo pronto, ha trascendido que una nueva reforma estaría suscrita por Squella y sus colegas de la Comisión de Constitución de la Cámara Alta, Pedro Araya (PPD) y Andrés Longton (RN), además de incorporar una iniciativa de la senadora Paulina Vodanovic (PS) relativa a segregación penitenciaria. Arrau , que ha mantenido conversaciones con aquellos parlamentarios en las últimas semanas, señaló este martes que \"como hemos dicho, no nos enamoramos de una redacción particular; lo que nos interesa es tener las herramientas , una mayor segregación y segmentación penitenciaria por parte de Gendarmería, y más herramientas para el combate al crimen organizado\". En ese sentido, \" estamos viendo cuál es el mejor camino : si es que se potencia una posible indicación o un posible texto ingresado por los senadores . Eso implicaría quizás algún retiro, pero estamos a la espera de esa propuesta\". [Lea también]   Senadores Longton y Squella proponen indicaciones para destrabar la reforma de seguridad Dado que ha dialogado en esta línea con senadores de oposición, el ministro dijo esperar que \"se destrabe el espacio y podamos avanzar en otros proyectos tan importantes que estamos empujando\" , insistiendo en el llamado a la unidad del Gobierno a raíz de la muerte del cabo segundo de Carabineros Cristopher Aguilera . La autoridad pidió \" aunar voluntades y botar ciertas diferencias que hay , en pos de que tengamos mejores herramientas para el combate del crimen organizado, Reglas de Uso de la Fuerza, y tantas otras cosas que pueden cambiar el combate a las organizaciones grandes, como también de que nuestras policías tengan mejores herramientas y medios para pararse mejor en la calle y defender mejor a la ciudadanía\". Finalmente, consultado sobre si retirar la reforma original significaría un fracaso para el Gobierno , Arrau relevó: \" Avanzar en cualquier ley que le haga bien a Chile en seguridad por supuesto que no es una derrota . Creo que hay que superar esas cosas políticas en pos de tener mejores herramientas para dar más seguridad a los chilenos\". Vodanovic: \"Si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno\" Mientras, la senadora Paulina Vodanovic , presidenta del Partido Socialista (PS), acusó falta de voluntad al Ejecutivo. \"(La reforma original era) un espanto jurídico. Nadie, ningún académico en Chile, defendió este proyecto. Desde Nacional Libertario hasta el Partido Comunista (estaban) en contra. Por lo tanto, si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno . Nosotros vamos a trabajar igual\", afirmó la legisladora. Vodanovic recalcó que \"aquellos municipios pobres donde está el crimen organizado campeando —porque esto no ocurre en las tres comunas del barrio alto, (sino) en aquellas comunas más pobres que son las que hoy día tienen una rebaja de los recursos por culpa de la megarreforma— son los que hoy día tienen menos ingresos. Ese es el problema que tenemos hoy día y eso requiere voluntad política\". Para este miércoles a primera hora, en el Palacio de Cerro Castillo , el Presidente Kast convocó a los representantes de las comisiones de Constitución y Seguridad para ir coordinando los próximos pasos de la reforma.",
           "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
           "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929115512.jpg",
           "published_raw": "Tue, 29 Sep 2026 11:55:12 -0300",
@@ -169,27 +161,27 @@
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 8,
+          "score_institutional": 9,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 3,
           "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 6,
+          "score_ideology": 2,
+          "score_actor": 7,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 17,
+          "political_evidence": 21,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
+          "cluster_id": "PML-EVENT-001"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-016",
+      "cluster_id": "PML-EVENT-018",
       "title": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260929-ee-uu-ampl%C3%ADa-proceso-judicial-por-el-asesinato-del-presidente-haitiano-jovenel-mo%C3%AFse-habr%C3%A1-un-giro-en-el-caso",
       "representative_source": "France 24",
@@ -256,13 +248,94 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-016"
+          "cluster_id": "PML-EVENT-018"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-028",
+      "cluster_id": "PML-EVENT-025",
+      "title": "Una noticia falsa sobre la virgen de Aparecida, patrona de Brasil, marca el final de la campaña presidencial",
+      "url": "https://elpais.com/america/2026-09-29/una-noticia-falsa-sobre-la-virgen-de-aparecida-patrona-de-brasil-marca-el-final-de-la-campana-presidencial.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / América Latina"
+      },
+      "relevance": {
+        "score": 67.3,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 62.3
+      },
+      "selection": {
+        "reason": "PML 67.3",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-29T10:51:25-0300",
+      "last_seen": "2026-09-29T10:51:25-0300",
+      "entities": [
+        "brasil",
+        "lula",
+        "bolsonaro",
+        "supremo"
+      ],
+      "event_terms": [
+        "supremo",
+        "eleccion"
+      ],
+      "analysis": {
+        "summary": "Lula, Bolsonaro, los obispos católicos y el Supremo entran en una controversia alentada por la izquierda y que puede influir en una elección extremadamente reñida",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / América Latina.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Una noticia falsa sobre la virgen de Aparecida, patrona de Brasil, marca el final de la campaña presidencial",
+          "description": "Lula, Bolsonaro, los obispos católicos y el Supremo entran en una controversia alentada por la izquierda y que puede influir en una elección extremadamente reñida",
+          "url": "https://elpais.com/america/2026-09-29/una-noticia-falsa-sobre-la-virgen-de-aparecida-patrona-de-brasil-marca-el-final-de-la-campana-presidencial.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/VD7CWTG3CZE7JHDURAMBSZPJTQ.jpg?auth=ef0f0c80f6171f610b9be3d47c4e5cef064e5478c64170b89a3351ecbeead0f0",
+          "published_raw": "Tue, 29 Sep 2026 13:51:25 GMT",
+          "published_at": "2026-09-29T10:51:25-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-025"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-030",
       "title": "Marruecos nombra a Fátima Mansouri como primera mujer al frente del Gobierno en Rabat",
       "url": "https://elpais.com/internacional/2026-09-29/marruecos-nombra-a-fatima-mansouri-como-primera-ministra-del-pais-la-primera-mujer-al-frente-del-gobierno-en-rabat.html",
       "representative_source": "EL PAÍS",
@@ -288,8 +361,8 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-09-29T14:27:41-0300",
-      "last_seen": "2026-09-29T14:27:41-0300",
+      "first_seen": "2026-09-29T15:39:50-0300",
+      "last_seen": "2026-09-29T15:39:50-0300",
       "entities": [],
       "event_terms": [],
       "analysis": {
@@ -309,9 +382,9 @@
           "title": "Marruecos nombra a Fátima Mansouri como primera mujer al frente del Gobierno en Rabat",
           "description": "El rey Mohamed VI designa a la líder de la formación política de centroderecha PAM después de las elecciones del pasado 23 de septiembre",
           "url": "https://elpais.com/internacional/2026-09-29/marruecos-nombra-a-fatima-mansouri-como-primera-ministra-del-pais-la-primera-mujer-al-frente-del-gobierno-en-rabat.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/L5W6UFMZWBE5BLRVFED6EZPIRQ.jpg?auth=9507e97556b8dc787f2f9160c091b669565e6189672dd38c7d35b16ce52b1d1b",
-          "published_raw": "Tue, 29 Sep 2026 17:27:41 GMT",
-          "published_at": "2026-09-29T14:27:41-0300",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/MCQPGRHBJNDCFHD2UVESN3L2CE.jpg?auth=9364017d918b965ca71fb3a0dfb38b8b2910bd1eeec5d6d4e4b7868387bac55b",
+          "published_raw": "Tue, 29 Sep 2026 18:39:50 GMT",
+          "published_at": "2026-09-29T15:39:50-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
@@ -322,79 +395,6 @@
           "score_policy": 0,
           "score_ideology": 1,
           "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-030",
-      "title": "Los Reyes reciben con honores a Macron en uno de sus últimos viajes de Estado antes de las elecciones en Francia",
-      "url": "https://elpais.com/espana/2026-09-29/los-reyes-reciben-con-honores-a-macron-en-uno-de-sus-ultimos-viajes-de-estado-antes-de-las-elecciones-en-francia.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 63.7,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 58.7
-      },
-      "selection": {
-        "reason": "PML 63.7; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-09-29T09:18:49-0300",
-      "last_seen": "2026-09-29T09:18:49-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "El presidente galo se reunirá a puerta cerrada con Felipe VI en el Palacio de la Zarzuela y este miércoles mantendrá un encuentro con Pedro Sánchez",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Los Reyes reciben con honores a Macron en uno de sus últimos viajes de Estado antes de las elecciones en Francia",
-          "description": "El presidente galo se reunirá a puerta cerrada con Felipe VI en el Palacio de la Zarzuela y este miércoles mantendrá un encuentro con Pedro Sánchez",
-          "url": "https://elpais.com/espana/2026-09-29/los-reyes-reciben-con-honores-a-macron-en-uno-de-sus-ultimos-viajes-de-estado-antes-de-las-elecciones-en-francia.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/BTENFR36Y5CM3CDZW3YPQGEHDI.jpg?auth=23ea08d742b2bc37107c9f777d9d9ee46bde2683cde84f402d9e44e5e3c951b2",
-          "published_raw": "Tue, 29 Sep 2026 12:18:49 GMT",
-          "published_at": "2026-09-29T09:18:49-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 3,
@@ -415,7 +415,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-003",
+        "cluster_id": "PML-EVENT-004",
         "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -470,7 +470,7 @@
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-004"
           }
         ],
         "article_count": 1,
@@ -487,135 +487,7 @@
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-001",
-        "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 62.4,
-          "level": "MEDIA-ALTA",
-          "components": {
-            "political_impact": 81,
-            "freshness": 72,
-            "source_count": 34,
-            "geographic_scope": 62,
-            "continuity": 40
-          }
-        },
-        "coverage": {
-          "article_count": 3,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-09-26T14:06:06-0300",
-        "last_seen": "2026-09-28T15:19:41-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "\"¿Por qué no renuncia?\", preguntó diputado PS al canciller al cierre de su interpelación",
-            "description": "La Sala de la Cámara de Diputadas y Diputados llevó a cabo este lunes la interpelación al ministro de Relaciones Exteriores, Francisco Pérez Mackenna , quien debe responder ante los parlamentarios por los primeros seis meses de conducción de la política exterior bajo el Gobierno del Presidente José Antonio Kast , en una sesión centrada en trece ejes críticos de las relaciones internacionales del país. La acción fiscalizadora, ratificada previamente en el hemiciclo por 57 votos favorables, 49 en contra y una abstención, estuvo a cargo del diputado socialista Nelson Venegas , quien cuestionó la labor del secretario de Estado al atribuirle una actitud débil y una falta de resguardo frente a los intereses soberanos de la nación . Pese a las abundantes críticas que ha recibido durante sus primeros seis meses de gestión, aseguró haber defendido la soberanía de Chile \"con todas las fuerzas\". (FOTO: ATON) La comparecencia representó un hecho sin precedentes para la diplomacia chilena, dado que nunca un canciller había sido convocado a una interpelación parlamentaria , transformando a Pérez Mackenna en el primer ministro de la actual administración que enfrentó este formato de control legislativo . Uno de los capítulos más tensos de la sesión apuntó a la confirmación realizada por el Presidente Kast en Nueva York respecto al ingreso del país al \"Escudo de las Américas \", iniciativa de seguridad transnacional promovida por el presidente Donald Trump . Choque por rol de embajadores, solicitud de renuncia y reproches diplomáticos La inédita interpelación parlamentaria al ministro Pérez Mackenna concluyó con un áspero enfrentamiento político en la Cámara Baja, marcado po r la revisión de las polémicas diplomáticas protagonizadas por el embajador estadounidense , Brandon Judd ,   y los cuestionamientos al desempeño de embajadores chilenos en Buenos Aires, Tel Aviv y Washington. El diputado Venegas abrió el flanco relativo a la influencia de Estados Unidos y las declaraciones públicas de su representante en Santiago , cuestionando la pasividad del Gobierno frente a intervenciones en asuntos de debate interno como el proyecto del cable transoceánico chino y la política contingente . En su respuesta, el ministro Pérez Mackenna aseveró que \" en Chile se respeta la independencia política y soberanía de nuestra nación . Ningún embajador extranjero define lo que hace este país . Las políticas de Chile son proChile \". \" Mientras yo sea canciller , la soberanía de Chile será defendida con todas nuestras fuerzas . No hay ningún embajador , n ingún país que pueda pasar por arriba de nuestra soberanía . Así que puede estar tranquilo de que ese sagrado derecho de mantener nuestra soberanía será defendido con todas nuestras fuerzas\", respondió el canciller al diputado. El diputado interpelador Nelson Venegas exigió la renuncia del ministro de Estado al acusar falta de competencias geopolíticas en la conducción exterior. (FOTO: ATON) Asimismo, dio cuenta que \"el embajador Judd ya recibió una nota de protesta del Gobierno. Ha recibido reconvenciones verbales en repetidas ocasiones y esa es la manera a través de la cual hemos manifestado nuestra disconformidad con los hechos que ha planteado . Las notas de protesta son un instrumento al que la Cancillería recurre\". \"Le puedo contar, por ejemplo, que hoy se le ha enviado una nota de protesta al embajador de Israel por sus recientes intervenciones en asuntos internos de nuestra política\", añadió la autoridad. De todas maneras, en el punto de prensa ofrecido en los pasillos del Congreso, el propio canciller debió rectificar sus dichos respecto al embajador de Estados Unidos , aclarando que la nota de protesta formal fue despachada durante la gestión del expresidente Gabriel Boric y que en el actual periodo solo han existido advertencias y reconvenciones de carácter verbal. Polémica por Escudo de las Américas: Canciller afirma que Chile no firmó compromisos El debate también estuvo dominado por el alcance legal de la adscripción de Chile a la iniciativa continental denominada Escudo de las Américas y sus eventuales implicancias para la soberanía del país frente a la influencia de Estados Unidos . Durante el interrogatorio, el legislador acusó una falta de coherencia entre los discursos internacionales de autoridades norteamericanas como Marco Rubio y la postura pública informada por la diplomacia chilena . En su intervención, el Venegas emplazó al secretario de Estado sobre el análisis técnico previo del documento: \"La interpretación de textos internacionales evoluciona con la práctica. Lo firmado, aunque hoy puede parecer solamente político, puede comprometer a Chile. ¿Qué abogado de su ministerio revisó la declaración del Escudo de las Américas y aprobó que Chile firmara? \", puntualizó. El ministro de Relaciones Exteriores aseguró en la Cámara que la adhesión de Chile a la iniciativa continental contra el crimen organizado es una declaración voluntaria que no constituye un tratado. (FOTO: ATON) Ante la consulta, el canciller Pérez Mackenna señaló que \"para firmar se necesita un papel y un lápiz . En este caso no hubo firma . Esta es simplemente una declaración que no es vinculante . Por lo tanto, estamos perfectamente libres de que esto sea un tratado; no lo es\". \"Básicamente esto es un marco de coordinación voluntaria entre gobiernos del continente americano y tiene como objetivo fundamental combatir el crimen organizado . Ese es el único objetivo que hay detrás de est o. Toda esa costa al Pacífico está hoy día bajo el alero de esta iniciativa de coordinación para combatir contra el crimen organizado que se llama Escudo de las Américas. ¿Piensa usted que Chile se podía quedar afuera? \", cuestionó el secretario de estado. Petición de renuncia y cierre del debate El momento de mayor tensión en la sala legislativa se produjo al cierre de la intervención del diputado Venegas, quien decidió dar por terminado el cuestionario antes del plazo límite tras acusar evasivas en las respuestas del secretario de Estado . \"Ministro, sea honesto con usted mismo y con el país: usted no tiene conocimientos relevantes en política ni en geopolítica. Déjele el puesto a alguien más calificado. Mi última pregunta para usted es: ¿por qué no renuncia? \", señaló el legislador en su última intervención en el hemiciclo. \" Bueno , porque usted no es el Presidente de la República , esa es mi respuesta \", replicó el canciller. Conclusiones de la interpelación A modo de conclusión tras la interpelación, Pérez Mackenna manifestó que \" Chile no se obliga a nada, esto es una declaración política. No es un tratado , es un lugar para conversar, planificar y para coordinarse. De esto podrán surgir otras cosas en el futuro, pero hoy día lo que tenemos es una declaración política de 15 países para poder combatir al crimen organizado transnacional, obviamente que viene una mención económica y ese es el sentido del capítulo dedicado a la economía de esa declaración\". El biministro de Interior y Segegob, Claudio Alvarado , insistió en que \"hoy día el gobierno, a través del ministro Pérez Mackenna, ha dado respuesta a las inquietudes desde el Parlamento. Lo ha hecho de una manera seria, responsable, profunda, con firmeza y con un profundo sentido de Estado\". En contraste, el diputado Venegas criticó que \"es absolutamente grave, porque nadie puede creer lo que acá se señaló, si es cosa de leer la declaración conjunta, donde hay un acuerdo que no solo habla de seguridad, sino que en dos terceras partes habla de un acuerdo económico, diplomático y político\". \"El ministro faltó a la verdad y eso no va a quedar así. Ganamos lo más importante, que es la solicitud para que el Presidente de la República responda respecto de estos antecedentes y ahí quedará totalmente claro que el ministro faltó a la verdad\", añadió. Diputados exigen antecedentes a Kast por pacto del \"Escudo de las Américas\" Al cierre de la sesión de interpelación, la Cámara Baja aprobó remitir un oficio de antecedentes al Presidente Kast para que explique los compromisos derivados del Escudo de las Américas . La iniciativa parlamentaria concluyó con un registro de 66 votos a favor , 72 sufragios en contra y una abstención , alcanzando el tercio de respaldo necesario para viabilizar la solicitud de información. La Cámara de Diputadas y Diputados solicitó formalmente al presidente José Antonio Kast esclarecer los alcances del Escudo de las Américas. (FOTO: ATON) El oficio legislativo otorga un plazo fatal de 30 días para que el Ejecutivo proporcione la versión oficial en español y el texto original en inglés de la Declaración Conjunta sobre la Defensa de la Soberanía Hemisférica fechada el 23 de septiembre de 2026, así como las declaraciones conjuntas de los miembros del Escudo de las Américas suscritas el 21 de mayo , 23 de junio y 10 de julio de 2026 . Asimismo, ordenó al Ejecutivo detallar la identidad y cargo de las autoridades que firmaron o autorizaron cada uno de estos compromisos en representación del Estado chileno. Según los impulsores de la medida, el cotejo de dichos textos permitirá verificar si el Ejecutivo omitió compromisos estratégicos asumidos en el marco regional.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/por-que-no-renuncia-pregunto-diputado-ps-al-canciller-al-cierre-de/2026-09-28/151941.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260928/imag/foto_0000001620260928151941.png",
-            "published_raw": "Mon, 28 Sep 2026 15:19:41 -0300",
-            "published_at": "2026-09-28T15:19:41-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 8,
-            "score_elections": 0,
-            "score_international": 6,
-            "score_conflict": 3,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 1,
-            "political_evidence": 20,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Relaciones internacionales",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
-          },
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "PPD: Interpelación al canciller debe centrarse en la pésima decisión de adherir al Escudo",
-            "description": "El diputado y presidente del PPD, Raúl Soto, elevó el tono contra la adhesión de Chile al Escudo de las Américas y subrayó que esa \"pésima decisión\" debe ser el centro de la interpelación que enfrentará el canciller Francisco Pérez Mackenna el lunes en la Cámara.  LEl interrogatorio -a cargo del diputado socialista e integrante de la Comisión de RR.EE. Nelson Venegas- abordará la gestión diplomática del ministro, marcada por reiteradas polémicas como la de Argentina y el Estrecho de Magallanes, el apoyo chileno a la reclamación trasandina en la cuestión de las Malvinas y los opacos alcances de la integración nacional al mentado Escudo. La interpelación contempla 13 puntos, entre ellos el retiro del respaldo del Estado a la fallida candidatura a la ONU de la expresidenta Michelle Bachelet y las controversias que rodean al embajador de Chile en Israel, Gabriel Zaliasnik. En este contexto, Soto espera que la iniciativa \"sea una oportunidad para que la política exterior de Chile se encauce de forma correcta\". \"(Hasta ahora) ha sido débil, errática y genera muchas dudas, y creo que se debe centrar en los fundamentos y también las posibles consecuencias de la pésima decisión de adherir al Escudo de las Américas\" ,  consideró Soto. Schubert: \"No pensaron en la patria\" Desde el oficialismo volvieron a criticar la posibilidad de que la sesión aborde temas sensibles para la seguridad nacional, por lo que reiteraron el carácter \"poco patriota\" de la ofensiva opositora. \"Los diputados que han impulsado esta interpelación no han pensado en la patria. Yo creo que aquí, claramente, no es la oportunidad (adecuada para hacerla, pues) tenemos a un canciller que está negociando temas importantes, y ponerlo hoy en cuestión debilita no solamente a la persona, sino también la postura chilena, y eso sí es muy grave y muy peligroso\", dijo el diputado republicano Stephan Schubert.  \"(Hay que) ser oposición, pero una oposición prudente\", filosofó el también integrante de la Comisión de Relaciones Exteriores. Respecto al Escudo de las Américas, Schubert defendió que \"no es una medida a favor de alguien o de un país en particular, sino una en contra del crimen organizado y el terrorismo. Y es aceptada no solamente por Chile, sino que también por otros 15 países más\".   \"Los expresidentes (Bachelet y Boric, que cuestionaron la adhesión) han tomado su decisión (en materias de seguridad), pero el Presidente Kast, que conduce las relaciones internacionales, ha tomado una decisión distinta, que es utilizar todas las herramientas y todas las instancias posibles para combatir el crimen organizado\", expresó el parlamentario republicano. [Lea también]  Monckeberg atribuye a una \"pasada de cuenta\" la crítica de Bachelet al Escudo de las Américas Holzmann cree que interpelación puede servir para unir a la oposición El analista político Guillermo Holzmann considera que la interpelación opositora \"tiene, en primer lugar, un análisis político-ideológico que consiste en poder establecer un punto de convergencia que lleve a una sola propuesta  a los partidos y movimientos que están en contra del Gobierno\". \"En esa perspectiva, la falta de unidad y contenido que ha mostrado la oposición pasa a ser un elemento que alimenta, y le da mayor fuerza a la necesidad de que esta interpelación al canciller se transforme en una suerte de ícono o pilar de lo que va a ser la reunificación o la propuesta que pueda tener la oposición\", teorizó. Timoneles de Chile Vamos y Republicanos rechazan crítica \"desafortunada y mezquina\" de Bachelet y Boric Durante esta jornada se conoció, en tanto, una declaración conjunta de los timoneles de la UDI (Guillermo Ramírez), RN (Andrea Balladares), Partido Republicano (Arturo Squella) y Evópoli (Luciano Cruz-Coke) rechazando el cuestionamiento público de los exmandatarios. \"Resulta especialmente grave que los ex Presidentes Michelle Bachelet y Gabriel Boric hayan suscrito una declaración cuestionando la incorporación de Chile al Escudo de las Américas  sin siquiera haber conocido –de primera fuente– los alcances, condiciones y resguardos bajo los cuales el Gobierno adoptó dicha decisión . Mucho más aún cuando ambos saben, por la responsabilidad que alguna vez ejercieron, cómo se conduce la política exterior, las complejidades propias de las relaciones internacionales y el rigor con que se toman las decisiones de Estado\", señalaron los dirigentes oficialistas. \"Precisamente por la investidura que ambos ostentaron y por la responsabilidad de Estado que conllevan, su actuación merece ser reprochada desde un punto de vista político (...) Es inadmisible cuestionar la soberanía de Chile desde el desconocimiento de los antecedentes que sustentan esta decisión ni mucho menos atribuir al Gobierno una supuesta subordinación de nuestra política exterior , sin contar con los elementos que permitan sostener una afirmación de esa gravedad. Más grave aún es poner en duda que el actual Mandatario está ejerciendo sus facultades para defender los intereses permanentes de Chile \", se quejaron. \"Ningún Presidente de Chile, desde los albores de nuestra República, ha puesto en riesgo la soberanía nacional. Y el Presidente José Antonio Kast no será el primero en hacerlo. Chile es un país soberano precisamente porque tiene la facultad de decidir con quién coopera, bajo qué condiciones y con qué objetivos . Y frente al avance del crimen organizado transnacional, la coordinación con otras naciones no implica ceder soberanía , sino ejercerla en defensa de los intereses de todos los chilenos\", argumentaron los timoneles. Por las consideraciones anteriores, \" rechazamos categóricamente una declaración que, viniendo de dos ex Jefes de Estado, resulta especialmente desafortunada e insalvablemente mezquina , al transformar una legítima diferencia política en una imputación sobre la soberanía nacional\", sentenciaron Ramírez, Balladares, Squella y Cruz-Coke ( ver archivo adjunto ).",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/ppd-interpelacion-al-canciller-debe-centrarse-en-la-pesima-decision-de/2026-09-26/140606.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260926/imag/foto_0000000220260926140606.png",
-            "published_raw": "Sat, 26 Sep 2026 14:06:06 -0300",
-            "published_at": "2026-09-26T14:06:06-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 5,
-            "score_elections": 0,
-            "score_international": 5,
-            "score_conflict": 3,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 6,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 20,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Relaciones internacionales",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
-          },
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Insulza: Es indispensable interpelar al canciller tras la adhesión al Escudo",
-            "description": "El excanciller José Miguel Insulza (PS) consideró que, tras la adhesión de Chile al \"Escudo de las Américas\", la interpelación al actual titular de Relaciones Exteriores, Francisco Pérez Mackenna , que tendrá lugar la tarde de este lunes en la Cámara Baja, es una acción \"indispensable\" . \"Creo que es indispensable (interpelar al ministro). Hace días, yo tuve algunas dudas respecto de si nos íbamos a meter en la discusión sobre Argentina y otras cosas, pero la verdad es que ahora, después de este gravísimo documento que se ha firmado por parte del Presidente de la República, creo que es necesaria una interpelación . Más aún: incluso creo que el Congreso debería tomar cartas en este asunto\", advirtió en El Diario de Cooperativa . El también extitular de Interior relevó: \" Por un lado, se dice que esta es una declaración política, de intenciones , y que es solamente sobre el tema de la seguridad y el crimen organizado. Y, ¿quién no va a estar a favor de trabajar en conjunto respecto de eso? Pero en la reunión sobre el Escudo, el secretario de Estado (de EE.UU.) Marco Rubio dijo claramente que esto no es solamente sobre crimen organizado transnacional \". Citando al representante del gobierno de Donald Trump , Insulza apuntó que el documento \"es la piedra angular de lo que estamos haciendo juntos, la oportunidad de asociarnos en el tema económico y en el frente diplomático para hablar con una sola voz sobre temas que nos unen\". Entre tales materias, Rubio mencionó \"la famosa revisión de inversiones extranjeras y el blindaje de las cadenas de suministro de minerales críticos\" , así como  \"las redes digitales, la defensa militar y el alineamiento diplomático\" , lo que a juicio del excanciller, equivale a una \"entrega de soberanía\" . Apuntando al caso de Venezuela , donde EE.UU. ahora se dedica a la extracción de petróleo , alertó que \"nosotros (como país) firmamos un documento que implica que pueden hacer lo mismo con nuestro cobre ... La verdad es una vergüenza\". [Lea también]   Arrau dijo que el Escudo no es aún un tratado, y si llega a serlo, pasará por el Congreso Consultado respecto a si se debió declarar la reserva de la interpelación , por la posibilidad de que se aborden temas de inteligencia, defensa o negociaciones diplomáticas, Insulza se limitó a señalar: \" No tengo información de que el canciller haya dicho que no va a contestar sobre algunas cosas ; sería más grave todavía que no lo hiciera\". Para el exministro, las preguntas sobre el Escudo tendrán relación con el documento \" publicado por la Embajada de EE.UU , con sus membretes y unas lindas fotos, en el cual se dice -por parte del señor Marco Rubio- qué es lo que va a ocurrir, y qué es lo que se ha hecho. Eso no es reservado\". \" Nadie le está preguntando al canciller qué hizo, si no que por qué hizo lo que hizo , si ya lo sabemos\", sentenció. Críticas oficialistas Desde el oficialismo, el diputado Diego Schalper (RN) comentó que \"hemos conversado con el canciller y hemos compartido impresiones sobre cómo tiene que llevarse adelante una interpelación que yo creo le va a hacer bien a Chile, y acuérdense de mí, se van a terminar arrepintiendo de haberla hecho, porque el canciller va a explicar con mucha claridad toda y cada una de las razones que han motivado a la Cancillería y al gobierno del Presidente Kast a enfrentar como hemos enfrentado los desafíos geopolíticos que enfrenta el país hoy día y en ese cuadro estamos seguros que vamos a tener una buena interpelación\". El diputado republicano Stephan Schubert dijo que \"no podrán pretender que se conteste en público más de lo que ya se dijo en privado , lo que además atenta en algunas materias en contra del interés nacional. Creo que no es oportuno ventilar situaciones como esta cuando el canciller está negociando cosas importantes en favor de nuestro país\". \"Insisto, es una facultad, pero que tiene que ser utilizada con sabiduría y prudencia, y de eso se ha adolecido en esta oportunidad\", agregó.",
-            "url": "https://www.cooperativa.cl/noticias/pais/relaciones-exteriores/ee-uu/insulza-es-indispensable-interpelar-al-canciller-tras-la-adhesion-al/2026-09-28/090743.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260928/imag/foto_0000000220260928090743.png",
-            "published_raw": "Mon, 28 Sep 2026 09:07:43 -0300",
-            "published_at": "2026-09-28T09:07:43-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 6,
-            "score_elections": 0,
-            "score_international": 4,
-            "score_conflict": 3,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 4,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 17,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Relaciones internacionales",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Relaciones internacionales"
-          ],
-          "chile_utility": 84.4
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-007",
+        "cluster_id": "PML-EVENT-008",
         "title": "Gobierno se abrió a retirar reforma que crea un nuevo estado de excepción",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -670,7 +542,7 @@
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
+            "cluster_id": "PML-EVENT-008"
           }
         ],
         "article_count": 1,
@@ -684,19 +556,88 @@
           "chile_utility": 82.4
         },
         "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-009",
+        "title": "Cámara aprobó devolución del IVA de pañales y medicamentos y Quiroz alabó al PDG",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/pdg/camara-aprobo-devolucion-del-iva-de-panales-y-medicamentos-y-quiroz/2026-09-29/160349.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 64,
+          "level": "MEDIA-ALTA",
+          "components": {
+            "political_impact": 80,
+            "freshness": 100,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-09-29T16:03:49-0300",
+        "last_seen": "2026-09-29T16:03:49-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Cámara aprobó devolución del IVA de pañales y medicamentos y Quiroz alabó al PDG",
+            "description": "La Cámara Baja aprobó ampliamente el proyecto que establece un mecanismo de compensación del pago del IVA de medicamentos y pañales, iniciativa que fue propuesta por el Partido de la Gente (PDG) y que fue el eje central del acuerdo mantenido con el Gobierno para aprobar la idea de legislar de la despachada megarreforma. La bonificación, que será mensual y se calculará como el equivalente a un reembolso del impuesto, va dirigida a tres grupos pertenecientes al 80% más vulnerable de la población, según el Registro Social de Hogares (RSH). Los grupos son  tutores legales de niños y niñas de hasta 24 meses de edad;  mayores de 65 años con condiciones de salud especificadas por reglamento; y personas con discapacidad mayores de 24 meses y menores de 65 años, inscritas en el Registro Nacional de la Discapacidad y que padezcan dolencias determinadas.  La iniciativa ahora pasará a su segundo trámite constitucional en el Senado. COMPENSACIÓN📰| Cámara aprobó beneficio fiscal por compra de pañales y medicamentos https://t.co/KRHKopf6Yy pic.twitter.com/DYAOGcGKtp — Diputadas y Diputados de Chile (@Camara_cl) September 29, 2026 Quiroz: Con el PDG \"hemos ido recorriendo caminos comunes\" Tras la votación, el ministro de Hacienda, Jorge Quiroz, alabó al PDG, tienda con la que -afirmó- han \"recorrido ciertos caminos comunes\". \"Los partidos del oficialismo apoyaron al Partido de la Gente en este proyecto; no sólo por un tema de los acuerdos, sino que también porque es una ayuda que llega en un minuto especial, dado los cambios demográficos que estamos viviendo;  y, además, tiene un buen diseño porque supone una bonificación, pero siempre contra el respaldo de haber adquirido y haber pagado el IVA\", destacó. \"Con el PDG hemos ido recorriendo ciertos caminos comunes: en particular, voy a destacar la intervención que hizo el jefe de la bancada del PDG el día de ayer (lunes), Juan Marcelo Valenzuela, cuando rechazó la interpelación al ministro de Relaciones Exteriores (Francisco Pérez Mackenna). Eso es una posición constructiva y propositiva que celebramos\", expresó Quiroz. En otro tema, le jefe de la billetera fiscal confirmó el ingreso de un proyecto al Senado con discusión inmediata, que busca extender hasta fin de año el beneficio de 100 mil pesos otorgado a taxistas, colectiveros y transportistas escolares para enfrentar el \"bencinazo\", que por ley termina este mes. El Ejecutivo espera que la iniciativa sea votada este miércoles en la Cámara Alta y que pase a segundo trámite la semana siguiente en la Cámara Baja. ",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/pdg/camara-aprobo-devolucion-del-iva-de-panales-y-medicamentos-y-quiroz/2026-09-29/160349.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000320260929160349.png",
+            "published_raw": "Tue, 29 Sep 2026 16:03:49 -0300",
+            "published_at": "2026-09-29T16:03:49-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 7,
+            "score_elections": 1,
+            "score_international": 1,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 0,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-009"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 13,
+          "labels": "Estado e instituciones",
+          "chile_utility": 77
+        },
+        "repeated_in_general_top5": false
       }
     ]
   },
   "topics": [
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 5,
-      "maximum_relevance": 69.1,
-      "leading_story": "Una noticia falsa sobre la virgen de Aparecida, patrona de Brasil, marca el final de la campaña presidencial"
+      "event_count": 6,
+      "maximum_relevance": 68.4,
+      "leading_story": "El peso del abstencionismo de cara a las elecciones generales en Brasil"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 23,
+      "event_count": 24,
       "maximum_relevance": 66,
       "leading_story": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\""
     },
@@ -724,7 +665,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
     "source_count": 3
   },
   "system": {
