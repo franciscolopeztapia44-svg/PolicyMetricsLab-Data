@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-30",
-    "data_latest_timestamp": "2026-09-30T14:05:34-0300",
-    "data_age_hours": 1.2,
-    "generated_at": "2026-09-30T15:17:53-0300",
+    "data_latest_timestamp": "2026-09-30T17:44:29-0300",
+    "data_age_hours": 0.5,
+    "generated_at": "2026-09-30T18:15:04-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,18 +16,18 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 4 temas, 4 áreas geográficas y 5 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
+    "diversity": "La selección cubre 4 temas, 3 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 35,
+    "ranked_events": 34,
     "topics": 4,
-    "geographies": 4,
+    "geographies": 3,
     "representative_sources": 3,
-    "average_top5_relevance": 63,
-    "maximum_relevance": 70
+    "average_top5_relevance": 62.8,
+    "maximum_relevance": 68.7
   },
   "top_stories": [
     {
@@ -43,12 +43,12 @@
         "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 70,
+        "score": 68.7,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 70
+        "editorial_utility": 68.7
       },
       "selection": {
-        "reason": "PML 70",
+        "reason": "PML 68.7",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -116,12 +116,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 68.4,
+        "score": 65.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 80.4
+        "editorial_utility": 77.4
       },
       "selection": {
-        "reason": "PML 68.4; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 65.4; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -189,12 +189,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 61.2,
+        "score": 60,
         "level": "MEDIA",
-        "editorial_utility": 73.2
+        "editorial_utility": 72
       },
       "selection": {
-        "reason": "PML 61.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 60; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -266,12 +266,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 57.5,
+        "score": 56.2,
         "level": "MEDIA",
-        "editorial_utility": 64.5
+        "editorial_utility": 63.2
       },
       "selection": {
-        "reason": "PML 57.5; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 56.2; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -328,23 +328,23 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-017",
-      "title": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260929-ee-uu-ampl%C3%ADa-proceso-judicial-por-el-asesinato-del-presidente-haitiano-jovenel-mo%C3%AFse-habr%C3%A1-un-giro-en-el-caso",
-      "representative_source": "France 24",
-      "topic": "Conflictos y seguridad",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "cluster_id": "PML-EVENT-008",
+      "title": "Comisión mixta despachó Reglas de Uso de la Fuerza: faltan dos votaciones para que sea ley",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-mixta-despacho-reglas-de-uso-de-la-fuerza-faltan-dos/2026-09-30/174429.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
-        "group": "Estados Unidos",
-        "country": "Estados Unidos"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 58.1,
-        "level": "MEDIA",
-        "editorial_utility": 61.1
+        "score": 63.8,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 59.8
       },
       "selection": {
-        "reason": "PML 58.1; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 63.8",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -352,50 +352,55 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "France 24"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-09-29T15:08:30-0300",
-      "last_seen": "2026-09-29T15:08:30-0300",
-      "entities": [],
-      "event_terms": "judicial",
+      "first_seen": "2026-09-30T17:44:29-0300",
+      "last_seen": "2026-09-30T17:44:29-0300",
+      "entities": [
+        "congreso",
+        "senado",
+        "boric",
+        "chile"
+      ],
+      "event_terms": [],
       "analysis": {
-        "summary": "La violencia en Haití no cesa. Al menos 11 personas murieron en la región central de Artibonite, Haití, a manos de miembros de bandas tras una operación de seguridad letal, según informó el alcalde local. Entretanto, Estados Unidos amplió considerablemente el proceso judicial relacionado con el asesinato del presidente haitiano Jovenel Moïse, ocurrido en 2021. ¿Qué cambia ahora? Lo desciframos.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Estados Unidos.",
+        "summary": "El proyecto de ley que regula las Reglas del Uso de la Fuerza (RUF) dio este miércoles un nuevo paso en el Congreso, a ser despachado en comisión mixta , instancia que zanjó las divergencias técnicas y políticas suscitadas entre la Cámara de Diputadas y Diputados y el Senado.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?",
-          "description": "La violencia en Haití no cesa. Al menos 11 personas murieron en la región central de Artibonite, Haití, a manos de miembros de bandas tras una operación de seguridad letal, según informó el alcalde local. Entretanto, Estados Unidos amplió considerablemente el proceso judicial relacionado con el asesinato del presidente haitiano Jovenel Moïse, ocurrido en 2021. ¿Qué cambia ahora? Lo desciframos.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260929-ee-uu-ampl%C3%ADa-proceso-judicial-por-el-asesinato-del-presidente-haitiano-jovenel-mo%C3%AFse-habr%C3%A1-un-giro-en-el-caso",
-          "image_url": "https://s.france24.com/media/display/7a2893b6-1c5c-11ee-b2e3-005056a90284/w:1024/p:16x9/000_1NN6LS.jpg",
-          "published_raw": "Tue, 29 Sep 2026 18:08:30 GMT",
-          "published_at": "2026-09-29T15:08:30-0300",
-          "country": "Estados Unidos",
-          "region": "Estados Unidos",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Comisión mixta despachó Reglas de Uso de la Fuerza: faltan dos votaciones para que sea ley",
+          "description": "El proyecto de ley que regula las Reglas del Uso de la Fuerza (RUF) dio este miércoles un nuevo paso en el Congreso, a ser despachado en comisión mixta , instancia que zanjó las divergencias técnicas y políticas suscitadas entre la Cámara de Diputadas y Diputados y el Senado. La propuesta legislativa, enviada originalmente a trámite durante el Gobierno de Gabriel Boric, entrega certeza jurídica y protección legal a los funcionarios de Carabineros , Policía de Investigaciones (PDI) y las Fuerzas Armadas (FF.AA.) cuando hagan uso de su armamento de servicio en el cumplimiento de su deber , elevando a rango legal directrices que antes estaban supeditadas a reglamentos institucionales internos. Respaldo normativo a las policías Presente en la sede del Parlamento por segunda jornada consecutiva, el ministro de Seguridad Pública , Martín Arrau , valoró que, tras \" un año y medio esperando , esta mixta dé resultados y que hoy empiece a primar el sentido común \". \" Le damos un ordenamiento y una certeza al uso de la fuerza a nuestras Fuerzas de Orden y Seguridad , que van a la calle a enfrentar a los delincuentes, justo, además, en una semana crítica de enfrentamientos en nuestras calles, y es por eso que esto cobra un doble sentido \", afirmó el secretario de Estado. El ministro de Seguridad Pública, Martín Arrau, celebró el consenso alcanzado afirmando que \"hoy empieza a primar el sentido común\". (FOTO: ATON) En esta línea, indicó que \"cuando el país requiere más seguridad, requiere más fuerza y decisión en las calles, era necesario tener un marco jurídico potente para que todos esos hombres y mujeres que arriesgan su vida y nos defienden , hoy tengan mayor respaldo jurídico \". \"Cuando hablamos de apoyar a las policías, a Carabineros de Chile, se trata de esto: un trabajo de toda la sociedad , en este caso de todo el mundo político , dejando al lado las diferencias y aunando las voluntades para tener un mayor respaldo cuando se requiere \", puntualizó Arrau. Pasos pendientes para la promulgación Con la evacuación del informe de la comisión mixta concluida, el texto ingresará ahora a su etapa final de tramitación en el Parlamento . Para que el proyecto sea remitido al Ejecutivo y quede en condiciones de ser promulgado como ley de la República, el informe articulado deberá ser ratificado mediante dos votaciones generales: primero en la sala de la Cámara de Diputadas y Diputados y , posteriormente , en la sala del Senado .",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-mixta-despacho-reglas-de-uso-de-la-fuerza-faltan-dos/2026-09-30/174429.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000320260930174429.jpg",
+          "published_raw": "Wed, 30 Sep 2026 17:44:29 -0300",
+          "published_at": "2026-09-30T17:44:29-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 1,
+          "score_institutional": 8,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 2,
+          "score_conflict": 3,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Instituciones y gobierno",
+          "political_evidence": 13,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-017"
+          "cluster_id": "PML-EVENT-008"
         }
       ]
     }
@@ -419,11 +424,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 60.2,
+          "score": 58.2,
           "level": "MEDIA",
           "components": {
             "political_impact": 84,
-            "freshness": 80,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -474,85 +479,13 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 82.2
+          "chile_utility": 80.2
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-006",
-        "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 58,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 87,
-            "freshness": 62,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 44
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-09-29T08:09:24-0300",
-        "last_seen": "2026-09-29T08:09:24-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
-            "description": "Las atribuciones de Gendarmería para segregar a personas privadas de libertad serán el eje de la nueva reforma constitucional de seguridad, afirmó este martes el presidente de la Comisión de Constitución del Senado, Pedro Araya (PPD), en El Diario de Cooperativa . \"En lo central de la reforma, sin duda van a ser las nuevas atribuciones a Gendarmería , eso es lo que se está pensando\", afirmó Araya. El senador explicó que a esa facultad \"se le entrega el rango constitucional para evitar cualquier tipo de discusión y que Gendarmería tenga un mayor blindaje respecto de las atribuciones que va a tener en orden a la segregación penal \". Según sostuvo, el objetivo es ofrecer mayor respaldo jurídico a las decisiones de Gendarmería sobre el traslado o la separación de internos considerados peligrosos, que hoy pueden ser impugnadas ante los tribunales. \"Eso se va a recoger absolutamente\", señaló Araya. A su juicio, elevar la atribución a rango constitucional permitiría dar a Gendarmería \"un blindaje jurídicamente más fuerte\" frente a esas reclamaciones. Qué pasará con los estados de excepción Araya aseguró que el nuevo estado de excepción propuesto originalmente por el Gobierno quedó descartado . En su reemplazo, los senadores estudian precisiones al estado de emergencia vigente para evitar diferencias de interpretación sobre el apoyo de las Fuerzas Armadas a las policías. El legislador recalcó que las conversaciones no apuntan a ampliar las atribuciones militares ni a establecer un estado de excepción de 120 días prorrogables sin control del Congreso. Por el contrario, planteó que, en casos relacionados con seguridad pública, el Parlamento pueda revocar la medida. Una tercera materia en estudio es incorporar en la Constitución una condena al crimen organizado , como ocurre con el terrorismo. Araya precisó que los efectos concretos de esa declaración, entre ellos eventuales cambios en sanciones o derechos, tendrían que desarrollarse mediante leyes. Plazos y lectura política Los cinco integrantes de la Comisión de Constitución trabajan en la propuesta. Araya espera contar con un primer borrador entre este martes y el miércoles, para ingresar el proyecto a más tardar la próxima semana . La reforma original del Ejecutivo todavía se encuentra técnicamente en la comisión. Según el senador, el Gobierno desistiría de ella y la retiraría una vez presentado el nuevo texto. Araya interpretó la disposición del Ejecutivo a negociar una nueva reforma como una señal de que busca ampliar sus acuerdos en el Congreso , luego de los tropiezos legislativos en sala cuna universal y expulsiones . A su juicio, esas votaciones mostraron al Gobierno que no puede depender de uno o dos votos para sacar adelante iniciativas relevantes. \"Pareciera ser que el gobierno está buscando un nuevo trato con el Congreso y empezar a generar, sobre todo en los temas de seguridad, acuerdos más transversales\", sostuvo. De todos modos, llamó a observar los próximos proyectos para comprobar si esta apertura al diálogo se mantiene más allá de la reforma de seguridad.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929080924.jpg",
-            "published_raw": "Tue, 29 Sep 2026 08:09:24 -0300",
-            "published_at": "2026-09-29T08:09:24-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 7,
-            "score_elections": 0,
-            "score_international": 1,
-            "score_conflict": 6,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 2,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 16,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 80
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-001",
+        "cluster_id": "PML-EVENT-002",
         "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -607,7 +540,7 @@
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
+            "cluster_id": "PML-EVENT-002"
           }
         ],
         "article_count": 1,
@@ -621,6 +554,78 @@
           "chile_utility": 79.9
         },
         "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-006",
+        "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 55.5,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 87,
+            "freshness": 52,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 44
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-09-29T08:09:24-0300",
+        "last_seen": "2026-09-29T08:09:24-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
+            "description": "Las atribuciones de Gendarmería para segregar a personas privadas de libertad serán el eje de la nueva reforma constitucional de seguridad, afirmó este martes el presidente de la Comisión de Constitución del Senado, Pedro Araya (PPD), en El Diario de Cooperativa . \"En lo central de la reforma, sin duda van a ser las nuevas atribuciones a Gendarmería , eso es lo que se está pensando\", afirmó Araya. El senador explicó que a esa facultad \"se le entrega el rango constitucional para evitar cualquier tipo de discusión y que Gendarmería tenga un mayor blindaje respecto de las atribuciones que va a tener en orden a la segregación penal \". Según sostuvo, el objetivo es ofrecer mayor respaldo jurídico a las decisiones de Gendarmería sobre el traslado o la separación de internos considerados peligrosos, que hoy pueden ser impugnadas ante los tribunales. \"Eso se va a recoger absolutamente\", señaló Araya. A su juicio, elevar la atribución a rango constitucional permitiría dar a Gendarmería \"un blindaje jurídicamente más fuerte\" frente a esas reclamaciones. Qué pasará con los estados de excepción Araya aseguró que el nuevo estado de excepción propuesto originalmente por el Gobierno quedó descartado . En su reemplazo, los senadores estudian precisiones al estado de emergencia vigente para evitar diferencias de interpretación sobre el apoyo de las Fuerzas Armadas a las policías. El legislador recalcó que las conversaciones no apuntan a ampliar las atribuciones militares ni a establecer un estado de excepción de 120 días prorrogables sin control del Congreso. Por el contrario, planteó que, en casos relacionados con seguridad pública, el Parlamento pueda revocar la medida. Una tercera materia en estudio es incorporar en la Constitución una condena al crimen organizado , como ocurre con el terrorismo. Araya precisó que los efectos concretos de esa declaración, entre ellos eventuales cambios en sanciones o derechos, tendrían que desarrollarse mediante leyes. Plazos y lectura política Los cinco integrantes de la Comisión de Constitución trabajan en la propuesta. Araya espera contar con un primer borrador entre este martes y el miércoles, para ingresar el proyecto a más tardar la próxima semana . La reforma original del Ejecutivo todavía se encuentra técnicamente en la comisión. Según el senador, el Gobierno desistiría de ella y la retiraría una vez presentado el nuevo texto. Araya interpretó la disposición del Ejecutivo a negociar una nueva reforma como una señal de que busca ampliar sus acuerdos en el Congreso , luego de los tropiezos legislativos en sala cuna universal y expulsiones . A su juicio, esas votaciones mostraron al Gobierno que no puede depender de uno o dos votos para sacar adelante iniciativas relevantes. \"Pareciera ser que el gobierno está buscando un nuevo trato con el Congreso y empezar a generar, sobre todo en los temas de seguridad, acuerdos más transversales\", sostuvo. De todos modos, llamó a observar los próximos proyectos para comprobar si esta apertura al diálogo se mantiene más allá de la reforma de seguridad.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929080924.jpg",
+            "published_raw": "Tue, 29 Sep 2026 08:09:24 -0300",
+            "published_at": "2026-09-29T08:09:24-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 7,
+            "score_elections": 0,
+            "score_international": 1,
+            "score_conflict": 6,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 2,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 16,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-006"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 77.5
+        },
+        "repeated_in_general_top5": false
       }
     ]
   },
@@ -628,25 +633,25 @@
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 6,
-      "maximum_relevance": 70,
+      "maximum_relevance": 68.7,
       "leading_story": "Elecciones en Brasil: las favelas en Río de Janeiro, un electorado clave en la disputa por el voto"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 23,
-      "maximum_relevance": 68.4,
+      "event_count": 22,
+      "maximum_relevance": 65.4,
       "leading_story": "Gobierno y parlamentarios acuerdan tres ejes para reforma de seguridad"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 4,
-      "maximum_relevance": 61.2,
+      "maximum_relevance": 60,
       "leading_story": "Irán dispara los ahorcamientos de manifestantes y presos políticos al amparo de la guerra"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 2,
-      "maximum_relevance": 57.5,
+      "maximum_relevance": 56.2,
       "leading_story": "EE.UU. negó visa al senador comunista Daniel Núñez"
     }
   ],
