@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-30",
-    "data_latest_timestamp": "2026-09-30T11:50:36-0300",
-    "data_age_hours": 0.5,
-    "generated_at": "2026-09-30T12:20:17-0300",
+    "data_latest_timestamp": "2026-09-30T14:05:34-0300",
+    "data_age_hours": 1.2,
+    "generated_at": "2026-09-30T15:17:53-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,96 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 3 temas, 4 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
+    "diversity": "La selección cubre 4 temas, 4 áreas geográficas y 5 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 36,
-    "topics": 3,
+    "ranked_events": 35,
+    "topics": 4,
     "geographies": 4,
     "representative_sources": 3,
-    "average_top5_relevance": 61.9,
-    "maximum_relevance": 68.4
+    "average_top5_relevance": 63,
+    "maximum_relevance": 70
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-013",
+      "cluster_id": "PML-EVENT-021",
+      "title": "Elecciones en Brasil: las favelas en Río de Janeiro, un electorado clave en la disputa por el voto",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260930-elecciones-en-brasil-las-favelas-en-r%C3%ADo-de-janeiro-un-electorado-clave-en-la-disputa-por-el-voto",
+      "representative_source": "France 24",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Brasil / América Latina"
+      },
+      "relevance": {
+        "score": 70,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 70
+      },
+      "selection": {
+        "reason": "PML 70",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-09-30T14:05:34-0300",
+      "last_seen": "2026-09-30T14:05:34-0300",
+      "entities": "brasil",
+      "event_terms": [],
+      "analysis": {
+        "summary": "Más de 2,1 millones de personas viven en las favelas del estado de Río de Janeiro. Campaña, promesas, movilizaciones para animar a la población a votar: a pocos días de la primera vuelta de las elecciones generales en Brasil, que se celebran el domingo 4 de octubre, los habitantes de las favelas constituyen, para muchos candidatos, un electorado al que hay que seducir.",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Elecciones en Brasil: las favelas en Río de Janeiro, un electorado clave en la disputa por el voto",
+          "description": "Más de 2,1 millones de personas viven en las favelas del estado de Río de Janeiro. Campaña, promesas, movilizaciones para animar a la población a votar: a pocos días de la primera vuelta de las elecciones generales en Brasil, que se celebran el domingo 4 de octubre, los habitantes de las favelas constituyen, para muchos candidatos, un electorado al que hay que seducir.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260930-elecciones-en-brasil-las-favelas-en-r%C3%ADo-de-janeiro-un-electorado-clave-en-la-disputa-por-el-voto",
+          "image_url": "https://s.france24.com/media/display/dfecd40c-bc2f-11f1-839b-852b23529bb9/w:1024/p:16x9/image-30.jpeg",
+          "published_raw": "Wed, 30 Sep 2026 17:05:34 GMT",
+          "published_at": "2026-09-30T14:05:34-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 3,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-021"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-003",
       "title": "Gobierno y parlamentarios acuerdan tres ejes para reforma de seguridad",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-y-parlamentarios-acuerdan-tres-ejes-para-reforma-de-seguridad/2026-09-30/111158.html",
       "representative_source": "Cooperativa",
@@ -45,10 +118,10 @@
       "relevance": {
         "score": 68.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 68.4
+        "editorial_utility": 80.4
       },
       "selection": {
-        "reason": "PML 68.4",
+        "reason": "PML 68.4; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -77,7 +150,7 @@
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
           "title": "Gobierno y parlamentarios acuerdan tres ejes para reforma de seguridad",
-          "description": "La Moneda alcanzó un acuerdo con parlamentarios para impulsar una nueva reforma de seguridad , tras un desayuno que se realizó este miércoles en Cerro Castillo y se extendió por más de dos horas. La propuesta contempla tres ejes para su tramitación en el Congreso , según detalló el senador Pedro Araya (PPD) , presidente de la Comisión de Constitución. Crimen organizado y facultades para Gendarmería \"En materia de reforma constitucional se contemplarían tres ejes: el primero es establecer a nivel constitucional la condena al crimen organizado y se le daría un tratamiento similar al que tiene el terrorismo\", sostuvo. Araya añadió que \"en segundo lugar, dotar a Gendarmería de la posibilidad de segregar en los distintos penales a las personas que están privadas de libertad, atendida la peligrosidad que tienen ; y el tercer punto, en materia de estado de excepción constitucional se acordó que se van a mantener los actuales estados de excepción y respecto al estado de emergencia se van a hacer algunas precisiones de carácter conceptual para aclarar que puede operar en caso de seguridad pública\". \" No se van a poder interceptar comunicaciones telefónicas salvo que sean por orden judicial \", precisó el parlamentario. Respecto del retiro de la reforma actual , se confirmó que se concretará una vez que ingrese al Congreso el nuevo texto presentado por los senadores .",
+          "description": "La Moneda alcanzó un acuerdo con parlamentarios para impulsar una nueva reforma de seguridad , tras un desayuno que se realizó este miércoles en Cerro Castillo y se extendió por más de dos horas. La propuesta contempla tres ejes para su tramitación en el Congreso , según detalló el senador Pedro Araya (PPD) , presidente de la Comisión de Constitución. Crimen organizado y facultades para Gendarmería \"En materia de reforma constitucional se contemplarían tres ejes: el primero es establecer a nivel constitucional la condena al crimen organizado y se le daría un tratamiento similar al que tiene el terrorismo\", sostuvo. Araya añadió que \"en segundo lugar, dotar a Gendarmería de la posibilidad de segregar en los distintos penales a las personas que están privadas de libertad, atendida la peligrosidad que tienen ; y el tercer punto, en materia de estado de excepción constitucional se acordó que se van a mantener los actuales estados de excepción y respecto al estado de emergencia se van a hacer algunas precisiones de carácter conceptual para aclarar que puede operar en caso de seguridad pública\". \" No se van a poder interceptar comunicaciones telefónicas salvo que sean por orden judicial \", precisó el parlamentario. Respecto del retiro de la reforma actual , se confirmó que se concretará una vez que ingrese al Congreso el nuevo texto presentado por los senadores . Molestia en el PS La presidenta del Partido Socialista, Paulina Vodanovic, descartó haber sido parte de estas conversaciones y aseguró haber solamente recibido -hace semanas- un mensaje de WhatsApp con algunas ideas. Ante esta situación, el diputado César Valenzuela recalcó que \"yo acabo de hablar con la presidenta del Partido Socialista y me confirma que ella no ha participado ni en la discusión ni ha adherido a ningún proyecto de ley ni a ninguna propuesta en la materia\". \"Por lo tanto, los mensajes de WhatsApp o los llamados que se hacen por la prensa en ningún caso constituyen un diálogo necesario para efectos de poder llevar adelante una propuesta\", agregó. El parlamentario insistió en que \"su reforma ya fracasó, no sacan nada con seguir ocultándolo. Hay que ponerse colorado una vez y por lo tanto el gobierno tiene que retirar esa reforma si efectivamente está convencido que tenemos que abordar los problemas de seguridad y no seguir alargando una muerte que ya está anunciada hace bastante tiempo\".",
           "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-y-parlamentarios-acuerdan-tres-ejes-para-reforma-de-seguridad/2026-09-30/111158.html",
           "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000220260930111158.jpg",
           "published_raw": "Wed, 30 Sep 2026 11:11:58 -0300",
@@ -85,94 +158,21 @@
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 5,
+          "score_institutional": 8,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 3,
           "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
+          "score_ideology": 1,
+          "score_actor": 5,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 10,
+          "political_evidence": 17,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-013"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-034",
-      "title": "El peso del abstencionismo de cara a las elecciones generales en Brasil",
-      "url": "https://www.france24.com/es/video/20260929-el-peso-del-abstencionismo-de-cara-a-las-elecciones-generales-en-brasil",
-      "representative_source": "France 24",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Brasil / América Latina"
-      },
-      "relevance": {
-        "score": 61.4,
-        "level": "MEDIA",
-        "editorial_utility": 73.4
-      },
-      "selection": {
-        "reason": "PML 61.4; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-09-29T17:25:17-0300",
-      "last_seen": "2026-09-29T17:25:17-0300",
-      "entities": "brasil",
-      "event_terms": [],
-      "analysis": {
-        "summary": "🇧🇷🗳️ A pocos días de las elecciones generales de Brasil, y pese a la obligatoriedad del voto en el país, se prevé que este año la abstención crezca ante el aumento de la apatía política y la desconfianza hacia los candidatos y sus proyectos políticos.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
-        "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "El peso del abstencionismo de cara a las elecciones generales en Brasil",
-          "description": "🇧🇷🗳️ A pocos días de las elecciones generales de Brasil, y pese a la obligatoriedad del voto en el país, se prevé que este año la abstención crezca ante el aumento de la apatía política y la desconfianza hacia los candidatos y sus proyectos políticos.",
-          "url": "https://www.france24.com/es/video/20260929-el-peso-del-abstencionismo-de-cara-a-las-elecciones-generales-en-brasil",
-          "image_url": "https://s.france24.com/media/display/51778f9c-bc3d-11f1-8f41-8f3418d01115/w:1024/p:16x9/El-peso-del-abstencionismo-de-cara-a-las-elecciones-generales.png",
-          "published_raw": "Tue, 29 Sep 2026 20:25:17 GMT",
-          "published_at": "2026-09-29T17:25:17-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-034"
+          "cluster_id": "PML-EVENT-003"
         }
       ]
     },
@@ -255,7 +255,80 @@
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-019",
+      "cluster_id": "PML-EVENT-014",
+      "title": "EE.UU. negó visa al senador comunista Daniel Núñez",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/ee-uu-nego-visa-al-senador-comunista-daniel-nunez/2026-09-30/122533.html",
+      "representative_source": "Cooperativa",
+      "topic": "Relaciones internacionales",
+      "event_type": "POLITICAL_STATEMENT",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 57.5,
+        "level": "MEDIA",
+        "editorial_utility": 64.5
+      },
+      "selection": {
+        "reason": "PML 57.5; aporta diversidad temática; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-09-30T12:25:33-0300",
+      "last_seen": "2026-09-30T12:25:33-0300",
+      "entities": "senado",
+      "event_terms": [],
+      "analysis": {
+        "summary": "Estados Unidos negó la visa de ingreso al senador Daniel Núñez (PC) , quien tenía previsto viajar a Nueva York para participar en una actividad de la Unión Interparlamentaria (UIP) , en el marco de la Asamblea General de Naciones Unidas . En primera instancia, la invitación había sido extendida al senador Francisco Huenchumilla (DC) , quien desistió de asistir por razones familiares.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "EE.UU. negó visa al senador comunista Daniel Núñez",
+          "description": "Estados Unidos negó la visa de ingreso al senador Daniel Núñez (PC) , quien tenía previsto viajar a Nueva York para participar en una actividad de la Unión Interparlamentaria (UIP) , en el marco de la Asamblea General de Naciones Unidas . En primera instancia, la invitación había sido extendida al senador Francisco Huenchumilla (DC) , quien desistió de asistir por razones familiares. De esta manera, el el comité unificado se dispuso que asumiera como reemplazante el senador Núñez , quien realizó las gestiones a través del encargado de Relaciones Internacionales de la Cámara Alta para tramitar la visa de ingreso a EE.UU. Sin embargo, el legislador PC relató que mientras se disponía a sacar su pasaporte diplomático, se le informó que no había disposición por parte de EE.UU. para acelerar los trámites y entregar oportunamente el documento , lo que impidió su viaje. Finalmente, la representación parlamentaria chilena en la instancia -que reúne a representantes de parlamentos nacionales y aborda materias vinculadas al trabajo legislativo y cooperación parlamentaria internacional- quedó a cargo de la senadora Loreto Carvajal (PPD) , quien asumió en reemplazo de Ñúñez. Núñez apunta a falta de voluntad del país anfitrión Tras confirmarse su ausencia en la cumbre internacional, el senador Núñez señaló que habló con \" el encargado de relaciones internacionales del Senado para hacer las gestiones \". \"Él me informó que iba a tramitar la visa y el día que estoy sacando mi pasaporte diplomático me informa que el lunes, a siete días del viaje, que no había disposición para agilizar la solicitud, la tramitación de la visa y que por lo tanto no había posibilidad de obtener la visa . Y en esas condiciones , obviamente no puedo viajar \", lamentó el legislador. En esta línea, cuestionó que \"ante estos viajes que son un encuentro parlamentario internacional en el marco de la asamblea de Naciones Unidas, el país que es sede de las Naciones Unidas, en este caso Estados Unidos, debe facilitar los trámites de la visa para que uno pueda participar de los eventos , y lo que yo deduzco es que no hubo esa voluntad \".",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/ee-uu-nego-visa-al-senador-comunista-daniel-nunez/2026-09-30/122533.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000220260930122533.jpg",
+          "published_raw": "Wed, 30 Sep 2026 12:25:33 -0300",
+          "published_at": "2026-09-30T12:25:33-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 3,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 7,
+          "primary_topic": "Relaciones internacionales",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-014"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-017",
       "title": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260929-ee-uu-ampl%C3%ADa-proceso-judicial-por-el-asesinato-del-presidente-haitiano-jovenel-mo%C3%AFse-habr%C3%A1-un-giro-en-el-caso",
       "representative_source": "France 24",
@@ -322,84 +395,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-001",
-      "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 60.4,
-        "level": "MEDIA",
-        "editorial_utility": 55.4
-      },
-      "selection": {
-        "reason": "PML 60.4",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-09-29T11:55:12-0300",
-      "last_seen": "2026-09-29T11:55:12-0300",
-      "entities": [
-        "congreso",
-        "chile",
-        "senado"
-      ],
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "El ministro de Seguridad Pública, Martín Arrau , descartó que el posible retiro de la reforma constitucional de seguridad , dando paso al ingreso de un nuevo texto al Congreso, pueda significar una \"derrota\" para el Gobierno de José Antonio Kast . Ayer lunes, el senador y presidente del Partido Republicano, Arturo Squella , confirmó la apertura del Ejecutivo a bajar su propuesta inicial , que generó un fuerte rechazo en la oposición y dividió al oficialismo por un eventual…",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
-          "description": "El ministro de Seguridad Pública, Martín Arrau , descartó que el posible retiro de la reforma constitucional de seguridad , dando paso al ingreso de un nuevo texto al Congreso, pueda significar una \"derrota\" para el Gobierno de José Antonio Kast . Ayer lunes, el senador y presidente del Partido Republicano, Arturo Squella , confirmó la apertura del Ejecutivo a bajar su propuesta inicial , que generó un fuerte rechazo en la oposición y dividió al oficialismo por un eventual presidencialismo excesivo, al contener medidas como un nuevo estado de excepción de 120 días renovables sin autorización del Congreso . Por lo pronto, ha trascendido que una nueva reforma estaría suscrita por Squella y sus colegas de la Comisión de Constitución de la Cámara Alta, Pedro Araya (PPD) y Andrés Longton (RN), además de incorporar una iniciativa de la senadora Paulina Vodanovic (PS) relativa a segregación penitenciaria. Arrau , que ha mantenido conversaciones con aquellos parlamentarios en las últimas semanas, señaló este martes que \"como hemos dicho, no nos enamoramos de una redacción particular; lo que nos interesa es tener las herramientas , una mayor segregación y segmentación penitenciaria por parte de Gendarmería, y más herramientas para el combate al crimen organizado\". En ese sentido, \" estamos viendo cuál es el mejor camino : si es que se potencia una posible indicación o un posible texto ingresado por los senadores . Eso implicaría quizás algún retiro, pero estamos a la espera de esa propuesta\". [Lea también]   Senadores Longton y Squella proponen indicaciones para destrabar la reforma de seguridad Dado que ha dialogado en esta línea con senadores de oposición, el ministro dijo esperar que \"se destrabe el espacio y podamos avanzar en otros proyectos tan importantes que estamos empujando\" , insistiendo en el llamado a la unidad del Gobierno a raíz de la muerte del cabo segundo de Carabineros Cristopher Aguilera . La autoridad pidió \" aunar voluntades y botar ciertas diferencias que hay , en pos de que tengamos mejores herramientas para el combate del crimen organizado, Reglas de Uso de la Fuerza, y tantas otras cosas que pueden cambiar el combate a las organizaciones grandes, como también de que nuestras policías tengan mejores herramientas y medios para pararse mejor en la calle y defender mejor a la ciudadanía\". Finalmente, consultado sobre si retirar la reforma original significaría un fracaso para el Gobierno , Arrau relevó: \" Avanzar en cualquier ley que le haga bien a Chile en seguridad por supuesto que no es una derrota . Creo que hay que superar esas cosas políticas en pos de tener mejores herramientas para dar más seguridad a los chilenos\". Vodanovic: \"Si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno\" Mientras, la senadora Paulina Vodanovic , presidenta del Partido Socialista (PS), acusó falta de voluntad al Ejecutivo. \"(La reforma original era) un espanto jurídico. Nadie, ningún académico en Chile, defendió este proyecto. Desde Nacional Libertario hasta el Partido Comunista (estaban) en contra. Por lo tanto, si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno . Nosotros vamos a trabajar igual\", afirmó la legisladora. Vodanovic recalcó que \"aquellos municipios pobres donde está el crimen organizado campeando —porque esto no ocurre en las tres comunas del barrio alto, (sino) en aquellas comunas más pobres que son las que hoy día tienen una rebaja de los recursos por culpa de la megarreforma— son los que hoy día tienen menos ingresos. Ese es el problema que tenemos hoy día y eso requiere voluntad política\". Presidente Kast se reunirá con representantes de las comisiones de Seguridad y Constitución del Congreso Para este miércoles a primera hora, en el Palacio de Cerro Castillo , el Presidente Kast convocó a los representantes de las comisiones de Constitución y Seguridad para ir coordinando los próximos pasos de la reforma. En su mayoría son parlamentarios de oposición, como el senador Pedro Araya (PPD) , presidente de la Comisión de Constitución del Senado; el diputado Jaime Mulet (FRVS ), presidente de la Comisión de Constitución en la Cámara, y el senador Karim Bianchi (ind) , presidente de la Comisión de Seguridad del Senado. Desde el oficialismo, se presentará el diputado Cristián Araya (Republicanos) , presidente de la Comisión de Seguridad de la Cámara Baja. Asimismo, contarán con la participación de la diputada Ximena Ossandón (RN) , como segunda vicepresidenta del a Cámara, y el senador Iván Moreira (UDI) , como vicepresidente de su corporación. El senador Bianchi agradeció la invitación del Mandatario, pero condicionó su presencia a \"sacar temas adelante. No estoy para prestarme para una foto y sacar acá anuncios que no se van a concretar \". \"El Presidente de la República prometió sacar adelante materia de seguridad en su campaña, y esa tienen que financiarse. Este problema no es constitucional solamente, es un problema presupuestario, de gestión , y yo espero que mañana se explique cómo esto se va a resolver\", aseveró. Igualmente, señaló que espera que el Mandatario patrocine un proyecto para terminar con la llamada puerta giratoria , que plantea un catálogo de delitos a los que no se podrá obtener ciertos beneficios garantistas; ingresado hace unas semanas por el parlamentario. Por su parte, Mulet comentó que está \"disponible a dialogar con el gobierno por la agenda de seguridad, porque es un problema que sigue siendo grave, no solo el plazo de retención, sino que la posibilidad de que se pueda segmentar en las cárceles sin estos retrocesos que hay por sentencias de algunos jueces de garantía\". \"Yo manifiesto esa disposición y lo primero que tengo que hacer es escuchar y dialogar con el Presidente en esa materia y con el ministro\", añadió.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929115512.jpg",
-          "published_raw": "Tue, 29 Sep 2026 11:55:12 -0300",
-          "published_at": "2026-09-29T11:55:12-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 11,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 3,
-          "score_policy": 0,
-          "score_ideology": 2,
-          "score_actor": 8,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 25,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
+          "cluster_id": "PML-EVENT-017"
         }
       ]
     }
@@ -412,7 +408,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-014",
+        "cluster_id": "PML-EVENT-012",
         "title": "Senado aprobó ley de juicios en ausencia del imputado",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -467,7 +463,7 @@
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-014"
+            "cluster_id": "PML-EVENT-012"
           }
         ],
         "article_count": 1,
@@ -556,25 +552,25 @@
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-007",
-        "title": "Gobierno se abrió a retirar reforma que crea un nuevo estado de excepción",
+        "cluster_id": "PML-EVENT-001",
+        "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abrio-a-retirar-reforma-que-crea-un-nuevo-estado-de-excepcion/2026-09-28/134651.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.9,
+          "score": 57.9,
           "level": "MEDIA",
           "components": {
-            "political_impact": 95,
-            "freshness": 40,
+            "political_impact": 86,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 44
+            "continuity": 46
           }
         },
         "coverage": {
@@ -582,36 +578,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-09-28T13:46:51-0300",
-        "last_seen": "2026-09-28T13:46:51-0300",
+        "first_seen": "2026-09-29T11:55:12-0300",
+        "last_seen": "2026-09-29T11:55:12-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Gobierno se abrió a retirar reforma que crea un nuevo estado de excepción",
-            "description": "El Gobierno abrió la puerta este lunes a retirar del Congreso la reforma constitucional en materia de seguridad , condicionando la medida a que la Comisión de Constitución del Senado elabore y presente un texto consensuado y transversal. La propuesta inicial del Ejecutivo —que permitía decretar un estado de excepción de 120 días renovables sin autorización del Congreso— generó un fuerte rechazo en la oposición y dividió al oficialismo por los reparos frente a un eventual presidencialismo excesivo. La decisión fue confirmada por el presidente del Partido Republicano, Arturo Squella , quien comentó que \" el Gobierno no tiene problema en bajar su propuesta con el propósito de que ingrese una nueva , a la luz de lo que estuvimos trabajando junto al senador Longton, y pusimos a disposición del resto de los integrantes de la Comisión de Constitución del Senado y eso a su vez tramitarlo de la mano con la reforma constitucional que ya presentó la senadora Vodanovic\". \"Desde esa perspectiva,  tendríamos un texto que representaría el propósito buscado por el Gobierno\", insistió. Respecto a que si el retiro significa un fracaso en las ideas iniciales del Gobierno, Squella aseveró que \"sería muy pequeño pensar que l os éxitos o los fracasos están en función de quién puede tener un crédito respecto de un proyecto de ley o no\" . \"El éxito se mide en función del resultado, y el resultado exitoso va a estar cuando se logren los 4/7 para una reforma constitucional que nos dé paso a un estándar de protección distinto, y al final del día los que ganamos somos todos los chilenos\", reflexionó. El presidente de la Comisión de Constitución del Senado, Pedro Araya , apuntó que el retiro del proyecto tiene la condición de que \" exista una nueva propuesta constitucional para abordar los temas de seguridad pública completa \". \"El resto de la agenda corta se sigue trabajando en las distintas comisiones\", agregó el legislador. Por su parte, el biministro del Interior y Segegob, Claudio Alvarado , afirmó que   \"como Gobierno siempre estamos disponibles para recoger esas propuestas, ampliar las bases de apoyo, llegar a un acuerdo y sacar adelante una reforma que sea compartida por la oposición. Vamos a conversar con ellos y, una vez que tengamos esa conversación, es probable que suceda lo que se señala o que la propuesta se mejore\", indicó la autoridad. El senador Andrés Longton (RN) reconoció que el proyecto \"se podría haber ingresado de una manera distinta desde el punto de vista del contenido si se hubiera sociabilizado, porque probablemente hubiéramos hecho las aprensiones antes de que se hubiera presentado y eso obviamente sirve de lección. No va el quinto estado de excepción, no va porque nosotros creemos que el estado de emergencia ha sido eficiente y, como tal, hay que potenciarlo y no dejarlo de lado, no debilitarlo al crear uno nuevo\". En la misma línea, la presidenta del PS, senadora Paulina Vodanovic —quien cuestionó que el anuncio no se diera tras un diálogo más amplio en el Congreso—, busca que el consenso contemple la fusión con su proyecto de ley orientado a establecer un nuevo régimen carcelario de alta seguridad.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abrio-a-retirar-reforma-que-crea-un-nuevo-estado-de-excepcion/2026-09-28/134651.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260928/imag/foto_0000000220260928134651.jpg",
-            "published_raw": "Mon, 28 Sep 2026 13:46:51 -0300",
-            "published_at": "2026-09-28T13:46:51-0300",
+            "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
+            "description": "El ministro de Seguridad Pública, Martín Arrau , descartó que el posible retiro de la reforma constitucional de seguridad , dando paso al ingreso de un nuevo texto al Congreso, pueda significar una \"derrota\" para el Gobierno de José Antonio Kast . Ayer lunes, el senador y presidente del Partido Republicano, Arturo Squella , confirmó la apertura del Ejecutivo a bajar su propuesta inicial , que generó un fuerte rechazo en la oposición y dividió al oficialismo por un eventual presidencialismo excesivo, al contener medidas como un nuevo estado de excepción de 120 días renovables sin autorización del Congreso . Por lo pronto, ha trascendido que una nueva reforma estaría suscrita por Squella y sus colegas de la Comisión de Constitución de la Cámara Alta, Pedro Araya (PPD) y Andrés Longton (RN), además de incorporar una iniciativa de la senadora Paulina Vodanovic (PS) relativa a segregación penitenciaria. Arrau , que ha mantenido conversaciones con aquellos parlamentarios en las últimas semanas, señaló este martes que \"como hemos dicho, no nos enamoramos de una redacción particular; lo que nos interesa es tener las herramientas , una mayor segregación y segmentación penitenciaria por parte de Gendarmería, y más herramientas para el combate al crimen organizado\". En ese sentido, \" estamos viendo cuál es el mejor camino : si es que se potencia una posible indicación o un posible texto ingresado por los senadores . Eso implicaría quizás algún retiro, pero estamos a la espera de esa propuesta\". [Lea también]   Senadores Longton y Squella proponen indicaciones para destrabar la reforma de seguridad Dado que ha dialogado en esta línea con senadores de oposición, el ministro dijo esperar que \"se destrabe el espacio y podamos avanzar en otros proyectos tan importantes que estamos empujando\" , insistiendo en el llamado a la unidad del Gobierno a raíz de la muerte del cabo segundo de Carabineros Cristopher Aguilera . La autoridad pidió \" aunar voluntades y botar ciertas diferencias que hay , en pos de que tengamos mejores herramientas para el combate del crimen organizado, Reglas de Uso de la Fuerza, y tantas otras cosas que pueden cambiar el combate a las organizaciones grandes, como también de que nuestras policías tengan mejores herramientas y medios para pararse mejor en la calle y defender mejor a la ciudadanía\". Finalmente, consultado sobre si retirar la reforma original significaría un fracaso para el Gobierno , Arrau relevó: \" Avanzar en cualquier ley que le haga bien a Chile en seguridad por supuesto que no es una derrota . Creo que hay que superar esas cosas políticas en pos de tener mejores herramientas para dar más seguridad a los chilenos\". Vodanovic: \"Si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno\" Mientras, la senadora Paulina Vodanovic , presidenta del Partido Socialista (PS), acusó falta de voluntad al Ejecutivo. \"(La reforma original era) un espanto jurídico. Nadie, ningún académico en Chile, defendió este proyecto. Desde Nacional Libertario hasta el Partido Comunista (estaban) en contra. Por lo tanto, si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno . Nosotros vamos a trabajar igual\", afirmó la legisladora. Vodanovic recalcó que \"aquellos municipios pobres donde está el crimen organizado campeando —porque esto no ocurre en las tres comunas del barrio alto, (sino) en aquellas comunas más pobres que son las que hoy día tienen una rebaja de los recursos por culpa de la megarreforma— son los que hoy día tienen menos ingresos. Ese es el problema que tenemos hoy día y eso requiere voluntad política\". Presidente Kast se reunirá con representantes de las comisiones de Seguridad y Constitución del Congreso Para este miércoles a primera hora, en el Palacio de Cerro Castillo , el Presidente Kast convocó a los representantes de las comisiones de Constitución y Seguridad para ir coordinando los próximos pasos de la reforma. En su mayoría son parlamentarios de oposición, como el senador Pedro Araya (PPD) , presidente de la Comisión de Constitución del Senado; el diputado Jaime Mulet (FRVS ), presidente de la Comisión de Constitución en la Cámara, y el senador Karim Bianchi (ind) , presidente de la Comisión de Seguridad del Senado. Desde el oficialismo, se presentará el diputado Cristián Araya (Republicanos) , presidente de la Comisión de Seguridad de la Cámara Baja. Asimismo, contarán con la participación de la diputada Ximena Ossandón (RN) , como segunda vicepresidenta del a Cámara, y el senador Iván Moreira (UDI) , como vicepresidente de su corporación. El senador Bianchi agradeció la invitación del Mandatario, pero condicionó su presencia a \"sacar temas adelante. No estoy para prestarme para una foto y sacar acá anuncios que no se van a concretar \". \"El Presidente de la República prometió sacar adelante materia de seguridad en su campaña, y esa tienen que financiarse. Este problema no es constitucional solamente, es un problema presupuestario, de gestión , y yo espero que mañana se explique cómo esto se va a resolver\", aseveró. Igualmente, señaló que espera que el Mandatario patrocine un proyecto para terminar con la llamada puerta giratoria , que plantea un catálogo de delitos a los que no se podrá obtener ciertos beneficios garantistas; ingresado hace unas semanas por el parlamentario. Por su parte, Mulet comentó que está \"disponible a dialogar con el gobierno por la agenda de seguridad, porque es un problema que sigue siendo grave, no solo el plazo de retención, sino que la posibilidad de que se pueda segmentar en las cárceles sin estos retrocesos que hay por sentencias de algunos jueces de garantía\". \"Yo manifiesto esa disposición y lo primero que tengo que hacer es escuchar y dialogar con el Presidente en esa materia y con el ministro\", añadió.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929115512.jpg",
+            "published_raw": "Tue, 29 Sep 2026 11:55:12 -0300",
+            "published_at": "2026-09-29T11:55:12-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 8,
-            "score_elections": 0,
+            "score_institutional": 11,
+            "score_elections": 1,
             "score_international": 0,
-            "score_conflict": 1,
+            "score_conflict": 3,
             "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 6,
+            "score_ideology": 2,
+            "score_actor": 8,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 15,
+            "political_evidence": 25,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
+            "cluster_id": "PML-EVENT-001"
           }
         ],
         "article_count": 1,
@@ -622,7 +618,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 76.9
+          "chile_utility": 79.9
         },
         "repeated_in_general_top5": false
       }
@@ -630,16 +626,16 @@
   },
   "topics": [
     {
-      "topic": "Instituciones y gobierno",
-      "event_count": 25,
-      "maximum_relevance": 68.4,
-      "leading_story": "Gobierno y parlamentarios acuerdan tres ejes para reforma de seguridad"
-    },
-    {
       "topic": "Elecciones y opinión pública",
       "event_count": 6,
-      "maximum_relevance": 61.4,
-      "leading_story": "El peso del abstencionismo de cara a las elecciones generales en Brasil"
+      "maximum_relevance": 70,
+      "leading_story": "Elecciones en Brasil: las favelas en Río de Janeiro, un electorado clave en la disputa por el voto"
+    },
+    {
+      "topic": "Instituciones y gobierno",
+      "event_count": 23,
+      "maximum_relevance": 68.4,
+      "leading_story": "Gobierno y parlamentarios acuerdan tres ejes para reforma de seguridad"
     },
     {
       "topic": "Conflictos y seguridad",
@@ -649,9 +645,9 @@
     },
     {
       "topic": "Relaciones internacionales",
-      "event_count": 1,
-      "maximum_relevance": 46.6,
-      "leading_story": "Delcy Rodríguez promete que “en Venezuela habrá elecciones en igualdad de condiciones para todos”"
+      "event_count": 2,
+      "maximum_relevance": 57.5,
+      "leading_story": "EE.UU. negó visa al senador comunista Daniel Núñez"
     }
   ],
   "changes_since_yesterday": {
@@ -659,7 +655,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "France 24", "EL PAÍS"],
+    "representative_sources": ["France 24", "Cooperativa", "EL PAÍS"],
     "source_count": 3
   },
   "system": {
