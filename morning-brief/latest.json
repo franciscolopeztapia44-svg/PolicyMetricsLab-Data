@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-29",
-    "data_latest_timestamp": "2026-09-29T17:25:17-0300",
-    "data_age_hours": 0.8,
-    "generated_at": "2026-09-29T18:15:17-0300",
+    "data_latest_timestamp": "2026-09-29T18:56:26-0300",
+    "data_age_hours": 2.4,
+    "generated_at": "2026-09-29T21:22:13-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 38 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
     "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 36,
+    "ranked_events": 38,
     "topics": 3,
     "geographies": 3,
     "representative_sources": 3,
-    "average_top5_relevance": 66.4,
+    "average_top5_relevance": 65.6,
     "maximum_relevance": 68.4
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-029",
+      "cluster_id": "PML-EVENT-031",
       "title": "El peso del abstencionismo de cara a las elecciones generales en Brasil",
       "url": "https://www.france24.com/es/video/20260929-el-peso-del-abstencionismo-de-cara-a-las-elecciones-generales-en-brasil",
       "representative_source": "France 24",
@@ -99,15 +99,15 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
+          "cluster_id": "PML-EVENT-031"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-001",
-      "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
+      "cluster_id": "PML-EVENT-004",
+      "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -116,12 +116,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 66,
+        "score": 64.5,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 78
+        "editorial_utility": 76.5
       },
       "selection": {
-        "reason": "PML 66; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 64.5; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -131,15 +131,16 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-09-29T11:55:12-0300",
-      "last_seen": "2026-09-29T11:55:12-0300",
+      "first_seen": "2026-09-29T08:09:24-0300",
+      "last_seen": "2026-09-29T08:09:24-0300",
       "entities": [
+        "senado",
         "congreso",
         "chile"
       ],
-      "event_terms": "oposicion",
+      "event_terms": "sanciones",
       "analysis": {
-        "summary": "El ministro de Seguridad Pública, Martín Arrau , descartó que el posible retiro de la reforma constitucional de seguridad , dando paso al ingreso de un nuevo texto al Congreso, pueda significar una \"derrota\" para el Gobierno de José Antonio Kast . Ayer lunes, el senador y presidente del Partido Republicano, Arturo Squella , confirmó la apertura del Ejecutivo a bajar su propuesta inicial , que generó un fuerte rechazo en la oposición y dividió al oficialismo por un eventual…",
+        "summary": "Las atribuciones de Gendarmería para segregar a personas privadas de libertad serán el eje de la nueva reforma constitucional de seguridad, afirmó este martes el presidente de la Comisión de Constitución del Senado, Pedro Araya (PPD), en El Diario de Cooperativa . \"En lo central de la reforma, sin duda van a ser las nuevas atribuciones a Gendarmería , eso es lo que se está pensando\", afirmó Araya.",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -152,36 +153,36 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
-          "description": "El ministro de Seguridad Pública, Martín Arrau , descartó que el posible retiro de la reforma constitucional de seguridad , dando paso al ingreso de un nuevo texto al Congreso, pueda significar una \"derrota\" para el Gobierno de José Antonio Kast . Ayer lunes, el senador y presidente del Partido Republicano, Arturo Squella , confirmó la apertura del Ejecutivo a bajar su propuesta inicial , que generó un fuerte rechazo en la oposición y dividió al oficialismo por un eventual presidencialismo excesivo, al contener medidas como un nuevo estado de excepción de 120 días renovables sin autorización del Congreso . Por lo pronto, ha trascendido que una nueva reforma estaría suscrita por Squella y sus colegas de la Comisión de Constitución de la Cámara Alta, Pedro Araya (PPD) y Andrés Longton (RN), además de incorporar una iniciativa de la senadora Paulina Vodanovic (PS) relativa a segregación penitenciaria. Arrau , que ha mantenido conversaciones con aquellos parlamentarios en las últimas semanas, señaló este martes que \"como hemos dicho, no nos enamoramos de una redacción particular; lo que nos interesa es tener las herramientas , una mayor segregación y segmentación penitenciaria por parte de Gendarmería, y más herramientas para el combate al crimen organizado\". En ese sentido, \" estamos viendo cuál es el mejor camino : si es que se potencia una posible indicación o un posible texto ingresado por los senadores . Eso implicaría quizás algún retiro, pero estamos a la espera de esa propuesta\". [Lea también]   Senadores Longton y Squella proponen indicaciones para destrabar la reforma de seguridad Dado que ha dialogado en esta línea con senadores de oposición, el ministro dijo esperar que \"se destrabe el espacio y podamos avanzar en otros proyectos tan importantes que estamos empujando\" , insistiendo en el llamado a la unidad del Gobierno a raíz de la muerte del cabo segundo de Carabineros Cristopher Aguilera . La autoridad pidió \" aunar voluntades y botar ciertas diferencias que hay , en pos de que tengamos mejores herramientas para el combate del crimen organizado, Reglas de Uso de la Fuerza, y tantas otras cosas que pueden cambiar el combate a las organizaciones grandes, como también de que nuestras policías tengan mejores herramientas y medios para pararse mejor en la calle y defender mejor a la ciudadanía\". Finalmente, consultado sobre si retirar la reforma original significaría un fracaso para el Gobierno , Arrau relevó: \" Avanzar en cualquier ley que le haga bien a Chile en seguridad por supuesto que no es una derrota . Creo que hay que superar esas cosas políticas en pos de tener mejores herramientas para dar más seguridad a los chilenos\". Vodanovic: \"Si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno\" Mientras, la senadora Paulina Vodanovic , presidenta del Partido Socialista (PS), acusó falta de voluntad al Ejecutivo. \"(La reforma original era) un espanto jurídico. Nadie, ningún académico en Chile, defendió este proyecto. Desde Nacional Libertario hasta el Partido Comunista (estaban) en contra. Por lo tanto, si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno . Nosotros vamos a trabajar igual\", afirmó la legisladora. Vodanovic recalcó que \"aquellos municipios pobres donde está el crimen organizado campeando —porque esto no ocurre en las tres comunas del barrio alto, (sino) en aquellas comunas más pobres que son las que hoy día tienen una rebaja de los recursos por culpa de la megarreforma— son los que hoy día tienen menos ingresos. Ese es el problema que tenemos hoy día y eso requiere voluntad política\". Para este miércoles a primera hora, en el Palacio de Cerro Castillo , el Presidente Kast convocó a los representantes de las comisiones de Constitución y Seguridad para ir coordinando los próximos pasos de la reforma.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929115512.jpg",
-          "published_raw": "Tue, 29 Sep 2026 11:55:12 -0300",
-          "published_at": "2026-09-29T11:55:12-0300",
+          "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
+          "description": "Las atribuciones de Gendarmería para segregar a personas privadas de libertad serán el eje de la nueva reforma constitucional de seguridad, afirmó este martes el presidente de la Comisión de Constitución del Senado, Pedro Araya (PPD), en El Diario de Cooperativa . \"En lo central de la reforma, sin duda van a ser las nuevas atribuciones a Gendarmería , eso es lo que se está pensando\", afirmó Araya. El senador explicó que a esa facultad \"se le entrega el rango constitucional para evitar cualquier tipo de discusión y que Gendarmería tenga un mayor blindaje respecto de las atribuciones que va a tener en orden a la segregación penal \". Según sostuvo, el objetivo es ofrecer mayor respaldo jurídico a las decisiones de Gendarmería sobre el traslado o la separación de internos considerados peligrosos, que hoy pueden ser impugnadas ante los tribunales. \"Eso se va a recoger absolutamente\", señaló Araya. A su juicio, elevar la atribución a rango constitucional permitiría dar a Gendarmería \"un blindaje jurídicamente más fuerte\" frente a esas reclamaciones. Qué pasará con los estados de excepción Araya aseguró que el nuevo estado de excepción propuesto originalmente por el Gobierno quedó descartado . En su reemplazo, los senadores estudian precisiones al estado de emergencia vigente para evitar diferencias de interpretación sobre el apoyo de las Fuerzas Armadas a las policías. El legislador recalcó que las conversaciones no apuntan a ampliar las atribuciones militares ni a establecer un estado de excepción de 120 días prorrogables sin control del Congreso. Por el contrario, planteó que, en casos relacionados con seguridad pública, el Parlamento pueda revocar la medida. Una tercera materia en estudio es incorporar en la Constitución una condena al crimen organizado , como ocurre con el terrorismo. Araya precisó que los efectos concretos de esa declaración, entre ellos eventuales cambios en sanciones o derechos, tendrían que desarrollarse mediante leyes. Plazos y lectura política Los cinco integrantes de la Comisión de Constitución trabajan en la propuesta. Araya espera contar con un primer borrador entre este martes y el miércoles, para ingresar el proyecto a más tardar la próxima semana . La reforma original del Ejecutivo todavía se encuentra técnicamente en la comisión. Según el senador, el Gobierno desistiría de ella y la retiraría una vez presentado el nuevo texto. Araya interpretó la disposición del Ejecutivo a negociar una nueva reforma como una señal de que busca ampliar sus acuerdos en el Congreso , luego de los tropiezos legislativos en sala cuna universal y expulsiones . A su juicio, esas votaciones mostraron al Gobierno que no puede depender de uno o dos votos para sacar adelante iniciativas relevantes. \"Pareciera ser que el gobierno está buscando un nuevo trato con el Congreso y empezar a generar, sobre todo en los temas de seguridad, acuerdos más transversales\", sostuvo. De todos modos, llamó a observar los próximos proyectos para comprobar si esta apertura al diálogo se mantiene más allá de la reforma de seguridad. Gobierno descarta \"derrota\" El ministro de Seguridad, Martín Arrau, planteó que \" avanzar en cualquier ley que le haga bien a Chile en seguridad no es una derrota , esas cosas políticas yo creo que hay que superarlas en pos de tener mejores herramientas para darle mejor seguridad a los chilenos\". \"Agradezco el trabajo de los senadores y estamos viendo cuál va a ser el mejor camino, si se potencia como una posible indicación o posible texto ingresado por los senadores, eso implicaría quizás un retiro (del proyecto actual), pero estamos a la espera de esa propuesta\", detalló. Arrau valoró que \"por mientras si eso genera que se destraben espacios y podamos avanzar en otros proyectos tan importantes que estamos empujando, es lo que estamos buscando\".",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929080924.jpg",
+          "published_raw": "Tue, 29 Sep 2026 08:09:24 -0300",
+          "published_at": "2026-09-29T08:09:24-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
           "score_institutional": 9,
           "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 3,
+          "score_international": 1,
+          "score_conflict": 6,
           "score_policy": 0,
-          "score_ideology": 2,
-          "score_actor": 7,
+          "score_ideology": 0,
+          "score_actor": 3,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 21,
+          "political_evidence": 19,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
+          "cluster_id": "PML-EVENT-004"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-018",
+      "cluster_id": "PML-EVENT-019",
       "title": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260929-ee-uu-ampl%C3%ADa-proceso-judicial-por-el-asesinato-del-presidente-haitiano-jovenel-mo%C3%AFse-habr%C3%A1-un-giro-en-el-caso",
       "representative_source": "France 24",
@@ -192,12 +193,12 @@
         "country": "Estados Unidos"
       },
       "relevance": {
-        "score": 65.1,
+        "score": 63.9,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 77.1
+        "editorial_utility": 75.9
       },
       "selection": {
-        "reason": "PML 65.1; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 63.9; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -248,13 +249,13 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-018"
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-025",
+      "cluster_id": "PML-EVENT-027",
       "title": "Una noticia falsa sobre la virgen de Aparecida, patrona de Brasil, marca el final de la campaña presidencial",
       "url": "https://elpais.com/america/2026-09-29/una-noticia-falsa-sobre-la-virgen-de-aparecida-patrona-de-brasil-marca-el-final-de-la-campana-presidencial.html",
       "representative_source": "EL PAÍS",
@@ -329,13 +330,13 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "cluster_id": "PML-EVENT-027"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-030",
+      "cluster_id": "PML-EVENT-032",
       "title": "Marruecos nombra a Fátima Mansouri como primera mujer al frente del Gobierno en Rabat",
       "url": "https://elpais.com/internacional/2026-09-29/marruecos-nombra-a-fatima-mansouri-como-primera-ministra-del-pais-la-primera-mujer-al-frente-del-gobierno-en-rabat.html",
       "representative_source": "EL PAÍS",
@@ -346,12 +347,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 65.2,
+        "score": 64,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 61.2
+        "editorial_utility": 60
       },
       "selection": {
-        "reason": "PML 65.2",
+        "reason": "PML 64",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -402,7 +403,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
+          "cluster_id": "PML-EVENT-032"
         }
       ]
     }
@@ -415,21 +416,21 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-004",
-        "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
+        "cluster_id": "PML-EVENT-001",
+        "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 64.5,
+          "score": 64.2,
           "level": "MEDIA-ALTA",
           "components": {
-            "political_impact": 87,
+            "political_impact": 86,
             "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
@@ -441,36 +442,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-09-29T08:09:24-0300",
-        "last_seen": "2026-09-29T08:09:24-0300",
+        "first_seen": "2026-09-29T11:55:12-0300",
+        "last_seen": "2026-09-29T11:55:12-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
-            "description": "Las atribuciones de Gendarmería para segregar a personas privadas de libertad serán el eje de la nueva reforma constitucional de seguridad, afirmó este martes el presidente de la Comisión de Constitución del Senado, Pedro Araya (PPD), en El Diario de Cooperativa . \"En lo central de la reforma, sin duda van a ser las nuevas atribuciones a Gendarmería , eso es lo que se está pensando\", afirmó Araya. El senador explicó que a esa facultad \"se le entrega el rango constitucional para evitar cualquier tipo de discusión y que Gendarmería tenga un mayor blindaje respecto de las atribuciones que va a tener en orden a la segregación penal \". Según sostuvo, el objetivo es ofrecer mayor respaldo jurídico a las decisiones de Gendarmería sobre el traslado o la separación de internos considerados peligrosos, que hoy pueden ser impugnadas ante los tribunales. \"Eso se va a recoger absolutamente\", señaló Araya. A su juicio, elevar la atribución a rango constitucional permitiría dar a Gendarmería \"un blindaje jurídicamente más fuerte\" frente a esas reclamaciones. Qué pasará con los estados de excepción Araya aseguró que el nuevo estado de excepción propuesto originalmente por el Gobierno quedó descartado . En su reemplazo, los senadores estudian precisiones al estado de emergencia vigente para evitar diferencias de interpretación sobre el apoyo de las Fuerzas Armadas a las policías. El legislador recalcó que las conversaciones no apuntan a ampliar las atribuciones militares ni a establecer un estado de excepción de 120 días prorrogables sin control del Congreso. Por el contrario, planteó que, en casos relacionados con seguridad pública, el Parlamento pueda revocar la medida. Una tercera materia en estudio es incorporar en la Constitución una condena al crimen organizado , como ocurre con el terrorismo. Araya precisó que los efectos concretos de esa declaración, entre ellos eventuales cambios en sanciones o derechos, tendrían que desarrollarse mediante leyes. Plazos y lectura política Los cinco integrantes de la Comisión de Constitución trabajan en la propuesta. Araya espera contar con un primer borrador entre este martes y el miércoles, para ingresar el proyecto a más tardar la próxima semana . La reforma original del Ejecutivo todavía se encuentra técnicamente en la comisión. Según el senador, el Gobierno desistiría de ella y la retiraría una vez presentado el nuevo texto. Araya interpretó la disposición del Ejecutivo a negociar una nueva reforma como una señal de que busca ampliar sus acuerdos en el Congreso , luego de los tropiezos legislativos en sala cuna universal y expulsiones . A su juicio, esas votaciones mostraron al Gobierno que no puede depender de uno o dos votos para sacar adelante iniciativas relevantes. \"Pareciera ser que el gobierno está buscando un nuevo trato con el Congreso y empezar a generar, sobre todo en los temas de seguridad, acuerdos más transversales\", sostuvo. De todos modos, llamó a observar los próximos proyectos para comprobar si esta apertura al diálogo se mantiene más allá de la reforma de seguridad. Gobierno descarta \"derrota\" El ministro de Seguridad, Martín Arrau, planteó que \" avanzar en cualquier ley que le haga bien a Chile en seguridad no es una derrota , esas cosas políticas yo creo que hay que superarlas en pos de tener mejores herramientas para darle mejor seguridad a los chilenos\". \"Agradezco el trabajo de los senadores y estamos viendo cuál va a ser el mejor camino, si se potencia como una posible indicación o posible texto ingresado por los senadores, eso implicaría quizás un retiro (del proyecto actual), pero estamos a la espera de esa propuesta\", detalló. Arrau valoró que \"por mientras si eso genera que se destraben espacios y podamos avanzar en otros proyectos tan importantes que estamos empujando, es lo que estamos buscando\".",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929080924.jpg",
-            "published_raw": "Tue, 29 Sep 2026 08:09:24 -0300",
-            "published_at": "2026-09-29T08:09:24-0300",
+            "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
+            "description": "El ministro de Seguridad Pública, Martín Arrau , descartó que el posible retiro de la reforma constitucional de seguridad , dando paso al ingreso de un nuevo texto al Congreso, pueda significar una \"derrota\" para el Gobierno de José Antonio Kast . Ayer lunes, el senador y presidente del Partido Republicano, Arturo Squella , confirmó la apertura del Ejecutivo a bajar su propuesta inicial , que generó un fuerte rechazo en la oposición y dividió al oficialismo por un eventual presidencialismo excesivo, al contener medidas como un nuevo estado de excepción de 120 días renovables sin autorización del Congreso . Por lo pronto, ha trascendido que una nueva reforma estaría suscrita por Squella y sus colegas de la Comisión de Constitución de la Cámara Alta, Pedro Araya (PPD) y Andrés Longton (RN), además de incorporar una iniciativa de la senadora Paulina Vodanovic (PS) relativa a segregación penitenciaria. Arrau , que ha mantenido conversaciones con aquellos parlamentarios en las últimas semanas, señaló este martes que \"como hemos dicho, no nos enamoramos de una redacción particular; lo que nos interesa es tener las herramientas , una mayor segregación y segmentación penitenciaria por parte de Gendarmería, y más herramientas para el combate al crimen organizado\". En ese sentido, \" estamos viendo cuál es el mejor camino : si es que se potencia una posible indicación o un posible texto ingresado por los senadores . Eso implicaría quizás algún retiro, pero estamos a la espera de esa propuesta\". [Lea también]   Senadores Longton y Squella proponen indicaciones para destrabar la reforma de seguridad Dado que ha dialogado en esta línea con senadores de oposición, el ministro dijo esperar que \"se destrabe el espacio y podamos avanzar en otros proyectos tan importantes que estamos empujando\" , insistiendo en el llamado a la unidad del Gobierno a raíz de la muerte del cabo segundo de Carabineros Cristopher Aguilera . La autoridad pidió \" aunar voluntades y botar ciertas diferencias que hay , en pos de que tengamos mejores herramientas para el combate del crimen organizado, Reglas de Uso de la Fuerza, y tantas otras cosas que pueden cambiar el combate a las organizaciones grandes, como también de que nuestras policías tengan mejores herramientas y medios para pararse mejor en la calle y defender mejor a la ciudadanía\". Finalmente, consultado sobre si retirar la reforma original significaría un fracaso para el Gobierno , Arrau relevó: \" Avanzar en cualquier ley que le haga bien a Chile en seguridad por supuesto que no es una derrota . Creo que hay que superar esas cosas políticas en pos de tener mejores herramientas para dar más seguridad a los chilenos\". Vodanovic: \"Si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno\" Mientras, la senadora Paulina Vodanovic , presidenta del Partido Socialista (PS), acusó falta de voluntad al Ejecutivo. \"(La reforma original era) un espanto jurídico. Nadie, ningún académico en Chile, defendió este proyecto. Desde Nacional Libertario hasta el Partido Comunista (estaban) en contra. Por lo tanto, si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno . Nosotros vamos a trabajar igual\", afirmó la legisladora. Vodanovic recalcó que \"aquellos municipios pobres donde está el crimen organizado campeando —porque esto no ocurre en las tres comunas del barrio alto, (sino) en aquellas comunas más pobres que son las que hoy día tienen una rebaja de los recursos por culpa de la megarreforma— son los que hoy día tienen menos ingresos. Ese es el problema que tenemos hoy día y eso requiere voluntad política\". Para este miércoles a primera hora, en el Palacio de Cerro Castillo , el Presidente Kast convocó a los representantes de las comisiones de Constitución y Seguridad para ir coordinando los próximos pasos de la reforma.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929115512.jpg",
+            "published_raw": "Tue, 29 Sep 2026 11:55:12 -0300",
+            "published_at": "2026-09-29T11:55:12-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
             "score_institutional": 9,
             "score_elections": 0,
-            "score_international": 1,
-            "score_conflict": 6,
+            "score_international": 0,
+            "score_conflict": 3,
             "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 3,
+            "score_ideology": 2,
+            "score_actor": 7,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 19,
+            "political_evidence": 21,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
+            "cluster_id": "PML-EVENT-001"
           }
         ],
         "article_count": 1,
@@ -481,7 +482,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 86.5
+          "chile_utility": 86.2
         },
         "repeated_in_general_top5": false
       },
@@ -631,20 +632,20 @@
   "topics": [
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 6,
+      "event_count": 7,
       "maximum_relevance": 68.4,
       "leading_story": "El peso del abstencionismo de cara a las elecciones generales en Brasil"
     },
     {
       "topic": "Instituciones y gobierno",
       "event_count": 24,
-      "maximum_relevance": 66,
-      "leading_story": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\""
+      "maximum_relevance": 64.5,
+      "leading_story": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad"
     },
     {
       "topic": "Conflictos y seguridad",
-      "event_count": 4,
-      "maximum_relevance": 65.1,
+      "event_count": 5,
+      "maximum_relevance": 63.9,
       "leading_story": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?"
     },
     {
@@ -656,7 +657,7 @@
     {
       "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 34.3,
+      "maximum_relevance": 30.6,
       "leading_story": "La oposición convocó acto de desagravio y homenaje público a Michelle Bachelet"
     }
   ],
