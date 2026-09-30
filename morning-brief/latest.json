@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-09-29",
-    "data_latest_timestamp": "2026-09-29T23:19:50-0300",
-    "data_age_hours": 6.9,
-    "generated_at": "2026-09-30T06:15:46-0300",
+    "date": "2026-09-30",
+    "data_latest_timestamp": "2026-09-30T08:22:57-0300",
+    "data_age_hours": 1,
+    "generated_at": "2026-09-30T09:23:28-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -25,14 +25,14 @@
     "ranked_events": 35,
     "topics": 3,
     "geographies": 3,
-    "representative_sources": 3,
-    "average_top5_relevance": 64.6,
-    "maximum_relevance": 67.1
+    "representative_sources": 2,
+    "average_top5_relevance": 61,
+    "maximum_relevance": 63.4
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-029",
+      "cluster_id": "PML-EVENT-032",
       "title": "El peso del abstencionismo de cara a las elecciones generales en Brasil",
       "url": "https://www.france24.com/es/video/20260929-el-peso-del-abstencionismo-de-cara-a-las-elecciones-generales-en-brasil",
       "representative_source": "France 24",
@@ -43,12 +43,12 @@
         "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 67.1,
+        "score": 63.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 67.1
+        "editorial_utility": 63.4
       },
       "selection": {
-        "reason": "PML 67.1",
+        "reason": "PML 63.4",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -99,7 +99,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
+          "cluster_id": "PML-EVENT-032"
         }
       ]
     },
@@ -116,12 +116,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 65.2,
+        "score": 62.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 77.2
+        "editorial_utility": 74.2
       },
       "selection": {
-        "reason": "PML 65.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 62.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -192,12 +192,12 @@
         "country": "Estados Unidos"
       },
       "relevance": {
-        "score": 62.1,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 74.1
+        "score": 60.1,
+        "level": "MEDIA",
+        "editorial_utility": 72.1
       },
       "selection": {
-        "reason": "PML 62.1; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 60.1; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -265,12 +265,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 64.4,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 59.4
+        "score": 60.4,
+        "level": "MEDIA",
+        "editorial_utility": 55.4
       },
       "selection": {
-        "reason": "PML 64.4",
+        "reason": "PML 60.4",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -303,7 +303,7 @@
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
           "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
-          "description": "El ministro de Seguridad Pública, Martín Arrau , descartó que el posible retiro de la reforma constitucional de seguridad , dando paso al ingreso de un nuevo texto al Congreso, pueda significar una \"derrota\" para el Gobierno de José Antonio Kast . Ayer lunes, el senador y presidente del Partido Republicano, Arturo Squella , confirmó la apertura del Ejecutivo a bajar su propuesta inicial , que generó un fuerte rechazo en la oposición y dividió al oficialismo por un eventual presidencialismo excesivo, al contener medidas como un nuevo estado de excepción de 120 días renovables sin autorización del Congreso . Por lo pronto, ha trascendido que una nueva reforma estaría suscrita por Squella y sus colegas de la Comisión de Constitución de la Cámara Alta, Pedro Araya (PPD) y Andrés Longton (RN), además de incorporar una iniciativa de la senadora Paulina Vodanovic (PS) relativa a segregación penitenciaria. Arrau , que ha mantenido conversaciones con aquellos parlamentarios en las últimas semanas, señaló este martes que \"como hemos dicho, no nos enamoramos de una redacción particular; lo que nos interesa es tener las herramientas , una mayor segregación y segmentación penitenciaria por parte de Gendarmería, y más herramientas para el combate al crimen organizado\". En ese sentido, \" estamos viendo cuál es el mejor camino : si es que se potencia una posible indicación o un posible texto ingresado por los senadores . Eso implicaría quizás algún retiro, pero estamos a la espera de esa propuesta\". [Lea también]   Senadores Longton y Squella proponen indicaciones para destrabar la reforma de seguridad Dado que ha dialogado en esta línea con senadores de oposición, el ministro dijo esperar que \"se destrabe el espacio y podamos avanzar en otros proyectos tan importantes que estamos empujando\" , insistiendo en el llamado a la unidad del Gobierno a raíz de la muerte del cabo segundo de Carabineros Cristopher Aguilera . La autoridad pidió \" aunar voluntades y botar ciertas diferencias que hay , en pos de que tengamos mejores herramientas para el combate del crimen organizado, Reglas de Uso de la Fuerza, y tantas otras cosas que pueden cambiar el combate a las organizaciones grandes, como también de que nuestras policías tengan mejores herramientas y medios para pararse mejor en la calle y defender mejor a la ciudadanía\". Finalmente, consultado sobre si retirar la reforma original significaría un fracaso para el Gobierno , Arrau relevó: \" Avanzar en cualquier ley que le haga bien a Chile en seguridad por supuesto que no es una derrota . Creo que hay que superar esas cosas políticas en pos de tener mejores herramientas para dar más seguridad a los chilenos\". Vodanovic: \"Si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno\" Mientras, la senadora Paulina Vodanovic , presidenta del Partido Socialista (PS), acusó falta de voluntad al Ejecutivo. \"(La reforma original era) un espanto jurídico. Nadie, ningún académico en Chile, defendió este proyecto. Desde Nacional Libertario hasta el Partido Comunista (estaban) en contra. Por lo tanto, si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno . Nosotros vamos a trabajar igual\", afirmó la legisladora. Vodanovic recalcó que \"aquellos municipios pobres donde está el crimen organizado campeando —porque esto no ocurre en las tres comunas del barrio alto, (sino) en aquellas comunas más pobres que son las que hoy día tienen una rebaja de los recursos por culpa de la megarreforma— son los que hoy día tienen menos ingresos. Ese es el problema que tenemos hoy día y eso requiere voluntad política\". Presidente Kast se reunirá con representantes de las comisiones de Seguridad y Constitución del Congreso Para este miércoles a primera hora, en el Palacio de Cerro Castillo , el Presidente Kast convocó a los representantes de las comisiones de Constitución y Seguridad para ir coordinando los próximos pasos de la reforma. En su mayoría son parlamentarios de oposición, como el senador Pedro Araya (PPD) , presidente de la Comisión de Constitución del Senado; el diputado Jaime Mulet (FRVS ), presidente de la Comisión de Constitución en la Cámara, y el senador Karim Bianchi (ind) , presidente de la Comisión de Seguridad del Senado. Desde el oficialismo, se presentará el diputado Cristián Araya (Republicanos) , presidente de la Comisión de Seguridad de la Cámara Baja. Asimismo, contarán con la participación de la diputada Ximena Ossandón (RN) , como segunda vicepresidenta del a Cámara, y el senador Iván Moreira (UDI) , como vicepresidente de su corporación. El senador Bianchi agradeció la invitación del Mandatario, pero condicionó su presencia a \"sacar temas adelante. No estoy para prestarme para una foto y sacar acá anuncios que no se van a concretar \". \"El Presidente de la República prometió sacar adelante materia de seguridad en su campaña, y esa tienen que financiarse. Este problema no es constitucional solamente, es un problema presupuestario, de gestión , y yo espero que mañana se explique cómo esto se va a resolver\", aseveró. Igualmente, señaló que espera que el Mandatario patrocine un proyecto para terminar con la llamada puerta giratoria , que plantea un catálogo de delitos a los que no se podrá obtener ciertos beneficios garantistas; ingresado hace unas semanas por el parlamentario.",
+          "description": "El ministro de Seguridad Pública, Martín Arrau , descartó que el posible retiro de la reforma constitucional de seguridad , dando paso al ingreso de un nuevo texto al Congreso, pueda significar una \"derrota\" para el Gobierno de José Antonio Kast . Ayer lunes, el senador y presidente del Partido Republicano, Arturo Squella , confirmó la apertura del Ejecutivo a bajar su propuesta inicial , que generó un fuerte rechazo en la oposición y dividió al oficialismo por un eventual presidencialismo excesivo, al contener medidas como un nuevo estado de excepción de 120 días renovables sin autorización del Congreso . Por lo pronto, ha trascendido que una nueva reforma estaría suscrita por Squella y sus colegas de la Comisión de Constitución de la Cámara Alta, Pedro Araya (PPD) y Andrés Longton (RN), además de incorporar una iniciativa de la senadora Paulina Vodanovic (PS) relativa a segregación penitenciaria. Arrau , que ha mantenido conversaciones con aquellos parlamentarios en las últimas semanas, señaló este martes que \"como hemos dicho, no nos enamoramos de una redacción particular; lo que nos interesa es tener las herramientas , una mayor segregación y segmentación penitenciaria por parte de Gendarmería, y más herramientas para el combate al crimen organizado\". En ese sentido, \" estamos viendo cuál es el mejor camino : si es que se potencia una posible indicación o un posible texto ingresado por los senadores . Eso implicaría quizás algún retiro, pero estamos a la espera de esa propuesta\". [Lea también]   Senadores Longton y Squella proponen indicaciones para destrabar la reforma de seguridad Dado que ha dialogado en esta línea con senadores de oposición, el ministro dijo esperar que \"se destrabe el espacio y podamos avanzar en otros proyectos tan importantes que estamos empujando\" , insistiendo en el llamado a la unidad del Gobierno a raíz de la muerte del cabo segundo de Carabineros Cristopher Aguilera . La autoridad pidió \" aunar voluntades y botar ciertas diferencias que hay , en pos de que tengamos mejores herramientas para el combate del crimen organizado, Reglas de Uso de la Fuerza, y tantas otras cosas que pueden cambiar el combate a las organizaciones grandes, como también de que nuestras policías tengan mejores herramientas y medios para pararse mejor en la calle y defender mejor a la ciudadanía\". Finalmente, consultado sobre si retirar la reforma original significaría un fracaso para el Gobierno , Arrau relevó: \" Avanzar en cualquier ley que le haga bien a Chile en seguridad por supuesto que no es una derrota . Creo que hay que superar esas cosas políticas en pos de tener mejores herramientas para dar más seguridad a los chilenos\". Vodanovic: \"Si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno\" Mientras, la senadora Paulina Vodanovic , presidenta del Partido Socialista (PS), acusó falta de voluntad al Ejecutivo. \"(La reforma original era) un espanto jurídico. Nadie, ningún académico en Chile, defendió este proyecto. Desde Nacional Libertario hasta el Partido Comunista (estaban) en contra. Por lo tanto, si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno . Nosotros vamos a trabajar igual\", afirmó la legisladora. Vodanovic recalcó que \"aquellos municipios pobres donde está el crimen organizado campeando —porque esto no ocurre en las tres comunas del barrio alto, (sino) en aquellas comunas más pobres que son las que hoy día tienen una rebaja de los recursos por culpa de la megarreforma— son los que hoy día tienen menos ingresos. Ese es el problema que tenemos hoy día y eso requiere voluntad política\". Presidente Kast se reunirá con representantes de las comisiones de Seguridad y Constitución del Congreso Para este miércoles a primera hora, en el Palacio de Cerro Castillo , el Presidente Kast convocó a los representantes de las comisiones de Constitución y Seguridad para ir coordinando los próximos pasos de la reforma. En su mayoría son parlamentarios de oposición, como el senador Pedro Araya (PPD) , presidente de la Comisión de Constitución del Senado; el diputado Jaime Mulet (FRVS ), presidente de la Comisión de Constitución en la Cámara, y el senador Karim Bianchi (ind) , presidente de la Comisión de Seguridad del Senado. Desde el oficialismo, se presentará el diputado Cristián Araya (Republicanos) , presidente de la Comisión de Seguridad de la Cámara Baja. Asimismo, contarán con la participación de la diputada Ximena Ossandón (RN) , como segunda vicepresidenta del a Cámara, y el senador Iván Moreira (UDI) , como vicepresidente de su corporación. El senador Bianchi agradeció la invitación del Mandatario, pero condicionó su presencia a \"sacar temas adelante. No estoy para prestarme para una foto y sacar acá anuncios que no se van a concretar \". \"El Presidente de la República prometió sacar adelante materia de seguridad en su campaña, y esa tienen que financiarse. Este problema no es constitucional solamente, es un problema presupuestario, de gestión , y yo espero que mañana se explique cómo esto se va a resolver\", aseveró. Igualmente, señaló que espera que el Mandatario patrocine un proyecto para terminar con la llamada puerta giratoria , que plantea un catálogo de delitos a los que no se podrá obtener ciertos beneficios garantistas; ingresado hace unas semanas por el parlamentario. Por su parte, Mulet comentó que está \"disponible a dialogar con el gobierno por la agenda de seguridad, porque es un problema que sigue siendo grave, no solo el plazo de retención, sino que la posibilidad de que se pueda segmentar en las cárceles sin estos retrocesos que hay por sentencias de algunos jueces de garantía\". \"Yo manifiesto esa disposición y lo primero que tengo que hacer es escuchar y dialogar con el Presidente en esa materia y con el ministro\", añadió.",
           "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
           "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929115512.jpg",
           "published_raw": "Tue, 29 Sep 2026 11:55:12 -0300",
@@ -331,23 +331,23 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-028",
-      "title": "La Corte Suprema de Argentina elimina trabas a la venta de tierras a extranjeros",
-      "url": "https://elpais.com/argentina/2026-09-30/la-corte-suprema-de-argentina-elimina-trabas-a-la-venta-de-tierras-a-extranjeros.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-008",
+      "title": "Cámara aprobó devolución de IVA de pañales y medicamentos: Quiroz alabó al PDG",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/pdg/camara-aprobo-devolucion-de-iva-de-panales-y-medicamentos-quiroz-alabo/2026-09-29/160349.html",
+      "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
-        "group": "América Latina",
-        "country": "Argentina / América Latina"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 64.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 59.2
+        "score": 59,
+        "level": "MEDIA",
+        "editorial_utility": 53
       },
       "selection": {
-        "reason": "PML 64.2; diversidad relajada para completar el brief",
+        "reason": "PML 59; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -355,54 +355,53 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-09-29T21:37:45-0300",
-      "last_seen": "2026-09-29T21:37:45-0300",
+      "first_seen": "2026-09-29T16:03:49-0300",
+      "last_seen": "2026-09-29T16:03:49-0300",
       "entities": [
-        "argentina",
-        "congreso",
-        "milei"
+        "senado",
+        "chile"
       ],
-      "event_terms": "tribunal",
+      "event_terms": "interpelacion",
       "analysis": {
-        "summary": "La decisión del máximo tribunal genera una gran polémica dos meses después de que el Congreso obligase a Milei a dar marcha atrás con una iniciativa similar",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Argentina / América Latina.",
+        "summary": "La Cámara Baja aprobó ampliamente el proyecto que establece un mecanismo de compensación del pago del IVA de medicamentos y pañales, iniciativa que fue propuesta por el Partido de la Gente (PDG) y que fue el eje central del acuerdo mantenido con el Gobierno para aprobar la idea de legislar de la despachada megarreforma.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "La Corte Suprema de Argentina elimina trabas a la venta de tierras a extranjeros",
-          "description": "La decisión del máximo tribunal genera una gran polémica dos meses después de que el Congreso obligase a Milei a dar marcha atrás con una iniciativa similar",
-          "url": "https://elpais.com/argentina/2026-09-30/la-corte-suprema-de-argentina-elimina-trabas-a-la-venta-de-tierras-a-extranjeros.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/PJ5W3C73CVHC3GP6CZ3TPRW6WM.jpeg?auth=2ab4e2ac6e51fa020d9ea575e43974b8408a5affc399e8cafe2ee4dad24a17fc",
-          "published_raw": "Wed, 30 Sep 2026 00:37:45 GMT",
-          "published_at": "2026-09-29T21:37:45-0300",
-          "country": "Argentina",
-          "region": "América Latina",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Cámara aprobó devolución de IVA de pañales y medicamentos: Quiroz alabó al PDG",
+          "description": "La Cámara Baja aprobó ampliamente el proyecto que establece un mecanismo de compensación del pago del IVA de medicamentos y pañales, iniciativa que fue propuesta por el Partido de la Gente (PDG) y que fue el eje central del acuerdo mantenido con el Gobierno para aprobar la idea de legislar de la despachada megarreforma. La bonificación, que será mensual y se calculará como el equivalente a un reembolso del impuesto, va dirigida a tres grupos pertenecientes al 80% más vulnerable de la población, según el Registro Social de Hogares (RSH). Los grupos son  tutores legales de niños y niñas de hasta 24 meses de edad;  mayores de 65 años con condiciones de salud especificadas por reglamento; y personas con discapacidad mayores de 24 meses y menores de 65 años, inscritas en el Registro Nacional de la Discapacidad y que padezcan dolencias determinadas.  La iniciativa ahora pasará a su segundo trámite constitucional en el Senado. COMPENSACIÓN📰| Cámara aprobó beneficio fiscal por compra de pañales y medicamentos https://t.co/KRHKopf6Yy pic.twitter.com/DYAOGcGKtp — Diputadas y Diputados de Chile (@Camara_cl) September 29, 2026 Quiroz: Con el PDG \"hemos ido recorriendo caminos comunes\" Tras la votación, el ministro de Hacienda, Jorge Quiroz, alabó al PDG, tienda con la que -afirmó- han \"recorrido ciertos caminos comunes\". \"Los partidos del oficialismo apoyaron al Partido de la Gente en este proyecto; no sólo por un tema de los acuerdos, sino que también porque es una ayuda que llega en un minuto especial, dado los cambios demográficos que estamos viviendo;  y, además, tiene un buen diseño porque supone una bonificación, pero siempre contra el respaldo de haber adquirido y haber pagado el IVA\", destacó. \"Con el PDG hemos ido recorriendo ciertos caminos comunes: en particular, voy a destacar la intervención que hizo el jefe de la bancada del PDG el día de ayer (lunes), Juan Marcelo Valenzuela, cuando rechazó la interpelación al ministro de Relaciones Exteriores (Francisco Pérez Mackenna). Eso es una posición constructiva y propositiva que celebramos\", expresó Quiroz. En otro tema, le jefe de la billetera fiscal confirmó el ingreso de un proyecto al Senado con discusión inmediata, que busca extender hasta fin de año el beneficio de 100 mil pesos otorgado a taxistas, colectiveros y transportistas escolares para enfrentar el \"bencinazo\", que por ley termina este mes. El Ejecutivo espera que la iniciativa sea votada este miércoles en la Cámara Alta y que pase a segundo trámite la semana siguiente en la Cámara Baja. ",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/pdg/camara-aprobo-devolucion-de-iva-de-panales-y-medicamentos-quiroz-alabo/2026-09-29/160349.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000320260929160349.png",
+          "published_raw": "Tue, 29 Sep 2026 16:03:49 -0300",
+          "published_at": "2026-09-29T16:03:49-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 3,
-          "score_elections": 0,
-          "score_international": 0,
+          "score_institutional": 7,
+          "score_elections": 1,
+          "score_international": 1,
           "score_conflict": 0,
-          "score_policy": 0,
+          "score_policy": 1,
           "score_ideology": 0,
-          "score_actor": 0,
+          "score_actor": 4,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 14,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-008"
         }
       ]
     }
@@ -415,7 +414,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-003",
+        "cluster_id": "PML-EVENT-006",
         "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -426,11 +425,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 62.5,
-          "level": "MEDIA-ALTA",
+          "score": 58,
+          "level": "MEDIA",
           "components": {
             "political_impact": 87,
-            "freshness": 80,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 44
@@ -448,7 +447,7 @@
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
             "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
-            "description": "Las atribuciones de Gendarmería para segregar a personas privadas de libertad serán el eje de la nueva reforma constitucional de seguridad, afirmó este martes el presidente de la Comisión de Constitución del Senado, Pedro Araya (PPD), en El Diario de Cooperativa . \"En lo central de la reforma, sin duda van a ser las nuevas atribuciones a Gendarmería , eso es lo que se está pensando\", afirmó Araya. El senador explicó que a esa facultad \"se le entrega el rango constitucional para evitar cualquier tipo de discusión y que Gendarmería tenga un mayor blindaje respecto de las atribuciones que va a tener en orden a la segregación penal \". Según sostuvo, el objetivo es ofrecer mayor respaldo jurídico a las decisiones de Gendarmería sobre el traslado o la separación de internos considerados peligrosos, que hoy pueden ser impugnadas ante los tribunales. \"Eso se va a recoger absolutamente\", señaló Araya. A su juicio, elevar la atribución a rango constitucional permitiría dar a Gendarmería \"un blindaje jurídicamente más fuerte\" frente a esas reclamaciones. Qué pasará con los estados de excepción Araya aseguró que el nuevo estado de excepción propuesto originalmente por el Gobierno quedó descartado . En su reemplazo, los senadores estudian precisiones al estado de emergencia vigente para evitar diferencias de interpretación sobre el apoyo de las Fuerzas Armadas a las policías. El legislador recalcó que las conversaciones no apuntan a ampliar las atribuciones militares ni a establecer un estado de excepción de 120 días prorrogables sin control del Congreso. Por el contrario, planteó que, en casos relacionados con seguridad pública, el Parlamento pueda revocar la medida. Una tercera materia en estudio es incorporar en la Constitución una condena al crimen organizado , como ocurre con el terrorismo. Araya precisó que los efectos concretos de esa declaración, entre ellos eventuales cambios en sanciones o derechos, tendrían que desarrollarse mediante leyes. Plazos y lectura política Los cinco integrantes de la Comisión de Constitución trabajan en la propuesta. Araya espera contar con un primer borrador entre este martes y el miércoles, para ingresar el proyecto a más tardar la próxima semana . La reforma original del Ejecutivo todavía se encuentra técnicamente en la comisión. Según el senador, el Gobierno desistiría de ella y la retiraría una vez presentado el nuevo texto. Araya interpretó la disposición del Ejecutivo a negociar una nueva reforma como una señal de que busca ampliar sus acuerdos en el Congreso , luego de los tropiezos legislativos en sala cuna universal y expulsiones . A su juicio, esas votaciones mostraron al Gobierno que no puede depender de uno o dos votos para sacar adelante iniciativas relevantes. \"Pareciera ser que el gobierno está buscando un nuevo trato con el Congreso y empezar a generar, sobre todo en los temas de seguridad, acuerdos más transversales\", sostuvo. De todos modos, llamó a observar los próximos proyectos para comprobar si esta apertura al diálogo se mantiene más allá de la reforma de seguridad. Gobierno descarta \"derrota\" El ministro de Seguridad, Martín Arrau, planteó que \" avanzar en cualquier ley que le haga bien a Chile en seguridad no es una derrota , esas cosas políticas yo creo que hay que superarlas en pos de tener mejores herramientas para darle mejor seguridad a los chilenos\". \"Agradezco el trabajo de los senadores y estamos viendo cuál va a ser el mejor camino, si se potencia como una posible indicación o posible texto ingresado por los senadores, eso implicaría quizás un retiro (del proyecto actual), pero estamos a la espera de esa propuesta\", detalló. Arrau valoró que \"por mientras si eso genera que se destraben espacios y podamos avanzar en otros proyectos tan importantes que estamos empujando, es lo que estamos buscando\".",
+            "description": "Las atribuciones de Gendarmería para segregar a personas privadas de libertad serán el eje de la nueva reforma constitucional de seguridad, afirmó este martes el presidente de la Comisión de Constitución del Senado, Pedro Araya (PPD), en El Diario de Cooperativa . \"En lo central de la reforma, sin duda van a ser las nuevas atribuciones a Gendarmería , eso es lo que se está pensando\", afirmó Araya. El senador explicó que a esa facultad \"se le entrega el rango constitucional para evitar cualquier tipo de discusión y que Gendarmería tenga un mayor blindaje respecto de las atribuciones que va a tener en orden a la segregación penal \". Según sostuvo, el objetivo es ofrecer mayor respaldo jurídico a las decisiones de Gendarmería sobre el traslado o la separación de internos considerados peligrosos, que hoy pueden ser impugnadas ante los tribunales. \"Eso se va a recoger absolutamente\", señaló Araya. A su juicio, elevar la atribución a rango constitucional permitiría dar a Gendarmería \"un blindaje jurídicamente más fuerte\" frente a esas reclamaciones. Qué pasará con los estados de excepción Araya aseguró que el nuevo estado de excepción propuesto originalmente por el Gobierno quedó descartado . En su reemplazo, los senadores estudian precisiones al estado de emergencia vigente para evitar diferencias de interpretación sobre el apoyo de las Fuerzas Armadas a las policías. El legislador recalcó que las conversaciones no apuntan a ampliar las atribuciones militares ni a establecer un estado de excepción de 120 días prorrogables sin control del Congreso. Por el contrario, planteó que, en casos relacionados con seguridad pública, el Parlamento pueda revocar la medida. Una tercera materia en estudio es incorporar en la Constitución una condena al crimen organizado , como ocurre con el terrorismo. Araya precisó que los efectos concretos de esa declaración, entre ellos eventuales cambios en sanciones o derechos, tendrían que desarrollarse mediante leyes. Plazos y lectura política Los cinco integrantes de la Comisión de Constitución trabajan en la propuesta. Araya espera contar con un primer borrador entre este martes y el miércoles, para ingresar el proyecto a más tardar la próxima semana . La reforma original del Ejecutivo todavía se encuentra técnicamente en la comisión. Según el senador, el Gobierno desistiría de ella y la retiraría una vez presentado el nuevo texto. Araya interpretó la disposición del Ejecutivo a negociar una nueva reforma como una señal de que busca ampliar sus acuerdos en el Congreso , luego de los tropiezos legislativos en sala cuna universal y expulsiones . A su juicio, esas votaciones mostraron al Gobierno que no puede depender de uno o dos votos para sacar adelante iniciativas relevantes. \"Pareciera ser que el gobierno está buscando un nuevo trato con el Congreso y empezar a generar, sobre todo en los temas de seguridad, acuerdos más transversales\", sostuvo. De todos modos, llamó a observar los próximos proyectos para comprobar si esta apertura al diálogo se mantiene más allá de la reforma de seguridad.",
             "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
             "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929080924.jpg",
             "published_raw": "Tue, 29 Sep 2026 08:09:24 -0300",
@@ -456,21 +455,21 @@
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 9,
+            "score_institutional": 7,
             "score_elections": 0,
             "score_international": 1,
             "score_conflict": 6,
             "score_policy": 0,
             "score_ideology": 0,
-            "score_actor": 3,
+            "score_actor": 2,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 19,
+            "political_evidence": 16,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-006"
           }
         ],
         "article_count": 1,
@@ -481,13 +480,13 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 84.5
+          "chile_utility": 80
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-008",
+        "cluster_id": "PML-EVENT-007",
         "title": "Gobierno se abrió a retirar reforma que crea un nuevo estado de excepción",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -498,11 +497,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 57.9,
+          "score": 54.9,
           "level": "MEDIA",
           "components": {
             "political_impact": 95,
-            "freshness": 52,
+            "freshness": 40,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 44
@@ -542,7 +541,7 @@
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-008"
+            "cluster_id": "PML-EVENT-007"
           }
         ],
         "article_count": 1,
@@ -553,13 +552,13 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 79.9
+          "chile_utility": 76.9
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-007",
+        "cluster_id": "PML-EVENT-005",
         "title": "Quiroz desdeña y desecha el Presupuesto de Boric como base de comparación para el reajuste 2027",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -570,11 +569,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 57.8,
+          "score": 54.8,
           "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 100,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 32
@@ -592,7 +591,7 @@
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
             "title": "Quiroz desdeña y desecha el Presupuesto de Boric como base de comparación para el reajuste 2027",
-            "description": "En un encuentro celebrado este martes en el Palacio de Cerro Castillo, en Viña del Mar, el Presidente José Antonio Kast entregó a los jefes de bancada del oficialismo los detalles de la Ley de Presupuesto de la Nación 2027 , el primero elaborado por la actual Administración, que será presentado al país en cadena nacional la noche del miércoles antes de su ingreso formal al Congreso. Frente a los cuestionamientos por el crecimiento acotado de la propuesta, el ministro de Hacienda, Jorge Quiroz , admitió ante la prensa que el parámetro de comparación no corresponde al erario aprobado el año anterior , sino al gasto efectivamente ejecutado y proyectado para el cierre de 2026. \" Los cambios que pueden superar el 1% son respecto de la proyección de gasto que tendremos el año 2026 . No nos referimos al Presupuesto del 2026, podríamos referirnos al también, pero la verdad es que es un Presupuesto que está lleno de errores que tuvieron que ser corregidos en el transcurso de este año y, por lo tanto, preferimos referirnos al ejecutado de este año\", precisó el jefe de las finanzas públicas. Respaldos en el oficialismo Desde las colectividades de Gobierno respaldaron la estrategia de contención financiera . El jefe de bancada de Renovación Nacional (RN), el diputado Diego Schalper , dijo tras la cita en Viña del Mar que \"va a ser un Presupuesto donde obviamente nos vamos a tener que hacer cargo del déficit estructural de un 3,7% que heredamos del Gobierno anterior ; por lo tanto, va a haber ajustes al gasto, pero creo que el Gobierno tiene claro que, por un lado, tenemos que ordenar la caja fiscal —como lo ha dicho el Consejo Fiscal Autónomo— y, por otro lado, también tenemos que tener políticas de activación en materia de obras públicas y empleo y obviamente asegurar los presupuestos suficientes en materia de seguridad\", afirmó el parlamentario. Críticas desde la oposición En la vereda opuesta, el presidente de la Democracia Cristiana (DC), el diputado Álvaro Ortiz , fustigó la orientación del erario fiscal, advirtiendo un impacto negativo en los territorios debido a la rebaja tributaria a las grandes empresas. \"Muchas veces la ciudadanía no logra captar, en el primer momento, las consecuencias de las pésimas decisiones del Gobierno y eso es lo que va a pasar en cada una de las regiones, con un recorte del orden del 7% en los presupuestos regionales que va a significar la eliminación de algunos programas que tienen los ministerios en nuestro país. Esperamos, entonces, poder conocer cuál va a ser la propuesta del Gobierno para generar el menor impacto posible\", aseveró el dirigente opositor. Tras la alocución presidencial en cadena nacional, el articulado del erario público iniciará formalmente su tramitación legislativa el próximo lunes en la Cámara de Diputadas y Diputados.",
+            "description": "En un encuentro celebrado este martes en el Palacio de Cerro Castillo, en Viña del Mar, el Presidente José Antonio Kast entregó a los jefes de bancada del oficialismo los detalles de la Ley de Presupuesto de la Nación 2027 , el primero elaborado por la actual Administración, que será presentado al país en cadena nacional la noche del miércoles antes de su ingreso formal al Congreso. Frente a los cuestionamientos por el crecimiento acotado de la propuesta, el ministro de Hacienda, Jorge Quiroz , admitió ante la prensa que el parámetro de comparación no corresponde al erario aprobado el año anterior , sino al gasto efectivamente ejecutado y proyectado para el cierre de 2026. \" Los cambios que pueden superar el 1% son respecto de la proyección de gasto que tendremos el año 2026 . No nos referimos al Presupuesto del 2026, podríamos referirnos al también, pero la verdad es que es un Presupuesto que está lleno de errores que tuvieron que ser corregidos en el transcurso de este año y, por lo tanto, preferimos referirnos al ejecutado de este año\", precisó el jefe de las finanzas públicas. Respaldos en el oficialismo Desde las colectividades de Gobierno respaldaron la estrategia de contención financiera . El jefe de bancada de Renovación Nacional (RN), el diputado Diego Schalper , dijo tras la cita en Viña del Mar que \"va a ser un Presupuesto donde obviamente nos vamos a tener que hacer cargo del déficit estructural de un 3,7% que heredamos del Gobierno anterior ; por lo tanto, va a haber ajustes al gasto, pero creo que el Gobierno tiene claro que, por un lado, tenemos que ordenar la caja fiscal —como lo ha dicho el Consejo Fiscal Autónomo— y, por otro lado, también tenemos que tener políticas de activación en materia de obras públicas y empleo y obviamente asegurar los presupuestos suficientes en materia de seguridad\". Con todo, el parlamentario destacó: \"Nos han comunicado que, sobre la expectativa que había, y con un esfuerzo importante, va a haber un incremento del gasto más allá del 1% que se había especulado, y va a ser de un 1,5% , y ese 0,5% adicional se destinará a obras públicas, vivienda y seguridad, para hacerse cargo de las prioridades de los chilenos\". Críticas desde la oposición En la vereda opuesta, el presidente de la Democracia Cristiana (DC), el diputado Álvaro Ortiz , fustigó la orientación del erario fiscal, advirtiendo un impacto negativo en los territorios debido a la rebaja tributaria a las grandes empresas. \"Muchas veces la ciudadanía no logra captar, en el primer momento, las consecuencias de las pésimas decisiones del Gobierno y eso es lo que va a pasar en cada una de las regiones, con un recorte del orden del 7% en los presupuestos regionales que va a significar la eliminación de algunos programas que tienen los ministerios en nuestro país. Esperamos, entonces, poder conocer cuál va a ser la propuesta del Gobierno para generar el menor impacto posible\", aseveró el dirigente opositor. Tras la alocución presidencial en cadena nacional, el articulado del erario público iniciará formalmente su tramitación legislativa el próximo lunes en la Cámara de Diputadas y Diputados.",
             "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/quiroz-desdena-y-desecha-el-presupuesto-de-boric-como-base-de/2026-09-29/231950.html",
             "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929231950.jpg",
             "published_raw": "Tue, 29 Sep 2026 23:19:50 -0300",
@@ -604,17 +603,17 @@
             "score_elections": 0,
             "score_international": 0,
             "score_conflict": 1,
-            "score_policy": 2,
+            "score_policy": 3,
             "score_ideology": 0,
             "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 15,
+            "political_evidence": 16,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
+            "cluster_id": "PML-EVENT-005"
           }
         ],
         "article_count": 1,
@@ -625,7 +624,7 @@
             "Estado e instituciones",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 75.8
+          "chile_utility": 72.8
         },
         "repeated_in_general_top5": false
       }
@@ -634,20 +633,20 @@
   "topics": [
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 6,
-      "maximum_relevance": 67.1,
+      "event_count": 7,
+      "maximum_relevance": 63.4,
       "leading_story": "El peso del abstencionismo de cara a las elecciones generales en Brasil"
     },
     {
       "topic": "Instituciones y gobierno",
       "event_count": 23,
-      "maximum_relevance": 65.2,
+      "maximum_relevance": 62.2,
       "leading_story": "Senado aprobó ley de juicios en ausencia del imputado"
     },
     {
       "topic": "Conflictos y seguridad",
-      "event_count": 5,
-      "maximum_relevance": 62.1,
+      "event_count": 4,
+      "maximum_relevance": 60.1,
       "leading_story": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?"
     },
     {
@@ -658,8 +657,12 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-032", "PML-EVENT-008"],
+      "exited_top5": ["PML-EVENT-029", "PML-EVENT-028"],
+      "retained_top5": ["PML-EVENT-012", "PML-EVENT-019", "PML-EVENT-001"]
+    }
   },
   "sources": {
     "representative_sources": ["France 24", "Cooperativa", "EL PAÍS"],
