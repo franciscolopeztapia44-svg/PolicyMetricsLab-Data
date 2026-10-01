@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-01",
-    "data_latest_timestamp": "2026-10-01T03:42:28-0300",
-    "data_age_hours": 2.6,
-    "generated_at": "2026-10-01T06:17:27-0300",
+    "data_latest_timestamp": "2026-10-01T09:00:00-0300",
+    "data_age_hours": 0.3,
+    "generated_at": "2026-10-01T09:20:51-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 34,
+    "ranked_events": 33,
     "topics": 3,
     "geographies": 3,
-    "representative_sources": 2,
-    "average_top5_relevance": 62.8,
-    "maximum_relevance": 69.7
+    "representative_sources": 3,
+    "average_top5_relevance": 62.7,
+    "maximum_relevance": 68.4
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-014",
+      "cluster_id": "PML-EVENT-015",
       "title": "El Salvador fija la fecha de las elecciones presidenciales de 2027, en las que Bukele buscará un tercer mandato",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261001-el-salvador-fija-la-fecha-de-las-elecciones-presidenciales-de-2027-en-las-que-bukele-buscar%C3%A1-un-tercer-mandato",
       "representative_source": "France 24",
@@ -43,12 +43,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 69.7,
+        "score": 68.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 69.7
+        "editorial_utility": 68.4
       },
       "selection": {
-        "reason": "PML 69.7",
+        "reason": "PML 68.4",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -102,13 +102,13 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-014"
+          "cluster_id": "PML-EVENT-015"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-022",
+      "cluster_id": "PML-EVENT-023",
       "title": "Elecciones en Brasil: las favelas en Río de Janeiro, un electorado clave en la disputa por el voto",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260930-elecciones-en-brasil-las-favelas-en-r%C3%ADo-de-janeiro-un-electorado-clave-en-la-disputa-por-el-voto",
       "representative_source": "France 24",
@@ -119,12 +119,12 @@
         "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 65,
+        "score": 63,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 74
+        "editorial_utility": 72
       },
       "selection": {
-        "reason": "PML 65; aporta diversidad temática; aporta diversidad geográfica",
+        "reason": "PML 63; aporta diversidad temática; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -175,29 +175,29 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-022"
+          "cluster_id": "PML-EVENT-023"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-003",
-      "title": "Gobierno y parlamentarios acuerdan tres ejes para reforma de seguridad",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-y-parlamentarios-acuerdan-tres-ejes-para-reforma-de-seguridad/2026-09-30/111158.html",
+      "cluster_id": "PML-EVENT-026",
+      "title": "Diputado Daniel Valenzuela denunció ataque a su vehículo en Providencia",
+      "url": "https://www.cooperativa.cl/noticias/pais/policial/diputado-daniel-valenzuela-denuncio-ataque-a-su-vehiculo-en-providencia/2026-10-01/074250.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
+      "event_type": "CONFLICT_ESCALATION",
       "geography": {
         "group": "Chile",
         "country": "Chile"
       },
       "relevance": {
-        "score": 63.4,
+        "score": 64.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 66.4
+        "editorial_utility": 67.4
       },
       "selection": {
-        "reason": "PML 63.4; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 64.4; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -207,16 +207,16 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-09-30T11:11:58-0300",
-      "last_seen": "2026-09-30T11:11:58-0300",
-      "entities": "congreso",
-      "event_terms": "judicial",
+      "first_seen": "2026-10-01T07:42:50-0300",
+      "last_seen": "2026-10-01T07:42:50-0300",
+      "entities": [],
+      "event_terms": "ataque",
       "analysis": {
-        "summary": "La Moneda alcanzó un acuerdo con parlamentarios para impulsar una nueva reforma de seguridad , tras un desayuno que se realizó este miércoles en Cerro Castillo y se extendió por más de dos horas. La propuesta contempla tres ejes para su tramitación en el Congreso , según detalló el senador Pedro Araya (PPD) , presidente de la Comisión de Constitución.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "summary": "El diputado Daniel Valenzuela (bancada RN) denunció un ataque a su vehículo durante la noche de este miércoles en la comuna de Providencia. El hecho ocurrió cerca de las 22:00 horas en la calle Praga, en las afueras de los estudios del programa Sin Filtros, donde el parlamentario se percató de que su parabrisas estaba roto, uno de sus neumáticos pinchado y que le habían sustraído documentos.",
+        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
+          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
@@ -225,30 +225,30 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Gobierno y parlamentarios acuerdan tres ejes para reforma de seguridad",
-          "description": "La Moneda alcanzó un acuerdo con parlamentarios para impulsar una nueva reforma de seguridad , tras un desayuno que se realizó este miércoles en Cerro Castillo y se extendió por más de dos horas. La propuesta contempla tres ejes para su tramitación en el Congreso , según detalló el senador Pedro Araya (PPD) , presidente de la Comisión de Constitución. Crimen organizado y facultades para Gendarmería \"En materia de reforma constitucional se contemplarían tres ejes: el primero es establecer a nivel constitucional la condena al crimen organizado y se le daría un tratamiento similar al que tiene el terrorismo\", sostuvo. Araya añadió que \"en segundo lugar, dotar a Gendarmería de la posibilidad de segregar en los distintos penales a las personas que están privadas de libertad, atendida la peligrosidad que tienen ; y el tercer punto, en materia de estado de excepción constitucional se acordó que se van a mantener los actuales estados de excepción y respecto al estado de emergencia se van a hacer algunas precisiones de carácter conceptual para aclarar que puede operar en caso de seguridad pública\". \" No se van a poder interceptar comunicaciones telefónicas salvo que sean por orden judicial \", precisó el parlamentario. Respecto del retiro de la reforma actual , se confirmó que se concretará una vez que ingrese al Congreso el nuevo texto presentado por los senadores . Molestia en el PS La presidenta del Partido Socialista, Paulina Vodanovic, descartó haber sido parte de estas conversaciones y aseguró haber solamente recibido -hace semanas- un mensaje de WhatsApp con algunas ideas. Ante esta situación, el diputado César Valenzuela recalcó que \"yo acabo de hablar con la presidenta del Partido Socialista y me confirma que ella no ha participado ni en la discusión ni ha adherido a ningún proyecto de ley ni a ninguna propuesta en la materia\". \"Por lo tanto, los mensajes de WhatsApp o los llamados que se hacen por la prensa en ningún caso constituyen un diálogo necesario para efectos de poder llevar adelante una propuesta\", agregó. El parlamentario insistió en que \"su reforma ya fracasó, no sacan nada con seguir ocultándolo. Hay que ponerse colorado una vez y por lo tanto el gobierno tiene que retirar esa reforma si efectivamente está convencido que tenemos que abordar los problemas de seguridad y no seguir alargando una muerte que ya está anunciada hace bastante tiempo\".",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-y-parlamentarios-acuerdan-tres-ejes-para-reforma-de-seguridad/2026-09-30/111158.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000220260930111158.jpg",
-          "published_raw": "Wed, 30 Sep 2026 11:11:58 -0300",
-          "published_at": "2026-09-30T11:11:58-0300",
+          "title": "Diputado Daniel Valenzuela denunció ataque a su vehículo en Providencia",
+          "description": "El diputado Daniel Valenzuela (bancada RN) denunció un ataque a su vehículo durante la noche de este miércoles en la comuna de Providencia. El hecho ocurrió cerca de las 22:00 horas en la calle Praga, en las afueras de los estudios del programa Sin Filtros, donde el parlamentario se percató de que su parabrisas estaba roto, uno de sus neumáticos pinchado y que le habían sustraído documentos. \"Yo estaba en un programa de televisión y la verdad es que salimos muy apurados, porque teníamos que irnos luego y nos encontramos con la sorpresa de que el vehículo estaba reventado en los vidrios delanteros, estaba roto también el neumático delantero, se llevaron algunas especies y también información que uno no quiere que esté en manos de cualquiera\" , relató. El diputado precisó que \"nosotros hemos estado haciendo una fiscalización constante sobre todo a Codelco, a ENAP, hemos tratado de levantar información y es incómodo que cuando uno está en un cargo público pasen estas cosas\".",
+          "url": "https://www.cooperativa.cl/noticias/pais/policial/diputado-daniel-valenzuela-denuncio-ataque-a-su-vehiculo-en-providencia/2026-10-01/074250.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261001/imag/foto_0000000220261001074250.jpg",
+          "published_raw": "Thu, 01 Oct 2026 07:42:50 -0300",
+          "published_at": "2026-10-01T07:42:50-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 8,
+          "score_institutional": 1,
           "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 3,
+          "score_international": 1,
+          "score_conflict": 0,
           "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 5,
+          "score_ideology": 0,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 17,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-026"
         }
       ]
     },
@@ -327,23 +327,23 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-016",
-      "title": "Venta de tierras a extranjeros en Argentina: ¿qué hay detrás del fallo del Supremo?",
-      "url": "https://www.france24.com/es/programas/en-contexto/20260930-venta-de-tierras-a-extranjeros-en-argentina-qu%C3%A9-hay-detr%C3%A1s-del-fallo-del-supremo",
-      "representative_source": "France 24",
+      "cluster_id": "PML-EVENT-010",
+      "title": "Compare las propuestas de los candidatos para las elecciones de Brasil 2026",
+      "url": "https://elpais.com/america/2026-10-01/compare-las-propuestas-de-los-candidatos-para-las-elecciones-de-brasil-2026.html",
+      "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
+      "event_type": "ELECTORAL_EVENT",
       "geography": {
         "group": "América Latina",
-        "country": "Argentina / América Latina"
+        "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 65.6,
+        "score": 67.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 60.6
+        "editorial_utility": 61.4
       },
       "selection": {
-        "reason": "PML 65.6; diversidad relajada para completar el brief",
+        "reason": "PML 67.4; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -351,57 +351,54 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "France 24"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-09-30T19:12:42-0300",
-      "last_seen": "2026-09-30T19:12:42-0300",
+      "first_seen": "2026-10-01T09:00:00-0300",
+      "last_seen": "2026-10-01T09:00:00-0300",
       "entities": [
-        "argentina",
-        "supremo",
-        "milei"
+        "brasil",
+        "lula",
+        "bolsonaro"
       ],
-      "event_terms": [
-        "supremo",
-        "oposicion"
-      ],
+      "event_terms": [],
       "analysis": {
-        "summary": "Particulares y empresas extranjeras pueden comprar tierras casi sin límites en Argentina, luego de que la Corte Suprema revocara una sentencia que mantenía vigente la Ley de Tierras Rurales. A diciembre de 2025, un estudio del Observatorio de Tierras mapeó que el 5% del territorio nacional pertenece a firmas o estados extranjeros. Es decir, más de 13 millones de hectáreas, una superficie similar a la de Inglaterra.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Argentina / América Latina.",
+        "summary": "Los planes de Gobierno del presidente Luiz Inácio Lula da Silva y el opositor Flávio Bolsonaro. Conozca sus iniciativas en diversas materias, como seguridad, economía, salud, educación, medio ambiente",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
         "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Venta de tierras a extranjeros en Argentina: ¿qué hay detrás del fallo del Supremo?",
-          "description": "Particulares y empresas extranjeras pueden comprar tierras casi sin límites en Argentina, luego de que la Corte Suprema revocara una sentencia que mantenía vigente la Ley de Tierras Rurales. A diciembre de 2025, un estudio del Observatorio de Tierras mapeó que el 5% del territorio nacional pertenece a firmas o estados extranjeros. Es decir, más de 13 millones de hectáreas, una superficie similar a la de Inglaterra. La oposición pide bloquear esta propuesta que inició el Gobierno de Javier Milei.",
-          "url": "https://www.france24.com/es/programas/en-contexto/20260930-venta-de-tierras-a-extranjeros-en-argentina-qu%C3%A9-hay-detr%C3%A1s-del-fallo-del-supremo",
-          "image_url": "https://s.france24.com/media/display/9e43e776-bd14-11f1-be26-d367a0468893/w:1024/p:16x9/AP26232739325332.jpg",
-          "published_raw": "Wed, 30 Sep 2026 22:12:42 GMT",
-          "published_at": "2026-09-30T19:12:42-0300",
-          "country": "Argentina",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Compare las propuestas de los candidatos para las elecciones de Brasil 2026",
+          "description": "Los planes de Gobierno del presidente Luiz Inácio Lula da Silva y el opositor Flávio Bolsonaro. Conozca sus iniciativas en diversas materias, como seguridad, economía, salud, educación, medio ambiente",
+          "url": "https://elpais.com/america/2026-10-01/compare-las-propuestas-de-los-candidatos-para-las-elecciones-de-brasil-2026.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/EROUP44CYFANRM4PDH2ZSDDHZM.png?auth=2bbc40017545608ed17ee18a9c5614075429c8b14e629c79a71c78d57fadf4fb",
+          "published_raw": "Thu, 01 Oct 2026 12:00:00 GMT",
+          "published_at": "2026-10-01T09:00:00-0300",
+          "country": "No identificado",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 4,
-          "score_elections": 0,
+          "score_institutional": 2,
+          "score_elections": 2,
           "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
+          "score_conflict": 1,
+          "score_policy": 2,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 5,
+          "political_evidence": 9,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-016"
+          "cluster_id": "PML-EVENT-010"
         }
       ]
     }
@@ -414,25 +411,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-006",
-        "title": "Comisión mixta despachó Reglas de Uso de la Fuerza: faltan dos votaciones para que sea ley",
+        "cluster_id": "PML-EVENT-003",
+        "title": "Gobierno y parlamentarios acuerdan tres ejes para reforma de seguridad",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-mixta-despacho-reglas-de-uso-de-la-fuerza-faltan-dos/2026-09-30/174429.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-y-parlamentarios-acuerdan-tres-ejes-para-reforma-de-seguridad/2026-09-30/111158.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 60.8,
+          "score": 61.4,
           "level": "MEDIA",
           "components": {
-            "political_impact": 80,
-            "freshness": 88,
+            "political_impact": 90,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 28
+            "continuity": 44
           }
         },
         "coverage": {
@@ -440,18 +437,18 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-09-30T17:44:29-0300",
-        "last_seen": "2026-09-30T17:44:29-0300",
+        "first_seen": "2026-09-30T11:11:58-0300",
+        "last_seen": "2026-09-30T11:11:58-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Comisión mixta despachó Reglas de Uso de la Fuerza: faltan dos votaciones para que sea ley",
-            "description": "El proyecto de ley que regula las Reglas del Uso de la Fuerza (RUF) dio este miércoles un nuevo paso en el Congreso, a ser despachado en comisión mixta , instancia que zanjó las divergencias técnicas y políticas suscitadas entre la Cámara de Diputadas y Diputados y el Senado. La propuesta legislativa, enviada originalmente a trámite durante el Gobierno de Gabriel Boric, entrega certeza jurídica y protección legal a los funcionarios de Carabineros , Policía de Investigaciones (PDI) y las Fuerzas Armadas (FF.AA.) cuando hagan uso de su armamento de servicio en el cumplimiento de su deber , elevando a rango legal directrices que antes estaban supeditadas a reglamentos institucionales internos. Respaldo normativo a las policías Presente en la sede del Parlamento por segunda jornada consecutiva, el ministro de Seguridad Pública , Martín Arrau , valoró que, tras \" un año y medio esperando , esta mixta dé resultados y que hoy empiece a primar el sentido común \". \" Le damos un ordenamiento y una certeza al uso de la fuerza a nuestras Fuerzas de Orden y Seguridad , que van a la calle a enfrentar a los delincuentes, justo, además, en una semana crítica de enfrentamientos en nuestras calles, y es por eso que esto cobra un doble sentido \", afirmó el secretario de Estado. El ministro de Seguridad Pública, Martín Arrau, celebró el consenso alcanzado afirmando que \"hoy empieza a primar el sentido común\". (FOTO: ATON) En esta línea, indicó que \"cuando el país requiere más seguridad, requiere más fuerza y decisión en las calles, era necesario tener un marco jurídico potente para que todos esos hombres y mujeres que arriesgan su vida y nos defienden , hoy tengan mayor respaldo jurídico \". \"Cuando hablamos de apoyar a las policías, a Carabineros de Chile, se trata de esto: un trabajo de toda la sociedad , en este caso de todo el mundo político , dejando al lado las diferencias y aunando las voluntades para tener un mayor respaldo cuando se requiere \", puntualizó Arrau. Pasos pendientes para la promulgación Con la evacuación del informe de la comisión mixta concluida, el texto ingresará ahora a su etapa final de tramitación en el Parlamento . Para que el proyecto sea remitido al Ejecutivo y quede en condiciones de ser promulgado como ley de la República, el informe articulado deberá ser ratificado mediante dos votaciones generales: primero en la sala de la Cámara de Diputadas y Diputados y , posteriormente , en la sala del Senado .",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-mixta-despacho-reglas-de-uso-de-la-fuerza-faltan-dos/2026-09-30/174429.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000320260930174429.jpg",
-            "published_raw": "Wed, 30 Sep 2026 17:44:29 -0300",
-            "published_at": "2026-09-30T17:44:29-0300",
+            "title": "Gobierno y parlamentarios acuerdan tres ejes para reforma de seguridad",
+            "description": "La Moneda alcanzó un acuerdo con parlamentarios para impulsar una nueva reforma de seguridad , tras un desayuno que se realizó este miércoles en Cerro Castillo y se extendió por más de dos horas. La propuesta contempla tres ejes para su tramitación en el Congreso , según detalló el senador Pedro Araya (PPD) , presidente de la Comisión de Constitución. Crimen organizado y facultades para Gendarmería \"En materia de reforma constitucional se contemplarían tres ejes: el primero es establecer a nivel constitucional la condena al crimen organizado y se le daría un tratamiento similar al que tiene el terrorismo\", sostuvo. Araya añadió que \"en segundo lugar, dotar a Gendarmería de la posibilidad de segregar en los distintos penales a las personas que están privadas de libertad, atendida la peligrosidad que tienen ; y el tercer punto, en materia de estado de excepción constitucional se acordó que se van a mantener los actuales estados de excepción y respecto al estado de emergencia se van a hacer algunas precisiones de carácter conceptual para aclarar que puede operar en caso de seguridad pública\". \" No se van a poder interceptar comunicaciones telefónicas salvo que sean por orden judicial \", precisó el parlamentario. Respecto del retiro de la reforma actual , se confirmó que se concretará una vez que ingrese al Congreso el nuevo texto presentado por los senadores . Molestia en el PS La presidenta del Partido Socialista, Paulina Vodanovic, descartó haber sido parte de estas conversaciones y aseguró haber solamente recibido -hace semanas- un mensaje de WhatsApp con algunas ideas. Ante esta situación, el diputado César Valenzuela recalcó que \"yo acabo de hablar con la presidenta del Partido Socialista y me confirma que ella no ha participado ni en la discusión ni ha adherido a ningún proyecto de ley ni a ninguna propuesta en la materia\". \"Por lo tanto, los mensajes de WhatsApp o los llamados que se hacen por la prensa en ningún caso constituyen un diálogo necesario para efectos de poder llevar adelante una propuesta\", agregó. El parlamentario insistió en que \"su reforma ya fracasó, no sacan nada con seguir ocultándolo. Hay que ponerse colorado una vez y por lo tanto el gobierno tiene que retirar esa reforma si efectivamente está convencido que tenemos que abordar los problemas de seguridad y no seguir alargando una muerte que ya está anunciada hace bastante tiempo\".",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-y-parlamentarios-acuerdan-tres-ejes-para-reforma-de-seguridad/2026-09-30/111158.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000220260930111158.jpg",
+            "published_raw": "Wed, 30 Sep 2026 11:11:58 -0300",
+            "published_at": "2026-09-30T11:11:58-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
@@ -460,16 +457,16 @@
             "score_international": 0,
             "score_conflict": 3,
             "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 2,
+            "score_ideology": 1,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 13,
+            "political_evidence": 17,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
+            "cluster_id": "PML-EVENT-003"
           }
         ],
         "article_count": 1,
@@ -480,7 +477,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 82.8
+          "chile_utility": 83.4
         },
         "repeated_in_general_top5": false
       },
@@ -497,11 +494,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.5,
-          "level": "MEDIA",
+          "score": 50.5,
+          "level": "BAJA",
           "components": {
             "political_impact": 48,
-            "freshness": 80,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 62,
             "continuity": 28
@@ -552,13 +549,13 @@
             "Congreso y proceso legislativo",
             "Relaciones internacionales"
           ],
-          "chile_utility": 74.5
+          "chile_utility": 72.5
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-015",
+        "cluster_id": "PML-EVENT-016",
         "title": "\"No se ve muy ambicioso\", dice académico UAI sobre el plan gubernamental para crear 100 mil empleos",
         "topic": "Economía y políticas públicas",
         "event_type": "POLITICAL_STATEMENT",
@@ -569,11 +566,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 51.2,
+          "score": 49.2,
           "level": "BAJA",
           "components": {
             "political_impact": 48,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 28
@@ -613,7 +610,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-015"
+            "cluster_id": "PML-EVENT-016"
           }
         ],
         "article_count": 1,
@@ -621,7 +618,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Economía y políticas públicas",
-          "chile_utility": 60.2
+          "chile_utility": 58.2
         },
         "repeated_in_general_top5": false
       }
@@ -630,32 +627,32 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 23,
-      "maximum_relevance": 69.7,
+      "event_count": 22,
+      "maximum_relevance": 68.4,
       "leading_story": "El Salvador fija la fecha de las elecciones presidenciales de 2027, en las que Bukele buscará un tercer mandato"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 6,
-      "maximum_relevance": 65,
+      "event_count": 7,
+      "maximum_relevance": 63,
       "leading_story": "Elecciones en Brasil: las favelas en Río de Janeiro, un electorado clave en la disputa por el voto"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 3,
-      "maximum_relevance": 56.2,
-      "leading_story": "Irán dispara los ahorcamientos de manifestantes y presos políticos al amparo de la guerra"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 52.5,
+      "maximum_relevance": 50.5,
       "leading_story": "EE.UU. negó visa al senador comunista Daniel Núñez"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 2,
+      "maximum_relevance": 50.1,
+      "leading_story": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 51.2,
+      "maximum_relevance": 49.2,
       "leading_story": "\"No se ve muy ambicioso\", dice académico UAI sobre el plan gubernamental para crear 100 mil empleos"
     }
   ],
@@ -664,7 +661,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["France 24", "Cooperativa", "EL PAÍS"],
+    "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
     "source_count": 3
   },
   "system": {
