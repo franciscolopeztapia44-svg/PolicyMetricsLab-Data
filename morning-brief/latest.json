@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-30",
-    "data_latest_timestamp": "2026-09-30T17:44:29-0300",
-    "data_age_hours": 0.5,
-    "generated_at": "2026-09-30T18:15:04-0300",
+    "data_latest_timestamp": "2026-09-30T21:17:28-0300",
+    "data_age_hours": 0.1,
+    "generated_at": "2026-09-30T21:22:49-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,103 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 4 temas, 3 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 3 temas, 4 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 34,
-    "topics": 4,
-    "geographies": 3,
+    "ranked_events": 35,
+    "topics": 3,
+    "geographies": 4,
     "representative_sources": 3,
-    "average_top5_relevance": 62.8,
-    "maximum_relevance": 68.7
+    "average_top5_relevance": 62.5,
+    "maximum_relevance": 68.6
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-021",
+      "cluster_id": "PML-EVENT-016",
+      "title": "Venta de tierras a extranjeros en Argentina: ¿qué hay detrás del fallo del Supremo?",
+      "url": "https://www.france24.com/es/programas/en-contexto/20260930-venta-de-tierras-a-extranjeros-en-argentina-qu%C3%A9-hay-detr%C3%A1s-del-fallo-del-supremo",
+      "representative_source": "France 24",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "América Latina",
+        "country": "Argentina / América Latina"
+      },
+      "relevance": {
+        "score": 68.6,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 68.6
+      },
+      "selection": {
+        "reason": "PML 68.6",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-09-30T19:12:42-0300",
+      "last_seen": "2026-09-30T19:12:42-0300",
+      "entities": [
+        "argentina",
+        "supremo",
+        "milei"
+      ],
+      "event_terms": [
+        "supremo",
+        "oposicion"
+      ],
+      "analysis": {
+        "summary": "Particulares y empresas extranjeras pueden comprar tierras casi sin límites en Argentina, luego de que la Corte Suprema revocara una sentencia que mantenía vigente la Ley de Tierras Rurales. A diciembre de 2025, un estudio del Observatorio de Tierras mapeó que el 5% del territorio nacional pertenece a firmas o estados extranjeros. Es decir, más de 13 millones de hectáreas, una superficie similar a la de Inglaterra.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Argentina / América Latina.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Venta de tierras a extranjeros en Argentina: ¿qué hay detrás del fallo del Supremo?",
+          "description": "Particulares y empresas extranjeras pueden comprar tierras casi sin límites en Argentina, luego de que la Corte Suprema revocara una sentencia que mantenía vigente la Ley de Tierras Rurales. A diciembre de 2025, un estudio del Observatorio de Tierras mapeó que el 5% del territorio nacional pertenece a firmas o estados extranjeros. Es decir, más de 13 millones de hectáreas, una superficie similar a la de Inglaterra. La oposición bloquear esta propuesta que inició el Gobierno de Javier Milei.",
+          "url": "https://www.france24.com/es/programas/en-contexto/20260930-venta-de-tierras-a-extranjeros-en-argentina-qu%C3%A9-hay-detr%C3%A1s-del-fallo-del-supremo",
+          "image_url": "https://s.france24.com/media/display/9e43e776-bd14-11f1-be26-d367a0468893/w:1024/p:16x9/AP26232739325332.jpg",
+          "published_raw": "Wed, 30 Sep 2026 22:12:42 GMT",
+          "published_at": "2026-09-30T19:12:42-0300",
+          "country": "Argentina",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 4,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-016"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-022",
       "title": "Elecciones en Brasil: las favelas en Río de Janeiro, un electorado clave en la disputa por el voto",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260930-elecciones-en-brasil-las-favelas-en-r%C3%ADo-de-janeiro-un-electorado-clave-en-la-disputa-por-el-voto",
       "representative_source": "France 24",
@@ -43,12 +123,12 @@
         "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 68.7,
+        "score": 67,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 68.7
+        "editorial_utility": 74
       },
       "selection": {
-        "reason": "PML 68.7",
+        "reason": "PML 67; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -99,12 +179,89 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-022"
         }
       ]
     },
     {
-      "position": 2,
+      "position": 3,
+      "cluster_id": "PML-EVENT-030",
+      "title": "Irán dispara los ahorcamientos de manifestantes y presos políticos al amparo de la guerra",
+      "url": "https://elpais.com/internacional/2026-09-30/iran-dispara-los-ahorcamientos-de-manifestantes-y-presos-politicos-al-amparo-de-la-guerra.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Conflictos y seguridad",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Internacional",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 58.2,
+        "level": "MEDIA",
+        "editorial_utility": 70.2
+      },
+      "selection": {
+        "reason": "PML 58.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-09-30T11:50:36-0300",
+      "last_seen": "2026-09-30T11:50:36-0300",
+      "entities": "iran",
+      "event_terms": [
+        "guerra",
+        "protestas",
+        "oposicion"
+      ],
+      "analysis": {
+        "summary": "Desde mediados de marzo, Teherán ha ejecutado a alrededor de medio centenar de personas relacionadas con las protestas o con grupos de oposición, según ONG",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Irán dispara los ahorcamientos de manifestantes y presos políticos al amparo de la guerra",
+          "description": "Desde mediados de marzo, Teherán ha ejecutado a alrededor de medio centenar de personas relacionadas con las protestas o con grupos de oposición, según ONG",
+          "url": "https://elpais.com/internacional/2026-09-30/iran-dispara-los-ahorcamientos-de-manifestantes-y-presos-politicos-al-amparo-de-la-guerra.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/F7NB6QXM5BBAZKFBUGU5XYUQUE.jpg?auth=2372555b9e514270c05f954c354cc8b8a3e4136327a18aae3b45d860437eab89",
+          "published_raw": "Wed, 30 Sep 2026 14:50:36 GMT",
+          "published_at": "2026-09-30T11:50:36-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 2,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-030"
+        }
+      ]
+    },
+    {
+      "position": 4,
       "cluster_id": "PML-EVENT-003",
       "title": "Gobierno y parlamentarios acuerdan tres ejes para reforma de seguridad",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-y-parlamentarios-acuerdan-tres-ejes-para-reforma-de-seguridad/2026-09-30/111158.html",
@@ -118,10 +275,10 @@
       "relevance": {
         "score": 65.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 77.4
+        "editorial_utility": 65.4
       },
       "selection": {
-        "reason": "PML 65.4; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 65.4; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -177,24 +334,24 @@
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-028",
-      "title": "Irán dispara los ahorcamientos de manifestantes y presos políticos al amparo de la guerra",
-      "url": "https://elpais.com/internacional/2026-09-30/iran-dispara-los-ahorcamientos-de-manifestantes-y-presos-politicos-al-amparo-de-la-guerra.html",
-      "representative_source": "EL PAÍS",
+      "position": 5,
+      "cluster_id": "PML-EVENT-019",
+      "title": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260929-ee-uu-ampl%C3%ADa-proceso-judicial-por-el-asesinato-del-presidente-haitiano-jovenel-mo%C3%AFse-habr%C3%A1-un-giro-en-el-caso",
+      "representative_source": "France 24",
       "topic": "Conflictos y seguridad",
-      "event_type": "GENERAL_POLITICAL_EVENT",
+      "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
-        "group": "Internacional",
-        "country": "No identificado / Internacional"
+        "group": "Estados Unidos",
+        "country": "Estados Unidos"
       },
       "relevance": {
-        "score": 60,
+        "score": 53.1,
         "level": "MEDIA",
-        "editorial_utility": 72
+        "editorial_utility": 56.1
       },
       "selection": {
-        "reason": "PML 60; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 53.1; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -202,19 +359,15 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "France 24"
       },
-      "first_seen": "2026-09-30T11:50:36-0300",
-      "last_seen": "2026-09-30T11:50:36-0300",
-      "entities": "iran",
-      "event_terms": [
-        "guerra",
-        "protestas",
-        "oposicion"
-      ],
+      "first_seen": "2026-09-29T15:08:30-0300",
+      "last_seen": "2026-09-29T15:08:30-0300",
+      "entities": [],
+      "event_terms": "judicial",
       "analysis": {
-        "summary": "Desde mediados de marzo, Teherán ha ejecutado a alrededor de medio centenar de personas relacionadas con las protestas o con grupos de oposición, según ONG",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
+        "summary": "La violencia en Haití no cesa. Al menos 11 personas murieron en la región central de Artibonite, Haití, a manos de miembros de bandas tras una operación de seguridad letal, según informó el alcalde local. Entretanto, Estados Unidos amplió considerablemente el proceso judicial relacionado con el asesinato del presidente haitiano Jovenel Moïse, ocurrido en 2021. ¿Qué cambia ahora? Lo desciframos.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Estados Unidos.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -224,183 +377,32 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Irán dispara los ahorcamientos de manifestantes y presos políticos al amparo de la guerra",
-          "description": "Desde mediados de marzo, Teherán ha ejecutado a alrededor de medio centenar de personas relacionadas con las protestas o con grupos de oposición, según ONG",
-          "url": "https://elpais.com/internacional/2026-09-30/iran-dispara-los-ahorcamientos-de-manifestantes-y-presos-politicos-al-amparo-de-la-guerra.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/F7NB6QXM5BBAZKFBUGU5XYUQUE.jpg?auth=2372555b9e514270c05f954c354cc8b8a3e4136327a18aae3b45d860437eab89",
-          "published_raw": "Wed, 30 Sep 2026 14:50:36 GMT",
-          "published_at": "2026-09-30T11:50:36-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?",
+          "description": "La violencia en Haití no cesa. Al menos 11 personas murieron en la región central de Artibonite, Haití, a manos de miembros de bandas tras una operación de seguridad letal, según informó el alcalde local. Entretanto, Estados Unidos amplió considerablemente el proceso judicial relacionado con el asesinato del presidente haitiano Jovenel Moïse, ocurrido en 2021. ¿Qué cambia ahora? Lo desciframos.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260929-ee-uu-ampl%C3%ADa-proceso-judicial-por-el-asesinato-del-presidente-haitiano-jovenel-mo%C3%AFse-habr%C3%A1-un-giro-en-el-caso",
+          "image_url": "https://s.france24.com/media/display/7a2893b6-1c5c-11ee-b2e3-005056a90284/w:1024/p:16x9/000_1NN6LS.jpg",
+          "published_raw": "Tue, 29 Sep 2026 18:08:30 GMT",
+          "published_at": "2026-09-29T15:08:30-0300",
+          "country": "Estados Unidos",
+          "region": "Estados Unidos",
           "language": "es",
-          "score_institutional": 0,
+          "score_institutional": 1,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 2,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-014",
-      "title": "EE.UU. negó visa al senador comunista Daniel Núñez",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/ee-uu-nego-visa-al-senador-comunista-daniel-nunez/2026-09-30/122533.html",
-      "representative_source": "Cooperativa",
-      "topic": "Relaciones internacionales",
-      "event_type": "POLITICAL_STATEMENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 56.2,
-        "level": "MEDIA",
-        "editorial_utility": 63.2
-      },
-      "selection": {
-        "reason": "PML 56.2; aporta diversidad temática; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-09-30T12:25:33-0300",
-      "last_seen": "2026-09-30T12:25:33-0300",
-      "entities": "senado",
-      "event_terms": [],
-      "analysis": {
-        "summary": "Estados Unidos negó la visa de ingreso al senador Daniel Núñez (PC) , quien tenía previsto viajar a Nueva York para participar en una actividad de la Unión Interparlamentaria (UIP) , en el marco de la Asamblea General de Naciones Unidas . En primera instancia, la invitación había sido extendida al senador Francisco Huenchumilla (DC) , quien desistió de asistir por razones familiares.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "EE.UU. negó visa al senador comunista Daniel Núñez",
-          "description": "Estados Unidos negó la visa de ingreso al senador Daniel Núñez (PC) , quien tenía previsto viajar a Nueva York para participar en una actividad de la Unión Interparlamentaria (UIP) , en el marco de la Asamblea General de Naciones Unidas . En primera instancia, la invitación había sido extendida al senador Francisco Huenchumilla (DC) , quien desistió de asistir por razones familiares. De esta manera, el el comité unificado se dispuso que asumiera como reemplazante el senador Núñez , quien realizó las gestiones a través del encargado de Relaciones Internacionales de la Cámara Alta para tramitar la visa de ingreso a EE.UU. Sin embargo, el legislador PC relató que mientras se disponía a sacar su pasaporte diplomático, se le informó que no había disposición por parte de EE.UU. para acelerar los trámites y entregar oportunamente el documento , lo que impidió su viaje. Finalmente, la representación parlamentaria chilena en la instancia -que reúne a representantes de parlamentos nacionales y aborda materias vinculadas al trabajo legislativo y cooperación parlamentaria internacional- quedó a cargo de la senadora Loreto Carvajal (PPD) , quien asumió en reemplazo de Ñúñez. Núñez apunta a falta de voluntad del país anfitrión Tras confirmarse su ausencia en la cumbre internacional, el senador Núñez señaló que habló con \" el encargado de relaciones internacionales del Senado para hacer las gestiones \". \"Él me informó que iba a tramitar la visa y el día que estoy sacando mi pasaporte diplomático me informa que el lunes, a siete días del viaje, que no había disposición para agilizar la solicitud, la tramitación de la visa y que por lo tanto no había posibilidad de obtener la visa . Y en esas condiciones , obviamente no puedo viajar \", lamentó el legislador. En esta línea, cuestionó que \"ante estos viajes que son un encuentro parlamentario internacional en el marco de la asamblea de Naciones Unidas, el país que es sede de las Naciones Unidas, en este caso Estados Unidos, debe facilitar los trámites de la visa para que uno pueda participar de los eventos , y lo que yo deduzco es que no hubo esa voluntad \".",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/ee-uu-nego-visa-al-senador-comunista-daniel-nunez/2026-09-30/122533.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000220260930122533.jpg",
-          "published_raw": "Wed, 30 Sep 2026 12:25:33 -0300",
-          "published_at": "2026-09-30T12:25:33-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 3,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 7,
-          "primary_topic": "Relaciones internacionales",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-014"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-008",
-      "title": "Comisión mixta despachó Reglas de Uso de la Fuerza: faltan dos votaciones para que sea ley",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-mixta-despacho-reglas-de-uso-de-la-fuerza-faltan-dos/2026-09-30/174429.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 63.8,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 59.8
-      },
-      "selection": {
-        "reason": "PML 63.8",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-09-30T17:44:29-0300",
-      "last_seen": "2026-09-30T17:44:29-0300",
-      "entities": [
-        "congreso",
-        "senado",
-        "boric",
-        "chile"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "El proyecto de ley que regula las Reglas del Uso de la Fuerza (RUF) dio este miércoles un nuevo paso en el Congreso, a ser despachado en comisión mixta , instancia que zanjó las divergencias técnicas y políticas suscitadas entre la Cámara de Diputadas y Diputados y el Senado.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Comisión mixta despachó Reglas de Uso de la Fuerza: faltan dos votaciones para que sea ley",
-          "description": "El proyecto de ley que regula las Reglas del Uso de la Fuerza (RUF) dio este miércoles un nuevo paso en el Congreso, a ser despachado en comisión mixta , instancia que zanjó las divergencias técnicas y políticas suscitadas entre la Cámara de Diputadas y Diputados y el Senado. La propuesta legislativa, enviada originalmente a trámite durante el Gobierno de Gabriel Boric, entrega certeza jurídica y protección legal a los funcionarios de Carabineros , Policía de Investigaciones (PDI) y las Fuerzas Armadas (FF.AA.) cuando hagan uso de su armamento de servicio en el cumplimiento de su deber , elevando a rango legal directrices que antes estaban supeditadas a reglamentos institucionales internos. Respaldo normativo a las policías Presente en la sede del Parlamento por segunda jornada consecutiva, el ministro de Seguridad Pública , Martín Arrau , valoró que, tras \" un año y medio esperando , esta mixta dé resultados y que hoy empiece a primar el sentido común \". \" Le damos un ordenamiento y una certeza al uso de la fuerza a nuestras Fuerzas de Orden y Seguridad , que van a la calle a enfrentar a los delincuentes, justo, además, en una semana crítica de enfrentamientos en nuestras calles, y es por eso que esto cobra un doble sentido \", afirmó el secretario de Estado. El ministro de Seguridad Pública, Martín Arrau, celebró el consenso alcanzado afirmando que \"hoy empieza a primar el sentido común\". (FOTO: ATON) En esta línea, indicó que \"cuando el país requiere más seguridad, requiere más fuerza y decisión en las calles, era necesario tener un marco jurídico potente para que todos esos hombres y mujeres que arriesgan su vida y nos defienden , hoy tengan mayor respaldo jurídico \". \"Cuando hablamos de apoyar a las policías, a Carabineros de Chile, se trata de esto: un trabajo de toda la sociedad , en este caso de todo el mundo político , dejando al lado las diferencias y aunando las voluntades para tener un mayor respaldo cuando se requiere \", puntualizó Arrau. Pasos pendientes para la promulgación Con la evacuación del informe de la comisión mixta concluida, el texto ingresará ahora a su etapa final de tramitación en el Parlamento . Para que el proyecto sea remitido al Ejecutivo y quede en condiciones de ser promulgado como ley de la República, el informe articulado deberá ser ratificado mediante dos votaciones generales: primero en la sala de la Cámara de Diputadas y Diputados y , posteriormente , en la sala del Senado .",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-mixta-despacho-reglas-de-uso-de-la-fuerza-faltan-dos/2026-09-30/174429.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000320260930174429.jpg",
-          "published_raw": "Wed, 30 Sep 2026 17:44:29 -0300",
-          "published_at": "2026-09-30T17:44:29-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 8,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 3,
-          "score_policy": 0,
-          "score_ideology": 0,
           "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 13,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
+          "political_evidence": 5,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     }
@@ -413,25 +415,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-012",
-        "title": "Senado aprobó ley de juicios en ausencia del imputado",
+        "cluster_id": "PML-EVENT-007",
+        "title": "Comisión mixta despachó Reglas de Uso de la Fuerza: faltan dos votaciones para que sea ley",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/seguridad-ciudadana/planes-antidelincuencia/senado-aprobo-ley-de-juicios-en-ausencia-del-imputado/2026-09-29/211956.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-mixta-despacho-reglas-de-uso-de-la-fuerza-faltan-dos/2026-09-30/174429.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 58.2,
-          "level": "MEDIA",
+          "score": 62.5,
+          "level": "MEDIA-ALTA",
           "components": {
-            "political_impact": 84,
-            "freshness": 72,
+            "political_impact": 80,
+            "freshness": 95,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 30
+            "continuity": 28
           }
         },
         "coverage": {
@@ -439,36 +441,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-09-29T21:19:56-0300",
-        "last_seen": "2026-09-29T21:19:56-0300",
+        "first_seen": "2026-09-30T17:44:29-0300",
+        "last_seen": "2026-09-30T17:44:29-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Senado aprobó ley de juicios en ausencia del imputado",
-            "description": "En el marco de la tramitación priorizada de la agenda de seguridad, el Senado aprobó y despachó este martes a la Cámara de Diputadas y Diputados el proyecto de ley que modifica el Código Procesal Penal para regular la continuidad de los juicios orales y permitir la dictación de sentencia definitiva en ausencia del imputado . El despacho de la iniciativa se ratificó tras la votación en Sala de las 58 indicaciones ingresadas al texto, las que resultaron rechazadas en su totalidad, manteniéndose el articulado aprobado en general el pasado 23 de septiembre. La propuesta introduce ajustes a los procedimientos ordinario y simplificado para evitar el sobreseimiento temporal automático frente a la inasistencia del acusado , resguardando el debido proceso y asegurando una persecución penal preferente. Con todo, la Sala rectificó el texto propuesto por la Comisión de Seguridad Pública en orden a regular actuaciones previas al juicio oral; los supuestos que deben cumplirse para un juicio oral en ausencia del acusado; aspectos sobre juicio oral en contra de varias personas acusadas; comunicaciones del tribunal y regulación de comparecencia tardía del acusado al juicio oral, entre otras materias. ⚖️🏛️ El Senado despachó a segundo trámite el proyecto que permite la continuidad de los juicios orales y la dictación de sentencia ante la ausencia injustificada del imputado. ✅ Busca evitar la paralización de causas penales. ✅ Resguarda el debido proceso y el derecho a… pic.twitter.com/Kqu8vAWbdl — Senado Chile (@Senado_Chile) September 29, 2026 RUF: avances clave en la mixta En paralelo, la comisión mixta encargada de destrabar el proyecto sobre Reglas del Uso de la Fuerza (RUF) —iniciativa clave que antecede a la normativa sobre resguardo de infraestructura crítica— registró avances sustanciales en su articulado. Sobre este hito, el ministro de Seguridad, Martín Arrau , destacó la aprobación de disposiciones orientadas a otorgar mayor respaldo operativo a las policías. \"Se aprobaron artículos clave, como el uso de fuerza potencialmente letal en una serie de hipótesis, no solamente en defensa propia , sino que también otras hipótesis que van a permitir a las fuerzas de orden y seguridad tener mayor tranquilidad al emplear estos medios en situaciones complejas \", detalló el titular de la cartera. Asimismo, el secretario de Estado proyectó el cierre inminente del debate técnico en la instancia parlamentaria: \"Nos quedan cuatro votaciones que se realizarán mañana a las 15:00 horas y, si todo sale bien, podríamos tener cerrado el capítulo de la comisión mixta de Reglas del Uso de la Fuerza\". De cumplirse los plazos legislativos, el informe de la comisión mixta deberá ser ratificado en los próximos días por las salas de ambas corporaciones para concluir de forma definitiva su tramitación.",
-            "url": "https://www.cooperativa.cl/noticias/pais/seguridad-ciudadana/planes-antidelincuencia/senado-aprobo-ley-de-juicios-en-ausencia-del-imputado/2026-09-29/211956.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929211956.jpg",
-            "published_raw": "Tue, 29 Sep 2026 21:19:56 -0300",
-            "published_at": "2026-09-29T21:19:56-0300",
+            "title": "Comisión mixta despachó Reglas de Uso de la Fuerza: faltan dos votaciones para que sea ley",
+            "description": "El proyecto de ley que regula las Reglas del Uso de la Fuerza (RUF) dio este miércoles un nuevo paso en el Congreso, a ser despachado en comisión mixta , instancia que zanjó las divergencias técnicas y políticas suscitadas entre la Cámara de Diputadas y Diputados y el Senado. La propuesta legislativa, enviada originalmente a trámite durante el Gobierno de Gabriel Boric, entrega certeza jurídica y protección legal a los funcionarios de Carabineros , Policía de Investigaciones (PDI) y las Fuerzas Armadas (FF.AA.) cuando hagan uso de su armamento de servicio en el cumplimiento de su deber , elevando a rango legal directrices que antes estaban supeditadas a reglamentos institucionales internos. Respaldo normativo a las policías Presente en la sede del Parlamento por segunda jornada consecutiva, el ministro de Seguridad Pública , Martín Arrau , valoró que, tras \" un año y medio esperando , esta mixta dé resultados y que hoy empiece a primar el sentido común \". \" Le damos un ordenamiento y una certeza al uso de la fuerza a nuestras Fuerzas de Orden y Seguridad , que van a la calle a enfrentar a los delincuentes, justo, además, en una semana crítica de enfrentamientos en nuestras calles, y es por eso que esto cobra un doble sentido \", afirmó el secretario de Estado. El ministro de Seguridad Pública, Martín Arrau, celebró el consenso alcanzado afirmando que \"hoy empieza a primar el sentido común\". (FOTO: ATON) En esta línea, indicó que \"cuando el país requiere más seguridad, requiere más fuerza y decisión en las calles, era necesario tener un marco jurídico potente para que todos esos hombres y mujeres que arriesgan su vida y nos defienden , hoy tengan mayor respaldo jurídico \". \"Cuando hablamos de apoyar a las policías, a Carabineros de Chile, se trata de esto: un trabajo de toda la sociedad , en este caso de todo el mundo político , dejando al lado las diferencias y aunando las voluntades para tener un mayor respaldo cuando se requiere \", puntualizó Arrau. Pasos pendientes para la promulgación Con la evacuación del informe de la comisión mixta concluida, el texto ingresará ahora a su etapa final de tramitación en el Parlamento . Para que el proyecto sea remitido al Ejecutivo y quede en condiciones de ser promulgado como ley de la República, el informe articulado deberá ser ratificado mediante dos votaciones generales: primero en la sala de la Cámara de Diputadas y Diputados y , posteriormente , en la sala del Senado .",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-mixta-despacho-reglas-de-uso-de-la-fuerza-faltan-dos/2026-09-30/174429.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000320260930174429.jpg",
+            "published_raw": "Wed, 30 Sep 2026 17:44:29 -0300",
+            "published_at": "2026-09-30T17:44:29-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 6,
-            "score_elections": 1,
+            "score_institutional": 8,
+            "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 2,
+            "score_conflict": 3,
             "score_policy": 0,
             "score_ideology": 0,
             "score_actor": 2,
-            "score_noise": 1,
+            "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 10,
+            "political_evidence": 13,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-012"
+            "cluster_id": "PML-EVENT-007"
           }
         ],
         "article_count": 1,
@@ -479,31 +481,31 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 80.2
+          "chile_utility": 84.5
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
+        "cluster_id": "PML-EVENT-013",
+        "title": "EE.UU. negó visa al senador comunista Daniel Núñez",
+        "topic": "Relaciones internacionales",
+        "event_type": "POLITICAL_STATEMENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/ee-uu-nego-visa-al-senador-comunista-daniel-nunez/2026-09-30/122533.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 57.9,
+          "score": 54.5,
           "level": "MEDIA",
           "components": {
-            "political_impact": 86,
-            "freshness": 62,
+            "political_impact": 48,
+            "freshness": 88,
             "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 46
+            "geographic_scope": 62,
+            "continuity": 28
           }
         },
         "coverage": {
@@ -511,36 +513,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-09-29T11:55:12-0300",
-        "last_seen": "2026-09-29T11:55:12-0300",
+        "first_seen": "2026-09-30T12:25:33-0300",
+        "last_seen": "2026-09-30T12:25:33-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Arrau descartó que retirar la reforma de seguridad implique una \"derrota\"",
-            "description": "El ministro de Seguridad Pública, Martín Arrau , descartó que el posible retiro de la reforma constitucional de seguridad , dando paso al ingreso de un nuevo texto al Congreso, pueda significar una \"derrota\" para el Gobierno de José Antonio Kast . Ayer lunes, el senador y presidente del Partido Republicano, Arturo Squella , confirmó la apertura del Ejecutivo a bajar su propuesta inicial , que generó un fuerte rechazo en la oposición y dividió al oficialismo por un eventual presidencialismo excesivo, al contener medidas como un nuevo estado de excepción de 120 días renovables sin autorización del Congreso . Por lo pronto, ha trascendido que una nueva reforma estaría suscrita por Squella y sus colegas de la Comisión de Constitución de la Cámara Alta, Pedro Araya (PPD) y Andrés Longton (RN), además de incorporar una iniciativa de la senadora Paulina Vodanovic (PS) relativa a segregación penitenciaria. Arrau , que ha mantenido conversaciones con aquellos parlamentarios en las últimas semanas, señaló este martes que \"como hemos dicho, no nos enamoramos de una redacción particular; lo que nos interesa es tener las herramientas , una mayor segregación y segmentación penitenciaria por parte de Gendarmería, y más herramientas para el combate al crimen organizado\". En ese sentido, \" estamos viendo cuál es el mejor camino : si es que se potencia una posible indicación o un posible texto ingresado por los senadores . Eso implicaría quizás algún retiro, pero estamos a la espera de esa propuesta\". [Lea también]   Senadores Longton y Squella proponen indicaciones para destrabar la reforma de seguridad Dado que ha dialogado en esta línea con senadores de oposición, el ministro dijo esperar que \"se destrabe el espacio y podamos avanzar en otros proyectos tan importantes que estamos empujando\" , insistiendo en el llamado a la unidad del Gobierno a raíz de la muerte del cabo segundo de Carabineros Cristopher Aguilera . La autoridad pidió \" aunar voluntades y botar ciertas diferencias que hay , en pos de que tengamos mejores herramientas para el combate del crimen organizado, Reglas de Uso de la Fuerza, y tantas otras cosas que pueden cambiar el combate a las organizaciones grandes, como también de que nuestras policías tengan mejores herramientas y medios para pararse mejor en la calle y defender mejor a la ciudadanía\". Finalmente, consultado sobre si retirar la reforma original significaría un fracaso para el Gobierno , Arrau relevó: \" Avanzar en cualquier ley que le haga bien a Chile en seguridad por supuesto que no es una derrota . Creo que hay que superar esas cosas políticas en pos de tener mejores herramientas para dar más seguridad a los chilenos\". Vodanovic: \"Si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno\" Mientras, la senadora Paulina Vodanovic , presidenta del Partido Socialista (PS), acusó falta de voluntad al Ejecutivo. \"(La reforma original era) un espanto jurídico. Nadie, ningún académico en Chile, defendió este proyecto. Desde Nacional Libertario hasta el Partido Comunista (estaban) en contra. Por lo tanto, si el Gobierno no reconoce que presentó un mal proyecto y lo retira, es problema del Gobierno . Nosotros vamos a trabajar igual\", afirmó la legisladora. Vodanovic recalcó que \"aquellos municipios pobres donde está el crimen organizado campeando —porque esto no ocurre en las tres comunas del barrio alto, (sino) en aquellas comunas más pobres que son las que hoy día tienen una rebaja de los recursos por culpa de la megarreforma— son los que hoy día tienen menos ingresos. Ese es el problema que tenemos hoy día y eso requiere voluntad política\". Presidente Kast se reunirá con representantes de las comisiones de Seguridad y Constitución del Congreso Para este miércoles a primera hora, en el Palacio de Cerro Castillo , el Presidente Kast convocó a los representantes de las comisiones de Constitución y Seguridad para ir coordinando los próximos pasos de la reforma. En su mayoría son parlamentarios de oposición, como el senador Pedro Araya (PPD) , presidente de la Comisión de Constitución del Senado; el diputado Jaime Mulet (FRVS ), presidente de la Comisión de Constitución en la Cámara, y el senador Karim Bianchi (ind) , presidente de la Comisión de Seguridad del Senado. Desde el oficialismo, se presentará el diputado Cristián Araya (Republicanos) , presidente de la Comisión de Seguridad de la Cámara Baja. Asimismo, contarán con la participación de la diputada Ximena Ossandón (RN) , como segunda vicepresidenta del a Cámara, y el senador Iván Moreira (UDI) , como vicepresidente de su corporación. El senador Bianchi agradeció la invitación del Mandatario, pero condicionó su presencia a \"sacar temas adelante. No estoy para prestarme para una foto y sacar acá anuncios que no se van a concretar \". \"El Presidente de la República prometió sacar adelante materia de seguridad en su campaña, y esa tienen que financiarse. Este problema no es constitucional solamente, es un problema presupuestario, de gestión , y yo espero que mañana se explique cómo esto se va a resolver\", aseveró. Igualmente, señaló que espera que el Mandatario patrocine un proyecto para terminar con la llamada puerta giratoria , que plantea un catálogo de delitos a los que no se podrá obtener ciertos beneficios garantistas; ingresado hace unas semanas por el parlamentario. Por su parte, Mulet comentó que está \"disponible a dialogar con el gobierno por la agenda de seguridad, porque es un problema que sigue siendo grave, no solo el plazo de retención, sino que la posibilidad de que se pueda segmentar en las cárceles sin estos retrocesos que hay por sentencias de algunos jueces de garantía\". \"Yo manifiesto esa disposición y lo primero que tengo que hacer es escuchar y dialogar con el Presidente en esa materia y con el ministro\", añadió.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-descarto-que-retirar-la-reforma-de-seguridad-implique-una-derrota/2026-09-29/115512.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929115512.jpg",
-            "published_raw": "Tue, 29 Sep 2026 11:55:12 -0300",
-            "published_at": "2026-09-29T11:55:12-0300",
+            "title": "EE.UU. negó visa al senador comunista Daniel Núñez",
+            "description": "Estados Unidos negó la visa de ingreso al senador Daniel Núñez (PC) , quien tenía previsto viajar a Nueva York para participar en una actividad de la Unión Interparlamentaria (UIP) , en el marco de la Asamblea General de Naciones Unidas . En primera instancia, la invitación había sido extendida al senador Francisco Huenchumilla (DC) , quien desistió de asistir por razones familiares. De esta manera, el el comité unificado se dispuso que asumiera como reemplazante el senador Núñez , quien realizó las gestiones a través del encargado de Relaciones Internacionales de la Cámara Alta para tramitar la visa de ingreso a EE.UU. Sin embargo, el legislador PC relató que mientras se disponía a sacar su pasaporte diplomático, se le informó que no había disposición por parte de EE.UU. para acelerar los trámites y entregar oportunamente el documento , lo que impidió su viaje. Finalmente, la representación parlamentaria chilena en la instancia -que reúne a representantes de parlamentos nacionales y aborda materias vinculadas al trabajo legislativo y cooperación parlamentaria internacional- quedó a cargo de la senadora Loreto Carvajal (PPD) , quien asumió en reemplazo de Ñúñez. Núñez apunta a falta de voluntad del país anfitrión Tras confirmarse su ausencia en la cumbre internacional, el senador Núñez señaló que habló con \" el encargado de relaciones internacionales del Senado para hacer las gestiones \". \"Él me informó que iba a tramitar la visa, pero el día que estoy sacando mi pasaporte diplomático me informa, a siete días del viaje, que no había disposición para agilizar la solicitud de tramitación de la visa y que , por lo tanto , no había posibilidad de obtener la visa . Y en esas condiciones , obviamente no puedo viajar \", lamentó el legislador. En esta línea, cuestionó que \"ante estos viajes que son un encuentro parlamentario internacional en el marco de la asamblea de Naciones Unidas, el país que es sede, en este caso Estados Unidos, debe facilitar los trámites de la visa para que uno pueda participar de los eventos , y lo que yo deduzco es que no hubo esa voluntad \".",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/ee-uu-nego-visa-al-senador-comunista-daniel-nunez/2026-09-30/122533.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000220260930122533.jpg",
+            "published_raw": "Wed, 30 Sep 2026 12:25:33 -0300",
+            "published_at": "2026-09-30T12:25:33-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 11,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 3,
+            "score_institutional": 2,
+            "score_elections": 0,
+            "score_international": 3,
+            "score_conflict": 0,
             "score_policy": 0,
-            "score_ideology": 2,
-            "score_actor": 8,
+            "score_ideology": 1,
+            "score_actor": 1,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 25,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
+            "political_evidence": 7,
+            "primary_topic": "Relaciones internacionales",
+            "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
+            "cluster_id": "PML-EVENT-013"
           }
         ],
         "article_count": 1,
@@ -548,34 +550,34 @@
         "political_science_fit": {
           "bonus": 22,
           "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
+            "Congreso y proceso legislativo",
+            "Relaciones internacionales"
           ],
-          "chile_utility": 79.9
+          "chile_utility": 76.5
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-006",
-        "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
+        "cluster_id": "PML-EVENT-015",
+        "title": "\"No se ve muy ambicioso\", dice académico UAI sobre el plan gubernamental para crear 100 mil empleos",
+        "topic": "Economía y políticas públicas",
+        "event_type": "POLITICAL_STATEMENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/trabajo/cesantia/no-se-ve-muy-ambicioso-dice-academico-uai-sobre-el-plan-gubernamental/2026-09-30/201630.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.5,
+          "score": 54.2,
           "level": "MEDIA",
           "components": {
-            "political_impact": 87,
-            "freshness": 52,
+            "political_impact": 48,
+            "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 44
+            "continuity": 28
           }
         },
         "coverage": {
@@ -583,47 +585,44 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-09-29T08:09:24-0300",
-        "last_seen": "2026-09-29T08:09:24-0300",
+        "first_seen": "2026-09-30T20:16:30-0300",
+        "last_seen": "2026-09-30T20:16:30-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Senador Araya: Gendarmería será el eje de la nueva reforma de seguridad",
-            "description": "Las atribuciones de Gendarmería para segregar a personas privadas de libertad serán el eje de la nueva reforma constitucional de seguridad, afirmó este martes el presidente de la Comisión de Constitución del Senado, Pedro Araya (PPD), en El Diario de Cooperativa . \"En lo central de la reforma, sin duda van a ser las nuevas atribuciones a Gendarmería , eso es lo que se está pensando\", afirmó Araya. El senador explicó que a esa facultad \"se le entrega el rango constitucional para evitar cualquier tipo de discusión y que Gendarmería tenga un mayor blindaje respecto de las atribuciones que va a tener en orden a la segregación penal \". Según sostuvo, el objetivo es ofrecer mayor respaldo jurídico a las decisiones de Gendarmería sobre el traslado o la separación de internos considerados peligrosos, que hoy pueden ser impugnadas ante los tribunales. \"Eso se va a recoger absolutamente\", señaló Araya. A su juicio, elevar la atribución a rango constitucional permitiría dar a Gendarmería \"un blindaje jurídicamente más fuerte\" frente a esas reclamaciones. Qué pasará con los estados de excepción Araya aseguró que el nuevo estado de excepción propuesto originalmente por el Gobierno quedó descartado . En su reemplazo, los senadores estudian precisiones al estado de emergencia vigente para evitar diferencias de interpretación sobre el apoyo de las Fuerzas Armadas a las policías. El legislador recalcó que las conversaciones no apuntan a ampliar las atribuciones militares ni a establecer un estado de excepción de 120 días prorrogables sin control del Congreso. Por el contrario, planteó que, en casos relacionados con seguridad pública, el Parlamento pueda revocar la medida. Una tercera materia en estudio es incorporar en la Constitución una condena al crimen organizado , como ocurre con el terrorismo. Araya precisó que los efectos concretos de esa declaración, entre ellos eventuales cambios en sanciones o derechos, tendrían que desarrollarse mediante leyes. Plazos y lectura política Los cinco integrantes de la Comisión de Constitución trabajan en la propuesta. Araya espera contar con un primer borrador entre este martes y el miércoles, para ingresar el proyecto a más tardar la próxima semana . La reforma original del Ejecutivo todavía se encuentra técnicamente en la comisión. Según el senador, el Gobierno desistiría de ella y la retiraría una vez presentado el nuevo texto. Araya interpretó la disposición del Ejecutivo a negociar una nueva reforma como una señal de que busca ampliar sus acuerdos en el Congreso , luego de los tropiezos legislativos en sala cuna universal y expulsiones . A su juicio, esas votaciones mostraron al Gobierno que no puede depender de uno o dos votos para sacar adelante iniciativas relevantes. \"Pareciera ser que el gobierno está buscando un nuevo trato con el Congreso y empezar a generar, sobre todo en los temas de seguridad, acuerdos más transversales\", sostuvo. De todos modos, llamó a observar los próximos proyectos para comprobar si esta apertura al diálogo se mantiene más allá de la reforma de seguridad.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senador-araya-gendarmeria-sera-el-eje-de-la-nueva-reforma-de-seguridad/2026-09-29/080924.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260929/imag/foto_0000000220260929080924.jpg",
-            "published_raw": "Tue, 29 Sep 2026 08:09:24 -0300",
-            "published_at": "2026-09-29T08:09:24-0300",
+            "title": "\"No se ve muy ambicioso\", dice académico UAI sobre el plan gubernamental para crear 100 mil empleos",
+            "description": "Ad portas del debate del Presupuesto 2027 en el Congreso y después de la publicación del reporte del Instituto Nacional de Estadísticas (INE) —que este miércoles fijó la tasa de desocupación nacional en un 9,6% para el trimestre móvil junio-agosto de 2026 —, el economista Rodrigo Wagner analizó en Lo Que Queda del Día la consolidación de cifras negativas en el mercado laboral chileno. De acuerdo con el informe del organismo, la desocupación experimentó un incremento de 1,0 punto porcentual en 12 meses , producto del alza de la fuerza de trabajo (0,3%) y de la reducción presentada por las personas ocupadas (-0,9%). \"Ya no es como un desliz; parece marcar una tendencia\", dijo el profesor asociado de la Universidad Adolfo Ibáñez y excoordinador macroeconómico de Hacienda, que descartó que el deterioro responda a un fenómeno estrictamente invernal o transitorio. \"Hay algo de la menor actividad que estuvo relacionado con eso, pero ojo: hay veces donde eso no determina inmediatamente el empleo. Lo que vemos es que hay una tendencia también a la caída del consumo, y mucha gente trabaja en (servicios ligados al) consumo. Hoy día vimos las cifras de agosto de comercio bastante débiles. Entonces, si bien en un mes en particular están las tormentas —eso ocurre—, cuando son cuatro meses ya no son puras malas suertes ; hay también una tendencia subyacente a la que hay que ponerle atención (...) Si tú revisas la cifra limpia de estacionalidad, es súper preocupante \", advirtió el académico. Plan \"Chile Despega\" Respecto al programa gubernamental Chile Despega , orientado a la creación de 100.000 puestos de trabajo , el especialista evaluó su alcance real frente al déficit del mercado laboral. \"Cien mil empleos es más o menos 1% de la fuerza de trabajo, que es justo lo que tenemos extra de desempleo con respecto al año pasado. O sea, si el Gobierno logra esa meta de 100.000, llegaremos al nivel de desempleo que había en agosto del año pasado (...) Mirado de esa manera, devolverse a como estábamos el año pasado, no se ve muy ambicioso \", aseveró. El economista remarcó que la situación obedece a un salto discontinuo registrado desde abril y mayo de este año, influido por el bajo dinamismo de la economía y la caída en las decisiones de inversión. \"El desempleo depende de que haya disponibilidad de empresas por contratar y eso ocurre cuando hay períodos de inversión importante en Chile (...) Mañana sale el dato del Imacec de agosto y se espera que sea muy bajo, quizás negativo, aportando poco al crecimiento del país. Ahí hay una dimensión que, en la medida que se recupere la actividad económica, se va a recuperar algo el empleo, pero tampoco es magia. Se está tratando de entender qué es, pero por lo menos me parece importante que haya sensación de urgencia al respecto, porque no era algo que el Gobierno tenía en sus escenarios cuando partió \", sostuvo. El desafío de la inversión pública De cara a la discusión del erario fiscal en el Congreso, Wagner advirtió que el desafío no solo radica en la asignación de fondos, sino en la capacidad técnica para gastarlos a tiempo. \"Una cosa muy importante es la ejecución de la inversión pública, porque, por ejemplo, ahora lo que uno ve con los datos es que hay presupuesto aprobado para inversión pública y que cerca de 1.000 millones de dólares están atrasados en esa ejecución —transferencias y demases—. Entonces, ya no es solo presupuesto, sino que tiene que ver con las capacidades de ejecución presupuestaria \", concluyó.",
+            "url": "https://www.cooperativa.cl/noticias/pais/trabajo/cesantia/no-se-ve-muy-ambicioso-dice-academico-uai-sobre-el-plan-gubernamental/2026-09-30/201630.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000220260930201630.jpg",
+            "published_raw": "Wed, 30 Sep 2026 20:16:30 -0300",
+            "published_at": "2026-09-30T20:16:30-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 7,
+            "score_institutional": 2,
             "score_elections": 0,
-            "score_international": 1,
-            "score_conflict": 6,
-            "score_policy": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 3,
             "score_ideology": 0,
-            "score_actor": 2,
+            "score_actor": 0,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 16,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
+            "political_evidence": 5,
+            "primary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
+            "cluster_id": "PML-EVENT-015"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 77.5
+          "bonus": 9,
+          "labels": "Economía y políticas públicas",
+          "chile_utility": 63.2
         },
         "repeated_in_general_top5": false
       }
@@ -631,28 +630,34 @@
   },
   "topics": [
     {
+      "topic": "Instituciones y gobierno",
+      "event_count": 24,
+      "maximum_relevance": 68.6,
+      "leading_story": "Venta de tierras a extranjeros en Argentina: ¿qué hay detrás del fallo del Supremo?"
+    },
+    {
       "topic": "Elecciones y opinión pública",
       "event_count": 6,
-      "maximum_relevance": 68.7,
+      "maximum_relevance": 67,
       "leading_story": "Elecciones en Brasil: las favelas en Río de Janeiro, un electorado clave en la disputa por el voto"
     },
     {
-      "topic": "Instituciones y gobierno",
-      "event_count": 22,
-      "maximum_relevance": 65.4,
-      "leading_story": "Gobierno y parlamentarios acuerdan tres ejes para reforma de seguridad"
-    },
-    {
       "topic": "Conflictos y seguridad",
-      "event_count": 4,
-      "maximum_relevance": 60,
+      "event_count": 3,
+      "maximum_relevance": 58.2,
       "leading_story": "Irán dispara los ahorcamientos de manifestantes y presos políticos al amparo de la guerra"
     },
     {
       "topic": "Relaciones internacionales",
-      "event_count": 2,
-      "maximum_relevance": 56.2,
+      "event_count": 1,
+      "maximum_relevance": 54.5,
       "leading_story": "EE.UU. negó visa al senador comunista Daniel Núñez"
+    },
+    {
+      "topic": "Economía y políticas públicas",
+      "event_count": 1,
+      "maximum_relevance": 54.2,
+      "leading_story": "\"No se ve muy ambicioso\", dice académico UAI sobre el plan gubernamental para crear 100 mil empleos"
     }
   ],
   "changes_since_yesterday": {
