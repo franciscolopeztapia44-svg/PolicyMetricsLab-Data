@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-09-30",
-    "data_latest_timestamp": "2026-09-30T21:17:28-0300",
-    "data_age_hours": 0.1,
-    "generated_at": "2026-09-30T21:22:49-0300",
+    "data_latest_timestamp": "2026-09-30T23:47:26-0300",
+    "data_age_hours": 0.5,
+    "generated_at": "2026-10-01T00:16:42-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 3 temas, 4 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 35,
+    "ranked_events": 34,
     "topics": 3,
     "geographies": 4,
     "representative_sources": 3,
-    "average_top5_relevance": 62.5,
-    "maximum_relevance": 68.6
+    "average_top5_relevance": 61.8,
+    "maximum_relevance": 67.3
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-016",
+      "cluster_id": "PML-EVENT-015",
       "title": "Venta de tierras a extranjeros en Argentina: ¿qué hay detrás del fallo del Supremo?",
       "url": "https://www.france24.com/es/programas/en-contexto/20260930-venta-de-tierras-a-extranjeros-en-argentina-qu%C3%A9-hay-detr%C3%A1s-del-fallo-del-supremo",
       "representative_source": "France 24",
@@ -43,12 +43,12 @@
         "country": "Argentina / América Latina"
       },
       "relevance": {
-        "score": 68.6,
+        "score": 67.3,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 68.6
+        "editorial_utility": 67.3
       },
       "selection": {
-        "reason": "PML 68.6",
+        "reason": "PML 67.3",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -84,7 +84,7 @@
           "source_id": "france24_latam",
           "source": "France 24",
           "title": "Venta de tierras a extranjeros en Argentina: ¿qué hay detrás del fallo del Supremo?",
-          "description": "Particulares y empresas extranjeras pueden comprar tierras casi sin límites en Argentina, luego de que la Corte Suprema revocara una sentencia que mantenía vigente la Ley de Tierras Rurales. A diciembre de 2025, un estudio del Observatorio de Tierras mapeó que el 5% del territorio nacional pertenece a firmas o estados extranjeros. Es decir, más de 13 millones de hectáreas, una superficie similar a la de Inglaterra. La oposición bloquear esta propuesta que inició el Gobierno de Javier Milei.",
+          "description": "Particulares y empresas extranjeras pueden comprar tierras casi sin límites en Argentina, luego de que la Corte Suprema revocara una sentencia que mantenía vigente la Ley de Tierras Rurales. A diciembre de 2025, un estudio del Observatorio de Tierras mapeó que el 5% del territorio nacional pertenece a firmas o estados extranjeros. Es decir, más de 13 millones de hectáreas, una superficie similar a la de Inglaterra. La oposición pide bloquear esta propuesta que inició el Gobierno de Javier Milei.",
           "url": "https://www.france24.com/es/programas/en-contexto/20260930-venta-de-tierras-a-extranjeros-en-argentina-qu%C3%A9-hay-detr%C3%A1s-del-fallo-del-supremo",
           "image_url": "https://s.france24.com/media/display/9e43e776-bd14-11f1-be26-d367a0468893/w:1024/p:16x9/AP26232739325332.jpg",
           "published_raw": "Wed, 30 Sep 2026 22:12:42 GMT",
@@ -106,13 +106,13 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-016"
+          "cluster_id": "PML-EVENT-015"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-022",
+      "cluster_id": "PML-EVENT-021",
       "title": "Elecciones en Brasil: las favelas en Río de Janeiro, un electorado clave en la disputa por el voto",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260930-elecciones-en-brasil-las-favelas-en-r%C3%ADo-de-janeiro-un-electorado-clave-en-la-disputa-por-el-voto",
       "representative_source": "France 24",
@@ -179,13 +179,13 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-022"
+          "cluster_id": "PML-EVENT-021"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-030",
+      "cluster_id": "PML-EVENT-029",
       "title": "Irán dispara los ahorcamientos de manifestantes y presos políticos al amparo de la guerra",
       "url": "https://elpais.com/internacional/2026-09-30/iran-dispara-los-ahorcamientos-de-manifestantes-y-presos-politicos-al-amparo-de-la-guerra.html",
       "representative_source": "EL PAÍS",
@@ -256,7 +256,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
+          "cluster_id": "PML-EVENT-029"
         }
       ]
     },
@@ -273,12 +273,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 65.4,
+        "score": 63.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 65.4
+        "editorial_utility": 63.4
       },
       "selection": {
-        "reason": "PML 65.4; aporta diversidad geográfica",
+        "reason": "PML 63.4; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -335,7 +335,7 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-019",
+      "cluster_id": "PML-EVENT-018",
       "title": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260929-ee-uu-ampl%C3%ADa-proceso-judicial-por-el-asesinato-del-presidente-haitiano-jovenel-mo%C3%AFse-habr%C3%A1-un-giro-en-el-caso",
       "representative_source": "France 24",
@@ -402,7 +402,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-018"
         }
       ]
     }
@@ -415,7 +415,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-007",
+        "cluster_id": "PML-EVENT-006",
         "title": "Comisión mixta despachó Reglas de Uso de la Fuerza: faltan dos votaciones para que sea ley",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -426,11 +426,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 62.5,
-          "level": "MEDIA-ALTA",
+          "score": 60.8,
+          "level": "MEDIA",
           "components": {
             "political_impact": 80,
-            "freshness": 95,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 28
@@ -470,7 +470,7 @@
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
+            "cluster_id": "PML-EVENT-006"
           }
         ],
         "article_count": 1,
@@ -481,13 +481,13 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 84.5
+          "chile_utility": 82.8
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-013",
+        "cluster_id": "PML-EVENT-012",
         "title": "EE.UU. negó visa al senador comunista Daniel Núñez",
         "topic": "Relaciones internacionales",
         "event_type": "POLITICAL_STATEMENT",
@@ -542,7 +542,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-013"
+            "cluster_id": "PML-EVENT-012"
           }
         ],
         "article_count": 1,
@@ -559,7 +559,7 @@
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-015",
+        "cluster_id": "PML-EVENT-014",
         "title": "\"No se ve muy ambicioso\", dice académico UAI sobre el plan gubernamental para crear 100 mil empleos",
         "topic": "Economía y políticas públicas",
         "event_type": "POLITICAL_STATEMENT",
@@ -570,11 +570,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.2,
+          "score": 52.9,
           "level": "MEDIA",
           "components": {
             "political_impact": 48,
-            "freshness": 100,
+            "freshness": 95,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 28
@@ -614,7 +614,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-015"
+            "cluster_id": "PML-EVENT-014"
           }
         ],
         "article_count": 1,
@@ -622,7 +622,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Economía y políticas públicas",
-          "chile_utility": 63.2
+          "chile_utility": 61.9
         },
         "repeated_in_general_top5": false
       }
@@ -631,8 +631,8 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 24,
-      "maximum_relevance": 68.6,
+      "event_count": 23,
+      "maximum_relevance": 67.3,
       "leading_story": "Venta de tierras a extranjeros en Argentina: ¿qué hay detrás del fallo del Supremo?"
     },
     {
@@ -656,7 +656,7 @@
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 54.2,
+      "maximum_relevance": 52.9,
       "leading_story": "\"No se ve muy ambicioso\", dice académico UAI sobre el plan gubernamental para crear 100 mil empleos"
     }
   ],
