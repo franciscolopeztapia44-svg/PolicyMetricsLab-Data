@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-01",
-    "data_latest_timestamp": "2026-10-01T09:00:00-0300",
-    "data_age_hours": 0.3,
-    "generated_at": "2026-10-01T09:20:51-0300",
+    "data_latest_timestamp": "2026-10-01T15:02:54-0300",
+    "data_age_hours": 0.4,
+    "generated_at": "2026-10-01T15:26:20-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,39 +16,39 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 5 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 33,
+    "ranked_events": 34,
     "topics": 3,
-    "geographies": 3,
+    "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 62.7,
-    "maximum_relevance": 68.4
+    "average_top5_relevance": 62.5,
+    "maximum_relevance": 68
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-015",
-      "title": "El Salvador fija la fecha de las elecciones presidenciales de 2027, en las que Bukele buscará un tercer mandato",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261001-el-salvador-fija-la-fecha-de-las-elecciones-presidenciales-de-2027-en-las-que-bukele-buscar%C3%A1-un-tercer-mandato",
-      "representative_source": "France 24",
+      "cluster_id": "PML-EVENT-029",
+      "title": "Reino Unido convoca a la embajadora argentina en Londres en rechazo a las medidas de Milei por las Malvinas",
+      "url": "https://elpais.com/argentina/2026-10-01/reino-unido-convoca-a-la-embajadora-argentina-en-londres-en-rechazo-a-las-medidas-de-milei-por-las-malvinas.html",
+      "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
+      "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
-        "group": "No identificado",
-        "country": "No identificado / América Latina"
+        "group": "América Latina",
+        "country": "Argentina / América Latina"
       },
       "relevance": {
-        "score": 68.4,
+        "score": 68,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 68.4
+        "editorial_utility": 68
       },
       "selection": {
-        "reason": "PML 68.4",
+        "reason": "PML 68",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -56,59 +56,133 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "France 24"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-01T03:42:28-0300",
-      "last_seen": "2026-10-01T03:42:28-0300",
-      "entities": [],
-      "event_terms": [
-        "tribunal",
-        "eleccion"
+      "first_seen": "2026-10-01T12:44:01-0300",
+      "last_seen": "2026-10-01T12:44:01-0300",
+      "entities": [
+        "argentina",
+        "milei",
+        "malvinas"
       ],
+      "event_terms": [],
       "analysis": {
-        "summary": "El Salvador celebrará elecciones presidenciales el 28 de febrero de 2027, anunció el miércoles el tribunal electoral, lo que abre la puerta a que el presidente Nayib Bukele aspire a un tercer mandato tras los cambios constitucionales que eliminaron los límites a la reelección presidencial. Bukele ha recibido elogios por reducir drásticamente la violencia de las pandillas, pero también críticas por los abusos contra los derechos humanos durante su ofensiva.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "summary": "El Gobierno británico protesta por la amenaza de Argentina de iniciar un arbitraje internacional para bloquear la explotación petrolera en el archipiélago austral",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Argentina / América Latina.",
         "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "El Salvador fija la fecha de las elecciones presidenciales de 2027, en las que Bukele buscará un tercer mandato",
-          "description": "El Salvador celebrará elecciones presidenciales el 28 de febrero de 2027, anunció el miércoles el tribunal electoral, lo que abre la puerta a que el presidente Nayib Bukele aspire a un tercer mandato tras los cambios constitucionales que eliminaron los límites a la reelección presidencial. Bukele ha recibido elogios por reducir drásticamente la violencia de las pandillas, pero también críticas por los abusos contra los derechos humanos durante su ofensiva.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261001-el-salvador-fija-la-fecha-de-las-elecciones-presidenciales-de-2027-en-las-que-bukele-buscar%C3%A1-un-tercer-mandato",
-          "image_url": "https://s.france24.com/media/display/a0e6140c-bd39-11f1-9971-7be0f5469a6a/w:1024/p:16x9/000-C6CE3FN.jpg",
-          "published_raw": "Thu, 01 Oct 2026 06:42:28 GMT",
-          "published_at": "2026-10-01T03:42:28-0300",
-          "country": "No identificado",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Reino Unido convoca a la embajadora argentina en Londres en rechazo a las medidas de Milei por las Malvinas",
+          "description": "El Gobierno británico protesta por la amenaza de Argentina de iniciar un arbitraje internacional para bloquear la explotación petrolera en el archipiélago austral",
+          "url": "https://elpais.com/argentina/2026-10-01/reino-unido-convoca-a-la-embajadora-argentina-en-londres-en-rechazo-a-las-medidas-de-milei-por-las-malvinas.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/UEHQJEJZVFNS3AN5C4EWA6RRG4.jpg?auth=ed364eca85b181c8d4aaf2a0f41edf822d9b97d2101356cce12e2fc27993ea07",
+          "published_raw": "Thu, 01 Oct 2026 15:44:01 GMT",
+          "published_at": "2026-10-01T12:44:01-0300",
+          "country": "Argentina",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 2,
-          "score_elections": 2,
-          "score_international": 0,
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 1,
           "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 6,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-029"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-023",
+      "cluster_id": "PML-EVENT-022",
+      "title": "Las protestas estudiantiles se extienden por Francia mientras el Gobierno acusa al partido de Mélenchon de alentar la violencia urbana",
+      "url": "https://elpais.com/internacional/2026-10-01/las-protestas-estudiantiles-se-extienden-por-francia-mientras-el-gobierno-acusa-al-partido-de-melenchon-de-alentar-la-violencia-urbana.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Conflictos y seguridad",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 64,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 72
+      },
+      "selection": {
+        "reason": "PML 64; aporta diversidad temática; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-01T15:02:54-0300",
+      "last_seen": "2026-10-01T15:02:54-0300",
+      "entities": [],
+      "event_terms": "protestas",
+      "analysis": {
+        "summary": "El movimiento, que se inició en París hace una semana con bloqueos para denunciar la falta de medios y de personal, se extiende a decenas de universidades entre actos de vandalismo",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Las protestas estudiantiles se extienden por Francia mientras el Gobierno acusa al partido de Mélenchon de alentar la violencia urbana",
+          "description": "El movimiento, que se inició en París hace una semana con bloqueos para denunciar la falta de medios y de personal, se extiende a decenas de universidades entre actos de vandalismo",
+          "url": "https://elpais.com/internacional/2026-10-01/las-protestas-estudiantiles-se-extienden-por-francia-mientras-el-gobierno-acusa-al-partido-de-melenchon-de-alentar-la-violencia-urbana.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/U2VY2Q7O4NMKLKBQN2QKZWZZWE.jpg?auth=03135b03a3d3dba2f6a03d354fed5238d85910b9c23dfa57122584ebf2a4d86c",
+          "published_raw": "Thu, 01 Oct 2026 18:02:54 GMT",
+          "published_at": "2026-10-01T15:02:54-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 2,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-022"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-026",
       "title": "Elecciones en Brasil: las favelas en Río de Janeiro, un electorado clave en la disputa por el voto",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260930-elecciones-en-brasil-las-favelas-en-r%C3%ADo-de-janeiro-un-electorado-clave-en-la-disputa-por-el-voto",
       "representative_source": "France 24",
@@ -119,12 +193,12 @@
         "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 63,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 72
+        "score": 60.5,
+        "level": "MEDIA",
+        "editorial_utility": 67.5
       },
       "selection": {
-        "reason": "PML 63; aporta diversidad temática; aporta diversidad geográfica",
+        "reason": "PML 60.5; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -175,13 +249,13 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
+          "cluster_id": "PML-EVENT-026"
         }
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-026",
+      "position": 4,
+      "cluster_id": "PML-EVENT-030",
       "title": "Diputado Daniel Valenzuela denunció ataque a su vehículo en Providencia",
       "url": "https://www.cooperativa.cl/noticias/pais/policial/diputado-daniel-valenzuela-denuncio-ataque-a-su-vehiculo-en-providencia/2026-10-01/074250.html",
       "representative_source": "Cooperativa",
@@ -192,12 +266,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 64.4,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 67.4
+        "score": 61.4,
+        "level": "MEDIA",
+        "editorial_utility": 64.4
       },
       "selection": {
-        "reason": "PML 64.4; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 61.4; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -248,45 +322,49 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
+          "cluster_id": "PML-EVENT-030"
         }
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-019",
-      "title": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260929-ee-uu-ampl%C3%ADa-proceso-judicial-por-el-asesinato-del-presidente-haitiano-jovenel-mo%C3%AFse-habr%C3%A1-un-giro-en-el-caso",
+      "position": 5,
+      "cluster_id": "PML-EVENT-020",
+      "title": "Brasil: Lula amplía ventaja sobre Bolsonaro en sondeos de primera vuelta; habría empate técnico en un balotaje",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260928-brasil-lula-ampl%C3%ADa-ventaja-sobre-bolsonaro-en-sondeos-de-primera-vuelta-habr%C3%ADa-empate-t%C3%A9cnico-en-un-balotaje",
       "representative_source": "France 24",
-      "topic": "Conflictos y seguridad",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "Estados Unidos",
-        "country": "Estados Unidos"
+        "group": "América Latina",
+        "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 50.1,
-        "level": "BAJA",
-        "editorial_utility": 62.1
+        "score": 58.5,
+        "level": "MEDIA",
+        "editorial_utility": 57.5
       },
       "selection": {
-        "reason": "PML 50.1; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 58.5; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 1,
+        "article_count": 2,
         "source_count": 1,
         "sources": "France 24"
       },
-      "first_seen": "2026-09-29T15:08:30-0300",
-      "last_seen": "2026-09-29T15:08:30-0300",
-      "entities": [],
-      "event_terms": "judicial",
+      "first_seen": "2026-09-28T14:11:29-0300",
+      "last_seen": "2026-10-01T13:14:24-0300",
+      "entities": [
+        "brasil",
+        "lula",
+        "bolsonaro"
+      ],
+      "event_terms": "medicos",
       "analysis": {
-        "summary": "La violencia en Haití no cesa. Al menos 11 personas murieron en la región central de Artibonite, Haití, a manos de miembros de bandas tras una operación de seguridad letal, según informó el alcalde local. Entretanto, Estados Unidos amplió considerablemente el proceso judicial relacionado con el asesinato del presidente haitiano Jovenel Moïse, ocurrido en 2021. ¿Qué cambia ahora? Lo desciframos.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Estados Unidos.",
+        "summary": "A seis días de las elecciones en Brasil, dos encuestas muestran este lunes 28 de septiembre al actual presidente Luiz Inácio Lula da Silva cinco puntos por delante del senador Flávio Bolsonaro en primera vuelta. Sin embargo, la diferencia se reduce y queda dentro del margen de error ante una eventual segunda vuelta.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -298,107 +376,58 @@
         {
           "source_id": "france24_latam",
           "source": "France 24",
-          "title": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?",
-          "description": "La violencia en Haití no cesa. Al menos 11 personas murieron en la región central de Artibonite, Haití, a manos de miembros de bandas tras una operación de seguridad letal, según informó el alcalde local. Entretanto, Estados Unidos amplió considerablemente el proceso judicial relacionado con el asesinato del presidente haitiano Jovenel Moïse, ocurrido en 2021. ¿Qué cambia ahora? Lo desciframos.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260929-ee-uu-ampl%C3%ADa-proceso-judicial-por-el-asesinato-del-presidente-haitiano-jovenel-mo%C3%AFse-habr%C3%A1-un-giro-en-el-caso",
-          "image_url": "https://s.france24.com/media/display/7a2893b6-1c5c-11ee-b2e3-005056a90284/w:1024/p:16x9/000_1NN6LS.jpg",
-          "published_raw": "Tue, 29 Sep 2026 18:08:30 GMT",
-          "published_at": "2026-09-29T15:08:30-0300",
-          "country": "Estados Unidos",
-          "region": "Estados Unidos",
+          "title": "Brasil: Lula amplía ventaja sobre Bolsonaro en sondeos de primera vuelta; habría empate técnico en un balotaje",
+          "description": "A seis días de las elecciones en Brasil, dos encuestas muestran este lunes 28 de septiembre al actual presidente Luiz Inácio Lula da Silva cinco puntos por delante del senador Flávio Bolsonaro en primera vuelta. Sin embargo, la diferencia se reduce y queda dentro del margen de error ante una eventual segunda vuelta.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260928-brasil-lula-ampl%C3%ADa-ventaja-sobre-bolsonaro-en-sondeos-de-primera-vuelta-habr%C3%ADa-empate-t%C3%A9cnico-en-un-balotaje",
+          "image_url": "https://s.france24.com/media/display/8836700e-bb5f-11f1-b44c-11fa9f8a3b4f/w:1024/p:16x9/000-C7BC6KE.jpg",
+          "published_raw": "Mon, 28 Sep 2026 17:11:29 GMT",
+          "published_at": "2026-09-28T14:11:29-0300",
+          "country": "Brasil",
+          "region": "América Latina",
           "language": "es",
           "score_institutional": 1,
-          "score_elections": 0,
+          "score_elections": 2,
           "score_international": 0,
-          "score_conflict": 2,
+          "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 5,
-          "primary_topic": "Conflictos y seguridad",
+          "primary_topic": "Elecciones y opinión pública",
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-010",
-      "title": "Compare las propuestas de los candidatos para las elecciones de Brasil 2026",
-      "url": "https://elpais.com/america/2026-10-01/compare-las-propuestas-de-los-candidatos-para-las-elecciones-de-brasil-2026.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "No identificado / América Latina"
-      },
-      "relevance": {
-        "score": 67.4,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 61.4
-      },
-      "selection": {
-        "reason": "PML 67.4; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-01T09:00:00-0300",
-      "last_seen": "2026-10-01T09:00:00-0300",
-      "entities": [
-        "brasil",
-        "lula",
-        "bolsonaro"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "Los planes de Gobierno del presidente Luiz Inácio Lula da Silva y el opositor Flávio Bolsonaro. Conozca sus iniciativas en diversas materias, como seguridad, economía, salud, educación, medio ambiente",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
-        "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
+          "cluster_id": "PML-EVENT-020"
+        },
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Compare las propuestas de los candidatos para las elecciones de Brasil 2026",
-          "description": "Los planes de Gobierno del presidente Luiz Inácio Lula da Silva y el opositor Flávio Bolsonaro. Conozca sus iniciativas en diversas materias, como seguridad, economía, salud, educación, medio ambiente",
-          "url": "https://elpais.com/america/2026-10-01/compare-las-propuestas-de-los-candidatos-para-las-elecciones-de-brasil-2026.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/EROUP44CYFANRM4PDH2ZSDDHZM.png?auth=2bbc40017545608ed17ee18a9c5614075429c8b14e629c79a71c78d57fadf4fb",
-          "published_raw": "Thu, 01 Oct 2026 12:00:00 GMT",
-          "published_at": "2026-10-01T09:00:00-0300",
-          "country": "No identificado",
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "¿Cómo está dividido el voto político en Brasil previo a la primera vuelta presidencial?",
+          "description": "Como en todas las elecciones, Luiz Inácio Lula da Silva y Flávio Bolsonaro buscan conquistar a los sectores religiosos de Brasil para fortalecer sus posibilidades de llegar a la Presidencia. En estos comicios, los católicos y evangélicos están divididos entre ambos candidatos como consecuencia de la desinformación y los beneficios que las iglesias han recibido durante la Administración de Lula. Analizamos el panorama de los votantes religiosos con nuestro Invitado del día, Leandro Gabiati, doctor en Ciencia Política y director de la consultoría Dominium.",
+          "url": "https://www.france24.com/es/programas/invitad-del-d%C3%ADa/20261001-c%C3%B3mo-est%C3%A1-dividido-el-voto-pol%C3%ADtico-en-brasil-previo-a-la-primera-vuelta-presidencial",
+          "image_url": "https://s.france24.com/media/display/11fcb69a-bdb3-11f1-8df0-13420ab900a2/w:1024/p:16x9/capture-4223648226abe86b60b2702-05458008.jpg",
+          "published_raw": "Thu, 01 Oct 2026 16:14:24 GMT",
+          "published_at": "2026-10-01T13:14:24-0300",
+          "country": "Brasil",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 2,
-          "score_elections": 2,
+          "score_institutional": 0,
+          "score_elections": 3,
           "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 2,
+          "score_conflict": 0,
+          "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 2,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 9,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "political_evidence": 4,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": null,
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-010"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-020"
         }
       ]
     }
@@ -422,11 +451,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 61.4,
+          "score": 58.9,
           "level": "MEDIA",
           "components": {
             "political_impact": 90,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 44
@@ -477,13 +506,13 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 83.4
+          "chile_utility": 80.9
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-012",
+        "cluster_id": "PML-EVENT-011",
         "title": "EE.UU. negó visa al senador comunista Daniel Núñez",
         "topic": "Relaciones internacionales",
         "event_type": "POLITICAL_STATEMENT",
@@ -494,11 +523,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 50.5,
+          "score": 48,
           "level": "BAJA",
           "components": {
             "political_impact": 48,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 62,
             "continuity": 28
@@ -538,7 +567,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-012"
+            "cluster_id": "PML-EVENT-011"
           }
         ],
         "article_count": 1,
@@ -549,7 +578,7 @@
             "Congreso y proceso legislativo",
             "Relaciones internacionales"
           ],
-          "chile_utility": 72.5
+          "chile_utility": 70
         },
         "repeated_in_general_top5": false
       },
@@ -566,11 +595,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 49.2,
+          "score": 47.2,
           "level": "BAJA",
           "components": {
             "political_impact": 48,
-            "freshness": 80,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 28
@@ -618,7 +647,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Economía y políticas públicas",
-          "chile_utility": 58.2
+          "chile_utility": 56.2
         },
         "repeated_in_general_top5": false
       }
@@ -628,31 +657,31 @@
     {
       "topic": "Instituciones y gobierno",
       "event_count": 22,
-      "maximum_relevance": 68.4,
-      "leading_story": "El Salvador fija la fecha de las elecciones presidenciales de 2027, en las que Bukele buscará un tercer mandato"
+      "maximum_relevance": 68,
+      "leading_story": "Reino Unido convoca a la embajadora argentina en Londres en rechazo a las medidas de Milei por las Malvinas"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 3,
+      "maximum_relevance": 64,
+      "leading_story": "Las protestas estudiantiles se extienden por Francia mientras el Gobierno acusa al partido de Mélenchon de alentar la violencia urbana"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 7,
-      "maximum_relevance": 63,
+      "maximum_relevance": 60.5,
       "leading_story": "Elecciones en Brasil: las favelas en Río de Janeiro, un electorado clave en la disputa por el voto"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 50.5,
+      "maximum_relevance": 48,
       "leading_story": "EE.UU. negó visa al senador comunista Daniel Núñez"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 2,
-      "maximum_relevance": 50.1,
-      "leading_story": "EE. UU. amplía proceso judicial por el asesinato del presidente haitiano Jovenel Moïse: ¿habrá un giro en el caso?"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 49.2,
+      "maximum_relevance": 47.2,
       "leading_story": "\"No se ve muy ambicioso\", dice académico UAI sobre el plan gubernamental para crear 100 mil empleos"
     }
   ],
@@ -661,7 +690,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
+    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
     "source_count": 3
   },
   "system": {
