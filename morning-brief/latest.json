@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-01",
-    "data_latest_timestamp": "2026-10-01T15:02:54-0300",
-    "data_age_hours": 3.3,
-    "generated_at": "2026-10-01T18:18:17-0300",
+    "data_latest_timestamp": "2026-10-01T20:55:25-0300",
+    "data_age_hours": 0.4,
+    "generated_at": "2026-10-01T21:21:31-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,39 +16,39 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 5 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 34,
+    "ranked_events": 35,
     "topics": 3,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 62.5,
-    "maximum_relevance": 68
+    "average_top5_relevance": 61.9,
+    "maximum_relevance": 64.8
   },
   "top_stories": [
     {
       "position": 1,
       "cluster_id": "PML-EVENT-029",
-      "title": "Reino Unido convoca a la embajadora argentina en Londres en rechazo a las medidas de Milei por las Malvinas",
-      "url": "https://elpais.com/argentina/2026-10-01/reino-unido-convoca-a-la-embajadora-argentina-en-londres-en-rechazo-a-las-medidas-de-milei-por-las-malvinas.html",
-      "representative_source": "EL PAÍS",
+      "title": "Soberanía, seguridad y Estado: ¿Qué está en juego en las eleciones de Brasil?",
+      "url": "https://www.france24.com/es/programas/en-contexto/20261001-soberan%C3%ADa-seguridad-y-estado-qu%C3%A9-est%C3%A1-en-juego-en-las-eleciones-de-brasil",
+      "representative_source": "France 24",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
+      "event_type": "DIPLOMATIC_EVENT",
       "geography": {
         "group": "América Latina",
-        "country": "Argentina / América Latina"
+        "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 68,
+        "score": 64.8,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 68
+        "editorial_utility": 64.8
       },
       "selection": {
-        "reason": "PML 68",
+        "reason": "PML 64.8",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -56,42 +56,46 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "France 24"
       },
-      "first_seen": "2026-10-01T12:44:01-0300",
-      "last_seen": "2026-10-01T12:44:01-0300",
+      "first_seen": "2026-10-01T20:55:25-0300",
+      "last_seen": "2026-10-01T20:55:25-0300",
       "entities": [
-        "argentina",
-        "milei",
-        "malvinas"
+        "brasil",
+        "lula",
+        "bolsonaro",
+        "trump"
       ],
-      "event_terms": [],
+      "event_terms": [
+        "soberania",
+        "crisis"
+      ],
       "analysis": {
-        "summary": "El Gobierno británico protesta por la amenaza de Argentina de iniciar un arbitraje internacional para bloquear la explotación petrolera en el archipiélago austral",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Argentina / América Latina.",
+        "summary": "Brasil debe decidir entre dos proyectos de país: Luiz Inácio Lula da Silva, que habla de defensa de la soberanía y reducción de las desigualdades, y Flavio Bolsonaro, alineado con la política de Trump y enfocado en el libre mercado. La campaña ha estado marcada por las preocupaciones por seguridad y economía, así como el caso de corrupción de Banco Master y la crisis en la Corte Suprema.",
+        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Brasil / América Latina.",
         "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
+          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Reino Unido convoca a la embajadora argentina en Londres en rechazo a las medidas de Milei por las Malvinas",
-          "description": "El Gobierno británico protesta por la amenaza de Argentina de iniciar un arbitraje internacional para bloquear la explotación petrolera en el archipiélago austral",
-          "url": "https://elpais.com/argentina/2026-10-01/reino-unido-convoca-a-la-embajadora-argentina-en-londres-en-rechazo-a-las-medidas-de-milei-por-las-malvinas.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/UEHQJEJZVFNS3AN5C4EWA6RRG4.jpg?auth=ed364eca85b181c8d4aaf2a0f41edf822d9b97d2101356cce12e2fc27993ea07",
-          "published_raw": "Thu, 01 Oct 2026 15:44:01 GMT",
-          "published_at": "2026-10-01T12:44:01-0300",
-          "country": "Argentina",
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Soberanía, seguridad y Estado: ¿Qué está en juego en las eleciones de Brasil?",
+          "description": "Brasil debe decidir entre dos proyectos de país: Luiz Inácio Lula da Silva, que habla de defensa de la soberanía y reducción de las desigualdades, y Flavio Bolsonaro, alineado con la política de Trump y enfocado en el libre mercado. La campaña ha estado marcada por las preocupaciones por seguridad y economía, así como el caso de corrupción de Banco Master y la crisis en la Corte Suprema.",
+          "url": "https://www.france24.com/es/programas/en-contexto/20261001-soberan%C3%ADa-seguridad-y-estado-qu%C3%A9-est%C3%A1-en-juego-en-las-eleciones-de-brasil",
+          "image_url": "https://s.france24.com/media/display/fbc448fa-bdd7-11f1-96b3-1ff0321dbbd3/w:1024/p:16x9/2026-09-24T180952Z-900098229-RC2RPNAZ40FX-RTRMADP-3-BRAZIL-ELECTION-LULA.jpg",
+          "published_raw": "Thu, 01 Oct 2026 23:55:25 GMT",
+          "published_at": "2026-10-01T20:55:25-0300",
+          "country": "Brasil",
           "region": "América Latina",
           "language": "es",
           "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 1,
+          "score_elections": 1,
+          "score_international": 0,
           "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
@@ -100,7 +104,7 @@
           "score_accident": 0,
           "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
           "cluster_id": "PML-EVENT-029"
@@ -120,12 +124,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 64,
+        "score": 62.8,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 72
+        "editorial_utility": 70.8
       },
       "selection": {
-        "reason": "PML 64; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 62.8; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -193,12 +197,12 @@
         "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 60.5,
+        "score": 58,
         "level": "MEDIA",
-        "editorial_utility": 67.5
+        "editorial_utility": 65
       },
       "selection": {
-        "reason": "PML 60.5; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 58; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -255,7 +259,7 @@
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-030",
+      "cluster_id": "PML-EVENT-031",
       "title": "Diputado Daniel Valenzuela denunció ataque a su vehículo en Providencia",
       "url": "https://www.cooperativa.cl/noticias/pais/policial/diputado-daniel-valenzuela-denuncio-ataque-a-su-vehiculo-en-providencia/2026-10-01/074250.html",
       "representative_source": "Cooperativa",
@@ -266,12 +270,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 61.4,
+        "score": 59.4,
         "level": "MEDIA",
-        "editorial_utility": 64.4
+        "editorial_utility": 62.4
       },
       "selection": {
-        "reason": "PML 61.4; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 59.4; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -322,53 +326,52 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
+          "cluster_id": "PML-EVENT-031"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-020",
-      "title": "Brasil: Lula amplía ventaja sobre Bolsonaro en sondeos de primera vuelta; habría empate técnico en un balotaje",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260928-brasil-lula-ampl%C3%ADa-ventaja-sobre-bolsonaro-en-sondeos-de-primera-vuelta-habr%C3%ADa-empate-t%C3%A9cnico-en-un-balotaje",
+      "cluster_id": "PML-EVENT-013",
+      "title": "El Salvador fija la fecha de las elecciones presidenciales de 2027, en las que Bukele buscará un tercer mandato",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261001-el-salvador-fija-la-fecha-de-las-elecciones-presidenciales-de-2027-en-las-que-bukele-buscar%C3%A1-un-tercer-mandato",
       "representative_source": "France 24",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "GENERAL_POLITICAL_EVENT",
+      "topic": "Instituciones y gobierno",
+      "event_type": "ELECTORAL_EVENT",
       "geography": {
-        "group": "América Latina",
-        "country": "Brasil / América Latina"
+        "group": "No identificado",
+        "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 58.5,
-        "level": "MEDIA",
-        "editorial_utility": 57.5
+        "score": 64.7,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 59.7
       },
       "selection": {
-        "reason": "PML 58.5; nuevo tipo de evento",
+        "reason": "PML 64.7; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 2,
+        "article_count": 1,
         "source_count": 1,
         "sources": "France 24"
       },
-      "first_seen": "2026-09-28T14:11:29-0300",
-      "last_seen": "2026-10-01T13:14:24-0300",
-      "entities": [
-        "brasil",
-        "lula",
-        "bolsonaro"
+      "first_seen": "2026-10-01T03:42:28-0300",
+      "last_seen": "2026-10-01T03:42:28-0300",
+      "entities": [],
+      "event_terms": [
+        "tribunal",
+        "eleccion"
       ],
-      "event_terms": "medicos",
       "analysis": {
-        "summary": "A seis días de las elecciones en Brasil, dos encuestas muestran este lunes 28 de septiembre al actual presidente Luiz Inácio Lula da Silva cinco puntos por delante del senador Flávio Bolsonaro en primera vuelta. Sin embargo, la diferencia se reduce y queda dentro del margen de error ante una eventual segunda vuelta.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
+        "summary": "El Salvador celebrará elecciones presidenciales el 28 de febrero de 2027, anunció el miércoles el tribunal electoral, lo que abre la puerta a que el presidente Nayib Bukele aspire a un tercer mandato tras los cambios constitucionales que eliminaron los límites a la reelección presidencial. Bukele ha recibido elogios por reducir drásticamente la violencia de las pandillas, pero también críticas por los abusos contra los derechos humanos durante su ofensiva.",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
         "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
@@ -376,58 +379,30 @@
         {
           "source_id": "france24_latam",
           "source": "France 24",
-          "title": "Brasil: Lula amplía ventaja sobre Bolsonaro en sondeos de primera vuelta; habría empate técnico en un balotaje",
-          "description": "A seis días de las elecciones en Brasil, dos encuestas muestran este lunes 28 de septiembre al actual presidente Luiz Inácio Lula da Silva cinco puntos por delante del senador Flávio Bolsonaro en primera vuelta. Sin embargo, la diferencia se reduce y queda dentro del margen de error ante una eventual segunda vuelta.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20260928-brasil-lula-ampl%C3%ADa-ventaja-sobre-bolsonaro-en-sondeos-de-primera-vuelta-habr%C3%ADa-empate-t%C3%A9cnico-en-un-balotaje",
-          "image_url": "https://s.france24.com/media/display/8836700e-bb5f-11f1-b44c-11fa9f8a3b4f/w:1024/p:16x9/000-C7BC6KE.jpg",
-          "published_raw": "Mon, 28 Sep 2026 17:11:29 GMT",
-          "published_at": "2026-09-28T14:11:29-0300",
-          "country": "Brasil",
+          "title": "El Salvador fija la fecha de las elecciones presidenciales de 2027, en las que Bukele buscará un tercer mandato",
+          "description": "El Salvador celebrará elecciones presidenciales el 28 de febrero de 2027, anunció el miércoles el tribunal electoral, lo que abre la puerta a que el presidente Nayib Bukele aspire a un tercer mandato tras los cambios constitucionales que eliminaron los límites a la reelección presidencial. Bukele ha recibido elogios por reducir drásticamente la violencia de las pandillas, pero también críticas por los abusos contra los derechos humanos durante su ofensiva.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261001-el-salvador-fija-la-fecha-de-las-elecciones-presidenciales-de-2027-en-las-que-bukele-buscar%C3%A1-un-tercer-mandato",
+          "image_url": "https://s.france24.com/media/display/a0e6140c-bd39-11f1-9971-7be0f5469a6a/w:1024/p:16x9/000-C6CE3FN.jpg",
+          "published_raw": "Thu, 01 Oct 2026 06:42:28 GMT",
+          "published_at": "2026-10-01T03:42:28-0300",
+          "country": "No identificado",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 1,
+          "score_institutional": 2,
           "score_elections": 2,
           "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-020"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "¿Cómo está dividido el voto político en Brasil previo a la primera vuelta presidencial?",
-          "description": "Como en todas las elecciones, Luiz Inácio Lula da Silva y Flávio Bolsonaro buscan conquistar a los sectores religiosos de Brasil para fortalecer sus posibilidades de llegar a la Presidencia. En estos comicios, los católicos y evangélicos están divididos entre ambos candidatos como consecuencia de la desinformación y los beneficios que las iglesias han recibido durante la Administración de Lula. Analizamos el panorama de los votantes religiosos con nuestro Invitado del día, Leandro Gabiati, doctor en Ciencia Política y director de la consultoría Dominium.",
-          "url": "https://www.france24.com/es/programas/invitad-del-d%C3%ADa/20261001-c%C3%B3mo-est%C3%A1-dividido-el-voto-pol%C3%ADtico-en-brasil-previo-a-la-primera-vuelta-presidencial",
-          "image_url": "https://s.france24.com/media/display/11fcb69a-bdb3-11f1-8df0-13420ab900a2/w:1024/p:16x9/capture-4223648226abe86b60b2702-05458008.jpg",
-          "published_raw": "Thu, 01 Oct 2026 16:14:24 GMT",
-          "published_at": "2026-10-01T13:14:24-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 3,
-          "score_international": 0,
-          "score_conflict": 0,
+          "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": null,
+          "political_evidence": 6,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-013"
         }
       ]
     }
@@ -440,25 +415,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-003",
-        "title": "Gobierno y parlamentarios acuerdan tres ejes para reforma de seguridad",
+        "cluster_id": "PML-EVENT-005",
+        "title": "Comisión mixta despachó Reglas de Uso de la Fuerza: faltan dos votaciones para que sea ley",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-y-parlamentarios-acuerdan-tres-ejes-para-reforma-de-seguridad/2026-09-30/111158.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-mixta-despacho-reglas-de-uso-de-la-fuerza-faltan-dos/2026-09-30/174429.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 58.9,
+          "score": 54.3,
           "level": "MEDIA",
           "components": {
-            "political_impact": 90,
+            "political_impact": 80,
             "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 44
+            "continuity": 28
           }
         },
         "coverage": {
@@ -466,18 +441,18 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-09-30T11:11:58-0300",
-        "last_seen": "2026-09-30T11:11:58-0300",
+        "first_seen": "2026-09-30T17:44:29-0300",
+        "last_seen": "2026-09-30T17:44:29-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Gobierno y parlamentarios acuerdan tres ejes para reforma de seguridad",
-            "description": "La Moneda alcanzó un acuerdo con parlamentarios para impulsar una nueva reforma de seguridad , tras un desayuno que se realizó este miércoles en Cerro Castillo y se extendió por más de dos horas. La propuesta contempla tres ejes para su tramitación en el Congreso , según detalló el senador Pedro Araya (PPD) , presidente de la Comisión de Constitución. Crimen organizado y facultades para Gendarmería \"En materia de reforma constitucional se contemplarían tres ejes: el primero es establecer a nivel constitucional la condena al crimen organizado y se le daría un tratamiento similar al que tiene el terrorismo\", sostuvo. Araya añadió que \"en segundo lugar, dotar a Gendarmería de la posibilidad de segregar en los distintos penales a las personas que están privadas de libertad, atendida la peligrosidad que tienen ; y el tercer punto, en materia de estado de excepción constitucional se acordó que se van a mantener los actuales estados de excepción y respecto al estado de emergencia se van a hacer algunas precisiones de carácter conceptual para aclarar que puede operar en caso de seguridad pública\". \" No se van a poder interceptar comunicaciones telefónicas salvo que sean por orden judicial \", precisó el parlamentario. Respecto del retiro de la reforma actual , se confirmó que se concretará una vez que ingrese al Congreso el nuevo texto presentado por los senadores . Molestia en el PS La presidenta del Partido Socialista, Paulina Vodanovic, descartó haber sido parte de estas conversaciones y aseguró haber solamente recibido -hace semanas- un mensaje de WhatsApp con algunas ideas. Ante esta situación, el diputado César Valenzuela recalcó que \"yo acabo de hablar con la presidenta del Partido Socialista y me confirma que ella no ha participado ni en la discusión ni ha adherido a ningún proyecto de ley ni a ninguna propuesta en la materia\". \"Por lo tanto, los mensajes de WhatsApp o los llamados que se hacen por la prensa en ningún caso constituyen un diálogo necesario para efectos de poder llevar adelante una propuesta\", agregó. El parlamentario insistió en que \"su reforma ya fracasó, no sacan nada con seguir ocultándolo. Hay que ponerse colorado una vez y por lo tanto el gobierno tiene que retirar esa reforma si efectivamente está convencido que tenemos que abordar los problemas de seguridad y no seguir alargando una muerte que ya está anunciada hace bastante tiempo\".",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-y-parlamentarios-acuerdan-tres-ejes-para-reforma-de-seguridad/2026-09-30/111158.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000220260930111158.jpg",
-            "published_raw": "Wed, 30 Sep 2026 11:11:58 -0300",
-            "published_at": "2026-09-30T11:11:58-0300",
+            "title": "Comisión mixta despachó Reglas de Uso de la Fuerza: faltan dos votaciones para que sea ley",
+            "description": "El proyecto de ley que regula las Reglas del Uso de la Fuerza (RUF) dio este miércoles un nuevo paso en el Congreso, a ser despachado en comisión mixta , instancia que zanjó las divergencias técnicas y políticas suscitadas entre la Cámara de Diputadas y Diputados y el Senado. La propuesta legislativa, enviada originalmente a trámite durante el Gobierno de Gabriel Boric, entrega certeza jurídica y protección legal a los funcionarios de Carabineros , Policía de Investigaciones (PDI) y las Fuerzas Armadas (FF.AA.) cuando hagan uso de su armamento de servicio en el cumplimiento de su deber , elevando a rango legal directrices que antes estaban supeditadas a reglamentos institucionales internos. Respaldo normativo a las policías Presente en la sede del Parlamento por segunda jornada consecutiva, el ministro de Seguridad Pública , Martín Arrau , valoró que, tras \" un año y medio esperando , esta mixta dé resultados y que hoy empiece a primar el sentido común \". \" Le damos un ordenamiento y una certeza al uso de la fuerza a nuestras Fuerzas de Orden y Seguridad , que van a la calle a enfrentar a los delincuentes, justo, además, en una semana crítica de enfrentamientos en nuestras calles, y es por eso que esto cobra un doble sentido \", afirmó el secretario de Estado. El ministro de Seguridad Pública, Martín Arrau, celebró el consenso alcanzado afirmando que \"hoy empieza a primar el sentido común\". (FOTO: ATON) En esta línea, indicó que \"cuando el país requiere más seguridad, requiere más fuerza y decisión en las calles, era necesario tener un marco jurídico potente para que todos esos hombres y mujeres que arriesgan su vida y nos defienden , hoy tengan mayor respaldo jurídico \". \"Cuando hablamos de apoyar a las policías, a Carabineros de Chile, se trata de esto: un trabajo de toda la sociedad , en este caso de todo el mundo político , dejando al lado las diferencias y aunando las voluntades para tener un mayor respaldo cuando se requiere \", puntualizó Arrau. Pasos pendientes para la promulgación Con la evacuación del informe de la comisión mixta concluida, el texto ingresará ahora a su etapa final de tramitación en el Parlamento . Para que el proyecto sea remitido al Ejecutivo y quede en condiciones de ser promulgado como ley de la República, el informe articulado deberá ser ratificado mediante dos votaciones generales: primero en la sala de la Cámara de Diputadas y Diputados y , posteriormente , en la sala del Senado .",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-mixta-despacho-reglas-de-uso-de-la-fuerza-faltan-dos/2026-09-30/174429.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000320260930174429.jpg",
+            "published_raw": "Wed, 30 Sep 2026 17:44:29 -0300",
+            "published_at": "2026-09-30T17:44:29-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
@@ -486,16 +461,16 @@
             "score_international": 0,
             "score_conflict": 3,
             "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 5,
+            "score_ideology": 0,
+            "score_actor": 2,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 17,
+            "political_evidence": 13,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-005"
           }
         ],
         "article_count": 1,
@@ -506,13 +481,13 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 80.9
+          "chile_utility": 76.3
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-011",
+        "cluster_id": "PML-EVENT-010",
         "title": "EE.UU. negó visa al senador comunista Daniel Núñez",
         "topic": "Relaciones internacionales",
         "event_type": "POLITICAL_STATEMENT",
@@ -523,11 +498,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 48,
+          "score": 45.5,
           "level": "BAJA",
           "components": {
             "political_impact": 48,
-            "freshness": 62,
+            "freshness": 52,
             "source_count": 30,
             "geographic_scope": 62,
             "continuity": 28
@@ -567,7 +542,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-011"
+            "cluster_id": "PML-EVENT-010"
           }
         ],
         "article_count": 1,
@@ -578,30 +553,30 @@
             "Congreso y proceso legislativo",
             "Relaciones internacionales"
           ],
-          "chile_utility": 70
+          "chile_utility": 67.5
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-016",
-        "title": "\"No se ve muy ambicioso\", dice académico UAI sobre el plan gubernamental para crear 100 mil empleos",
-        "topic": "Economía y políticas públicas",
+        "cluster_id": "PML-EVENT-008",
+        "title": "Senado negó haber gestionado visa de Daniel Núñez en Estados Unidos",
+        "topic": "Instituciones y gobierno",
         "event_type": "POLITICAL_STATEMENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/trabajo/cesantia/no-se-ve-muy-ambicioso-dice-academico-uai-sobre-el-plan-gubernamental/2026-09-30/201630.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/senado-nego-haber-gestionado-visa-de-daniel-nunez-en-estados-unidos/2026-10-01/112557.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 47.2,
-          "level": "BAJA",
+          "score": 54.6,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 48,
-            "freshness": 72,
+            "political_impact": 52,
+            "freshness": 88,
             "source_count": 30,
-            "geographic_scope": 40,
+            "geographic_scope": 55,
             "continuity": 28
           }
         },
@@ -610,44 +585,47 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-09-30T20:16:30-0300",
-        "last_seen": "2026-09-30T20:16:30-0300",
+        "first_seen": "2026-10-01T11:25:57-0300",
+        "last_seen": "2026-10-01T11:25:57-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "\"No se ve muy ambicioso\", dice académico UAI sobre el plan gubernamental para crear 100 mil empleos",
-            "description": "Ad portas del debate del Presupuesto 2027 en el Congreso y después de la publicación del reporte del Instituto Nacional de Estadísticas (INE) —que este miércoles fijó la tasa de desocupación nacional en un 9,6% para el trimestre móvil junio-agosto de 2026 —, el economista Rodrigo Wagner analizó en Lo Que Queda del Día la consolidación de cifras negativas en el mercado laboral chileno. De acuerdo con el informe del organismo, la desocupación experimentó un incremento de 1,0 punto porcentual en 12 meses , producto del alza de la fuerza de trabajo (0,3%) y de la reducción presentada por las personas ocupadas (-0,9%). \"Ya no es como un desliz; parece marcar una tendencia\", dijo el profesor asociado de la Universidad Adolfo Ibáñez y excoordinador macroeconómico de Hacienda, que descartó que el deterioro responda a un fenómeno estrictamente invernal o transitorio. \"Hay algo de la menor actividad que estuvo relacionado con eso, pero ojo: hay veces donde eso no determina inmediatamente el empleo. Lo que vemos es que hay una tendencia también a la caída del consumo, y mucha gente trabaja en (servicios ligados al) consumo. Hoy día vimos las cifras de agosto de comercio bastante débiles. Entonces, si bien en un mes en particular están las tormentas —eso ocurre—, cuando son cuatro meses ya no son puras malas suertes ; hay también una tendencia subyacente a la que hay que ponerle atención (...) Si tú revisas la cifra limpia de estacionalidad, es súper preocupante \", advirtió el académico. Plan \"Chile Despega\" Respecto al programa gubernamental Chile Despega , orientado a la creación de 100.000 puestos de trabajo , el especialista evaluó su alcance real frente al déficit del mercado laboral. \"Cien mil empleos es más o menos 1% de la fuerza de trabajo, que es justo lo que tenemos extra de desempleo con respecto al año pasado. O sea, si el Gobierno logra esa meta de 100.000, llegaremos al nivel de desempleo que había en agosto del año pasado (...) Mirado de esa manera, devolverse a como estábamos el año pasado, no se ve muy ambicioso \", aseveró. El economista remarcó que la situación obedece a un salto discontinuo registrado desde abril y mayo de este año, influido por el bajo dinamismo de la economía y la caída en las decisiones de inversión. \"El desempleo depende de que haya disponibilidad de empresas por contratar y eso ocurre cuando hay períodos de inversión importante en Chile (...) Mañana sale el dato del Imacec de agosto y se espera que sea muy bajo, quizás negativo, aportando poco al crecimiento del país. Ahí hay una dimensión que, en la medida que se recupere la actividad económica, se va a recuperar algo el empleo, pero tampoco es magia. Se está tratando de entender qué es, pero por lo menos me parece importante que haya sensación de urgencia al respecto, porque no era algo que el Gobierno tenía en sus escenarios cuando partió \", sostuvo. El desafío de la inversión pública De cara a la discusión del erario fiscal en el Congreso, Wagner advirtió que el desafío no solo radica en la asignación de fondos, sino en la capacidad técnica para gastarlos a tiempo. \"Una cosa muy importante es la ejecución de la inversión pública, porque, por ejemplo, ahora lo que uno ve con los datos es que hay presupuesto aprobado para inversión pública y que cerca de 1.000 millones de dólares están atrasados en esa ejecución —transferencias y demases—. Entonces, ya no es solo presupuesto, sino que tiene que ver con las capacidades de ejecución presupuestaria \", concluyó.",
-            "url": "https://www.cooperativa.cl/noticias/pais/trabajo/cesantia/no-se-ve-muy-ambicioso-dice-academico-uai-sobre-el-plan-gubernamental/2026-09-30/201630.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20260930/imag/foto_0000000220260930201630.jpg",
-            "published_raw": "Wed, 30 Sep 2026 20:16:30 -0300",
-            "published_at": "2026-09-30T20:16:30-0300",
+            "title": "Senado negó haber gestionado visa de Daniel Núñez en Estados Unidos",
+            "description": "La Mesa del Senado desestimó haber realizado gestiones para tramitar una visa a Estados Unidos del senador comunista Daniel Núñez , tras la polémica generada por la decisión del país norteamericano de negar su ingreso. A través de una carta firmada por el presidente (s) de la instancia, Iván Moreira (UDI), expresaron que \"ningún funcionario de la Dirección de Asuntos Internacionales del Senado ha realizado gestiones destinadas a tramitar una visa para el senador Daniel Núñez Arancibia\". \"La Dirección de Asuntos Internacionales del Senado no ha presentado, remitido ni gestionado documentación alguna ante la Embajada de los Estados Unidos de América vinculada a dicha materia\", precisaron. El texto finaliza resaltando que \"en consecuencia, el Senado de la República no ha intervenido ni participa en ningún procedimiento relacionado con una solicitud de visa del senador mencionado\". Núñez viajaría para participar en una actividad de la Unión Interparlamentaria (UIP), en el marco de la Asamblea General de Naciones Unidas, a la que originalmente había sido invitado Francisco Huenchumilla (DC), quien desistió de asistir por razones familiares. ✍️Declaración Pública En atención a los requerimientos formulados por diversos medios de comunicación y a la solicitud presentada en la Sala por los Comités Mixto Demócrata Cristiano, Independiente II, PFRVS e Independientes, Comunista y Frente Amplio, respecto del otorgamiento… pic.twitter.com/GP8V3Unsfy — Senado Chile (@Senado_Chile) October 1, 2026 Embajador: \"Mentira descarada\" El embajador de Estados Unidos en Chile, Brandon Judd , calificó la acusación de Núñez como una \"mentira descarada\" y remarcó que su país \"nunca tuvo la oportunidad de otorgar o negar una visa porque nunca recibió una solicitud\". En su cuenta de X, Judd manifestó que \"cuando me hicieron llegar esta publicación, pensé que era una broma. Pero luego comencé a leer notas de prensa que no verificaron en absoluto la veracidad de la acusación. No era una broma sino una mentira descarada\" . \"El Gobierno de los Estados Unidos no comenta casos individuales de visas. Sin embargo, cuando se difunden falsedades tan evidentes en nuestra contra, respondemos con los hechos: Estados Unidos nunca tuvo la oportunidad de otorgar o negar una visa porque nunca recibió una solicitud. Estoy seguro de que el señor Núñez lo sabe\", añadió. El polémico diplomático remarcó que \"no hay nada más detrás de esto. Son simplemente más mentiras destinadas a avivar el rechazo hacia Estados Unidos \". Cuando me hicieron llegar esta publicación, pensé que era una broma. Pero luego comencé a leer notas de prensa que no verificaron en absoluto la veracidad de la acusación. No era una broma sino una mentira descarada. El Gobierno de los Estados Unidos no comenta casos… https://t.co/PnqjuqwkMV — U.S. Ambassador to Chile (@USAmbCL) September 30, 2026",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/senado-nego-haber-gestionado-visa-de-daniel-nunez-en-estados-unidos/2026-10-01/112557.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261001/imag/foto_0000000220261001112557.jpg",
+            "published_raw": "Thu, 01 Oct 2026 11:25:57 -0300",
+            "published_at": "2026-10-01T11:25:57-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 2,
+            "score_institutional": 3,
             "score_elections": 0,
-            "score_international": 0,
+            "score_international": 3,
             "score_conflict": 0,
-            "score_policy": 3,
-            "score_ideology": 0,
-            "score_actor": 0,
+            "score_policy": 0,
+            "score_ideology": 1,
+            "score_actor": 2,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 5,
-            "primary_topic": "Economía y políticas públicas",
-            "secondary_topic": "Instituciones y gobierno",
+            "political_evidence": 9,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Relaciones internacionales",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-016"
+            "cluster_id": "PML-EVENT-008"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 9,
-          "labels": "Economía y políticas públicas",
-          "chile_utility": 56.2
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 75.6
         },
         "repeated_in_general_top5": false
       }
@@ -656,32 +634,32 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 22,
-      "maximum_relevance": 68,
-      "leading_story": "Reino Unido convoca a la embajadora argentina en Londres en rechazo a las medidas de Milei por las Malvinas"
+      "event_count": 23,
+      "maximum_relevance": 64.8,
+      "leading_story": "Soberanía, seguridad y Estado: ¿Qué está en juego en las eleciones de Brasil?"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 3,
-      "maximum_relevance": 64,
+      "maximum_relevance": 62.8,
       "leading_story": "Las protestas estudiantiles se extienden por Francia mientras el Gobierno acusa al partido de Mélenchon de alentar la violencia urbana"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 7,
-      "maximum_relevance": 60.5,
+      "maximum_relevance": 58,
       "leading_story": "Elecciones en Brasil: las favelas en Río de Janeiro, un electorado clave en la disputa por el voto"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 48,
+      "maximum_relevance": 45.5,
       "leading_story": "EE.UU. negó visa al senador comunista Daniel Núñez"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 47.2,
+      "maximum_relevance": 44.7,
       "leading_story": "\"No se ve muy ambicioso\", dice académico UAI sobre el plan gubernamental para crear 100 mil empleos"
     }
   ],
@@ -690,7 +668,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
+    "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
     "source_count": 3
   },
   "system": {
