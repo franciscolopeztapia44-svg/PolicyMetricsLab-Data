@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-02",
-    "data_latest_timestamp": "2026-10-02T18:26:40-0300",
-    "data_age_hours": 2.9,
-    "generated_at": "2026-10-02T21:20:14-0300",
+    "data_latest_timestamp": "2026-10-02T22:34:36-0300",
+    "data_age_hours": 1.8,
+    "generated_at": "2026-10-03T00:21:59-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,22 +16,98 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 40 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Relaciones internacionales.",
+    "diversity": "La selección cubre 4 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 39,
-    "topics": 3,
+    "ranked_events": 40,
+    "topics": 4,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 67.8,
-    "maximum_relevance": 70.4
+    "average_top5_relevance": 67.5,
+    "maximum_relevance": 71.7
   },
   "top_stories": [
     {
       "position": 1,
+      "cluster_id": "PML-EVENT-024",
+      "title": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261003-la-oea-reclama-elecciones-libres-y-la-excarcelaci%C3%B3n-de-presos-pol%C3%ADticos-en-nicaragua",
+      "representative_source": "France 24",
+      "topic": "Relaciones internacionales",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / América Latina"
+      },
+      "relevance": {
+        "score": 71.7,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 71.7
+      },
+      "selection": {
+        "reason": "PML 71.7",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-10-02T22:34:36-0300",
+      "last_seen": "2026-10-02T22:34:36-0300",
+      "entities": [
+        "nicaragua",
+        "ortega"
+      ],
+      "event_terms": "sanciones",
+      "analysis": {
+        "summary": "La Organización de los Estados Americanos aprobó por unanimidad una resolución que reclama la liberación incondicional de los presos políticos, el restablecimiento de la separación de poderes y condiciones para celebrar elecciones libres, justas e inclusivas. El texto crea además un grupo de seguimiento, pero no contempla sanciones concretas contra el Gobierno de Daniel Ortega.",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en No identificado / América Latina.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua",
+          "description": "La Organización de los Estados Americanos aprobó por unanimidad una resolución que reclama la liberación incondicional de los presos políticos, el restablecimiento de la separación de poderes y condiciones para celebrar elecciones libres, justas e inclusivas. El texto crea además un grupo de seguimiento, pero no contempla sanciones concretas contra el Gobierno de Daniel Ortega.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261003-la-oea-reclama-elecciones-libres-y-la-excarcelaci%C3%B3n-de-presos-pol%C3%ADticos-en-nicaragua",
+          "image_url": "https://s.france24.com/media/display/36b2d99c-b0a2-11f1-a424-005056bf30b7/w:1024/p:16x9/000-76TX4G3.jpg",
+          "published_raw": "Sat, 03 Oct 2026 01:34:36 GMT",
+          "published_at": "2026-10-02T22:34:36-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 2,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Relaciones internacionales",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-024"
+        }
+      ]
+    },
+    {
+      "position": 2,
       "cluster_id": "PML-EVENT-002",
       "title": "Gobierno se abre a retirar reforma de seguridad y Kast descarta \"derrota política\"",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abre-a-retirar-reforma-de-seguridad-y-kast-descarta-derrota/2026-10-02/144846.html",
@@ -43,12 +119,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 70.4,
+        "score": 68.7,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 70.4
+        "editorial_utility": 80.7
       },
       "selection": {
-        "reason": "PML 70.4",
+        "reason": "PML 68.7; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -135,10 +211,10 @@
       ]
     },
     {
-      "position": 2,
+      "position": 3,
       "cluster_id": "PML-EVENT-011",
-      "title": "Elecciones en Brasil: EE. UU. suspende servicios consulares, en plena investigación por presunta “injerencia”",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261002-elecciones-en-brasil-ee-uu-suspende-servicios-consulares-en-plena-investigaci%C3%B3n-por-presunta-injerencia",
+      "title": "Voto femenino, clave en la recta final de las elecciones en Brasil",
+      "url": "https://www.france24.com/es/voto-femenino-clave-en-la-recta-final-de-las-elecciones-en-brasil",
       "representative_source": "France 24",
       "topic": "Elecciones y opinión pública",
       "event_type": "ELECTORAL_EVENT",
@@ -147,12 +223,12 @@
         "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 69.3,
+        "score": 68.8,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 81.3
+        "editorial_utility": 72.8
       },
       "selection": {
-        "reason": "PML 69.3; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 68.8; aporta diversidad temática",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -162,17 +238,12 @@
         "source_count": 1,
         "sources": "France 24"
       },
-      "first_seen": "2026-10-02T14:46:18-0300",
-      "last_seen": "2026-10-02T14:46:18-0300",
-      "entities": [
-        "brasil",
-        "trump",
-        "lula",
-        "bolsonaro"
-      ],
-      "event_terms": [],
+      "first_seen": "2026-10-02T21:33:06-0300",
+      "last_seen": "2026-10-02T21:33:06-0300",
+      "entities": "brasil",
+      "event_terms": "eleccion",
       "analysis": {
-        "summary": "La Administración de Donald Trump anunció que suspende el funcionamiento del consulado en Brasilia tras señalar \"motivos de seguridad\", en medio de quejas de la campaña del presidente y aspirante a la reelección, Luiz Inácio Lula da Silva por supuesta injerencia de Washington.",
+        "summary": "🗳️🇧🇷 En la recta final de la campaña electoral en Brasil, el voto femenino se perfila como uno de los factores decisivos. Las mujeres representan más de la mitad del electorado y su apoyo fue clave en las últimas elecciones. Sin embargo, persisten desafíos como la violencia de género y la baja representación política femenina, con apenas un 18% de los escaños de la Cámara de Diputados ocupados por mujeres. El informe es de nuestra corresponsal Valeria Saccone.",
         "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
         "watch_next": [
           "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
@@ -185,23 +256,23 @@
         {
           "source_id": "france24_latam",
           "source": "France 24",
-          "title": "Elecciones en Brasil: EE. UU. suspende servicios consulares, en plena investigación por presunta “injerencia”",
-          "description": "La Administración de Donald Trump anunció que suspende el funcionamiento del consulado en Brasilia tras señalar \"motivos de seguridad\", en medio de quejas de la campaña del presidente y aspirante a la reelección, Luiz Inácio Lula da Silva por supuesta injerencia de Washington. Entretanto, el último debate televisado entre los principales candidatos a la Presidencia–Lula y el ultraderechista Flávio Bolsonaro–se canceló después de la negativa de ambos a participar y ante una serie de decisiones judiciales que restringieron el encuentro. ",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261002-elecciones-en-brasil-ee-uu-suspende-servicios-consulares-en-plena-investigaci%C3%B3n-por-presunta-injerencia",
-          "image_url": "https://s.france24.com/media/display/3438bc1a-ab73-11f1-9359-005056bfb2b6/w:1024/p:16x9/4bef768eb564a6405d7e6ed5c9be085ce0841c5d.jpg",
-          "published_raw": "Fri, 02 Oct 2026 17:46:18 GMT",
-          "published_at": "2026-10-02T14:46:18-0300",
+          "title": "Voto femenino, clave en la recta final de las elecciones en Brasil",
+          "description": "🗳️🇧🇷 En la recta final de la campaña electoral en Brasil, el voto femenino se perfila como uno de los factores decisivos. Las mujeres representan más de la mitad del electorado y su apoyo fue clave en las últimas elecciones. Sin embargo, persisten desafíos como la violencia de género y la baja representación política femenina, con apenas un 18% de los escaños de la Cámara de Diputados ocupados por mujeres. El informe es de nuestra corresponsal Valeria Saccone.",
+          "url": "https://www.france24.com/es/voto-femenino-clave-en-la-recta-final-de-las-elecciones-en-brasil",
+          "image_url": "https://s.france24.com/media/display/b2d91642-beaa-11f1-afbe-1ff0321dbbd3/w:1024/p:16x9/FORMATO-5.png",
+          "published_raw": "Sat, 03 Oct 2026 00:33:06 GMT",
+          "published_at": "2026-10-02T21:33:06-0300",
           "country": "Brasil",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 1,
+          "score_institutional": 2,
           "score_elections": 3,
-          "score_international": 1,
+          "score_international": 0,
           "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 1,
+          "score_actor": 1,
+          "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 7,
           "primary_topic": "Elecciones y opinión pública",
@@ -213,8 +284,8 @@
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-024",
+      "position": 4,
+      "cluster_id": "PML-EVENT-026",
       "title": "El presunto asesino de la diputada británica Widdecombe planeaba un ataque terrorista contra el ultra Farage",
       "url": "https://elpais.com/internacional/2026-10-02/el-presunto-asesino-de-la-diputada-britanica-widdecombe-planeaba-un-ataque-terrorista-conta-el-ultra-farage.html",
       "representative_source": "EL PAÍS",
@@ -225,12 +296,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 65.9,
+        "score": 64.6,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 73.9
+        "editorial_utility": 72.6
       },
       "selection": {
-        "reason": "PML 65.9; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 64.6; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -281,82 +352,6 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-026",
-      "title": "El voto del odio marca las elecciones presidenciales en Brasil",
-      "url": "https://elpais.com/america/2026-10-02/el-voto-del-odio-marca-las-elecciones-presidenciales-en-brasil.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "No identificado / América Latina"
-      },
-      "relevance": {
-        "score": 67.8,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 62.8
-      },
-      "selection": {
-        "reason": "PML 67.8",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-02T01:00:00-0300",
-      "last_seen": "2026-10-02T01:00:00-0300",
-      "entities": [
-        "brasil",
-        "bolsonaro"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "La polarización extrema entre el presidente izquierdista y el derechista Flávio Bolsonaro lleva a muchos votantes a elegir el mal menor",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / América Latina.",
-        "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El voto del odio marca las elecciones presidenciales en Brasil",
-          "description": "La polarización extrema entre el presidente izquierdista y el derechista Flávio Bolsonaro lleva a muchos votantes a elegir el mal menor",
-          "url": "https://elpais.com/america/2026-10-02/el-voto-del-odio-marca-las-elecciones-presidenciales-en-brasil.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/K4RRFII4FNJ3NBDSFQFLZ2T3CM.jpg?auth=d25c6b95412b577ec6eb661f75f6d6e4e1d8bdd5274031dfa095e3cf643e5be7",
-          "published_raw": "Fri, 02 Oct 2026 04:00:00 GMT",
-          "published_at": "2026-10-02T01:00:00-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
           "cluster_id": "PML-EVENT-026"
         }
       ]
@@ -374,12 +369,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 65.6,
+        "score": 63.6,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 60.6
+        "editorial_utility": 58.6
       },
       "selection": {
-        "reason": "PML 65.6",
+        "reason": "PML 63.6",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -461,11 +456,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 63.9,
-          "level": "MEDIA-ALTA",
+          "score": 60.9,
+          "level": "MEDIA",
           "components": {
             "political_impact": 79,
-            "freshness": 100,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 32
@@ -516,7 +511,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 85.9
+          "chile_utility": 82.9
         },
         "repeated_in_general_top5": false
       },
@@ -533,11 +528,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 50.9,
+          "score": 48.4,
           "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 34
@@ -585,31 +580,31 @@
         "political_science_fit": {
           "bonus": 10,
           "labels": "Elecciones y opinión pública",
-          "chile_utility": 60.9
+          "chile_utility": 58.4
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-001",
-        "title": "Presupuesto: críticas transversales por drástico recorte para Liceos Bicentenario",
+        "cluster_id": "PML-EVENT-008",
+        "title": "Senado negó haber gestionado visa de Daniel Núñez en Estados Unidos",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "POLITICAL_STATEMENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-criticas-transversales-por-drastico-recorte-para-liceos/2026-10-01/192209.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/senado-nego-haber-gestionado-visa-de-daniel-nunez-en-estados-unidos/2026-10-01/112557.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 49.1,
+          "score": 45.6,
           "level": "BAJA",
           "components": {
-            "political_impact": 51,
-            "freshness": 72,
+            "political_impact": 52,
+            "freshness": 52,
             "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 38
+            "geographic_scope": 55,
+            "continuity": 28
           }
         },
         "coverage": {
@@ -617,47 +612,47 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-01T19:22:09-0300",
-        "last_seen": "2026-10-01T19:22:09-0300",
+        "first_seen": "2026-10-01T11:25:57-0300",
+        "last_seen": "2026-10-01T11:25:57-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Presupuesto: críticas transversales por drástico recorte para Liceos Bicentenario",
-            "description": "La discusión en torno al Presupuesto de la Nación para el próximo año comenzó a generar tensiones políticas, situando a la partida de Educación en el centro de las preocupaciones tanto de la oposición como del oficialismo. Pese a que el Presidente José Antonio Kast destacó la noche del miércoles, en cadena nacional , que los recursos para el sector ascienden a 17,3 billones de pesos —ubicándose como la segunda área con mayor asignación tras salud—, el análisis detallado del documento ha encendido las alarmas. Según datos publicados por La Tercera , el presupuesto de Educación experimentará un crecimiento nominal del 3,9% , pero,  al descontar la inflación proyectada de 3,1% , el incremento real se reduce a un 0,78% . A esto se suma que el desglose de los fondos evidencia la desaparición del financiamiento destinado al programa que entrega computadores portátiles gratuitos a estudiantes , además de un recorte presupuestario de casi un 47% para los Liceos Bicentenario , enfocado principalmente en el ítem de inversión. Preocupación transversal Desde el Congreso, el diputado Juan Santana (Partido Socialista) cuestionó que \"hace menos de un año la ministra María Paz Arzola (de Educación) decía que no le hacía sentido recortar presupuesto a los Liceos Bicentenario porque había evidencia de que esto funcionaba, y hoy, con su propio presupuesto en la mano, les quita prácticamente la mitad: de 6.500 a 3.600 millones\" . \"No vamos a aprobar la partida en educación en los términos que viene\" , advirtió el parlamentario. En la misma línea, el diputado oficialista Sergio Bobadilla (UDI) reconoció que \"el país está pasando por una estrechez económica, como también entendemos que hay que ordenar las cuentas, pero eso no puede ser a costa de la educación en nuestro país, como, por ejemplo, recortar los recursos a una política pública tremendamente exitosa, como los Liceos Bicentenario \". El diputado e integrante de la Comisión de Educación, Luis Pardo (RN), coincidió: \"La reducción que estaría advirtiéndose en el Presupuesto para este año tendría relación con que hay que consolidar esa política pública\". \"Las últimas asignaciones de recursos para los Liceos Bicentenario han tenido baja ejecución presupuestaria en algunos casos y también se advierte cierta disparidad entre distintos proyectos\", agregó. Experto: \"Presupuesto no contempla una contracción neta, sino una reasignación a seguridad y empleo\" Consultado por la partida de Educación, el ministro de Hacienda, Jorge Quiroz , declinó entregar detalles: \"Eso se va a saber cuando se revele el Presupuesto en su totalidad \", señaló. Además, reiteró que si se usara \"el presupuesto aprobado por el Parlamento del año pasado, tendríamos que estar hablando de una expansión del 2,7% (de los recursos destinados a gasto). Respecto de lo ejecutado este año, es de 1,5%,  y hemos preferido hablar sobre esa base porque nos gusta hablar con máxima transparencia\", sostuvo.  En este contexto, el académico y economista de la U. Autónoma Rodrigo Tranamil indicó que no se puede hacer un recorte mayor porque \"prevalecieron las restricciones estructurales del gasto. Más del 80% del Presupuesto está comprometido por leyes permanentes en previsión, salud y educación,  lo que impide ajustes nominales de magnitud en el corto plazo sin reformas legales\". \"Con todo , el proyecto no contempla una contracción neta del presupuesto, sino una reasignación a seguridad y empleo. Un alza del gasto público de un 1,5% real es técnicamente moderada y constituye la menor tasa en dos décadas, salvo la normalización del año 2022 durante la pandemia\", dijo el experto.  Programa de Acompañamiento a la Identidad de Género: \"Va a haber tensión\", advierte el PNL A los cuestionamientos económicos se suman focos de conflicto político ideológico . Desde el Partido Nacional Libertario (PNL), su timonel y ex candidato presidencial, Johannes Kaiser , adelantó que \"va a haber puntos de tensión\" en la discusión del Presupuesto y puso como ejemplo el financiamiento al Programa de Acompañamiento a la Identidad de Género (PAIG) , una iniciativa del Estado orientada a brindar apoyo biopsicosocial y afirmativo a niños, niñas y adolescentes (NNA) trans y de género no conforme, así como a sus familias. \"No creemos que se debiera financiar algo que en otros países está siendo suspendido o cancelado. O sea, vamos a tener conflicto. Esto no solamente es una batalla cultural ; tiene que ver con la indemnidad física y psíquica de menores de edad y, si van a llamar a eso batalla cultural, ni un problema: la vamos a dar hasta la última gota de sangre \", aseveró el dirigente. Las críticas a la estructura general del Presupuesto también han estado marcadas por la controversia metodológica instalada por el Ministerio de Hacienda, al utilizar como base de comparación el gasto proyectado y ejecutado para este año —en lugar de la ley aprobada previamente—, un cambio defendido por Quiroz. Sin embargo, expertos y parlamentarios advierten que esta fórmula genera confusión y opaca el alcance real de los reajustes sectoriales de cara a la tramitación legislativa, que comenzará la próxima semana .",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-criticas-transversales-por-drastico-recorte-para-liceos/2026-10-01/192209.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261001/imag/foto_0000001320261001192209.jpg",
-            "published_raw": "Thu, 01 Oct 2026 19:22:09 -0300",
-            "published_at": "2026-10-01T19:22:09-0300",
+            "title": "Senado negó haber gestionado visa de Daniel Núñez en Estados Unidos",
+            "description": "La Mesa del Senado desestimó haber realizado gestiones para tramitar una visa a Estados Unidos del senador comunista Daniel Núñez , tras la polémica generada por la decisión del país norteamericano de negar su ingreso. A través de una carta firmada por el presidente (s) de la instancia, Iván Moreira (UDI), expresaron que \"ningún funcionario de la Dirección de Asuntos Internacionales del Senado ha realizado gestiones destinadas a tramitar una visa para el senador Daniel Núñez Arancibia\". \"La Dirección de Asuntos Internacionales del Senado no ha presentado, remitido ni gestionado documentación alguna ante la Embajada de los Estados Unidos de América vinculada a dicha materia\", precisaron. El texto finaliza resaltando que \"en consecuencia, el Senado de la República no ha intervenido ni participa en ningún procedimiento relacionado con una solicitud de visa del senador mencionado\". Núñez viajaría para participar en una actividad de la Unión Interparlamentaria (UIP), en el marco de la Asamblea General de Naciones Unidas, a la que originalmente había sido invitado Francisco Huenchumilla (DC), quien desistió de asistir por razones familiares. ✍️Declaración Pública En atención a los requerimientos formulados por diversos medios de comunicación y a la solicitud presentada en la Sala por los Comités Mixto Demócrata Cristiano, Independiente II, PFRVS e Independientes, Comunista y Frente Amplio, respecto del otorgamiento… pic.twitter.com/GP8V3Unsfy — Senado Chile (@Senado_Chile) October 1, 2026 Embajador: \"Mentira descarada\" El embajador de Estados Unidos en Chile, Brandon Judd , calificó la acusación de Núñez como una \"mentira descarada\" y remarcó que su país \"nunca tuvo la oportunidad de otorgar o negar una visa porque nunca recibió una solicitud\". En su cuenta de X, Judd manifestó que \"cuando me hicieron llegar esta publicación, pensé que era una broma. Pero luego comencé a leer notas de prensa que no verificaron en absoluto la veracidad de la acusación. No era una broma sino una mentira descarada\" . \"El Gobierno de los Estados Unidos no comenta casos individuales de visas. Sin embargo, cuando se difunden falsedades tan evidentes en nuestra contra, respondemos con los hechos: Estados Unidos nunca tuvo la oportunidad de otorgar o negar una visa porque nunca recibió una solicitud. Estoy seguro de que el señor Núñez lo sabe\", añadió. El polémico diplomático remarcó que \"no hay nada más detrás de esto. Son simplemente más mentiras destinadas a avivar el rechazo hacia Estados Unidos \". Cuando me hicieron llegar esta publicación, pensé que era una broma. Pero luego comencé a leer notas de prensa que no verificaron en absoluto la veracidad de la acusación. No era una broma sino una mentira descarada. El Gobierno de los Estados Unidos no comenta casos… https://t.co/PnqjuqwkMV — U.S. Ambassador to Chile (@USAmbCL) September 30, 2026",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/senado-nego-haber-gestionado-visa-de-daniel-nunez-en-estados-unidos/2026-10-01/112557.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261001/imag/foto_0000000220261001112557.jpg",
+            "published_raw": "Thu, 01 Oct 2026 11:25:57 -0300",
+            "published_at": "2026-10-01T11:25:57-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 7,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 2,
-            "score_policy": 6,
+            "score_institutional": 3,
+            "score_elections": 0,
+            "score_international": 3,
+            "score_conflict": 0,
+            "score_policy": 0,
             "score_ideology": 1,
-            "score_actor": 7,
+            "score_actor": 2,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 24,
+            "political_evidence": 9,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Relaciones internacionales",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
+            "cluster_id": "PML-EVENT-008"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 18,
+          "bonus": 21,
           "labels": [
             "Estado e instituciones",
-            "Economía y políticas públicas"
+            "Congreso y proceso legislativo"
           ],
-          "chile_utility": 67.1
+          "chile_utility": 66.6
         },
         "repeated_in_general_top5": false
       }
@@ -665,21 +660,27 @@
   },
   "topics": [
     {
-      "topic": "Instituciones y gobierno",
-      "event_count": 26,
-      "maximum_relevance": 70.4,
-      "leading_story": "Gobierno se abre a retirar reforma de seguridad y Kast descarta \"derrota política\""
+      "topic": "Relaciones internacionales",
+      "event_count": 1,
+      "maximum_relevance": 71.7,
+      "leading_story": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 9,
-      "maximum_relevance": 69.3,
-      "leading_story": "Elecciones en Brasil: EE. UU. suspende servicios consulares, en plena investigación por presunta “injerencia”"
+      "event_count": 10,
+      "maximum_relevance": 68.8,
+      "leading_story": "Voto femenino, clave en la recta final de las elecciones en Brasil"
+    },
+    {
+      "topic": "Instituciones y gobierno",
+      "event_count": 25,
+      "maximum_relevance": 68.7,
+      "leading_story": "Gobierno se abre a retirar reforma de seguridad y Kast descarta \"derrota política\""
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 4,
-      "maximum_relevance": 65.9,
+      "maximum_relevance": 64.6,
       "leading_story": "El presunto asesino de la diputada británica Widdecombe planeaba un ataque terrorista contra el ultra Farage"
     }
   ],
@@ -688,7 +689,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "France 24", "EL PAÍS"],
+    "representative_sources": ["France 24", "Cooperativa", "EL PAÍS"],
     "source_count": 3
   },
   "system": {
