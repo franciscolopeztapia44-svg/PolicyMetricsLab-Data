@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-10-02",
-    "data_latest_timestamp": "2026-10-02T22:34:36-0300",
-    "data_age_hours": 1.8,
-    "generated_at": "2026-10-03T00:21:59-0300",
+    "date": "2026-10-03",
+    "data_latest_timestamp": "2026-10-03T00:21:26-0300",
+    "data_age_hours": 3,
+    "generated_at": "2026-10-03T03:23:04-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 40 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Relaciones internacionales.",
-    "diversity": "La selección cubre 4 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Relaciones internacionales.",
+    "diversity": "La selección cubre 4 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 40,
+    "ranked_events": 39,
     "topics": 4,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 67.5,
+    "average_top5_relevance": 67.6,
     "maximum_relevance": 71.7
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-024",
+      "cluster_id": "PML-EVENT-023",
       "title": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261003-la-oea-reclama-elecciones-libres-y-la-excarcelaci%C3%B3n-de-presos-pol%C3%ADticos-en-nicaragua",
       "representative_source": "France 24",
@@ -102,7 +102,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
+          "cluster_id": "PML-EVENT-023"
         }
       ]
     },
@@ -285,7 +285,7 @@
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-026",
+      "cluster_id": "PML-EVENT-025",
       "title": "El presunto asesino de la diputada británica Widdecombe planeaba un ataque terrorista contra el ultra Farage",
       "url": "https://elpais.com/internacional/2026-10-02/el-presunto-asesino-de-la-diputada-britanica-widdecombe-planeaba-un-ataque-terrorista-conta-el-ultra-farage.html",
       "representative_source": "EL PAÍS",
@@ -296,12 +296,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 64.6,
+        "score": 62.9,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 72.6
+        "editorial_utility": 70.9
       },
       "selection": {
-        "reason": "PML 64.6; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 62.9; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -352,29 +352,29 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
+          "cluster_id": "PML-EVENT-025"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-003",
-      "title": "Congreso despachó a ley la esperada reforma al sistema político",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/congreso-despacho-a-ley-la-esperada-reforma-al-sistema-politico/2026-10-02/093507.html",
+      "cluster_id": "PML-EVENT-004",
+      "title": "Escudo de las Américas incluido: las claves del arresto del fiscal boliviano que investiga a Cerimedo",
+      "url": "https://www.cooperativa.cl/noticias/mundo/bolivia/escudo-de-las-americas-incluido-las-claves-del-arresto-del-fiscal/2026-10-03/002126.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
+      "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
         "group": "Chile",
         "country": "Chile"
       },
       "relevance": {
-        "score": 63.6,
+        "score": 65.9,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 58.6
+        "editorial_utility": 63.9
       },
       "selection": {
-        "reason": "PML 63.6",
+        "reason": "PML 65.9; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -384,24 +384,21 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-10-02T09:35:07-0300",
-      "last_seen": "2026-10-02T09:35:07-0300",
-      "entities": [
-        "congreso",
-        "senado",
-        "chile"
-      ],
+      "first_seen": "2026-10-03T00:21:26-0300",
+      "last_seen": "2026-10-03T00:21:26-0300",
+      "entities": "colombia",
       "event_terms": [
         "eleccion",
-        "tribunal"
+        "oposicion",
+        "soberania"
       ],
       "analysis": {
-        "summary": "Después de que ya fuera ratificado por el Senado, la Sala de la Cámara de Diputadas y Diputados aprobó el informe de la Comisión Mixta de la esperada reforma al sistema político , por lo que fue despachada a ley. La norma modifica la Ley Orgánica Constitucional de Partidos Políticos en materia de requisitos para crear nuevas tiendas , al establecer que éstas existirán legalmente si se constituyen en al menos ocho regiones del país , para lo cual requieren la firma de un 0,3%…",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "summary": "La detención del fiscal general de Bolivia, Roger Mariaca , acusado por el Gobierno de Rodrigo Paz de liderar una \"organización criminal\" de protección al \"narcoterrorismo\" , puso en tela de juicio la labor del Ministerio Público y abrió un conflicto institucional sobre quién debe quedar al frente de la Fiscalía mientras avanza la investigación. Dos días antes de su detención, EE.UU. revocó el visado de Mariaca por supuesta corrupción .",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
@@ -409,30 +406,30 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Congreso despachó a ley la esperada reforma al sistema político",
-          "description": "Después de que ya fuera ratificado por el Senado, la Sala de la Cámara de Diputadas y Diputados aprobó el informe de la Comisión Mixta de la esperada reforma al sistema político , por lo que fue despachada a ley. La norma modifica la Ley Orgánica Constitucional de Partidos Políticos en materia de requisitos para crear nuevas tiendas , al establecer que éstas existirán legalmente si se constituyen en al menos ocho regiones del país , para lo cual requieren la firma de un 0,3% del padrón electoral definitivo de la última elección de diputados. En el caso de las colectividades actualmente constituidas, la reforma fija un plazo de 18 meses para que reúnan la cifra mínima de afiliados para mantener su legalidad -equivalente al 50% de las firmas requeridas para su constitución. De no lograrlo, el Servicio Electoral podrá alargar este periodo, pero eventualmente, arriesgan dejar de existir en las regiones donde no alcancen la meta. Este cambio abre una carrera para incorporar a nuevos militantes en ciertos partidos : por ejemplo, según datos del Servel, al 31 de julio, el Partido Liberal; Evópoli; el Partido Radical; el PPD; la Federación Regionalista Verde Social; el Partido Republicano y la Democracia Cristiana se encuentran bajo el nuevo piso en la Región Metropolitana, cuyo umbral de permanencia roza los 9 mil afiliados. SISTEMA POLÍTICO📰| A ley proyecto que promueve gobernabilidad y representatividad del sistema político. https://t.co/B8DRlrYIdu pic.twitter.com/T4KLsUuYtO — Diputadas y Diputados de Chile (@Camara_cl) September 30, 2026 La iniciativa también establece que solo los partidos con representación parlamentaria podrán acceder al financiamiento público . Asimismo, modifica las leyes orgánicas de votaciones populares y escrutinios, de municipalidades y de gobierno regional, respecto de las exigencias para la inscripción de candidaturas independientes, limitándolas al 50% de las listas parlamentarias . Obligación a condenar la violencia política y el totalitarismo En detalle, la propuesta de la Comisión Mixta resolvió una divergencia específica sobre el contenido de las declaraciones de principios de los partidos políticos: cada tienda deberá condenar el establecimiento de sistemas totalitarios y el uso de la violencia como método de acción política , así como afirmar su compromiso con la probidad y transparencia de la actividad política. Una vez promulgada la ley, las colectividades dispondrán de un plazo de seis meses para adecuar sus declaraciones de principios a los nuevos requisitos establecidos. 🏛️ #CámaraInforma | La Cámara despachó a ley los proyectos sobre gobernabilidad y representatividad del sistema político y el Día Nacional de la Teletón. Además, Salud abordó el vencimiento de más de 700 mil vacunas contra la influenza. 🔗 https://t.co/wpp1I0lxZK pic.twitter.com/RPGhQna6Og — Diputadas y Diputados de Chile (@Camara_cl) September 30, 2026 El informe de la mixta se aprobó por 125 votos a favor, 12 en contra (incluida toda la bancada del Partido Comunista) y dos abstenciones: la jefa de los diputados PC, Daniela Serrano , calificó como una \"caricatura\" la disposición contra los regímenes totalitarios y la violencia política. \" Actualmente, el texto constitucional ya lo consagra (ese rechazo) , y los partidos cumplimos con esa normativa incluso para estar representados en el Congreso\", arguyó la parlamentaria, aclarando que \" no nos oponemos a la norma por eso, sino por cómo quedó redactada , y porque no resuelve todo el problema que tiene el sistema político\". Cambios en el funcionamiento de comités parlamentarios Por otro lado, la reforma genera cambios en la Ley Orgánica del Congreso Nacional para otorgar un reconocimiento de carácter legal a los comités parlamentarios . En cuanto al funcionamiento de las bancadas, establece como infracción grave a la disciplina interna el incumplimiento de los acuerdos adoptados por cada grupo del que formen parte diputados o senadores. Además, señala que si un parlamentario renuncia a un comité, éste conservará las asignaciones que recibe por dicho diputado o senador . Del mismo modo, si el legislador se incorpora luego a otra bancada, esta no incrementará sus asignaciones. Reservas de constitucionalidad Desde algunas colectividades más pequeñas y emergentes , que podrían verse perjudicadas por el fondo de la reforma, tildaron las mayores exigencias territoriales y de afiliación como barreras de ingreso al sistema político y posiblemente, perjudiciales para la pluralidad. De hecho, los diputados Jaime Mulet (FRVS) y Hans Marowski (Partido Nacional Libertario) presentaron reservas de constitucionalidad durante la discusión, y no descartan recurrir al Tribunal Constitucional para impedir la publicación de la norma. \"De alguna manera, lo que hace es impedir la conformación de nuevos partidos políticos , complejiza su construcción, y creo que eso es complejo. De alguna manera, 'carteliza' la política\", advirtió Mulet . A su vez, Marowski precisó que desde Libertarios \"lo único que votamos a favor fue una norma que condenaba la violencia y el totalitarismo, que es un mínimo democrático, pero no hay que confundirse: esta reforma es pésima . Mantiene el arrastre, cierra las puertas a nuevos partidos, y protege los privilegios de los que ya están instalados\". La propuesta debe pasar por el control preventivo del TC antes de su eventual promulgación, y los mentados plazos para adecuarse a sus disposiciones solo comenzarán a correr tras su publicación en el Diario Oficial.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/congreso-despacho-a-ley-la-esperada-reforma-al-sistema-politico/2026-10-02/093507.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000220261002093507.jpg",
-          "published_raw": "Fri, 02 Oct 2026 09:35:07 -0300",
-          "published_at": "2026-10-02T09:35:07-0300",
+          "title": "Escudo de las Américas incluido: las claves del arresto del fiscal boliviano que investiga a Cerimedo",
+          "description": "La detención del fiscal general de Bolivia, Roger Mariaca , acusado por el Gobierno de Rodrigo Paz de liderar una \"organización criminal\" de protección al \"narcoterrorismo\" , puso en tela de juicio la labor del Ministerio Público y abrió un conflicto institucional sobre quién debe quedar al frente de la Fiscalía mientras avanza la investigación. Dos días antes de su detención, EE.UU. revocó el visado de Mariaca por supuesta corrupción . El fiscal rechazó las acusaciones y denunció un intento de \"condicionar\" o \"interferir\" en la labor del Ministerio Público. Estas son las claves para explicar el caso: 1. Una gestión cuestionada Mariaca llegó a la Fiscalía General después de haber dirigido durante cuatro años la Fiscalía departamental de Santa Cruz, un periodo en el que ya había recibido criticas por la gestión de investigaciones de repercusión pública. Entre los casos señalados estuvo el de un vuelo que trasladó cerca de media tonelada de cocaína desde Bolivia a España en 2023, cuya investigación fue cuestionada por supuestas negligencias o retrasos. Pese a esto, en octubre de 2024 fue elegido fiscal general por el Parlamento, entonces controlado por el Movimiento al Socialismo (MAS) de los expresidentes Evo Morales (2006-2019) y Luis Arce (2020-2025). Su elección fue cuestionada por sectores de la entonces oposición, que señalaban una supuesta afinidad con ese partido. 2. Marset, el antecedente central de la acusación El Gobierno sostiene que las sospechas sobre Mariaca y una supuesta red de protección al narcotráfico se remontan a 2023, cuando el narcotraficante uruguayo Sebastián Marset logró escapar de un operativo policial desplegado para capturarlo, durante la etapa en que era fiscal departamental de Santa Cruz. El ministro de Gobierno (Interior), Marco Antonio Oviedo , señaló esta semana que los supuestos \"antecedentes\" de protección a la organización de Marset son anteriores a la llegada de Mariaca a la Fiscalía General. Marset fue finalmente capturado en marzo pasado y entregado a Estados Unidos en un operativo en el que no participó la Fiscalía General. El Gobierno de Paz ha utilizado este caso y las investigaciones posteriores para cuestionar las actuaciones de la Fiscalía durante la gestión de Mariaca. 3. Mariaca denunció presiones Dos días antes de su detención, EE.UU. revocó el visado de Mariaca y lo incluyó en un listado de altos cargos y exfuncionarios de Bolivia, Colombia y Perú a los que acusó de corrupción y de \"socavar Gobiernos elegidos democráticamente\". Mariaca rechazó las acusaciones y defendió la independencia del Ministerio Público. Dijo haber recibido \"con mucha sorpresa\" la decisión de Washington y pidió \"respeto\" a la soberanía de Bolivia , al considerar que se pretendía \"condicionar\" o \"interferir\" en el trabajo de la Fiscalía . El fiscal general vinculó la decisión estadounidense con las \"implicaciones\" que tuvieron algunas investigaciones impulsadas por la Fiscalía, entre ellas las relacionadas con el consultor político argentino Fernando Cerimedo , procesado por una supuesta tentativa de feminicidio contra su expareja y también investigado por presunto enriquecimiento ilícito . 4. De qué se le acusa a Mariaca Mariaca fue detenido el miércoles por la Policía acusado de liderar una supuesta organización criminal y de los delitos de legitimación de ganancias ilícitas y tráfico ilícito de sustancias controladas . El Gobierno sostiene que Mariaca encabezaba una estructura dedicada a proteger actividades vinculadas al narcotráfico y que las acusaciones están relacionadas con la supuesta protección a la organización de Marset . Además de Mariaca, fueron detenidos el fiscal departamental de Santa Cruz, Alberto Zeballos , y otras personas vinculadas a la Fiscalía. Entre los arrestados hay seis señalados de intentar sacar documentación de la vivienda del fiscal general. Cerca del domicilio, también se decomisaron más de 300.000 dólares que eran transportados en una ambulancia que salió del lugar. Por tratarse, según el Ejecutivo, de delitos ordinarios, el Gobierno sostiene que Mariaca debe ser procesado por la justicia ordinaria y no mediante un juicio de responsabilidades ante el Parlamento . 5. Disputa por quién queda al frente de la Fiscalía Tras la detención de Mariaca, Luis Montaño asumió provisionalmente la conducción de la Fiscalía General por ser el fiscal superior \"con mayor antigüedad\", según el Ministerio Público, con el argumento de evitar un vacío institucional. El Gobierno de Paz desconoció esa designación , acusó a Montaño de usurpar funciones y sostuvo que el Legislativo debe definir quién asume de manera transitoria la dirección de la Fiscalía. El Parlamento sesiona este viernes para abordar una propuesta de modificación de la ley que regula la Fiscalía General y establecer un procedimiento para la suspensión definitiva del fiscal general en caso de que cometa un delito ordinario. 6. Respaldo internacional El Departamento de Estado de EE.UU. y los países que integran la coalición 'Escudo de las Américas' respaldaron al Gobierno de Paz y reclamaron que continúen las investigaciones y los procesos contra las supuestas redes de protección al narcotráfico. El caso se produce además en un país donde la hoja de coca tiene un doble carácter: es un cultivo tradicional de profundo valor cultural y, al mismo tiempo, la materia prima utilizada para producir cocaína . La Constitución reconoce la coca originaria y ancestral como patrimonio cultural y establece que en su estado natural no es un estupefaciente. En septiembre, Bolivia presentó su nueva política antidroga para 2025-2030 , después de que un informe de la Oficina de Naciones Unidas contra la Droga y el Delito (Unodc) registrara 36.400 hectáreas de cultivos de coca en 2025, un 7% más que las 34.000 de 2024.",
+          "url": "https://www.cooperativa.cl/noticias/mundo/bolivia/escudo-de-las-americas-incluido-las-claves-del-arresto-del-fiscal/2026-10-03/002126.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261003/imag/foto_0000000220261003002126.jpg",
+          "published_raw": "Sat, 03 Oct 2026 00:21:26 -0300",
+          "published_at": "2026-10-03T00:21:26-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 9,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 1,
+          "score_institutional": 6,
+          "score_elections": 1,
+          "score_international": 2,
+          "score_conflict": 3,
           "score_policy": 1,
-          "score_ideology": 2,
+          "score_ideology": 0,
           "score_actor": 3,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 18,
+          "political_evidence": 16,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
+          "cluster_id": "PML-EVENT-004"
         }
       ]
     }
@@ -445,25 +442,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-009",
-        "title": "TC dio luz verde a la Ley de Reconstrucción pero tumbó normas clave",
+        "cluster_id": "PML-EVENT-003",
+        "title": "Congreso despachó a ley la esperada reforma al sistema político",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/tc-dio-luz-verde-a-la-ley-de-reconstruccion-pero-tumbo-normas-clave/2026-10-02/161955.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/congreso-despacho-a-ley-la-esperada-reforma-al-sistema-politico/2026-10-02/093507.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 60.9,
-          "level": "MEDIA",
+          "score": 63.6,
+          "level": "MEDIA-ALTA",
           "components": {
-            "political_impact": 79,
-            "freshness": 88,
+            "political_impact": 90,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 32
+            "continuity": 46
           }
         },
         "coverage": {
@@ -471,36 +468,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-02T16:19:55-0300",
-        "last_seen": "2026-10-02T16:19:55-0300",
+        "first_seen": "2026-10-02T09:35:07-0300",
+        "last_seen": "2026-10-02T09:35:07-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "TC dio luz verde a la Ley de Reconstrucción pero tumbó normas clave",
-            "description": "Tras dos meses de revisión judicial luego de ser despachada por el Congreso, el Tribunal Constitucional (TC) dejó este viernes lista para su promulgación la Ley de Reconstrucción Nacional y Desarrollo Económico y Social , pero asestó un revés al Gobierno al desestimar tres artículos determinantes. En detalle, se anularon las indemnizaciones a empresas frente a resoluciones ambientales revocadas , descartó la exigencia a las municipalidades de reducir en al menos 30% los tiempos de trámites para acceder a compensaciones fiscales por la exención de contribuciones, y eliminó la facultad que permitía a los municipios más ricos retener ingresos sin derivarlos al Fondo Común Municipal . El pronunciamiento del tribunal marca el cierre del control preventivo de la ley y define el marco legal bajo el cual entrará en vigor , dejando fuera del ordenamiento varios de los puntos que habían generado mayor resistencia técnica y política . Fin de las indemnizaciones por permisos ambientales anulados La primera traba eliminada por el TC correspondía al artículo número 12 del proyecto, el cual facultaba a las empresas a recurrir ante la Corte de Apelaciones de Santiago para reclamar montos de indemnización cuando una Resolución de Calificación Ambiental (RCA) fuese anulada . Gran parte de este mecanismo ya había perdido viabilidad jurídica tras los requerimientos ingresados previamente por sectores de la oposición. Desde el Ministerio de Hacienda explicaron que lo que aún subsistía de dicha disposición terminó por ser desestimado por el tribunal , cerrando la vía indemnizatoria prevista en este cuerpo legal. Freno a exigencias administrativas y resguardo al Fondo Común Municipal Las objeciones de mayor impacto se concentraron en las compensaciones a los gobiernos locales a raíz de la merma en la recaudación por la exención de contribuciones . El artículo 32 del proyecto buscaba condicionar la entrega de dichos recursos fiscales a que las administraciones municipales agilizaran sus gestiones internas, imponiendo una rebaja obligatoria de al menos 30% en los tiempos de tramitación de permisos . Frente a esta fórmula, el Tribunal Constitucional determinó que tales condiciones resultaban \" incompatibles con el carácter solidario del sistema municipal y del Fondo Común Municipal \", invalidando la exigencia administrativa. Asimismo, la magistratura constitucional frenó un beneficio transitorio que favorecía directamente a las comunas de más altos ingresos del país. La disposición, contenida en el inciso sexto del artículo 17 transitorio, facultaba a determinados municipios a retener caudales sin aportarlos al Fondo Común Municipal durante el 2027 y 2028 . Al revisar este mecanismo, el TC concluyó taxativamente que la excepción \"vulneraba el principio constitucional de redistribución solidaria \", por lo que fue excluida en su totalidad de la versión final de la ley. La Moneda alista la fecha para la promulgación Con la resolución notificada, el balance general evidencia que la ley quedó en condiciones de entrar en régimen sin los incentivos indemnizatorios a proyectos de inversión ni las modificaciones al sistema solidario de financiamiento comunal que pretendía el Ejecutivo. En el Palacio de La Moneda ya se analiza el contenido del fallo y se trabaja en la fijación del cronograma oficial para la firma y promulgación definitiva de la nueva Ley de Reconstrucción.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/tc-dio-luz-verde-a-la-ley-de-reconstruccion-pero-tumbo-normas-clave/2026-10-02/161955.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000220261002161955.png",
-            "published_raw": "Fri, 02 Oct 2026 16:19:55 -0300",
-            "published_at": "2026-10-02T16:19:55-0300",
+            "title": "Congreso despachó a ley la esperada reforma al sistema político",
+            "description": "Después de que ya fuera ratificado por el Senado, la Sala de la Cámara de Diputadas y Diputados aprobó el informe de la Comisión Mixta de la esperada reforma al sistema político , por lo que fue despachada a ley. La norma modifica la Ley Orgánica Constitucional de Partidos Políticos en materia de requisitos para crear nuevas tiendas , al establecer que éstas existirán legalmente si se constituyen en al menos ocho regiones del país , para lo cual requieren la firma de un 0,3% del padrón electoral definitivo de la última elección de diputados. En el caso de las colectividades actualmente constituidas, la reforma fija un plazo de 18 meses para que reúnan la cifra mínima de afiliados para mantener su legalidad -equivalente al 50% de las firmas requeridas para su constitución. De no lograrlo, el Servicio Electoral podrá alargar este periodo, pero eventualmente, arriesgan dejar de existir en las regiones donde no alcancen la meta. Este cambio abre una carrera para incorporar a nuevos militantes en ciertos partidos : por ejemplo, según datos del Servel, al 31 de julio, el Partido Liberal; Evópoli; el Partido Radical; el PPD; la Federación Regionalista Verde Social; el Partido Republicano y la Democracia Cristiana se encuentran bajo el nuevo piso en la Región Metropolitana, cuyo umbral de permanencia roza los 9 mil afiliados. SISTEMA POLÍTICO📰| A ley proyecto que promueve gobernabilidad y representatividad del sistema político. https://t.co/B8DRlrYIdu pic.twitter.com/T4KLsUuYtO — Diputadas y Diputados de Chile (@Camara_cl) September 30, 2026 La iniciativa también establece que solo los partidos con representación parlamentaria podrán acceder al financiamiento público . Asimismo, modifica las leyes orgánicas de votaciones populares y escrutinios, de municipalidades y de gobierno regional, respecto de las exigencias para la inscripción de candidaturas independientes, limitándolas al 50% de las listas parlamentarias . Obligación a condenar la violencia política y el totalitarismo En detalle, la propuesta de la Comisión Mixta resolvió una divergencia específica sobre el contenido de las declaraciones de principios de los partidos políticos: cada tienda deberá condenar el establecimiento de sistemas totalitarios y el uso de la violencia como método de acción política , así como afirmar su compromiso con la probidad y transparencia de la actividad política. Una vez promulgada la ley, las colectividades dispondrán de un plazo de seis meses para adecuar sus declaraciones de principios a los nuevos requisitos establecidos. 🏛️ #CámaraInforma | La Cámara despachó a ley los proyectos sobre gobernabilidad y representatividad del sistema político y el Día Nacional de la Teletón. Además, Salud abordó el vencimiento de más de 700 mil vacunas contra la influenza. 🔗 https://t.co/wpp1I0lxZK pic.twitter.com/RPGhQna6Og — Diputadas y Diputados de Chile (@Camara_cl) September 30, 2026 El informe de la mixta se aprobó por 125 votos a favor, 12 en contra (incluida toda la bancada del Partido Comunista) y dos abstenciones: la jefa de los diputados PC, Daniela Serrano , calificó como una \"caricatura\" la disposición contra los regímenes totalitarios y la violencia política. \" Actualmente, el texto constitucional ya lo consagra (ese rechazo) , y los partidos cumplimos con esa normativa incluso para estar representados en el Congreso\", arguyó la parlamentaria, aclarando que \" no nos oponemos a la norma por eso, sino por cómo quedó redactada , y porque no resuelve todo el problema que tiene el sistema político\". Cambios en el funcionamiento de comités parlamentarios Por otro lado, la reforma genera cambios en la Ley Orgánica del Congreso Nacional para otorgar un reconocimiento de carácter legal a los comités parlamentarios . En cuanto al funcionamiento de las bancadas, establece como infracción grave a la disciplina interna el incumplimiento de los acuerdos adoptados por cada grupo del que formen parte diputados o senadores. Además, señala que si un parlamentario renuncia a un comité, éste conservará las asignaciones que recibe por dicho diputado o senador . Del mismo modo, si el legislador se incorpora luego a otra bancada, esta no incrementará sus asignaciones. Reservas de constitucionalidad Desde algunas colectividades más pequeñas y emergentes , que podrían verse perjudicadas por el fondo de la reforma, tildaron las mayores exigencias territoriales y de afiliación como barreras de ingreso al sistema político y posiblemente, perjudiciales para la pluralidad. De hecho, los diputados Jaime Mulet (FRVS) y Hans Marowski (Partido Nacional Libertario) presentaron reservas de constitucionalidad durante la discusión, y no descartan recurrir al Tribunal Constitucional para impedir la publicación de la norma. \"De alguna manera, lo que hace es impedir la conformación de nuevos partidos políticos , complejiza su construcción, y creo que eso es complejo. De alguna manera, 'carteliza' la política\", advirtió Mulet . A su vez, Marowski precisó que desde Libertarios \"lo único que votamos a favor fue una norma que condenaba la violencia y el totalitarismo, que es un mínimo democrático, pero no hay que confundirse: esta reforma es pésima . Mantiene el arrastre, cierra las puertas a nuevos partidos, y protege los privilegios de los que ya están instalados\". La propuesta debe pasar por el control preventivo del TC antes de su eventual promulgación, y los mentados plazos para adecuarse a sus disposiciones solo comenzarán a correr tras su publicación en el Diario Oficial.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/congreso-despacho-a-ley-la-esperada-reforma-al-sistema-politico/2026-10-02/093507.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000220261002093507.jpg",
+            "published_raw": "Fri, 02 Oct 2026 09:35:07 -0300",
+            "published_at": "2026-10-02T09:35:07-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 7,
-            "score_elections": 0,
+            "score_institutional": 9,
+            "score_elections": 2,
             "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 1,
+            "score_conflict": 1,
+            "score_policy": 1,
+            "score_ideology": 2,
+            "score_actor": 3,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 8,
+            "political_evidence": 18,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": null,
+            "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-009"
+            "cluster_id": "PML-EVENT-003"
           }
         ],
         "article_count": 1,
@@ -511,13 +508,13 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 82.9
+          "chile_utility": 85.6
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-006",
+        "cluster_id": "PML-EVENT-007",
         "title": "Nodo XXI: Entre los \"arrepentidos de Kast\" hay rabia y frustración por las promesas incumplidas",
         "topic": "Elecciones y opinión pública",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -572,7 +569,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
+            "cluster_id": "PML-EVENT-007"
           }
         ],
         "article_count": 1,
@@ -586,25 +583,25 @@
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-008",
-        "title": "Senado negó haber gestionado visa de Daniel Núñez en Estados Unidos",
+        "cluster_id": "PML-EVENT-010",
+        "title": "TC dio luz verde a la Ley de Reconstrucción pero tumbó normas clave",
         "topic": "Instituciones y gobierno",
-        "event_type": "POLITICAL_STATEMENT",
+        "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/senado-nego-haber-gestionado-visa-de-daniel-nunez-en-estados-unidos/2026-10-01/112557.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/tc-dio-luz-verde-a-la-ley-de-reconstruccion-pero-tumbo-normas-clave/2026-10-02/161955.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 45.6,
-          "level": "BAJA",
+          "score": 60.9,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 52,
-            "freshness": 52,
+            "political_impact": 79,
+            "freshness": 88,
             "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 28
+            "geographic_scope": 40,
+            "continuity": 32
           }
         },
         "coverage": {
@@ -612,47 +609,47 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-01T11:25:57-0300",
-        "last_seen": "2026-10-01T11:25:57-0300",
+        "first_seen": "2026-10-02T16:19:55-0300",
+        "last_seen": "2026-10-02T16:19:55-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Senado negó haber gestionado visa de Daniel Núñez en Estados Unidos",
-            "description": "La Mesa del Senado desestimó haber realizado gestiones para tramitar una visa a Estados Unidos del senador comunista Daniel Núñez , tras la polémica generada por la decisión del país norteamericano de negar su ingreso. A través de una carta firmada por el presidente (s) de la instancia, Iván Moreira (UDI), expresaron que \"ningún funcionario de la Dirección de Asuntos Internacionales del Senado ha realizado gestiones destinadas a tramitar una visa para el senador Daniel Núñez Arancibia\". \"La Dirección de Asuntos Internacionales del Senado no ha presentado, remitido ni gestionado documentación alguna ante la Embajada de los Estados Unidos de América vinculada a dicha materia\", precisaron. El texto finaliza resaltando que \"en consecuencia, el Senado de la República no ha intervenido ni participa en ningún procedimiento relacionado con una solicitud de visa del senador mencionado\". Núñez viajaría para participar en una actividad de la Unión Interparlamentaria (UIP), en el marco de la Asamblea General de Naciones Unidas, a la que originalmente había sido invitado Francisco Huenchumilla (DC), quien desistió de asistir por razones familiares. ✍️Declaración Pública En atención a los requerimientos formulados por diversos medios de comunicación y a la solicitud presentada en la Sala por los Comités Mixto Demócrata Cristiano, Independiente II, PFRVS e Independientes, Comunista y Frente Amplio, respecto del otorgamiento… pic.twitter.com/GP8V3Unsfy — Senado Chile (@Senado_Chile) October 1, 2026 Embajador: \"Mentira descarada\" El embajador de Estados Unidos en Chile, Brandon Judd , calificó la acusación de Núñez como una \"mentira descarada\" y remarcó que su país \"nunca tuvo la oportunidad de otorgar o negar una visa porque nunca recibió una solicitud\". En su cuenta de X, Judd manifestó que \"cuando me hicieron llegar esta publicación, pensé que era una broma. Pero luego comencé a leer notas de prensa que no verificaron en absoluto la veracidad de la acusación. No era una broma sino una mentira descarada\" . \"El Gobierno de los Estados Unidos no comenta casos individuales de visas. Sin embargo, cuando se difunden falsedades tan evidentes en nuestra contra, respondemos con los hechos: Estados Unidos nunca tuvo la oportunidad de otorgar o negar una visa porque nunca recibió una solicitud. Estoy seguro de que el señor Núñez lo sabe\", añadió. El polémico diplomático remarcó que \"no hay nada más detrás de esto. Son simplemente más mentiras destinadas a avivar el rechazo hacia Estados Unidos \". Cuando me hicieron llegar esta publicación, pensé que era una broma. Pero luego comencé a leer notas de prensa que no verificaron en absoluto la veracidad de la acusación. No era una broma sino una mentira descarada. El Gobierno de los Estados Unidos no comenta casos… https://t.co/PnqjuqwkMV — U.S. Ambassador to Chile (@USAmbCL) September 30, 2026",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/senado-nego-haber-gestionado-visa-de-daniel-nunez-en-estados-unidos/2026-10-01/112557.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261001/imag/foto_0000000220261001112557.jpg",
-            "published_raw": "Thu, 01 Oct 2026 11:25:57 -0300",
-            "published_at": "2026-10-01T11:25:57-0300",
+            "title": "TC dio luz verde a la Ley de Reconstrucción pero tumbó normas clave",
+            "description": "Tras dos meses de revisión judicial luego de ser despachada por el Congreso, el Tribunal Constitucional (TC) dejó este viernes lista para su promulgación la Ley de Reconstrucción Nacional y Desarrollo Económico y Social , pero asestó un revés al Gobierno al desestimar tres artículos determinantes. En detalle, se anularon las indemnizaciones a empresas frente a resoluciones ambientales revocadas , descartó la exigencia a las municipalidades de reducir en al menos 30% los tiempos de trámites para acceder a compensaciones fiscales por la exención de contribuciones, y eliminó la facultad que permitía a los municipios más ricos retener ingresos sin derivarlos al Fondo Común Municipal . El pronunciamiento del tribunal marca el cierre del control preventivo de la ley y define el marco legal bajo el cual entrará en vigor , dejando fuera del ordenamiento varios de los puntos que habían generado mayor resistencia técnica y política . Fin de las indemnizaciones por permisos ambientales anulados La primera traba eliminada por el TC correspondía al artículo número 12 del proyecto, el cual facultaba a las empresas a recurrir ante la Corte de Apelaciones de Santiago para reclamar montos de indemnización cuando una Resolución de Calificación Ambiental (RCA) fuese anulada . Gran parte de este mecanismo ya había perdido viabilidad jurídica tras los requerimientos ingresados previamente por sectores de la oposición. Desde el Ministerio de Hacienda explicaron que lo que aún subsistía de dicha disposición terminó por ser desestimado por el tribunal , cerrando la vía indemnizatoria prevista en este cuerpo legal. Freno a exigencias administrativas y resguardo al Fondo Común Municipal Las objeciones de mayor impacto se concentraron en las compensaciones a los gobiernos locales a raíz de la merma en la recaudación por la exención de contribuciones . El artículo 32 del proyecto buscaba condicionar la entrega de dichos recursos fiscales a que las administraciones municipales agilizaran sus gestiones internas, imponiendo una rebaja obligatoria de al menos 30% en los tiempos de tramitación de permisos . Frente a esta fórmula, el Tribunal Constitucional determinó que tales condiciones resultaban \" incompatibles con el carácter solidario del sistema municipal y del Fondo Común Municipal \", invalidando la exigencia administrativa. Asimismo, la magistratura constitucional frenó un beneficio transitorio que favorecía directamente a las comunas de más altos ingresos del país. La disposición, contenida en el inciso sexto del artículo 17 transitorio, facultaba a determinados municipios a retener caudales sin aportarlos al Fondo Común Municipal durante el 2027 y 2028 . Al revisar este mecanismo, el TC concluyó taxativamente que la excepción \"vulneraba el principio constitucional de redistribución solidaria \", por lo que fue excluida en su totalidad de la versión final de la ley. La Moneda alista la fecha para la promulgación Con la resolución notificada, el balance general evidencia que la ley quedó en condiciones de entrar en régimen sin los incentivos indemnizatorios a proyectos de inversión ni las modificaciones al sistema solidario de financiamiento comunal que pretendía el Ejecutivo. En el Palacio de La Moneda ya se analiza el contenido del fallo y se trabaja en la fijación del cronograma oficial para la firma y promulgación definitiva de la nueva Ley de Reconstrucción.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/tc-dio-luz-verde-a-la-ley-de-reconstruccion-pero-tumbo-normas-clave/2026-10-02/161955.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000220261002161955.png",
+            "published_raw": "Fri, 02 Oct 2026 16:19:55 -0300",
+            "published_at": "2026-10-02T16:19:55-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 3,
+            "score_institutional": 7,
             "score_elections": 0,
-            "score_international": 3,
+            "score_international": 0,
             "score_conflict": 0,
             "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 2,
+            "score_ideology": 0,
+            "score_actor": 1,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 9,
+            "political_evidence": 8,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Relaciones internacionales",
+            "secondary_topic": null,
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-008"
+            "cluster_id": "PML-EVENT-010"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 21,
+          "bonus": 22,
           "labels": [
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 66.6
+          "chile_utility": 82.9
         },
         "repeated_in_general_top5": false
       }
@@ -673,20 +670,24 @@
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 25,
+      "event_count": 24,
       "maximum_relevance": 68.7,
       "leading_story": "Gobierno se abre a retirar reforma de seguridad y Kast descarta \"derrota política\""
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 4,
-      "maximum_relevance": 64.6,
+      "maximum_relevance": 62.9,
       "leading_story": "El presunto asesino de la diputada británica Widdecombe planeaba un ataque terrorista contra el ultra Farage"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-023", "PML-EVENT-025", "PML-EVENT-004"],
+      "exited_top5": ["PML-EVENT-024", "PML-EVENT-026", "PML-EVENT-003"],
+      "retained_top5": ["PML-EVENT-002", "PML-EVENT-011"]
+    }
   },
   "sources": {
     "representative_sources": ["France 24", "Cooperativa", "EL PAÍS"],
