@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-03",
-    "data_latest_timestamp": "2026-10-03T00:21:26-0300",
-    "data_age_hours": 5.9,
-    "generated_at": "2026-10-03T06:16:02-0300",
+    "data_latest_timestamp": "2026-10-03T10:54:04-0300",
+    "data_age_hours": 1.1,
+    "generated_at": "2026-10-03T11:59:29-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,264 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Relaciones internacionales.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 38 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Ideología y competencia política.",
     "diversity": "La selección cubre 4 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 39,
+    "ranked_events": 38,
     "topics": 4,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 67.6,
-    "maximum_relevance": 71.7
+    "average_top5_relevance": 67.1,
+    "maximum_relevance": 76.8
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-023",
+      "cluster_id": "PML-EVENT-013",
+      "title": "Brasil elige presidente bajo la sombra de Trump y su ofensiva para impulsar gobiernos conservadores",
+      "url": "https://elpais.com/argentina/2026-10-03/brasil-elige-presidente-bajo-la-sombra-de-trump-y-su-ofensiva-para-impulsar-gobiernos-conservadores.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Ideología y competencia política",
+      "event_type": "CONFLICT_ESCALATION",
+      "geography": {
+        "group": "América Latina",
+        "country": "Argentina / América Latina / Brasil"
+      },
+      "relevance": {
+        "score": 76.8,
+        "level": "ALTA",
+        "editorial_utility": 80.8
+      },
+      "selection": {
+        "reason": "PML 76.8; multifuente",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 3,
+        "source_count": 2,
+        "sources": [
+          "EL PAÍS",
+          "France 24"
+        ]
+      },
+      "first_seen": "2026-10-02T14:16:51-0300",
+      "last_seen": "2026-10-03T06:30:00-0300",
+      "entities": [
+        "brasil",
+        "trump",
+        "lula",
+        "bolsonaro"
+      ],
+      "event_terms": [],
+      "analysis": {
+        "summary": "La presión de Washington sobre Brasilia y el giro a la derecha de América Latina convierten la votación en asunto clave para el tablero regional",
+        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Ideología y competencia política y la sitúa en Argentina / América Latina / Brasil.",
+        "watch_next": [
+          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
+          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Brasil elige presidente bajo la sombra de Trump y su ofensiva para impulsar gobiernos conservadores",
+          "description": "La presión de Washington sobre Brasilia y el giro a la derecha de América Latina convierten la votación en asunto clave para el tablero regional",
+          "url": "https://elpais.com/argentina/2026-10-03/brasil-elige-presidente-bajo-la-sombra-de-trump-y-su-ofensiva-para-impulsar-gobiernos-conservadores.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/Q3LK7FRELJBBZNMLP2L5HWM6O4.jpg?auth=0296fa7c938c3773cf3f53d399b06cdd8284b14aa7befc4590d3ded4a0d56f2d",
+          "published_raw": "Sat, 03 Oct 2026 09:30:00 GMT",
+          "published_at": "2026-10-03T06:30:00-0300",
+          "country": "Argentina",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 1,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 2,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 6,
+          "primary_topic": "Ideología y competencia política",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-013"
+        },
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "¿Lula o Bolsonaro?: Brasil vota bajo la sombra de una interferencia de Trump",
+          "description": "En vísperas de la primera vuelta de las presidenciales brasileñas, la noticia de que Estados Unidos suspendió la atención presencial en su embajada y sus consulados en esa nación latinoamericana, alegando “cuestiones de seguridad”, ha vuelto a alimentar los temores de una injerencia de Washington. No obstante, el Gobierno de Donald Trump no estableció una relación directa entre esta medida y las elecciones. Tampoco detalló la naturaleza de la amenaza que motivó la suspensión.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261002-lula-o-bolsonaro-brasil-vota-bajo-la-sombra-de-una-interferencia-de-trump",
+          "image_url": "https://s.france24.com/media/display/871de7b4-be9e-11f1-8ed4-dd51fcab6130/w:1024/p:16x9/WEB-PORTADA-02OCT-ARTICULO.png",
+          "published_raw": "Fri, 02 Oct 2026 21:26:40 GMT",
+          "published_at": "2026-10-02T18:26:40-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 1,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-013"
+        },
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Bolsonaro Jr. VS Lula: la corrupción marca la campaña en Brasil",
+          "description": "Lula da Silva y Flávio Bolsonaro llegan a la recta final de la campaña como los principales protagonistas de las elecciones presidenciales de Brasil. La corrupción, que ya era uno de los temas sensibles para el electorado, vuelve a cobrar interés tras el estallido de un escándalo financiero con varias ramificaciones y acusaciones que salpican al hijo del expresidente Jair Bolsonaro y al juez Alexandre de Moraes, una figura clave de la justicia brasileña y blanco habitual de las críticas de la derecha.",
+          "url": "https://www.france24.com/es/programas/en-primera-plana/20261002-bolsonaro-jr-vs-lula-la-corrupci%C3%B3n-marca-la-campa%C3%B1a-en-brasil",
+          "image_url": "https://s.france24.com/media/display/8836700e-bb5f-11f1-b44c-11fa9f8a3b4f/w:1024/p:16x9/000-C7BC6KE.jpg",
+          "published_raw": "Fri, 02 Oct 2026 17:16:51 GMT",
+          "published_at": "2026-10-02T14:16:51-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-013"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-001",
+      "title": "Gobierno se abre a retirar reforma de seguridad y Kast descarta \"derrota política\"",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abre-a-retirar-reforma-de-seguridad-y-kast-descarta-derrota/2026-10-02/144846.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 64.7,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 76.7
+      },
+      "selection": {
+        "reason": "PML 64.7; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 2,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-10-02T11:36:43-0300",
+      "last_seen": "2026-10-02T14:48:46-0300",
+      "entities": [
+        "congreso",
+        "chile"
+      ],
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "El Gobierno confirmó este viernes su disposición a retirar la reforma constitucional de seguridad tras constatar que no cuenta con piso político en el Congreso , optando por allanarse a un texto alternativo que negocian con senadores. El punto de inflexión que aceleró la discusión estuvo marcado por el asesinato del cabo segundo de Carabineros Cristopher Aguilera ,  lo que sensibilizó al Presidente José Antonio Kast y lo motivó liderar personalmente los mensajes en torno a…",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Gobierno se abre a retirar reforma de seguridad y Kast descarta \"derrota política\"",
+          "description": "El Gobierno confirmó este viernes su disposición a retirar la reforma constitucional de seguridad tras constatar que no cuenta con piso político en el Congreso , optando por allanarse a un texto alternativo que negocian con senadores. El punto de inflexión que aceleró la discusión estuvo marcado por el asesinato del cabo segundo de Carabineros Cristopher Aguilera ,  lo que sensibilizó al Presidente José Antonio Kast y lo motivó liderar personalmente los mensajes en torno a la necesidad de alcanzar acuerdos rápidos en materia de seguridad. Frente a las críticas por haber enviado un proyecto que no logró sumar apoyos transversales, el Mandatario descartó que dar un paso atrás en la redacción original signifique un revés partidario para el oficialismo y recalcó que el foco debe estar en la efectividad operativa contra la delincuencia. \"Uno no lo conoce ni lo sabe todo, pero siempre puede recoger opiniones. Dígamelo a mí, que presenté una reforma constitucional que no le gustó a algunos parlamentarios, y empezó una tremenda discusión\", señaló. \"No tengo problema en que la retiremos y que otro se atribuya la responsabilidad. Lo importante es derrotar al narcotráfico , al crimen organizado , no quién tiene la iniciativa legal . No es una derrota política . Es una derrota de Chile si no enfrentamos con fuerza al crimen organizado y al narcotráfico\", puntualizó Kast durante su participación en una ceremonia de la Cámara Nacional de Comercio. Arrau: \"No nos enamoramos de ninguna redacción\" En sintonía con las palabras del jefe de Estado, el ministro de Seguridad Pública , Martín Arrau , confirmó que se mantienen las conversaciones con los integrantes de la Comisión de Constitución - encabezada por el senador Pedro Araya (PPD) - y evidenció la flexibilidad de La Moneda para respaldar una redacción distinta . \" Nosotros no nos enamoramos de ninguna redacción . Si la redacción del Gobierno no genera consenso y los señores senadores están buscando otros consensos , yo se los agradezco \", afirmó el secretario de Estado, que enfatizó que está \"trabajando cada día más con los parlamentarios buscando consensos\". Pese al giro de La Moneda y a los esfuerzos de articulación de legisladores como Araya o el diputado Jaime Mulet (FRVS) , bancadas de la oposición cuestionaron que el diálogo aún no se concreta con todos los sectores ni con los liderazgos comunales. \"Lo que pide el Presidente es que haya otro (proyecto) que esté más o menos consensuado y que reúna los votos necesarios para avanzar en aquellas cosas que se pueden avanzar, que son pocas, pero que son relevantes . En eso yo vi al Presidente en una muy buena disposición\". Pese a la disposición del Ejecutivo, el presidente de la comisión de Constitución en la Cámara señaló que \"me da la impresión que hay sectores de la oposición, particularmente los senadores, que no quieren llegar a un acuerdo, porque podrían presentar ellos un proyecto,  y porque ni más ni menos esto es poco habitual, que un Gobierno retire un proyecto. Y lo que están diciendo es: 'estamos dispuestos a retirar la reforma constitucional, pero propongan otra'\". Socialismo Democrático y alcaldes cuestionan el fondo del proyecto La timonel del Partido Socialista , senadora Paulina Vodanovic , refutó la postura del Ejecutivo e insistió en que \" no se trata de quién es el autor de un proyecto de ley , sino del contenido de él \". \" Discutir un estado de excepción o reformas a los estados de excepción constitucional no va a cambiar la realidad hoy \", advirtió la legisladora. Por su parte, el alcalde de San Bernardo, Christopher White (PS) , calificó como \" una muy buena señal que (se entendiera que) un nuevo estado excepcional iba a generar una discusión -probablemente eterna- que no era necesaria en este momento \". En opinión del jefe comunal, \"todos tenemos que hacer esfuerzos de encontrar puntos intermedios, y no basta solo con la intención de llamar, también hay que hacer el trabajo de conversar , discutir , ir al Congreso , reunirse con las bancadas y los alcaldes , y ahí el Ejecutivo es el que tiene la primera tarea \". El dilema del \"pasando y pasando\" en La Moneda Se espera que a inicios de la próxima semana una parte de los senadores de la Comisión de Constitución presente su texto de reemplazo. En el comité político advirtieron que negociarán bajo la lógica del \"pasando y pasando\" . La Moneda busca evitar un retiro prematuro de la iniciativa sin acuerdos cerrados de por medio, ante el riesgo de que disposiciones urgentes para el Gobierno, como el régimen legal de segregación carcelaria para reos peligrosos , terminen diluyéndose o quedando en nada .",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abre-a-retirar-reforma-de-seguridad-y-kast-descarta-derrota/2026-10-02/144846.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000320261002144846.png",
+          "published_raw": "Fri, 02 Oct 2026 14:48:46 -0300",
+          "published_at": "2026-10-02T14:48:46-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 9,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 3,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 8,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 21,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-001"
+        },
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Monckeberg pide retirar ya la reforma de seguridad para destrabar el acuerdo",
+          "description": "El exministro Cristián Monckeberg llamó al Gobierno a concretar de inmediato el retiro de la reforma constitucional de seguridad , como una señal que permita destrabar las conversaciones y construir un acuerdo con la oposición. En El Primer Café de Cooperativa , el exsecretario de Estado valoró la disposición del Presidente José Antonio Kast a retirar la iniciativa y sostuvo que materializar ese gesto podría facilitar la negociación. \"Si a mí me permitieran una sugerencia, yo hoy día mismo mandaría un oficio para retirar el proyecto si yo fuera del Gobierno. Y lo retiro, no más. Se acabó. Y doy una señal potente y se acabó si eso significa que vamos a avanzar \", planteó. La discusión se produce después de que el Gobierno y un grupo de parlamentarios acordaran tres ejes para una nueva reforma de seguridad , durante una reunión en Cerro Castillo. Sin embargo, los comités de senadores de oposición se desmarcaron de esa fórmula y exigieron retirar la propuesta inicial sin condiciones . Monckeberg defendió el pragmatismo del Mandatario y afirmó que la oposición también debe contribuir a generar consensos, destacando el papel que puede desempeñar la senadora y presidenta del PS, Paulina Vodanovic , en la Comisión de Constitución. Asimismo, cuestionó los reproches hacia el senador PPD Pedro Araya por su disposición a dialogar con el Ejecutivo y sostuvo que los acuerdos en seguridad requieren esfuerzos de ambos sectores . Walker respalda el retiro y Eyzaguirre emplaza a buscar consensos Consultado sobre si retiraría inmediatamente el proyecto, Ignacio Walker respondió: \"Por supuesto\" , y cuestionó que el Gobierno haya persistido en una iniciativa que, a su juicio, carecía de respaldo desde el comienzo. \"Nunca hubo agua en la piscina para este proyecto . Todavía no sabemos quién escribió este proyecto, es un proyecto sin autoría\", afirmó. El excanciller sostuvo que el Ejecutivo debe construir un acuerdo en el Parlamento y hacerse cargo de las expectativas en materia de seguridad, uno de los principales compromisos con los que llegó al poder. Por su parte, Nicolás Eyzaguirre valoró la apertura de Kast y respaldó la propuesta de Monckeberg, pero advirtió que ese gesto también debe tener una respuesta de la oposición. \"Y si se complementa con la muy buena sugerencia de Cristián Monckeberg de que lo retire ya, si la oposición no se allana a un consenso, yo voy a ser el primero en criticar a la oposición . Creo que ese es el buen camino y la propuesta de Monckeberg es muy buena\", señaló. El exministro de Hacienda planteó que una solución requiere la voluntad del Ejecutivo y un acuerdo transversal entre las bancadas , por tratarse de un problema que afecta al conjunto del país. Horst: \"Estamos perdiendo el foco\" Bettina Horst, directora ejecutiva de Libertad y Desarrollo, coincidió en que la reforma presentada por el Gobierno tenía deficiencias , pero cuestionó que la discusión política siga concentrada en si debe retirarse antes de avanzar hacia una alternativa. \"Concuerdo que el proyecto que presentó el gobierno tenía serias deficiencias y no debiera tramitarse ni aprobarse. Pero esta discusión de que si se retira, que no se retira... ¡pónganse a trabajar! \", expresó. Al precisar a quién dirigía su llamado, apuntó a todos los sectores políticos involucrados en el debate y sostuvo que el Congreso también puede impulsar una propuesta. \"El debate no se trata del tema de fondo de cómo solucionamos, cómo damos herramientas hoy día para combatir el crimen organizado. El debate hoy día es si se retira o no un papel del Congreso. Entonces, estamos perdiendo el foco y hemos perdido el tiempo\", cuestionó. Horst aclaró posteriormente que no estaba afirmando que los parlamentarios no hubieran trabajado , sino advirtiendo que la discusión pública no permite apreciar avances hacia las soluciones que necesita el país. \"No, yo no he dicho que acá no se ha hecho nada y que no han trabajado... No sé, porque se dice que hay avances, no se conocen\", precisó. Monckeberg recogió ese planteamiento, aunque insistió en que las formas también importan para facilitar un acuerdo y que concretar el retiro sería una señal política relevante. \"Cuando yo digo 'lo retiraría ya', el presidente ya lo dijo: hágalo y lo más seguro es que se va a empezar a construir un acuerdo rápido\", sostuvo. Previamente, el ministro de Seguridad Pública, Martín Arrau, había descartado que retirar la reforma para dar paso a otro texto implique una \"derrota\" para el Gobierno .",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/monckeberg-pide-retirar-ya-la-reforma-de-seguridad-para-destrabar-el/2026-10-02/113643.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000220261002113643.jpg",
+          "published_raw": "Fri, 02 Oct 2026 11:36:43 -0300",
+          "published_at": "2026-10-02T11:36:43-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 8,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 2,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 15,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-001"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-022",
       "title": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261003-la-oea-reclama-elecciones-libres-y-la-excarcelaci%C3%B3n-de-presos-pol%C3%ADticos-en-nicaragua",
       "representative_source": "France 24",
@@ -43,12 +284,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 71.7,
+        "score": 66.7,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 71.7
+        "editorial_utility": 73.7
       },
       "selection": {
-        "reason": "PML 71.7",
+        "reason": "PML 66.7; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -102,206 +343,29 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-002",
-      "title": "Gobierno se abre a retirar reforma de seguridad y Kast descarta \"derrota política\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abre-a-retirar-reforma-de-seguridad-y-kast-descarta-derrota/2026-10-02/144846.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 68.7,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 80.7
-      },
-      "selection": {
-        "reason": "PML 68.7; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 2,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-10-02T11:36:43-0300",
-      "last_seen": "2026-10-02T14:48:46-0300",
-      "entities": [
-        "congreso",
-        "chile"
-      ],
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "El Gobierno confirmó este viernes su disposición a retirar la reforma constitucional de seguridad tras constatar que no cuenta con piso político en el Congreso , optando por allanarse a un texto alternativo que negocian con senadores. El punto de inflexión que aceleró la discusión estuvo marcado por el asesinato del cabo segundo de Carabineros Cristopher Aguilera ,  lo que sensibilizó al Presidente José Antonio Kast y lo motivó liderar personalmente los mensajes en torno a…",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Gobierno se abre a retirar reforma de seguridad y Kast descarta \"derrota política\"",
-          "description": "El Gobierno confirmó este viernes su disposición a retirar la reforma constitucional de seguridad tras constatar que no cuenta con piso político en el Congreso , optando por allanarse a un texto alternativo que negocian con senadores. El punto de inflexión que aceleró la discusión estuvo marcado por el asesinato del cabo segundo de Carabineros Cristopher Aguilera ,  lo que sensibilizó al Presidente José Antonio Kast y lo motivó liderar personalmente los mensajes en torno a la necesidad de alcanzar acuerdos rápidos en materia de seguridad. Frente a las críticas por haber enviado un proyecto que no logró sumar apoyos transversales, el Presidente José Anotnio Kast descartó que dar un paso atrás en la redacción original signifique un revés partidario para el oficialismo y recalcó que el foco debe estar en la efectividad operativa contra la delincuencia. \"No tengo problema en que la retiremos y que otro se atribuya la responsabilidad. Lo importante es derrotar al narcotráfico , al crimen organizado , no quién tiene la iniciativa legal . No es una derrota política . Es una derrota de Chile si no enfrentamos con fuerza al crimen organizado y al narcotráfico\", puntualizó el Mandatario durante su participación en una ceremonia de la Cámara Nacional de Comercio. Arrau: \"No nos enamoramos de ninguna redacción\" En sintonía con las palabras del jefe de Estado, el ministro de Seguridad Pública , Martín Arrau , confirmó que se mantienen las conversaciones con los integrantes de la Comisión de Constitución - encabezada por el senador Pedro Araya (PPD) - y evidenció la flexibilidad de La Moneda para respaldar una redacción distinta . \" Nosotros no nos enamoramos de ninguna redacción . Si la redacción del Gobierno no genera consenso y los señores senadores están buscando otros consensos , yo se los agradezco \", afirmó el secretario de Estado, que enfatizó que está \"trabajando cada día más con los parlamentarios buscando consensos\". Pese al giro de La Moneda y a los esfuerzos de articulación de legisladores como Araya o el diputado Jaime Mulet (FRVS) , bancadas de la oposición cuestionaron que el diálogo aún no se concreta con todos los sectores ni con los liderazgos comunales. \"Lo que pide el Presidente es que haya otro (proyecto) que esté más o menos consensuado y que reúna los votos necesarios para avanzar en aquellas cosas que se pueden avanzar, que son pocas, pero que son relevantes . En eso yo vi al Presidente en una muy buena disposición\". Pese a la disposición del Ejecutivo, el presidente de la comisión de Constitución en la Cámara señaló que \"me da la impresión que hay sectores de la oposición, particularmente los senadores, que no quieren llegar a un acuerdo, porque podrían presentar ellos un proyecto,  y porque ni más ni menos esto es poco habitual, que un Gobierno retire un proyecto. Y lo que están diciendo es: 'estamos dispuestos a retirar la reforma constitucional, pero propongan otra'\". Socialismo Democrático y alcaldes cuestionan el fondo del proyecto La timonel del Partido Socialista , senadora Paulina Vodanovic , refutó la postura del Ejecutivo e insistió en que \" no se trata de quién es el autor de un proyecto de ley , sino del contenido de él \". \" Discutir un estado de excepción o reformas a los estados de excepción constitucional no va a cambiar la realidad hoy \", advirtió la legisladora. Por su parte, el alcalde de San Bernardo, Christopher White (PS) , calificó como \" una muy buena señal que (se entendiera que) un nuevo estado excepcional iba a generar una discusión -probablemente eterna- que no era necesaria en este momento \". En opinión del jefe comunal, \"todos tenemos que hacer esfuerzos de encontrar puntos intermedios, y no basta solo con la intención de llamar, también hay que hacer el trabajo de conversar , discutir , ir al Congreso , reunirse con las bancadas y los alcaldes , y ahí el Ejecutivo es el que tiene la primera tarea \". El dilema del \"pasando y pasando\" en La Moneda Se espera que a inicios de la próxima semana una parte de los senadores de la Comisión de Constitución presente su texto de reemplazo. En el comité político advirtieron que negociarán bajo la lógica del \"pasando y pasando\" . La Moneda busca evitar un retiro prematuro de la iniciativa sin acuerdos cerrados de por medio, ante el riesgo de que disposiciones urgentes para el Gobierno, como el régimen legal de segregación carcelaria para reos peligrosos , terminen diluyéndose o quedando en nada .",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abre-a-retirar-reforma-de-seguridad-y-kast-descarta-derrota/2026-10-02/144846.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000320261002144846.png",
-          "published_raw": "Fri, 02 Oct 2026 14:48:46 -0300",
-          "published_at": "2026-10-02T14:48:46-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 9,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 3,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 8,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 21,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-002"
-        },
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Monckeberg pide retirar ya la reforma de seguridad para destrabar el acuerdo",
-          "description": "El exministro Cristián Monckeberg llamó al Gobierno a concretar de inmediato el retiro de la reforma constitucional de seguridad , como una señal que permita destrabar las conversaciones y construir un acuerdo con la oposición. En El Primer Café de Cooperativa , el exsecretario de Estado valoró la disposición del Presidente José Antonio Kast a retirar la iniciativa y sostuvo que materializar ese gesto podría facilitar la negociación. \"Si a mí me permitieran una sugerencia, yo hoy día mismo mandaría un oficio para retirar el proyecto si yo fuera del Gobierno. Y lo retiro, no más. Se acabó. Y doy una señal potente y se acabó si eso significa que vamos a avanzar \", planteó. La discusión se produce después de que el Gobierno y un grupo de parlamentarios acordaran tres ejes para una nueva reforma de seguridad , durante una reunión en Cerro Castillo. Sin embargo, los comités de senadores de oposición se desmarcaron de esa fórmula y exigieron retirar la propuesta inicial sin condiciones . Monckeberg defendió el pragmatismo del Mandatario y afirmó que la oposición también debe contribuir a generar consensos, destacando el papel que puede desempeñar la senadora y presidenta del PS, Paulina Vodanovic , en la Comisión de Constitución. Asimismo, cuestionó los reproches hacia el senador PPD Pedro Araya por su disposición a dialogar con el Ejecutivo y sostuvo que los acuerdos en seguridad requieren esfuerzos de ambos sectores . Walker respalda el retiro y Eyzaguirre emplaza a buscar consensos Consultado sobre si retiraría inmediatamente el proyecto, Ignacio Walker respondió: \"Por supuesto\" , y cuestionó que el Gobierno haya persistido en una iniciativa que, a su juicio, carecía de respaldo desde el comienzo. \"Nunca hubo agua en la piscina para este proyecto . Todavía no sabemos quién escribió este proyecto, es un proyecto sin autoría\", afirmó. El excanciller sostuvo que el Ejecutivo debe construir un acuerdo en el Parlamento y hacerse cargo de las expectativas en materia de seguridad, uno de los principales compromisos con los que llegó al poder. Por su parte, Nicolás Eyzaguirre valoró la apertura de Kast y respaldó la propuesta de Monckeberg, pero advirtió que ese gesto también debe tener una respuesta de la oposición. \"Y si se complementa con la muy buena sugerencia de Cristián Monckeberg de que lo retire ya, si la oposición no se allana a un consenso, yo voy a ser el primero en criticar a la oposición . Creo que ese es el buen camino y la propuesta de Monckeberg es muy buena\", señaló. El exministro de Hacienda planteó que una solución requiere la voluntad del Ejecutivo y un acuerdo transversal entre las bancadas , por tratarse de un problema que afecta al conjunto del país. Horst: \"Estamos perdiendo el foco\" Bettina Horst, directora ejecutiva de Libertad y Desarrollo, coincidió en que la reforma presentada por el Gobierno tenía deficiencias , pero cuestionó que la discusión política siga concentrada en si debe retirarse antes de avanzar hacia una alternativa. \"Concuerdo que el proyecto que presentó el gobierno tenía serias deficiencias y no debiera tramitarse ni aprobarse. Pero esta discusión de que si se retira, que no se retira... ¡pónganse a trabajar! \", expresó. Al precisar a quién dirigía su llamado, apuntó a todos los sectores políticos involucrados en el debate y sostuvo que el Congreso también puede impulsar una propuesta. \"El debate no se trata del tema de fondo de cómo solucionamos, cómo damos herramientas hoy día para combatir el crimen organizado. El debate hoy día es si se retira o no un papel del Congreso. Entonces, estamos perdiendo el foco y hemos perdido el tiempo\", cuestionó. Horst aclaró posteriormente que no estaba afirmando que los parlamentarios no hubieran trabajado , sino advirtiendo que la discusión pública no permite apreciar avances hacia las soluciones que necesita el país. \"No, yo no he dicho que acá no se ha hecho nada y que no han trabajado... No sé, porque se dice que hay avances, no se conocen\", precisó. Monckeberg recogió ese planteamiento, aunque insistió en que las formas también importan para facilitar un acuerdo y que concretar el retiro sería una señal política relevante. \"Cuando yo digo 'lo retiraría ya', el presidente ya lo dijo: hágalo y lo más seguro es que se va a empezar a construir un acuerdo rápido\", sostuvo. Previamente, el ministro de Seguridad Pública, Martín Arrau, había descartado que retirar la reforma para dar paso a otro texto implique una \"derrota\" para el Gobierno .",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/monckeberg-pide-retirar-ya-la-reforma-de-seguridad-para-destrabar-el/2026-10-02/113643.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000220261002113643.jpg",
-          "published_raw": "Fri, 02 Oct 2026 11:36:43 -0300",
-          "published_at": "2026-10-02T11:36:43-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 8,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 5,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 15,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-002"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-011",
-      "title": "Voto femenino, clave en la recta final de las elecciones en Brasil",
-      "url": "https://www.france24.com/es/voto-femenino-clave-en-la-recta-final-de-las-elecciones-en-brasil",
-      "representative_source": "France 24",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Brasil / América Latina"
-      },
-      "relevance": {
-        "score": 68.8,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 72.8
-      },
-      "selection": {
-        "reason": "PML 68.8; aporta diversidad temática",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-10-02T21:33:06-0300",
-      "last_seen": "2026-10-02T21:33:06-0300",
-      "entities": "brasil",
-      "event_terms": "eleccion",
-      "analysis": {
-        "summary": "🗳️🇧🇷 En la recta final de la campaña electoral en Brasil, el voto femenino se perfila como uno de los factores decisivos. Las mujeres representan más de la mitad del electorado y su apoyo fue clave en las últimas elecciones. Sin embargo, persisten desafíos como la violencia de género y la baja representación política femenina, con apenas un 18% de los escaños de la Cámara de Diputados ocupados por mujeres. El informe es de nuestra corresponsal Valeria Saccone.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
-        "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Voto femenino, clave en la recta final de las elecciones en Brasil",
-          "description": "🗳️🇧🇷 En la recta final de la campaña electoral en Brasil, el voto femenino se perfila como uno de los factores decisivos. Las mujeres representan más de la mitad del electorado y su apoyo fue clave en las últimas elecciones. Sin embargo, persisten desafíos como la violencia de género y la baja representación política femenina, con apenas un 18% de los escaños de la Cámara de Diputados ocupados por mujeres. El informe es de nuestra corresponsal Valeria Saccone.",
-          "url": "https://www.france24.com/es/voto-femenino-clave-en-la-recta-final-de-las-elecciones-en-brasil",
-          "image_url": "https://s.france24.com/media/display/b2d91642-beaa-11f1-afbe-1ff0321dbbd3/w:1024/p:16x9/FORMATO-5.png",
-          "published_raw": "Sat, 03 Oct 2026 00:33:06 GMT",
-          "published_at": "2026-10-02T21:33:06-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 3,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 7,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-011"
+          "cluster_id": "PML-EVENT-022"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-025",
-      "title": "El presunto asesino de la diputada británica Widdecombe planeaba un ataque terrorista contra el ultra Farage",
-      "url": "https://elpais.com/internacional/2026-10-02/el-presunto-asesino-de-la-diputada-britanica-widdecombe-planeaba-un-ataque-terrorista-conta-el-ultra-farage.html",
+      "cluster_id": "PML-EVENT-032",
+      "title": "La mano dura acapara el debate en las elecciones de Brasil: “Aquí mueren 100 traficantes y entran 200”",
+      "url": "https://elpais.com/america/2026-10-03/brasil-vota-con-la-mano-dura-en-el-centro-del-debate-aqui-mueren-100-traficantes-y-entran-200.html",
       "representative_source": "EL PAÍS",
       "topic": "Conflictos y seguridad",
-      "event_type": "CONFLICT_ESCALATION",
+      "event_type": "ELECTORAL_EVENT",
       "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
+        "group": "América Latina",
+        "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 62.9,
+        "score": 64.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 70.9
+        "editorial_utility": 69.4
       },
       "selection": {
-        "reason": "PML 62.9; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 64.4; aporta diversidad temática",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -311,16 +375,20 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-02T16:50:22-0300",
-      "last_seen": "2026-10-02T16:50:22-0300",
-      "entities": [],
-      "event_terms": "ataque",
+      "first_seen": "2026-10-03T01:00:00-0300",
+      "last_seen": "2026-10-03T01:00:00-0300",
+      "entities": [
+        "brasil",
+        "lula",
+        "bolsonaro"
+      ],
+      "event_terms": [],
       "analysis": {
-        "summary": "La policía acusa a Joshua Kerry de urdir diversos atentados y de tener como uno de su objetivos al líder de Reform UK",
-        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
+        "summary": "Casi un año después de la operación policial más letal de la historia del país, nada ha cambiado en las favelas de Río. Lula y Bolsonaro llegan a las urnas con recetas opuestas en seguridad",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / América Latina.",
         "watch_next": [
-          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
-          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
@@ -329,36 +397,36 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "El presunto asesino de la diputada británica Widdecombe planeaba un ataque terrorista contra el ultra Farage",
-          "description": "La policía acusa a Joshua Kerry de urdir diversos atentados y de tener como uno de su objetivos al líder de Reform UK",
-          "url": "https://elpais.com/internacional/2026-10-02/el-presunto-asesino-de-la-diputada-britanica-widdecombe-planeaba-un-ataque-terrorista-conta-el-ultra-farage.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/4UVAINN36ZJPLBISKWPGVIEXXQ.jpg?auth=cedd3bcd2dd482237f9063859053033b4c2b3591c8b2e102dbc3ef51ee531232",
-          "published_raw": "Fri, 02 Oct 2026 19:50:22 GMT",
-          "published_at": "2026-10-02T16:50:22-0300",
+          "title": "La mano dura acapara el debate en las elecciones de Brasil: “Aquí mueren 100 traficantes y entran 200”",
+          "description": "Casi un año después de la operación policial más letal de la historia del país, nada ha cambiado en las favelas de Río. Lula y Bolsonaro llegan a las urnas con recetas opuestas en seguridad",
+          "url": "https://elpais.com/america/2026-10-03/brasil-vota-con-la-mano-dura-en-el-centro-del-debate-aqui-mueren-100-traficantes-y-entran-200.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/KX66U65PQFA2XKIJUN2MZDRCDU.jpg?auth=6057bd3a994cbf3105bebc11b020c3c4ae8fdaf8267d0bc5f265665a68fe1fe0",
+          "published_raw": "Sat, 03 Oct 2026 04:00:00 GMT",
+          "published_at": "2026-10-03T01:00:00-0300",
           "country": "No identificado",
-          "region": "Internacional",
+          "region": "América Latina",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
+          "score_institutional": 0,
+          "score_elections": 1,
           "score_international": 0,
           "score_conflict": 2,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
+          "political_evidence": 3,
           "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "cluster_id": "PML-EVENT-032"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-004",
+      "cluster_id": "PML-EVENT-003",
       "title": "Escudo de las Américas incluido: las claves del arresto del fiscal boliviano que investiga a Cerimedo",
       "url": "https://www.cooperativa.cl/noticias/mundo/bolivia/escudo-de-las-americas-incluido-las-claves-del-arresto-del-fiscal/2026-10-03/002126.html",
       "representative_source": "Cooperativa",
@@ -369,12 +437,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 65.9,
+        "score": 62.9,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 63.9
+        "editorial_utility": 60.9
       },
       "selection": {
-        "reason": "PML 65.9; nuevo tipo de evento",
+        "reason": "PML 62.9; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -429,7 +497,7 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
+          "cluster_id": "PML-EVENT-003"
         }
       ]
     }
@@ -442,7 +510,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-003",
+        "cluster_id": "PML-EVENT-002",
         "title": "Congreso despachó a ley la esperada reforma al sistema político",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -453,11 +521,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 63.6,
-          "level": "MEDIA-ALTA",
+          "score": 59.1,
+          "level": "MEDIA",
           "components": {
             "political_impact": 90,
-            "freshness": 80,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 46
@@ -497,7 +565,7 @@
             "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-002"
           }
         ],
         "article_count": 1,
@@ -508,81 +576,12 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 85.6
+          "chile_utility": 81.1
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-007",
-        "title": "Nodo XXI: Entre los \"arrepentidos de Kast\" hay rabia y frustración por las promesas incumplidas",
-        "topic": "Elecciones y opinión pública",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/nodo-xxi-entre-los-arrepentidos-de-kast-hay-rabia-y-frustracion-por/2026-10-01/204728.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 48.4,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 51,
-            "freshness": 62,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 34
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-01T20:47:28-0300",
-        "last_seen": "2026-10-01T20:47:28-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Nodo XXI: Entre los \"arrepentidos de Kast\" hay rabia y frustración por las promesas incumplidas",
-            "description": "La abogada Camila Miranda, directora ejecutiva de la Fundación Nodo XXI, abordó en Cooperativa los resultados de encuesta \"Chile Actual\",  que mostró  un acelerado deterioro en la aprobación del Presidente José Antonio Kast y un creciente descontento ciudadano ante promesas incumplidas en economía y empleo. En conversación con Lo Que Queda del Día , la investigadora indicó que los resultados del sondeo arrojaron que, en el contexto actual del país, cuatro de cada diez personas que votaron por el Mandatario aseguran que no volverían a hacerlo. Ese grupo es denominando, en el estudio, como \"los arrepentidos de Kast\". \"Cuando preguntamos sobre la situación económica, un 46,8% dice que su situación empeoró en los últimos 12 meses, y solo un 10% dice que mejoró . Son números bastante contundentes y que tienen evidencia material sobre el aumento de la inflación o de las cifras de desempleo \", puntualizó. La experta señaló que, al cruzar estos resultados con otras preguntas, \"un componente importante de los arrepentidos (indica que) son personas que ven deteriorada su situación económica : principalmente mujeres de sectores populares que se vieron afectadas y, por tanto, si tuviesen que volver a decidir su voto, no volverían a votar por el presidente de la República \". 📊 4 de cada 10 personas que votaron por Kast hoy no lo volverían a hacer. Se trata de un ejercicio hipotético que refleja el nivel de decepción hacia el gobierno actual, en el contexto de un estudio de @nodoxxi sobre el posicionamiento ideológico de la población adulta chilena… pic.twitter.com/Vb54xwWFSF — Nodo XXI (@NodoXXI) September 29, 2026 \"Rabia y frustración\" por compromisos incumplidos y el factor Mepco Miranda resaltó que uno de los componentes llamativos que arrojó la encuesta fue \"que el deterioro del Presidente Kast fue mucho más rápido y acelerado que en otros casos \" . \"Todos los gobiernos tienen sus lunas de miel; pero ésta fue extremadamente corta,  de pocas semanas, a propósito de la situación de no aplicar el Mepco (que derivó en el 'bencinazo') , que bajó muchos puntos en la aprobación\", afirmó. Agregó que \"un 63%, dice estar de acuerdo con retomar el Mepco . En estos días donde hemos conocido nuevas alzas de los combustibles, esa es una política que las personas evalúan como necesaria, y el momento en que no se aplicó terminó siendo recurrente en la memoria, que ya no va a dejar de estar en la conversación pública\" . [Vea también] Kast agradeció a los chilenos por aguantar el bencinazo: \"En otros países habría generado un estallido\" La representante de Nodo XXI también recordó que en \"la campaña del Presidente Kast hubo compromisos con fecha, en este contexto, de un 'Gobierno de emergencia' . Si tú miras hoy la vigencia de esas promesas, no están cumplidas , y parte de la desaprobación, además del componente económico, tiene que ver con esa rabia y frustración de haber dado una oportunidad  (que resulta decepcionada)\". \"En el ámbito de economía y trabajo había compromisos de crecimiento que estaban al centro del relato, y parte de la megarreforma que se tramitó los primeros meses comprometía soluciones en esas áreas, pero los indicadores económicos de hoy no indican que estamos avanzando en esa dirección\", enfatizó. [Lea también] Desempleo en Chile subió a 9,6% en el trimestre junio-agosto \"Ningún sector puede celebrar ni estar contento con estos resultados\" Pese a ser ella misma una intelectual crítica del Gobierno, la abogada advirtió \"que ningún sector puede celebrar con estos datos (del estudio)  porque muestra lo desafiante que es construir mayorías que se mantengan estables en este contexto, especialmente con la dificultad que se tiene para dar respuestas materiales y urgentes desde la política\". \"Al menos para el sector de la izquierda y la oposición, está por un lado la tarea de comprender esta situación y saber que la confianza que se entrega tiene que ser respondida, (pero) ningún sector debería estar contento, (sino) más bien sentirse muy desafiado de lo que requiere hoy día construir mayorías \", cerró.",
-            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/nodo-xxi-entre-los-arrepentidos-de-kast-hay-rabia-y-frustracion-por/2026-10-01/204728.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261001/imag/foto_0000000220261001204728.jpg",
-            "published_raw": "Thu, 01 Oct 2026 20:47:28 -0300",
-            "published_at": "2026-10-01T20:47:28-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 2,
-            "score_elections": 3,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 3,
-            "score_ideology": 1,
-            "score_actor": 2,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 11,
-            "primary_topic": "Elecciones y opinión pública",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 10,
-          "labels": "Elecciones y opinión pública",
-          "chile_utility": 58.4
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
         "cluster_id": "PML-EVENT-010",
         "title": "TC dio luz verde a la Ley de Reconstrucción pero tumbó normas clave",
         "topic": "Instituciones y gobierno",
@@ -594,11 +593,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 60.9,
+          "score": 56.9,
           "level": "MEDIA",
           "components": {
             "political_impact": 79,
-            "freshness": 88,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 32
@@ -649,7 +648,79 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 82.9
+          "chile_utility": 78.9
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-005",
+        "title": "Diputado Araya calificó de \"crimen social\" el fin del programa \"Yo elijo mi PC\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/educacion/diputado-araya-califico-de-crimen-social-el-fin-del-programa-yo-elijo/2026-10-03/094905.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 56.3,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 53,
+            "freshness": 100,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 34
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-03T09:49:05-0300",
+        "last_seen": "2026-10-03T09:49:05-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Diputado Araya calificó de \"crimen social\" el fin del programa \"Yo elijo mi PC\"",
+            "description": "El diputado Jaime Araya (independiente-bancada PPD) arremetió este sábado contra la eliminación de programas como \"Elijo mi PC\" y la pérdida masiva de puestos de trabajo en el sistema educativo público chileno , cuestionadas iniciativas impulsadas por el Gobierno en medio de recortes por el Presupuesto 2027, y que calificó como \"un crimen social\" . En entrevista con El Diario de Cooperativa , el parlamentario centró sus críticas iniciales en la supresión del beneficio informático escolar, medida que ha generado amplio rechazo en el país , acusando un desmantelamiento programado de las ayudas sociales . \"Aquí en Antofagasta causó conmoción la decisión respecto de 'Elijo mi PC'. Este año se entregaron acá cinco mil computadores ; el Gobierno Regional hizo una inversión adicional de 300 millones de pesos para cubrir a todos aquellos niños que no habían sido seleccionados por el programa original. Y cuando uno mira el panorama nacional , son 97 mil niños que recibieron su computado r\", analizó Araya. \"Estamos en el siglo XXI; hoy la discusión internacional y nacional es respecto a la inteligencia artificial, y el Gobierno les va a quitar la herramienta\", advirtió el parlamentario independiente-PPD. (FOTO: ATON) Debido a este panorama, advirtió que \" lo primero que uno tiene que mirar como persona , más que como político , es romperle la ilusión a un niño . Me parece que es una cosa que Chile no se puede permitir\". \"En esto llamaría al Presidente Kast a recapacitar en esta medida. Cuando uno mira cuánto cuesta esto , son del orden de los 40 mil millones , no es una cosa que uno pudiera decir que es imposible de abordar para el Estado de Chile \", enfatizó el legislador. Crisis docente en los SLEP y controversia con Hacienda El diputado también cuestionó la postura del titular de Hacienda frente a las horas lectivas en los Servicios Locales de Educación Pública (SLEP) , remarcando que el ajuste fiscal significará la salida inminente de casi dos mil profesores de las aulas públicas . \"En el caso de los SLEP, la reducción de 1.888 cupos de profesores, es decir, 1.888 profesores a la calle. Y perdone que lo diga así: la estupidez del ministro (de Hacienda, Jorge) Quiroz , la falta de respeto de decir que aquí no se trata de que el Estado le tiene que garantizar empleo a los profesores . Cualquiera que conozca un poco la educación pública sabe que la sobrecarga de trabajo que tienen los profesores obedece al gran número de alumnos por sala \", arremetió Araya en Cooperativa. \"Entonces, cuando tenemos la posibilidad, producto de un problema que tiene Chile, que es un problema demográfico, de bajar la cantidad de alumnos por sala, quieren mantener esta estructura errática que hemos tenido: 42 , 43 , 45 niños por sala , en circunstancia de que colegios particulares tienen la mitad -22 o 23 alumnos- , y por eso hay una diferencia sustancial en materia de calidad \", enfatizó el parlamentario. El parlamentario calificó de \"estupidez\" y \"falta de respeto\" las declaraciones del ministro de Hacienda sobre el empleo docente. (FOTO: ATON) Para el parlamentario, privar de tecnología y recursos a las escuelas públicas resulta un retroceso formativo mayúsculo frente a los desafíos mundiales contemporáneos . Según dijo esperar, \"los padres y apoderados de los quintos, sextos y séptimos básicos no se van a quedar de brazos cruzados viendo cómo se hace este tremendo daño a la educación. Estamos en el siglo XXI ; hoy la discusión internacional y nacional es respecto a la inteligencia artificial , y el Gobierno les va a quitar la herramienta \". \"Si uno lo mirara en una retrospectiva del tiempo, esto es como que tomaran la decisión de que los niños no aprendan a leer y a escribir. Es un crimen social lo que están haciendo \", acusó el diputado. Araya calificó de \"jugarreta electoral\" la reforma de seguridad del Ejecutivo Por otra parte, Araya celebró la decisión gubernamental de retirar su proyecto de reforma a la seguridad pública en el Congreso , asegurando que la iniciativa carecía de bases reales y respondía exclusivamente a maniobras políticas de coyuntura . En opinión del congresista, \" esa reforma no tenía ninguna viabilidad desde el día uno , era una auténtica jugarreta electoral \", por lo que \"el Gobierno tiene que dejar la pirotecnia legislativa a un lado\". \"Eso fue lo que vimos con esta reforma (...) querían aprobar lo de extender los plazos para la expulsión administrativa de los migrantes, cuestión que no tiene ninguna trascendencia : el 96% de las expulsiones se hace dentro de los cinco días y el 4% restante son gente que nunca se pudo expulsar . Por lo tanto, pretenden crear soluciones para problemas que no existen\", explicó en Cooperativa. Finalmente, el parlamentario advirtió que el discurso punitivo del Ejecutivo no logrará ocultar el descontento de la ciudadanía frente al encarecimiento del costo de vida y los problemas estructurales que golpean a las familias chilenas.",
+            "url": "https://www.cooperativa.cl/noticias/pais/educacion/diputado-araya-califico-de-crimen-social-el-fin-del-programa-yo-elijo/2026-10-03/094905.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261003/imag/foto_0000000520261003094905.png",
+            "published_raw": "Sat, 03 Oct 2026 09:49:05 -0300",
+            "published_at": "2026-10-03T09:49:05-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 6,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 3,
+            "score_ideology": 0,
+            "score_actor": 3,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-005"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 77.3
         },
         "repeated_in_general_top5": false
       }
@@ -657,28 +728,34 @@
   },
   "topics": [
     {
-      "topic": "Relaciones internacionales",
+      "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 71.7,
-      "leading_story": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua"
+      "maximum_relevance": 76.8,
+      "leading_story": "Brasil elige presidente bajo la sombra de Trump y su ofensiva para impulsar gobiernos conservadores"
     },
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 10,
-      "maximum_relevance": 68.8,
-      "leading_story": "Voto femenino, clave en la recta final de las elecciones en Brasil"
+      "topic": "Relaciones internacionales",
+      "event_count": 1,
+      "maximum_relevance": 66.7,
+      "leading_story": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua"
     },
     {
       "topic": "Instituciones y gobierno",
       "event_count": 24,
-      "maximum_relevance": 68.7,
-      "leading_story": "Gobierno se abre a retirar reforma de seguridad y Kast descarta \"derrota política\""
+      "maximum_relevance": 65.9,
+      "leading_story": "Videoanálisis | Lo que se juega Brasil en las elecciones del domingo"
     },
     {
       "topic": "Conflictos y seguridad",
-      "event_count": 4,
-      "maximum_relevance": 62.9,
-      "leading_story": "El presunto asesino de la diputada británica Widdecombe planeaba un ataque terrorista contra el ultra Farage"
+      "event_count": 3,
+      "maximum_relevance": 64.4,
+      "leading_story": "La mano dura acapara el debate en las elecciones de Brasil: “Aquí mueren 100 traficantes y entran 200”"
+    },
+    {
+      "topic": "Elecciones y opinión pública",
+      "event_count": 9,
+      "maximum_relevance": 63.8,
+      "leading_story": "Voto femenino, clave en la recta final de las elecciones en Brasil"
     }
   ],
   "changes_since_yesterday": {
@@ -686,7 +763,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["France 24", "Cooperativa", "EL PAÍS"],
+    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
     "source_count": 3
   },
   "system": {
