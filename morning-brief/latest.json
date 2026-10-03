@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-02",
-    "data_latest_timestamp": "2026-10-02T17:51:29-0300",
-    "data_age_hours": 0.4,
-    "generated_at": "2026-10-02T18:15:23-0300",
+    "data_latest_timestamp": "2026-10-02T18:26:40-0300",
+    "data_age_hours": 2.9,
+    "generated_at": "2026-10-02T21:20:14-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,13 +16,13 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 41 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 41,
+    "ranked_events": 39,
     "topics": 3,
     "geographies": 2,
     "representative_sources": 3,
@@ -66,7 +66,7 @@
       ],
       "event_terms": "oposicion",
       "analysis": {
-        "summary": "El Gobierno confirmó este viernes su disposición a retirar la reforma constitucional de seguridad tras constatar que no cuenta con piso político en el Congreso , optando por allanarse a un texto alternativo que negocian con senadores. Frente a las críticas por haber enviado un proyecto que no logró sumar apoyos transversales, el Presidente José Anotnio Kast descartó que dar un paso atrás en la redacción original signifique un revés partidario para el oficialismo y recalcó…",
+        "summary": "El Gobierno confirmó este viernes su disposición a retirar la reforma constitucional de seguridad tras constatar que no cuenta con piso político en el Congreso , optando por allanarse a un texto alternativo que negocian con senadores. El punto de inflexión que aceleró la discusión estuvo marcado por el asesinato del cabo segundo de Carabineros Cristopher Aguilera ,  lo que sensibilizó al Presidente José Antonio Kast y lo motivó liderar personalmente los mensajes en torno a…",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -80,7 +80,7 @@
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
           "title": "Gobierno se abre a retirar reforma de seguridad y Kast descarta \"derrota política\"",
-          "description": "El Gobierno confirmó este viernes su disposición a retirar la reforma constitucional de seguridad tras constatar que no cuenta con piso político en el Congreso , optando por allanarse a un texto alternativo que negocian con senadores. Frente a las críticas por haber enviado un proyecto que no logró sumar apoyos transversales, el Presidente José Anotnio Kast descartó que dar un paso atrás en la redacción original signifique un revés partidario para el oficialismo y recalcó que el foco debe estar en la efectividad operativa contra la delincuencia. \"No tengo problema en que la retiremos y que otro se atribuya la responsabilidad. Lo importante es derrotar al narcotráfico , al crimen organizado , no quién tiene la iniciativa legal . No es una derrota política . Es una derrota de Chile si no enfrentamos con fuerza al crimen organizado y al narcotráfico\", puntualizó el Mandatario. En sintonía con las palabras del jefe de Estado, el ministro de Seguridad Pública , Martín Arrau , confirmó que se mantienen las conversaciones con los integrantes de la Comisión de Constitución - encabezada por el senador Pedro Araya (PPD) - y evidenció la flexibilidad de La Moneda para respaldar una redacción distinta . \" Nosotros no nos enamoramos de ninguna redacción . Si la redacción del Gobierno no genera consenso y los señores senadores están buscando otros consensos , yo se los agradezco \", afirmó el secretario de Estado, que enfatizó que está \"trabajando cada día más con los parlamentarios buscando consensos\". Pese al giro de La Moneda y a los esfuerzos de articulación de legisladores como Araya o el diputado Jaime Mulet (FRVS) , bancadas de la oposición cuestionaron que el diálogo aún no se concreta con todos los sectores ni con los liderazgos comunales. Socialismo Democrático y alcaldes cuestionan el fondo del proyecto La timonel del Partido Socialista , senadora Paulina Vodanovic , refutó la postura del Ejecutivo e insistió en que \" no se trata de quién es el autor de un proyecto de ley , sino del contenido de él \". \" Discutir un estado de excepción o reformas a los estados de excepción constitucional no va a cambiar la realidad hoy \", advirtió la legisladora. Por su parte, el alcalde de San Bernardo, Christopher White (PS) , calificó como \" una muy buena señal que (se entendiera que) un nuevo estado excepcional iba a generar una discusión -probablemente eterna- que no era necesaria en este momento \". En opinión del jefe comunal, \"todos tenemos que hacer esfuerzos de encontrar puntos intermedios, y no basta solo con la intención de llamar, también hay que hacer el trabajo de conversar , discutir , ir al Congreso , reunirse con las bancadas y los alcaldes , y ahí el Ejecutivo es el que tiene la primera tarea \". El dilema del \"pasando y pasando\" en La Moneda Se espera que a inicios de la próxima semana una parte de los senadores de la Comisión de Constitución presente su texto de reemplazo. En el comité político advirtieron que negociarán bajo la lógica del \"pasando y pasando\" . La Moneda busca evitar un retiro prematuro de la iniciativa sin acuerdos cerrados de por medio, ante el riesgo de que disposiciones urgentes para el Gobierno, como el régimen legal de segregación carcelaria para reos peligrosos , terminen diluyéndose o quedando en nada .",
+          "description": "El Gobierno confirmó este viernes su disposición a retirar la reforma constitucional de seguridad tras constatar que no cuenta con piso político en el Congreso , optando por allanarse a un texto alternativo que negocian con senadores. El punto de inflexión que aceleró la discusión estuvo marcado por el asesinato del cabo segundo de Carabineros Cristopher Aguilera ,  lo que sensibilizó al Presidente José Antonio Kast y lo motivó liderar personalmente los mensajes en torno a la necesidad de alcanzar acuerdos rápidos en materia de seguridad. Frente a las críticas por haber enviado un proyecto que no logró sumar apoyos transversales, el Presidente José Anotnio Kast descartó que dar un paso atrás en la redacción original signifique un revés partidario para el oficialismo y recalcó que el foco debe estar en la efectividad operativa contra la delincuencia. \"No tengo problema en que la retiremos y que otro se atribuya la responsabilidad. Lo importante es derrotar al narcotráfico , al crimen organizado , no quién tiene la iniciativa legal . No es una derrota política . Es una derrota de Chile si no enfrentamos con fuerza al crimen organizado y al narcotráfico\", puntualizó el Mandatario durante su participación en una ceremonia de la Cámara Nacional de Comercio. Arrau: \"No nos enamoramos de ninguna redacción\" En sintonía con las palabras del jefe de Estado, el ministro de Seguridad Pública , Martín Arrau , confirmó que se mantienen las conversaciones con los integrantes de la Comisión de Constitución - encabezada por el senador Pedro Araya (PPD) - y evidenció la flexibilidad de La Moneda para respaldar una redacción distinta . \" Nosotros no nos enamoramos de ninguna redacción . Si la redacción del Gobierno no genera consenso y los señores senadores están buscando otros consensos , yo se los agradezco \", afirmó el secretario de Estado, que enfatizó que está \"trabajando cada día más con los parlamentarios buscando consensos\". Pese al giro de La Moneda y a los esfuerzos de articulación de legisladores como Araya o el diputado Jaime Mulet (FRVS) , bancadas de la oposición cuestionaron que el diálogo aún no se concreta con todos los sectores ni con los liderazgos comunales. \"Lo que pide el Presidente es que haya otro (proyecto) que esté más o menos consensuado y que reúna los votos necesarios para avanzar en aquellas cosas que se pueden avanzar, que son pocas, pero que son relevantes . En eso yo vi al Presidente en una muy buena disposición\". Pese a la disposición del Ejecutivo, el presidente de la comisión de Constitución en la Cámara señaló que \"me da la impresión que hay sectores de la oposición, particularmente los senadores, que no quieren llegar a un acuerdo, porque podrían presentar ellos un proyecto,  y porque ni más ni menos esto es poco habitual, que un Gobierno retire un proyecto. Y lo que están diciendo es: 'estamos dispuestos a retirar la reforma constitucional, pero propongan otra'\". Socialismo Democrático y alcaldes cuestionan el fondo del proyecto La timonel del Partido Socialista , senadora Paulina Vodanovic , refutó la postura del Ejecutivo e insistió en que \" no se trata de quién es el autor de un proyecto de ley , sino del contenido de él \". \" Discutir un estado de excepción o reformas a los estados de excepción constitucional no va a cambiar la realidad hoy \", advirtió la legisladora. Por su parte, el alcalde de San Bernardo, Christopher White (PS) , calificó como \" una muy buena señal que (se entendiera que) un nuevo estado excepcional iba a generar una discusión -probablemente eterna- que no era necesaria en este momento \". En opinión del jefe comunal, \"todos tenemos que hacer esfuerzos de encontrar puntos intermedios, y no basta solo con la intención de llamar, también hay que hacer el trabajo de conversar , discutir , ir al Congreso , reunirse con las bancadas y los alcaldes , y ahí el Ejecutivo es el que tiene la primera tarea \". El dilema del \"pasando y pasando\" en La Moneda Se espera que a inicios de la próxima semana una parte de los senadores de la Comisión de Constitución presente su texto de reemplazo. En el comité político advirtieron que negociarán bajo la lógica del \"pasando y pasando\" . La Moneda busca evitar un retiro prematuro de la iniciativa sin acuerdos cerrados de por medio, ante el riesgo de que disposiciones urgentes para el Gobierno, como el régimen legal de segregación carcelaria para reos peligrosos , terminen diluyéndose o quedando en nada .",
           "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abre-a-retirar-reforma-de-seguridad-y-kast-descarta-derrota/2026-10-02/144846.html",
           "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000320261002144846.png",
           "published_raw": "Fri, 02 Oct 2026 14:48:46 -0300",
@@ -88,7 +88,7 @@
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 8,
+          "score_institutional": 9,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 3,
@@ -97,7 +97,7 @@
           "score_actor": 8,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 20,
+          "political_evidence": 21,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
@@ -136,7 +136,7 @@
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-012",
+      "cluster_id": "PML-EVENT-011",
       "title": "Elecciones en Brasil: EE. UU. suspende servicios consulares, en plena investigación por presunta “injerencia”",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261002-elecciones-en-brasil-ee-uu-suspende-servicios-consulares-en-plena-investigaci%C3%B3n-por-presunta-injerencia",
       "representative_source": "France 24",
@@ -208,13 +208,13 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
+          "cluster_id": "PML-EVENT-011"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-025",
+      "cluster_id": "PML-EVENT-024",
       "title": "El presunto asesino de la diputada británica Widdecombe planeaba un ataque terrorista contra el ultra Farage",
       "url": "https://elpais.com/internacional/2026-10-02/el-presunto-asesino-de-la-diputada-britanica-widdecombe-planeaba-un-ataque-terrorista-conta-el-ultra-farage.html",
       "representative_source": "EL PAÍS",
@@ -281,13 +281,13 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "cluster_id": "PML-EVENT-024"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-027",
+      "cluster_id": "PML-EVENT-026",
       "title": "El voto del odio marca las elecciones presidenciales en Brasil",
       "url": "https://elpais.com/america/2026-10-02/el-voto-del-odio-marca-las-elecciones-presidenciales-en-brasil.html",
       "representative_source": "EL PAÍS",
@@ -357,7 +357,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-026"
         }
       ]
     },
@@ -450,7 +450,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-010",
+        "cluster_id": "PML-EVENT-009",
         "title": "TC dio luz verde a la Ley de Reconstrucción pero tumbó normas clave",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -505,7 +505,7 @@
             "secondary_topic": null,
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-010"
+            "cluster_id": "PML-EVENT-009"
           }
         ],
         "article_count": 1,
@@ -672,7 +672,7 @@
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 11,
+      "event_count": 9,
       "maximum_relevance": 69.3,
       "leading_story": "Elecciones en Brasil: EE. UU. suspende servicios consulares, en plena investigación por presunta “injerencia”"
     },
