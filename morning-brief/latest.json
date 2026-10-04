@@ -4,37 +4,37 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-04",
-    "data_latest_timestamp": "2026-10-04T15:11:05-0300",
-    "data_age_hours": 0.1,
-    "generated_at": "2026-10-04T15:15:42-0300",
+    "data_latest_timestamp": "2026-10-04T18:32:06-0300",
+    "data_age_hours": 0,
+    "generated_at": "2026-10-04T18:34:32-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": true
+    "editorial_topic_diversity_met": false
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 41 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
+    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 36,
-    "topics": 3,
+    "ranked_events": 41,
+    "topics": 2,
     "geographies": 3,
     "representative_sources": 3,
-    "average_top5_relevance": 62.2,
+    "average_top5_relevance": 67.7,
     "maximum_relevance": 78.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-015",
-      "title": "Elecciones en Brasil 2026, en vivo | Lula: “Veremos qué Brasil eligió el pueblo”. Bolsonaro: “Brasil no aguanta más”",
-      "url": "https://elpais.com/america/2026-10-04/elecciones-en-brasil-2026-en-vivo.html",
+      "cluster_id": "PML-EVENT-017",
+      "title": "Resultados de las elecciones en Brasil, en vivo | Flávio Bolsonaro aventaja a Lula, con más del 27% escrutado",
+      "url": "https://elpais.com/america/2026-10-04/resultados-de-las-elecciones-en-brasil-2026-en-vivo.html",
       "representative_source": "EL PAÍS",
       "topic": "Elecciones y opinión pública",
       "event_type": "ELECTORAL_EVENT",
@@ -62,7 +62,7 @@
         ]
       },
       "first_seen": "2026-10-02T14:16:51-0300",
-      "last_seen": "2026-10-04T15:11:05-0300",
+      "last_seen": "2026-10-04T18:32:06-0300",
       "entities": [
         "bolsonaro",
         "lula",
@@ -107,22 +107,22 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-017"
         },
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Elecciones en Brasil 2026, en vivo | Lula: “Veremos qué Brasil eligió el pueblo”. Bolsonaro: “Brasil no aguanta más”",
-          "description": "La última encuesta, divulgada el sábado por la noche, otorga 45% de los votos al presidente y 42% al ultraderechista",
-          "url": "https://elpais.com/america/2026-10-04/elecciones-en-brasil-2026-en-vivo.html",
+          "title": "Resultados de las elecciones en Brasil, en vivo | Flávio Bolsonaro aventaja a Lula, con más del 27% escrutado",
+          "description": "Si ningún candidato obtiene el 50% más un voto, habrá una segunda vuelta el 25 de octubre",
+          "url": "https://elpais.com/america/2026-10-04/resultados-de-las-elecciones-en-brasil-2026-en-vivo.html",
           "image_url": "https://imagenes.elpais.com/resizer/v2/DBFHQ4WL45DVTKUXIIQQO6SI4U.jpg?auth=118fd816dd41dde15f6410e1a645723be536ccc3bc964424a9e3bda5241b0a65",
-          "published_raw": "Sun, 04 Oct 2026 18:11:05 GMT",
-          "published_at": "2026-10-04T15:11:05-0300",
+          "published_raw": "Sun, 04 Oct 2026 21:32:06 GMT",
+          "published_at": "2026-10-04T18:32:06-0300",
           "country": "No identificado",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 2,
+          "score_institutional": 0,
+          "score_elections": 3,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
@@ -132,10 +132,10 @@
           "score_accident": 0,
           "political_evidence": 4,
           "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-017"
         },
         {
           "source_id": "france24_latam",
@@ -163,7 +163,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-017"
         },
         {
           "source_id": "elpais_america",
@@ -172,8 +172,8 @@
           "description": "El presidente Lula y Flávio Bolsonaro, hijo del exmandatario golpista, se disputan la presidencia en una elección totalmente abierta",
           "url": "https://elpais.com/america/2026-10-04/brasil-decide-su-futuro-entre-lula-y-bolsonaro-un-estadista-desgastado-y-un-hijo-de-papa-ultra.html",
           "image_url": "https://imagenes.elpais.com/resizer/v2/SAXKQBS5B5DWLMKZY2JOJC4TDI.jpg?auth=ce2f554b9ee0db890257a1f4f9c3f9b986bc8cfebedd610ea45d28fda242e0ec",
-          "published_raw": "Sun, 04 Oct 2026 03:30:00 GMT",
-          "published_at": "2026-10-04T00:30:00-0300",
+          "published_raw": "Sun, 04 Oct 2026 20:19:43 GMT",
+          "published_at": "2026-10-04T17:19:43-0300",
           "country": "No identificado",
           "region": "América Latina",
           "language": "es",
@@ -191,12 +191,12 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-017"
         },
         {
           "source_id": "france24_latam",
           "source": "France 24",
-          "title": "Bolsonaro Jr. VS Lula: la corrupción marca la campaña en Brasil",
+          "title": "Bolsonaro Jr. vs. Lula: la corrupción marca la campaña en Brasil",
           "description": "Lula da Silva y Flávio Bolsonaro llegan a la recta final de la campaña como los principales protagonistas de las elecciones presidenciales de Brasil. La corrupción, que ya era uno de los temas sensibles para el electorado, vuelve a cobrar interés tras el estallido de un escándalo financiero con varias ramificaciones y acusaciones que salpican al hijo del expresidente Jair Bolsonaro y al juez Alexandre de Moraes, una figura clave de la justicia brasileña y blanco habitual de las críticas de la derecha.",
           "url": "https://www.france24.com/es/programas/en-primera-plana/20261002-bolsonaro-jr-vs-lula-la-corrupci%C3%B3n-marca-la-campa%C3%B1a-en-brasil",
           "image_url": "https://s.france24.com/media/display/8836700e-bb5f-11f1-b44c-11fa9f8a3b4f/w:1024/p:16x9/000-C7BC6KE.jpg",
@@ -219,13 +219,159 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-017"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-032",
+      "cluster_id": "PML-EVENT-006",
+      "title": "Reforma de seguridad: giro de La Moneda desata reparos en el PC y el PS",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-seguridad-giro-de-la-moneda-desata-reparos-en-el-pc-y-el-ps/2026-10-04/152253.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 67,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 79
+      },
+      "selection": {
+        "reason": "PML 67; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-10-04T15:22:53-0300",
+      "last_seen": "2026-10-04T15:22:53-0300",
+      "entities": "senado",
+      "event_terms": "judicial",
+      "analysis": {
+        "summary": "El Gobierno retirará su reforma constitucional de seguridad tras el amplio rechazo legislativo a su propuesta de crear un estado de excepción de 120 días y permitir la interceptación de comunicaciones sin orden judicial . En su lugar, La Moneda respaldará un texto alternativo elaborado por los senadores Pedro Araya (PPD) , Andrés Longton (RN) y Arturo Squella (Republicanos) , iniciativa que será ingresada a trámite a más tardar este martes para destrabar el debate en la…",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Reforma de seguridad: giro de La Moneda desata reparos en el PC y el PS",
+          "description": "El Gobierno retirará su reforma constitucional de seguridad tras el amplio rechazo legislativo a su propuesta de crear un estado de excepción de 120 días y permitir la interceptación de comunicaciones sin orden judicial . En su lugar, La Moneda respaldará un texto alternativo elaborado por los senadores Pedro Araya (PPD) , Andrés Longton (RN) y Arturo Squella (Republicanos) , iniciativa que será ingresada a trámite a más tardar este martes para destrabar el debate en la Cámara Alta. El nuevo texto parlamentario concentrará los esfuerzos institucionales en tres ejes prioritarios de consenso: el combate frontal al crimen organizado , el establecimiento de regímenes especiales para la seguridad penitenciaria y precisiones operativas al estado de excepción de emergencia ya vigente en la Carta Fundamental . Reparos desde el Partido Comunista y el Partido Socialista Pese al intento por dar un carácter de consenso transversal a la propuesta, la presidenta y senadora del Partido Socialista (PS) , Paulina Vodanovic , tomó distancia formal de la tratativa, asegurando que no intervino en la redacción del texto y cuestionando que se le catalogara como una iniciativa transversal en el seno de la Comisión de Constitución . A estos cuestionamientos se sumó la senadora comunista Claudia Pascual , quien descartó la urgencia de introducir modificaciones directas a la Constitución para resolver estas materias. En el oficialismo surgieron reparos; la senadora Claudia Pascual sostuvo: \"Yo no tengo la convicción de que haya que constitucionalizar algo\". (FOTO: ATON) Al respecto, la legisladora enfatizó \"que nos parece que primero hay que ponerse de acuerdo de qué es lo que realmente hay que constitucionalizar. Yo no tengo la convicción de que haya que constitucionalizar algo, sí de que hay que mejorar legislaciones , como por ejemplo elevar el rango de los reglamentos penitenciarios a leyes orgánicas, no a la Constitución\". \" Son temas que nos parecen importantes y ninguno de ellos es de rango constitucional \", puntualizó. Squella defiende diálogo y define prioridades contra el crimen organizado Frente a la controversia por la representatividad de las negociaciones, el senador y timonel del Partido Republicano , Arturo Squella , desestimó las acusaciones de marginación y llamó a los distintos sectores políticos a priorizar las herramientas contra la delincuencia . \"Es absurdo pensar que no hayamos querido invitarlas, como al final terminaron reconociendo en el fondo que se había hecho la invitación, se había mandado el texto. Es legítimo no estar disponible para firmar un proyecto. Nosotros sí esperaríamos , más allá de ese impasse de la semana , de que conocido el texto estén disponibles para combatir como corresponde el crimen organizado , en eso es lo que estamos trabajando con los senadores Araya y Longton\", enfatizó el legislador oficialista. El senador de Republicanos Arturo Squella desestimó exclusiones y afirmó que esperan que las distintas bancadas \"estén disponibles para combatir como corresponde el crimen organizado\". (FOTO: ATON) Asimismo, defendió los cuestionamientos por la opción de un nuevo estado de excepción, asegurando que \"si bien no era estrictamente necesario que hubiera un nuevo estado de excepción, lo que sí necesitaba era una hipótesis de que, cuando se cuenta con la información suficiente de que en tal lugar están las personas que son parte de una investigación judicial , se pueda avanzar con toda la fuerza del Estado \". Ejes que quedan fuera del nuevo texto El ingreso del nuevo texto legislativo está previsto a más tardar para este martes en el Senado. Con esta reformulación, el Ejecutivo da un paso atrás en dos de los puntos más controvertidos de su propuesta inicial: la instauración de una quinta categoría de estado de excepción constitucional y la facultad de ejecutar interceptaciones telefónicas y de comunicaciones sin requerir previamente una orden judicial.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-seguridad-giro-de-la-moneda-desata-reparos-en-el-pc-y-el-ps/2026-10-04/152253.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261004/imag/foto_0000000420261004152253.png",
+          "published_raw": "Sun, 04 Oct 2026 15:22:53 -0300",
+          "published_at": "2026-10-04T15:22:53-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 2,
+          "score_policy": 0,
+          "score_ideology": 2,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 14,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-006"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-011",
+      "title": "Elecciones en Brasil: el ambiente dentro de los colegios electorales",
+      "url": "https://www.france24.com/es/elecciones-en-brasil-el-ambiente-dentro-de-los-colegios-electorales",
+      "representative_source": "France 24",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Brasil / América Latina"
+      },
+      "relevance": {
+        "score": 68.6,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 63.6
+      },
+      "selection": {
+        "reason": "PML 68.6",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-10-04T17:45:14-0300",
+      "last_seen": "2026-10-04T17:45:14-0300",
+      "entities": "brasil",
+      "event_terms": "eleccion",
+      "analysis": {
+        "summary": "Brasil celebra una jornada electoral marcada por el ambiente festivo y la alta movilización ciudadana. En ciudades como Río de Janeiro, miles de votantes acuden a las urnas luciendo pegatinas, camisetas, sombreros y otros símbolos de sus candidatos. Mientras el país elige presidente, vicepresidente, gobernadores, diputados y senadores, la polarización política convive con expresiones de entusiasmo y participación democrática. ",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Elecciones en Brasil: el ambiente dentro de los colegios electorales",
+          "description": "Brasil celebra una jornada electoral marcada por el ambiente festivo y la alta movilización ciudadana. En ciudades como Río de Janeiro, miles de votantes acuden a las urnas luciendo pegatinas, camisetas, sombreros y otros símbolos de sus candidatos. Mientras el país elige presidente, vicepresidente, gobernadores, diputados y senadores, la polarización política convive con expresiones de entusiasmo y participación democrática. ",
+          "url": "https://www.france24.com/es/elecciones-en-brasil-el-ambiente-dentro-de-los-colegios-electorales",
+          "image_url": "https://s.france24.com/media/display/2614493c-c02d-11f1-8fbd-13420ab900a2/w:1024/p:16x9/cover-b-32.png",
+          "published_raw": "Sun, 04 Oct 2026 20:45:14 GMT",
+          "published_at": "2026-10-04T17:45:14-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 4,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 11,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-011"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-037",
       "title": "El asalto de Trump al Supremo de Estados Unidos entra en un año decisivo",
       "url": "https://elpais.com/us/2026-10-04/el-asalto-de-trump-al-supremo-de-estados-unidos-entra-en-un-ano-decisivo.html",
       "representative_source": "EL PAÍS",
@@ -236,12 +382,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 60.7,
+        "score": 58.7,
         "level": "MEDIA",
-        "editorial_utility": 72.7
+        "editorial_utility": 61.7
       },
       "selection": {
-        "reason": "PML 60.7; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 58.7; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -295,106 +441,29 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-032"
+          "cluster_id": "PML-EVENT-037"
         }
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-006",
-      "title": "Senadores preparan propuesta de seguridad tras revés en la reforma del Gobierno",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/senadores-preparan-propuesta-de-seguridad-tras-reves-en-la-reforma-del/2026-10-03/135752.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 58.7,
-        "level": "MEDIA",
-        "editorial_utility": 61.7
-      },
-      "selection": {
-        "reason": "PML 58.7; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-10-03T13:57:52-0300",
-      "last_seen": "2026-10-03T13:57:52-0300",
-      "entities": [
-        "senado",
-        "congreso",
-        "chile"
-      ],
-      "event_terms": "ataque",
-      "analysis": {
-        "summary": "Los parlamentarios de la Comisión de Constitución del Senado:  P edro Araya (PPD), Andrés Longton (RN) y Arturo Squella (Republicanos), preparan una nueva propuesta en materia de seguridad, luego que el proyecto de reforma constitucional del Gobierno no avanzara en la Cámara Alta .",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Senadores preparan propuesta de seguridad tras revés en la reforma del Gobierno",
-          "description": "Los parlamentarios de la Comisión de Constitución del Senado:  P edro Araya (PPD), Andrés Longton (RN) y Arturo Squella (Republicanos), preparan una nueva propuesta en materia de seguridad, luego que el proyecto de reforma constitucional del Gobierno no avanzara en la Cámara Alta . La iniciativa apunta a incorporar el crimen organizado a nivel constitucional , establecer un régimen de segregación penitenciari o según la peligrosidad de las personas privadas de libertad y precisar el alcance del actual estado de emergencia para enfrentar situaciones vinculadas con la seguridad pública. No obstante, la propuesta de los parlamentarios ha generado debate al interior de la propia Comisión. La senadora Paulina Vodanovic, presidenta del Partido Socialista, marcó distancia del texto y aseguró que no participó en su elaboración,  y planteó avanzar en una reforma constitucional acotada específicamente al ámbito carcelario y destacó la necesidad de un nuevo estado de excepción. En ese contexto, el senador Longton planteó que \"este proyecto es distinto a lo presentado por el Gobierno, sin perjuicio de que comparte las ideas desde el punto de vista del ataque al crimen organizado\". Asimismo, apuntó a la parlamentaria socialista: \"Otras senadoras, como la senadora Vodanovic, que presentó una reforma en esa línea el 2024, me parece que compartiendo el mismo objetivo, durante la discusión debería abrir un espacio de acuerdo mucho mayor que el firmar o no firmar \". Por su parte, Araya intentó calmar los ánimos y sostuvo que \"en cuanto a la senadora Vodanovic y Pascual, más que hablar de convencerlas, aquí hay que conversar. Ellas tienen reparos y son legítimos que los planteen \". \"Hemos venido dialogando y ahora con un texto concreto sobre la mesa vamos a tener que entrar a discutir cada una de estas observaciones . Si hay cosas que se pueden corregir o mejorar, habrá que hacerlo. Acá no se trata de darle un cheque en blanco a nadie\", afirmó. Desde la UDI, el senador Javier Macaya instó a que \"si esta fórmula logra construir mayoría y mejorar la seguridad de los chilenos, hay que dejar de lado los dimes y diretes políticos y sacarla adelante, y ojalá buscarla y votarla con la mayor cantidad de votos posible en el Congreso\". El senador Juan Luis Castro (PS) fue mas cauto y planteó sobre la propuesta que \"p rimero hay que verla, porque podemos compartir el objetivo, pero de ahí a cambiar la Constitución de Chile para que otras leyes, como propone esa misma idea, sean las que operativicen esto, la verdad parece una vuelta larga. Entonces, no nos parece en principio\". La nueva reforma de seguridad será presentada la próxima semana en la corporación y el debate se traslada a la búsqueda de un acuerdo más amplio.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/senadores-preparan-propuesta-de-seguridad-tras-reves-en-la-reforma-del/2026-10-03/135752.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261003/imag/foto_0000000220261003135752.jpg",
-          "published_raw": "Sat, 03 Oct 2026 13:57:52 -0300",
-          "published_at": "2026-10-03T13:57:52-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 7,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 13,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-006"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-026",
-      "title": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261003-la-oea-reclama-elecciones-libres-y-la-excarcelaci%C3%B3n-de-presos-pol%C3%ADticos-en-nicaragua",
-      "representative_source": "France 24",
-      "topic": "Relaciones internacionales",
+      "position": 5,
+      "cluster_id": "PML-EVENT-035",
+      "title": "El resultado de las elecciones en Bosnia-Herzegovina aleja su entrada en la Unión Europea",
+      "url": "https://elpais.com/internacional/2026-10-04/el-resultado-de-las-elecciones-en-bosnia-herzegovina-aleja-su-entrada-en-la-union-europea.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
       "event_type": "ELECTORAL_EVENT",
       "geography": {
-        "group": "América Latina",
-        "country": "No identificado / América Latina"
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 56.7,
-        "level": "MEDIA",
-        "editorial_utility": 60.7
+        "score": 66.1,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 60.1
       },
       "selection": {
-        "reason": "PML 56.7; aporta diversidad temática",
+        "reason": "PML 66.1; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -402,18 +471,15 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "France 24"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-02T22:34:36-0300",
-      "last_seen": "2026-10-02T22:34:36-0300",
-      "entities": [
-        "nicaragua",
-        "ortega"
-      ],
-      "event_terms": "sanciones",
+      "first_seen": "2026-10-04T17:07:14-0300",
+      "last_seen": "2026-10-04T17:07:14-0300",
+      "entities": [],
+      "event_terms": [],
       "analysis": {
-        "summary": "La Organización de los Estados Americanos aprobó por unanimidad una resolución que reclama la liberación incondicional de los presos políticos, el restablecimiento de la separación de poderes y condiciones para celebrar elecciones libres, justas e inclusivas. El texto crea además un grupo de seguimiento, pero no contempla sanciones concretas contra el Gobierno de Daniel Ortega.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en No identificado / América Latina.",
+        "summary": "El partido del hombre fuerte de la República Srpska, el prorruso Milorad Dodik, asegura su presencia en la presidencia tripartita del país",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
           "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
@@ -423,105 +489,32 @@
       },
       "articles": [
         {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua",
-          "description": "La Organización de los Estados Americanos aprobó por unanimidad una resolución que reclama la liberación incondicional de los presos políticos, el restablecimiento de la separación de poderes y condiciones para celebrar elecciones libres, justas e inclusivas. El texto crea además un grupo de seguimiento, pero no contempla sanciones concretas contra el Gobierno de Daniel Ortega.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261003-la-oea-reclama-elecciones-libres-y-la-excarcelaci%C3%B3n-de-presos-pol%C3%ADticos-en-nicaragua",
-          "image_url": "https://s.france24.com/media/display/36b2d99c-b0a2-11f1-a424-005056bf30b7/w:1024/p:16x9/000-76TX4G3.jpg",
-          "published_raw": "Sat, 03 Oct 2026 01:34:36 GMT",
-          "published_at": "2026-10-02T22:34:36-0300",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El resultado de las elecciones en Bosnia-Herzegovina aleja su entrada en la Unión Europea",
+          "description": "El partido del hombre fuerte de la República Srpska, el prorruso Milorad Dodik, asegura su presencia en la presidencia tripartita del país",
+          "url": "https://elpais.com/internacional/2026-10-04/el-resultado-de-las-elecciones-en-bosnia-herzegovina-aleja-su-entrada-en-la-union-europea.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/5QTYBAWJQVJOHDZF262VHWA6MY.jpg?auth=1be5ed1bf8edcb17b2267f38d88aeda90df370617d4233d0003d32358acaf17b",
+          "published_raw": "Sun, 04 Oct 2026 20:07:14 GMT",
+          "published_at": "2026-10-04T17:07:14-0300",
           "country": "No identificado",
-          "region": "América Latina",
+          "region": "Internacional",
           "language": "es",
-          "score_institutional": 1,
+          "score_institutional": 0,
           "score_elections": 1,
-          "score_international": 2,
+          "score_international": 1,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 0,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Relaciones internacionales",
-          "secondary_topic": "Instituciones y gobierno",
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-010",
-      "title": "Megarreforma: Delfino apuntó a seguir debate de distribución de recursos a municipios tras fallo del TC",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/megarreforma-delfino-apunto-a-seguir-debate-de-distribucion-de-recursos/2026-10-03/154224.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 56.8,
-        "level": "MEDIA",
-        "editorial_utility": 51.8
-      },
-      "selection": {
-        "reason": "PML 56.8; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-10-03T15:42:24-0300",
-      "last_seen": "2026-10-03T15:42:24-0300",
-      "entities": [],
-      "event_terms": "tribunal",
-      "analysis": {
-        "summary": "La alcaldesa de Quinta Normal, Karina Delfino, vicepresidente de la Asociación de chilena de Municipalidades (AChM) , valoró el fallo del Tribunal Constitucional que dejó en condiciones de ser promulgada la megarreforma del Gobierno e instó a seguir discutiendo la distribución de recursos en las distintas comunas del país.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Megarreforma: Delfino apuntó a seguir debate de distribución de recursos a municipios tras fallo del TC",
-          "description": "La alcaldesa de Quinta Normal, Karina Delfino, vicepresidente de la Asociación de chilena de Municipalidades (AChM) , valoró el fallo del Tribunal Constitucional que dejó en condiciones de ser promulgada la megarreforma del Gobierno e instó a seguir discutiendo la distribución de recursos en las distintas comunas del país. El Tribunal Constitucional rechazó en la víspera algunas disposiciones del proyecto que deberán ser eliminadas de la Ley de Reconstrucción Nacional y Desarrollo Económico y Social, entre ellas, figuran las indemnizaciones a empresas por resoluciones ambientales revocadas y también requisitos sobre el financiamiento y compensaciones a municipalidades por la exención de contribuciones. En concreto, se anuló la norma que permitía a ciertos municipios de mayores ingresos retener ingresos adicionales en lugar de aportarlos al Fondo Solidario Territorial. La alcaldesa Delfino valoró la decisión y afirmó que \" es una derrota del Gobierno en el Tribunal Constitucional en materia de municipalidades\" . \"Finalmente, lo que dice el TC es que alguna de las materias legislativas que se aprobaron son inconstitucionales y que a lo que apunta la legislación actual es a fortalecer el Fondo Común Municipal y no finalmente a beneficiar a las comunas que tienen mayores ingresos\". \"En el fondo, parte de cómo quedó redactada la megarreforma tiene que seguir fortaleciendo el Fondo Común Municipal y no que vayan a fondos propios de las comunas que tienen mayores ingresos, como por ejemplo la comuna de Las Condes, Lo Barnechea, Vitacura\", sostuvo. Por su parte, el diputado Jaime Araya (ind) planteó que el Gobierno debería postergar la promulgación de la norma: \"Es valioso que el TC haya dejado sin posibilidad de aplicación normas que eran cuestionadas desde el comienzo y que advertimos durante la tramitación legislativa. En tal sentido, lo que estamos planteando desde la Comisión de Seguridad es que el Gobierno se abra a postergar la puesta en vigencia o la puesta en marcha de la Ley de Reconstrucción , de manera tal de tener una última recaudación de recursos que permitan financiar todos estos recortes que están causando un grave estrés en la sociedad chilena\". En ese sentido, aseveró que \" no daría por cerrado el capítulo de la Ley de Reconstrucción, l a megarreforma de los súper ricos que va a generar un daño brutal en el financiamiento y en el funcionamiento del Estado y en el otorgamiento de las prestaciones públicas más básicas\". Analista insta al Gobierno a tomar otras medidas para activar crecimiento El economista Víctor Salas , de la Universidad de Santiago, analizó el negativo último Indicador Mensual de Actividad Económico y la proyección del ministro de Hacienda, Jorge Quiroz, de un crecimiento a lo que se había planteado anteriormente: En vez de 1,8%, calculó que la expansión sería de 0,7% este año. Al respecto, planteó que \" es claro que la economía está en un estancamiento recesivo, podríamos decir. Tiene que ver con el gasto interno y principalmente con la caída de la inversión. El crecimiento de la economía nuestra iba a tener este año un rango entre 0,25 y 0,75. Desde luego, entonces, un 0,7% todavía parece optimista, digamos, y no parece una reacción real ante la situación económica que estamos viviendo. Tan catastrófica hay que enfrentarla desde el Estado con eh una reacción con más recurso\".",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/megarreforma-delfino-apunto-a-seguir-debate-de-distribucion-de-recursos/2026-10-03/154224.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261003/imag/foto_0000000220261003154224.jpg",
-          "published_raw": "Sat, 03 Oct 2026 15:42:24 -0300",
-          "published_at": "2026-10-03T15:42:24-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 9,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-010"
+          "cluster_id": "PML-EVENT-035"
         }
       ]
     }
@@ -534,90 +527,62 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-001",
-        "title": "Gobierno se abre a retirar reforma de seguridad y Kast descarta \"derrota política\"",
+        "cluster_id": "PML-EVENT-008",
+        "title": "Senadores preparan propuesta de seguridad tras revés en la reforma del Gobierno",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abre-a-retirar-reforma-de-seguridad-y-kast-descarta-derrota/2026-10-02/144846.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/senadores-preparan-propuesta-de-seguridad-tras-reves-en-la-reforma-del/2026-10-03/135752.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.9,
+          "score": 58.7,
           "level": "MEDIA",
           "components": {
             "political_impact": 90,
-            "freshness": 25,
-            "source_count": 32,
-            "geographic_scope": 55,
-            "continuity": 50
+            "freshness": 62,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 42
           }
         },
         "coverage": {
-          "article_count": 2,
+          "article_count": 1,
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-02T11:36:43-0300",
-        "last_seen": "2026-10-02T14:48:46-0300",
+        "first_seen": "2026-10-03T13:57:52-0300",
+        "last_seen": "2026-10-03T13:57:52-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Gobierno se abre a retirar reforma de seguridad y Kast descarta \"derrota política\"",
-            "description": "El Gobierno confirmó este viernes su disposición a retirar la reforma constitucional de seguridad tras constatar que no cuenta con piso político en el Congreso , optando por allanarse a un texto alternativo que negocian con senadores. El punto de inflexión que aceleró la discusión estuvo marcado por el asesinato del cabo segundo de Carabineros Cristopher Aguilera ,  lo que sensibilizó al Presidente José Antonio Kast y lo motivó liderar personalmente los mensajes en torno a la necesidad de alcanzar acuerdos rápidos en materia de seguridad. Frente a las críticas por haber enviado un proyecto que no logró sumar apoyos transversales, el Mandatario descartó que dar un paso atrás en la redacción original signifique un revés partidario para el oficialismo y recalcó que el foco debe estar en la efectividad operativa contra la delincuencia. \"Uno no lo conoce ni lo sabe todo, pero siempre puede recoger opiniones. Dígamelo a mí, que presenté una reforma constitucional que no le gustó a algunos parlamentarios, y empezó una tremenda discusión\", señaló. \"No tengo problema en que la retiremos y que otro se atribuya la responsabilidad. Lo importante es derrotar al narcotráfico , al crimen organizado , no quién tiene la iniciativa legal . No es una derrota política . Es una derrota de Chile si no enfrentamos con fuerza al crimen organizado y al narcotráfico\", puntualizó Kast durante su participación en una ceremonia de la Cámara Nacional de Comercio. Arrau: \"No nos enamoramos de ninguna redacción\" En sintonía con las palabras del jefe de Estado, el ministro de Seguridad Pública , Martín Arrau , confirmó que se mantienen las conversaciones con los integrantes de la Comisión de Constitución - encabezada por el senador Pedro Araya (PPD) - y evidenció la flexibilidad de La Moneda para respaldar una redacción distinta . \" Nosotros no nos enamoramos de ninguna redacción . Si la redacción del Gobierno no genera consenso y los señores senadores están buscando otros consensos , yo se los agradezco \", afirmó el secretario de Estado, que enfatizó que está \"trabajando cada día más con los parlamentarios buscando consensos\". Pese al giro de La Moneda y a los esfuerzos de articulación de legisladores como Araya o el diputado Jaime Mulet (FRVS) , bancadas de la oposición cuestionaron que el diálogo aún no se concreta con todos los sectores ni con los liderazgos comunales. \"Lo que pide el Presidente es que haya otro (proyecto) que esté más o menos consensuado y que reúna los votos necesarios para avanzar en aquellas cosas que se pueden avanzar, que son pocas, pero que son relevantes . En eso yo vi al Presidente en una muy buena disposición\". Pese a la disposición del Ejecutivo, el presidente de la comisión de Constitución en la Cámara señaló que \"me da la impresión que hay sectores de la oposición, particularmente los senadores, que no quieren llegar a un acuerdo, porque podrían presentar ellos un proyecto,  y porque ni más ni menos esto es poco habitual, que un Gobierno retire un proyecto. Y lo que están diciendo es: 'estamos dispuestos a retirar la reforma constitucional, pero propongan otra'\". Socialismo Democrático y alcaldes cuestionan el fondo del proyecto La timonel del Partido Socialista , senadora Paulina Vodanovic , refutó la postura del Ejecutivo e insistió en que \" no se trata de quién es el autor de un proyecto de ley , sino del contenido de él \". \" Discutir un estado de excepción o reformas a los estados de excepción constitucional no va a cambiar la realidad hoy \", advirtió la legisladora. Por su parte, el alcalde de San Bernardo, Christopher White (PS) , calificó como \" una muy buena señal que (se entendiera que) un nuevo estado excepcional iba a generar una discusión -probablemente eterna- que no era necesaria en este momento \". En opinión del jefe comunal, \"todos tenemos que hacer esfuerzos de encontrar puntos intermedios, y no basta solo con la intención de llamar, también hay que hacer el trabajo de conversar , discutir , ir al Congreso , reunirse con las bancadas y los alcaldes , y ahí el Ejecutivo es el que tiene la primera tarea \". El dilema del \"pasando y pasando\" en La Moneda Se espera que a inicios de la próxima semana una parte de los senadores de la Comisión de Constitución presente su texto de reemplazo. En el comité político advirtieron que negociarán bajo la lógica del \"pasando y pasando\" . La Moneda busca evitar un retiro prematuro de la iniciativa sin acuerdos cerrados de por medio, ante el riesgo de que disposiciones urgentes para el Gobierno, como el régimen legal de segregación carcelaria para reos peligrosos , terminen diluyéndose o quedando en nada .",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-se-abre-a-retirar-reforma-de-seguridad-y-kast-descarta-derrota/2026-10-02/144846.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000320261002144846.png",
-            "published_raw": "Fri, 02 Oct 2026 14:48:46 -0300",
-            "published_at": "2026-10-02T14:48:46-0300",
+            "title": "Senadores preparan propuesta de seguridad tras revés en la reforma del Gobierno",
+            "description": "Los parlamentarios de la Comisión de Constitución del Senado:  P edro Araya (PPD), Andrés Longton (RN) y Arturo Squella (Republicanos), preparan una nueva propuesta en materia de seguridad, luego que el proyecto de reforma constitucional del Gobierno no avanzara en la Cámara Alta . La iniciativa apunta a incorporar el crimen organizado a nivel constitucional , establecer un régimen de segregación penitenciari o según la peligrosidad de las personas privadas de libertad y precisar el alcance del actual estado de emergencia para enfrentar situaciones vinculadas con la seguridad pública. No obstante, la propuesta de los parlamentarios ha generado debate al interior de la propia Comisión. La senadora Paulina Vodanovic, presidenta del Partido Socialista, marcó distancia del texto y aseguró que no participó en su elaboración,  y planteó avanzar en una reforma constitucional acotada específicamente al ámbito carcelario y destacó la necesidad de un nuevo estado de excepción. En ese contexto, el senador Longton planteó que \"este proyecto es distinto a lo presentado por el Gobierno, sin perjuicio de que comparte las ideas desde el punto de vista del ataque al crimen organizado\". Asimismo, apuntó a la parlamentaria socialista: \"Otras senadoras, como la senadora Vodanovic, que presentó una reforma en esa línea el 2024, me parece que compartiendo el mismo objetivo, durante la discusión debería abrir un espacio de acuerdo mucho mayor que el firmar o no firmar \". Por su parte, Araya intentó calmar los ánimos y sostuvo que \"en cuanto a la senadora Vodanovic y Pascual, más que hablar de convencerlas, aquí hay que conversar. Ellas tienen reparos y son legítimos que los planteen \". \"Hemos venido dialogando y ahora con un texto concreto sobre la mesa vamos a tener que entrar a discutir cada una de estas observaciones . Si hay cosas que se pueden corregir o mejorar, habrá que hacerlo. Acá no se trata de darle un cheque en blanco a nadie\", afirmó. Desde la UDI, el senador Javier Macaya instó a que \"si esta fórmula logra construir mayoría y mejorar la seguridad de los chilenos, hay que dejar de lado los dimes y diretes políticos y sacarla adelante, y ojalá buscarla y votarla con la mayor cantidad de votos posible en el Congreso\". El senador Juan Luis Castro (PS) fue mas cauto y planteó sobre la propuesta que \"p rimero hay que verla, porque podemos compartir el objetivo, pero de ahí a cambiar la Constitución de Chile para que otras leyes, como propone esa misma idea, sean las que operativicen esto, la verdad parece una vuelta larga. Entonces, no nos parece en principio\". La nueva reforma de seguridad será presentada la próxima semana en la corporación y el debate se traslada a la búsqueda de un acuerdo más amplio.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/senadores-preparan-propuesta-de-seguridad-tras-reves-en-la-reforma-del/2026-10-03/135752.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261003/imag/foto_0000000220261003135752.jpg",
+            "published_raw": "Sat, 03 Oct 2026 13:57:52 -0300",
+            "published_at": "2026-10-03T13:57:52-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 9,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 3,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 8,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 21,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
-          },
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Monckeberg pide retirar ya la reforma de seguridad para destrabar el acuerdo",
-            "description": "El exministro Cristián Monckeberg llamó al Gobierno a concretar de inmediato el retiro de la reforma constitucional de seguridad , como una señal que permita destrabar las conversaciones y construir un acuerdo con la oposición. En El Primer Café de Cooperativa , el exsecretario de Estado valoró la disposición del Presidente José Antonio Kast a retirar la iniciativa y sostuvo que materializar ese gesto podría facilitar la negociación. \"Si a mí me permitieran una sugerencia, yo hoy día mismo mandaría un oficio para retirar el proyecto si yo fuera del Gobierno. Y lo retiro, no más. Se acabó. Y doy una señal potente y se acabó si eso significa que vamos a avanzar \", planteó. La discusión se produce después de que el Gobierno y un grupo de parlamentarios acordaran tres ejes para una nueva reforma de seguridad , durante una reunión en Cerro Castillo. Sin embargo, los comités de senadores de oposición se desmarcaron de esa fórmula y exigieron retirar la propuesta inicial sin condiciones . Monckeberg defendió el pragmatismo del Mandatario y afirmó que la oposición también debe contribuir a generar consensos, destacando el papel que puede desempeñar la senadora y presidenta del PS, Paulina Vodanovic , en la Comisión de Constitución. Asimismo, cuestionó los reproches hacia el senador PPD Pedro Araya por su disposición a dialogar con el Ejecutivo y sostuvo que los acuerdos en seguridad requieren esfuerzos de ambos sectores . Walker respalda el retiro y Eyzaguirre emplaza a buscar consensos Consultado sobre si retiraría inmediatamente el proyecto, Ignacio Walker respondió: \"Por supuesto\" , y cuestionó que el Gobierno haya persistido en una iniciativa que, a su juicio, carecía de respaldo desde el comienzo. \"Nunca hubo agua en la piscina para este proyecto . Todavía no sabemos quién escribió este proyecto, es un proyecto sin autoría\", afirmó. El excanciller sostuvo que el Ejecutivo debe construir un acuerdo en el Parlamento y hacerse cargo de las expectativas en materia de seguridad, uno de los principales compromisos con los que llegó al poder. Por su parte, Nicolás Eyzaguirre valoró la apertura de Kast y respaldó la propuesta de Monckeberg, pero advirtió que ese gesto también debe tener una respuesta de la oposición. \"Y si se complementa con la muy buena sugerencia de Cristián Monckeberg de que lo retire ya, si la oposición no se allana a un consenso, yo voy a ser el primero en criticar a la oposición . Creo que ese es el buen camino y la propuesta de Monckeberg es muy buena\", señaló. El exministro de Hacienda planteó que una solución requiere la voluntad del Ejecutivo y un acuerdo transversal entre las bancadas , por tratarse de un problema que afecta al conjunto del país. Horst: \"Estamos perdiendo el foco\" Bettina Horst, directora ejecutiva de Libertad y Desarrollo, coincidió en que la reforma presentada por el Gobierno tenía deficiencias , pero cuestionó que la discusión política siga concentrada en si debe retirarse antes de avanzar hacia una alternativa. \"Concuerdo que el proyecto que presentó el gobierno tenía serias deficiencias y no debiera tramitarse ni aprobarse. Pero esta discusión de que si se retira, que no se retira... ¡pónganse a trabajar! \", expresó. Al precisar a quién dirigía su llamado, apuntó a todos los sectores políticos involucrados en el debate y sostuvo que el Congreso también puede impulsar una propuesta. \"El debate no se trata del tema de fondo de cómo solucionamos, cómo damos herramientas hoy día para combatir el crimen organizado. El debate hoy día es si se retira o no un papel del Congreso. Entonces, estamos perdiendo el foco y hemos perdido el tiempo\", cuestionó. Horst aclaró posteriormente que no estaba afirmando que los parlamentarios no hubieran trabajado , sino advirtiendo que la discusión pública no permite apreciar avances hacia las soluciones que necesita el país. \"No, yo no he dicho que acá no se ha hecho nada y que no han trabajado... No sé, porque se dice que hay avances, no se conocen\", precisó. Monckeberg recogió ese planteamiento, aunque insistió en que las formas también importan para facilitar un acuerdo y que concretar el retiro sería una señal política relevante. \"Cuando yo digo 'lo retiraría ya', el presidente ya lo dijo: hágalo y lo más seguro es que se va a empezar a construir un acuerdo rápido\", sostuvo. Previamente, el ministro de Seguridad Pública, Martín Arrau, había descartado que retirar la reforma para dar paso a otro texto implique una \"derrota\" para el Gobierno .",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/monckeberg-pide-retirar-ya-la-reforma-de-seguridad-para-destrabar-el/2026-10-02/113643.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000220261002113643.jpg",
-            "published_raw": "Fri, 02 Oct 2026 11:36:43 -0300",
-            "published_at": "2026-10-02T11:36:43-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 8,
+            "score_institutional": 7,
             "score_elections": 0,
             "score_international": 0,
             "score_conflict": 2,
             "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 5,
+            "score_ideology": 1,
+            "score_actor": 3,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 15,
+            "political_evidence": 13,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
+            "cluster_id": "PML-EVENT-008"
           }
         ],
         "article_count": 1,
@@ -628,13 +593,13 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 74.9
+          "chile_utility": 80.7
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-019",
+        "cluster_id": "PML-EVENT-022",
         "title": "Matthei: Dejar a miles de niños sin computadores es una decisión que no se entiende",
         "topic": "Elecciones y opinión pública",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -689,7 +654,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-019"
+            "cluster_id": "PML-EVENT-022"
           }
         ],
         "article_count": 1,
@@ -703,7 +668,7 @@
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-003",
+        "cluster_id": "PML-EVENT-004",
         "title": "Eduardo Frei defendió la adhesión de Chile al \"Escudo de las Américas\"",
         "topic": "Conflictos y seguridad",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -758,7 +723,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-004"
           }
         ],
         "article_count": 1,
@@ -775,15 +740,15 @@
   "topics": [
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 10,
+      "event_count": 13,
       "maximum_relevance": 78.2,
-      "leading_story": "Elecciones en Brasil 2026, en vivo | Lula: “Veremos qué Brasil eligió el pueblo”. Bolsonaro: “Brasil no aguanta más”"
+      "leading_story": "Resultados de las elecciones en Brasil, en vivo | Flávio Bolsonaro aventaja a Lula, con más del 27% escrutado"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 20,
-      "maximum_relevance": 60.7,
-      "leading_story": "El asalto de Trump al Supremo de Estados Unidos entra en un año decisivo"
+      "event_count": 22,
+      "maximum_relevance": 67,
+      "leading_story": "Reforma de seguridad: giro de La Moneda desata reparos en el PC y el PS"
     },
     {
       "topic": "Relaciones internacionales",
@@ -794,7 +759,7 @@
     {
       "topic": "Ideología y competencia política",
       "event_count": 2,
-      "maximum_relevance": 53.8,
+      "maximum_relevance": 51.8,
       "leading_story": "Dividida entre el miedo y la expectativa, Sajonia-Anhalt espera al primer Gobierno de extrema derecha de Alemania"
     },
     {
@@ -809,7 +774,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
     "source_count": 3
   },
   "system": {
