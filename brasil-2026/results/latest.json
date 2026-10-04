@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-04T22:12:18+0000",
-  "tse_generated_at": "04/10/2026 18:48:59",
+  "generated_at": "2026-10-04T22:30:05+0000",
+  "tse_generated_at": "04/10/2026 19:14:08",
   "source": "Tribunal Superior Eleitoral (TSE)",
   "election": "Brasil 2026 · Presidente · 1ª vuelta",
   "election_code": 6257,
@@ -8,17 +8,17 @@
   "status": "partial",
   "final_totalization": false,
   "mathematically_defined": "n",
-  "processed_pct": 47.26,
-  "valid_votes": 54746502,
-  "total_votes": 57287476,
+  "processed_pct": 64.81,
+  "valid_votes": 75762826,
+  "total_votes": 79394660,
   "candidates": [
     {
       "number": 22,
       "name": "FLAVIO BOLSONARO",
       "full_name": "FLAVIO NANTES BOLSONARO",
       "party": "PL",
-      "votes": 27484298,
-      "pct": 50.2,
+      "votes": 37566895,
+      "pct": 49.58,
       "status": "",
       "elected": false
     },
@@ -27,8 +27,8 @@
       "name": "LULA",
       "full_name": "LUIZ INÁCIO LULA DA SILVA",
       "party": "PT",
-      "votes": 22791778,
-      "pct": 41.63,
+      "votes": 32007853,
+      "pct": 42.25,
       "status": "",
       "elected": false
     },
@@ -37,8 +37,8 @@
       "name": "ESCRITOR AUGUSTO CURY",
       "full_name": "AUGUSTO JORGE CURY",
       "party": "AVANTE",
-      "votes": 1618252,
-      "pct": 2.96,
+      "votes": 2247926,
+      "pct": 2.97,
       "status": "",
       "elected": false
     },
@@ -47,8 +47,8 @@
       "name": "RONALDO CAIADO",
       "full_name": "RONALDO RAMOS CAIADO",
       "party": "PSD",
-      "votes": 1302519,
-      "pct": 2.38,
+      "votes": 1774893,
+      "pct": 2.34,
       "status": "",
       "elected": false
     },
@@ -57,8 +57,8 @@
       "name": "RENAN SANTOS",
       "full_name": "RENAN ANTONIO FERREIRA DOS SANTOS",
       "party": "MISSÃO",
-      "votes": 1269583,
-      "pct": 2.32,
+      "votes": 1772742,
+      "pct": 2.34,
       "status": "",
       "elected": false
     },
@@ -67,7 +67,7 @@
       "name": "ZEMA",
       "full_name": "ROMEU ZEMA NETO",
       "party": "NOVO",
-      "votes": 157128,
+      "votes": 220598,
       "pct": 0.29,
       "status": "",
       "elected": false
@@ -77,8 +77,8 @@
       "name": "SAMARA",
       "full_name": "SAMARA MARTINS DA SILVA FEITOSA",
       "party": "UP",
-      "votes": 57248,
-      "pct": 0.1,
+      "votes": 80928,
+      "pct": 0.11,
       "status": "",
       "elected": false
     },
@@ -87,7 +87,7 @@
       "name": "HERTZ DIAS",
       "full_name": "HERTZ DA CONCEICAO DIAS",
       "party": "PSTU",
-      "votes": 20149,
+      "votes": 28466,
       "pct": 0.04,
       "status": "",
       "elected": false
@@ -97,7 +97,7 @@
       "name": "CLARIANA BARAO",
       "full_name": "CLARIANA ZACARKIM BARAO",
       "party": "DC",
-      "votes": 19681,
+      "votes": 26802,
       "pct": 0.04,
       "status": "",
       "elected": false
@@ -107,7 +107,7 @@
       "name": "EDMILSON COSTA",
       "full_name": "EDMILSON SILVA COSTA",
       "party": "PCB",
-      "votes": 10259,
+      "votes": 14415,
       "pct": 0.02,
       "status": "",
       "elected": false
@@ -117,7 +117,7 @@
       "name": "VETERINÁRIO WILSON GRASSI",
       "full_name": "WILSON GRASSI JUNIOR",
       "party": "DEMOCRATA",
-      "votes": 8076,
+      "votes": 11041,
       "pct": 0.01,
       "status": "",
       "elected": false
@@ -127,7 +127,7 @@
       "name": "RUI COSTA PIMENTA",
       "full_name": "RUI COSTA PIMENTA",
       "party": "PCO",
-      "votes": 7531,
+      "votes": 10267,
       "pct": 0.01,
       "status": "",
       "elected": false
