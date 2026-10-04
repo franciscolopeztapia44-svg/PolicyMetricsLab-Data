@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-04",
-    "data_latest_timestamp": "2026-10-04T01:18:37-0300",
-    "data_age_hours": 0.9,
-    "generated_at": "2026-10-04T02:10:41-0300",
+    "data_latest_timestamp": "2026-10-04T07:21:01-0300",
+    "data_age_hours": 1.1,
+    "generated_at": "2026-10-04T08:24:09-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -17,16 +17,16 @@
   "summary": {
     "headline": "Panorama Político Diario",
     "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 4 temas, 4 áreas geográficas y 4 tipos de evento político.",
+    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
     "ranked_events": 33,
-    "topics": 4,
-    "geographies": 4,
+    "topics": 3,
+    "geographies": 3,
     "representative_sources": 3,
-    "average_top5_relevance": 66.1,
+    "average_top5_relevance": 64.6,
     "maximum_relevance": 78.4
   },
   "top_stories": [
@@ -34,7 +34,7 @@
       "position": 1,
       "cluster_id": "PML-EVENT-013",
       "title": "Elecciones en Brasil 2026 en vivo | La última encuesta da una victoria a Lula (45%) frente a Bolsonaro (42%) en la primera vuelta",
-      "url": "https://elpais.com/america/2026-10-03/elecciones-en-brasil-2026-en-vivo-la-primera-vuelta-de-las-presidenciales.html",
+      "url": "https://elpais.com/america/2026-10-04/elecciones-en-brasil-2026-en-vivo.html",
       "representative_source": "EL PAÍS",
       "topic": "Elecciones y opinión pública",
       "event_type": "ELECTORAL_EVENT",
@@ -62,7 +62,7 @@
         ]
       },
       "first_seen": "2026-09-28T14:11:29-0300",
-      "last_seen": "2026-10-04T01:18:37-0300",
+      "last_seen": "2026-10-04T07:21:01-0300",
       "entities": [
         "bolsonaro",
         "lula",
@@ -146,10 +146,10 @@
           "source": "EL PAÍS",
           "title": "Elecciones en Brasil 2026 en vivo | La última encuesta da una victoria a Lula (45%) frente a Bolsonaro (42%) en la primera vuelta",
           "description": "Casi 159 millones de brasileños están convocados a las urnas este domingo, con Lula y Flávio Bolsonaro como principales candidatos",
-          "url": "https://elpais.com/america/2026-10-03/elecciones-en-brasil-2026-en-vivo-la-primera-vuelta-de-las-presidenciales.html",
+          "url": "https://elpais.com/america/2026-10-04/elecciones-en-brasil-2026-en-vivo.html",
           "image_url": "https://imagenes.elpais.com/resizer/v2/SM6MTDFK2VFARDLH3YZF5Q7I6Q.jpg?auth=08f27eded9cc2ea1166f1d15120afd89753f310c93f0ecdf779e8fa41261812f",
-          "published_raw": "Sun, 04 Oct 2026 04:18:37 GMT",
-          "published_at": "2026-10-04T01:18:37-0300",
+          "published_raw": "Sun, 04 Oct 2026 10:21:01 GMT",
+          "published_at": "2026-10-04T07:21:01-0300",
           "country": "No identificado",
           "region": "América Latina",
           "language": "es",
@@ -313,155 +313,6 @@
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-029",
-      "title": "El asalto de Trump al Supremo de Estados Unidos entra en un año decisivo",
-      "url": "https://elpais.com/us/2026-10-04/el-asalto-de-trump-al-supremo-de-estados-unidos-entra-en-un-ano-decisivo.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 65.7,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 77.7
-      },
-      "selection": {
-        "reason": "PML 65.7; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-04T00:30:01-0300",
-      "last_seen": "2026-10-04T00:30:01-0300",
-      "entities": [
-        "trump",
-        "supremo"
-      ],
-      "event_terms": "supremo",
-      "analysis": {
-        "summary": "El nuevo curso, con casos cruciales sobre cambio climático, inmigración o armas, empieza entre ataques del presidente a los jueces nombrados por él por no plegarse a sus deseos",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El asalto de Trump al Supremo de Estados Unidos entra en un año decisivo",
-          "description": "El nuevo curso, con casos cruciales sobre cambio climático, inmigración o armas, empieza entre ataques del presidente a los jueces nombrados por él por no plegarse a sus deseos",
-          "url": "https://elpais.com/us/2026-10-04/el-asalto-de-trump-al-supremo-de-estados-unidos-entra-en-un-ano-decisivo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/6QIUHD6FQFKFJPF5YV3R7CGMLM.jpg?auth=bd931c215f11d311c6cc026df1407f9c9a05f869c9a6881f1d9986beb565b173",
-          "published_raw": "Sun, 04 Oct 2026 03:30:01 GMT",
-          "published_at": "2026-10-04T00:30:01-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-023",
-      "title": "Dividida entre el miedo y la expectativa, Sajonia-Anhalt espera al primer Gobierno de extrema derecha de Alemania",
-      "url": "https://elpais.com/internacional/2026-10-04/dividida-entre-el-miedo-y-la-expectativa-sajonia-anhalt-espera-al-primer-gobierno-de-extrema-derecha-de-alemania.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Ideología y competencia política",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Internacional",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 58.8,
-        "level": "MEDIA",
-        "editorial_utility": 70.8
-      },
-      "selection": {
-        "reason": "PML 58.8; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-04T00:30:01-0300",
-      "last_seen": "2026-10-04T00:30:01-0300",
-      "entities": "alemania",
-      "event_terms": [],
-      "analysis": {
-        "summary": "AfD avanza en las negociaciones para amarrar el apoyo de la izquierda nacionalista de BSW y alcanzar por primera vez el poder en un ‘land’",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Ideología y competencia política y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Dividida entre el miedo y la expectativa, Sajonia-Anhalt espera al primer Gobierno de extrema derecha de Alemania",
-          "description": "AfD avanza en las negociaciones para amarrar el apoyo de la izquierda nacionalista de BSW y alcanzar por primera vez el poder en un ‘land’",
-          "url": "https://elpais.com/internacional/2026-10-04/dividida-entre-el-miedo-y-la-expectativa-sajonia-anhalt-espera-al-primer-gobierno-de-extrema-derecha-de-alemania.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/DYVGIGFL6FBVLC6WGNRIOWFR4Y.jpg?auth=85f97b17238faedfbe887a68822db2e021160f0ad8f805c2afc792040e2d1a56",
-          "published_raw": "Sun, 04 Oct 2026 03:30:01 GMT",
-          "published_at": "2026-10-04T00:30:01-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 3,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Ideología y competencia política",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
-        }
-      ]
-    },
-    {
-      "position": 4,
       "cluster_id": "PML-EVENT-006",
       "title": "Senadores preparan propuesta de seguridad tras revés en la reforma del Gobierno",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/senadores-preparan-propuesta-de-seguridad-tras-reves-en-la-reforma-del/2026-10-03/135752.html",
@@ -473,12 +324,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 65.2,
+        "score": 63.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 68.2
+        "editorial_utility": 75.2
       },
       "selection": {
-        "reason": "PML 65.2; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 63.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -538,7 +389,83 @@
       ]
     },
     {
-      "position": 5,
+      "position": 3,
+      "cluster_id": "PML-EVENT-029",
+      "title": "El asalto de Trump al Supremo de Estados Unidos entra en un año decisivo",
+      "url": "https://elpais.com/us/2026-10-04/el-asalto-de-trump-al-supremo-de-estados-unidos-entra-en-un-ano-decisivo.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 62.7,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 65.7
+      },
+      "selection": {
+        "reason": "PML 62.7; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-04T00:30:01-0300",
+      "last_seen": "2026-10-04T00:30:01-0300",
+      "entities": [
+        "trump",
+        "supremo"
+      ],
+      "event_terms": "supremo",
+      "analysis": {
+        "summary": "El nuevo curso, con casos cruciales sobre cambio climático, inmigración o armas, empieza entre ataques del presidente a los jueces nombrados por él por no plegarse a sus deseos",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El asalto de Trump al Supremo de Estados Unidos entra en un año decisivo",
+          "description": "El nuevo curso, con casos cruciales sobre cambio climático, inmigración o armas, empieza entre ataques del presidente a los jueces nombrados por él por no plegarse a sus deseos",
+          "url": "https://elpais.com/us/2026-10-04/el-asalto-de-trump-al-supremo-de-estados-unidos-entra-en-un-ano-decisivo.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/6QIUHD6FQFKFJPF5YV3R7CGMLM.jpg?auth=bd931c215f11d311c6cc026df1407f9c9a05f869c9a6881f1d9986beb565b173",
+          "published_raw": "Sun, 04 Oct 2026 03:30:01 GMT",
+          "published_at": "2026-10-04T00:30:01-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-029"
+        }
+      ]
+    },
+    {
+      "position": 4,
       "cluster_id": "PML-EVENT-024",
       "title": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261003-la-oea-reclama-elecciones-libres-y-la-excarcelaci%C3%B3n-de-presos-pol%C3%ADticos-en-nicaragua",
@@ -550,12 +477,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 62.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 66.2
+        "score": 59.7,
+        "level": "MEDIA",
+        "editorial_utility": 63.7
       },
       "selection": {
-        "reason": "PML 62.2; aporta diversidad temática",
+        "reason": "PML 59.7; aporta diversidad temática",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -612,6 +539,79 @@
           "cluster_id": "PML-EVENT-024"
         }
       ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-009",
+      "title": "Megarreforma: Delfino apuntó a seguir debate de distribución de recursos a municipios tras fallo del TC",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/megarreforma-delfino-apunto-a-seguir-debate-de-distribucion-de-recursos/2026-10-03/154224.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 58.8,
+        "level": "MEDIA",
+        "editorial_utility": 53.8
+      },
+      "selection": {
+        "reason": "PML 58.8; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-10-03T15:42:24-0300",
+      "last_seen": "2026-10-03T15:42:24-0300",
+      "entities": [],
+      "event_terms": "tribunal",
+      "analysis": {
+        "summary": "La alcaldesa de Quinta Normal, Karina Delfino, vicepresidente de la Asociación de chilena de Municipalidades (AChM) , valoró el fallo del Tribunal Constitucional que dejó en condiciones de ser promulgada la megarreforma del Gobierno e instó a seguir discutiendo la distribución de recursos en las distintas comunas del país.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Megarreforma: Delfino apuntó a seguir debate de distribución de recursos a municipios tras fallo del TC",
+          "description": "La alcaldesa de Quinta Normal, Karina Delfino, vicepresidente de la Asociación de chilena de Municipalidades (AChM) , valoró el fallo del Tribunal Constitucional que dejó en condiciones de ser promulgada la megarreforma del Gobierno e instó a seguir discutiendo la distribución de recursos en las distintas comunas del país. El Tribunal Constitucional rechazó en la víspera algunas disposiciones del proyecto que deberán ser eliminadas de la Ley de Reconstrucción Nacional y Desarrollo Económico y Social, entre ellas, figuran las indemnizaciones a empresas por resoluciones ambientales revocadas y también requisitos sobre el financiamiento y compensaciones a municipalidades por la exención de contribuciones. En concreto, se anuló la norma que permitía a ciertos municipios de mayores ingresos retener ingresos adicionales en lugar de aportarlos al Fondo Solidario Territorial. La alcaldesa Delfino valoró la decisión y afirmó que \" es una derrota del Gobierno en el Tribunal Constitucional en materia de municipalidades\" . \"Finalmente, lo que dice el TC es que alguna de las materias legislativas que se aprobaron son inconstitucionales y que a lo que apunta la legislación actual es a fortalecer el Fondo Común Municipal y no finalmente a beneficiar a las comunas que tienen mayores ingresos\". \"En el fondo, parte de cómo quedó redactada la megarreforma tiene que seguir fortaleciendo el Fondo Común Municipal y no que vayan a fondos propios de las comunas que tienen mayores ingresos, como por ejemplo la comuna de Las Condes, Lo Barnechea, Vitacura\", sostuvo. Por su parte, el diputado Jaime Araya (ind) planteó que el Gobierno debería postergar la promulgación de la norma: \"Es valioso que el TC haya dejado sin posibilidad de aplicación normas que eran cuestionadas desde el comienzo y que advertimos durante la tramitación legislativa. En tal sentido, lo que estamos planteando desde la Comisión de Seguridad es que el Gobierno se abra a postergar la puesta en vigencia o la puesta en marcha de la Ley de Reconstrucción , de manera tal de tener una última recaudación de recursos que permitan financiar todos estos recortes que están causando un grave estrés en la sociedad chilena\". En ese sentido, aseveró que \" no daría por cerrado el capítulo de la Ley de Reconstrucción, l a megarreforma de los súper ricos que va a generar un daño brutal en el financiamiento y en el funcionamiento del Estado y en el otorgamiento de las prestaciones públicas más básicas\". Analista insta al Gobierno a tomar otras medidas para activar crecimiento El economista Víctor Salas , de la Universidad de Santiago, analizó el negativo último Indicador Mensual de Actividad Económico y la proyección del ministro de Hacienda, Jorge Quiroz, de un crecimiento a lo que se había planteado anteriormente: En vez de 1,8%, calculó que la expansión sería de 0,7% este año. Al respecto, planteó que \" es claro que la economía está en un estancamiento recesivo, podríamos decir. Tiene que ver con el gasto interno y principalmente con la caída de la inversión. El crecimiento de la economía nuestra iba a tener este año un rango entre 0,25 y 0,75. Desde luego, entonces, un 0,7% todavía parece optimista, digamos, y no parece una reacción real ante la situación económica que estamos viviendo. Tan catastrófica hay que enfrentarla desde el Estado con eh una reacción con más recurso\".",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/megarreforma-delfino-apunto-a-seguir-debate-de-distribucion-de-recursos/2026-10-03/154224.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261003/imag/foto_0000000220261003154224.jpg",
+          "published_raw": "Sat, 03 Oct 2026 15:42:24 -0300",
+          "published_at": "2026-10-03T15:42:24-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 9,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-009"
+        }
+      ]
     }
   ],
   "chile_brief": {
@@ -633,11 +633,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 59.6,
+          "score": 56.6,
           "level": "MEDIA",
           "components": {
             "political_impact": 90,
-            "freshness": 52,
+            "freshness": 40,
             "source_count": 32,
             "geographic_scope": 55,
             "continuity": 50
@@ -716,7 +716,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 81.6
+          "chile_utility": 78.6
         },
         "repeated_in_general_top5": false
       },
@@ -733,11 +733,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.9,
-          "level": "MEDIA",
+          "score": 50.9,
+          "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 36
@@ -785,7 +785,7 @@
         "political_science_fit": {
           "bonus": 10,
           "labels": "Elecciones y opinión pública",
-          "chile_utility": 62.9
+          "chile_utility": 60.9
         },
         "repeated_in_general_top5": false
       },
@@ -802,11 +802,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.2,
+          "score": 53.2,
           "level": "MEDIA",
           "components": {
             "political_impact": 52,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 34
@@ -854,7 +854,7 @@
         "political_science_fit": {
           "bonus": 7,
           "labels": "Seguridad y Estado",
-          "chile_utility": 62.2
+          "chile_utility": 60.2
         },
         "repeated_in_general_top5": false
       }
@@ -870,35 +870,31 @@
     {
       "topic": "Instituciones y gobierno",
       "event_count": 19,
-      "maximum_relevance": 65.7,
-      "leading_story": "El asalto de Trump al Supremo de Estados Unidos entra en un año decisivo"
+      "maximum_relevance": 63.2,
+      "leading_story": "Senadores preparan propuesta de seguridad tras revés en la reforma del Gobierno"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 62.2,
+      "maximum_relevance": 59.7,
       "leading_story": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 2,
-      "maximum_relevance": 58.8,
+      "maximum_relevance": 55.8,
       "leading_story": "Dividida entre el miedo y la expectativa, Sajonia-Anhalt espera al primer Gobierno de extrema derecha de Alemania"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 3,
-      "maximum_relevance": 55.2,
+      "maximum_relevance": 53.2,
       "leading_story": "Eduardo Frei defendió la adhesión de Chile al \"Escudo de las Américas\""
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-029", "PML-EVENT-023"],
-      "exited_top5": ["PML-EVENT-032", "PML-EVENT-009"],
-      "retained_top5": ["PML-EVENT-013", "PML-EVENT-006", "PML-EVENT-024"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
