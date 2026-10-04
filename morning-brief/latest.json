@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-03",
-    "data_latest_timestamp": "2026-10-03T14:52:44-0300",
-    "data_age_hours": 1.1,
-    "generated_at": "2026-10-03T15:59:27-0300",
+    "data_latest_timestamp": "2026-10-03T18:58:22-0300",
+    "data_age_hours": 4.8,
+    "generated_at": "2026-10-03T23:48:04-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,18 +16,18 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Ideología y competencia política.",
-    "diversity": "La selección cubre 5 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Ideología y competencia política.",
+    "diversity": "La selección cubre 4 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 39,
-    "topics": 5,
+    "ranked_events": 36,
+    "topics": 4,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 66.4,
-    "maximum_relevance": 75.1
+    "average_top5_relevance": 66,
+    "maximum_relevance": 73.1
   },
   "top_stories": [
     {
@@ -43,12 +43,12 @@
         "country": "Argentina / América Latina / Brasil"
       },
       "relevance": {
-        "score": 75.1,
+        "score": 73.1,
         "level": "ALTA",
-        "editorial_utility": 79.1
+        "editorial_utility": 77.1
       },
       "selection": {
-        "reason": "PML 75.1; multifuente",
+        "reason": "PML 73.1; multifuente",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -180,12 +180,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 68.2,
+        "score": 67,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 80.2
+        "editorial_utility": 79
       },
       "selection": {
-        "reason": "PML 68.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 67; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -246,7 +246,7 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-023",
+      "cluster_id": "PML-EVENT-024",
       "title": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261003-la-oea-reclama-elecciones-libres-y-la-excarcelaci%C3%B3n-de-presos-pol%C3%ADticos-en-nicaragua",
       "representative_source": "France 24",
@@ -257,12 +257,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 66.7,
+        "score": 64.7,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 73.7
+        "editorial_utility": 71.7
       },
       "selection": {
-        "reason": "PML 66.7; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 64.7; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -316,29 +316,29 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
+          "cluster_id": "PML-EVENT-024"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-011",
-      "title": "Voto femenino, clave en la recta final de las elecciones en Brasil",
-      "url": "https://www.france24.com/es/voto-femenino-clave-en-la-recta-final-de-las-elecciones-en-brasil",
-      "representative_source": "France 24",
-      "topic": "Elecciones y opinión pública",
+      "cluster_id": "PML-EVENT-032",
+      "title": "La mano dura acapara el debate en las elecciones de Brasil: “Aquí mueren 100 traficantes y entran 200”",
+      "url": "https://elpais.com/america/2026-10-03/brasil-vota-con-la-mano-dura-en-el-centro-del-debate-aqui-mueren-100-traficantes-y-entran-200.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Conflictos y seguridad",
       "event_type": "ELECTORAL_EVENT",
       "geography": {
         "group": "América Latina",
-        "country": "Brasil / América Latina"
+        "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 63.8,
+        "score": 62.5,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 68.8
+        "editorial_utility": 67.5
       },
       "selection": {
-        "reason": "PML 63.8; aporta diversidad temática",
+        "reason": "PML 62.5; aporta diversidad temática",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -346,15 +346,19 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "France 24"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-02T21:33:06-0300",
-      "last_seen": "2026-10-02T21:33:06-0300",
-      "entities": "brasil",
-      "event_terms": "eleccion",
+      "first_seen": "2026-10-03T01:00:00-0300",
+      "last_seen": "2026-10-03T01:00:00-0300",
+      "entities": [
+        "brasil",
+        "lula",
+        "bolsonaro"
+      ],
+      "event_terms": [],
       "analysis": {
-        "summary": "🗳️🇧🇷 En la recta final de la campaña electoral en Brasil, el voto femenino se perfila como uno de los factores decisivos. Las mujeres representan más de la mitad del electorado y su apoyo fue clave en las últimas elecciones. Sin embargo, persisten desafíos como la violencia de género y la baja representación política femenina, con apenas un 18% de los escaños de la Cámara de Diputados ocupados por mujeres. El informe es de nuestra corresponsal Valeria Saccone.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
+        "summary": "Casi un año después de la operación policial más letal de la historia del país, nada ha cambiado en las favelas de Río. Lula y Bolsonaro llegan a las urnas con recetas opuestas en seguridad",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / América Latina.",
         "watch_next": [
           "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
           "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
@@ -364,54 +368,54 @@
       },
       "articles": [
         {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Voto femenino, clave en la recta final de las elecciones en Brasil",
-          "description": "🗳️🇧🇷 En la recta final de la campaña electoral en Brasil, el voto femenino se perfila como uno de los factores decisivos. Las mujeres representan más de la mitad del electorado y su apoyo fue clave en las últimas elecciones. Sin embargo, persisten desafíos como la violencia de género y la baja representación política femenina, con apenas un 18% de los escaños de la Cámara de Diputados ocupados por mujeres. El informe es de nuestra corresponsal Valeria Saccone.",
-          "url": "https://www.france24.com/es/voto-femenino-clave-en-la-recta-final-de-las-elecciones-en-brasil",
-          "image_url": "https://s.france24.com/media/display/b2d91642-beaa-11f1-afbe-1ff0321dbbd3/w:1024/p:16x9/FORMATO-5.png",
-          "published_raw": "Sat, 03 Oct 2026 00:33:06 GMT",
-          "published_at": "2026-10-02T21:33:06-0300",
-          "country": "Brasil",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "La mano dura acapara el debate en las elecciones de Brasil: “Aquí mueren 100 traficantes y entran 200”",
+          "description": "Casi un año después de la operación policial más letal de la historia del país, nada ha cambiado en las favelas de Río. Lula y Bolsonaro llegan a las urnas con recetas opuestas en seguridad",
+          "url": "https://elpais.com/america/2026-10-03/brasil-vota-con-la-mano-dura-en-el-centro-del-debate-aqui-mueren-100-traficantes-y-entran-200.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/KX66U65PQFA2XKIJUN2MZDRCDU.jpg?auth=6057bd3a994cbf3105bebc11b020c3c4ae8fdaf8267d0bc5f265665a68fe1fe0",
+          "published_raw": "Sat, 03 Oct 2026 04:00:00 GMT",
+          "published_at": "2026-10-03T01:00:00-0300",
+          "country": "No identificado",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 2,
-          "score_elections": 3,
+          "score_institutional": 0,
+          "score_elections": 1,
           "score_international": 0,
-          "score_conflict": 1,
+          "score_conflict": 2,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 7,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
+          "political_evidence": 3,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-011"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-032"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-010",
-      "title": "Eduardo Frei defendió la adhesión de Chile al \"Escudo de las Américas\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/eduardo-frei/eduardo-frei-defendio-la-adhesion-de-chile-al-escudo-de-las-americas/2026-10-03/145244.html",
+      "cluster_id": "PML-EVENT-009",
+      "title": "Megarreforma: Delfino apuntó a seguir debate de distribución de recursos a municipios tras fallo del TC",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/megarreforma-delfino-apunto-a-seguir-debate-de-distribucion-de-recursos/2026-10-03/154224.html",
       "representative_source": "Cooperativa",
-      "topic": "Conflictos y seguridad",
-      "event_type": "GENERAL_POLITICAL_EVENT",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
         "group": "Chile",
         "country": "Chile"
       },
       "relevance": {
-        "score": 58.2,
-        "level": "MEDIA",
-        "editorial_utility": 65.2
+        "score": 62.5,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 57.5
       },
       "selection": {
-        "reason": "PML 58.2; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 62.5",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -421,20 +425,17 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-10-03T14:52:44-0300",
-      "last_seen": "2026-10-03T14:52:44-0300",
-      "entities": "chile",
-      "event_terms": [
-        "judicial",
-        "soberania"
-      ],
+      "first_seen": "2026-10-03T15:42:24-0300",
+      "last_seen": "2026-10-03T15:42:24-0300",
+      "entities": [],
+      "event_terms": "tribunal",
       "analysis": {
-        "summary": "El expresidente Eduardo Frei Ruiz-Tagle salió en defensa de la bullada adhesión de Chile al \"Escudo de las Américas\" , afirmando que la coordinación transnacional es el único camino viable para desarticular las redes delictuales de alcance regional . A través de una carta publicada este sábado en el diario El Mercurio , el exgobernante valoró la decisión del Gobierno del Presidente José Antonio Kast y aseguró que \" ninguna nación , y Chile no es una excepción , puede…",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Chile.",
+        "summary": "La alcaldesa de Quinta Normal, Karina Delfino, vicepresidente de la Asociación de chilena de Municipalidades (AChM) , valoró el fallo del Tribunal Constitucional que dejó en condiciones de ser promulgada la megarreforma del Gobierno e instó a seguir discutiendo la distribución de recursos en las distintas comunas del país.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
@@ -442,30 +443,30 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Eduardo Frei defendió la adhesión de Chile al \"Escudo de las Américas\"",
-          "description": "El expresidente Eduardo Frei Ruiz-Tagle salió en defensa de la bullada adhesión de Chile al \"Escudo de las Américas\" , afirmando que la coordinación transnacional es el único camino viable para desarticular las redes delictuales de alcance regional . A través de una carta publicada este sábado en el diario El Mercurio , el exgobernante valoró la decisión del Gobierno del Presidente José Antonio Kast y aseguró que \" ninguna nación , y Chile no es una excepción , puede responder actualmente de manera aislada ante las organizaciones delictuales que actúan a escala regional \". \" La cooperación en ese ámbito más amplio que el nacional es indispensable para proteger a los ciudadanos , las comunidades y las familias \", puntualizó el otrora jefe de Estado, que también destacó la entrada al mecanismo y los beneficios que traerá la medida para las instituciones policiales y el sistema judicial chileno. En su análisis, Frei indicó que \"la adhesión de Chile al 'Escudo de las Américas' fortalece la respuesta del Estado frente al crimen organizado y el narcotráfico . Integrarse a este mecanismo voluntario abre oportunidades concretas: compartir información oportuna , mejorar el análisis de datos , capacitar a Carabineros y a la Policía de Investigaciones , y profundizar la coordinación fronteriza \". La exautoridad llamó a dejar atrás los sesgos políticos que traben la colaboración hemisférica. (FOTO: ATON) \"Estas herramientas permitirán identificar rutas, seguir flujos financieros, desarticular cadenas logísticas y llevar ante la justicia a quienes dirigen y financian las bandas criminales \", añadió la exautoridad. Asimismo, aseguró en el escrito que la defensa del país es inseparable de la articulación con los países vecinos . \"Actuar unidos implica reconocer que la seguridad de Chile depende también de la capacidad regional para cerrar espacios al delito. Si la información no llega a tiempo ni se comparte, la respuesta queda incompleta. La coordinación debe integrar prevención , inteligencia , investigación criminal , control fronterizo , persecución patrimonial y cooperación judicial \", puntualizó la otrora autoridad. Superar el diagnóstico errado y la amenaza criminal Al justificar el paso dado por el país, Eduardo Frei dio cuenta que \"Chile no debe escatimar esfuerzos para alcanzar este objetivo \", por lo que \"se requieren capacidades técnicas, personal especializado, mecanismos ágiles de colaboración y una evaluación rigurosa de las políticas aplicadas\". Según precisó, \" la experiencia de otros países permite adoptar buenas prácticas y tecnologías probadas, además de evitar errores costosos . Estos aprendizajes deben adaptarse a nuestra realidad, con pleno respeto de la Constitución, las leyes, los derechos fundamentales y la soberanía nacional\". El exmandatario afirmó que la incorporación a este grupo internacional fortalece la respuesta del Estado frente al crimen organizado y el narcotráfico\". (FOTO: ATON) Acto seguido, el exmandatario remarcó que \"durante años se creyó que Chile estaba a salvo del narcotráfico y del crimen organizado. La realidad demostró lo errado de ese diagnóstico: ambos flagelos se instalaron en el país sin que lo advirtiéramos oportunamente . ¿Cuántas muertes más de nuestros policías debemos esperar? ¿Cuántos alcaldes más deben ser amenazados? ¿Cuántos secuestros más vamos a tolerar?\". Rechazo a las trabas ideológicas en materia de seguridad Frente a los cuestionamientos y reparos surgidos contra el acuerdo, el expresidente fue tajante en demandar pragmatismo y unidad regional, argumentando que las discrepancias políticas no deben entorpecer el resguardo ciudadano . \"Chile no puede resolver por sí solo un problema transnacional. Debe aprovechar la experiencia y las capacidades de otros países frente a organizaciones que operan en toda América Latina . Juntos somos más fuertes. No permitamos que prejuicios o consideraciones ideológicas paralicen una respuesta firme y coordinada\", recalcó en su misiva. Frei enfatizó en su misiva que \"no permitamos que prejuicios o consideraciones ideológicas paralicen una respuesta firme y coordinada\". (FOTO: ATON) Para concluir, Frei puntualizó que \"la ciudadanía exige acciones claras y contundentes frente a quienes le han arrebatado el derecho a vivir en paz . La acción conjunta de los países de la región ampliará la persecución penal y enviará una señal inequívoca: ningún territorio será refugio seguro para quienes trafican drogas, lavan dinero, extorsionan o corrompen\". \" El 'Escudo de las Américas' es una herramienta concreta para enfrentar, en forma unida y sostenida , una amenaza compartida . Es el primer intento concreto de cooperación regional para combatir el crimen organizado y el narcotráfico. Chile no puede quedarse al margen\", cerró el expresidente.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/eduardo-frei/eduardo-frei-defendio-la-adhesion-de-chile-al-escudo-de-las-americas/2026-10-03/145244.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261003/imag/foto_0000000520261003145244.png",
-          "published_raw": "Sat, 03 Oct 2026 14:52:44 -0300",
-          "published_at": "2026-10-03T14:52:44-0300",
+          "title": "Megarreforma: Delfino apuntó a seguir debate de distribución de recursos a municipios tras fallo del TC",
+          "description": "La alcaldesa de Quinta Normal, Karina Delfino, vicepresidente de la Asociación de chilena de Municipalidades (AChM) , valoró el fallo del Tribunal Constitucional que dejó en condiciones de ser promulgada la megarreforma del Gobierno e instó a seguir discutiendo la distribución de recursos en las distintas comunas del país. El Tribunal Constitucional rechazó en la víspera algunas disposiciones del proyecto que deberán ser eliminadas de la Ley de Reconstrucción Nacional y Desarrollo Económico y Social, entre ellas, figuran las indemnizaciones a empresas por resoluciones ambientales revocadas y también requisitos sobre el financiamiento y compensaciones a municipalidades por la exención de contribuciones. En concreto, se anuló la norma que permitía a ciertos municipios de mayores ingresos retener ingresos adicionales en lugar de aportarlos al Fondo Solidario Territorial. La alcaldesa Delfino valoró la decisión y afirmó que \" es una derrota del Gobierno en el Tribunal Constitucional en materia de municipalidades\" . \"Finalmente, lo que dice el TC es que alguna de las materias legislativas que se aprobaron son inconstitucionales y que a lo que apunta la legislación actual es a fortalecer el Fondo Común Municipal y no finalmente a beneficiar a las comunas que tienen mayores ingresos\". \"En el fondo, parte de cómo quedó redactada la megarreforma tiene que seguir fortaleciendo el Fondo Común Municipal y no que vayan a fondos propios de las comunas que tienen mayores ingresos, como por ejemplo la comuna de Las Condes, Lo Barnechea, Vitacura\", sostuvo. Por su parte, el diputado Jaime Araya (ind) planteó que el Gobierno debería postergar la promulgación de la norma: \"Es valioso que el TC haya dejado sin posibilidad de aplicación normas que eran cuestionadas desde el comienzo y que advertimos durante la tramitación legislativa. En tal sentido, lo que estamos planteando desde la Comisión de Seguridad es que el Gobierno se abra a postergar la puesta en vigencia o la puesta en marcha de la Ley de Reconstrucción , de manera tal de tener una última recaudación de recursos que permitan financiar todos estos recortes que están causando un grave estrés en la sociedad chilena\". En ese sentido, aseveró que \" no daría por cerrado el capítulo de la Ley de Reconstrucción, l a megarreforma de los súper ricos que va a generar un daño brutal en el financiamiento y en el funcionamiento del Estado y en el otorgamiento de las prestaciones públicas más básicas\". Analista insta al Gobierno a tomar otras medidas para activar crecimiento El economista Víctor Salas , de la Universidad de Santiago, analizó el negativo último Indicador Mensual de Actividad Económico y la proyección del ministro de Hacienda, Jorge Quiroz, de un crecimiento a lo que se había planteado anteriormente: En vez de 1,8%, calculó que la expansión sería de 0,7% este año. Al respecto, planteó que \" es claro que la economía está en un estancamiento recesivo, podríamos decir. Tiene que ver con el gasto interno y principalmente con la caída de la inversión. El crecimiento de la economía nuestra iba a tener este año un rango entre 0,25 y 0,75. Desde luego, entonces, un 0,7% todavía parece optimista, digamos, y no parece una reacción real ante la situación económica que estamos viviendo. Tan catastrófica hay que enfrentarla desde el Estado con eh una reacción con más recurso\".",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/megarreforma-delfino-apunto-a-seguir-debate-de-distribucion-de-recursos/2026-10-03/154224.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261003/imag/foto_0000000220261003154224.jpg",
+          "published_raw": "Sat, 03 Oct 2026 15:42:24 -0300",
+          "published_at": "2026-10-03T15:42:24-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 6,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 4,
+          "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 7,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Instituciones y gobierno",
+          "political_evidence": 9,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-010"
+          "cluster_id": "PML-EVENT-009"
         }
       ]
     }
@@ -578,25 +579,25 @@
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Congreso despachó a ley la esperada reforma al sistema político",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
+        "cluster_id": "PML-EVENT-017",
+        "title": "Matthei: Dejar a miles de niños sin computadores es una decisión que no se entiende",
+        "topic": "Elecciones y opinión pública",
+        "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/congreso-despacho-a-ley-la-esperada-reforma-al-sistema-politico/2026-10-02/093507.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/educacion/beneficios/matthei-dejar-a-miles-de-ninos-sin-computadores-es-una-decision-que-no/2026-10-03/185822.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 59.1,
+          "score": 55.9,
           "level": "MEDIA",
           "components": {
-            "political_impact": 90,
-            "freshness": 62,
+            "political_impact": 51,
+            "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 46
+            "continuity": 36
           }
         },
         "coverage": {
@@ -604,71 +605,68 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-02T09:35:07-0300",
-        "last_seen": "2026-10-02T09:35:07-0300",
+        "first_seen": "2026-10-03T18:58:22-0300",
+        "last_seen": "2026-10-03T18:58:22-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Congreso despachó a ley la esperada reforma al sistema político",
-            "description": "Después de que ya fuera ratificado por el Senado, la Sala de la Cámara de Diputadas y Diputados aprobó el informe de la Comisión Mixta de la esperada reforma al sistema político , por lo que fue despachada a ley. La norma modifica la Ley Orgánica Constitucional de Partidos Políticos en materia de requisitos para crear nuevas tiendas , al establecer que éstas existirán legalmente si se constituyen en al menos ocho regiones del país , para lo cual requieren la firma de un 0,3% del padrón electoral definitivo de la última elección de diputados. En el caso de las colectividades actualmente constituidas, la reforma fija un plazo de 18 meses para que reúnan la cifra mínima de afiliados para mantener su legalidad -equivalente al 50% de las firmas requeridas para su constitución. De no lograrlo, el Servicio Electoral podrá alargar este periodo, pero eventualmente, arriesgan dejar de existir en las regiones donde no alcancen la meta. Este cambio abre una carrera para incorporar a nuevos militantes en ciertos partidos : por ejemplo, según datos del Servel, al 31 de julio, el Partido Liberal; Evópoli; el Partido Radical; el PPD; la Federación Regionalista Verde Social; el Partido Republicano y la Democracia Cristiana se encuentran bajo el nuevo piso en la Región Metropolitana, cuyo umbral de permanencia roza los 9 mil afiliados. SISTEMA POLÍTICO📰| A ley proyecto que promueve gobernabilidad y representatividad del sistema político. https://t.co/B8DRlrYIdu pic.twitter.com/T4KLsUuYtO — Diputadas y Diputados de Chile (@Camara_cl) September 30, 2026 La iniciativa también establece que solo los partidos con representación parlamentaria podrán acceder al financiamiento público . Asimismo, modifica las leyes orgánicas de votaciones populares y escrutinios, de municipalidades y de gobierno regional, respecto de las exigencias para la inscripción de candidaturas independientes, limitándolas al 50% de las listas parlamentarias . Obligación a condenar la violencia política y el totalitarismo En detalle, la propuesta de la Comisión Mixta resolvió una divergencia específica sobre el contenido de las declaraciones de principios de los partidos políticos: cada tienda deberá condenar el establecimiento de sistemas totalitarios y el uso de la violencia como método de acción política , así como afirmar su compromiso con la probidad y transparencia de la actividad política. Una vez promulgada la ley, las colectividades dispondrán de un plazo de seis meses para adecuar sus declaraciones de principios a los nuevos requisitos establecidos. 🏛️ #CámaraInforma | La Cámara despachó a ley los proyectos sobre gobernabilidad y representatividad del sistema político y el Día Nacional de la Teletón. Además, Salud abordó el vencimiento de más de 700 mil vacunas contra la influenza. 🔗 https://t.co/wpp1I0lxZK pic.twitter.com/RPGhQna6Og — Diputadas y Diputados de Chile (@Camara_cl) September 30, 2026 El informe de la mixta se aprobó por 125 votos a favor, 12 en contra (incluida toda la bancada del Partido Comunista) y dos abstenciones: la jefa de los diputados PC, Daniela Serrano , calificó como una \"caricatura\" la disposición contra los regímenes totalitarios y la violencia política. \" Actualmente, el texto constitucional ya lo consagra (ese rechazo) , y los partidos cumplimos con esa normativa incluso para estar representados en el Congreso\", arguyó la parlamentaria, aclarando que \" no nos oponemos a la norma por eso, sino por cómo quedó redactada , y porque no resuelve todo el problema que tiene el sistema político\". Cambios en el funcionamiento de comités parlamentarios Por otro lado, la reforma genera cambios en la Ley Orgánica del Congreso Nacional para otorgar un reconocimiento de carácter legal a los comités parlamentarios . En cuanto al funcionamiento de las bancadas, establece como infracción grave a la disciplina interna el incumplimiento de los acuerdos adoptados por cada grupo del que formen parte diputados o senadores. Además, señala que si un parlamentario renuncia a un comité, éste conservará las asignaciones que recibe por dicho diputado o senador . Del mismo modo, si el legislador se incorpora luego a otra bancada, esta no incrementará sus asignaciones. Reservas de constitucionalidad Desde algunas colectividades más pequeñas y emergentes , que podrían verse perjudicadas por el fondo de la reforma, tildaron las mayores exigencias territoriales y de afiliación como barreras de ingreso al sistema político y posiblemente, perjudiciales para la pluralidad. De hecho, los diputados Jaime Mulet (FRVS) y Hans Marowski (Partido Nacional Libertario) presentaron reservas de constitucionalidad durante la discusión, y no descartan recurrir al Tribunal Constitucional para impedir la publicación de la norma. \"De alguna manera, lo que hace es impedir la conformación de nuevos partidos políticos , complejiza su construcción, y creo que eso es complejo. De alguna manera, 'carteliza' la política\", advirtió Mulet . A su vez, Marowski precisó que desde Libertarios \"lo único que votamos a favor fue una norma que condenaba la violencia y el totalitarismo, que es un mínimo democrático, pero no hay que confundirse: esta reforma es pésima . Mantiene el arrastre, cierra las puertas a nuevos partidos, y protege los privilegios de los que ya están instalados\". La propuesta debe pasar por el control preventivo del TC antes de su eventual promulgación, y los mentados plazos para adecuarse a sus disposiciones solo comenzarán a correr tras su publicación en el Diario Oficial.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/congreso-despacho-a-ley-la-esperada-reforma-al-sistema-politico/2026-10-02/093507.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000220261002093507.jpg",
-            "published_raw": "Fri, 02 Oct 2026 09:35:07 -0300",
-            "published_at": "2026-10-02T09:35:07-0300",
+            "title": "Matthei: Dejar a miles de niños sin computadores es una decisión que no se entiende",
+            "description": "La excandidata presidencial Evelyn Matthei criticó este sábado la decisión del Gobierno de José Antonio Kast de no asignar recursos para las becas TIC de Junaeb en el proyecto de Presupuesto 2027 , iniciativa que agrupa programas como \"Yo elijo mi PC\" y beneficia a estudiantes y familiares vulnerables. \" Dejar a miles de niños sin sus computadores es una decisión que simplemente no se entiende. Y son ellos quienes terminan pagando las malas decisiones del Gobierno\", señaló la militante de la UDI mediante redes sociales en reacción a la polémica decisión del Ejecutivo. Matthei publicó un video en el que sostuvo: \"Van a decir que arremeto contra el Gobierno porque estoy picada, porque perdí. Ustedes ya lo conocen. (Pero) la verdad es que durante la campaña dije muchas veces que era imposible cortar la cantidad de dinero fiscal que querían cortar sin afectar gravemente el gasto social \". En esa línea, mostró un extracto de uno de los debates presidenciales en el que interpeló al entonces candidato Kast sobre si su propuesta de reducción fiscal implicaría recortar beneficios sociales. Sin exponer la respuesta del ahora Mandatario, Matthei vinculó la discusión con la decisión adoptada por el Ejecutivo. Ver esta publicación en Instagram Una publicación compartida por Evelyn Matthei (@evelynmatthei) \"Ahora lo estamos viendo con la eliminación de un programa, 'Yo Elijo Mi PC', que beneficia a niños y a familias vulnerables. Soy economista, sabía que esto iba a suceder y lo dije claro y fuerte durante la campaña \", sostuvo. La otrora alcaldesa de Providencia escribió en la red social que la decisión le \"duele por los chilenos\" e insistió: \"Siempre lo dije, era imposible recortar US$6 mil millones sin afectar el gasto social y, finalmente, a las familias que más lo necesitan\". \"Dejar a miles de niños sin sus computadores es una decisión que simplemente no se entiende. Y son ellos quienes terminan pagando las malas decisiones del Gobierno \", concluyó.",
+            "url": "https://www.cooperativa.cl/noticias/pais/educacion/beneficios/matthei-dejar-a-miles-de-ninos-sin-computadores-es-una-decision-que-no/2026-10-03/185822.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261003/imag/foto_0000000220261003185822.jpg",
+            "published_raw": "Sat, 03 Oct 2026 18:58:22 -0300",
+            "published_at": "2026-10-03T18:58:22-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 9,
+            "score_institutional": 1,
             "score_elections": 2,
             "score_international": 0,
-            "score_conflict": 1,
+            "score_conflict": 0,
             "score_policy": 1,
-            "score_ideology": 2,
-            "score_actor": 3,
+            "score_ideology": 0,
+            "score_actor": 1,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 18,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
+            "political_evidence": 5,
+            "primary_topic": "Elecciones y opinión pública",
+            "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
+            "cluster_id": "PML-EVENT-017"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 81.1
+          "bonus": 10,
+          "labels": "Elecciones y opinión pública",
+          "chile_utility": 65.9
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-009",
-        "title": "TC dio luz verde a la Ley de Reconstrucción pero tumbó normas clave",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
+        "cluster_id": "PML-EVENT-003",
+        "title": "Eduardo Frei defendió la adhesión de Chile al \"Escudo de las Américas\"",
+        "topic": "Conflictos y seguridad",
+        "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/tc-dio-luz-verde-a-la-ley-de-reconstruccion-pero-tumbo-normas-clave/2026-10-02/161955.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/eduardo-frei/eduardo-frei-defendio-la-adhesion-de-chile-al-escudo-de-las-americas/2026-10-03/145244.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 56.9,
+          "score": 57,
           "level": "MEDIA",
           "components": {
-            "political_impact": 79,
-            "freshness": 72,
+            "political_impact": 52,
+            "freshness": 95,
             "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 32
+            "geographic_scope": 55,
+            "continuity": 34
           }
         },
         "coverage": {
@@ -676,47 +674,44 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-02T16:19:55-0300",
-        "last_seen": "2026-10-02T16:19:55-0300",
+        "first_seen": "2026-10-03T14:52:44-0300",
+        "last_seen": "2026-10-03T14:52:44-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "TC dio luz verde a la Ley de Reconstrucción pero tumbó normas clave",
-            "description": "Tras dos meses de revisión judicial luego de ser despachada por el Congreso, el Tribunal Constitucional (TC) dejó este viernes lista para su promulgación la Ley de Reconstrucción Nacional y Desarrollo Económico y Social , pero asestó un revés al Gobierno al desestimar tres artículos determinantes. En detalle, se anularon las indemnizaciones a empresas frente a resoluciones ambientales revocadas , descartó la exigencia a las municipalidades de reducir en al menos 30% los tiempos de trámites para acceder a compensaciones fiscales por la exención de contribuciones, y eliminó la facultad que permitía a los municipios más ricos retener ingresos sin derivarlos al Fondo Común Municipal . El pronunciamiento del tribunal marca el cierre del control preventivo de la ley y define el marco legal bajo el cual entrará en vigor , dejando fuera del ordenamiento varios de los puntos que habían generado mayor resistencia técnica y política . Fin de las indemnizaciones por permisos ambientales anulados La primera traba eliminada por el TC correspondía al artículo número 12 del proyecto, el cual facultaba a las empresas a recurrir ante la Corte de Apelaciones de Santiago para reclamar montos de indemnización cuando una Resolución de Calificación Ambiental (RCA) fuese anulada . Gran parte de este mecanismo ya había perdido viabilidad jurídica tras los requerimientos ingresados previamente por sectores de la oposición. Desde el Ministerio de Hacienda explicaron que lo que aún subsistía de dicha disposición terminó por ser desestimado por el tribunal , cerrando la vía indemnizatoria prevista en este cuerpo legal. Freno a exigencias administrativas y resguardo al Fondo Común Municipal Las objeciones de mayor impacto se concentraron en las compensaciones a los gobiernos locales a raíz de la merma en la recaudación por la exención de contribuciones . El artículo 32 del proyecto buscaba condicionar la entrega de dichos recursos fiscales a que las administraciones municipales agilizaran sus gestiones internas, imponiendo una rebaja obligatoria de al menos 30% en los tiempos de tramitación de permisos . Frente a esta fórmula, el Tribunal Constitucional determinó que tales condiciones resultaban \" incompatibles con el carácter solidario del sistema municipal y del Fondo Común Municipal \", invalidando la exigencia administrativa. Asimismo, la magistratura constitucional frenó un beneficio transitorio que favorecía directamente a las comunas de más altos ingresos del país. La disposición, contenida en el inciso sexto del artículo 17 transitorio, facultaba a determinados municipios a retener caudales sin aportarlos al Fondo Común Municipal durante el 2027 y 2028 . Al revisar este mecanismo, el TC concluyó taxativamente que la excepción \"vulneraba el principio constitucional de redistribución solidaria \", por lo que fue excluida en su totalidad de la versión final de la ley. La Moneda alista la fecha para la promulgación Con la resolución notificada, el balance general evidencia que la ley quedó en condiciones de entrar en régimen sin los incentivos indemnizatorios a proyectos de inversión ni las modificaciones al sistema solidario de financiamiento comunal que pretendía el Ejecutivo. En el Palacio de La Moneda ya se analiza el contenido del fallo y se trabaja en la fijación del cronograma oficial para la firma y promulgación definitiva de la nueva Ley de Reconstrucción.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/tc-dio-luz-verde-a-la-ley-de-reconstruccion-pero-tumbo-normas-clave/2026-10-02/161955.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000220261002161955.png",
-            "published_raw": "Fri, 02 Oct 2026 16:19:55 -0300",
-            "published_at": "2026-10-02T16:19:55-0300",
+            "title": "Eduardo Frei defendió la adhesión de Chile al \"Escudo de las Américas\"",
+            "description": "El expresidente Eduardo Frei Ruiz-Tagle salió en defensa de la bullada adhesión de Chile al \"Escudo de las Américas\" , afirmando que la coordinación transnacional es el único camino viable para desarticular las redes delictuales de alcance regional . A través de una carta publicada este sábado en el diario El Mercurio , el exgobernante valoró la decisión del Gobierno del Presidente José Antonio Kast y aseguró que \" ninguna nación , y Chile no es una excepción , puede responder actualmente de manera aislada ante las organizaciones delictuales que actúan a escala regional \". \" La cooperación en ese ámbito más amplio que el nacional es indispensable para proteger a los ciudadanos , las comunidades y las familias \", puntualizó el otrora jefe de Estado, que también destacó la entrada al mecanismo y los beneficios que traerá la medida para las instituciones policiales y el sistema judicial chileno. En su análisis, Frei indicó que \"la adhesión de Chile al 'Escudo de las Américas' fortalece la respuesta del Estado frente al crimen organizado y el narcotráfico . Integrarse a este mecanismo voluntario abre oportunidades concretas: compartir información oportuna , mejorar el análisis de datos , capacitar a Carabineros y a la Policía de Investigaciones , y profundizar la coordinación fronteriza \". La exautoridad llamó a dejar atrás los sesgos políticos que traben la colaboración hemisférica. (FOTO: ATON) \"Estas herramientas permitirán identificar rutas, seguir flujos financieros, desarticular cadenas logísticas y llevar ante la justicia a quienes dirigen y financian las bandas criminales \", añadió la exautoridad. Asimismo, aseguró en el escrito que la defensa del país es inseparable de la articulación con los países vecinos . \"Actuar unidos implica reconocer que la seguridad de Chile depende también de la capacidad regional para cerrar espacios al delito. Si la información no llega a tiempo ni se comparte, la respuesta queda incompleta. La coordinación debe integrar prevención , inteligencia , investigación criminal , control fronterizo , persecución patrimonial y cooperación judicial \", puntualizó la otrora autoridad. Superar el diagnóstico errado y la amenaza criminal Al justificar el paso dado por el país, Eduardo Frei dio cuenta que \"Chile no debe escatimar esfuerzos para alcanzar este objetivo \", por lo que \"se requieren capacidades técnicas, personal especializado, mecanismos ágiles de colaboración y una evaluación rigurosa de las políticas aplicadas\". Según precisó, \" la experiencia de otros países permite adoptar buenas prácticas y tecnologías probadas, además de evitar errores costosos . Estos aprendizajes deben adaptarse a nuestra realidad, con pleno respeto de la Constitución, las leyes, los derechos fundamentales y la soberanía nacional\". El exmandatario afirmó que la incorporación a este grupo internacional fortalece la respuesta del Estado frente al crimen organizado y el narcotráfico\". (FOTO: ATON) Acto seguido, el exmandatario remarcó que \"durante años se creyó que Chile estaba a salvo del narcotráfico y del crimen organizado. La realidad demostró lo errado de ese diagnóstico: ambos flagelos se instalaron en el país sin que lo advirtiéramos oportunamente . ¿Cuántas muertes más de nuestros policías debemos esperar? ¿Cuántos alcaldes más deben ser amenazados? ¿Cuántos secuestros más vamos a tolerar?\". Rechazo a las trabas ideológicas en materia de seguridad Frente a los cuestionamientos y reparos surgidos contra el acuerdo, el expresidente fue tajante en demandar pragmatismo y unidad regional, argumentando que las discrepancias políticas no deben entorpecer el resguardo ciudadano . \"Chile no puede resolver por sí solo un problema transnacional. Debe aprovechar la experiencia y las capacidades de otros países frente a organizaciones que operan en toda América Latina . Juntos somos más fuertes. No permitamos que prejuicios o consideraciones ideológicas paralicen una respuesta firme y coordinada\", recalcó en su misiva. Frei enfatizó en su misiva que \"no permitamos que prejuicios o consideraciones ideológicas paralicen una respuesta firme y coordinada\". (FOTO: ATON) Para concluir, Frei puntualizó que \"la ciudadanía exige acciones claras y contundentes frente a quienes le han arrebatado el derecho a vivir en paz . La acción conjunta de los países de la región ampliará la persecución penal y enviará una señal inequívoca: ningún territorio será refugio seguro para quienes trafican drogas, lavan dinero, extorsionan o corrompen\". \" El 'Escudo de las Américas' es una herramienta concreta para enfrentar, en forma unida y sostenida , una amenaza compartida . Es el primer intento concreto de cooperación regional para combatir el crimen organizado y el narcotráfico. Chile no puede quedarse al margen\", cerró el expresidente. Reacciones desde el Congreso \"Cómo se nota cuando una persona es de Estado\", valoró el presidente de la Comisión de Relaciones Exteriores de la Cámara, Stephan Schubert  (Republicanos), y en alusión al rechazo a la iniciativa de los expresidentes Michelle Bachelet y Gabriel Boric , remarcó que \" las críticas se deben hacer en privado , en particular cuando estamos hablando de relaciones exteriores e intereses nacionales\". Con todo, para el oficialista, \" hay una clara diferencia entre quien tiene una mirada de Estado , y vela por aportar al país, y quienes son parte de una izquierda que lo único que quiere es destruir y que no haya sana convivencia; que no hace las críticas por los canales apropiados, y no critica duramente cuando hay hechos de violencia mezclados con reclamos\". Desde la misma comisión parlamentaria, el diputado socialista Nelson Venegas  ironizó que \"el Presidente Frei estaría totalmente en contra de lo que señala el Frei actual\" . En cuanto al fondo de su misiva, el opositor aseveró que el exmandatario \" falta a la verdad cuando señala que el Escudo de las Américas solo tiene por objeto cuestiones de seguridad , porque todos los informes, incluyendo los que vienen desde EE.UU. y los que se entregarán por parte del Ejecutivo, señalan que también dice relación con temas económicos y de subordinación militar \".",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/eduardo-frei/eduardo-frei-defendio-la-adhesion-de-chile-al-escudo-de-las-americas/2026-10-03/145244.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261003/imag/foto_0000000520261003145244.png",
+            "published_raw": "Sat, 03 Oct 2026 14:52:44 -0300",
+            "published_at": "2026-10-03T14:52:44-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 7,
+            "score_institutional": 5,
             "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
+            "score_international": 1,
+            "score_conflict": 6,
             "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 1,
+            "score_ideology": 2,
+            "score_actor": 2,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 8,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": null,
+            "political_evidence": 16,
+            "primary_topic": "Conflictos y seguridad",
+            "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-009"
+            "cluster_id": "PML-EVENT-003"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 78.9
+          "bonus": 7,
+          "labels": "Seguridad y Estado",
+          "chile_utility": 64
         },
         "repeated_in_general_top5": false
       }
@@ -726,32 +721,32 @@
     {
       "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 75.1,
+      "maximum_relevance": 73.1,
       "leading_story": "Brasil elige presidente bajo la sombra de Trump y su ofensiva para impulsar gobiernos conservadores"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 25,
-      "maximum_relevance": 68.2,
+      "event_count": 22,
+      "maximum_relevance": 67,
       "leading_story": "Senadores preparan propuesta de seguridad tras revés en la reforma del Gobierno"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 66.7,
+      "maximum_relevance": 64.7,
       "leading_story": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua"
-    },
-    {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 8,
-      "maximum_relevance": 63.8,
-      "leading_story": "Voto femenino, clave en la recta final de las elecciones en Brasil"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 4,
       "maximum_relevance": 62.5,
       "leading_story": "La mano dura acapara el debate en las elecciones de Brasil: “Aquí mueren 100 traficantes y entran 200”"
+    },
+    {
+      "topic": "Elecciones y opinión pública",
+      "event_count": 8,
+      "maximum_relevance": 61.8,
+      "leading_story": "Voto femenino, clave en la recta final de las elecciones en Brasil"
     }
   ],
   "changes_since_yesterday": {
