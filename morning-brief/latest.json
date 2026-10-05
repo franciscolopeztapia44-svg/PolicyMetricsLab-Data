@@ -4,79 +4,80 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-05",
-    "data_latest_timestamp": "2026-10-05T07:16:05-0300",
-    "data_age_hours": 2.1,
-    "generated_at": "2026-10-05T09:20:52-0300",
+    "data_latest_timestamp": "2026-10-05T11:54:41-0300",
+    "data_age_hours": 0.4,
+    "generated_at": "2026-10-05T12:19:36-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": true
+    "editorial_topic_diversity_met": false
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 41 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 38 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 41,
-    "topics": 3,
+    "ranked_events": 38,
+    "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 63.6,
-    "maximum_relevance": 75.4
+    "average_top5_relevance": 66.7,
+    "maximum_relevance": 77.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-019",
-      "title": "Bolsonaro vence a Lula en primera vuelta de las elecciones y acaricia el retorno de la ultraderecha al poder en Brasil",
-      "url": "https://elpais.com/america/2026-10-05/bolsonaro-vence-a-lula-en-primera-vuelta-y-acaricia-el-retorno-de-la-ultraderecha-al-poder-en-brasil.html",
+      "cluster_id": "PML-EVENT-015",
+      "title": "Resultados de las elecciones en Brasil, en vivo| La Bolsa de São Paulo y el real reciben con subidas la victoria parcial de Bolsonaro",
+      "url": "https://elpais.com/america/2026-10-05/resultados-de-las-elecciones-en-brasil-en-vivo.html",
       "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
+      "topic": "Instituciones y gobierno",
       "event_type": "ELECTORAL_EVENT",
       "geography": {
         "group": "América Latina",
-        "country": "No identificado / América Latina / Brasil"
+        "country": "Brasil / América Latina / No identificado"
       },
       "relevance": {
-        "score": 75.4,
+        "score": 77.2,
         "level": "ALTA",
-        "editorial_utility": 79.4
+        "editorial_utility": 81.2
       },
       "selection": {
-        "reason": "PML 75.4; multifuente",
+        "reason": "PML 77.2; multifuente",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 9,
+        "article_count": 11,
         "source_count": 2,
         "sources": [
-          "EL PAÍS",
-          "France 24"
+          "France 24",
+          "EL PAÍS"
         ]
       },
       "first_seen": "2026-10-01T13:14:24-0300",
-      "last_seen": "2026-10-05T01:08:10-0300",
+      "last_seen": "2026-10-05T11:48:21-0300",
       "entities": [
-        "lula",
-        "bolsonaro",
         "brasil",
+        "bolsonaro",
+        "lula",
         "iran",
         "trump"
       ],
       "event_terms": [
+        "victoria",
         "eleccion",
         "medicos"
       ],
       "analysis": {
-        "summary": "El senador Flávio Bolsonaro, de 45 años, ha ganado la primera vuelta de las elecciones presidenciales de Brasil con el 47,1% de los votos válidos, frente al 45% del presidente Luiz Inácio Lula da Silva, de 80 años",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / América Latina / Brasil.",
+        "summary": "Los comicios locales de Brasil se saldaron este domingo con un avance de la derecha que representan el candidato presidencial Flávio Bolsonaro y sus aliados. En tanto la izquierda del presidente y aspirante a la reelección, Luiz Inácio Lula da Silva perdía terreno. La victoria más cómoda fue en São Paulo, donde el gobernador bolsonarista Tarcísio de Freitas ganó con amplia ventaja la reelección.",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Brasil / América Latina / No identificado.",
         "watch_next": [
           "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
           "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
@@ -85,6 +86,34 @@
         "status": "ready"
       },
       "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Brasil: la derecha de Bolsonaro se fortalece en las regiones, con un triunfo holgado en São Paulo",
+          "description": "Los comicios locales de Brasil se saldaron este domingo con un avance de la derecha que representan el candidato presidencial Flávio Bolsonaro y sus aliados. En tanto la izquierda del presidente y aspirante a la reelección, Luiz Inácio Lula da Silva perdía terreno. La victoria más cómoda fue en São Paulo, donde el gobernador bolsonarista Tarcísio de Freitas ganó con amplia ventaja la reelección.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261005-brasil-la-derecha-de-bolsonaro-se-fortalece-en-las-regiones-con-un-triunfo-holgado-en-s%C3%A3o-paulo",
+          "image_url": "https://s.france24.com/media/display/891cefac-c069-11f1-a01a-578a4b968fd6/w:1024/p:16x9/2026-09-07T200756Z-1203512775-RC2JENAHTIZI-RTRMADP-3-BRAZIL-ELECTION.jpg",
+          "published_raw": "Mon, 05 Oct 2026 03:19:28 GMT",
+          "published_at": "2026-10-05T00:19:28-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 2,
+          "score_actor": 3,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 7,
+          "primary_topic": "Ideología y competencia política",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-015"
+        },
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
@@ -111,7 +140,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-015"
         },
         {
           "source_id": "france24_latam",
@@ -139,7 +168,7 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-015"
         },
         {
           "source_id": "france24_latam",
@@ -167,7 +196,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-015"
         },
         {
           "source_id": "france24_latam",
@@ -195,7 +224,7 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-015"
         },
         {
           "source_id": "france24_latam",
@@ -223,7 +252,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-015"
         },
         {
           "source_id": "france24_latam",
@@ -251,7 +280,35 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-015"
+        },
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Resultados de las elecciones en Brasil, en vivo| La Bolsa de São Paulo y el real reciben con subidas la victoria parcial de Bolsonaro",
+          "description": "Los mercados financieros reaccionan positivamente este lunes, después del triunfo del ultraderechista Flávio Bolsonaro (47%) sobre el presidente Lula (45%) en la primera vuelta",
+          "url": "https://elpais.com/america/2026-10-05/resultados-de-las-elecciones-en-brasil-en-vivo.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/OKWWL2BV2REALBLWKCGOKRSSTE.jpg?auth=ce862f9488401cc25cb07139c1d3dada27bf59dbad4ef7ba0f22631377fb80c4",
+          "published_raw": "Mon, 05 Oct 2026 14:48:21 GMT",
+          "published_at": "2026-10-05T11:48:21-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-015"
         },
         {
           "source_id": "elpais_america",
@@ -279,7 +336,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-015"
         },
         {
           "source_id": "france24_latam",
@@ -307,7 +364,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-015"
         },
         {
           "source_id": "france24_latam",
@@ -335,29 +392,29 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-015"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-012",
-      "title": "El bolsonarismo se refuerza en el Senado de Brasil y pone al Supremo en la mira",
-      "url": "https://elpais.com/america/2026-10-05/el-bolsonarismo-se-refuerza-en-el-senado-de-brasil-y-pone-al-supremo-en-la-mira.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "cluster_id": "PML-EVENT-026",
+      "title": "¿Qué es real y qué es falso? el uso de la IA en las elecciones brasileñas",
+      "url": "https://www.france24.com/es/programas/en-foco/20261005-qu%C3%A9-es-real-y-qu%C3%A9-es-falso-el-uso-de-la-ia-en-las-elecciones-brasile%C3%B1as",
+      "representative_source": "France 24",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "ELECTORAL_EVENT",
       "geography": {
-        "group": "Chile",
-        "country": "No identificado / América Latina"
+        "group": "América Latina",
+        "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 64.4,
+        "score": 66.5,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 76.4
+        "editorial_utility": 70.5
       },
       "selection": {
-        "reason": "PML 64.4; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 66.5; aporta diversidad temática",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -365,64 +422,61 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "France 24"
       },
-      "first_seen": "2026-10-04T23:38:40-0300",
-      "last_seen": "2026-10-04T23:38:40-0300",
+      "first_seen": "2026-10-05T11:15:08-0300",
+      "last_seen": "2026-10-05T11:15:08-0300",
       "entities": [
-        "senado",
         "brasil",
-        "supremo",
-        "bolsonaro",
-        "congreso"
+        "bolsonaro"
       ],
-      "event_terms": "supremo",
+      "event_terms": [],
       "analysis": {
-        "summary": "El partido de Bolsonaro casi duplica sus senadores y gane quien gane la segunda vuelta del 25 de octubre, el próximo presidente gobernará con un Congreso más conservador",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "summary": "La primera vuelta de las elecciones presidenciales se celebró este domingo en Brasil, en unos comicios en los que la inteligencia artificial desempeñó un papel cada vez más importante: un avatar del expresidente Jair Bolsonaro para apoyar la candidatura de su hijo, un clon de una gobernadora para solicitar donaciones a sus votantes y jingles de campaña creados por unos pocos reales. La desinformación se convirtió así en uno de los principales desafíos de estas elecciones.",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
         "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El bolsonarismo se refuerza en el Senado de Brasil y pone al Supremo en la mira",
-          "description": "El partido de Bolsonaro casi duplica sus senadores y gane quien gane la segunda vuelta del 25 de octubre, el próximo presidente gobernará con un Congreso más conservador",
-          "url": "https://elpais.com/america/2026-10-05/el-bolsonarismo-se-refuerza-en-el-senado-de-brasil-y-pone-al-supremo-en-la-mira.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/XPNB5GSA65OG5EJD2E2ZC2VIOI.jpg?auth=03e6f923a2241523ac3fdb2b5c26817a04904346749cc0c6834a4ed94c5b3335",
-          "published_raw": "Mon, 05 Oct 2026 02:38:40 GMT",
-          "published_at": "2026-10-04T23:38:40-0300",
-          "country": "No identificado",
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "¿Qué es real y qué es falso? el uso de la IA en las elecciones brasileñas",
+          "description": "La primera vuelta de las elecciones presidenciales se celebró este domingo en Brasil, en unos comicios en los que la inteligencia artificial desempeñó un papel cada vez más importante: un avatar del expresidente Jair Bolsonaro para apoyar la candidatura de su hijo, un clon de una gobernadora para solicitar donaciones a sus votantes y jingles de campaña creados por unos pocos reales. La desinformación se convirtió así en uno de los principales desafíos de estas elecciones.",
+          "url": "https://www.france24.com/es/programas/en-foco/20261005-qu%C3%A9-es-real-y-qu%C3%A9-es-falso-el-uso-de-la-ia-en-las-elecciones-brasile%C3%B1as",
+          "image_url": "https://s.france24.com/media/display/1f8bcb24-bdb4-11f1-9627-13e372f41e70/w:1024/p:16x9/EN-NW-OOV-ECRAN-FREEZE-IA-BRESIL-ELEX-BAIN-Lauren.jpg",
+          "published_raw": "Mon, 05 Oct 2026 14:15:08 GMT",
+          "published_at": "2026-10-05T11:15:08-0300",
+          "country": "Brasil",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 4,
-          "score_elections": 1,
+          "score_institutional": 0,
+          "score_elections": 3,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 3,
+          "score_ideology": 0,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 9,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "political_evidence": 4,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": null,
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-026"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-005",
-      "title": "Reforma de seguridad: giro de La Moneda desata reparos en el PC y el PS",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-seguridad-giro-de-la-moneda-desata-reparos-en-el-pc-y-el-ps/2026-10-04/152253.html",
+      "cluster_id": "PML-EVENT-004",
+      "title": "Arrau por reforma de seguridad: Nunca hemos responsabilizado a otros por nuestra gestión",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-por-reforma-de-seguridad-nunca-hemos-responsabilizado-a-otros-por/2026-10-05/112919.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -431,12 +485,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 63.2,
+        "score": 67,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 61.2
+        "editorial_utility": 70
       },
       "selection": {
-        "reason": "PML 63.2; nuevo tipo de evento",
+        "reason": "PML 67; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -446,12 +500,12 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-10-04T15:22:53-0300",
-      "last_seen": "2026-10-04T15:22:53-0300",
-      "entities": "senado",
-      "event_terms": "judicial",
+      "first_seen": "2026-10-05T11:29:19-0300",
+      "last_seen": "2026-10-05T11:29:19-0300",
+      "entities": "congreso",
+      "event_terms": [],
       "analysis": {
-        "summary": "El Gobierno retirará su reforma constitucional de seguridad tras el amplio rechazo legislativo a su propuesta de crear un estado de excepción de 120 días y permitir la interceptación de comunicaciones sin orden judicial . En su lugar, La Moneda respaldará un texto alternativo elaborado por los senadores Pedro Araya (PPD) , Andrés Longton (RN) y Arturo Squella (Republicanos) , iniciativa que será ingresada a trámite a más tardar este martes para destrabar el debate en la…",
+        "summary": "El ministro de Seguridad Pública, Martín Arrau , respondió a las críticas de la senadora Paulina Vodanovic (PS)  respecto a la reforma constitucional de seguridad , en el marco de la contingencia por el asesinato del sargento segundo en un procedimiento por violencia intrafamiliar en Quilleco , Región del Biobío.",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -464,36 +518,36 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Reforma de seguridad: giro de La Moneda desata reparos en el PC y el PS",
-          "description": "El Gobierno retirará su reforma constitucional de seguridad tras el amplio rechazo legislativo a su propuesta de crear un estado de excepción de 120 días y permitir la interceptación de comunicaciones sin orden judicial . En su lugar, La Moneda respaldará un texto alternativo elaborado por los senadores Pedro Araya (PPD) , Andrés Longton (RN) y Arturo Squella (Republicanos) , iniciativa que será ingresada a trámite a más tardar este martes para destrabar el debate en la Cámara Alta. El nuevo texto parlamentario concentrará los esfuerzos institucionales en tres ejes prioritarios de consenso: el combate frontal al crimen organizado , el establecimiento de regímenes especiales para la seguridad penitenciaria y precisiones operativas al estado de excepción de emergencia ya vigente en la Carta Fundamental . Reparos desde el Partido Comunista y el Partido Socialista Pese al intento por dar un carácter de consenso transversal a la propuesta, la presidenta y senadora del Partido Socialista (PS) , Paulina Vodanovic , tomó distancia formal de la tratativa, asegurando que no intervino en la redacción del texto y cuestionando que se le catalogara como una iniciativa transversal en el seno de la Comisión de Constitución . A estos cuestionamientos se sumó la senadora comunista Claudia Pascual , quien descartó la urgencia de introducir modificaciones directas a la Constitución para resolver estas materias. En el oficialismo surgieron reparos; la senadora Claudia Pascual sostuvo: \"Yo no tengo la convicción de que haya que constitucionalizar algo\". (FOTO: ATON) Al respecto, la legisladora enfatizó \"que nos parece que primero hay que ponerse de acuerdo de qué es lo que realmente hay que constitucionalizar. Yo no tengo la convicción de que haya que constitucionalizar algo, sí de que hay que mejorar legislaciones , como por ejemplo elevar el rango de los reglamentos penitenciarios a leyes orgánicas, no a la Constitución\". \" Son temas que nos parecen importantes y ninguno de ellos es de rango constitucional \", puntualizó. Squella defiende diálogo y define prioridades contra el crimen organizado Frente a la controversia por la representatividad de las negociaciones, el senador y timonel del Partido Republicano , Arturo Squella , desestimó las acusaciones de marginación y llamó a los distintos sectores políticos a priorizar las herramientas contra la delincuencia . \"Es absurdo pensar que no hayamos querido invitarlas, como al final terminaron reconociendo en el fondo que se había hecho la invitación, se había mandado el texto. Es legítimo no estar disponible para firmar un proyecto. Nosotros sí esperaríamos , más allá de ese impasse de la semana , de que conocido el texto estén disponibles para combatir como corresponde el crimen organizado , en eso es lo que estamos trabajando con los senadores Araya y Longton\", enfatizó el legislador oficialista. El senador de Republicanos Arturo Squella desestimó exclusiones y afirmó que esperan que las distintas bancadas \"estén disponibles para combatir como corresponde el crimen organizado\". (FOTO: ATON) Asimismo, defendió los cuestionamientos por la opción de un nuevo estado de excepción, asegurando que \"si bien no era estrictamente necesario que hubiera un nuevo estado de excepción, lo que sí necesitaba era una hipótesis de que, cuando se cuenta con la información suficiente de que en tal lugar están las personas que son parte de una investigación judicial , se pueda avanzar con toda la fuerza del Estado \". Ejes que quedan fuera del nuevo texto El ingreso del nuevo texto legislativo está previsto a más tardar para este martes en el Senado. Con esta reformulación, el Ejecutivo da un paso atrás en dos de los puntos más controvertidos de su propuesta inicial: la instauración de una quinta categoría de estado de excepción constitucional y la facultad de ejecutar interceptaciones telefónicas y de comunicaciones sin requerir previamente una orden judicial.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-seguridad-giro-de-la-moneda-desata-reparos-en-el-pc-y-el-ps/2026-10-04/152253.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261004/imag/foto_0000000420261004152253.png",
-          "published_raw": "Sun, 04 Oct 2026 15:22:53 -0300",
-          "published_at": "2026-10-04T15:22:53-0300",
+          "title": "Arrau por reforma de seguridad: Nunca hemos responsabilizado a otros por nuestra gestión",
+          "description": "El ministro de Seguridad Pública, Martín Arrau , respondió a las críticas de la senadora Paulina Vodanovic (PS)  respecto a la reforma constitucional de seguridad , en el marco de la contingencia por el asesinato del sargento segundo en un procedimiento por violencia intrafamiliar en Quilleco , Región del Biobío. \"Agradecemos la gestión y los proyectos de ley que se votan en el Congreso, pero nunca hemos responsabilizado a otros por nuestra gestión, ni menos centrado el accionar del programa de gobierno y lo que estamos haciendo en responsabilizar a otros, sino que en nosotros mismos y en la gestión ejecutiva que se está haciendo\", aseveró el secretario de Estado. Arrau abordó las críticas de la presidenta del Partido Socialista, quien señaló que el Gobierno estaría planteando excusas para avanzar en la gestión de seguridad , sobre todo en la reforma constitucional que deberían plantear los senadores del a Comisión de Constitución -de la que también es parte Vodanovic, y de la que distanció- en los próximos días. Arrau confirmó que viajará hasta Quilleco En paralelo, el secretario de Estado confirmó que entre hoy y mañana s e dirigirá hasta Quilleco para participar de los servicios fúnebres del sargento segundo Jaime Ariel Urrea Burgos. Asimismo, sostuvo que el Presidente José Antonio Kast está moviendo todos los aspectos en su agenda para participar de la ceremonia el miércoles. El biministro del Interior y Segpres, Claudio Alvarado , quien se encuentra en la Región de Aysén, informará en las próximas horas sobre el duelo nacional por el nuevo mártir de la institución.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-por-reforma-de-seguridad-nunca-hemos-responsabilizado-a-otros-por/2026-10-05/112919.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000220261005112919.jpg",
+          "published_raw": "Mon, 05 Oct 2026 11:29:19 -0300",
+          "published_at": "2026-10-05T11:29:19-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 6,
+          "score_institutional": 8,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 2,
           "score_policy": 0,
-          "score_ideology": 2,
-          "score_actor": 4,
+          "score_ideology": 1,
+          "score_actor": 5,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 14,
+          "political_evidence": 16,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-005"
+          "cluster_id": "PML-EVENT-004"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-030",
+      "cluster_id": "PML-EVENT-027",
       "title": "Lula admite que el resultado electoral es “inesperado” y ataca a Bolsonaro por sus lazos con el crimen",
       "url": "https://elpais.com/america/2026-10-05/lula-califica-de-inesperado-el-resultado-electoral-y-ataca-a-flavio-por-sus-lazos-con-el-crimen.html",
       "representative_source": "EL PAÍS",
@@ -504,12 +558,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 62.1,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 60.1
+        "score": 60.1,
+        "level": "MEDIA",
+        "editorial_utility": 59.1
       },
       "selection": {
-        "reason": "PML 62.1; nuevo tipo de evento",
+        "reason": "PML 60.1; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -563,83 +617,111 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
+          "cluster_id": "PML-EVENT-027"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-031",
-      "title": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261003-la-oea-reclama-elecciones-libres-y-la-excarcelaci%C3%B3n-de-presos-pol%C3%ADticos-en-nicaragua",
-      "representative_source": "France 24",
-      "topic": "Relaciones internacionales",
-      "event_type": "ELECTORAL_EVENT",
+      "cluster_id": "PML-EVENT-025",
+      "title": "Caso Monsalve: suspenden preparación de juicio oral y fijan nueva fecha para marzo",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/caso-monsalve/caso-monsalve-suspenden-preparacion-de-juicio-oral-y-fijan-nueva-fecha/2026-10-05/112624.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
-        "group": "América Latina",
-        "country": "No identificado / América Latina"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 52.9,
-        "level": "MEDIA",
-        "editorial_utility": 57.9
+        "score": 62.8,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 58.8
       },
       "selection": {
-        "reason": "PML 52.9; aporta diversidad temática",
+        "reason": "PML 62.8; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 1,
+        "article_count": 2,
         "source_count": 1,
-        "sources": "France 24"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-10-02T22:34:36-0300",
-      "last_seen": "2026-10-02T22:34:36-0300",
-      "entities": [
-        "nicaragua",
-        "ortega"
+      "first_seen": "2026-10-05T09:39:17-0300",
+      "last_seen": "2026-10-05T11:26:24-0300",
+      "entities": "boric",
+      "event_terms": [
+        "judicial",
+        "tribunal"
       ],
-      "event_terms": "sanciones",
       "analysis": {
-        "summary": "La Organización de los Estados Americanos aprobó por unanimidad una resolución que reclama la liberación incondicional de los presos políticos, el restablecimiento de la separación de poderes y condiciones para celebrar elecciones libres, justas e inclusivas. El texto crea además un grupo de seguimiento, pero no contempla sanciones concretas contra el Gobierno de Daniel Ortega.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en No identificado / América Latina.",
+        "summary": "El Séptimo Juzgado de Garantía de Santiago resolvió este lunes suspender y reagendar la audiencia de preparación del juicio oral en contra del exsubsecretario del Interior Manuel Monsalve , fijando la nueva instancia para el 3 de marzo de 2027 . La decisión se fundamentó en que la notificación procesal llegó a la defensa fuera de los plazos legales establecidos . En la misma sesión judicial se revisaron las medidas cautelares de la exautoridad de Gobierno .",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua",
-          "description": "La Organización de los Estados Americanos aprobó por unanimidad una resolución que reclama la liberación incondicional de los presos políticos, el restablecimiento de la separación de poderes y condiciones para celebrar elecciones libres, justas e inclusivas. El texto crea además un grupo de seguimiento, pero no contempla sanciones concretas contra el Gobierno de Daniel Ortega.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261003-la-oea-reclama-elecciones-libres-y-la-excarcelaci%C3%B3n-de-presos-pol%C3%ADticos-en-nicaragua",
-          "image_url": "https://s.france24.com/media/display/36b2d99c-b0a2-11f1-a424-005056bf30b7/w:1024/p:16x9/000-76TX4G3.jpg",
-          "published_raw": "Sat, 03 Oct 2026 01:34:36 GMT",
-          "published_at": "2026-10-02T22:34:36-0300",
-          "country": "No identificado",
-          "region": "América Latina",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Caso Monsalve: suspenden preparación de juicio oral y fijan nueva fecha para marzo",
+          "description": "El Séptimo Juzgado de Garantía de Santiago resolvió este lunes suspender y reagendar la audiencia de preparación del juicio oral en contra del exsubsecretario del Interior Manuel Monsalve , fijando la nueva instancia para el 3 de marzo de 2027 . La decisión se fundamentó en que la notificación procesal llegó a la defensa fuera de los plazos legales establecidos . En la misma sesión judicial se revisaron las medidas cautelares de la exautoridad de Gobierno . Tras el debate de las partes, el tribunal determinó que Monsalve permanezca bajo arresto domiciliario nocturno , arraigo nacional y con prohibición de acercarse a la víctima , en el marco de la investigación que enfrenta por presuntos delitos de violación y abuso sexual cometidos contra una funcionaria que se desempeñaba bajo su dependencia . Previa a su entrada a la sala de audiencia, el otrora jefe de las policías aseveró estar tranquilo con el desarrollo del procedimiento judicial, insistió en su inocencia y manifestó mantener plena confianza en el trabajo técnico de su equipo defensor . La respuesta de la parte querellante Tras la sesión, la abogada querellante en la causa , María Elena Santibáñez , desestimó las declaraciones del exsubsecretario y afirmó que, \" en general , en delitos sexuales la regla es que la inmensa mayoría de los imputados o acusados , incluso condenados por delitos sexuales , dicen que no han cometido los delitos \". \"Nuestra aspiración es llegar lo más pronto posible a juicio oral, que esperamos sea, si se realiza ahora la audiencia de preparación de juicio oral,  dentro de los próximos dos o tres meses \", señaló la jurista. Con esta resolución, la causa sumará una dilación adicional en un proceso penal que acumula casi dos años de tramitación. (FOTO: ATON) En esta línea, señaló que han estado \"preparando esto durante mucho tiempo, esto es un trabajo que ya lo veníamos haciendo desde que presentamos la primera acusación en diciembre del año pasado \". \" Recordemos que ya se había cerrado y se había presentado acusación , así que estamos preparados para el juicio\", puntualizó Santibáñez. Testigos y peritajes presentados por la Fiscalía De acuerdo con los datos aportados por el Ministerio Público, el libelo acusatorio cuenta con un amplio volumen probatorio para sustentar los cargos. La fiscalía incluyó un listado de 89 testigos , 106 pruebas documentales y 21 informes periciales . Entre los convocados a declarar en el futuro juicio oral destacan diversas exautoridades gubernamentales del periodo respectivo , además del garzón del restaurante donde ocurrieron los hechos previos denunciados . No obstante, dicho trabajador abandonó el país en marzo de 2025 y actualmente se mantendría inubicable para los intervinientes.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/caso-monsalve/caso-monsalve-suspenden-preparacion-de-juicio-oral-y-fijan-nueva-fecha/2026-10-05/112624.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000320261005112624.png",
+          "published_raw": "Mon, 05 Oct 2026 11:26:24 -0300",
+          "published_at": "2026-10-05T11:26:24-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 2,
-          "score_conflict": 0,
+          "score_institutional": 3,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 4,
-          "primary_topic": "Relaciones internacionales",
-          "secondary_topic": "Instituciones y gobierno",
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-031"
+          "cluster_id": "PML-EVENT-025"
+        },
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Monsalve enfrenta preparación de juicio oral: \"Me sigo declarando inocente\"",
+          "description": "\" Estoy tranquilo y , por supuesto , me sigo declarando inocente . Mantengo eso con mucha firmeza \", afirmó este lunes el exsubsecretario del Interior Manuel Monsalve , en la antesala de la audiencia de preparación de juicio oral que enfrenta ante el Séptimo Juzgado de Garantía de Santiago por acusaciones de abuso sexual y violación . Los hechos se remontan a septiembre de 2024, cuando la exautoridad del Gobierno de Gabriel Boric fue denunciada por una funcionaria de la Subsecretaría del Interior , quien acusó haber despertado sin ropa junto a él en una habitación de un hotel ubicado en calle Teatinos con Huérfanos, en Santiago Centro. El otrora parlamentario, sujeto a la medida cautelar de arresto domiciliario total , abandonó a primera hora su residencia ubicada en la comuna de Viña del Mar con rumbo al Centro de Justicia de la capital, dond e se revisarán las pruebas y acusaciones que pesan en su contra . La Fiscalía Metropolitana Centro Norte solicita 14 años de presidio tras dar por cerrada la investigación. (FOTO: ATON) Al momento de salir de su vivienda en la Región de Valparaíso y antes de emprender el viaje hacia Santiago, el exfuncionario abordó brevemente a la prensa apostada en el lugar para fijar su postura procesal y defender su inocencia frente a los delitos que se le imputan . \"Les agradezco la cobertura, pero como ustedes deben comprender, por respeto a mi defensa y también al tribunal , voy a hablar cuando corresponda en el Centro de Justicia . Estoy tranquilo y , por supuesto , me sigo declarando inocente . Mantengo eso con mucha firmeza\", señaló Monsalve. El proceso judicial entra de esta manera en su etapa definitoria. El pasado 21 de agosto, la Fiscalía Metropolitana Centro Norte formalizó el cierre definitivo de la investigación que indaga los hechos denunciados por una funcionaria subalterna. Con el término de la fase investigativa, el Ministerio Público solicitó una condena de 14 años de cárcel efectiva en contra de Monsalve como autor de los delitos consumados de violación y abuso sexual.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/caso-monsalve/monsalve-enfrenta-preparacion-de-juicio-oral-me-sigo-declarando/2026-10-05/093917.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000520261005093917.png",
+          "published_raw": "Mon, 05 Oct 2026 09:39:17 -0300",
+          "published_at": "2026-10-05T09:39:17-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 3,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-025"
         }
       ]
     }
@@ -652,6 +734,78 @@
     "stories": [
       {
         "position": 1,
+        "cluster_id": "PML-EVENT-006",
+        "title": "Reforma de seguridad: giro de La Moneda desata reparos en el PC y el PS",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-seguridad-giro-de-la-moneda-desata-reparos-en-el-pc-y-el-ps/2026-10-04/152253.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 61.2,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 88,
+            "freshness": 72,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 48
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-04T15:22:53-0300",
+        "last_seen": "2026-10-04T15:22:53-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Reforma de seguridad: giro de La Moneda desata reparos en el PC y el PS",
+            "description": "El Gobierno retirará su reforma constitucional de seguridad tras el amplio rechazo legislativo a su propuesta de crear un estado de excepción de 120 días y permitir la interceptación de comunicaciones sin orden judicial . En su lugar, La Moneda respaldará un texto alternativo elaborado por los senadores Pedro Araya (PPD) , Andrés Longton (RN) y Arturo Squella (Republicanos) , iniciativa que será ingresada a trámite a más tardar este martes para destrabar el debate en la Cámara Alta. El nuevo texto parlamentario concentrará los esfuerzos institucionales en tres ejes prioritarios de consenso: el combate frontal al crimen organizado , el establecimiento de regímenes especiales para la seguridad penitenciaria y precisiones operativas al estado de excepción de emergencia ya vigente en la Carta Fundamental . Reparos desde el Partido Comunista y el Partido Socialista Pese al intento por dar un carácter de consenso transversal a la propuesta, la presidenta y senadora del Partido Socialista (PS) , Paulina Vodanovic , tomó distancia formal de la tratativa, asegurando que no intervino en la redacción del texto y cuestionando que se le catalogara como una iniciativa transversal en el seno de la Comisión de Constitución . A estos cuestionamientos se sumó la senadora comunista Claudia Pascual , quien descartó la urgencia de introducir modificaciones directas a la Constitución para resolver estas materias. En el oficialismo surgieron reparos; la senadora Claudia Pascual sostuvo: \"Yo no tengo la convicción de que haya que constitucionalizar algo\". (FOTO: ATON) Al respecto, la legisladora enfatizó \"que nos parece que primero hay que ponerse de acuerdo de qué es lo que realmente hay que constitucionalizar. Yo no tengo la convicción de que haya que constitucionalizar algo, sí de que hay que mejorar legislaciones , como por ejemplo elevar el rango de los reglamentos penitenciarios a leyes orgánicas, no a la Constitución\". \" Son temas que nos parecen importantes y ninguno de ellos es de rango constitucional \", puntualizó. Squella defiende diálogo y define prioridades contra el crimen organizado Frente a la controversia por la representatividad de las negociaciones, el senador y timonel del Partido Republicano , Arturo Squella , desestimó las acusaciones de marginación y llamó a los distintos sectores políticos a priorizar las herramientas contra la delincuencia . \"Es absurdo pensar que no hayamos querido invitarlas, como al final terminaron reconociendo en el fondo que se había hecho la invitación, se había mandado el texto. Es legítimo no estar disponible para firmar un proyecto. Nosotros sí esperaríamos , más allá de ese impasse de la semana , de que conocido el texto estén disponibles para combatir como corresponde el crimen organizado , en eso es lo que estamos trabajando con los senadores Araya y Longton\", enfatizó el legislador oficialista. El senador de Republicanos Arturo Squella desestimó exclusiones y afirmó que esperan que las distintas bancadas \"estén disponibles para combatir como corresponde el crimen organizado\". (FOTO: ATON) Asimismo, defendió los cuestionamientos por la opción de un nuevo estado de excepción, asegurando que \"si bien no era estrictamente necesario que hubiera un nuevo estado de excepción, lo que sí necesitaba era una hipótesis de que, cuando se cuenta con la información suficiente de que en tal lugar están las personas que son parte de una investigación judicial , se pueda avanzar con toda la fuerza del Estado \". Ejes que quedan fuera del nuevo texto El ingreso del nuevo texto legislativo está previsto a más tardar para este martes en el Senado. Con esta reformulación, el Ejecutivo da un paso atrás en dos de los puntos más controvertidos de su propuesta inicial: la instauración de una quinta categoría de estado de excepción constitucional y la facultad de ejecutar interceptaciones telefónicas y de comunicaciones sin requerir previamente una orden judicial.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/reforma-de-seguridad-giro-de-la-moneda-desata-reparos-en-el-pc-y-el-ps/2026-10-04/152253.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261004/imag/foto_0000000420261004152253.png",
+            "published_raw": "Sun, 04 Oct 2026 15:22:53 -0300",
+            "published_at": "2026-10-04T15:22:53-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 6,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 2,
+            "score_policy": 0,
+            "score_ideology": 2,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-006"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 83.2
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
         "cluster_id": "PML-EVENT-007",
         "title": "Senadores preparan propuesta de seguridad tras revés en la reforma del Gobierno",
         "topic": "Instituciones y gobierno",
@@ -723,26 +877,26 @@
         "repeated_in_general_top5": false
       },
       {
-        "position": 2,
-        "cluster_id": "PML-EVENT-013",
-        "title": "Encuesta Criteria: Desaprobación a la gestión del Presidente Kast llegó al 60%",
+        "position": 3,
+        "cluster_id": "PML-EVENT-001",
+        "title": "Ubilla defiende crítica de Matthei: \"Una cosa es apoyar a un candidato y otra es pensar igual\"",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "POLITICAL_STATEMENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/encuesta-criteria-desaprobacion-a-la-gestion-del-presidente-kast-llego/2026-10-04/180011.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/ubilla-defiende-critica-de-matthei-una-cosa-es-apoyar-a-un-candidato-y/2026-10-05/112741.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 54,
+          "score": 55.4,
           "level": "MEDIA",
           "components": {
-            "political_impact": 56,
-            "freshness": 80,
+            "political_impact": 50,
+            "freshness": 100,
             "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 30
+            "geographic_scope": 40,
+            "continuity": 34
           }
         },
         "coverage": {
@@ -750,36 +904,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-04T18:00:11-0300",
-        "last_seen": "2026-10-04T18:00:11-0300",
+        "first_seen": "2026-10-05T11:27:41-0300",
+        "last_seen": "2026-10-05T11:27:41-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Encuesta Criteria: Desaprobación a la gestión del Presidente Kast llegó al 60%",
-            "description": "La desaprobación a la gestión del Presidente José Antonio Kast escaló al 60% , registrando un incremento de dos puntos porcentuales en comparación con la medición anterior, mientras que su respaldo ciudadano descendió un punto para ubicarse en 30% , según arrojó la más reciente edición de la encuesta Criteria . El estudio constató un deterioro en el balance que la ciudadanía hace sobre la marcha material del país . Actualmente, apenas un 8% percibe una mejoría respecto del semestre previo , mientras que un mayoritario 62% afirma que la situación económica \"la ve peor\" , marcando un salto de trece puntos porcentuales en relación con el registro de agosto. La mirada hacia adelante tampoco ofrece señales de optimismo para La Moneda . De acuerdo con los datos, solo un 23% proyecta que el país mejorará dentro del próximo semestre , frente a un 49% que \"cree que empeorará\" , reflejando un aumento de seis puntos en las expectativas desfavorables. Este cuadro adverso se traduce en una extendida crítica hacia la capacidad de gestión técnica del oficialismo, evidenciando que \" se mantiene la incredulidad en los planes sectoriales \". La desaprobación a la gestión del Mandatario subió dos puntos, mientras que su respaldo ciudadano cayó al 30%. (FOTO: ATON) Al evaluar el crecimiento económico, un 45% sostiene que \"el gobierno improvisa\" y apenas un 21% advierte un \"plan claro\" ; idéntico resultado se repite en materia de generación de empleo, donde un 45% percibe improvisación contra solo un 21% que ve una ruta definida. A raíz de este escenario, el sondeo advierte que \"el clima emocional frente a 2026 se deteriora\". Los indicadores anímicos muestran que \"la esperanza cae a 29%\" -con un retroceso de siete puntos- , al tiempo que el sentimiento de \"tristeza aumenta a 23%\" , sumando seis puntos adicionales en el estado de ánimo colectivo. Crece el reparo al \"Escudo de las Américas\" y respaldo a carta de expresidentes En el plano internacional y de seguridad, la discusión sobre la política exterior chilena ganó un protagonismo masivo, elevando a 75% el nivel de conocimiento sobre l a incorporación del país al \"Escudo de las Américas\" , frente al 67% reportado la semana previa. Sin embargo, a mayor notoriedad, los reparos ciudadanos se incrementaron. Entre el grupo de personas que declara estar al tanto de la iniciativa, el apoyo retrocedió seis puntos para situarse en 31%, mientras que  el rechazo sube a 47% , anotando un alza de cinco puntos en las posturas desfavorables al pacto . El rechazo a la adhesión chilena al \"Escudo de las Américas\" creció al 47%, con una mayoría que respalda la carta de los expresidentes Bachelet y Boric. (FOTO: ATON) El debate coincide con la reciente intervención de los exmandatarios de centroizquierda. En este punto, la medición reveló que \" un 41% está de acuerdo con la carta de los expresidentes Bachelet y Boric pidiendo reconsiderar esta adhesión \", superando al 31% que se manifestó en desacuerdo con la advertencia planteada por los antiguos jefes de Estado.",
-            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/encuesta-criteria-desaprobacion-a-la-gestion-del-presidente-kast-llego/2026-10-04/180011.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261004/imag/foto_0000000420261004180011.png",
-            "published_raw": "Sun, 04 Oct 2026 18:00:11 -0300",
-            "published_at": "2026-10-04T18:00:11-0300",
+            "title": "Ubilla defiende crítica de Matthei: \"Una cosa es apoyar a un candidato y otra es pensar igual\"",
+            "description": "El director del área de Política y Sociedad Civil de Libertad y Desarrollo, Rodrigo Ubilla, defendió este lunes en El Primer Café las críticas de Evelyn Matthei al Gobierno y cuestionó la respuesta del diputado republicano Diego Vergara a la excandidata presidencial. El panel abordó los cuestionamientos de Matthei a la organización del Ejecutivo y a los recortes presupuestarios que afectan la entrega de computadores a escolares . Para Ubilla, \"lo que dice Evelyn Matthei se entiende mucho más como una invitación a producir cambios en los procedimientos de Gobierno, que es legítimo\" . Sobre las diferencias dentro del oficialismo, el representante de Libertad y Desarrollo sostuvo que \"una más tradicional que tiene un rol muy relevante desde la transición a la democracia en adelante y otra que emerge (...)  ¿piensan igual? No piensan igual. Pero fueron capaces de ponerse de acuerdo para apoyar a un candidato que venía de esta nueva derecha\" . Ubilla destacó que existen acuerdos en materias como la agenda de seguridad y la ley de reconstrucción, pese a las diferencias entre los sectores que respaldan al Ejecutivo. \"Porque una cosa es apoyar a un candidato, otra cosa es pensar exactamente igual. Eso es imposible . Y eso se dio al interior del Frente Amplio, acuérdense cuando eran varios partidos, se dio entre el el Socialismo Democrático y el Frente Amplio y el Partido Comunista. Eso es natural\", afirmó. Ubilla pide cuidar la unidad Ubilla también cuestionó la respuesta del diputado republicano Diego Vergara, quien vinculó las críticas de Matthei con su decepción por no haber sido electa. \"Las palabras del diputado Vergara no son adecuadas, pues. No son adecuadas\" , expresó. Sus declaraciones se producen después de que el presidente de Republicanos, Arturo Squella, descartara que las críticas de Matthei sean generalizadas en Chile Vamos . Ubilla advirtió que la forma de resolver las diferencias puede afectar la continuidad del proyecto político del oficialismo: \"El Presidente Kast dijo cuando llegó al Gobierno que para tener éxito se requería darle continuidad a este proyecto por lo menos dos periodos\" . \"Y las tensiones entre los partidos (...) son elementos que perjudican esa continuidad\", sostuvo. Por ello, llamó a los sectores oficialistas a cuidar la unidad: \"Todos los partidos que apoyan al Presidente Kast deben mirar respecto a la unidad de cómo seguir construyendo unidad para que al Gobierno le vaya bien. Y si al Gobierno le va bien, probablemente va a haber una continuidad de una opción de derecha o de centroderecha \". Ruz: Las críticas revelan problemas estructurales El presidente del directorio de Democracia y Comunidad, Luis Ruz, sostuvo que los cuestionamientos no son exclusivos de Matthei , y mencionó las críticas de otras figuras del oficialismo a distintas decisiones del Gobierno. Entre ellas está la eliminación de \"Yo Elijo Mi PC\", una medida que también motivó que diputados de la UDI expresaran su \"profunda preocupación\" por los recortes en educación . Para el representante del centro de pensamiento de la Democracia Cristiana, el debate refleja dificultades que el Ejecutivo arrastra desde su instalación, tanto en su diseño político como en la convivencia entre sectores con distintas posiciones ideológicas. \"Es un Gobierno que prometió mucho, pero que está haciendo poco\" , cuestionó. Ruz reconoció que Matthei aprovecha su tribuna y que también existe un componente de ajuste de cuentas políticas, pero puso el énfasis en el contenido de sus observaciones. \"En lo de fondo yo creo que lo más importante es que está dejando al desnudo los problemas estructurales que el Gobierno no ha logrado resolver \", sostuvo. Freire apunta a las \"dos almas\" del Gobierno El director ejecutivo de Fábrica Chile ligada al Partido Liberal, Nicolás Freire, planteó que el capital político de Matthei le permite expresar públicamente críticas que otras figuras de la derecha tradicional tienen menos espacio para formular. \"No todos quienes militan en los partidos de la derecha tradicional pueden permitirse hacer lo que hace Evelyn Matthei\", señaló. Freire añadió que el respaldo de Chile Vamos al Gobierno no ha estado exento de cuestionamientos, y mencionó las diferencias frente al Foro de Madrid y a la propuesta de reforma constitucional de seguridad. A su juicio, esas posiciones muestran las tensiones entre las \"dos almas que está teniendo el gobierno\" . Sobre las declaraciones de Matthei, agregó que está \"diciendo cosas que a todos nos parecen sensatas\" . Arqueros llama a bajar el tono del debate El director de formación de la Fundación Jaime Guzmán, Claudio Arqueros, sostuvo que Matthei conserva capital y vigencia política , y que las críticas desde el propio sector son un fenómeno habitual en los gobiernos. \"No estoy diciendo que ella esté pensando ser candidata de nuevo, pero de que tiene un capital político, una vigencia política, una voz, ella la tiene\", afirmó. Arqueros también llamó a revisar la escalada del lenguaje en la discusión pública, más allá de este episodio y de las diferencias entre los sectores políticos. \"Hemos sido de lado y lado muy permisivos con el alzamiento del tono del lenguaje, que ha llegado a ser incluso, cada tanto llega a ser, agresivo\" , advirtió. Freire compartió ese llamado, aunque distinguió la posición de Matthei dentro de la derecha tradicional de las críticas formuladas por dirigentes de sectores más extremos.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/ubilla-defiende-critica-de-matthei-una-cosa-es-apoyar-a-un-candidato-y/2026-10-05/112741.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000220261005112741.jpg",
+            "published_raw": "Mon, 05 Oct 2026 11:27:41 -0300",
+            "published_at": "2026-10-05T11:27:41-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 2,
+            "score_institutional": 6,
             "score_elections": 2,
             "score_international": 0,
             "score_conflict": 1,
             "score_policy": 1,
-            "score_ideology": 1,
-            "score_actor": 2,
+            "score_ideology": 4,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 9,
+            "political_evidence": 19,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
+            "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-013"
+            "cluster_id": "PML-EVENT-001"
           }
         ],
         "article_count": 1,
@@ -790,79 +944,7 @@
             "Estado e instituciones",
             "Elecciones y opinión pública"
           ],
-          "chile_utility": 73
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-015",
-        "title": "TC dio luz verde a la Ley de Reconstrucción pero tumbó normas clave",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/tc-dio-luz-verde-a-la-ley-de-reconstruccion-pero-tumbo-normas-clave/2026-10-02/161955.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 45.2,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 79,
-            "freshness": 25,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 32
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-02T16:19:55-0300",
-        "last_seen": "2026-10-02T16:19:55-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "TC dio luz verde a la Ley de Reconstrucción pero tumbó normas clave",
-            "description": "Tras dos meses de revisión judicial luego de ser despachada por el Congreso, el Tribunal Constitucional (TC) dejó este viernes lista para su promulgación la Ley de Reconstrucción Nacional y Desarrollo Económico y Social , pero asestó un revés al Gobierno al desestimar tres artículos determinantes. En detalle, se anularon las indemnizaciones a empresas frente a resoluciones ambientales revocadas , descartó la exigencia a las municipalidades de reducir en al menos 30% los tiempos de trámites para acceder a compensaciones fiscales por la exención de contribuciones, y eliminó la facultad que permitía a los municipios más ricos retener ingresos sin derivarlos al Fondo Común Municipal . El pronunciamiento del tribunal marca el cierre del control preventivo de la ley y define el marco legal bajo el cual entrará en vigor , dejando fuera del ordenamiento varios de los puntos que habían generado mayor resistencia técnica y política . Fin de las indemnizaciones por permisos ambientales anulados La primera traba eliminada por el TC correspondía al artículo número 12 del proyecto, el cual facultaba a las empresas a recurrir ante la Corte de Apelaciones de Santiago para reclamar montos de indemnización cuando una Resolución de Calificación Ambiental (RCA) fuese anulada . Gran parte de este mecanismo ya había perdido viabilidad jurídica tras los requerimientos ingresados previamente por sectores de la oposición. Desde el Ministerio de Hacienda explicaron que lo que aún subsistía de dicha disposición terminó por ser desestimado por el tribunal , cerrando la vía indemnizatoria prevista en este cuerpo legal. Freno a exigencias administrativas y resguardo al Fondo Común Municipal Las objeciones de mayor impacto se concentraron en las compensaciones a los gobiernos locales a raíz de la merma en la recaudación por la exención de contribuciones . El artículo 32 del proyecto buscaba condicionar la entrega de dichos recursos fiscales a que las administraciones municipales agilizaran sus gestiones internas, imponiendo una rebaja obligatoria de al menos 30% en los tiempos de tramitación de permisos . Frente a esta fórmula, el Tribunal Constitucional determinó que tales condiciones resultaban \" incompatibles con el carácter solidario del sistema municipal y del Fondo Común Municipal \", invalidando la exigencia administrativa. Asimismo, la magistratura constitucional frenó un beneficio transitorio que favorecía directamente a las comunas de más altos ingresos del país. La disposición, contenida en el inciso sexto del artículo 17 transitorio, facultaba a determinados municipios a retener caudales sin aportarlos al Fondo Común Municipal durante el 2027 y 2028 . Al revisar este mecanismo, el TC concluyó taxativamente que la excepción \"vulneraba el principio constitucional de redistribución solidaria \", por lo que fue excluida en su totalidad de la versión final de la ley. La Moneda alista la fecha para la promulgación Con la resolución notificada, el balance general evidencia que la ley quedó en condiciones de entrar en régimen sin los incentivos indemnizatorios a proyectos de inversión ni las modificaciones al sistema solidario de financiamiento comunal que pretendía el Ejecutivo. En el Palacio de La Moneda ya se analiza el contenido del fallo y se trabaja en la fijación del cronograma oficial para la firma y promulgación definitiva de la nueva Ley de Reconstrucción.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/tc-dio-luz-verde-a-la-ley-de-reconstruccion-pero-tumbo-normas-clave/2026-10-02/161955.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000220261002161955.png",
-            "published_raw": "Fri, 02 Oct 2026 16:19:55 -0300",
-            "published_at": "2026-10-02T16:19:55-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 7,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 1,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 8,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": null,
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-015"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 67.2
+          "chile_utility": 74.4
         },
         "repeated_in_general_top5": false
       }
@@ -870,28 +952,28 @@
   },
   "topics": [
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 13,
-      "maximum_relevance": 75.4,
-      "leading_story": "Bolsonaro vence a Lula en primera vuelta de las elecciones y acaricia el retorno de la ultraderecha al poder en Brasil"
-    },
-    {
       "topic": "Instituciones y gobierno",
-      "event_count": 24,
-      "maximum_relevance": 65.1,
-      "leading_story": "Unas elecciones con miles de españoles sin derecho al voto por la ‘ley de nietos’"
+      "event_count": 23,
+      "maximum_relevance": 77.2,
+      "leading_story": "Resultados de las elecciones en Brasil, en vivo| La Bolsa de São Paulo y el real reciben con subidas la victoria parcial de Bolsonaro"
     },
     {
-      "topic": "Ideología y competencia política",
-      "event_count": 2,
-      "maximum_relevance": 54.2,
-      "leading_story": "Brasil: la derecha de Bolsonaro se fortalece en las regiones, con un triunfo holgado en São Paulo"
+      "topic": "Elecciones y opinión pública",
+      "event_count": 12,
+      "maximum_relevance": 66.5,
+      "leading_story": "¿Qué es real y qué es falso? el uso de la IA en las elecciones brasileñas"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
       "maximum_relevance": 52.9,
       "leading_story": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua"
+    },
+    {
+      "topic": "Ideología y competencia política",
+      "event_count": 1,
+      "maximum_relevance": 51,
+      "leading_story": "Michelle, la esposa de Bolsonaro padre, encabeza el desembarco de la derecha conservadora en el Senado"
     },
     {
       "topic": "Conflictos y seguridad",
@@ -905,7 +987,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
