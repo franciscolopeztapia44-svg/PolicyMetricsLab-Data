@@ -4,35 +4,35 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-05",
-    "data_latest_timestamp": "2026-10-05T11:54:41-0300",
-    "data_age_hours": 0.4,
-    "generated_at": "2026-10-05T12:19:36-0300",
+    "data_latest_timestamp": "2026-10-05T15:15:21-0300",
+    "data_age_hours": 0.1,
+    "generated_at": "2026-10-05T15:19:30-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": false
+    "editorial_topic_diversity_met": true
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 38 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 40 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 38,
-    "topics": 2,
+    "ranked_events": 40,
+    "topics": 3,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 66.7,
+    "average_top5_relevance": 66.2,
     "maximum_relevance": 77.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-015",
+      "cluster_id": "PML-EVENT-012",
       "title": "Resultados de las elecciones en Brasil, en vivo| La Bolsa de São Paulo y el real reciben con subidas la victoria parcial de Bolsonaro",
       "url": "https://elpais.com/america/2026-10-05/resultados-de-las-elecciones-en-brasil-en-vivo.html",
       "representative_source": "EL PAÍS",
@@ -54,7 +54,7 @@
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 11,
+        "article_count": 12,
         "source_count": 2,
         "sources": [
           "France 24",
@@ -62,11 +62,12 @@
         ]
       },
       "first_seen": "2026-10-01T13:14:24-0300",
-      "last_seen": "2026-10-05T11:48:21-0300",
+      "last_seen": "2026-10-05T15:15:21-0300",
       "entities": [
         "brasil",
         "bolsonaro",
         "lula",
+        "senado",
         "iran",
         "trump"
       ],
@@ -76,7 +77,7 @@
         "medicos"
       ],
       "analysis": {
-        "summary": "Los comicios locales de Brasil se saldaron este domingo con un avance de la derecha que representan el candidato presidencial Flávio Bolsonaro y sus aliados. En tanto la izquierda del presidente y aspirante a la reelección, Luiz Inácio Lula da Silva perdía terreno. La victoria más cómoda fue en São Paulo, donde el gobernador bolsonarista Tarcísio de Freitas ganó con amplia ventaja la reelección.",
+        "summary": "El senador del Partido Liberal (PL) y candidato presidencial, Flávio Bolsonaro, agradeció este lunes \"a Dios\" y al pueblo brasileño por su victoria en las elecciones del domingo ante el presidente Luiz Inácio Lula da Silva, en contra de los pronósticos. Además, celebró que el PL resultara el partido más votado en el Parlamento, con más de un tercio de los escaños del Senado. Las bolsas y la moneda nacional comenzaron la semana fortalecidas tras el resultado en las urnas.",
         "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Brasil / América Latina / No identificado.",
         "watch_next": [
           "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
@@ -86,6 +87,34 @@
         "status": "ready"
       },
       "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "\"Solo faltan días para el rescate Brasil\": Bolsonaro celebra la victoria sobre Lula",
+          "description": "El senador del Partido Liberal (PL) y candidato presidencial, Flávio Bolsonaro, agradeció este lunes \"a Dios\" y al pueblo brasileño por su victoria en las elecciones del domingo ante el presidente Luiz Inácio Lula da Silva, en contra de los pronósticos. Además, celebró que el PL resultara el partido más votado en el Parlamento, con más de un tercio de los escaños del Senado. Las bolsas y la moneda nacional comenzaron la semana fortalecidas tras el resultado en las urnas.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261005-solo-faltan-d%C3%ADas-para-el-rescate-brasil-bolsonaro-celebra-la-victoria-sobre-lula",
+          "image_url": "https://s.france24.com/media/display/2dd48b3a-c0d4-11f1-9f3e-578a4b968fd6/w:1024/p:16x9/2026-10-05T022837Z-1703279203-RC2OWNAV3T5S-RTRMADP-3-BRAZIL-ELECTION.jpg",
+          "published_raw": "Mon, 05 Oct 2026 16:10:56 GMT",
+          "published_at": "2026-10-05T13:10:56-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 3,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 1,
+          "political_evidence": 9,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-012"
+        },
         {
           "source_id": "france24_latam",
           "source": "France 24",
@@ -112,7 +141,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-012"
         },
         {
           "source_id": "elpais_america",
@@ -140,7 +169,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-012"
         },
         {
           "source_id": "france24_latam",
@@ -168,7 +197,7 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-012"
         },
         {
           "source_id": "france24_latam",
@@ -196,7 +225,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-012"
         },
         {
           "source_id": "france24_latam",
@@ -224,7 +253,7 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-012"
         },
         {
           "source_id": "france24_latam",
@@ -252,7 +281,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-012"
         },
         {
           "source_id": "france24_latam",
@@ -280,7 +309,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-012"
         },
         {
           "source_id": "elpais_america",
@@ -289,8 +318,8 @@
           "description": "Los mercados financieros reaccionan positivamente este lunes, después del triunfo del ultraderechista Flávio Bolsonaro (47%) sobre el presidente Lula (45%) en la primera vuelta",
           "url": "https://elpais.com/america/2026-10-05/resultados-de-las-elecciones-en-brasil-en-vivo.html",
           "image_url": "https://imagenes.elpais.com/resizer/v2/OKWWL2BV2REALBLWKCGOKRSSTE.jpg?auth=ce862f9488401cc25cb07139c1d3dada27bf59dbad4ef7ba0f22631377fb80c4",
-          "published_raw": "Mon, 05 Oct 2026 14:48:21 GMT",
-          "published_at": "2026-10-05T11:48:21-0300",
+          "published_raw": "Mon, 05 Oct 2026 18:15:21 GMT",
+          "published_at": "2026-10-05T15:15:21-0300",
           "country": "No identificado",
           "region": "América Latina",
           "language": "es",
@@ -308,7 +337,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-012"
         },
         {
           "source_id": "elpais_america",
@@ -336,7 +365,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-012"
         },
         {
           "source_id": "france24_latam",
@@ -364,7 +393,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-012"
         },
         {
           "source_id": "france24_latam",
@@ -392,13 +421,86 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-012"
         }
       ]
     },
     {
       "position": 2,
       "cluster_id": "PML-EVENT-026",
+      "title": "Francia encara una nueva semana de protestas estudiantiles, las mayores en décadas",
+      "url": "https://elpais.com/internacional/2026-10-05/francia-encara-una-nueva-semana-de-protestas-estudiantiles-las-mayores-en-decadas.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Conflictos y seguridad",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 62.8,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 70.8
+      },
+      "selection": {
+        "reason": "PML 62.8; aporta diversidad temática; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-05T14:45:11-0300",
+      "last_seen": "2026-10-05T14:45:11-0300",
+      "entities": [],
+      "event_terms": "protestas",
+      "analysis": {
+        "summary": "El Gobierno de Macron es criticado por la dura represión policial. El martes se celebrará una gran manifestación nacional para reivindicar más inversiones",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Francia encara una nueva semana de protestas estudiantiles, las mayores en décadas",
+          "description": "El Gobierno de Macron es criticado por la dura represión policial. El martes se celebrará una gran manifestación nacional para reivindicar más inversiones",
+          "url": "https://elpais.com/internacional/2026-10-05/francia-encara-una-nueva-semana-de-protestas-estudiantiles-las-mayores-en-decadas.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/IU3VECMUIBPMBJCA6YJF4SWBDA.jpg?auth=64d5dc61f6c91adfd8e17b3011d090da6a08511a675077a3b2513c23760905f4",
+          "published_raw": "Mon, 05 Oct 2026 17:45:11 GMT",
+          "published_at": "2026-10-05T14:45:11-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 3,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-026"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-029",
       "title": "¿Qué es real y qué es falso? el uso de la IA en las elecciones brasileñas",
       "url": "https://www.france24.com/es/programas/en-foco/20261005-qu%C3%A9-es-real-y-qu%C3%A9-es-falso-el-uso-de-la-ia-en-las-elecciones-brasile%C3%B1as",
       "representative_source": "France 24",
@@ -409,12 +511,12 @@
         "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 66.5,
+        "score": 65.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 70.5
+        "editorial_utility": 69.2
       },
       "selection": {
-        "reason": "PML 66.5; aporta diversidad temática",
+        "reason": "PML 65.2; aporta diversidad temática",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -468,12 +570,12 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
+          "cluster_id": "PML-EVENT-029"
         }
       ]
     },
     {
-      "position": 3,
+      "position": 4,
       "cluster_id": "PML-EVENT-004",
       "title": "Arrau por reforma de seguridad: Nunca hemos responsabilizado a otros por nuestra gestión",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-por-reforma-de-seguridad-nunca-hemos-responsabilizado-a-otros-por/2026-10-05/112919.html",
@@ -485,12 +587,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 67,
+        "score": 65.8,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 70
+        "editorial_utility": 68.8
       },
       "selection": {
-        "reason": "PML 67; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 65.8; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -546,8 +648,8 @@
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-027",
+      "position": 5,
+      "cluster_id": "PML-EVENT-031",
       "title": "Lula admite que el resultado electoral es “inesperado” y ataca a Bolsonaro por sus lazos con el crimen",
       "url": "https://elpais.com/america/2026-10-05/lula-califica-de-inesperado-el-resultado-electoral-y-ataca-a-flavio-por-sus-lazos-con-el-crimen.html",
       "representative_source": "EL PAÍS",
@@ -617,111 +719,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-025",
-      "title": "Caso Monsalve: suspenden preparación de juicio oral y fijan nueva fecha para marzo",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/caso-monsalve/caso-monsalve-suspenden-preparacion-de-juicio-oral-y-fijan-nueva-fecha/2026-10-05/112624.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 62.8,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 58.8
-      },
-      "selection": {
-        "reason": "PML 62.8; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 2,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-10-05T09:39:17-0300",
-      "last_seen": "2026-10-05T11:26:24-0300",
-      "entities": "boric",
-      "event_terms": [
-        "judicial",
-        "tribunal"
-      ],
-      "analysis": {
-        "summary": "El Séptimo Juzgado de Garantía de Santiago resolvió este lunes suspender y reagendar la audiencia de preparación del juicio oral en contra del exsubsecretario del Interior Manuel Monsalve , fijando la nueva instancia para el 3 de marzo de 2027 . La decisión se fundamentó en que la notificación procesal llegó a la defensa fuera de los plazos legales establecidos . En la misma sesión judicial se revisaron las medidas cautelares de la exautoridad de Gobierno .",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Caso Monsalve: suspenden preparación de juicio oral y fijan nueva fecha para marzo",
-          "description": "El Séptimo Juzgado de Garantía de Santiago resolvió este lunes suspender y reagendar la audiencia de preparación del juicio oral en contra del exsubsecretario del Interior Manuel Monsalve , fijando la nueva instancia para el 3 de marzo de 2027 . La decisión se fundamentó en que la notificación procesal llegó a la defensa fuera de los plazos legales establecidos . En la misma sesión judicial se revisaron las medidas cautelares de la exautoridad de Gobierno . Tras el debate de las partes, el tribunal determinó que Monsalve permanezca bajo arresto domiciliario nocturno , arraigo nacional y con prohibición de acercarse a la víctima , en el marco de la investigación que enfrenta por presuntos delitos de violación y abuso sexual cometidos contra una funcionaria que se desempeñaba bajo su dependencia . Previa a su entrada a la sala de audiencia, el otrora jefe de las policías aseveró estar tranquilo con el desarrollo del procedimiento judicial, insistió en su inocencia y manifestó mantener plena confianza en el trabajo técnico de su equipo defensor . La respuesta de la parte querellante Tras la sesión, la abogada querellante en la causa , María Elena Santibáñez , desestimó las declaraciones del exsubsecretario y afirmó que, \" en general , en delitos sexuales la regla es que la inmensa mayoría de los imputados o acusados , incluso condenados por delitos sexuales , dicen que no han cometido los delitos \". \"Nuestra aspiración es llegar lo más pronto posible a juicio oral, que esperamos sea, si se realiza ahora la audiencia de preparación de juicio oral,  dentro de los próximos dos o tres meses \", señaló la jurista. Con esta resolución, la causa sumará una dilación adicional en un proceso penal que acumula casi dos años de tramitación. (FOTO: ATON) En esta línea, señaló que han estado \"preparando esto durante mucho tiempo, esto es un trabajo que ya lo veníamos haciendo desde que presentamos la primera acusación en diciembre del año pasado \". \" Recordemos que ya se había cerrado y se había presentado acusación , así que estamos preparados para el juicio\", puntualizó Santibáñez. Testigos y peritajes presentados por la Fiscalía De acuerdo con los datos aportados por el Ministerio Público, el libelo acusatorio cuenta con un amplio volumen probatorio para sustentar los cargos. La fiscalía incluyó un listado de 89 testigos , 106 pruebas documentales y 21 informes periciales . Entre los convocados a declarar en el futuro juicio oral destacan diversas exautoridades gubernamentales del periodo respectivo , además del garzón del restaurante donde ocurrieron los hechos previos denunciados . No obstante, dicho trabajador abandonó el país en marzo de 2025 y actualmente se mantendría inubicable para los intervinientes.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/caso-monsalve/caso-monsalve-suspenden-preparacion-de-juicio-oral-y-fijan-nueva-fecha/2026-10-05/112624.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000320261005112624.png",
-          "published_raw": "Mon, 05 Oct 2026 11:26:24 -0300",
-          "published_at": "2026-10-05T11:26:24-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 3,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
-        },
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Monsalve enfrenta preparación de juicio oral: \"Me sigo declarando inocente\"",
-          "description": "\" Estoy tranquilo y , por supuesto , me sigo declarando inocente . Mantengo eso con mucha firmeza \", afirmó este lunes el exsubsecretario del Interior Manuel Monsalve , en la antesala de la audiencia de preparación de juicio oral que enfrenta ante el Séptimo Juzgado de Garantía de Santiago por acusaciones de abuso sexual y violación . Los hechos se remontan a septiembre de 2024, cuando la exautoridad del Gobierno de Gabriel Boric fue denunciada por una funcionaria de la Subsecretaría del Interior , quien acusó haber despertado sin ropa junto a él en una habitación de un hotel ubicado en calle Teatinos con Huérfanos, en Santiago Centro. El otrora parlamentario, sujeto a la medida cautelar de arresto domiciliario total , abandonó a primera hora su residencia ubicada en la comuna de Viña del Mar con rumbo al Centro de Justicia de la capital, dond e se revisarán las pruebas y acusaciones que pesan en su contra . La Fiscalía Metropolitana Centro Norte solicita 14 años de presidio tras dar por cerrada la investigación. (FOTO: ATON) Al momento de salir de su vivienda en la Región de Valparaíso y antes de emprender el viaje hacia Santiago, el exfuncionario abordó brevemente a la prensa apostada en el lugar para fijar su postura procesal y defender su inocencia frente a los delitos que se le imputan . \"Les agradezco la cobertura, pero como ustedes deben comprender, por respeto a mi defensa y también al tribunal , voy a hablar cuando corresponda en el Centro de Justicia . Estoy tranquilo y , por supuesto , me sigo declarando inocente . Mantengo eso con mucha firmeza\", señaló Monsalve. El proceso judicial entra de esta manera en su etapa definitoria. El pasado 21 de agosto, la Fiscalía Metropolitana Centro Norte formalizó el cierre definitivo de la investigación que indaga los hechos denunciados por una funcionaria subalterna. Con el término de la fase investigativa, el Ministerio Público solicitó una condena de 14 años de cárcel efectiva en contra de Monsalve como autor de los delitos consumados de violación y abuso sexual.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/caso-monsalve/monsalve-enfrenta-preparacion-de-juicio-oral-me-sigo-declarando/2026-10-05/093917.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000520261005093917.png",
-          "published_raw": "Mon, 05 Oct 2026 09:39:17 -0300",
-          "published_at": "2026-10-05T09:39:17-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 3,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "cluster_id": "PML-EVENT-031"
         }
       ]
     }
@@ -806,78 +804,6 @@
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-007",
-        "title": "Senadores preparan propuesta de seguridad tras revés en la reforma del Gobierno",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/senadores-preparan-propuesta-de-seguridad-tras-reves-en-la-reforma-del/2026-10-03/135752.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 53.2,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 90,
-            "freshness": 40,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 42
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-03T13:57:52-0300",
-        "last_seen": "2026-10-03T13:57:52-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Senadores preparan propuesta de seguridad tras revés en la reforma del Gobierno",
-            "description": "Los parlamentarios de la Comisión de Constitución del Senado:  P edro Araya (PPD), Andrés Longton (RN) y Arturo Squella (Republicanos), preparan una nueva propuesta en materia de seguridad, luego que el proyecto de reforma constitucional del Gobierno no avanzara en la Cámara Alta . La iniciativa apunta a incorporar el crimen organizado a nivel constitucional , establecer un régimen de segregación penitenciari o según la peligrosidad de las personas privadas de libertad y precisar el alcance del actual estado de emergencia para enfrentar situaciones vinculadas con la seguridad pública. No obstante, la propuesta de los parlamentarios ha generado debate al interior de la propia Comisión. La senadora Paulina Vodanovic, presidenta del Partido Socialista, marcó distancia del texto y aseguró que no participó en su elaboración,  y planteó avanzar en una reforma constitucional acotada específicamente al ámbito carcelario y destacó la necesidad de un nuevo estado de excepción. En ese contexto, el senador Longton planteó que \"este proyecto es distinto a lo presentado por el Gobierno, sin perjuicio de que comparte las ideas desde el punto de vista del ataque al crimen organizado\". Asimismo, apuntó a la parlamentaria socialista: \"Otras senadoras, como la senadora Vodanovic, que presentó una reforma en esa línea el 2024, me parece que compartiendo el mismo objetivo, durante la discusión debería abrir un espacio de acuerdo mucho mayor que el firmar o no firmar \". Por su parte, Araya intentó calmar los ánimos y sostuvo que \"en cuanto a la senadora Vodanovic y Pascual, más que hablar de convencerlas, aquí hay que conversar. Ellas tienen reparos y son legítimos que los planteen \". \"Hemos venido dialogando y ahora con un texto concreto sobre la mesa vamos a tener que entrar a discutir cada una de estas observaciones . Si hay cosas que se pueden corregir o mejorar, habrá que hacerlo. Acá no se trata de darle un cheque en blanco a nadie\", afirmó. Desde la UDI, el senador Javier Macaya instó a que \"si esta fórmula logra construir mayoría y mejorar la seguridad de los chilenos, hay que dejar de lado los dimes y diretes políticos y sacarla adelante, y ojalá buscarla y votarla con la mayor cantidad de votos posible en el Congreso\". El senador Juan Luis Castro (PS) fue mas cauto y planteó sobre la propuesta que \"p rimero hay que verla, porque podemos compartir el objetivo, pero de ahí a cambiar la Constitución de Chile para que otras leyes, como propone esa misma idea, sean las que operativicen esto, la verdad parece una vuelta larga. Entonces, no nos parece en principio\". La nueva reforma de seguridad será presentada la próxima semana en la corporación y el debate se traslada a la búsqueda de un acuerdo más amplio.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/senadores-preparan-propuesta-de-seguridad-tras-reves-en-la-reforma-del/2026-10-03/135752.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261003/imag/foto_0000000220261003135752.jpg",
-            "published_raw": "Sat, 03 Oct 2026 13:57:52 -0300",
-            "published_at": "2026-10-03T13:57:52-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 7,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 2,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 13,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 75.2
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
         "cluster_id": "PML-EVENT-001",
         "title": "Ubilla defiende crítica de Matthei: \"Una cosa es apoyar a un candidato y otra es pensar igual\"",
         "topic": "Instituciones y gobierno",
@@ -889,11 +815,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.4,
+          "score": 54.1,
           "level": "MEDIA",
           "components": {
             "political_impact": 50,
-            "freshness": 100,
+            "freshness": 95,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 34
@@ -944,7 +870,79 @@
             "Estado e instituciones",
             "Elecciones y opinión pública"
           ],
-          "chile_utility": 74.4
+          "chile_utility": 73.1
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-009",
+        "title": "Partido Liberal por \"Yo Elijo Mi PC\": ¿Cómo nadie alertó del impacto político?",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/partido-liberal-por-yo-elijo-mi-pc-como-nadie-alerto-del-impacto/2026-10-05/115441.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 53.8,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 50,
+            "freshness": 95,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-05T11:54:41-0300",
+        "last_seen": "2026-10-05T11:54:41-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Partido Liberal por \"Yo Elijo Mi PC\": ¿Cómo nadie alertó del impacto político?",
+            "description": "El director ejecutivo de Fábrica Chile, centro de pensamiento vinculado al Partido Liberal, Nicolás Freire , cuestionó este lunes en El Primer Café la gestión de riesgos del Gobierno ante la decisión de terminar con el programa \"Yo Elijo Mi PC\", al considerar que el Ejecutivo debió anticipar el impacto político de una medida que generó críticas dentro de sus propias filas. \"Yo creo que no es tan comunicacional el problema en este caso en el Gobierno en lo específico; tiene que ver con gestión de riesgo \", sostuvo. Freire puso el foco en el valor simbólico de la entrega de computadores y en la reacción que provocó entre los sectores que respaldan al Ejecutivo, incluyendo las críticas de diputados de la UDI a los recortes en educación . \"¿Cómo nadie alertó respecto de que esto iba a ser no solo que surgieran críticas de la oposición, que no es de lo que estamos hablando, sino que se desordenara y se desordenara de manera bastante elocuente el propio oficialismo ?\", preguntó. Freire valoró que representantes de Chile Vamos cuestionaran la eliminación del programa y planteó que su aporte debe analizarse considerando las necesidades de acceso digital, especialmente en sectores rurales. \"La interfaz de poder llegar a la inteligencia artificial, de poder conectarte con el mundo, se da a través de un dispositivo\", afirmó. Asimismo, discrepó de que una evaluación negativa deba cerrar la discusión sobre la continuidad de una iniciativa de estas características. \"Revisemos también el instrumento de evaluación, porque ahí sí muchas veces se utilizan instrumentos de evaluación del siglo pasado para ver el alcance de políticas o de programas que en realidad no tienen una trayectoria de medición igual que los demás\", señaló. Ubilla: \"Después falta el relato\" El director del área de Política y Sociedad Civil de Libertad y Desarrollo, Rodrigo Ubilla, cuestionó la comunicación posterior a la presentación del presupuesto , aunque consideró que el Presidente José Antonio Kast estableció adecuadamente sus prioridades generales. \"Creo que el marco está bien planteado por el Presidente, pero lo que pasa es que después falta el relato \", expresó. A su juicio, conocer solamente el cierre de un programa impide comprender qué beneficios se buscan con la reasignación de recursos. \"Creo que aquí faltó algo que yo me imaginé que iba a suceder, que era una especie como de relato sectorial. Es decir, vamos a tener que hacer ajustes en educación, sí, pero los dineros quedan en educación \", planteó. Ubilla pidió que las autoridades expliquen durante la tramitación presupuestaria tanto los costos de las decisiones como las prioridades que se financiarán. El representante de Libertad y Desarrollo añadió que, ante una evaluación negativa, suspender el financiamiento es una opción, pero también cabe explorar alternativas. Arqueros propone rediseñar la estrategia digital El director de formación de la Fundación Jaime Guzmán, Claudio Arqueros, pidió prudencia mientras se conoce el detalle de la propuesta y planteó aprovechar la discusión para revisar las políticas destinadas a reducir las brechas digitales. \" Quizás tenemos aquí una oportunidad para rediseñar la estrategia de brechas digitales\" , sostuvo afirmando que \"debiéramos pensar cómo conectar a la inteligencia artificial, cómo relacionarlos con eso\". Ruz pide claridad sobre el rumbo de la política fiscal El presidente del directorio de Democracia y Comunidad, Luis Ruz, sostuvo que el primer presupuesto elaborado por el Gobierno constituye una declaración política y que la discusión debe considerar los efectos de los ajustes sobre quienes dependen del gasto público. \"El problema que tiene el Gobierno no es solamente hacer un presupuesto consistente, que sea focalizado el gasto, que todos estamos de acuerdo en eso, sino que es decirnos y explicarnos hacia dónde quiere conducir su política fiscal y qué va a hacer en estricto rigor con el presupuesto de la nación \", afirmó. Ruz también llamó a considerar las dificultades de acceso a equipamiento tecnológico en zonas alejadas y advirtió que los recortes deben evaluarse en función de sus consecuencias sobre la inversión y el empleo. Su preocupación, sostuvo, es que el presupuesto \"no se transforme finalmente en un retroceso, como ya lo estamos viendo, y que lo terminan pagando aquellos que dependen precisamente del gasto y la inversión pública\". La controversia también llevó a que diputados de oposición, desde el PC hasta el PDG, solicitaran al Gobierno dejar sin efecto el fin de \"Yo Elijo Mi PC\" .",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/partido-liberal-por-yo-elijo-mi-pc-como-nadie-alerto-del-impacto/2026-10-05/115441.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000001420261005115441.jpg",
+            "published_raw": "Mon, 05 Oct 2026 11:54:41 -0300",
+            "published_at": "2026-10-05T11:54:41-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 3,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 3,
+            "score_ideology": 1,
+            "score_actor": 5,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 12,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-009"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 19,
+          "labels": [
+            "Estado e instituciones",
+            "Elecciones y opinión pública"
+          ],
+          "chile_utility": 72.8
         },
         "repeated_in_general_top5": false
       }
@@ -953,33 +951,33 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 23,
+      "event_count": 24,
       "maximum_relevance": 77.2,
       "leading_story": "Resultados de las elecciones en Brasil, en vivo| La Bolsa de São Paulo y el real reciben con subidas la victoria parcial de Bolsonaro"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 12,
-      "maximum_relevance": 66.5,
+      "event_count": 11,
+      "maximum_relevance": 65.2,
       "leading_story": "¿Qué es real y qué es falso? el uso de la IA en las elecciones brasileñas"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 2,
+      "maximum_relevance": 62.8,
+      "leading_story": "Francia encara una nueva semana de protestas estudiantiles, las mayores en décadas"
+    },
+    {
+      "topic": "Ideología y competencia política",
+      "event_count": 2,
+      "maximum_relevance": 57,
+      "leading_story": "Paraguay, refugio fiscal y político para la extrema derecha brasileña"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
       "maximum_relevance": 52.9,
       "leading_story": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua"
-    },
-    {
-      "topic": "Ideología y competencia política",
-      "event_count": 1,
-      "maximum_relevance": 51,
-      "leading_story": "Michelle, la esposa de Bolsonaro padre, encabeza el desembarco de la derecha conservadora en el Senado"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 1,
-      "maximum_relevance": 43.2,
-      "leading_story": "Eduardo Frei defendió la adhesión de Chile al \"Escudo de las Américas\""
     }
   ],
   "changes_since_yesterday": {
