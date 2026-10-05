@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T05:58:40+0000",
-  "tse_generated_at": "05/10/2026 01:56:51",
+  "generated_at": "2026-10-05T06:26:48+0000",
+  "tse_generated_at": "05/10/2026 02:59:31",
   "source": "Tribunal Superior Eleitoral (TSE)",
   "election": "Brasil 2026 · Presidente · 1ª vuelta",
   "election_code": 6257,
@@ -8,16 +8,16 @@
   "status": "partial",
   "final_totalization": false,
   "mathematically_defined": "s",
-  "processed_pct": 99.99,
-  "valid_votes": 119300430,
-  "total_votes": 125275476,
+  "processed_pct": 100,
+  "valid_votes": 119300788,
+  "total_votes": 125275835,
   "candidates": [
     {
       "number": 22,
       "name": "FLAVIO BOLSONARO",
       "full_name": "FLAVIO NANTES BOLSONARO",
       "party": "PL",
-      "votes": 56104500,
+      "votes": 56104503,
       "pct": 47.03,
       "status": "",
       "elected": false
@@ -27,7 +27,7 @@
       "name": "LULA",
       "full_name": "LUIZ INÁCIO LULA DA SILVA",
       "party": "PT",
-      "votes": 53879187,
+      "votes": 53879538,
       "pct": 45.16,
       "status": "",
       "elected": false
@@ -47,7 +47,7 @@
       "name": "RENAN SANTOS",
       "full_name": "RENAN ANTONIO FERREIRA DOS SANTOS",
       "party": "MISSÃO",
-      "votes": 2675886,
+      "votes": 2675887,
       "pct": 2.24,
       "status": "",
       "elected": false
@@ -57,7 +57,7 @@
       "name": "RONALDO CAIADO",
       "full_name": "RONALDO RAMOS CAIADO",
       "party": "PSD",
-      "votes": 2605145,
+      "votes": 2605148,
       "pct": 2.18,
       "status": "",
       "elected": false
