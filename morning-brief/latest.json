@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-10-04",
-    "data_latest_timestamp": "2026-10-04T23:54:23-0300",
-    "data_age_hours": 0.4,
-    "generated_at": "2026-10-05T00:17:11-0300",
+    "date": "2026-10-05",
+    "data_latest_timestamp": "2026-10-05T01:08:10-0300",
+    "data_age_hours": 2.3,
+    "generated_at": "2026-10-05T03:24:04-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 42 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
     "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 42,
+    "ranked_events": 39,
     "topics": 3,
     "geographies": 2,
     "representative_sources": 3,
     "average_top5_relevance": 65.8,
-    "maximum_relevance": 78.2
+    "maximum_relevance": 78.4
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-021",
+      "cluster_id": "PML-EVENT-019",
       "title": "Bolsonaro vence a Lula en primera vuelta de las elecciones y acaricia el retorno de la ultraderecha al poder en Brasil",
       "url": "https://elpais.com/america/2026-10-05/bolsonaro-vence-a-lula-en-primera-vuelta-y-acaricia-el-retorno-de-la-ultraderecha-al-poder-en-brasil.html",
       "representative_source": "EL PAÍS",
@@ -40,40 +40,43 @@
       "event_type": "ELECTORAL_EVENT",
       "geography": {
         "group": "América Latina",
-        "country": "Brasil / América Latina / No identificado"
+        "country": "No identificado / América Latina / Brasil"
       },
       "relevance": {
-        "score": 78.2,
+        "score": 78.4,
         "level": "ALTA",
-        "editorial_utility": 82.2
+        "editorial_utility": 82.4
       },
       "selection": {
-        "reason": "PML 78.2; multifuente",
+        "reason": "PML 78.4; multifuente",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 7,
+        "article_count": 9,
         "source_count": 2,
         "sources": [
-          "France 24",
-          "EL PAÍS"
+          "EL PAÍS",
+          "France 24"
         ]
       },
       "first_seen": "2026-10-01T13:14:24-0300",
-      "last_seen": "2026-10-04T23:54:23-0300",
+      "last_seen": "2026-10-05T01:08:10-0300",
       "entities": [
-        "bolsonaro",
         "lula",
+        "bolsonaro",
         "brasil",
         "iran",
         "trump"
       ],
-      "event_terms": "medicos",
+      "event_terms": [
+        "eleccion",
+        "medicos"
+      ],
       "analysis": {
-        "summary": "El senador de extrema derecha Flávio Bolsonaro y el mandatario de izquierdas Luiz Inácio Lula da Silva irán a una segunda vuelta en las elecciones presidenciales de Brasil, según los resultados de los comicios de este domingo 4 de octubre, con casi el 100% escrutado.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina / No identificado.",
+        "summary": "El senador Flávio Bolsonaro, de 45 años, ha ganado la primera vuelta de las elecciones presidenciales de Brasil con el 47,1% de los votos válidos, frente al 45% del presidente Luiz Inácio Lula da Silva, de 80 años",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / América Latina / Brasil.",
         "watch_next": [
           "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
           "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
@@ -82,6 +85,34 @@
         "status": "ready"
       },
       "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Videoanálisis | Lula se enfrenta a una segunda vuelta electoral muy complicada",
+          "description": "El senador Flávio Bolsonaro, de 45 años, ha ganado la primera vuelta de las elecciones presidenciales de Brasil con el 47,1% de los votos válidos, frente al 45% del presidente Luiz Inácio Lula da Silva, de 80 años",
+          "url": "https://elpais.com/america/2026-10-05/videoanalisis-lula-se-enfrenta-a-una-segunda-vuelta-electoral-muy-complicada.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/HAIAYJEB3FE4DDS5F7WFNXG4ZA.jpg?auth=ba561a4a2ef7d2da6c81c7c71af2fa59ca9a8539cd95bd8543c6d6a1a24e8c6d",
+          "published_raw": "Mon, 05 Oct 2026 04:08:10 GMT",
+          "published_at": "2026-10-05T01:08:10-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 3,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 6,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-019"
+        },
         {
           "source_id": "france24_latam",
           "source": "France 24",
@@ -108,12 +139,12 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-019"
         },
         {
           "source_id": "france24_latam",
           "source": "France 24",
-          "title": "En directo| Lula ante el balotaje: \"Es un resultado inesperado\"; Bolsonaro afirma que \"Brasil quiere cambio\"",
+          "title": "Lula tras la primera vuelta: \"Es un resultado inesperado\"; Bolsonaro defiende que \"Brasil quiere cambio\"",
           "description": "El presidente Luiz Inácio Lula da Silva habló este domingo 4 de octubre ante sus seguidores después de que los resultados de los comicios presidenciales confirmaran que deberá disputar el balotaje del 25 de octubre con el ultraderechista Flávio Bolsonaro. Lula advirtió que el senador de extrema derecha solo representa \"incertidumbre\". Por su parte, Bolsonaro emitió una declaración breve en la que afirmó: \"Brasil quiere cambio\".",
           "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261004-en-directo-elecciones-en-brasil-comienza-la-votaci%C3%B3n-para-elegir-presidente",
           "image_url": "https://s.france24.com/media/display/7f4df2a0-c05f-11f1-ac5b-13420ab900a2/w:1024/p:16x9/WhatsApp-Image-2026-10-04-at-18-04-19.jpeg",
@@ -136,7 +167,35 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-019"
+        },
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Flávio Bolsonaro tritura las encuestas: una ventaja pequeña, pero un escenario cuesta arriba para Lula",
+          "description": "Brasil quedó inclinado hacia la tendencia de retorno a la derecha que sacude a América Latina, luego de que el senador e hijo del expresidente Jair Bolsonaro aventajara por casi dos puntos al izquierdista Luiz Inácio Lula da Silva en la primera vuelta de las elecciones. Lula ha reconocido el resultado como “inesperado” y promete que desde ahora empieza “una nueva campaña”, pero el margen de maniobra de Bolsonaro para sumar a través de alianzas e impulsarse sobre el arrase de la derecha es mucho mayor.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261005-fl%C3%A1vio-bolsonaro-tritura-las-encuestas-una-ventaja-peque%C3%B1a-pero-un-escenario-cuesta-arriba-para-lula",
+          "image_url": "https://s.france24.com/media/display/dd86b1bc-c06f-11f1-895a-13420ab900a2/w:1024/p:16x9/367a2e7e8c45b7aad98eb7662c5e00faf17b3d39w.jpg",
+          "published_raw": "Mon, 05 Oct 2026 03:41:44 GMT",
+          "published_at": "2026-10-05T00:41:44-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-019"
         },
         {
           "source_id": "france24_latam",
@@ -164,7 +223,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-019"
         },
         {
           "source_id": "france24_latam",
@@ -192,7 +251,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-019"
         },
         {
           "source_id": "elpais_america",
@@ -200,7 +259,7 @@
           "title": "Bolsonaro vence a Lula en primera vuelta de las elecciones y acaricia el retorno de la ultraderecha al poder en Brasil",
           "description": "El senador, hijo del expresidente condenado por golpismo, logra el 47,1% de los votos frente al 45% del mandatario izquierdista. Ambos se medirán en la segunda vuelta del 25 de octubre",
           "url": "https://elpais.com/america/2026-10-05/bolsonaro-vence-a-lula-en-primera-vuelta-y-acaricia-el-retorno-de-la-ultraderecha-al-poder-en-brasil.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/OWXE6725MNBILOXUXEJ2Y4SRRA.JPG?auth=022871af5cbf3cce3157a28107fd2319b70b2b78c662cf55aedb8f1dcfb3fe9d",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/N7UGE6VN5ND5DMJ5JIAKJKMZVE.jpg?auth=3d00c405c09bd8cdb534cbd7987747e58f5ac6aba8d139b216930c7fb145136b",
           "published_raw": "Mon, 05 Oct 2026 02:54:23 GMT",
           "published_at": "2026-10-04T23:54:23-0300",
           "country": "No identificado",
@@ -220,7 +279,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-019"
         },
         {
           "source_id": "france24_latam",
@@ -248,7 +307,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-019"
         },
         {
           "source_id": "france24_latam",
@@ -276,7 +335,7 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     },
@@ -434,7 +493,7 @@
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-028",
+      "cluster_id": "PML-EVENT-029",
       "title": "Lula admite que el resultado electoral es “inesperado” y ataca a Bolsonaro por sus lazos con el crimen",
       "url": "https://elpais.com/america/2026-10-05/lula-califica-de-inesperado-el-resultado-electoral-y-ataca-a-flavio-por-sus-lazos-con-el-crimen.html",
       "representative_source": "EL PAÍS",
@@ -504,13 +563,13 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
+          "cluster_id": "PML-EVENT-029"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-032",
+      "cluster_id": "PML-EVENT-031",
       "title": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261003-la-oea-reclama-elecciones-libres-y-la-excarcelaci%C3%B3n-de-presos-pol%C3%ADticos-en-nicaragua",
       "representative_source": "France 24",
@@ -580,7 +639,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-032"
+          "cluster_id": "PML-EVENT-031"
         }
       ]
     }
@@ -665,75 +724,6 @@
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-022",
-        "title": "Matthei: Dejar a miles de niños sin computadores es una decisión que no se entiende",
-        "topic": "Elecciones y opinión pública",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/educacion/beneficios/matthei-dejar-a-miles-de-ninos-sin-computadores-es-una-decision-que-no/2026-10-03/185822.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 46.4,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 51,
-            "freshness": 62,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 36
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-03T18:58:22-0300",
-        "last_seen": "2026-10-03T18:58:22-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Matthei: Dejar a miles de niños sin computadores es una decisión que no se entiende",
-            "description": "La excandidata presidencial Evelyn Matthei criticó este sábado la decisión del Gobierno de José Antonio Kast de no asignar recursos para las becas TIC de Junaeb en el proyecto de Presupuesto 2027 , iniciativa que agrupa programas como \"Yo elijo mi PC\" y beneficia a estudiantes y familiares vulnerables. \" Dejar a miles de niños sin sus computadores es una decisión que simplemente no se entiende. Y son ellos quienes terminan pagando las malas decisiones del Gobierno\", señaló la militante de la UDI mediante redes sociales en reacción a la polémica decisión del Ejecutivo. Matthei publicó un video en el que sostuvo: \"Van a decir que arremeto contra el Gobierno porque estoy picada, porque perdí. Ustedes ya lo conocen. (Pero) la verdad es que durante la campaña dije muchas veces que era imposible cortar la cantidad de dinero fiscal que querían cortar sin afectar gravemente el gasto social \". En esa línea, mostró un extracto de uno de los debates presidenciales en el que interpeló al entonces candidato Kast sobre si su propuesta de reducción fiscal implicaría recortar beneficios sociales. Sin exponer la respuesta del ahora Mandatario, Matthei vinculó la discusión con la decisión adoptada por el Ejecutivo. Ver esta publicación en Instagram Una publicación compartida por Evelyn Matthei (@evelynmatthei) \"Ahora lo estamos viendo con la eliminación de un programa, 'Yo Elijo Mi PC', que beneficia a niños y a familias vulnerables. Soy economista, sabía que esto iba a suceder y lo dije claro y fuerte durante la campaña \", sostuvo. La otrora alcaldesa de Providencia escribió en la red social que la decisión le \"duele por los chilenos\" e insistió: \"Siempre lo dije, era imposible recortar US$6 mil millones sin afectar el gasto social y, finalmente, a las familias que más lo necesitan\". \"Dejar a miles de niños sin sus computadores es una decisión que simplemente no se entiende. Y son ellos quienes terminan pagando las malas decisiones del Gobierno \", concluyó.",
-            "url": "https://www.cooperativa.cl/noticias/pais/educacion/beneficios/matthei-dejar-a-miles-de-ninos-sin-computadores-es-una-decision-que-no/2026-10-03/185822.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261003/imag/foto_0000000220261003185822.jpg",
-            "published_raw": "Sat, 03 Oct 2026 18:58:22 -0300",
-            "published_at": "2026-10-03T18:58:22-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 1,
-            "score_elections": 2,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 1,
-            "score_ideology": 0,
-            "score_actor": 1,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 5,
-            "primary_topic": "Elecciones y opinión pública",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-022"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 10,
-          "labels": "Elecciones y opinión pública",
-          "chile_utility": 56.4
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
         "cluster_id": "PML-EVENT-003",
         "title": "Eduardo Frei defendió la adhesión de Chile al \"Escudo de las Américas\"",
         "topic": "Conflictos y seguridad",
@@ -800,6 +790,78 @@
           "chile_utility": 53.2
         },
         "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-013",
+        "title": "Encuesta Criteria: Desaprobación a la gestión del Presidente Kast llegó al 60%",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/encuesta-criteria-desaprobacion-a-la-gestion-del-presidente-kast-llego/2026-10-04/180011.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 56,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 56,
+            "freshness": 88,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-04T18:00:11-0300",
+        "last_seen": "2026-10-04T18:00:11-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Encuesta Criteria: Desaprobación a la gestión del Presidente Kast llegó al 60%",
+            "description": "La desaprobación a la gestión del Presidente José Antonio Kast escaló al 60% , registrando un incremento de dos puntos porcentuales en comparación con la medición anterior, mientras que su respaldo ciudadano descendió un punto para ubicarse en 30% , según arrojó la más reciente edición de la encuesta Criteria . El estudio constató un deterioro en el balance que la ciudadanía hace sobre la marcha material del país . Actualmente, apenas un 8% percibe una mejoría respecto del semestre previo , mientras que un mayoritario 62% afirma que la situación económica \"la ve peor\" , marcando un salto de trece puntos porcentuales en relación con el registro de agosto. La mirada hacia adelante tampoco ofrece señales de optimismo para La Moneda . De acuerdo con los datos, solo un 23% proyecta que el país mejorará dentro del próximo semestre , frente a un 49% que \"cree que empeorará\" , reflejando un aumento de seis puntos en las expectativas desfavorables. Este cuadro adverso se traduce en una extendida crítica hacia la capacidad de gestión técnica del oficialismo, evidenciando que \" se mantiene la incredulidad en los planes sectoriales \". La desaprobación a la gestión del Mandatario subió dos puntos, mientras que su respaldo ciudadano cayó al 30%. (FOTO: ATON) Al evaluar el crecimiento económico, un 45% sostiene que \"el gobierno improvisa\" y apenas un 21% advierte un \"plan claro\" ; idéntico resultado se repite en materia de generación de empleo, donde un 45% percibe improvisación contra solo un 21% que ve una ruta definida. A raíz de este escenario, el sondeo advierte que \"el clima emocional frente a 2026 se deteriora\". Los indicadores anímicos muestran que \"la esperanza cae a 29%\" -con un retroceso de siete puntos- , al tiempo que el sentimiento de \"tristeza aumenta a 23%\" , sumando seis puntos adicionales en el estado de ánimo colectivo. Crece el reparo al \"Escudo de las Américas\" y respaldo a carta de expresidentes En el plano internacional y de seguridad, la discusión sobre la política exterior chilena ganó un protagonismo masivo, elevando a 75% el nivel de conocimiento sobre l a incorporación del país al \"Escudo de las Américas\" , frente al 67% reportado la semana previa. Sin embargo, a mayor notoriedad, los reparos ciudadanos se incrementaron. Entre el grupo de personas que declara estar al tanto de la iniciativa, el apoyo retrocedió seis puntos para situarse en 31%, mientras que  el rechazo sube a 47% , anotando un alza de cinco puntos en las posturas desfavorables al pacto . El rechazo a la adhesión chilena al \"Escudo de las Américas\" creció al 47%, con una mayoría que respalda la carta de los expresidentes Bachelet y Boric. (FOTO: ATON) El debate coincide con la reciente intervención de los exmandatarios de centroizquierda. En este punto, la medición reveló que \" un 41% está de acuerdo con la carta de los expresidentes Bachelet y Boric pidiendo reconsiderar esta adhesión \", superando al 31% que se manifestó en desacuerdo con la advertencia planteada por los antiguos jefes de Estado.",
+            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/encuesta-criteria-desaprobacion-a-la-gestion-del-presidente-kast-llego/2026-10-04/180011.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261004/imag/foto_0000000420261004180011.png",
+            "published_raw": "Sun, 04 Oct 2026 18:00:11 -0300",
+            "published_at": "2026-10-04T18:00:11-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 2,
+            "score_elections": 2,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 1,
+            "score_ideology": 1,
+            "score_actor": 2,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 9,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-013"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 19,
+          "labels": [
+            "Estado e instituciones",
+            "Elecciones y opinión pública"
+          ],
+          "chile_utility": 75
+        },
+        "repeated_in_general_top5": false
       }
     ]
   },
@@ -807,20 +869,20 @@
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 13,
-      "maximum_relevance": 78.2,
+      "maximum_relevance": 78.4,
       "leading_story": "Bolsonaro vence a Lula en primera vuelta de las elecciones y acaricia el retorno de la ultraderecha al poder en Brasil"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 23,
+      "event_count": 22,
       "maximum_relevance": 67.4,
       "leading_story": "El bolsonarismo se refuerza en el Senado de Brasil y pone al Supremo en la mira"
     },
     {
       "topic": "Ideología y competencia política",
-      "event_count": 3,
-      "maximum_relevance": 56,
-      "leading_story": "Michelle, la esposa de Bolsonaro padre, encabeza el desembarco de la derecha conservadora en el Senado"
+      "event_count": 2,
+      "maximum_relevance": 57.2,
+      "leading_story": "Brasil: la derecha de Bolsonaro se fortalece en las regiones, con un triunfo holgado en São Paulo"
     },
     {
       "topic": "Relaciones internacionales",
@@ -830,14 +892,18 @@
     },
     {
       "topic": "Conflictos y seguridad",
-      "event_count": 2,
+      "event_count": 1,
       "maximum_relevance": 46.2,
       "leading_story": "Eduardo Frei defendió la adhesión de Chile al \"Escudo de las Américas\""
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-019", "PML-EVENT-029", "PML-EVENT-031"],
+      "exited_top5": ["PML-EVENT-021", "PML-EVENT-028", "PML-EVENT-032"],
+      "retained_top5": ["PML-EVENT-012", "PML-EVENT-005"]
+    }
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
