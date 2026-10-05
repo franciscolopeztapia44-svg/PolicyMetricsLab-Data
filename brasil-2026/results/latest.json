@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T02:58:15+0000",
-  "tse_generated_at": "04/10/2026 23:55:37",
+  "generated_at": "2026-10-05T03:18:59+0000",
+  "tse_generated_at": "05/10/2026 00:11:37",
   "source": "Tribunal Superior Eleitoral (TSE)",
   "election": "Brasil 2026 · Presidente · 1ª vuelta",
   "election_code": 6257,
@@ -9,15 +9,15 @@
   "final_totalization": false,
   "mathematically_defined": "s",
   "processed_pct": 99.99,
-  "valid_votes": 119297226,
-  "total_votes": 125272151,
+  "valid_votes": 119297583,
+  "total_votes": 125272513,
   "candidates": [
     {
       "number": 22,
       "name": "FLAVIO BOLSONARO",
       "full_name": "FLAVIO NANTES BOLSONARO",
       "party": "PL",
-      "votes": 56104103,
+      "votes": 56104268,
       "pct": 47.03,
       "status": "",
       "elected": false
@@ -27,7 +27,7 @@
       "name": "LULA",
       "full_name": "LUIZ INÁCIO LULA DA SILVA",
       "party": "PT",
-      "votes": 53876434,
+      "votes": 53876617,
       "pct": 45.16,
       "status": "",
       "elected": false
@@ -37,7 +37,7 @@
       "name": "ESCRITOR AUGUSTO CURY",
       "full_name": "AUGUSTO JORGE CURY",
       "party": "AVANTE",
-      "votes": 3448549,
+      "votes": 3448551,
       "pct": 2.89,
       "status": "",
       "elected": false
@@ -57,7 +57,7 @@
       "name": "RONALDO CAIADO",
       "full_name": "RONALDO RAMOS CAIADO",
       "party": "PSD",
-      "votes": 2605122,
+      "votes": 2605128,
       "pct": 2.18,
       "status": "",
       "elected": false
@@ -117,7 +117,7 @@
       "name": "VETERINÁRIO WILSON GRASSI",
       "full_name": "WILSON GRASSI JUNIOR",
       "party": "DEMOCRATA",
-      "votes": 16880,
+      "votes": 16881,
       "pct": 0.01,
       "status": "",
       "elected": false
