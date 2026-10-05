@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-05",
-    "data_latest_timestamp": "2026-10-05T01:08:10-0300",
-    "data_age_hours": 2.3,
-    "generated_at": "2026-10-05T03:24:04-0300",
+    "data_latest_timestamp": "2026-10-05T07:16:05-0300",
+    "data_age_hours": 2.1,
+    "generated_at": "2026-10-05T09:20:52-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,18 +16,18 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 41 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
     "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 39,
+    "ranked_events": 41,
     "topics": 3,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 65.8,
-    "maximum_relevance": 78.4
+    "average_top5_relevance": 63.6,
+    "maximum_relevance": 75.4
   },
   "top_stories": [
     {
@@ -43,12 +43,12 @@
         "country": "No identificado / América Latina / Brasil"
       },
       "relevance": {
-        "score": 78.4,
+        "score": 75.4,
         "level": "ALTA",
-        "editorial_utility": 82.4
+        "editorial_utility": 79.4
       },
       "selection": {
-        "reason": "PML 78.4; multifuente",
+        "reason": "PML 75.4; multifuente",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -352,12 +352,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 67.4,
+        "score": 64.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 79.4
+        "editorial_utility": 76.4
       },
       "selection": {
-        "reason": "PML 67.4; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 64.4; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -431,12 +431,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 65.2,
+        "score": 63.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 63.2
+        "editorial_utility": 61.2
       },
       "selection": {
-        "reason": "PML 65.2; nuevo tipo de evento",
+        "reason": "PML 63.2; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -493,7 +493,7 @@
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-029",
+      "cluster_id": "PML-EVENT-030",
       "title": "Lula admite que el resultado electoral es “inesperado” y ataca a Bolsonaro por sus lazos con el crimen",
       "url": "https://elpais.com/america/2026-10-05/lula-califica-de-inesperado-el-resultado-electoral-y-ataca-a-flavio-por-sus-lazos-con-el-crimen.html",
       "representative_source": "EL PAÍS",
@@ -504,12 +504,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 65.1,
+        "score": 62.1,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 63.1
+        "editorial_utility": 60.1
       },
       "selection": {
-        "reason": "PML 65.1; nuevo tipo de evento",
+        "reason": "PML 62.1; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -563,7 +563,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
+          "cluster_id": "PML-EVENT-030"
         }
       ]
     },
@@ -663,11 +663,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 56.2,
+          "score": 53.2,
           "level": "MEDIA",
           "components": {
             "political_impact": 90,
-            "freshness": 52,
+            "freshness": 40,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 42
@@ -718,81 +718,12 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 78.2
+          "chile_utility": 75.2
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-003",
-        "title": "Eduardo Frei defendió la adhesión de Chile al \"Escudo de las Américas\"",
-        "topic": "Conflictos y seguridad",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/eduardo-frei/eduardo-frei-defendio-la-adhesion-de-chile-al-escudo-de-las-americas/2026-10-03/145244.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 46.2,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 52,
-            "freshness": 52,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 34
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-03T14:52:44-0300",
-        "last_seen": "2026-10-03T14:52:44-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Eduardo Frei defendió la adhesión de Chile al \"Escudo de las Américas\"",
-            "description": "El expresidente Eduardo Frei Ruiz-Tagle salió en defensa de la bullada adhesión de Chile al \"Escudo de las Américas\" , afirmando que la coordinación transnacional es el único camino viable para desarticular las redes delictuales de alcance regional . A través de una carta publicada este sábado en el diario El Mercurio , el exgobernante valoró la decisión del Gobierno del Presidente José Antonio Kast y aseguró que \" ninguna nación , y Chile no es una excepción , puede responder actualmente de manera aislada ante las organizaciones delictuales que actúan a escala regional \". \" La cooperación en ese ámbito más amplio que el nacional es indispensable para proteger a los ciudadanos , las comunidades y las familias \", puntualizó el otrora jefe de Estado, que también destacó la entrada al mecanismo y los beneficios que traerá la medida para las instituciones policiales y el sistema judicial chileno. En su análisis, Frei indicó que \"la adhesión de Chile al 'Escudo de las Américas' fortalece la respuesta del Estado frente al crimen organizado y el narcotráfico . Integrarse a este mecanismo voluntario abre oportunidades concretas: compartir información oportuna , mejorar el análisis de datos , capacitar a Carabineros y a la Policía de Investigaciones , y profundizar la coordinación fronteriza \". La exautoridad llamó a dejar atrás los sesgos políticos que traben la colaboración hemisférica. (FOTO: ATON) \"Estas herramientas permitirán identificar rutas, seguir flujos financieros, desarticular cadenas logísticas y llevar ante la justicia a quienes dirigen y financian las bandas criminales \", añadió la exautoridad. Asimismo, aseguró en el escrito que la defensa del país es inseparable de la articulación con los países vecinos . \"Actuar unidos implica reconocer que la seguridad de Chile depende también de la capacidad regional para cerrar espacios al delito. Si la información no llega a tiempo ni se comparte, la respuesta queda incompleta. La coordinación debe integrar prevención , inteligencia , investigación criminal , control fronterizo , persecución patrimonial y cooperación judicial \", puntualizó la otrora autoridad. Superar el diagnóstico errado y la amenaza criminal Al justificar el paso dado por el país, Eduardo Frei dio cuenta que \"Chile no debe escatimar esfuerzos para alcanzar este objetivo \", por lo que \"se requieren capacidades técnicas, personal especializado, mecanismos ágiles de colaboración y una evaluación rigurosa de las políticas aplicadas\". Según precisó, \" la experiencia de otros países permite adoptar buenas prácticas y tecnologías probadas, además de evitar errores costosos . Estos aprendizajes deben adaptarse a nuestra realidad, con pleno respeto de la Constitución, las leyes, los derechos fundamentales y la soberanía nacional\". El exmandatario afirmó que la incorporación a este grupo internacional fortalece la respuesta del Estado frente al crimen organizado y el narcotráfico\". (FOTO: ATON) Acto seguido, el exmandatario remarcó que \"durante años se creyó que Chile estaba a salvo del narcotráfico y del crimen organizado. La realidad demostró lo errado de ese diagnóstico: ambos flagelos se instalaron en el país sin que lo advirtiéramos oportunamente . ¿Cuántas muertes más de nuestros policías debemos esperar? ¿Cuántos alcaldes más deben ser amenazados? ¿Cuántos secuestros más vamos a tolerar?\". Rechazo a las trabas ideológicas en materia de seguridad Frente a los cuestionamientos y reparos surgidos contra el acuerdo, el expresidente fue tajante en demandar pragmatismo y unidad regional, argumentando que las discrepancias políticas no deben entorpecer el resguardo ciudadano . \"Chile no puede resolver por sí solo un problema transnacional. Debe aprovechar la experiencia y las capacidades de otros países frente a organizaciones que operan en toda América Latina . Juntos somos más fuertes. No permitamos que prejuicios o consideraciones ideológicas paralicen una respuesta firme y coordinada\", recalcó en su misiva. Frei enfatizó en su misiva que \"no permitamos que prejuicios o consideraciones ideológicas paralicen una respuesta firme y coordinada\". (FOTO: ATON) Para concluir, Frei puntualizó que \"la ciudadanía exige acciones claras y contundentes frente a quienes le han arrebatado el derecho a vivir en paz . La acción conjunta de los países de la región ampliará la persecución penal y enviará una señal inequívoca: ningún territorio será refugio seguro para quienes trafican drogas, lavan dinero, extorsionan o corrompen\". \" El 'Escudo de las Américas' es una herramienta concreta para enfrentar, en forma unida y sostenida , una amenaza compartida . Es el primer intento concreto de cooperación regional para combatir el crimen organizado y el narcotráfico. Chile no puede quedarse al margen\", cerró el expresidente. Reacciones desde el Congreso \"Cómo se nota cuando una persona es de Estado\", valoró el presidente de la Comisión de Relaciones Exteriores de la Cámara, Stephan Schubert  (Republicanos), y en alusión al rechazo a la iniciativa de los expresidentes Michelle Bachelet y Gabriel Boric , remarcó que \" las críticas se deben hacer en privado , en particular cuando estamos hablando de relaciones exteriores e intereses nacionales\". Con todo, para el oficialista, \" hay una clara diferencia entre quien tiene una mirada de Estado , y vela por aportar al país, y quienes son parte de una izquierda que lo único que quiere es destruir y que no haya sana convivencia; que no hace las críticas por los canales apropiados, y no critica duramente cuando hay hechos de violencia mezclados con reclamos\". Desde la misma comisión parlamentaria, el diputado socialista Nelson Venegas  ironizó que \"el Presidente Frei estaría totalmente en contra de lo que señala el Frei actual\" . En cuanto al fondo de su misiva, el opositor aseveró que el exmandatario \" falta a la verdad cuando señala que el Escudo de las Américas solo tiene por objeto cuestiones de seguridad , porque todos los informes, incluyendo los que vienen desde EE.UU. y los que se entregarán por parte del Ejecutivo, señalan que también dice relación con temas económicos y de subordinación militar \".",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/eduardo-frei/eduardo-frei-defendio-la-adhesion-de-chile-al-escudo-de-las-americas/2026-10-03/145244.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261003/imag/foto_0000000520261003145244.png",
-            "published_raw": "Sat, 03 Oct 2026 14:52:44 -0300",
-            "published_at": "2026-10-03T14:52:44-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 5,
-            "score_elections": 0,
-            "score_international": 1,
-            "score_conflict": 6,
-            "score_policy": 0,
-            "score_ideology": 2,
-            "score_actor": 2,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 16,
-            "primary_topic": "Conflictos y seguridad",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 7,
-          "labels": "Seguridad y Estado",
-          "chile_utility": 53.2
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
         "cluster_id": "PML-EVENT-013",
         "title": "Encuesta Criteria: Desaprobación a la gestión del Presidente Kast llegó al 60%",
         "topic": "Instituciones y gobierno",
@@ -804,11 +735,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 56,
+          "score": 54,
           "level": "MEDIA",
           "components": {
             "political_impact": 56,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 30
@@ -859,7 +790,79 @@
             "Estado e instituciones",
             "Elecciones y opinión pública"
           ],
-          "chile_utility": 75
+          "chile_utility": 73
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-015",
+        "title": "TC dio luz verde a la Ley de Reconstrucción pero tumbó normas clave",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/tc-dio-luz-verde-a-la-ley-de-reconstruccion-pero-tumbo-normas-clave/2026-10-02/161955.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 45.2,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 79,
+            "freshness": 25,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 32
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-02T16:19:55-0300",
+        "last_seen": "2026-10-02T16:19:55-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "TC dio luz verde a la Ley de Reconstrucción pero tumbó normas clave",
+            "description": "Tras dos meses de revisión judicial luego de ser despachada por el Congreso, el Tribunal Constitucional (TC) dejó este viernes lista para su promulgación la Ley de Reconstrucción Nacional y Desarrollo Económico y Social , pero asestó un revés al Gobierno al desestimar tres artículos determinantes. En detalle, se anularon las indemnizaciones a empresas frente a resoluciones ambientales revocadas , descartó la exigencia a las municipalidades de reducir en al menos 30% los tiempos de trámites para acceder a compensaciones fiscales por la exención de contribuciones, y eliminó la facultad que permitía a los municipios más ricos retener ingresos sin derivarlos al Fondo Común Municipal . El pronunciamiento del tribunal marca el cierre del control preventivo de la ley y define el marco legal bajo el cual entrará en vigor , dejando fuera del ordenamiento varios de los puntos que habían generado mayor resistencia técnica y política . Fin de las indemnizaciones por permisos ambientales anulados La primera traba eliminada por el TC correspondía al artículo número 12 del proyecto, el cual facultaba a las empresas a recurrir ante la Corte de Apelaciones de Santiago para reclamar montos de indemnización cuando una Resolución de Calificación Ambiental (RCA) fuese anulada . Gran parte de este mecanismo ya había perdido viabilidad jurídica tras los requerimientos ingresados previamente por sectores de la oposición. Desde el Ministerio de Hacienda explicaron que lo que aún subsistía de dicha disposición terminó por ser desestimado por el tribunal , cerrando la vía indemnizatoria prevista en este cuerpo legal. Freno a exigencias administrativas y resguardo al Fondo Común Municipal Las objeciones de mayor impacto se concentraron en las compensaciones a los gobiernos locales a raíz de la merma en la recaudación por la exención de contribuciones . El artículo 32 del proyecto buscaba condicionar la entrega de dichos recursos fiscales a que las administraciones municipales agilizaran sus gestiones internas, imponiendo una rebaja obligatoria de al menos 30% en los tiempos de tramitación de permisos . Frente a esta fórmula, el Tribunal Constitucional determinó que tales condiciones resultaban \" incompatibles con el carácter solidario del sistema municipal y del Fondo Común Municipal \", invalidando la exigencia administrativa. Asimismo, la magistratura constitucional frenó un beneficio transitorio que favorecía directamente a las comunas de más altos ingresos del país. La disposición, contenida en el inciso sexto del artículo 17 transitorio, facultaba a determinados municipios a retener caudales sin aportarlos al Fondo Común Municipal durante el 2027 y 2028 . Al revisar este mecanismo, el TC concluyó taxativamente que la excepción \"vulneraba el principio constitucional de redistribución solidaria \", por lo que fue excluida en su totalidad de la versión final de la ley. La Moneda alista la fecha para la promulgación Con la resolución notificada, el balance general evidencia que la ley quedó en condiciones de entrar en régimen sin los incentivos indemnizatorios a proyectos de inversión ni las modificaciones al sistema solidario de financiamiento comunal que pretendía el Ejecutivo. En el Palacio de La Moneda ya se analiza el contenido del fallo y se trabaja en la fijación del cronograma oficial para la firma y promulgación definitiva de la nueva Ley de Reconstrucción.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/tc-dio-luz-verde-a-la-ley-de-reconstruccion-pero-tumbo-normas-clave/2026-10-02/161955.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261002/imag/foto_0000000220261002161955.png",
+            "published_raw": "Fri, 02 Oct 2026 16:19:55 -0300",
+            "published_at": "2026-10-02T16:19:55-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 7,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 1,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 8,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": null,
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-015"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 67.2
         },
         "repeated_in_general_top5": false
       }
@@ -869,19 +872,19 @@
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 13,
-      "maximum_relevance": 78.4,
+      "maximum_relevance": 75.4,
       "leading_story": "Bolsonaro vence a Lula en primera vuelta de las elecciones y acaricia el retorno de la ultraderecha al poder en Brasil"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 22,
-      "maximum_relevance": 67.4,
-      "leading_story": "El bolsonarismo se refuerza en el Senado de Brasil y pone al Supremo en la mira"
+      "event_count": 24,
+      "maximum_relevance": 65.1,
+      "leading_story": "Unas elecciones con miles de españoles sin derecho al voto por la ‘ley de nietos’"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 2,
-      "maximum_relevance": 57.2,
+      "maximum_relevance": 54.2,
       "leading_story": "Brasil: la derecha de Bolsonaro se fortalece en las regiones, con un triunfo holgado en São Paulo"
     },
     {
@@ -893,17 +896,13 @@
     {
       "topic": "Conflictos y seguridad",
       "event_count": 1,
-      "maximum_relevance": 46.2,
+      "maximum_relevance": 43.2,
       "leading_story": "Eduardo Frei defendió la adhesión de Chile al \"Escudo de las Américas\""
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-019", "PML-EVENT-029", "PML-EVENT-031"],
-      "exited_top5": ["PML-EVENT-021", "PML-EVENT-028", "PML-EVENT-032"],
-      "retained_top5": ["PML-EVENT-012", "PML-EVENT-005"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
