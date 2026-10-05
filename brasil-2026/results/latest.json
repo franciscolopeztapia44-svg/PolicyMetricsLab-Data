@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-05T02:13:55+0000",
-  "tse_generated_at": "04/10/2026 23:13:06",
+  "generated_at": "2026-10-05T02:33:44+0000",
+  "tse_generated_at": "04/10/2026 23:29:47",
   "source": "Tribunal Superior Eleitoral (TSE)",
   "election": "Brasil 2026 · Presidente · 1ª vuelta",
   "election_code": 6257,
@@ -9,15 +9,15 @@
   "final_totalization": false,
   "mathematically_defined": "s",
   "processed_pct": 99.99,
-  "valid_votes": 119284607,
-  "total_votes": 125258822,
+  "valid_votes": 119291224,
+  "total_votes": 125265833,
   "candidates": [
     {
       "number": 22,
       "name": "FLAVIO BOLSONARO",
       "full_name": "FLAVIO NANTES BOLSONARO",
       "party": "PL",
-      "votes": 56102026,
+      "votes": 56103231,
       "pct": 47.03,
       "status": "",
       "elected": false
@@ -27,7 +27,7 @@
       "name": "LULA",
       "full_name": "LUIZ INÁCIO LULA DA SILVA",
       "party": "PT",
-      "votes": 53866317,
+      "votes": 53871483,
       "pct": 45.16,
       "status": "",
       "elected": false
@@ -37,7 +37,7 @@
       "name": "ESCRITOR AUGUSTO CURY",
       "full_name": "AUGUSTO JORGE CURY",
       "party": "AVANTE",
-      "votes": 3448361,
+      "votes": 3448478,
       "pct": 2.89,
       "status": "",
       "elected": false
@@ -47,7 +47,7 @@
       "name": "RENAN SANTOS",
       "full_name": "RENAN ANTONIO FERREIRA DOS SANTOS",
       "party": "MISSÃO",
-      "votes": 2675783,
+      "votes": 2675850,
       "pct": 2.24,
       "status": "",
       "elected": false
@@ -57,7 +57,7 @@
       "name": "RONALDO CAIADO",
       "full_name": "RONALDO RAMOS CAIADO",
       "party": "PSD",
-      "votes": 2604998,
+      "votes": 2605056,
       "pct": 2.18,
       "status": "",
       "elected": false
@@ -67,7 +67,7 @@
       "name": "ZEMA",
       "full_name": "ROMEU ZEMA NETO",
       "party": "NOVO",
-      "votes": 326482,
+      "votes": 326485,
       "pct": 0.27,
       "status": "",
       "elected": false
@@ -107,7 +107,7 @@
       "name": "EDMILSON COSTA",
       "full_name": "EDMILSON SILVA COSTA",
       "party": "PCB",
-      "votes": 22688,
+      "votes": 22689,
       "pct": 0.02,
       "status": "",
       "elected": false
