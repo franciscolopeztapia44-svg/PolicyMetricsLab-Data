@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-10-05",
     "data_latest_timestamp": "2026-10-05T21:07:54-0300",
-    "data_age_hours": 3.1,
-    "generated_at": "2026-10-06T00:15:30-0300",
+    "data_age_hours": 6.2,
+    "generated_at": "2026-10-06T03:19:39-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,13 +16,13 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 42 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 43 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
     "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 42,
+    "ranked_events": 43,
     "topics": 3,
     "geographies": 2,
     "representative_sources": 3,
@@ -345,7 +345,7 @@
           "title": "¿Qué decidirá Brasil en la segunda vuelta? La victoria de Flávio Bolsonaro y la caída de Lula, en gráficos",
           "description": "El candidato ultraderechista supera a las encuestas previas con casi dos puntos de ventaja sobre Lula, y las apuestas lo dan como favorito para la segunda vuelta",
           "url": "https://elpais.com/america/2026-10-05/que-decidira-brasil-en-la-segunda-vuelta-la-victoria-de-flavio-bolsonaro-y-la-caida-de-lula-en-graficos.html",
-          "image_url": "https://imagenes.elpais.com/resizer/5hJD2yMza7j20_MFLGdPO2Lb0R8=/arc-anglerfish-eu-central-1-prod-prisa/public/KOHNXN66HFBITGZ3NA6GOBGMHI.jpg",
+          "image_url": "",
           "published_raw": "Mon, 05 Oct 2026 19:41:02 GMT",
           "published_at": "2026-10-05T16:41:02-0300",
           "country": "No identificado",
@@ -931,7 +931,7 @@
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 24,
+      "event_count": 25,
       "maximum_relevance": 67.2,
       "leading_story": "Resultados de las elecciones en Brasil, en vivo | Trump: “Es una gran victoria, ajustada, pero una gran victoria. Increíble”"
     },
