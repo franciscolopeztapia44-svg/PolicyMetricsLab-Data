@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-06",
-    "data_latest_timestamp": "2026-10-06T12:18:36-0300",
-    "data_age_hours": 3,
-    "generated_at": "2026-10-06T15:16:50-0300",
+    "data_latest_timestamp": "2026-10-06T17:19:06-0300",
+    "data_age_hours": 0.9,
+    "generated_at": "2026-10-06T18:14:41-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 42 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Elecciones y opinión pública.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 40 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Elecciones y opinión pública.",
     "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 42,
+    "ranked_events": 40,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 67.1,
-    "maximum_relevance": 71.7
+    "average_top5_relevance": 64.6,
+    "maximum_relevance": 68.7
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-034",
+      "cluster_id": "PML-EVENT-032",
       "title": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-hait%C3%AD-aplaza-sin-nueva-fecha-las-elecciones-presidenciales-y-legislativas",
       "representative_source": "France 24",
@@ -43,12 +43,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 71.7,
+        "score": 68.7,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 71.7
+        "editorial_utility": 68.7
       },
       "selection": {
-        "reason": "PML 71.7",
+        "reason": "PML 68.7",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -102,15 +102,15 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-034"
+          "cluster_id": "PML-EVENT-032"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-026",
-      "title": "El Supremo da 48 horas a las partes para que se pronuncien sobre la suspensión del voto por la ‘ley de nietos’ tras el adelanto electoral",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-supremo-da-48-horas-a-las-partes-para-que-se-pronuncien-sobre-la-suspension-del-voto-por-la-ley-de-nietos-tras-el-adelanto-electoral.html",
+      "cluster_id": "PML-EVENT-033",
+      "title": "El Constitucional ordena al Supremo que amnistíe la malversación del ‘procés’",
+      "url": "https://elpais.com/espana/2026-10-06/via-libre-al-regreso-de-puigdemont-el-constitucional-ordena-al-supremo-que-amnistie-la-malversacion-del-proces.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -119,12 +119,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 66.8,
+        "score": 64.6,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 74.8
+        "editorial_utility": 72.6
       },
       "selection": {
-        "reason": "PML 66.8; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 64.6; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -134,16 +134,15 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-06T10:54:27-0300",
-      "last_seen": "2026-10-06T10:54:27-0300",
+      "first_seen": "2026-10-06T08:57:43-0300",
+      "last_seen": "2026-10-06T08:57:43-0300",
       "entities": "supremo",
       "event_terms": [
         "supremo",
-        "eleccion",
         "tribunal"
       ],
       "analysis": {
-        "summary": "El tribunal pregunta a la Abogacía del Estado, la Fiscalía y la Junta Electoral si debe emplazar a los nacionalizados por la Ley de Memoria Democrática a personarse como afectados",
+        "summary": "Con siete votos a favor y cinco en contra, el tribunal ampara a la exconsejera Dolors Bassa y fija la doctrina de la que se beneficia el ‘expresident’ fugado",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -156,17 +155,17 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "El Supremo da 48 horas a las partes para que se pronuncien sobre la suspensión del voto por la ‘ley de nietos’ tras el adelanto electoral",
-          "description": "El tribunal pregunta a la Abogacía del Estado, la Fiscalía y la Junta Electoral si debe emplazar a los nacionalizados por la Ley de Memoria Democrática a personarse como afectados",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-supremo-da-48-horas-a-las-partes-para-que-se-pronuncien-sobre-la-suspension-del-voto-por-la-ley-de-nietos-tras-el-adelanto-electoral.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/6OVJCVIIHFBMTFAXBRFRKCSXW4.jpg?auth=2d64e277508d77fd2dd98fd56166287cab32bdd6d23a33188f2d5c5da8cd994d",
-          "published_raw": "Tue, 06 Oct 2026 13:54:27 GMT",
-          "published_at": "2026-10-06T10:54:27-0300",
+          "title": "El Constitucional ordena al Supremo que amnistíe la malversación del ‘procés’",
+          "description": "Con siete votos a favor y cinco en contra, el tribunal ampara a la exconsejera Dolors Bassa y fija la doctrina de la que se beneficia el ‘expresident’ fugado",
+          "url": "https://elpais.com/espana/2026-10-06/via-libre-al-regreso-de-puigdemont-el-constitucional-ordena-al-supremo-que-amnistie-la-malversacion-del-proces.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/ED2JFI3BZRBWFBFOJ3QDZUUWFM.JPG?auth=5766d9137e7e5194fd63ef8468dc097a078becbb35da0ccb88a51d037ffea40a",
+          "published_raw": "Tue, 06 Oct 2026 11:57:43 GMT",
+          "published_at": "2026-10-06T08:57:43-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
           "score_institutional": 3,
-          "score_elections": 1,
+          "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
@@ -174,12 +173,12 @@
           "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
+          "cluster_id": "PML-EVENT-033"
         }
       ]
     },
@@ -196,12 +195,12 @@
         "country": "Brasil / América Latina / No identificado"
       },
       "relevance": {
-        "score": 67.4,
+        "score": 64.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 74.4
+        "editorial_utility": 71.4
       },
       "selection": {
-        "reason": "PML 67.4; multifuente; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 64.4; multifuente; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -439,7 +438,7 @@
           "title": "¿Qué decidirá Brasil en la segunda vuelta? La victoria de Flávio Bolsonaro y la caída de Lula, en gráficos",
           "description": "El candidato ultraderechista supera a las encuestas previas con casi dos puntos de ventaja sobre Lula, y las apuestas lo dan como favorito para la segunda vuelta",
           "url": "https://elpais.com/america/2026-10-05/que-decidira-brasil-en-la-segunda-vuelta-la-victoria-de-flavio-bolsonaro-y-la-caida-de-lula-en-graficos.html",
-          "image_url": "",
+          "image_url": "https://imagenes.elpais.com/resizer/5hJD2yMza7j20_MFLGdPO2Lb0R8=/arc-anglerfish-eu-central-1-prod-prisa/public/KOHNXN66HFBITGZ3NA6GOBGMHI.jpg",
           "published_raw": "Mon, 05 Oct 2026 19:41:02 GMT",
           "published_at": "2026-10-05T16:41:02-0300",
           "country": "No identificado",
@@ -493,7 +492,7 @@
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-019",
+      "cluster_id": "PML-EVENT-018",
       "title": "Así gestó Sánchez el adelanto electoral: “Este Congreso no nos vale, tenemos que ir a elecciones, podemos ganar”",
       "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/asi-gesto-sanchez-el-adelanto-electoral-este-congreso-no-nos-vale-tenemos-que-ir-a-elecciones-podemos-ganar.html",
       "representative_source": "EL PAÍS",
@@ -504,12 +503,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 63.3,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 63.3
+        "score": 61.3,
+        "level": "MEDIA",
+        "editorial_utility": 61.3
       },
       "selection": {
-        "reason": "PML 63.3; aporta diversidad geográfica",
+        "reason": "PML 61.3; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -560,15 +559,15 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-018"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-035",
-      "title": "El Constitucional ordena al Supremo que amnistíe la malversación del ‘procés’",
-      "url": "https://elpais.com/espana/2026-10-06/via-libre-al-regreso-de-puigdemont-el-constitucional-ordena-al-supremo-que-amnistie-la-malversacion-del-proces.html",
+      "cluster_id": "PML-EVENT-025",
+      "title": "El Supremo da 48 horas a las partes para que se pronuncien sobre la suspensión del voto por la ‘ley de nietos’ tras el adelanto electoral",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-supremo-da-48-horas-a-las-partes-para-que-se-pronuncien-sobre-la-suspension-del-voto-por-la-ley-de-nietos-tras-el-adelanto-electoral.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -577,12 +576,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 66.3,
+        "score": 63.8,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 61.3
+        "editorial_utility": 58.8
       },
       "selection": {
-        "reason": "PML 66.3; diversidad relajada para completar el brief",
+        "reason": "PML 63.8; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -592,15 +591,16 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-06T08:57:43-0300",
-      "last_seen": "2026-10-06T08:57:43-0300",
+      "first_seen": "2026-10-06T10:54:27-0300",
+      "last_seen": "2026-10-06T10:54:27-0300",
       "entities": "supremo",
       "event_terms": [
         "supremo",
+        "eleccion",
         "tribunal"
       ],
       "analysis": {
-        "summary": "Con siete votos a favor y cinco en contra, el tribunal ampara a la exconsejera Dolors Bassa y fija la doctrina de la que se beneficia el ‘expresident’ fugado",
+        "summary": "El tribunal pregunta a la Abogacía del Estado, la Fiscalía y la Junta Electoral si debe emplazar a los nacionalizados por la Ley de Memoria Democrática a personarse como afectados",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -613,17 +613,17 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "El Constitucional ordena al Supremo que amnistíe la malversación del ‘procés’",
-          "description": "Con siete votos a favor y cinco en contra, el tribunal ampara a la exconsejera Dolors Bassa y fija la doctrina de la que se beneficia el ‘expresident’ fugado",
-          "url": "https://elpais.com/espana/2026-10-06/via-libre-al-regreso-de-puigdemont-el-constitucional-ordena-al-supremo-que-amnistie-la-malversacion-del-proces.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/ED2JFI3BZRBWFBFOJ3QDZUUWFM.JPG?auth=5766d9137e7e5194fd63ef8468dc097a078becbb35da0ccb88a51d037ffea40a",
-          "published_raw": "Tue, 06 Oct 2026 11:57:43 GMT",
-          "published_at": "2026-10-06T08:57:43-0300",
+          "title": "El Supremo da 48 horas a las partes para que se pronuncien sobre la suspensión del voto por la ‘ley de nietos’ tras el adelanto electoral",
+          "description": "El tribunal pregunta a la Abogacía del Estado, la Fiscalía y la Junta Electoral si debe emplazar a los nacionalizados por la Ley de Memoria Democrática a personarse como afectados",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-supremo-da-48-horas-a-las-partes-para-que-se-pronuncien-sobre-la-suspension-del-voto-por-la-ley-de-nietos-tras-el-adelanto-electoral.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/6OVJCVIIHFBMTFAXBRFRKCSXW4.jpg?auth=2d64e277508d77fd2dd98fd56166287cab32bdd6d23a33188f2d5c5da8cd994d",
+          "published_raw": "Tue, 06 Oct 2026 13:54:27 GMT",
+          "published_at": "2026-10-06T10:54:27-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
           "score_institutional": 3,
-          "score_elections": 0,
+          "score_elections": 1,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
@@ -631,12 +631,12 @@
           "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 4,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-035"
+          "cluster_id": "PML-EVENT-025"
         }
       ]
     }
@@ -649,7 +649,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-003",
+        "cluster_id": "PML-EVENT-002",
         "title": "Arrau por reforma de seguridad: Nunca hemos responsabilizado a otros por nuestra gestión",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -704,7 +704,7 @@
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-002"
           }
         ],
         "article_count": 1,
@@ -721,6 +721,78 @@
       },
       {
         "position": 2,
+        "cluster_id": "PML-EVENT-007",
+        "title": "Corte desaforó nuevamente a Calisto, ahora como senador",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/corte-desaforo-nuevamente-a-calisto-ahora-como-senador/2026-10-06/171906.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 56.4,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 52,
+            "freshness": 100,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 38
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-06T17:19:06-0300",
+        "last_seen": "2026-10-06T17:19:06-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Corte desaforó nuevamente a Calisto, ahora como senador",
+            "description": "Por unanimidad, la Corte de Apelaciones de Puerto Montt acogió este martes  la solicitud del Ministerio Público de desaforar al senador independiente Miguel Ángel Calisto , imputado por fraude al Fisco. Calisto ya había sido desaforado como diputado, pero su elección como senador en 2025  -en un cupo de la Federación Regionalista Verde Social dentro del pacto Verdes, Regionalistas y Humanistas-  obligó a la Fiscalía a solicitar nuevamente la medida . La indagatoria que desarrolló la Fiscalía Local de Coyhaique apunta a que, entre 2018 y 2022, el legislador se concertó con su exjefe de campaña Roland Cárcamo y la esposa de éste, Carla Graf , para defraudar al Fisco mediante falsas asesorías parlamentarias . \" Una vez que esta resolución quede ejecutoriada, la causa podrá avanzar hacia la etapa de preparación juicio oral , conforme a lo establecido en el Código Procesal Penal\", consigna la nota del Ministerio Público . Ver esta publicación en Instagram Una publicación compartida por Fiscalia_Aysen (@fiscalia_aysen) Citando el fallo del tribunal de alzada, el ente persecutor apunta que \"el examen de los antecedentes recabados en la carpeta investigativa permite apreciar que los hechos materia de la acusación, tienen mérito y resultan plausibles \". \"El convencimiento preliminar requerido en esta fase previa de desafuero, se obtiene del examen de los antecedentes reunidos en la etapa de investigación, reales, revestidos de seriedad y plausibilidad para dar lugar a la formación de causa respecto del senador Miguel Ángel Calisto Águila ; sin perjuicio de lo que se resuelva en el juicio penal\", cierra la resolución. Los ocho imputados en esta causa -que incluyen al mentado parlamentario- son indagados por  delitos reiterados de fraude al Fisco y fraude de subvenciones , donde el monto total del perjuicio para el Estado supera los 100 millones de pesos . Previamente, la Corte de Apelaciones de Coyhaique ya había rechazado un recurso de amparo impuesto por la defensa de Calisto, que pretendía ampliar el plazo de investigación. Calisto apelará ante la Corte Suprema Tras lo resuelto por la Corte de Puerto Montt, Calisto adelantó desde el Congreso que, estando \" convencidos de nuestra rectitud y del trabajo que hemos realizado durante años, vamos a recurrir a todas las instancias que la ley nos entrega y que la Constitución garantiza respecto a un debido proceso y del derecho a la defensa. Y, por supuesto, vamos a apelar a la (Corte) Suprema, que es parte del proceso que corresponde \". Además, informó que, en paralelo, su defensa ha presentado un recurso de amparo ante el máximo tribunal \"para que se pueda revisar la situación respecto de la investigación, con la finalidad de que todos los antecedentes incorporados en la carpeta investigativa sean revisados , y tengamos el legítimo derecho de defendernos\". \"Este es un proceso que lleva cerca de siete años y, por lo tanto, yo estoy muy tranquilo, muy convencido de nuestra inocencia. Es más: yo enfrenté una campaña senatorial en medio de la presentación que realizaba el Ministerio Público, obtuve el 32% de los votos en una elección donde me tocó competir con la izquierda y la derecha. Por ende, la principal tranquilidad para mí es que la gente de Aysén me cree \", apuntó el representante de esa región.",
+            "url": "https://www.cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/corte-desaforo-nuevamente-a-calisto-ahora-como-senador/2026-10-06/171906.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261006/imag/foto_0000000220261006171906.jpg",
+            "published_raw": "Tue, 06 Oct 2026 17:19:06 -0300",
+            "published_at": "2026-10-06T17:19:06-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 6,
+            "score_elections": 2,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 2,
+            "score_actor": 2,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 12,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-007"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 77.4
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
         "cluster_id": "PML-EVENT-001",
         "title": "Presupuesto: Oposición cuestionó solicitud de endeudamiento por 25 mil millones de dólares",
         "topic": "Instituciones y gobierno",
@@ -732,11 +804,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.5,
+          "score": 53.7,
           "level": "MEDIA",
           "components": {
             "political_impact": 49,
-            "freshness": 95,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 50
@@ -787,78 +859,6 @@
             "Estado e instituciones",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 73.5
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-010",
-        "title": "Comisión investigadora sobre los bots invitará a Matthei, Fontaine y \"Patito verde\"",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/comision-investigadora-sobre-los-bots-invitara-a-matthei-fontaine-y/2026-10-05/205532.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 50.7,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 51,
-            "freshness": 80,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 34
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-05T20:55:32-0300",
-        "last_seen": "2026-10-05T20:55:32-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Comisión investigadora sobre los bots invitará a Matthei, Fontaine y \"Patito verde\"",
-            "description": "La comisión especial conformada en la Cámara Baja para investigar el uso de bots y la desinformación  maliciosa durante las últimas elecciones en Chile definió este lunes a una serie de invitados: entre ellos Evelyn Matthei , quien el año pasado denunció haber sido víctima de una \"campaña asquerosa\" de esta misma índole por parte de adherentes al hoy  Presidente José Antonio Kast . La convocatoria a Matthei fue propuesta por el  diputado independiente Hotuiti Teao  (integrante de la bancada UDI): \"Yo sé que en esta comisión vamos a escuchar a ministros -ojalá exministros también- y a expertos que van a representar y nos van a hablar sobre plataformas digitales, bots, etcétera; pero yo creo que falta una voz indispensable\" . \"Me gustaría pedir formalmente que invitáramos a esta comisión a una de las (personas) que sufrió un ataque masivo y que, además, denunció públicamente haber sido blanco de bots y de desinformación en campaña ; que invitemos a Evelyn Matthei Fornet , porque ayer fue ella, hoy día no sabemos quién puede ser y mañana puede ser cualquiera de nosotros \", argumentó Hotuiti. \"Hoy fue ella. Mañana puede ser cualquier candidato, de cualquier sector. Lo que está en juego es la integridad de nuestras elecciones\", enfatizó el parlamentario oficialista. A su turno, el diputado frenteamplista Gonzalo Winter  solicitó invitar al director de El Mercurio , Carlos Schaerer ; y al director de La Segunda , Mauricio Gallardo , para que relaten cómo y por qué publicaron en 2020 una encuesta de la consultora argentina Numen  -perteneciente a Fernando Cerimedo - que señalaba, de cara al plesbiscito de entrada del primer proceso constituyente, que sólo el 42% de los chilenos estaba a favor de una nueva Carta Magna. También se propuso invitar al hoy presidente del directorio de Codelco, Bernardo Fontaine , ya que a través de una fundación que lideró se contrató a influencers que esparcieron noticias falsas sobre el proceso constituyente; y a la Asociación de AFP , que financiaba precisamente a esta fundación. A la vez, se planteó el nombre del periodista Patricio Góngora , más conocido en redes sociales como \"Patito Verde\" . El presidente de la comisión investigadora, el republicano José Carlos Meza , dijo que se invitará a asistir a todas las personalidades propuestas y se buscará una fecha adecuada para escucharlos. No obstante, por no ser funcionarios públicos, la mayoría no está obligada a responder a esta convocatoria. A la sesión de este lunes estaba citado el biministro Claudio Alvarado , quien se excusó de asistir.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/comision-investigadora-sobre-los-bots-invitara-a-matthei-fontaine-y/2026-10-05/205532.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000220261005205532.jpg",
-            "published_raw": "Mon, 05 Oct 2026 20:55:32 -0300",
-            "published_at": "2026-10-05T20:55:32-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 4,
-            "score_elections": 4,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 4,
-            "score_noise": 1,
-            "score_accident": 0,
-            "political_evidence": 11,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-010"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 21,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
           "chile_utility": 71.7
         },
         "repeated_in_general_top5": false
@@ -869,32 +869,32 @@
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 13,
-      "maximum_relevance": 71.7,
+      "maximum_relevance": 68.7,
       "leading_story": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 23,
-      "maximum_relevance": 66.8,
-      "leading_story": "El Supremo da 48 horas a las partes para que se pronuncien sobre la suspensión del voto por la ‘ley de nietos’ tras el adelanto electoral"
+      "event_count": 22,
+      "maximum_relevance": 64.6,
+      "leading_story": "El Constitucional ordena al Supremo que amnistíe la malversación del ‘procés’"
     },
     {
       "topic": "Conflictos y seguridad",
-      "event_count": 3,
-      "maximum_relevance": 57.3,
-      "leading_story": "'Falsos positivos': el legado de la violencia estatal en Colombia"
-    },
-    {
-      "topic": "Ideología y competencia política",
       "event_count": 2,
-      "maximum_relevance": 50,
-      "leading_story": "Paraguay, refugio fiscal y político para la extrema derecha brasileña"
+      "maximum_relevance": 56.1,
+      "leading_story": "'Falsos positivos': el legado de la violencia estatal en Colombia"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
       "maximum_relevance": 49.2,
       "leading_story": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua"
+    },
+    {
+      "topic": "Ideología y competencia política",
+      "event_count": 2,
+      "maximum_relevance": 47.5,
+      "leading_story": "Paraguay, refugio fiscal y político para la extrema derecha brasileña"
     }
   ],
   "changes_since_yesterday": {
