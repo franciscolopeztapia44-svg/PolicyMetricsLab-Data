@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-10-05",
     "data_latest_timestamp": "2026-10-05T21:07:54-0300",
-    "data_age_hours": 0.3,
-    "generated_at": "2026-10-05T21:23:35-0300",
+    "data_age_hours": 3.1,
+    "generated_at": "2026-10-06T00:15:30-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -345,7 +345,7 @@
           "title": "¿Qué decidirá Brasil en la segunda vuelta? La victoria de Flávio Bolsonaro y la caída de Lula, en gráficos",
           "description": "El candidato ultraderechista supera a las encuestas previas con casi dos puntos de ventaja sobre Lula, y las apuestas lo dan como favorito para la segunda vuelta",
           "url": "https://elpais.com/america/2026-10-05/que-decidira-brasil-en-la-segunda-vuelta-la-victoria-de-flavio-bolsonaro-y-la-caida-de-lula-en-graficos.html",
-          "image_url": "",
+          "image_url": "https://imagenes.elpais.com/resizer/5hJD2yMza7j20_MFLGdPO2Lb0R8=/arc-anglerfish-eu-central-1-prod-prisa/public/KOHNXN66HFBITGZ3NA6GOBGMHI.jpg",
           "published_raw": "Mon, 05 Oct 2026 19:41:02 GMT",
           "published_at": "2026-10-05T16:41:02-0300",
           "country": "No identificado",
@@ -706,7 +706,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-006",
+        "cluster_id": "PML-EVENT-007",
         "title": "Reforma de seguridad: giro de La Moneda desata reparos en el PC y el PS",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -761,7 +761,7 @@
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
+            "cluster_id": "PML-EVENT-007"
           }
         ],
         "article_count": 1,
@@ -778,7 +778,79 @@
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-005",
+        "cluster_id": "PML-EVENT-010",
+        "title": "Comisión investigadora sobre los bots invitará a Matthei, Fontaine y \"Patito verde\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/comision-investigadora-sobre-los-bots-invitara-a-matthei-fontaine-y/2026-10-05/205532.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 55.7,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 51,
+            "freshness": 100,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 34
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-05T20:55:32-0300",
+        "last_seen": "2026-10-05T20:55:32-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Comisión investigadora sobre los bots invitará a Matthei, Fontaine y \"Patito verde\"",
+            "description": "La comisión especial conformada en la Cámara Baja para investigar el uso de bots y la desinformación  maliciosa durante las últimas elecciones en Chile definió este lunes a una serie de invitados: entre ellos Evelyn Matthei , quien el año pasado denunció haber sido víctima de una \"campaña asquerosa\" de esta misma índole por parte de adherentes al hoy  Presidente José Antonio Kast . La convocatoria a Matthei fue propuesta por el  diputado independiente Hotuiti Teao  (integrante de la bancada UDI): \"Yo sé que en esta comisión vamos a escuchar a ministros -ojalá exministros también- y a expertos que van a representar y nos van a hablar sobre plataformas digitales, bots, etcétera; pero yo creo que falta una voz indispensable\" . \"Me gustaría pedir formalmente que invitáramos a esta comisión a una de las (personas) que sufrió un ataque masivo y que, además, denunció públicamente haber sido blanco de bots y de desinformación en campaña ; que invitemos a Evelyn Matthei Fornet , porque ayer fue ella, hoy día no sabemos quién puede ser y mañana puede ser cualquiera de nosotros \", argumentó Hotuiti. \"Hoy fue ella. Mañana puede ser cualquier candidato, de cualquier sector. Lo que está en juego es la integridad de nuestras elecciones\", enfatizó el parlamentario oficialista. A su turno, el diputado frenteamplista Gonzalo Winter  solicitó invitar al director de El Mercurio , Carlos Schaerer ; y al director de La Segunda , Mauricio Gallardo , para que relaten cómo y por qué publicaron en 2020 una encuesta de la consultora argentina Numen  -perteneciente a Fernando Cerimedo - que señalaba, de cara al plesbiscito de entrada del primer proceso constituyente, que sólo el 42% de los chilenos estaba a favor de una nueva Carta Magna. También se propuso invitar al hoy presidente del directorio de Codelco, Bernardo Fontaine , ya que a través de una fundación que lideró se contrató a influencers que esparcieron noticias falsas sobre el proceso constituyente; y a la Asociación de AFP , que financiaba precisamente a esta fundación. A la vez, se planteó el nombre del periodista Patricio Góngora , más conocido en redes sociales como \"Patito Verde\" . El presidente de la comisión investigadora, el republicano José Carlos Meza , dijo que se invitará a asistir a todas las personalidades propuestas y se buscará una fecha adecuada para escucharlos. No obstante, por no ser funcionarios públicos, la mayoría no está obligada a responder a esta convocatoria. A la sesión de este lunes estaba citado el biministro Claudio Alvarado , quien se excusó de asistir.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/comision-investigadora-sobre-los-bots-invitara-a-matthei-fontaine-y/2026-10-05/205532.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000220261005205532.jpg",
+            "published_raw": "Mon, 05 Oct 2026 20:55:32 -0300",
+            "published_at": "2026-10-05T20:55:32-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 4,
+            "score_elections": 4,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 4,
+            "score_noise": 1,
+            "score_accident": 0,
+            "political_evidence": 11,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-010"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 76.7
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-006",
         "title": "Comienza la discusión del Presupuesto: Quiroz dispuesto a \"perfeccionar, manteniendo la restricción general\"",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -833,7 +905,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
+            "cluster_id": "PML-EVENT-006"
           }
         ],
         "article_count": 1,
@@ -845,78 +917,6 @@
             "Economía y políticas públicas"
           ],
           "chile_utility": 73
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-001",
-        "title": "Ubilla defiende crítica de Matthei: \"Una cosa es apoyar a un candidato y otra es pensar igual\"",
-        "topic": "Instituciones y gobierno",
-        "event_type": "POLITICAL_STATEMENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/ubilla-defiende-critica-de-matthei-una-cosa-es-apoyar-a-un-candidato-y/2026-10-05/112741.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 52.4,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 50,
-            "freshness": 88,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 34
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-05T11:27:41-0300",
-        "last_seen": "2026-10-05T11:27:41-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Ubilla defiende crítica de Matthei: \"Una cosa es apoyar a un candidato y otra es pensar igual\"",
-            "description": "El director del área de Política y Sociedad Civil de Libertad y Desarrollo, Rodrigo Ubilla, defendió este lunes en El Primer Café las críticas de Evelyn Matthei al Gobierno y cuestionó la respuesta del diputado republicano Diego Vergara a la excandidata presidencial. El panel abordó los cuestionamientos de Matthei a la organización del Ejecutivo y a los recortes presupuestarios que afectan la entrega de computadores a escolares . Para Ubilla, \"lo que dice Evelyn Matthei se entiende mucho más como una invitación a producir cambios en los procedimientos de Gobierno, que es legítimo\" . Sobre las diferencias dentro del oficialismo, el representante de Libertad y Desarrollo sostuvo que \"una más tradicional que tiene un rol muy relevante desde la transición a la democracia en adelante y otra que emerge (...)  ¿piensan igual? No piensan igual. Pero fueron capaces de ponerse de acuerdo para apoyar a un candidato que venía de esta nueva derecha\" . Ubilla destacó que existen acuerdos en materias como la agenda de seguridad y la ley de reconstrucción, pese a las diferencias entre los sectores que respaldan al Ejecutivo. \"Porque una cosa es apoyar a un candidato, otra cosa es pensar exactamente igual. Eso es imposible . Y eso se dio al interior del Frente Amplio, acuérdense cuando eran varios partidos, se dio entre el el Socialismo Democrático y el Frente Amplio y el Partido Comunista. Eso es natural\", afirmó. Ubilla pide cuidar la unidad Ubilla también cuestionó la respuesta del diputado republicano Diego Vergara, quien vinculó las críticas de Matthei con su decepción por no haber sido electa. \"Las palabras del diputado Vergara no son adecuadas, pues. No son adecuadas\" , expresó. Sus declaraciones se producen después de que el presidente de Republicanos, Arturo Squella, descartara que las críticas de Matthei sean generalizadas en Chile Vamos . Ubilla advirtió que la forma de resolver las diferencias puede afectar la continuidad del proyecto político del oficialismo: \"El Presidente Kast dijo cuando llegó al Gobierno que para tener éxito se requería darle continuidad a este proyecto por lo menos dos periodos\" . \"Y las tensiones entre los partidos (...) son elementos que perjudican esa continuidad\", sostuvo. Por ello, llamó a los sectores oficialistas a cuidar la unidad: \"Todos los partidos que apoyan al Presidente Kast deben mirar respecto a la unidad de cómo seguir construyendo unidad para que al Gobierno le vaya bien. Y si al Gobierno le va bien, probablemente va a haber una continuidad de una opción de derecha o de centroderecha \". Ruz: Las críticas revelan problemas estructurales El presidente del directorio de Democracia y Comunidad, Luis Ruz, sostuvo que los cuestionamientos no son exclusivos de Matthei , y mencionó las críticas de otras figuras del oficialismo a distintas decisiones del Gobierno. Entre ellas está la eliminación de \"Yo Elijo Mi PC\", una medida que también motivó que diputados de la UDI expresaran su \"profunda preocupación\" por los recortes en educación . Para el representante del centro de pensamiento de la Democracia Cristiana, el debate refleja dificultades que el Ejecutivo arrastra desde su instalación, tanto en su diseño político como en la convivencia entre sectores con distintas posiciones ideológicas. \"Es un Gobierno que prometió mucho, pero que está haciendo poco\" , cuestionó. Ruz reconoció que Matthei aprovecha su tribuna y que también existe un componente de ajuste de cuentas políticas, pero puso el énfasis en el contenido de sus observaciones. \"En lo de fondo yo creo que lo más importante es que está dejando al desnudo los problemas estructurales que el Gobierno no ha logrado resolver \", sostuvo. Freire apunta a las \"dos almas\" del Gobierno El director ejecutivo de Fábrica Chile ligada al Partido Liberal, Nicolás Freire, planteó que el capital político de Matthei le permite expresar públicamente críticas que otras figuras de la derecha tradicional tienen menos espacio para formular. \"No todos quienes militan en los partidos de la derecha tradicional pueden permitirse hacer lo que hace Evelyn Matthei\", señaló. Freire añadió que el respaldo de Chile Vamos al Gobierno no ha estado exento de cuestionamientos, y mencionó las diferencias frente al Foro de Madrid y a la propuesta de reforma constitucional de seguridad. A su juicio, esas posiciones muestran las tensiones entre las \"dos almas que está teniendo el gobierno\" . Sobre las declaraciones de Matthei, agregó que está \"diciendo cosas que a todos nos parecen sensatas\" . Arqueros llama a bajar el tono del debate El director de formación de la Fundación Jaime Guzmán, Claudio Arqueros, sostuvo que Matthei conserva capital y vigencia política , y que las críticas desde el propio sector son un fenómeno habitual en los gobiernos. \"No estoy diciendo que ella esté pensando ser candidata de nuevo, pero de que tiene un capital político, una vigencia política, una voz, ella la tiene\", afirmó. Arqueros también llamó a revisar la escalada del lenguaje en la discusión pública, más allá de este episodio y de las diferencias entre los sectores políticos. \"Hemos sido de lado y lado muy permisivos con el alzamiento del tono del lenguaje, que ha llegado a ser incluso, cada tanto llega a ser, agresivo\" , advirtió. Freire compartió ese llamado, aunque distinguió la posición de Matthei dentro de la derecha tradicional de las críticas formuladas por dirigentes de sectores más extremos.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/ubilla-defiende-critica-de-matthei-una-cosa-es-apoyar-a-un-candidato-y/2026-10-05/112741.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000220261005112741.jpg",
-            "published_raw": "Mon, 05 Oct 2026 11:27:41 -0300",
-            "published_at": "2026-10-05T11:27:41-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 6,
-            "score_elections": 2,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 1,
-            "score_ideology": 4,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 19,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Ideología y competencia política",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 19,
-          "labels": [
-            "Estado e instituciones",
-            "Elecciones y opinión pública"
-          ],
-          "chile_utility": 71.4
         },
         "repeated_in_general_top5": false
       }
