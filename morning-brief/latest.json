@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-05",
-    "data_latest_timestamp": "2026-10-05T15:15:21-0300",
-    "data_age_hours": 0.1,
-    "generated_at": "2026-10-05T15:19:30-0300",
+    "data_latest_timestamp": "2026-10-05T21:07:54-0300",
+    "data_age_hours": 0.3,
+    "generated_at": "2026-10-05T21:23:35-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,77 +16,105 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 40 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 42 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
     "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 40,
+    "ranked_events": 42,
     "topics": 3,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 66.2,
-    "maximum_relevance": 77.2
+    "average_top5_relevance": 64.4,
+    "maximum_relevance": 67.7
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-012",
-      "title": "Resultados de las elecciones en Brasil, en vivo| La Bolsa de São Paulo y el real reciben con subidas la victoria parcial de Bolsonaro",
-      "url": "https://elpais.com/america/2026-10-05/resultados-de-las-elecciones-en-brasil-en-vivo.html",
+      "cluster_id": "PML-EVENT-009",
+      "title": "Los candidatos derrotados de la derecha en Brasil evitan pedir el voto para Bolsonaro en la segunda vuelta",
+      "url": "https://elpais.com/america/2026-10-05/los-candidatos-derrotados-de-la-derecha-en-brasil-evitan-pedir-el-voto-para-bolsonaro-en-la-segunda-vuelta.html",
       "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
         "group": "América Latina",
         "country": "Brasil / América Latina / No identificado"
       },
       "relevance": {
-        "score": 77.2,
-        "level": "ALTA",
-        "editorial_utility": 81.2
+        "score": 67.7,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 71.7
       },
       "selection": {
-        "reason": "PML 77.2; multifuente",
+        "reason": "PML 67.7; multifuente",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 12,
+        "article_count": 11,
         "source_count": 2,
         "sources": [
           "France 24",
           "EL PAÍS"
         ]
       },
-      "first_seen": "2026-10-01T13:14:24-0300",
-      "last_seen": "2026-10-05T15:15:21-0300",
+      "first_seen": "2026-10-02T14:16:51-0300",
+      "last_seen": "2026-10-05T21:07:54-0300",
       "entities": [
+        "congreso",
         "brasil",
         "bolsonaro",
-        "lula",
         "senado",
+        "lula",
         "iran",
         "trump"
       ],
       "event_terms": [
         "victoria",
-        "eleccion",
-        "medicos"
+        "eleccion"
       ],
       "analysis": {
-        "summary": "El senador del Partido Liberal (PL) y candidato presidencial, Flávio Bolsonaro, agradeció este lunes \"a Dios\" y al pueblo brasileño por su victoria en las elecciones del domingo ante el presidente Luiz Inácio Lula da Silva, en contra de los pronósticos. Además, celebró que el PL resultara el partido más votado en el Parlamento, con más de un tercio de los escaños del Senado. Las bolsas y la moneda nacional comenzaron la semana fortalecidas tras el resultado en las urnas.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Brasil / América Latina / No identificado.",
+        "summary": "El Partido Liberal, plataforma de la candidatura presidencial de Flávio Bolsonaro, consiguió 121 escaños en la Cámara de Diputados y pasó de 15 a 28 asientos en el Senado, lo que se traduce en la mayor representación de un solo partido en ambas cámaras en casi 40 años. Con el apoyo de otras fuerzas de tendencia conservadora, Bolsonaro garantizaría así una cómoda gobernabilidad, en caso de ser electo presidente, y podría perseguir, incluso, la prometida amnistía a su padre.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina / No identificado.",
         "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
       "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "No es solo la Presidencia: la derecha se consolida en el Congreso de Brasil y potencia a Bolsonaro",
+          "description": "El Partido Liberal, plataforma de la candidatura presidencial de Flávio Bolsonaro, consiguió 121 escaños en la Cámara de Diputados y pasó de 15 a 28 asientos en el Senado, lo que se traduce en la mayor representación de un solo partido en ambas cámaras en casi 40 años. Con el apoyo de otras fuerzas de tendencia conservadora, Bolsonaro garantizaría así una cómoda gobernabilidad, en caso de ser electo presidente, y podría perseguir, incluso, la prometida amnistía a su padre.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-no-es-solo-la-presidencia-la-derecha-se-consolida-en-el-congreso-de-brasil-y-potencia-a-bolsonaro",
+          "image_url": "https://s.france24.com/media/display/8d57872a-c10f-11f1-be83-69fad0a7cb9f/w:1024/p:16x9/FOTO-PORTADA-BRASIL-BOLSONAROS-SENADO.jpg",
+          "published_raw": "Tue, 06 Oct 2026 00:07:54 GMT",
+          "published_at": "2026-10-05T21:07:54-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 5,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 3,
+          "score_actor": 3,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 11,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-009"
+        },
         {
           "source_id": "france24_latam",
           "source": "France 24",
@@ -113,35 +141,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Brasil: la derecha de Bolsonaro se fortalece en las regiones, con un triunfo holgado en São Paulo",
-          "description": "Los comicios locales de Brasil se saldaron este domingo con un avance de la derecha que representan el candidato presidencial Flávio Bolsonaro y sus aliados. En tanto la izquierda del presidente y aspirante a la reelección, Luiz Inácio Lula da Silva perdía terreno. La victoria más cómoda fue en São Paulo, donde el gobernador bolsonarista Tarcísio de Freitas ganó con amplia ventaja la reelección.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261005-brasil-la-derecha-de-bolsonaro-se-fortalece-en-las-regiones-con-un-triunfo-holgado-en-s%C3%A3o-paulo",
-          "image_url": "https://s.france24.com/media/display/891cefac-c069-11f1-a01a-578a4b968fd6/w:1024/p:16x9/2026-09-07T200756Z-1203512775-RC2JENAHTIZI-RTRMADP-3-BRAZIL-ELECTION.jpg",
-          "published_raw": "Mon, 05 Oct 2026 03:19:28 GMT",
-          "published_at": "2026-10-05T00:19:28-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 2,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 7,
-          "primary_topic": "Ideología y competencia política",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
+          "cluster_id": "PML-EVENT-009"
         },
         {
           "source_id": "elpais_america",
@@ -169,7 +169,35 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
+          "cluster_id": "PML-EVENT-009"
+        },
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "La victoria en primera vuelta de Bolsonaro impulsa a la ola ultra de América Latina",
+          "description": "El senador va a la segunda vuelta por delante del presidente Lula, además de ampliar el poder del clan en el Congreso y los Estados",
+          "url": "https://elpais.com/america/2026-10-05/la-victoria-en-primera-vuelta-de-bolsonaro-impulsa-a-la-ola-ultra-de-america-latina.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/S2OAJPSL35MNZM6JTODKIGQ3ZI.jpg?auth=7a0beebc8781d6ac1f4749b09797eff0114e7752f07a91cc462f70b8aeca0d29",
+          "published_raw": "Mon, 05 Oct 2026 20:38:40 GMT",
+          "published_at": "2026-10-05T17:38:40-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-009"
         },
         {
           "source_id": "france24_latam",
@@ -197,7 +225,7 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
+          "cluster_id": "PML-EVENT-009"
         },
         {
           "source_id": "france24_latam",
@@ -225,7 +253,35 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
+          "cluster_id": "PML-EVENT-009"
+        },
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Los candidatos derrotados de la derecha en Brasil evitan pedir el voto para Bolsonaro en la segunda vuelta",
+          "description": "Los descalificados, que suman el 8%, se declaran neutrales, pero es probable que buena parte de sus electores migren ahora hacia el bolsonarismo",
+          "url": "https://elpais.com/america/2026-10-05/los-candidatos-derrotados-de-la-derecha-en-brasil-evitan-pedir-el-voto-para-bolsonaro-en-la-segunda-vuelta.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/JI3ZZPJMM5JC3M7TY2W4QCQHUM.jpg?auth=9869862f732b6b856502092cfea11ca5e73279fb79884d9fa70ebad27289befb",
+          "published_raw": "Mon, 05 Oct 2026 23:05:05 GMT",
+          "published_at": "2026-10-05T20:05:05-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-009"
         },
         {
           "source_id": "france24_latam",
@@ -253,7 +309,7 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
+          "cluster_id": "PML-EVENT-009"
         },
         {
           "source_id": "france24_latam",
@@ -281,73 +337,17 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "¿Cómo está dividido el voto político en Brasil previo a la primera vuelta presidencial?",
-          "description": "Como en todas las elecciones, Luiz Inácio Lula da Silva y Flávio Bolsonaro buscan conquistar a los sectores religiosos de Brasil para fortalecer sus posibilidades de llegar a la Presidencia. En estos comicios, los católicos y evangélicos están divididos entre ambos candidatos como consecuencia de la desinformación y los beneficios que las iglesias han recibido durante la Administración de Lula. Analizamos el panorama de los votantes religiosos con nuestro Invitado del día, Leandro Gabiati, doctor en Ciencia Política y director de la consultoría Dominium.",
-          "url": "https://www.france24.com/es/programas/invitad-del-d%C3%ADa/20261001-c%C3%B3mo-est%C3%A1-dividido-el-voto-pol%C3%ADtico-en-brasil-previo-a-la-primera-vuelta-presidencial",
-          "image_url": "https://s.france24.com/media/display/11fcb69a-bdb3-11f1-8df0-13420ab900a2/w:1024/p:16x9/capture-4223648226abe86b60b2702-05458008.jpg",
-          "published_raw": "Thu, 01 Oct 2026 16:14:24 GMT",
-          "published_at": "2026-10-01T13:14:24-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 3,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
+          "cluster_id": "PML-EVENT-009"
         },
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Resultados de las elecciones en Brasil, en vivo| La Bolsa de São Paulo y el real reciben con subidas la victoria parcial de Bolsonaro",
-          "description": "Los mercados financieros reaccionan positivamente este lunes, después del triunfo del ultraderechista Flávio Bolsonaro (47%) sobre el presidente Lula (45%) en la primera vuelta",
-          "url": "https://elpais.com/america/2026-10-05/resultados-de-las-elecciones-en-brasil-en-vivo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/OKWWL2BV2REALBLWKCGOKRSSTE.jpg?auth=ce862f9488401cc25cb07139c1d3dada27bf59dbad4ef7ba0f22631377fb80c4",
-          "published_raw": "Mon, 05 Oct 2026 18:15:21 GMT",
-          "published_at": "2026-10-05T15:15:21-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Bolsonaro vence a Lula en primera vuelta de las elecciones y acaricia el retorno de la ultraderecha al poder en Brasil",
-          "description": "El senador, hijo del expresidente condenado por golpismo, logra el 47,1% de los votos frente al 45% del mandatario izquierdista. Ambos se medirán en la segunda vuelta del 25 de octubre",
-          "url": "https://elpais.com/america/2026-10-05/bolsonaro-vence-a-lula-en-primera-vuelta-y-acaricia-el-retorno-de-la-ultraderecha-al-poder-en-brasil.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/N7UGE6VN5ND5DMJ5JIAKJKMZVE.jpg?auth=3d00c405c09bd8cdb534cbd7987747e58f5ac6aba8d139b216930c7fb145136b",
-          "published_raw": "Mon, 05 Oct 2026 02:54:23 GMT",
-          "published_at": "2026-10-04T23:54:23-0300",
+          "title": "¿Qué decidirá Brasil en la segunda vuelta? La victoria de Flávio Bolsonaro y la caída de Lula, en gráficos",
+          "description": "El candidato ultraderechista supera a las encuestas previas con casi dos puntos de ventaja sobre Lula, y las apuestas lo dan como favorito para la segunda vuelta",
+          "url": "https://elpais.com/america/2026-10-05/que-decidira-brasil-en-la-segunda-vuelta-la-victoria-de-flavio-bolsonaro-y-la-caida-de-lula-en-graficos.html",
+          "image_url": "",
+          "published_raw": "Mon, 05 Oct 2026 19:41:02 GMT",
+          "published_at": "2026-10-05T16:41:02-0300",
           "country": "No identificado",
           "region": "América Latina",
           "language": "es",
@@ -365,35 +365,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "¿Cuál es el panorama en Brasil previo a la primera vuelta presidencial?",
-          "description": "Luiz Inácio Lula da Silva y Flávio Bolsonaro se enfrentan el próximo 4 de octubre en unas estrechas elecciones por la Presidencia de Brasil. La desinformación, la falta de debates y la polarización han marcado las campañas de los candidatos. Analizamos cómo llega el país a la primera vuelta con Paulo Velasco, profesor de Política Internacional de la UERJ.",
-          "url": "https://www.france24.com/es/programas/invitad-del-d%C3%ADa/20261002-cu%C3%A1l-es-el-panorama-en-brasil-previo-a-la-primera-vuelta-presidencial",
-          "image_url": "https://s.france24.com/media/display/1b748b6c-be94-11f1-a6f1-1ff0321dbbd3/w:1024/p:16x9/capture-19946057316ac00042a9aee5-00000054.jpg",
-          "published_raw": "Fri, 02 Oct 2026 19:04:49 GMT",
-          "published_at": "2026-10-02T16:04:49-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
+          "cluster_id": "PML-EVENT-009"
         },
         {
           "source_id": "france24_latam",
@@ -421,13 +393,86 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
+          "cluster_id": "PML-EVENT-009"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-026",
+      "cluster_id": "PML-EVENT-003",
+      "title": "Arrau por reforma de seguridad: Nunca hemos responsabilizado a otros por nuestra gestión",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-por-reforma-de-seguridad-nunca-hemos-responsabilizado-a-otros-por/2026-10-05/112919.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 64,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 76
+      },
+      "selection": {
+        "reason": "PML 64; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-10-05T11:29:19-0300",
+      "last_seen": "2026-10-05T11:29:19-0300",
+      "entities": "congreso",
+      "event_terms": [],
+      "analysis": {
+        "summary": "El ministro de Seguridad Pública, Martín Arrau , respondió a las críticas de la senadora Paulina Vodanovic (PS)  respecto a la reforma constitucional de seguridad , en el marco de la contingencia por el asesinato del sargento segundo en un procedimiento por violencia intrafamiliar en Quilleco , Región del Biobío.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Arrau por reforma de seguridad: Nunca hemos responsabilizado a otros por nuestra gestión",
+          "description": "El ministro de Seguridad Pública, Martín Arrau , respondió a las críticas de la senadora Paulina Vodanovic (PS)  respecto a la reforma constitucional de seguridad , en el marco de la contingencia por el asesinato del sargento segundo en un procedimiento por violencia intrafamiliar en Quilleco , Región del Biobío. \"Agradecemos la gestión y los proyectos de ley que se votan en el Congreso, pero nunca hemos responsabilizado a otros por nuestra gestión, ni menos centrado el accionar del programa de gobierno y lo que estamos haciendo en responsabilizar a otros, sino que en nosotros mismos y en la gestión ejecutiva que se está haciendo\", aseveró el secretario de Estado. Arrau abordó las críticas de la presidenta del Partido Socialista, quien señaló que el Gobierno estaría planteando excusas para avanzar en la gestión de seguridad , sobre todo en la reforma constitucional que deberían plantear los senadores del a Comisión de Constitución -de la que también es parte Vodanovic, y de la que distanció- en los próximos días. \"El compromiso desde el Gobierno está en hacer los cambios necesarios para que las policías tengan más herramientas , y los estamos haciendo desde el punto de vista legal, de medios y en este caso, también con las querellas y las cosas que corresponden, que la verdad son importantes, pero no van a devolverle la vida al sargento segundo agradezco el compromiso de muchos parlamentarios, ya que en muchas de estas leyes que he mencionado sí ha habido un acuerdo en el último tiempo\", profundizó. El titular de Seguridad Pública destacó que \"si bien algunas llevan esperando dos o tres años, ha habido consenso en las últimas semanas, y hemos podido articularlas y sacarlas rápidamente. Es complejo referirse a esas tramitaciones en estos minutos, pero van avanzando. Hay un consenso en este país de dar más herramientas y facultades a las policías : recordemos que la principal preocupación de los chilenos es la seguridad, y ese clima ha ido cambiando, y paso a paso se han ido entregando más herramientas\". Arrau confirmó que viajará hasta Quilleco En paralelo, el secretario de Estado confirmó que entre hoy y mañana s e dirigirá hasta Quilleco para participar de los servicios fúnebres del sargento segundo Jaime Ariel Urrea Burgos. Asimismo, sostuvo que el Presidente José Antonio Kast está moviendo todos los aspectos en su agenda para participar de la ceremonia el miércoles. El biministro del Interior y Segpres, Claudio Alvarado , quien se encuentra en la Región de Aysén, informará en las próximas horas sobre el duelo nacional por el nuevo mártir de la institución.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-por-reforma-de-seguridad-nunca-hemos-responsabilizado-a-otros-por/2026-10-05/112919.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000220261005112919.jpg",
+          "published_raw": "Mon, 05 Oct 2026 11:29:19 -0300",
+          "published_at": "2026-10-05T11:29:19-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 8,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 3,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 17,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-003"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-028",
       "title": "Francia encara una nueva semana de protestas estudiantiles, las mayores en décadas",
       "url": "https://elpais.com/internacional/2026-10-05/francia-encara-una-nueva-semana-de-protestas-estudiantiles-las-mayores-en-decadas.html",
       "representative_source": "EL PAÍS",
@@ -438,12 +483,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 62.8,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 70.8
+        "score": 59.8,
+        "level": "MEDIA",
+        "editorial_utility": 67.8
       },
       "selection": {
-        "reason": "PML 62.8; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 59.8; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -494,13 +539,91 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
+          "cluster_id": "PML-EVENT-028"
         }
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-029",
+      "position": 4,
+      "cluster_id": "PML-EVENT-037",
+      "title": "Resultados de las elecciones en Brasil, en vivo | Trump: “Es una gran victoria, ajustada, pero una gran victoria. Increíble”",
+      "url": "https://elpais.com/america/2026-10-05/resultados-de-las-elecciones-en-brasil-en-vivo.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / América Latina"
+      },
+      "relevance": {
+        "score": 67.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 65.2
+      },
+      "selection": {
+        "reason": "PML 67.2; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-05T20:08:28-0300",
+      "last_seen": "2026-10-05T20:08:28-0300",
+      "entities": [
+        "brasil",
+        "trump",
+        "bolsonaro",
+        "lula"
+      ],
+      "event_terms": "victoria",
+      "analysis": {
+        "summary": "La Bolsa de São Paulo y el real reciben con subidas la victoria parcial de Flávio Bolsonaro (47%) sobre el presidente Lula (45%) en la primera vuelta | Bolsonaro padre pide al juez que autorice una visita de su hijo",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Resultados de las elecciones en Brasil, en vivo | Trump: “Es una gran victoria, ajustada, pero una gran victoria. Increíble”",
+          "description": "La Bolsa de São Paulo y el real reciben con subidas la victoria parcial de Flávio Bolsonaro (47%) sobre el presidente Lula (45%) en la primera vuelta | Bolsonaro padre pide al juez que autorice una visita de su hijo",
+          "url": "https://elpais.com/america/2026-10-05/resultados-de-las-elecciones-en-brasil-en-vivo.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/4PTBDZHQJRMPHEQQBDUIO7I2ME.jpg?auth=ea666dc05d16ef98823e62958f116dcae8559d1e6f06d16027141d9472d82eb4",
+          "published_raw": "Mon, 05 Oct 2026 23:08:28 GMT",
+          "published_at": "2026-10-05T20:08:28-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-037"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-031",
       "title": "¿Qué es real y qué es falso? el uso de la IA en las elecciones brasileñas",
       "url": "https://www.france24.com/es/programas/en-foco/20261005-qu%C3%A9-es-real-y-qu%C3%A9-es-falso-el-uso-de-la-ia-en-las-elecciones-brasile%C3%B1as",
       "representative_source": "France 24",
@@ -511,12 +634,12 @@
         "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 65.2,
+        "score": 63.5,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 69.2
+        "editorial_utility": 59.5
       },
       "selection": {
-        "reason": "PML 65.2; aporta diversidad temática",
+        "reason": "PML 63.5",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -570,155 +693,6 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-004",
-      "title": "Arrau por reforma de seguridad: Nunca hemos responsabilizado a otros por nuestra gestión",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-por-reforma-de-seguridad-nunca-hemos-responsabilizado-a-otros-por/2026-10-05/112919.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 65.8,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 68.8
-      },
-      "selection": {
-        "reason": "PML 65.8; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-10-05T11:29:19-0300",
-      "last_seen": "2026-10-05T11:29:19-0300",
-      "entities": "congreso",
-      "event_terms": [],
-      "analysis": {
-        "summary": "El ministro de Seguridad Pública, Martín Arrau , respondió a las críticas de la senadora Paulina Vodanovic (PS)  respecto a la reforma constitucional de seguridad , en el marco de la contingencia por el asesinato del sargento segundo en un procedimiento por violencia intrafamiliar en Quilleco , Región del Biobío.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Arrau por reforma de seguridad: Nunca hemos responsabilizado a otros por nuestra gestión",
-          "description": "El ministro de Seguridad Pública, Martín Arrau , respondió a las críticas de la senadora Paulina Vodanovic (PS)  respecto a la reforma constitucional de seguridad , en el marco de la contingencia por el asesinato del sargento segundo en un procedimiento por violencia intrafamiliar en Quilleco , Región del Biobío. \"Agradecemos la gestión y los proyectos de ley que se votan en el Congreso, pero nunca hemos responsabilizado a otros por nuestra gestión, ni menos centrado el accionar del programa de gobierno y lo que estamos haciendo en responsabilizar a otros, sino que en nosotros mismos y en la gestión ejecutiva que se está haciendo\", aseveró el secretario de Estado. Arrau abordó las críticas de la presidenta del Partido Socialista, quien señaló que el Gobierno estaría planteando excusas para avanzar en la gestión de seguridad , sobre todo en la reforma constitucional que deberían plantear los senadores del a Comisión de Constitución -de la que también es parte Vodanovic, y de la que distanció- en los próximos días. Arrau confirmó que viajará hasta Quilleco En paralelo, el secretario de Estado confirmó que entre hoy y mañana s e dirigirá hasta Quilleco para participar de los servicios fúnebres del sargento segundo Jaime Ariel Urrea Burgos. Asimismo, sostuvo que el Presidente José Antonio Kast está moviendo todos los aspectos en su agenda para participar de la ceremonia el miércoles. El biministro del Interior y Segpres, Claudio Alvarado , quien se encuentra en la Región de Aysén, informará en las próximas horas sobre el duelo nacional por el nuevo mártir de la institución.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-por-reforma-de-seguridad-nunca-hemos-responsabilizado-a-otros-por/2026-10-05/112919.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000220261005112919.jpg",
-          "published_raw": "Mon, 05 Oct 2026 11:29:19 -0300",
-          "published_at": "2026-10-05T11:29:19-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 8,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 5,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 16,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-031",
-      "title": "Lula admite que el resultado electoral es “inesperado” y ataca a Bolsonaro por sus lazos con el crimen",
-      "url": "https://elpais.com/america/2026-10-05/lula-califica-de-inesperado-el-resultado-electoral-y-ataca-a-flavio-por-sus-lazos-con-el-crimen.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "CONFLICT_ESCALATION",
-      "geography": {
-        "group": "América Latina",
-        "country": "No identificado / América Latina"
-      },
-      "relevance": {
-        "score": 60.1,
-        "level": "MEDIA",
-        "editorial_utility": 59.1
-      },
-      "selection": {
-        "reason": "PML 60.1; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-04T23:06:38-0300",
-      "last_seen": "2026-10-04T23:06:38-0300",
-      "entities": [
-        "lula",
-        "bolsonaro"
-      ],
-      "event_terms": "eleccion",
-      "analysis": {
-        "summary": "El presidente acusa a su rival de tener “una biografía tenebrosa, con vínculos tenebrosos” y llama a votar en la segunda vuelta a los que se abstuvieron",
-        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / América Latina.",
-        "watch_next": [
-          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
-          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Lula admite que el resultado electoral es “inesperado” y ataca a Bolsonaro por sus lazos con el crimen",
-          "description": "El presidente acusa a su rival de tener “una biografía tenebrosa, con vínculos tenebrosos” y llama a votar en la segunda vuelta a los que se abstuvieron",
-          "url": "https://elpais.com/america/2026-10-05/lula-califica-de-inesperado-el-resultado-electoral-y-ataca-a-flavio-por-sus-lazos-con-el-crimen.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/YX4F77HOZRDDHB4RAHES32RQTY.jpg?auth=bb7490cbdae85df999f156781c8235407ed4a4bb4f64e22a0ed16964c479e941",
-          "published_raw": "Mon, 05 Oct 2026 02:06:38 GMT",
-          "published_at": "2026-10-04T23:06:38-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
           "cluster_id": "PML-EVENT-031"
         }
       ]
@@ -743,11 +717,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 61.2,
+          "score": 58.7,
           "level": "MEDIA",
           "components": {
             "political_impact": 88,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 48
@@ -798,12 +772,84 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 83.2
+          "chile_utility": 80.7
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
+        "cluster_id": "PML-EVENT-005",
+        "title": "Comienza la discusión del Presupuesto: Quiroz dispuesto a \"perfeccionar, manteniendo la restricción general\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/comienza-la-discusion-del-presupuesto-quiroz-dispuesto-a-perfeccionar/2026-10-05/194548.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 55,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 50,
+            "freshness": 100,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-05T19:45:48-0300",
+        "last_seen": "2026-10-05T19:45:48-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Comienza la discusión del Presupuesto: Quiroz dispuesto a \"perfeccionar, manteniendo la restricción general\"",
+            "description": "De cara al inicio de la  discusión del proyecto de Ley de Presupuestos del Sector Público 2027 , el ministro de Hacienda, Jorge Quiroz , afirmó este lunes que el Ejecutivo está abierto a perfeccionar su propuesta en el Congreso , pero exigirá respetar estrictamente la disciplina fiscal . La iniciativa -cuyos ejes principales fueron explicados por el Presidente José Antonio Kast la semana pasada en cadena nacional - fue publicada esta tarde, con el detalle de su articulado y de sus partidas, y contempla un gasto total neto de 105,8 billones de pesos . #Presupuesto2027 Ya está disponible en nuestro sitio web el proyecto de ley de Presupuestos 2027 con sus partidas correspondientes: https://t.co/rMkNBzieJv https://t.co/LLB4ArPBKk — Diputadas y Diputados de Chile (@Camara_cl) October 5, 2026 La discusión formal continuará en comisión especial mixta, instancia que este martes recibirá las exposiciones de Quiroz y del director de Presupuestos, José Pablo Gómez , para especificar el estado de los ingresos, el endeudamiento público y el desglose de las partidas sectoriales. El proyecto de presupuestos 2027 presentado por el Gobierno incluye un monto neto de 105,8 billones de pesos y 6297 millones de dólares. @Cooperativa — Jorge Espinoza Cuellar (@espinozacuellar) October 5, 2026 \"Estamos en una etapa inicial del proceso, donde se entra a discutir este Presupuesto a nivel de las distintas subcomisiones. Les corresponde a los ministros explicar el presupuesto de cada partida, de cada asignación y les corresponde a los parlamentarios hacer los comentarios y aportes correspondientes\" , comentó Quiroz. \" En este proceso estamos siempre llanos a escuchar, a perfeccionar todos los temas, pero siempre manteniendo la restricción general \", advirtió el jefe de la billetera fiscal. Bassa: \"No nos vengan a mentir\" Uno de los flancos más complejos del erario apunta a la reducción de partidas sociales y el rediseño de programas emblemáticos, entre los que destaca la eliminación de fondos para la continuidad de \"Yo elijo mi PC\" , que   ha generado posturas encontradas en el Parlamento. Desde la coalición de Gobierno, el diputado Fernando Ugarte (Partido Republicano) respaldó la revisión del beneficio argumentando que \" el programa ya ha sido sujeto a evaluación no solo el segundo Gobierno de Sebastián Piñera, sino que también el gobierno de Gabriel Boric, y ambos informes dicen que en temas educativos no es un gran aporte\". Por el contrario, desde el Frente Amplio, el diputado Jaime Bassa rechazó enérgicamente la supresión de la entrega de equipos tecnológicos a estudiantes: \"Que no me vengan a mentir con las condiciones materiales de vida de la población, porque esa autoridad que está hablando sabe perfectamente bien que su hijo sí tiene computadora, tablet, acceso a tecnología e Internet. No nos vengan a mentir a nosotros con que eso no es necesario y que no genera mejores condiciones para estudiar porque eso es mentira; es mentirle a la población en la cara \", fustigó.",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/comienza-la-discusion-del-presupuesto-quiroz-dispuesto-a-perfeccionar/2026-10-05/194548.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000220261005194548.jpg",
+            "published_raw": "Mon, 05 Oct 2026 19:45:48 -0300",
+            "published_at": "2026-10-05T19:45:48-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 9,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 0,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-005"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 18,
+          "labels": [
+            "Estado e instituciones",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 73
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
         "cluster_id": "PML-EVENT-001",
         "title": "Ubilla defiende crítica de Matthei: \"Una cosa es apoyar a un candidato y otra es pensar igual\"",
         "topic": "Instituciones y gobierno",
@@ -815,11 +861,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.1,
+          "score": 52.4,
           "level": "MEDIA",
           "components": {
             "political_impact": 50,
-            "freshness": 95,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 34
@@ -870,79 +916,7 @@
             "Estado e instituciones",
             "Elecciones y opinión pública"
           ],
-          "chile_utility": 73.1
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-009",
-        "title": "Partido Liberal por \"Yo Elijo Mi PC\": ¿Cómo nadie alertó del impacto político?",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/partido-liberal-por-yo-elijo-mi-pc-como-nadie-alerto-del-impacto/2026-10-05/115441.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 53.8,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 50,
-            "freshness": 95,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 30
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-05T11:54:41-0300",
-        "last_seen": "2026-10-05T11:54:41-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Partido Liberal por \"Yo Elijo Mi PC\": ¿Cómo nadie alertó del impacto político?",
-            "description": "El director ejecutivo de Fábrica Chile, centro de pensamiento vinculado al Partido Liberal, Nicolás Freire , cuestionó este lunes en El Primer Café la gestión de riesgos del Gobierno ante la decisión de terminar con el programa \"Yo Elijo Mi PC\", al considerar que el Ejecutivo debió anticipar el impacto político de una medida que generó críticas dentro de sus propias filas. \"Yo creo que no es tan comunicacional el problema en este caso en el Gobierno en lo específico; tiene que ver con gestión de riesgo \", sostuvo. Freire puso el foco en el valor simbólico de la entrega de computadores y en la reacción que provocó entre los sectores que respaldan al Ejecutivo, incluyendo las críticas de diputados de la UDI a los recortes en educación . \"¿Cómo nadie alertó respecto de que esto iba a ser no solo que surgieran críticas de la oposición, que no es de lo que estamos hablando, sino que se desordenara y se desordenara de manera bastante elocuente el propio oficialismo ?\", preguntó. Freire valoró que representantes de Chile Vamos cuestionaran la eliminación del programa y planteó que su aporte debe analizarse considerando las necesidades de acceso digital, especialmente en sectores rurales. \"La interfaz de poder llegar a la inteligencia artificial, de poder conectarte con el mundo, se da a través de un dispositivo\", afirmó. Asimismo, discrepó de que una evaluación negativa deba cerrar la discusión sobre la continuidad de una iniciativa de estas características. \"Revisemos también el instrumento de evaluación, porque ahí sí muchas veces se utilizan instrumentos de evaluación del siglo pasado para ver el alcance de políticas o de programas que en realidad no tienen una trayectoria de medición igual que los demás\", señaló. Ubilla: \"Después falta el relato\" El director del área de Política y Sociedad Civil de Libertad y Desarrollo, Rodrigo Ubilla, cuestionó la comunicación posterior a la presentación del presupuesto , aunque consideró que el Presidente José Antonio Kast estableció adecuadamente sus prioridades generales. \"Creo que el marco está bien planteado por el Presidente, pero lo que pasa es que después falta el relato \", expresó. A su juicio, conocer solamente el cierre de un programa impide comprender qué beneficios se buscan con la reasignación de recursos. \"Creo que aquí faltó algo que yo me imaginé que iba a suceder, que era una especie como de relato sectorial. Es decir, vamos a tener que hacer ajustes en educación, sí, pero los dineros quedan en educación \", planteó. Ubilla pidió que las autoridades expliquen durante la tramitación presupuestaria tanto los costos de las decisiones como las prioridades que se financiarán. El representante de Libertad y Desarrollo añadió que, ante una evaluación negativa, suspender el financiamiento es una opción, pero también cabe explorar alternativas. Arqueros propone rediseñar la estrategia digital El director de formación de la Fundación Jaime Guzmán, Claudio Arqueros, pidió prudencia mientras se conoce el detalle de la propuesta y planteó aprovechar la discusión para revisar las políticas destinadas a reducir las brechas digitales. \" Quizás tenemos aquí una oportunidad para rediseñar la estrategia de brechas digitales\" , sostuvo afirmando que \"debiéramos pensar cómo conectar a la inteligencia artificial, cómo relacionarlos con eso\". Ruz pide claridad sobre el rumbo de la política fiscal El presidente del directorio de Democracia y Comunidad, Luis Ruz, sostuvo que el primer presupuesto elaborado por el Gobierno constituye una declaración política y que la discusión debe considerar los efectos de los ajustes sobre quienes dependen del gasto público. \"El problema que tiene el Gobierno no es solamente hacer un presupuesto consistente, que sea focalizado el gasto, que todos estamos de acuerdo en eso, sino que es decirnos y explicarnos hacia dónde quiere conducir su política fiscal y qué va a hacer en estricto rigor con el presupuesto de la nación \", afirmó. Ruz también llamó a considerar las dificultades de acceso a equipamiento tecnológico en zonas alejadas y advirtió que los recortes deben evaluarse en función de sus consecuencias sobre la inversión y el empleo. Su preocupación, sostuvo, es que el presupuesto \"no se transforme finalmente en un retroceso, como ya lo estamos viendo, y que lo terminan pagando aquellos que dependen precisamente del gasto y la inversión pública\". La controversia también llevó a que diputados de oposición, desde el PC hasta el PDG, solicitaran al Gobierno dejar sin efecto el fin de \"Yo Elijo Mi PC\" .",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/partido-liberal-por-yo-elijo-mi-pc-como-nadie-alerto-del-impacto/2026-10-05/115441.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000001420261005115441.jpg",
-            "published_raw": "Mon, 05 Oct 2026 11:54:41 -0300",
-            "published_at": "2026-10-05T11:54:41-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 3,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 3,
-            "score_ideology": 1,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 12,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-009"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 19,
-          "labels": [
-            "Estado e instituciones",
-            "Elecciones y opinión pública"
-          ],
-          "chile_utility": 72.8
+          "chile_utility": 71.4
         },
         "repeated_in_general_top5": false
       }
@@ -950,27 +924,27 @@
   },
   "topics": [
     {
-      "topic": "Instituciones y gobierno",
-      "event_count": 24,
-      "maximum_relevance": 77.2,
-      "leading_story": "Resultados de las elecciones en Brasil, en vivo| La Bolsa de São Paulo y el real reciben con subidas la victoria parcial de Bolsonaro"
+      "topic": "Elecciones y opinión pública",
+      "event_count": 14,
+      "maximum_relevance": 67.7,
+      "leading_story": "Los candidatos derrotados de la derecha en Brasil evitan pedir el voto para Bolsonaro en la segunda vuelta"
     },
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 11,
-      "maximum_relevance": 65.2,
-      "leading_story": "¿Qué es real y qué es falso? el uso de la IA en las elecciones brasileñas"
+      "topic": "Instituciones y gobierno",
+      "event_count": 24,
+      "maximum_relevance": 67.2,
+      "leading_story": "Resultados de las elecciones en Brasil, en vivo | Trump: “Es una gran victoria, ajustada, pero una gran victoria. Increíble”"
     },
     {
       "topic": "Conflictos y seguridad",
-      "event_count": 2,
-      "maximum_relevance": 62.8,
+      "event_count": 1,
+      "maximum_relevance": 59.8,
       "leading_story": "Francia encara una nueva semana de protestas estudiantiles, las mayores en décadas"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 2,
-      "maximum_relevance": 57,
+      "maximum_relevance": 54,
       "leading_story": "Paraguay, refugio fiscal y político para la extrema derecha brasileña"
     },
     {
