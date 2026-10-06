@@ -3,38 +3,38 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-10-05",
-    "data_latest_timestamp": "2026-10-05T21:07:54-0300",
-    "data_age_hours": 9.1,
-    "generated_at": "2026-10-06T06:16:32-0300",
+    "date": "2026-10-06",
+    "data_latest_timestamp": "2026-10-06T08:57:43-0300",
+    "data_age_hours": 0.4,
+    "generated_at": "2026-10-06T09:19:14-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": true
+    "editorial_topic_diversity_met": false
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 43 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 44 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 43,
-    "topics": 3,
+    "ranked_events": 44,
+    "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 64.4,
-    "maximum_relevance": 67.7
+    "average_top5_relevance": 63,
+    "maximum_relevance": 67.6
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-009",
-      "title": "Los candidatos derrotados de la derecha en Brasil evitan pedir el voto para Bolsonaro en la segunda vuelta",
-      "url": "https://elpais.com/america/2026-10-05/los-candidatos-derrotados-de-la-derecha-en-brasil-evitan-pedir-el-voto-para-bolsonaro-en-la-segunda-vuelta.html",
+      "cluster_id": "PML-EVENT-010",
+      "title": "¿Qué decidirá Brasil en la segunda vuelta? La victoria de Flávio Bolsonaro y la caída de Lula, en gráficos",
+      "url": "https://elpais.com/america/2026-10-05/que-decidira-brasil-en-la-segunda-vuelta-la-victoria-de-flavio-bolsonaro-y-la-caida-de-lula-en-graficos.html",
       "representative_source": "EL PAÍS",
       "topic": "Elecciones y opinión pública",
       "event_type": "GENERAL_POLITICAL_EVENT",
@@ -43,18 +43,18 @@
         "country": "Brasil / América Latina / No identificado"
       },
       "relevance": {
-        "score": 67.7,
+        "score": 64.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 71.7
+        "editorial_utility": 68.4
       },
       "selection": {
-        "reason": "PML 67.7; multifuente",
+        "reason": "PML 64.4; multifuente",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 11,
+        "article_count": 8,
         "source_count": 2,
         "sources": [
           "France 24",
@@ -72,10 +72,7 @@
         "iran",
         "trump"
       ],
-      "event_terms": [
-        "victoria",
-        "eleccion"
-      ],
+      "event_terms": "victoria",
       "analysis": {
         "summary": "El Partido Liberal, plataforma de la candidatura presidencial de Flávio Bolsonaro, consiguió 121 escaños en la Cámara de Diputados y pasó de 15 a 28 asientos en el Senado, lo que se traduce en la mayor representación de un solo partido en ambas cámaras en casi 40 años. Con el apoyo de otras fuerzas de tendencia conservadora, Bolsonaro garantizaría así una cómoda gobernabilidad, en caso de ser electo presidente, y podría perseguir, incluso, la prometida amnistía a su padre.",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina / No identificado.",
@@ -113,7 +110,7 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-009"
+          "cluster_id": "PML-EVENT-010"
         },
         {
           "source_id": "france24_latam",
@@ -141,63 +138,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-009"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Videoanálisis | Lula se enfrenta a una segunda vuelta electoral muy complicada",
-          "description": "El senador Flávio Bolsonaro, de 45 años, ha ganado la primera vuelta de las elecciones presidenciales de Brasil con el 47,1% de los votos válidos, frente al 45% del presidente Luiz Inácio Lula da Silva, de 80 años",
-          "url": "https://elpais.com/america/2026-10-05/videoanalisis-lula-se-enfrenta-a-una-segunda-vuelta-electoral-muy-complicada.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/HAIAYJEB3FE4DDS5F7WFNXG4ZA.jpg?auth=ba561a4a2ef7d2da6c81c7c71af2fa59ca9a8539cd95bd8543c6d6a1a24e8c6d",
-          "published_raw": "Mon, 05 Oct 2026 04:08:10 GMT",
-          "published_at": "2026-10-05T01:08:10-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 3,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 6,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-009"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "La victoria en primera vuelta de Bolsonaro impulsa a la ola ultra de América Latina",
-          "description": "El senador va a la segunda vuelta por delante del presidente Lula, además de ampliar el poder del clan en el Congreso y los Estados",
-          "url": "https://elpais.com/america/2026-10-05/la-victoria-en-primera-vuelta-de-bolsonaro-impulsa-a-la-ola-ultra-de-america-latina.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/S2OAJPSL35MNZM6JTODKIGQ3ZI.jpg?auth=7a0beebc8781d6ac1f4749b09797eff0114e7752f07a91cc462f70b8aeca0d29",
-          "published_raw": "Mon, 05 Oct 2026 20:38:40 GMT",
-          "published_at": "2026-10-05T17:38:40-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-009"
+          "cluster_id": "PML-EVENT-010"
         },
         {
           "source_id": "france24_latam",
@@ -225,7 +166,7 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-009"
+          "cluster_id": "PML-EVENT-010"
         },
         {
           "source_id": "france24_latam",
@@ -253,35 +194,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-009"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Los candidatos derrotados de la derecha en Brasil evitan pedir el voto para Bolsonaro en la segunda vuelta",
-          "description": "Los descalificados, que suman el 8%, se declaran neutrales, pero es probable que buena parte de sus electores migren ahora hacia el bolsonarismo",
-          "url": "https://elpais.com/america/2026-10-05/los-candidatos-derrotados-de-la-derecha-en-brasil-evitan-pedir-el-voto-para-bolsonaro-en-la-segunda-vuelta.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/JI3ZZPJMM5JC3M7TY2W4QCQHUM.jpg?auth=9869862f732b6b856502092cfea11ca5e73279fb79884d9fa70ebad27289befb",
-          "published_raw": "Mon, 05 Oct 2026 23:05:05 GMT",
-          "published_at": "2026-10-05T20:05:05-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-009"
+          "cluster_id": "PML-EVENT-010"
         },
         {
           "source_id": "france24_latam",
@@ -309,7 +222,7 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-009"
+          "cluster_id": "PML-EVENT-010"
         },
         {
           "source_id": "france24_latam",
@@ -337,7 +250,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-009"
+          "cluster_id": "PML-EVENT-010"
         },
         {
           "source_id": "elpais_america",
@@ -345,7 +258,7 @@
           "title": "¿Qué decidirá Brasil en la segunda vuelta? La victoria de Flávio Bolsonaro y la caída de Lula, en gráficos",
           "description": "El candidato ultraderechista supera a las encuestas previas con casi dos puntos de ventaja sobre Lula, y las apuestas lo dan como favorito para la segunda vuelta",
           "url": "https://elpais.com/america/2026-10-05/que-decidira-brasil-en-la-segunda-vuelta-la-victoria-de-flavio-bolsonaro-y-la-caida-de-lula-en-graficos.html",
-          "image_url": "",
+          "image_url": "https://imagenes.elpais.com/resizer/5hJD2yMza7j20_MFLGdPO2Lb0R8=/arc-anglerfish-eu-central-1-prod-prisa/public/KOHNXN66HFBITGZ3NA6GOBGMHI.jpg",
           "published_raw": "Mon, 05 Oct 2026 19:41:02 GMT",
           "published_at": "2026-10-05T16:41:02-0300",
           "country": "No identificado",
@@ -365,7 +278,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-009"
+          "cluster_id": "PML-EVENT-010"
         },
         {
           "source_id": "france24_latam",
@@ -393,29 +306,29 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-009"
+          "cluster_id": "PML-EVENT-010"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-003",
-      "title": "Arrau por reforma de seguridad: Nunca hemos responsabilizado a otros por nuestra gestión",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-por-reforma-de-seguridad-nunca-hemos-responsabilizado-a-otros-por/2026-10-05/112919.html",
-      "representative_source": "Cooperativa",
+      "cluster_id": "PML-EVENT-036",
+      "title": "El Constitucional ordena al Supremo que amnistíe la malversación del ‘procés’",
+      "url": "https://elpais.com/espana/2026-10-06/via-libre-al-regreso-de-puigdemont-el-constitucional-ordena-al-supremo-que-amnistie-la-malversacion-del-proces.html",
+      "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
-        "group": "Chile",
-        "country": "Chile"
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 64,
+        "score": 67.6,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 76
+        "editorial_utility": 75.6
       },
       "selection": {
-        "reason": "PML 64; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 67.6; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -423,15 +336,18 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "Cooperativa"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-05T11:29:19-0300",
-      "last_seen": "2026-10-05T11:29:19-0300",
-      "entities": "congreso",
-      "event_terms": [],
+      "first_seen": "2026-10-06T08:57:43-0300",
+      "last_seen": "2026-10-06T08:57:43-0300",
+      "entities": "supremo",
+      "event_terms": [
+        "supremo",
+        "tribunal"
+      ],
       "analysis": {
-        "summary": "El ministro de Seguridad Pública, Martín Arrau , respondió a las críticas de la senadora Paulina Vodanovic (PS)  respecto a la reforma constitucional de seguridad , en el marco de la contingencia por el asesinato del sargento segundo en un procedimiento por violencia intrafamiliar en Quilleco , Región del Biobío.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "summary": "Con siete votos a favor y cinco en contra, el tribunal ampara a la exconsejera Dolors Bassa y fija la doctrina de la que se beneficia el ‘expresident’ fugado",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
           "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
@@ -441,127 +357,54 @@
       },
       "articles": [
         {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Arrau por reforma de seguridad: Nunca hemos responsabilizado a otros por nuestra gestión",
-          "description": "El ministro de Seguridad Pública, Martín Arrau , respondió a las críticas de la senadora Paulina Vodanovic (PS)  respecto a la reforma constitucional de seguridad , en el marco de la contingencia por el asesinato del sargento segundo en un procedimiento por violencia intrafamiliar en Quilleco , Región del Biobío. \"Agradecemos la gestión y los proyectos de ley que se votan en el Congreso, pero nunca hemos responsabilizado a otros por nuestra gestión, ni menos centrado el accionar del programa de gobierno y lo que estamos haciendo en responsabilizar a otros, sino que en nosotros mismos y en la gestión ejecutiva que se está haciendo\", aseveró el secretario de Estado. Arrau abordó las críticas de la presidenta del Partido Socialista, quien señaló que el Gobierno estaría planteando excusas para avanzar en la gestión de seguridad , sobre todo en la reforma constitucional que deberían plantear los senadores del a Comisión de Constitución -de la que también es parte Vodanovic, y de la que distanció- en los próximos días. \"El compromiso desde el Gobierno está en hacer los cambios necesarios para que las policías tengan más herramientas , y los estamos haciendo desde el punto de vista legal, de medios y en este caso, también con las querellas y las cosas que corresponden, que la verdad son importantes, pero no van a devolverle la vida al sargento segundo agradezco el compromiso de muchos parlamentarios, ya que en muchas de estas leyes que he mencionado sí ha habido un acuerdo en el último tiempo\", profundizó. El titular de Seguridad Pública destacó que \"si bien algunas llevan esperando dos o tres años, ha habido consenso en las últimas semanas, y hemos podido articularlas y sacarlas rápidamente. Es complejo referirse a esas tramitaciones en estos minutos, pero van avanzando. Hay un consenso en este país de dar más herramientas y facultades a las policías : recordemos que la principal preocupación de los chilenos es la seguridad, y ese clima ha ido cambiando, y paso a paso se han ido entregando más herramientas\". Arrau confirmó que viajará hasta Quilleco En paralelo, el secretario de Estado confirmó que entre hoy y mañana s e dirigirá hasta Quilleco para participar de los servicios fúnebres del sargento segundo Jaime Ariel Urrea Burgos. Asimismo, sostuvo que el Presidente José Antonio Kast está moviendo todos los aspectos en su agenda para participar de la ceremonia el miércoles. El biministro del Interior y Segpres, Claudio Alvarado , quien se encuentra en la Región de Aysén, informará en las próximas horas sobre el duelo nacional por el nuevo mártir de la institución.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-por-reforma-de-seguridad-nunca-hemos-responsabilizado-a-otros-por/2026-10-05/112919.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000220261005112919.jpg",
-          "published_raw": "Mon, 05 Oct 2026 11:29:19 -0300",
-          "published_at": "2026-10-05T11:29:19-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 8,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 3,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 5,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 17,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-028",
-      "title": "Francia encara una nueva semana de protestas estudiantiles, las mayores en décadas",
-      "url": "https://elpais.com/internacional/2026-10-05/francia-encara-una-nueva-semana-de-protestas-estudiantiles-las-mayores-en-decadas.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Conflictos y seguridad",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 59.8,
-        "level": "MEDIA",
-        "editorial_utility": 67.8
-      },
-      "selection": {
-        "reason": "PML 59.8; aporta diversidad temática; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-05T14:45:11-0300",
-      "last_seen": "2026-10-05T14:45:11-0300",
-      "entities": [],
-      "event_terms": "protestas",
-      "analysis": {
-        "summary": "El Gobierno de Macron es criticado por la dura represión policial. El martes se celebrará una gran manifestación nacional para reivindicar más inversiones",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Francia encara una nueva semana de protestas estudiantiles, las mayores en décadas",
-          "description": "El Gobierno de Macron es criticado por la dura represión policial. El martes se celebrará una gran manifestación nacional para reivindicar más inversiones",
-          "url": "https://elpais.com/internacional/2026-10-05/francia-encara-una-nueva-semana-de-protestas-estudiantiles-las-mayores-en-decadas.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/IU3VECMUIBPMBJCA6YJF4SWBDA.jpg?auth=64d5dc61f6c91adfd8e17b3011d090da6a08511a675077a3b2513c23760905f4",
-          "published_raw": "Mon, 05 Oct 2026 17:45:11 GMT",
-          "published_at": "2026-10-05T14:45:11-0300",
+          "title": "El Constitucional ordena al Supremo que amnistíe la malversación del ‘procés’",
+          "description": "Con siete votos a favor y cinco en contra, el tribunal ampara a la exconsejera Dolors Bassa y fija la doctrina de la que se beneficia el ‘expresident’ fugado",
+          "url": "https://elpais.com/espana/2026-10-06/via-libre-al-regreso-de-puigdemont-el-constitucional-ordena-al-supremo-que-amnistie-la-malversacion-del-proces.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/EMOIQR4YHNBUHIQYFHABQX7TZ4.jpg?auth=ed475333a02179221cce292fee03379144cc5f53d07460a412d9e3985095afeb",
+          "published_raw": "Tue, 06 Oct 2026 11:57:43 GMT",
+          "published_at": "2026-10-06T08:57:43-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
-          "score_institutional": 1,
+          "score_institutional": 3,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 3,
+          "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Instituciones y gobierno",
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
+          "cluster_id": "PML-EVENT-036"
         }
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-037",
-      "title": "Resultados de las elecciones en Brasil, en vivo | Trump: “Es una gran victoria, ajustada, pero una gran victoria. Increíble”",
-      "url": "https://elpais.com/america/2026-10-05/resultados-de-las-elecciones-en-brasil-en-vivo.html",
+      "position": 3,
+      "cluster_id": "PML-EVENT-021",
+      "title": "Así gestó Sánchez el adelanto electoral: “Este Congreso no nos vale, tenemos que ir a elecciones, podemos ganar”",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/asi-gesto-sanchez-el-adelanto-electoral-este-congreso-no-nos-vale-tenemos-que-ir-a-elecciones-podemos-ganar.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "ELECTORAL_EVENT",
       "geography": {
-        "group": "América Latina",
-        "country": "No identificado / América Latina"
+        "group": "Chile",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 67.2,
+        "score": 63.3,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 65.2
+        "editorial_utility": 66.3
       },
       "selection": {
-        "reason": "PML 67.2; nuevo tipo de evento",
+        "reason": "PML 63.3; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -571,18 +414,13 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-05T20:08:28-0300",
-      "last_seen": "2026-10-05T20:08:28-0300",
-      "entities": [
-        "brasil",
-        "trump",
-        "bolsonaro",
-        "lula"
-      ],
-      "event_terms": "victoria",
+      "first_seen": "2026-10-06T00:30:01-0300",
+      "last_seen": "2026-10-06T00:30:01-0300",
+      "entities": "congreso",
+      "event_terms": "eleccion",
       "analysis": {
-        "summary": "La Bolsa de São Paulo y el real reciben con subidas la victoria parcial de Flávio Bolsonaro (47%) sobre el presidente Lula (45%) en la primera vuelta | Bolsonaro padre pide al juez que autorice una visita de su hijo",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "summary": "El presidente y su núcleo duro ya hablaban de elecciones el jueves por la tarde, cuando empezaron a conocer que Junts iba al ‘no’. Las dudas eran por cómo está la izquierda, pero nunca se vio otra opción más que convocar ya",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
           "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
@@ -594,35 +432,35 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Resultados de las elecciones en Brasil, en vivo | Trump: “Es una gran victoria, ajustada, pero una gran victoria. Increíble”",
-          "description": "La Bolsa de São Paulo y el real reciben con subidas la victoria parcial de Flávio Bolsonaro (47%) sobre el presidente Lula (45%) en la primera vuelta | Bolsonaro padre pide al juez que autorice una visita de su hijo",
-          "url": "https://elpais.com/america/2026-10-05/resultados-de-las-elecciones-en-brasil-en-vivo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/4PTBDZHQJRMPHEQQBDUIO7I2ME.jpg?auth=ea666dc05d16ef98823e62958f116dcae8559d1e6f06d16027141d9472d82eb4",
-          "published_raw": "Mon, 05 Oct 2026 23:08:28 GMT",
-          "published_at": "2026-10-05T20:08:28-0300",
+          "title": "Así gestó Sánchez el adelanto electoral: “Este Congreso no nos vale, tenemos que ir a elecciones, podemos ganar”",
+          "description": "El presidente y su núcleo duro ya hablaban de elecciones el jueves por la tarde, cuando empezaron a conocer que Junts iba al ‘no’. Las dudas eran por cómo está la izquierda, pero nunca se vio otra opción más que convocar ya",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/asi-gesto-sanchez-el-adelanto-electoral-este-congreso-no-nos-vale-tenemos-que-ir-a-elecciones-podemos-ganar.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/XGTLOQFBZRFMZGNQ2CEFBG4MJ4.JPG?auth=2c0cf6c2847036062ba486a0da4c5fea28f482c3016513f63b213dd98e593ba1",
+          "published_raw": "Tue, 06 Oct 2026 03:30:01 GMT",
+          "published_at": "2026-10-06T00:30:01-0300",
           "country": "No identificado",
-          "region": "América Latina",
+          "region": "Internacional",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
+          "score_institutional": 2,
+          "score_elections": 2,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
-          "score_ideology": 0,
+          "score_ideology": 1,
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 6,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-037"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-021"
         }
       ]
     },
     {
-      "position": 5,
+      "position": 4,
       "cluster_id": "PML-EVENT-031",
       "title": "¿Qué es real y qué es falso? el uso de la IA en las elecciones brasileñas",
       "url": "https://www.france24.com/es/programas/en-foco/20261005-qu%C3%A9-es-real-y-qu%C3%A9-es-falso-el-uso-de-la-ia-en-las-elecciones-brasile%C3%B1as",
@@ -634,12 +472,12 @@
         "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 63.5,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 59.5
+        "score": 59.5,
+        "level": "MEDIA",
+        "editorial_utility": 54.5
       },
       "selection": {
-        "reason": "PML 63.5",
+        "reason": "PML 59.5",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -696,6 +534,79 @@
           "cluster_id": "PML-EVENT-031"
         }
       ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-004",
+      "title": "Arrau por reforma de seguridad: Nunca hemos responsabilizado a otros por nuestra gestión",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-por-reforma-de-seguridad-nunca-hemos-responsabilizado-a-otros-por/2026-10-05/112919.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 60,
+        "level": "MEDIA",
+        "editorial_utility": 55
+      },
+      "selection": {
+        "reason": "PML 60; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-10-05T11:29:19-0300",
+      "last_seen": "2026-10-05T11:29:19-0300",
+      "entities": "congreso",
+      "event_terms": [],
+      "analysis": {
+        "summary": "El ministro de Seguridad Pública, Martín Arrau , respondió a las críticas de la senadora Paulina Vodanovic (PS)  respecto a la reforma constitucional de seguridad , en el marco de la contingencia por el asesinato del sargento segundo en un procedimiento por violencia intrafamiliar en Quilleco , Región del Biobío.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Arrau por reforma de seguridad: Nunca hemos responsabilizado a otros por nuestra gestión",
+          "description": "El ministro de Seguridad Pública, Martín Arrau , respondió a las críticas de la senadora Paulina Vodanovic (PS)  respecto a la reforma constitucional de seguridad , en el marco de la contingencia por el asesinato del sargento segundo en un procedimiento por violencia intrafamiliar en Quilleco , Región del Biobío. \"Agradecemos la gestión y los proyectos de ley que se votan en el Congreso, pero nunca hemos responsabilizado a otros por nuestra gestión, ni menos centrado el accionar del programa de gobierno y lo que estamos haciendo en responsabilizar a otros, sino que en nosotros mismos y en la gestión ejecutiva que se está haciendo\", aseveró el secretario de Estado. Arrau abordó las críticas de la presidenta del Partido Socialista, quien señaló que el Gobierno estaría planteando excusas para avanzar en la gestión de seguridad , sobre todo en la reforma constitucional que deberían plantear los senadores del a Comisión de Constitución -de la que también es parte Vodanovic, y de la que distanció- en los próximos días. \"El compromiso desde el Gobierno está en hacer los cambios necesarios para que las policías tengan más herramientas , y los estamos haciendo desde el punto de vista legal, de medios y en este caso, también con las querellas y las cosas que corresponden, que la verdad son importantes, pero no van a devolverle la vida al sargento segundo agradezco el compromiso de muchos parlamentarios, ya que en muchas de estas leyes que he mencionado sí ha habido un acuerdo en el último tiempo\", profundizó. El titular de Seguridad Pública destacó que \"si bien algunas llevan esperando dos o tres años, ha habido consenso en las últimas semanas, y hemos podido articularlas y sacarlas rápidamente. Es complejo referirse a esas tramitaciones en estos minutos, pero van avanzando. Hay un consenso en este país de dar más herramientas y facultades a las policías : recordemos que la principal preocupación de los chilenos es la seguridad, y ese clima ha ido cambiando, y paso a paso se han ido entregando más herramientas\". Arrau confirmó que viajará hasta Quilleco En paralelo, el secretario de Estado confirmó que entre hoy y mañana s e dirigirá hasta Quilleco para participar de los servicios fúnebres del sargento segundo Jaime Ariel Urrea Burgos. Asimismo, sostuvo que el Presidente José Antonio Kast está moviendo todos los aspectos en su agenda para participar de la ceremonia el miércoles. El biministro del Interior y Segpres, Claudio Alvarado , quien se encuentra en la Región de Aysén, informará en las próximas horas sobre el duelo nacional por el nuevo mártir de la institución.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/arrau-por-reforma-de-seguridad-nunca-hemos-responsabilizado-a-otros-por/2026-10-05/112919.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000220261005112919.jpg",
+          "published_raw": "Mon, 05 Oct 2026 11:29:19 -0300",
+          "published_at": "2026-10-05T11:29:19-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 8,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 3,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 17,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-004"
+        }
+      ]
     }
   ],
   "chile_brief": {
@@ -706,7 +617,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-007",
+        "cluster_id": "PML-EVENT-008",
         "title": "Reforma de seguridad: giro de La Moneda desata reparos en el PC y el PS",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -717,11 +628,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 58.7,
+          "score": 53.2,
           "level": "MEDIA",
           "components": {
             "political_impact": 88,
-            "freshness": 62,
+            "freshness": 40,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 48
@@ -761,7 +672,7 @@
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
+            "cluster_id": "PML-EVENT-008"
           }
         ],
         "article_count": 1,
@@ -772,13 +683,85 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 80.7
+          "chile_utility": 75.2
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-010",
+        "cluster_id": "PML-EVENT-001",
+        "title": "Presupuesto: Oposición cuestionó solicitud de endeudamiento por 25 mil millones de dólares",
+        "topic": "Instituciones y gobierno",
+        "event_type": "POLITICAL_STATEMENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-oposicion-cuestiono-solicitud-de-endeudamiento-por-25-mil/2026-10-06/080808.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 56.7,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 49,
+            "freshness": 100,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 50
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-06T08:08:08-0300",
+        "last_seen": "2026-10-06T08:08:08-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Presupuesto: Oposición cuestionó solicitud de endeudamiento por 25 mil millones de dólares",
+            "description": "El Congreso da inicio este martes a la tramitación legislativa del proyecto de Ley de Presupuestos 2027 , iniciativa que contempla un erario fiscal superior a los 105,8 billones de pesos y casi 6.300 millones de dólares . El ingreso formal del texto desató una controversia política en el Parlamento debido a la magnitud de los compromisos financieros solicitados por el Ejecutivo . La inquietud legislativa apunta de forma directa al artículo 3 de la propuesta presupuestaria, el cual autoriza al Presidente José Antonio Kast a contraer obligaciones por hasta 25 mil millones de dólares por concepto de endeudamiento , a los que se añaden otros 600 millones de dólares adicionales , totalizando 25.600 millones de la divisa estadounidense. La cifra representa un salto respecto del marco vigente , donde la ley autorizaba 17.400 millones de dólares , a los que posteriormente se sumó una ampliación de 6.200 millones solicitada durante el año y aprobada por el Congreso.   La diputada Gael Yeomans fustigó que el ministro Jorge Quiroz \"supuestamente no vino acá a endeudar al país\". (FOTO: ATON)   El margen de deuda desató críticas cruzadas, especialmente frente al contraste con el discurso económico sostenido durante la campaña electoral por la actual administración, que cuestionó al pasado gobierno de Gabriel Boric , acusando que las cuentas públicas se manejaban \"como un quiosco\" . Frente a este escenario, la presidenta del Frente Amplio e integrante de la Comisión Especial Mixta de Presupuestos , diputada Gael Yeomans , advirtió que \" lo que más nos tiene preocupados es el efecto que va a tener la reforma tributaria tan anhelada por el gobierno , porque si es que hay un aumento de la deuda, según lo que ingresa de la Ley de Presupuesto, al final del día la vamos a terminar pagando todos los chilenos , con tasas de interés que van a crecer y que van a terminar generando un impacto en la economía y también en las arcas fiscales \". \"Eso va a tener que ser respondido por parte del ministro Quiroz, que supuestamente no vino acá a endeudar al país, pero al final va a terminar haciéndolo si es que termina trasladando todo ese costo a la deuda \", puntualizó la parlamentaria. Frente a los reparos surgidos en la sede legislativa, el titular de Hacienda explicó que \" el aumento de deuda surge de un cálculo relativamente sencillo : hay que primero pagar deudas anteriores , y después hay que suplir el déficit más el gasto bajo la línea , y eso es \".   Ante los cuestionamientos, el jefe de las finanzas públicas argumentó que \"hay que primero pagar deudas anteriores\" y financiar el déficit. (FOTO: ATON)   En paralelo, en el Parlamento se instaló la interrogante sobre el destino de la emblemática promesa del Gobierno de recortar 6.000 millones de dólares del gasto fiscal en un plazo inicial de 18 meses . Desde el equipo económico se ha buscado matizar la medida, precisando que el ajuste no se aplicará sobre los gastos basales permanentes del Estado, sino que consistirá en contener la tasa de crecimiento del gasto futuro , asumiendo que las presiones presupuestarias tienden permanentemente al alza . Recorte de 95 mil millones de pesos a los Gores desata tensión El proyecto de Ley de Presupuestos 2027 también recibe críticas por parte de los Gobiernos Regionales (Gores) , luego de que se informara sus partidas destinadas sufrirán un recorte global de 95 mil millones de pesos respecto del periodo precedente . La cifra encendió las alarmas de los gobernadores regionales, quienes hicieron ver su molestia en reuniones previas con el ministro Quiroz , luego de que trascendieran los montos asignados. Frente al malestar, el Ejecutivo y parlamentarios del oficialismo salieron a defender un esquema de financiamiento condicionado que premia el cumplimiento de metas: si las regiones logran ejecutar la totalidad del gasto proyectado durante el primer semestre , podrán acceder a remesas adicionales .   El presidente de la Comisión Mixta, Javier Macaya, defendió el diseño de Hacienda supeditado a la ejecución de obras. (FOTO: ATON)   El presidente de la Comisión Especial Mixta de Presupuestos , senador Javier Macaya (UDI) , respaldó la estrategia implementada por el Ministerio de Hacienda, afirmando que \"acá hay una conversación que se está dando entre el ministro de Hacienda y los gobernadores, que va a permitir que incluso aquellos gobernadores que son capaces de ejecutar de buena manera obra pública y de inversión , van a recibir más plata que el año pasado . Tienen que ser capaces de demostrarlo, sí\". \"Me tocó recibir información respecto de la ejecución presupuestaria de algunos gobiernos regionales y, en algunos casos, deja bastante que desear. A mayor inversión , a mayor capacidad de ejecutar el gasto , yo creo que tienen que haber incentivos y premios y gatillos a mitad del próximo año para que aquellos gobernadores que han hecho la pega reciban más plata\", puntualizó el legislador. \"Yo tengo la esperanza que va a ser una buena discusión y voy a dar las garantías desde la presidencia de la comisión para eso\", puntualizó. Ajustes en Educación, Cultura y ministerios sectoriales El freno financiero no se limita a los fondos regionales. En el sector educativo, la ministra María Paz Arzola enfrentará cuestionamientos en las subcomisiones para explicar la disminución de un 46% en el presupuesto para los Liceos Bicentenario y el término del programa de entrega de computadores \"Yo Elijo Mi PC\" . Ajustes similares se registran en carteras como Culturas, Ciencias y el Ministerio de la Mujer, donde se consigna el término del financiamiento para la fundación Prodemu en marzo del próximo año . En este escenario de estrechez fiscal, las bancadas iniciaron la revisión detallada del proyecto de más de 1.000 páginas mediante herramientas de análisis digital . El Congreso dispone de un plazo de 60 días -hasta el 29 de noviembre- para despachar la ley. Según el ordenamiento constitucional vigente, los parlamentarios solo pueden aprobar , rebajar o rechazar partidas sin facultad de generar gasto nuevo , y de no concluirse el trámite a tiempo, el proyecto original del Ejecutivo regirá de forma automática.",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-oposicion-cuestiono-solicitud-de-endeudamiento-por-25-mil/2026-10-06/080808.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261006/imag/foto_0000000520261006080808.jpg",
+            "published_raw": "Tue, 06 Oct 2026 08:08:08 -0300",
+            "published_at": "2026-10-06T08:08:08-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 11,
+            "score_elections": 2,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 3,
+            "score_ideology": 0,
+            "score_actor": 8,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 24,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-001"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 18,
+          "labels": [
+            "Estado e instituciones",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 74.7
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-011",
         "title": "Comisión investigadora sobre los bots invitará a Matthei, Fontaine y \"Patito verde\"",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -789,11 +772,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.7,
-          "level": "MEDIA",
+          "score": 50.7,
+          "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 100,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 34
@@ -833,7 +816,7 @@
             "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-010"
+            "cluster_id": "PML-EVENT-011"
           }
         ],
         "article_count": 1,
@@ -844,79 +827,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 76.7
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-006",
-        "title": "Comienza la discusión del Presupuesto: Quiroz dispuesto a \"perfeccionar, manteniendo la restricción general\"",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/comienza-la-discusion-del-presupuesto-quiroz-dispuesto-a-perfeccionar/2026-10-05/194548.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 55,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 50,
-            "freshness": 100,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 30
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-05T19:45:48-0300",
-        "last_seen": "2026-10-05T19:45:48-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Comienza la discusión del Presupuesto: Quiroz dispuesto a \"perfeccionar, manteniendo la restricción general\"",
-            "description": "De cara al inicio de la  discusión del proyecto de Ley de Presupuestos del Sector Público 2027 , el ministro de Hacienda, Jorge Quiroz , afirmó este lunes que el Ejecutivo está abierto a perfeccionar su propuesta en el Congreso , pero exigirá respetar estrictamente la disciplina fiscal . La iniciativa -cuyos ejes principales fueron explicados por el Presidente José Antonio Kast la semana pasada en cadena nacional - fue publicada esta tarde, con el detalle de su articulado y de sus partidas, y contempla un gasto total neto de 105,8 billones de pesos . #Presupuesto2027 Ya está disponible en nuestro sitio web el proyecto de ley de Presupuestos 2027 con sus partidas correspondientes: https://t.co/rMkNBzieJv https://t.co/LLB4ArPBKk — Diputadas y Diputados de Chile (@Camara_cl) October 5, 2026 La discusión formal continuará en comisión especial mixta, instancia que este martes recibirá las exposiciones de Quiroz y del director de Presupuestos, José Pablo Gómez , para especificar el estado de los ingresos, el endeudamiento público y el desglose de las partidas sectoriales. El proyecto de presupuestos 2027 presentado por el Gobierno incluye un monto neto de 105,8 billones de pesos y 6297 millones de dólares. @Cooperativa — Jorge Espinoza Cuellar (@espinozacuellar) October 5, 2026 \"Estamos en una etapa inicial del proceso, donde se entra a discutir este Presupuesto a nivel de las distintas subcomisiones. Les corresponde a los ministros explicar el presupuesto de cada partida, de cada asignación y les corresponde a los parlamentarios hacer los comentarios y aportes correspondientes\" , comentó Quiroz. \" En este proceso estamos siempre llanos a escuchar, a perfeccionar todos los temas, pero siempre manteniendo la restricción general \", advirtió el jefe de la billetera fiscal. Bassa: \"No nos vengan a mentir\" Uno de los flancos más complejos del erario apunta a la reducción de partidas sociales y el rediseño de programas emblemáticos, entre los que destaca la eliminación de fondos para la continuidad de \"Yo elijo mi PC\" , que   ha generado posturas encontradas en el Parlamento. Desde la coalición de Gobierno, el diputado Fernando Ugarte (Partido Republicano) respaldó la revisión del beneficio argumentando que \" el programa ya ha sido sujeto a evaluación no solo el segundo Gobierno de Sebastián Piñera, sino que también el gobierno de Gabriel Boric, y ambos informes dicen que en temas educativos no es un gran aporte\". Por el contrario, desde el Frente Amplio, el diputado Jaime Bassa rechazó enérgicamente la supresión de la entrega de equipos tecnológicos a estudiantes: \"Que no me vengan a mentir con las condiciones materiales de vida de la población, porque esa autoridad que está hablando sabe perfectamente bien que su hijo sí tiene computadora, tablet, acceso a tecnología e Internet. No nos vengan a mentir a nosotros con que eso no es necesario y que no genera mejores condiciones para estudiar porque eso es mentira; es mentirle a la población en la cara \", fustigó.",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/comienza-la-discusion-del-presupuesto-quiroz-dispuesto-a-perfeccionar/2026-10-05/194548.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261005/imag/foto_0000000220261005194548.jpg",
-            "published_raw": "Mon, 05 Oct 2026 19:45:48 -0300",
-            "published_at": "2026-10-05T19:45:48-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 9,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 1,
-            "score_ideology": 0,
-            "score_actor": 4,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 14,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 18,
-          "labels": [
-            "Estado e instituciones",
-            "Economía y políticas públicas"
-          ],
-          "chile_utility": 73
+          "chile_utility": 71.7
         },
         "repeated_in_general_top5": false
       }
@@ -924,39 +835,37 @@
   },
   "topics": [
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 14,
-      "maximum_relevance": 67.7,
-      "leading_story": "Los candidatos derrotados de la derecha en Brasil evitan pedir el voto para Bolsonaro en la segunda vuelta"
-    },
-    {
       "topic": "Instituciones y gobierno",
-      "event_count": 25,
-      "maximum_relevance": 67.2,
-      "leading_story": "Resultados de las elecciones en Brasil, en vivo | Trump: “Es una gran victoria, ajustada, pero una gran victoria. Increíble”"
+      "event_count": 28,
+      "maximum_relevance": 67.6,
+      "leading_story": "El Constitucional ordena al Supremo que amnistíe la malversación del ‘procés’"
     },
     {
-      "topic": "Conflictos y seguridad",
-      "event_count": 1,
-      "maximum_relevance": 59.8,
-      "leading_story": "Francia encara una nueva semana de protestas estudiantiles, las mayores en décadas"
+      "topic": "Elecciones y opinión pública",
+      "event_count": 13,
+      "maximum_relevance": 64.4,
+      "leading_story": "¿Qué decidirá Brasil en la segunda vuelta? La victoria de Flávio Bolsonaro y la caída de Lula, en gráficos"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 2,
-      "maximum_relevance": 54,
+      "maximum_relevance": 50,
       "leading_story": "Paraguay, refugio fiscal y político para la extrema derecha brasileña"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 52.9,
+      "maximum_relevance": 49.2,
       "leading_story": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-010", "PML-EVENT-036", "PML-EVENT-021", "PML-EVENT-004"],
+      "exited_top5": ["PML-EVENT-009", "PML-EVENT-003", "PML-EVENT-028", "PML-EVENT-037"],
+      "retained_top5": "PML-EVENT-031"
+    }
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
