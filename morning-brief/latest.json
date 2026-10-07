@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-10-06",
     "data_latest_timestamp": "2026-10-06T18:48:49-0300",
-    "data_age_hours": 8.5,
-    "generated_at": "2026-10-07T03:18:48-0300",
+    "data_age_hours": 11.5,
+    "generated_at": "2026-10-07T06:16:59-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,13 +16,13 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Elecciones y opinión pública.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Elecciones y opinión pública.",
     "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 2 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 39,
+    "ranked_events": 36,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
@@ -32,7 +32,7 @@
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-031",
+      "cluster_id": "PML-EVENT-029",
       "title": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-hait%C3%AD-aplaza-sin-nueva-fecha-las-elecciones-presidenciales-y-legislativas",
       "representative_source": "France 24",
@@ -102,7 +102,7 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-031"
+          "cluster_id": "PML-EVENT-029"
         }
       ]
     },
@@ -181,7 +181,7 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-032",
+      "cluster_id": "PML-EVENT-030",
       "title": "El Constitucional ordena al Supremo que amnistíe la malversación del ‘procés’",
       "url": "https://elpais.com/espana/2026-10-06/via-libre-al-regreso-de-puigdemont-el-constitucional-ordena-al-supremo-que-amnistie-la-malversacion-del-proces.html",
       "representative_source": "EL PAÍS",
@@ -251,13 +251,13 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-032"
+          "cluster_id": "PML-EVENT-030"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-027",
+      "cluster_id": "PML-EVENT-025",
       "title": "¿Qué es real y qué es falso? el uso de la IA en las elecciones brasileñas",
       "url": "https://www.france24.com/es/programas/en-foco/20261005-qu%C3%A9-es-real-y-qu%C3%A9-es-falso-el-uso-de-la-ia-en-las-elecciones-brasile%C3%B1as",
       "representative_source": "France 24",
@@ -327,13 +327,13 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-025"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-025",
+      "cluster_id": "PML-EVENT-023",
       "title": "El Supremo da 48 horas a las partes para que se pronuncien sobre la suspensión del voto por la ‘ley de nietos’ tras el adelanto electoral",
       "url": "https://elpais.com/espana/elecciones-generales/2026-10-06/el-supremo-da-48-horas-a-las-partes-para-que-se-pronuncien-sobre-la-suspension-del-voto-por-la-ley-de-nietos-tras-el-adelanto-electoral.html",
       "representative_source": "EL PAÍS",
@@ -404,7 +404,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "cluster_id": "PML-EVENT-023"
         }
       ]
     }
@@ -636,13 +636,13 @@
   "topics": [
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 12,
+      "event_count": 11,
       "maximum_relevance": 68.7,
       "leading_story": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 21,
+      "event_count": 19,
       "maximum_relevance": 68.4,
       "leading_story": "Gobierno baja su reforma de seguridad y senadores presentarán nueva propuesta"
     },
