@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-08",
-    "data_latest_timestamp": "2026-10-08T08:55:40-0300",
-    "data_age_hours": 0.6,
-    "generated_at": "2026-10-08T09:33:24-0300",
+    "data_latest_timestamp": "2026-10-08T11:21:53-0300",
+    "data_age_hours": 0.9,
+    "generated_at": "2026-10-08T12:17:12-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -17,38 +17,38 @@
   "summary": {
     "headline": "Panorama Político Diario",
     "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "diversity": "La selección cubre 4 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
     "ranked_events": 35,
-    "topics": 3,
+    "topics": 4,
     "geographies": 2,
-    "representative_sources": 2,
-    "average_top5_relevance": 64.6,
-    "maximum_relevance": 68.3
+    "representative_sources": 3,
+    "average_top5_relevance": 62.2,
+    "maximum_relevance": 67.4
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-011",
-      "title": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a unas elecciones anticipadas",
+      "cluster_id": "PML-EVENT-014",
+      "title": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a las urnas",
       "url": "https://elpais.com/internacional/2026-10-08/italia-aprueba-la-controvertida-reforma-electoral-de-meloni-y-se-acerca-a-unas-elecciones-anticipadas.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
+      "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
         "group": "No identificado",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 68.3,
+        "score": 67.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 68.3
+        "editorial_utility": 67.4
       },
       "selection": {
-        "reason": "PML 68.3",
+        "reason": "PML 67.4",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -67,10 +67,10 @@
       ],
       "analysis": {
         "summary": "La ley, que otorga la mayoría absoluta a la coalición que supere el 42% de los votos, afrontará varios recursos ante el Tribunal Constitucional",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
@@ -79,7 +79,7 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a unas elecciones anticipadas",
+          "title": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a las urnas",
           "description": "La ley, que otorga la mayoría absoluta a la coalición que supere el 42% de los votos, afrontará varios recursos ante el Tribunal Constitucional",
           "url": "https://elpais.com/internacional/2026-10-08/italia-aprueba-la-controvertida-reforma-electoral-de-meloni-y-se-acerca-a-unas-elecciones-anticipadas.html",
           "image_url": "https://imagenes.elpais.com/resizer/v2/2OLV5FPVKROMDFAYCNORIYJCFI.jpg?auth=262f746470c109091c091aa24886986ce4108ea6c76ec43fabfe803615b91b9e",
@@ -89,7 +89,7 @@
           "region": "Internacional",
           "language": "es",
           "score_institutional": 5,
-          "score_elections": 2,
+          "score_elections": 1,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
@@ -97,18 +97,18 @@
           "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 7,
+          "political_evidence": 6,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-011"
+          "cluster_id": "PML-EVENT-014"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-026",
+      "cluster_id": "PML-EVENT-028",
       "title": "El pacto con Estados Unidos obliga a Groenlandia a seguir en la OTAN si se independiza",
       "url": "https://elpais.com/internacional/2026-10-08/el-pacto-con-estados-unidos-obliga-a-groenlandia-a-seguir-en-la-otan-si-se-independiza.html",
       "representative_source": "EL PAÍS",
@@ -178,13 +178,13 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
+          "cluster_id": "PML-EVENT-028"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-025",
+      "cluster_id": "PML-EVENT-027",
       "title": "El bulo ultra del “asesinato” de Maricarmen: “Procede una autopsia. Zurdos de mierda. El PSOE hará todo para ganar las elecciones”",
       "url": "https://elpais.com/espana/elecciones-generales/2026-10-08/el-bulo-ultra-del-asesinato-de-maricarmen-procede-una-autopsia-zurdos-de-mierda-el-psoe-hara-todo-para-ganar-las-elecciones.html",
       "representative_source": "EL PAÍS",
@@ -195,12 +195,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 64.9,
+        "score": 63.7,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 69.9
+        "editorial_utility": 71.7
       },
       "selection": {
-        "reason": "PML 64.9; aporta diversidad temática",
+        "reason": "PML 63.7; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -251,7 +251,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "cluster_id": "PML-EVENT-027"
         }
       ]
     },
@@ -270,10 +270,10 @@
       "relevance": {
         "score": 62.9,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 65.9
+        "editorial_utility": 62.9
       },
       "selection": {
-        "reason": "PML 62.9; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 62.9; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -333,23 +333,23 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-023",
-      "title": "Los estudiantes de Francia presentan 10 reivindicaciones para detener sus protestas",
-      "url": "https://elpais.com/internacional/2026-10-08/los-estudiantes-de-francia-presentan-10-reivindicaciones-para-detener-sus-protestas.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "cluster_id": "PML-EVENT-032",
+      "title": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-hait%C3%AD-aplaza-sin-nueva-fecha-las-elecciones-presidenciales-y-legislativas",
+      "representative_source": "France 24",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "ELECTORAL_EVENT",
       "geography": {
         "group": "No identificado",
-        "country": "No identificado / Internacional"
+        "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 62.8,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 58.8
+        "score": 53,
+        "level": "MEDIA",
+        "editorial_utility": 58
       },
       "selection": {
-        "reason": "PML 62.8; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 53; aporta diversidad temática",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -357,50 +357,53 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "France 24"
       },
-      "first_seen": "2026-10-08T08:36:17-0300",
-      "last_seen": "2026-10-08T08:36:17-0300",
+      "first_seen": "2026-10-06T09:47:35-0300",
+      "last_seen": "2026-10-06T09:47:35-0300",
       "entities": [],
-      "event_terms": "protestas",
+      "event_terms": [
+        "crisis",
+        "eleccion"
+      ],
       "analysis": {
-        "summary": "Las principales ciudades francesas acogen nuevas movilizaciones, a las que se suman ya gran parte de los centros universitarios después de que el primer ministro no haya logrado calmar los ánimos con sus anuncios",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "La crisis de seguridad y la inestabilidad institucional vuelven a poner en duda el calendario político de Haití. El Consejo Electoral Provisional anunció este martes que retrasará las primeras etapas del proceso y dejó en suspenso, sin una nueva fecha, los comicios presidenciales y legislativos previstos para diciembre.",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / América Latina.",
         "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Los estudiantes de Francia presentan 10 reivindicaciones para detener sus protestas",
-          "description": "Las principales ciudades francesas acogen nuevas movilizaciones, a las que se suman ya gran parte de los centros universitarios después de que el primer ministro no haya logrado calmar los ánimos con sus anuncios",
-          "url": "https://elpais.com/internacional/2026-10-08/los-estudiantes-de-francia-presentan-10-reivindicaciones-para-detener-sus-protestas.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/SX65ROFX7NKZBN42UGQ3KPAJWE.jpg?auth=190f83889667a67548ad0fc19f86c08d55070026658978cf2bbf95b34b7aff71",
-          "published_raw": "Thu, 08 Oct 2026 11:36:17 GMT",
-          "published_at": "2026-10-08T08:36:17-0300",
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas",
+          "description": "La crisis de seguridad y la inestabilidad institucional vuelven a poner en duda el calendario político de Haití. El Consejo Electoral Provisional anunció este martes que retrasará las primeras etapas del proceso y dejó en suspenso, sin una nueva fecha, los comicios presidenciales y legislativos previstos para diciembre.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-hait%C3%AD-aplaza-sin-nueva-fecha-las-elecciones-presidenciales-y-legislativas",
+          "image_url": "https://s.france24.com/media/display/e23d7b6a-a705-11f1-9869-005056a90284/w:1024/p:16x9/2-Mercado-de-Mare-Rouge.jpg",
+          "published_raw": "Tue, 06 Oct 2026 12:47:35 GMT",
+          "published_at": "2026-10-06T09:47:35-0300",
           "country": "No identificado",
-          "region": "Internacional",
+          "region": "América Latina",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
+          "score_institutional": 0,
+          "score_elections": 2,
           "score_international": 0,
           "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
+          "primary_topic": "Elecciones y opinión pública",
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
+          "cluster_id": "PML-EVENT-032"
         }
       ]
     }
@@ -513,6 +516,78 @@
       },
       {
         "position": 2,
+        "cluster_id": "PML-EVENT-009",
+        "title": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\"",
+        "topic": "Relaciones internacionales",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/presidenciales/alvarado-ante-apertura-presidencial-de-bachelet-en-tres-anos-y-medio/2026-10-08/091002.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 59.1,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 51,
+            "freshness": 100,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 46
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-08T09:10:02-0300",
+        "last_seen": "2026-10-08T09:10:02-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\"",
+            "description": "El biministro del Interior y de la Segegob, Claudio Alvarado , restó importancia a las recientes declaraciones de la expresidenta Michelle Bachelet , quien no descartó una tercera postulación a La Moneda para las elecciones de 2029 , tras su fallida candidatura a la Secretaría General de las Naciones Unidas . En entrevista con el canal TVU de la Universidad de Concepción, la exjefa de Estado (2006-2010, 2014-2018) y ex Alta Comisionada de las Naciones Unidas para los Derechos Humanos fue consultada sobre un eventual retorno al sillón presindencial bajo la premisa de si \"¿no hay segunda sin tercera?\". Tras una breve pausa, la militante socialista respondió: \"Yo creo que sí... yo creo que sí\" . Durante la conversación, Bachelet advirtió además que le da \"terror retroceder en derechos\" en el contexto actual, sobre todo en el caso de las mujeres, dónde \"ha sido más difícil, más lento\". \"Voy a seguir haciendo lo que yo pueda por la unidad de todas las fuerzas que queremos el progreso y no los retrocesos\" , aseveró. La respuesta del Ejecutivo Desde el Palacio de La Moneda, el biministro Alvarado descartó que la posición de la exmandataria responda a una falta de respaldo del Ejecutivo a su postulación en la ONU:  \"Son dos cosas distintas\" . \"La expresidenta Bachelet tiene una trayectoria de servicio público, hoy ella realiza una expresión de deseo y cuando se inscriban las candidaturas, en tres años y medio más, conversaremos respecto a las viabilidades políticas, o si efectivamente llega a materializarse esa expresión de deseo\", señaló el titular del Interior y la Segegob. En esa línea, el secretario de Estado afirmó que \"hoy día es muy poco lo que puedo decir, y yo creo que las opiniones hay que buscarlas en la oposición , donde hay diversos liderazgos que tienen, a lo mejor, el mismo interés\". [Lea también]  Ossandón alerta al oficialismo: No es lo mismo que Bachelet esté en la ONU a que esté en Chile Finalmente, Alvarado enfatizó que \" al Gobierno, lo que nos motiva es trabajar por las materias por las cuales fuimos elegidos : retomar el rumbo del crecimiento económico; generar oportunidades de empleo; que lleguen más inversiones, dar certeza jurídica a quienes quieren invertir en nuestro país; dar certezas administrativas; resolver los problemas sociales, y en eso estamos trabajando día a día\". \"Lo que se genere en el debate político, obviamente, no somos ajeno al mismo, pero no es nuestra preocupación central y principal hoy día la expresión de deseo de la expresidenta Bachelet \", concluyó.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/presidenciales/alvarado-ante-apertura-presidencial-de-bachelet-en-tres-anos-y-medio/2026-10-08/091002.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261008/imag/foto_0000000220261008091002.jpg",
+            "published_raw": "Thu, 08 Oct 2026 09:10:02 -0300",
+            "published_at": "2026-10-08T09:10:02-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 1,
+            "score_elections": 1,
+            "score_international": 2,
+            "score_conflict": 1,
+            "score_policy": 1,
+            "score_ideology": 1,
+            "score_actor": 2,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 9,
+            "primary_topic": "Relaciones internacionales",
+            "secondary_topic": "Instituciones y gobierno",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-009"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 20,
+          "labels": [
+            "Elecciones y opinión pública",
+            "Relaciones internacionales"
+          ],
+          "chile_utility": 79.1
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
         "cluster_id": "PML-EVENT-010",
         "title": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\"",
         "topic": "Economía y políticas públicas",
@@ -582,78 +657,6 @@
           "chile_utility": 73.7
         },
         "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-004",
-        "title": "Gobierno baja su reforma de seguridad y senadores presentarán nueva propuesta",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-baja-su-reforma-de-seguridad-y-senadores-presentaran-nueva/2026-10-06/184849.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 53.4,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 90,
-            "freshness": 40,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 44
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-06T18:48:49-0300",
-        "last_seen": "2026-10-06T18:48:49-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Gobierno baja su reforma de seguridad y senadores presentarán nueva propuesta",
-            "description": "La Moneda y senadores de oficialismo y oposición alcanzaron este martes un acuerdo para presentar una propuesta de reforma constitucional en materia de seguridad , luego de que la iniciativa de La Moneda fuera criticada por gran parte del arco político. Los parlamentarios de las comisiones de Constitución, Pedro Araya (PPD), Andrés Longton (RN) y Arturo Squella (Republicano) y de Seguridad Karim Bianchi (ind) e Iván Flores (DC) presentará mañana la iniciativa. En ese sentido, el biministro del Interior y Segegob, Claudio Alvarado , señaló que \"el Gobierno, tal como ha comprometido en las conversaciones privadas y también lo hemos dado a entender públicamente, dado ese trabajo y el respeto a los acuerdos, no vamos a perseverar con la reforma que habíamos ingresado en su minuto \". Por su parte, el ministro de Justicia y Derechos Humanos, Fernando Rabat, detalló sobre que \"nos queda claro que el actual estado de emergencia va a contemplar elementos que recogen el diagnóstico que ha tenido el Gobierno del presidente José Antonio Kast, de poder enfrentar derechamente el crimen organizado y al terrorismo, y nos parece que lo que se nos planteó en esta reunión aborda debidamente el diagnóstico que ha tenido el Gobierno\". De lo trascendido, la moción parlamentaria de reforma contiene herramientas adicionales en el estado de excepción constitucional de emergencia . Además, el pretendido registro de bandas de crimen organizado no estará incluido en el, pues será materia de ley y no constitucional. Por otro lado, el ministro Segpres, José García Ruminot , confirmó que el Gobierno ingresará esta semana por la Cámara Baja la insistencia para rehabilitar la tramitación para ampliar el plazo de detención con fines de concretar expulsiones administrativas.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-baja-su-reforma-de-seguridad-y-senadores-presentaran-nueva/2026-10-06/184849.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261006/imag/foto_0000000220261006184849.jpg",
-            "published_raw": "Tue, 06 Oct 2026 18:48:49 -0300",
-            "published_at": "2026-10-06T18:48:49-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 7,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 3,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 15,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 75.4
-        },
-        "repeated_in_general_top5": false
       }
     ]
   },
@@ -661,32 +664,32 @@
     {
       "topic": "Instituciones y gobierno",
       "event_count": 17,
-      "maximum_relevance": 68.3,
-      "leading_story": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a unas elecciones anticipadas"
-    },
-    {
-      "topic": "Ideología y competencia política",
-      "event_count": 5,
-      "maximum_relevance": 64.9,
-      "leading_story": "El bulo ultra del “asesinato” de Maricarmen: “Procede una autopsia. Zurdos de mierda. El PSOE hará todo para ganar las elecciones”"
+      "maximum_relevance": 67.4,
+      "leading_story": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a las urnas"
     },
     {
       "topic": "Relaciones internacionales",
-      "event_count": 2,
+      "event_count": 3,
       "maximum_relevance": 64.1,
       "leading_story": "El pacto con Estados Unidos obliga a Groenlandia a seguir en la OTAN si se independiza"
     },
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 9,
-      "maximum_relevance": 56.7,
-      "leading_story": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas"
+      "topic": "Ideología y competencia política",
+      "event_count": 5,
+      "maximum_relevance": 63.7,
+      "leading_story": "El bulo ultra del “asesinato” de Maricarmen: “Procede una autopsia. Zurdos de mierda. El PSOE hará todo para ganar las elecciones”"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
       "maximum_relevance": 54.7,
       "leading_story": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\""
+    },
+    {
+      "topic": "Elecciones y opinión pública",
+      "event_count": 8,
+      "maximum_relevance": 53,
+      "leading_story": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas"
     },
     {
       "topic": "Conflictos y seguridad",
@@ -696,12 +699,8 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-011", "PML-EVENT-026", "PML-EVENT-025", "PML-EVENT-023"],
-      "exited_top5": ["PML-EVENT-008", "PML-EVENT-018", "PML-EVENT-028", "PML-EVENT-010"],
-      "retained_top5": "PML-EVENT-003"
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
