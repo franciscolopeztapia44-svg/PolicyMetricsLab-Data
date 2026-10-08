@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-10-07",
-    "data_latest_timestamp": "2026-10-07T22:42:25-0300",
-    "data_age_hours": 4.8,
-    "generated_at": "2026-10-08T03:28:38-0300",
+    "date": "2026-10-08",
+    "data_latest_timestamp": "2026-10-08T08:55:40-0300",
+    "data_age_hours": 0.6,
+    "generated_at": "2026-10-08T09:33:24-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,22 +16,247 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 32 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 5 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 32,
-    "topics": 5,
+    "ranked_events": 35,
+    "topics": 3,
     "geographies": 2,
-    "representative_sources": 3,
-    "average_top5_relevance": 60.3,
-    "maximum_relevance": 66.9
+    "representative_sources": 2,
+    "average_top5_relevance": 64.6,
+    "maximum_relevance": 68.3
   },
   "top_stories": [
     {
       "position": 1,
+      "cluster_id": "PML-EVENT-011",
+      "title": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a unas elecciones anticipadas",
+      "url": "https://elpais.com/internacional/2026-10-08/italia-aprueba-la-controvertida-reforma-electoral-de-meloni-y-se-acerca-a-unas-elecciones-anticipadas.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 68.3,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 68.3
+      },
+      "selection": {
+        "reason": "PML 68.3",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-08T08:44:26-0300",
+      "last_seen": "2026-10-08T08:44:26-0300",
+      "entities": [],
+      "event_terms": [
+        "eleccion",
+        "tribunal"
+      ],
+      "analysis": {
+        "summary": "La ley, que otorga la mayoría absoluta a la coalición que supere el 42% de los votos, afrontará varios recursos ante el Tribunal Constitucional",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a unas elecciones anticipadas",
+          "description": "La ley, que otorga la mayoría absoluta a la coalición que supere el 42% de los votos, afrontará varios recursos ante el Tribunal Constitucional",
+          "url": "https://elpais.com/internacional/2026-10-08/italia-aprueba-la-controvertida-reforma-electoral-de-meloni-y-se-acerca-a-unas-elecciones-anticipadas.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/2OLV5FPVKROMDFAYCNORIYJCFI.jpg?auth=262f746470c109091c091aa24886986ce4108ea6c76ec43fabfe803615b91b9e",
+          "published_raw": "Thu, 08 Oct 2026 11:44:26 GMT",
+          "published_at": "2026-10-08T08:44:26-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 5,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 7,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-011"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-026",
+      "title": "El pacto con Estados Unidos obliga a Groenlandia a seguir en la OTAN si se independiza",
+      "url": "https://elpais.com/internacional/2026-10-08/el-pacto-con-estados-unidos-obliga-a-groenlandia-a-seguir-en-la-otan-si-se-independiza.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Relaciones internacionales",
+      "event_type": "DIPLOMATIC_EVENT",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 64.1,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 76.1
+      },
+      "selection": {
+        "reason": "PML 64.1; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-08T00:30:01-0300",
+      "last_seen": "2026-10-08T00:30:01-0300",
+      "entities": [
+        "groenlandia",
+        "otan"
+      ],
+      "event_terms": [],
+      "analysis": {
+        "summary": "El acuerdo entre la isla ártica, Washington y Copenhague conserva el marco de 1951 y amplía el acceso militar al país norteamericano",
+        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
+          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El pacto con Estados Unidos obliga a Groenlandia a seguir en la OTAN si se independiza",
+          "description": "El acuerdo entre la isla ártica, Washington y Copenhague conserva el marco de 1951 y amplía el acceso militar al país norteamericano",
+          "url": "https://elpais.com/internacional/2026-10-08/el-pacto-con-estados-unidos-obliga-a-groenlandia-a-seguir-en-la-otan-si-se-independiza.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/S22KSNUQLVDRHCVVYRBCN6FAKU.jpg?auth=5ff4c9189823eecbece7c8d7e2c76ccd47fd57e86fd5c519fa119d3f784ac163",
+          "published_raw": "Thu, 08 Oct 2026 03:30:01 GMT",
+          "published_at": "2026-10-08T00:30:01-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 0,
+          "score_international": 2,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Relaciones internacionales",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-026"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-025",
+      "title": "El bulo ultra del “asesinato” de Maricarmen: “Procede una autopsia. Zurdos de mierda. El PSOE hará todo para ganar las elecciones”",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-08/el-bulo-ultra-del-asesinato-de-maricarmen-procede-una-autopsia-zurdos-de-mierda-el-psoe-hara-todo-para-ganar-las-elecciones.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Ideología y competencia política",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 64.9,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 69.9
+      },
+      "selection": {
+        "reason": "PML 64.9; aporta diversidad temática",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-08T06:29:54-0300",
+      "last_seen": "2026-10-08T06:29:54-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "Numerosas cuentas y agitadores de extrema derecha como Javier Negre y Vito Quiles o el eurodiputado de Vox Tertsch se dirigen a sus seguidores en redes con teorías de la conspiración",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Ideología y competencia política y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El bulo ultra del “asesinato” de Maricarmen: “Procede una autopsia. Zurdos de mierda. El PSOE hará todo para ganar las elecciones”",
+          "description": "Numerosas cuentas y agitadores de extrema derecha como Javier Negre y Vito Quiles o el eurodiputado de Vox Tertsch se dirigen a sus seguidores en redes con teorías de la conspiración",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-10-08/el-bulo-ultra-del-asesinato-de-maricarmen-procede-una-autopsia-zurdos-de-mierda-el-psoe-hara-todo-para-ganar-las-elecciones.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/BA7SYWT65BHZPDX2YMONQ6MCXA.jpg?auth=1df9836fc95b4017cffed41c01eb400bd87307db1c6118b5e681879ee3cdda79",
+          "published_raw": "Thu, 08 Oct 2026 09:29:54 GMT",
+          "published_at": "2026-10-08T06:29:54-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 2,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Ideología y competencia política",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-025"
+        }
+      ]
+    },
+    {
+      "position": 4,
       "cluster_id": "PML-EVENT-003",
       "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
@@ -43,12 +268,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 66.9,
+        "score": 62.9,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 66.9
+        "editorial_utility": 65.9
       },
       "selection": {
-        "reason": "PML 66.9",
+        "reason": "PML 62.9; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -107,301 +332,24 @@
       ]
     },
     {
-      "position": 2,
-      "cluster_id": "PML-EVENT-008",
-      "title": "Lula tras la primera vuelta: \"Es un resultado inesperado\"; Bolsonaro defiende que \"Brasil quiere cambio\"",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261004-en-directo-elecciones-en-brasil-comienza-la-votaci%C3%B3n-para-elegir-presidente",
-      "representative_source": "France 24",
-      "topic": "Ideología y competencia política",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Brasil / América Latina"
-      },
-      "relevance": {
-        "score": 59.7,
-        "level": "MEDIA",
-        "editorial_utility": 71.7
-      },
-      "selection": {
-        "reason": "PML 59.7; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 8,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-10-02T18:26:40-0300",
-      "last_seen": "2026-10-07T22:42:25-0300",
-      "entities": [
-        "congreso",
-        "brasil",
-        "bolsonaro",
-        "senado",
-        "lula",
-        "iran",
-        "trump"
-      ],
-      "event_terms": "victoria",
-      "analysis": {
-        "summary": "El Partido Liberal, plataforma de la candidatura presidencial de Flávio Bolsonaro, consiguió 121 escaños en la Cámara de Diputados y pasó de 15 a 28 asientos en el Senado, lo que se traduce en la mayor representación de un solo partido en ambas cámaras en casi 40 años. Con el apoyo de otras fuerzas de tendencia conservadora, Bolsonaro garantizaría así una cómoda gobernabilidad, en caso de ser electo presidente, y podría perseguir, incluso, la prometida amnistía a su padre.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Ideología y competencia política y la sitúa en Brasil / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "No es solo la Presidencia: la derecha se consolida en el Congreso de Brasil y potencia a Bolsonaro",
-          "description": "El Partido Liberal, plataforma de la candidatura presidencial de Flávio Bolsonaro, consiguió 121 escaños en la Cámara de Diputados y pasó de 15 a 28 asientos en el Senado, lo que se traduce en la mayor representación de un solo partido en ambas cámaras en casi 40 años. Con el apoyo de otras fuerzas de tendencia conservadora, Bolsonaro garantizaría así una cómoda gobernabilidad, en caso de ser electo presidente, y podría perseguir, incluso, la prometida amnistía a su padre.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-no-es-solo-la-presidencia-la-derecha-se-consolida-en-el-congreso-de-brasil-y-potencia-a-bolsonaro",
-          "image_url": "https://s.france24.com/media/display/8d57872a-c10f-11f1-be83-69fad0a7cb9f/w:1024/p:16x9/FOTO-PORTADA-BRASIL-BOLSONAROS-SENADO.jpg",
-          "published_raw": "Tue, 06 Oct 2026 00:07:54 GMT",
-          "published_at": "2026-10-05T21:07:54-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 5,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 3,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 11,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "\"Solo faltan días para el rescate Brasil\": Bolsonaro celebra la victoria sobre Lula",
-          "description": "El senador del Partido Liberal (PL) y candidato presidencial, Flávio Bolsonaro, agradeció este lunes \"a Dios\" y al pueblo brasileño por su victoria en las elecciones del domingo ante el presidente Luiz Inácio Lula da Silva, en contra de los pronósticos. Además, celebró que el PL resultara el partido más votado en el Parlamento, con más de un tercio de los escaños del Senado. Las bolsas y la moneda nacional comenzaron la semana fortalecidas tras el resultado en las urnas.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261005-solo-faltan-d%C3%ADas-para-el-rescate-brasil-bolsonaro-celebra-la-victoria-sobre-lula",
-          "image_url": "https://s.france24.com/media/display/2dd48b3a-c0d4-11f1-9f3e-578a4b968fd6/w:1024/p:16x9/2026-10-05T022837Z-1703279203-RC2OWNAV3T5S-RTRMADP-3-BRAZIL-ELECTION.jpg",
-          "published_raw": "Mon, 05 Oct 2026 16:10:56 GMT",
-          "published_at": "2026-10-05T13:10:56-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 3,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 4,
-          "score_noise": 0,
-          "score_accident": 1,
-          "political_evidence": 9,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "\"Dictadura nunca más\": marcha masiva en Río contra Bolsonaro a días del balotaje con Lula",
-          "description": "Miles de personas, en su mayoría estudiantes, marcharon este miércoles 7 de octubre en Río de Janeiro para rechazar el avance de la extrema derecha y del candidato Flávio Bolsonaro. Los manifestantes también mostraron su apoyo a la continuidad del Gobierno del izquierdista Luiz Inácio Lula da Silva en Brasil, a falta de poco más de dos semanas para el balotaje presidencial.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261008-dictadura-nunca-m%C3%A1s-marcha-masiva-en-r%C3%ADo-contra-bolsonaro-a-d%C3%ADas-del-balotaje-con-lula",
-          "image_url": "https://s.france24.com/media/display/f6a0f976-c2b0-11f1-b12f-c55799ef8309/w:1024/p:16x9/2026-10-07T182937Z-1368713788-RC2GYNAH4K27-RTRMADP-3-BRAZIL-POLITICS-PROTEST.jpg",
-          "published_raw": "Thu, 08 Oct 2026 01:42:25 GMT",
-          "published_at": "2026-10-07T22:42:25-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 2,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Ideología y competencia política",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Flávio Bolsonaro y Lula da Silva se enfrentarán en una segunda vuelta en Brasil",
-          "description": "El senador de extrema derecha Flávio Bolsonaro y el mandatario de izquierdas Luiz Inácio Lula da Silva irán a una segunda vuelta en las elecciones presidenciales de Brasil, según los resultados de los comicios de este domingo 4 de octubre, con casi el 100% escrutado.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261005-fl%C3%A1vio-bolsonaro-y-lula-da-silva-se-enfrentar%C3%A1n-en-una-segunda-vuelta-en-brasil",
-          "image_url": "https://s.france24.com/media/display/2b9d95f0-c034-11f1-a735-1ff0321dbbd3/w:1024/p:16x9/Disen%CC%83o-sin-ti%CC%81tulo.png",
-          "published_raw": "Mon, 05 Oct 2026 00:08:00 GMT",
-          "published_at": "2026-10-04T21:08:00-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 2,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Lula tras la primera vuelta: \"Es un resultado inesperado\"; Bolsonaro defiende que \"Brasil quiere cambio\"",
-          "description": "El presidente Luiz Inácio Lula da Silva habló este domingo 4 de octubre ante sus seguidores después de que los resultados de los comicios presidenciales confirmaran que deberá disputar el balotaje del 25 de octubre con el ultraderechista Flávio Bolsonaro. Lula advirtió que el senador de extrema derecha solo representa \"incertidumbre\". Por su parte, Bolsonaro emitió una declaración breve en la que afirmó: \"Brasil quiere cambio\".",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261004-en-directo-elecciones-en-brasil-comienza-la-votaci%C3%B3n-para-elegir-presidente",
-          "image_url": "https://s.france24.com/media/display/7f4df2a0-c05f-11f1-ac5b-13420ab900a2/w:1024/p:16x9/WhatsApp-Image-2026-10-04-at-18-04-19.jpeg",
-          "published_raw": "Sun, 04 Oct 2026 11:49:59 GMT",
-          "published_at": "2026-10-04T08:49:59-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 2,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Ideología y competencia política",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Flávio Bolsonaro tritura las encuestas: una ventaja pequeña, pero un escenario cuesta arriba para Lula",
-          "description": "Brasil quedó inclinado hacia la tendencia de retorno a la derecha que sacude a América Latina, luego de que el senador e hijo del expresidente Jair Bolsonaro aventajara por casi dos puntos al izquierdista Luiz Inácio Lula da Silva en la primera vuelta de las elecciones. Lula ha reconocido el resultado como “inesperado” y promete que desde ahora empieza “una nueva campaña”, pero el margen de maniobra de Bolsonaro para sumar a través de alianzas e impulsarse sobre el arrase de la derecha es mucho mayor.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261005-fl%C3%A1vio-bolsonaro-tritura-las-encuestas-una-ventaja-peque%C3%B1a-pero-un-escenario-cuesta-arriba-para-lula",
-          "image_url": "https://s.france24.com/media/display/dd86b1bc-c06f-11f1-895a-13420ab900a2/w:1024/p:16x9/367a2e7e8c45b7aad98eb7662c5e00faf17b3d39w.jpg",
-          "published_raw": "Mon, 05 Oct 2026 03:41:44 GMT",
-          "published_at": "2026-10-05T00:41:44-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-008"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "¿Lula o Bolsonaro?: Brasil vota bajo la sombra de una interferencia de Trump",
-          "description": "En vísperas de la primera vuelta de las presidenciales brasileñas, la noticia de que Estados Unidos suspendió la atención presencial en su embajada y sus consulados en esa nación latinoamericana, alegando “cuestiones de seguridad”, ha vuelto a alimentar los temores de una injerencia de Washington. No obstante, el Gobierno de Donald Trump no estableció una relación directa entre esta medida y las elecciones. Tampoco detalló la naturaleza de la amenaza que motivó la suspensión.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261002-lula-o-bolsonaro-brasil-vota-bajo-la-sombra-de-una-interferencia-de-trump",
-          "image_url": "https://s.france24.com/media/display/871de7b4-be9e-11f1-8ed4-dd51fcab6130/w:1024/p:16x9/WEB-PORTADA-02OCT-ARTICULO.png",
-          "published_raw": "Fri, 02 Oct 2026 21:26:40 GMT",
-          "published_at": "2026-10-02T18:26:40-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 1,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-008"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "El “derechazo” de Brasil: Flávio Bolsonaro supera a Lula",
-          "description": "Contra las previsiones, Flávio Bolsonaro fue el candidato más votado en la primera vuelta de las elecciones presidenciales de Brasil, con el 47,03% de los votos frente al 45,16% de Lula da Silva. La diferencia, de unos 2,2 millones de votos, obliga a ambos a medirse nuevamente el 25 de octubre. ¿Qué explica el avance del bolsonarismo y cómo puede este resultado reconfigurar la política brasileña y el tablero geopolítico regional? Lo analizamos en El Debate de France 24.",
-          "url": "https://www.france24.com/es/programas/el-debate/20261006-el-derechazo-de-brasil-fl%C3%A1vio-bolsonaro-supera-a-lula",
-          "image_url": "https://s.france24.com/media/display/b9203174-c022-11f1-976d-1ff0321dbbd3/w:1024/p:16x9/2026-10-03T232301Z-477957309-RC2NVNACK7S9-RTRMADP-3-BRAZIL-ELECTION-BOLSONARO.jpg",
-          "published_raw": "Tue, 06 Oct 2026 14:13:32 GMT",
-          "published_at": "2026-10-06T11:13:32-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-008"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-019",
-      "title": "El primer ministro francés intenta aplacar las protestas con ayudas y buenas palabras mientras anuncia recortes",
-      "url": "https://elpais.com/internacional/2026-10-07/francia-prohibe-a-la-policia-lanzar-granadas-contra-los-estudiantes-movilizados-en-la-calle.html",
+      "position": 5,
+      "cluster_id": "PML-EVENT-023",
+      "title": "Los estudiantes de Francia presentan 10 reivindicaciones para detener sus protestas",
+      "url": "https://elpais.com/internacional/2026-10-08/los-estudiantes-de-francia-presentan-10-reivindicaciones-para-detener-sus-protestas.html",
       "representative_source": "EL PAÍS",
-      "topic": "Conflictos y seguridad",
+      "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
         "group": "No identificado",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 59.8,
-        "level": "MEDIA",
-        "editorial_utility": 67.8
+        "score": 62.8,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 58.8
       },
       "selection": {
-        "reason": "PML 59.8; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 62.8; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -411,13 +359,13 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-07T14:53:44-0300",
-      "last_seen": "2026-10-07T14:53:44-0300",
+      "first_seen": "2026-10-08T08:36:17-0300",
+      "last_seen": "2026-10-08T08:36:17-0300",
       "entities": [],
       "event_terms": "protestas",
       "analysis": {
-        "summary": "Las manifestaciones continúan y el titular de Interior anuncia que las fuerzas del orden no podrán usar granadas aturdidoras, tras las lesiones sufridas por varios estudiantes",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
+        "summary": "Las principales ciudades francesas acogen nuevas movilizaciones, a las que se suman ya gran parte de los centros universitarios después de que el primer ministro no haya logrado calmar los ánimos con sus anuncios",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -429,182 +377,30 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "El primer ministro francés intenta aplacar las protestas con ayudas y buenas palabras mientras anuncia recortes",
-          "description": "Las manifestaciones continúan y el titular de Interior anuncia que las fuerzas del orden no podrán usar granadas aturdidoras, tras las lesiones sufridas por varios estudiantes",
-          "url": "https://elpais.com/internacional/2026-10-07/francia-prohibe-a-la-policia-lanzar-granadas-contra-los-estudiantes-movilizados-en-la-calle.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/FC5RP5SWJFN4POAUCFODPVOXLQ.jpg?auth=a118ce4a093809d63c94b0b5d879f8977870e7c8758c08f4cba6835275e4d409",
-          "published_raw": "Wed, 07 Oct 2026 17:53:44 GMT",
-          "published_at": "2026-10-07T14:53:44-0300",
+          "title": "Los estudiantes de Francia presentan 10 reivindicaciones para detener sus protestas",
+          "description": "Las principales ciudades francesas acogen nuevas movilizaciones, a las que se suman ya gran parte de los centros universitarios después de que el primer ministro no haya logrado calmar los ánimos con sus anuncios",
+          "url": "https://elpais.com/internacional/2026-10-08/los-estudiantes-de-francia-presentan-10-reivindicaciones-para-detener-sus-protestas.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/SX65ROFX7NKZBN42UGQ3KPAJWE.jpg?auth=190f83889667a67548ad0fc19f86c08d55070026658978cf2bbf95b34b7aff71",
+          "published_raw": "Thu, 08 Oct 2026 11:36:17 GMT",
+          "published_at": "2026-10-08T08:36:17-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
           "score_institutional": 1,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-028",
-      "title": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-hait%C3%AD-aplaza-sin-nueva-fecha-las-elecciones-presidenciales-y-legislativas",
-      "representative_source": "France 24",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / América Latina"
-      },
-      "relevance": {
-        "score": 56.7,
-        "level": "MEDIA",
-        "editorial_utility": 64.7
-      },
-      "selection": {
-        "reason": "PML 56.7; aporta diversidad temática; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-10-06T09:47:35-0300",
-      "last_seen": "2026-10-06T09:47:35-0300",
-      "entities": [],
-      "event_terms": [
-        "crisis",
-        "eleccion"
-      ],
-      "analysis": {
-        "summary": "La crisis de seguridad y la inestabilidad institucional vuelven a poner en duda el calendario político de Haití. El Consejo Electoral Provisional anunció este martes que retrasará las primeras etapas del proceso y dejó en suspenso, sin una nueva fecha, los comicios presidenciales y legislativos previstos para diciembre.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / América Latina.",
-        "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas",
-          "description": "La crisis de seguridad y la inestabilidad institucional vuelven a poner en duda el calendario político de Haití. El Consejo Electoral Provisional anunció este martes que retrasará las primeras etapas del proceso y dejó en suspenso, sin una nueva fecha, los comicios presidenciales y legislativos previstos para diciembre.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-hait%C3%AD-aplaza-sin-nueva-fecha-las-elecciones-presidenciales-y-legislativas",
-          "image_url": "https://s.france24.com/media/display/e23d7b6a-a705-11f1-9869-005056a90284/w:1024/p:16x9/2-Mercado-de-Mare-Rouge.jpg",
-          "published_raw": "Tue, 06 Oct 2026 12:47:35 GMT",
-          "published_at": "2026-10-06T09:47:35-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 2,
-          "score_international": 0,
           "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-010",
-      "title": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/toha-ante-opcion-presidencial-de-bachelet-no-perdamos-el-foco/2026-10-07/181002.html",
-      "representative_source": "Cooperativa",
-      "topic": "Economía y políticas públicas",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 58.4,
-        "level": "MEDIA",
-        "editorial_utility": 62.4
-      },
-      "selection": {
-        "reason": "PML 58.4; aporta diversidad temática",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-10-07T18:10:02-0300",
-      "last_seen": "2026-10-07T18:10:02-0300",
-      "entities": "bachelet",
-      "event_terms": [
-        "oposicion",
-        "eleccion"
-      ],
-      "analysis": {
-        "summary": "La exministra Carolina Tohá llamó a la oposición a no adelantar el debate electoral , luego de que la expresidenta Michelle Bachelet dejara abierta la posibilidad de una tercera carrera presidencial . En conversación con Lo Que Queda del Día , Tohá sostuvo que las palabras de la exmandataria no constituyen un anuncio de candidatura , sino una respuesta a una pregunta, y advirtió que sería un error convertir esa discusión en el tema central del sector.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Economía y políticas públicas y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\"",
-          "description": "La exministra Carolina Tohá llamó a la oposición a no adelantar el debate electoral , luego de que la expresidenta Michelle Bachelet dejara abierta la posibilidad de una tercera carrera presidencial . En conversación con Lo Que Queda del Día , Tohá sostuvo que las palabras de la exmandataria no constituyen un anuncio de candidatura , sino una respuesta a una pregunta, y advirtió que sería un error convertir esa discusión en el tema central del sector. \"Yo, sinceramente, no lo veo como un anuncio\", afirmó. \"Ella ha dejado abierta una posibilidad, creo que es bueno tenerlo presente \", agregó, aunque recalcó que la ciudadanía enfrenta dificultades y que al actual Gobierno aún le quedan más de tres años. En ese contexto, planteó que hoy \"hay que organizarse para hacer una buena oposición, hay que presentar alternativas , hay que preocuparnos del empleo, de la seguridad, de este mundo que se está poniendo complicado y nosotros dependemos del mundo\", sostuvo. \"Creo que es bueno saber que está la alternativa de la expresidenta. Creo que va a llegar el momento para hacer esas evaluaciones\", señaló. \"No nos desviemos a cosas electorales\" Consultada por el alcance político del acto de homenaje a Bachelet en La Pintana y sus posteriores declaraciones, Tohá insistió en que corresponde escuchar a la expresidenta, pero mantener la atención en las tareas actuales. \"Tenemos que escuchar y tomar nota de lo que ella dijo, pero mi orientación sería decir: no perdamos el foco hoy día respecto a cuál es nuestro rol \", expresó. La exministra cuestionó al Ejecutivo por entregar \"señales confusas\" y sostuvo que sus prioridades declaradas no se reflejan en su actuación. \"Si mientras el país está en una gran desorientación porque tiene un Gobierno que da señales confusas, que dice estar priorizando ciertas cosas, pero en su actuación eso no se refleja en la práctica, y la oposición se ve desviada en una conversación que adelanta el tema electoral, creo que no le haríamos ningún favor a cualquiera sea la candidatura que más adelante presentemos \", advirtió. Tohá cerró su llamado poniendo énfasis en la próxima discusión presupuestaria: \"Situémonos en nuestra tarea de hoy día, no nos desviemos a cosas electorales en un momento tan delicado como este y con un presupuesto al frente que va a haber que discutir en las próximas semanas\". Presupuesto: \"Se dijo una cosa y se hizo otra\" En materia presupuestaria, Tohá cuestionó la distancia entre las promesas del Gobierno y su propuesta de gasto público, y sostuvo que los ajustes han afectado la inversión, un área que consideró clave para impulsar la economía y el empleo . \"Entonces, primer problema que tenemos es que se dijo que se iba a hacer una cosa y se hizo otra. No hubo tales recortes, los pocos que hubo están en inversión; o sea, ¿dónde está la grasa del Estado?\", planteó. Tohá aclaró que no considera negativo que el Gobierno se aleje de su promesa de recortar 6.000 millones de dólares, pero exigió una explicación sobre el cambio de rumbo . \"Yo por mí, ojalá no se hicieran esos recortes. 6.000 millones de dólares en recortes era una tragedia. El problema es que a mí también me importa la verdad en política \", expresó. \"Creo que esto no es bueno para la salud de la democracia: que se ganen elecciones diciendo una cosa y después se gobierne haciendo otra . Y eso es preocupante y creo que exige una explicación\", agregó. Cuestionó cambio de nombre de Calles Sin Violencia Al cierre de la entrevista, Tohá advirtió que el aumento de recursos para seguridad no tiene un correlato suficiente en prevención y cuestionó el cambio de nombre del Plan Calles Sin Violencia, que el Gobierno reformuló como Plan Foco . \"Se mantienen todos sus componentes, pero se le cambia el nombre. ¿Cuál es la lógica de eso? Es como perder continuidad en algo que ha sido tan importante y que le ha permitido al país además tener resultados\", afirmó. \"Yo creo que hay que tener cuidado con ese tipo de marketing político, porque es bueno para el que lo hace, pero no es bueno para el país \", concluyó.",
-          "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/toha-ante-opcion-presidencial-de-bachelet-no-perdamos-el-foco/2026-10-07/181002.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007181002.jpg",
-          "published_raw": "Wed, 07 Oct 2026 18:10:02 -0300",
-          "published_at": "2026-10-07T18:10:02-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 3,
-          "score_ideology": 0,
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 9,
-          "primary_topic": "Economía y políticas públicas",
-          "secondary_topic": "Elecciones y opinión pública",
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-010"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-023"
         }
       ]
     }
@@ -628,11 +424,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 65,
-          "level": "MEDIA-ALTA",
+          "score": 60,
+          "level": "MEDIA",
           "components": {
             "political_impact": 80,
-            "freshness": 100,
+            "freshness": 80,
             "source_count": 32,
             "geographic_scope": 40,
             "continuity": 36
@@ -711,12 +507,84 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 87
+          "chile_utility": 82
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
+        "cluster_id": "PML-EVENT-010",
+        "title": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\"",
+        "topic": "Economía y políticas públicas",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/toha-ante-opcion-presidencial-de-bachelet-no-perdamos-el-foco/2026-10-07/181002.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 54.7,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 52,
+            "freshness": 80,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 48
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-07T18:10:02-0300",
+        "last_seen": "2026-10-07T18:10:02-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\"",
+            "description": "La exministra Carolina Tohá llamó a la oposición a no adelantar el debate electoral , luego de que la expresidenta Michelle Bachelet dejara abierta la posibilidad de una tercera carrera presidencial . En conversación con Lo Que Queda del Día , Tohá sostuvo que las palabras de la exmandataria no constituyen un anuncio de candidatura , sino una respuesta a una pregunta, y advirtió que sería un error convertir esa discusión en el tema central del sector. \"Yo, sinceramente, no lo veo como un anuncio\", afirmó. \"Ella ha dejado abierta una posibilidad, creo que es bueno tenerlo presente \", agregó, aunque recalcó que la ciudadanía enfrenta dificultades y que al actual Gobierno aún le quedan más de tres años. En ese contexto, planteó que hoy \"hay que organizarse para hacer una buena oposición, hay que presentar alternativas , hay que preocuparnos del empleo, de la seguridad, de este mundo que se está poniendo complicado y nosotros dependemos del mundo\", sostuvo. \"Creo que es bueno saber que está la alternativa de la expresidenta. Creo que va a llegar el momento para hacer esas evaluaciones\", señaló. \"No nos desviemos a cosas electorales\" Consultada por el alcance político del acto de homenaje a Bachelet en La Pintana y sus posteriores declaraciones, Tohá insistió en que corresponde escuchar a la expresidenta, pero mantener la atención en las tareas actuales. \"Tenemos que escuchar y tomar nota de lo que ella dijo, pero mi orientación sería decir: no perdamos el foco hoy día respecto a cuál es nuestro rol \", expresó. La exministra cuestionó al Ejecutivo por entregar \"señales confusas\" y sostuvo que sus prioridades declaradas no se reflejan en su actuación. \"Si mientras el país está en una gran desorientación porque tiene un Gobierno que da señales confusas, que dice estar priorizando ciertas cosas, pero en su actuación eso no se refleja en la práctica, y la oposición se ve desviada en una conversación que adelanta el tema electoral, creo que no le haríamos ningún favor a cualquiera sea la candidatura que más adelante presentemos \", advirtió. Tohá cerró su llamado poniendo énfasis en la próxima discusión presupuestaria: \"Situémonos en nuestra tarea de hoy día, no nos desviemos a cosas electorales en un momento tan delicado como este y con un presupuesto al frente que va a haber que discutir en las próximas semanas\". Presupuesto: \"Se dijo una cosa y se hizo otra\" En materia presupuestaria, Tohá cuestionó la distancia entre las promesas del Gobierno y su propuesta de gasto público, y sostuvo que los ajustes han afectado la inversión, un área que consideró clave para impulsar la economía y el empleo . \"Entonces, primer problema que tenemos es que se dijo que se iba a hacer una cosa y se hizo otra. No hubo tales recortes, los pocos que hubo están en inversión; o sea, ¿dónde está la grasa del Estado?\", planteó. Tohá aclaró que no considera negativo que el Gobierno se aleje de su promesa de recortar 6.000 millones de dólares, pero exigió una explicación sobre el cambio de rumbo . \"Yo por mí, ojalá no se hicieran esos recortes. 6.000 millones de dólares en recortes era una tragedia. El problema es que a mí también me importa la verdad en política \", expresó. \"Creo que esto no es bueno para la salud de la democracia: que se ganen elecciones diciendo una cosa y después se gobierne haciendo otra . Y eso es preocupante y creo que exige una explicación\", agregó. Cuestionó cambio de nombre de Calles Sin Violencia Al cierre de la entrevista, Tohá advirtió que el aumento de recursos para seguridad no tiene un correlato suficiente en prevención y cuestionó el cambio de nombre del Plan Calles Sin Violencia, que el Gobierno reformuló como Plan Foco . \"Se mantienen todos sus componentes, pero se le cambia el nombre. ¿Cuál es la lógica de eso? Es como perder continuidad en algo que ha sido tan importante y que le ha permitido al país además tener resultados\", afirmó. \"Yo creo que hay que tener cuidado con ese tipo de marketing político, porque es bueno para el que lo hace, pero no es bueno para el país \", concluyó.",
+            "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/toha-ante-opcion-presidencial-de-bachelet-no-perdamos-el-foco/2026-10-07/181002.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007181002.jpg",
+            "published_raw": "Wed, 07 Oct 2026 18:10:02 -0300",
+            "published_at": "2026-10-07T18:10:02-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 1,
+            "score_elections": 2,
+            "score_international": 0,
+            "score_conflict": 2,
+            "score_policy": 3,
+            "score_ideology": 0,
+            "score_actor": 1,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 9,
+            "primary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Elecciones y opinión pública",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-010"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 19,
+          "labels": [
+            "Elecciones y opinión pública",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 73.7
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
         "cluster_id": "PML-EVENT-004",
         "title": "Gobierno baja su reforma de seguridad y senadores presentarán nueva propuesta",
         "topic": "Instituciones y gobierno",
@@ -728,11 +596,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 58.9,
+          "score": 53.4,
           "level": "MEDIA",
           "components": {
             "political_impact": 90,
-            "freshness": 62,
+            "freshness": 40,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 44
@@ -783,78 +651,6 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 80.9
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-007",
-        "title": "Ossandón alerta al oficialismo: No es lo mismo que Bachelet esté en la ONU a que esté en Chile",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/presidenciales/ossandon-alerta-al-oficialismo-no-es-lo-mismo-que-bachelet-este-en-la/2026-10-07/174803.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 56.4,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 50,
-            "freshness": 95,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 34
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-07T17:48:03-0300",
-        "last_seen": "2026-10-07T17:48:03-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Ossandón alerta al oficialismo: No es lo mismo que Bachelet esté en la ONU a que esté en Chile",
-            "description": "La diputada Ximena Ossandón  (Renovación Nacional) reconoció este miércoles que  la posibilidad de que la expresidenta Michelle Bachelet (2006-2010, 2014-2018) busque llegar por tercera vez a La Moneda  modifica el panorama político y obliga al oficialismo a replantear estrategias. \"Michelle está en Chile y el oficialismo se tiene que hacer cargo de esto. No sé si (hay) preocupación, pero efectivamente el escenario va a cambiar y eso nos va a tener que hacer llegar a tomar otro tipo de decisiones también desde el punto de vista político \", admitió la parlamentaria, luego de que, en una entrevista en Canal TVU de la Universidad de Concepción, la dos veces Mandataria se declarara abierta a la opción de una nueva aventura presidencial. \"Michelle Bachelet no es lo mismo que esté trabajando en la ONU a que esté activamente trabajando en Chile\" , advirtió Ossandón. Desde el Partido Republicano, el senador y timonel, Arturo Squella , cuestionó las reapariciones de Bachelet y el expresidente Gabriel Boric (2022-2026) durante la última semana . \"Uno puede concluir que duró poco la alianza entre los expresidentes . A ambos se les afilaron los colmillos para volver a la carga. Es síntoma de una carencia que hay en los liderazgos de la actual oposición \", planteó el dirigente. [Vea también]   Parisi deplora eventual Bachelet III: \"Representa la destrucción de la educación pública y el equilibrio fiscal\" Valoración en el oficialismo: \"Que todas las flores florezcan\" En la oposición, la señal de Bachelet fue recibida con entusiasmo transversal. La senadora Paulina Vodanovic , presidenta del Partido Socialista (PS) —colectividad en la que milita Bachelet—, expresó que \"siempre es una buena noticia saber que tenemos muchos liderazgos disponibles. (Ella) es una guía en nuestro actuar, tiene el cariño de la gente y Dios dirá \". \"Obviamente valoramos toda la trayectoria que ha tenido la Presidenta Bachelet; lo que ha hecho por Chile, y lógicamente que cuando estamos hablando de candidaturas presidenciales nos queda un largo trecho que recorrer. Que todas las flores florezcan creo que eso es lo mejor para nuestro sector \", sostuvo, en tanto, su homóloga del Frente Amplio (FA), la diputada Gael Yeomans . Por su parte, el senador Iván Flores (Democracia Cristiana) calificó como \" una buena y bella sorpresa el que la Presidenta Bachelet haya vuelto a ingresar a las líneas políticas internas, y esto no es luego de una fallida candidatura a ser secretaria general de las Naciones Unidas; es porque a la oposición hoy día le falta liderazgo\".  [Lea también]   Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\"",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/presidenciales/ossandon-alerta-al-oficialismo-no-es-lo-mismo-que-bachelet-este-en-la/2026-10-07/174803.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000001320261007174803.jpg",
-            "published_raw": "Wed, 07 Oct 2026 17:48:03 -0300",
-            "published_at": "2026-10-07T17:48:03-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 2,
-            "score_elections": 0,
-            "score_international": 2,
-            "score_conflict": 0,
-            "score_policy": 1,
-            "score_ideology": 1,
-            "score_actor": 6,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 12,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Relaciones internacionales",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 19,
-          "labels": [
-            "Estado e instituciones",
-            "Relaciones internacionales"
-          ],
           "chile_utility": 75.4
         },
         "repeated_in_general_top5": false
@@ -864,27 +660,21 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 15,
-      "maximum_relevance": 66.9,
-      "leading_story": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 2,
-      "maximum_relevance": 59.8,
-      "leading_story": "El primer ministro francés intenta aplacar las protestas con ayudas y buenas palabras mientras anuncia recortes"
+      "event_count": 17,
+      "maximum_relevance": 68.3,
+      "leading_story": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a unas elecciones anticipadas"
     },
     {
       "topic": "Ideología y competencia política",
-      "event_count": 4,
-      "maximum_relevance": 59.7,
-      "leading_story": "Lula tras la primera vuelta: \"Es un resultado inesperado\"; Bolsonaro defiende que \"Brasil quiere cambio\""
+      "event_count": 5,
+      "maximum_relevance": 64.9,
+      "leading_story": "El bulo ultra del “asesinato” de Maricarmen: “Procede una autopsia. Zurdos de mierda. El PSOE hará todo para ganar las elecciones”"
     },
     {
-      "topic": "Economía y políticas públicas",
-      "event_count": 1,
-      "maximum_relevance": 58.4,
-      "leading_story": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\""
+      "topic": "Relaciones internacionales",
+      "event_count": 2,
+      "maximum_relevance": 64.1,
+      "leading_story": "El pacto con Estados Unidos obliga a Groenlandia a seguir en la OTAN si se independiza"
     },
     {
       "topic": "Elecciones y opinión pública",
@@ -893,18 +683,28 @@
       "leading_story": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas"
     },
     {
-      "topic": "Relaciones internacionales",
+      "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 49.2,
-      "leading_story": "La OEA reclama elecciones libres y la excarcelación de presos políticos en Nicaragua"
+      "maximum_relevance": 54.7,
+      "leading_story": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\""
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 1,
+      "maximum_relevance": 42.3,
+      "leading_story": "'Falsos positivos': el legado de la violencia estatal en Colombia"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-011", "PML-EVENT-026", "PML-EVENT-025", "PML-EVENT-023"],
+      "exited_top5": ["PML-EVENT-008", "PML-EVENT-018", "PML-EVENT-028", "PML-EVENT-010"],
+      "retained_top5": "PML-EVENT-003"
+    }
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
