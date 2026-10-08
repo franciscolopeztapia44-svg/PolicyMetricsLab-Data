@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-10-07",
     "data_latest_timestamp": "2026-10-07T22:42:25-0300",
-    "data_age_hours": 1.6,
-    "generated_at": "2026-10-08T00:16:43-0300",
+    "data_age_hours": 4.8,
+    "generated_at": "2026-10-08T03:28:38-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,13 +16,13 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 32 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 5 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 33,
+    "ranked_events": 32,
     "topics": 5,
     "geographies": 2,
     "representative_sources": 3,
@@ -385,7 +385,7 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-020",
+      "cluster_id": "PML-EVENT-019",
       "title": "El primer ministro francés intenta aplacar las protestas con ayudas y buenas palabras mientras anuncia recortes",
       "url": "https://elpais.com/internacional/2026-10-07/francia-prohibe-a-la-policia-lanzar-granadas-contra-los-estudiantes-movilizados-en-la-calle.html",
       "representative_source": "EL PAÍS",
@@ -452,13 +452,13 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-029",
+      "cluster_id": "PML-EVENT-028",
       "title": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-hait%C3%AD-aplaza-sin-nueva-fecha-las-elecciones-presidenciales-y-legislativas",
       "representative_source": "France 24",
@@ -528,7 +528,7 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
+          "cluster_id": "PML-EVENT-028"
         }
       ]
     },
@@ -864,7 +864,7 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 16,
+      "event_count": 15,
       "maximum_relevance": 66.9,
       "leading_story": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno"
     },
