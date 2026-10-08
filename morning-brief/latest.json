@@ -4,51 +4,404 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-07",
-    "data_latest_timestamp": "2026-10-07T11:05:36-0300",
-    "data_age_hours": 1.4,
-    "generated_at": "2026-10-07T12:26:39-0300",
+    "data_latest_timestamp": "2026-10-07T22:42:25-0300",
+    "data_age_hours": 1.6,
+    "generated_at": "2026-10-08T00:16:43-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": false
+    "editorial_topic_diversity_met": true
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 5 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 35,
-    "topics": 2,
+    "ranked_events": 33,
+    "topics": 5,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 60.4,
-    "maximum_relevance": 68.3
+    "average_top5_relevance": 60.3,
+    "maximum_relevance": 66.9
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-013",
-      "title": "Meloni amenaza con elecciones anticipadas si no prospera su controvertida reforma electoral",
-      "url": "https://elpais.com/internacional/2026-10-07/meloni-amenaza-con-elecciones-anticipadas-si-no-prospera-su-controvertida-reforma-electoral.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-003",
+      "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
+      "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 66.9,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 66.9
+      },
+      "selection": {
+        "reason": "PML 66.9",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-10-07T12:24:24-0300",
+      "last_seen": "2026-10-07T12:24:24-0300",
+      "entities": [
+        "congreso",
+        "chile"
+      ],
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "Esta jornada, los senadores Pedro Araya (PPD), Arturo Squella (Republicanos) y Andrés Longton (RN) presentaron la moción parlamentaria que reemplaza la reforma constitucional de seguridad propuesta por el Gobierno, que fue retirada por no obtener apoyos políticos. El ingreso de la moción se dio  un día después de que los legisladores y el Ejecutivo llegaran a un acuerdo para sugerir e ingresar una iniciativa que sí obtenga los respaldos necesarios al interior del Congreso.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
+          "description": "Esta jornada, los senadores Pedro Araya (PPD), Arturo Squella (Republicanos) y Andrés Longton (RN) presentaron la moción parlamentaria que reemplaza la reforma constitucional de seguridad propuesta por el Gobierno, que fue retirada por no obtener apoyos políticos. El ingreso de la moción se dio  un día después de que los legisladores y el Ejecutivo llegaran a un acuerdo para sugerir e ingresar una iniciativa que sí obtenga los respaldos necesarios al interior del Congreso. En concreto, el nuevo texto declara al crimen organizado como contrario a los derechos humanos y le hace aplicable el estatuto constitucional de terrorismo . Además, permite regímenes penitenciarios especiales y modifica el estado de excepción constitucional de emergencia sin crear uno nuevo. El senador Longton detalló que la propuesta establece: \"Asimilar el terrorismo al crimen organizado; establecer la segregación o segmentación para delincuentes de alta peligrosidad condenados por crimen organizado, terrorismo u otros delitos que va a determinar la ley: incomunicación, aislamiento\". Asimismo, el parlamentario oficialista sostuvo que \"no creamos un estado de emergencia nuevo, reforzamos y potenciamos el estado de emergencia actual, estableciendo que todo tipo de amenaza actual, inminente respecto a algún problema de seguridad, orden público, habilita al Presidente de la República para poder dictar un estado de emergencia \". \"Estamos muy conformes con cómo fuimos logrando superar las diferencias. Nos hicimos cargo de las aprensiones que legítimamente presentaron muchos parlamentarios del texto original que había presentado el Gobierno\", indicó, por su parte, Squella. Mientras, Araya aseveró que \"a quí no ha ganado ni el Gobierno ni ha ganado la oposición . Lo que se ha logrado es aunar voluntades para enfrentar un problema que tiene Chile, como lo es el crimen organizado. Esperamos que una vez que se conozca este proyecto, especialmente los senadores de la centroizquierda puedan leerlo con detención y votarlo a su favor\". De todas formas, desde la oposición, el s enador Ricardo Celis , también del PPD, señaló que toda la acción que realizó Araya lo hizo por cuenta propia y no representa la postura de los senadores de la bancada. El ministro de Seguridad, Martín Arrau, comentó que \"desconozco si se retiró o se va a retirar, esos son temas bastante instrumentales por parte de Segpres. En este Congreso hay miles de proyectos que quedan durmiendo, quedará ahí o se retirará, lo importante es que con un proyecto ingresado de manera transversal con los senadores vamos a poder abordar todo o gran parte de las materias que estaban en la reforma que nosotros presentamos, avanzando en mayor segmentación penitenciaria y autonomía por parte de Gendarmería para ese fin\". \"Abordar, quizás no en este proyecto que abre la puerta, pero en reformas al Código Penal, los listados de organizaciones de crimen organizado, y también con algunas mejoras al estado de excepción de emergencia, que no es idéntico a lo que nosotros habíamos planteado, pero va avanzando en ese camino y la tramitación los parlamentarios y nosotros mismos iremos haciendo algunas mejoras\", agregó. &nbsp;",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007122424.jpg",
+          "published_raw": "Wed, 07 Oct 2026 12:24:24 -0300",
+          "published_at": "2026-10-07T12:24:24-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 7,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 3,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 15,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-003"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-008",
+      "title": "Lula tras la primera vuelta: \"Es un resultado inesperado\"; Bolsonaro defiende que \"Brasil quiere cambio\"",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261004-en-directo-elecciones-en-brasil-comienza-la-votaci%C3%B3n-para-elegir-presidente",
+      "representative_source": "France 24",
+      "topic": "Ideología y competencia política",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Brasil / América Latina"
+      },
+      "relevance": {
+        "score": 59.7,
+        "level": "MEDIA",
+        "editorial_utility": 71.7
+      },
+      "selection": {
+        "reason": "PML 59.7; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 8,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-10-02T18:26:40-0300",
+      "last_seen": "2026-10-07T22:42:25-0300",
+      "entities": [
+        "congreso",
+        "brasil",
+        "bolsonaro",
+        "senado",
+        "lula",
+        "iran",
+        "trump"
+      ],
+      "event_terms": "victoria",
+      "analysis": {
+        "summary": "El Partido Liberal, plataforma de la candidatura presidencial de Flávio Bolsonaro, consiguió 121 escaños en la Cámara de Diputados y pasó de 15 a 28 asientos en el Senado, lo que se traduce en la mayor representación de un solo partido en ambas cámaras en casi 40 años. Con el apoyo de otras fuerzas de tendencia conservadora, Bolsonaro garantizaría así una cómoda gobernabilidad, en caso de ser electo presidente, y podría perseguir, incluso, la prometida amnistía a su padre.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Ideología y competencia política y la sitúa en Brasil / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "No es solo la Presidencia: la derecha se consolida en el Congreso de Brasil y potencia a Bolsonaro",
+          "description": "El Partido Liberal, plataforma de la candidatura presidencial de Flávio Bolsonaro, consiguió 121 escaños en la Cámara de Diputados y pasó de 15 a 28 asientos en el Senado, lo que se traduce en la mayor representación de un solo partido en ambas cámaras en casi 40 años. Con el apoyo de otras fuerzas de tendencia conservadora, Bolsonaro garantizaría así una cómoda gobernabilidad, en caso de ser electo presidente, y podría perseguir, incluso, la prometida amnistía a su padre.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-no-es-solo-la-presidencia-la-derecha-se-consolida-en-el-congreso-de-brasil-y-potencia-a-bolsonaro",
+          "image_url": "https://s.france24.com/media/display/8d57872a-c10f-11f1-be83-69fad0a7cb9f/w:1024/p:16x9/FOTO-PORTADA-BRASIL-BOLSONAROS-SENADO.jpg",
+          "published_raw": "Tue, 06 Oct 2026 00:07:54 GMT",
+          "published_at": "2026-10-05T21:07:54-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 5,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 3,
+          "score_actor": 3,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 11,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-008"
+        },
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "\"Solo faltan días para el rescate Brasil\": Bolsonaro celebra la victoria sobre Lula",
+          "description": "El senador del Partido Liberal (PL) y candidato presidencial, Flávio Bolsonaro, agradeció este lunes \"a Dios\" y al pueblo brasileño por su victoria en las elecciones del domingo ante el presidente Luiz Inácio Lula da Silva, en contra de los pronósticos. Además, celebró que el PL resultara el partido más votado en el Parlamento, con más de un tercio de los escaños del Senado. Las bolsas y la moneda nacional comenzaron la semana fortalecidas tras el resultado en las urnas.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261005-solo-faltan-d%C3%ADas-para-el-rescate-brasil-bolsonaro-celebra-la-victoria-sobre-lula",
+          "image_url": "https://s.france24.com/media/display/2dd48b3a-c0d4-11f1-9f3e-578a4b968fd6/w:1024/p:16x9/2026-10-05T022837Z-1703279203-RC2OWNAV3T5S-RTRMADP-3-BRAZIL-ELECTION.jpg",
+          "published_raw": "Mon, 05 Oct 2026 16:10:56 GMT",
+          "published_at": "2026-10-05T13:10:56-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 3,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 1,
+          "political_evidence": 9,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-008"
+        },
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "\"Dictadura nunca más\": marcha masiva en Río contra Bolsonaro a días del balotaje con Lula",
+          "description": "Miles de personas, en su mayoría estudiantes, marcharon este miércoles 7 de octubre en Río de Janeiro para rechazar el avance de la extrema derecha y del candidato Flávio Bolsonaro. Los manifestantes también mostraron su apoyo a la continuidad del Gobierno del izquierdista Luiz Inácio Lula da Silva en Brasil, a falta de poco más de dos semanas para el balotaje presidencial.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261008-dictadura-nunca-m%C3%A1s-marcha-masiva-en-r%C3%ADo-contra-bolsonaro-a-d%C3%ADas-del-balotaje-con-lula",
+          "image_url": "https://s.france24.com/media/display/f6a0f976-c2b0-11f1-b12f-c55799ef8309/w:1024/p:16x9/2026-10-07T182937Z-1368713788-RC2GYNAH4K27-RTRMADP-3-BRAZIL-POLITICS-PROTEST.jpg",
+          "published_raw": "Thu, 08 Oct 2026 01:42:25 GMT",
+          "published_at": "2026-10-07T22:42:25-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 2,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Ideología y competencia política",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-008"
+        },
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Flávio Bolsonaro y Lula da Silva se enfrentarán en una segunda vuelta en Brasil",
+          "description": "El senador de extrema derecha Flávio Bolsonaro y el mandatario de izquierdas Luiz Inácio Lula da Silva irán a una segunda vuelta en las elecciones presidenciales de Brasil, según los resultados de los comicios de este domingo 4 de octubre, con casi el 100% escrutado.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261005-fl%C3%A1vio-bolsonaro-y-lula-da-silva-se-enfrentar%C3%A1n-en-una-segunda-vuelta-en-brasil",
+          "image_url": "https://s.france24.com/media/display/2b9d95f0-c034-11f1-a735-1ff0321dbbd3/w:1024/p:16x9/Disen%CC%83o-sin-ti%CC%81tulo.png",
+          "published_raw": "Mon, 05 Oct 2026 00:08:00 GMT",
+          "published_at": "2026-10-04T21:08:00-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 2,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-008"
+        },
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Lula tras la primera vuelta: \"Es un resultado inesperado\"; Bolsonaro defiende que \"Brasil quiere cambio\"",
+          "description": "El presidente Luiz Inácio Lula da Silva habló este domingo 4 de octubre ante sus seguidores después de que los resultados de los comicios presidenciales confirmaran que deberá disputar el balotaje del 25 de octubre con el ultraderechista Flávio Bolsonaro. Lula advirtió que el senador de extrema derecha solo representa \"incertidumbre\". Por su parte, Bolsonaro emitió una declaración breve en la que afirmó: \"Brasil quiere cambio\".",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261004-en-directo-elecciones-en-brasil-comienza-la-votaci%C3%B3n-para-elegir-presidente",
+          "image_url": "https://s.france24.com/media/display/7f4df2a0-c05f-11f1-ac5b-13420ab900a2/w:1024/p:16x9/WhatsApp-Image-2026-10-04-at-18-04-19.jpeg",
+          "published_raw": "Sun, 04 Oct 2026 11:49:59 GMT",
+          "published_at": "2026-10-04T08:49:59-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 2,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Ideología y competencia política",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-008"
+        },
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Flávio Bolsonaro tritura las encuestas: una ventaja pequeña, pero un escenario cuesta arriba para Lula",
+          "description": "Brasil quedó inclinado hacia la tendencia de retorno a la derecha que sacude a América Latina, luego de que el senador e hijo del expresidente Jair Bolsonaro aventajara por casi dos puntos al izquierdista Luiz Inácio Lula da Silva en la primera vuelta de las elecciones. Lula ha reconocido el resultado como “inesperado” y promete que desde ahora empieza “una nueva campaña”, pero el margen de maniobra de Bolsonaro para sumar a través de alianzas e impulsarse sobre el arrase de la derecha es mucho mayor.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261005-fl%C3%A1vio-bolsonaro-tritura-las-encuestas-una-ventaja-peque%C3%B1a-pero-un-escenario-cuesta-arriba-para-lula",
+          "image_url": "https://s.france24.com/media/display/dd86b1bc-c06f-11f1-895a-13420ab900a2/w:1024/p:16x9/367a2e7e8c45b7aad98eb7662c5e00faf17b3d39w.jpg",
+          "published_raw": "Mon, 05 Oct 2026 03:41:44 GMT",
+          "published_at": "2026-10-05T00:41:44-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-008"
+        },
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "¿Lula o Bolsonaro?: Brasil vota bajo la sombra de una interferencia de Trump",
+          "description": "En vísperas de la primera vuelta de las presidenciales brasileñas, la noticia de que Estados Unidos suspendió la atención presencial en su embajada y sus consulados en esa nación latinoamericana, alegando “cuestiones de seguridad”, ha vuelto a alimentar los temores de una injerencia de Washington. No obstante, el Gobierno de Donald Trump no estableció una relación directa entre esta medida y las elecciones. Tampoco detalló la naturaleza de la amenaza que motivó la suspensión.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261002-lula-o-bolsonaro-brasil-vota-bajo-la-sombra-de-una-interferencia-de-trump",
+          "image_url": "https://s.france24.com/media/display/871de7b4-be9e-11f1-8ed4-dd51fcab6130/w:1024/p:16x9/WEB-PORTADA-02OCT-ARTICULO.png",
+          "published_raw": "Fri, 02 Oct 2026 21:26:40 GMT",
+          "published_at": "2026-10-02T18:26:40-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 1,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-008"
+        },
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "El “derechazo” de Brasil: Flávio Bolsonaro supera a Lula",
+          "description": "Contra las previsiones, Flávio Bolsonaro fue el candidato más votado en la primera vuelta de las elecciones presidenciales de Brasil, con el 47,03% de los votos frente al 45,16% de Lula da Silva. La diferencia, de unos 2,2 millones de votos, obliga a ambos a medirse nuevamente el 25 de octubre. ¿Qué explica el avance del bolsonarismo y cómo puede este resultado reconfigurar la política brasileña y el tablero geopolítico regional? Lo analizamos en El Debate de France 24.",
+          "url": "https://www.france24.com/es/programas/el-debate/20261006-el-derechazo-de-brasil-fl%C3%A1vio-bolsonaro-supera-a-lula",
+          "image_url": "https://s.france24.com/media/display/b9203174-c022-11f1-976d-1ff0321dbbd3/w:1024/p:16x9/2026-10-03T232301Z-477957309-RC2NVNACK7S9-RTRMADP-3-BRAZIL-ELECTION-BOLSONARO.jpg",
+          "published_raw": "Tue, 06 Oct 2026 14:13:32 GMT",
+          "published_at": "2026-10-06T11:13:32-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-008"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-020",
+      "title": "El primer ministro francés intenta aplacar las protestas con ayudas y buenas palabras mientras anuncia recortes",
+      "url": "https://elpais.com/internacional/2026-10-07/francia-prohibe-a-la-policia-lanzar-granadas-contra-los-estudiantes-movilizados-en-la-calle.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Conflictos y seguridad",
+      "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
         "group": "No identificado",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 68.3,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 68.3
+        "score": 59.8,
+        "level": "MEDIA",
+        "editorial_utility": 67.8
       },
       "selection": {
-        "reason": "PML 68.3",
+        "reason": "PML 59.8; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -58,17 +411,17 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-07T09:53:58-0300",
-      "last_seen": "2026-10-07T09:53:58-0300",
+      "first_seen": "2026-10-07T14:53:44-0300",
+      "last_seen": "2026-10-07T14:53:44-0300",
       "entities": [],
-      "event_terms": "eleccion",
+      "event_terms": "protestas",
       "analysis": {
-        "summary": "La primera ministra italiana advierte a sus diputados de que si la polémica ley no se aprueba este jueves en la Cámara, donde el voto es secreto, se irá a las urnas",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "Las manifestaciones continúan y el titular de Interior anuncia que las fuerzas del orden no podrán usar granadas aturdidoras, tras las lesiones sufridas por varios estudiantes",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
         "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
@@ -76,36 +429,36 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Meloni amenaza con elecciones anticipadas si no prospera su controvertida reforma electoral",
-          "description": "La primera ministra italiana advierte a sus diputados de que si la polémica ley no se aprueba este jueves en la Cámara, donde el voto es secreto, se irá a las urnas",
-          "url": "https://elpais.com/internacional/2026-10-07/meloni-amenaza-con-elecciones-anticipadas-si-no-prospera-su-controvertida-reforma-electoral.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/D7JBYY54QRDBJAM6QZFZIMVF2Y.jpg?auth=f8c324055cd5c8ed45a39510f9ef6255ada51d779a528d206bcb98ad62fd3a7c",
-          "published_raw": "Wed, 07 Oct 2026 12:53:58 GMT",
-          "published_at": "2026-10-07T09:53:58-0300",
+          "title": "El primer ministro francés intenta aplacar las protestas con ayudas y buenas palabras mientras anuncia recortes",
+          "description": "Las manifestaciones continúan y el titular de Interior anuncia que las fuerzas del orden no podrán usar granadas aturdidoras, tras las lesiones sufridas por varios estudiantes",
+          "url": "https://elpais.com/internacional/2026-10-07/francia-prohibe-a-la-policia-lanzar-granadas-contra-los-estudiantes-movilizados-en-la-calle.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/FC5RP5SWJFN4POAUCFODPVOXLQ.jpg?auth=a118ce4a093809d63c94b0b5d879f8977870e7c8758c08f4cba6835275e4d409",
+          "published_raw": "Wed, 07 Oct 2026 17:53:44 GMT",
+          "published_at": "2026-10-07T14:53:44-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
-          "score_institutional": 4,
-          "score_elections": 2,
+          "score_institutional": 1,
+          "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
+          "score_conflict": 2,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 7,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "political_evidence": 4,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-013"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-020"
         }
       ]
     },
     {
-      "position": 2,
-      "cluster_id": "PML-EVENT-031",
+      "position": 4,
+      "cluster_id": "PML-EVENT-029",
       "title": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-hait%C3%AD-aplaza-sin-nueva-fecha-las-elecciones-presidenciales-y-legislativas",
       "representative_source": "France 24",
@@ -116,12 +469,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 62.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 67.2
+        "score": 56.7,
+        "level": "MEDIA",
+        "editorial_utility": 64.7
       },
       "selection": {
-        "reason": "PML 62.2; aporta diversidad temática",
+        "reason": "PML 56.7; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -175,29 +528,29 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-031"
+          "cluster_id": "PML-EVENT-029"
         }
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-003",
-      "title": "Gobierno baja su reforma de seguridad y senadores presentarán nueva propuesta",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-baja-su-reforma-de-seguridad-y-senadores-presentaran-nueva/2026-10-06/184849.html",
+      "position": 5,
+      "cluster_id": "PML-EVENT-010",
+      "title": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\"",
+      "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/toha-ante-opcion-presidencial-de-bachelet-no-perdamos-el-foco/2026-10-07/181002.html",
       "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
+      "topic": "Economía y políticas públicas",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
         "group": "Chile",
         "country": "Chile"
       },
       "relevance": {
-        "score": 63.4,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 66.4
+        "score": 58.4,
+        "level": "MEDIA",
+        "editorial_utility": 62.4
       },
       "selection": {
-        "reason": "PML 63.4; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 58.4; aporta diversidad temática",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -207,86 +560,16 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-10-06T18:48:49-0300",
-      "last_seen": "2026-10-06T18:48:49-0300",
-      "entities": [],
-      "event_terms": "oposicion",
+      "first_seen": "2026-10-07T18:10:02-0300",
+      "last_seen": "2026-10-07T18:10:02-0300",
+      "entities": "bachelet",
+      "event_terms": [
+        "oposicion",
+        "eleccion"
+      ],
       "analysis": {
-        "summary": "La Moneda y senadores de oficialismo y oposición alcanzaron este martes un acuerdo para presentar una propuesta de reforma constitucional en materia de seguridad , luego de que la iniciativa de La Moneda fuera criticada por gran parte del arco político. Los parlamentarios de las comisiones de Constitución, Pedro Araya (PPD), Andrés Longton (RN) y Arturo Squella (Republicano) y de Seguridad Karim Bianchi (ind) e Iván Flores (DC) presentará mañana la iniciativa.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Gobierno baja su reforma de seguridad y senadores presentarán nueva propuesta",
-          "description": "La Moneda y senadores de oficialismo y oposición alcanzaron este martes un acuerdo para presentar una propuesta de reforma constitucional en materia de seguridad , luego de que la iniciativa de La Moneda fuera criticada por gran parte del arco político. Los parlamentarios de las comisiones de Constitución, Pedro Araya (PPD), Andrés Longton (RN) y Arturo Squella (Republicano) y de Seguridad Karim Bianchi (ind) e Iván Flores (DC) presentará mañana la iniciativa. En ese sentido, el biministro del Interior y Segegob, Claudio Alvarado , señaló que \"el Gobierno, tal como ha comprometido en las conversaciones privadas y también lo hemos dado a entender públicamente, dado ese trabajo y el respeto a los acuerdos, no vamos a perseverar con la reforma que habíamos ingresado en su minuto \". Por su parte, el ministro de Justicia y Derechos Humanos, Fernando Rabat, detalló sobre que \"nos queda claro que el actual estado de emergencia va a contemplar elementos que recogen el diagnóstico que ha tenido el Gobierno del presidente José Antonio Kast, de poder enfrentar derechamente el crimen organizado y al terrorismo, y nos parece que lo que se nos planteó en esta reunión aborda debidamente el diagnóstico que ha tenido el Gobierno\". De lo trascendido, la moción parlamentaria de reforma contiene herramientas adicionales en el estado de excepción constitucional de emergencia . Además, el pretendido registro de bandas de crimen organizado no estará incluido en el, pues será materia de ley y no constitucional. Por otro lado, el ministro Segpres, José García Ruminot , confirmó que el Gobierno ingresará esta semana por la Cámara Baja la insistencia para rehabilitar la tramitación para ampliar el plazo de detención con fines de concretar expulsiones administrativas.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-baja-su-reforma-de-seguridad-y-senadores-presentaran-nueva/2026-10-06/184849.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261006/imag/foto_0000000220261006184849.jpg",
-          "published_raw": "Tue, 06 Oct 2026 18:48:49 -0300",
-          "published_at": "2026-10-06T18:48:49-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 7,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 3,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 5,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 15,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-027",
-      "title": "Más Madrid propone que Colau sea la candidata del Frente Amplio a la presidencia del Gobierno y encabece la lista en Barcelona",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-10-07/mas-madrid-propone-que-colau-sea-la-candidata-a-la-presidencia-del-gobierno-y-encabece-la-lista-en-barcelona.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 56.5,
-        "level": "MEDIA",
-        "editorial_utility": 52.5
-      },
-      "selection": {
-        "reason": "PML 56.5; fallback editorial controlado; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-07T11:05:36-0300",
-      "last_seen": "2026-10-07T11:05:36-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "Mónica García liderará la papeleta en Madrid junto a Emilio Delgado, Tesh Sidi y Eduardo Rubiño, según trasladan fuentes del partido",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "La exministra Carolina Tohá llamó a la oposición a no adelantar el debate electoral , luego de que la expresidenta Michelle Bachelet dejara abierta la posibilidad de una tercera carrera presidencial . En conversación con Lo Que Queda del Día , Tohá sostuvo que las palabras de la exmandataria no constituyen un anuncio de candidatura , sino una respuesta a una pregunta, y advirtió que sería un error convertir esa discusión en el tema central del sector.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Economía y políticas públicas y la sitúa en Chile.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -296,108 +579,32 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Más Madrid propone que Colau sea la candidata del Frente Amplio a la presidencia del Gobierno y encabece la lista en Barcelona",
-          "description": "Mónica García liderará la papeleta en Madrid junto a Emilio Delgado, Tesh Sidi y Eduardo Rubiño, según trasladan fuentes del partido",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-10-07/mas-madrid-propone-que-colau-sea-la-candidata-a-la-presidencia-del-gobierno-y-encabece-la-lista-en-barcelona.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/M3A7Y6NGI5IJFBKHKJJDWIPFFA.jpg?auth=b8cb92eb681b4d87b9ef159976e298a40560fe72e2fb9c540c83cdd9c7d53eac",
-          "published_raw": "Wed, 07 Oct 2026 14:05:36 GMT",
-          "published_at": "2026-10-07T11:05:36-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\"",
+          "description": "La exministra Carolina Tohá llamó a la oposición a no adelantar el debate electoral , luego de que la expresidenta Michelle Bachelet dejara abierta la posibilidad de una tercera carrera presidencial . En conversación con Lo Que Queda del Día , Tohá sostuvo que las palabras de la exmandataria no constituyen un anuncio de candidatura , sino una respuesta a una pregunta, y advirtió que sería un error convertir esa discusión en el tema central del sector. \"Yo, sinceramente, no lo veo como un anuncio\", afirmó. \"Ella ha dejado abierta una posibilidad, creo que es bueno tenerlo presente \", agregó, aunque recalcó que la ciudadanía enfrenta dificultades y que al actual Gobierno aún le quedan más de tres años. En ese contexto, planteó que hoy \"hay que organizarse para hacer una buena oposición, hay que presentar alternativas , hay que preocuparnos del empleo, de la seguridad, de este mundo que se está poniendo complicado y nosotros dependemos del mundo\", sostuvo. \"Creo que es bueno saber que está la alternativa de la expresidenta. Creo que va a llegar el momento para hacer esas evaluaciones\", señaló. \"No nos desviemos a cosas electorales\" Consultada por el alcance político del acto de homenaje a Bachelet en La Pintana y sus posteriores declaraciones, Tohá insistió en que corresponde escuchar a la expresidenta, pero mantener la atención en las tareas actuales. \"Tenemos que escuchar y tomar nota de lo que ella dijo, pero mi orientación sería decir: no perdamos el foco hoy día respecto a cuál es nuestro rol \", expresó. La exministra cuestionó al Ejecutivo por entregar \"señales confusas\" y sostuvo que sus prioridades declaradas no se reflejan en su actuación. \"Si mientras el país está en una gran desorientación porque tiene un Gobierno que da señales confusas, que dice estar priorizando ciertas cosas, pero en su actuación eso no se refleja en la práctica, y la oposición se ve desviada en una conversación que adelanta el tema electoral, creo que no le haríamos ningún favor a cualquiera sea la candidatura que más adelante presentemos \", advirtió. Tohá cerró su llamado poniendo énfasis en la próxima discusión presupuestaria: \"Situémonos en nuestra tarea de hoy día, no nos desviemos a cosas electorales en un momento tan delicado como este y con un presupuesto al frente que va a haber que discutir en las próximas semanas\". Presupuesto: \"Se dijo una cosa y se hizo otra\" En materia presupuestaria, Tohá cuestionó la distancia entre las promesas del Gobierno y su propuesta de gasto público, y sostuvo que los ajustes han afectado la inversión, un área que consideró clave para impulsar la economía y el empleo . \"Entonces, primer problema que tenemos es que se dijo que se iba a hacer una cosa y se hizo otra. No hubo tales recortes, los pocos que hubo están en inversión; o sea, ¿dónde está la grasa del Estado?\", planteó. Tohá aclaró que no considera negativo que el Gobierno se aleje de su promesa de recortar 6.000 millones de dólares, pero exigió una explicación sobre el cambio de rumbo . \"Yo por mí, ojalá no se hicieran esos recortes. 6.000 millones de dólares en recortes era una tragedia. El problema es que a mí también me importa la verdad en política \", expresó. \"Creo que esto no es bueno para la salud de la democracia: que se ganen elecciones diciendo una cosa y después se gobierne haciendo otra . Y eso es preocupante y creo que exige una explicación\", agregó. Cuestionó cambio de nombre de Calles Sin Violencia Al cierre de la entrevista, Tohá advirtió que el aumento de recursos para seguridad no tiene un correlato suficiente en prevención y cuestionó el cambio de nombre del Plan Calles Sin Violencia, que el Gobierno reformuló como Plan Foco . \"Se mantienen todos sus componentes, pero se le cambia el nombre. ¿Cuál es la lógica de eso? Es como perder continuidad en algo que ha sido tan importante y que le ha permitido al país además tener resultados\", afirmó. \"Yo creo que hay que tener cuidado con ese tipo de marketing político, porque es bueno para el que lo hace, pero no es bueno para el país \", concluyó.",
+          "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/toha-ante-opcion-presidencial-de-bachelet-no-perdamos-el-foco/2026-10-07/181002.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007181002.jpg",
+          "published_raw": "Wed, 07 Oct 2026 18:10:02 -0300",
+          "published_at": "2026-10-07T18:10:02-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
           "score_institutional": 1,
-          "score_elections": 1,
+          "score_elections": 2,
           "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
+          "score_conflict": 2,
+          "score_policy": 3,
           "score_ideology": 0,
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
+          "political_evidence": 9,
+          "primary_topic": "Economía y políticas públicas",
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-025",
-      "title": "¿Qué es real y qué es falso? el uso de la IA en las elecciones brasileñas",
-      "url": "https://www.france24.com/es/programas/en-foco/20261005-qu%C3%A9-es-real-y-qu%C3%A9-es-falso-el-uso-de-la-ia-en-las-elecciones-brasile%C3%B1as",
-      "representative_source": "France 24",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Brasil / América Latina"
-      },
-      "relevance": {
-        "score": 51.5,
-        "level": "BAJA",
-        "editorial_utility": 47.5
-      },
-      "selection": {
-        "reason": "PML 51.5; diversidad relajada para completar el brief; aporta diversidad geográfica",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-10-05T11:15:08-0300",
-      "last_seen": "2026-10-05T11:15:08-0300",
-      "entities": [
-        "brasil",
-        "bolsonaro"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "La primera vuelta de las elecciones presidenciales se celebró este domingo en Brasil, en unos comicios en los que la inteligencia artificial desempeñó un papel cada vez más importante: un avatar del expresidente Jair Bolsonaro para apoyar la candidatura de su hijo, un clon de una gobernadora para solicitar donaciones a sus votantes y jingles de campaña creados por unos pocos reales. La desinformación se convirtió así en uno de los principales desafíos de estas elecciones.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
-        "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "¿Qué es real y qué es falso? el uso de la IA en las elecciones brasileñas",
-          "description": "La primera vuelta de las elecciones presidenciales se celebró este domingo en Brasil, en unos comicios en los que la inteligencia artificial desempeñó un papel cada vez más importante: un avatar del expresidente Jair Bolsonaro para apoyar la candidatura de su hijo, un clon de una gobernadora para solicitar donaciones a sus votantes y jingles de campaña creados por unos pocos reales. La desinformación se convirtió así en uno de los principales desafíos de estas elecciones.",
-          "url": "https://www.france24.com/es/programas/en-foco/20261005-qu%C3%A9-es-real-y-qu%C3%A9-es-falso-el-uso-de-la-ia-en-las-elecciones-brasile%C3%B1as",
-          "image_url": "https://s.france24.com/media/display/1f8bcb24-bdb4-11f1-9627-13e372f41e70/w:1024/p:16x9/EN-NW-OOV-ECRAN-FREEZE-IA-BRESIL-ELEX-BAIN-Lauren.jpg",
-          "published_raw": "Mon, 05 Oct 2026 14:15:08 GMT",
-          "published_at": "2026-10-05T11:15:08-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 3,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-010"
         }
       ]
     }
@@ -410,131 +617,87 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-006",
-        "title": "Corte desaforó nuevamente a Calisto, ahora como senador",
+        "cluster_id": "PML-EVENT-001",
+        "title": "Las Reglas de Uso de la Fuerza están a un paso de ser ley tras aprobación en Cámara Baja",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/corte-desaforo-nuevamente-a-calisto-ahora-como-senador/2026-10-06/171906.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/las-reglas-de-uso-de-la-fuerza-estan-a-un-paso-de-ser-ley-tras/2026-10-07/142148.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 51.4,
-          "level": "BAJA",
+          "score": 65,
+          "level": "MEDIA-ALTA",
           "components": {
-            "political_impact": 52,
-            "freshness": 80,
-            "source_count": 30,
+            "political_impact": 80,
+            "freshness": 100,
+            "source_count": 32,
             "geographic_scope": 40,
-            "continuity": 38
+            "continuity": 36
           }
         },
         "coverage": {
-          "article_count": 1,
+          "article_count": 2,
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-06T17:19:06-0300",
-        "last_seen": "2026-10-06T17:19:06-0300",
+        "first_seen": "2026-10-07T14:21:48-0300",
+        "last_seen": "2026-10-07T20:41:10-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Corte desaforó nuevamente a Calisto, ahora como senador",
-            "description": "Por unanimidad, la Corte de Apelaciones de Puerto Montt acogió este martes  la solicitud del Ministerio Público de desaforar al senador independiente Miguel Ángel Calisto , imputado por fraude al Fisco. Calisto ya había sido desaforado como diputado, pero su elección como senador en 2025  -en un cupo de la Federación Regionalista Verde Social dentro del pacto Verdes, Regionalistas y Humanistas-  obligó a la Fiscalía a solicitar nuevamente la medida . La indagatoria que desarrolló la Fiscalía Local de Coyhaique apunta a que, entre 2018 y 2022, el legislador se concertó con su exjefe de campaña Roland Cárcamo y la esposa de éste, Carla Graf , para defraudar al Fisco mediante falsas asesorías parlamentarias . \" Una vez que esta resolución quede ejecutoriada, la causa podrá avanzar hacia la etapa de preparación juicio oral , conforme a lo establecido en el Código Procesal Penal\", consigna la nota del Ministerio Público . Ver esta publicación en Instagram Una publicación compartida por Fiscalia_Aysen (@fiscalia_aysen) Citando el fallo del tribunal de alzada, el ente persecutor apunta que \"el examen de los antecedentes recabados en la carpeta investigativa permite apreciar que los hechos materia de la acusación, tienen mérito y resultan plausibles \". \"El convencimiento preliminar requerido en esta fase previa de desafuero, se obtiene del examen de los antecedentes reunidos en la etapa de investigación, reales, revestidos de seriedad y plausibilidad para dar lugar a la formación de causa respecto del senador Miguel Ángel Calisto Águila ; sin perjuicio de lo que se resuelva en el juicio penal\", cierra la resolución. Los ocho imputados en esta causa -que incluyen al mentado parlamentario- son indagados por  delitos reiterados de fraude al Fisco y fraude de subvenciones , donde el monto total del perjuicio para el Estado supera los 100 millones de pesos . Previamente, la Corte de Apelaciones de Coyhaique ya había rechazado un recurso de amparo impuesto por la defensa de Calisto, que pretendía ampliar el plazo de investigación. Calisto apelará ante la Corte Suprema Tras lo resuelto por la Corte de Puerto Montt, Calisto adelantó desde el Congreso que, estando \" convencidos de nuestra rectitud y del trabajo que hemos realizado durante años, vamos a recurrir a todas las instancias que la ley nos entrega y que la Constitución garantiza respecto a un debido proceso y del derecho a la defensa. Y, por supuesto, vamos a apelar a la (Corte) Suprema, que es parte del proceso que corresponde \". Además, informó que, en paralelo, su defensa ha presentado un recurso de amparo ante el máximo tribunal \"para que se pueda revisar la situación respecto de la investigación, con la finalidad de que todos los antecedentes incorporados en la carpeta investigativa sean revisados , y tengamos el legítimo derecho de defendernos\". \"Este es un proceso que lleva cerca de siete años y, por lo tanto, yo estoy muy tranquilo, muy convencido de nuestra inocencia. Es más: yo enfrenté una campaña senatorial en medio de la presentación que realizaba el Ministerio Público, obtuve el 32% de los votos en una elección donde me tocó competir con la izquierda y la derecha. Por ende, la principal tranquilidad para mí es que la gente de Aysén me cree \", apuntó el representante de esa región. Dicho esto, \"vamos a acatar todas las resoluciones por parte de las instancias correspondientes\", aunque Calisto subrayó que \" el desafuero no es una condena, sino que quitar la protección parlamentaria para poder seguir el proceso\". \"Vamos para los siete años de este proceso en el cual se hizo una investigación -a nuestro juicio- injusta, una acusación falsa y anónima, en donde el Ministerio Público ha tratado de configurar antecedentes para poder acusarme \", remató.",
-            "url": "https://www.cooperativa.cl/noticias/pais/judicial/denuncias-de-corrupcion/corte-desaforo-nuevamente-a-calisto-ahora-como-senador/2026-10-06/171906.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261006/imag/foto_0000000220261006171906.jpg",
-            "published_raw": "Tue, 06 Oct 2026 17:19:06 -0300",
-            "published_at": "2026-10-06T17:19:06-0300",
+            "title": "Las Reglas de Uso de la Fuerza están a un paso de ser ley tras aprobación en Cámara Baja",
+            "description": "El proyecto de Reglas de Uso de la Fuerza (RUF) -que define un marco jurídico de acción para las Fuerzas de Orden y Seguridad en Chile-  está a un paso de ser despachado a ley, luego que la Cámara Baja aprobara el informe de la comisión mixta. El hemiciclo dio el visto bueno a la iniciativa con 120 votos a favor, 23 en contra y cinco abstenciones, por lo que pasará ahora al Senado para su votación final.  ✅ APROBADO | La Cámara respalda la propuesta de Comisión Mixta del proyecto que establece normas generales sobre el uso de la fuerza para el personal de las fuerzas de orden y seguridad pública y de las fuerzas armadas. Pasa al Senado. — Diputadas y Diputados de Chile (@Camara_cl) October 7, 2026 Sin embargo, el debate no estuvo exento de controversia, ya que la Cámara aprobó la orientación de las RUF bajo principios de legalidad, necesidad, responsabilidad y racionalidad, excluyendo el de proporcionalidad.  Ante ello, parte de la oposición -como el FA y el PC- expresó su rechazo; por ejemplo,   la diputada comunista Lorena Pizarro hizo reserva de constitucionalidad sobre tres elementos del informe de la comisión. En la misma línea, su par del FA Lorena Fries criticó que la normativa \"blinda a quien dispara contra un detenido que huye y no obedece la orden de detenerse, sin exigir que represente un peligro\". \"Nadie está diciendo que un funcionario (policial) deba quedar desprotegido, pero lo que no puede pasar es que diseñemos una ley que ensanche la fuerza y estreche la responsabilidad\",  sostuvo. El senador independiente Cristián Vial planteó que \"hemos ido comprendiendo que ejercer el legítimo uso de la fuerza que el Estado entrega a las instituciones para proteger a sus ciudadanos es una responsabilidad que requiere reglas claras y el respaldo jurídico para quien deba cumplirlas, nuestros policías, nuestros militares, porque a veces se nos olvida que detrás de un uniforme hay una persona\". Desde el PC, la senadora Claudia Pascual dijo que \"constituye un hito el elevar el rango legal de las disposiciones que históricamente se encontraban dispersas en distintas circulares infralegales, por eso es que en su tramitación en particular nosotros apoyamos gran parte de estas disposiciones\". \"Sin embargo, el texto final de la Comisión Mixta consolida una marcada asimetría que prioriza la discrecionalidad e inmunidad de las fuerzas de orden y la defensa por sobre el resguardo efectivo de los derechos fundamentales y de garantías civiles\" , detalló. Gobierno subraya que las RUF \"exigen formación, capacitación y equipamiento adecuado\" Desde el oficialismo, en tanto, el diputado RN Luis Pardo destacó que las RUF aprobadas \"establecen un marco jurídico que da certeza tanto para que no haya abuso respecto del uso de la fuerza, como para quienes tienen que ejercerla  y lo hagan con la tranquilidad de que, si se someten a estas normas, no van a ser tratados como delincuentes\". En el Gobierno, el ministro de Seguridad Pública, Martín Arrau,   valoró el resultado de la votación, pero enfatizó que \"el deber no termina con aprobar estas reglas\". \"El proyecto exige formación, capacitación y el equipamiento adecuado para proteger la vida del personal (policial) y de terceros. Ese respaldo debe llegar al procedimiento y al entrenamiento (de las Fuerzas del Orden), ya que una regla que el funcionario no conoce o para la cual no ha sido preparado no entrega toda la certeza que necesita\", manifestó. El despacho a ley de las RUF se ha planteado políticamente como un requisito esencial para debatir proyectos relacionados, como el que define el marco jurídico para resguardar infraestructura crítica o el que otorga protección legal en caso de que se disponga de la ayuda de las Fuerzas Armadas en labores de orden público.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/las-reglas-de-uso-de-la-fuerza-estan-a-un-paso-de-ser-ley-tras/2026-10-07/142148.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007142148.png",
+            "published_raw": "Wed, 07 Oct 2026 14:21:48 -0300",
+            "published_at": "2026-10-07T14:21:48-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
             "score_institutional": 6,
-            "score_elections": 2,
-            "score_international": 1,
-            "score_conflict": 0,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 4,
             "score_policy": 0,
-            "score_ideology": 2,
-            "score_actor": 2,
+            "score_ideology": 1,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 13,
+            "political_evidence": 17,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
+            "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 21,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 72.4
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-001",
-        "title": "Presupuesto: Oposición cuestionó solicitud de endeudamiento por 25 mil millones de dólares",
-        "topic": "Instituciones y gobierno",
-        "event_type": "POLITICAL_STATEMENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-oposicion-cuestiono-solicitud-de-endeudamiento-por-25-mil/2026-10-06/080808.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 47.2,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 49,
-            "freshness": 62,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 50
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-06T08:08:08-0300",
-        "last_seen": "2026-10-06T08:08:08-0300",
-        "articles": [
+            "cluster_id": "PML-EVENT-001"
+          },
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Presupuesto: Oposición cuestionó solicitud de endeudamiento por 25 mil millones de dólares",
-            "description": "El Congreso da inicio este martes a la tramitación legislativa del proyecto de Ley de Presupuestos 2027 , iniciativa que contempla un erario fiscal superior a los 105,8 billones de pesos y casi 6.300 millones de dólares . El ingreso formal del texto desató una controversia política en el Parlamento debido a la magnitud de los compromisos financieros solicitados por el Ejecutivo . La inquietud legislativa apunta de forma directa al artículo 3 de la propuesta presupuestaria, el cual autoriza al Presidente José Antonio Kast a contraer obligaciones por hasta 25 mil millones de dólares por concepto de endeudamiento , a los que se añaden otros 600 millones de dólares adicionales , totalizando 25.600 millones de la divisa estadounidense. La cifra representa un salto respecto del marco vigente , donde la ley autorizaba 17.400 millones de dólares , a los que posteriormente se sumó una ampliación de 6.200 millones solicitada durante el año y aprobada por el Congreso.   La diputada Gael Yeomans fustigó que el ministro Jorge Quiroz \"supuestamente no vino acá a endeudar al país\". (FOTO: ATON)   El margen de deuda desató críticas cruzadas, especialmente frente al contraste con el discurso económico sostenido durante la campaña electoral por la actual administración, que cuestionó al pasado gobierno de Gabriel Boric , acusando que las cuentas públicas se manejaban \"como un quiosco\" . Frente a este escenario, la presidenta del Frente Amplio e integrante de la Comisión Especial Mixta de Presupuestos , diputada Gael Yeomans , advirtió que \" lo que más nos tiene preocupados es el efecto que va a tener la reforma tributaria tan anhelada por el gobierno , porque si es que hay un aumento de la deuda, según lo que ingresa de la Ley de Presupuesto, al final del día la vamos a terminar pagando todos los chilenos , con tasas de interés que van a crecer y que van a terminar generando un impacto en la economía y también en las arcas fiscales \". \"Eso va a tener que ser respondido por parte del ministro Quiroz, que supuestamente no vino acá a endeudar al país, pero al final va a terminar haciéndolo si es que termina trasladando todo ese costo a la deuda \", puntualizó la parlamentaria. Frente a los reparos surgidos en la sede legislativa, el titular de Hacienda explicó que \" el aumento de deuda surge de un cálculo relativamente sencillo : hay que primero pagar deudas anteriores , y después hay que suplir el déficit más el gasto bajo la línea , y eso es \".   Ante los cuestionamientos, el jefe de las finanzas públicas argumentó que \"hay que primero pagar deudas anteriores\" y financiar el déficit. (FOTO: ATON)   En paralelo, en el Parlamento se instaló la interrogante sobre el destino de la emblemática promesa del Gobierno de recortar 6.000 millones de dólares del gasto fiscal en un plazo inicial de 18 meses . Desde el equipo económico se ha buscado matizar la medida, precisando que el ajuste no se aplicará sobre los gastos basales permanentes del Estado, sino que consistirá en contener la tasa de crecimiento del gasto futuro , asumiendo que las presiones presupuestarias tienden permanentemente al alza . Recorte de 95 mil millones de pesos a los Gores desata tensión El proyecto de Ley de Presupuestos 2027 también recibe críticas por parte de los Gobiernos Regionales (Gores) , luego de que se informara sus partidas destinadas sufrirán un recorte global de 95 mil millones de pesos respecto del periodo precedente . La cifra encendió las alarmas de los gobernadores regionales, quienes hicieron ver su molestia en reuniones previas con el ministro Quiroz , luego de que trascendieran los montos asignados. Frente al malestar, el Ejecutivo y parlamentarios del oficialismo salieron a defender un esquema de financiamiento condicionado que premia el cumplimiento de metas: si las regiones logran ejecutar la totalidad del gasto proyectado durante el primer semestre , podrán acceder a remesas adicionales .   El presidente de la Comisión Mixta, Javier Macaya, defendió el diseño de Hacienda supeditado a la ejecución de obras. (FOTO: ATON)   El presidente de la Comisión Especial Mixta de Presupuestos , senador Javier Macaya (UDI) , respaldó la estrategia implementada por el Ministerio de Hacienda, afirmando que \"acá hay una conversación que se está dando entre el ministro de Hacienda y los gobernadores, que va a permitir que incluso aquellos gobernadores que son capaces de ejecutar de buena manera obra pública y de inversión , van a recibir más plata que el año pasado . Tienen que ser capaces de demostrarlo, sí\". \"Me tocó recibir información respecto de la ejecución presupuestaria de algunos gobiernos regionales y, en algunos casos, deja bastante que desear. A mayor inversión , a mayor capacidad de ejecutar el gasto , yo creo que tienen que haber incentivos y premios y gatillos a mitad del próximo año para que aquellos gobernadores que han hecho la pega reciban más plata\", puntualizó el legislador. \"Yo tengo la esperanza que va a ser una buena discusión y voy a dar las garantías desde la presidencia de la comisión para eso\", puntualizó. A su vez, el gobernador de Tarapacá, José Miguel Carvajal, sostuvo un encuentro en esta jornada con el Presidente Kast , y a su salida, dio cuenta de \"lo contradictorio de no saber con qué con qué Gobierno estamos dialogando\" , ya que ayer también se reunió con el titular de Hacienda. \"Si dialogamos con el Gobierno del Presidente que se toma una hora para conversar con un gobernador en temas territoriales, o si conversamos con el Gobierno de un ministro que parte una reunión molesto porque algunos documentos habían sido filtrados \", observó. Ajustes en Educación, Cultura y ministerios sectoriales El freno financiero no se limita a los fondos regionales. En el sector educativo, la ministra María Paz Arzola enfrentará cuestionamientos en las subcomisiones para explicar la disminución de un 46% en el presupuesto para los Liceos Bicentenario y el término del programa de entrega de computadores \"Yo Elijo Mi PC\" . Ajustes similares se registran en carteras como Culturas, Ciencias y el Ministerio de la Mujer, donde se consigna el término del financiamiento para la fundación Prodemu en marzo del próximo año . También genera mucha tensión la reducción de recursos para la Ley Ricarte Soto , ya que el Gobierno propone recortar en cerca de 28 mil millones de pesos el presupuesto para la cobertura de 27 patologías. Para el presidente de la Comisión de Salud del Senado, Juan Luis Castro (PS), lo planteado \"es un ataque realmente inhumano a gente que solo tiene esa Ley Ricarte Soto para salvar su vida. ¿Cómo es posible que hayamos llegado a este extremo de conductas que, realmente, rayan en lo miserable? \", por lo que exigió que \"esto se reponga a la brevedad, porque están atacando de muerte a esa ley\". Además, el Ejecutivo busca rebajar en un 85,8% los recursos destinados al Programa de Tenencia Responsable de Animales de Compañía , creado mediante la llamada \"Ley Cholito\" y que, en su momento, fue rechazada en el Congreso únicamente por el entonces diputado José Antonio Kast. En este escenario de estrechez fiscal, las bancadas iniciaron la revisión detallada del proyecto de más de 1.000 páginas mediante herramientas de análisis digital . El Congreso dispone de un plazo de 60 días -hasta el 29 de noviembre- para despachar la ley. Según el ordenamiento constitucional vigente, los parlamentarios solo pueden aprobar , rebajar o rechazar partidas sin facultad de generar gasto nuevo , y de no concluirse el trámite a tiempo, el proyecto original del Ejecutivo regirá de forma automática.",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-oposicion-cuestiono-solicitud-de-endeudamiento-por-25-mil/2026-10-06/080808.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261006/imag/foto_0000000520261006080808.jpg",
-            "published_raw": "Tue, 06 Oct 2026 08:08:08 -0300",
-            "published_at": "2026-10-06T08:08:08-0300",
+            "title": "Senado despachó las Reglas del Uso de la Fuerza y quedaron listas para ser ley",
+            "description": "El Senado aprobó en la tarde de este miércoles el informe de la Comisión Mixta del proyecto que establece las Reglas del Uso de la Fuerza (RUF) , definiendo un marco jurídico de acción para las Fuerzas de Orden y Seguridad en Chile. La iniciativa tuvo 29 votos a favor, 15 en contra y una abstención , por lo que quedó apta para ser promulgada. En el texto se detalla que \" el uso de la fuerza potencialmente letal constituye una medida que procede solo cuando resulten insuficientes las medidas establecidas en los grados previos y justificada en caso de cumplimiento del deber, legítima defensa, cumplimiento de una orden judicial, con el objeto de detener a una persona que oponga resistencia a la autoridad, para impedir su fuga o para la protección de infraestructura crítica cuando exista peligro grave de verse afectada\". El despacho a ley de las RUF se ha planteado políticamente como un requisito esencial para debatir proyectos relacionados, como el que define el marco jurídico para resguardar infraestructura crítica o el que otorga protección legal en caso de que se disponga de la ayuda de las Fuerzas Armadas en labores de orden público. 🛡️ El Senado aprobó el informe de la Comisión Mixta del proyecto que establece las Reglas del Uso de la Fuerza (RUF) para las Fuerzas de Orden y Seguridad Pública y las Fuerzas Armadas en determinadas circunstancias. ✅ La iniciativa fija principios, deberes y criterios de gradualidad y proporcionalidad en el uso de la fuerza, quedando en condiciones de convertirse en ley. 📲Más detalles en https://t.co/NoKV9p3Njs #SenadoChile #RUF #SeguridadPública — Senado Chile (@Senado_Chile) October 7, 2026 El ministro de Seguridad, Martín Arrau , destacó que \"después de tres años de una lenta tramitación, se logró aunar voluntades para dar certeza a cada carabinero —en una semana especialmente triste donde hemos tenido que lamentar la partida de dos nuevos mártires —, a los funcionarios de la PDI y a las Fuerzas Armadas, cuando les toque intervenir, de tener un estatus jurídico para el uso de la fuerza de manera clara \". \"Estamos convencidos de que estas reglas van a generar un antes y un después , y la habilitación del uso de fuerza potencialmente letal en ciertas hipótesis tendrá su correlato en las bajadas operativas de las policías\", sostuvo el secretario de Estado.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/senado-despacho-las-reglas-del-uso-de-la-fuerza-y-quedaron-listas-para/2026-10-07/204110.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007204110.jpg",
+            "published_raw": "Wed, 07 Oct 2026 20:41:10 -0300",
+            "published_at": "2026-10-07T20:41:10-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 12,
-            "score_elections": 2,
+            "score_institutional": 3,
+            "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 4,
+            "score_conflict": 3,
+            "score_policy": 0,
             "score_ideology": 0,
-            "score_actor": 8,
+            "score_actor": 1,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 26,
+            "political_evidence": 7,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
             "cluster_id": "PML-EVENT-001"
@@ -543,36 +706,36 @@
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 18,
+          "bonus": 22,
           "labels": [
             "Estado e instituciones",
-            "Economía y políticas públicas"
+            "Congreso y proceso legislativo"
           ],
-          "chile_utility": 65.2
+          "chile_utility": 87
         },
         "repeated_in_general_top5": false
       },
       {
-        "position": 3,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Pardo a Vodanovic: \"Si la consigna es oponerse a todo, la unidad no cuesta nada\"",
+        "position": 2,
+        "cluster_id": "PML-EVENT-004",
+        "title": "Gobierno baja su reforma de seguridad y senadores presentarán nueva propuesta",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/renovacion-nacional/pardo-a-vodanovic-si-la-consigna-es-oponerse-a-todo-la-unidad-no/2026-10-06/121836.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-baja-su-reforma-de-seguridad-y-senadores-presentaran-nueva/2026-10-06/184849.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 48.8,
-          "level": "BAJA",
+          "score": 58.9,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 52,
-            "freshness": 72,
+            "political_impact": 90,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 32
+            "continuity": 44
           }
         },
         "coverage": {
@@ -580,44 +743,119 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-06T12:18:36-0300",
-        "last_seen": "2026-10-06T12:18:36-0300",
+        "first_seen": "2026-10-06T18:48:49-0300",
+        "last_seen": "2026-10-06T18:48:49-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Pardo a Vodanovic: \"Si la consigna es oponerse a todo, la unidad no cuesta nada\"",
-            "description": "En El Primer Café de este martes, el diputado de Renovación Nacional Luis Pardo desafió a la timonel Paulina Vodanovic a superar las presiones internas en el Partido Socialista y allanarse a acuerdos con el Gobierno en materia de seguridad. \" Si ( en el lado de la izquierda)  la consigna es oponerse a todo, no cuesta nada la unidad \", ironizó Pardo, valorando que, pese a todo, \" en la oposición hay gente razonable que quiere conversar\" en ámbitos como el de la seguridad pública. \" Yo sé que a Paulina la han invitado (a sumarse a ese diálogo y) entiendo que está, a lo mejor, en una posición compleja  desde el punto de vista de quienes no quieren llegar a ningún acuerdo con este Gobierno, pero creo va a haber avances, porque lo que se tiene que poner sobre la mesa son herramientas que permitan combatir al crimen organizado, y a eso apunta la reforma que el senador (Pedro) Araya, el senador (Andrés) Longton, el senador (Arturo) Squella y otros están trabajando, y a la cual han invitado también a sumarse a Paulina (Vodanovic) \", dijo Pardo en Cooperativa . \"Cuando uno tiene voluntad de conversar, puede sentarse a la mesa, pero uno puede entender que (en el PS) hay una tirantez que lo hace difícil sin (pagar) costos internos , probablemente, porque basta con que Paulina Vodanovic tenga un esbozo de acuerdo con el Gobierno y va a tener a la senadora Cicardini gritando al lado  y oponiéndose, como lo hicieron, por ejemplo, con la invariabilidad tributaria con los senadores que avanzaron en un acuerdo en esa materia. Ahí hay una consigna de no llegar a acuerdos, y eso  es bastante evidente y público\" , remarcó. Para el legislador oficialista, \" lo que está predominando hoy día es una oposición obstruccionista , porque en la medida que estén todos oponiéndose, es más fácil mantener esa unidad. Pero es una unidad que que tiene una grave grieta en lo que es la concepción de la democracia y, especialmente, el uso de la violencia\" como herramienta política. Fanáticos del \"pirquineo\" Respondió Paulina Vodanovic: \" Yo le pediría un poquito de respeto a Luis . Yo soy autora de la Ley Antiterrorista , por lo tanto, demostré que en materia de seguridad tengo una voz importante\", capaz de sobreponerse a las presiones de la izquierda más dura, indicó. \" Esto de la tirantez es un invento de la derecha para justificar que buscan acuerdo con algunos , que hacen cherry picking y no les interesa el diálogo, les interesa el  pirquineo , pero la tesis del pirquineo no les va a resultar, porque aquí (en la reforma constitucional de seguridad) necesitan 29 votos (en el Senado), y para aprobar otros temas necesitan 33 votos. Entonces, sigan así, sigan buscando un votito, porque esa tesis se va a caer \", presagió la senadora por el Maule.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/renovacion-nacional/pardo-a-vodanovic-si-la-consigna-es-oponerse-a-todo-la-unidad-no/2026-10-06/121836.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261006/imag/foto_0000001220261006121836.jpg",
-            "published_raw": "Tue, 06 Oct 2026 12:18:36 -0300",
-            "published_at": "2026-10-06T12:18:36-0300",
+            "title": "Gobierno baja su reforma de seguridad y senadores presentarán nueva propuesta",
+            "description": "La Moneda y senadores de oficialismo y oposición alcanzaron este martes un acuerdo para presentar una propuesta de reforma constitucional en materia de seguridad , luego de que la iniciativa de La Moneda fuera criticada por gran parte del arco político. Los parlamentarios de las comisiones de Constitución, Pedro Araya (PPD), Andrés Longton (RN) y Arturo Squella (Republicano) y de Seguridad Karim Bianchi (ind) e Iván Flores (DC) presentará mañana la iniciativa. En ese sentido, el biministro del Interior y Segegob, Claudio Alvarado , señaló que \"el Gobierno, tal como ha comprometido en las conversaciones privadas y también lo hemos dado a entender públicamente, dado ese trabajo y el respeto a los acuerdos, no vamos a perseverar con la reforma que habíamos ingresado en su minuto \". Por su parte, el ministro de Justicia y Derechos Humanos, Fernando Rabat, detalló sobre que \"nos queda claro que el actual estado de emergencia va a contemplar elementos que recogen el diagnóstico que ha tenido el Gobierno del presidente José Antonio Kast, de poder enfrentar derechamente el crimen organizado y al terrorismo, y nos parece que lo que se nos planteó en esta reunión aborda debidamente el diagnóstico que ha tenido el Gobierno\". De lo trascendido, la moción parlamentaria de reforma contiene herramientas adicionales en el estado de excepción constitucional de emergencia . Además, el pretendido registro de bandas de crimen organizado no estará incluido en el, pues será materia de ley y no constitucional. Por otro lado, el ministro Segpres, José García Ruminot , confirmó que el Gobierno ingresará esta semana por la Cámara Baja la insistencia para rehabilitar la tramitación para ampliar el plazo de detención con fines de concretar expulsiones administrativas.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-baja-su-reforma-de-seguridad-y-senadores-presentaran-nueva/2026-10-06/184849.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261006/imag/foto_0000000220261006184849.jpg",
+            "published_raw": "Tue, 06 Oct 2026 18:48:49 -0300",
+            "published_at": "2026-10-06T18:48:49-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 6,
+            "score_institutional": 7,
             "score_elections": 0,
             "score_international": 0,
             "score_conflict": 3,
             "score_policy": 0,
-            "score_ideology": 3,
-            "score_actor": 4,
+            "score_ideology": 0,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 16,
+            "political_evidence": 15,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
+            "cluster_id": "PML-EVENT-004"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 57.8
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 80.9
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-007",
+        "title": "Ossandón alerta al oficialismo: No es lo mismo que Bachelet esté en la ONU a que esté en Chile",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/presidenciales/ossandon-alerta-al-oficialismo-no-es-lo-mismo-que-bachelet-este-en-la/2026-10-07/174803.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 56.4,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 50,
+            "freshness": 95,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 34
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-07T17:48:03-0300",
+        "last_seen": "2026-10-07T17:48:03-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Ossandón alerta al oficialismo: No es lo mismo que Bachelet esté en la ONU a que esté en Chile",
+            "description": "La diputada Ximena Ossandón  (Renovación Nacional) reconoció este miércoles que  la posibilidad de que la expresidenta Michelle Bachelet (2006-2010, 2014-2018) busque llegar por tercera vez a La Moneda  modifica el panorama político y obliga al oficialismo a replantear estrategias. \"Michelle está en Chile y el oficialismo se tiene que hacer cargo de esto. No sé si (hay) preocupación, pero efectivamente el escenario va a cambiar y eso nos va a tener que hacer llegar a tomar otro tipo de decisiones también desde el punto de vista político \", admitió la parlamentaria, luego de que, en una entrevista en Canal TVU de la Universidad de Concepción, la dos veces Mandataria se declarara abierta a la opción de una nueva aventura presidencial. \"Michelle Bachelet no es lo mismo que esté trabajando en la ONU a que esté activamente trabajando en Chile\" , advirtió Ossandón. Desde el Partido Republicano, el senador y timonel, Arturo Squella , cuestionó las reapariciones de Bachelet y el expresidente Gabriel Boric (2022-2026) durante la última semana . \"Uno puede concluir que duró poco la alianza entre los expresidentes . A ambos se les afilaron los colmillos para volver a la carga. Es síntoma de una carencia que hay en los liderazgos de la actual oposición \", planteó el dirigente. [Vea también]   Parisi deplora eventual Bachelet III: \"Representa la destrucción de la educación pública y el equilibrio fiscal\" Valoración en el oficialismo: \"Que todas las flores florezcan\" En la oposición, la señal de Bachelet fue recibida con entusiasmo transversal. La senadora Paulina Vodanovic , presidenta del Partido Socialista (PS) —colectividad en la que milita Bachelet—, expresó que \"siempre es una buena noticia saber que tenemos muchos liderazgos disponibles. (Ella) es una guía en nuestro actuar, tiene el cariño de la gente y Dios dirá \". \"Obviamente valoramos toda la trayectoria que ha tenido la Presidenta Bachelet; lo que ha hecho por Chile, y lógicamente que cuando estamos hablando de candidaturas presidenciales nos queda un largo trecho que recorrer. Que todas las flores florezcan creo que eso es lo mejor para nuestro sector \", sostuvo, en tanto, su homóloga del Frente Amplio (FA), la diputada Gael Yeomans . Por su parte, el senador Iván Flores (Democracia Cristiana) calificó como \" una buena y bella sorpresa el que la Presidenta Bachelet haya vuelto a ingresar a las líneas políticas internas, y esto no es luego de una fallida candidatura a ser secretaria general de las Naciones Unidas; es porque a la oposición hoy día le falta liderazgo\".  [Lea también]   Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\"",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/presidenciales/ossandon-alerta-al-oficialismo-no-es-lo-mismo-que-bachelet-este-en-la/2026-10-07/174803.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000001320261007174803.jpg",
+            "published_raw": "Wed, 07 Oct 2026 17:48:03 -0300",
+            "published_at": "2026-10-07T17:48:03-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 2,
+            "score_elections": 0,
+            "score_international": 2,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 1,
+            "score_actor": 6,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 12,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Relaciones internacionales",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-007"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 19,
+          "labels": [
+            "Estado e instituciones",
+            "Relaciones internacionales"
+          ],
+          "chile_utility": 75.4
         },
         "repeated_in_general_top5": false
       }
@@ -626,27 +864,33 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 19,
-      "maximum_relevance": 68.3,
-      "leading_story": "Meloni amenaza con elecciones anticipadas si no prospera su controvertida reforma electoral"
-    },
-    {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 10,
-      "maximum_relevance": 62.2,
-      "leading_story": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas"
+      "event_count": 16,
+      "maximum_relevance": 66.9,
+      "leading_story": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 2,
-      "maximum_relevance": 54.4,
-      "leading_story": "Francia prohíbe a la policía lanzar granadas contra los estudiantes movilizados en la calle"
+      "maximum_relevance": 59.8,
+      "leading_story": "El primer ministro francés intenta aplacar las protestas con ayudas y buenas palabras mientras anuncia recortes"
     },
     {
       "topic": "Ideología y competencia política",
-      "event_count": 3,
-      "maximum_relevance": 52.7,
+      "event_count": 4,
+      "maximum_relevance": 59.7,
       "leading_story": "Lula tras la primera vuelta: \"Es un resultado inesperado\"; Bolsonaro defiende que \"Brasil quiere cambio\""
+    },
+    {
+      "topic": "Economía y políticas públicas",
+      "event_count": 1,
+      "maximum_relevance": 58.4,
+      "leading_story": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\""
+    },
+    {
+      "topic": "Elecciones y opinión pública",
+      "event_count": 9,
+      "maximum_relevance": 56.7,
+      "leading_story": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas"
     },
     {
       "topic": "Relaciones internacionales",
@@ -660,7 +904,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
     "source_count": 3
   },
   "system": {
