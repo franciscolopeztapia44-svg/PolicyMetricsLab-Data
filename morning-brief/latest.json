@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-10-08",
-    "data_latest_timestamp": "2026-10-08T22:58:39-0300",
-    "data_age_hours": 1.3,
-    "generated_at": "2026-10-09T00:16:02-0300",
+    "date": "2026-10-09",
+    "data_latest_timestamp": "2026-10-09T00:22:45-0300",
+    "data_age_hours": 3,
+    "generated_at": "2026-10-09T03:20:48-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -26,8 +26,8 @@
     "topics": 3,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 60.6,
-    "maximum_relevance": 64.8
+    "average_top5_relevance": 60.2,
+    "maximum_relevance": 62.8
   },
   "top_stories": [
     {
@@ -43,12 +43,12 @@
         "country": "México / América Latina"
       },
       "relevance": {
-        "score": 64.8,
+        "score": 62.8,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 64.8
+        "editorial_utility": 62.8
       },
       "selection": {
-        "reason": "PML 64.8",
+        "reason": "PML 62.8",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -108,7 +108,7 @@
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-021",
+      "cluster_id": "PML-EVENT-020",
       "title": "Dos asesores de Trump viajaron a Bosnia-Herzegovina para ayudar al partido del prorruso Milorad Dodik a ganar las elecciones",
       "url": "https://elpais.com/internacional/2026-10-08/dos-asesores-de-trump-viajaron-a-bosnia-herzegovina-para-ayudar-al-prorruso-milorad-dodik-a-ganar-las-elecciones.html",
       "representative_source": "EL PAÍS",
@@ -175,13 +175,13 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-020"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-015",
+      "cluster_id": "PML-EVENT-014",
       "title": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a las urnas",
       "url": "https://elpais.com/internacional/2026-10-08/italia-aprueba-la-controvertida-reforma-electoral-de-meloni-y-se-acerca-a-unas-elecciones-anticipadas.html",
       "representative_source": "EL PAÍS",
@@ -251,7 +251,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-014"
         }
       ]
     },
@@ -568,11 +568,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 50.2,
+          "score": 47.7,
           "level": "BAJA",
           "components": {
             "political_impact": 52,
-            "freshness": 62,
+            "freshness": 52,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 48
@@ -623,7 +623,7 @@
             "Elecciones y opinión pública",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 69.2
+          "chile_utility": 66.7
         },
         "repeated_in_general_top5": false
       }
@@ -633,20 +633,20 @@
     {
       "topic": "Conflictos y seguridad",
       "event_count": 2,
-      "maximum_relevance": 64.8,
+      "maximum_relevance": 62.8,
       "leading_story": "El Gobierno investiga la presunta presencia de mercenarios mexicanos en la guerra de Ucrania"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 16,
+      "event_count": 17,
       "maximum_relevance": 62.4,
       "leading_story": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a las urnas"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 10,
+      "event_count": 9,
       "maximum_relevance": 55.5,
-      "leading_story": "\"Hágale un bien a la Nación y renuncie\", Flávio Bolsonaro arremete contra el juez que condenó a su padre"
+      "leading_story": "\"Hágale un bien a la Nación y renuncie\": Flávio Bolsonaro arremete contra el juez que condenó a su padre"
     },
     {
       "topic": "Relaciones internacionales",
@@ -655,21 +655,25 @@
       "leading_story": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\""
     },
     {
-      "topic": "Economía y políticas públicas",
-      "event_count": 1,
-      "maximum_relevance": 50.2,
-      "leading_story": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\""
-    },
-    {
       "topic": "Ideología y competencia política",
       "event_count": 3,
       "maximum_relevance": 49.8,
       "leading_story": "Lula tras la primera vuelta: \"Es un resultado inesperado\"; Bolsonaro defiende que \"Brasil quiere cambio\""
+    },
+    {
+      "topic": "Economía y políticas públicas",
+      "event_count": 1,
+      "maximum_relevance": 47.7,
+      "leading_story": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\""
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-020", "PML-EVENT-014"],
+      "exited_top5": ["PML-EVENT-021", "PML-EVENT-015"],
+      "retained_top5": ["PML-EVENT-028", "PML-EVENT-032", "PML-EVENT-027"]
+    }
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
