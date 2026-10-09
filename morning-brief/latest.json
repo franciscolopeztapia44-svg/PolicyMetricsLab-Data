@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-09",
-    "data_latest_timestamp": "2026-10-09T00:22:45-0300",
-    "data_age_hours": 5.9,
-    "generated_at": "2026-10-09T06:18:34-0300",
+    "data_latest_timestamp": "2026-10-09T03:34:11-0300",
+    "data_age_hours": 5.7,
+    "generated_at": "2026-10-09T09:19:01-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,17 +16,17 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Conflictos y seguridad.",
-    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Conflictos y seguridad.",
+    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 33,
+    "ranked_events": 34,
     "topics": 3,
     "geographies": 2,
-    "representative_sources": 2,
-    "average_top5_relevance": 60.2,
+    "representative_sources": 3,
+    "average_top5_relevance": 55.9,
     "maximum_relevance": 62.8
   },
   "top_stories": [
@@ -108,156 +108,80 @@
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-020",
-      "title": "Dos asesores de Trump viajaron a Bosnia-Herzegovina para ayudar al partido del prorruso Milorad Dodik a ganar las elecciones",
-      "url": "https://elpais.com/internacional/2026-10-08/dos-asesores-de-trump-viajaron-a-bosnia-herzegovina-para-ayudar-al-prorruso-milorad-dodik-a-ganar-las-elecciones.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-026",
+      "title": "Chile decreta estado de catástrofe en una zona de la capital ante desastre por fuertes lluvias",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261009-chile-decreta-estado-de-cat%C3%A1strofe-en-una-zona-de-la-capital-ante-desastre-por-fuertes-lluvias",
+      "representative_source": "France 24",
       "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 61.9,
+        "score": 55.8,
         "level": "MEDIA",
-        "editorial_utility": 73.9
+        "editorial_utility": 67.8
       },
       "selection": {
-        "reason": "PML 61.9; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
+        "reason": "PML 55.8; fallback editorial controlado; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "France 24"
       },
-      "first_seen": "2026-10-08T16:34:20-0300",
-      "last_seen": "2026-10-08T16:34:20-0300",
-      "entities": "trump",
+      "first_seen": "2026-10-09T00:22:45-0300",
+      "last_seen": "2026-10-09T00:22:45-0300",
+      "entities": "chile",
       "event_terms": [],
       "analysis": {
-        "summary": "El presidente de Estados Unidos intenta desmarcarse de Chris LaCivita y James Blair y asegura que son solo consejeros externos",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "El presidente José Antonio Kast decretó este jueves 8 de octubre el estado de catástrofe en la zona de Las Condes, en el este de Santiago. El área resultó afectada por un torrente de agua que arrastró vehículos y buses en las empinadas calles de la capital.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Dos asesores de Trump viajaron a Bosnia-Herzegovina para ayudar al partido del prorruso Milorad Dodik a ganar las elecciones",
-          "description": "El presidente de Estados Unidos intenta desmarcarse de Chris LaCivita y James Blair y asegura que son solo consejeros externos",
-          "url": "https://elpais.com/internacional/2026-10-08/dos-asesores-de-trump-viajaron-a-bosnia-herzegovina-para-ayudar-al-prorruso-milorad-dodik-a-ganar-las-elecciones.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/O22QH6G6ONBRVLIMS4R7AIVWRA.jpg?auth=a8a2e00b9bdd7ee894b3533e9fc81cb78a1ab5d78d1d85d85d55b10b8b0c0076",
-          "published_raw": "Thu, 08 Oct 2026 19:34:20 GMT",
-          "published_at": "2026-10-08T16:34:20-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Chile decreta estado de catástrofe en una zona de la capital ante desastre por fuertes lluvias",
+          "description": "El presidente José Antonio Kast decretó este jueves 8 de octubre el estado de catástrofe en la zona de Las Condes, en el este de Santiago. El área resultó afectada por un torrente de agua que arrastró vehículos y buses en las empinadas calles de la capital.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261009-chile-decreta-estado-de-cat%C3%A1strofe-en-una-zona-de-la-capital-ante-desastre-por-fuertes-lluvias",
+          "image_url": "https://s.france24.com/media/display/7738d024-c390-11f1-aed0-f50f6d982dc3/w:1024/p:16x9/af91f25685a517f8acb6152dde04402d1666e0d8.jpg",
+          "published_raw": "Fri, 09 Oct 2026 03:22:45 GMT",
+          "published_at": "2026-10-09T00:22:45-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
+          "score_institutional": 2,
+          "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 2,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
+          "cluster_id": "PML-EVENT-026"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-014",
-      "title": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a las urnas",
-      "url": "https://elpais.com/internacional/2026-10-08/italia-aprueba-la-controvertida-reforma-electoral-de-meloni-y-se-acerca-a-unas-elecciones-anticipadas.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 62.4,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 61.4
-      },
-      "selection": {
-        "reason": "PML 62.4; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-08T08:44:26-0300",
-      "last_seen": "2026-10-08T08:44:26-0300",
-      "entities": [],
-      "event_terms": [
-        "eleccion",
-        "tribunal"
-      ],
-      "analysis": {
-        "summary": "La ley, que otorga la mayoría absoluta a la coalición que supere el 42% de los votos, afrontará varios recursos ante el Tribunal Constitucional",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a las urnas",
-          "description": "La ley, que otorga la mayoría absoluta a la coalición que supere el 42% de los votos, afrontará varios recursos ante el Tribunal Constitucional",
-          "url": "https://elpais.com/internacional/2026-10-08/italia-aprueba-la-controvertida-reforma-electoral-de-meloni-y-se-acerca-a-unas-elecciones-anticipadas.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/2OLV5FPVKROMDFAYCNORIYJCFI.jpg?auth=262f746470c109091c091aa24886986ce4108ea6c76ec43fabfe803615b91b9e",
-          "published_raw": "Thu, 08 Oct 2026 11:44:26 GMT",
-          "published_at": "2026-10-08T08:44:26-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 5,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 6,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-014"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-031",
+      "cluster_id": "PML-EVENT-032",
       "title": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-hait%C3%AD-aplaza-sin-nueva-fecha-las-elecciones-presidenciales-y-legislativas",
       "representative_source": "France 24",
@@ -270,10 +194,10 @@
       "relevance": {
         "score": 53,
         "level": "MEDIA",
-        "editorial_utility": 58
+        "editorial_utility": 61
       },
       "selection": {
-        "reason": "PML 53; aporta diversidad temática",
+        "reason": "PML 53; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -327,29 +251,29 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-031"
+          "cluster_id": "PML-EVENT-032"
         }
       ]
     },
     {
-      "position": 5,
-      "cluster_id": "PML-EVENT-026",
-      "title": "Desahuciada en Barcelona una mujer vulnerable con dos hijos menores porque su caso queda fuera del ‘decreto Maricarmen’",
-      "url": "https://elpais.com/espana/catalunya/2026-10-08/desahuciada-en-barcelona-una-mujer-vulnerable-con-dos-hijos-menores-un-dia-despues-de-la-muerte-de-maricarmen.html",
-      "representative_source": "EL PAÍS",
+      "position": 4,
+      "cluster_id": "PML-EVENT-004",
+      "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
+      "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 60.8,
+        "score": 54.9,
         "level": "MEDIA",
-        "editorial_utility": 55.8
+        "editorial_utility": 52.9
       },
       "selection": {
-        "reason": "PML 60.8; diversidad relajada para completar el brief",
+        "reason": "PML 54.9; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -357,15 +281,18 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-10-08T14:22:45-0300",
-      "last_seen": "2026-10-08T14:22:45-0300",
-      "entities": [],
-      "event_terms": "tribunal",
+      "first_seen": "2026-10-07T12:24:24-0300",
+      "last_seen": "2026-10-07T12:24:24-0300",
+      "entities": [
+        "congreso",
+        "chile"
+      ],
+      "event_terms": "oposicion",
       "analysis": {
-        "summary": "Natalia Zakharova, víctima de violencia machista, se queda sin el piso, que es propiedad de una mujer mayor también vulnerable según el Tribunal Superior de Cataluña",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "Esta jornada, los senadores Pedro Araya (PPD), Arturo Squella (Republicanos) y Andrés Longton (RN) presentaron la moción parlamentaria que reemplaza la reforma constitucional de seguridad propuesta por el Gobierno, que fue retirada por no obtener apoyos políticos. El ingreso de la moción se dio  un día después de que los legisladores y el Ejecutivo llegaran a un acuerdo para sugerir e ingresar una iniciativa que sí obtenga los respaldos necesarios al interior del Congreso.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
           "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
@@ -375,32 +302,139 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Desahuciada en Barcelona una mujer vulnerable con dos hijos menores porque su caso queda fuera del ‘decreto Maricarmen’",
-          "description": "Natalia Zakharova, víctima de violencia machista, se queda sin el piso, que es propiedad de una mujer mayor también vulnerable según el Tribunal Superior de Cataluña",
-          "url": "https://elpais.com/espana/catalunya/2026-10-08/desahuciada-en-barcelona-una-mujer-vulnerable-con-dos-hijos-menores-un-dia-despues-de-la-muerte-de-maricarmen.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/XHI7RFDIZFCBBMQMGWFU6NEIXE.jpg?auth=33bcdb1223b2bccecc9077702a34d500d84be5e59704060030878e68cc2cc798",
-          "published_raw": "Thu, 08 Oct 2026 17:22:45 GMT",
-          "published_at": "2026-10-08T14:22:45-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
+          "description": "Esta jornada, los senadores Pedro Araya (PPD), Arturo Squella (Republicanos) y Andrés Longton (RN) presentaron la moción parlamentaria que reemplaza la reforma constitucional de seguridad propuesta por el Gobierno, que fue retirada por no obtener apoyos políticos. El ingreso de la moción se dio  un día después de que los legisladores y el Ejecutivo llegaran a un acuerdo para sugerir e ingresar una iniciativa que sí obtenga los respaldos necesarios al interior del Congreso. En concreto, el nuevo texto declara al crimen organizado como contrario a los derechos humanos y le hace aplicable el estatuto constitucional de terrorismo . Además, permite regímenes penitenciarios especiales y modifica el estado de excepción constitucional de emergencia sin crear uno nuevo. El senador Longton detalló que la propuesta establece: \"Asimilar el terrorismo al crimen organizado; establecer la segregación o segmentación para delincuentes de alta peligrosidad condenados por crimen organizado, terrorismo u otros delitos que va a determinar la ley: incomunicación, aislamiento\". Asimismo, el parlamentario oficialista sostuvo que \"no creamos un estado de emergencia nuevo, reforzamos y potenciamos el estado de emergencia actual, estableciendo que todo tipo de amenaza actual, inminente respecto a algún problema de seguridad, orden público, habilita al Presidente de la República para poder dictar un estado de emergencia \". \"Estamos muy conformes con cómo fuimos logrando superar las diferencias. Nos hicimos cargo de las aprensiones que legítimamente presentaron muchos parlamentarios del texto original que había presentado el Gobierno\", indicó, por su parte, Squella. Mientras, Araya aseveró que \"a quí no ha ganado ni el Gobierno ni ha ganado la oposición . Lo que se ha logrado es aunar voluntades para enfrentar un problema que tiene Chile, como lo es el crimen organizado. Esperamos que una vez que se conozca este proyecto, especialmente los senadores de la centroizquierda puedan leerlo con detención y votarlo a su favor\". De todas formas, desde la oposición, el s enador Ricardo Celis , también del PPD, señaló que toda la acción que realizó Araya lo hizo por cuenta propia y no representa la postura de los senadores de la bancada. El ministro de Seguridad, Martín Arrau, comentó que \"desconozco si se retiró o se va a retirar, esos son temas bastante instrumentales por parte de Segpres. En este Congreso hay miles de proyectos que quedan durmiendo, quedará ahí o se retirará, lo importante es que con un proyecto ingresado de manera transversal con los senadores vamos a poder abordar todo o gran parte de las materias que estaban en la reforma que nosotros presentamos, avanzando en mayor segmentación penitenciaria y autonomía por parte de Gendarmería para ese fin\". \"Abordar, quizás no en este proyecto que abre la puerta, pero en reformas al Código Penal, los listados de organizaciones de crimen organizado, y también con algunas mejoras al estado de excepción de emergencia, que no es idéntico a lo que nosotros habíamos planteado, pero va avanzando en ese camino y la tramitación los parlamentarios y nosotros mismos iremos haciendo algunas mejoras\", agregó. &nbsp;",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007122424.jpg",
+          "published_raw": "Wed, 07 Oct 2026 12:24:24 -0300",
+          "published_at": "2026-10-07T12:24:24-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 7,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 1,
+          "score_conflict": 3,
           "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
+          "score_ideology": 1,
+          "score_actor": 4,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 15,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-004"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-002",
+      "title": "Las Reglas de Uso de la Fuerza están a un paso de ser ley tras aprobación en Cámara Baja",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/las-reglas-de-uso-de-la-fuerza-estan-a-un-paso-de-ser-ley-tras/2026-10-07/142148.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 53,
+        "level": "MEDIA",
+        "editorial_utility": 48
+      },
+      "selection": {
+        "reason": "PML 53; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 2,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-10-07T14:21:48-0300",
+      "last_seen": "2026-10-07T20:41:10-0300",
+      "entities": [
+        "chile",
+        "senado"
+      ],
+      "event_terms": [
+        "oposicion",
+        "judicial"
+      ],
+      "analysis": {
+        "summary": "El proyecto de Reglas de Uso de la Fuerza (RUF) -que define un marco jurídico de acción para las Fuerzas de Orden y Seguridad en Chile-  está a un paso de ser despachado a ley, luego que la Cámara Baja aprobara el informe de la comisión mixta. El hemiciclo dio el visto bueno a la iniciativa con 120 votos a favor, 23 en contra y cinco abstenciones, por lo que pasará ahora al Senado para su votación final.  ✅ APROBADO | La Cámara respalda la propuesta de Comisión Mixta del…",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Las Reglas de Uso de la Fuerza están a un paso de ser ley tras aprobación en Cámara Baja",
+          "description": "El proyecto de Reglas de Uso de la Fuerza (RUF) -que define un marco jurídico de acción para las Fuerzas de Orden y Seguridad en Chile-  está a un paso de ser despachado a ley, luego que la Cámara Baja aprobara el informe de la comisión mixta. El hemiciclo dio el visto bueno a la iniciativa con 120 votos a favor, 23 en contra y cinco abstenciones, por lo que pasará ahora al Senado para su votación final.  ✅ APROBADO | La Cámara respalda la propuesta de Comisión Mixta del proyecto que establece normas generales sobre el uso de la fuerza para el personal de las fuerzas de orden y seguridad pública y de las fuerzas armadas. Pasa al Senado. — Diputadas y Diputados de Chile (@Camara_cl) October 7, 2026 Sin embargo, el debate no estuvo exento de controversia, ya que la Cámara aprobó la orientación de las RUF bajo principios de legalidad, necesidad, responsabilidad y racionalidad, excluyendo el de proporcionalidad.  Ante ello, parte de la oposición -como el FA y el PC- expresó su rechazo; por ejemplo,   la diputada comunista Lorena Pizarro hizo reserva de constitucionalidad sobre tres elementos del informe de la comisión. En la misma línea, su par del FA Lorena Fries criticó que la normativa \"blinda a quien dispara contra un detenido que huye y no obedece la orden de detenerse, sin exigir que represente un peligro\". \"Nadie está diciendo que un funcionario (policial) deba quedar desprotegido, pero lo que no puede pasar es que diseñemos una ley que ensanche la fuerza y estreche la responsabilidad\",  sostuvo. El senador independiente Cristián Vial planteó que \"hemos ido comprendiendo que ejercer el legítimo uso de la fuerza que el Estado entrega a las instituciones para proteger a sus ciudadanos es una responsabilidad que requiere reglas claras y el respaldo jurídico para quien deba cumplirlas, nuestros policías, nuestros militares, porque a veces se nos olvida que detrás de un uniforme hay una persona\". Desde el PC, la senadora Claudia Pascual dijo que \"constituye un hito el elevar el rango legal de las disposiciones que históricamente se encontraban dispersas en distintas circulares infralegales, por eso es que en su tramitación en particular nosotros apoyamos gran parte de estas disposiciones\". \"Sin embargo, el texto final de la Comisión Mixta consolida una marcada asimetría que prioriza la discrecionalidad e inmunidad de las fuerzas de orden y la defensa por sobre el resguardo efectivo de los derechos fundamentales y de garantías civiles\" , detalló. Gobierno subraya que las RUF \"exigen formación, capacitación y equipamiento adecuado\" Desde el oficialismo, en tanto, el diputado RN Luis Pardo destacó que las RUF aprobadas \"establecen un marco jurídico que da certeza tanto para que no haya abuso respecto del uso de la fuerza, como para quienes tienen que ejercerla  y lo hagan con la tranquilidad de que, si se someten a estas normas, no van a ser tratados como delincuentes\". En el Gobierno, el ministro de Seguridad Pública, Martín Arrau,   valoró el resultado de la votación, pero enfatizó que \"el deber no termina con aprobar estas reglas\". \"El proyecto exige formación, capacitación y el equipamiento adecuado para proteger la vida del personal (policial) y de terceros. Ese respaldo debe llegar al procedimiento y al entrenamiento (de las Fuerzas del Orden), ya que una regla que el funcionario no conoce o para la cual no ha sido preparado no entrega toda la certeza que necesita\", manifestó. El despacho a ley de las RUF se ha planteado políticamente como un requisito esencial para debatir proyectos relacionados, como el que define el marco jurídico para resguardar infraestructura crítica o el que otorga protección legal en caso de que se disponga de la ayuda de las Fuerzas Armadas en labores de orden público.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/las-reglas-de-uso-de-la-fuerza-estan-a-un-paso-de-ser-ley-tras/2026-10-07/142148.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007142148.png",
+          "published_raw": "Wed, 07 Oct 2026 14:21:48 -0300",
+          "published_at": "2026-10-07T14:21:48-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 4,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 17,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-002"
+        },
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Senado despachó las Reglas del Uso de la Fuerza y quedaron listas para ser ley",
+          "description": "El Senado aprobó en la tarde de este miércoles el informe de la Comisión Mixta del proyecto que establece las Reglas del Uso de la Fuerza (RUF) , definiendo un marco jurídico de acción para las Fuerzas de Orden y Seguridad en Chile. La iniciativa tuvo 29 votos a favor, 15 en contra y una abstención , por lo que quedó apta para ser promulgada. En el texto se detalla que \" el uso de la fuerza potencialmente letal constituye una medida que procede solo cuando resulten insuficientes las medidas establecidas en los grados previos y justificada en caso de cumplimiento del deber, legítima defensa, cumplimiento de una orden judicial, con el objeto de detener a una persona que oponga resistencia a la autoridad, para impedir su fuga o para la protección de infraestructura crítica cuando exista peligro grave de verse afectada\". El despacho a ley de las RUF se ha planteado políticamente como un requisito esencial para debatir proyectos relacionados, como el que define el marco jurídico para resguardar infraestructura crítica o el que otorga protección legal en caso de que se disponga de la ayuda de las Fuerzas Armadas en labores de orden público. 🛡️ El Senado aprobó el informe de la Comisión Mixta del proyecto que establece las Reglas del Uso de la Fuerza (RUF) para las Fuerzas de Orden y Seguridad Pública y las Fuerzas Armadas en determinadas circunstancias. ✅ La iniciativa fija principios, deberes y criterios de gradualidad y proporcionalidad en el uso de la fuerza, quedando en condiciones de convertirse en ley. 📲Más detalles en https://t.co/NoKV9p3Njs #SenadoChile #RUF #SeguridadPública — Senado Chile (@Senado_Chile) October 7, 2026 El ministro de Seguridad, Martín Arrau , destacó que \"después de tres años de una lenta tramitación, se logró aunar voluntades para dar certeza a cada carabinero —en una semana especialmente triste donde hemos tenido que lamentar la partida de dos nuevos mártires —, a los funcionarios de la PDI y a las Fuerzas Armadas, cuando les toque intervenir, de tener un estatus jurídico para el uso de la fuerza de manera clara \". \"Estamos convencidos de que estas reglas van a generar un antes y un después , y la habilitación del uso de fuerza potencialmente letal en ciertas hipótesis tendrá su correlato en las bajadas operativas de las policías\", sostuvo el secretario de Estado.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/senado-despacho-las-reglas-del-uso-de-la-fuerza-y-quedaron-listas-para/2026-10-07/204110.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007204110.jpg",
+          "published_raw": "Wed, 07 Oct 2026 20:41:10 -0300",
+          "published_at": "2026-10-07T20:41:10-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 3,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 3,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 7,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-002"
         }
       ]
     }
@@ -413,78 +447,6 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-004",
-        "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 57.9,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 95,
-            "freshness": 52,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 44
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-07T12:24:24-0300",
-        "last_seen": "2026-10-07T12:24:24-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
-            "description": "Esta jornada, los senadores Pedro Araya (PPD), Arturo Squella (Republicanos) y Andrés Longton (RN) presentaron la moción parlamentaria que reemplaza la reforma constitucional de seguridad propuesta por el Gobierno, que fue retirada por no obtener apoyos políticos. El ingreso de la moción se dio  un día después de que los legisladores y el Ejecutivo llegaran a un acuerdo para sugerir e ingresar una iniciativa que sí obtenga los respaldos necesarios al interior del Congreso. En concreto, el nuevo texto declara al crimen organizado como contrario a los derechos humanos y le hace aplicable el estatuto constitucional de terrorismo . Además, permite regímenes penitenciarios especiales y modifica el estado de excepción constitucional de emergencia sin crear uno nuevo. El senador Longton detalló que la propuesta establece: \"Asimilar el terrorismo al crimen organizado; establecer la segregación o segmentación para delincuentes de alta peligrosidad condenados por crimen organizado, terrorismo u otros delitos que va a determinar la ley: incomunicación, aislamiento\". Asimismo, el parlamentario oficialista sostuvo que \"no creamos un estado de emergencia nuevo, reforzamos y potenciamos el estado de emergencia actual, estableciendo que todo tipo de amenaza actual, inminente respecto a algún problema de seguridad, orden público, habilita al Presidente de la República para poder dictar un estado de emergencia \". \"Estamos muy conformes con cómo fuimos logrando superar las diferencias. Nos hicimos cargo de las aprensiones que legítimamente presentaron muchos parlamentarios del texto original que había presentado el Gobierno\", indicó, por su parte, Squella. Mientras, Araya aseveró que \"a quí no ha ganado ni el Gobierno ni ha ganado la oposición . Lo que se ha logrado es aunar voluntades para enfrentar un problema que tiene Chile, como lo es el crimen organizado. Esperamos que una vez que se conozca este proyecto, especialmente los senadores de la centroizquierda puedan leerlo con detención y votarlo a su favor\". De todas formas, desde la oposición, el s enador Ricardo Celis , también del PPD, señaló que toda la acción que realizó Araya lo hizo por cuenta propia y no representa la postura de los senadores de la bancada. El ministro de Seguridad, Martín Arrau, comentó que \"desconozco si se retiró o se va a retirar, esos son temas bastante instrumentales por parte de Segpres. En este Congreso hay miles de proyectos que quedan durmiendo, quedará ahí o se retirará, lo importante es que con un proyecto ingresado de manera transversal con los senadores vamos a poder abordar todo o gran parte de las materias que estaban en la reforma que nosotros presentamos, avanzando en mayor segmentación penitenciaria y autonomía por parte de Gendarmería para ese fin\". \"Abordar, quizás no en este proyecto que abre la puerta, pero en reformas al Código Penal, los listados de organizaciones de crimen organizado, y también con algunas mejoras al estado de excepción de emergencia, que no es idéntico a lo que nosotros habíamos planteado, pero va avanzando en ese camino y la tramitación los parlamentarios y nosotros mismos iremos haciendo algunas mejoras\", agregó. &nbsp;",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007122424.jpg",
-            "published_raw": "Wed, 07 Oct 2026 12:24:24 -0300",
-            "published_at": "2026-10-07T12:24:24-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 7,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 3,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 4,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 15,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 79.9
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
         "cluster_id": "PML-EVENT-010",
         "title": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\"",
         "topic": "Relaciones internacionales",
@@ -496,11 +458,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.1,
+          "score": 52.1,
           "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 80,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 46
@@ -551,7 +513,79 @@
             "Elecciones y opinión pública",
             "Relaciones internacionales"
           ],
-          "chile_utility": 74.1
+          "chile_utility": 72.1
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-005",
+        "title": "Gobierno baja su reforma de seguridad y senadores presentarán nueva propuesta",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-baja-su-reforma-de-seguridad-y-senadores-presentaran-nueva/2026-10-06/184849.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 49.6,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 90,
+            "freshness": 25,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 44
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-06T18:48:49-0300",
+        "last_seen": "2026-10-06T18:48:49-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Gobierno baja su reforma de seguridad y senadores presentarán nueva propuesta",
+            "description": "La Moneda y senadores de oficialismo y oposición alcanzaron este martes un acuerdo para presentar una propuesta de reforma constitucional en materia de seguridad , luego de que la iniciativa de La Moneda fuera criticada por gran parte del arco político. Los parlamentarios de las comisiones de Constitución, Pedro Araya (PPD), Andrés Longton (RN) y Arturo Squella (Republicano) y de Seguridad Karim Bianchi (ind) e Iván Flores (DC) presentará mañana la iniciativa. En ese sentido, el biministro del Interior y Segegob, Claudio Alvarado , señaló que \"el Gobierno, tal como ha comprometido en las conversaciones privadas y también lo hemos dado a entender públicamente, dado ese trabajo y el respeto a los acuerdos, no vamos a perseverar con la reforma que habíamos ingresado en su minuto \". Por su parte, el ministro de Justicia y Derechos Humanos, Fernando Rabat, detalló sobre que \"nos queda claro que el actual estado de emergencia va a contemplar elementos que recogen el diagnóstico que ha tenido el Gobierno del presidente José Antonio Kast, de poder enfrentar derechamente el crimen organizado y al terrorismo, y nos parece que lo que se nos planteó en esta reunión aborda debidamente el diagnóstico que ha tenido el Gobierno\". De lo trascendido, la moción parlamentaria de reforma contiene herramientas adicionales en el estado de excepción constitucional de emergencia . Además, el pretendido registro de bandas de crimen organizado no estará incluido en el, pues será materia de ley y no constitucional. Por otro lado, el ministro Segpres, José García Ruminot , confirmó que el Gobierno ingresará esta semana por la Cámara Baja la insistencia para rehabilitar la tramitación para ampliar el plazo de detención con fines de concretar expulsiones administrativas.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/gobierno-baja-su-reforma-de-seguridad-y-senadores-presentaran-nueva/2026-10-06/184849.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261006/imag/foto_0000000220261006184849.jpg",
+            "published_raw": "Tue, 06 Oct 2026 18:48:49 -0300",
+            "published_at": "2026-10-06T18:48:49-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 7,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 3,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 5,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 15,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-005"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 71.6
         },
         "repeated_in_general_top5": false
       },
@@ -638,27 +672,27 @@
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 16,
-      "maximum_relevance": 62.4,
-      "leading_story": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a las urnas"
+      "event_count": 14,
+      "maximum_relevance": 55.8,
+      "leading_story": "Chile decreta estado de catástrofe en una zona de la capital ante desastre por fuertes lluvias"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 9,
-      "maximum_relevance": 55.5,
-      "leading_story": "\"Hágale un bien a la Nación y renuncie\": Flávio Bolsonaro arremete contra el juez que condenó a su padre"
+      "event_count": 11,
+      "maximum_relevance": 55.3,
+      "leading_story": "El líder del Partido Verde británico, Polanski, fracasa en su intento de ‘sorpasso’ al laborismo"
+    },
+    {
+      "topic": "Ideología y competencia política",
+      "event_count": 4,
+      "maximum_relevance": 53.5,
+      "leading_story": "La conmoción por la muerte de Maricarmen monopoliza la precampaña"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 2,
-      "maximum_relevance": 54.1,
+      "maximum_relevance": 52.1,
       "leading_story": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\""
-    },
-    {
-      "topic": "Ideología y competencia política",
-      "event_count": 3,
-      "maximum_relevance": 49.8,
-      "leading_story": "Lula tras la primera vuelta: \"Es un resultado inesperado\"; Bolsonaro defiende que \"Brasil quiere cambio\""
     },
     {
       "topic": "Economía y políticas públicas",
@@ -672,7 +706,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
     "source_count": 3
   },
   "system": {
