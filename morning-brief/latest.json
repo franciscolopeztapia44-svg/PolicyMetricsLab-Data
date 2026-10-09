@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-09",
-    "data_latest_timestamp": "2026-10-09T11:34:30-0300",
-    "data_age_hours": 0.7,
-    "generated_at": "2026-10-09T12:16:33-0300",
+    "data_latest_timestamp": "2026-10-09T13:38:33-0300",
+    "data_age_hours": 1.7,
+    "generated_at": "2026-10-09T15:17:50-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -26,13 +26,13 @@
     "topics": 3,
     "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 61.3,
-    "maximum_relevance": 67.7
+    "average_top5_relevance": 62.7,
+    "maximum_relevance": 66.4
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-016",
+      "cluster_id": "PML-EVENT-017",
       "title": "La Fiscalía pide al Supremo que permita votar a los nacionalizados por la ‘ley de nietos’ en las elecciones del 29 de noviembre",
       "url": "https://elpais.com/espana/elecciones-generales/2026-10-09/la-fiscalia-pide-al-supremo-que-permita-votar-a-todos-los-nacionalizados-por-la-ley-de-nietos-en-las-elecciones-del-29-de-noviembre.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +43,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 67.7,
+        "score": 66.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 67.7
+        "editorial_utility": 66.4
       },
       "selection": {
-        "reason": "PML 67.7",
+        "reason": "PML 66.4",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -102,13 +102,93 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-016"
+          "cluster_id": "PML-EVENT-017"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-029",
+      "cluster_id": "PML-EVENT-002",
+      "title": "Ignacio Walker: Bachelet y Boric son candidatos de izquierda; no convocan al centro",
+      "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/ignacio-walker-bachelet-y-boric-son-candidatos-de-izquierda-no/2026-10-09/113259.html",
+      "representative_source": "Cooperativa",
+      "topic": "Ideología y competencia política",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 58.3,
+        "level": "MEDIA",
+        "editorial_utility": 70.3
+      },
+      "selection": {
+        "reason": "PML 58.3; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-10-09T11:32:59-0300",
+      "last_seen": "2026-10-09T11:32:59-0300",
+      "entities": [
+        "bachelet",
+        "boric",
+        "chile"
+      ],
+      "event_terms": [
+        "oposicion",
+        "eleccion"
+      ],
+      "analysis": {
+        "summary": "La semana política ha estado marcada por la apertura mostrada por la expresidenta Michelle Bachelet para asumir una nueva candidatura presidencial con el objetivo de aunar a las fuerzas de oposición y combatir los retrocesos de derechos que, afirmó, son parte de las medidas del Gobierno de José Antonio Kast. La exmandataria habló de buscar la unidad de todo el progresismo, desde el centro a la izquierda.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Ideología y competencia política y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Ignacio Walker: Bachelet y Boric son candidatos de izquierda; no convocan al centro",
+          "description": "La semana política ha estado marcada por la apertura mostrada por la expresidenta Michelle Bachelet para asumir una nueva candidatura presidencial con el objetivo de aunar a las fuerzas de oposición y combatir los retrocesos de derechos que, afirmó, son parte de las medidas del Gobierno de José Antonio Kast. La exmandataria habló de buscar la unidad de todo el progresismo, desde el centro a la izquierda. Sin embargo, este viernes en El Primer Café de Cooperativa el excanciller Ignacio Walker , quien formó parte del Gobierno de Ricardo Lagos, afirmó no sentirse convocado, como persona del centro político, por el anuncio de la expresidenta . \"Yo creo que es perfectamente natural, aunque quedan tres años para la elección presidencial, que el Partido Socialista, los partidos de izquierda, estén explorando sus posibilidades presidenciales. Y hay dos en la pole position, que son Michelle Bachelet y Gabriel Boric. El punto es: ¿y quién nos va a convocar a nosotros, a las personas de centro, de centroizquierda? Es un casillero huérfano de representación política \", afirmó quien fuera presidente de la Democracia Cristiana. \"Lo que hay es izquierda dura: gobierno de Boric, Apruebo Dignidad, PC, Frente Amplio; y derecha dura, pues: Kast, Republicanos. Y este es un fenómeno en Chile y en el mundo. En eso estamos, en la polarización. Entonces, el centro, la centroizquierda, que es mi domicilio político desde hace 40 años, está huérfano \", profundizó Walker. \" Las candidaturas que estamos viendo, Michelle Bachelet, Gabriel Boric, son candidaturas de izquierda , del mundo de la izquierda. Yo creo que el mundo del centro está eh a la expectativa y está realmente sin representación. Yo creo en un proyecto de mayoría. Yo creo que hay una demanda de centro, de centroizquierda, incluso de centroderecha liberal\", sentenció. Monckeberg: Expresidenta se sobregiró Una visión más crítica mostró el expresidente de Renovación Nacional Cristián Monckeberg : \" Yo creo que la Presidenta se equivocó, se sobregiró , porque una cosa es ser un foco ordenador, que una un apoyo a que las diferentes visiones de centroizquierda, de izquierda, para que confluyan. Está bien, es muy legítimo. Y estos dos años están llamados a eso. Pero a la vez desordena. \"Está bien la primera parte de su de su de su discurso: 'Hay Michelle Bachelet para rato, me van a tener en el país, voy a ayudar y voy a colaborar'. Okey, hasta ahí estaba perfecto. El resto no tiene mucho sentido, desordena, lleva el debate para cualquier lado, sobre todo en la oposición , que es donde se tienen que redescubrir, reinventar, buscar nuevos discursos y buscar nuevos liderazgos\", expuso el exparlamentario. Y apuntó también al Presidente Kast, quien criticó las expresiones de Bachelet : \"Yo creo que él no tiene para qué meterse en eso. No tiene para qué opinar de eso. Que el gobierno gobierne , porque no hay elecciones en tres años\". Horst: Fricciona a la oposición La directora ejecutiva de Libertad y Desarrollo, Bettina Horst , apuntó a que el anuncio de Bachelet generará división en la propia oposición: \"Siendo legítimo, yo creo que acá donde mayor se genera ruido es el precisamente en el mismo sector que busca liderar . Porque había varios ya que se veían como candidatos presidenciales, que ahora han quedado más en la sombra\". \"Estratégicamente, desde un punto de vista de una oposición que busca reordenarse, que busca rearticularse, que busca encontrar un camino común, me parece que no le hace no un favor, sino más bien va generando también al interior de ese bloque, que ya está tremendamente tensionado, mayores fricciones \", expuso la economista. \"Estratégicamente para ese sector no creo, no siento que sea una frase afortunada \", sentenció. Eyzaguirre: Sobreinterpretación de sus palabras Otra perspectiva mostró Nicolás Eyzaguirre, quien fuera ministro de Michelle Bachelet en tres carteras diferentes durante sus dos gobiernos y participó en el acto de homenaje de paeridos de oposición a la figura de la expresidenta : apuntó a una \"sobreinterpretación\" de sus dichos . \"Le preguntaron 'el dicho dice que no hay segunda sin tercera'. Ella respondió 'yo creo que sí'. Significa: sí hay segunda sin tercera, o sea que aquí yo no estoy hablando de candidaturas presidenciales \", expuso al analizar la lógica de las palabras de la exmandataria. \"Se está sobreinterpretando para tirar la pelota a la cancha de al lado y desordenarnos entre nosotros. Queda mucho todavía. La Presidenta es un liderazgo que va a usar su liderazgo y su emocionalidad para converger \", añadió Eyzaguirre. \" Yo creo que es necesario ampliar las alianzas, tener gobiernos de auténticas mayorías ; no de mayoría falsa de segunda vuelta. Necesitamos una convergencia hacia el centro, pero queda mucho camino\", sentenció.",
+          "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/ignacio-walker-bachelet-y-boric-son-candidatos-de-izquierda-no/2026-10-09/113259.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261009/imag/foto_0000000220261009113259.jpg",
+          "published_raw": "Fri, 09 Oct 2026 11:32:59 -0300",
+          "published_at": "2026-10-09T11:32:59-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 4,
+          "score_elections": 3,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 6,
+          "score_actor": 6,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 19,
+          "primary_topic": "Ideología y competencia política",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-002"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-030",
       "title": "El Gobierno investiga la presunta presencia de mercenarios mexicanos en la guerra de Ucrania",
       "url": "https://elpais.com/mexico/2026-10-08/el-gobierno-investiga-la-presunta-presencia-de-mercenarios-mexicanos-en-la-guerra-de-ucrania.html",
       "representative_source": "EL PAÍS",
@@ -119,12 +199,12 @@
         "country": "México / América Latina"
       },
       "relevance": {
-        "score": 60.8,
+        "score": 58.2,
         "level": "MEDIA",
-        "editorial_utility": 72.8
+        "editorial_utility": 70.2
       },
       "selection": {
-        "reason": "PML 60.8; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 58.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -178,93 +258,13 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-002",
-      "title": "Ignacio Walker: Bachelet y Boric son candidatos de izquierda; no convocan al centro",
-      "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/ignacio-walker-bachelet-y-boric-son-candidatos-de-izquierda-no/2026-10-09/113259.html",
-      "representative_source": "Cooperativa",
-      "topic": "Ideología y competencia política",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 58.3,
-        "level": "MEDIA",
-        "editorial_utility": 70.3
-      },
-      "selection": {
-        "reason": "PML 58.3; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-10-09T11:32:59-0300",
-      "last_seen": "2026-10-09T11:32:59-0300",
-      "entities": [
-        "bachelet",
-        "boric",
-        "chile"
-      ],
-      "event_terms": [
-        "oposicion",
-        "eleccion"
-      ],
-      "analysis": {
-        "summary": "La semana política ha estado marcada por la apertura mostrada por la expresidenta Michelle Bachelet para asumir una nueva candidatura presidencial con el objetivo de aunar a las fuerzas de oposición y combatir los retrocesos de derechos que, afirmó, son parte de las medidas del Gobierno de José Antonio Kast. La exmandataria habló de buscar la unidad de todo el progresismo, desde el centro a la izquierda.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Ideología y competencia política y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Ignacio Walker: Bachelet y Boric son candidatos de izquierda; no convocan al centro",
-          "description": "La semana política ha estado marcada por la apertura mostrada por la expresidenta Michelle Bachelet para asumir una nueva candidatura presidencial con el objetivo de aunar a las fuerzas de oposición y combatir los retrocesos de derechos que, afirmó, son parte de las medidas del Gobierno de José Antonio Kast. La exmandataria habló de buscar la unidad de todo el progresismo, desde el centro a la izquierda. Sin embargo, ayer en El Primer Café de Cooperativa el excanciller Ignacio Walker , quien formó parte del Gobierno de Ricardo Lagos, afirmó no sentirse convocado, como persona del centro político, por el anuncio de la expresidenta . \"Yo creo que es perfectamente natural, aunque quedan tres años para la elección presidencial, que el Partido Socialista, los partidos de izquierda, estén explorando sus posibilidades presidenciales. Y hay dos en la pole position, que son Michelle Bachelet y Gabriel Boric. El punto es: ¿y quién nos va a convocar a nosotros, a las personas de centro, de centroizquierda? Es un casillero huérfano de representación política \", afirmó quien fuera presidente de la Democracia Cristiana. \"Lo que hay es izquierda dura: gobierno de Boric, Apruebo Dignidad, PC, Frente Amplio; y derecha dura, pues: Kast, Republicanos. Y este es un fenómeno en Chile y en el mundo. En eso estamos, en la polarización. Entonces, el centro, la centroizquierda, que es mi domicilio político desde hace 40 años, está huérfano \", profundizó Walker. \" Las candidaturas que estamos viendo, Michelle Bachelet, Gabriel Boric, son candidaturas de izquierda , del mundo de la izquierda. Yo creo que el mundo del centro está eh a la expectativa y está realmente sin representación. Yo creo en un proyecto de mayoría. Yo creo que hay una demanda de centro, de centroizquierda, incluso de centroderecha liberal\", sentenció. Monckeberg: Expresidenta se sobregiró Una visión más crítica mostró el expresidente de Renovación Nacional Cristián Monckeberg : \" Yo creo que la Presidenta se equivocó, se sobregiró , porque una cosa es ser un foco ordenador, que una un apoyo a que las diferentes visiones de centroizquierda, de izquierda, para que confluyan. Está bien, es muy legítimo. Y estos dos años están llamados a eso. Pero a la vez desordena. \"Está bien la primera parte de su de su de su discurso: 'Hay Michelle Bachelet para rato, me van a tener en el país, voy a ayudar y voy a colaborar'. Okey, hasta ahí estaba perfecto. El resto no tiene mucho sentido, desordena, lleva el debate para cualquier lado, sobre todo en la oposición , que es donde se tienen que redescubrir, reinventar, buscar nuevos discursos y buscar nuevos liderazgos\", expuso el exparlamentario. Y apuntó también al Presidente Kast, quien criticó las expresiones de Bachelet : \"Yo creo que él no tiene para qué meterse en eso. No tiene para qué opinar de eso. Que el gobierno gobierne , porque no hay elecciones en tres años\". Horst: Fricciona a la oposición La directora ejecutiva de Libertad y Desarrollo, Bettina Horst , apuntó a que el anuncio de Bachelet generará división en la propia oposición: \"Siendo legítimo, yo creo que acá donde mayor se genera ruido es el precisamente en el mismo sector que busca liderar . Porque había varios ya que se veían como candidatos presidenciales, que ahora han quedado más en la sombra\". \"Estratégicamente, desde un punto de vista de una oposición que busca reordenarse, que busca rearticularse, que busca encontrar un camino común, me parece que no le hace no un favor, sino más bien va generando también al interior de ese bloque, que ya está tremendamente tensionado, mayores fricciones \", expuso la economista. \"Estratégicamente para ese sector no creo, no siento que sea una frase afortunada \", sentenció. Eyzaguirre: Sobreinterpretación de sus palabras Otra perspectiva mostró Nicolás Eyzaguirre, quien fuera ministro de Michelle Bachelet en tres carteras diferentes durante sus dos gobiernos y participó en el acto de homenaje de paeridos de oposición a la figura de la expresidenta : apuntó a una \"sobreinterpretación\" de sus dichos . \"Le preguntaron 'el dicho dice que no hay segunda sin tercera'. Ella respondió 'yo creo que sí'. Significa: sí hay segunda sin tercera, o sea que aquí yo no estoy hablando de candidaturas presidenciales \", expuso al analizar la lógica de las palabras de la exmandataria. \"Se está sobreinterpretando para tirar la pelota a la cancha de al lado y desordenarnos entre nosotros. Queda mucho todavía. La Presidenta es un liderazgo que va a usar su liderazgo y su emocionalidad para converger \", añadió Eyzaguirre. \" Yo creo que es necesario ampliar las alianzas, tener gobiernos de auténticas mayorías ; no de mayoría falsa de segunda vuelta. Necesitamos una convergencia hacia el centro, pero queda mucho camino\", sentenció.",
-          "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/ignacio-walker-bachelet-y-boric-son-candidatos-de-izquierda-no/2026-10-09/113259.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261009/imag/foto_0000000220261009113259.jpg",
-          "published_raw": "Fri, 09 Oct 2026 11:32:59 -0300",
-          "published_at": "2026-10-09T11:32:59-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 4,
-          "score_elections": 3,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 6,
-          "score_actor": 6,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 19,
-          "primary_topic": "Ideología y competencia política",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-002"
+          "cluster_id": "PML-EVENT-030"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-015",
+      "cluster_id": "PML-EVENT-016",
       "title": "Trump crea un comité para investigar a Lisa Cook, la gobernadora de la Fed que quiere despedir pese a la oposición del Supremo",
       "url": "https://elpais.com/economia/2026-10-09/trump-crea-un-comite-para-investigar-a-lisa-cook-la-gobernadora-de-la-fed-que-quiere-despedir-pese-a-la-oposicion-del-supremo.html",
       "representative_source": "EL PAÍS",
@@ -337,15 +337,15 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-016"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-005",
-      "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
+      "cluster_id": "PML-EVENT-010",
+      "title": "Sin bombos ni platillos: Kast promulgó la ley de reconstrucción",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/sin-bombos-ni-platillos-kast-promulgo-la-ley-de-reconstruccion/2026-10-09/132206.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -354,12 +354,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 54.9,
-        "level": "MEDIA",
-        "editorial_utility": 50.9
+        "score": 65.8,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 61.8
       },
       "selection": {
-        "reason": "PML 54.9; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 65.8; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -369,15 +369,15 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-10-07T12:24:24-0300",
-      "last_seen": "2026-10-07T12:24:24-0300",
+      "first_seen": "2026-10-09T13:22:06-0300",
+      "last_seen": "2026-10-09T13:22:06-0300",
       "entities": [
         "congreso",
         "chile"
       ],
-      "event_terms": "oposicion",
+      "event_terms": "tribunal",
       "analysis": {
-        "summary": "Esta jornada, los senadores Pedro Araya (PPD), Arturo Squella (Republicanos) y Andrés Longton (RN) presentaron la moción parlamentaria que reemplaza la reforma constitucional de seguridad propuesta por el Gobierno, que fue retirada por no obtener apoyos políticos. El ingreso de la moción se dio  un día después de que los legisladores y el Ejecutivo llegaran a un acuerdo para sugerir e ingresar una iniciativa que sí obtenga los respaldos necesarios al interior del Congreso.",
+        "summary": "Opacada por el aluvión que arrasó con sectores de San Carlos de Apoquindo , en Las Condes, el Presidente José Antonio Kast promulgó su proyecto estrella, la Ley de Reconstrucción , tras superar el control preventivo del Tribunal Constitucional (TC) .  Así lo confirmó este viernes el subsecretario de Interior, Máximo Pavez , quien anunció que \"en medio de este sistema frontal, el Gobierno sigue avanzando en las prioridades que son urgentes para poder levantar a nuestro país \".",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -390,30 +390,30 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
-          "description": "Esta jornada, los senadores Pedro Araya (PPD), Arturo Squella (Republicanos) y Andrés Longton (RN) presentaron la moción parlamentaria que reemplaza la reforma constitucional de seguridad propuesta por el Gobierno, que fue retirada por no obtener apoyos políticos. El ingreso de la moción se dio  un día después de que los legisladores y el Ejecutivo llegaran a un acuerdo para sugerir e ingresar una iniciativa que sí obtenga los respaldos necesarios al interior del Congreso. En concreto, el nuevo texto declara al crimen organizado como contrario a los derechos humanos y le hace aplicable el estatuto constitucional de terrorismo . Además, permite regímenes penitenciarios especiales y modifica el estado de excepción constitucional de emergencia sin crear uno nuevo. El senador Longton detalló que la propuesta establece: \"Asimilar el terrorismo al crimen organizado; establecer la segregación o segmentación para delincuentes de alta peligrosidad condenados por crimen organizado, terrorismo u otros delitos que va a determinar la ley: incomunicación, aislamiento\". Asimismo, el parlamentario oficialista sostuvo que \"no creamos un estado de emergencia nuevo, reforzamos y potenciamos el estado de emergencia actual, estableciendo que todo tipo de amenaza actual, inminente respecto a algún problema de seguridad, orden público, habilita al Presidente de la República para poder dictar un estado de emergencia \". \"Estamos muy conformes con cómo fuimos logrando superar las diferencias. Nos hicimos cargo de las aprensiones que legítimamente presentaron muchos parlamentarios del texto original que había presentado el Gobierno\", indicó, por su parte, Squella. Mientras, Araya aseveró que \"a quí no ha ganado ni el Gobierno ni ha ganado la oposición . Lo que se ha logrado es aunar voluntades para enfrentar un problema que tiene Chile, como lo es el crimen organizado. Esperamos que una vez que se conozca este proyecto, especialmente los senadores de la centroizquierda puedan leerlo con detención y votarlo a su favor\". De todas formas, desde la oposición, el s enador Ricardo Celis , también del PPD, señaló que toda la acción que realizó Araya lo hizo por cuenta propia y no representa la postura de los senadores de la bancada. El ministro de Seguridad, Martín Arrau, comentó que \"desconozco si se retiró o se va a retirar, esos son temas bastante instrumentales por parte de Segpres. En este Congreso hay miles de proyectos que quedan durmiendo, quedará ahí o se retirará, lo importante es que con un proyecto ingresado de manera transversal con los senadores vamos a poder abordar todo o gran parte de las materias que estaban en la reforma que nosotros presentamos, avanzando en mayor segmentación penitenciaria y autonomía por parte de Gendarmería para ese fin\". \"Abordar, quizás no en este proyecto que abre la puerta, pero en reformas al Código Penal, los listados de organizaciones de crimen organizado, y también con algunas mejoras al estado de excepción de emergencia, que no es idéntico a lo que nosotros habíamos planteado, pero va avanzando en ese camino y la tramitación los parlamentarios y nosotros mismos iremos haciendo algunas mejoras\", agregó. &nbsp;",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007122424.jpg",
-          "published_raw": "Wed, 07 Oct 2026 12:24:24 -0300",
-          "published_at": "2026-10-07T12:24:24-0300",
+          "title": "Sin bombos ni platillos: Kast promulgó la ley de reconstrucción",
+          "description": "Opacada por el aluvión que arrasó con sectores de San Carlos de Apoquindo , en Las Condes, el Presidente José Antonio Kast promulgó su proyecto estrella, la Ley de Reconstrucción , tras superar el control preventivo del Tribunal Constitucional (TC) .  Así lo confirmó este viernes el subsecretario de Interior, Máximo Pavez , quien anunció que \"en medio de este sistema frontal, el Gobierno sigue avanzando en las prioridades que son urgentes para poder levantar a nuestro país \". \"Esto -agregó- es una muy buena noticia que nos llena de esperanza para poder volver a reimpulsar nuestra economía, avanzar en certeza jurídica y, por supuesto, buscar el crecimiento necesario en materia de inversión y en materia de empleo \". La normativa, despachada por el Congreso el 4 de agosto,  reduce de forma gradual desde el 27% actual hasta el 23% entre 2027 y 2029,  crea una exención temporal del IVA para la primera venta de viviendas nuevas ya terminadas y fija una exención total de contribuciones para la vivienda principal de personas de 65 años o más (a partir de 2027) . Además, establece invariabilidad tributaria para grandes proyectos de inversión y facilidades de repatriación de capitales , además de convenios de pago con condonación de multas e intereses a través de la Tesorería General de la República. \"Chile sigue avanzando en lo urgente, también en medio de la emergencia. Promulgamos la Ley de Reconstrucción Nacional y Desarrollo Económico y Social, que trae esperanza a las familias de Biobío, Ñuble y Valparaíso, certeza jurídica y más inversión y empleo para todo el país \", afirmó Kast en un mensaje en X. Chile sigue avanzando en lo urgente, también en medio de la emergencia. Promulgamos la Ley de Reconstrucción Nacional y Desarrollo Económico y Social, que trae esperanza a las familias de Biobío, Ñuble y Valparaíso, certeza jurídica y más inversión y empleo para todo el país. #ChileSaleAdelante — José Antonio Kast Rist (@PresidenteKast) October 9, 2026 El texto debe ahora esperar la toma de razón de la Contraloría. Se convertirá en ley una vez que sea sea publicado por el Diario Oficial.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/sin-bombos-ni-platillos-kast-promulgo-la-ley-de-reconstruccion/2026-10-09/132206.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261009/imag/foto_0000000220261009132206.jpg",
+          "published_raw": "Fri, 09 Oct 2026 13:22:06 -0300",
+          "published_at": "2026-10-09T13:22:06-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 7,
+          "score_institutional": 6,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 3,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 4,
+          "score_conflict": 0,
+          "score_policy": 2,
+          "score_ideology": 0,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 15,
+          "political_evidence": 9,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-005"
+          "cluster_id": "PML-EVENT-010"
         }
       ]
     }
@@ -426,6 +426,150 @@
     "stories": [
       {
         "position": 1,
+        "cluster_id": "PML-EVENT-005",
+        "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 51.1,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 95,
+            "freshness": 25,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 44
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-07T12:24:24-0300",
+        "last_seen": "2026-10-07T12:24:24-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
+            "description": "Esta jornada, los senadores Pedro Araya (PPD), Arturo Squella (Republicanos) y Andrés Longton (RN) presentaron la moción parlamentaria que reemplaza la reforma constitucional de seguridad propuesta por el Gobierno, que fue retirada por no obtener apoyos políticos. El ingreso de la moción se dio  un día después de que los legisladores y el Ejecutivo llegaran a un acuerdo para sugerir e ingresar una iniciativa que sí obtenga los respaldos necesarios al interior del Congreso. En concreto, el nuevo texto declara al crimen organizado como contrario a los derechos humanos y le hace aplicable el estatuto constitucional de terrorismo . Además, permite regímenes penitenciarios especiales y modifica el estado de excepción constitucional de emergencia sin crear uno nuevo. El senador Longton detalló que la propuesta establece: \"Asimilar el terrorismo al crimen organizado; establecer la segregación o segmentación para delincuentes de alta peligrosidad condenados por crimen organizado, terrorismo u otros delitos que va a determinar la ley: incomunicación, aislamiento\". Asimismo, el parlamentario oficialista sostuvo que \"no creamos un estado de emergencia nuevo, reforzamos y potenciamos el estado de emergencia actual, estableciendo que todo tipo de amenaza actual, inminente respecto a algún problema de seguridad, orden público, habilita al Presidente de la República para poder dictar un estado de emergencia \". \"Estamos muy conformes con cómo fuimos logrando superar las diferencias. Nos hicimos cargo de las aprensiones que legítimamente presentaron muchos parlamentarios del texto original que había presentado el Gobierno\", indicó, por su parte, Squella. Mientras, Araya aseveró que \"a quí no ha ganado ni el Gobierno ni ha ganado la oposición . Lo que se ha logrado es aunar voluntades para enfrentar un problema que tiene Chile, como lo es el crimen organizado. Esperamos que una vez que se conozca este proyecto, especialmente los senadores de la centroizquierda puedan leerlo con detención y votarlo a su favor\". De todas formas, desde la oposición, el s enador Ricardo Celis , también del PPD, señaló que toda la acción que realizó Araya lo hizo por cuenta propia y no representa la postura de los senadores de la bancada. El ministro de Seguridad, Martín Arrau, comentó que \"desconozco si se retiró o se va a retirar, esos son temas bastante instrumentales por parte de Segpres. En este Congreso hay miles de proyectos que quedan durmiendo, quedará ahí o se retirará, lo importante es que con un proyecto ingresado de manera transversal con los senadores vamos a poder abordar todo o gran parte de las materias que estaban en la reforma que nosotros presentamos, avanzando en mayor segmentación penitenciaria y autonomía por parte de Gendarmería para ese fin\". \"Abordar, quizás no en este proyecto que abre la puerta, pero en reformas al Código Penal, los listados de organizaciones de crimen organizado, y también con algunas mejoras al estado de excepción de emergencia, que no es idéntico a lo que nosotros habíamos planteado, pero va avanzando en ese camino y la tramitación los parlamentarios y nosotros mismos iremos haciendo algunas mejoras\", agregó. &nbsp;",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007122424.jpg",
+            "published_raw": "Wed, 07 Oct 2026 12:24:24 -0300",
+            "published_at": "2026-10-07T12:24:24-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 7,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 3,
+            "score_policy": 0,
+            "score_ideology": 1,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 15,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-005"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 73.1
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-011",
+        "title": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\"",
+        "topic": "Relaciones internacionales",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/presidenciales/alvarado-ante-apertura-presidencial-de-bachelet-en-tres-anos-y-medio/2026-10-08/091002.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 49.6,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 51,
+            "freshness": 62,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 46
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-08T09:10:02-0300",
+        "last_seen": "2026-10-08T09:10:02-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\"",
+            "description": "El biministro del Interior y de la Segegob, Claudio Alvarado , restó importancia a las recientes declaraciones de la expresidenta Michelle Bachelet , quien no descartó una tercera postulación a La Moneda para las elecciones de 2029 , tras su fallida candidatura a la Secretaría General de las Naciones Unidas . En entrevista con el canal TVU de la Universidad de Concepción, la exjefa de Estado (2006-2010, 2014-2018) y ex Alta Comisionada de las Naciones Unidas para los Derechos Humanos fue consultada sobre un eventual retorno al sillón presindencial bajo la premisa de si \"¿no hay segunda sin tercera?\". Tras una breve pausa, la militante socialista respondió: \"Yo creo que sí... yo creo que sí\" . Durante la conversación, Bachelet advirtió además que le da \"terror retroceder en derechos\" en el contexto actual, sobre todo en el caso de las mujeres, dónde \"ha sido más difícil, más lento\". \"Voy a seguir haciendo lo que yo pueda por la unidad de todas las fuerzas que queremos el progreso y no los retrocesos\" , aseveró. La respuesta del Ejecutivo Desde el Palacio de La Moneda, el biministro Alvarado descartó que la posición de la exmandataria responda a una falta de respaldo del Ejecutivo a su postulación en la ONU:  \"Son dos cosas distintas\" . \"La expresidenta Bachelet tiene una trayectoria de servicio público, hoy ella realiza una expresión de deseo y cuando se inscriban las candidaturas, en tres años y medio más, conversaremos respecto a las viabilidades políticas, o si efectivamente llega a materializarse esa expresión de deseo\", señaló el titular del Interior y la Segegob. En esa línea, el secretario de Estado afirmó que \"hoy día es muy poco lo que puedo decir, y yo creo que las opiniones hay que buscarlas en la oposición , donde hay diversos liderazgos que tienen, a lo mejor, el mismo interés\". [Lea también]  Ossandón alerta al oficialismo: No es lo mismo que Bachelet esté en la ONU a que esté en Chile Finalmente, Alvarado enfatizó que \" al Gobierno, lo que nos motiva es trabajar por las materias por las cuales fuimos elegidos : retomar el rumbo del crecimiento económico; generar oportunidades de empleo; que lleguen más inversiones, dar certeza jurídica a quienes quieren invertir en nuestro país; dar certezas administrativas; resolver los problemas sociales, y en eso estamos trabajando día a día\". \"Lo que se genere en el debate político, obviamente, no somos ajeno al mismo, pero no es nuestra preocupación central y principal hoy día la expresión de deseo de la expresidenta Bachelet \", concluyó.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/presidenciales/alvarado-ante-apertura-presidencial-de-bachelet-en-tres-anos-y-medio/2026-10-08/091002.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261008/imag/foto_0000000220261008091002.jpg",
+            "published_raw": "Thu, 08 Oct 2026 09:10:02 -0300",
+            "published_at": "2026-10-08T09:10:02-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 1,
+            "score_elections": 1,
+            "score_international": 2,
+            "score_conflict": 1,
+            "score_policy": 1,
+            "score_ideology": 1,
+            "score_actor": 2,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 9,
+            "primary_topic": "Relaciones internacionales",
+            "secondary_topic": "Instituciones y gobierno",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-011"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 20,
+          "labels": [
+            "Elecciones y opinión pública",
+            "Relaciones internacionales"
+          ],
+          "chile_utility": 69.6
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
         "cluster_id": "PML-EVENT-003",
         "title": "Las Reglas de Uso de la Fuerza están a un paso de ser ley tras aprobación en Cámara Baja",
         "topic": "Instituciones y gobierno",
@@ -523,150 +667,6 @@
           "chile_utility": 72
         },
         "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-010",
-        "title": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\"",
-        "topic": "Relaciones internacionales",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/presidenciales/alvarado-ante-apertura-presidencial-de-bachelet-en-tres-anos-y-medio/2026-10-08/091002.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 49.6,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 51,
-            "freshness": 62,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 46
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-08T09:10:02-0300",
-        "last_seen": "2026-10-08T09:10:02-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\"",
-            "description": "El biministro del Interior y de la Segegob, Claudio Alvarado , restó importancia a las recientes declaraciones de la expresidenta Michelle Bachelet , quien no descartó una tercera postulación a La Moneda para las elecciones de 2029 , tras su fallida candidatura a la Secretaría General de las Naciones Unidas . En entrevista con el canal TVU de la Universidad de Concepción, la exjefa de Estado (2006-2010, 2014-2018) y ex Alta Comisionada de las Naciones Unidas para los Derechos Humanos fue consultada sobre un eventual retorno al sillón presindencial bajo la premisa de si \"¿no hay segunda sin tercera?\". Tras una breve pausa, la militante socialista respondió: \"Yo creo que sí... yo creo que sí\" . Durante la conversación, Bachelet advirtió además que le da \"terror retroceder en derechos\" en el contexto actual, sobre todo en el caso de las mujeres, dónde \"ha sido más difícil, más lento\". \"Voy a seguir haciendo lo que yo pueda por la unidad de todas las fuerzas que queremos el progreso y no los retrocesos\" , aseveró. La respuesta del Ejecutivo Desde el Palacio de La Moneda, el biministro Alvarado descartó que la posición de la exmandataria responda a una falta de respaldo del Ejecutivo a su postulación en la ONU:  \"Son dos cosas distintas\" . \"La expresidenta Bachelet tiene una trayectoria de servicio público, hoy ella realiza una expresión de deseo y cuando se inscriban las candidaturas, en tres años y medio más, conversaremos respecto a las viabilidades políticas, o si efectivamente llega a materializarse esa expresión de deseo\", señaló el titular del Interior y la Segegob. En esa línea, el secretario de Estado afirmó que \"hoy día es muy poco lo que puedo decir, y yo creo que las opiniones hay que buscarlas en la oposición , donde hay diversos liderazgos que tienen, a lo mejor, el mismo interés\". [Lea también]  Ossandón alerta al oficialismo: No es lo mismo que Bachelet esté en la ONU a que esté en Chile Finalmente, Alvarado enfatizó que \" al Gobierno, lo que nos motiva es trabajar por las materias por las cuales fuimos elegidos : retomar el rumbo del crecimiento económico; generar oportunidades de empleo; que lleguen más inversiones, dar certeza jurídica a quienes quieren invertir en nuestro país; dar certezas administrativas; resolver los problemas sociales, y en eso estamos trabajando día a día\". \"Lo que se genere en el debate político, obviamente, no somos ajeno al mismo, pero no es nuestra preocupación central y principal hoy día la expresión de deseo de la expresidenta Bachelet \", concluyó.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/presidenciales/alvarado-ante-apertura-presidencial-de-bachelet-en-tres-anos-y-medio/2026-10-08/091002.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261008/imag/foto_0000000220261008091002.jpg",
-            "published_raw": "Thu, 08 Oct 2026 09:10:02 -0300",
-            "published_at": "2026-10-08T09:10:02-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 1,
-            "score_elections": 1,
-            "score_international": 2,
-            "score_conflict": 1,
-            "score_policy": 1,
-            "score_ideology": 1,
-            "score_actor": 2,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 9,
-            "primary_topic": "Relaciones internacionales",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-010"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 20,
-          "labels": [
-            "Elecciones y opinión pública",
-            "Relaciones internacionales"
-          ],
-          "chile_utility": 69.6
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-004",
-        "title": "Presupuesto 2027: Oposición acusa al Gobierno de buscar \"control\" sobre Fiscalía",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-oposicion-acusa-al-gobierno-de-buscar-control-sobre/2026-10-08/133817.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 50.4,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 54,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 42
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-08T13:38:17-0300",
-        "last_seen": "2026-10-08T13:38:17-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Presupuesto 2027: Oposición acusa al Gobierno de buscar \"control\" sobre Fiscalía",
-            "description": "El diputado socialista Marcos Ilabaca acusó al Gobierno de intentar ejercer control sobre el Ministerio Público , órgano constitucionalmente autónomo, a través del proyecto de Presupuesto 2027 . \"Yo creo que esa norma es inconstitucional. No puede el Ejecutivo, a través de las modificaciones presupuestarias, tener control sobre un órgano autónomo constitucionalmente \", afirmó el parlamentario, quien sostuvo que \"lo que busca el Gobierno es controlar, en particular, la Fiscalía Supraterritorial\". La controversia se originó por las modificaciones introducidas por el Ejecutivo a la partida presupuestaria del Ministerio Público. Por primera vez, la propuesta contempla dividir los recursos del organismo en dos programas, uno de los cuales estará destinado específicamente al financiamiento de la Fiscalía Supraterritorial . De acuerdo con los reparos planteados por el fiscal nacional, Ángel Valencia , esta estructura podría limitar la capacidad para reasignar internamente sus recursos durante el año . Por ejemplo, si la institución necesitara fondos adicionales para trasladar fiscales al extranjero, debería solicitar autorización a la Dirección de Presupuestos (Dipres). Valencia calificó esta situación como \"gravísima\" y afirmó que \"no se está advirtiendo la consecuencia\" que, a su juicio, implica para la autonomía del órgano persecutor. En esta jornada, la jefa del Departamento Presupuestario del Ministerio Público, Mónica Naranjo , profundizó que \" el decreto que nos entregaba los fondos para este año fue representado (frenado) por la Contraloría General de la República, precisamente por intentar crear este programa 02 , al señalar que implicaría que toda adecuación o reasignación de recursos entre una Fiscalía y las demás unidades de la institución requerirían la intervención de la Dipres, lo que afectaría el manejo y la capacidad de gestión autónoma de los recursos y divisiones institucionales del Ministerio Público\". \"No obstante, en el proyecto de ley de Presupuesto 2027 se insiste con la generación de este programa 02\", relevó la funcionaria. Cuestionada implementación de la Fiscalía Supraterritorial Otro de los puntos de preocupación es la implementación de la Fiscalía Supraterritorial , creada para abordar investigaciones de alta complejidad, particularmente aquellas vinculadas al crimen organizado y el narcotráfico. La ley establece que el Ministerio Público debe incorporar 20 nuevos fiscales durante el próximo año, con la intención de contar con ellos a partir de abril. Sin embargo, el diseño presupuestario contempla recursos para contratar inicialmente a ocho fiscales en junio y a los 12 restantes recién en diciembre. Ilabaca cuestionó que esta planificación pueda retrasar el fortalecimiento de la institución y criticó los recursos contemplados para la Fiscalía Supraterritorial. \" Además del recorte de 1.500 millones de pesos en Fiscalía Supraterritorial, están diciendo que la implementación que debería ser en enero del año que viene va a ser en diciembre; es decir, el año 2027 no existe refuerzo para el Ministerio Público . Vamos a llevar adelante un combate frontal al narcotráfico y el crimen organizado, pero al principal órgano persecutor penal le decimos: '¿Sabes qué? No tienen plata'. Entonces eso también es grave \", señaló. Si bien su par libertario Pier Karlezi admitió que \"hay graves deficiencias en la estructuración del Presupuesto para Fiscalía\", descartó que esto sea \" una forma de control: lo que pedimos es que haya responsabilidad , y faltan medidas de control en lo que se refiere a gastos\". Oficialismo defiende controles, pero advierte falta de recursos Desde el oficialismo, el diputado republicano Fernando Ugarte descartó que exista una intención de intervenir en la autonomía del Ministerio Público y sostuvo que las modificaciones buscan establecer mecanismos de control sobre el uso de los recursos públicos. No obstante, también expresó preocupación por el calendario previsto para el fortalecimiento de la Fiscalía y por la falta de financiamiento para determinadas áreas de alta complejidad. \"¿Por qué las contrataciones de fortalecimiento llegan a diciembre? Esa es mi preocupación. No me solucionan ningún problema. Tengo otros meses que quedan descubiertos, porque, si solo vamos a cumplir con la ley, a jugar en esa misma línea, no me parece\", cuestionó. El parlamentario agregó que las investigaciones vinculadas al crimen organizado requieren recursos adicionales debido a la complejidad y el alto costo de las pericias involucradas. \"Requiere peritaje y yo creo que ahí nos falta un bolsillo extra para este tipo de gastos, que no son gastos comunes y que deben ser gastos cuantiosos\" , sostuvo. En medio de estas diferencias, la partida presupuestaria correspondiente al Ministerio Público quedó pendiente de aprobación. Las observaciones planteadas por el fiscal nacional y los parlamentarios deberán ser abordadas por la Comisión Especial Mixta de Presupuestos. Preocupación por glosa sobre datos personales En paralelo, también ha generado inquietud una glosa incorporada en todas las partidas que contemplan beneficios estatales -Salud, Educación, Desarrollo Social, entre otras-, la cual reza: \"Al solicitar algún beneficio o prestación, los solicitantes facultan el tratamiento de todo dato personal por parte de los organismos de la administración para verificar el buen uso de los recursos públicos \". Para el abogado Marcelo Drago , especialista en protección de datos personales, \"fiscalizar el gasto social es totalmente legítimo, pero eso se hace con una ley que diga qué datos se usan, quién accede a ellos, y con qué garantías , y no con una glosa del Presupuesto\". \" La protección de datos personales es un derecho constitucional . Por eso, cuando el Estado quiere limitarlo (el gasto público), tiene que hacerlo con reglas claras y resguardos, y creo que esta glosa no se condice con eso\", insistió el experto. Por lo pronto, la senadora DC Yasna Provoste se propuso convencer a sus colegas para que esta glosa sea rechazada .",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-oposicion-acusa-al-gobierno-de-buscar-control-sobre/2026-10-08/133817.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261008/imag/foto_0000000220261008133817.jpg",
-            "published_raw": "Thu, 08 Oct 2026 13:38:17 -0300",
-            "published_at": "2026-10-08T13:38:17-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 6,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 2,
-            "score_policy": 3,
-            "score_ideology": 1,
-            "score_actor": 4,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 16,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 18,
-          "labels": [
-            "Estado e instituciones",
-            "Economía y políticas públicas"
-          ],
-          "chile_utility": 68.4
-        },
-        "repeated_in_general_top5": false
       }
     ]
   },
@@ -674,14 +674,8 @@
     {
       "topic": "Instituciones y gobierno",
       "event_count": 16,
-      "maximum_relevance": 67.7,
+      "maximum_relevance": 66.4,
       "leading_story": "La Fiscalía pide al Supremo que permita votar a los nacionalizados por la ‘ley de nietos’ en las elecciones del 29 de noviembre"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 2,
-      "maximum_relevance": 60.8,
-      "leading_story": "El Gobierno investiga la presunta presencia de mercenarios mexicanos en la guerra de Ucrania"
     },
     {
       "topic": "Ideología y competencia política",
@@ -690,14 +684,20 @@
       "leading_story": "Ignacio Walker: Bachelet y Boric son candidatos de izquierda; no convocan al centro"
     },
     {
+      "topic": "Conflictos y seguridad",
+      "event_count": 2,
+      "maximum_relevance": 58.2,
+      "leading_story": "El Gobierno investiga la presunta presencia de mercenarios mexicanos en la guerra de Ucrania"
+    },
+    {
       "topic": "Elecciones y opinión pública",
-      "event_count": 10,
-      "maximum_relevance": 52.5,
-      "leading_story": "El PP y Vox mantienen la mayoría absoluta tras el adelanto electoral"
+      "event_count": 11,
+      "maximum_relevance": 56.5,
+      "leading_story": "Una candidata al Congreso por Arizona denuncia que fue violada mientras arreglaba carteles electorales"
     },
     {
       "topic": "Relaciones internacionales",
-      "event_count": 2,
+      "event_count": 1,
       "maximum_relevance": 49.6,
       "leading_story": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\""
     },
