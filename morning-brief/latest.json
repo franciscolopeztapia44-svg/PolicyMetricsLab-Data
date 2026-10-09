@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-10-08",
     "data_latest_timestamp": "2026-10-08T16:34:20-0300",
-    "data_age_hours": 1.7,
-    "generated_at": "2026-10-08T18:16:04-0300",
+    "data_age_hours": 4.9,
+    "generated_at": "2026-10-08T21:25:55-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,13 +16,13 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Conflictos y seguridad.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Conflictos y seguridad.",
     "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 35,
+    "ranked_events": 33,
     "topics": 3,
     "geographies": 3,
     "representative_sources": 3,
@@ -32,7 +32,7 @@
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-028",
+      "cluster_id": "PML-EVENT-027",
       "title": "El Gobierno investiga la presunta presencia de mercenarios mexicanos en la guerra de Ucrania",
       "url": "https://elpais.com/mexico/2026-10-08/el-gobierno-investiga-la-presunta-presencia-de-mercenarios-mexicanos-en-la-guerra-de-ucrania.html",
       "representative_source": "EL PAÍS",
@@ -102,7 +102,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
+          "cluster_id": "PML-EVENT-027"
         }
       ]
     },
@@ -337,7 +337,7 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-033",
+      "cluster_id": "PML-EVENT-031",
       "title": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-hait%C3%AD-aplaza-sin-nueva-fecha-las-elecciones-presidenciales-y-legislativas",
       "representative_source": "France 24",
@@ -407,7 +407,7 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-033"
+          "cluster_id": "PML-EVENT-031"
         }
       ]
     }
@@ -679,7 +679,7 @@
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 18,
+      "event_count": 16,
       "maximum_relevance": 64.9,
       "leading_story": "Dos asesores de Trump viajaron a Bosnia-Herzegovina para ayudar al partido del prorruso Milorad Dodik a ganar las elecciones"
     },
