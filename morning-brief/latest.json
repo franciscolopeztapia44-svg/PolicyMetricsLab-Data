@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-10-09",
     "data_latest_timestamp": "2026-10-09T00:22:45-0300",
-    "data_age_hours": 3,
-    "generated_at": "2026-10-09T03:20:48-0300",
+    "data_age_hours": 5.9,
+    "generated_at": "2026-10-09T06:18:34-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,13 +16,13 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Conflictos y seguridad.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Conflictos y seguridad.",
     "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 34,
+    "ranked_events": 33,
     "topics": 3,
     "geographies": 2,
     "representative_sources": 2,
@@ -32,7 +32,7 @@
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-028",
+      "cluster_id": "PML-EVENT-027",
       "title": "El Gobierno investiga la presunta presencia de mercenarios mexicanos en la guerra de Ucrania",
       "url": "https://elpais.com/mexico/2026-10-08/el-gobierno-investiga-la-presunta-presencia-de-mercenarios-mexicanos-en-la-guerra-de-ucrania.html",
       "representative_source": "EL PAÍS",
@@ -102,7 +102,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
+          "cluster_id": "PML-EVENT-027"
         }
       ]
     },
@@ -257,7 +257,7 @@
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-032",
+      "cluster_id": "PML-EVENT-031",
       "title": "Haití aplaza sin nueva fecha las elecciones presidenciales y legislativas",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261006-hait%C3%AD-aplaza-sin-nueva-fecha-las-elecciones-presidenciales-y-legislativas",
       "representative_source": "France 24",
@@ -327,13 +327,13 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-032"
+          "cluster_id": "PML-EVENT-031"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-027",
+      "cluster_id": "PML-EVENT-026",
       "title": "Desahuciada en Barcelona una mujer vulnerable con dos hijos menores porque su caso queda fuera del ‘decreto Maricarmen’",
       "url": "https://elpais.com/espana/catalunya/2026-10-08/desahuciada-en-barcelona-una-mujer-vulnerable-con-dos-hijos-menores-un-dia-despues-de-la-muerte-de-maricarmen.html",
       "representative_source": "EL PAÍS",
@@ -400,7 +400,7 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-026"
         }
       ]
     }
@@ -638,7 +638,7 @@
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 17,
+      "event_count": 16,
       "maximum_relevance": 62.4,
       "leading_story": "Italia aprueba la controvertida reforma electoral de Meloni y se acerca a las urnas"
     },
@@ -668,12 +668,8 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-020", "PML-EVENT-014"],
-      "exited_top5": ["PML-EVENT-021", "PML-EVENT-015"],
-      "retained_top5": ["PML-EVENT-028", "PML-EVENT-032", "PML-EVENT-027"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
