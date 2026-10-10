@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-09",
-    "data_latest_timestamp": "2026-10-09T17:43:11-0300",
-    "data_age_hours": 0.5,
-    "generated_at": "2026-10-09T18:15:16-0300",
+    "data_latest_timestamp": "2026-10-09T18:54:59-0300",
+    "data_age_hours": 2.5,
+    "generated_at": "2026-10-09T21:23:37-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -26,13 +26,13 @@
     "topics": 2,
     "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 62.7,
+    "average_top5_relevance": 62.2,
     "maximum_relevance": 64.7
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-017",
+      "cluster_id": "PML-EVENT-016",
       "title": "La Fiscalía pide al Supremo que permita votar a los nacionalizados por la ‘ley de nietos’ en las elecciones del 29 de noviembre",
       "url": "https://elpais.com/espana/elecciones-generales/2026-10-09/la-fiscalia-pide-al-supremo-que-permita-votar-a-todos-los-nacionalizados-por-la-ley-de-nietos-en-las-elecciones-del-29-de-noviembre.html",
       "representative_source": "EL PAÍS",
@@ -102,7 +102,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-017"
+          "cluster_id": "PML-EVENT-016"
         }
       ]
     },
@@ -119,12 +119,12 @@
         "country": "México / América Latina"
       },
       "relevance": {
-        "score": 58.2,
+        "score": 55.8,
         "level": "MEDIA",
-        "editorial_utility": 70.2
+        "editorial_utility": 67.8
       },
       "selection": {
-        "reason": "PML 58.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 55.8; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -184,7 +184,7 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-010",
+      "cluster_id": "PML-EVENT-009",
       "title": "Sin bombos ni platillos: Kast promulgó la ley de reconstrucción",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/sin-bombos-ni-platillos-kast-promulgo-la-ley-de-reconstruccion/2026-10-09/132206.html",
       "representative_source": "Cooperativa",
@@ -254,7 +254,7 @@
           "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-010"
+          "cluster_id": "PML-EVENT-009"
         }
       ]
     },
@@ -333,7 +333,7 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-016",
+      "cluster_id": "PML-EVENT-015",
       "title": "Trump crea un comité para investigar a Lisa Cook, la gobernadora de la Fed que quiere despedir pese a la oposición del Supremo",
       "url": "https://elpais.com/economia/2026-10-09/trump-crea-un-comite-para-investigar-a-lisa-cook-la-gobernadora-de-la-fed-que-quiere-despedir-pese-a-la-oposicion-del-supremo.html",
       "representative_source": "EL PAÍS",
@@ -406,7 +406,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-016"
+          "cluster_id": "PML-EVENT-015"
         }
       ]
     }
@@ -491,7 +491,7 @@
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-011",
+        "cluster_id": "PML-EVENT-010",
         "title": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\"",
         "topic": "Relaciones internacionales",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -546,7 +546,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-011"
+            "cluster_id": "PML-EVENT-010"
           }
         ],
         "article_count": 1,
@@ -671,9 +671,15 @@
       "leading_story": "La Fiscalía pide al Supremo que permita votar a los nacionalizados por la ‘ley de nietos’ en las elecciones del 29 de noviembre"
     },
     {
+      "topic": "Elecciones y opinión pública",
+      "event_count": 11,
+      "maximum_relevance": 57.5,
+      "leading_story": "Hitler Mussolini gana una alcaldía en Perú y termina acosado por extorsionadores"
+    },
+    {
       "topic": "Conflictos y seguridad",
       "event_count": 2,
-      "maximum_relevance": 58.2,
+      "maximum_relevance": 55.8,
       "leading_story": "El Gobierno investiga la presunta presencia de mercenarios mexicanos en la guerra de Ucrania"
     },
     {
@@ -681,12 +687,6 @@
       "event_count": 4,
       "maximum_relevance": 55.3,
       "leading_story": "Ignacio Walker: Bachelet y Boric son candidatos de izquierda; no convocan al centro"
-    },
-    {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 11,
-      "maximum_relevance": 55.2,
-      "leading_story": "Una candidata al Congreso por Arizona denuncia que fue violada mientras arreglaba carteles electorales"
     },
     {
       "topic": "Relaciones internacionales",
@@ -697,7 +697,7 @@
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 44.7,
+      "maximum_relevance": 40.9,
       "leading_story": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\""
     }
   ],
