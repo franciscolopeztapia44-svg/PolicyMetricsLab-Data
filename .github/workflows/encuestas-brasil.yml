@@ -1,0 +1,33 @@
+
+name: Brasil 2026 - Encuestas
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 12 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  polls:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Validar encuestas y buscar publicaciones
+        run: python scripts/update_polls.py
+
+      - name: Publicar datos verificados y hallazgos
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add brasil-2026/polls/latest.csv brasil-2026/polls/discovery.json
+          git diff --cached --quiet || (git commit -m 'Update Brasil polling feed and discovery' && git push)
