@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-10-09",
     "data_latest_timestamp": "2026-10-09T22:36:47-0300",
-    "data_age_hours": 1.6,
-    "generated_at": "2026-10-10T00:15:21-0300",
+    "data_age_hours": 4.7,
+    "generated_at": "2026-10-10T03:18:36-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,17 +16,17 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 36,
-    "topics": 2,
+    "ranked_events": 35,
+    "topics": 1,
     "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 61.2,
+    "average_top5_relevance": 60.3,
     "maximum_relevance": 63
   },
   "top_stories": [
@@ -181,82 +181,6 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-032",
-      "title": "El Gobierno investiga la presunta presencia de mercenarios mexicanos en la guerra de Ucrania",
-      "url": "https://elpais.com/mexico/2026-10-08/el-gobierno-investiga-la-presunta-presencia-de-mercenarios-mexicanos-en-la-guerra-de-ucrania.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Conflictos y seguridad",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "América Latina",
-        "country": "México / América Latina"
-      },
-      "relevance": {
-        "score": 55.8,
-        "level": "MEDIA",
-        "editorial_utility": 59.8
-      },
-      "selection": {
-        "reason": "PML 55.8; aporta diversidad temática",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-08T12:16:32-0300",
-      "last_seen": "2026-10-08T12:16:32-0300",
-      "entities": [
-        "ucrania",
-        "sheinbaum"
-      ],
-      "event_terms": "guerra",
-      "analysis": {
-        "summary": "Sheinbaum asegura que rastrean un video en el que aparecen hombres alabando al Cartel de Sinaloa y el CJNG con uniformes militares ucranios",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en México / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El Gobierno investiga la presunta presencia de mercenarios mexicanos en la guerra de Ucrania",
-          "description": "Sheinbaum asegura que rastrean un video en el que aparecen hombres alabando al Cartel de Sinaloa y el CJNG con uniformes militares ucranios",
-          "url": "https://elpais.com/mexico/2026-10-08/el-gobierno-investiga-la-presunta-presencia-de-mercenarios-mexicanos-en-la-guerra-de-ucrania.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/D3ZAQS6W6JJZ3EGQF32YI47INA.jpg?auth=7b8c815b4e2e38a378d3ba1c9872ba964838f3342db68c1d662dddf2afa79234",
-          "published_raw": "Thu, 08 Oct 2026 15:16:32 GMT",
-          "published_at": "2026-10-08T12:16:32-0300",
-          "country": "México",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-032"
-        }
-      ]
-    },
-    {
-      "position": 4,
       "cluster_id": "PML-EVENT-016",
       "title": "La Fiscalía pide al Supremo que permita votar a los nacionalizados por la ‘ley de nietos’ en las elecciones del 29 de noviembre",
       "url": "https://elpais.com/espana/elecciones-generales/2026-10-09/la-fiscalia-pide-al-supremo-que-permita-votar-a-todos-los-nacionalizados-por-la-ley-de-nietos-en-las-elecciones-del-29-de-noviembre.html",
@@ -332,7 +256,7 @@
       ]
     },
     {
-      "position": 5,
+      "position": 4,
       "cluster_id": "PML-EVENT-015",
       "title": "Trump crea un comité para investigar a Lisa Cook, la gobernadora de la Fed que quiere despedir pese a la oposición del Supremo",
       "url": "https://elpais.com/economia/2026-10-09/trump-crea-un-comite-para-investigar-a-lisa-cook-la-gobernadora-de-la-fed-que-quiere-despedir-pese-a-la-oposicion-del-supremo.html",
@@ -346,7 +270,7 @@
       "relevance": {
         "score": 61.8,
         "level": "MEDIA",
-        "editorial_utility": 53.8
+        "editorial_utility": 54.8
       },
       "selection": {
         "reason": "PML 61.8; diversidad relajada para completar el brief; aporta diversidad geográfica",
@@ -409,6 +333,82 @@
           "cluster_id": "PML-EVENT-015"
         }
       ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-005",
+      "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 51.1,
+        "level": "BAJA",
+        "editorial_utility": 42.1
+      },
+      "selection": {
+        "reason": "PML 51.1; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-10-07T12:24:24-0300",
+      "last_seen": "2026-10-07T12:24:24-0300",
+      "entities": [
+        "congreso",
+        "chile"
+      ],
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "Esta jornada, los senadores Pedro Araya (PPD), Arturo Squella (Republicanos) y Andrés Longton (RN) presentaron la moción parlamentaria que reemplaza la reforma constitucional de seguridad propuesta por el Gobierno, que fue retirada por no obtener apoyos políticos. El ingreso de la moción se dio  un día después de que los legisladores y el Ejecutivo llegaran a un acuerdo para sugerir e ingresar una iniciativa que sí obtenga los respaldos necesarios al interior del Congreso.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
+          "description": "Esta jornada, los senadores Pedro Araya (PPD), Arturo Squella (Republicanos) y Andrés Longton (RN) presentaron la moción parlamentaria que reemplaza la reforma constitucional de seguridad propuesta por el Gobierno, que fue retirada por no obtener apoyos políticos. El ingreso de la moción se dio  un día después de que los legisladores y el Ejecutivo llegaran a un acuerdo para sugerir e ingresar una iniciativa que sí obtenga los respaldos necesarios al interior del Congreso. En concreto, el nuevo texto declara al crimen organizado como contrario a los derechos humanos y le hace aplicable el estatuto constitucional de terrorismo . Además, permite regímenes penitenciarios especiales y modifica el estado de excepción constitucional de emergencia sin crear uno nuevo. El senador Longton detalló que la propuesta establece: \"Asimilar el terrorismo al crimen organizado; establecer la segregación o segmentación para delincuentes de alta peligrosidad condenados por crimen organizado, terrorismo u otros delitos que va a determinar la ley: incomunicación, aislamiento\". Asimismo, el parlamentario oficialista sostuvo que \"no creamos un estado de emergencia nuevo, reforzamos y potenciamos el estado de emergencia actual, estableciendo que todo tipo de amenaza actual, inminente respecto a algún problema de seguridad, orden público, habilita al Presidente de la República para poder dictar un estado de emergencia \". \"Estamos muy conformes con cómo fuimos logrando superar las diferencias. Nos hicimos cargo de las aprensiones que legítimamente presentaron muchos parlamentarios del texto original que había presentado el Gobierno\", indicó, por su parte, Squella. Mientras, Araya aseveró que \"a quí no ha ganado ni el Gobierno ni ha ganado la oposición . Lo que se ha logrado es aunar voluntades para enfrentar un problema que tiene Chile, como lo es el crimen organizado. Esperamos que una vez que se conozca este proyecto, especialmente los senadores de la centroizquierda puedan leerlo con detención y votarlo a su favor\". De todas formas, desde la oposición, el s enador Ricardo Celis , también del PPD, señaló que toda la acción que realizó Araya lo hizo por cuenta propia y no representa la postura de los senadores de la bancada. El ministro de Seguridad, Martín Arrau, comentó que \"desconozco si se retiró o se va a retirar, esos son temas bastante instrumentales por parte de Segpres. En este Congreso hay miles de proyectos que quedan durmiendo, quedará ahí o se retirará, lo importante es que con un proyecto ingresado de manera transversal con los senadores vamos a poder abordar todo o gran parte de las materias que estaban en la reforma que nosotros presentamos, avanzando en mayor segmentación penitenciaria y autonomía por parte de Gendarmería para ese fin\". \"Abordar, quizás no en este proyecto que abre la puerta, pero en reformas al Código Penal, los listados de organizaciones de crimen organizado, y también con algunas mejoras al estado de excepción de emergencia, que no es idéntico a lo que nosotros habíamos planteado, pero va avanzando en ese camino y la tramitación los parlamentarios y nosotros mismos iremos haciendo algunas mejoras\", agregó. &nbsp;",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007122424.jpg",
+          "published_raw": "Wed, 07 Oct 2026 12:24:24 -0300",
+          "published_at": "2026-10-07T12:24:24-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 7,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 3,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 15,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-005"
+        }
+      ]
     }
   ],
   "chile_brief": {
@@ -419,78 +419,6 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-005",
-        "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 51.1,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 95,
-            "freshness": 25,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 44
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-07T12:24:24-0300",
-        "last_seen": "2026-10-07T12:24:24-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
-            "description": "Esta jornada, los senadores Pedro Araya (PPD), Arturo Squella (Republicanos) y Andrés Longton (RN) presentaron la moción parlamentaria que reemplaza la reforma constitucional de seguridad propuesta por el Gobierno, que fue retirada por no obtener apoyos políticos. El ingreso de la moción se dio  un día después de que los legisladores y el Ejecutivo llegaran a un acuerdo para sugerir e ingresar una iniciativa que sí obtenga los respaldos necesarios al interior del Congreso. En concreto, el nuevo texto declara al crimen organizado como contrario a los derechos humanos y le hace aplicable el estatuto constitucional de terrorismo . Además, permite regímenes penitenciarios especiales y modifica el estado de excepción constitucional de emergencia sin crear uno nuevo. El senador Longton detalló que la propuesta establece: \"Asimilar el terrorismo al crimen organizado; establecer la segregación o segmentación para delincuentes de alta peligrosidad condenados por crimen organizado, terrorismo u otros delitos que va a determinar la ley: incomunicación, aislamiento\". Asimismo, el parlamentario oficialista sostuvo que \"no creamos un estado de emergencia nuevo, reforzamos y potenciamos el estado de emergencia actual, estableciendo que todo tipo de amenaza actual, inminente respecto a algún problema de seguridad, orden público, habilita al Presidente de la República para poder dictar un estado de emergencia \". \"Estamos muy conformes con cómo fuimos logrando superar las diferencias. Nos hicimos cargo de las aprensiones que legítimamente presentaron muchos parlamentarios del texto original que había presentado el Gobierno\", indicó, por su parte, Squella. Mientras, Araya aseveró que \"a quí no ha ganado ni el Gobierno ni ha ganado la oposición . Lo que se ha logrado es aunar voluntades para enfrentar un problema que tiene Chile, como lo es el crimen organizado. Esperamos que una vez que se conozca este proyecto, especialmente los senadores de la centroizquierda puedan leerlo con detención y votarlo a su favor\". De todas formas, desde la oposición, el s enador Ricardo Celis , también del PPD, señaló que toda la acción que realizó Araya lo hizo por cuenta propia y no representa la postura de los senadores de la bancada. El ministro de Seguridad, Martín Arrau, comentó que \"desconozco si se retiró o se va a retirar, esos son temas bastante instrumentales por parte de Segpres. En este Congreso hay miles de proyectos que quedan durmiendo, quedará ahí o se retirará, lo importante es que con un proyecto ingresado de manera transversal con los senadores vamos a poder abordar todo o gran parte de las materias que estaban en la reforma que nosotros presentamos, avanzando en mayor segmentación penitenciaria y autonomía por parte de Gendarmería para ese fin\". \"Abordar, quizás no en este proyecto que abre la puerta, pero en reformas al Código Penal, los listados de organizaciones de crimen organizado, y también con algunas mejoras al estado de excepción de emergencia, que no es idéntico a lo que nosotros habíamos planteado, pero va avanzando en ese camino y la tramitación los parlamentarios y nosotros mismos iremos haciendo algunas mejoras\", agregó. &nbsp;",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/seguridad-senadores-ingresaron-el-reemplazo-de-la-desechada-reforma/2026-10-07/122424.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261007/imag/foto_0000000220261007122424.jpg",
-            "published_raw": "Wed, 07 Oct 2026 12:24:24 -0300",
-            "published_at": "2026-10-07T12:24:24-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 7,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 3,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 4,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 15,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 73.1
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
         "cluster_id": "PML-EVENT-003",
         "title": "Las Reglas de Uso de la Fuerza están a un paso de ser ley tras aprobación en Cámara Baja",
         "topic": "Instituciones y gobierno",
@@ -590,7 +518,7 @@
         "repeated_in_general_top5": false
       },
       {
-        "position": 3,
+        "position": 2,
         "cluster_id": "PML-EVENT-013",
         "title": "Balacera en Cerro Navia dejó a un hombre muerto en la vía pública",
         "topic": "Instituciones y gobierno",
@@ -657,6 +585,78 @@
           "chile_utility": 64.1
         },
         "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-004",
+        "title": "Presupuesto 2027: Oposición acusa al Gobierno de buscar \"control\" sobre Fiscalía",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-oposicion-acusa-al-gobierno-de-buscar-control-sobre/2026-10-08/133817.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 45.4,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 54,
+            "freshness": 52,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 42
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-08T13:38:17-0300",
+        "last_seen": "2026-10-08T13:38:17-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Presupuesto 2027: Oposición acusa al Gobierno de buscar \"control\" sobre Fiscalía",
+            "description": "El diputado socialista Marcos Ilabaca acusó al Gobierno de intentar ejercer control sobre el Ministerio Público , órgano constitucionalmente autónomo, a través del proyecto de Presupuesto 2027 . \"Yo creo que esa norma es inconstitucional. No puede el Ejecutivo, a través de las modificaciones presupuestarias, tener control sobre un órgano autónomo constitucionalmente \", afirmó el parlamentario, quien sostuvo que \"lo que busca el Gobierno es controlar, en particular, la Fiscalía Supraterritorial\". La controversia se originó por las modificaciones introducidas por el Ejecutivo a la partida presupuestaria del Ministerio Público. Por primera vez, la propuesta contempla dividir los recursos del organismo en dos programas, uno de los cuales estará destinado específicamente al financiamiento de la Fiscalía Supraterritorial . De acuerdo con los reparos planteados por el fiscal nacional, Ángel Valencia , esta estructura podría limitar la capacidad para reasignar internamente sus recursos durante el año . Por ejemplo, si la institución necesitara fondos adicionales para trasladar fiscales al extranjero, debería solicitar autorización a la Dirección de Presupuestos (Dipres). Valencia calificó esta situación como \"gravísima\" y afirmó que \"no se está advirtiendo la consecuencia\" que, a su juicio, implica para la autonomía del órgano persecutor. En esta jornada, la jefa del Departamento Presupuestario del Ministerio Público, Mónica Naranjo , profundizó que \" el decreto que nos entregaba los fondos para este año fue representado (frenado) por la Contraloría General de la República, precisamente por intentar crear este programa 02 , al señalar que implicaría que toda adecuación o reasignación de recursos entre una Fiscalía y las demás unidades de la institución requerirían la intervención de la Dipres, lo que afectaría el manejo y la capacidad de gestión autónoma de los recursos y divisiones institucionales del Ministerio Público\". \"No obstante, en el proyecto de ley de Presupuesto 2027 se insiste con la generación de este programa 02\", relevó la funcionaria. Cuestionada implementación de la Fiscalía Supraterritorial Otro de los puntos de preocupación es la implementación de la Fiscalía Supraterritorial , creada para abordar investigaciones de alta complejidad, particularmente aquellas vinculadas al crimen organizado y el narcotráfico. La ley establece que el Ministerio Público debe incorporar 20 nuevos fiscales durante el próximo año, con la intención de contar con ellos a partir de abril. Sin embargo, el diseño presupuestario contempla recursos para contratar inicialmente a ocho fiscales en junio y a los 12 restantes recién en diciembre. Ilabaca cuestionó que esta planificación pueda retrasar el fortalecimiento de la institución y criticó los recursos contemplados para la Fiscalía Supraterritorial. \" Además del recorte de 1.500 millones de pesos en Fiscalía Supraterritorial, están diciendo que la implementación que debería ser en enero del año que viene va a ser en diciembre; es decir, el año 2027 no existe refuerzo para el Ministerio Público . Vamos a llevar adelante un combate frontal al narcotráfico y el crimen organizado, pero al principal órgano persecutor penal le decimos: '¿Sabes qué? No tienen plata'. Entonces eso también es grave \", señaló. Si bien su par libertario Pier Karlezi admitió que \"hay graves deficiencias en la estructuración del Presupuesto para Fiscalía\", descartó que esto sea \" una forma de control: lo que pedimos es que haya responsabilidad , y faltan medidas de control en lo que se refiere a gastos\". Oficialismo defiende controles, pero advierte falta de recursos Desde el oficialismo, el diputado republicano Fernando Ugarte descartó que exista una intención de intervenir en la autonomía del Ministerio Público y sostuvo que las modificaciones buscan establecer mecanismos de control sobre el uso de los recursos públicos. No obstante, también expresó preocupación por el calendario previsto para el fortalecimiento de la Fiscalía y por la falta de financiamiento para determinadas áreas de alta complejidad. \"¿Por qué las contrataciones de fortalecimiento llegan a diciembre? Esa es mi preocupación. No me solucionan ningún problema. Tengo otros meses que quedan descubiertos, porque, si solo vamos a cumplir con la ley, a jugar en esa misma línea, no me parece\", cuestionó. El parlamentario agregó que las investigaciones vinculadas al crimen organizado requieren recursos adicionales debido a la complejidad y el alto costo de las pericias involucradas. \"Requiere peritaje y yo creo que ahí nos falta un bolsillo extra para este tipo de gastos, que no son gastos comunes y que deben ser gastos cuantiosos\" , sostuvo. En medio de estas diferencias, la partida presupuestaria correspondiente al Ministerio Público quedó pendiente de aprobación. Las observaciones planteadas por el fiscal nacional y los parlamentarios deberán ser abordadas por la Comisión Especial Mixta de Presupuestos. Preocupación por glosa sobre datos personales En paralelo, también ha generado inquietud una glosa incorporada en todas las partidas que contemplan beneficios estatales -Salud, Educación, Desarrollo Social, entre otras-, la cual reza: \"Al solicitar algún beneficio o prestación, los solicitantes facultan el tratamiento de todo dato personal por parte de los organismos de la administración para verificar el buen uso de los recursos públicos \". Para el abogado Marcelo Drago , especialista en protección de datos personales, \"fiscalizar el gasto social es totalmente legítimo, pero eso se hace con una ley que diga qué datos se usan, quién accede a ellos, y con qué garantías , y no con una glosa del Presupuesto\". \" La protección de datos personales es un derecho constitucional . Por eso, cuando el Estado quiere limitarlo (el gasto público), tiene que hacerlo con reglas claras y resguardos, y creo que esta glosa no se condice con eso\", insistió el experto. Por lo pronto, la senadora DC Yasna Provoste se propuso convencer a sus colegas para que esta glosa sea rechazada .",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-oposicion-acusa-al-gobierno-de-buscar-control-sobre/2026-10-08/133817.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261008/imag/foto_0000000220261008133817.jpg",
+            "published_raw": "Thu, 08 Oct 2026 13:38:17 -0300",
+            "published_at": "2026-10-08T13:38:17-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 6,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 2,
+            "score_policy": 3,
+            "score_ideology": 1,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 16,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-004"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 18,
+          "labels": [
+            "Estado e instituciones",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 63.4
+        },
+        "repeated_in_general_top5": false
       }
     ]
   },
@@ -672,12 +672,6 @@
       "event_count": 11,
       "maximum_relevance": 56.3,
       "leading_story": "Hitler Mussolini gana una alcaldía en Perú y termina acosado por extorsionadores"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 2,
-      "maximum_relevance": 55.8,
-      "leading_story": "El Gobierno investiga la presunta presencia de mercenarios mexicanos en la guerra de Ucrania"
     },
     {
       "topic": "Ideología y competencia política",
@@ -696,6 +690,12 @@
       "event_count": 1,
       "maximum_relevance": 40.9,
       "leading_story": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\""
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 1,
+      "maximum_relevance": 34.8,
+      "leading_story": "'Falsos positivos': el legado de la violencia estatal en Colombia"
     }
   ],
   "changes_since_yesterday": {
