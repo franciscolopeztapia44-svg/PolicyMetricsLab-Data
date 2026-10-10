@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-10",
-    "data_latest_timestamp": "2026-10-10T06:30:00-0300",
-    "data_age_hours": 2.8,
-    "generated_at": "2026-10-10T09:17:47-0300",
+    "data_latest_timestamp": "2026-10-10T09:22:43-0300",
+    "data_age_hours": 2.9,
+    "generated_at": "2026-10-10T12:13:53-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -26,8 +26,8 @@
     "topics": 3,
     "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 56.6,
-    "maximum_relevance": 60.8
+    "average_top5_relevance": 56.2,
+    "maximum_relevance": 58.8
   },
   "top_stories": [
     {
@@ -43,12 +43,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 60.8,
+        "score": 58.8,
         "level": "MEDIA",
-        "editorial_utility": 60.8
+        "editorial_utility": 58.8
       },
       "selection": {
-        "reason": "PML 60.8",
+        "reason": "PML 58.8",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -265,7 +265,7 @@
     {
       "position": 4,
       "cluster_id": "PML-EVENT-019",
-      "title": "Bolsonaro logra el apoyo de los perdedores y de varios partidos de derechas para la segunda vuelta",
+      "title": "Bolsonaro logra el apoyo de tres perdedores y de varios partidos de derechas para la segunda vuelta",
       "url": "https://elpais.com/america/2026-10-10/bolsonaro-logra-el-apoyo-de-los-perdedores-y-de-varios-partidos-de-derechas-para-la-segunda-vuelta.html",
       "representative_source": "EL PAÍS",
       "topic": "Elecciones y opinión pública",
@@ -290,8 +290,8 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-10T06:30:00-0300",
-      "last_seen": "2026-10-10T06:30:00-0300",
+      "first_seen": "2026-10-10T09:22:43-0300",
+      "last_seen": "2026-10-10T09:22:43-0300",
       "entities": [
         "bolsonaro",
         "lula"
@@ -311,12 +311,12 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Bolsonaro logra el apoyo de los perdedores y de varios partidos de derechas para la segunda vuelta",
+          "title": "Bolsonaro logra el apoyo de tres perdedores y de varios partidos de derechas para la segunda vuelta",
           "description": "El presidente Lula promete debates e insta a sus votantes a movilizar a los 33 millones de abstencionistas",
           "url": "https://elpais.com/america/2026-10-10/bolsonaro-logra-el-apoyo-de-los-perdedores-y-de-varios-partidos-de-derechas-para-la-segunda-vuelta.html",
           "image_url": "https://imagenes.elpais.com/resizer/v2/FXK5T4S42NLRPPLEANSWH27PTQ.jpg?auth=1912b13337cf25ca1be75af78ac87b242cfc606175d719882d75145f101b3657",
-          "published_raw": "Sat, 10 Oct 2026 09:30:00 GMT",
-          "published_at": "2026-10-10T06:30:00-0300",
+          "published_raw": "Sat, 10 Oct 2026 12:22:43 GMT",
+          "published_at": "2026-10-10T09:22:43-0300",
           "country": "No identificado",
           "region": "América Latina",
           "language": "es",
@@ -668,7 +668,7 @@
     {
       "topic": "Instituciones y gobierno",
       "event_count": 13,
-      "maximum_relevance": 60.8,
+      "maximum_relevance": 58.8,
       "leading_story": "Sin bombos ni platillos: Kast promulgó la ley de reconstrucción"
     },
     {
@@ -681,7 +681,7 @@
       "topic": "Elecciones y opinión pública",
       "event_count": 9,
       "maximum_relevance": 55.3,
-      "leading_story": "Bolsonaro logra el apoyo de los perdedores y de varios partidos de derechas para la segunda vuelta"
+      "leading_story": "Bolsonaro logra el apoyo de tres perdedores y de varios partidos de derechas para la segunda vuelta"
     },
     {
       "topic": "Ideología y competencia política",
@@ -690,25 +690,21 @@
       "leading_story": "Ignacio Walker: Bachelet y Boric son candidatos de izquierda; no convocan al centro"
     },
     {
-      "topic": "Relaciones internacionales",
-      "event_count": 1,
-      "maximum_relevance": 44.1,
-      "leading_story": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\""
-    },
-    {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
       "maximum_relevance": 40.9,
       "leading_story": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\""
+    },
+    {
+      "topic": "Relaciones internacionales",
+      "event_count": 1,
+      "maximum_relevance": 40.4,
+      "leading_story": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\""
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-023", "PML-EVENT-019"],
-      "exited_top5": ["PML-EVENT-024", "PML-EVENT-016"],
-      "retained_top5": ["PML-EVENT-009", "PML-EVENT-015", "PML-EVENT-005"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
     "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
