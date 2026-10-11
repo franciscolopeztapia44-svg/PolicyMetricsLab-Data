@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-10-10",
     "data_latest_timestamp": "2026-10-10T15:19:16-0300",
-    "data_age_hours": 2.9,
-    "generated_at": "2026-10-10T18:14:00-0300",
+    "data_age_hours": 6.1,
+    "generated_at": "2026-10-10T21:22:51-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,13 +16,13 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 31 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 30 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 31,
+    "ranked_events": 30,
     "topics": 3,
     "geographies": 3,
     "representative_sources": 2,
@@ -111,7 +111,7 @@
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-024",
+      "cluster_id": "PML-EVENT-023",
       "title": "Drones con fibra óptica y miembros de La Chapiza y del CJNG en el frente: las huellas de Ucrania en el narco mexicano",
       "url": "https://elpais.com/mexico/2026-10-10/drones-con-fibra-optica-y-miembros-de-la-chapiza-y-del-cjng-en-el-frente-las-huellas-de-ucrania-en-el-narco-mexicano.html",
       "representative_source": "EL PAÍS",
@@ -182,7 +182,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
+          "cluster_id": "PML-EVENT-023"
         }
       ]
     },
@@ -645,7 +645,7 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 14,
+      "event_count": 15,
       "maximum_relevance": 59.8,
       "leading_story": "Delfino tras dichos de Bachelet: \"El PS debe tener su propia carta presidencial\""
     },
@@ -657,7 +657,7 @@
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 9,
+      "event_count": 7,
       "maximum_relevance": 54,
       "leading_story": "Bolsonaro logra el apoyo de tres perdedores y de varios partidos de derechas para la segunda vuelta"
     },
