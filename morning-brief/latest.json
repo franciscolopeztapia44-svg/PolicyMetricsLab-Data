@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-11",
-    "data_latest_timestamp": "2026-10-11T14:40:50-0300",
-    "data_age_hours": 0.6,
-    "generated_at": "2026-10-11T15:16:34-0300",
+    "data_latest_timestamp": "2026-10-11T16:45:08-0300",
+    "data_age_hours": 1.5,
+    "generated_at": "2026-10-11T18:14:59-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,39 +16,39 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 2 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 37 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 36,
+    "ranked_events": 37,
     "topics": 2,
     "geographies": 3,
-    "representative_sources": 3,
-    "average_top5_relevance": 58.1,
-    "maximum_relevance": 64.9
+    "representative_sources": 2,
+    "average_top5_relevance": 61.5,
+    "maximum_relevance": 67
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-026",
-      "title": "Lula saca a la calle una marea roja para emprender la remontada y ganar las elecciones",
-      "url": "https://elpais.com/america/2026-10-11/lula-saca-a-la-calle-una-marea-roja-para-emprender-la-remontada-y-ganar-las-elecciones.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-006",
+      "title": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/reforma-de-seguridad-divide-al-socialismo-democratico-araya-cuestiona/2026-10-11/144117.html",
+      "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
+      "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
-        "group": "América Latina",
-        "country": "No identificado / América Latina"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 64.9,
+        "score": 67,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 64.9
+        "editorial_utility": 67
       },
       "selection": {
-        "reason": "PML 64.9",
+        "reason": "PML 67",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -56,60 +56,56 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-10-11T14:40:50-0300",
-      "last_seen": "2026-10-11T14:40:50-0300",
-      "entities": [
-        "lula",
-        "brasil",
-        "bolsonaro"
-      ],
+      "first_seen": "2026-10-11T14:41:17-0300",
+      "last_seen": "2026-10-11T14:41:17-0300",
+      "entities": [],
       "event_terms": [],
       "analysis": {
-        "summary": "El presidente de Brasil advierte contra un triunfo del ultra Bolsonaro el día 25 porque “este país no puede perder la democracia”",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "summary": "El senador PPD Pedro Araya cuestionó al Partido Socialista (PS) por su decisión de rechazar la nueva reforma constitucional de seguridad propuesta por él y otros senadores en reemplazo a la iniciativa del Gobierno, calificando la postura de la tienda como una \"mala señal\".",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Lula saca a la calle una marea roja para emprender la remontada y ganar las elecciones",
-          "description": "El presidente de Brasil advierte contra un triunfo del ultra Bolsonaro el día 25 porque “este país no puede perder la democracia”",
-          "url": "https://elpais.com/america/2026-10-11/lula-saca-a-la-calle-una-marea-roja-para-emprender-la-remontada-y-ganar-las-elecciones.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/ZKSXGSE52JOAHB2F2BD6YFZYWI.jpg?auth=05a6a3eef5fc7a9a55683399f9dfdadb57ec0eb4f2928564f3054d76e3491878",
-          "published_raw": "Sun, 11 Oct 2026 17:40:50 GMT",
-          "published_at": "2026-10-11T14:40:50-0300",
-          "country": "No identificado",
-          "region": "América Latina",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS",
+          "description": "El senador PPD Pedro Araya cuestionó al Partido Socialista (PS) por su decisión de rechazar la nueva reforma constitucional de seguridad propuesta por él y otros senadores en reemplazo a la iniciativa del Gobierno, calificando la postura de la tienda como una \"mala señal\". La moción que ingresaron los parlamentarios Araya, Arturo Squella (Republicanos), Andrés Longton (RN), Iván Flores (DC) y Karim Bianchi (independiente) excluye la polémica creación de un nuevo estado de excepción para combatir al crimen organizado y, en su lugar, modifica el actual estado de emergencia para permitir reacciones preventivas a amenazas graves. Además, plantea elevar a rango constitucional el combate al crimen organizado y el establecimiento de regímenes penitenciarios especiales para personas condenadas por delitos de crimen organizado y terrorismo. Sin embargo, el viernes, el Comité Central socialista emitió un escrito señalando que no apoyarán la reforma, debido a que -afirmó- amplía las causales para decretar el estado de emergencia para combatir al crimen organizado y permite restringir derechos frente a amenazas inminentes que aún no se han concretado. \"Espero que reflexionen\" Ante esto, Araya expresó que los tres puntos mencionados que sugieren como senadores \"son muy razonables y están muy lejos de ser la reforma inicial que había presentado el Presidente Kast\".   \"Por eso yo espero que los parlamentarios reflexionen, puedan leer el texto y, una vez que lo hayan leído, nos puedan hacer las críticas técnicas y decirnos 'mira, no nos gusta esto y esto otro'. Pero de ahí a entrar a rechazar de buenas a primeras, creo que es una muy mala señal\",  fustigó. \"Lo único que se fortalece con esto es el crimen organizado, que ve cómo el mundo político no es capaz de ponerse de acuerdo en la manera en que se fortalece al Estado para enfrentarlos\", sostuvo el militante PPD.  En paralelo, desde el Gobierno hubo llamados similares. Durante una entrevista con El Mercurio, el biministro del Interior y de la Segegob, Claudio Alvarado, pidió al Socialismo Democrático a aprobar la reforma,  ya que \"si opera el sentido común y la lógica, en temas de seguridad deberían tener el mismo comportamiento que tuvieron con el Gobierno anterior\". Las diferencias del PS con el Soc. Democrático En tanto, el senador socialista Juan Luis Castro profundizó los reparos que su partido tiene contra la reforma constitucional de seguridad propuesta.  \"Las diferencias que tenemos desde el Socialismo Democrático son tres, básicamente: primero, no vemos la necesidad de ir a cambiar la Constitución para mejorar el combate al crimen organizado. Hacerlo no cambia el destino de Carabineros fallecidos, ni causa el desbaratamiento de bandas del narcotráfico o el levantamiento del secreto bancario, que son cosas distintas\", indicó.  \"Segundo, en las cárceles estamos dispuestos a que haya, por ley -y no por la Constitución-, segregación como hoy ya está sucediendo en las de alta seguridad; y tercero,  el estado actual de emergencia, que existe como un estado de excepción, es el instrumento privilegiado y no necesita introducírsele la sospecha, amenaza o posibilidad de una nueva realidad para invocarlo\",  argumentó Castro.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/reforma-de-seguridad-divide-al-socialismo-democratico-araya-cuestiona/2026-10-11/144117.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011144117.png",
+          "published_raw": "Sun, 11 Oct 2026 14:41:17 -0300",
+          "published_at": "2026-10-11T14:41:17-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
+          "score_institutional": 5,
+          "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
+          "score_conflict": 4,
           "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
+          "score_ideology": 1,
+          "score_actor": 3,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 13,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-006"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-029",
+      "cluster_id": "PML-EVENT-030",
       "title": "Abdul El-Sayed, la apuesta más arriesgada de los demócratas para las elecciones: “Habrá que exigir responsabilidades a Trump por todo el mal que ha hecho”",
       "url": "https://elpais.com/us/2026-10-11/abdul-el-sayed-la-apuesta-mas-arriesgada-de-los-democratas-para-las-elecciones-habra-que-exigir-responsabilidades-a-trump-por-todo-el-mal-que-ha-hecho.html",
       "representative_source": "EL PAÍS",
@@ -122,10 +118,10 @@
       "relevance": {
         "score": 61.3,
         "level": "MEDIA",
-        "editorial_utility": 70.3
+        "editorial_utility": 73.3
       },
       "selection": {
-        "reason": "PML 61.3; aporta diversidad temática; aporta diversidad geográfica",
+        "reason": "PML 61.3; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -176,156 +172,71 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
+          "cluster_id": "PML-EVENT-030"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-006",
-      "title": "Tohá y Cordero advierten graves problemas en las Reglas del Uso de la Fuerza",
-      "url": "https://www.cooperativa.cl/noticias/pais/ff-aa-y-de-orden/toha-y-cordero-advierten-graves-problemas-en-las-reglas-del-uso-de-la/2026-10-11/101806.html",
-      "representative_source": "Cooperativa",
+      "cluster_id": "PML-EVENT-027",
+      "title": "Lula saca a la calle una marea roja para emprender la remontada y ganar las elecciones",
+      "url": "https://elpais.com/america/2026-10-11/lula-saca-a-la-calle-una-marea-roja-para-emprender-la-remontada-y-ganar-las-elecciones.html",
+      "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 55,
-        "level": "MEDIA",
-        "editorial_utility": 58
-      },
-      "selection": {
-        "reason": "PML 55; fallback editorial controlado; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-10-11T10:18:06-0300",
-      "last_seen": "2026-10-11T10:18:06-0300",
-      "entities": [
-        "congreso",
-        "senado"
-      ],
-      "event_terms": [
-        "judicial",
-        "eleccion",
-        "tribunal",
-        "oposicion",
-        "guerra"
-      ],
-      "analysis": {
-        "summary": "Los exministros Carolina Tohá y Luis Cordero advirtieron que el proyecto sobre Reglas de Uso de la Fuerza (RUF) , despachado por el Congreso, contiene \"problemas graves\" que debilitan la certeza que esta regulación debe entregar a las policías, los ciudadanos y los organismos de control.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Tohá y Cordero advierten graves problemas en las Reglas del Uso de la Fuerza",
-          "description": "Los exministros Carolina Tohá y Luis Cordero advirtieron que el proyecto sobre Reglas de Uso de la Fuerza (RUF) , despachado por el Congreso, contiene \"problemas graves\" que debilitan la certeza que esta regulación debe entregar a las policías, los ciudadanos y los organismos de control. En una columna titulada \"Reglas de uso de la fuerza\" , publicada por El Mercurio , ambos respaldaron la necesidad de que estas disposiciones tengan rango legal y no dependan de una circular administrativa. Sin embargo, cuestionaron aspectos centrales del texto aprobado. \"Que esas reglas tengan rango legal y no sean una simple circular administrativa, es una necesidad que compartimos, porque da certeza a las policías, a las personas y al sistema de controles, pero, lamentablemente, el texto aprobado tiene problemas graves que erosionan esa certeza \", señalaron. La eliminación del principio de proporcionalidad El primer reparo de los exministros apunta a que se suprimió el principio de proporcionalidad y quedó únicamente el de racionalidad, conceptos que, según explicaron, cumplen funciones distintas. \"La proporcionalidad significa simetría de medios (no se trata de responder a una piedra con una piedra), sino de emplear el medio idóneo y menos lesivo para el fin legítimo \", escribieron. La racionalidad, en cambio, se relaciona con la evaluación del contexto al momento de decidir cómo actuar. Por ello, advirtieron que limitar la regulación a este último criterio devuelve al funcionario a una evaluación caso a caso, con la consiguiente incertidumbre. Tohá y Cordero sostuvieron, además, que la proporcionalidad es una exigencia constitucional cuando una medida afecta derechos y recordaron que, en diciembre de 2021, el propio Congreso la incorporó como mandato general de la función policial en las leyes de Carabineros y la Policía de Investigaciones. Los autores también cuestionaron que el proyecto considere válido el uso de armas potencialmente letales para impedir una fuga o asegurar el cumplimiento de una orden judicial , sin exigir expresamente una evaluación del peligro o la afectación que se busca evitar. \"¿Es admisible la fuerza letal cuando esa fuga no pone en riesgo la vida ni la integridad de nadie o cuando se trata del cumplimiento de orden judicial de baja relevancia?\", plantearon. Los reparos a la ampliación de la Ley Naín-Retamal Un segundo cuestionamiento apunta a la ampliación de la presunción de legítima defensa establecida en la Ley Naín-Retamal . Según explicaron, esta norma contempla una presunción a favor de las fuerzas de orden y seguridad cuando utilizan la fuerza ante amenazas a la vida o la integridad. El nuevo texto, advirtieron, extiende esa presunción a cualquier actuación realizada en cumplimiento del deber . Asimismo, criticaron la eliminación de las referencias a reglamentos que reconocían distintas hipótesis de actuación. \"Al homologar toda intervención, la ley deja en manos de cada policía, en plena operación, la elección de los medios, y la certeza que se buscaba se diluye \", afirmaron. Los exministros cerraron con un llamado a contar con reglas que entreguen certezas y permitan el control judicial de las actuaciones policiales. \" Tratar algunas de sus normas como triunfos políticos va en sentido contrario y reproduce las mismas incertezas que la ley debía evitar\", concluyeron. Senadores llevan a las RUF al Tribunal Constitucional Los reparos de los exministros se producen en medio de la ofensiva que 13 senadores de oposición anunciaron contra las RUF, que serán llevadas al Tribunal Constitucional (TC) con el fin de impugnar dos normas sobre el principio de la proporcionalidad y el uso de fuerza potencialmente letal. Ante ello, la senadora RN María José Gatica criticó: \"Que la izquierda vaya al TC por las Reglas del Uso de la Fuerza es ponerse del lado de la delincuencia. Mientras los delincuentes andan con fusiles de guerra, ellos frenan que nuestros Carabineros salgan con mejores armas a la calle y se defiendan. Lo único que logran es más demora y más inseguridad para nuestro país\".  Noticias relacionadas: Con victorias de lado y lado, el Senado despachó las RUF Frente Amplio y el PC piden veto a las RUF: Ilabaca (PS) responde que sería antidemocrático Tohá: Las RUF no son un guiño al FA-PC ni un contrapeso a Naín-Retamal",
-          "url": "https://www.cooperativa.cl/noticias/pais/ff-aa-y-de-orden/toha-y-cordero-advierten-graves-problemas-en-las-reglas-del-uso-de-la/2026-10-11/101806.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011101806.jpg",
-          "published_raw": "Sun, 11 Oct 2026 10:18:06 -0300",
-          "published_at": "2026-10-11T10:18:06-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 5,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 3,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 12,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-006"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-017",
-      "title": "Brasil: Lula denuncia restricciones de Meta en redes sociales antes del balotaje",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261011-brasil-lula-denuncia-restricciones-de-meta-en-redes-sociales-antes-del-balotaje",
-      "representative_source": "France 24",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
+      "event_type": "ELECTORAL_EVENT",
       "geography": {
         "group": "América Latina",
-        "country": "Brasil / América Latina"
+        "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 54.9,
-        "level": "MEDIA",
-        "editorial_utility": 49.9
+        "score": 64.9,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 64.9
       },
       "selection": {
-        "reason": "PML 54.9; fallback editorial controlado; diversidad relajada para completar el brief",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
+        "reason": "PML 64.9; aporta diversidad geográfica",
+        "tier": "STRICT",
+        "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "France 24"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-11T05:19:43-0300",
-      "last_seen": "2026-10-11T05:19:43-0300",
+      "first_seen": "2026-10-11T16:45:08-0300",
+      "last_seen": "2026-10-11T16:45:08-0300",
       "entities": [
-        "brasil",
         "lula",
+        "brasil",
         "bolsonaro"
       ],
-      "event_terms": [
-        "tribunal",
-        "eleccion"
-      ],
+      "event_terms": [],
       "analysis": {
-        "summary": "La campaña del presidente brasileño, Luiz Inácio Lula da Silva, denunció presuntas restricciones de Meta a sus publicaciones en redes sociales, a dos semanas del balotaje del 25 de octubre frente a Flávio Bolsonaro. El Tribunal Superior Electoral exigió explicaciones a la compañía, que rechazó las acusaciones de interferencia electoral.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Brasil / América Latina.",
+        "summary": "El presidente de Brasil advierte contra un triunfo del ultra Bolsonaro el día 25 porque “este país no puede perder la democracia”",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
         "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Brasil: Lula denuncia restricciones de Meta en redes sociales antes del balotaje",
-          "description": "La campaña del presidente brasileño, Luiz Inácio Lula da Silva, denunció presuntas restricciones de Meta a sus publicaciones en redes sociales, a dos semanas del balotaje del 25 de octubre frente a Flávio Bolsonaro. El Tribunal Superior Electoral exigió explicaciones a la compañía, que rechazó las acusaciones de interferencia electoral.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261011-brasil-lula-denuncia-restricciones-de-meta-en-redes-sociales-antes-del-balotaje",
-          "image_url": "https://s.france24.com/media/display/82c7bca8-c54c-11f1-b4b2-77317c09f325/w:1024/p:16x9/8935ecca0dfc7b28e4bf8fc3fbaa0daa35315648.jpg",
-          "published_raw": "Sun, 11 Oct 2026 08:19:43 GMT",
-          "published_at": "2026-10-11T05:19:43-0300",
-          "country": "Brasil",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Lula saca a la calle una marea roja para emprender la remontada y ganar las elecciones",
+          "description": "El presidente de Brasil advierte contra un triunfo del ultra Bolsonaro el día 25 porque “este país no puede perder la democracia”",
+          "url": "https://elpais.com/america/2026-10-11/lula-saca-a-la-calle-una-marea-roja-para-emprender-la-remontada-y-ganar-las-elecciones.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/ZKSXGSE52JOAHB2F2BD6YFZYWI.jpg?auth=05a6a3eef5fc7a9a55683399f9dfdadb57ec0eb4f2928564f3054d76e3491878",
+          "published_raw": "Sun, 11 Oct 2026 19:45:08 GMT",
+          "published_at": "2026-10-11T16:45:08-0300",
+          "country": "No identificado",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 2,
-          "score_elections": 2,
+          "score_institutional": 1,
+          "score_elections": 1,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
@@ -333,20 +244,20 @@
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 5,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-017"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-027"
         }
       ]
     },
     {
-      "position": 5,
-      "cluster_id": "PML-EVENT-012",
-      "title": "Ministra Marín: Descalificar a mujeres en política eleva las barreras",
-      "url": "https://www.cooperativa.cl/noticias/pais/mujer/ministra-marin-descalificar-a-mujeres-en-politica-eleva-las-barreras/2026-10-11/100929.html",
+      "position": 4,
+      "cluster_id": "PML-EVENT-011",
+      "title": "Criteria: Aprobación de Kast cae al 27% y desaprobación aumenta al 64%",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/criteria-aprobacion-de-kast-cae-al-27-y-desaprobacion-aumenta-al-64/2026-10-11/153234.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
@@ -355,12 +266,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 54.4,
+        "score": 57.5,
         "level": "MEDIA",
-        "editorial_utility": 46.4
+        "editorial_utility": 53.5
       },
       "selection": {
-        "reason": "PML 54.4; fallback editorial controlado; diversidad relajada para completar el brief",
+        "reason": "PML 57.5; fallback editorial controlado; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -370,15 +281,15 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-10-11T10:09:29-0300",
-      "last_seen": "2026-10-11T10:09:29-0300",
+      "first_seen": "2026-10-11T15:32:34-0300",
+      "last_seen": "2026-10-11T15:32:34-0300",
       "entities": [
-        "bachelet",
-        "senado"
+        "chile",
+        "congreso"
       ],
-      "event_terms": "eleccion",
+      "event_terms": "crisis",
       "analysis": {
-        "summary": "La ministra de la Mujer y la Equidad de Género, Judith Marín , defendió la continuidad de su cartera y cuestionó las descalificaciones hacia las mujeres en política, a propósito de las polémicas declaraciones contra Michelle Bachelet y Evelyn Matthei . La intervención se produce tras los dichos del diputado Javier Olivares (PDG) , quien sugirió que la expresidenta debía seguir los pasos de Matthei y dedicarse a cocinar, luego de que Bachelet abriera la posibilidad de una…",
+        "summary": "La aprobación del Presidente José Antonio Kast se desplomó al 27% tras caer en tres puntos porcentuales respecto a la medición anterior , según los resultados de la última edición de la encuesta Criteria, publicada este domingo . Asimismo, el sondeo reveló que la desaprobación del Mandatario aumentó en cuatro puntos porcentuajes y se ubicó en un 64% , mientras que un 9% de los chilenos declaró no saber (-1pp).",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -391,30 +302,107 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Ministra Marín: Descalificar a mujeres en política eleva las barreras",
-          "description": "La ministra de la Mujer y la Equidad de Género, Judith Marín , defendió la continuidad de su cartera y cuestionó las descalificaciones hacia las mujeres en política, a propósito de las polémicas declaraciones contra Michelle Bachelet y Evelyn Matthei . La intervención se produce tras los dichos del diputado Javier Olivares (PDG) , quien sugirió que la expresidenta debía seguir los pasos de Matthei y dedicarse a cocinar, luego de que Bachelet abriera la posibilidad de una tercera candidatura presidencial . La secretaria de Estado ya había emplazado al parlamentario a disculparse por esas expresiones. En una carta enviada a El Mercurio , titulada \"Estar en los lugares que queramos\" , Marín afirmó que \"las diferencias políticas son legítimas, pero no justifican la falta de respeto que esta semana vimos hacia las mujeres\". La ministra distinguió entre valorar las labores domésticas y utilizarlas para limitar la participación femenina en el debate público. \"Cocinar y cuidar a la familia son tareas valiosas y no tienen que ser menospreciadas. Usarlas como respuesta a una opinión política no es un argumento ni una crítica: es pretender fijarle a una mujer el lugar que debe ocupar por el solo hecho de serlo \", sostuvo. Las barreras para las mujeres en política Para fundamentar su planteamiento, Marín expuso cifras sobre la brecha entre el peso electoral de las mujeres y su representación en cargos de elección popular . Según los datos citados en la carta, las mujeres constituyen cerca del 51% del padrón electoral , pero desde marzo ocupan el 33,5% de los escaños de la Cámara de Diputadas y Diputados y el 32% del Senado . En el ámbito municipal, añadió, solo cerca del 17% de las alcaldías están encabezadas por mujeres , mientras que en los concejos municipales su presencia alcanza un tercio. \"Cada vez que se descalifica a una mujer en política, esas barreras se hacen más altas, y de paso, se entrega un mensaje desalentador a quienes quieran incorporarse\", advirtió. Defensa del Ministerio de la Mujer A partir de ese diagnóstico, la secretaria de Estado vinculó la controversia con la necesidad de mantener la institucionalidad que encabeza. \"Por eso, como ministra de la Mujer y la Equidad de Género, creo que comentarios como los de esta semana muestran por qué el Ministerio debe seguir existiendo \", expresó. Marín cerró su carta con un llamado a resguardar el respeto por sobre las discrepancias políticas: \"Podemos discrepar en nuestras ideas, pero el respeto debe estar por encima de cualquier diferencia. Las mujeres podemos estar en los lugares que queramos \".",
-          "url": "https://www.cooperativa.cl/noticias/pais/mujer/ministra-marin-descalificar-a-mujeres-en-politica-eleva-las-barreras/2026-10-11/100929.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011100929.jpg",
-          "published_raw": "Sun, 11 Oct 2026 10:09:29 -0300",
-          "published_at": "2026-10-11T10:09:29-0300",
+          "title": "Criteria: Aprobación de Kast cae al 27% y desaprobación aumenta al 64%",
+          "description": "La aprobación del Presidente José Antonio Kast se desplomó al 27% tras caer en tres puntos porcentuales respecto a la medición anterior , según los resultados de la última edición de la encuesta Criteria, publicada este domingo . Asimismo, el sondeo reveló que la desaprobación del Mandatario aumentó en cuatro puntos porcentuajes y se ubicó en un 64% , mientras que un 9% de los chilenos declaró no saber (-1pp). Los índices son similares a los divulgados esta semana por la encuesta Cadem , que ubicaron la aprobación del exrepublicano entre el 27% y 32% , ante un grupo de menos del 10% que expresó no saber. Fuerte caída desde el inicio del Gobierno Kast, quien inició su actual Administración el pasado 11 de marzo, llegó al poder con una aprobación de cerca del 57%,  mientras que menos del 30% lo desaprobaba . Durante sus siete meses de gestión, el panorama económico del país también cayó en indicadores que muestran una proyección de crecimiento para 2026 en un rango de entre 0,25 % y 0,75 % , según el Banco Central. La tasa de desempleo , por otra parte, alcanzó un 9,6% en el trimestre junio-agosto , su máximo en cinco años, informó el Instituto Nacional de Estadísticas (INE). En medio de este escenario marcado por la contracción productiva, Chile atravesó una crisis climática debido a una serie de temporales, influidos por el fenómeno de El Niño , que han ocasionado desastres naturales en 10 de las 16 regiones. Caen las expectativas La encuesta Criteria, con un panel online de 802 casos, entre los días 8 y 9 de octubre, también identificó que solo para el 18% de los encuestados la gestión del Gobierno  ha superado sus expectativas. Para el 82% , en cambio, ha estado por debajo de lo que esperaban. Con una Ley de Presupuesto para 2027 ya ingresada en el Congreso, y que comenzará a discutirse dentro de una semana, la mayoría de los chilenos siguen considerando que el Estado gasta sus recursos de forma \"más bien ineficiente\" con un 58% de los consultados. El proyecto de Kast implica recortes en el gasto público , que han generado rechazo y algunas manifestaciones. Sin embargo, según la encuesta, el 52% afirmó estar de acuerdo con disminuir el número de funcionarios públicos. Los encuestados, no obstante, manifestaron estár menos conformes con la idea de que la reducción implique sacrificar programas sociales , ya anunciados por Kast, con solo un 19% que se muestra abierto a que se realicen. Apenas un 8%, en tanto, señaló estar de acuerdo con la disminución de bonos y subsidios.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/criteria-aprobacion-de-kast-cae-al-27-y-desaprobacion-aumenta-al-64/2026-10-11/153234.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011153234.jpg",
+          "published_raw": "Sun, 11 Oct 2026 15:32:34 -0300",
+          "published_at": "2026-10-11T15:32:34-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
           "score_institutional": 4,
           "score_elections": 2,
           "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
+          "score_conflict": 1,
+          "score_policy": 3,
           "score_ideology": 0,
           "score_actor": 1,
-          "score_noise": 0,
+          "score_noise": 1,
           "score_accident": 0,
-          "political_evidence": 7,
+          "political_evidence": 10,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
+          "cluster_id": "PML-EVENT-011"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-007",
+      "title": "Núñez tilda de \"insuficiente\" el programa proempleo del Gobierno y le pide \"soltar un poco la billetera\"",
+      "url": "https://www.cooperativa.cl/noticias/pais/trabajo/nunez-tilda-de-insuficiente-el-programa-proempleo-del-gobierno-y-le/2026-10-11/154339.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 56.8,
+        "level": "MEDIA",
+        "editorial_utility": 49.8
+      },
+      "selection": {
+        "reason": "PML 56.8; fallback editorial controlado; diversidad relajada para completar el brief",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-10-11T15:43:39-0300",
+      "last_seen": "2026-10-11T15:43:39-0300",
+      "entities": [
+        "senado",
+        "chile",
+        "congreso"
+      ],
+      "event_terms": "crisis",
+      "analysis": {
+        "summary": "La presidenta del Senado, Paulina Núñez (RN),  calificó de \"insuficiente\" el programa \"Chile Despega\" del Gobierno para generar 100 mil puestos de empleo ante la crítica tasa cesantía nacional de 9,6%, y llamó a que \"suelte un poco la billetera\", ya que \"se requiere algo mayor\" en materia de resultados.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Núñez tilda de \"insuficiente\" el programa proempleo del Gobierno y le pide \"soltar un poco la billetera\"",
+          "description": "La presidenta del Senado, Paulina Núñez (RN),  calificó de \"insuficiente\" el programa \"Chile Despega\" del Gobierno para generar 100 mil puestos de empleo ante la crítica tasa cesantía nacional de 9,6%, y llamó a que \"suelte un poco la billetera\", ya que \"se requiere algo mayor\" en materia de resultados. Durante el programa \"Mesa Central\" de T13,  la senadora alertó esta jornada que existe \"una tremenda crisis que resolver\": \"No   sé si estamos todavía en lo que se denominó un Gobierno de emergencia, pero si hay una emergencia en Chile es el desempleo, y creo que la desaprobación (hacia el Presidente Kast en las encuestas) responde a aquello;  ni siquiera a seguridad, que pasó a un segundo lugar\", dijo. \"Si no nos hacemos cargo desde las distintas aristas del alto desempleo, (la desaprobación al Mandatario) va a seguir creciendo. Cuando cruzas la curva de máxima desaprobación es muy difícil revertirlo, pero la única forma es detectar lo que conlleva a ello. (Dicho eso), el objetivo del Presupuesto 2027 es la creación de empleo;   a eso responde el aumento de obras públicas\", sostuvo Núñez. En cuanto a Chile Despega,  la líder del Senado consideró que \"no es suficiente. Hay que hacer un esfuerzo mayor, pero no en mediano y largo plazo. Cuando una familia no llega a fin de mes ni tiene trabajo, quien tiene trabajo va a trabajar con temor de perderlo; eso repercute en el pesimismo y cuando el país está con pesimismo no sueña\", indicó la militante RN.  \"Se requiere algo mayor y, guste o no guste, es poder soltar un poco la billetera para poder paliar estos meses que esperemos den resultados, ya sea el propio plan de empleos de Chile Despega como a mediano y largo plazo\", agregó. \"Elijo mi PC\" será recuperado en el Congreso, aseguró Por último, Paulina Núñez fue consultada en el programa citado sobre la eliminación del programa \"Elijo mi PC\", que está proyectado por el Gobierno en el Presupuesto 2027. \"Yo no lo hubiera cortado. (...) Creo que hay una manera distinta de decir si un programa está mal evaluado\", dijo, comentando que lo que falló \"fue la política de no entender que un niño, un estudiante y, por lo tanto también, su familia, agradece que por fin algo le llegue para poder salir adelante\". \"Un niño, una familia, jamás va a olvidar qué Presidente o qué Presidenta le entregó ese computador, y el Mandatario (Kast) se lo quitó. Y eso es lo que el Gobierno debe reparar\", agregó. Por lo tanto, \"en el caso del Congreso, 'Elijo mi PC' evidentemente que se va a recuperar\",  dijo la líder del Senado.",
+          "url": "https://www.cooperativa.cl/noticias/pais/trabajo/nunez-tilda-de-insuficiente-el-programa-proempleo-del-gobierno-y-le/2026-10-11/154339.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011154339.png",
+          "published_raw": "Sun, 11 Oct 2026 15:43:39 -0300",
+          "published_at": "2026-10-11T15:43:39-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 5,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 3,
+          "score_ideology": 0,
+          "score_actor": 3,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 12,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-007"
         }
       ]
     }
@@ -427,78 +415,6 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-005",
-        "title": "Delfino tras dichos de Bachelet: \"El PS debe tener su propia carta presidencial\"",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/delfino-tras-dichos-de-bachelet-el-ps-debe-tener-su-propia-carta/2026-10-10/151916.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 52.8,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 51,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 52
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-10T15:19:16-0300",
-        "last_seen": "2026-10-10T15:19:16-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Delfino tras dichos de Bachelet: \"El PS debe tener su propia carta presidencial\"",
-            "description": "La alcaldesa de Quinta Normal y secretaria general del Partido Socialista (PS), Karina Delfino , sostuvo que su colectividad debe contar con una carta presidencial propia para las elecciones de 2029 , en medio del debate abierto por las declaraciones de la expresidenta Michelle Bachelet sobre una eventual tercera candidatura . En entrevista con La Tercera , la dirigenta sostuvo que \"el Partido Socialista tiene que tener su propia carta presidencial , no tengo dudas. Hace muchos años que no tenemos una carta presidencial competitiva ; la última fue precisamente la presidenta Michelle Bachelet, hace ya más de 10 años\". Asimismo, Delfino reconoció el liderazgo de la exmandataria en la oposición y destacó su capacidad para contribuir a la unidad del sector. \"Bachelet tiene un liderazgo indiscutible, que le hace bien a la oposición. Está bien que esté en esto: tratando de construir unidad, de juntarnos a todos y de aportar al debate público \", afirmó. Entre los liderazgos de la oposición que podrían proyectarse como cartas presidenciales para 2029, Delfino mencionó al expresidente Gabriel Boric, al alcalde Tomás Vodanovic y al exministro Álvaro Elizalde , aunque enfatizó que todavía faltan más de tres años para las elecciones. En esa línea, sostuvo que la prioridad de la oposición debe ser construir un proyecto político común , más allá de las eventuales candidaturas presidenciales. Reacciones a una eventual candidatura de Bachelet En medio del debate, el diputado independiente de la bancada PPD Jaime Araya descartó que una eventual postulación de Bachelet genere una disputa de liderazgos con el expresidente Gabriel Boric. \"No tengo ninguna duda en que lo que hace la presidenta Bachelet es un liderazgo complementario y que suma junto al que hace el presidente Gabriel Boric \", sostuvo el parlamentario. Por su parte, la exministra Carolina Tohá llamó a no adelantar la discusión electoral . La excandidata presidencial Evelyn Matthei tampoco descartó volver a competir por La Moneda , al señalar que \"eso lo verá ella y yo también lo veré en su minuto\". Desde Renovación Nacional, la diputada Ximena Ossandón coincidió en que aún es temprano para definir candidaturas, pero apuntó a Franco Parisi y Johannes Kaiser como figuras que ya se encuentran en carrera . \"Yo creo que ellos están autoproclamados desde hace mucho tiempo , nunca han dejado de ser candidatos presidenciales y actúan como tales\", afirmó. En tanto, un estudio de Panel Ciudadano UDD situó a Johannes Kaiser en un 21%, a Gabriel Boric en un 19% y a Franco Parisi en un 18% , mientras que Michelle Bachelet y Evelyn Matthei obtuvieron un 15% cada una.",
-            "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/delfino-tras-dichos-de-bachelet-el-ps-debe-tener-su-propia-carta/2026-10-10/151916.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261010/imag/foto_0000000220261010151916.jpg",
-            "published_raw": "Sat, 10 Oct 2026 15:19:16 -0300",
-            "published_at": "2026-10-10T15:19:16-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 3,
-            "score_elections": 3,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 7,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 14,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 19,
-          "labels": [
-            "Estado e instituciones",
-            "Elecciones y opinión pública"
-          ],
-          "chile_utility": 71.8
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
         "cluster_id": "PML-EVENT-004",
         "title": "Seguridad: Senadores ingresaron el reemplazo de la desechada reforma constitucional del Gobierno",
         "topic": "Instituciones y gobierno",
@@ -570,8 +486,80 @@
         "repeated_in_general_top5": false
       },
       {
+        "position": 2,
+        "cluster_id": "PML-EVENT-005",
+        "title": "Delfino tras dichos de Bachelet: \"El PS debe tener su propia carta presidencial\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/delfino-tras-dichos-de-bachelet-el-ps-debe-tener-su-propia-carta/2026-10-10/151916.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 50.2,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 51,
+            "freshness": 62,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 52
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-10T15:19:16-0300",
+        "last_seen": "2026-10-10T15:19:16-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Delfino tras dichos de Bachelet: \"El PS debe tener su propia carta presidencial\"",
+            "description": "La alcaldesa de Quinta Normal y secretaria general del Partido Socialista (PS), Karina Delfino , sostuvo que su colectividad debe contar con una carta presidencial propia para las elecciones de 2029 , en medio del debate abierto por las declaraciones de la expresidenta Michelle Bachelet sobre una eventual tercera candidatura . En entrevista con La Tercera , la dirigenta sostuvo que \"el Partido Socialista tiene que tener su propia carta presidencial , no tengo dudas. Hace muchos años que no tenemos una carta presidencial competitiva ; la última fue precisamente la presidenta Michelle Bachelet, hace ya más de 10 años\". Asimismo, Delfino reconoció el liderazgo de la exmandataria en la oposición y destacó su capacidad para contribuir a la unidad del sector. \"Bachelet tiene un liderazgo indiscutible, que le hace bien a la oposición. Está bien que esté en esto: tratando de construir unidad, de juntarnos a todos y de aportar al debate público \", afirmó. Entre los liderazgos de la oposición que podrían proyectarse como cartas presidenciales para 2029, Delfino mencionó al expresidente Gabriel Boric, al alcalde Tomás Vodanovic y al exministro Álvaro Elizalde , aunque enfatizó que todavía faltan más de tres años para las elecciones. En esa línea, sostuvo que la prioridad de la oposición debe ser construir un proyecto político común , más allá de las eventuales candidaturas presidenciales. Reacciones a una eventual candidatura de Bachelet En medio del debate, el diputado independiente de la bancada PPD Jaime Araya descartó que una eventual postulación de Bachelet genere una disputa de liderazgos con el expresidente Gabriel Boric. \"No tengo ninguna duda en que lo que hace la presidenta Bachelet es un liderazgo complementario y que suma junto al que hace el presidente Gabriel Boric \", sostuvo el parlamentario. Por su parte, la exministra Carolina Tohá llamó a no adelantar la discusión electoral . La excandidata presidencial Evelyn Matthei tampoco descartó volver a competir por La Moneda , al señalar que \"eso lo verá ella y yo también lo veré en su minuto\". Desde Renovación Nacional, la diputada Ximena Ossandón coincidió en que aún es temprano para definir candidaturas, pero apuntó a Franco Parisi y Johannes Kaiser como figuras que ya se encuentran en carrera . \"Yo creo que ellos están autoproclamados desde hace mucho tiempo , nunca han dejado de ser candidatos presidenciales y actúan como tales\", afirmó. En tanto, un estudio de Panel Ciudadano UDD situó a Johannes Kaiser en un 21%, a Gabriel Boric en un 19% y a Franco Parisi en un 18% , mientras que Michelle Bachelet y Evelyn Matthei obtuvieron un 15% cada una.",
+            "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/delfino-tras-dichos-de-bachelet-el-ps-debe-tener-su-propia-carta/2026-10-10/151916.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261010/imag/foto_0000000220261010151916.jpg",
+            "published_raw": "Sat, 10 Oct 2026 15:19:16 -0300",
+            "published_at": "2026-10-10T15:19:16-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 3,
+            "score_elections": 3,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 1,
+            "score_actor": 7,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-005"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 19,
+          "labels": [
+            "Estado e instituciones",
+            "Elecciones y opinión pública"
+          ],
+          "chile_utility": 69.2
+        },
+        "repeated_in_general_top5": false
+      },
+      {
         "position": 3,
-        "cluster_id": "PML-EVENT-009",
+        "cluster_id": "PML-EVENT-012",
         "title": "Sin bombos ni platillos: Kast promulgó la ley de reconstrucción",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -626,7 +614,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-009"
+            "cluster_id": "PML-EVENT-012"
           }
         ],
         "article_count": 1,
@@ -646,9 +634,9 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 17,
-      "maximum_relevance": 64.9,
-      "leading_story": "Lula saca a la calle una marea roja para emprender la remontada y ganar las elecciones"
+      "event_count": 19,
+      "maximum_relevance": 67,
+      "leading_story": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS"
     },
     {
       "topic": "Elecciones y opinión pública",
@@ -669,12 +657,6 @@
       "leading_story": "El nuevo Consenso de Washington: simpatía por el diablo"
     },
     {
-      "topic": "Economía y políticas públicas",
-      "event_count": 1,
-      "maximum_relevance": 37.2,
-      "leading_story": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\""
-    },
-    {
       "topic": "Relaciones internacionales",
       "event_count": 1,
       "maximum_relevance": 36.6,
@@ -686,7 +668,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
     "source_count": 3
   },
   "system": {
