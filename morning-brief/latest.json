@@ -5,34 +5,34 @@
     "status": "validated",
     "date": "2026-10-10",
     "data_latest_timestamp": "2026-10-10T15:19:16-0300",
-    "data_age_hours": 8.9,
-    "generated_at": "2026-10-11T00:16:05-0300",
+    "data_age_hours": 12,
+    "generated_at": "2026-10-11T03:19:35-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": false
+    "editorial_topic_diversity_met": true
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 30 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 29 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 30,
-    "topics": 2,
+    "ranked_events": 29,
+    "topics": 3,
     "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 58.1,
+    "average_top5_relevance": 57.2,
     "maximum_relevance": 65.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-023",
+      "cluster_id": "PML-EVENT-022",
       "title": "Trump anima a los ucranios a que “busquen un nuevo líder” tras un ataque de Kiev contra el sector petrolero ruso",
       "url": "https://elpais.com/internacional/2026-10-10/ucrania-golpea-una-gran-terminal-petrolera-rusa-tras-el-acuerdo-del-diesel-de-trump-y-putin.html",
       "representative_source": "EL PAÍS",
@@ -103,13 +103,13 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
+          "cluster_id": "PML-EVENT-022"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-020",
+      "cluster_id": "PML-EVENT-019",
       "title": "Bolsonaro logra el apoyo de tres perdedores y de varios partidos de derechas para la segunda vuelta",
       "url": "https://elpais.com/america/2026-10-10/bolsonaro-logra-el-apoyo-de-los-perdedores-y-de-varios-partidos-de-derechas-para-la-segunda-vuelta.html",
       "representative_source": "EL PAÍS",
@@ -179,7 +179,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     },
@@ -340,25 +340,25 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-016",
-      "title": "Trump crea un comité para investigar a Lisa Cook, la gobernadora de la Fed que quiere despedir pese a la oposición del Supremo",
-      "url": "https://elpais.com/economia/2026-10-09/trump-crea-un-comite-para-investigar-a-lisa-cook-la-gobernadora-de-la-fed-que-quiere-despedir-pese-a-la-oposicion-del-supremo.html",
+      "cluster_id": "PML-EVENT-020",
+      "title": "Bally Bagayoko, alcalde de Saint-Denis: “Francia tiene que responder a los estudiantes con medidas concretas y no con la policía”",
+      "url": "https://elpais.com/internacional/2026-10-10/bally-bagayoko-alcalde-de-saint-denis-francia-tiene-que-responder-a-los-estudiantes-con-medidas-concretas-y-no-con-la-policia.html",
       "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "topic": "Conflictos y seguridad",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "Estados Unidos",
+        "group": "No identificado",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 55.3,
-        "level": "MEDIA",
-        "editorial_utility": 49.3
+        "score": 50.6,
+        "level": "BAJA",
+        "editorial_utility": 48.6
       },
       "selection": {
-        "reason": "PML 55.3; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
+        "reason": "PML 50.6; fallback editorial controlado; diversidad relajada para completar el brief; aporta diversidad temática",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
@@ -366,19 +366,13 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-09T11:34:30-0300",
-      "last_seen": "2026-10-09T11:34:30-0300",
-      "entities": [
-        "trump",
-        "supremo"
-      ],
-      "event_terms": [
-        "oposicion",
-        "supremo"
-      ],
+      "first_seen": "2026-10-10T00:30:01-0300",
+      "last_seen": "2026-10-10T00:30:01-0300",
+      "entities": [],
+      "event_terms": "protestas",
       "analysis": {
-        "summary": "El presidente acusa a la funcionaria de un presunto fraude hipotecario del que sigue sin haber alguna imputación formal",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "El popular regidor, que acude a las protestas estudiantiles y se interpone entre los jóvenes y los agentes, cree que el Gobierno de Macron no está actuando correctamente y que el estallido en la calle irá en aumento",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -390,30 +384,30 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Trump crea un comité para investigar a Lisa Cook, la gobernadora de la Fed que quiere despedir pese a la oposición del Supremo",
-          "description": "El presidente acusa a la funcionaria de un presunto fraude hipotecario del que sigue sin haber alguna imputación formal",
-          "url": "https://elpais.com/economia/2026-10-09/trump-crea-un-comite-para-investigar-a-lisa-cook-la-gobernadora-de-la-fed-que-quiere-despedir-pese-a-la-oposicion-del-supremo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/QGLOX3QLSBE5NHKYE2HZGGDKWQ.JPG?auth=232049f6e0128d279a1dcac942b77f23e84bf38ac34837add22c80dc9bad5e0e",
-          "published_raw": "Fri, 09 Oct 2026 14:34:30 GMT",
-          "published_at": "2026-10-09T11:34:30-0300",
+          "title": "Bally Bagayoko, alcalde de Saint-Denis: “Francia tiene que responder a los estudiantes con medidas concretas y no con la policía”",
+          "description": "El popular regidor, que acude a las protestas estudiantiles y se interpone entre los jóvenes y los agentes, cree que el Gobierno de Macron no está actuando correctamente y que el estallido en la calle irá en aumento",
+          "url": "https://elpais.com/internacional/2026-10-10/bally-bagayoko-alcalde-de-saint-denis-francia-tiene-que-responder-a-los-estudiantes-con-medidas-concretas-y-no-con-la-policia.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/4IM6JHXIUJDOTLUCET7CAA2XQQ.jpg?auth=21e764153abb6350dfab6dab1fb70a07fe4bbe8c1a4b0896ca49e80abd0d0d80",
+          "published_raw": "Sat, 10 Oct 2026 03:30:01 GMT",
+          "published_at": "2026-10-10T00:30:01-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 1,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
+          "score_conflict": 2,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 3,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "political_evidence": 4,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-016"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-020"
         }
       ]
     }
@@ -645,7 +639,7 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 16,
+      "event_count": 15,
       "maximum_relevance": 65.2,
       "leading_story": "Trump anima a los ucranios a que “busquen un nuevo líder” tras un ataque de Kiev contra el sector petrolero ruso"
     },
