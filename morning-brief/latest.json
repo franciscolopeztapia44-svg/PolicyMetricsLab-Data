@@ -4,35 +4,35 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-11",
-    "data_latest_timestamp": "2026-10-11T06:30:00-0300",
-    "data_age_hours": 2.8,
-    "generated_at": "2026-10-11T09:19:05-0300",
+    "data_latest_timestamp": "2026-10-11T10:18:06-0300",
+    "data_age_hours": 1.9,
+    "generated_at": "2026-10-11T12:14:10-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": true
+    "editorial_topic_diversity_met": false
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 32 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Elecciones y opinión pública.",
+    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 32,
-    "topics": 3,
+    "ranked_events": 36,
+    "topics": 2,
     "geographies": 3,
-    "representative_sources": 2,
-    "average_top5_relevance": 58,
-    "maximum_relevance": 65
+    "representative_sources": 3,
+    "average_top5_relevance": 56.5,
+    "maximum_relevance": 63.3
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-024",
+      "cluster_id": "PML-EVENT-028",
       "title": "Abdul El-Sayed, la apuesta más arriesgada de los demócratas para las elecciones: “Habrá que exigir responsabilidades a Trump por todo el mal que ha hecho”",
       "url": "https://elpais.com/us/2026-10-11/abdul-el-sayed-la-apuesta-mas-arriesgada-de-los-democratas-para-las-elecciones-habra-que-exigir-responsabilidades-a-trump-por-todo-el-mal-que-ha-hecho.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +43,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 65,
+        "score": 63.3,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 65
+        "editorial_utility": 63.3
       },
       "selection": {
-        "reason": "PML 65",
+        "reason": "PML 63.3",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -99,13 +99,169 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
+          "cluster_id": "PML-EVENT-028"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-023",
+      "cluster_id": "PML-EVENT-017",
+      "title": "Brasil: Lula denuncia restricciones de Meta en redes sociales antes del balotaje",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261011-brasil-lula-denuncia-restricciones-de-meta-en-redes-sociales-antes-del-balotaje",
+      "representative_source": "France 24",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Brasil / América Latina"
+      },
+      "relevance": {
+        "score": 56.7,
+        "level": "MEDIA",
+        "editorial_utility": 68.7
+      },
+      "selection": {
+        "reason": "PML 56.7; fallback editorial controlado; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-10-11T05:19:43-0300",
+      "last_seen": "2026-10-11T05:19:43-0300",
+      "entities": [
+        "brasil",
+        "lula",
+        "bolsonaro"
+      ],
+      "event_terms": [
+        "tribunal",
+        "eleccion"
+      ],
+      "analysis": {
+        "summary": "La campaña del presidente brasileño, Luiz Inácio Lula da Silva, denunció presuntas restricciones de Meta a sus publicaciones en redes sociales, a dos semanas del balotaje del 25 de octubre frente a Flávio Bolsonaro. El Tribunal Superior Electoral exigió explicaciones a la compañía, que rechazó las acusaciones de interferencia electoral.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Brasil / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Brasil: Lula denuncia restricciones de Meta en redes sociales antes del balotaje",
+          "description": "La campaña del presidente brasileño, Luiz Inácio Lula da Silva, denunció presuntas restricciones de Meta a sus publicaciones en redes sociales, a dos semanas del balotaje del 25 de octubre frente a Flávio Bolsonaro. El Tribunal Superior Electoral exigió explicaciones a la compañía, que rechazó las acusaciones de interferencia electoral.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261011-brasil-lula-denuncia-restricciones-de-meta-en-redes-sociales-antes-del-balotaje",
+          "image_url": "https://s.france24.com/media/display/82c7bca8-c54c-11f1-b4b2-77317c09f325/w:1024/p:16x9/8935ecca0dfc7b28e4bf8fc3fbaa0daa35315648.jpg",
+          "published_raw": "Sun, 11 Oct 2026 08:19:43 GMT",
+          "published_at": "2026-10-11T05:19:43-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-017"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-012",
+      "title": "Ministra Marín: Descalificar a mujeres en política eleva las barreras",
+      "url": "https://www.cooperativa.cl/noticias/pais/mujer/ministra-marin-descalificar-a-mujeres-en-politica-eleva-las-barreras/2026-10-11/100929.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 55.7,
+        "level": "MEDIA",
+        "editorial_utility": 55.7
+      },
+      "selection": {
+        "reason": "PML 55.7; fallback editorial controlado; aporta diversidad geográfica",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-10-11T10:09:29-0300",
+      "last_seen": "2026-10-11T10:09:29-0300",
+      "entities": [
+        "bachelet",
+        "senado"
+      ],
+      "event_terms": "eleccion",
+      "analysis": {
+        "summary": "La ministra de la Mujer y la Equidad de Género, Judith Marín , defendió la continuidad de su cartera y cuestionó las descalificaciones hacia las mujeres en política, a propósito de las polémicas declaraciones contra Michelle Bachelet y Evelyn Matthei . La intervención se produce tras los dichos del diputado Javier Olivares (PDG) , quien sugirió que la expresidenta debía seguir los pasos de Matthei y dedicarse a cocinar, luego de que Bachelet abriera la posibilidad de una…",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Ministra Marín: Descalificar a mujeres en política eleva las barreras",
+          "description": "La ministra de la Mujer y la Equidad de Género, Judith Marín , defendió la continuidad de su cartera y cuestionó las descalificaciones hacia las mujeres en política, a propósito de las polémicas declaraciones contra Michelle Bachelet y Evelyn Matthei . La intervención se produce tras los dichos del diputado Javier Olivares (PDG) , quien sugirió que la expresidenta debía seguir los pasos de Matthei y dedicarse a cocinar, luego de que Bachelet abriera la posibilidad de una tercera candidatura presidencial . La secretaria de Estado ya había emplazado al parlamentario a disculparse por esas expresiones. En una carta enviada a El Mercurio , titulada \"Estar en los lugares que queramos\" , Marín afirmó que \"las diferencias políticas son legítimas, pero no justifican la falta de respeto que esta semana vimos hacia las mujeres\". La ministra distinguió entre valorar las labores domésticas y utilizarlas para limitar la participación femenina en el debate público. \"Cocinar y cuidar a la familia son tareas valiosas y no tienen que ser menospreciadas. Usarlas como respuesta a una opinión política no es un argumento ni una crítica: es pretender fijarle a una mujer el lugar que debe ocupar por el solo hecho de serlo \", sostuvo. Las barreras para las mujeres en política Para fundamentar su planteamiento, Marín expuso cifras sobre la brecha entre el peso electoral de las mujeres y su representación en cargos de elección popular . Según los datos citados en la carta, las mujeres constituyen cerca del 51% del padrón electoral , pero desde marzo ocupan el 33,5% de los escaños de la Cámara de Diputadas y Diputados y el 32% del Senado . En el ámbito municipal, añadió, solo cerca del 17% de las alcaldías están encabezadas por mujeres , mientras que en los concejos municipales su presencia alcanza un tercio. \"Cada vez que se descalifica a una mujer en política, esas barreras se hacen más altas, y de paso, se entrega un mensaje desalentador a quienes quieran incorporarse\", advirtió. Defensa del Ministerio de la Mujer A partir de ese diagnóstico, la secretaria de Estado vinculó la controversia con la necesidad de mantener la institucionalidad que encabeza. \"Por eso, como ministra de la Mujer y la Equidad de Género, creo que comentarios como los de esta semana muestran por qué el Ministerio debe seguir existiendo \", expresó. Marín cerró su carta con un llamado a resguardar el respeto por sobre las discrepancias políticas: \"Podemos discrepar en nuestras ideas, pero el respeto debe estar por encima de cualquier diferencia. Las mujeres podemos estar en los lugares que queramos \".",
+          "url": "https://www.cooperativa.cl/noticias/pais/mujer/ministra-marin-descalificar-a-mujeres-en-politica-eleva-las-barreras/2026-10-11/100929.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011100929.jpg",
+          "published_raw": "Sun, 11 Oct 2026 10:09:29 -0300",
+          "published_at": "2026-10-11T10:09:29-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 4,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 7,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-012"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-027",
       "title": "Milei vende la ciudadanía argentina a 350.000 dólares por persona y oferta descuentos para familias",
       "url": "https://elpais.com/argentina/2026-10-11/milei-vende-la-ciudadania-argentina-a-350000-dolares-por-persona-y-oferta-descuentos-para-familias.html",
       "representative_source": "EL PAÍS",
@@ -116,12 +272,12 @@
         "country": "Argentina / América Latina"
       },
       "relevance": {
-        "score": 57.2,
+        "score": 56,
         "level": "MEDIA",
-        "editorial_utility": 69.2
+        "editorial_utility": 50
       },
       "selection": {
-        "reason": "PML 57.2; fallback editorial controlado; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 56; fallback editorial controlado; diversidad relajada para completar el brief",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -176,163 +332,13 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-027",
-      "title": "“No ayudes al enemigo”: Kiev alerta a Europa del peligro de la guerra híbrida rusa",
-      "url": "https://elpais.com/internacional/2026-10-11/no-ayudes-al-enemigo-kiev-alerta-a-europa-del-peligro-de-la-guerra-hibrida-rusa.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Conflictos y seguridad",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 57,
-        "level": "MEDIA",
-        "editorial_utility": 62
-      },
-      "selection": {
-        "reason": "PML 57; fallback editorial controlado; aporta diversidad temática",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-11T00:30:01-0300",
-      "last_seen": "2026-10-11T00:30:01-0300",
-      "entities": "ucrania",
-      "event_terms": "guerra",
-      "analysis": {
-        "summary": "Ucrania, además de sufrir la invasión militar, lleva décadas bajo la amenaza de la propaganda, la desinformación y los sabotajes de Moscú",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "“No ayudes al enemigo”: Kiev alerta a Europa del peligro de la guerra híbrida rusa",
-          "description": "Ucrania, además de sufrir la invasión militar, lleva décadas bajo la amenaza de la propaganda, la desinformación y los sabotajes de Moscú",
-          "url": "https://elpais.com/internacional/2026-10-11/no-ayudes-al-enemigo-kiev-alerta-a-europa-del-peligro-de-la-guerra-hibrida-rusa.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/DTRVHSMZD5L53AVUTBHSSXPG2M.jpg?auth=8714614e2ed1a242759050c27392baab921b2ac4ac1adf8c212ae5b1f1591029",
-          "published_raw": "Sun, 11 Oct 2026 03:30:01 GMT",
-          "published_at": "2026-10-11T00:30:01-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 3,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
           "cluster_id": "PML-EVENT-027"
         }
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-028",
-      "title": "Trump anima a los ucranios a que “busquen un nuevo líder” tras un ataque de Kiev contra el sector petrolero ruso",
-      "url": "https://elpais.com/internacional/2026-10-10/ucrania-golpea-una-gran-terminal-petrolera-rusa-tras-el-acuerdo-del-diesel-de-trump-y-putin.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "CONFLICT_ESCALATION",
-      "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 60.2,
-        "level": "MEDIA",
-        "editorial_utility": 58.2
-      },
-      "selection": {
-        "reason": "PML 60.2; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-10T14:51:24-0300",
-      "last_seen": "2026-10-10T14:51:24-0300",
-      "entities": "trump",
-      "event_terms": [
-        "ataque",
-        "guerra",
-        "bombardeo"
-      ],
-      "analysis": {
-        "summary": "“Zelenski podría haber detenido esta guerra muchas, muchas veces, y prefiere que no”, afirma el presidente republicano. Al menos 20 muertos en un bombardeo ruso contra Zaporiyia",
-        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
-          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Trump anima a los ucranios a que “busquen un nuevo líder” tras un ataque de Kiev contra el sector petrolero ruso",
-          "description": "“Zelenski podría haber detenido esta guerra muchas, muchas veces, y prefiere que no”, afirma el presidente republicano. Al menos 20 muertos en un bombardeo ruso contra Zaporiyia",
-          "url": "https://elpais.com/internacional/2026-10-10/ucrania-golpea-una-gran-terminal-petrolera-rusa-tras-el-acuerdo-del-diesel-de-trump-y-putin.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/PCIZTKDRZBKMDK74GEQAJTYNQ4.jpg?auth=fcacf9e2b00d5158b0c9c03b11a3ffb9e606af98e03575e20cf38f53e2c04268",
-          "published_raw": "Sat, 10 Oct 2026 17:51:24 GMT",
-          "published_at": "2026-10-10T14:51:24-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
-        }
-      ]
-    },
-    {
       "position": 5,
-      "cluster_id": "PML-EVENT-009",
+      "cluster_id": "PML-EVENT-008",
       "title": "Sin bombos ni platillos: Kast promulgó la ley de reconstrucción",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/sin-bombos-ni-platillos-kast-promulgo-la-ley-de-reconstruccion/2026-10-09/132206.html",
       "representative_source": "Cooperativa",
@@ -345,10 +351,10 @@
       "relevance": {
         "score": 50.8,
         "level": "BAJA",
-        "editorial_utility": 46.8
+        "editorial_utility": 44.8
       },
       "selection": {
-        "reason": "PML 50.8; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 50.8; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -402,7 +408,7 @@
           "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-009"
+          "cluster_id": "PML-EVENT-008"
         }
       ]
     }
@@ -426,11 +432,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.8,
+          "score": 52.8,
           "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 80,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 52
@@ -481,7 +487,7 @@
             "Estado e instituciones",
             "Elecciones y opinión pública"
           ],
-          "chile_utility": 73.8
+          "chile_utility": 71.8
         },
         "repeated_in_general_top5": false
       },
@@ -559,25 +565,25 @@
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-009",
-        "title": "Sin bombos ni platillos: Kast promulgó la ley de reconstrucción",
+        "cluster_id": "PML-EVENT-011",
+        "title": "Tohá y Cordero advierten graves problemas en las Reglas del Uso de la Fuerza",
         "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
+        "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/sin-bombos-ni-platillos-kast-promulgo-la-ley-de-reconstruccion/2026-10-09/132206.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/ff-aa-y-de-orden/toha-y-cordero-advierten-graves-problemas-en-las-reglas-del-uso-de-la/2026-10-11/101806.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 50.8,
-          "level": "BAJA",
+          "score": 55.5,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 79,
-            "freshness": 40,
+            "political_impact": 51,
+            "freshness": 100,
             "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 28
+            "geographic_scope": 40,
+            "continuity": 32
           }
         },
         "coverage": {
@@ -585,100 +591,93 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-09T13:22:06-0300",
-        "last_seen": "2026-10-09T13:22:06-0300",
+        "first_seen": "2026-10-11T10:18:06-0300",
+        "last_seen": "2026-10-11T10:18:06-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Sin bombos ni platillos: Kast promulgó la ley de reconstrucción",
-            "description": "Opacada por el aluvión que arrasó con sectores de San Carlos de Apoquindo , en Las Condes, el Presidente José Antonio Kast promulgó su proyecto estrella, la Ley de Reconstrucción , tras superar el control preventivo del Tribunal Constitucional (TC) .  Así lo confirmó este viernes el subsecretario de Interior, Máximo Pavez , quien anunció que \"en medio de este sistema frontal, el Gobierno sigue avanzando en las prioridades que son urgentes para poder levantar a nuestro país \". \"Esto -agregó- es una muy buena noticia que nos llena de esperanza para poder volver a reimpulsar nuestra economía, avanzar en certeza jurídica y, por supuesto, buscar el crecimiento necesario en materia de inversión y en materia de empleo \". La normativa, despachada por el Congreso el 4 de agosto,  reduce de forma gradual desde el 27% actual hasta el 23% entre 2027 y 2029,  crea una exención temporal del IVA para la primera venta de viviendas nuevas ya terminadas y fija una exención total de contribuciones para la vivienda principal de personas de 65 años o más (a partir de 2027) . Además, establece invariabilidad tributaria para grandes proyectos de inversión y facilidades de repatriación de capitales , además de convenios de pago con condonación de multas e intereses a través de la Tesorería General de la República. \"Chile sigue avanzando en lo urgente, también en medio de la emergencia. Promulgamos la Ley de Reconstrucción Nacional y Desarrollo Económico y Social, que trae esperanza a las familias de Biobío, Ñuble y Valparaíso, certeza jurídica y más inversión y empleo para todo el país \", afirmó Kast en un mensaje en X. Chile sigue avanzando en lo urgente, también en medio de la emergencia. Promulgamos la Ley de Reconstrucción Nacional y Desarrollo Económico y Social, que trae esperanza a las familias de Biobío, Ñuble y Valparaíso, certeza jurídica y más inversión y empleo para todo el país. #ChileSaleAdelante — José Antonio Kast Rist (@PresidenteKast) October 9, 2026 El texto debe ahora esperar la toma de razón de la Contraloría. Se convertirá en ley una vez que sea sea publicado por el Diario Oficial.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/sin-bombos-ni-platillos-kast-promulgo-la-ley-de-reconstruccion/2026-10-09/132206.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261009/imag/foto_0000000220261009132206.jpg",
-            "published_raw": "Fri, 09 Oct 2026 13:22:06 -0300",
-            "published_at": "2026-10-09T13:22:06-0300",
+            "title": "Tohá y Cordero advierten graves problemas en las Reglas del Uso de la Fuerza",
+            "description": "Los exministros Carolina Tohá y Luis Cordero advirtieron que el proyecto sobre Reglas de Uso de la Fuerza (RUF) , despachado por el Congreso, contiene \"problemas graves\" que debilitan la certeza que esta regulación debe entregar a las policías, los ciudadanos y los organismos de control. En una columna titulada \"Reglas de uso de la fuerza\" , publicada por El Mercurio , ambos respaldaron la necesidad de que estas disposiciones tengan rango legal y no dependan de una circular administrativa. Sin embargo, cuestionaron aspectos centrales del texto aprobado. \"Que esas reglas tengan rango legal y no sean una simple circular administrativa, es una necesidad que compartimos, porque da certeza a las policías, a las personas y al sistema de controles, pero, lamentablemente, el texto aprobado tiene problemas graves que erosionan esa certeza \", señalaron. La eliminación del principio de proporcionalidad El primer reparo de los exministros apunta a que se suprimió el principio de proporcionalidad y quedó únicamente el de racionalidad, conceptos que, según explicaron, cumplen funciones distintas. \"La proporcionalidad significa simetría de medios (no se trata de responder a una piedra con una piedra), sino de emplear el medio idóneo y menos lesivo para el fin legítimo \", escribieron. La racionalidad, en cambio, se relaciona con la evaluación del contexto al momento de decidir cómo actuar. Por ello, advirtieron que limitar la regulación a este último criterio devuelve al funcionario a una evaluación caso a caso, con la consiguiente incertidumbre. Tohá y Cordero sostuvieron, además, que la proporcionalidad es una exigencia constitucional cuando una medida afecta derechos y recordaron que, en diciembre de 2021, el propio Congreso la incorporó como mandato general de la función policial en las leyes de Carabineros y la Policía de Investigaciones. Los autores también cuestionaron que el proyecto considere válido el uso de armas potencialmente letales para impedir una fuga o asegurar el cumplimiento de una orden judicial , sin exigir expresamente una evaluación del peligro o la afectación que se busca evitar. \"¿Es admisible la fuerza letal cuando esa fuga no pone en riesgo la vida ni la integridad de nadie o cuando se trata del cumplimiento de orden judicial de baja relevancia?\", plantearon. Los reparos a la ampliación de la Ley Naín-Retamal Un segundo cuestionamiento apunta a la ampliación de la presunción de legítima defensa establecida en la Ley Naín-Retamal . Según explicaron, esta norma contempla una presunción a favor de las fuerzas de orden y seguridad cuando utilizan la fuerza ante amenazas a la vida o la integridad. El nuevo texto, advirtieron, extiende esa presunción a cualquier actuación realizada en cumplimiento del deber . Asimismo, criticaron la eliminación de las referencias a reglamentos que reconocían distintas hipótesis de actuación. \"Al homologar toda intervención, la ley deja en manos de cada policía, en plena operación, la elección de los medios, y la certeza que se buscaba se diluye \", afirmaron. Los exministros cerraron con un llamado a contar con reglas que entreguen certezas y permitan el control judicial de las actuaciones policiales. \" Tratar algunas de sus normas como triunfos políticos va en sentido contrario y reproduce las mismas incertezas que la ley debía evitar\", concluyeron. Noticias relacionadas: Con victorias de lado y lado, el Senado despachó las RUF Frente Amplio y el PC piden veto a las RUF: Ilabaca (PS) responde que sería antidemocrático Tohá: Las RUF no son un guiño al FA-PC ni un contrapeso a Naín-Retamal",
+            "url": "https://www.cooperativa.cl/noticias/pais/ff-aa-y-de-orden/toha-y-cordero-advierten-graves-problemas-en-las-reglas-del-uso-de-la/2026-10-11/101806.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011101806.jpg",
+            "published_raw": "Sun, 11 Oct 2026 10:18:06 -0300",
+            "published_at": "2026-10-11T10:18:06-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 6,
-            "score_elections": 0,
+            "score_institutional": 4,
+            "score_elections": 1,
             "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 2,
+            "score_conflict": 2,
+            "score_policy": 0,
             "score_ideology": 0,
-            "score_actor": 1,
+            "score_actor": 0,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 9,
+            "political_evidence": 7,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-009"
+            "cluster_id": "PML-EVENT-011"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 62.8
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 64.5
         },
-        "repeated_in_general_top5": true
+        "repeated_in_general_top5": false
       }
     ]
   },
   "topics": [
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 7,
-      "maximum_relevance": 65,
+      "event_count": 9,
+      "maximum_relevance": 63.3,
       "leading_story": "Abdul El-Sayed, la apuesta más arriesgada de los demócratas para las elecciones: “Habrá que exigir responsabilidades a Trump por todo el mal que ha hecho”"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 16,
-      "maximum_relevance": 60.2,
-      "leading_story": "Trump anima a los ucranios a que “busquen un nuevo líder” tras un ataque de Kiev contra el sector petrolero ruso"
+      "event_count": 17,
+      "maximum_relevance": 56.7,
+      "leading_story": "Brasil: Lula denuncia restricciones de Meta en redes sociales antes del balotaje"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 4,
-      "maximum_relevance": 57,
+      "maximum_relevance": 55.3,
       "leading_story": "“No ayudes al enemigo”: Kiev alerta a Europa del peligro de la guerra híbrida rusa"
     },
     {
       "topic": "Ideología y competencia política",
-      "event_count": 3,
-      "maximum_relevance": 53.5,
+      "event_count": 4,
+      "maximum_relevance": 51.8,
       "leading_story": "El nuevo Consenso de Washington: simpatía por el diablo"
-    },
-    {
-      "topic": "Relaciones internacionales",
-      "event_count": 1,
-      "maximum_relevance": 40.4,
-      "leading_story": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\""
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
       "maximum_relevance": 37.2,
       "leading_story": "Tohá ante opción presidencial de Bachelet: \"No perdamos el foco\""
+    },
+    {
+      "topic": "Relaciones internacionales",
+      "event_count": 1,
+      "maximum_relevance": 36.6,
+      "leading_story": "Alvarado ante apertura presidencial de Bachelet: \"En tres años y medio más conversamos\""
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-024", "PML-EVENT-023", "PML-EVENT-027", "PML-EVENT-028"],
-      "exited_top5": ["PML-EVENT-022", "PML-EVENT-019", "PML-EVENT-005", "PML-EVENT-020"],
-      "retained_top5": "PML-EVENT-009"
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
     "source_count": 3
   },
   "system": {
