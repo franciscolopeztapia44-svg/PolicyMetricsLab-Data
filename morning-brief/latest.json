@@ -5,33 +5,186 @@
     "status": "validated",
     "date": "2026-10-10",
     "data_latest_timestamp": "2026-10-10T15:19:16-0300",
-    "data_age_hours": 6.1,
-    "generated_at": "2026-10-10T21:22:51-0300",
+    "data_age_hours": 8.9,
+    "generated_at": "2026-10-11T00:16:05-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": true
+    "editorial_topic_diversity_met": false
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 30 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 30 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
     "ranked_events": 30,
-    "topics": 3,
+    "topics": 2,
     "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 56,
-    "maximum_relevance": 59.8
+    "average_top5_relevance": 58.1,
+    "maximum_relevance": 65.2
   },
   "top_stories": [
     {
       "position": 1,
+      "cluster_id": "PML-EVENT-023",
+      "title": "Trump anima a los ucranios a que “busquen un nuevo líder” tras un ataque de Kiev contra el sector petrolero ruso",
+      "url": "https://elpais.com/internacional/2026-10-10/ucrania-golpea-una-gran-terminal-petrolera-rusa-tras-el-acuerdo-del-diesel-de-trump-y-putin.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "CONFLICT_ESCALATION",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 65.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 65.2
+      },
+      "selection": {
+        "reason": "PML 65.2",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-10T14:51:24-0300",
+      "last_seen": "2026-10-10T14:51:24-0300",
+      "entities": "trump",
+      "event_terms": [
+        "ataque",
+        "guerra",
+        "bombardeo"
+      ],
+      "analysis": {
+        "summary": "“Zelenski podría haber detenido esta guerra muchas, muchas veces, y prefiere que no”, afirma el presidente republicano. Al menos 20 muertos en un bombardeo ruso contra Zaporiyia",
+        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
+          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Trump anima a los ucranios a que “busquen un nuevo líder” tras un ataque de Kiev contra el sector petrolero ruso",
+          "description": "“Zelenski podría haber detenido esta guerra muchas, muchas veces, y prefiere que no”, afirma el presidente republicano. Al menos 20 muertos en un bombardeo ruso contra Zaporiyia",
+          "url": "https://elpais.com/internacional/2026-10-10/ucrania-golpea-una-gran-terminal-petrolera-rusa-tras-el-acuerdo-del-diesel-de-trump-y-putin.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/PCIZTKDRZBKMDK74GEQAJTYNQ4.jpg?auth=fcacf9e2b00d5158b0c9c03b11a3ffb9e606af98e03575e20cf38f53e2c04268",
+          "published_raw": "Sat, 10 Oct 2026 17:51:24 GMT",
+          "published_at": "2026-10-10T14:51:24-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-023"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-020",
+      "title": "Bolsonaro logra el apoyo de tres perdedores y de varios partidos de derechas para la segunda vuelta",
+      "url": "https://elpais.com/america/2026-10-10/bolsonaro-logra-el-apoyo-de-los-perdedores-y-de-varios-partidos-de-derechas-para-la-segunda-vuelta.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / América Latina"
+      },
+      "relevance": {
+        "score": 54,
+        "level": "MEDIA",
+        "editorial_utility": 66
+      },
+      "selection": {
+        "reason": "PML 54; fallback editorial controlado; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-10T09:22:43-0300",
+      "last_seen": "2026-10-10T09:22:43-0300",
+      "entities": [
+        "bolsonaro",
+        "lula"
+      ],
+      "event_terms": [],
+      "analysis": {
+        "summary": "El presidente Lula promete debates e insta a sus votantes a movilizar a los 33 millones de abstencionistas",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Bolsonaro logra el apoyo de tres perdedores y de varios partidos de derechas para la segunda vuelta",
+          "description": "El presidente Lula promete debates e insta a sus votantes a movilizar a los 33 millones de abstencionistas",
+          "url": "https://elpais.com/america/2026-10-10/bolsonaro-logra-el-apoyo-de-los-perdedores-y-de-varios-partidos-de-derechas-para-la-segunda-vuelta.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/FXK5T4S42NLRPPLEANSWH27PTQ.jpg?auth=1912b13337cf25ca1be75af78ac87b242cfc606175d719882d75145f101b3657",
+          "published_raw": "Sat, 10 Oct 2026 12:22:43 GMT",
+          "published_at": "2026-10-10T09:22:43-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-020"
+        }
+      ]
+    },
+    {
+      "position": 3,
       "cluster_id": "PML-EVENT-005",
       "title": "Delfino tras dichos de Bachelet: \"El PS debe tener su propia carta presidencial\"",
       "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/delfino-tras-dichos-de-bachelet-el-ps-debe-tener-su-propia-carta/2026-10-10/151916.html",
@@ -48,7 +201,7 @@
         "editorial_utility": 59.8
       },
       "selection": {
-        "reason": "PML 59.8",
+        "reason": "PML 59.8; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -106,162 +259,6 @@
           "decision": "ACCEPT",
           "filter_confidence": "high",
           "cluster_id": "PML-EVENT-005"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-023",
-      "title": "Drones con fibra óptica y miembros de La Chapiza y del CJNG en el frente: las huellas de Ucrania en el narco mexicano",
-      "url": "https://elpais.com/mexico/2026-10-10/drones-con-fibra-optica-y-miembros-de-la-chapiza-y-del-cjng-en-el-frente-las-huellas-de-ucrania-en-el-narco-mexicano.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Conflictos y seguridad",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "México / América Latina"
-      },
-      "relevance": {
-        "score": 54.9,
-        "level": "MEDIA",
-        "editorial_utility": 63.9
-      },
-      "selection": {
-        "reason": "PML 54.9; fallback editorial controlado; aporta diversidad temática; aporta diversidad geográfica",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-10T06:30:00-0300",
-      "last_seen": "2026-10-10T06:30:00-0300",
-      "entities": [
-        "ucrania",
-        "rusia",
-        "sheinbaum"
-      ],
-      "event_terms": "guerra",
-      "analysis": {
-        "summary": "La incautación en Sinaloa de tecnología similar a la que se utiliza en la guerra contra Rusia y la aparición de presuntos miembros del crimen organizado en las filas de Kiev ha puesto en alerta al Gobierno de Sheinbaum",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en México / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Drones con fibra óptica y miembros de La Chapiza y del CJNG en el frente: las huellas de Ucrania en el narco mexicano",
-          "description": "La incautación en Sinaloa de tecnología similar a la que se utiliza en la guerra contra Rusia y la aparición de presuntos miembros del crimen organizado en las filas de Kiev ha puesto en alerta al Gobierno de Sheinbaum",
-          "url": "https://elpais.com/mexico/2026-10-10/drones-con-fibra-optica-y-miembros-de-la-chapiza-y-del-cjng-en-el-frente-las-huellas-de-ucrania-en-el-narco-mexicano.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/YJZBIYFNWVCHBJV3MPVMD6FTFE.jpg?auth=aa6af9c54f7f71f9b9bde2b6be8831fffbf927b588aa2475eb0e513e1a5113d2",
-          "published_raw": "Sat, 10 Oct 2026 09:30:00 GMT",
-          "published_at": "2026-10-10T06:30:00-0300",
-          "country": "México",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-016",
-      "title": "Trump crea un comité para investigar a Lisa Cook, la gobernadora de la Fed que quiere despedir pese a la oposición del Supremo",
-      "url": "https://elpais.com/economia/2026-10-09/trump-crea-un-comite-para-investigar-a-lisa-cook-la-gobernadora-de-la-fed-que-quiere-despedir-pese-a-la-oposicion-del-supremo.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 55.3,
-        "level": "MEDIA",
-        "editorial_utility": 58.3
-      },
-      "selection": {
-        "reason": "PML 55.3; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-09T11:34:30-0300",
-      "last_seen": "2026-10-09T11:34:30-0300",
-      "entities": [
-        "trump",
-        "supremo"
-      ],
-      "event_terms": [
-        "oposicion",
-        "supremo"
-      ],
-      "analysis": {
-        "summary": "El presidente acusa a la funcionaria de un presunto fraude hipotecario del que sigue sin haber alguna imputación formal",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Trump crea un comité para investigar a Lisa Cook, la gobernadora de la Fed que quiere despedir pese a la oposición del Supremo",
-          "description": "El presidente acusa a la funcionaria de un presunto fraude hipotecario del que sigue sin haber alguna imputación formal",
-          "url": "https://elpais.com/economia/2026-10-09/trump-crea-un-comite-para-investigar-a-lisa-cook-la-gobernadora-de-la-fed-que-quiere-despedir-pese-a-la-oposicion-del-supremo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/QGLOX3QLSBE5NHKYE2HZGGDKWQ.JPG?auth=232049f6e0128d279a1dcac942b77f23e84bf38ac34837add22c80dc9bad5e0e",
-          "published_raw": "Fri, 09 Oct 2026 14:34:30 GMT",
-          "published_at": "2026-10-09T11:34:30-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-016"
         }
       ]
     },
@@ -343,25 +340,25 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-020",
-      "title": "Bolsonaro logra el apoyo de tres perdedores y de varios partidos de derechas para la segunda vuelta",
-      "url": "https://elpais.com/america/2026-10-10/bolsonaro-logra-el-apoyo-de-los-perdedores-y-de-varios-partidos-de-derechas-para-la-segunda-vuelta.html",
+      "cluster_id": "PML-EVENT-016",
+      "title": "Trump crea un comité para investigar a Lisa Cook, la gobernadora de la Fed que quiere despedir pese a la oposición del Supremo",
+      "url": "https://elpais.com/economia/2026-10-09/trump-crea-un-comite-para-investigar-a-lisa-cook-la-gobernadora-de-la-fed-que-quiere-despedir-pese-a-la-oposicion-del-supremo.html",
       "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "GENERAL_POLITICAL_EVENT",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
-        "group": "América Latina",
-        "country": "No identificado / América Latina"
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 54,
+        "score": 55.3,
         "level": "MEDIA",
-        "editorial_utility": 52
+        "editorial_utility": 49.3
       },
       "selection": {
-        "reason": "PML 54; fallback editorial controlado; diversidad relajada para completar el brief; aporta diversidad temática",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
+        "reason": "PML 55.3; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
@@ -369,16 +366,19 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-10T09:22:43-0300",
-      "last_seen": "2026-10-10T09:22:43-0300",
+      "first_seen": "2026-10-09T11:34:30-0300",
+      "last_seen": "2026-10-09T11:34:30-0300",
       "entities": [
-        "bolsonaro",
-        "lula"
+        "trump",
+        "supremo"
       ],
-      "event_terms": [],
+      "event_terms": [
+        "oposicion",
+        "supremo"
+      ],
       "analysis": {
-        "summary": "El presidente Lula promete debates e insta a sus votantes a movilizar a los 33 millones de abstencionistas",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / América Latina.",
+        "summary": "El presidente acusa a la funcionaria de un presunto fraude hipotecario del que sigue sin haber alguna imputación formal",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -390,30 +390,30 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Bolsonaro logra el apoyo de tres perdedores y de varios partidos de derechas para la segunda vuelta",
-          "description": "El presidente Lula promete debates e insta a sus votantes a movilizar a los 33 millones de abstencionistas",
-          "url": "https://elpais.com/america/2026-10-10/bolsonaro-logra-el-apoyo-de-los-perdedores-y-de-varios-partidos-de-derechas-para-la-segunda-vuelta.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/FXK5T4S42NLRPPLEANSWH27PTQ.jpg?auth=1912b13337cf25ca1be75af78ac87b242cfc606175d719882d75145f101b3657",
-          "published_raw": "Sat, 10 Oct 2026 12:22:43 GMT",
-          "published_at": "2026-10-10T09:22:43-0300",
+          "title": "Trump crea un comité para investigar a Lisa Cook, la gobernadora de la Fed que quiere despedir pese a la oposición del Supremo",
+          "description": "El presidente acusa a la funcionaria de un presunto fraude hipotecario del que sigue sin haber alguna imputación formal",
+          "url": "https://elpais.com/economia/2026-10-09/trump-crea-un-comite-para-investigar-a-lisa-cook-la-gobernadora-de-la-fed-que-quiere-despedir-pese-a-la-oposicion-del-supremo.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/QGLOX3QLSBE5NHKYE2HZGGDKWQ.JPG?auth=232049f6e0128d279a1dcac942b77f23e84bf38ac34837add22c80dc9bad5e0e",
+          "published_raw": "Fri, 09 Oct 2026 14:34:30 GMT",
+          "published_at": "2026-10-09T11:34:30-0300",
           "country": "No identificado",
-          "region": "América Latina",
+          "region": "Internacional",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 2,
+          "score_institutional": 2,
+          "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 3,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-016"
         }
       ]
     }
@@ -645,21 +645,21 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 15,
-      "maximum_relevance": 59.8,
-      "leading_story": "Delfino tras dichos de Bachelet: \"El PS debe tener su propia carta presidencial\""
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 4,
-      "maximum_relevance": 54.9,
-      "leading_story": "Drones con fibra óptica y miembros de La Chapiza y del CJNG en el frente: las huellas de Ucrania en el narco mexicano"
+      "event_count": 16,
+      "maximum_relevance": 65.2,
+      "leading_story": "Trump anima a los ucranios a que “busquen un nuevo líder” tras un ataque de Kiev contra el sector petrolero ruso"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 7,
       "maximum_relevance": 54,
       "leading_story": "Bolsonaro logra el apoyo de tres perdedores y de varios partidos de derechas para la segunda vuelta"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 3,
+      "maximum_relevance": 50.6,
+      "leading_story": "Bally Bagayoko, alcalde de Saint-Denis: “Francia tiene que responder a los estudiantes con medidas concretas y no con la policía”"
     },
     {
       "topic": "Ideología y competencia política",
@@ -685,7 +685,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
