@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-12",
-    "data_latest_timestamp": "2026-10-12T06:30:00-0300",
-    "data_age_hours": 3,
-    "generated_at": "2026-10-12T09:28:25-0300",
+    "data_latest_timestamp": "2026-10-12T11:08:23-0300",
+    "data_age_hours": 1.2,
+    "generated_at": "2026-10-12T12:19:11-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,22 +16,175 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 35,
+    "ranked_events": 36,
     "topics": 2,
     "geographies": 3,
-    "representative_sources": 2,
-    "average_top5_relevance": 59.1,
-    "maximum_relevance": 62
+    "representative_sources": 3,
+    "average_top5_relevance": 59.7,
+    "maximum_relevance": 66.1
   },
   "top_stories": [
     {
       "position": 1,
+      "cluster_id": "PML-EVENT-026",
+      "title": "El Supremo mantiene para el 29-N la suspensión del derecho al voto de los nacionalizados por la ‘ley de nietos’",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-12/el-supremo-mantiene-para-el-29-n-la-suspension-del-derecho-al-voto-de-los-nacionalizados-por-la-ley-de-nietos.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 66.1,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 66.1
+      },
+      "selection": {
+        "reason": "PML 66.1",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-12T10:32:00-0300",
+      "last_seen": "2026-10-12T10:32:00-0300",
+      "entities": "supremo",
+      "event_terms": [
+        "supremo",
+        "tribunal"
+      ],
+      "analysis": {
+        "summary": "El alto tribunal rechaza el recurso de la Abogacía del Estado y da cinco días a los afectados, 163.020 personas según la Abogacía del Estado, para que presenten alegaciones",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El Supremo mantiene para el 29-N la suspensión del derecho al voto de los nacionalizados por la ‘ley de nietos’",
+          "description": "El alto tribunal rechaza el recurso de la Abogacía del Estado y da cinco días a los afectados, 163.020 personas según la Abogacía del Estado, para que presenten alegaciones",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-10-12/el-supremo-mantiene-para-el-29-n-la-suspension-del-derecho-al-voto-de-los-nacionalizados-por-la-ley-de-nietos.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/ZRMS6AS5SZEFZH5AWB72DFUB3M.jpg?auth=27aa81406d85c398cf94b4c21119f5de1f9b36c76008278a25556e6150880bd4",
+          "published_raw": "Mon, 12 Oct 2026 13:32:00 GMT",
+          "published_at": "2026-10-12T10:32:00-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 3,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-026"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-017",
+      "title": "¿Lula dijo que dará un golpe de Estado si gana Bolsonaro en las elecciones de Brasil?",
+      "url": "https://www.france24.com/es/programas/des-informando/20261012-lula-dijo-que-dar%C3%A1-un-golpe-de-estado-si-gana-bolsonaro-en-las-elecciones-de-brasil",
+      "representative_source": "France 24",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "POLITICAL_STATEMENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Brasil / América Latina"
+      },
+      "relevance": {
+        "score": 58.2,
+        "level": "MEDIA",
+        "editorial_utility": 70.2
+      },
+      "selection": {
+        "reason": "PML 58.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-10-12T11:08:23-0300",
+      "last_seen": "2026-10-12T11:08:23-0300",
+      "entities": [
+        "lula",
+        "bolsonaro",
+        "brasil"
+      ],
+      "event_terms": [],
+      "analysis": {
+        "summary": "En redes sociales, usuarios han publicado videos en portugués asegurando que el presidente y candidato a la reelección, Luiz Inácio Lula da Silva, habría prometido dar un golpe de Estado si su contrincante de la ultraderecha, Flávio Bolsonaro, es electo como presidente.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "¿Lula dijo que dará un golpe de Estado si gana Bolsonaro en las elecciones de Brasil?",
+          "description": "En redes sociales, usuarios han publicado videos en portugués asegurando que el presidente y candidato a la reelección, Luiz Inácio Lula da Silva, habría prometido dar un golpe de Estado si su contrincante de la ultraderecha, Flávio Bolsonaro, es electo como presidente. El video, que utiliza la imagen de un reconocido periodista de ‘CNN Brasil’, es falso y constituye una deepfake: es decir, utiliza la imagen y el espectro de voz del reconocido comunicador, para simular que él daba una información de un presunto golpe de Estado.",
+          "url": "https://www.france24.com/es/programas/des-informando/20261012-lula-dijo-que-dar%C3%A1-un-golpe-de-estado-si-gana-bolsonaro-en-las-elecciones-de-brasil",
+          "image_url": "https://s.france24.com/media/display/862718ce-c3fa-11f1-a7d2-3774aeac812a/w:1024/p:16x9/IVS-DESINFO-PORTADA-WEB-00623-5.png",
+          "published_raw": "Mon, 12 Oct 2026 14:08:23 GMT",
+          "published_at": "2026-10-12T11:08:23-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-017"
+        }
+      ]
+    },
+    {
+      "position": 3,
       "cluster_id": "PML-EVENT-005",
       "title": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/reforma-de-seguridad-divide-al-socialismo-democratico-araya-cuestiona/2026-10-11/144117.html",
@@ -43,12 +196,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 62,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 62
+        "score": 60,
+        "level": "MEDIA",
+        "editorial_utility": 60
       },
       "selection": {
-        "reason": "PML 62",
+        "reason": "PML 60; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -104,8 +257,8 @@
       ]
     },
     {
-      "position": 2,
-      "cluster_id": "PML-EVENT-030",
+      "position": 4,
+      "cluster_id": "PML-EVENT-031",
       "title": "Abdul El-Sayed, la apuesta más arriesgada de los demócratas para las elecciones: “Habrá que exigir responsabilidades a Trump por todo el mal que ha hecho”",
       "url": "https://elpais.com/us/2026-10-11/abdul-el-sayed-la-apuesta-mas-arriesgada-de-los-democratas-para-las-elecciones-habra-que-exigir-responsabilidades-a-trump-por-todo-el-mal-que-ha-hecho.html",
       "representative_source": "EL PAÍS",
@@ -116,12 +269,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 56.8,
+        "score": 54.3,
         "level": "MEDIA",
-        "editorial_utility": 68.8
+        "editorial_utility": 57.3
       },
       "selection": {
-        "reason": "PML 56.8; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 54.3; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -172,13 +325,13 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
+          "cluster_id": "PML-EVENT-031"
         }
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-028",
+      "position": 5,
+      "cluster_id": "PML-EVENT-029",
       "title": "Lula saca a la calle una marea roja para emprender la remontada y ganar las elecciones",
       "url": "https://elpais.com/america/2026-10-11/lula-saca-a-la-calle-una-marea-roja-para-emprender-la-remontada-y-ganar-las-elecciones.html",
       "representative_source": "EL PAÍS",
@@ -189,12 +342,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 61.9,
+        "score": 59.9,
         "level": "MEDIA",
-        "editorial_utility": 61.9
+        "editorial_utility": 54.9
       },
       "selection": {
-        "reason": "PML 61.9; aporta diversidad geográfica",
+        "reason": "PML 59.9; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -249,159 +402,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-024",
-      "title": "Las enfermedades venéreas y la violencia digital escolar desafían el alcance de la educación sexual en Argentina",
-      "url": "https://elpais.com/argentina/2026-10-12/las-enfermedades-venereas-y-la-violencia-digital-escolar-desafian-el-alcance-de-la-educacion-sexual-en-argentina.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Argentina / América Latina"
-      },
-      "relevance": {
-        "score": 57.5,
-        "level": "MEDIA",
-        "editorial_utility": 53.5
-      },
-      "selection": {
-        "reason": "PML 57.5; fallback editorial controlado; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-12T06:30:00-0300",
-      "last_seen": "2026-10-12T06:30:00-0300",
-      "entities": [
-        "argentina",
-        "milei"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "A 20 años de su sanción, la ley que estableció la educación sexual obligatoria en el país continua siendo arena de disputa y enfrenta el desfinanciamiento del Gobierno de Milei",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Argentina / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Las enfermedades venéreas y la violencia digital escolar desafían el alcance de la educación sexual en Argentina",
-          "description": "A 20 años de su sanción, la ley que estableció la educación sexual obligatoria en el país continua siendo arena de disputa y enfrenta el desfinanciamiento del Gobierno de Milei",
-          "url": "https://elpais.com/argentina/2026-10-12/las-enfermedades-venereas-y-la-violencia-digital-escolar-desafian-el-alcance-de-la-educacion-sexual-en-argentina.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/A7FKYAAW6VCDTA2K2NODHGQKZU.jpg?auth=ea36e685783b796523bb75a188ce98f72b462db318f4ca4214f1b4b80764649e",
-          "published_raw": "Mon, 12 Oct 2026 09:30:00 GMT",
-          "published_at": "2026-10-12T06:30:00-0300",
-          "country": "Argentina",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-026",
-      "title": "Las venezolanas siguen abortando a escondidas mientras Colombia amenaza con cerrarles la puerta",
-      "url": "https://elpais.com/america/2026-10-12/las-venezolanas-siguen-abortando-a-escondidas-mientras-colombia-amenaza-con-cerrarles-la-puerta.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "No identificado / América Latina"
-      },
-      "relevance": {
-        "score": 57.5,
-        "level": "MEDIA",
-        "editorial_utility": 50.5
-      },
-      "selection": {
-        "reason": "PML 57.5; fallback editorial controlado; diversidad relajada para completar el brief",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-12T06:30:00-0300",
-      "last_seen": "2026-10-12T06:30:00-0300",
-      "entities": [
-        "colombia",
-        "congreso"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "Tras la captura de Maduro, el país reforma leyes a toda velocidad, pero la salud reproductiva no es prioridad. La salida de cruzar a Colombia se estrecha con la ofensiva contra el aborto en el Congreso y los recortes de EE UU",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Las venezolanas siguen abortando a escondidas mientras Colombia amenaza con cerrarles la puerta",
-          "description": "Tras la captura de Maduro, el país reforma leyes a toda velocidad, pero la salud reproductiva no es prioridad. La salida de cruzar a Colombia se estrecha con la ofensiva contra el aborto en el Congreso y los recortes de EE UU",
-          "url": "https://elpais.com/america/2026-10-12/las-venezolanas-siguen-abortando-a-escondidas-mientras-colombia-amenaza-con-cerrarles-la-puerta.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/I5P5YJRZUJERROH6TXW2Q3A2HI.jpg?auth=d4827d19efc22bebb9c6b4b9e1369d0012927349649e3f60c0db0358f47c5ac6",
-          "published_raw": "Mon, 12 Oct 2026 09:30:00 GMT",
-          "published_at": "2026-10-12T06:30:00-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
+          "cluster_id": "PML-EVENT-029"
         }
       ]
     }
@@ -497,11 +498,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.8,
+          "score": 52.8,
           "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 32
@@ -549,7 +550,7 @@
         "political_science_fit": {
           "bonus": 10,
           "labels": "Elecciones y opinión pública",
-          "chile_utility": 64.8
+          "chile_utility": 62.8
         },
         "repeated_in_general_top5": false
       },
@@ -627,15 +628,15 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 19,
-      "maximum_relevance": 62,
-      "leading_story": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS"
+      "event_count": 20,
+      "maximum_relevance": 66.1,
+      "leading_story": "El Supremo mantiene para el 29-N la suspensión del derecho al voto de los nacionalizados por la ‘ley de nietos’"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 9,
-      "maximum_relevance": 56.8,
-      "leading_story": "Abdul El-Sayed, la apuesta más arriesgada de los demócratas para las elecciones: “Habrá que exigir responsabilidades a Trump por todo el mal que ha hecho”"
+      "maximum_relevance": 58.2,
+      "leading_story": "¿Lula dijo que dará un golpe de Estado si gana Bolsonaro en las elecciones de Brasil?"
     },
     {
       "topic": "Economía y políticas públicas",
@@ -663,15 +664,11 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-030", "PML-EVENT-028", "PML-EVENT-024"],
-      "exited_top5": ["PML-EVENT-008", "PML-EVENT-029", "PML-EVENT-011"],
-      "retained_top5": ["PML-EVENT-005", "PML-EVENT-026"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
