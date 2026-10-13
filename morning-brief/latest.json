@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-10-12",
     "data_latest_timestamp": "2026-10-12T14:30:42-0300",
-    "data_age_hours": 3.7,
-    "generated_at": "2026-10-12T18:15:07-0300",
+    "data_age_hours": 6.9,
+    "generated_at": "2026-10-12T21:26:06-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,13 +16,13 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 35,
+    "ranked_events": 34,
     "topics": 2,
     "geographies": 3,
     "representative_sources": 3,
@@ -186,7 +186,7 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-025",
+      "cluster_id": "PML-EVENT-024",
       "title": "El Supremo mantiene para el 29-N la suspensión del derecho al voto de los nacionalizados por la ‘ley de nietos’",
       "url": "https://elpais.com/espana/elecciones-generales/2026-10-12/el-supremo-mantiene-para-el-29-n-la-suspension-del-derecho-al-voto-de-los-nacionalizados-por-la-ley-de-nietos.html",
       "representative_source": "EL PAÍS",
@@ -256,13 +256,13 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "cluster_id": "PML-EVENT-024"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-030",
+      "cluster_id": "PML-EVENT-029",
       "title": "Abdul El-Sayed, la apuesta más arriesgada de los demócratas para las elecciones: “Habrá que exigir responsabilidades a Trump por todo el mal que ha hecho”",
       "url": "https://elpais.com/us/2026-10-11/abdul-el-sayed-la-apuesta-mas-arriesgada-de-los-democratas-para-las-elecciones-habra-que-exigir-responsabilidades-a-trump-por-todo-el-mal-que-ha-hecho.html",
       "representative_source": "EL PAÍS",
@@ -329,7 +329,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
+          "cluster_id": "PML-EVENT-029"
         }
       ]
     },
@@ -637,7 +637,7 @@
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 9,
+      "event_count": 8,
       "maximum_relevance": 56.9,
       "leading_story": "¿Lula dijo que dará un golpe de Estado si gana Bolsonaro en las elecciones de Brasil?"
     },
