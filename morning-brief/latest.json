@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-10-12",
     "data_latest_timestamp": "2026-10-12T14:30:42-0300",
-    "data_age_hours": 9.8,
-    "generated_at": "2026-10-13T00:16:58-0300",
+    "data_age_hours": 12.9,
+    "generated_at": "2026-10-13T03:23:06-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,17 +16,17 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 31 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 34,
+    "ranked_events": 31,
     "topics": 2,
     "geographies": 3,
     "representative_sources": 3,
-    "average_top5_relevance": 61.5,
+    "average_top5_relevance": 60.6,
     "maximum_relevance": 69.3
   },
   "top_stories": [
@@ -186,23 +186,23 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-024",
-      "title": "El Supremo mantiene para el 29-N la suspensión del derecho al voto de los nacionalizados por la ‘ley de nietos’",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-10-12/el-supremo-mantiene-para-el-29-n-la-suspension-del-derecho-al-voto-de-los-nacionalizados-por-la-ley-de-nietos.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-004",
+      "title": "Oposición rechaza indultar condenados por DD.HH ante presión del oficialismo tras muerte de Aliste",
+      "url": "https://www.cooperativa.cl/noticias/pais/dd-hh/oposicion-rechaza-indultar-condenados-por-dd-hh-ante-presion-del/2026-10-12/140739.html",
+      "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 64.8,
+        "score": 65.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 60.8
+        "editorial_utility": 60.4
       },
       "selection": {
-        "reason": "PML 64.8",
+        "reason": "PML 65.4",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -210,18 +210,18 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-10-12T10:32:00-0300",
-      "last_seen": "2026-10-12T10:32:00-0300",
-      "entities": "supremo",
+      "first_seen": "2026-10-12T14:07:39-0300",
+      "last_seen": "2026-10-12T14:07:39-0300",
+      "entities": "chile",
       "event_terms": [
-        "supremo",
-        "tribunal"
+        "oposicion",
+        "hospitales"
       ],
       "analysis": {
-        "summary": "El alto tribunal rechaza el recurso de la Abogacía del Estado y da cinco días a los afectados, 163.020 personas según los servicios jurídicos estatales, para que presenten alegaciones",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "El reciente fallecimiento de Juan Aliste vega , exlautarista  condenado a 42 años de cárcel por el aseisnato del cabo de Carabineros Luis Moyano , volvió a encender el debate por los indultos por razones humanitarias , luego que sectores del oficialismo se mostraran dispuestos a evaluar su caso y plantearan aplicar el mismo criterio para condenados por violaciones a los derechos humanos .",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
           "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
@@ -231,38 +231,38 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El Supremo mantiene para el 29-N la suspensión del derecho al voto de los nacionalizados por la ‘ley de nietos’",
-          "description": "El alto tribunal rechaza el recurso de la Abogacía del Estado y da cinco días a los afectados, 163.020 personas según los servicios jurídicos estatales, para que presenten alegaciones",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-10-12/el-supremo-mantiene-para-el-29-n-la-suspension-del-derecho-al-voto-de-los-nacionalizados-por-la-ley-de-nietos.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/ZRMS6AS5SZEFZH5AWB72DFUB3M.jpg?auth=27aa81406d85c398cf94b4c21119f5de1f9b36c76008278a25556e6150880bd4",
-          "published_raw": "Mon, 12 Oct 2026 13:32:00 GMT",
-          "published_at": "2026-10-12T10:32:00-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Oposición rechaza indultar condenados por DD.HH ante presión del oficialismo tras muerte de Aliste",
+          "description": "El reciente fallecimiento de Juan Aliste vega , exlautarista  condenado a 42 años de cárcel por el aseisnato del cabo de Carabineros Luis Moyano , volvió a encender el debate por los indultos por razones humanitarias , luego que sectores del oficialismo se mostraran dispuestos a evaluar su caso y plantearan aplicar el mismo criterio para condenados por violaciones a los derechos humanos . La muerte de Aliste se produjo este domingo, a solo días de haber solicitado un indulto humanitario al Presidente José Antonio Kast debido a que padecía un cáncer terminal con metástasis. El recluso permanecía internado en el Hospital Penitenciario de Santiago . Ante su delicado estado de salud, su defensa solicitó formalmente a los tribunales que pudiera pasar sus últimos días en su domicilio junto a su esposa e hijos . Sin embargo, dicha petición fue rechazada tanto por el Séptimo Juzgado de Garantía de Santiago como por la Corte Suprema . \"Cuando se hizo la solicitud de indulto, era porque (Aliste) entró a una fase mucho más complicada (de su enfermedad). De hecho, cuando se cierra la primera posibilidad, o una de las posibilidades donde se decide hacer esta presentación de indulto, para él nunca fue una prioridad\", explicó su abogado, Ricardo Bravo. \"Él estaba desde hace bastantes meses en el hospital penitenciario, no puede existir un peligro para la seguridad de la sociedad y eso es una crítica que yo constantemente he hecho. Aquí hay una discusión más importante , que no he escuchado a ningún actor político hablar: ¿Por qué Juan Aliste llegó en ese estado de salud sin poder ser tratado en estas condiciones? \", enfatizó el defensor. Debate por indultos humanitarios La solicitud y posterior muerte de Aliste abrieron una amplia discusión sobre la procedencia de los indultos por enfermedades terminales . El Partido Republicano había respaldado previamente su requerimiento -apuntando a un indulto humanitario de carácter transversal-, mientras que en Chile Vamos se desprenden posturas similares. [Lea también] Tras presión del oficialismo: Kast afirma que indultos y plan de seguridad \"van por carriles separados\" \"Los indultos deben verse caso a caso , independientemente del crimen que haya cometido esa persona y del sector político que venga. Una persona que está en etapa terminal, o que tiene sus facultades mentales tan perturbadas que ni siquiera recuerda el horror que cometió, debe morir acompañado de la familia \", argumentó la diputada Ximena Ossandón (RN) . \"Justicia no es venganza . Esta es una buena oportunidad para que Chile avance en humanidad \", señaló la vicepresidenta de la Cámara. FA: \"Una ofensa a la democracia\" Desde la oposición, el diputado Jaime Bassa (FA) manifestó su preocupación ante el precedente que este tipo de discusiones pudiera abrir la posibilidad de beneficiar a condenados por violaciones a los derechos humanos . \"Ni siquiera los más graves delitos comunes, como un asesinato, pueden compararse con los delitos de lesa humanidad. Aliste Vega no recibió indulto presidencial y esperamos que tampoco lo reciban aquellos violadores de derechos humanos que han cometido los crímenes más graves que conoce nuestra historia\", aseveró el parlamentario. \"Indultarlos es una ofensa a la sociedad, es una ofensiva a la democracia, no solo a sus víctimas. Y esperamos que tanto el Presidente y el Gobierno no cometa tremenda injusticia \", puntualizó el abogado. Respecto a las medidas preventivas para el funeral de Aliste Vega, el ministro de Seguridad, Martín Arrau, aseguró que se están adoptando resguardos, pero que no se espera un eventual funeral de alto riesgo.",
+          "url": "https://www.cooperativa.cl/noticias/pais/dd-hh/oposicion-rechaza-indultar-condenados-por-dd-hh-ante-presion-del/2026-10-12/140739.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261012/imag/foto_0000000220261012140739.jpeg",
+          "published_raw": "Mon, 12 Oct 2026 14:07:39 -0300",
+          "published_at": "2026-10-12T14:07:39-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 3,
+          "score_institutional": 6,
           "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
+          "score_international": 1,
+          "score_conflict": 1,
+          "score_policy": 1,
           "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
+          "score_actor": 6,
+          "score_noise": 1,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 14,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-004"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-029",
+      "cluster_id": "PML-EVENT-026",
       "title": "Abdul El-Sayed, la apuesta más arriesgada de los demócratas para las elecciones: “Habrá que exigir responsabilidades a Trump por todo el mal que ha hecho”",
       "url": "https://elpais.com/us/2026-10-11/abdul-el-sayed-la-apuesta-mas-arriesgada-de-los-democratas-para-las-elecciones-habra-que-exigir-responsabilidades-a-trump-por-todo-el-mal-que-ha-hecho.html",
       "representative_source": "EL PAÍS",
@@ -329,15 +329,15 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
+          "cluster_id": "PML-EVENT-026"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-004",
-      "title": "Oposición rechaza indultar condenados por DD.HH ante presión del oficialismo tras muerte de Aliste",
-      "url": "https://www.cooperativa.cl/noticias/pais/dd-hh/oposicion-rechaza-indultar-condenados-por-dd-hh-ante-presion-del/2026-10-12/140739.html",
+      "cluster_id": "PML-EVENT-006",
+      "title": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/reforma-de-seguridad-divide-al-socialismo-democratico-araya-cuestiona/2026-10-11/144117.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -346,12 +346,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 65.4,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 59.4
+        "score": 60,
+        "level": "MEDIA",
+        "editorial_utility": 54
       },
       "selection": {
-        "reason": "PML 65.4; diversidad relajada para completar el brief",
+        "reason": "PML 60; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -361,15 +361,12 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-10-12T14:07:39-0300",
-      "last_seen": "2026-10-12T14:07:39-0300",
-      "entities": "chile",
-      "event_terms": [
-        "oposicion",
-        "hospitales"
-      ],
+      "first_seen": "2026-10-11T14:41:17-0300",
+      "last_seen": "2026-10-11T14:41:17-0300",
+      "entities": [],
+      "event_terms": [],
       "analysis": {
-        "summary": "El reciente fallecimiento de Juan Aliste vega , exlautarista  condenado a 42 años de cárcel por el aseisnato del cabo de Carabineros Luis Moyano , volvió a encender el debate por los indultos por razones humanitarias , luego que sectores del oficialismo se mostraran dispuestos a evaluar su caso y plantearan aplicar el mismo criterio para condenados por violaciones a los derechos humanos .",
+        "summary": "El senador PPD Pedro Araya cuestionó al Partido Socialista (PS) por su decisión de rechazar la nueva reforma constitucional de seguridad propuesta por él y otros senadores en reemplazo a la iniciativa del Gobierno, calificando la postura de la tienda como una \"mala señal\".",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -382,30 +379,30 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Oposición rechaza indultar condenados por DD.HH ante presión del oficialismo tras muerte de Aliste",
-          "description": "El reciente fallecimiento de Juan Aliste vega , exlautarista  condenado a 42 años de cárcel por el aseisnato del cabo de Carabineros Luis Moyano , volvió a encender el debate por los indultos por razones humanitarias , luego que sectores del oficialismo se mostraran dispuestos a evaluar su caso y plantearan aplicar el mismo criterio para condenados por violaciones a los derechos humanos . La muerte de Aliste se produjo este domingo, a solo días de haber solicitado un indulto humanitario al Presidente José Antonio Kast debido a que padecía un cáncer terminal con metástasis. El recluso permanecía internado en el Hospital Penitenciario de Santiago . Ante su delicado estado de salud, su defensa solicitó formalmente a los tribunales que pudiera pasar sus últimos días en su domicilio junto a su esposa e hijos . Sin embargo, dicha petición fue rechazada tanto por el Séptimo Juzgado de Garantía de Santiago como por la Corte Suprema . \"Cuando se hizo la solicitud de indulto, era porque (Aliste) entró a una fase mucho más complicada (de su enfermedad). De hecho, cuando se cierra la primera posibilidad, o una de las posibilidades donde se decide hacer esta presentación de indulto, para él nunca fue una prioridad\", explicó su abogado, Ricardo Bravo. \"Él estaba desde hace bastantes meses en el hospital penitenciario, no puede existir un peligro para la seguridad de la sociedad y eso es una crítica que yo constantemente he hecho. Aquí hay una discusión más importante , que no he escuchado a ningún actor político hablar: ¿Por qué Juan Aliste llegó en ese estado de salud sin poder ser tratado en estas condiciones? \", enfatizó el defensor. Debate por indultos humanitarios La solicitud y posterior muerte de Aliste abrieron una amplia discusión sobre la procedencia de los indultos por enfermedades terminales . El Partido Republicano había respaldado previamente su requerimiento -apuntando a un indulto humanitario de carácter transversal-, mientras que en Chile Vamos se desprenden posturas similares. [Lea también] Tras presión del oficialismo: Kast afirma que indultos y plan de seguridad \"van por carriles separados\" \"Los indultos deben verse caso a caso , independientemente del crimen que haya cometido esa persona y del sector político que venga. Una persona que está en etapa terminal, o que tiene sus facultades mentales tan perturbadas que ni siquiera recuerda el horror que cometió, debe morir acompañado de la familia \", argumentó la diputada Ximena Ossandón (RN) . \"Justicia no es venganza . Esta es una buena oportunidad para que Chile avance en humanidad \", señaló la vicepresidenta de la Cámara. FA: \"Una ofensa a la democracia\" Desde la oposición, el diputado Jaime Bassa (FA) manifestó su preocupación ante el precedente que este tipo de discusiones pudiera abrir la posibilidad de beneficiar a condenados por violaciones a los derechos humanos . \"Ni siquiera los más graves delitos comunes, como un asesinato, pueden compararse con los delitos de lesa humanidad. Aliste Vega no recibió indulto presidencial y esperamos que tampoco lo reciban aquellos violadores de derechos humanos que han cometido los crímenes más graves que conoce nuestra historia\", aseveró el parlamentario. \"Indultarlos es una ofensa a la sociedad, es una ofensiva a la democracia, no solo a sus víctimas. Y esperamos que tanto el Presidente y el Gobierno no cometa tremenda injusticia \", puntualizó el abogado. Respecto a las medidas preventivas para el funeral de Aliste Vega, el ministro de Seguridad, Martín Arrau, aseguró que se están adoptando resguardos, pero que no se espera un eventual funeral de alto riesgo.",
-          "url": "https://www.cooperativa.cl/noticias/pais/dd-hh/oposicion-rechaza-indultar-condenados-por-dd-hh-ante-presion-del/2026-10-12/140739.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261012/imag/foto_0000000220261012140739.jpeg",
-          "published_raw": "Mon, 12 Oct 2026 14:07:39 -0300",
-          "published_at": "2026-10-12T14:07:39-0300",
+          "title": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS",
+          "description": "El senador PPD Pedro Araya cuestionó al Partido Socialista (PS) por su decisión de rechazar la nueva reforma constitucional de seguridad propuesta por él y otros senadores en reemplazo a la iniciativa del Gobierno, calificando la postura de la tienda como una \"mala señal\". La moción que ingresaron los parlamentarios Araya, Arturo Squella (Republicanos), Andrés Longton (RN), Iván Flores (DC) y Karim Bianchi (independiente) excluye la polémica creación de un nuevo estado de excepción para combatir al crimen organizado y, en su lugar, modifica el actual estado de emergencia para permitir reacciones preventivas a amenazas graves. Además, plantea elevar a rango constitucional el combate al crimen organizado y el establecimiento de regímenes penitenciarios especiales para personas condenadas por delitos de crimen organizado y terrorismo. Sin embargo, el viernes, el Comité Central socialista emitió un escrito señalando que no apoyarán la reforma, debido a que -afirmó- amplía las causales para decretar el estado de emergencia para combatir al crimen organizado y permite restringir derechos frente a amenazas inminentes que aún no se han concretado. \"Espero que reflexionen\" Ante esto, Araya expresó que los tres puntos mencionados que sugieren como senadores \"son muy razonables y están muy lejos de ser la reforma inicial que había presentado el Presidente Kast\".   \"Por eso yo espero que los parlamentarios reflexionen, puedan leer el texto y, una vez que lo hayan leído, nos puedan hacer las críticas técnicas y decirnos 'mira, no nos gusta esto y esto otro'. Pero de ahí a entrar a rechazar de buenas a primeras, creo que es una muy mala señal\",  fustigó. \"Lo único que se fortalece con esto es el crimen organizado, que ve cómo el mundo político no es capaz de ponerse de acuerdo en la manera en que se fortalece al Estado para enfrentarlos\", sostuvo el militante PPD.  En paralelo, desde el Gobierno hubo llamados similares. Durante una entrevista con El Mercurio, el biministro del Interior y de la Segegob, Claudio Alvarado, pidió al Socialismo Democrático a aprobar la reforma,  ya que \"si opera el sentido común y la lógica, en temas de seguridad deberían tener el mismo comportamiento que tuvieron con el Gobierno anterior\". Las diferencias del PS con el Soc. Democrático En tanto, el senador socialista Juan Luis Castro profundizó los reparos que su partido tiene contra la reforma constitucional de seguridad propuesta.  \"Las diferencias que tenemos desde el Socialismo Democrático son tres, básicamente: primero, no vemos la necesidad de ir a cambiar la Constitución para mejorar el combate al crimen organizado. Hacerlo no cambia el destino de Carabineros fallecidos, ni causa el desbaratamiento de bandas del narcotráfico o el levantamiento del secreto bancario, que son cosas distintas\", indicó.  \"Segundo, en las cárceles estamos dispuestos a que haya, por ley -y no por la Constitución-, segregación como hoy ya está sucediendo en las de alta seguridad; y tercero,  el estado actual de emergencia, que existe como un estado de excepción, es el instrumento privilegiado y no necesita introducírsele la sospecha, amenaza o posibilidad de una nueva realidad para invocarlo\",  argumentó Castro.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/reforma-de-seguridad-divide-al-socialismo-democratico-araya-cuestiona/2026-10-11/144117.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011144117.png",
+          "published_raw": "Sun, 11 Oct 2026 14:41:17 -0300",
+          "published_at": "2026-10-11T14:41:17-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 6,
+          "score_institutional": 5,
           "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 1,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 6,
-          "score_noise": 1,
+          "score_international": 0,
+          "score_conflict": 4,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 3,
+          "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 14,
+          "political_evidence": 13,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
+          "cluster_id": "PML-EVENT-006"
         }
       ]
     }
@@ -418,78 +415,6 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-006",
-        "title": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/reforma-de-seguridad-divide-al-socialismo-democratico-araya-cuestiona/2026-10-11/144117.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 60,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 86,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 42
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-11T14:41:17-0300",
-        "last_seen": "2026-10-11T14:41:17-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS",
-            "description": "El senador PPD Pedro Araya cuestionó al Partido Socialista (PS) por su decisión de rechazar la nueva reforma constitucional de seguridad propuesta por él y otros senadores en reemplazo a la iniciativa del Gobierno, calificando la postura de la tienda como una \"mala señal\". La moción que ingresaron los parlamentarios Araya, Arturo Squella (Republicanos), Andrés Longton (RN), Iván Flores (DC) y Karim Bianchi (independiente) excluye la polémica creación de un nuevo estado de excepción para combatir al crimen organizado y, en su lugar, modifica el actual estado de emergencia para permitir reacciones preventivas a amenazas graves. Además, plantea elevar a rango constitucional el combate al crimen organizado y el establecimiento de regímenes penitenciarios especiales para personas condenadas por delitos de crimen organizado y terrorismo. Sin embargo, el viernes, el Comité Central socialista emitió un escrito señalando que no apoyarán la reforma, debido a que -afirmó- amplía las causales para decretar el estado de emergencia para combatir al crimen organizado y permite restringir derechos frente a amenazas inminentes que aún no se han concretado. \"Espero que reflexionen\" Ante esto, Araya expresó que los tres puntos mencionados que sugieren como senadores \"son muy razonables y están muy lejos de ser la reforma inicial que había presentado el Presidente Kast\".   \"Por eso yo espero que los parlamentarios reflexionen, puedan leer el texto y, una vez que lo hayan leído, nos puedan hacer las críticas técnicas y decirnos 'mira, no nos gusta esto y esto otro'. Pero de ahí a entrar a rechazar de buenas a primeras, creo que es una muy mala señal\",  fustigó. \"Lo único que se fortalece con esto es el crimen organizado, que ve cómo el mundo político no es capaz de ponerse de acuerdo en la manera en que se fortalece al Estado para enfrentarlos\", sostuvo el militante PPD.  En paralelo, desde el Gobierno hubo llamados similares. Durante una entrevista con El Mercurio, el biministro del Interior y de la Segegob, Claudio Alvarado, pidió al Socialismo Democrático a aprobar la reforma,  ya que \"si opera el sentido común y la lógica, en temas de seguridad deberían tener el mismo comportamiento que tuvieron con el Gobierno anterior\". Las diferencias del PS con el Soc. Democrático En tanto, el senador socialista Juan Luis Castro profundizó los reparos que su partido tiene contra la reforma constitucional de seguridad propuesta.  \"Las diferencias que tenemos desde el Socialismo Democrático son tres, básicamente: primero, no vemos la necesidad de ir a cambiar la Constitución para mejorar el combate al crimen organizado. Hacerlo no cambia el destino de Carabineros fallecidos, ni causa el desbaratamiento de bandas del narcotráfico o el levantamiento del secreto bancario, que son cosas distintas\", indicó.  \"Segundo, en las cárceles estamos dispuestos a que haya, por ley -y no por la Constitución-, segregación como hoy ya está sucediendo en las de alta seguridad; y tercero,  el estado actual de emergencia, que existe como un estado de excepción, es el instrumento privilegiado y no necesita introducírsele la sospecha, amenaza o posibilidad de una nueva realidad para invocarlo\",  argumentó Castro.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/reforma-de-seguridad-divide-al-socialismo-democratico-araya-cuestiona/2026-10-11/144117.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011144117.png",
-            "published_raw": "Sun, 11 Oct 2026 14:41:17 -0300",
-            "published_at": "2026-10-11T14:41:17-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 5,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 4,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 13,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 82
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
         "cluster_id": "PML-EVENT-009",
         "title": "Bachelet sería mejor candidata que Boric, afirman en Cadem los identificados con el progresismo",
         "topic": "Elecciones y opinión pública",
@@ -554,6 +479,75 @@
           "bonus": 10,
           "labels": "Elecciones y opinión pública",
           "chile_utility": 62.8
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-012",
+        "title": "Criteria: Aprobación de Kast cae al 27% y desaprobación aumenta al 64%",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/criteria-aprobacion-de-kast-cae-al-27-y-desaprobacion-aumenta-al-64/2026-10-11/153234.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 50.5,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 51,
+            "freshness": 72,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-11T15:32:34-0300",
+        "last_seen": "2026-10-11T15:32:34-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Criteria: Aprobación de Kast cae al 27% y desaprobación aumenta al 64%",
+            "description": "La aprobación del Presidente José Antonio Kast se desplomó al 27% tras caer en tres puntos porcentuales respecto a la medición anterior , según los resultados de la última edición de la encuesta Criteria, publicada este domingo . Asimismo, el sondeo reveló que la desaprobación del Mandatario aumentó en cuatro puntos porcentuajes y se ubicó en un 64% , mientras que un 9% de los chilenos declaró no saber (-1pp). Los índices son similares a los divulgados esta semana por la encuesta Cadem , que ubicaron la aprobación del exrepublicano entre el 27% y 32% , ante un grupo de menos del 10% que expresó no saber. Fuerte caída desde el inicio del Gobierno Kast, quien inició su actual Administración el pasado 11 de marzo, llegó al poder con una aprobación de cerca del 57%,  mientras que menos del 30% lo desaprobaba . Durante sus siete meses de gestión, el panorama económico del país también cayó en indicadores que muestran una proyección de crecimiento para 2026 en un rango de entre 0,25 % y 0,75 % , según el Banco Central. La tasa de desempleo , por otra parte, alcanzó un 9,6% en el trimestre junio-agosto , su máximo en cinco años, informó el Instituto Nacional de Estadísticas (INE). En medio de este escenario marcado por la contracción productiva, Chile atravesó una crisis climática debido a una serie de temporales, influidos por el fenómeno de El Niño , que han ocasionado desastres naturales en 10 de las 16 regiones. Caen las expectativas La encuesta Criteria, con un panel online de 802 casos, entre los días 8 y 9 de octubre, también identificó que solo para el 18% de los encuestados la gestión del Gobierno  ha superado sus expectativas. Para el 82% , en cambio, ha estado por debajo de lo que esperaban. Con una Ley de Presupuesto para 2027 ya ingresada en el Congreso, y que comenzará a discutirse dentro de una semana, la mayoría de los chilenos siguen considerando que el Estado gasta sus recursos de forma \"más bien ineficiente\" con un 58% de los consultados. El proyecto de Kast implica recortes en el gasto público , que han generado rechazo y algunas manifestaciones. Sin embargo, según la encuesta, el 52% afirmó estar de acuerdo con disminuir el número de funcionarios públicos. Los encuestados, no obstante, manifestaron estár menos conformes con la idea de que la reducción implique sacrificar programas sociales , ya anunciados por Kast, con solo un 19% que se muestra abierto a que se realicen. Apenas un 8%, en tanto, señaló estar de acuerdo con la disminución de bonos y subsidios.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/criteria-aprobacion-de-kast-cae-al-27-y-desaprobacion-aumenta-al-64/2026-10-11/153234.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011153234.jpg",
+            "published_raw": "Sun, 11 Oct 2026 15:32:34 -0300",
+            "published_at": "2026-10-11T15:32:34-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 4,
+            "score_elections": 2,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 3,
+            "score_ideology": 0,
+            "score_actor": 1,
+            "score_noise": 1,
+            "score_accident": 0,
+            "political_evidence": 10,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-012"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 59.5
         },
         "repeated_in_general_top5": false
       },
@@ -631,7 +625,7 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 20,
+      "event_count": 17,
       "maximum_relevance": 69.3,
       "leading_story": "De Urresti cuestiona estrategia del Gobierno por reforma de seguridad: \"Pan para hoy y hambre para mañana\""
     },
