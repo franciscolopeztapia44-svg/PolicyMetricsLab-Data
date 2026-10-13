@@ -3,35 +3,327 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-10-12",
-    "data_latest_timestamp": "2026-10-12T14:30:42-0300",
-    "data_age_hours": 12.9,
-    "generated_at": "2026-10-13T03:23:06-0300",
+    "date": "2026-10-13",
+    "data_latest_timestamp": "2026-10-13T14:59:43-0300",
+    "data_age_hours": 0.4,
+    "generated_at": "2026-10-13T15:22:34-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": false
+    "editorial_topic_diversity_met": true
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 31 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 4 temas, 3 áreas geográficas y 5 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 31,
-    "topics": 2,
+    "ranked_events": 35,
+    "topics": 4,
     "geographies": 3,
-    "representative_sources": 3,
-    "average_top5_relevance": 60.6,
-    "maximum_relevance": 69.3
+    "representative_sources": 2,
+    "average_top5_relevance": 60.7,
+    "maximum_relevance": 63
   },
   "top_stories": [
     {
       "position": 1,
+      "cluster_id": "PML-EVENT-025",
+      "title": "La embajadora de Estados Unidos en Grecia dimite por corrupción presionada por Trump",
+      "url": "https://elpais.com/us/2026-10-13/la-embajadora-de-estados-unidos-en-grecia-dimite-por-corrupcion-presionada-por-trump.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 63,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 63
+      },
+      "selection": {
+        "reason": "PML 63",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-13T13:19:53-0300",
+      "last_seen": "2026-10-13T13:19:53-0300",
+      "entities": "trump",
+      "event_terms": [],
+      "analysis": {
+        "summary": "Kimberly Guilfoyle, exprometida del primogénito del presidente de Estados Unidos, deja su puesto después de la publicación de varios escándalos destapados por ‘The Wall Street Journal’",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "La embajadora de Estados Unidos en Grecia dimite por corrupción presionada por Trump",
+          "description": "Kimberly Guilfoyle, exprometida del primogénito del presidente de Estados Unidos, deja su puesto después de la publicación de varios escándalos destapados por ‘The Wall Street Journal’",
+          "url": "https://elpais.com/us/2026-10-13/la-embajadora-de-estados-unidos-en-grecia-dimite-por-corrupcion-presionada-por-trump.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/P32KJQYZYVOK7GHUUR5K2GA4GU.jpg?auth=351f3359e6bb3d3c796a1a05c7498821b5acf96f4d1cc72b47da5e3e26b0fc57",
+          "published_raw": "Tue, 13 Oct 2026 16:19:53 GMT",
+          "published_at": "2026-10-13T13:19:53-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 1,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-025"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-024",
+      "title": "La inteligencia británica asegura que Irán ha dado un giro en su guerra híbrida para incluir objetivos militares",
+      "url": "https://elpais.com/internacional/2026-10-13/la-inteligencia-britanica-asegura-que-iran-ha-dado-un-giro-en-su-guerra-hibrida-para-incluir-objetivos-militares.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Conflictos y seguridad",
+      "event_type": "POLITICAL_STATEMENT",
+      "geography": {
+        "group": "Internacional",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 60,
+        "level": "MEDIA",
+        "editorial_utility": 72
+      },
+      "selection": {
+        "reason": "PML 60; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-13T14:59:43-0300",
+      "last_seen": "2026-10-13T14:59:43-0300",
+      "entities": "iran",
+      "event_terms": "guerra",
+      "analysis": {
+        "summary": "El director del MI5, Ken McCallum, señala expresamente el intento de atentado contra la base aérea de Fairford",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "La inteligencia británica asegura que Irán ha dado un giro en su guerra híbrida para incluir objetivos militares",
+          "description": "El director del MI5, Ken McCallum, señala expresamente el intento de atentado contra la base aérea de Fairford",
+          "url": "https://elpais.com/internacional/2026-10-13/la-inteligencia-britanica-asegura-que-iran-ha-dado-un-giro-en-su-guerra-hibrida-para-incluir-objetivos-militares.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/V3CYX72REBNITCH3BACZSIBJNE.jpg?auth=7608af900b196bb152d6a183d0c9c1368b2beb37297af671a3d53fd862edf568",
+          "published_raw": "Tue, 13 Oct 2026 17:59:43 GMT",
+          "published_at": "2026-10-13T14:59:43-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 3,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-024"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-022",
+      "title": "Un ataque con drones hunde un carguero frente a la costa de Bulgaria, el segundo en una semana",
+      "url": "https://elpais.com/internacional/2026-10-13/un-ataque-con-drones-hunde-un-carguero-frente-a-la-costa-de-bulgaria-el-segundo-en-una-semana.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Relaciones internacionales",
+      "event_type": "CONFLICT_ESCALATION",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 61.4,
+        "level": "MEDIA",
+        "editorial_utility": 69.4
+      },
+      "selection": {
+        "reason": "PML 61.4; aporta diversidad temática; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-13T06:17:03-0300",
+      "last_seen": "2026-10-13T06:17:03-0300",
+      "entities": "otan",
+      "event_terms": "ataque",
+      "analysis": {
+        "summary": "El primer ministro búlgaro, Rumen Radev, convoca a la embajadora rusa y pide a la OTAN ayuda urgente para vigilar el mar Negro",
+        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
+          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Un ataque con drones hunde un carguero frente a la costa de Bulgaria, el segundo en una semana",
+          "description": "El primer ministro búlgaro, Rumen Radev, convoca a la embajadora rusa y pide a la OTAN ayuda urgente para vigilar el mar Negro",
+          "url": "https://elpais.com/internacional/2026-10-13/un-ataque-con-drones-hunde-un-carguero-frente-a-la-costa-de-bulgaria-el-segundo-en-una-semana.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/ZUXKCCI4BJDUZIXY6IJ6BITI6M.JPG?auth=4a6748d11aaf4119a8fd774cf034cb7892730106289c1cfd023ec20614d745c6",
+          "published_raw": "Tue, 13 Oct 2026 09:17:03 GMT",
+          "published_at": "2026-10-13T06:17:03-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 2,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Relaciones internacionales",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-022"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-029",
+      "title": "Elon Musk ha donado 276 millones de dólares a grupos republicanos para las elecciones de medio término",
+      "url": "https://elpais.com/us/2026-10-12/elon-musk-ha-donado-276-millones-de-dolares-a-grupos-republicanos-para-las-elecciones-de-medio-termino.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 59.5,
+        "level": "MEDIA",
+        "editorial_utility": 67.5
+      },
+      "selection": {
+        "reason": "PML 59.5; aporta diversidad temática; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-12T16:54:01-0300",
+      "last_seen": "2026-10-12T16:54:01-0300",
+      "entities": [],
+      "event_terms": "eleccion",
+      "analysis": {
+        "summary": "Pese a haber declarado que reduciría su gasto político, los donativos del empresario durante las ‘midterms’ ya superan los que realizó durante la campaña electoral de 2024",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Elon Musk ha donado 276 millones de dólares a grupos republicanos para las elecciones de medio término",
+          "description": "Pese a haber declarado que reduciría su gasto político, los donativos del empresario durante las ‘midterms’ ya superan los que realizó durante la campaña electoral de 2024",
+          "url": "https://elpais.com/us/2026-10-12/elon-musk-ha-donado-276-millones-de-dolares-a-grupos-republicanos-para-las-elecciones-de-medio-termino.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/IUNWXF2WCRKJ3HXFDYYDFBLKYU.jpg?auth=025c698353b60836ccc075ffb081d549c5535f29782629c6bc72e1479c85d398",
+          "published_raw": "Mon, 12 Oct 2026 19:54:01 GMT",
+          "published_at": "2026-10-12T16:54:01-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 3,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-029"
+        }
+      ]
+    },
+    {
+      "position": 5,
       "cluster_id": "PML-EVENT-001",
       "title": "De Urresti cuestiona estrategia del Gobierno por reforma de seguridad: \"Pan para hoy y hambre para mañana\"",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/de-urresti-cuestiona-estrategia-del-gobierno-por-reforma-de-seguridad/2026-10-12/123341.html",
@@ -43,12 +335,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 69.3,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 69.3
+        "score": 59.8,
+        "level": "MEDIA",
+        "editorial_utility": 62.8
       },
       "selection": {
-        "reason": "PML 69.3",
+        "reason": "PML 59.8; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -106,305 +398,6 @@
           "cluster_id": "PML-EVENT-001"
         }
       ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-016",
-      "title": "¿Lula dijo que dará un golpe de Estado si gana Bolsonaro en las elecciones de Brasil?",
-      "url": "https://www.france24.com/es/programas/des-informando/20261012-lula-dijo-que-dar%C3%A1-un-golpe-de-estado-si-gana-bolsonaro-en-las-elecciones-de-brasil",
-      "representative_source": "France 24",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "POLITICAL_STATEMENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Brasil / América Latina"
-      },
-      "relevance": {
-        "score": 56.9,
-        "level": "MEDIA",
-        "editorial_utility": 68.9
-      },
-      "selection": {
-        "reason": "PML 56.9; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-10-12T11:08:23-0300",
-      "last_seen": "2026-10-12T11:08:23-0300",
-      "entities": [
-        "lula",
-        "bolsonaro",
-        "brasil"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "En redes sociales, usuarios han publicado videos en portugués asegurando que el presidente y candidato a la reelección, Luiz Inácio Lula da Silva, habría prometido dar un golpe de Estado si su contrincante de la ultraderecha, Flávio Bolsonaro, es electo como presidente.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "¿Lula dijo que dará un golpe de Estado si gana Bolsonaro en las elecciones de Brasil?",
-          "description": "En redes sociales, usuarios han publicado videos en portugués asegurando que el presidente y candidato a la reelección, Luiz Inácio Lula da Silva, habría prometido dar un golpe de Estado si su contrincante de la ultraderecha, Flávio Bolsonaro, es electo como presidente. El video, que utiliza la imagen de un reconocido periodista de ‘CNN Brasil’, es falso y constituye una deepfake: es decir, utiliza la imagen y el espectro de voz del reconocido comunicador, para simular que él daba una información de un presunto golpe de Estado.",
-          "url": "https://www.france24.com/es/programas/des-informando/20261012-lula-dijo-que-dar%C3%A1-un-golpe-de-estado-si-gana-bolsonaro-en-las-elecciones-de-brasil",
-          "image_url": "https://s.france24.com/media/display/862718ce-c3fa-11f1-a7d2-3774aeac812a/w:1024/p:16x9/IVS-DESINFO-PORTADA-WEB-00623-5.png",
-          "published_raw": "Mon, 12 Oct 2026 14:08:23 GMT",
-          "published_at": "2026-10-12T11:08:23-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-016"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-004",
-      "title": "Oposición rechaza indultar condenados por DD.HH ante presión del oficialismo tras muerte de Aliste",
-      "url": "https://www.cooperativa.cl/noticias/pais/dd-hh/oposicion-rechaza-indultar-condenados-por-dd-hh-ante-presion-del/2026-10-12/140739.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 65.4,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 60.4
-      },
-      "selection": {
-        "reason": "PML 65.4",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-10-12T14:07:39-0300",
-      "last_seen": "2026-10-12T14:07:39-0300",
-      "entities": "chile",
-      "event_terms": [
-        "oposicion",
-        "hospitales"
-      ],
-      "analysis": {
-        "summary": "El reciente fallecimiento de Juan Aliste vega , exlautarista  condenado a 42 años de cárcel por el aseisnato del cabo de Carabineros Luis Moyano , volvió a encender el debate por los indultos por razones humanitarias , luego que sectores del oficialismo se mostraran dispuestos a evaluar su caso y plantearan aplicar el mismo criterio para condenados por violaciones a los derechos humanos .",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Oposición rechaza indultar condenados por DD.HH ante presión del oficialismo tras muerte de Aliste",
-          "description": "El reciente fallecimiento de Juan Aliste vega , exlautarista  condenado a 42 años de cárcel por el aseisnato del cabo de Carabineros Luis Moyano , volvió a encender el debate por los indultos por razones humanitarias , luego que sectores del oficialismo se mostraran dispuestos a evaluar su caso y plantearan aplicar el mismo criterio para condenados por violaciones a los derechos humanos . La muerte de Aliste se produjo este domingo, a solo días de haber solicitado un indulto humanitario al Presidente José Antonio Kast debido a que padecía un cáncer terminal con metástasis. El recluso permanecía internado en el Hospital Penitenciario de Santiago . Ante su delicado estado de salud, su defensa solicitó formalmente a los tribunales que pudiera pasar sus últimos días en su domicilio junto a su esposa e hijos . Sin embargo, dicha petición fue rechazada tanto por el Séptimo Juzgado de Garantía de Santiago como por la Corte Suprema . \"Cuando se hizo la solicitud de indulto, era porque (Aliste) entró a una fase mucho más complicada (de su enfermedad). De hecho, cuando se cierra la primera posibilidad, o una de las posibilidades donde se decide hacer esta presentación de indulto, para él nunca fue una prioridad\", explicó su abogado, Ricardo Bravo. \"Él estaba desde hace bastantes meses en el hospital penitenciario, no puede existir un peligro para la seguridad de la sociedad y eso es una crítica que yo constantemente he hecho. Aquí hay una discusión más importante , que no he escuchado a ningún actor político hablar: ¿Por qué Juan Aliste llegó en ese estado de salud sin poder ser tratado en estas condiciones? \", enfatizó el defensor. Debate por indultos humanitarios La solicitud y posterior muerte de Aliste abrieron una amplia discusión sobre la procedencia de los indultos por enfermedades terminales . El Partido Republicano había respaldado previamente su requerimiento -apuntando a un indulto humanitario de carácter transversal-, mientras que en Chile Vamos se desprenden posturas similares. [Lea también] Tras presión del oficialismo: Kast afirma que indultos y plan de seguridad \"van por carriles separados\" \"Los indultos deben verse caso a caso , independientemente del crimen que haya cometido esa persona y del sector político que venga. Una persona que está en etapa terminal, o que tiene sus facultades mentales tan perturbadas que ni siquiera recuerda el horror que cometió, debe morir acompañado de la familia \", argumentó la diputada Ximena Ossandón (RN) . \"Justicia no es venganza . Esta es una buena oportunidad para que Chile avance en humanidad \", señaló la vicepresidenta de la Cámara. FA: \"Una ofensa a la democracia\" Desde la oposición, el diputado Jaime Bassa (FA) manifestó su preocupación ante el precedente que este tipo de discusiones pudiera abrir la posibilidad de beneficiar a condenados por violaciones a los derechos humanos . \"Ni siquiera los más graves delitos comunes, como un asesinato, pueden compararse con los delitos de lesa humanidad. Aliste Vega no recibió indulto presidencial y esperamos que tampoco lo reciban aquellos violadores de derechos humanos que han cometido los crímenes más graves que conoce nuestra historia\", aseveró el parlamentario. \"Indultarlos es una ofensa a la sociedad, es una ofensiva a la democracia, no solo a sus víctimas. Y esperamos que tanto el Presidente y el Gobierno no cometa tremenda injusticia \", puntualizó el abogado. Respecto a las medidas preventivas para el funeral de Aliste Vega, el ministro de Seguridad, Martín Arrau, aseguró que se están adoptando resguardos, pero que no se espera un eventual funeral de alto riesgo.",
-          "url": "https://www.cooperativa.cl/noticias/pais/dd-hh/oposicion-rechaza-indultar-condenados-por-dd-hh-ante-presion-del/2026-10-12/140739.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261012/imag/foto_0000000220261012140739.jpeg",
-          "published_raw": "Mon, 12 Oct 2026 14:07:39 -0300",
-          "published_at": "2026-10-12T14:07:39-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 1,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 6,
-          "score_noise": 1,
-          "score_accident": 0,
-          "political_evidence": 14,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-026",
-      "title": "Abdul El-Sayed, la apuesta más arriesgada de los demócratas para las elecciones: “Habrá que exigir responsabilidades a Trump por todo el mal que ha hecho”",
-      "url": "https://elpais.com/us/2026-10-11/abdul-el-sayed-la-apuesta-mas-arriesgada-de-los-democratas-para-las-elecciones-habra-que-exigir-responsabilidades-a-trump-por-todo-el-mal-que-ha-hecho.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 51.3,
-        "level": "BAJA",
-        "editorial_utility": 54.3
-      },
-      "selection": {
-        "reason": "PML 51.3; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-11T01:00:00-0300",
-      "last_seen": "2026-10-11T01:00:00-0300",
-      "entities": "trump",
-      "event_terms": [],
-      "analysis": {
-        "summary": "El político de Míchigan, que ha revolucionado la campaña con su perfil progresista y aspira a ser el primer senador musulmán, responde en EL PAÍS a los ataques republicanos: “Quieren un país más pequeño, pero yo quiero que quepamos todos”",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Abdul El-Sayed, la apuesta más arriesgada de los demócratas para las elecciones: “Habrá que exigir responsabilidades a Trump por todo el mal que ha hecho”",
-          "description": "El político de Míchigan, que ha revolucionado la campaña con su perfil progresista y aspira a ser el primer senador musulmán, responde en EL PAÍS a los ataques republicanos: “Quieren un país más pequeño, pero yo quiero que quepamos todos”",
-          "url": "https://elpais.com/us/2026-10-11/abdul-el-sayed-la-apuesta-mas-arriesgada-de-los-democratas-para-las-elecciones-habra-que-exigir-responsabilidades-a-trump-por-todo-el-mal-que-ha-hecho.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/FYG74JFC2VA2LIJDMFDXSRYEJA.JPG?auth=38f7dda4b58684c6b8e7ca33996a8b9b5257f97c61e3d8c29cd18a872fe382cd",
-          "published_raw": "Sun, 11 Oct 2026 04:00:00 GMT",
-          "published_at": "2026-10-11T01:00:00-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-006",
-      "title": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/reforma-de-seguridad-divide-al-socialismo-democratico-araya-cuestiona/2026-10-11/144117.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 60,
-        "level": "MEDIA",
-        "editorial_utility": 54
-      },
-      "selection": {
-        "reason": "PML 60; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-10-11T14:41:17-0300",
-      "last_seen": "2026-10-11T14:41:17-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "El senador PPD Pedro Araya cuestionó al Partido Socialista (PS) por su decisión de rechazar la nueva reforma constitucional de seguridad propuesta por él y otros senadores en reemplazo a la iniciativa del Gobierno, calificando la postura de la tienda como una \"mala señal\".",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS",
-          "description": "El senador PPD Pedro Araya cuestionó al Partido Socialista (PS) por su decisión de rechazar la nueva reforma constitucional de seguridad propuesta por él y otros senadores en reemplazo a la iniciativa del Gobierno, calificando la postura de la tienda como una \"mala señal\". La moción que ingresaron los parlamentarios Araya, Arturo Squella (Republicanos), Andrés Longton (RN), Iván Flores (DC) y Karim Bianchi (independiente) excluye la polémica creación de un nuevo estado de excepción para combatir al crimen organizado y, en su lugar, modifica el actual estado de emergencia para permitir reacciones preventivas a amenazas graves. Además, plantea elevar a rango constitucional el combate al crimen organizado y el establecimiento de regímenes penitenciarios especiales para personas condenadas por delitos de crimen organizado y terrorismo. Sin embargo, el viernes, el Comité Central socialista emitió un escrito señalando que no apoyarán la reforma, debido a que -afirmó- amplía las causales para decretar el estado de emergencia para combatir al crimen organizado y permite restringir derechos frente a amenazas inminentes que aún no se han concretado. \"Espero que reflexionen\" Ante esto, Araya expresó que los tres puntos mencionados que sugieren como senadores \"son muy razonables y están muy lejos de ser la reforma inicial que había presentado el Presidente Kast\".   \"Por eso yo espero que los parlamentarios reflexionen, puedan leer el texto y, una vez que lo hayan leído, nos puedan hacer las críticas técnicas y decirnos 'mira, no nos gusta esto y esto otro'. Pero de ahí a entrar a rechazar de buenas a primeras, creo que es una muy mala señal\",  fustigó. \"Lo único que se fortalece con esto es el crimen organizado, que ve cómo el mundo político no es capaz de ponerse de acuerdo en la manera en que se fortalece al Estado para enfrentarlos\", sostuvo el militante PPD.  En paralelo, desde el Gobierno hubo llamados similares. Durante una entrevista con El Mercurio, el biministro del Interior y de la Segegob, Claudio Alvarado, pidió al Socialismo Democrático a aprobar la reforma,  ya que \"si opera el sentido común y la lógica, en temas de seguridad deberían tener el mismo comportamiento que tuvieron con el Gobierno anterior\". Las diferencias del PS con el Soc. Democrático En tanto, el senador socialista Juan Luis Castro profundizó los reparos que su partido tiene contra la reforma constitucional de seguridad propuesta.  \"Las diferencias que tenemos desde el Socialismo Democrático son tres, básicamente: primero, no vemos la necesidad de ir a cambiar la Constitución para mejorar el combate al crimen organizado. Hacerlo no cambia el destino de Carabineros fallecidos, ni causa el desbaratamiento de bandas del narcotráfico o el levantamiento del secreto bancario, que son cosas distintas\", indicó.  \"Segundo, en las cárceles estamos dispuestos a que haya, por ley -y no por la Constitución-, segregación como hoy ya está sucediendo en las de alta seguridad; y tercero,  el estado actual de emergencia, que existe como un estado de excepción, es el instrumento privilegiado y no necesita introducírsele la sospecha, amenaza o posibilidad de una nueva realidad para invocarlo\",  argumentó Castro.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/reforma-de-seguridad-divide-al-socialismo-democratico-araya-cuestiona/2026-10-11/144117.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011144117.png",
-          "published_raw": "Sun, 11 Oct 2026 14:41:17 -0300",
-          "published_at": "2026-10-11T14:41:17-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 5,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 4,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 13,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-006"
-        }
-      ]
     }
   ],
   "chile_brief": {
@@ -415,25 +408,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-009",
-        "title": "Bachelet sería mejor candidata que Boric, afirman en Cadem los identificados con el progresismo",
-        "topic": "Elecciones y opinión pública",
+        "cluster_id": "PML-EVENT-006",
+        "title": "Timonel PPD: Todos queremos saber si Bachelet piensa ser candidata",
+        "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/bachelet-seria-mejor-candidata-que-boric-afirman-en-cadem-los/2026-10-11/203619.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/timonel-ppd-todos-queremos-saber-si-bachelet-piensa-ser-candidata/2026-10-13/104517.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.8,
+          "score": 56.9,
           "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 80,
+            "freshness": 95,
             "source_count": 30,
             "geographic_scope": 55,
-            "continuity": 32
+            "continuity": 36
           }
         },
         "coverage": {
@@ -441,67 +434,70 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-11T20:36:19-0300",
-        "last_seen": "2026-10-11T20:36:19-0300",
+        "first_seen": "2026-10-13T10:45:17-0300",
+        "last_seen": "2026-10-13T10:45:17-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Bachelet sería mejor candidata que Boric, afirman en Cadem los identificados con el progresismo",
-            "description": "La encuesta Cadem arrojó que aquellos que se identifican con la centroizquierda e izquierda política consideran que la exmandataria Michelle Bachelet sería mejor candidata presidencial que el anterior Jefe de Estado Gabriel Boric.  El sondeo cifró en 47% la inclinación por la histórica militante socialista , mientras que un 44% optó por la figura frenteamplista .  [Lea también]  Ignacio Walker: Bachelet y Boric son candidatos de izquierda; no convocan al centro Además, a nivel nacional, la encuesta situó a Bachelet como el principal personaje de la semana (37%)   y la principal líder de los partidos de centroizquierda e izquierda (29%),   seguida por Gabriel Boric con 19% y el alcalde de Maipú, Tomás Vodanovic, con 13%. Entre los identificados con la centroizquierda e izquierda, en tanto, el porcentaje de Bachelet respecto al liderazgo en el sector sube al 34%, mientras que el del expresidente Boric también se incrementa y alcanza el 32%. Respecto a la  imagen de figuras políticas, los cinco mejor evaluados son Vodanovic (60%), el alcalde de Ñuñoa, Sebastián Sichel (59%), Evelyn Matthei (59%), la alcaldesa de Viña del Mar, Macarena Ripamonti (56%, +3pts) y su par de Providencia, Jaime Belollio (53%). En tanto, el 51% tiene una imagen positiva de Bachelet y 47% de Boric. Por último, en la segunda semana de octubre, un 32% aprueba la gestión del Presidente Kast, mientras que un 64% la desaprueba. [Lea también]  \"¿Qué pasó?\": Kast pide evaluar \"políticas públicas\" ante un eventual Bachelet III",
-            "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/bachelet-seria-mejor-candidata-que-boric-afirman-en-cadem-los/2026-10-11/203619.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011203619.png",
-            "published_raw": "Sun, 11 Oct 2026 20:36:19 -0300",
-            "published_at": "2026-10-11T20:36:19-0300",
+            "title": "Timonel PPD: Todos queremos saber si Bachelet piensa ser candidata",
+            "description": "El presidente del PPD, Raúl Soto , comentó en El Primer Café el desayuno al que convocó Michelle Bachelet -para este día jueves, en la sede de su fundación, Horizonte Ciudadano- a los timoneles de los partidos de oposición.   El diputado dijo que la decisión de la exmandataria de abrir la puerta a una tercera candidatura presidencial  se da en un escenario en que el Gobierno de José Antonio Kast \"se está desfondando en su base de apoyo social y político, y la oposición está renaciendo , está reviviendo, está volviendo a posicionarse\". \"Qué rol va a jugar cada uno en ese nuevo escenario es lo que está por verse, pero evidentemente que un liderazgo tan importante como la Presidenta Bachelet siempre va a tener un rol de primer de primer orden\" , señaló Soto en Cooperativa. En este contexto, \" nosotros vamos a asistir con gusto a este desayuno que nos ha invitado en su fundación, donde yo creo que lo más relevante es conversar respecto del estado del país, ver la opinión de la Presidenta respecto de las distintas materias que se están discutiendo y sus posibles consecuencias en Chile\". Consultado por si le pedirán una aclaración respecto a sus dichos de la semana pasada, el timonel contestó: \" Por supuesto que sí. (Se) lo voy a preguntar. Yo creo que todos queremos saber aquello (si desea ser candidata), porque fue una declaración sorpresiva para muchos ; no la esperábamos, si bien había un contexto de regreso (suyo) a Chile, de regreso a la primera línea de la contingencia política\", y ejempo de ello fue el acto de desagravio realizado en La Pintana con toda la oposición , donde \"la arropamos, la apoyamos, pero (en ese minuto) no había ninguna señal en dirección a una nueva candidatura presidencial, como la hubo en esta entrevista\" de la semana pasada. \"Queremos, por cierto, conocer los alcances de aquello\" , enfatizó Soto. \"Ojalá no impida que surjan nuevos liderazgos\" Al mismo tiempo, el timonel apuntó que \"no hay que tener ansiedad, porque no es momento de estar hoy día definiendo candidaturas presidenciales . Queda mucho por delante y hay que ser prudentes\". \"Me parece que  el liderazgo de la Presidenta Bachelet debe estar sobre la mesa , el liderazgo del expresidente Boric debe estar por sobre la mesa (también) y yo espero que existan muchos otros más que vayan surgiendo: ojalá que esto (la opción de Bachelet) no impida que surjan también otros nuevos liderazgos , y ojalá que el progresismo el día de mañana tenga 10 candidatos presidenciales entre los cuales elegir en una gran primaria para competir con la derecha\", planteó. Dentro de dichas alternativas \"se me ocurren nombres como Claudio Orrego , como Tomás Vodanovic , como la propia Carolina Tohá ... Hay muchos otros que podrán estar, (...) no hay que descartar ninguno, pero las definiciones van a venir más adelante\", sentenció Soto en El Primer Café .",
+            "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/timonel-ppd-todos-queremos-saber-si-bachelet-piensa-ser-candidata/2026-10-13/104517.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261013/imag/foto_0000000220261013104517.jpg",
+            "published_raw": "Tue, 13 Oct 2026 10:45:17 -0300",
+            "published_at": "2026-10-13T10:45:17-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 1,
-            "score_elections": 4,
+            "score_institutional": 4,
+            "score_elections": 2,
             "score_international": 0,
             "score_conflict": 0,
             "score_policy": 0,
-            "score_ideology": 3,
-            "score_actor": 3,
+            "score_ideology": 1,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 11,
-            "primary_topic": "Elecciones y opinión pública",
-            "secondary_topic": "Ideología y competencia política",
+            "political_evidence": 12,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-009"
+            "cluster_id": "PML-EVENT-006"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 10,
-          "labels": "Elecciones y opinión pública",
-          "chile_utility": 62.8
+          "bonus": 19,
+          "labels": [
+            "Estado e instituciones",
+            "Elecciones y opinión pública"
+          ],
+          "chile_utility": 75.9
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-012",
-        "title": "Criteria: Aprobación de Kast cae al 27% y desaprobación aumenta al 64%",
+        "cluster_id": "PML-EVENT-013",
+        "title": "Partido Comunista propone un IFE para cesantes",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/criteria-aprobacion-de-kast-cae-al-27-y-desaprobacion-aumenta-al-64/2026-10-11/153234.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/partido-comunista-propone-un-ife-para-cesantes/2026-10-13/122421.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 50.5,
-          "level": "BAJA",
+          "score": 55.3,
+          "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 72,
+            "freshness": 100,
             "source_count": 30,
-            "geographic_scope": 55,
+            "geographic_scope": 40,
             "continuity": 30
           }
         },
@@ -510,87 +506,18 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-11T15:32:34-0300",
-        "last_seen": "2026-10-11T15:32:34-0300",
+        "first_seen": "2026-10-13T12:24:21-0300",
+        "last_seen": "2026-10-13T12:24:21-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Criteria: Aprobación de Kast cae al 27% y desaprobación aumenta al 64%",
-            "description": "La aprobación del Presidente José Antonio Kast se desplomó al 27% tras caer en tres puntos porcentuales respecto a la medición anterior , según los resultados de la última edición de la encuesta Criteria, publicada este domingo . Asimismo, el sondeo reveló que la desaprobación del Mandatario aumentó en cuatro puntos porcentuajes y se ubicó en un 64% , mientras que un 9% de los chilenos declaró no saber (-1pp). Los índices son similares a los divulgados esta semana por la encuesta Cadem , que ubicaron la aprobación del exrepublicano entre el 27% y 32% , ante un grupo de menos del 10% que expresó no saber. Fuerte caída desde el inicio del Gobierno Kast, quien inició su actual Administración el pasado 11 de marzo, llegó al poder con una aprobación de cerca del 57%,  mientras que menos del 30% lo desaprobaba . Durante sus siete meses de gestión, el panorama económico del país también cayó en indicadores que muestran una proyección de crecimiento para 2026 en un rango de entre 0,25 % y 0,75 % , según el Banco Central. La tasa de desempleo , por otra parte, alcanzó un 9,6% en el trimestre junio-agosto , su máximo en cinco años, informó el Instituto Nacional de Estadísticas (INE). En medio de este escenario marcado por la contracción productiva, Chile atravesó una crisis climática debido a una serie de temporales, influidos por el fenómeno de El Niño , que han ocasionado desastres naturales en 10 de las 16 regiones. Caen las expectativas La encuesta Criteria, con un panel online de 802 casos, entre los días 8 y 9 de octubre, también identificó que solo para el 18% de los encuestados la gestión del Gobierno  ha superado sus expectativas. Para el 82% , en cambio, ha estado por debajo de lo que esperaban. Con una Ley de Presupuesto para 2027 ya ingresada en el Congreso, y que comenzará a discutirse dentro de una semana, la mayoría de los chilenos siguen considerando que el Estado gasta sus recursos de forma \"más bien ineficiente\" con un 58% de los consultados. El proyecto de Kast implica recortes en el gasto público , que han generado rechazo y algunas manifestaciones. Sin embargo, según la encuesta, el 52% afirmó estar de acuerdo con disminuir el número de funcionarios públicos. Los encuestados, no obstante, manifestaron estár menos conformes con la idea de que la reducción implique sacrificar programas sociales , ya anunciados por Kast, con solo un 19% que se muestra abierto a que se realicen. Apenas un 8%, en tanto, señaló estar de acuerdo con la disminución de bonos y subsidios.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/criteria-aprobacion-de-kast-cae-al-27-y-desaprobacion-aumenta-al-64/2026-10-11/153234.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011153234.jpg",
-            "published_raw": "Sun, 11 Oct 2026 15:32:34 -0300",
-            "published_at": "2026-10-11T15:32:34-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 4,
-            "score_elections": 2,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 3,
-            "score_ideology": 0,
-            "score_actor": 1,
-            "score_noise": 1,
-            "score_accident": 0,
-            "political_evidence": 10,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-012"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 59.5
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-013",
-        "title": "Diputados consideran \"populista\" la propuesta del PDG que busca reemplazar contratos en UF",
-        "topic": "Economía y políticas públicas",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/diputados-consideran-populista-la-propuesta-del-pdg-que-busca/2026-10-11/173656.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 47.8,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 50,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 28
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-11T17:36:56-0300",
-        "last_seen": "2026-10-11T17:36:56-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Diputados consideran \"populista\" la propuesta del PDG que busca reemplazar contratos en UF",
-            "description": "Los diputados Erich Grohs (Libertarios), Paz Charpentier (Republicanos) y Tomás Kast (Evópoli)  calificaron de \"populista\" la propuesta del PDG que busca revisar los contratos expresados en Unidad de Fomento (UF)  y reemplazarlos por un cobro en pesos chilenos.  La idea del partido fundado por Franco Parisi  surgió después de conocerse la inflación de septiembre -que registró un 0,4%-  y apunta, según sus impulsores, a entregar mayor certeza a las familias frente al reajuste de dividendos, arriendos y otras obligaciones. Grohs, que integra la Comisión del Trabajo, señaló entender \"la preocupación que existe por los cobros en UF, pero reemplazar una unidad indexada por pesos no elimina la inflación ni abarata automáticamente los contratos\". \"Si obligamos a fijar todo en pesos, el riesgo es que bancos, arrendadores y prestadores incorporen anticipadamente esa inflación en precios, tasas y condiciones más duras\", sostuvo el libertario. \"El problema real es que los ingresos de las familias no han crecido al ritmo del costo de vida. La salida debe ser más competencia, certeza jurídica, crecimiento y empleo, no una medida que puede terminar generando exactamente el efecto contrario\", agregó el diputado.  Su par republicana Paz Charpentier, miembro de la Comisión de Vivienda, añadió que un cambio en el cobro a pesos chilenos \"modifica simplemente la forma de expresarlo, pero no elimina su costo. Presentar esto como un alivio concreto es crear una falsa expectativa que la propuesta no es capaz de garantizar\". \"Si queremos proteger de verdad a las familias, hablemos de medidas que aumenten derechamente sus ingresos, como por ejemplo el subsidio unificado al empleo, que busca impulsar la contratación formal y contempla aportes por parte del Estado de hasta un 20% de la remuneración bruta para grupos prioritarios\", exhortó. Por último, el diputado Kast -sobrino del Presidente e integrante de la Comisión de Economía- arremetió contra la \"promesa populista que puede sonar muy bien, pero terminar dañando a los más pobres, porque eso va a implicar un alza en las tasas, alza de precios y un menor acceso a la vivienda para quienes más lo necesitan\".",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/diputados-consideran-populista-la-propuesta-del-pdg-que-busca/2026-10-11/173656.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011173656.png",
-            "published_raw": "Sun, 11 Oct 2026 17:36:56 -0300",
-            "published_at": "2026-10-11T17:36:56-0300",
+            "title": "Partido Comunista propone un IFE para cesantes",
+            "description": "El presidente del Partido Comunista, Lautaro Carmona , propuso este martes en El Primer Café el establecimiento de un IFE   -Ingreso Familiar de Emergencia, como el que se implementó durante la pandemia de Covid en Chile-  para ir en apoyo del millón de personas afectadas por el desempleo. En Cooperativa , el dirigente afirmó estar \"muy de acuerdo con (lo planteado el fin de semana en televisión por) la senadora (RN) Paulina Núñez en que hay que hacer algo ahora ya\" para abordar la crisis: \"Una situación de estancamiento económico muy fregada\" , y abogó por un apoyo estatal concreto y directo a los desempleados. \"La emergencia, la situación dramática que vive casi un millón de personas sin empleo , repercute en la condición de vida de todas las familias a las cuales ellos pertenecen. Por consiguiente, no hay tiempo (que perder)\" , alertó Carmona, que planteó \" un IFE que vaya directo y al hueso a la gente que está sufriendo mucho más (en mayor medida) la consecuencia de esto\". \"Medida totalmente probada\" Carmona invitó a un ejercicio mental: \"Que cada uno de nosotros se pregunte cuál es la capacidad de resistencia que el ingreso familiar permite a una familia para sostenerse en una situación de adversidad...  ¿Un mes, dos meses, tres meses?\". \"La única alternativa es que se endeuden, pero para eso hay que ser sujeto de crédito, y la inmensa mayoría de quienes están en esta condición no son sujetos de crédito, por tanto  la (solución de la) deuda es una ilusión\" , argumentó. En este contexto, hay que \"tomar medidas donde el papel del Estado es clave\", y junto con \"reactivar la inversión en obras públicas ahora y ya\", existe la alternativa del IFE; \" un paquete de medidas totalmente probadas, factible de llevar adelante , pero que significa que el Estado tiene que erogar gastos\". Ante la resistencia que una idea así podría generar en el Gobierno, el exdiputado llamó a interpretarla como \" una inversión en personas, en seres humanos\" ; teniendo presente que \" nos acercamos a fechas que son muy desafiantes desde el punto de vista del estado de ánimo : por ejemplo, fin de año\".",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/partido-comunista-propone-un-ife-para-cesantes/2026-10-13/122421.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261013/imag/foto_0000000220261013122421.jpg",
+            "published_raw": "Tue, 13 Oct 2026 12:24:21 -0300",
+            "published_at": "2026-10-13T12:24:21-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
@@ -598,14 +525,14 @@
             "score_elections": 0,
             "score_international": 0,
             "score_conflict": 0,
-            "score_policy": 3,
+            "score_policy": 2,
             "score_ideology": 1,
             "score_actor": 3,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 9,
-            "primary_topic": "Economía y políticas públicas",
-            "secondary_topic": "Instituciones y gobierno",
+            "political_evidence": 8,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
             "cluster_id": "PML-EVENT-013"
@@ -614,9 +541,84 @@
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 9,
-          "labels": "Economía y políticas públicas",
-          "chile_utility": 56.8
+          "bonus": 19,
+          "labels": [
+            "Estado e instituciones",
+            "Elecciones y opinión pública"
+          ],
+          "chile_utility": 74.3
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-027",
+        "title": "\"Financiar ideas\", \"sacarse fotos\": la pugna entre gobernador y alcaldesa de Las Condes",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/inundaciones/financiar-ideas-sacarse-fotos-la-pugna-entre-gobernador-y/2026-10-13/110746.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 54,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 51,
+            "freshness": 95,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-13T11:07:46-0300",
+        "last_seen": "2026-10-13T11:07:46-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "\"Financiar ideas\", \"sacarse fotos\": la pugna entre gobernador y alcaldesa de Las Condes",
+            "description": "El gobernador metropolitano, Claudio Orrego , y la alcaldesa de Las Condes, Catalina San Martín , se enfrascaron en una pugna pública, luego que la edil asegurara que la autoridad regional estuvo ausente durante las reuniones de coordinación tras el aluvión que afectó el jueves a San Carlos de Apoquindo y que le habían informado se encontraba fuera del país. \"Eso es absolutamente falso. Si ella tiene una duda de dónde estoy, fui por el día a Atacama, pero fue dos días después del episodio \", dijo el independiente (exDC) en conversación con Una Nueva Mañana de Cooperativa , donde afirmó que llegó al sector afectado el día de la emergencia y que permaneció en terreno hasta avanzada la jornada. \"Estuvimos ahí (en San Carlos de Apoquindo) viendo todo el día el episodio. Esto no fue el día jueves y estuvimos hasta última hora ahí, cuando ya pasó el aluvión y estaban las operaciones coordinadas con todos los actores (...)  Me parece una cosa bastante grave que diga que yo estaba fuera de Chile , cuando la verdad es que nunca me he ausentado del territorio nacional y fue un día, tres días después del evento. Yo estoy al pie del cañón monitoreando toda la emergencia\", señaló Orrego. \"La misma alcaldesa sabe que probablemente la primera autoridad que llegó arriba fui yo. Estuve ahí y fui de los últimos en irme el día de la emergencia\" , recalcó, explicando que \"la coordinación de la emergencia la tiene, por ley, el delegado\", aunque enfatizó que esa atribución \"no quiere decir que uno se margine\" de las labores. En esa línea, aseguró que \"si hubo una reunión de Cogrid (Comité para la Gestión del Riesgo de Desastre) el día que yo estaba en un cometido, no fuera de Chile, sino que en Atacama, varios días después del aluvión, siempre estuvo presente el Gobierno de Santiago . Entonces, yo no entiendo mucho este afán de la alcaldesa, estando en medio de la emergencia, teniendo que hacer muchas cosas para adelante\". Estudio de riesgos rechazado por el municipio Uno de los principales puntos planteados por Orrego fue la oferta que, según relató, realizó al municipio de Las Condes después de un episodio registrado a fines de enero en la quebrada Onda. En esa oportunidad, \"le ofrecimos al municipio de Las Condes, de manera extraordinaria -porque generalmente no le financiamos cosas a Las Condes, porque tiene un presupuesto muy superior al nuestro-, pero en este caso le dijimos que estábamos disponibles para financiarle un estudio de riesgo , porque nos dábamos cuenta que tanto la cantidad de construcciones en torno a la quebrada, como también el incendio que había habido San Carlos de Apoquindo el año pasado, generaba mayor nivel de riesgo\", recordó el gobernador. Sin embargo, sostuvo que \"el municipio desestimó ese informe (...) Insistimos el día después del aluvión de la semana pasada, para reiterar que seguíamos disponibles para poder financiar de manera extraordinaria este informe\". Orrego también cuestionó las explicaciones atribuidas a la alcaldesa respecto de una supuesta burocracia para acceder a esos recursos. \"Habiendo nosotros ofrecido un estudio en febrero -que ella misma sabe y ha dicho que declinó, según ella, por burocracia-, la verdad es que, como ella nunca ha presentado un proyecto al Gobierno Regional, tiene que entender que nosotros no podemos financiar ideas; tenemos que financiar proyectos \", remarco, señalando que, \"si usted revisa el Sistema Nacional de Inversiones, no hay ningún proyecto de las Condes\" que permitiera canalizar esa ayuda. \"Entonces, mal podríamos ayudar de otra manera\", acotó. \"Entiendo que han sido días pesados, días complejos, pero que (San Martín) apunte bien sus dardos\" , exhortó, manifestado que, pese a las diferencias, \"el día que quiera podemos juntarnos a conversar. Las puertas del Gobierno Regional están abiertas\". Orrego apunta a la planificación territorial: \"Absolutamente obsoleto\" Más allá de la controversia entre ambas autoridades, el gobernador insistió en que el desastre obliga a revisar la planificación urbana y las medidas de prevención en la precordillera de Santiago. \" Tenemos que revisar el mapa de riesgos de la Región Metropolitana, que está absolutamente obsoleto. El Plan Regulador Metropolitano, que regula las zonas con constructibilidad y también de riesgo, venció el 2020, pero los estudios que le daban base son del año 1982. Harta agua ha pasado bajo el puente y por las quebradas desde entonces. Hay que actualizar eso y es un tema que está todavía pendiente en Santiago\", planteó. Orrego afirmó que ha \"reclamado y pedido que se nos dé la atribución de planificación territorial, porque creemos que es un rol fundamental de la región\", con el argumento de que estas administraciones están más cerca de los problemas locales y podrían responder de manera más oportuna. También destacó la necesidad de recuperar la vegetación en las zonas afectadas por incendios, debido a su importancia para la estabilidad del suelo. \"Cuando tú pierdes los árboles y la vegetación, pierdes el sustento de la tierra, se erosiona más rápido y se desprende aún más rápido\", explicó. Alcaldesa: \"Molesta que esta catástrofe se utilice para venir a sacarse fotografías\" En conversación con El Diario de Cooperativa , la alcaldesa de Las Condes, Catalina San Martín, entregó su versión sobre la polémica con el gobernador Orrego y apuntó  a una supuesta falta de apoyo en terreno y a trabas burocráticas . La jefa comunal explicó que controversia se remonta al incendio forestal ocurridos durante el verano en la zona, señalando que -en dicha emergencia- el Gobierno Regional estuvo y cuestionó las intenciones de las visitas institucionales. \"En ese episodio del verano, el GORE no estuvo, no llegó, pero me pidieron sacarse fotos . Y mi respuesta, por supuesto, fue que no, porque esto no es para hacer, sacarse fotografías e irse . Nosotros esa emergencia del verano la levantamos absolutamente solos como municipalidad\", aseveró. San Martín afirmó que, en ese contexto, \"cuando llegó el representante del gobernador a querer sacarse fotos y mi equipo me avisa, le dije que ni una posibilidad de que pudieran venir a sacarse fotos, que vinieran a preguntarnos cómo nos ayudaban\". \"Estando ahí, le dije que yo necesito es que se financie un estudio hídrico para ver cómo está la cuenca y qué intervenciones se pueden hacer en la precordillera . 'Nosotros financiamos eso. No se preocupe, alcaldesa, déjeme hacer el video' (me respondieron). Hicieron el video, esto está en redes sociales de esta persona, y se comprometió a hacer ese financiamiento desde el Gore\", recordó. Posteriormente, la alcaldesa aseguró que \"cuando le digo (al gobernador) que pongamos manos a la obra, porque necesitamos avanzar rápido antes del invierno, empezó a decir a mis equipos técnicos que 'lo que pasa es que tiene que postular a no sé qué, que tiene que hacer no sé cuál' , la burocracia propia del Estado. Pero yo no tengo tiempo que perder, no me voy a meter en la burocracia del Estado, ni de la gobernación\". Finalmente, San Martín manifestó que \"mi molestia hoy día es que vi videos del gobernador con el barro hasta la rodilla, (supuestamente) rescatando personas, pero yo no he visto al gobernador (en la emergencia). Francamente, molesta que esta emergencia y esta catástrofe se utilice para venir a sacarse fotografías y hacer videos \". Investigación penal y responsabilidades Consultado por la investigación que lleva adelante la Fiscalía para determinar eventuales responsabilidades en el aluvión , Orrego dijo que corresponde esclarecer si se adoptaron las medidas preventivas necesarias y si se realizaron las inversiones requeridas. El gobernador indicó que desconoce el contenido de el informe emitido por el Servicio Nacional de Geología y Minería (Sernageomin) y las comunicaciones que estos organismos pudieron mantener con la Dirección de Obras Hidráulicas (DOH) y el municipio. Asimismo, planteó que  \"es súper importante que se transparenten todos los estudios e informes que hay sobre la cordillera de Santiago, tanto del Sernageomin como por parte de la DOH\" .",
+            "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/inundaciones/financiar-ideas-sacarse-fotos-la-pugna-entre-gobernador-y/2026-10-13/110746.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261013/imag/foto_0000000220261013110746.jpg",
+            "published_raw": "Tue, 13 Oct 2026 11:07:46 -0300",
+            "published_at": "2026-10-13T11:07:46-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 2,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 0,
+            "score_actor": 1,
+            "score_noise": 0,
+            "score_accident": 1,
+            "political_evidence": 3,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "medium",
+            "cluster_id": "PML-EVENT-027"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 19,
+          "labels": [
+            "Estado e instituciones",
+            "Elecciones y opinión pública"
+          ],
+          "chile_utility": 73
         },
         "repeated_in_general_top5": false
       }
@@ -625,41 +627,51 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 17,
-      "maximum_relevance": 69.3,
-      "leading_story": "De Urresti cuestiona estrategia del Gobierno por reforma de seguridad: \"Pan para hoy y hambre para mañana\""
+      "event_count": 19,
+      "maximum_relevance": 63,
+      "leading_story": "La embajadora de Estados Unidos en Grecia dimite por corrupción presionada por Trump"
     },
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 8,
-      "maximum_relevance": 56.9,
-      "leading_story": "¿Lula dijo que dará un golpe de Estado si gana Bolsonaro en las elecciones de Brasil?"
-    },
-    {
-      "topic": "Economía y políticas públicas",
+      "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 47.8,
-      "leading_story": "Diputados consideran \"populista\" la propuesta del PDG que busca reemplazar contratos en UF"
+      "maximum_relevance": 61.4,
+      "leading_story": "Un ataque con drones hunde un carguero frente a la costa de Bulgaria, el segundo en una semana"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 3,
-      "maximum_relevance": 36.9,
-      "leading_story": "Bally Bagayoko, alcalde de Saint-Denis: “Francia tiene que responder a los estudiantes con medidas concretas y no con la policía”"
+      "maximum_relevance": 60,
+      "leading_story": "La inteligencia británica asegura que Irán ha dado un giro en su guerra híbrida para incluir objetivos militares"
+    },
+    {
+      "topic": "Elecciones y opinión pública",
+      "event_count": 9,
+      "maximum_relevance": 59.5,
+      "leading_story": "Elon Musk ha donado 276 millones de dólares a grupos republicanos para las elecciones de medio término"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 2,
-      "maximum_relevance": 35.8,
-      "leading_story": "Ignacio Walker: Bachelet y Boric son candidatos de izquierda; no convocan al centro"
+      "maximum_relevance": 50.3,
+      "leading_story": "El mundo en el que votará España: “La extrema derecha avanza, pero no es una partida decidida”"
+    },
+    {
+      "topic": "Economía y políticas públicas",
+      "event_count": 1,
+      "maximum_relevance": 39.8,
+      "leading_story": "Diputados consideran \"populista\" la propuesta del PDG que busca reemplazar contratos en UF"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-025", "PML-EVENT-024", "PML-EVENT-022", "PML-EVENT-029"],
+      "exited_top5": ["PML-EVENT-016", "PML-EVENT-004", "PML-EVENT-026", "PML-EVENT-006"],
+      "retained_top5": "PML-EVENT-001"
+    }
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
