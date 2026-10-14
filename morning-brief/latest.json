@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-13",
-    "data_latest_timestamp": "2026-10-13T20:28:38-0300",
-    "data_age_hours": 1.1,
-    "generated_at": "2026-10-13T21:32:05-0300",
+    "data_latest_timestamp": "2026-10-13T23:02:52-0300",
+    "data_age_hours": 1.4,
+    "generated_at": "2026-10-14T00:26:36-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -26,13 +26,13 @@
     "topics": 3,
     "geographies": 4,
     "representative_sources": 2,
-    "average_top5_relevance": 61,
+    "average_top5_relevance": 60.6,
     "maximum_relevance": 69.3
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-019",
+      "cluster_id": "PML-EVENT-020",
       "title": "Estados Unidos llama a consultas a su máximo diplomático en Nicaragua tras el rechazo de Ortega a la embajadora de Trump",
       "url": "https://elpais.com/america/2026-10-13/estados-unidos-llama-a-consultas-a-su-maximo-diplomatico-en-nicaragua-tras-el-rechazo-de-ortega-a-la-embajadora-de-trump.html",
       "representative_source": "EL PAÍS",
@@ -106,13 +106,13 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-020"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-026",
+      "cluster_id": "PML-EVENT-027",
       "title": "La embajadora de Estados Unidos en Grecia dimite por corrupción presionada por Trump",
       "url": "https://elpais.com/us/2026-10-13/la-embajadora-de-estados-unidos-en-grecia-dimite-por-corrupcion-presionada-por-trump.html",
       "representative_source": "EL PAÍS",
@@ -179,13 +179,13 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
+          "cluster_id": "PML-EVENT-027"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-025",
+      "cluster_id": "PML-EVENT-026",
       "title": "La inteligencia británica asegura que Irán ha dado un giro en su guerra híbrida para incluir objetivos militares",
       "url": "https://elpais.com/internacional/2026-10-13/la-inteligencia-britanica-asegura-que-iran-ha-dado-un-giro-en-su-guerra-hibrida-para-incluir-objetivos-militares.html",
       "representative_source": "EL PAÍS",
@@ -196,12 +196,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 58.7,
+        "score": 57,
         "level": "MEDIA",
-        "editorial_utility": 70.7
+        "editorial_utility": 69
       },
       "selection": {
-        "reason": "PML 58.7; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 57; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -252,13 +252,13 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "cluster_id": "PML-EVENT-026"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-001",
+      "cluster_id": "PML-EVENT-002",
       "title": "De Urresti cuestiona estrategia del Gobierno por reforma de seguridad: \"Pan para hoy y hambre para mañana\"",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/de-urresti-cuestiona-estrategia-del-gobierno-por-reforma-de-seguridad/2026-10-12/123341.html",
       "representative_source": "Cooperativa",
@@ -329,13 +329,13 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
+          "cluster_id": "PML-EVENT-002"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-027",
+      "cluster_id": "PML-EVENT-028",
       "title": "El supervisor de los futuros de EE UU entorpece la investigación de operaciones sospechosas con el petróleo",
       "url": "https://elpais.com/economia/2026-10-13/el-supervisor-de-los-futuros-de-ee-uu-entorpece-la-investigacion-de-operaciones-sospechosas-con-el-petroleo.html",
       "representative_source": "EL PAÍS",
@@ -402,7 +402,7 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-028"
         }
       ]
     }
@@ -426,11 +426,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.1,
+          "score": 53.1,
           "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 36
@@ -481,13 +481,13 @@
             "Estado e instituciones",
             "Elecciones y opinión pública"
           ],
-          "chile_utility": 74.1
+          "chile_utility": 72.1
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-028",
+        "cluster_id": "PML-EVENT-029",
         "title": "\"Financiar ideas\", \"sacarse fotos\": la pugna entre gobernador y alcaldesa de Las Condes",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -542,7 +542,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "medium",
-            "cluster_id": "PML-EVENT-028"
+            "cluster_id": "PML-EVENT-029"
           }
         ],
         "article_count": 1,
@@ -640,14 +640,14 @@
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 19,
+      "event_count": 20,
       "maximum_relevance": 60,
       "leading_story": "La embajadora de Estados Unidos en Grecia dimite por corrupción presionada por Trump"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 4,
-      "maximum_relevance": 58.7,
+      "maximum_relevance": 57,
       "leading_story": "La inteligencia británica asegura que Irán ha dado un giro en su guerra híbrida para incluir objetivos militares"
     },
     {
@@ -658,7 +658,7 @@
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 7,
+      "event_count": 6,
       "maximum_relevance": 47.5,
       "leading_story": "Abdul El-Sayed, la apuesta más arriesgada de los demócratas para las elecciones: “Habrá que exigir responsabilidades a Trump por todo el mal que ha hecho”"
     },
