@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-10-13",
-    "data_latest_timestamp": "2026-10-13T23:02:52-0300",
-    "data_age_hours": 1.4,
-    "generated_at": "2026-10-14T00:26:36-0300",
+    "date": "2026-10-14",
+    "data_latest_timestamp": "2026-10-14T01:07:21-0300",
+    "data_age_hours": 2.4,
+    "generated_at": "2026-10-14T03:32:28-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Relaciones internacionales.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Relaciones internacionales.",
     "diversity": "La selección cubre 3 temas, 4 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 34,
+    "ranked_events": 36,
     "topics": 3,
     "geographies": 4,
     "representative_sources": 2,
-    "average_top5_relevance": 60.6,
-    "maximum_relevance": 69.3
+    "average_top5_relevance": 59.4,
+    "maximum_relevance": 68
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-020",
+      "cluster_id": "PML-EVENT-021",
       "title": "Estados Unidos llama a consultas a su máximo diplomático en Nicaragua tras el rechazo de Ortega a la embajadora de Trump",
       "url": "https://elpais.com/america/2026-10-13/estados-unidos-llama-a-consultas-a-su-maximo-diplomatico-en-nicaragua-tras-el-rechazo-de-ortega-a-la-embajadora-de-trump.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +43,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 69.3,
+        "score": 68,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 69.3
+        "editorial_utility": 68
       },
       "selection": {
-        "reason": "PML 69.3",
+        "reason": "PML 68",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -106,13 +106,13 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
+          "cluster_id": "PML-EVENT-021"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-027",
+      "cluster_id": "PML-EVENT-029",
       "title": "La embajadora de Estados Unidos en Grecia dimite por corrupción presionada por Trump",
       "url": "https://elpais.com/us/2026-10-13/la-embajadora-de-estados-unidos-en-grecia-dimite-por-corrupcion-presionada-por-trump.html",
       "representative_source": "EL PAÍS",
@@ -179,13 +179,13 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-029"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-026",
+      "cluster_id": "PML-EVENT-028",
       "title": "La inteligencia británica asegura que Irán ha dado un giro en su guerra híbrida para incluir objetivos militares",
       "url": "https://elpais.com/internacional/2026-10-13/la-inteligencia-britanica-asegura-que-iran-ha-dado-un-giro-en-su-guerra-hibrida-para-incluir-objetivos-militares.html",
       "representative_source": "EL PAÍS",
@@ -252,7 +252,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
+          "cluster_id": "PML-EVENT-028"
         }
       ]
     },
@@ -269,12 +269,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 57.3,
+        "score": 54.3,
         "level": "MEDIA",
-        "editorial_utility": 57.3
+        "editorial_utility": 54.3
       },
       "selection": {
-        "reason": "PML 57.3; aporta diversidad geográfica",
+        "reason": "PML 54.3; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -335,7 +335,7 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-028",
+      "cluster_id": "PML-EVENT-030",
       "title": "El supervisor de los futuros de EE UU entorpece la investigación de operaciones sospechosas con el petróleo",
       "url": "https://elpais.com/economia/2026-10-13/el-supervisor-de-los-futuros-de-ee-uu-entorpece-la-investigacion-de-operaciones-sospechosas-con-el-petroleo.html",
       "representative_source": "EL PAÍS",
@@ -346,12 +346,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 59.5,
+        "score": 57.5,
         "level": "MEDIA",
-        "editorial_utility": 54.5
+        "editorial_utility": 52.5
       },
       "selection": {
-        "reason": "PML 59.5; diversidad relajada para completar el brief",
+        "reason": "PML 57.5; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -402,7 +402,7 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
+          "cluster_id": "PML-EVENT-030"
         }
       ]
     }
@@ -487,7 +487,79 @@
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-029",
+        "cluster_id": "PML-EVENT-004",
+        "title": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/reforma-de-seguridad-divide-al-socialismo-democratico-araya-cuestiona/2026-10-11/144117.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 48.2,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 86,
+            "freshness": 25,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 42
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-11T14:41:17-0300",
+        "last_seen": "2026-10-11T14:41:17-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS",
+            "description": "El senador PPD Pedro Araya cuestionó al Partido Socialista (PS) por su decisión de rechazar la nueva reforma constitucional de seguridad propuesta por él y otros senadores en reemplazo a la iniciativa del Gobierno, calificando la postura de la tienda como una \"mala señal\". La moción que ingresaron los parlamentarios Araya, Arturo Squella (Republicanos), Andrés Longton (RN), Iván Flores (DC) y Karim Bianchi (independiente) excluye la polémica creación de un nuevo estado de excepción para combatir al crimen organizado y, en su lugar, modifica el actual estado de emergencia para permitir reacciones preventivas a amenazas graves. Además, plantea elevar a rango constitucional el combate al crimen organizado y el establecimiento de regímenes penitenciarios especiales para personas condenadas por delitos de crimen organizado y terrorismo. Sin embargo, el viernes, el Comité Central socialista emitió un escrito señalando que no apoyarán la reforma, debido a que -afirmó- amplía las causales para decretar el estado de emergencia para combatir al crimen organizado y permite restringir derechos frente a amenazas inminentes que aún no se han concretado. \"Espero que reflexionen\" Ante esto, Araya expresó que los tres puntos mencionados que sugieren como senadores \"son muy razonables y están muy lejos de ser la reforma inicial que había presentado el Presidente Kast\".   \"Por eso yo espero que los parlamentarios reflexionen, puedan leer el texto y, una vez que lo hayan leído, nos puedan hacer las críticas técnicas y decirnos 'mira, no nos gusta esto y esto otro'. Pero de ahí a entrar a rechazar de buenas a primeras, creo que es una muy mala señal\",  fustigó. \"Lo único que se fortalece con esto es el crimen organizado, que ve cómo el mundo político no es capaz de ponerse de acuerdo en la manera en que se fortalece al Estado para enfrentarlos\", sostuvo el militante PPD.  En paralelo, desde el Gobierno hubo llamados similares. Durante una entrevista con El Mercurio, el biministro del Interior y de la Segegob, Claudio Alvarado, pidió al Socialismo Democrático a aprobar la reforma,  ya que \"si opera el sentido común y la lógica, en temas de seguridad deberían tener el mismo comportamiento que tuvieron con el Gobierno anterior\". Las diferencias del PS con el Soc. Democrático En tanto, el senador socialista Juan Luis Castro profundizó los reparos que su partido tiene contra la reforma constitucional de seguridad propuesta.  \"Las diferencias que tenemos desde el Socialismo Democrático son tres, básicamente: primero, no vemos la necesidad de ir a cambiar la Constitución para mejorar el combate al crimen organizado. Hacerlo no cambia el destino de Carabineros fallecidos, ni causa el desbaratamiento de bandas del narcotráfico o el levantamiento del secreto bancario, que son cosas distintas\", indicó.  \"Segundo, en las cárceles estamos dispuestos a que haya, por ley -y no por la Constitución-, segregación como hoy ya está sucediendo en las de alta seguridad; y tercero,  el estado actual de emergencia, que existe como un estado de excepción, es el instrumento privilegiado y no necesita introducírsele la sospecha, amenaza o posibilidad de una nueva realidad para invocarlo\",  argumentó Castro.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/reforma-de-seguridad-divide-al-socialismo-democratico-araya-cuestiona/2026-10-11/144117.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011144117.png",
+            "published_raw": "Sun, 11 Oct 2026 14:41:17 -0300",
+            "published_at": "2026-10-11T14:41:17-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 5,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 4,
+            "score_policy": 0,
+            "score_ideology": 1,
+            "score_actor": 3,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 13,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-004"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 70.2
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-031",
         "title": "\"Financiar ideas\", \"sacarse fotos\": la pugna entre gobernador y alcaldesa de Las Condes",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -498,11 +570,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.3,
-          "level": "MEDIA",
+          "score": 50.3,
+          "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -542,7 +614,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "medium",
-            "cluster_id": "PML-EVENT-029"
+            "cluster_id": "PML-EVENT-031"
           }
         ],
         "article_count": 1,
@@ -553,79 +625,7 @@
             "Estado e instituciones",
             "Elecciones y opinión pública"
           ],
-          "chile_utility": 71.3
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-013",
-        "title": "Partido Comunista propone un IFE para cesantes",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/partido-comunista-propone-un-ife-para-cesantes/2026-10-13/122421.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 52.3,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 51,
-            "freshness": 88,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 30
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-13T12:24:21-0300",
-        "last_seen": "2026-10-13T12:24:21-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Partido Comunista propone un IFE para cesantes",
-            "description": "El presidente del Partido Comunista, Lautaro Carmona , propuso este martes en El Primer Café el establecimiento de un IFE   -Ingreso Familiar de Emergencia, como el que se implementó durante la pandemia de Covid en Chile-  para ir en apoyo del millón de personas afectadas por el desempleo. En Cooperativa , el dirigente afirmó estar \"muy de acuerdo con (lo planteado el fin de semana en televisión por) la senadora (RN) Paulina Núñez en que hay que hacer algo ahora ya\" para abordar la crisis: \"Una situación de estancamiento económico muy fregada\" , y abogó por un apoyo estatal concreto y directo a los desempleados. \"La emergencia, la situación dramática que vive casi un millón de personas sin empleo , repercute en la condición de vida de todas las familias a las cuales ellos pertenecen. Por consiguiente, no hay tiempo (que perder)\" , alertó Carmona, que planteó \" un IFE que vaya directo y al hueso a la gente que está sufriendo mucho más (en mayor medida) la consecuencia de esto\". \"Medida totalmente probada\" Carmona invitó a un ejercicio mental: \"Que cada uno de nosotros se pregunte cuál es la capacidad de resistencia que el ingreso familiar permite a una familia para sostenerse en una situación de adversidad...  ¿Un mes, dos meses, tres meses?\". \"La única alternativa es que se endeuden, pero para eso hay que ser sujeto de crédito, y la inmensa mayoría de quienes están en esta condición no son sujetos de crédito, por tanto  la (solución de la) deuda es una ilusión\" , argumentó. En este contexto, hay que \"tomar medidas donde el papel del Estado es clave\", y junto con \"reactivar la inversión en obras públicas ahora y ya\", existe la alternativa del IFE; \" un paquete de medidas totalmente probadas, factible de llevar adelante , pero que significa que el Estado tiene que erogar gastos\". Ante la resistencia que una idea así podría generar en el Gobierno, el exdiputado llamó a interpretarla como \" una inversión en personas, en seres humanos\" ; teniendo presente que \" nos acercamos a fechas que son muy desafiantes desde el punto de vista del estado de ánimo : por ejemplo, fin de año\".",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-comunista/partido-comunista-propone-un-ife-para-cesantes/2026-10-13/122421.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261013/imag/foto_0000000220261013122421.jpg",
-            "published_raw": "Tue, 13 Oct 2026 12:24:21 -0300",
-            "published_at": "2026-10-13T12:24:21-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 2,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 2,
-            "score_ideology": 1,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 8,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-013"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 19,
-          "labels": [
-            "Estado e instituciones",
-            "Elecciones y opinión pública"
-          ],
-          "chile_utility": 71.3
+          "chile_utility": 69.3
         },
         "repeated_in_general_top5": false
       }
@@ -635,7 +635,7 @@
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 69.3,
+      "maximum_relevance": 68,
       "leading_story": "Estados Unidos llama a consultas a su máximo diplomático en Nicaragua tras el rechazo de Ortega a la embajadora de Trump"
     },
     {
@@ -651,16 +651,16 @@
       "leading_story": "La inteligencia británica asegura que Irán ha dado un giro en su guerra híbrida para incluir objetivos militares"
     },
     {
-      "topic": "Ideología y competencia política",
-      "event_count": 2,
-      "maximum_relevance": 48.3,
-      "leading_story": "El mundo en el que votará España: “La extrema derecha avanza, pero no es una partida decidida”"
+      "topic": "Elecciones y opinión pública",
+      "event_count": 8,
+      "maximum_relevance": 55.5,
+      "leading_story": "Turek contra Hinson, una de las batallas más reñidas de las ‘midterms’ se libra en Iowa, donde los candidatos marcan distancia con Trump"
     },
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 6,
-      "maximum_relevance": 47.5,
-      "leading_story": "Abdul El-Sayed, la apuesta más arriesgada de los demócratas para las elecciones: “Habrá que exigir responsabilidades a Trump por todo el mal que ha hecho”"
+      "topic": "Ideología y competencia política",
+      "event_count": 2,
+      "maximum_relevance": 45.8,
+      "leading_story": "El mundo en el que votará España: “La extrema derecha avanza, pero no es una partida decidida”"
     },
     {
       "topic": "Economía y políticas públicas",
@@ -670,8 +670,12 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-021", "PML-EVENT-029", "PML-EVENT-030"],
+      "exited_top5": ["PML-EVENT-020", "PML-EVENT-027", "PML-EVENT-026"],
+      "retained_top5": ["PML-EVENT-028", "PML-EVENT-002"]
+    }
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
