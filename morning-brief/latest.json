@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-10-14",
-    "data_latest_timestamp": "2026-10-14T01:07:21-0300",
-    "data_age_hours": 5.4,
-    "generated_at": "2026-10-14T06:29:24-0300",
+    "date": "2026-10-15",
+    "data_latest_timestamp": "2026-10-15T12:01:02-0300",
+    "data_age_hours": 0.5,
+    "generated_at": "2026-10-15T12:32:24-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,192 +16,146 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Relaciones internacionales.",
-    "diversity": "La selección cubre 3 temas, 4 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 4 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
     "ranked_events": 36,
-    "topics": 3,
-    "geographies": 4,
-    "representative_sources": 2,
-    "average_top5_relevance": 59.4,
-    "maximum_relevance": 68
+    "topics": 4,
+    "geographies": 2,
+    "representative_sources": 3,
+    "average_top5_relevance": 64.6,
+    "maximum_relevance": 71.7
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-021",
-      "title": "Estados Unidos llama a consultas a su máximo diplomático en Nicaragua tras el rechazo de Ortega a la embajadora de Trump",
-      "url": "https://elpais.com/america/2026-10-13/estados-unidos-llama-a-consultas-a-su-maximo-diplomatico-en-nicaragua-tras-el-rechazo-de-ortega-a-la-embajadora-de-trump.html",
+      "cluster_id": "PML-EVENT-015",
+      "title": "Estados Unidos levanta sanciones contra Jorge Rodríguez, presidente de la Asamblea Nacional de Venezuela",
+      "url": "https://elpais.com/us/2026-10-14/estados-unidos-levanta-sanciones-contra-jorge-rodriguez-presidente-de-la-asamblea-nacional-de-venezuela.html",
       "representative_source": "EL PAÍS",
-      "topic": "Relaciones internacionales",
-      "event_type": "INSTITUTIONAL_DECISION",
+      "topic": "Instituciones y gobierno",
+      "event_type": "DIPLOMATIC_EVENT",
       "geography": {
         "group": "América Latina",
-        "country": "No identificado / América Latina"
+        "country": "Venezuela / América Latina / No identificado / Internacional"
       },
       "relevance": {
-        "score": 68,
+        "score": 71.7,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 68
+        "editorial_utility": 75.7
       },
       "selection": {
-        "reason": "PML 68",
+        "reason": "PML 71.7; multifuente",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
+        "article_count": 2,
+        "source_count": 2,
+        "sources": [
+          "France 24",
+          "EL PAÍS"
+        ]
       },
-      "first_seen": "2026-10-13T20:28:38-0300",
-      "last_seen": "2026-10-13T20:28:38-0300",
+      "first_seen": "2026-10-14T12:21:31-0300",
+      "last_seen": "2026-10-14T13:15:58-0300",
       "entities": [
-        "nicaragua",
-        "ortega",
-        "trump"
+        "trump",
+        "venezuela"
       ],
-      "event_terms": [
-        "crisis",
-        "sanciones"
-      ],
+      "event_terms": "sanciones",
       "analysis": {
-        "summary": "La decisión profundiza una crisis bilateral marcada por sanciones, confiscaciones a ciudadanos estadounidenses y cuatro años sin un embajador de Washington en Managua",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en No identificado / América Latina.",
+        "summary": "El Gobierno del presidente de Estados Unidos, Donald Trump, retiró este miércoles 14 de julio las sanciones impuestas al líder de la Asamblea Nacional de Venezuela, Jorge Rodríguez, hermano de la presidenta encargada del país, Delcy Rodríguez. La información fue confirmada por el Departamento del Tesoro de EE. UU. en su sitio web.",
+        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Venezuela / América Latina / No identificado / Internacional.",
         "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
+          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Estados Unidos llama a consultas a su máximo diplomático en Nicaragua tras el rechazo de Ortega a la embajadora de Trump",
-          "description": "La decisión profundiza una crisis bilateral marcada por sanciones, confiscaciones a ciudadanos estadounidenses y cuatro años sin un embajador de Washington en Managua",
-          "url": "https://elpais.com/america/2026-10-13/estados-unidos-llama-a-consultas-a-su-maximo-diplomatico-en-nicaragua-tras-el-rechazo-de-ortega-a-la-embajadora-de-trump.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/WTTGOB3FEZAWDGFKJCQ3X7QWTI.jpeg?auth=12b63097ba96caf53e470b1295ff35a6961145810b0dc8bbd26ea0e4b82ac959",
-          "published_raw": "Tue, 13 Oct 2026 23:28:38 GMT",
-          "published_at": "2026-10-13T20:28:38-0300",
-          "country": "No identificado",
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Estados Unidos levanta las sanciones al presidente del Legislativo venezolano Jorge Rodríguez",
+          "description": "El Gobierno del presidente de Estados Unidos, Donald Trump, retiró este miércoles 14 de julio las sanciones impuestas al líder de la Asamblea Nacional de Venezuela, Jorge Rodríguez, hermano de la presidenta encargada del país, Delcy Rodríguez. La información fue confirmada por el Departamento del Tesoro de EE. UU. en su sitio web.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261014-estados-unidos-levanta-las-sanciones-al-presidente-del-legislativo-venezolano-jorge-rodr%C3%ADguez",
+          "image_url": "https://s.france24.com/media/display/9f9875dc-a2db-11f0-87a8-005056bf30b7/w:1024/p:16x9/2025-09-29T203639Z-1867126434-RC2Q1HAIOJY5-RTRMADP-3-VENEZUELA-POLITICS.jpg",
+          "published_raw": "Wed, 14 Oct 2026 16:15:58 GMT",
+          "published_at": "2026-10-14T13:15:58-0300",
+          "country": "Venezuela",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 0,
-          "score_elections": 0,
-          "score_international": 4,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Relaciones internacionales",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-029",
-      "title": "La embajadora de Estados Unidos en Grecia dimite por corrupción presionada por Trump",
-      "url": "https://elpais.com/us/2026-10-13/la-embajadora-de-estados-unidos-en-grecia-dimite-por-corrupcion-presionada-por-trump.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 60,
-        "level": "MEDIA",
-        "editorial_utility": 72
-      },
-      "selection": {
-        "reason": "PML 60; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-13T13:19:53-0300",
-      "last_seen": "2026-10-13T13:19:53-0300",
-      "entities": "trump",
-      "event_terms": [],
-      "analysis": {
-        "summary": "Kimberly Guilfoyle, exprometida del primogénito del presidente de Estados Unidos, deja su puesto después de la publicación de varios escándalos destapados por ‘The Wall Street Journal’",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "La embajadora de Estados Unidos en Grecia dimite por corrupción presionada por Trump",
-          "description": "Kimberly Guilfoyle, exprometida del primogénito del presidente de Estados Unidos, deja su puesto después de la publicación de varios escándalos destapados por ‘The Wall Street Journal’",
-          "url": "https://elpais.com/us/2026-10-13/la-embajadora-de-estados-unidos-en-grecia-dimite-por-corrupcion-presionada-por-trump.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/P32KJQYZYVOK7GHUUR5K2GA4GU.jpg?auth=351f3359e6bb3d3c796a1a05c7498821b5acf96f4d1cc72b47da5e3e26b0fc57",
-          "published_raw": "Tue, 13 Oct 2026 16:19:53 GMT",
-          "published_at": "2026-10-13T13:19:53-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
+          "score_institutional": 3,
           "score_elections": 0,
           "score_international": 1,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 6,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-015"
+        },
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Estados Unidos levanta sanciones contra Jorge Rodríguez, presidente de la Asamblea Nacional de Venezuela",
+          "description": "El Tesoro elimina al hermano de la presidenta encargada del país sudamericano de la lista principal de nacionales especialmente designados",
+          "url": "https://elpais.com/us/2026-10-14/estados-unidos-levanta-sanciones-contra-jorge-rodriguez-presidente-de-la-asamblea-nacional-de-venezuela.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/FIRZJCLBKBFVRBHELDYDELJVKY.jpg?auth=5ca9b286eb10e3d6bdd4c651a94d55de30e8df01dfeb9977dd2944e2d371cee3",
+          "published_raw": "Wed, 14 Oct 2026 15:21:31 GMT",
+          "published_at": "2026-10-14T12:21:31-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 1,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-015"
         }
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-028",
-      "title": "La inteligencia británica asegura que Irán ha dado un giro en su guerra híbrida para incluir objetivos militares",
-      "url": "https://elpais.com/internacional/2026-10-13/la-inteligencia-britanica-asegura-que-iran-ha-dado-un-giro-en-su-guerra-hibrida-para-incluir-objetivos-militares.html",
+      "position": 2,
+      "cluster_id": "PML-EVENT-016",
+      "title": "El presidente de Albania culpa a la oposición de los disturbios en las protestas estudiantiles",
+      "url": "https://elpais.com/internacional/2026-10-15/el-presidente-de-albania-culpa-a-la-oposicion-de-los-disturbios-en-las-protestas-estudiantiles.html",
       "representative_source": "EL PAÍS",
       "topic": "Conflictos y seguridad",
-      "event_type": "POLITICAL_STATEMENT",
+      "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
-        "group": "Internacional",
+        "group": "No identificado",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 57,
-        "level": "MEDIA",
-        "editorial_utility": 69
+        "score": 65.4,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 73.4
       },
       "selection": {
-        "reason": "PML 57; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 65.4; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -211,12 +165,15 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-13T14:59:43-0300",
-      "last_seen": "2026-10-13T14:59:43-0300",
-      "entities": "iran",
-      "event_terms": "guerra",
+      "first_seen": "2026-10-15T12:01:02-0300",
+      "last_seen": "2026-10-15T12:01:02-0300",
+      "entities": [],
+      "event_terms": [
+        "oposicion",
+        "protestas"
+      ],
       "analysis": {
-        "summary": "El director del MI5, Ken McCallum, señala expresamente el intento de atentado contra la base aérea de Fairford",
+        "summary": "La policía interviene finalmente el tercer día de la movilización, tras los incidentes registrados la víspera",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -229,52 +186,52 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "La inteligencia británica asegura que Irán ha dado un giro en su guerra híbrida para incluir objetivos militares",
-          "description": "El director del MI5, Ken McCallum, señala expresamente el intento de atentado contra la base aérea de Fairford",
-          "url": "https://elpais.com/internacional/2026-10-13/la-inteligencia-britanica-asegura-que-iran-ha-dado-un-giro-en-su-guerra-hibrida-para-incluir-objetivos-militares.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/V3CYX72REBNITCH3BACZSIBJNE.jpg?auth=7608af900b196bb152d6a183d0c9c1368b2beb37297af671a3d53fd862edf568",
-          "published_raw": "Tue, 13 Oct 2026 17:59:43 GMT",
-          "published_at": "2026-10-13T14:59:43-0300",
+          "title": "El presidente de Albania culpa a la oposición de los disturbios en las protestas estudiantiles",
+          "description": "La policía interviene finalmente el tercer día de la movilización, tras los incidentes registrados la víspera",
+          "url": "https://elpais.com/internacional/2026-10-15/el-presidente-de-albania-culpa-a-la-oposicion-de-los-disturbios-en-las-protestas-estudiantiles.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/JIU4ZF6J4BARJH733IVCNXRKVI.JPG?auth=572a44a4ff601c8a75125812e5a86aec75dee359535d53cd90c01d5cded5ae62",
+          "published_raw": "Thu, 15 Oct 2026 15:01:02 GMT",
+          "published_at": "2026-10-15T12:01:02-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
-          "score_institutional": 0,
+          "score_institutional": 1,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 3,
+          "score_conflict": 2,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 0,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 5,
           "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": null,
+          "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-016"
         }
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-002",
-      "title": "De Urresti cuestiona estrategia del Gobierno por reforma de seguridad: \"Pan para hoy y hambre para mañana\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/de-urresti-cuestiona-estrategia-del-gobierno-por-reforma-de-seguridad/2026-10-12/123341.html",
+      "position": 3,
+      "cluster_id": "PML-EVENT-010",
+      "title": "Bachelet encabezó desayuno con Boric y timoneles de oposición",
+      "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/bachelet-encabezo-desayuno-con-boric-y-timoneles-de-oposicion/2026-10-15/111132.html",
       "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
+      "topic": "Ideología y competencia política",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
         "group": "Chile",
         "country": "Chile"
       },
       "relevance": {
-        "score": 54.3,
+        "score": 58.9,
         "level": "MEDIA",
-        "editorial_utility": 54.3
+        "editorial_utility": 70.9
       },
       "selection": {
-        "reason": "PML 54.3; aporta diversidad geográfica",
+        "reason": "PML 58.9; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -284,90 +241,16 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-10-12T12:33:41-0300",
-      "last_seen": "2026-10-12T12:33:41-0300",
+      "first_seen": "2026-10-15T11:11:32-0300",
+      "last_seen": "2026-10-15T11:11:32-0300",
       "entities": [
-        "senado",
-        "congreso",
-        "bachelet"
+        "bachelet",
+        "boric"
       ],
       "event_terms": "oposicion",
       "analysis": {
-        "summary": "El senador Alfonso de Urresti (PS) criticó al Gobierno por buscar apoyos individuales para aprobar la reforma constitucional de seguridad y cuestionó a los parlamentarios de oposición que suscribieron la propuesta, cuestionando la falta de coordinación interna para alcanzar acuerdos.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "De Urresti cuestiona estrategia del Gobierno por reforma de seguridad: \"Pan para hoy y hambre para mañana\"",
-          "description": "El senador Alfonso de Urresti (PS) criticó al Gobierno por buscar apoyos individuales para aprobar la reforma constitucional de seguridad y cuestionó a los parlamentarios de oposición que suscribieron la propuesta, cuestionando la falta de coordinación interna para alcanzar acuerdos. En entrevista con La Tercera , el legislador, quien asumirá la presidencia del Senado el próximo año, sostuvo que \"el gobierno se equivoca al buscar una reforma de esta magnitud simplemente consiguiendo un par de votos de la oposición\" . \"La estrategia de seguridad y de lucha contra el crimen organizado tiene que generar acuerdos mucho más amplios , no con esta política de conseguir un par de votos para hacer mayoría\", agregó. Las críticas apuntan a la propuesta impulsada por los senadores Andrés Longton (RN), Arturo Squella (Partido Republicano) y Pedro Araya (PPD) , luego de que el Ejecutivo accediera a retirar su proyecto original. De Urresti cuestionó que la iniciativa no fuera discutida con todos los integrantes de la Comisión de Constitución y aseguró que las senadoras Paulina Vodanovic (PS) y Claudia Pascual (PC) quedaron excluidas de las conversaciones. En esa línea, también apuntó contra los parlamentarios opositores que respaldaron la propuesta. \"Los senadores que han firmado esa propuesta tendrán que explicarlo ; creo que han pasado un límite al suscribir con su firma \", afirmó, advirtiendo que mantiene serias observaciones sobre el contenido de la reforma. El legislador reconoció además que \"la oposición aparece debilitada\" y cuestionó la coordinación entre el senador Pedro Araya, presidente de la Comisión de Constitución , y el resto del sector, señalando que el trabajo conjunto \"no ha sido lo suficientemente fluido para, efectivamente, generar un contrapeso\". Consultado sobre su eventual votación, evitó adelantar una decisión y aseguró que revisará el texto en detalle. Sin embargo, recalcó que \"al menos dentro del Socialismo Democrático nosotros no respaldamos esta iniciativa \". Respecto de la estrategia del Ejecutivo, insistió en que \" a mí no me gusta cuando el gobierno comienza a pirquinear votos y contar con el voto de un parlamentario para tratar de hacer mayoría; eso augura victorias parciales\". \"Conseguir votos parciales es pan para hoy y hambre para mañana\" , sostuvo. Asimismo, advirtió que el desafuero del senador Miguel Ángel Calisto podría modificar la correlación de fuerzas en el Congreso, al reducir la representación del oficialismo.  PS apuesta por una candidatura presidencial En otro ámbito, el senador abordó el futuro del Partido Socialista y planteó la necesidad de renovar sus liderazgos de cara a las próximas elecciones. \" Necesitamos un liderazgo que ayude a renovar el partido de cara a las parlamentarias, municipales y presidenciales\", afirmó, mencionando entre las figuras de la colectividad al exministro Álvaro Elizalde, Andrés Santander y Karina Delfino. Sobre las futuras alianzas electorales, defendió la construcción de una oposición amplia , sin excluir al Frente Amplio, aunque enfatizó que los socialistas aspiran a presentar una candidatura propia a La Moneda. \"Nosotros queremos tener un candidato propio, una candidata propia. El principal deseo de los socialistas es tener nuevamente un candidato de nuestras filas para encabezar el gobierno\", afirmó. Finalmente, De Urresti defendió el derecho del PS a competir por la Presidencia, recordando los gobiernos de Ricardo Lagos y Michelle Bachelet.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/de-urresti-cuestiona-estrategia-del-gobierno-por-reforma-de-seguridad/2026-10-12/123341.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261012/imag/foto_0000000220261012123341.jpg",
-          "published_raw": "Mon, 12 Oct 2026 12:33:41 -0300",
-          "published_at": "2026-10-12T12:33:41-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 5,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 6,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 20,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-002"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-030",
-      "title": "El supervisor de los futuros de EE UU entorpece la investigación de operaciones sospechosas con el petróleo",
-      "url": "https://elpais.com/economia/2026-10-13/el-supervisor-de-los-futuros-de-ee-uu-entorpece-la-investigacion-de-operaciones-sospechosas-con-el-petroleo.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 57.5,
-        "level": "MEDIA",
-        "editorial_utility": 52.5
-      },
-      "selection": {
-        "reason": "PML 57.5; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-13T11:23:54-0300",
-      "last_seen": "2026-10-13T11:23:54-0300",
-      "entities": "trump",
-      "event_terms": [],
-      "analysis": {
-        "summary": "El análisis de datos por posible uso de información privilegiada recae en la mano derecha del presidente de la CFTC, nombrado por Trump",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "La expresidenta Michelle Bachelet (2006-2010, 2014-2018) encabezó un desayuno junto a los timoneles de seis colectividades de la oposición en la sede de su fundación, Horizonte Ciudadano , en la comuna de Ñuñoa . La cita estuvo marcada por las conversaciones estratégicas para articular al sector y por las crecientes expectativas en torno a una eventual tercera candidatura de la exmandataria .",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Ideología y competencia política y la sitúa en Chile.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -377,32 +260,184 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El supervisor de los futuros de EE UU entorpece la investigación de operaciones sospechosas con el petróleo",
-          "description": "El análisis de datos por posible uso de información privilegiada recae en la mano derecha del presidente de la CFTC, nombrado por Trump",
-          "url": "https://elpais.com/economia/2026-10-13/el-supervisor-de-los-futuros-de-ee-uu-entorpece-la-investigacion-de-operaciones-sospechosas-con-el-petroleo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/6ST66JBNBNIDDGVFRJUQHNTNBA.jpg?auth=822bd291cec80568ca6c4c47c5e4d23d5acf2347fee3e44a17442b6e4a486220",
-          "published_raw": "Tue, 13 Oct 2026 14:23:54 GMT",
-          "published_at": "2026-10-13T11:23:54-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Bachelet encabezó desayuno con Boric y timoneles de oposición",
+          "description": "La expresidenta Michelle Bachelet (2006-2010, 2014-2018) encabezó un desayuno junto a los timoneles de seis colectividades de la oposición en la sede de su fundación, Horizonte Ciudadano , en la comuna de Ñuñoa . La cita estuvo marcada por las conversaciones estratégicas para articular al sector y por las crecientes expectativas en torno a una eventual tercera candidatura de la exmandataria . El encuentro se inició cerca de las 09:30 horas y convocó a Paulina Vodanovic (Partido Socialista), Gael Yeomans (Frente Amplio), Lautaro Carmona (Partido Comunista), Raúl Soto (Partido por la Democracia), Álvaro Ortiz (Democracia Cristiana) y Juan Carlos Urzúa (Partido Liberal). A la cita asistió también el expresidente Gabriel Boric (2022-2026), quien en las últimas semanas ha mantenido una abierta cercanía política con Bachelet. Foto: ATON A su arribo a la sede de la fundación, la militante socialista fue requerida por la prensa respecto a si la reunión buscaba ordenar al bloque y definir liderazgos ante el nuevo escenario político. \"No sé si (voy a) ordenar, pero vamos a conversar\",  respondió Bachelet. El despliegue de las dirigencias opositoras se concreta días después de que la otrora jefa de Estado abriera la puerta a una hipotética tercera postulación a La Moneda , reordenando el tablero del sector y reactivando las proyecciones electorales de la centroizquierda . [Lea también]   Luis Pardo negó que la derecha esté \"con colitis\" por Bachelet",
+          "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/bachelet-encabezo-desayuno-con-boric-y-timoneles-de-oposicion/2026-10-15/111132.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261015/imag/foto_0000000320261015111132.jpg",
+          "published_raw": "Thu, 15 Oct 2026 11:11:32 -0300",
+          "published_at": "2026-10-15T11:11:32-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
+          "score_institutional": 0,
+          "score_elections": 1,
           "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 5,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 8,
+          "primary_topic": "Ideología y competencia política",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-010"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-012",
+      "title": "Brasil: el partido de Lula denunciará a Meta ante la OEA por presunta “interferencia” electoral",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261015-brasil-el-partido-de-lula-denunciar%C3%A1-a-meta-ante-la-oea-por-presunta-interferencia-electoral",
+      "representative_source": "France 24",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "DIPLOMATIC_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Brasil / América Latina"
+      },
+      "relevance": {
+        "score": 62,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 66
+      },
+      "selection": {
+        "reason": "PML 62; aporta diversidad temática",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-10-14T23:01:41-0300",
+      "last_seen": "2026-10-14T23:01:41-0300",
+      "entities": [
+        "brasil",
+        "lula"
+      ],
+      "event_terms": "eleccion",
+      "analysis": {
+        "summary": "A menos de dos semanas de la segunda vuelta de las elecciones presidenciales en Brasil, la campaña de Luiz Inácio Lula da Silva acusa a Meta de restringir el alcance de sus publicaciones y de afectar la visibilidad de dirigentes de izquierda en Instagram. La compañía rechaza las acusaciones y las califica \"simplemente falsas\" y \"sin respaldo en los hechos\".",
+        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Brasil / América Latina.",
+        "watch_next": [
+          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
+          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Brasil: el partido de Lula denunciará a Meta ante la OEA por presunta “interferencia” electoral",
+          "description": "A menos de dos semanas de la segunda vuelta de las elecciones presidenciales en Brasil, la campaña de Luiz Inácio Lula da Silva acusa a Meta de restringir el alcance de sus publicaciones y de afectar la visibilidad de dirigentes de izquierda en Instagram. La compañía rechaza las acusaciones y las califica \"simplemente falsas\" y \"sin respaldo en los hechos\".",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261015-brasil-el-partido-de-lula-denunciar%C3%A1-a-meta-ante-la-oea-por-presunta-interferencia-electoral",
+          "image_url": "https://s.france24.com/media/display/58483438-c80f-11f1-a321-2d1c143cdef3/w:1024/p:16x9/878487ca57ce37b8c51b2864d2ab6e93a1e3d072.jpg",
+          "published_raw": "Thu, 15 Oct 2026 02:01:41 GMT",
+          "published_at": "2026-10-14T23:01:41-0300",
+          "country": "Brasil",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 4,
+          "score_international": 1,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 1,
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
+          "political_evidence": 7,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-012"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-014",
+      "title": "Gobierno y oposición de Venezuela retoman el diálogo con las elecciones como tema central",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261014-gobierno-y-oposici%C3%B3n-de-venezuela-retoman-el-di%C3%A1logo-con-las-elecciones-como-tema-central",
+      "representative_source": "France 24",
+      "topic": "Instituciones y gobierno",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Venezuela / América Latina"
+      },
+      "relevance": {
+        "score": 65.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 64.2
+      },
+      "selection": {
+        "reason": "PML 65.2; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-10-14T20:37:25-0300",
+      "last_seen": "2026-10-14T20:37:25-0300",
+      "entities": "venezuela",
+      "event_terms": [
+        "oposicion",
+        "sanciones"
+      ],
+      "analysis": {
+        "summary": "La tercera ronda de diálogo para una transición política en Venezuela comenzó este miércoles, horas después de que Washington retirara las sanciones contra Jorge Rodríguez, jefe negociador del gobierno y hermano de la presidenta interina, Delcy Rodríguez.",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Venezuela / América Latina.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Gobierno y oposición de Venezuela retoman el diálogo con las elecciones como tema central",
+          "description": "La tercera ronda de diálogo para una transición política en Venezuela comenzó este miércoles, horas después de que Washington retirara las sanciones contra Jorge Rodríguez, jefe negociador del gobierno y hermano de la presidenta interina, Delcy Rodríguez.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261014-gobierno-y-oposici%C3%B3n-de-venezuela-retoman-el-di%C3%A1logo-con-las-elecciones-como-tema-central",
+          "image_url": "https://s.france24.com/media/display/35040bf0-c828-11f1-8c1c-6313a763b466/w:1024/p:16x9/99effdf46aa96853af47329306e8d1c6c3ea0170.jpg",
+          "published_raw": "Wed, 14 Oct 2026 23:37:25 GMT",
+          "published_at": "2026-10-14T20:37:25-0300",
+          "country": "Venezuela",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 1,
+          "score_international": 2,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 7,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-014"
         }
       ]
     }
@@ -415,25 +450,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-006",
-        "title": "Timonel PPD: Todos queremos saber si Bachelet piensa ser candidata",
+        "cluster_id": "PML-EVENT-017",
+        "title": "Grau y caída de crecimiento: Nunca tuvimos una economía que decrezca sin una crisis mundial",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "INSTITUTIONAL_CRISIS",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/timonel-ppd-todos-queremos-saber-si-bachelet-piensa-ser-candidata/2026-10-13/104517.html",
+        "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/grau-y-caida-de-crecimiento-nunca-tuvimos-una-economia-que-decrezca-sin/2026-10-15/114415.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 53.1,
-          "level": "MEDIA",
+          "score": 63.2,
+          "level": "MEDIA-ALTA",
           "components": {
-            "political_impact": 51,
-            "freshness": 80,
+            "political_impact": 72,
+            "freshness": 100,
             "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 36
+            "geographic_scope": 40,
+            "continuity": 46
           }
         },
         "coverage": {
@@ -441,130 +476,58 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-13T10:45:17-0300",
-        "last_seen": "2026-10-13T10:45:17-0300",
+        "first_seen": "2026-10-15T11:44:15-0300",
+        "last_seen": "2026-10-15T11:44:15-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Timonel PPD: Todos queremos saber si Bachelet piensa ser candidata",
-            "description": "El presidente del PPD, Raúl Soto , comentó en El Primer Café el desayuno al que convocó Michelle Bachelet -para este día jueves, en la sede de su fundación, Horizonte Ciudadano- a los timoneles de los partidos de oposición.   El diputado dijo que la decisión de la exmandataria de abrir la puerta a una tercera candidatura presidencial  se da en un escenario en que el Gobierno de José Antonio Kast \"se está desfondando en su base de apoyo social y político, y la oposición está renaciendo , está reviviendo, está volviendo a posicionarse\". \"Qué rol va a jugar cada uno en ese nuevo escenario es lo que está por verse, pero evidentemente que un liderazgo tan importante como la Presidenta Bachelet siempre va a tener un rol de primer de primer orden\" , señaló Soto en Cooperativa. En este contexto, \" nosotros vamos a asistir con gusto a este desayuno que nos ha invitado en su fundación, donde yo creo que lo más relevante es conversar respecto del estado del país, ver la opinión de la Presidenta respecto de las distintas materias que se están discutiendo y sus posibles consecuencias en Chile\". Consultado por si le pedirán una aclaración respecto a sus dichos de la semana pasada, el timonel contestó: \" Por supuesto que sí. (Se) lo voy a preguntar. Yo creo que todos queremos saber aquello (si desea ser candidata), porque fue una declaración sorpresiva para muchos ; no la esperábamos, si bien había un contexto de regreso (suyo) a Chile, de regreso a la primera línea de la contingencia política\", y ejempo de ello fue el acto de desagravio realizado en La Pintana con toda la oposición , donde \"la arropamos, la apoyamos, pero (en ese minuto) no había ninguna señal en dirección a una nueva candidatura presidencial, como la hubo en esta entrevista\" de la semana pasada. \"Queremos, por cierto, conocer los alcances de aquello\" , enfatizó Soto. \"Ojalá no impida que surjan nuevos liderazgos\" Al mismo tiempo, el timonel apuntó que \"no hay que tener ansiedad, porque no es momento de estar hoy día definiendo candidaturas presidenciales . Queda mucho por delante y hay que ser prudentes\". \"Me parece que  el liderazgo de la Presidenta Bachelet debe estar sobre la mesa , el liderazgo del expresidente Boric debe estar por sobre la mesa (también) y yo espero que existan muchos otros más que vayan surgiendo: ojalá que esto (la opción de Bachelet) no impida que surjan también otros nuevos liderazgos , y ojalá que el progresismo el día de mañana tenga 10 candidatos presidenciales entre los cuales elegir en una gran primaria para competir con la derecha\", planteó. Dentro de dichas alternativas \"se me ocurren nombres como Claudio Orrego , como Tomás Vodanovic , como la propia Carolina Tohá ... Hay muchos otros que podrán estar, (...) no hay que descartar ninguno, pero las definiciones van a venir más adelante\", sentenció Soto en El Primer Café .",
-            "url": "https://www.cooperativa.cl/noticias/pais/michelle-bachelet/timonel-ppd-todos-queremos-saber-si-bachelet-piensa-ser-candidata/2026-10-13/104517.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261013/imag/foto_0000000220261013104517.jpg",
-            "published_raw": "Tue, 13 Oct 2026 10:45:17 -0300",
-            "published_at": "2026-10-13T10:45:17-0300",
+            "title": "Grau y caída de crecimiento: Nunca tuvimos una economía que decrezca sin una crisis mundial",
+            "description": "Tras un nuevo recorte en las proyecciones por parte del Fondo Monetario Internacional , el exministro de Hacienda Nicolás Grau planteó en Cooperativa que Chile nunca había tenido cifras negativas de crecimiento en un año donde no se registrara una crisis a nivel internacional. En El Primer Café , Grau sostuvo que \"estamos en una situación bastante excepcional. Chile, si termina en un crecimiento negativo este año, que es una situación probable, sería la primera vez, al menos desde el 90, que la economía decrece en un año sin una crisis mundial mediante. La economía decreció en la crisis asiática, en la crisis subprime y en el Covid, pero nunca hemos tenido una economía que crezca negativo o decrezca en un contexto en que el mundo no está decreciendo y las economías similares a Chile tampoco le están pasando eso\". \"Por ende, eso significa que las razones tienen que ser principalmente idiosincráticas, tienen que ser de lo que está ocurriendo en nuestra economía\", agregó. Grau recordó que \"fue una combinación de factores, que no todos tienen que ver con el gobierno, en enero y febrero hubo shocks puntuales de la minería y la pesca, que implicaron que esos meses estuvieran más bajos, pero desde marzo en adelante se tomaron un conjunto de decisiones macroeconómicas que lo que hicieron fue ampliar muy negativamente lo que estaba ocurriendo a nivel internacional\". El economista del Instituto Libertad, Gustavo Díaz , dijo que \"son lamentables noticias y revelan que el problema económico en Chile no es coyuntural, sino que es más estructural, porque una economía que crece cerca de un 0 por ciento enfrenta dificultades en todo ámbito. No solamente lo vemos hoy día, lo hemos escuchado de forma sistemática los años anteriores, porque crecer poco significa menos empleo, menos salarios reales\". \"Es un tema multifactorial y que no es contingente a las elecciones (...) nuestra economía no ha generado inversiones, no ha generado reformas procrecimiento en harto tiempo, estamos creciendo dentro de la zona más baja, pero no solamente a nivel mundial, sino que también entre los países en vías de desarrollo\", aseveró. Alejandro Micco , exsubsecretario de Hacienda, comentó que \"los datos son bien desalentadores (...) estamos con un nivel de perspectivas económicas de la gente -tanto de los consumidores como de los empresarios- muy baja, creo que estamos en un círculo vicioso en el cual las perspectivas negativas que existen hoy día están generando esta profecía autocumplida de poco crecimiento\". \"Es un tema súper importante tratar de salir de esta situación de pesimismo, tomando en cuenta que la situación mundial no es tan mala. De hecho, las perspectivas de crecimiento que tenemos a esta altura del año para el mundo son mejores que las que teníamos a comienzos del año, lo mismo para el precio del cobre\", proyectó. Finalmente, Pablo Eguiguren, director de Políticas Públicas de Libertad y Desarrollo, planteó que \"hay algo de las expectativas que tiene que ver con la situación de la política económica, pero también con la política que se ve en el Congreso, la necesidad de grandes acuerdos (...) si las medidas se toman con mayor consenso vamos a tener más estabilidad en el tiempo y eso podría ayudar a las expectativas\". \"Parte de esa falta de acuerdos tiene que ver con que la oposición no ha estado tan disponible o ese énfasis en crecimiento que había hacia el final del gobierno anterior parece que se ha diluido y eso ha dificultado que haya acuerdo amplio\", lamentó.",
+            "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/grau-y-caida-de-crecimiento-nunca-tuvimos-una-economia-que-decrezca-sin/2026-10-15/114415.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261015/imag/foto_0000000220261015114415.jpg",
+            "published_raw": "Thu, 15 Oct 2026 11:44:15 -0300",
+            "published_at": "2026-10-15T11:44:15-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 4,
-            "score_elections": 2,
+            "score_institutional": 2,
+            "score_elections": 1,
             "score_international": 0,
             "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 5,
+            "score_policy": 1,
+            "score_ideology": 0,
+            "score_actor": 1,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 12,
+            "political_evidence": 5,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
+            "cluster_id": "PML-EVENT-017"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 19,
+          "bonus": 18,
           "labels": [
             "Estado e instituciones",
-            "Elecciones y opinión pública"
+            "Economía y políticas públicas"
           ],
-          "chile_utility": 72.1
+          "chile_utility": 81.2
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-004",
-        "title": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/reforma-de-seguridad-divide-al-socialismo-democratico-araya-cuestiona/2026-10-11/144117.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 48.2,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 86,
-            "freshness": 25,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 42
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-11T14:41:17-0300",
-        "last_seen": "2026-10-11T14:41:17-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Reforma de seguridad divide al Socialismo Democrático: Araya cuestiona al PS",
-            "description": "El senador PPD Pedro Araya cuestionó al Partido Socialista (PS) por su decisión de rechazar la nueva reforma constitucional de seguridad propuesta por él y otros senadores en reemplazo a la iniciativa del Gobierno, calificando la postura de la tienda como una \"mala señal\". La moción que ingresaron los parlamentarios Araya, Arturo Squella (Republicanos), Andrés Longton (RN), Iván Flores (DC) y Karim Bianchi (independiente) excluye la polémica creación de un nuevo estado de excepción para combatir al crimen organizado y, en su lugar, modifica el actual estado de emergencia para permitir reacciones preventivas a amenazas graves. Además, plantea elevar a rango constitucional el combate al crimen organizado y el establecimiento de regímenes penitenciarios especiales para personas condenadas por delitos de crimen organizado y terrorismo. Sin embargo, el viernes, el Comité Central socialista emitió un escrito señalando que no apoyarán la reforma, debido a que -afirmó- amplía las causales para decretar el estado de emergencia para combatir al crimen organizado y permite restringir derechos frente a amenazas inminentes que aún no se han concretado. \"Espero que reflexionen\" Ante esto, Araya expresó que los tres puntos mencionados que sugieren como senadores \"son muy razonables y están muy lejos de ser la reforma inicial que había presentado el Presidente Kast\".   \"Por eso yo espero que los parlamentarios reflexionen, puedan leer el texto y, una vez que lo hayan leído, nos puedan hacer las críticas técnicas y decirnos 'mira, no nos gusta esto y esto otro'. Pero de ahí a entrar a rechazar de buenas a primeras, creo que es una muy mala señal\",  fustigó. \"Lo único que se fortalece con esto es el crimen organizado, que ve cómo el mundo político no es capaz de ponerse de acuerdo en la manera en que se fortalece al Estado para enfrentarlos\", sostuvo el militante PPD.  En paralelo, desde el Gobierno hubo llamados similares. Durante una entrevista con El Mercurio, el biministro del Interior y de la Segegob, Claudio Alvarado, pidió al Socialismo Democrático a aprobar la reforma,  ya que \"si opera el sentido común y la lógica, en temas de seguridad deberían tener el mismo comportamiento que tuvieron con el Gobierno anterior\". Las diferencias del PS con el Soc. Democrático En tanto, el senador socialista Juan Luis Castro profundizó los reparos que su partido tiene contra la reforma constitucional de seguridad propuesta.  \"Las diferencias que tenemos desde el Socialismo Democrático son tres, básicamente: primero, no vemos la necesidad de ir a cambiar la Constitución para mejorar el combate al crimen organizado. Hacerlo no cambia el destino de Carabineros fallecidos, ni causa el desbaratamiento de bandas del narcotráfico o el levantamiento del secreto bancario, que son cosas distintas\", indicó.  \"Segundo, en las cárceles estamos dispuestos a que haya, por ley -y no por la Constitución-, segregación como hoy ya está sucediendo en las de alta seguridad; y tercero,  el estado actual de emergencia, que existe como un estado de excepción, es el instrumento privilegiado y no necesita introducírsele la sospecha, amenaza o posibilidad de una nueva realidad para invocarlo\",  argumentó Castro.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/reforma-de-seguridad-divide-al-socialismo-democratico-araya-cuestiona/2026-10-11/144117.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261011/imag/foto_0000000220261011144117.png",
-            "published_raw": "Sun, 11 Oct 2026 14:41:17 -0300",
-            "published_at": "2026-10-11T14:41:17-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 5,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 4,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 13,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 70.2
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-031",
-        "title": "\"Financiar ideas\", \"sacarse fotos\": la pugna entre gobernador y alcaldesa de Las Condes",
-        "topic": "Instituciones y gobierno",
+        "cluster_id": "PML-EVENT-013",
+        "title": "Libertarios arremete contra La Moneda por no conmemorar el 18 de octubre",
+        "topic": "Conflictos y seguridad",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/inundaciones/financiar-ideas-sacarse-fotos-la-pugna-entre-gobernador-y/2026-10-13/110746.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/libertarios-arremete-contra-la-moneda-por-no-conmemorar-el-18-de-octubre/2026-10-14/213245.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
@@ -585,47 +548,116 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-13T11:07:46-0300",
-        "last_seen": "2026-10-13T11:07:46-0300",
+        "first_seen": "2026-10-14T21:32:45-0300",
+        "last_seen": "2026-10-14T21:32:45-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "\"Financiar ideas\", \"sacarse fotos\": la pugna entre gobernador y alcaldesa de Las Condes",
-            "description": "El gobernador metropolitano, Claudio Orrego , y la alcaldesa de Las Condes, Catalina San Martín , se enfrascaron en una pugna pública, luego que la edil asegurara que la autoridad regional estuvo ausente durante las reuniones de coordinación tras el aluvión que afectó el jueves a San Carlos de Apoquindo y que le habían informado se encontraba fuera del país. \"Eso es absolutamente falso. Si ella tiene una duda de dónde estoy, fui por el día a Atacama, pero fue dos días después del episodio \", dijo el independiente (exDC) en conversación con Una Nueva Mañana de Cooperativa , donde afirmó que llegó al sector afectado el día de la emergencia y que permaneció en terreno hasta avanzada la jornada. \"Estuvimos ahí (en San Carlos de Apoquindo) viendo todo el día el episodio. Esto no fue el día jueves y estuvimos hasta última hora ahí, cuando ya pasó el aluvión y estaban las operaciones coordinadas con todos los actores (...)  Me parece una cosa bastante grave que diga que yo estaba fuera de Chile , cuando la verdad es que nunca me he ausentado del territorio nacional y fue un día, tres días después del evento. Yo estoy al pie del cañón monitoreando toda la emergencia\", señaló Orrego. \"La misma alcaldesa sabe que probablemente la primera autoridad que llegó arriba fui yo. Estuve ahí y fui de los últimos en irme el día de la emergencia\" , recalcó, explicando que \"la coordinación de la emergencia la tiene, por ley, el delegado\", aunque enfatizó que esa atribución \"no quiere decir que uno se margine\" de las labores. En esa línea, aseguró que \"si hubo una reunión de Cogrid (Comité para la Gestión del Riesgo de Desastre) el día que yo estaba en un cometido, no fuera de Chile, sino que en Atacama, varios días después del aluvión, siempre estuvo presente el Gobierno de Santiago . Entonces, yo no entiendo mucho este afán de la alcaldesa, estando en medio de la emergencia, teniendo que hacer muchas cosas para adelante\". Estudio de riesgos rechazado por el municipio Uno de los principales puntos planteados por Orrego fue la oferta que, según relató, realizó al municipio de Las Condes después de un episodio registrado a fines de enero en la quebrada Onda. En esa oportunidad, \"le ofrecimos al municipio de Las Condes, de manera extraordinaria -porque generalmente no le financiamos cosas a Las Condes, porque tiene un presupuesto muy superior al nuestro-, pero en este caso le dijimos que estábamos disponibles para financiarle un estudio de riesgo , porque nos dábamos cuenta que tanto la cantidad de construcciones en torno a la quebrada, como también el incendio que había habido San Carlos de Apoquindo el año pasado, generaba mayor nivel de riesgo\", recordó el gobernador. Sin embargo, sostuvo que \"el municipio desestimó ese informe (...) Insistimos el día después del aluvión de la semana pasada, para reiterar que seguíamos disponibles para poder financiar de manera extraordinaria este informe\". Orrego también cuestionó las explicaciones atribuidas a la alcaldesa respecto de una supuesta burocracia para acceder a esos recursos. \"Habiendo nosotros ofrecido un estudio en febrero -que ella misma sabe y ha dicho que declinó, según ella, por burocracia-, la verdad es que, como ella nunca ha presentado un proyecto al Gobierno Regional, tiene que entender que nosotros no podemos financiar ideas; tenemos que financiar proyectos \", remarco, señalando que, \"si usted revisa el Sistema Nacional de Inversiones, no hay ningún proyecto de las Condes\" que permitiera canalizar esa ayuda. \"Entonces, mal podríamos ayudar de otra manera\", acotó. \"Entiendo que han sido días pesados, días complejos, pero que (San Martín) apunte bien sus dardos\" , exhortó, manifestado que, pese a las diferencias, \"el día que quiera podemos juntarnos a conversar. Las puertas del Gobierno Regional están abiertas\". Orrego apunta a la planificación territorial: \"Absolutamente obsoleto\" Más allá de la controversia entre ambas autoridades, el gobernador insistió en que el desastre obliga a revisar la planificación urbana y las medidas de prevención en la precordillera de Santiago. \" Tenemos que revisar el mapa de riesgos de la Región Metropolitana, que está absolutamente obsoleto. El Plan Regulador Metropolitano, que regula las zonas con constructibilidad y también de riesgo, venció el 2020, pero los estudios que le daban base son del año 1982. Harta agua ha pasado bajo el puente y por las quebradas desde entonces. Hay que actualizar eso y es un tema que está todavía pendiente en Santiago\", planteó. Orrego afirmó que ha \"reclamado y pedido que se nos dé la atribución de planificación territorial, porque creemos que es un rol fundamental de la región\", con el argumento de que estas administraciones están más cerca de los problemas locales y podrían responder de manera más oportuna. También destacó la necesidad de recuperar la vegetación en las zonas afectadas por incendios, debido a su importancia para la estabilidad del suelo. \"Cuando tú pierdes los árboles y la vegetación, pierdes el sustento de la tierra, se erosiona más rápido y se desprende aún más rápido\", explicó. Alcaldesa: \"Molesta que esta catástrofe se utilice para venir a sacarse fotografías\" En conversación con El Diario de Cooperativa , la alcaldesa de Las Condes, Catalina San Martín, entregó su versión sobre la polémica con el gobernador Orrego y apuntó  a una supuesta falta de apoyo en terreno y a trabas burocráticas . La jefa comunal explicó que controversia se remonta al incendio forestal ocurridos durante el verano en la zona, señalando que -en dicha emergencia- el Gobierno Regional estuvo y cuestionó las intenciones de las visitas institucionales. \"En ese episodio del verano, el GORE no estuvo, no llegó, pero me pidieron sacarse fotos . Y mi respuesta, por supuesto, fue que no, porque esto no es para hacer, sacarse fotografías e irse . Nosotros esa emergencia del verano la levantamos absolutamente solos como municipalidad\", aseveró. San Martín afirmó que, en ese contexto, \"cuando llegó el representante del gobernador a querer sacarse fotos y mi equipo me avisa, le dije que ni una posibilidad de que pudieran venir a sacarse fotos, que vinieran a preguntarnos cómo nos ayudaban\". \"Estando ahí, le dije que yo necesito es que se financie un estudio hídrico para ver cómo está la cuenca y qué intervenciones se pueden hacer en la precordillera . 'Nosotros financiamos eso. No se preocupe, alcaldesa, déjeme hacer el video' (me respondieron). Hicieron el video, esto está en redes sociales de esta persona, y se comprometió a hacer ese financiamiento desde el Gore\", recordó. Posteriormente, la alcaldesa aseguró que \"cuando le digo (al gobernador) que pongamos manos a la obra, porque necesitamos avanzar rápido antes del invierno, empezó a decir a mis equipos técnicos que 'lo que pasa es que tiene que postular a no sé qué, que tiene que hacer no sé cuál' , la burocracia propia del Estado. Pero yo no tengo tiempo que perder, no me voy a meter en la burocracia del Estado, ni de la gobernación\". Finalmente, San Martín manifestó que \"mi molestia hoy día es que vi videos del gobernador con el barro hasta la rodilla, (supuestamente) rescatando personas, pero yo no he visto al gobernador (en la emergencia). Francamente, molesta que esta emergencia y esta catástrofe se utilice para venir a sacarse fotografías y hacer videos \". Investigación penal y responsabilidades Consultado por la investigación que lleva adelante la Fiscalía para determinar eventuales responsabilidades en el aluvión , Orrego dijo que corresponde esclarecer si se adoptaron las medidas preventivas necesarias y si se realizaron las inversiones requeridas. El gobernador indicó que desconoce el contenido de el informe emitido por el Servicio Nacional de Geología y Minería (Sernageomin) y las comunicaciones que estos organismos pudieron mantener con la Dirección de Obras Hidráulicas (DOH) y el municipio. Asimismo, planteó que  \"es súper importante que se transparenten todos los estudios e informes que hay sobre la cordillera de Santiago, tanto del Sernageomin como por parte de la DOH\" .",
-            "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/inundaciones/financiar-ideas-sacarse-fotos-la-pugna-entre-gobernador-y/2026-10-13/110746.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261013/imag/foto_0000000220261013110746.jpg",
-            "published_raw": "Tue, 13 Oct 2026 11:07:46 -0300",
-            "published_at": "2026-10-13T11:07:46-0300",
+            "title": "Libertarios arremete contra La Moneda por no conmemorar el 18 de octubre",
+            "description": "El Partido Nacional Libertario cuestionó este miércoles la determinación de La Moneda de marginarse de cualquier acto conmemorativo a siete años del estallido social . Para la colectividad, la postura del Ejecutivo de no conmemorar la fecha debilita el respaldo que esperaban hacia las fuerzas de orden y seguridad . La tienda política pretendía que el Gobierno encabezara un homenaje institucional dirigido a los funcionarios de Carabineros que resultaron condenados por los episodios de octubre de 2019 . En esa línea, los libertarios mantienen firme su ofensiva para lograr un indulto general en favor de los uniformados , alternativa que ya fue desestimada por el Ejecutivo. Kaiser acusa pasividad y falta de señales claras En opinión de la senadora libertaria Vanessa Kaiser , \"es increíble que el gobierno de José Antonio Kast no haga ningún acto oficial el próximo 18 de octubre. Este es el primer aniversario del golpe de Estado octubrista bajo este gobierno y , por lo tanto , las señales debieran de ser clarísimas \". \" Chile no va a aceptar y no está para tolerar ningún intento más de quiebre democrático , de quiebre institucional \", afirmó la parlamentaria, que también acusó que \"hay sectores que están dispuestos a transformar nuestro país en un maldito infierno\". La senadora Vanessa Kaiser cuestionó la inacción del mandatario señalando que \"las señales debieran de ser clarísimas\". (FOTO: ATON) \"A esos sectores hay que darles la señal clara y por eso era tan importante que se hiciera un acto \", enfatizó Kaiser. El malestar libertario contrasta con la estrategia adoptada por los demás partidos del oficialismo, que optaron por preparar sus propias actividades sin esperar el patrocinio del Ejecutivo . Mientras el Partido Republicano proyecta una actividad en terreno, la Unión Demócrata Independiente (UDI) realizará un conversatorio y Renovación Nacional (RN) difundirá una campaña digital con el lema \"Que no vuelva a pasar\", los libertarios continúan situando la agenda de indultos y el reconocimiento policial en el centro del debate político.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/libertarios-arremete-contra-la-moneda-por-no-conmemorar-el-18-de-octubre/2026-10-14/213245.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261014/imag/foto_0000000320261014213245.png",
+            "published_raw": "Wed, 14 Oct 2026 21:32:45 -0300",
+            "published_at": "2026-10-14T21:32:45-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 2,
-            "score_elections": 0,
+            "score_institutional": 1,
+            "score_elections": 1,
             "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 1,
+            "score_conflict": 2,
+            "score_policy": 0,
             "score_ideology": 0,
-            "score_actor": 1,
+            "score_actor": 3,
             "score_noise": 0,
-            "score_accident": 1,
-            "political_evidence": 3,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
+            "score_accident": 0,
+            "political_evidence": 7,
+            "primary_topic": "Conflictos y seguridad",
+            "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
-            "filter_confidence": "medium",
-            "cluster_id": "PML-EVENT-031"
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-013"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 19,
+          "bonus": 7,
+          "labels": "Seguridad y Estado",
+          "chile_utility": 57.3
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-001",
+        "title": "Propuesta del Gobierno establece alza de 7,6% de presupuesto en Defensa",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/propuesta-del-gobierno-establece-alza-de-7-6-de-presupuesto-en-defensa/2026-10-15/091456.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 56.5,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 55,
+            "freshness": 100,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-15T09:14:56-0300",
+        "last_seen": "2026-10-15T09:14:56-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Propuesta del Gobierno establece alza de 7,6% de presupuesto en Defensa",
+            "description": "El proyecto de Ley de Presupuestos 2027 para el Ministerio de Defensa Nacional contempla un incremento de 7,6% para 2027 , superando los 2,6 billones de pesos , mientras el Gobierno impulsa reducciones de recursos en áreas como la educación superior , la cultura , ciencia y tecnología , y gobiernos regionales . El aumento se enmarca en la discusión sobre las prioridades del gasto público y la necesidad de modernizar las capacidades estratégicas de las Fuerzas Armadas frente al escenario internacional. De acuerdo con los antecedentes expuestos durante el debate presupuestario, el incremento se concentrará principalmente en las instituciones de la Defensa. El Ejército tendrá un alza de 3,4% en sus recursos, la Armada de 5,3% y la Fuerza Aérea de 9,8% . En contraste, la Subsecretaría de Defensa mantendrá un presupuesto prácticamente estable , mientras que la Subsecretaría para las Fuerzas Armadas registrará una disminución cercana al 11% . Los recursos destinados a estas instituciones financian, entre otros aspectos, remuneraciones, equipamiento, uniformes, mantenimiento de cuarteles y operaciones . La Segunda Subcomisión Mixta de Presupuestos iniciará el próximo martes la revisión de la partida correspondiente al Ministerio de Defensa. Leiva (PS) reconoce plan de inversiones pendiente El diputado del Partido Socialista (PS) e integrante de la Comisión de Defensa de la Cámara , Raúl Leiva , explicó que parte del aumento \"responde a la necesidad de hacerse cargo del Plan Cuatrienal de Inversiones del Ejército, que ha sido postergado en reiteradas oportunidades \". \"(El incremento) está, a mi juicio, dado por el aumento de las capacidades que ha planteado el Ejecutivo en atención a los factores geopolíticos y las problemáticas que actualmente se viven a nivel internacional \", planteó el opositor. Macaya (UDI): \"No corresponde atribuirle directamente el incremento al Escudo de las Américas\" Desde el oficialismo, el senador de la UDI Javier Macaya , que integra la Segunda Subcomisión Mixta, afirmó que \"parte importante (del alza) se explica por cambio en contabilización de gastos operacionales , como combustible de las Fuerzas Armadas, y por la necesidad de sostener y modernizar nuestras capacidades estratégicas, en las cuales estamos atrasados \". \"Incluso, creo que nos quedamos cortos en el desafío de las capacidades estratégicas en el contexto geopolítico que está viviendo hoy día el mundo\", advirtió el extimonel gremialista. Macaya descartó, además, atribuir directamente el incremento presupuestario a la adhesión de Chile al denominado Escudo de las Américas , coalición internacional contra el crimen organizado y el narcotráfico promovida por el presidente de Estados Unidos, Donald Trump . \" No corresponde atribuirle al Escudo de las Américas directamente este incremento presupuestario ; (la alianza) es una iniciativa de cooperación internacional en materia de seguridad y no tiene nada que ver con un programa de adquisiciones militares\", sostuvo el parlamentario. Fondo estratégico tendrá un aporte de 588 millones de dólares A los recursos contemplados en el presupuesto del Ministerio de Defensa se suma el Fondo Plurianual para las Capacidades Estratégicas de la Defensa , financiado a través del Tesoro Público y destinado, entre otros objetivos, a la renovación de material militar. Para 2027, este fondo recibirá un aporte de 588 millones de dólares , lo que representa un incremento de 22,4% . Entre los proyectos de modernización considerados por la cartera se encuentran el reemplazo de los aviones F-5 de la Fuerza Aérea, la renovación de helicópteros Bell UH-1H y la actualización de las capacidades de transporte aéreo estratégico, actualmente sustentadas en aeronaves Hércules. Ravinet: \"Parece desmedido, pero está salvando omisiones\" El exministro de Defensa Jaime Ravinet (2004-2006, 2010-2011) dijo que el aumento, \" si bien parece desmedido , quizás, en relación a otras partidas, de alguna manera está salvando omisiones que se hicieron los años 2024 y 2025 \". En particular, acusó que \"el Presidente (Gabriel) Boric no cumplió con la ley que reemplazó a la Ley (Reservada) del Cobre , que estableció un fondo plurianual para capacidades estratégicas que él no suplementó en 2024 y 2025 , no obstante haberse aprobado, en la Ley de Presupuestos, un aporte basal de 488 millones de dólares\", lo que, a su juicio, generó \"una restricción enorme en todo lo que es capacidad estratégica\". Ravinet calificó el financiamiento previsto para 2027 como \" bastante modesto en relación a lo que ha comprometido (Javier) Milei y el gobierno peruano (para sus respectivas FF.AA.), pero va restableciendo nuestras capacidades estratégicas\". Tensiones internacionales marcan el debate La discusión presupuestaria se produce en un escenario de tensiones geopolíticas que también involucra a Sudamérica. Entre los antecedentes recientes se encuentra la controversia entre Argentina y el Reino Unido por la explotación de hidrocarburos en las islas Malvinas . En este contexto, el embajador británico en Chile, David Concar , visitó Punta Arenas y defendió el próximo viaje de un buque comercial chileno al archipiélago , previsto para fines de noviembre o comienzos de diciembre, con el propósito de transportar insumos. La operación ha generado inquietud en Argentina ante la posibilidad de que el transporte facilite actividades vinculadas a la explotación de hidrocarburos en las islas, particularmente al proyecto petrolero Sea Lion . Según ha trascendido, las conversaciones entre los gobiernos de Chile y Argentina buscan abordar las garantías respecto de la carga que trasladará la embarcación. El canciller trasandino, Pablo Quirno , se refirió a la situación en televisión y aseveró que no existen planes para impedir el comercio ni el tránsito del buque.",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/propuesta-del-gobierno-establece-alza-de-7-6-de-presupuesto-en-defensa/2026-10-15/091456.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261015/imag/foto_0000000220261015091456.jpg",
+            "published_raw": "Thu, 15 Oct 2026 09:14:56 -0300",
+            "published_at": "2026-10-15T09:14:56-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 7,
+            "score_elections": 0,
+            "score_international": 2,
+            "score_conflict": 5,
+            "score_policy": 2,
+            "score_ideology": 1,
+            "score_actor": 5,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 22,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-001"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 18,
           "labels": [
             "Estado e instituciones",
-            "Elecciones y opinión pública"
+            "Economía y políticas públicas"
           ],
-          "chile_utility": 69.3
+          "chile_utility": 74.5
         },
         "repeated_in_general_top5": false
       }
@@ -633,48 +665,40 @@
   },
   "topics": [
     {
-      "topic": "Relaciones internacionales",
-      "event_count": 1,
-      "maximum_relevance": 68,
-      "leading_story": "Estados Unidos llama a consultas a su máximo diplomático en Nicaragua tras el rechazo de Ortega a la embajadora de Trump"
-    },
-    {
       "topic": "Instituciones y gobierno",
-      "event_count": 20,
-      "maximum_relevance": 60,
-      "leading_story": "La embajadora de Estados Unidos en Grecia dimite por corrupción presionada por Trump"
+      "event_count": 27,
+      "maximum_relevance": 71.7,
+      "leading_story": "Estados Unidos levanta sanciones contra Jorge Rodríguez, presidente de la Asamblea Nacional de Venezuela"
     },
     {
       "topic": "Conflictos y seguridad",
-      "event_count": 4,
-      "maximum_relevance": 57,
-      "leading_story": "La inteligencia británica asegura que Irán ha dado un giro en su guerra híbrida para incluir objetivos militares"
+      "event_count": 3,
+      "maximum_relevance": 65.4,
+      "leading_story": "El presidente de Albania culpa a la oposición de los disturbios en las protestas estudiantiles"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 8,
-      "maximum_relevance": 55.5,
-      "leading_story": "Turek contra Hinson, una de las batallas más reñidas de las ‘midterms’ se libra en Iowa, donde los candidatos marcan distancia con Trump"
+      "event_count": 3,
+      "maximum_relevance": 62,
+      "leading_story": "Brasil: el partido de Lula denunciará a Meta ante la OEA por presunta “interferencia” electoral"
     },
     {
       "topic": "Ideología y competencia política",
-      "event_count": 2,
-      "maximum_relevance": 45.8,
-      "leading_story": "El mundo en el que votará España: “La extrema derecha avanza, pero no es una partida decidida”"
-    },
-    {
-      "topic": "Economía y políticas públicas",
-      "event_count": 1,
-      "maximum_relevance": 36,
-      "leading_story": "Diputados consideran \"populista\" la propuesta del PDG que busca reemplazar contratos en UF"
+      "event_count": 3,
+      "maximum_relevance": 58.9,
+      "leading_story": "Bachelet encabezó desayuno con Boric y timoneles de oposición"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-015", "PML-EVENT-016", "PML-EVENT-010", "PML-EVENT-012", "PML-EVENT-014"],
+      "exited_top5": ["PML-EVENT-021", "PML-EVENT-029", "PML-EVENT-028", "PML-EVENT-002", "PML-EVENT-030"],
+      "retained_top5": []
+    }
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
     "source_count": 3
   },
   "system": {
