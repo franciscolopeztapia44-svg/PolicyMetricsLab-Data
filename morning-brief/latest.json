@@ -5,8 +5,8 @@
     "status": "validated",
     "date": "2026-10-16",
     "data_latest_timestamp": "2026-10-16T00:08:39-0300",
-    "data_age_hours": 3.4,
-    "generated_at": "2026-10-16T03:31:09-0300",
+    "data_age_hours": 6.3,
+    "generated_at": "2026-10-16T06:28:48-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,13 +16,13 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 5 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 35,
+    "ranked_events": 34,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
@@ -632,7 +632,7 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 24,
+      "event_count": 23,
       "maximum_relevance": 60.8,
       "leading_story": "Gobierno y oposición de Venezuela retoman el diálogo con las elecciones como tema central"
     },
@@ -656,12 +656,8 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-013", "PML-EVENT-030", "PML-EVENT-018", "PML-EVENT-011", "PML-EVENT-027"],
-      "exited_top5": ["PML-EVENT-014", "PML-EVENT-031", "PML-EVENT-017", "PML-EVENT-010", "PML-EVENT-012"],
-      "retained_top5": []
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
     "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
