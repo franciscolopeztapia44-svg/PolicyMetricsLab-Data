@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-16",
-    "data_latest_timestamp": "2026-10-16T14:49:30-0300",
-    "data_age_hours": 0.6,
-    "generated_at": "2026-10-16T15:27:31-0300",
+    "data_latest_timestamp": "2026-10-16T17:29:18-0300",
+    "data_age_hours": 0.9,
+    "generated_at": "2026-10-16T18:23:57-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,22 +16,101 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 31 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 30 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 31,
+    "ranked_events": 30,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 57.3,
-    "maximum_relevance": 64
+    "average_top5_relevance": 59.6,
+    "maximum_relevance": 66.6
   },
   "top_stories": [
     {
       "position": 1,
+      "cluster_id": "PML-EVENT-027",
+      "title": "El Supremo de Venezuela desmantela los tribunales de terrorismo usados para perseguir a la disidencia",
+      "url": "https://elpais.com/america/2026-10-16/el-supremo-de-venezuela-desmantela-los-tribunales-de-terrorismo-usados-para-perseguir-a-la-disidencia.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / América Latina"
+      },
+      "relevance": {
+        "score": 66.6,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 66.6
+      },
+      "selection": {
+        "reason": "PML 66.6",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-16T17:29:18-0300",
+      "last_seen": "2026-10-16T17:29:18-0300",
+      "entities": [
+        "supremo",
+        "venezuela"
+      ],
+      "event_terms": [
+        "supremo",
+        "oposicion"
+      ],
+      "analysis": {
+        "summary": "La medida es vista por los defensores de derechos humanos como un gesto tras la presión política y las negociaciones con la oposición",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El Supremo de Venezuela desmantela los tribunales de terrorismo usados para perseguir a la disidencia",
+          "description": "La medida es vista por los defensores de derechos humanos como un gesto tras la presión política y las negociaciones con la oposición",
+          "url": "https://elpais.com/america/2026-10-16/el-supremo-de-venezuela-desmantela-los-tribunales-de-terrorismo-usados-para-perseguir-a-la-disidencia.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/EJKWTPCKH2Q7CBL3OPDPSWLSWE.jpg?auth=7bc6f08923743fc7ae4ba840592d316a370d4283d4bbaba982a6b62d6da135db",
+          "published_raw": "Fri, 16 Oct 2026 20:29:18 GMT",
+          "published_at": "2026-10-16T17:29:18-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-027"
+        }
+      ]
+    },
+    {
+      "position": 2,
       "cluster_id": "PML-EVENT-007",
       "title": "A siete años del 18-O, oficialismo firmó texto en rechazo a la violencia y el vandalismo",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/chile-vamos/a-siete-anos-del-18-o-oficialismo-firmo-texto-en-rechazo-a-la-violencia/2026-10-16/124007.html",
@@ -43,12 +122,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 64,
+        "score": 62.8,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 64
+        "editorial_utility": 65.8
       },
       "selection": {
-        "reason": "PML 64",
+        "reason": "PML 62.8; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -104,7 +183,7 @@
       ]
     },
     {
-      "position": 2,
+      "position": 3,
       "cluster_id": "PML-EVENT-011",
       "title": "Brasil: el partido de Lula denunciará a Meta ante la OEA por presunta “interferencia” electoral",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261015-brasil-el-partido-de-lula-denunciar%C3%A1-a-meta-ante-la-oea-por-presunta-interferencia-electoral",
@@ -118,10 +197,10 @@
       "relevance": {
         "score": 52,
         "level": "MEDIA",
-        "editorial_utility": 64
+        "editorial_utility": 59
       },
       "selection": {
-        "reason": "PML 52; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 52; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -180,8 +259,8 @@
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-029",
+      "position": 4,
+      "cluster_id": "PML-EVENT-028",
       "title": "La batalla por el voto de un español de la ley de nietos: “Quien huyó no pensó en armar una carpeta con documentación, se fue con lo puesto”",
       "url": "https://elpais.com/argentina/2026-10-16/la-batalla-por-el-voto-de-un-espanol-de-la-ley-de-nietos-quien-huyo-no-penso-en-armar-una-carpeta-con-documentacion-se-fue-con-lo-puesto.html",
       "representative_source": "EL PAÍS",
@@ -197,7 +276,7 @@
         "editorial_utility": 56.5
       },
       "selection": {
-        "reason": "PML 61.5",
+        "reason": "PML 61.5; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -254,13 +333,13 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-029"
+          "cluster_id": "PML-EVENT-028"
         }
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-013",
+      "position": 5,
+      "cluster_id": "PML-EVENT-012",
       "title": "Gobierno y oposición de Venezuela retoman el diálogo con las elecciones como tema central",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261014-gobierno-y-oposici%C3%B3n-de-venezuela-retoman-el-di%C3%A1logo-con-las-elecciones-como-tema-central",
       "representative_source": "France 24",
@@ -273,7 +352,7 @@
       "relevance": {
         "score": 55.2,
         "level": "MEDIA",
-        "editorial_utility": 51.2
+        "editorial_utility": 49.2
       },
       "selection": {
         "reason": "PML 55.2; diversidad relajada para completar el brief; nuevo tipo de evento",
@@ -330,86 +409,7 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-013"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-019",
-      "title": "Grau y caída de crecimiento: Nunca tuvimos una economía que decrezca sin una crisis mundial",
-      "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/grau-y-caida-de-crecimiento-nunca-tuvimos-una-economia-que-decrezca-sin/2026-10-15/114415.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 53.7,
-        "level": "MEDIA",
-        "editorial_utility": 47.7
-      },
-      "selection": {
-        "reason": "PML 53.7; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-10-15T11:44:15-0300",
-      "last_seen": "2026-10-15T11:44:15-0300",
-      "entities": [
-        "chile",
-        "congreso"
-      ],
-      "event_terms": [
-        "crisis",
-        "oposicion"
-      ],
-      "analysis": {
-        "summary": "Tras un nuevo recorte en las proyecciones por parte del Fondo Monetario Internacional , el exministro de Hacienda Nicolás Grau planteó en Cooperativa que Chile nunca había tenido cifras negativas de crecimiento en un año donde no se registrara una crisis a nivel internacional. En El Primer Café , Grau sostuvo que \"estamos en una situación bastante excepcional.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Grau y caída de crecimiento: Nunca tuvimos una economía que decrezca sin una crisis mundial",
-          "description": "Tras un nuevo recorte en las proyecciones por parte del Fondo Monetario Internacional , el exministro de Hacienda Nicolás Grau planteó en Cooperativa que Chile nunca había tenido cifras negativas de crecimiento en un año donde no se registrara una crisis a nivel internacional. En El Primer Café , Grau sostuvo que \"estamos en una situación bastante excepcional. Chile, si termina en un crecimiento negativo este año, que es una situación probable, sería la primera vez, al menos desde el 90, que la economía decrece en un año sin una crisis mundial mediante. La economía decreció en la crisis asiática, en la crisis subprime y en el Covid, pero nunca hemos tenido una economía que crezca negativo o decrezca en un contexto en que el mundo no está decreciendo y las economías similares a Chile tampoco le están pasando eso\". \"Por ende, eso significa que las razones tienen que ser principalmente idiosincráticas, tienen que ser de lo que está ocurriendo en nuestra economía\", agregó. Grau recordó que \"fue una combinación de factores, que no todos tienen que ver con el gobierno, en enero y febrero hubo shocks puntuales de la minería y la pesca, que implicaron que esos meses estuvieran más bajos, pero desde marzo en adelante se tomaron un conjunto de decisiones macroeconómicas que lo que hicieron fue ampliar muy negativamente lo que estaba ocurriendo a nivel internacional\". El economista del Instituto Libertad, Gustavo Díaz , dijo que \"son lamentables noticias y revelan que el problema económico en Chile no es coyuntural, sino que es más estructural, porque una economía que crece cerca de un 0 por ciento enfrenta dificultades en todo ámbito. No solamente lo vemos hoy día, lo hemos escuchado de forma sistemática los años anteriores, porque crecer poco significa menos empleo, menos salarios reales\". \"Es un tema multifactorial y que no es contingente a las elecciones (...) nuestra economía no ha generado inversiones, no ha generado reformas procrecimiento en harto tiempo, estamos creciendo dentro de la zona más baja, pero no solamente a nivel mundial, sino que también entre los países en vías de desarrollo\", aseveró. Alejandro Micco , exsubsecretario de Hacienda, comentó que \"los datos son bien desalentadores (...) estamos con un nivel de perspectivas económicas de la gente -tanto de los consumidores como de los empresarios- muy baja, creo que estamos en un círculo vicioso en el cual las perspectivas negativas que existen hoy día están generando esta profecía autocumplida de poco crecimiento\". \"Es un tema súper importante tratar de salir de esta situación de pesimismo, tomando en cuenta que la situación mundial no es tan mala. De hecho, las perspectivas de crecimiento que tenemos a esta altura del año para el mundo son mejores que las que teníamos a comienzos del año, lo mismo para el precio del cobre\", proyectó. Finalmente, Pablo Eguiguren, director de Políticas Públicas de Libertad y Desarrollo, planteó que \"hay algo de las expectativas que tiene que ver con la situación de la política económica, pero también con la política que se ve en el Congreso, la necesidad de grandes acuerdos (...) si las medidas se toman con mayor consenso vamos a tener más estabilidad en el tiempo y eso podría ayudar a las expectativas\". \"Parte de esa falta de acuerdos tiene que ver con que la oposición no ha estado tan disponible o ese énfasis en crecimiento que había hacia el final del gobierno anterior parece que se ha diluido y eso ha dificultado que haya acuerdo amplio\", lamentó.",
-          "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/grau-y-caida-de-crecimiento-nunca-tuvimos-una-economia-que-decrezca-sin/2026-10-15/114415.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261015/imag/foto_0000000220261015114415.jpg",
-          "published_raw": "Thu, 15 Oct 2026 11:44:15 -0300",
-          "published_at": "2026-10-15T11:44:15-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-012"
         }
       ]
     }
@@ -422,25 +422,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-003",
-        "title": "Oficialismo frena la presión interna y descarta indultos a uniformados durante este fin de semana",
+        "cluster_id": "PML-EVENT-018",
+        "title": "Grau y caída de crecimiento: Nunca tuvimos una economía que decrezca sin una crisis mundial",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "INSTITUTIONAL_CRISIS",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/oficialismo-frena-la-presion-interna-y-descarta-indultos-a-uniformados/2026-10-16/143739.html",
+        "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/grau-y-caida-de-crecimiento-nunca-tuvimos-una-economia-que-decrezca-sin/2026-10-15/114415.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 56,
+          "score": 53.7,
           "level": "MEDIA",
           "components": {
-            "political_impact": 52,
-            "freshness": 100,
+            "political_impact": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 34
+            "continuity": 46
           }
         },
         "coverage": {
@@ -448,44 +448,47 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-16T14:37:39-0300",
-        "last_seen": "2026-10-16T14:37:39-0300",
+        "first_seen": "2026-10-15T11:44:15-0300",
+        "last_seen": "2026-10-15T11:44:15-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Oficialismo frena la presión interna y descarta indultos a uniformados durante este fin de semana",
-            "description": "Las directivas de Chile Vamos y del Partido Republicano descartaron que el Presidente José Antonio Kast otorgue durante este fin de semana los indultos a uniformados condenados por el 18-O, frenando así la ofensiva de parlamentarios de su propio sector que exigían hacer efectiva la promesa de campaña en el séptimo aniversario del estallido social . Pese a que dirigentes del bloque oficialista advirtieron demoras injustificadas en la aplicación del beneficio penitenciario y apuntaron a la conmemoración de octubre como la fecha propicia para una señal presidencial, los timoneles del conglomerado optaron por postergar cualquier resolución para evitar un escenario de polarización en el orden público . \" Las próximas 48 horas no son un buen momento (para indultos) , por razones obvias , porque no tiene ningún sentido el resolver una injusticia con una eventual azuzada a problemas mayores : 48 horas, 72 horas o una semana más, la verdad es que cuando se ha esperado mucho tiempo, se puede perfectamente tener en cuenta. Acá hay que ser responsables\", afirmó el presidente del Partido Republicano , senador Arturo Squella . La Moneda enfrenta presiones interna por concretar los indultos a uniformados condenados tras el estallido social. (FOTO: ATON) En la misma línea, el timonel de la Unión Demócrata Independiente (UDI) , diputado Guillermo Ramírez , indicó que \" el Presidente de la República prometió en su campaña que iba a indultar a carabineros que en el contexto del 18 de octubre terminaron presos \". \"Nosotros esperamos que cumpla con esa promesa , confiamos que lo va a hacer  y que va a elegir el momento adecuado para hacerlo \", aseveró el parlamentario. Fricciones en las bases y respuesta de Interior Pese al consenso de las directivas partidarias, las críticas internas continúan instaladas. En declaraciones a radio Agricultura , el diputado republicano Diego Vergara planteó que avanzar con los indultos otorgaría un impulso inmediato al Mandatario en las encuestas . La postura fue compartida por el timonel del Partido Nacional Libertario , Johannes Kaiser , quien advirtió que soslayar este compromiso equivale a desoír al electorado que respaldó el proyecto oficialista en las urnas . Frente a las recriminaciones de dilación, el subsecretario del Interior , Máximo Pavez , dijo que \"aquí no se trata de evadir ningún tema. Respecto a los indultos la posición del gobierno ha sido clara y  no hay ninguna novedad que comentar \". Ante los cuestionamientos, el subsecretario Máximo Pavez afirmó que \"respecto a los indultos la posición del gobierno ha sido clara\". (FOTO: ATON) \"El gobierno tiene perfectamente claro cuáles son las razones que llevaron al electorado a preferir al Presidente José Antonio Kast y estamos trabajando todos los días para materializar los compromisos que se han adoptado con la ciudadanía . Los momentos para revisar eso están en la ley y están en las prerrogativas del Presidente de la República como se ha dicho de manera permanente \", enfatizó la autoridad. En paralelo al debate por las medidas de gracia, el conglomerado oficialista -integrado por Evópoli, RN, la UDI, Republicanos, el Partido Cristiano y Demócratas- firmó una declaración política en la que afirmaron que ninguna causa justifica la violencia, que el Estado de derecho no se transige y recordaron a las fuerzas políticas que respaldaron las protestas de 2019. Asimismo, desde el Palacio de Gobierno ratificaron que no existen solicitudes de marchas autorizadas para este domingo , proyectando una jornada institucional sin alteraciones en la sede del Ejecutivo.",
-            "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/oficialismo-frena-la-presion-interna-y-descarta-indultos-a-uniformados/2026-10-16/143739.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261016/imag/foto_0000000420261016143739.png",
-            "published_raw": "Fri, 16 Oct 2026 14:37:39 -0300",
-            "published_at": "2026-10-16T14:37:39-0300",
+            "title": "Grau y caída de crecimiento: Nunca tuvimos una economía que decrezca sin una crisis mundial",
+            "description": "Tras un nuevo recorte en las proyecciones por parte del Fondo Monetario Internacional , el exministro de Hacienda Nicolás Grau planteó en Cooperativa que Chile nunca había tenido cifras negativas de crecimiento en un año donde no se registrara una crisis a nivel internacional. En El Primer Café , Grau sostuvo que \"estamos en una situación bastante excepcional. Chile, si termina en un crecimiento negativo este año, que es una situación probable, sería la primera vez, al menos desde el 90, que la economía decrece en un año sin una crisis mundial mediante. La economía decreció en la crisis asiática, en la crisis subprime y en el Covid, pero nunca hemos tenido una economía que crezca negativo o decrezca en un contexto en que el mundo no está decreciendo y las economías similares a Chile tampoco le están pasando eso\". \"Por ende, eso significa que las razones tienen que ser principalmente idiosincráticas, tienen que ser de lo que está ocurriendo en nuestra economía\", agregó. Grau recordó que \"fue una combinación de factores, que no todos tienen que ver con el gobierno, en enero y febrero hubo shocks puntuales de la minería y la pesca, que implicaron que esos meses estuvieran más bajos, pero desde marzo en adelante se tomaron un conjunto de decisiones macroeconómicas que lo que hicieron fue ampliar muy negativamente lo que estaba ocurriendo a nivel internacional\". El economista del Instituto Libertad, Gustavo Díaz , dijo que \"son lamentables noticias y revelan que el problema económico en Chile no es coyuntural, sino que es más estructural, porque una economía que crece cerca de un 0 por ciento enfrenta dificultades en todo ámbito. No solamente lo vemos hoy día, lo hemos escuchado de forma sistemática los años anteriores, porque crecer poco significa menos empleo, menos salarios reales\". \"Es un tema multifactorial y que no es contingente a las elecciones (...) nuestra economía no ha generado inversiones, no ha generado reformas procrecimiento en harto tiempo, estamos creciendo dentro de la zona más baja, pero no solamente a nivel mundial, sino que también entre los países en vías de desarrollo\", aseveró. Alejandro Micco , exsubsecretario de Hacienda, comentó que \"los datos son bien desalentadores (...) estamos con un nivel de perspectivas económicas de la gente -tanto de los consumidores como de los empresarios- muy baja, creo que estamos en un círculo vicioso en el cual las perspectivas negativas que existen hoy día están generando esta profecía autocumplida de poco crecimiento\". \"Es un tema súper importante tratar de salir de esta situación de pesimismo, tomando en cuenta que la situación mundial no es tan mala. De hecho, las perspectivas de crecimiento que tenemos a esta altura del año para el mundo son mejores que las que teníamos a comienzos del año, lo mismo para el precio del cobre\", proyectó. Finalmente, Pablo Eguiguren, director de Políticas Públicas de Libertad y Desarrollo, planteó que \"hay algo de las expectativas que tiene que ver con la situación de la política económica, pero también con la política que se ve en el Congreso, la necesidad de grandes acuerdos (...) si las medidas se toman con mayor consenso vamos a tener más estabilidad en el tiempo y eso podría ayudar a las expectativas\". \"Parte de esa falta de acuerdos tiene que ver con que la oposición no ha estado tan disponible o ese énfasis en crecimiento que había hacia el final del gobierno anterior parece que se ha diluido y eso ha dificultado que haya acuerdo amplio\", lamentó.",
+            "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/grau-y-caida-de-crecimiento-nunca-tuvimos-una-economia-que-decrezca-sin/2026-10-15/114415.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261015/imag/foto_0000000220261015114415.jpg",
+            "published_raw": "Thu, 15 Oct 2026 11:44:15 -0300",
+            "published_at": "2026-10-15T11:44:15-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 4,
+            "score_institutional": 2,
             "score_elections": 1,
             "score_international": 0,
-            "score_conflict": 2,
-            "score_policy": 0,
+            "score_conflict": 0,
+            "score_policy": 1,
             "score_ideology": 0,
-            "score_actor": 5,
+            "score_actor": 1,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 12,
+            "political_evidence": 5,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
+            "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-018"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 65
+          "bonus": 18,
+          "labels": [
+            "Estado e instituciones",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 71.7
         },
         "repeated_in_general_top5": false
       },
@@ -560,25 +563,25 @@
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-001",
-        "title": "Propuesta del Gobierno establece alza de 7,6% de presupuesto en Defensa",
+        "cluster_id": "PML-EVENT-003",
+        "title": "Oficialismo frena la presión interna y descarta indultos a uniformados durante este fin de semana",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/propuesta-del-gobierno-establece-alza-de-7-6-de-presupuesto-en-defensa/2026-10-15/091456.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/oficialismo-frena-la-presion-interna-y-descarta-indultos-a-uniformados/2026-10-16/143739.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 47,
-          "level": "BAJA",
+          "score": 56,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 55,
-            "freshness": 62,
+            "political_impact": 52,
+            "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 30
+            "continuity": 34
           }
         },
         "coverage": {
@@ -586,46 +589,43 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-15T09:14:56-0300",
-        "last_seen": "2026-10-15T09:14:56-0300",
+        "first_seen": "2026-10-16T14:37:39-0300",
+        "last_seen": "2026-10-16T14:37:39-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Propuesta del Gobierno establece alza de 7,6% de presupuesto en Defensa",
-            "description": "El proyecto de Ley de Presupuestos 2027 para el Ministerio de Defensa Nacional contempla un incremento de 7,6% para 2027 , superando los 2,6 billones de pesos , mientras el Gobierno impulsa reducciones de recursos en áreas como la educación superior , la cultura , ciencia y tecnología , y gobiernos regionales . El aumento se enmarca en la discusión sobre las prioridades del gasto público y la necesidad de modernizar las capacidades estratégicas de las Fuerzas Armadas frente al escenario internacional. De acuerdo con los antecedentes expuestos durante el debate presupuestario, el incremento se concentrará principalmente en las instituciones de la Defensa. El Ejército tendrá un alza de 3,4% en sus recursos, la Armada de 5,3% y la Fuerza Aérea de 9,8% . En contraste, la Subsecretaría de Defensa mantendrá un presupuesto prácticamente estable , mientras que la Subsecretaría para las Fuerzas Armadas registrará una disminución cercana al 11% . Los recursos destinados a estas instituciones financian, entre otros aspectos, remuneraciones, equipamiento, uniformes, mantenimiento de cuarteles y operaciones . La Segunda Subcomisión Mixta de Presupuestos iniciará el próximo martes la revisión de la partida correspondiente al Ministerio de Defensa. Leiva (PS) reconoce plan de inversiones pendiente El diputado del Partido Socialista (PS) e integrante de la Comisión de Defensa de la Cámara , Raúl Leiva , explicó que parte del aumento \"responde a la necesidad de hacerse cargo del Plan Cuatrienal de Inversiones del Ejército, que ha sido postergado en reiteradas oportunidades \". \"(El incremento) está, a mi juicio, dado por el aumento de las capacidades que ha planteado el Ejecutivo en atención a los factores geopolíticos y las problemáticas que actualmente se viven a nivel internacional \", planteó el opositor. Macaya (UDI): \"No corresponde atribuirle directamente el incremento al Escudo de las Américas\" Desde el oficialismo, el senador de la UDI Javier Macaya , que integra la Segunda Subcomisión Mixta, afirmó que \"parte importante (del alza) se explica por cambio en contabilización de gastos operacionales , como combustible de las Fuerzas Armadas, y por la necesidad de sostener y modernizar nuestras capacidades estratégicas, en las cuales estamos atrasados \". \"Incluso, creo que nos quedamos cortos en el desafío de las capacidades estratégicas en el contexto geopolítico que está viviendo hoy día el mundo\", advirtió el extimonel gremialista. Macaya descartó, además, atribuir directamente el incremento presupuestario a la adhesión de Chile al denominado Escudo de las Américas , coalición internacional contra el crimen organizado y el narcotráfico promovida por el presidente de Estados Unidos, Donald Trump . \" No corresponde atribuirle al Escudo de las Américas directamente este incremento presupuestario ; (la alianza) es una iniciativa de cooperación internacional en materia de seguridad y no tiene nada que ver con un programa de adquisiciones militares\", sostuvo el parlamentario. Fondo estratégico tendrá un aporte de 588 millones de dólares A los recursos contemplados en el presupuesto del Ministerio de Defensa se suma el Fondo Plurianual para las Capacidades Estratégicas de la Defensa , financiado a través del Tesoro Público y destinado, entre otros objetivos, a la renovación de material militar. Para 2027, este fondo recibirá un aporte de 588 millones de dólares , lo que representa un incremento de 22,4% . Entre los proyectos de modernización considerados por la cartera se encuentran el reemplazo de los aviones F-5 de la Fuerza Aérea, la renovación de helicópteros Bell UH-1H y la actualización de las capacidades de transporte aéreo estratégico, actualmente sustentadas en aeronaves Hércules. Ravinet: \"Parece desmedido, pero está salvando omisiones\" El exministro de Defensa Jaime Ravinet (2004-2006, 2010-2011) dijo que el aumento, \" si bien parece desmedido , quizás, en relación a otras partidas, de alguna manera está salvando omisiones que se hicieron los años 2024 y 2025 \". En particular, acusó que \"el Presidente (Gabriel) Boric no cumplió con la ley que reemplazó a la Ley (Reservada) del Cobre , que estableció un fondo plurianual para capacidades estratégicas que él no suplementó en 2024 y 2025 , no obstante haberse aprobado, en la Ley de Presupuestos, un aporte basal de 488 millones de dólares\", lo que, a su juicio, generó \"una restricción enorme en todo lo que es capacidad estratégica\". Ravinet calificó el financiamiento previsto para 2027 como \" bastante modesto en relación a lo que ha comprometido (Javier) Milei y el gobierno peruano (para sus respectivas FF.AA.), pero va restableciendo nuestras capacidades estratégicas\". Nuevo flanco con Argentina en medio del debate La discusión presupuestaria se produce en un escenario de tensiones geopolíticas que también involucra a Sudamérica: entre los antecedentes recientes se encuentra la controversia entre Argentina y el Reino Unido por la explotación de hidrocarburos en las islas Malvinas . En este contexto, el embajador británico en Chile, David Concar , visitó Punta Arenas y defendió el próximo viaje de un buque comercial chileno al archipiélago , previsto para fines de noviembre o comienzos de diciembre, con el propósito de transportar insumos. La operación ha generado inquietud en Argentina ante la posibilidad de que el transporte facilite actividades vinculadas a la explotación de hidrocarburos en las islas, particularmente al proyecto petrolero Sea Lion . Según ha trascendido, las conversaciones entre los gobiernos de Chile y Argentina buscan abordar las garantías respecto de la carga que trasladará la embarcación, mas el canciller trasandino, Pablo Quirno , aseveró que de momento,  no existen planes para impedir el comercio ni el tránsito del buque .",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/propuesta-del-gobierno-establece-alza-de-7-6-de-presupuesto-en-defensa/2026-10-15/091456.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261015/imag/foto_0000000220261015091456.jpg",
-            "published_raw": "Thu, 15 Oct 2026 09:14:56 -0300",
-            "published_at": "2026-10-15T09:14:56-0300",
+            "title": "Oficialismo frena la presión interna y descarta indultos a uniformados durante este fin de semana",
+            "description": "Las directivas de Chile Vamos y del Partido Republicano descartaron que el Presidente José Antonio Kast otorgue durante este fin de semana los indultos a uniformados condenados por el 18-O, frenando así la ofensiva de parlamentarios de su propio sector que exigían hacer efectiva la promesa de campaña en el séptimo aniversario del estallido social . Pese a que dirigentes del bloque oficialista advirtieron demoras injustificadas en la aplicación del beneficio penitenciario y apuntaron a la conmemoración de octubre como la fecha propicia para una señal presidencial, los timoneles del conglomerado optaron por postergar cualquier resolución para evitar un escenario de polarización en el orden público . \" Las próximas 48 horas no son un buen momento (para indultos) , por razones obvias , porque no tiene ningún sentido el resolver una injusticia con una eventual azuzada a problemas mayores : 48 horas, 72 horas o una semana más, la verdad es que cuando se ha esperado mucho tiempo, se puede perfectamente tener en cuenta. Acá hay que ser responsables\", afirmó el presidente del Partido Republicano , senador Arturo Squella . La Moneda enfrenta presiones interna por concretar los indultos a uniformados condenados tras el estallido social. (FOTO: ATON) En la misma línea, el timonel de la Unión Demócrata Independiente (UDI) , diputado Guillermo Ramírez , indicó que \" el Presidente de la República prometió en su campaña que iba a indultar a carabineros que en el contexto del 18 de octubre terminaron presos \". \"Nosotros esperamos que cumpla con esa promesa , confiamos que lo va a hacer  y que va a elegir el momento adecuado para hacerlo \", aseveró el parlamentario. Fricciones en las bases y respuesta de Interior Pese al consenso de las directivas partidarias, las críticas internas continúan instaladas. En declaraciones a radio Agricultura , el diputado republicano Diego Vergara planteó que avanzar con los indultos otorgaría un impulso inmediato al Mandatario en las encuestas . La postura fue compartida por el timonel del Partido Nacional Libertario , Johannes Kaiser , quien advirtió que soslayar este compromiso equivale a desoír al electorado que respaldó el proyecto oficialista en las urnas . Frente a las recriminaciones de dilación, el subsecretario del Interior , Máximo Pavez , dijo que \"aquí no se trata de evadir ningún tema. Respecto a los indultos la posición del gobierno ha sido clara y  no hay ninguna novedad que comentar \". Ante los cuestionamientos, el subsecretario Máximo Pavez afirmó que \"respecto a los indultos la posición del gobierno ha sido clara\". (FOTO: ATON) \"El gobierno tiene perfectamente claro cuáles son las razones que llevaron al electorado a preferir al Presidente José Antonio Kast y estamos trabajando todos los días para materializar los compromisos que se han adoptado con la ciudadanía . Los momentos para revisar eso están en la ley y están en las prerrogativas del Presidente de la República como se ha dicho de manera permanente \", enfatizó la autoridad. En paralelo al debate por las medidas de gracia, el conglomerado oficialista -integrado por Evópoli, RN, la UDI, Republicanos, el Partido Cristiano y Demócratas- firmó una declaración política en la que afirmaron que ninguna causa justifica la violencia, que el Estado de derecho no se transige y recordaron a las fuerzas políticas que respaldaron las protestas de 2019. Asimismo, desde el Palacio de Gobierno ratificaron que no existen solicitudes de marchas autorizadas para este domingo , proyectando una jornada institucional sin alteraciones en la sede del Ejecutivo.",
+            "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/oficialismo-frena-la-presion-interna-y-descarta-indultos-a-uniformados/2026-10-16/143739.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261016/imag/foto_0000000420261016143739.png",
+            "published_raw": "Fri, 16 Oct 2026 14:37:39 -0300",
+            "published_at": "2026-10-16T14:37:39-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 7,
-            "score_elections": 0,
-            "score_international": 2,
-            "score_conflict": 5,
-            "score_policy": 2,
-            "score_ideology": 1,
+            "score_institutional": 4,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 2,
+            "score_policy": 0,
+            "score_ideology": 0,
             "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 22,
+            "political_evidence": 12,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
+            "cluster_id": "PML-EVENT-003"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 18,
-          "labels": [
-            "Estado e instituciones",
-            "Economía y políticas públicas"
-          ],
+          "bonus": 9,
+          "labels": "Estado e instituciones",
           "chile_utility": 65
         },
         "repeated_in_general_top5": false
@@ -636,13 +636,13 @@
     {
       "topic": "Instituciones y gobierno",
       "event_count": 20,
-      "maximum_relevance": 64,
-      "leading_story": "A siete años del 18-O, oficialismo firmó texto en rechazo a la violencia y el vandalismo"
+      "maximum_relevance": 66.6,
+      "leading_story": "El Supremo de Venezuela desmantela los tribunales de terrorismo usados para perseguir a la disidencia"
     },
     {
       "topic": "Conflictos y seguridad",
-      "event_count": 4,
-      "maximum_relevance": 53.8,
+      "event_count": 3,
+      "maximum_relevance": 52.1,
       "leading_story": "¿Puede Costa Rica frenar al narco con una megacárcel al estilo Bukele?"
     },
     {
@@ -663,7 +663,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
