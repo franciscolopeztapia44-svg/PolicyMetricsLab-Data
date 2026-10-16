@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-15",
-    "data_latest_timestamp": "2026-10-15T20:25:35-0300",
-    "data_age_hours": 1.1,
-    "generated_at": "2026-10-15T21:30:13-0300",
+    "data_latest_timestamp": "2026-10-15T23:10:45-0300",
+    "data_age_hours": 1.3,
+    "generated_at": "2026-10-16T00:26:14-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -26,13 +26,13 @@
     "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 62.2,
+    "average_top5_relevance": 61.3,
     "maximum_relevance": 66.7
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-013",
+      "cluster_id": "PML-EVENT-014",
       "title": "Estados Unidos levanta sanciones contra Jorge Rodríguez, presidente de la Asamblea Nacional de Venezuela",
       "url": "https://elpais.com/us/2026-10-14/estados-unidos-levanta-sanciones-contra-jorge-rodriguez-presidente-de-la-asamblea-nacional-de-venezuela.html",
       "representative_source": "EL PAÍS",
@@ -105,7 +105,7 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-013"
+          "cluster_id": "PML-EVENT-014"
         },
         {
           "source_id": "elpais_america",
@@ -133,13 +133,13 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-013"
+          "cluster_id": "PML-EVENT-014"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-030",
+      "cluster_id": "PML-EVENT-031",
       "title": "Ayuso ataca las movilizaciones en su contra: “La izquierda, cuando va a perder las elecciones, se vuelve violenta”",
       "url": "https://elpais.com/espana/madrid/2026-10-15/ayuso-vuelve-a-la-asamblea-con-la-estela-de-la-huelga-en-educacion-y-su-oposicion-frontal-a-sol.html",
       "representative_source": "EL PAÍS",
@@ -206,13 +206,13 @@
           "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
+          "cluster_id": "PML-EVENT-031"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-015",
+      "cluster_id": "PML-EVENT-017",
       "title": "Grau y caída de crecimiento: Nunca tuvimos una economía que decrezca sin una crisis mundial",
       "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/grau-y-caida-de-crecimiento-nunca-tuvimos-una-economia-que-decrezca-sin/2026-10-15/114415.html",
       "representative_source": "Cooperativa",
@@ -285,13 +285,13 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-017"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-009",
+      "cluster_id": "PML-EVENT-010",
       "title": "Brasil: el partido de Lula denunciará a Meta ante la OEA por presunta “interferencia” electoral",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261015-brasil-el-partido-de-lula-denunciar%C3%A1-a-meta-ante-la-oea-por-presunta-interferencia-electoral",
       "representative_source": "France 24",
@@ -302,12 +302,12 @@
         "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 60,
+        "score": 57.5,
         "level": "MEDIA",
-        "editorial_utility": 55
+        "editorial_utility": 52.5
       },
       "selection": {
-        "reason": "PML 60",
+        "reason": "PML 57.5",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -361,13 +361,13 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-009"
+          "cluster_id": "PML-EVENT-010"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-011",
+      "cluster_id": "PML-EVENT-012",
       "title": "Gobierno y oposición de Venezuela retoman el diálogo con las elecciones como tema central",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261014-gobierno-y-oposici%C3%B3n-de-venezuela-retoman-el-di%C3%A1logo-con-las-elecciones-como-tema-central",
       "representative_source": "France 24",
@@ -378,12 +378,12 @@
         "country": "Venezuela / América Latina"
       },
       "relevance": {
-        "score": 63.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 59.2
+        "score": 60.8,
+        "level": "MEDIA",
+        "editorial_utility": 56.8
       },
       "selection": {
-        "reason": "PML 63.2; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 60.8; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -437,7 +437,7 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-011"
+          "cluster_id": "PML-EVENT-012"
         }
       ]
     }
@@ -461,11 +461,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 53.5,
-          "level": "MEDIA",
+          "score": 51.5,
+          "level": "BAJA",
           "components": {
             "political_impact": 55,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -483,7 +483,7 @@
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
             "title": "Propuesta del Gobierno establece alza de 7,6% de presupuesto en Defensa",
-            "description": "El proyecto de Ley de Presupuestos 2027 para el Ministerio de Defensa Nacional contempla un incremento de 7,6% para 2027 , superando los 2,6 billones de pesos , mientras el Gobierno impulsa reducciones de recursos en áreas como la educación superior , la cultura , ciencia y tecnología , y gobiernos regionales . El aumento se enmarca en la discusión sobre las prioridades del gasto público y la necesidad de modernizar las capacidades estratégicas de las Fuerzas Armadas frente al escenario internacional. De acuerdo con los antecedentes expuestos durante el debate presupuestario, el incremento se concentrará principalmente en las instituciones de la Defensa. El Ejército tendrá un alza de 3,4% en sus recursos, la Armada de 5,3% y la Fuerza Aérea de 9,8% . En contraste, la Subsecretaría de Defensa mantendrá un presupuesto prácticamente estable , mientras que la Subsecretaría para las Fuerzas Armadas registrará una disminución cercana al 11% . Los recursos destinados a estas instituciones financian, entre otros aspectos, remuneraciones, equipamiento, uniformes, mantenimiento de cuarteles y operaciones . La Segunda Subcomisión Mixta de Presupuestos iniciará el próximo martes la revisión de la partida correspondiente al Ministerio de Defensa. Leiva (PS) reconoce plan de inversiones pendiente El diputado del Partido Socialista (PS) e integrante de la Comisión de Defensa de la Cámara , Raúl Leiva , explicó que parte del aumento \"responde a la necesidad de hacerse cargo del Plan Cuatrienal de Inversiones del Ejército, que ha sido postergado en reiteradas oportunidades \". \"(El incremento) está, a mi juicio, dado por el aumento de las capacidades que ha planteado el Ejecutivo en atención a los factores geopolíticos y las problemáticas que actualmente se viven a nivel internacional \", planteó el opositor. Macaya (UDI): \"No corresponde atribuirle directamente el incremento al Escudo de las Américas\" Desde el oficialismo, el senador de la UDI Javier Macaya , que integra la Segunda Subcomisión Mixta, afirmó que \"parte importante (del alza) se explica por cambio en contabilización de gastos operacionales , como combustible de las Fuerzas Armadas, y por la necesidad de sostener y modernizar nuestras capacidades estratégicas, en las cuales estamos atrasados \". \"Incluso, creo que nos quedamos cortos en el desafío de las capacidades estratégicas en el contexto geopolítico que está viviendo hoy día el mundo\", advirtió el extimonel gremialista. Macaya descartó, además, atribuir directamente el incremento presupuestario a la adhesión de Chile al denominado Escudo de las Américas , coalición internacional contra el crimen organizado y el narcotráfico promovida por el presidente de Estados Unidos, Donald Trump . \" No corresponde atribuirle al Escudo de las Américas directamente este incremento presupuestario ; (la alianza) es una iniciativa de cooperación internacional en materia de seguridad y no tiene nada que ver con un programa de adquisiciones militares\", sostuvo el parlamentario. Fondo estratégico tendrá un aporte de 588 millones de dólares A los recursos contemplados en el presupuesto del Ministerio de Defensa se suma el Fondo Plurianual para las Capacidades Estratégicas de la Defensa , financiado a través del Tesoro Público y destinado, entre otros objetivos, a la renovación de material militar. Para 2027, este fondo recibirá un aporte de 588 millones de dólares , lo que representa un incremento de 22,4% . Entre los proyectos de modernización considerados por la cartera se encuentran el reemplazo de los aviones F-5 de la Fuerza Aérea, la renovación de helicópteros Bell UH-1H y la actualización de las capacidades de transporte aéreo estratégico, actualmente sustentadas en aeronaves Hércules. Ravinet: \"Parece desmedido, pero está salvando omisiones\" El exministro de Defensa Jaime Ravinet (2004-2006, 2010-2011) dijo que el aumento, \" si bien parece desmedido , quizás, en relación a otras partidas, de alguna manera está salvando omisiones que se hicieron los años 2024 y 2025 \". En particular, acusó que \"el Presidente (Gabriel) Boric no cumplió con la ley que reemplazó a la Ley (Reservada) del Cobre , que estableció un fondo plurianual para capacidades estratégicas que él no suplementó en 2024 y 2025 , no obstante haberse aprobado, en la Ley de Presupuestos, un aporte basal de 488 millones de dólares\", lo que, a su juicio, generó \"una restricción enorme en todo lo que es capacidad estratégica\". Ravinet calificó el financiamiento previsto para 2027 como \" bastante modesto en relación a lo que ha comprometido (Javier) Milei y el gobierno peruano (para sus respectivas FF.AA.), pero va restableciendo nuestras capacidades estratégicas\". Tensiones internacionales marcan el debate La discusión presupuestaria se produce en un escenario de tensiones geopolíticas que también involucra a Sudamérica. Entre los antecedentes recientes se encuentra la controversia entre Argentina y el Reino Unido por la explotación de hidrocarburos en las islas Malvinas . En este contexto, el embajador británico en Chile, David Concar , visitó Punta Arenas y defendió el próximo viaje de un buque comercial chileno al archipiélago , previsto para fines de noviembre o comienzos de diciembre, con el propósito de transportar insumos. La operación ha generado inquietud en Argentina ante la posibilidad de que el transporte facilite actividades vinculadas a la explotación de hidrocarburos en las islas, particularmente al proyecto petrolero Sea Lion . Según ha trascendido, las conversaciones entre los gobiernos de Chile y Argentina buscan abordar las garantías respecto de la carga que trasladará la embarcación. El canciller trasandino, Pablo Quirno , se refirió a la situación en televisión y aseveró que no existen planes para impedir el comercio ni el tránsito del buque.",
+            "description": "El proyecto de Ley de Presupuestos 2027 para el Ministerio de Defensa Nacional contempla un incremento de 7,6% para 2027 , superando los 2,6 billones de pesos , mientras el Gobierno impulsa reducciones de recursos en áreas como la educación superior , la cultura , ciencia y tecnología , y gobiernos regionales . El aumento se enmarca en la discusión sobre las prioridades del gasto público y la necesidad de modernizar las capacidades estratégicas de las Fuerzas Armadas frente al escenario internacional. De acuerdo con los antecedentes expuestos durante el debate presupuestario, el incremento se concentrará principalmente en las instituciones de la Defensa. El Ejército tendrá un alza de 3,4% en sus recursos, la Armada de 5,3% y la Fuerza Aérea de 9,8% . En contraste, la Subsecretaría de Defensa mantendrá un presupuesto prácticamente estable , mientras que la Subsecretaría para las Fuerzas Armadas registrará una disminución cercana al 11% . Los recursos destinados a estas instituciones financian, entre otros aspectos, remuneraciones, equipamiento, uniformes, mantenimiento de cuarteles y operaciones . La Segunda Subcomisión Mixta de Presupuestos iniciará el próximo martes la revisión de la partida correspondiente al Ministerio de Defensa. Leiva (PS) reconoce plan de inversiones pendiente El diputado del Partido Socialista (PS) e integrante de la Comisión de Defensa de la Cámara , Raúl Leiva , explicó que parte del aumento \"responde a la necesidad de hacerse cargo del Plan Cuatrienal de Inversiones del Ejército, que ha sido postergado en reiteradas oportunidades \". \"(El incremento) está, a mi juicio, dado por el aumento de las capacidades que ha planteado el Ejecutivo en atención a los factores geopolíticos y las problemáticas que actualmente se viven a nivel internacional \", planteó el opositor. Macaya (UDI): \"No corresponde atribuirle directamente el incremento al Escudo de las Américas\" Desde el oficialismo, el senador de la UDI Javier Macaya , que integra la Segunda Subcomisión Mixta, afirmó que \"parte importante (del alza) se explica por cambio en contabilización de gastos operacionales , como combustible de las Fuerzas Armadas, y por la necesidad de sostener y modernizar nuestras capacidades estratégicas, en las cuales estamos atrasados \". \"Incluso, creo que nos quedamos cortos en el desafío de las capacidades estratégicas en el contexto geopolítico que está viviendo hoy día el mundo\", advirtió el extimonel gremialista. Macaya descartó, además, atribuir directamente el incremento presupuestario a la adhesión de Chile al denominado Escudo de las Américas , coalición internacional contra el crimen organizado y el narcotráfico promovida por el presidente de Estados Unidos, Donald Trump . \" No corresponde atribuirle al Escudo de las Américas directamente este incremento presupuestario ; (la alianza) es una iniciativa de cooperación internacional en materia de seguridad y no tiene nada que ver con un programa de adquisiciones militares\", sostuvo el parlamentario. Fondo estratégico tendrá un aporte de 588 millones de dólares A los recursos contemplados en el presupuesto del Ministerio de Defensa se suma el Fondo Plurianual para las Capacidades Estratégicas de la Defensa , financiado a través del Tesoro Público y destinado, entre otros objetivos, a la renovación de material militar. Para 2027, este fondo recibirá un aporte de 588 millones de dólares , lo que representa un incremento de 22,4% . Entre los proyectos de modernización considerados por la cartera se encuentran el reemplazo de los aviones F-5 de la Fuerza Aérea, la renovación de helicópteros Bell UH-1H y la actualización de las capacidades de transporte aéreo estratégico, actualmente sustentadas en aeronaves Hércules. Ravinet: \"Parece desmedido, pero está salvando omisiones\" El exministro de Defensa Jaime Ravinet (2004-2006, 2010-2011) dijo que el aumento, \" si bien parece desmedido , quizás, en relación a otras partidas, de alguna manera está salvando omisiones que se hicieron los años 2024 y 2025 \". En particular, acusó que \"el Presidente (Gabriel) Boric no cumplió con la ley que reemplazó a la Ley (Reservada) del Cobre , que estableció un fondo plurianual para capacidades estratégicas que él no suplementó en 2024 y 2025 , no obstante haberse aprobado, en la Ley de Presupuestos, un aporte basal de 488 millones de dólares\", lo que, a su juicio, generó \"una restricción enorme en todo lo que es capacidad estratégica\". Ravinet calificó el financiamiento previsto para 2027 como \" bastante modesto en relación a lo que ha comprometido (Javier) Milei y el gobierno peruano (para sus respectivas FF.AA.), pero va restableciendo nuestras capacidades estratégicas\". Nuevo flanco con Argentina en medio del debate La discusión presupuestaria se produce en un escenario de tensiones geopolíticas que también involucra a Sudamérica: entre los antecedentes recientes se encuentra la controversia entre Argentina y el Reino Unido por la explotación de hidrocarburos en las islas Malvinas . En este contexto, el embajador británico en Chile, David Concar , visitó Punta Arenas y defendió el próximo viaje de un buque comercial chileno al archipiélago , previsto para fines de noviembre o comienzos de diciembre, con el propósito de transportar insumos. La operación ha generado inquietud en Argentina ante la posibilidad de que el transporte facilite actividades vinculadas a la explotación de hidrocarburos en las islas, particularmente al proyecto petrolero Sea Lion . Según ha trascendido, las conversaciones entre los gobiernos de Chile y Argentina buscan abordar las garantías respecto de la carga que trasladará la embarcación, mas el canciller trasandino, Pablo Quirno , aseveró que de momento,  no existen planes para impedir el comercio ni el tránsito del buque .",
             "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/propuesta-del-gobierno-establece-alza-de-7-6-de-presupuesto-en-defensa/2026-10-15/091456.html",
             "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261015/imag/foto_0000000220261015091456.jpg",
             "published_raw": "Thu, 15 Oct 2026 09:14:56 -0300",
@@ -516,84 +516,15 @@
             "Estado e instituciones",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 71.5
+          "chile_utility": 69.5
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-010",
-        "title": "Libertarios arremete contra La Moneda por no conmemorar el 18 de octubre",
-        "topic": "Conflictos y seguridad",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/libertarios-arremete-contra-la-moneda-por-no-conmemorar-el-18-de-octubre/2026-10-14/213245.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 48.3,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 51,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 30
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-14T21:32:45-0300",
-        "last_seen": "2026-10-14T21:32:45-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Libertarios arremete contra La Moneda por no conmemorar el 18 de octubre",
-            "description": "El Partido Nacional Libertario cuestionó este miércoles la determinación de La Moneda de marginarse de cualquier acto conmemorativo a siete años del estallido social . Para la colectividad, la postura del Ejecutivo de no conmemorar la fecha debilita el respaldo que esperaban hacia las fuerzas de orden y seguridad . La tienda política pretendía que el Gobierno encabezara un homenaje institucional dirigido a los funcionarios de Carabineros que resultaron condenados por los episodios de octubre de 2019 . En esa línea, los libertarios mantienen firme su ofensiva para lograr un indulto general en favor de los uniformados , alternativa que ya fue desestimada por el Ejecutivo. Kaiser acusa pasividad y falta de señales claras En opinión de la senadora libertaria Vanessa Kaiser , \"es increíble que el gobierno de José Antonio Kast no haga ningún acto oficial el próximo 18 de octubre. Este es el primer aniversario del golpe de Estado octubrista bajo este gobierno y , por lo tanto , las señales debieran de ser clarísimas \". \" Chile no va a aceptar y no está para tolerar ningún intento más de quiebre democrático , de quiebre institucional \", afirmó la parlamentaria, que también acusó que \"hay sectores que están dispuestos a transformar nuestro país en un maldito infierno\". La senadora Vanessa Kaiser cuestionó la inacción del mandatario señalando que \"las señales debieran de ser clarísimas\". (FOTO: ATON) \"A esos sectores hay que darles la señal clara y por eso era tan importante que se hiciera un acto \", enfatizó Kaiser. El malestar libertario contrasta con la estrategia adoptada por los demás partidos del oficialismo, que optaron por preparar sus propias actividades sin esperar el patrocinio del Ejecutivo . Mientras el Partido Republicano proyecta una actividad en terreno, la Unión Demócrata Independiente (UDI) realizará un conversatorio y Renovación Nacional (RN) difundirá una campaña digital con el lema \"Que no vuelva a pasar\", los libertarios continúan situando la agenda de indultos y el reconocimiento policial en el centro del debate político.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/libertarios-arremete-contra-la-moneda-por-no-conmemorar-el-18-de-octubre/2026-10-14/213245.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261014/imag/foto_0000000320261014213245.png",
-            "published_raw": "Wed, 14 Oct 2026 21:32:45 -0300",
-            "published_at": "2026-10-14T21:32:45-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 1,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 2,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 7,
-            "primary_topic": "Conflictos y seguridad",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-010"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 7,
-          "labels": "Seguridad y Estado",
-          "chile_utility": 55.3
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-007",
+        "cluster_id": "PML-EVENT-005",
         "title": "Kast se distancia de presiones para conmemorar el 18-O: \"Debemos tener una mirada a futuro\"",
-        "topic": "Instituciones y gobierno",
+        "topic": "Conflictos y seguridad",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
         "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/kast-se-distancia-de-presiones-para-conmemorar-el-18-o-debemos-tener/2026-10-15/113629.html",
@@ -624,7 +555,7 @@
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
             "title": "Kast se distancia de presiones para conmemorar el 18-O: \"Debemos tener una mirada a futuro\"",
-            "description": "El Presidente José Antonio Kast abordó este jueves las presiones de distintos sectores del oficialismo para realizar un homenaje a Carabineros por el séptimo aniversario del estallido social y apuntó a \"tener una mirada a futuro\" . Desde el Partido Nacional Libertario, la senadora Vanessa Kaiser catalogó como \"increíble que el Gobierno de José Antonio Kast no haga ningún acto oficial el próximo 18 de octubre\", y consideró que no conmemorar la fecha debilita el respaldo que esperaban hacia las fuerzas de orden y seguridad. Asimismo, para mañana está programada una reunión entre los partidos del oficialismo, en el que suscribirán un documento titulado \"Chile sin violencia: un compromiso por la paz\" , que califica el 18-O como \"uno de los peores episodios que recuerde la historia reciente\" del país. [Lea también] Siete años después, la derecha prepara conmemoración del 18-O en medio del debate por indultos Ante las presiones, el Mandatario subrayó que desde el Gobierno \"nosotros debemos tener una mirada de futuro, lo que estamos haciendo es reconstruir nuestro país. El 18 de octubre fue un momento complejo, de mucha violencia, y esperamos que eso no se vuelva a repetir nunca más\". En ese sentido, invitó \"a todos a que miremos al futuro, tenemos todo por delante . Hoy día tenemos una presentación del 'Choose Chile' , que es Elige Chile para invertir y se vienen muy buenas noticias para Chile\". Kast también evitó pronunciarse sobre eventuales indultos tras presiones desde distintos sectores oficialista luego de la muerte de Juan Aliste Vega, exlautarista condenado por el crimen del carabinero Luis Moyano, quien reabrió el debate sobre este tema luego de solicitar el beneficio. Por lo pronto, el jefe de Estado participará del lanzamiento de la iniciativa \"Choose Chile\" , impulsada por el canciller Francisco Pérez Mackenna para atraer inversión extranjera directa, talento global y empresas tecnológicas hacia el país . Kaiser: No se sorprendan si se repite El líder del Partido Nacional Libertario, Johannes Kaiser, comentó que \"hay momentos en los cuales yo me imagino al Presidente Kast como en la película Matrix, haciéndole el quite a todos los balazos para no tener que hacerse cargo de temas que pueden ser complejos, pero yo les voy a decir una cosa: si las fuerzas democráticas no representan, no levantan el tema del 18-10, que fue un golpe de Estado, entonces no se sorprendan si esa situación se repite en el futuro\". \"El gobierno no se está haciendo un favor y no le está haciendo un favor a la República al evadir este tema\", añadió.",
+            "description": "El Presidente José Antonio Kast abordó este jueves las presiones de distintos sectores del oficialismo para realizar un homenaje a Carabineros por el séptimo aniversario del estallido social y apuntó a \"tener una mirada a futuro\" . Desde el Partido Nacional Libertario, la senadora Vanessa Kaiser catalogó como \"increíble que el Gobierno de José Antonio Kast no haga ningún acto oficial el próximo 18 de octubre\", y consideró que no conmemorar la fecha debilita el respaldo que esperaban hacia las fuerzas de orden y seguridad. Asimismo, para mañana está programada una reunión entre los partidos del oficialismo, en el que suscribirán un documento titulado \"Chile sin violencia: un compromiso por la paz\" , que califica el 18-O como \"uno de los peores episodios que recuerde la historia reciente\" del país. [Lea también] Siete años después, la derecha prepara conmemoración del 18-O en medio del debate por indultos Ante las presiones, el Mandatario subrayó que desde el Gobierno \"nosotros debemos tener una mirada de futuro, lo que estamos haciendo es reconstruir nuestro país. El 18 de octubre fue un momento complejo, de mucha violencia, y esperamos que eso no se vuelva a repetir nunca más\". En ese sentido, invitó \"a todos a que miremos al futuro, tenemos todo por delante . Hoy día tenemos una presentación del 'Choose Chile' , que es Elige Chile para invertir y se vienen muy buenas noticias para Chile\". Kast también evitó pronunciarse sobre eventuales indultos tras presiones desde distintos sectores oficialistas luego de la muerte de Juan Aliste Vega, exlautarista condenado por el crimen del carabinero Luis Moyano, quien reabrió el debate sobre este tema al solicitar el beneficio poco antes de fallecer. Por lo pronto, las policías ya se preparan para las convocatorias a manifestaciones de este domingo : en la capital, se espera una importante concentración por la llamada \"Gran marcha de Chile\" , que comenzará en Plaza Italia a las 12:00 horas. Chile / Stgo. A 7 años de la revuelta social, este dgo 18 de oct, a las 12:00, en Alameda con Ahumada, agrupaciones de trabajadores, estudiantes y territoriales convocan a una marcha para reivindicar las vigentes razones sociales, económicas, políticas y culturales del 2019. https://t.co/xfAfNPfYIi — Periodista Andrés Figueroa Cornejo (@PeriodistaFigue) October 15, 2026 Kaiser: No se sorprendan si se repite El líder del Partido Nacional Libertario, Johannes Kaiser, comentó que \"hay momentos en los cuales yo me imagino al Presidente Kast como en la película Matrix, haciéndole el quite a todos los balazos para no tener que hacerse cargo de temas que pueden ser complejos, pero yo les voy a decir una cosa: si las fuerzas democráticas no representan, no levantan el tema del 18-10, que fue un golpe de Estado, entonces no se sorprendan si esa situación se repite en el futuro\". \"El gobierno no se está haciendo un favor y no le está haciendo un favor a la República al evadir este tema\", añadió. Por su parte, la diputada republicana Javiera Rodríguez  afirmó que \"no creo en las fechas especiales para dar indultos\" a criminales de lesa humanidad de la dictadura y agentes del Estado condenados por delitos cometidos durante el estallido social . \"No me imagino al Presidente diciendo que, 'dado que esta es una fecha equis, vamos a hacer esto'. Cuando está en juego la libertad de los uniformados que sirvieron al país, creo que no hay una fecha especial ni conmemorativa: debería hacerse cuanto antes \", opinó la parlamentaria. Sobre el distanciamiento de Kast, admitió que \"en el fondo, creo que el Presidente tiene razón: hay que dar vuelta la página , pero para eso, tiene que existir un compromiso de todos los sectores políticos a condenar el 18 de octubre \".",
             "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/kast-se-distancia-de-presiones-para-conmemorar-el-18-o-debemos-tener/2026-10-15/113629.html",
             "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261015/imag/foto_0000000220261015113629.jpg",
             "published_raw": "Thu, 15 Oct 2026 11:36:29 -0300",
@@ -632,16 +563,85 @@
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 2,
+            "score_institutional": 3,
             "score_elections": 0,
-            "score_international": 1,
-            "score_conflict": 2,
+            "score_international": 0,
+            "score_conflict": 4,
             "score_policy": 0,
             "score_ideology": 1,
-            "score_actor": 4,
+            "score_actor": 5,
             "score_noise": 1,
             "score_accident": 0,
-            "political_evidence": 9,
+            "political_evidence": 12,
+            "primary_topic": "Conflictos y seguridad",
+            "secondary_topic": "Instituciones y gobierno",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-005"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 7,
+          "labels": "Seguridad y Estado",
+          "chile_utility": 61.3
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-007",
+        "title": "\"Cazuela sin carne\": Sichel indignado con la gestión del Gobierno para las emergencias",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/inundaciones/cazuela-sin-carne-sichel-indignado-con-la-gestion-del-gobierno-para/2026-10-14/132707.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 45.3,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 57,
+            "freshness": 52,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 32
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-10-14T13:27:07-0300",
+        "last_seen": "2026-10-14T13:27:07-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "\"Cazuela sin carne\": Sichel indignado con la gestión del Gobierno para las emergencias",
+            "description": "En diálogo con El Diario de Cooperativa , el alcalde de Ñuñoa, Sebastián Sichel , cuestionó con dureza la coordinación del Ejecutivo frente a la emergencia generada por las intensas lluvias en la capital , denunciando deficiencias estructurales en la conducción oficial y en la interlocución con las administraciones locales. \"El Gobierno tiene un problema en la toma de decisiones y en la vocería y es bueno que después de esta crisis resuelva eso; es urgente para nosotros\" , aseveró la autoridad municipal, que apuntó a la ambigüedad respecto a quién asume el rol articulador con las alcaldías durante episodios de catástrofe. \"Si va a ser su subsecretario de Interior ( Máximo Pavez ), que sea el subsecretario de Interior, pero estas cosas como que no son ni chicha ni limonada ;   que el ministro del Interior ( Claudio Alvarado ) está en el Congreso, es vocero, está negociando con el Parlamento y es Segpres también (no funcionan)... A mí me gustan las cosas nítidas y no quiero que haya un Ministerio Secretaría General de Gobierno, pero sí quiero que haya un vocero; entonces, díganme quién es, por último, para llamarlo\", enfatizó. En esa línea, catalogó la estructura comunicacional y operativa del Gabinete como \"una cazuela sin carne\" y, para ejemplificar los entrabamientos burocráticos, relató: \"Ayer estábamos a las seis de la tarde con la directora de Educación, Sofía Jaña , discutiendo si cerrábamos o no los colegios , esperando que la Seremi de Educación nos respondiera, y no sabíamos a quién preguntarle. Esa es la verdad. Nos dábamos vueltas, nos pedían informes, y decíamos:  '¡¿quién cresta que toma esta decisión?! '... Al final la tomamos nosotros. Tenemos que ponernos cabrones para tomar la decisión , porque tenemos a cargo la población que está alrededor de nosotros\". Cuestionamientos a la infraestructura Asimismo, el jefe comunal extendió sus críticas al abordaje histórico del Estado frente al cambio climático y la contención de riesgos en la precordillera, apuntando al estancamiento en materia de inversión pública. \"El problema es que no hacemos los lesos y seguimos con la infraestructura que teníamos hace 30 años para resistir esos niveles de agua y no estamos preparados para el cambio climático. Eso es vivir en los años 50\" , reprochó, indicando que \"el Estado central de Chile, vale al Gobierno actual y el Gobierno anterior, no tiene ningún plan de inversión para la contención de quebradas\". Además, graficó el abandono financiero e instrumental que enfrentan los municipios durante el despliegue de las emergencias en terreno, contrastándolo con la burocracia preventiva de los organismos técnicos. \"Los municipios estamos como para la guerra: nos piden cada día más pega y vivimos de la plata propia. Un municipio como Ñuñoa vive de la plata que puede captar con patentes, con lo que sea, y cuando tú tienes crisis como esta tienes que vivir con tus cuatro motobombas. Esa es la realidad. Senapred te hace 20 reuniones de coordinación, Cogrid, planes, lleno de carpetas tengo de todas las ideas que me dan, pero cuando tú tienes que recurrir al Estado central para emergencias de este nivel, no hay nadie a quien recurrir \", reprochó. ",
+            "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/inundaciones/cazuela-sin-carne-sichel-indignado-con-la-gestion-del-gobierno-para/2026-10-14/132707.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261014/imag/foto_0000000220261014132707.jpg",
+            "published_raw": "Wed, 14 Oct 2026 13:27:07 -0300",
+            "published_at": "2026-10-14T13:27:07-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 6,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 1,
+            "score_ideology": 0,
+            "score_actor": 2,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 10,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
@@ -654,7 +654,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 63.3
+          "chile_utility": 54.3
         },
         "repeated_in_general_top5": false
       }
@@ -669,21 +669,21 @@
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 5,
+      "event_count": 4,
       "maximum_relevance": 61.1,
       "leading_story": "Ayuso ataca las movilizaciones en su contra: “La izquierda, cuando va a perder las elecciones, se vuelve violenta”"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 4,
-      "maximum_relevance": 57.8,
+      "maximum_relevance": 56.5,
       "leading_story": "Bachelet: \"No es momento de hablar de candidaturas, sino de lo mal que lo está pasando la gente\""
     },
     {
       "topic": "Conflictos y seguridad",
-      "event_count": 2,
-      "maximum_relevance": 48.3,
-      "leading_story": "Libertarios arremete contra La Moneda por no conmemorar el 18 de octubre"
+      "event_count": 3,
+      "maximum_relevance": 54.3,
+      "leading_story": "Kast se distancia de presiones para conmemorar el 18-O: \"Debemos tener una mirada a futuro\""
     }
   ],
   "changes_since_yesterday": {
