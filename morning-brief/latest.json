@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-16",
-    "data_latest_timestamp": "2026-10-16T06:30:00-0300",
-    "data_age_hours": 3,
-    "generated_at": "2026-10-16T09:32:33-0300",
+    "data_latest_timestamp": "2026-10-16T12:03:34-0300",
+    "data_age_hours": 0.4,
+    "generated_at": "2026-10-16T12:26:10-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 29 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 30 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 29,
+    "ranked_events": 30,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 58.4,
-    "maximum_relevance": 64.5
+    "average_top5_relevance": 55.9,
+    "maximum_relevance": 63.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-027",
+      "cluster_id": "PML-EVENT-028",
       "title": "La batalla por el voto de un español de la ley de nietos: “Quien huyó no pensó en armar una carpeta con documentación, se fue con lo puesto”",
       "url": "https://elpais.com/argentina/2026-10-16/la-batalla-por-el-voto-de-un-espanol-de-la-ley-de-nietos-quien-huyo-no-penso-en-armar-una-carpeta-con-documentacion-se-fue-con-lo-puesto.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +43,12 @@
         "country": "Argentina / América Latina"
       },
       "relevance": {
-        "score": 64.5,
+        "score": 63.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 64.5
+        "editorial_utility": 63.2
       },
       "selection": {
-        "reason": "PML 64.5",
+        "reason": "PML 63.2",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -105,7 +105,7 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-028"
         }
       ]
     },
@@ -122,12 +122,12 @@
         "country": "Brasil / América Latina"
       },
       "relevance": {
-        "score": 55,
+        "score": 52,
         "level": "MEDIA",
-        "editorial_utility": 62
+        "editorial_utility": 59
       },
       "selection": {
-        "reason": "PML 55; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 52; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -187,7 +187,7 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-018",
+      "cluster_id": "PML-EVENT-019",
       "title": "Grau y caída de crecimiento: Nunca tuvimos una economía que decrezca sin una crisis mundial",
       "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/grau-y-caida-de-crecimiento-nunca-tuvimos-una-economia-que-decrezca-sin/2026-10-15/114415.html",
       "representative_source": "Cooperativa",
@@ -198,12 +198,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 56.2,
+        "score": 53.7,
         "level": "MEDIA",
-        "editorial_utility": 59.2
+        "editorial_utility": 56.7
       },
       "selection": {
-        "reason": "PML 56.2; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 53.7; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -260,12 +260,85 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-018"
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     },
     {
       "position": 4,
+      "cluster_id": "PML-EVENT-020",
+      "title": "Sánchez apunta que las pensiones se subirán justo después de las elecciones",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-15/cuerpo-asegura-que-el-gobierno-quiere-subir-las-pensiones-despues-de-las-elecciones.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 55.4,
+        "level": "MEDIA",
+        "editorial_utility": 51.4
+      },
+      "selection": {
+        "reason": "PML 55.4; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-15T07:10:57-0300",
+      "last_seen": "2026-10-15T07:10:57-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "El presidente y Cuerpo alejan la idea de un aumento antes de acudir a las urnas pero señalan que se puede hacer en funciones, en diciembre. El Gobierno sí pretende subir el SMI antes de votar",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Sánchez apunta que las pensiones se subirán justo después de las elecciones",
+          "description": "El presidente y Cuerpo alejan la idea de un aumento antes de acudir a las urnas pero señalan que se puede hacer en funciones, en diciembre. El Gobierno sí pretende subir el SMI antes de votar",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-10-15/cuerpo-asegura-que-el-gobierno-quiere-subir-las-pensiones-despues-de-las-elecciones.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/IDY6UDFG4FFJZHBW2KQVZAGDYU.JPG?auth=cfdc8682bf909e8a8544c2e5833c43bb898c58d20fa6ce90b6def73405b5b058",
+          "published_raw": "Thu, 15 Oct 2026 10:10:57 GMT",
+          "published_at": "2026-10-15T07:10:57-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-020"
+        }
+      ]
+    },
+    {
+      "position": 5,
       "cluster_id": "PML-EVENT-013",
       "title": "Gobierno y oposición de Venezuela retoman el diálogo con las elecciones como tema central",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261014-gobierno-y-oposici%C3%B3n-de-venezuela-retoman-el-di%C3%A1logo-con-las-elecciones-como-tema-central",
@@ -277,12 +350,12 @@
         "country": "Venezuela / América Latina"
       },
       "relevance": {
-        "score": 58.2,
+        "score": 55.2,
         "level": "MEDIA",
-        "editorial_utility": 54.2
+        "editorial_utility": 48.2
       },
       "selection": {
-        "reason": "PML 58.2; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 55.2; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -339,79 +412,6 @@
           "cluster_id": "PML-EVENT-013"
         }
       ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-019",
-      "title": "Sánchez apunta que las pensiones se subirán justo después de las elecciones",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-10-15/cuerpo-asegura-que-el-gobierno-quiere-subir-las-pensiones-despues-de-las-elecciones.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 57.9,
-        "level": "MEDIA",
-        "editorial_utility": 50.9
-      },
-      "selection": {
-        "reason": "PML 57.9; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-10-15T07:10:57-0300",
-      "last_seen": "2026-10-15T07:10:57-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "El presidente y Cuerpo alejan la idea de un aumento antes de acudir a las urnas pero señalan que se puede hacer en funciones, en diciembre. El Gobierno sí pretende subir el SMI antes de votar",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Sánchez apunta que las pensiones se subirán justo después de las elecciones",
-          "description": "El presidente y Cuerpo alejan la idea de un aumento antes de acudir a las urnas pero señalan que se puede hacer en funciones, en diciembre. El Gobierno sí pretende subir el SMI antes de votar",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-10-15/cuerpo-asegura-que-el-gobierno-quiere-subir-las-pensiones-despues-de-las-elecciones.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/IDY6UDFG4FFJZHBW2KQVZAGDYU.JPG?auth=cfdc8682bf909e8a8544c2e5833c43bb898c58d20fa6ce90b6def73405b5b058",
-          "published_raw": "Thu, 15 Oct 2026 10:10:57 GMT",
-          "published_at": "2026-10-15T07:10:57-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
-        }
-      ]
     }
   ],
   "chile_brief": {
@@ -433,11 +433,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 49.5,
+          "score": 47,
           "level": "BAJA",
           "components": {
             "political_impact": 55,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -488,7 +488,7 @@
             "Estado e instituciones",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 67.5
+          "chile_utility": 65
         },
         "repeated_in_general_top5": false
       },
@@ -505,11 +505,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 50.3,
+          "score": 47.8,
           "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 28
@@ -557,31 +557,31 @@
         "political_science_fit": {
           "bonus": 7,
           "labels": "Seguridad y Estado",
-          "chile_utility": 57.3
+          "chile_utility": 54.8
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-010",
-        "title": "Polémica por proyecto que permite a farmacias prescindir de químicos farmacéuticos",
+        "cluster_id": "PML-EVENT-009",
+        "title": "Eyzaguirre por fondo E: No se puede dejar que las AFP hagan apuestas de este nivel de riesgo",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/polemica-por-proyecto-que-permite-a-farmacias-prescindir-de-quimicos/2026-10-16/000839.html",
+        "url": "https://www.cooperativa.cl/noticias/economia/sistema-previsional/afp/eyzaguirre-por-fondo-e-no-se-puede-dejar-que-las-afp-hagan-apuestas-de/2026-10-16/120334.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.1,
+          "score": 55.3,
           "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 88,
+            "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 28
+            "continuity": 30
           }
         },
         "coverage": {
@@ -589,36 +589,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-16T00:08:39-0300",
-        "last_seen": "2026-10-16T00:08:39-0300",
+        "first_seen": "2026-10-16T12:03:34-0300",
+        "last_seen": "2026-10-16T12:03:34-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Polémica por proyecto que permite a farmacias prescindir de químicos farmacéuticos",
-            "description": "El gremio de químicos farmacéuticos llamó a retirar un proyecto de ley recientemente ingresado a la Cámara Baja, que busca modificar el Código Sanitario para que las farmacias no estén obligadas a contratar a sus colegas en la dirección técnica de tales recintos. La propuesta, impulsada por las bancadas de Republicanos, Libertarios y el Partido de la Gente , busca dar la opción de que ese cargo sea ejercido por otros profesionales, técnicos y nivel superior del área de salud con  formación específica en gestión y farmacología . El diputado republicano Diego Vergara , principal autor del proyecto, planteó que \" en las grandes capitales, el químico farmacéutico es una mano de obra que existe, pero cuando nos alejamos a provincias y regiones, esto escasea enormemente \". Por lo demás, sostuvo que \" el costo financiero que implica un químico farmacéutico tiempo completo es muy elevado para el funcionamiento de una farmacia\", impidiendo que pequeños emprendedores instalen uno de estos negocios. Con todo, el oficialista cree que \"aumentando la competencia y las personas que pueden administrar una farmacia, ayudaría al aumento de farmacias en localidades, y a poder llegar a distintos puntos \", lo que eventualmente derivaría en una baja de precios de los medicamentos . Rechazo del gremio y desmarque del Minsal Mediante una declaración publicada en sus redes, el Colegio de Químicos Farmacéuticos y Bioquímicos advirtió que el proyecto \" debilita una garantía sanitaria fundamental para la seguridad de las personas : la dirección técnica y supervisión profesional del químico farmacéutico\". Asimismo, el gremio aseveró que \" no existe garantía de que reducir los costos de funcionamiento mediante la eliminación de la dirección técnica se traduzca en precios más bajos para los pacientes o en nuevos establecimientos en las comunidades desatendidas\". \"La iniciativa, por sí sola, no resuelve los problemas de abastecimiento, logística ni continuidad de los tratamientos\" , subraya el escrito. Ver esta publicación en Instagram Una publicación compartida por Colegio Farmacéutico de Chile (@colegioqfch) En paralelo, la ministra de Salud, May Chomali , admitió: \" Me parece complejo un proyecto de esas características, por cuanto una farmacia, para ser útil, tiene que contemplar todo tipo de medicamentos, y existen algunos medicamentos que, por ley, solo pueden ser vendidos por químicos farmacéuticos. Que no sea así, puede poner en riesgo a la población \". Por ende, la autoridad sanitaria tomó distancia de la propuesta , relevando que su cartera pretende  resolver la falta de cobertura rural a través de otras medidas , como la entrega de medicamentos a domicilio, en Centros de Salud Familiar (Cesfam) u hospitales. \"Nos estamos jugando para que los pacientes necesiten cada vez menos comprar medicamentos. Disponer de más farmacias y liberarlas (de químicos farmacéuticos) no va en la línea de lo que queremos conseguir \", remató Chomali.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/polemica-por-proyecto-que-permite-a-farmacias-prescindir-de-quimicos/2026-10-16/000839.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261016/imag/foto_0000000220261016000839.jpg",
-            "published_raw": "Fri, 16 Oct 2026 00:08:39 -0300",
-            "published_at": "2026-10-16T00:08:39-0300",
+            "title": "Eyzaguirre por fondo E: No se puede dejar que las AFP hagan apuestas de este nivel de riesgo",
+            "description": "El exministro de Hacienda, Nicolás Eyzaguirre (PPD), comentó en Cooperativa el desplome del Fondo E del sistema de pensiones , situación originada por las pérdidas asociadas a sus inversiones en instrumentos vinculados a las tasas de interés de Estados Unidos. En El Primer Café , Eyzaguirre sostuvo que \"se tomó una posición agresiva, apostando a que iban a bajar las tasas de interés , porque si las tasas de interés hubiesen subido, pero la duración de los bonos fuera el mismo que las futuras rentas vitalicias, las personas que hoy día están jubilando, que van a tener peores pensiones, no habrían sufrido desgaste alguno\". \"Esta cuestión no estaba regulada en el sistema y hubo que regularla ahora, y ha habido completa continuidad entre la opinión del gobierno anterior y este, por tanto no politicemos esto (...) esto viene a ratificar la idea de que tú no puedes dejar que las AFP, con los fondos obligatorios, hagan apuestas y el nuevo sistema no lo permite\" , añadió. Por su parte, el exministro Ignacio Walker (exDC) planteó que \"esto es muy grave y no se puede minimizar la gravedad de lo que ha ocurrido (...) la superintendencia advirtió repetidamente a las AFP que la especulación es incompatible con las características del Fondo E, actuaron en forma poco prudente\". \"Hubo especulación más allá de lo que son los criterios de inversión, sobre todo el Fondo E, que es el más conservador. Fue poco prudente, sin duda alguna\", agregó. Desde el Partido Republicano, el diputado Luis Sánchez recalcó que \"siempre hay un riesgo en toda inversión, de que te pueda ir bien o te pueda ir mal, siempre puede haber un imprevisto o alguna circunstancia que cambia y eso nos deja en una situación compleja (...) es un riesgo gigantesco, especialmente para los que están más cerca o ad portas de jubilar\". \"No estoy sosteniendo que el sistema es perfecto, falta mucha información en la ciudadanía para tomar las mejores decisiones (...) es una señal de alerta de los riesgos a los cuales está expuesto siempre un sistema de estas características\", aseveró. Finalmente, el también exministro Cristián Monckeberg (RN) cree \"que las AFP la embarraron, esto no debe ocurrir, porque además hubo advertencia de dos superintendentes, uno más formal y el otro con reuniones, el Banco Central (también advirtió)\". \"Cuando se trata del sistema de pensiones en Chile hay que ser doblemente prudente, porque la discusión está muy a flor de piel, es muy delicado, más aún cuando se llegó a un acuerdo importante legislativo para hacerse cargo de la reforma de pensiones, que hacía falta, y se consolida el sistema (...) el mundo político, es un consenso amplio y no simple, llegó a un buen acuerdo para fortalecer esta sistema y lo que esto hace es pegarle una patada en las canillas\", sentenció.",
+            "url": "https://www.cooperativa.cl/noticias/economia/sistema-previsional/afp/eyzaguirre-por-fondo-e-no-se-puede-dejar-que-las-afp-hagan-apuestas-de/2026-10-16/120334.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261016/imag/foto_0000000220261016120334.jpg",
+            "published_raw": "Fri, 16 Oct 2026 12:03:34 -0300",
+            "published_at": "2026-10-16T12:03:34-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
             "score_institutional": 3,
             "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 1,
-            "score_ideology": 0,
+            "score_conflict": 0,
+            "score_policy": 2,
+            "score_ideology": 1,
             "score_actor": 2,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 7,
+            "political_evidence": 8,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
+            "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-010"
+            "cluster_id": "PML-EVENT-009"
           }
         ],
         "article_count": 1,
@@ -626,7 +626,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 61.1
+          "chile_utility": 64.3
         },
         "repeated_in_general_top5": false
       }
@@ -636,26 +636,26 @@
     {
       "topic": "Instituciones y gobierno",
       "event_count": 19,
-      "maximum_relevance": 64.5,
+      "maximum_relevance": 63.2,
       "leading_story": "La batalla por el voto de un español de la ley de nietos: “Quien huyó no pensó en armar una carpeta con documentación, se fue con lo puesto”"
     },
     {
-      "topic": "Elecciones y opinión pública",
+      "topic": "Conflictos y seguridad",
       "event_count": 4,
-      "maximum_relevance": 55,
-      "leading_story": "Brasil: el partido de Lula denunciará a Meta ante la OEA por presunta “interferencia” electoral"
+      "maximum_relevance": 55.1,
+      "leading_story": "¿Puede Costa Rica frenar al narco con una megacárcel al estilo Bukele?"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 3,
-      "maximum_relevance": 54.8,
+      "maximum_relevance": 52.8,
       "leading_story": "Bachelet: \"No es momento de hablar de candidaturas, sino de lo mal que lo está pasando la gente\""
     },
     {
-      "topic": "Conflictos y seguridad",
-      "event_count": 3,
-      "maximum_relevance": 50.3,
-      "leading_story": "Kast se distancia de presiones para conmemorar el 18-O: \"Debemos tener una mirada a futuro\""
+      "topic": "Elecciones y opinión pública",
+      "event_count": 4,
+      "maximum_relevance": 52.3,
+      "leading_story": "Carolyn Rodrigues-Birkett, candidata a liderar la ONU: “No elegir a una mujer sería un mensaje muy negativo para el mundo”"
     }
   ],
   "changes_since_yesterday": {
@@ -663,7 +663,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
