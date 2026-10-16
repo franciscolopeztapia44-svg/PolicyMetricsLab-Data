@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-10-15",
-    "data_latest_timestamp": "2026-10-15T23:10:45-0300",
-    "data_age_hours": 1.3,
-    "generated_at": "2026-10-16T00:26:14-0300",
+    "date": "2026-10-16",
+    "data_latest_timestamp": "2026-10-16T00:08:39-0300",
+    "data_age_hours": 3.4,
+    "generated_at": "2026-10-16T03:31:09-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,64 +16,61 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 5 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 36,
+    "ranked_events": 35,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 61.3,
-    "maximum_relevance": 66.7
+    "average_top5_relevance": 59,
+    "maximum_relevance": 60.8
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-014",
-      "title": "Estados Unidos levanta sanciones contra Jorge Rodríguez, presidente de la Asamblea Nacional de Venezuela",
-      "url": "https://elpais.com/us/2026-10-14/estados-unidos-levanta-sanciones-contra-jorge-rodriguez-presidente-de-la-asamblea-nacional-de-venezuela.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-013",
+      "title": "Gobierno y oposición de Venezuela retoman el diálogo con las elecciones como tema central",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261014-gobierno-y-oposici%C3%B3n-de-venezuela-retoman-el-di%C3%A1logo-con-las-elecciones-como-tema-central",
+      "representative_source": "France 24",
       "topic": "Instituciones y gobierno",
-      "event_type": "DIPLOMATIC_EVENT",
+      "event_type": "ELECTORAL_EVENT",
       "geography": {
         "group": "América Latina",
-        "country": "Venezuela / América Latina / No identificado / Internacional"
+        "country": "Venezuela / América Latina"
       },
       "relevance": {
-        "score": 66.7,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 70.7
+        "score": 60.8,
+        "level": "MEDIA",
+        "editorial_utility": 60.8
       },
       "selection": {
-        "reason": "PML 66.7; multifuente",
+        "reason": "PML 60.8",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 2,
-        "source_count": 2,
-        "sources": [
-          "France 24",
-          "EL PAÍS"
-        ]
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
       },
-      "first_seen": "2026-10-14T12:21:31-0300",
-      "last_seen": "2026-10-14T13:15:58-0300",
-      "entities": [
-        "trump",
-        "venezuela"
+      "first_seen": "2026-10-14T20:37:25-0300",
+      "last_seen": "2026-10-14T20:37:25-0300",
+      "entities": "venezuela",
+      "event_terms": [
+        "oposicion",
+        "sanciones"
       ],
-      "event_terms": "sanciones",
       "analysis": {
-        "summary": "El Gobierno del presidente de Estados Unidos, Donald Trump, retiró este miércoles 14 de julio las sanciones impuestas al líder de la Asamblea Nacional de Venezuela, Jorge Rodríguez, hermano de la presidenta encargada del país, Delcy Rodríguez. La información fue confirmada por el Departamento del Tesoro de EE. UU. en su sitio web.",
-        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Venezuela / América Latina / No identificado / Internacional.",
+        "summary": "La tercera ronda de diálogo para una transición política en Venezuela comenzó este miércoles, horas después de que Washington retirara las sanciones contra Jorge Rodríguez, jefe negociador del gobierno y hermano de la presidenta interina, Delcy Rodríguez.",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Venezuela / América Latina.",
         "watch_next": [
-          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
-          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
@@ -82,64 +79,36 @@
         {
           "source_id": "france24_latam",
           "source": "France 24",
-          "title": "Estados Unidos levanta las sanciones al presidente del Legislativo venezolano Jorge Rodríguez",
-          "description": "El Gobierno del presidente de Estados Unidos, Donald Trump, retiró este miércoles 14 de julio las sanciones impuestas al líder de la Asamblea Nacional de Venezuela, Jorge Rodríguez, hermano de la presidenta encargada del país, Delcy Rodríguez. La información fue confirmada por el Departamento del Tesoro de EE. UU. en su sitio web.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261014-estados-unidos-levanta-las-sanciones-al-presidente-del-legislativo-venezolano-jorge-rodr%C3%ADguez",
-          "image_url": "https://s.france24.com/media/display/9f9875dc-a2db-11f0-87a8-005056bf30b7/w:1024/p:16x9/2025-09-29T203639Z-1867126434-RC2Q1HAIOJY5-RTRMADP-3-VENEZUELA-POLITICS.jpg",
-          "published_raw": "Wed, 14 Oct 2026 16:15:58 GMT",
-          "published_at": "2026-10-14T13:15:58-0300",
+          "title": "Gobierno y oposición de Venezuela retoman el diálogo con las elecciones como tema central",
+          "description": "La tercera ronda de diálogo para una transición política en Venezuela comenzó este miércoles, horas después de que Washington retirara las sanciones contra Jorge Rodríguez, jefe negociador del gobierno y hermano de la presidenta interina, Delcy Rodríguez.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261014-gobierno-y-oposici%C3%B3n-de-venezuela-retoman-el-di%C3%A1logo-con-las-elecciones-como-tema-central",
+          "image_url": "https://s.france24.com/media/display/35040bf0-c828-11f1-8c1c-6313a763b466/w:1024/p:16x9/99effdf46aa96853af47329306e8d1c6c3ea0170.jpg",
+          "published_raw": "Wed, 14 Oct 2026 23:37:25 GMT",
+          "published_at": "2026-10-14T20:37:25-0300",
           "country": "Venezuela",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 3,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 6,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-014"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Estados Unidos levanta sanciones contra Jorge Rodríguez, presidente de la Asamblea Nacional de Venezuela",
-          "description": "El Tesoro elimina al hermano de la presidenta encargada del país sudamericano de la lista principal de nacionales especialmente designados",
-          "url": "https://elpais.com/us/2026-10-14/estados-unidos-levanta-sanciones-contra-jorge-rodriguez-presidente-de-la-asamblea-nacional-de-venezuela.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/FIRZJCLBKBFVRBHELDYDELJVKY.jpg?auth=5ca9b286eb10e3d6bdd4c651a94d55de30e8df01dfeb9977dd2944e2d371cee3",
-          "published_raw": "Wed, 14 Oct 2026 15:21:31 GMT",
-          "published_at": "2026-10-14T12:21:31-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
           "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 1,
+          "score_elections": 1,
+          "score_international": 2,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 5,
+          "political_evidence": 7,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-014"
+          "cluster_id": "PML-EVENT-013"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-031",
+      "cluster_id": "PML-EVENT-030",
       "title": "Ayuso ataca las movilizaciones en su contra: “La izquierda, cuando va a perder las elecciones, se vuelve violenta”",
       "url": "https://elpais.com/espana/madrid/2026-10-15/ayuso-vuelve-a-la-asamblea-con-la-estela-de-la-huelga-en-educacion-y-su-oposicion-frontal-a-sol.html",
       "representative_source": "EL PAÍS",
@@ -150,12 +119,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 61.1,
+        "score": 59.1,
         "level": "MEDIA",
-        "editorial_utility": 69.1
+        "editorial_utility": 67.1
       },
       "selection": {
-        "reason": "PML 61.1; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 59.1; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -206,13 +175,13 @@
           "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-031"
+          "cluster_id": "PML-EVENT-030"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-017",
+      "cluster_id": "PML-EVENT-018",
       "title": "Grau y caída de crecimiento: Nunca tuvimos una economía que decrezca sin una crisis mundial",
       "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/grau-y-caida-de-crecimiento-nunca-tuvimos-una-economia-que-decrezca-sin/2026-10-15/114415.html",
       "representative_source": "Cooperativa",
@@ -223,12 +192,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 60.2,
+        "score": 58.2,
         "level": "MEDIA",
-        "editorial_utility": 63.2
+        "editorial_utility": 61.2
       },
       "selection": {
-        "reason": "PML 60.2; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 58.2; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -285,13 +254,13 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-017"
+          "cluster_id": "PML-EVENT-018"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-010",
+      "cluster_id": "PML-EVENT-011",
       "title": "Brasil: el partido de Lula denunciará a Meta ante la OEA por presunta “interferencia” electoral",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261015-brasil-el-partido-de-lula-denunciar%C3%A1-a-meta-ante-la-oea-por-presunta-interferencia-electoral",
       "representative_source": "France 24",
@@ -304,10 +273,10 @@
       "relevance": {
         "score": 57.5,
         "level": "MEDIA",
-        "editorial_utility": 52.5
+        "editorial_utility": 55.5
       },
       "selection": {
-        "reason": "PML 57.5",
+        "reason": "PML 57.5; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -361,29 +330,29 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-010"
+          "cluster_id": "PML-EVENT-011"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-012",
-      "title": "Gobierno y oposición de Venezuela retoman el diálogo con las elecciones como tema central",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261014-gobierno-y-oposici%C3%B3n-de-venezuela-retoman-el-di%C3%A1logo-con-las-elecciones-como-tema-central",
-      "representative_source": "France 24",
+      "cluster_id": "PML-EVENT-027",
+      "title": "A quién afecta y cómo reclamar: las claves de la suspensión del voto de los españoles nacionalizados por ‘la ley de nietos’",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-10-15/a-quien-afecta-y-como-reclamar-las-claves-de-la-suspension-del-voto-de-los-espanoles-nacionalizados-por-la-ley-de-nietos.html",
+      "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
+      "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
-        "group": "América Latina",
-        "country": "Venezuela / América Latina"
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 60.8,
+        "score": 59.2,
         "level": "MEDIA",
-        "editorial_utility": 56.8
+        "editorial_utility": 55.2
       },
       "selection": {
-        "reason": "PML 60.8; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 59.2; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -391,53 +360,53 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "France 24"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-14T20:37:25-0300",
-      "last_seen": "2026-10-14T20:37:25-0300",
-      "entities": "venezuela",
+      "first_seen": "2026-10-15T06:30:00-0300",
+      "last_seen": "2026-10-15T06:30:00-0300",
+      "entities": "supremo",
       "event_terms": [
-        "oposicion",
-        "sanciones"
+        "tribunal",
+        "supremo"
       ],
       "analysis": {
-        "summary": "La tercera ronda de diálogo para una transición política en Venezuela comenzó este miércoles, horas después de que Washington retirara las sanciones contra Jorge Rodríguez, jefe negociador del gobierno y hermano de la presidenta interina, Delcy Rodríguez.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Venezuela / América Latina.",
+        "summary": "Los afectados pueden presentar alegaciones contra la decisión del Tribunal Supremo que les impide votar en las elecciones generales del 29-N",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Gobierno y oposición de Venezuela retoman el diálogo con las elecciones como tema central",
-          "description": "La tercera ronda de diálogo para una transición política en Venezuela comenzó este miércoles, horas después de que Washington retirara las sanciones contra Jorge Rodríguez, jefe negociador del gobierno y hermano de la presidenta interina, Delcy Rodríguez.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261014-gobierno-y-oposici%C3%B3n-de-venezuela-retoman-el-di%C3%A1logo-con-las-elecciones-como-tema-central",
-          "image_url": "https://s.france24.com/media/display/35040bf0-c828-11f1-8c1c-6313a763b466/w:1024/p:16x9/99effdf46aa96853af47329306e8d1c6c3ea0170.jpg",
-          "published_raw": "Wed, 14 Oct 2026 23:37:25 GMT",
-          "published_at": "2026-10-14T20:37:25-0300",
-          "country": "Venezuela",
-          "region": "América Latina",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "A quién afecta y cómo reclamar: las claves de la suspensión del voto de los españoles nacionalizados por ‘la ley de nietos’",
+          "description": "Los afectados pueden presentar alegaciones contra la decisión del Tribunal Supremo que les impide votar en las elecciones generales del 29-N",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-10-15/a-quien-afecta-y-como-reclamar-las-claves-de-la-suspension-del-voto-de-los-espanoles-nacionalizados-por-la-ley-de-nietos.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/FTF3QGDIORFYFGKOP4G5HVAKXQ.jpg?auth=f4ac33de4c383d3185eb5cbcc082effb141dcd5a5e273493ec441dd4e54c5876",
+          "published_raw": "Thu, 15 Oct 2026 09:30:00 GMT",
+          "published_at": "2026-10-15T06:30:00-0300",
+          "country": "No identificado",
+          "region": "Internacional",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 3,
           "score_elections": 1,
-          "score_international": 2,
+          "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 2,
+          "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 7,
+          "political_evidence": 4,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-027"
         }
       ]
     }
@@ -533,11 +502,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.3,
+          "score": 52.3,
           "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 28
@@ -585,31 +554,31 @@
         "political_science_fit": {
           "bonus": 7,
           "labels": "Seguridad y Estado",
-          "chile_utility": 61.3
+          "chile_utility": 59.3
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-007",
-        "title": "\"Cazuela sin carne\": Sichel indignado con la gestión del Gobierno para las emergencias",
+        "cluster_id": "PML-EVENT-010",
+        "title": "Polémica por proyecto que permite a farmacias prescindir de químicos farmacéuticos",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/inundaciones/cazuela-sin-carne-sichel-indignado-con-la-gestion-del-gobierno-para/2026-10-14/132707.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/polemica-por-proyecto-que-permite-a-farmacias-prescindir-de-quimicos/2026-10-16/000839.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 45.3,
-          "level": "BAJA",
+          "score": 55.1,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 57,
-            "freshness": 52,
+            "political_impact": 51,
+            "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 32
+            "continuity": 28
           }
         },
         "coverage": {
@@ -617,22 +586,22 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-14T13:27:07-0300",
-        "last_seen": "2026-10-14T13:27:07-0300",
+        "first_seen": "2026-10-16T00:08:39-0300",
+        "last_seen": "2026-10-16T00:08:39-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "\"Cazuela sin carne\": Sichel indignado con la gestión del Gobierno para las emergencias",
-            "description": "En diálogo con El Diario de Cooperativa , el alcalde de Ñuñoa, Sebastián Sichel , cuestionó con dureza la coordinación del Ejecutivo frente a la emergencia generada por las intensas lluvias en la capital , denunciando deficiencias estructurales en la conducción oficial y en la interlocución con las administraciones locales. \"El Gobierno tiene un problema en la toma de decisiones y en la vocería y es bueno que después de esta crisis resuelva eso; es urgente para nosotros\" , aseveró la autoridad municipal, que apuntó a la ambigüedad respecto a quién asume el rol articulador con las alcaldías durante episodios de catástrofe. \"Si va a ser su subsecretario de Interior ( Máximo Pavez ), que sea el subsecretario de Interior, pero estas cosas como que no son ni chicha ni limonada ;   que el ministro del Interior ( Claudio Alvarado ) está en el Congreso, es vocero, está negociando con el Parlamento y es Segpres también (no funcionan)... A mí me gustan las cosas nítidas y no quiero que haya un Ministerio Secretaría General de Gobierno, pero sí quiero que haya un vocero; entonces, díganme quién es, por último, para llamarlo\", enfatizó. En esa línea, catalogó la estructura comunicacional y operativa del Gabinete como \"una cazuela sin carne\" y, para ejemplificar los entrabamientos burocráticos, relató: \"Ayer estábamos a las seis de la tarde con la directora de Educación, Sofía Jaña , discutiendo si cerrábamos o no los colegios , esperando que la Seremi de Educación nos respondiera, y no sabíamos a quién preguntarle. Esa es la verdad. Nos dábamos vueltas, nos pedían informes, y decíamos:  '¡¿quién cresta que toma esta decisión?! '... Al final la tomamos nosotros. Tenemos que ponernos cabrones para tomar la decisión , porque tenemos a cargo la población que está alrededor de nosotros\". Cuestionamientos a la infraestructura Asimismo, el jefe comunal extendió sus críticas al abordaje histórico del Estado frente al cambio climático y la contención de riesgos en la precordillera, apuntando al estancamiento en materia de inversión pública. \"El problema es que no hacemos los lesos y seguimos con la infraestructura que teníamos hace 30 años para resistir esos niveles de agua y no estamos preparados para el cambio climático. Eso es vivir en los años 50\" , reprochó, indicando que \"el Estado central de Chile, vale al Gobierno actual y el Gobierno anterior, no tiene ningún plan de inversión para la contención de quebradas\". Además, graficó el abandono financiero e instrumental que enfrentan los municipios durante el despliegue de las emergencias en terreno, contrastándolo con la burocracia preventiva de los organismos técnicos. \"Los municipios estamos como para la guerra: nos piden cada día más pega y vivimos de la plata propia. Un municipio como Ñuñoa vive de la plata que puede captar con patentes, con lo que sea, y cuando tú tienes crisis como esta tienes que vivir con tus cuatro motobombas. Esa es la realidad. Senapred te hace 20 reuniones de coordinación, Cogrid, planes, lleno de carpetas tengo de todas las ideas que me dan, pero cuando tú tienes que recurrir al Estado central para emergencias de este nivel, no hay nadie a quien recurrir \", reprochó. ",
-            "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/inundaciones/cazuela-sin-carne-sichel-indignado-con-la-gestion-del-gobierno-para/2026-10-14/132707.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261014/imag/foto_0000000220261014132707.jpg",
-            "published_raw": "Wed, 14 Oct 2026 13:27:07 -0300",
-            "published_at": "2026-10-14T13:27:07-0300",
+            "title": "Polémica por proyecto que permite a farmacias prescindir de químicos farmacéuticos",
+            "description": "El gremio de químicos farmacéuticos llamó a retirar un proyecto de ley recientemente ingresado a la Cámara Baja, que busca modificar el Código Sanitario para que las farmacias no estén obligadas a contratar a sus colegas en la dirección técnica de tales recintos. La propuesta, impulsada por las bancadas de Republicanos, Libertarios y el Partido de la Gente , busca dar la opción de que ese cargo sea ejercido por otros profesionales, técnicos y nivel superior del área de salud con  formación específica en gestión y farmacología . El diputado republicano Diego Vergara , principal autor del proyecto, planteó que \" en las grandes capitales, el químico farmacéutico es una mano de obra que existe, pero cuando nos alejamos a provincias y regiones, esto escasea enormemente \". Por lo demás, sostuvo que \" el costo financiero que implica un químico farmacéutico tiempo completo es muy elevado para el funcionamiento de una farmacia\", impidiendo que pequeños emprendedores instalen uno de estos negocios. Con todo, el oficialista cree que \"aumentando la competencia y las personas que pueden administrar una farmacia, ayudaría al aumento de farmacias en localidades, y a poder llegar a distintos puntos \", lo que eventualmente derivaría en una baja de precios de los medicamentos . Rechazo del gremio y desmarque del Minsal Mediante una declaración publicada en sus redes, el Colegio de Químicos Farmacéuticos y Bioquímicos advirtió que el proyecto \" debilita una garantía sanitaria fundamental para la seguridad de las personas : la dirección técnica y supervisión profesional del químico farmacéutico\". Asimismo, el gremio aseveró que \" no existe garantía de que reducir los costos de funcionamiento mediante la eliminación de la dirección técnica se traduzca en precios más bajos para los pacientes o en nuevos establecimientos en las comunidades desatendidas\". \"La iniciativa, por sí sola, no resuelve los problemas de abastecimiento, logística ni continuidad de los tratamientos\" , subraya el escrito. Ver esta publicación en Instagram Una publicación compartida por Colegio Farmacéutico de Chile (@colegioqfch) En paralelo, la ministra de Salud, May Chomali , admitió: \" Me parece complejo un proyecto de esas características, por cuanto una farmacia, para ser útil, tiene que contemplar todo tipo de medicamentos, y existen algunos medicamentos que, por ley, solo pueden ser vendidos por químicos farmacéuticos. Que no sea así, puede poner en riesgo a la población \". Por ende, la autoridad sanitaria tomó distancia de la propuesta , relevando que su cartera pretende  resolver la falta de cobertura rural a través de otras medidas , como la entrega de medicamentos a domicilio, en Centros de Salud Familiar (Cesfam) u hospitales. \"Nos estamos jugando para que los pacientes necesiten cada vez menos comprar medicamentos. Disponer de más farmacias y liberarlas (de químicos farmacéuticos) no va en la línea de lo que queremos conseguir \", remató Chomali.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/polemica-por-proyecto-que-permite-a-farmacias-prescindir-de-quimicos/2026-10-16/000839.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261016/imag/foto_0000000220261016000839.jpg",
+            "published_raw": "Fri, 16 Oct 2026 00:08:39 -0300",
+            "published_at": "2026-10-16T00:08:39-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 6,
+            "score_institutional": 3,
             "score_elections": 0,
             "score_international": 0,
             "score_conflict": 1,
@@ -641,12 +610,12 @@
             "score_actor": 2,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 10,
+            "political_evidence": 7,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
+            "cluster_id": "PML-EVENT-010"
           }
         ],
         "article_count": 1,
@@ -654,7 +623,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 54.3
+          "chile_utility": 64.1
         },
         "repeated_in_general_top5": false
       }
@@ -663,14 +632,14 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 25,
-      "maximum_relevance": 66.7,
-      "leading_story": "Estados Unidos levanta sanciones contra Jorge Rodríguez, presidente de la Asamblea Nacional de Venezuela"
+      "event_count": 24,
+      "maximum_relevance": 60.8,
+      "leading_story": "Gobierno y oposición de Venezuela retoman el diálogo con las elecciones como tema central"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 4,
-      "maximum_relevance": 61.1,
+      "maximum_relevance": 59.1,
       "leading_story": "Ayuso ataca las movilizaciones en su contra: “La izquierda, cuando va a perder las elecciones, se vuelve violenta”"
     },
     {
@@ -682,16 +651,20 @@
     {
       "topic": "Conflictos y seguridad",
       "event_count": 3,
-      "maximum_relevance": 54.3,
+      "maximum_relevance": 52.3,
       "leading_story": "Kast se distancia de presiones para conmemorar el 18-O: \"Debemos tener una mirada a futuro\""
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-013", "PML-EVENT-030", "PML-EVENT-018", "PML-EVENT-011", "PML-EVENT-027"],
+      "exited_top5": ["PML-EVENT-014", "PML-EVENT-031", "PML-EVENT-017", "PML-EVENT-010", "PML-EVENT-012"],
+      "retained_top5": []
+    }
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
+    "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
     "source_count": 3
   },
   "system": {
