@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-10-16",
-    "data_latest_timestamp": "2026-10-16T17:29:18-0300",
-    "data_age_hours": 0.9,
-    "generated_at": "2026-10-16T18:23:57-0300",
+    "data_latest_timestamp": "2026-10-16T20:48:32-0300",
+    "data_age_hours": 0.7,
+    "generated_at": "2026-10-16T21:30:55-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 30 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 31 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 30,
+    "ranked_events": 31,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 59.6,
-    "maximum_relevance": 66.6
+    "average_top5_relevance": 60.2,
+    "maximum_relevance": 65.4
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-027",
+      "cluster_id": "PML-EVENT-028",
       "title": "El Supremo de Venezuela desmantela los tribunales de terrorismo usados para perseguir a la disidencia",
       "url": "https://elpais.com/america/2026-10-16/el-supremo-de-venezuela-desmantela-los-tribunales-de-terrorismo-usados-para-perseguir-a-la-disidencia.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +43,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 66.6,
+        "score": 65.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 66.6
+        "editorial_utility": 65.4
       },
       "selection": {
-        "reason": "PML 66.6",
+        "reason": "PML 65.4",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -105,13 +105,86 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-028"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-007",
+      "cluster_id": "PML-EVENT-027",
+      "title": "Los países con derecho a veto muestran su insatisfacción con los siete candidatos a liderar la ONU",
+      "url": "https://elpais.com/internacional/2026-10-16/los-paises-con-derecho-a-veto-muestran-su-insatisfaccion-con-los-siete-candidatos-a-liderar-la-onu.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 63.1,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 71.1
+      },
+      "selection": {
+        "reason": "PML 63.1; aporta diversidad temática; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-10-16T18:33:37-0300",
+      "last_seen": "2026-10-16T18:33:37-0300",
+      "entities": "onu",
+      "event_terms": [],
+      "analysis": {
+        "summary": "Ningún aspirante se libra del rechazo de al menos dos de las cinco grandes potencias, aunque Rebeca Grynspan sigue en cabeza. Se abre ahora la posibilidad de que aparezcan nuevos nombres",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Los países con derecho a veto muestran su insatisfacción con los siete candidatos a liderar la ONU",
+          "description": "Ningún aspirante se libra del rechazo de al menos dos de las cinco grandes potencias, aunque Rebeca Grynspan sigue en cabeza. Se abre ahora la posibilidad de que aparezcan nuevos nombres",
+          "url": "https://elpais.com/internacional/2026-10-16/los-paises-con-derecho-a-veto-muestran-su-insatisfaccion-con-los-siete-candidatos-a-liderar-la-onu.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/7G6VS3KE5NIPLBD7U5NUB2LONA.jpg?auth=618072c4551191e64fc6540a0ea427132c2336536710dbedbde5320ca5f0a14e",
+          "published_raw": "Fri, 16 Oct 2026 21:33:37 GMT",
+          "published_at": "2026-10-16T18:33:37-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 1,
+          "score_international": 1,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-027"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-006",
       "title": "A siete años del 18-O, oficialismo firmó texto en rechazo a la violencia y el vandalismo",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/chile-vamos/a-siete-anos-del-18-o-oficialismo-firmo-texto-en-rechazo-a-la-violencia/2026-10-16/124007.html",
       "representative_source": "Cooperativa",
@@ -122,12 +195,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 62.8,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 65.8
+        "score": 61,
+        "level": "MEDIA",
+        "editorial_utility": 61
       },
       "selection": {
-        "reason": "PML 62.8; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 61; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -156,7 +229,7 @@
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
           "title": "A siete años del 18-O, oficialismo firmó texto en rechazo a la violencia y el vandalismo",
-          "description": "Los partidos del oficialismo firmaron este viernes el texto \"Chile sin violencia: Un compromiso por la paz\" para conmemorar los siete años del inicio del estallido social en rechazo al vandalismo y la violencia. La ratificación -suscrita por la UDI, RN, Evópoli, Republicanos, Demócratas y el Partido Cristiano- se hizo en el exCongreso Nacional ubicado en Santiago. Las tiendas aseguraron que este tipo de actos se realizarán cada año. Este hecho contrasta con la posición del Gobierno, que descartó celebrar algún acto conmemorativo oficial del 18-O pese a las presiones de su propio sector: \"Debemos tener una mirada a futuro\", dijo el Presidente Kast el jueves. [Lea también]  Libertarios arremete contra La Moneda por no conmemorar el 18 de octubre Senador Squella: \"(Indultar en) las próximas 48 horas no son un buen momento\" La firma también se cruza con la promesa de campaña del exrepublicano de indultar a uniformados condenados por violaciones a los derechos humanos  cometidas durante las manifestaciones. Sobre esto, el senador y timonel del Partido Republicano, Arturo Squella, defendió la prudencia que el Ejecutivo tomará a la hora de evaluar cada caso: \"Yo digo que (indultar en)  las próximas 48 horas no son un buen momento, por razones obvias. No tiene ningún sentido el resolver una injusticia con una eventual azusada a problemas mayores\",  expresó. \"(Si los indultos se concretan en) 48 horas, 72 horas o una semana más... la verdad es que cuando se ha esperado mucho tiempo, se puede perfectamente tener en cuenta (hacerlo, pero) acá hay que ser responsable\", sostuvo. [Lea también]  Rabat confirmó que hay más de 100 peticiones de indulto: \"La mayoría de hechos ocurridos en 1973\" Ver esta publicación en Instagram Una publicación compartida por Unión Demócrata Independiente (@udipopular)",
+          "description": "Los partidos del oficialismo firmaron este viernes el texto \"Chile sin violencia: Un compromiso por la paz\" para conmemorar los siete años del inicio del estallido social en rechazo al vandalismo y la violencia. La ratificación -suscrita por la UDI, RN, Evópoli, Republicanos, Demócratas y el Partido Cristiano- se hizo en el exCongreso Nacional ubicado en Santiago. Las tiendas aseguraron que este tipo de actos se realizarán cada año. Este hecho contrasta con la posición del Gobierno, que descartó celebrar algún acto conmemorativo oficial del 18-O pese a las presiones de su propio sector: \"Debemos tener una mirada a futuro\", dijo el Presidente Kast el jueves. [Lea también]  Libertarios arremete contra La Moneda por no conmemorar el 18 de octubre Ver esta publicación en Instagram Una publicación compartida por Unión Demócrata Independiente (@udipopular) Senador Squella: \"(Indultar en) las próximas 48 horas no son un buen momento\" La firma también se cruza con la promesa de campaña del exrepublicano de indultar a uniformados condenados por violaciones a los derechos humanos  cometidas durante las manifestaciones. Sobre esto, el senador y timonel del Partido Republicano, Arturo Squella, defendió la prudencia que el Ejecutivo tomará a la hora de evaluar cada caso: \"Yo digo que (indultar en)  las próximas 48 horas no son un buen momento, por razones obvias. No tiene ningún sentido el resolver una injusticia con una eventual azuzada a problemas mayores \",   expresó. \"(Si los indultos se concretan en) 48 horas, 72 horas o una semana más... la verdad es que cuando se ha esperado mucho tiempo, se puede perfectamente tener en cuenta (hacerlo, pero) acá hay que ser responsable \", sostuvo. [Lea también]  Rabat confirmó que hay más de 100 peticiones de indulto: \"La mayoría de hechos ocurridos en 1973\"",
           "url": "https://www.cooperativa.cl/noticias/pais/politica/chile-vamos/a-siete-anos-del-18-o-oficialismo-firmo-texto-en-rechazo-a-la-violencia/2026-10-16/124007.html",
           "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261016/imag/foto_0000000220261016124007.png",
           "published_raw": "Fri, 16 Oct 2026 12:40:07 -0300",
@@ -178,12 +251,12 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-007"
+          "cluster_id": "PML-EVENT-006"
         }
       ]
     },
     {
-      "position": 3,
+      "position": 4,
       "cluster_id": "PML-EVENT-011",
       "title": "Brasil: el partido de Lula denunciará a Meta ante la OEA por presunta “interferencia” electoral",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261015-brasil-el-partido-de-lula-denunciar%C3%A1-a-meta-ante-la-oea-por-presunta-interferencia-electoral",
@@ -197,10 +270,10 @@
       "relevance": {
         "score": 52,
         "level": "MEDIA",
-        "editorial_utility": 59
+        "editorial_utility": 50
       },
       "selection": {
-        "reason": "PML 52; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 52; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -259,8 +332,8 @@
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-028",
+      "position": 5,
+      "cluster_id": "PML-EVENT-029",
       "title": "La batalla por el voto de un español de la ley de nietos: “Quien huyó no pensó en armar una carpeta con documentación, se fue con lo puesto”",
       "url": "https://elpais.com/argentina/2026-10-16/la-batalla-por-el-voto-de-un-espanol-de-la-ley-de-nietos-quien-huyo-no-penso-en-armar-una-carpeta-con-documentacion-se-fue-con-lo-puesto.html",
       "representative_source": "EL PAÍS",
@@ -271,12 +344,12 @@
         "country": "Argentina / América Latina"
       },
       "relevance": {
-        "score": 61.5,
+        "score": 59.5,
         "level": "MEDIA",
-        "editorial_utility": 56.5
+        "editorial_utility": 53.5
       },
       "selection": {
-        "reason": "PML 61.5; diversidad relajada para completar el brief",
+        "reason": "PML 59.5; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -333,83 +406,7 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-012",
-      "title": "Gobierno y oposición de Venezuela retoman el diálogo con las elecciones como tema central",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261014-gobierno-y-oposici%C3%B3n-de-venezuela-retoman-el-di%C3%A1logo-con-las-elecciones-como-tema-central",
-      "representative_source": "France 24",
-      "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Venezuela / América Latina"
-      },
-      "relevance": {
-        "score": 55.2,
-        "level": "MEDIA",
-        "editorial_utility": 49.2
-      },
-      "selection": {
-        "reason": "PML 55.2; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-10-14T20:37:25-0300",
-      "last_seen": "2026-10-14T20:37:25-0300",
-      "entities": "venezuela",
-      "event_terms": [
-        "oposicion",
-        "sanciones"
-      ],
-      "analysis": {
-        "summary": "La tercera ronda de diálogo para una transición política en Venezuela comenzó este miércoles, horas después de que Washington retirara las sanciones contra Jorge Rodríguez, jefe negociador del gobierno y hermano de la presidenta interina, Delcy Rodríguez.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Venezuela / América Latina.",
-        "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Gobierno y oposición de Venezuela retoman el diálogo con las elecciones como tema central",
-          "description": "La tercera ronda de diálogo para una transición política en Venezuela comenzó este miércoles, horas después de que Washington retirara las sanciones contra Jorge Rodríguez, jefe negociador del gobierno y hermano de la presidenta interina, Delcy Rodríguez.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261014-gobierno-y-oposici%C3%B3n-de-venezuela-retoman-el-di%C3%A1logo-con-las-elecciones-como-tema-central",
-          "image_url": "https://s.france24.com/media/display/35040bf0-c828-11f1-8c1c-6313a763b466/w:1024/p:16x9/99effdf46aa96853af47329306e8d1c6c3ea0170.jpg",
-          "published_raw": "Wed, 14 Oct 2026 23:37:25 GMT",
-          "published_at": "2026-10-14T20:37:25-0300",
-          "country": "Venezuela",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 1,
-          "score_international": 2,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 7,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
+          "cluster_id": "PML-EVENT-029"
         }
       ]
     }
@@ -422,25 +419,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-018",
-        "title": "Grau y caída de crecimiento: Nunca tuvimos una economía que decrezca sin una crisis mundial",
+        "cluster_id": "PML-EVENT-009",
+        "title": "Diputados anuncian comisión investigadora sobre Fondo E y una denuncia contra las AFP",
         "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_CRISIS",
+        "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/grau-y-caida-de-crecimiento-nunca-tuvimos-una-economia-que-decrezca-sin/2026-10-15/114415.html",
+        "url": "https://www.cooperativa.cl/noticias/economia/sistema-previsional/afp/diputados-anuncian-comision-investigadora-sobre-fondo-e-y-una-denuncia/2026-10-16/204832.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 53.7,
+          "score": 55,
           "level": "MEDIA",
           "components": {
-            "political_impact": 72,
-            "freshness": 62,
+            "political_impact": 50,
+            "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 46
+            "continuity": 30
           }
         },
         "coverage": {
@@ -448,53 +445,53 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-15T11:44:15-0300",
-        "last_seen": "2026-10-15T11:44:15-0300",
+        "first_seen": "2026-10-16T20:48:32-0300",
+        "last_seen": "2026-10-16T20:48:32-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Grau y caída de crecimiento: Nunca tuvimos una economía que decrezca sin una crisis mundial",
-            "description": "Tras un nuevo recorte en las proyecciones por parte del Fondo Monetario Internacional , el exministro de Hacienda Nicolás Grau planteó en Cooperativa que Chile nunca había tenido cifras negativas de crecimiento en un año donde no se registrara una crisis a nivel internacional. En El Primer Café , Grau sostuvo que \"estamos en una situación bastante excepcional. Chile, si termina en un crecimiento negativo este año, que es una situación probable, sería la primera vez, al menos desde el 90, que la economía decrece en un año sin una crisis mundial mediante. La economía decreció en la crisis asiática, en la crisis subprime y en el Covid, pero nunca hemos tenido una economía que crezca negativo o decrezca en un contexto en que el mundo no está decreciendo y las economías similares a Chile tampoco le están pasando eso\". \"Por ende, eso significa que las razones tienen que ser principalmente idiosincráticas, tienen que ser de lo que está ocurriendo en nuestra economía\", agregó. Grau recordó que \"fue una combinación de factores, que no todos tienen que ver con el gobierno, en enero y febrero hubo shocks puntuales de la minería y la pesca, que implicaron que esos meses estuvieran más bajos, pero desde marzo en adelante se tomaron un conjunto de decisiones macroeconómicas que lo que hicieron fue ampliar muy negativamente lo que estaba ocurriendo a nivel internacional\". El economista del Instituto Libertad, Gustavo Díaz , dijo que \"son lamentables noticias y revelan que el problema económico en Chile no es coyuntural, sino que es más estructural, porque una economía que crece cerca de un 0 por ciento enfrenta dificultades en todo ámbito. No solamente lo vemos hoy día, lo hemos escuchado de forma sistemática los años anteriores, porque crecer poco significa menos empleo, menos salarios reales\". \"Es un tema multifactorial y que no es contingente a las elecciones (...) nuestra economía no ha generado inversiones, no ha generado reformas procrecimiento en harto tiempo, estamos creciendo dentro de la zona más baja, pero no solamente a nivel mundial, sino que también entre los países en vías de desarrollo\", aseveró. Alejandro Micco , exsubsecretario de Hacienda, comentó que \"los datos son bien desalentadores (...) estamos con un nivel de perspectivas económicas de la gente -tanto de los consumidores como de los empresarios- muy baja, creo que estamos en un círculo vicioso en el cual las perspectivas negativas que existen hoy día están generando esta profecía autocumplida de poco crecimiento\". \"Es un tema súper importante tratar de salir de esta situación de pesimismo, tomando en cuenta que la situación mundial no es tan mala. De hecho, las perspectivas de crecimiento que tenemos a esta altura del año para el mundo son mejores que las que teníamos a comienzos del año, lo mismo para el precio del cobre\", proyectó. Finalmente, Pablo Eguiguren, director de Políticas Públicas de Libertad y Desarrollo, planteó que \"hay algo de las expectativas que tiene que ver con la situación de la política económica, pero también con la política que se ve en el Congreso, la necesidad de grandes acuerdos (...) si las medidas se toman con mayor consenso vamos a tener más estabilidad en el tiempo y eso podría ayudar a las expectativas\". \"Parte de esa falta de acuerdos tiene que ver con que la oposición no ha estado tan disponible o ese énfasis en crecimiento que había hacia el final del gobierno anterior parece que se ha diluido y eso ha dificultado que haya acuerdo amplio\", lamentó.",
-            "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/grau-y-caida-de-crecimiento-nunca-tuvimos-una-economia-que-decrezca-sin/2026-10-15/114415.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261015/imag/foto_0000000220261015114415.jpg",
-            "published_raw": "Thu, 15 Oct 2026 11:44:15 -0300",
-            "published_at": "2026-10-15T11:44:15-0300",
+            "title": "Diputados anuncian comisión investigadora sobre Fondo E y una denuncia contra las AFP",
+            "description": "Diputados de la bancada Independientes-PPD iniciaron la recolección de firmas para crear una Comisión Especial Investigadora en la Cámara Baja , a la par de una denuncia por el eventual delito de administración desleal , tras revelarse que tres de los cinco multifondos registran pérdidas y que el Fondo E acumula una caída del 10,39% . Desde el grupo opositor remarcaron que las entidades previsionales no pueden operar bajo una libertad absoluta sin asumir responsabilidades directas en la administración de dineros que pertenecen a los cotizantes. Frente a este panorama, la bancada de Independientes-PPD formalizó el inicio de las gestiones parlamentarias para crear una instancia fiscalizadora . El desplome de los fondos de pensiones activó una arremetida parlamentaria y judicial en el Congreso. (FOTO: ATON) \"A cada instante salen nuevos antecedentes y más graves respecto de la pérdida millonaria de los fondos de pensión de los trabajadores de nuestro país . Por lo tanto, vamos a iniciar una comisión especial investigadora . Hoy día empezamos a recolectar las firmas \", informó el diputado Jaime Araya , que instó a sus pares un apoyo \"transversal\" para poder \" fiscalizar los actos de gobierno respecto de estas actuaciones \". En tanto, el diputado José Montalva , parte de la misma bancada Independientes-PPD, reveló que presentaron \" una denuncia por el eventual delito de administración desleal en la administración de los fondos de la AFP \". El parlamentario indicó que \"el perder dinero nunca ha sido un delito, sin embargo, si ese dinero se perdió a sabiendas que era una operación riesgosa para beneficiar a las AFP y no al afiliado , podría constituirse el delito de administración desleal\". La ofensiva parlamentaria incluye múltiples oficios de fiscalización remitidos a la Superintendencia de Pensiones para esclarecer las operaciones de las administradoras. Críticas de exministros de Hacienda El accionar de las administradoras en los multifondos más conservadores también concitó la crítica transversal de economistas y exjefes de las finanzas públicas . El exministro de Hacienda Ignacio Briones aseveró al Diario Financiero que las justificaciones entregadas por la industria previsional \" parecen suponer que la gente es tonta \", calificando de \"imprudente\" el manejo del Fondo E . En la misma línea, el también extitular de la billetera fiscal Nicolás Eyzaguirre sostuvo en Cooperativa que este episodio demuestra la inviabilidad de facultar a las administradoras para tomar posiciones financieras arriesgadas con el ahorro previsional . Enfatizó que \" tú no puedes dejar que las AFP con los fondos obligatorios hagan apuestas , y el nuevo sistema no lo permite \".",
+            "url": "https://www.cooperativa.cl/noticias/economia/sistema-previsional/afp/diputados-anuncian-comision-investigadora-sobre-fondo-e-y-una-denuncia/2026-10-16/204832.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261016/imag/foto_0000000320261016204832.jpg",
+            "published_raw": "Fri, 16 Oct 2026 20:48:32 -0300",
+            "published_at": "2026-10-16T20:48:32-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 2,
-            "score_elections": 1,
+            "score_institutional": 4,
+            "score_elections": 0,
             "score_international": 0,
             "score_conflict": 0,
             "score_policy": 1,
-            "score_ideology": 0,
+            "score_ideology": 1,
             "score_actor": 1,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 5,
+            "political_evidence": 7,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
+            "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-018"
+            "cluster_id": "PML-EVENT-009"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 18,
+          "bonus": 21,
           "labels": [
             "Estado e instituciones",
-            "Economía y políticas públicas"
+            "Congreso y proceso legislativo"
           ],
-          "chile_utility": 71.7
+          "chile_utility": 76
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-004",
+        "cluster_id": "PML-EVENT-003",
         "title": "Kast se distancia de presiones para conmemorar el 18-O: \"Debemos tener una mirada a futuro\"",
         "topic": "Conflictos y seguridad",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -505,11 +502,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 47.8,
+          "score": 45.3,
           "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 62,
+            "freshness": 52,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 28
@@ -549,7 +546,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
+            "cluster_id": "PML-EVENT-003"
           }
         ],
         "article_count": 1,
@@ -557,31 +554,31 @@
         "political_science_fit": {
           "bonus": 7,
           "labels": "Seguridad y Estado",
-          "chile_utility": 54.8
+          "chile_utility": 52.3
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-003",
-        "title": "Oficialismo frena la presión interna y descarta indultos a uniformados durante este fin de semana",
+        "cluster_id": "PML-EVENT-017",
+        "title": "Grau y caída de crecimiento: Nunca tuvimos una economía que decrezca sin una crisis mundial",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "INSTITUTIONAL_CRISIS",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/oficialismo-frena-la-presion-interna-y-descarta-indultos-a-uniformados/2026-10-16/143739.html",
+        "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/grau-y-caida-de-crecimiento-nunca-tuvimos-una-economia-que-decrezca-sin/2026-10-15/114415.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 56,
-          "level": "MEDIA",
+          "score": 51.2,
+          "level": "BAJA",
           "components": {
-            "political_impact": 52,
-            "freshness": 100,
+            "political_impact": 72,
+            "freshness": 52,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 34
+            "continuity": 46
           }
         },
         "coverage": {
@@ -589,44 +586,47 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-16T14:37:39-0300",
-        "last_seen": "2026-10-16T14:37:39-0300",
+        "first_seen": "2026-10-15T11:44:15-0300",
+        "last_seen": "2026-10-15T11:44:15-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Oficialismo frena la presión interna y descarta indultos a uniformados durante este fin de semana",
-            "description": "Las directivas de Chile Vamos y del Partido Republicano descartaron que el Presidente José Antonio Kast otorgue durante este fin de semana los indultos a uniformados condenados por el 18-O, frenando así la ofensiva de parlamentarios de su propio sector que exigían hacer efectiva la promesa de campaña en el séptimo aniversario del estallido social . Pese a que dirigentes del bloque oficialista advirtieron demoras injustificadas en la aplicación del beneficio penitenciario y apuntaron a la conmemoración de octubre como la fecha propicia para una señal presidencial, los timoneles del conglomerado optaron por postergar cualquier resolución para evitar un escenario de polarización en el orden público . \" Las próximas 48 horas no son un buen momento (para indultos) , por razones obvias , porque no tiene ningún sentido el resolver una injusticia con una eventual azuzada a problemas mayores : 48 horas, 72 horas o una semana más, la verdad es que cuando se ha esperado mucho tiempo, se puede perfectamente tener en cuenta. Acá hay que ser responsables\", afirmó el presidente del Partido Republicano , senador Arturo Squella . La Moneda enfrenta presiones interna por concretar los indultos a uniformados condenados tras el estallido social. (FOTO: ATON) En la misma línea, el timonel de la Unión Demócrata Independiente (UDI) , diputado Guillermo Ramírez , indicó que \" el Presidente de la República prometió en su campaña que iba a indultar a carabineros que en el contexto del 18 de octubre terminaron presos \". \"Nosotros esperamos que cumpla con esa promesa , confiamos que lo va a hacer  y que va a elegir el momento adecuado para hacerlo \", aseveró el parlamentario. Fricciones en las bases y respuesta de Interior Pese al consenso de las directivas partidarias, las críticas internas continúan instaladas. En declaraciones a radio Agricultura , el diputado republicano Diego Vergara planteó que avanzar con los indultos otorgaría un impulso inmediato al Mandatario en las encuestas . La postura fue compartida por el timonel del Partido Nacional Libertario , Johannes Kaiser , quien advirtió que soslayar este compromiso equivale a desoír al electorado que respaldó el proyecto oficialista en las urnas . Frente a las recriminaciones de dilación, el subsecretario del Interior , Máximo Pavez , dijo que \"aquí no se trata de evadir ningún tema. Respecto a los indultos la posición del gobierno ha sido clara y  no hay ninguna novedad que comentar \". Ante los cuestionamientos, el subsecretario Máximo Pavez afirmó que \"respecto a los indultos la posición del gobierno ha sido clara\". (FOTO: ATON) \"El gobierno tiene perfectamente claro cuáles son las razones que llevaron al electorado a preferir al Presidente José Antonio Kast y estamos trabajando todos los días para materializar los compromisos que se han adoptado con la ciudadanía . Los momentos para revisar eso están en la ley y están en las prerrogativas del Presidente de la República como se ha dicho de manera permanente \", enfatizó la autoridad. En paralelo al debate por las medidas de gracia, el conglomerado oficialista -integrado por Evópoli, RN, la UDI, Republicanos, el Partido Cristiano y Demócratas- firmó una declaración política en la que afirmaron que ninguna causa justifica la violencia, que el Estado de derecho no se transige y recordaron a las fuerzas políticas que respaldaron las protestas de 2019. Asimismo, desde el Palacio de Gobierno ratificaron que no existen solicitudes de marchas autorizadas para este domingo , proyectando una jornada institucional sin alteraciones en la sede del Ejecutivo.",
-            "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/oficialismo-frena-la-presion-interna-y-descarta-indultos-a-uniformados/2026-10-16/143739.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261016/imag/foto_0000000420261016143739.png",
-            "published_raw": "Fri, 16 Oct 2026 14:37:39 -0300",
-            "published_at": "2026-10-16T14:37:39-0300",
+            "title": "Grau y caída de crecimiento: Nunca tuvimos una economía que decrezca sin una crisis mundial",
+            "description": "Tras un nuevo recorte en las proyecciones por parte del Fondo Monetario Internacional , el exministro de Hacienda Nicolás Grau planteó en Cooperativa que Chile nunca había tenido cifras negativas de crecimiento en un año donde no se registrara una crisis a nivel internacional. En El Primer Café , Grau sostuvo que \"estamos en una situación bastante excepcional. Chile, si termina en un crecimiento negativo este año, que es una situación probable, sería la primera vez, al menos desde el 90, que la economía decrece en un año sin una crisis mundial mediante. La economía decreció en la crisis asiática, en la crisis subprime y en el Covid, pero nunca hemos tenido una economía que crezca negativo o decrezca en un contexto en que el mundo no está decreciendo y las economías similares a Chile tampoco le están pasando eso\". \"Por ende, eso significa que las razones tienen que ser principalmente idiosincráticas, tienen que ser de lo que está ocurriendo en nuestra economía\", agregó. Grau recordó que \"fue una combinación de factores, que no todos tienen que ver con el gobierno, en enero y febrero hubo shocks puntuales de la minería y la pesca, que implicaron que esos meses estuvieran más bajos, pero desde marzo en adelante se tomaron un conjunto de decisiones macroeconómicas que lo que hicieron fue ampliar muy negativamente lo que estaba ocurriendo a nivel internacional\". El economista del Instituto Libertad, Gustavo Díaz , dijo que \"son lamentables noticias y revelan que el problema económico en Chile no es coyuntural, sino que es más estructural, porque una economía que crece cerca de un 0 por ciento enfrenta dificultades en todo ámbito. No solamente lo vemos hoy día, lo hemos escuchado de forma sistemática los años anteriores, porque crecer poco significa menos empleo, menos salarios reales\". \"Es un tema multifactorial y que no es contingente a las elecciones (...) nuestra economía no ha generado inversiones, no ha generado reformas procrecimiento en harto tiempo, estamos creciendo dentro de la zona más baja, pero no solamente a nivel mundial, sino que también entre los países en vías de desarrollo\", aseveró. Alejandro Micco , exsubsecretario de Hacienda, comentó que \"los datos son bien desalentadores (...) estamos con un nivel de perspectivas económicas de la gente -tanto de los consumidores como de los empresarios- muy baja, creo que estamos en un círculo vicioso en el cual las perspectivas negativas que existen hoy día están generando esta profecía autocumplida de poco crecimiento\". \"Es un tema súper importante tratar de salir de esta situación de pesimismo, tomando en cuenta que la situación mundial no es tan mala. De hecho, las perspectivas de crecimiento que tenemos a esta altura del año para el mundo son mejores que las que teníamos a comienzos del año, lo mismo para el precio del cobre\", proyectó. Finalmente, Pablo Eguiguren, director de Políticas Públicas de Libertad y Desarrollo, planteó que \"hay algo de las expectativas que tiene que ver con la situación de la política económica, pero también con la política que se ve en el Congreso, la necesidad de grandes acuerdos (...) si las medidas se toman con mayor consenso vamos a tener más estabilidad en el tiempo y eso podría ayudar a las expectativas\". \"Parte de esa falta de acuerdos tiene que ver con que la oposición no ha estado tan disponible o ese énfasis en crecimiento que había hacia el final del gobierno anterior parece que se ha diluido y eso ha dificultado que haya acuerdo amplio\", lamentó.",
+            "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/grau-y-caida-de-crecimiento-nunca-tuvimos-una-economia-que-decrezca-sin/2026-10-15/114415.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261015/imag/foto_0000000220261015114415.jpg",
+            "published_raw": "Thu, 15 Oct 2026 11:44:15 -0300",
+            "published_at": "2026-10-15T11:44:15-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 4,
+            "score_institutional": 2,
             "score_elections": 1,
             "score_international": 0,
-            "score_conflict": 2,
-            "score_policy": 0,
+            "score_conflict": 0,
+            "score_policy": 1,
             "score_ideology": 0,
-            "score_actor": 5,
+            "score_actor": 1,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 12,
+            "political_evidence": 5,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
+            "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-017"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 65
+          "bonus": 18,
+          "labels": [
+            "Estado e instituciones",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 69.2
         },
         "repeated_in_general_top5": false
       }
@@ -635,9 +635,15 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 20,
-      "maximum_relevance": 66.6,
+      "event_count": 22,
+      "maximum_relevance": 65.4,
       "leading_story": "El Supremo de Venezuela desmantela los tribunales de terrorismo usados para perseguir a la disidencia"
+    },
+    {
+      "topic": "Elecciones y opinión pública",
+      "event_count": 4,
+      "maximum_relevance": 63.1,
+      "leading_story": "Los países con derecho a veto muestran su insatisfacción con los siete candidatos a liderar la ONU"
     },
     {
       "topic": "Conflictos y seguridad",
@@ -646,15 +652,9 @@
       "leading_story": "¿Puede Costa Rica frenar al narco con una megacárcel al estilo Bukele?"
     },
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 4,
-      "maximum_relevance": 52,
-      "leading_story": "Brasil: el partido de Lula denunciará a Meta ante la OEA por presunta “interferencia” electoral"
-    },
-    {
       "topic": "Ideología y competencia política",
-      "event_count": 3,
-      "maximum_relevance": 50.8,
+      "event_count": 2,
+      "maximum_relevance": 48.2,
       "leading_story": "Bachelet: \"No es momento de hablar de candidaturas, sino de lo mal que lo está pasando la gente\""
     }
   ],
