@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-10-31",
-    "data_latest_timestamp": "2026-10-31T18:57:33-0300",
-    "data_age_hours": 7.3,
-    "generated_at": "2026-11-01T02:13:47-0300",
+    "date": "2026-11-01",
+    "data_latest_timestamp": "2026-11-01T12:14:23-0300",
+    "data_age_hours": 4.2,
+    "generated_at": "2026-11-01T16:26:35-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,407 +16,39 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 25 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 31 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Conflictos y seguridad.",
     "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 25,
+    "ranked_events": 31,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 57.7,
-    "maximum_relevance": 65
+    "average_top5_relevance": 61.3,
+    "maximum_relevance": 68.1
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-012",
-      "title": "La huida de Flávio Bolsonaro desnuda una alineación ideológica con Trump que prevalece sobre el derecho internacional en Latinoamérica",
-      "url": "https://elpais.com/america/2026-10-29/la-huida-de-flavio-bolsonaro-desnuda-una-alineacion-ideologica-con-trump-que-prevalece-sobre-el-derecho-internacional-en-latinoamerica.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Brasil / América Latina / No identificado"
-      },
-      "relevance": {
-        "score": 65,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 69
-      },
-      "selection": {
-        "reason": "PML 65; multifuente",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 11,
-        "source_count": 2,
-        "sources": [
-          "France 24",
-          "EL PAÍS"
-        ]
-      },
-      "first_seen": "2026-10-27T05:29:56-0300",
-      "last_seen": "2026-10-31T13:12:55-0300",
-      "entities": [
-        "bolsonaro",
-        "brasil",
-        "lula",
-        "trump",
-        "argentina"
-      ],
-      "event_terms": [
-        "victoria",
-        "oposicion",
-        "eleccion",
-        "crisis",
-        "judicial"
-      ],
-      "analysis": {
-        "summary": "El senador y excandidato presidencial de Brasil, Flávio Bolsonaro, asegura que la Policía Federal le notificó la obligación de entregar sus pasaportes después de visitar a su padre, el expresidente Jair Bolsonaro. Investigado por presunta corrupción y lavado de dinero en dos causas, perderá su fuero especial en febrero.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Brasil / América Latina / No identificado.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Flávio Bolsonaro afirma que recibió prohibición para salir de Brasil: lo que viene para el excandidato",
-          "description": "El senador y excandidato presidencial de Brasil, Flávio Bolsonaro, asegura que la Policía Federal le notificó la obligación de entregar sus pasaportes después de visitar a su padre, el expresidente Jair Bolsonaro. Investigado por presunta corrupción y lavado de dinero en dos causas, perderá su fuero especial en febrero. Mientras tanto, su Partido Liberal ha reconocido la victoria de Luiz Inácio Lula da Silva y ha descartado pedir la anulación de los comicios, aunque el ultraderechista anunció que liderará la oposición y mantendrá sus acciones judiciales contra el presidente reelegido.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261027-fl%C3%A1vio-bolsonaro-afirma-que-recibi%C3%B3-prohibici%C3%B3n-para-salir-de-brasil-lo-que-viene-para-el-excandidato",
-          "image_url": "https://s.france24.com/media/display/80932de6-d1e0-11f1-81e0-bba4eee3dc72/w:1024/p:16x9/000-D4HD39E.jpg",
-          "published_raw": "Tue, 27 Oct 2026 08:29:56 GMT",
-          "published_at": "2026-10-27T05:29:56-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 4,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 7,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Flávio Bolsonaro borra carta en la que se declaraba \"presidente electo de Brasil\" y cambia título por \"líder\"",
-          "description": "El senador ultraderechista Flávio Bolsonaro, quien huyó a Estados Unidos tras perder las elecciones presidenciales, se autoproclamó este miércoles 28 de octubre \"presidente electo legítimo de Brasil\", en una carta abierta que divulgó en sus redes sociales. Pero, minutos después, borró el documento inicial y publicó uno nuevo, en el que se autodenominaba \"líder de Brasil\". El medio Folha de S.Paulo la reseñó como \"carta golpista\"",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261028-fl%C3%A1vio-bolsonaro-se-autoproclama-presidente-electo-de-brasil-tras-perder-las-elecciones-y-huir-a-ee-uu",
-          "image_url": "https://s.france24.com/media/display/c7be69be-ca1b-11f1-904c-638c1c1f5fd6/w:1024/p:16x9/2164a47b99f21dc64322e00c6bee417144826f19.jpg",
-          "published_raw": "Wed, 28 Oct 2026 20:42:39 GMT",
-          "published_at": "2026-10-28T17:42:39-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Flávio Bolsonaro asegura desde Estados Unidos que volverá a ser candidato a la Presidencia de Brasil",
-          "description": "El político ultraderechista mantiene su relato de persecución política mientras la derecha brasileña intenta cerrar el capítulo",
-          "url": "https://elpais.com/america/2026-10-31/flavio-bolsonaro-asegura-desde-estados-unidos-que-volvera-a-ser-candidato-a-la-presidencia-de-brasil.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/BWVZ4JA4YZDBRJ5CR2I23YSM6U.jpg?auth=f35f4dd4905db051196408f5df3c183578858e3205003d34e13204354a47cfa1",
-          "published_raw": "Sat, 31 Oct 2026 16:12:55 GMT",
-          "published_at": "2026-10-31T13:12:55-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Flávio Bolsonaro se autoproclama \"líder\" de Brasil: ¿otro intento de golpe?",
-          "description": "La derrota electoral de Flávio Bolsonaro frente a Luiz Inácio Lula da Silva ha abierto un nuevo frente de tensión política en Brasil. Desde Estados Unidos, el senador ha denunciado un supuesto fraude electoral sin presentar pruebas y se ha autoproclamado «líder» del país, con la promesa de dirigir la oposición desde el extranjero. ¿Qué margen de maniobra tiene Bolsonaro y qué consecuencias puede tener su desafío para la oposición y las instituciones democráticas? En El Debate de France 24 analizamos si Brasil afronta una nueva crisis política y hasta qué punto puede compararse este episodio con el intento de golpe de Estado de 2023.",
-          "url": "https://www.france24.com/es/programas/el-debate/20261030-fl%C3%A1vio-bolsonaro-se-autoproclama-l%C3%ADder-de-brasil-otro-intento-de-golpe",
-          "image_url": "https://s.france24.com/media/display/b9203174-c022-11f1-976d-1ff0321dbbd3/w:1024/p:16x9/2026-10-03T232301Z-477957309-RC2NVNACK7S9-RTRMADP-3-BRAZIL-ELECTION-BOLSONARO.jpg",
-          "published_raw": "Fri, 30 Oct 2026 13:33:54 GMT",
-          "published_at": "2026-10-30T10:33:54-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "De “presidente legítimo electo” a “líder”: ¿redactó ChatGPT la polémica carta de Flávio Bolsonaro?",
-          "description": "El influencer de derechas Paulo Figueiredo, aliado de Flávio Bolsonaro, ofreció este 29 de octubre una explicación sobre la polémica carta en la que el político brasileño se declaraba “verdadero presidente electo” de Brasil, luego de unas elecciones que calificó como ilegítimas y de huir hacia EE. UU. Según Figueiredo, para finalizar el comunicado se habría usado un chatbot, responsable de la frase que luego fue sustituida por la palabra “líder” y de la inclusión de una versión errada del escudo de Brasil.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261029-de-presidente-electo-a-l%C3%ADder-redact%C3%B3-chatgpt-la-pol%C3%A9mica-carta-de-fl%C3%A1vio-bolsonaro",
-          "image_url": "https://s.france24.com/media/display/e9498c10-d1e3-11f1-9f85-4b25c96ec90e/w:1024/p:16x9/2026-10-26T022115Z-17969725-RC2PAOAYIUOS-RTRMADP-3-BRAZIL-ELECTION.jpg",
-          "published_raw": "Thu, 29 Oct 2026 22:28:46 GMT",
-          "published_at": "2026-10-29T19:28:46-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "La huida de Flávio Bolsonaro desnuda una alineación ideológica con Trump que prevalece sobre el derecho internacional en Latinoamérica",
-          "description": "Los gobiernos de Argentina y Ecuador colaboraron para sacar de Brasil al candidato ultra burlando la ley brasileña",
-          "url": "https://elpais.com/america/2026-10-29/la-huida-de-flavio-bolsonaro-desnuda-una-alineacion-ideologica-con-trump-que-prevalece-sobre-el-derecho-internacional-en-latinoamerica.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/BCUA54SBE5EC5BEMUA4VRKRQRQ.JPG?auth=2ca5d4442751b715b1657a21dc86388b82148a1f6f4f8a6867429c05bb4ee887",
-          "published_raw": "Thu, 29 Oct 2026 09:30:00 GMT",
-          "published_at": "2026-10-29T06:30:00-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "La fuga de Brasil a Estados Unidos: ¿hunde Flávio Bolsonaro al bolsonarismo?",
-          "description": "Tras perder las elecciones presidenciales y huir a EE. UU., Flávio Bolsonaro se autoproclamó \"presidente electo de Brasil\" -luego se retractó y cambió el título a \"líder\"-. Su derrota frente a Luiz Inácio Lula da Silva supone un golpe para la reputación de la familia Bolsonaro, ya mancillada por las investigaciones judiciales. Pero eso no significa necesariamente que el bolsonarismo haya perdido su poder en la esfera política de la potencia suramericana.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261029-la-fuga-de-brasil-a-estados-unidos-hunde-fl%C3%A1vio-bolsonaro-al-bolsonarismo",
-          "image_url": "https://s.france24.com/media/display/b4d56f42-d311-11f1-8803-47de50b3c1e4/w:1024/p:16x9/000-D3VZ6CU.jpg",
-          "published_raw": "Thu, 29 Oct 2026 03:18:21 GMT",
-          "published_at": "2026-10-29T00:18:21-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Flávio Bolsonaro se autoproclama “presidente de Brasil\", pero se retracta minutos después",
-          "description": "🔴🇧🇷 El senador ultraderechista Flávio Bolsonaro se autoproclamó \"presidente electo de Brasil\" este 28 de octubre en una carta abierta que divulgó en sus redes sociales. Sin embargo, minutos después, se retractó y se nombró \"líder de Brasil.",
-          "url": "https://www.france24.com/es/video/20261028-fla%CC%81vio-bolsonaro-se-autoproclama-presidente-de-brasil",
-          "image_url": "https://s.france24.com/media/display/44224d62-d314-11f1-b57e-47de50b3c1e4/w:1024/p:16x9/Fla%CC%81vio-Bolsonaro-se-autoproclama-presidente.png",
-          "published_raw": "Wed, 28 Oct 2026 21:23:25 GMT",
-          "published_at": "2026-10-28T18:23:25-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Flávio Bolsonaro llega a Miami tras perder las elecciones en Brasil e incumplir una orden judicial",
-          "description": "El senador brasileño Flávio Bolsonaro aterrizó este miércoles en Miami junto a su esposa y sus dos hijas, después de abandonar Brasil tras su derrota electoral frente a Luiz Inácio Lula da Silva.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261028-fl%C3%A1vio-bolsonaro-aterriza-en-miami-tras-abandonar-brasil-despu%C3%A9s-de-perder-las-elecciones-y-desobedecer-una-orden-judicial",
-          "image_url": "https://s.france24.com/media/display/5a19ed18-d2d9-11f1-b6e8-811458fcf026/w:1024/p:16x9/5d70682171449345f9b5fc2b678649cc1f54599c.jpg",
-          "published_raw": "Wed, 28 Oct 2026 13:46:22 GMT",
-          "published_at": "2026-10-28T10:46:22-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "EE. UU. otorgará visado a Flávio Bolsonaro; Lula califica de \"vergonzosa\" la huida del excandidato",
-          "description": "El Gobierno de Donald Trump anunció este martes 27 de octubre que acogerá al senador brasileño Flávio Bolsonaro y a su familia. Bolsonaro, que perdió la segunda vuelta presidencial del domingo ante el mandatario Luiz Inácio Lula da Silva, abandonó Brasil tras negarse a acatar la orden judicial de entregar su pasaporte. Lula confirmó luego que su rival huyó del país. El político ultraderechista se negó a entregar el pasaporte a las autoridades en medio de una investigación por lavado de dinero.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261027-ee-uu-otorgar%C3%A1-visado-a-fl%C3%A1vio-bolsonaro-lula-confirma-que-su-rival-derechista-huy%C3%B3-de-brasil",
-          "image_url": "https://s.france24.com/media/display/50b82fc0-d174-11f1-bd92-bdb9616e85cf/w:1024/p:16x9/f8b71311cddbfa737bb9a5bdc6261fea0b6d21a3.jpg",
-          "published_raw": "Tue, 27 Oct 2026 21:49:32 GMT",
-          "published_at": "2026-10-27T18:49:32-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Victoria histórica de Lula en Brasil: ¿cómo logró remontar ante Flávio Bolsonaro?",
-          "description": "En El Debate de France 24 analizamos la histórica victoria de Luiz Inácio Lula da Silva en Brasil. El líder izquierdista rompió este domingo una racha de cuatro décadas al convertirse en el primer candidato presidencial en remontar una segunda vuelta desde el retorno a la democracia, superando por más de cuatro millones de votos al derechista Flávio Bolsonaro en una jornada inédita impulsada por el voto joven y los abstencionistas.",
-          "url": "https://www.france24.com/es/programas/el-debate/20261027-victoria-hist%C3%B3rica-de-lula-en-brasil-c%C3%B3mo-logr%C3%B3-remontar-ante-fl%C3%A1vio-bolsonaro",
-          "image_url": "https://s.france24.com/media/display/122bd47a-d15e-11f1-9287-bba4eee3dc72/w:1024/p:16x9/AP26299152729936.jpg",
-          "published_raw": "Tue, 27 Oct 2026 14:48:20 GMT",
-          "published_at": "2026-10-27T11:48:20-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-025",
-      "title": "Haití aplaza sus primeras elecciones presidenciales en una década para julio de 2027",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261029-hait%C3%AD-aplaza-sus-primeras-elecciones-presidenciales-en-una-d%C3%A9cada-para-julio-de-2027",
+      "cluster_id": "PML-EVENT-023",
+      "title": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261101-ecuador-inicia-su-cuarto-toque-de-queda-del-a%C3%B1o-para-contener-la-violencia-a-semanas-de-las-elecciones-locales",
       "representative_source": "France 24",
-      "topic": "Elecciones y opinión pública",
+      "topic": "Conflictos y seguridad",
       "event_type": "ELECTORAL_EVENT",
       "geography": {
-        "group": "No identificado",
-        "country": "No identificado / América Latina"
+        "group": "América Latina",
+        "country": "Ecuador / América Latina"
       },
       "relevance": {
-        "score": 52.8,
-        "level": "MEDIA",
-        "editorial_utility": 60.8
+        "score": 68.1,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 68.1
       },
       "selection": {
-        "reason": "PML 52.8; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 68.1",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -426,16 +58,13 @@
         "source_count": 1,
         "sources": "France 24"
       },
-      "first_seen": "2026-10-28T23:34:34-0300",
-      "last_seen": "2026-10-28T23:34:34-0300",
+      "first_seen": "2026-11-01T09:39:38-0300",
+      "last_seen": "2026-11-01T09:39:38-0300",
       "entities": [],
-      "event_terms": [
-        "eleccion",
-        "crisis"
-      ],
+      "event_terms": "crisis",
       "analysis": {
-        "summary": "El Consejo Electoral de Haití pospuso sus primeras elecciones presidenciales en una década para el 18 de julio de 2027, según un nuevo calendario publicado este miércoles. El nuevo aplazamiento tiene lugar en un clima de violencia y crisis humanitaria sin precedentes.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / América Latina.",
+        "summary": "El país inició este domingo 1 de noviembre su cuarto período de restricciones nocturnas de movilidad en lo corrido del año. Se trata de una medida que regirá durante diez días en cinco provincias de la costa, entre ellas Guayas, donde se encuentra Guayaquil, la ciudad más poblada de Ecuador.",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Ecuador / América Latina.",
         "watch_next": [
           "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
           "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
@@ -447,36 +76,269 @@
         {
           "source_id": "france24_latam",
           "source": "France 24",
-          "title": "Haití aplaza sus primeras elecciones presidenciales en una década para julio de 2027",
-          "description": "El Consejo Electoral de Haití pospuso sus primeras elecciones presidenciales en una década para el 18 de julio de 2027, según un nuevo calendario publicado este miércoles. El nuevo aplazamiento tiene lugar en un clima de violencia y crisis humanitaria sin precedentes.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261029-hait%C3%AD-aplaza-sus-primeras-elecciones-presidenciales-en-una-d%C3%A9cada-para-julio-de-2027",
-          "image_url": "https://s.france24.com/media/display/53dae716-53c5-11f0-a755-005056a97e36/w:1024/p:16x9/2025-06-13T194900Z-655256971-RC2HIEADQK8H-RTRMADP-3-BRAZIL-HAITI.jpg",
-          "published_raw": "Thu, 29 Oct 2026 02:34:34 GMT",
-          "published_at": "2026-10-28T23:34:34-0300",
-          "country": "No identificado",
+          "title": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales",
+          "description": "El país inició este domingo 1 de noviembre su cuarto período de restricciones nocturnas de movilidad en lo corrido del año. Se trata de una medida que regirá durante diez días en cinco provincias de la costa, entre ellas Guayas, donde se encuentra Guayaquil, la ciudad más poblada de Ecuador. El nuevo toque de queda llega en medio de una persistente crisis de seguridad, marcada por la expansión de las organizaciones criminales y el narcotráfico, y a cuatro semanas de unas elecciones locales en las que la seguridad vuelve a ocupar un lugar central en la disputa política.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261101-ecuador-inicia-su-cuarto-toque-de-queda-del-a%C3%B1o-para-contener-la-violencia-a-semanas-de-las-elecciones-locales",
+          "image_url": "https://s.france24.com/media/display/cc4fef62-d5f0-11f1-98a6-d18c5759e759/w:1024/p:16x9/000-B27E7GZ.jpg",
+          "published_raw": "Sun, 01 Nov 2026 12:39:38 GMT",
+          "published_at": "2026-11-01T09:39:38-0300",
+          "country": "Ecuador",
           "region": "América Latina",
           "language": "es",
           "score_institutional": 0,
-          "score_elections": 2,
+          "score_elections": 1,
           "score_international": 0,
-          "score_conflict": 1,
+          "score_conflict": 3,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Conflictos y seguridad",
+          "political_evidence": 4,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "cluster_id": "PML-EVENT-023"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-004",
+      "title": "Aprobación de Kast se desploma a sus mínimos históricos en medio de crisis en Justicia",
+      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/aprobacion-de-kast-se-desploma-a-sus-minimos-historicos-en-medio-de/2026-11-01/121423.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 65.6,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 77.6
+      },
+      "selection": {
+        "reason": "PML 65.6; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-01T12:14:23-0300",
+      "last_seen": "2026-11-01T12:14:23-0300",
+      "entities": [],
+      "event_terms": [
+        "crisis",
+        "oposicion"
+      ],
+      "analysis": {
+        "summary": "La aprobación al Gobierno del Presidente José Antonio Kast cayó a su registro más bajo desde el inicio de su administración , alcanzando un 22,1% según la medición de Pulso Ciudadano y un 25% de acuerdo con Agenda Criteria , en un escenario político marcado por el desplome de la confianza pública y el rechazo ciudadano a la gestión de la crisis por beneficios penitenciarios a pederastas por parte del Ministerio de Justicia .",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Aprobación de Kast se desploma a sus mínimos históricos en medio de crisis en Justicia",
+          "description": "La aprobación al Gobierno del Presidente José Antonio Kast cayó a su registro más bajo desde el inicio de su administración , alcanzando un 22,1% según la medición de Pulso Ciudadano y un 25% de acuerdo con Agenda Criteria , en un escenario político marcado por el desplome de la confianza pública y el rechazo ciudadano a la gestión de la crisis por beneficios penitenciarios a pederastas por parte del Ministerio de Justicia . Pulso Ciudadano: desplome estadístico y caída en la confianza El sondeo de Pulso Ciudadano evidenció un quiebre en el balance de la gestión presidencial. Mientras que la aprobación se redujo al 22,1%, la desaprobación escaló hasta un 67,5% , alcanzando su techo histórico en lo que va del período . El 10,5% restante de los participantes manifestó no saber o no respondió la consulta. El retroceso resulta estadísticamente significativo al compararlo con los datos de septiembre, cuando el Mandatario contaba con un 28,2% de respaldo y un 57,6% de rechazo , lo que representa una caída neta de 6,1 puntos porcentuales en su adhesión y un aumento de 9,9 puntos en el descontento popular. Este declive se refleja también en los índices de credibilidad: apenas un 16,1% de la ciudadanía afirma mantener mucha o bastante confianza en la figura del Presidente Kast , frente a un 61,2% que expresa tener poca o nula confianza, sumado a un 22,7% que se ubica en un nivel de confianza intermedio. Casi tres cuartas partes del electorado consideran que el jefe de Estado debe exigir la salida inmediata del ministro de Justicia, Fernando Rabat. (FOTO: ATON)   Coincidencia en Criteria y la alta intensidad del rechazo En una línea similar, la última entrega de Criteria ratificó la tendencia descendente de La Moneda al situar el respaldo al Mandatario en un 25%, bajando dos puntos respecto a la medición previa . De forma paralela, la desaprobación aumentó un punto para ubicarse en el 65% , mientras que un 10% de los encuestados declaró no contar con una postura definida. En tanto, entre el universo de personas que evalúan negativamente la gestión de Kast, el 59% asegura hacerlo con la máxima intensidad posible en una medición de 1 a 5, en contraste con el grupo que aprueba al Gobierno, donde apenas un 21% manifiesta respaldarlo con ese mismo nivel de firmeza . Crisis carcelaria y presión sobre el ministro Fernando Rabat El impacto negativo en los sondeos se vincula con la controversia por la rebaja de penas a condenados por delitos sexuales contra menores de edad . Según Pulso Ciudadano, un 71,7% de la población califica como mala o muy mala la respuesta del Ejecutivo frente a este episodio , frente a solo un 14,7% que la evalúa de forma positiva y un 13,6% que la considera regular. Esta reprobación resulta transversal, elevándose al 87,9% en sectores de oposición y al 76,4% en personas sin identificación política . En este marco, la continuidad del titular de Justicia se transformó en un flanco crítico para el oficialismo. Un 74,2% de los encuestados sostiene que el Presidente Kast cometió una equivocación al ratificar a Fernando Rabat en el cargo y demanda su renuncia inmediata, mientras que solo un 13,3% respalda su permanencia. El deterioro de las cifras presidenciales coincide con el rechazo al manejo gubernamental frente a la rebaja de penas carcelarias a condenados por delitos sexuales contra menores de edad. (FOTO: ATON) La exigencia de renuncia encuentra eco incluso en las filas gubernamentales, donde un 49,8% de los propios partidarios del Ejecutivo se muestra a favor de su salida . Apoyo a juicio político y rechazo a beneficios penitenciarios La disconformidad ciudadana también se traduce en un amplio respaldo a las acciones de fiscalización parlamentaria. De acuerdo con el sondeo, un 64,3% de los chilenos votaría a favor de una acusación constitucional contra el ministro Rabat si ejerciera un cargo como diputado, opción que supera con holgura al 21,2% que rechazaría el libelo acusatorio y al 14,5% que no toma posición. Este apoyo al juicio político es particularmente alto en las mujeres, con un 70,1%, y en el segmento juvenil de 18 a 30 años, donde trepa al 79,1%. Finalmente, ante la consulta sobre qué crímenes no deberían acceder a rebajas de condena por buena conducta, los delitos sexuales contra menores de edad encabezan las menciones con un 51,1% , seguidos por los homicidios con un 41,2%, el crimen organizado con un 37,4% y el narcotráfico con un 36,5%.",
+          "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/aprobacion-de-kast-se-desploma-a-sus-minimos-historicos-en-medio-de/2026-11-01/121423.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261101/imag/foto_0000000420261101121423.jpg",
+          "published_raw": "Sun, 01 Nov 2026 12:14:23 -0300",
+          "published_at": "2026-11-01T12:14:23-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 2,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 14,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-004"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-013",
+      "cluster_id": "PML-EVENT-028",
+      "title": "La oposición israelí se atasca tras su victoria electoral",
+      "url": "https://elpais.com/internacional/2026-11-01/la-oposicion-israeli-transforma-en-embrollo-su-victoria-sobre-netanyahu.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 62.8,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 58.8
+      },
+      "selection": {
+        "reason": "PML 62.8",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-01T01:30:01-0300",
+      "last_seen": "2026-11-01T01:30:01-0300",
+      "entities": [
+        "trump",
+        "iran"
+      ],
+      "event_terms": [
+        "oposicion",
+        "victoria",
+        "eleccion",
+        "ataque"
+      ],
+      "analysis": {
+        "summary": "Las negociaciones para formar Gobierno marchan paralelas a las señales de preparativos de un nuevo ataque de Netanyahu y Trump a Irán",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "La oposición israelí se atasca tras su victoria electoral",
+          "description": "Las negociaciones para formar Gobierno marchan paralelas a las señales de preparativos de un nuevo ataque de Netanyahu y Trump a Irán",
+          "url": "https://elpais.com/internacional/2026-11-01/la-oposicion-israeli-transforma-en-embrollo-su-victoria-sobre-netanyahu.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/D5EDOT7FZJAWXOR6XJWCQH4MKA.jpg?auth=3b8779f25f2850ad57c7a8c32114563257ca293a197f03ce647b60bec90b0177",
+          "published_raw": "Sun, 01 Nov 2026 04:30:01 GMT",
+          "published_at": "2026-11-01T01:30:01-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-028"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-019",
+      "title": "La batalla política en Polonia deriva en una guerra abierta por el control del Tribunal Constitucional",
+      "url": "https://elpais.com/internacional/2026-11-01/la-batalla-politica-en-polonia-deriva-en-una-guerra-abierta-por-el-control-del-tribunal-constitucional.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 56.8,
+        "level": "MEDIA",
+        "editorial_utility": 52.8
+      },
+      "selection": {
+        "reason": "PML 56.8; fallback editorial controlado; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-01T05:04:12-0300",
+      "last_seen": "2026-11-01T05:04:12-0300",
+      "entities": [],
+      "event_terms": [
+        "guerra",
+        "tribunal"
+      ],
+      "analysis": {
+        "summary": "El forcejeo del presidente polaco para entrar en la sede de la institución en la madrugada del sábado exalta a sus seguidores y detractores con posturas irreconciliables",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "La batalla política en Polonia deriva en una guerra abierta por el control del Tribunal Constitucional",
+          "description": "El forcejeo del presidente polaco para entrar en la sede de la institución en la madrugada del sábado exalta a sus seguidores y detractores con posturas irreconciliables",
+          "url": "https://elpais.com/internacional/2026-11-01/la-batalla-politica-en-polonia-deriva-en-una-guerra-abierta-por-el-control-del-tribunal-constitucional.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/EXXR3GTS75A6JOVIDO3FI6YOTI.jpg?auth=c6e5617a6b74eeba04e13ce708e9cc502630ac76f26e3e39acfc122ad5e69a56",
+          "published_raw": "Sun, 01 Nov 2026 08:04:12 GMT",
+          "published_at": "2026-11-01T05:04:12-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 3,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-019"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-016",
       "title": "La suspensión del presidente del Tribunal Constitucional de Polonia desata una crisis institucional",
       "url": "https://elpais.com/internacional/2026-10-30/el-presidente-de-polonia-regresa-a-su-pais-en-pleno-vuelo-a-senegal-por-una-crisis-en-el-tribunal-constitucional.html",
       "representative_source": "EL PAÍS",
@@ -487,12 +349,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 60.4,
+        "score": 53.4,
         "level": "MEDIA",
-        "editorial_utility": 59.4
+        "editorial_utility": 46.4
       },
       "selection": {
-        "reason": "PML 60.4; nuevo tipo de evento",
+        "reason": "PML 53.4; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -547,156 +409,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-013"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-017",
-      "title": "Gobierno intervino el Ministerio de Ciencia por conflicto entre ministra Lincolao y subsecretaria Rossi",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gobierno-intervino-el-ministerio-de-ciencia-por-conflicto-entre-ministra/2026-10-31/095806.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 55.4,
-        "level": "MEDIA",
-        "editorial_utility": 50.4
-      },
-      "selection": {
-        "reason": "PML 55.4; fallback editorial controlado; diversidad relajada para completar el brief; aporta diversidad geográfica",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-10-31T09:58:06-0300",
-      "last_seen": "2026-10-31T09:58:06-0300",
-      "entities": "bachelet",
-      "event_terms": "crisis",
-      "analysis": {
-        "summary": "El Gobierno decidió intervenir en el Ministerio de Ciencia debido al quiebre de la relación entre la ministra Ximena Lincolao y la subsecretaria Carolina Rossi , un conflicto que llegó a un punto crítico luego de semanas de desconfianzas, acusaciones cruzadas y desvinculaciones de funcionarios.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Gobierno intervino el Ministerio de Ciencia por conflicto entre ministra Lincolao y subsecretaria Rossi",
-          "description": "El Gobierno decidió intervenir en el Ministerio de Ciencia debido al quiebre de la relación entre la ministra Ximena Lincolao y la subsecretaria Carolina Rossi , un conflicto que llegó a un punto crítico luego de semanas de desconfianzas, acusaciones cruzadas y desvinculaciones de funcionarios. Según publicó La Tercera , la crisis entre las principales autoridades de la cartera se agudizó en las últimas semanas de octubre debido a la salida del jefe de comunicaciones, Hernán Tello , y la del asesor cercano a la subsecretaria, Nicolás Fuenzalida. El diario aseguró que Rossi está más cerca de salir del Gobierno que de continuar bajo las condiciones actuales, según transmitió a sus cercanos. Si bien no ha dimitido, su permanencia depende de cambios en el funcionamiento interno del Ministerio de Ciencia. En tanto, desde el entorno de la ministra Lincolao afirman que el conflicto responde a deficiencias de gestión de la subsecretaria Rossi , especialmente en el ítems como la ejecución presupuestaria, cumplimiento de compromisos institucionales y relación con los funcionarios. El quiebre de la relación provocó la intervención directa de La Moneda , que decidió enviar a la exasesora de Economía de los segundos gobiernos de Michelle Bachelet y Sebastián Piñera, Carolina Calvo , que también es consultora del Banco Interarmericano de Desarrollo (BID) y exjefa de Proyectos en el Servicio Nacional de Migraciones. El rotativo reveló que el círculo de Lincolao considera la llegada de Calvo como un refuerzo para Rossi, y que desde el entorno de la subsecretaria sostienen que su incorporación constata la preocupación presidencial por el quiebre, que también recuerda el que ya vivió la titular de la cartera con su anterior subsecretario, Rafael Araos . Primeros conflictos La subsecretaria Rossi arribó al Ministerio de Ciencia para desempeñarse como jefa de división, antes de asumir la subsecretaria -en principio de manera interina- luego de la salida de Araos. En ese contexto, los primeros desencuentros se originaron con la conformación de los equipos. Según el entorno de Rossi, el nombramiento de Javiera Cuevas como jefa de gabinete de la subsecretaría terminó por concretar las funciones vinculadas a ambas autoridades en una misma persona. Asimismo, aseguran -según reproduce el rotativo- que Cuevas trabaja mayormente con Lincolao , acompañándola en viajes y administrando su agenda, mientras Rossi carecía de apoyo propio para realizar sus labores. En esa línea, sostienen que Nicolás Fuenzalida se desempeñaba como una especie de jefe de gabinete para Rossi . No obstante, desde el entorno de Lincolao rechazan dicha interpretación y afirman que Cuevas ha asumido responsabilidades que, supuestamente, la subsecretaria no ha gestionado de manera adecuada. Presupuesto, despido y acusaciones La Tercera  expuso que uno de los momentos que evidenció de mejor manera la desconfianza entre ambas autoridades se dio en el marco de una reunión con la Dirección de Presupuestos , en la que Lincolao retuvo los documentos presupuestaciones al asegurar que existían antecedentes de filtraciones internas . En ese contexto, Rossi aparentemente insistió por cuatro días para tener acceso a la información necesaria para realizar sus responsabilidades administrativas. Sus cercanos aseguran que existieron dificultades para obtener esos datos, hasta que finalmente Lincolao los entregó. El quiebre se profundizó debido a la desvinculación de Fuenzalida, que ejercía como principal apoyo de Rossi y l a dejó prácticamente sin equipo . Desde el círculo de la ministra afirmaron que s u salida se debió a una pérdida de confianza relacionada a la supuesta entrega de un pendrive con información de sistemas de la ANID a un funcionario del Segundo Piso de La Moneda, hace meses. Intervención del Palacio Finalmente, el conflicto escaló por los vínculos que ambas partes atribuyen al Segundo Piso de La Moneda, ya que desde el entorno de la ministra acusan a funcionarios de Palacio, como el jefe de asesores Alejandro Irarrázaval y Sebastián Torrealba (soporte en IA y transformación digital del Gobierno) de intervenir en decisiones internas y dar respaldo a Rossi. Por su parte, desde el círculo de Rossi descartan cualquier tipo de estrategia coordinada contra Lincolao, pero no niegan que la subsecretaria eventualmente conversó con miembros de La Moneda tras los últimos despidos en el ministerio. Fue en ese contexto en que se confirmó la incorporación de Carolina Calvo al ministerio, que fue comunicada internamente -desde La Moneda- como un refuerzo para la cartera, aunque su función específica no aparece detallada.",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gobierno-intervino-el-ministerio-de-ciencia-por-conflicto-entre-ministra/2026-10-31/095806.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261031/imag/foto_0000000220261031095806.jpg",
-          "published_raw": "Sat, 31 Oct 2026 09:58:06 -0300",
-          "published_at": "2026-10-31T09:58:06-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 3,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-017"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-001",
-      "title": "\"No es suficiente\": Salida de Silva no frena presión ni AC opositora para sacar a Rabat del cargo",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/no-es-suficiente-salida-de-silva-no-frena-presion-ni-ac-opositora/2026-10-31/134536.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 54.8,
-        "level": "MEDIA",
-        "editorial_utility": 46.8
-      },
-      "selection": {
-        "reason": "PML 54.8; fallback editorial controlado; diversidad relajada para completar el brief",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-10-31T13:45:36-0300",
-      "last_seen": "2026-10-31T13:45:36-0300",
-      "entities": "boric",
-      "event_terms": [
-        "crisis",
-        "oposicion"
-      ],
-      "analysis": {
-        "summary": "La salida del exsubsecretario de Justicia Luis Silva no ha logrado frenar la presión y molestia opositora por las polémicas rebajas de condena a abusadores sexuales y violadores de menores, que siguen teniendo en el ojo del huracán al ministro de la cartera, Fernando Rabat.  El secretario de Estado se ha mantenido en el cargo tras el respaldo expresado por el Presidente Kast y pese a la renuncia de Silva el viernes, detonada por un video subido a sus redes sociales donde se…",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "\"No es suficiente\": Salida de Silva no frena presión ni AC opositora para sacar a Rabat del cargo",
-          "description": "La salida del exsubsecretario de Justicia Luis Silva no ha logrado frenar la presión y molestia opositora por las polémicas rebajas de condena a abusadores sexuales y violadores de menores, que siguen teniendo en el ojo del huracán al ministro de la cartera, Fernando Rabat.  El secretario de Estado se ha mantenido en el cargo tras el respaldo expresado por el Presidente Kast y pese a la renuncia de Silva el viernes, detonada por un video subido a sus redes sociales donde se desligó de sus responsabilidades en la firma de los controversiales decretos. Este escenario, que ha originado una profunda crisis política al interior del Gobierno e incluso en el oficialismo, se ha intensificado luego que la oposición encontrara \"insuficiente\" la destitución del exsubsecretario y siguiera firme en su posición de seguir elaborando la acusación constitucional confirmada el miércoles contra Rabat.  \"La renuncia del exsubsecretario Silva no es suficiente. Acá la principal responsabilidad es del ministro Fernando Rabat. El Gobierno no lo puede seguir respaldando\", enfatizó el diputado y timonel del PPD, Raúl Soto.  En la misma línea, la también diputada y presidenta del FA, Gael Yeomans,  ratificó que seguirán \"persiguiendo las responsabilidades políticas del ministro de Justicia, porque es lo que corresponde. Se ejercerán todas las herramientas para que se cumplan las medidas de protección a las víctimas\". La senadora PS Daniella Cicardini  criticó: \"Silva es removido de su cargo porque hizo un video sin permiso y no precisamente porque liberó a violadores de niños. Francamente es impresentable. Lo único que espero es que el señor Silva no termine en el Segundo Piso, como ha sido la tónica de este Gobierno\". [Lea también]  Rebajas de condenas: Fiscalía abrió investigación contra Rabat y Silva \"Veremos si existen los fundamentos\", dijo diputada RN Ximena Ossandón Desde el oficialismo, la diputada RN Ximena Ossandón confirmó que \"la acusación constitucional (de la oposición) va sí o sí. Recordemos la que tuvimos hace poco tiempo del exministro (de Hacienda del Gobierno de Boric, Nicolás) Grau\". \"Veremos, en el fondo, si en los fundamentos existe realmente sustento jurídico para asegurar que hay una transgresión a la Constitución (por parte del ministro Rabat)\", agregó. Sin embargo, \"lo del subsecretario Silva (y su video) fue algo absolutamente inesperado para todos. Tengo entendido que no responde a ninguna estrategia (comunicacional de la actual Administración)\", señaló la vicepresidenta de la Cámara Baja.  [Lea también]  Squella \"no tiene ninguna duda\" de que todas las bancadas oficialistas apoyarán a Rabat frente a AC Desde el partido gobernante, el diputado republicano Luis Sánchez  reconoció que \"esta es una situación muy lamentable y muy dolorosa para todo el país. Genera mucha incertidumbre, por supuesto, el que haya delincuentes libres en las calles\". \"Por lo mismo, es un compromiso de este Gobierno (corregir los vacíos legales para que esto nunca vuelva a pasar). Será el ministro Rabat quien lidere esos cambios y, por lo mismo, cuenta con todo nuestro apoyo\", sostuvo. Senadores buscan derogar ley que permite reducir condenas Por otro lado, los senadores Karim Bianchi (independiente), Andrés Longton (RN), Pedro Araya (PPD) y Arturo Squella (Republicanos) presentaron un proyecto para derogar la Ley N° 19.856, que permite la reducción de penas de cárcel por buena conducta. Los autores de la propuesta argumentan que la rebaja de condena se superpone con la libertad condicional, la cual evalúa el riesgo de reincidencia y aplica supervisión a los reos, a diferencia del beneficio por conducta. \"No más beneficios. La reinserción debe ser seria, y no un descuento de condena por portarse bien , porque mientras estos delincuentes reciben beneficios, las víctimas siguen pagando las consecuencias. Basta de puertas giratorias: las penas se cumplen y las víctimas se respetan\", subrayó Bianchi .",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/no-es-suficiente-salida-de-silva-no-frena-presion-ni-ac-opositora/2026-10-31/134536.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261031/imag/foto_0000000220261031134536.png",
-          "published_raw": "Sat, 31 Oct 2026 13:45:36 -0300",
-          "published_at": "2026-10-31T13:45:36-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 8,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 8,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 16,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
+          "cluster_id": "PML-EVENT-016"
         }
       ]
     }
@@ -709,7 +422,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-003",
+        "cluster_id": "PML-EVENT-005",
         "title": "Diputado Araya: La AC contra el ministro Rabat debe seguir incluso después de que renuncie",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -720,11 +433,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.5,
-          "level": "MEDIA",
+          "score": 46,
+          "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 88,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 32
@@ -764,7 +477,7 @@
             "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-005"
           }
         ],
         "article_count": 1,
@@ -775,31 +488,31 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 73.5
+          "chile_utility": 67
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-022",
-        "title": "﻿A los 91 años falleció Isabel Morel, viuda del excanciller Orlando Letelier",
-        "topic": "Relaciones internacionales",
+        "cluster_id": "PML-EVENT-001",
+        "title": "Vocero presiona al oficialismo: Nadie que diga apoyar al Gobierno podría votar a favor la AC contra Rabat",
+        "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/dd-hh/orlando-letelier/a-los-91-anos-fallecio-isabel-morel-viuda-del-excanciller-orlando/2026-10-30/224022.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/vocero-presiona-al-oficialismo-nadie-que-diga-apoyar-al-gobierno-podria/2026-11-01/101507.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 48.1,
-          "level": "BAJA",
+          "score": 56.2,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 51,
-            "freshness": 72,
+            "political_impact": 54,
+            "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 28
+            "continuity": 30
           }
         },
         "coverage": {
@@ -807,50 +520,50 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-10-30T22:40:22-0300",
-        "last_seen": "2026-10-30T22:40:22-0300",
+        "first_seen": "2026-11-01T10:15:07-0300",
+        "last_seen": "2026-11-01T10:15:07-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "﻿A los 91 años falleció Isabel Morel, viuda del excanciller Orlando Letelier",
-            "description": "El Partido Socialista informó el fallecimiento de la \" incansable luchadora por la justicia , la democracia y los derechos humanos\" Isabel Morel Gumucio , quien fuera viuda del excanciller Orlando Letelier , asesinado por la DINA en un atentado de coche bomba en Washington en 1976. Mediante un comunicado compartido en redes sociales, la colectividad manifestó \"su profundo pesar\" por la muerte de Morel a los 91 años , a quien describe como una \"mujer ejemplar, símbolo de valentía, dignidad y coraje\" . Como \"compañera de vida\" del diplomático e histórico militante socialista , \" Isabel Margarita hizo de la memoria y la búsqueda de justicia una causa permanente , convirtiéndose en un ejemplo de fortaleza y compromiso con los valores democráticos\", relevó el PS.  \" Madre de cuatro hijos , entre ellos nuestro querido compañero y exsenador Juan Pablo Letelier , deja un legado de consecuencia, humanidad y lucha contra la impunidad \", agrega el escrito. Con todo, \" expresamos nuestras más sentidas condolencias a sus hijos, familiares, compañeros, compañeras y amistades , acompañándolos con afecto y solidaridad en este momento de dolor\". \" El socialismo chileno inclina sus banderas ante la partida de una mujer extraordinaria , cuya memoria y ejemplo permanecerán vivos. ¡Hasta siempre, Isabel Margarita!\", cierra el comunicado. Ver esta publicación en Instagram Una publicación compartida por Partido Socialista de Chile (@pschile)",
-            "url": "https://www.cooperativa.cl/noticias/pais/dd-hh/orlando-letelier/a-los-91-anos-fallecio-isabel-morel-viuda-del-excanciller-orlando/2026-10-30/224022.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261030/imag/foto_0000000220261030224022.png",
-            "published_raw": "Fri, 30 Oct 2026 22:40:22 -0300",
-            "published_at": "2026-10-30T22:40:22-0300",
+            "title": "Vocero presiona al oficialismo: Nadie que diga apoyar al Gobierno podría votar a favor la AC contra Rabat",
+            "description": "El subsecretario de la Secretaría General de Gobierno (Segegob), Gonzalo Arenas, defendió la decisión del Presidente José Antonio Kast de respaldar al cuestionado ministro de Justicia, Fernando Rabat, y apuntó a los partidos oficialistas a demostrar su apoyo al Ejecutivo de cara a la acusación constitucional anunciada por la oposición debido al escándalo por la rebaja de condenas a pederastas y violadores de derechos humanos . El vocero de Gobierno asumió el cargo el miércoles 21 de octubre , el mismo día que se conoció públicamente que el Ministerio de Justicia otorgó el beneficio a 56 pedófilos , por lo que su debut ha estado por la defensa a Rabat en medio de fuertes críticas de la oposición y diferencias con algunos partidos del oficialismo. En conversación con El Mercurio , Arenas se refirió al respaldo personal que el Mandatario le ha entregado a Rabat, pese a reconocer errores políticos y humanos, afirmando que \"aquí tenemos un ministro que cumplió con la ley, cumplió con la Constitución y, por lo tanto, estaba ejerciendo sus funciones dentro del marco de lo que es su función como ministro de Justicia\". \"Hay un tema muy importante para el Presidente: a los ministros y la acción de Gobierno hay que juzgarlos por la realidad y no por las imágenes políticas que se construyen al fragor de los debates . Aquí se ha construido una imagen absolutamente injusta, de que existiría un ministro que anda liberando delincuentes, como una especie de gran dador de rebajas de penas\", aseveró. Sin embargo, el subsecretario apuntó que \"despejado todo el bullicio político, encontramos que aplicó la ley, una mala ley, pero que tuvo que aplicarla y que está dispuesto a darle una solución de fondo\" . Al ser consultado por las consecuencias políticas del respaldo de Kast a Rabat, Arenas señaló que \"esas decisiones no se pueden evaluar por puntos más o menos de adhesión en las encuestas, porque son actitudes que reflejan coraje moral . Y el coraje moral no se mide por encuestas, sino por resultados\". \"Yo creo que el resultado de esta actitud del Presidente va a ser una ley que solucionará de forma definitiva estos graves problemas que afectan a niños vulnerados con crímenes tan horrendos\", puntualizó. El vocero del Ejecutivo sostuvo que el único escenario que justifique la salida de Rabat del Gobierno es perder la confianza del Presidente, pero aseguró que \"con todos los antecedentes que tiene el Presidente, el ministro cuenta con su confianza\" . AC contra Rabat: \"Ningún diputado de los que dicen apoyar al Gobierno podría votar a favor\" Frente al anunciado libelo contra Rabat y las diferencias que se han generado entre el Ejecutivo y algunos parlamentarios de Chile Vamos , Arenas afirmó que \"el Presidente no les está pidiendo lealtad a un Gobierno, les está pidiendo lealtad a la Constitución, porque aquí no se configura ninguna de las causales que permiten una acusación constitucional\". \"Si se va a ejercer una labor parlamentaria seria, con lealtad a la Constitución y a su espíritu, ningún diputado de los que dicen apoyar al Gobierno podría votar a favor de algo que tiene errores humanos grandes y errores políticos grandes , pero que desde el punto de vista jurídico-administrativo no configura ninguna causal de infracción a las leyes o a la Constitución \", enfatizó. [Lea también]   Jefa de bancada UDI no se siente \"obligada\" a defender a Rabat El subsecretario aseguró que los resultados de las gestiones del Gobierno para conseguir apoyos frente a la AC han sido \"muy buenos. La mayoría de los parlamentarios con los que hemos hablado entienden que aquí no hay ninguna causal de acusación constitucional que se configure\". \"Hasta el momento, hemos tenido apoyo de prácticamente todas las bancadas que apoyan al Gobierno, incluso de parlamentarios del PDG y de libertarios\", adelantó. Salida de Silva: \"El Gobierno no sabía de ese video, fue una imprudencia temeraria\" Arenas también abordó la salida del subsecretario de Justicia, Luis Silva , por la publicación de un video en que explicó que él firmó los decretos bajo el criterio establecido por Rabat. \"El Gobierno no sabía de ese video . Nosotros consideramos que es un profundo error por parte del subsecretario Silva, se lo representamos así. Fue una imprudencia temeraria , porque somos un Gobierno, actuamos en equipo y, por lo tanto, un tema que incluso ni siquiera el ministro sabía, me parece un profundo error que debe tener consecuencias \", subrayó. El vocero reiteró que la remoción de Silva \"se debe a la firma de los decretos. Se debe a que cometió un grave error con la publicación de ese video\" , aunque destacó que no espera que su salida \"cambie el fondo de la situación\". \"Si hay algún candidato de derecha que pretenda suceder a Kast en 2030, su preocupación debe ser que a este Gobierno le vaya bien\" De cara al futuro, el subsecretario de la Segegob advirtió especialmente a sectores de derecha, que \"cuando a un Gobierno de un sector le va mal, el Gobierno siguiente es del signo contrario\" . \"Si a este Gobierno le va mal, el próximo Gobierno es de una izquierda más radical que la de Boric o de un populismo desatado. Por eso, aquellos que creen que se puede estar en las buenas con el Gobierno, tener todas las cosas buenas y distanciarse de las malas, están jugando a una ilusión que nunca ha existido \", apuntó. En ese sentido, resaltó que \"si hay algún candidato de derecha , centroderecha o de centro, que pretenda suceder al Presidente Kast en 2030, su primera preocupación debe ser que a este Gobierno le vaya muy bien \".",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/vocero-presiona-al-oficialismo-nadie-que-diga-apoyar-al-gobierno-podria/2026-11-01/101507.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261101/imag/foto_0000000220261101101507.jpg",
+            "published_raw": "Sun, 01 Nov 2026 10:15:07 -0300",
+            "published_at": "2026-11-01T10:15:07-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 0,
-            "score_elections": 0,
-            "score_international": 2,
-            "score_conflict": 1,
+            "score_institutional": 7,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 0,
             "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 1,
+            "score_ideology": 3,
+            "score_actor": 6,
             "score_noise": 0,
-            "score_accident": 1,
-            "political_evidence": 4,
-            "primary_topic": "Relaciones internacionales",
-            "secondary_topic": "Conflictos y seguridad",
+            "score_accident": 0,
+            "political_evidence": 17,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
-            "filter_confidence": "medium",
-            "cluster_id": "PML-EVENT-022"
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-001"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 10,
-          "labels": "Relaciones internacionales",
-          "chile_utility": 58.1
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 65.2
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-016",
+        "cluster_id": "PML-EVENT-020",
         "title": "Rabat dio bienvenida a subsecretaria Soto y trazó como objetivo \"proteger a los niños\"",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -861,11 +574,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.8,
-          "level": "MEDIA",
+          "score": 49.8,
+          "level": "BAJA",
           "components": {
             "political_impact": 50,
-            "freshness": 100,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 28
@@ -905,7 +618,7 @@
             "secondary_topic": null,
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-016"
+            "cluster_id": "PML-EVENT-020"
           }
         ],
         "article_count": 1,
@@ -913,7 +626,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 63.8
+          "chile_utility": 58.8
         },
         "repeated_in_general_top5": false
       }
@@ -921,34 +634,36 @@
   },
   "topics": [
     {
+      "topic": "Conflictos y seguridad",
+      "event_count": 1,
+      "maximum_relevance": 68.1,
+      "leading_story": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales"
+    },
+    {
       "topic": "Instituciones y gobierno",
-      "event_count": 20,
-      "maximum_relevance": 65,
-      "leading_story": "La huida de Flávio Bolsonaro desnuda una alineación ideológica con Trump que prevalece sobre el derecho internacional en Latinoamérica"
+      "event_count": 24,
+      "maximum_relevance": 65.6,
+      "leading_story": "Aprobación de Kast se desploma a sus mínimos históricos en medio de crisis en Justicia"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 4,
-      "maximum_relevance": 52.8,
-      "leading_story": "Haití aplaza sus primeras elecciones presidenciales en una década para julio de 2027"
+      "event_count": 5,
+      "maximum_relevance": 55.4,
+      "leading_story": "“Amar al prójimo” como lema de campaña: los pastores demócratas que buscan arrebatar el voto cristiano a los republicanos"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 48.1,
+      "maximum_relevance": 40.1,
       "leading_story": "﻿A los 91 años falleció Isabel Morel, viuda del excanciller Orlando Letelier"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-012", "PML-EVENT-025", "PML-EVENT-013", "PML-EVENT-017", "PML-EVENT-001"],
-      "exited_top5": ["PML-EVENT-028", "PML-EVENT-027", "PML-EVENT-006", "PML-EVENT-011", "PML-EVENT-029"],
-      "retained_top5": []
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["France 24", "Cooperativa", "EL PAÍS"],
     "source_count": 3
   },
   "system": {
