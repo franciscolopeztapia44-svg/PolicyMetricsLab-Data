@@ -3,36 +3,255 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-01",
-    "data_latest_timestamp": "2026-11-01T21:24:26-0300",
-    "data_age_hours": 0,
-    "generated_at": "2026-11-01T21:25:57-0300",
+    "date": "2026-11-02",
+    "data_latest_timestamp": "2026-11-02T07:40:25-0300",
+    "data_age_hours": 0.1,
+    "generated_at": "2026-11-02T07:43:57-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": false
+    "editorial_topic_diversity_met": true
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 32 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Conflictos y seguridad.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
+    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 32,
-    "topics": 2,
-    "geographies": 2,
-    "representative_sources": 3,
-    "average_top5_relevance": 58.5,
-    "maximum_relevance": 65.1
+    "ranked_events": 34,
+    "topics": 3,
+    "geographies": 3,
+    "representative_sources": 2,
+    "average_top5_relevance": 64.7,
+    "maximum_relevance": 68.4
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-023",
+      "cluster_id": "PML-EVENT-028",
+      "title": "El asedio criminal a los municipios prende los focos rojos para las elecciones en México de 2027",
+      "url": "https://elpais.com/mexico/2026-11-02/el-asedio-criminal-a-los-municipios-prende-los-focos-rojos-para-las-elecciones-en-mexico-de-2027.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "México / América Latina"
+      },
+      "relevance": {
+        "score": 68.4,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 68.4
+      },
+      "selection": {
+        "reason": "PML 68.4",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-02T06:30:00-0300",
+      "last_seen": "2026-11-02T06:30:00-0300",
+      "entities": "mexico",
+      "event_terms": [],
+      "analysis": {
+        "summary": "Los asesinatos de candidatos y funcionarios electos se concentran en los municipios, que en un año serán renovados casi en su totalidad en el país",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en México / América Latina.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El asedio criminal a los municipios prende los focos rojos para las elecciones en México de 2027",
+          "description": "Los asesinatos de candidatos y funcionarios electos se concentran en los municipios, que en un año serán renovados casi en su totalidad en el país",
+          "url": "https://elpais.com/mexico/2026-11-02/el-asedio-criminal-a-los-municipios-prende-los-focos-rojos-para-las-elecciones-en-mexico-de-2027.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/GEXWF2PSVNLRDCHAYRUJ33VN44.jpg?auth=57d4b45fe54d35e71b516736a0f37e9c90cf0587c9fe5b928f8e62b8831e0c5a",
+          "published_raw": "Mon, 02 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-02T06:30:00-0300",
+          "country": "México",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-028"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-031",
+      "title": "El rechazo a la reforma de pensiones de Merz gana peso en Alemania",
+      "url": "https://elpais.com/economia/2026-11-02/el-rechazo-a-la-reforma-de-pensiones-de-merz-gana-peso-en-alemania.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Internacional",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 66.4,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 78.4
+      },
+      "selection": {
+        "reason": "PML 66.4; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-02T01:30:01-0300",
+      "last_seen": "2026-11-02T01:30:01-0300",
+      "entities": "alemania",
+      "event_terms": [],
+      "analysis": {
+        "summary": "Un sondeo reciente revela que casi tres cuartas partes de la población está en contra de eliminar la jubilación anticipada sin penalización",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El rechazo a la reforma de pensiones de Merz gana peso en Alemania",
+          "description": "Un sondeo reciente revela que casi tres cuartas partes de la población está en contra de eliminar la jubilación anticipada sin penalización",
+          "url": "https://elpais.com/economia/2026-11-02/el-rechazo-a-la-reforma-de-pensiones-de-merz-gana-peso-en-alemania.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/VWNS3Y57DRNTHL3W4CDVVGKYK4.jpg?auth=3fccdf3c322c9399e6653cdd9bacdfde9fba3562d04e2d095fa527c0654f50e8",
+          "published_raw": "Mon, 02 Nov 2026 04:30:01 GMT",
+          "published_at": "2026-11-02T01:30:01-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-031"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-025",
+      "title": "Cita con las urnas en Estados Unidos: la corrupción emerge como la gran preocupación de última hora de los votantes",
+      "url": "https://elpais.com/us/2026-11-02/cita-con-las-urnas-en-estados-unidos-la-corrupcion-emerge-como-la-gran-preocupacion-de-ultima-hora-de-los-votantes.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 63.5,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 66.5
+      },
+      "selection": {
+        "reason": "PML 63.5; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-02T06:30:00-0300",
+      "last_seen": "2026-11-02T06:30:00-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "Nueve de cada diez estadounidenses considera que la falta de integridad en el Gobierno es un problema muy grave, en vísperas del día de las elecciones de mitad de mandato",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Cita con las urnas en Estados Unidos: la corrupción emerge como la gran preocupación de última hora de los votantes",
+          "description": "Nueve de cada diez estadounidenses considera que la falta de integridad en el Gobierno es un problema muy grave, en vísperas del día de las elecciones de mitad de mandato",
+          "url": "https://elpais.com/us/2026-11-02/cita-con-las-urnas-en-estados-unidos-la-corrupcion-emerge-como-la-gran-preocupacion-de-ultima-hora-de-los-votantes.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/3PDH63VQSJOXBNAWYXV7YSTMJU.jpg?auth=c93ccfcc0df934d4a5bb68252fc47fa3dd77f1035cf207108354e4377be23897",
+          "published_raw": "Mon, 02 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-02T06:30:00-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-025"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-020",
       "title": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261101-ecuador-inicia-su-cuarto-toque-de-queda-del-a%C3%B1o-para-contener-la-violencia-a-semanas-de-las-elecciones-locales",
       "representative_source": "France 24",
@@ -43,12 +262,12 @@
         "country": "Ecuador / América Latina"
       },
       "relevance": {
-        "score": 65.1,
-        "level": "MEDIA-ALTA",
+        "score": 61.1,
+        "level": "MEDIA",
         "editorial_utility": 65.1
       },
       "selection": {
-        "reason": "PML 65.1",
+        "reason": "PML 61.1; aporta diversidad temática",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -99,263 +318,29 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-005",
-      "title": "Aprobación de Kast se desploma a sus mínimos históricos en medio de crisis en Justicia",
-      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/aprobacion-de-kast-se-desploma-a-sus-minimos-historicos-en-medio-de/2026-11-01/121423.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 62.6,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 74.6
-      },
-      "selection": {
-        "reason": "PML 62.6; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-01T12:14:23-0300",
-      "last_seen": "2026-11-01T12:14:23-0300",
-      "entities": [],
-      "event_terms": [
-        "crisis",
-        "oposicion"
-      ],
-      "analysis": {
-        "summary": "La aprobación al Gobierno del Presidente José Antonio Kast cayó a su registro más bajo desde el inicio de su administración , alcanzando un 22,1% según la medición de Pulso Ciudadano y un 25% de acuerdo con Agenda Criteria , en un escenario político marcado por el desplome de la confianza pública y el rechazo ciudadano a la gestión de la crisis por beneficios penitenciarios a pederastas por parte del Ministerio de Justicia .",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Aprobación de Kast se desploma a sus mínimos históricos en medio de crisis en Justicia",
-          "description": "La aprobación al Gobierno del Presidente José Antonio Kast cayó a su registro más bajo desde el inicio de su administración , alcanzando un 22,1% según la medición de Pulso Ciudadano y un 25% de acuerdo con Agenda Criteria , en un escenario político marcado por el desplome de la confianza pública y el rechazo ciudadano a la gestión de la crisis por beneficios penitenciarios a pederastas por parte del Ministerio de Justicia . Pulso Ciudadano: desplome estadístico y caída en la confianza El sondeo de Pulso Ciudadano evidenció un quiebre en el balance de la gestión presidencial. Mientras que la aprobación se redujo al 22,1%, la desaprobación escaló hasta un 67,5% , alcanzando su techo histórico en lo que va del período . El 10,5% restante de los participantes manifestó no saber o no respondió la consulta. El retroceso resulta estadísticamente significativo al compararlo con los datos de septiembre, cuando el Mandatario contaba con un 28,2% de respaldo y un 57,6% de rechazo , lo que representa una caída neta de 6,1 puntos porcentuales en su adhesión y un aumento de 9,9 puntos en el descontento popular. Este declive se refleja también en los índices de credibilidad: apenas un 16,1% de la ciudadanía afirma mantener mucha o bastante confianza en la figura del Presidente Kast , frente a un 61,2% que expresa tener poca o nula confianza, sumado a un 22,7% que se ubica en un nivel de confianza intermedio. Casi tres cuartas partes del electorado consideran que el jefe de Estado debe exigir la salida inmediata del ministro de Justicia, Fernando Rabat. (FOTO: ATON)   Coincidencia en Criteria y la alta intensidad del rechazo En una línea similar, la última entrega de Criteria ratificó la tendencia descendente de La Moneda al situar el respaldo al Mandatario en un 25%, bajando dos puntos respecto a la medición previa . De forma paralela, la desaprobación aumentó un punto para ubicarse en el 65% , mientras que un 10% de los encuestados declaró no contar con una postura definida. En tanto, entre el universo de personas que evalúan negativamente la gestión de Kast, el 59% asegura hacerlo con la máxima intensidad posible en una medición de 1 a 5, en contraste con el grupo que aprueba al Gobierno, donde apenas un 21% manifiesta respaldarlo con ese mismo nivel de firmeza . Crisis carcelaria y presión sobre el ministro Fernando Rabat El impacto negativo en los sondeos se vincula con la controversia por la rebaja de penas a condenados por delitos sexuales contra menores de edad . Según Pulso Ciudadano, un 71,7% de la población califica como mala o muy mala la respuesta del Ejecutivo frente a este episodio , frente a solo un 14,7% que la evalúa de forma positiva y un 13,6% que la considera regular. Esta reprobación resulta transversal, elevándose al 87,9% en sectores de oposición y al 76,4% en personas sin identificación política . En este marco, la continuidad del titular de Justicia se transformó en un flanco crítico para el oficialismo. Un 74,2% de los encuestados sostiene que el Presidente Kast cometió una equivocación al ratificar a Fernando Rabat en el cargo y demanda su renuncia inmediata, mientras que solo un 13,3% respalda su permanencia. El deterioro de las cifras presidenciales coincide con el rechazo al manejo gubernamental frente a la rebaja de penas carcelarias a condenados por delitos sexuales contra menores de edad. (FOTO: ATON) La exigencia de renuncia encuentra eco incluso en las filas gubernamentales, donde un 49,8% de los propios partidarios del Ejecutivo se muestra a favor de su salida . Apoyo a juicio político y rechazo a beneficios penitenciarios La disconformidad ciudadana también se traduce en un amplio respaldo a las acciones de fiscalización parlamentaria. De acuerdo con el sondeo, un 64,3% de los chilenos votaría a favor de una acusación constitucional contra el ministro Rabat si ejerciera un cargo como diputado, opción que supera con holgura al 21,2% que rechazaría el libelo acusatorio y al 14,5% que no toma posición. Este apoyo al juicio político es particularmente alto en las mujeres, con un 70,1%, y en el segmento juvenil de 18 a 30 años, donde trepa al 79,1%. Finalmente, ante la consulta sobre qué crímenes no deberían acceder a rebajas de condena por buena conducta, los delitos sexuales contra menores de edad encabezan las menciones con un 51,1% , seguidos por los homicidios con un 41,2%, el crimen organizado con un 37,4% y el narcotráfico con un 36,5%.",
-          "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/aprobacion-de-kast-se-desploma-a-sus-minimos-historicos-en-medio-de/2026-11-01/121423.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261101/imag/foto_0000000420261101121423.jpg",
-          "published_raw": "Sun, 01 Nov 2026 12:14:23 -0300",
-          "published_at": "2026-11-01T12:14:23-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 5,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 14,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-005"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-030",
-      "title": "La oposición israelí se atasca tras su victoria electoral",
-      "url": "https://elpais.com/internacional/2026-11-01/la-oposicion-israeli-transforma-en-embrollo-su-victoria-sobre-netanyahu.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 58.8,
-        "level": "MEDIA",
-        "editorial_utility": 54.8
-      },
-      "selection": {
-        "reason": "PML 58.8",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-01T01:30:01-0300",
-      "last_seen": "2026-11-01T01:30:01-0300",
-      "entities": [
-        "trump",
-        "iran"
-      ],
-      "event_terms": [
-        "oposicion",
-        "victoria",
-        "eleccion",
-        "ataque"
-      ],
-      "analysis": {
-        "summary": "Las negociaciones para formar Gobierno marchan paralelas a las señales de preparativos de un nuevo ataque de Netanyahu y Trump a Irán",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "La oposición israelí se atasca tras su victoria electoral",
-          "description": "Las negociaciones para formar Gobierno marchan paralelas a las señales de preparativos de un nuevo ataque de Netanyahu y Trump a Irán",
-          "url": "https://elpais.com/internacional/2026-11-01/la-oposicion-israeli-transforma-en-embrollo-su-victoria-sobre-netanyahu.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/D5EDOT7FZJAWXOR6XJWCQH4MKA.jpg?auth=3b8779f25f2850ad57c7a8c32114563257ca293a197f03ce647b60bec90b0177",
-          "published_raw": "Sun, 01 Nov 2026 04:30:01 GMT",
-          "published_at": "2026-11-01T01:30:01-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-027",
-      "title": "La huida de Flávio Bolsonaro",
-      "url": "https://www.france24.com/es/programas/aqu%C3%AD-am%C3%A9rica/20261102-la-huida-de-fl%C3%A1vio-bolsonaro",
-      "representative_source": "France 24",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Brasil / América Latina"
-      },
-      "relevance": {
-        "score": 55.5,
-        "level": "MEDIA",
-        "editorial_utility": 51.5
-      },
-      "selection": {
-        "reason": "PML 55.5; fallback editorial controlado; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-11-01T21:24:26-0300",
-      "last_seen": "2026-11-01T21:24:26-0300",
-      "entities": [
-        "bolsonaro",
-        "lula",
-        "brasil"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "Flávio Bolsonaro perdió las elecciones presidenciales a manos de Luiz Inácio Lula da Silva y al otro día emprendió su huida de Brasil, asediado por varias investigaciones judiciales. Al llegar a su destino final, Estados Unidos, se proclamó presidente legítimo, pero tras la presión de la Casa Blanca, se retractó. En Aquí América te contamos la crónica de un escape inesperado.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Brasil / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "La huida de Flávio Bolsonaro",
-          "description": "Flávio Bolsonaro perdió las elecciones presidenciales a manos de Luiz Inácio Lula da Silva y al otro día emprendió su huida de Brasil, asediado por varias investigaciones judiciales. Al llegar a su destino final, Estados Unidos, se proclamó presidente legítimo, pero tras la presión de la Casa Blanca, se retractó. En Aquí América te contamos la crónica de un escape inesperado.",
-          "url": "https://www.france24.com/es/programas/aqu%C3%AD-am%C3%A9rica/20261102-la-huida-de-fl%C3%A1vio-bolsonaro",
-          "image_url": "https://s.france24.com/media/display/8d35f5a4-d64c-11f1-87ac-695cb59fade5/w:1024/p:16x9/HUIDA-BOLSONARITO.png",
-          "published_raw": "Mon, 02 Nov 2026 00:24:26 GMT",
-          "published_at": "2026-11-01T21:24:26-0300",
-          "country": "Brasil",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-020"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-016",
-      "title": "La suspensión del presidente del Tribunal Constitucional de Polonia desata una crisis institucional",
-      "url": "https://elpais.com/internacional/2026-10-30/el-presidente-de-polonia-regresa-a-su-pais-en-pleno-vuelo-a-senegal-por-una-crisis-en-el-tribunal-constitucional.html",
+      "cluster_id": "PML-EVENT-019",
+      "title": "Audios atribuidos a Cerimedo revelan su poder en el Gobierno boliviano, pero la investigación se estanca",
+      "url": "https://elpais.com/argentina/2026-11-02/audios-atribuidos-a-cerimedo-revelan-su-poder-en-el-gobierno-boliviano-pero-la-investigacion-se-estanca.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
+        "group": "América Latina",
+        "country": "Argentina / América Latina"
       },
       "relevance": {
-        "score": 50.4,
-        "level": "BAJA",
-        "editorial_utility": 43.4
+        "score": 64,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 60
       },
       "selection": {
-        "reason": "PML 50.4; diversidad relajada para completar el brief",
+        "reason": "PML 64",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -365,17 +350,13 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-10-31T02:15:25-0300",
-      "last_seen": "2026-10-31T02:15:25-0300",
+      "first_seen": "2026-11-02T06:30:00-0300",
+      "last_seen": "2026-11-02T06:30:00-0300",
       "entities": [],
-      "event_terms": [
-        "tribunal",
-        "crisis",
-        "oposicion"
-      ],
+      "event_terms": [],
       "analysis": {
-        "summary": "La oposición ultraconservadora acusa al Gobierno de Donald Tusk de realizar un golpe de Estado y el presidente del país regresa en pleno vuelo a Senegal",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "Se difunden conversaciones donde el exasesor del presidente Rodrigo Paz y estratega digital de la ultraderecha reparte cargos y prepara operativos policiales",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Argentina / América Latina.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -387,30 +368,30 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "La suspensión del presidente del Tribunal Constitucional de Polonia desata una crisis institucional",
-          "description": "La oposición ultraconservadora acusa al Gobierno de Donald Tusk de realizar un golpe de Estado y el presidente del país regresa en pleno vuelo a Senegal",
-          "url": "https://elpais.com/internacional/2026-10-30/el-presidente-de-polonia-regresa-a-su-pais-en-pleno-vuelo-a-senegal-por-una-crisis-en-el-tribunal-constitucional.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/V76OJBGWLVDA5HUSEEI4MZX64M.jpg?auth=a4aca7f0c3f00ec08ee4a83991ba0e8a263ce4a0527afbd5208576ae4eadf5b0",
-          "published_raw": "Sat, 31 Oct 2026 05:15:25 GMT",
-          "published_at": "2026-10-31T02:15:25-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "title": "Audios atribuidos a Cerimedo revelan su poder en el Gobierno boliviano, pero la investigación se estanca",
+          "description": "Se difunden conversaciones donde el exasesor del presidente Rodrigo Paz y estratega digital de la ultraderecha reparte cargos y prepara operativos policiales",
+          "url": "https://elpais.com/argentina/2026-11-02/audios-atribuidos-a-cerimedo-revelan-su-poder-en-el-gobierno-boliviano-pero-la-investigacion-se-estanca.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/D2B2PUSHVVFNZBMVQ4XXWWJ6BI.JPG?auth=ad07b5db588cd217d8877921766e153031fd4975a27c2fbb20b9d3ae52612cb0",
+          "published_raw": "Mon, 02 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-02T06:30:00-0300",
+          "country": "Argentina",
+          "region": "América Latina",
           "language": "es",
-          "score_institutional": 4,
+          "score_institutional": 2,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
+          "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 2,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 6,
+          "political_evidence": 4,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-016"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     }
@@ -423,7 +404,76 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-002",
+        "cluster_id": "PML-EVENT-005",
+        "title": "Aprobación de Kast se desploma a sus mínimos históricos en medio de crisis en Justicia",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_CRISIS",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/aprobacion-de-kast-se-desploma-a-sus-minimos-historicos-en-medio-de/2026-11-01/121423.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 58.6,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 72,
+            "freshness": 72,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 48
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-01T12:14:23-0300",
+        "last_seen": "2026-11-01T12:14:23-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Aprobación de Kast se desploma a sus mínimos históricos en medio de crisis en Justicia",
+            "description": "La aprobación al Gobierno del Presidente José Antonio Kast cayó a su registro más bajo desde el inicio de su administración , alcanzando un 22,1% según la medición de Pulso Ciudadano y un 25% de acuerdo con Agenda Criteria , en un escenario político marcado por el desplome de la confianza pública y el rechazo ciudadano a la gestión de la crisis por beneficios penitenciarios a pederastas por parte del Ministerio de Justicia . Pulso Ciudadano: desplome estadístico y caída en la confianza El sondeo de Pulso Ciudadano evidenció un quiebre en el balance de la gestión presidencial. Mientras que la aprobación se redujo al 22,1%, la desaprobación escaló hasta un 67,5% , alcanzando su techo histórico en lo que va del período . El 10,5% restante de los participantes manifestó no saber o no respondió la consulta. El retroceso resulta estadísticamente significativo al compararlo con los datos de septiembre, cuando el Mandatario contaba con un 28,2% de respaldo y un 57,6% de rechazo , lo que representa una caída neta de 6,1 puntos porcentuales en su adhesión y un aumento de 9,9 puntos en el descontento popular. Este declive se refleja también en los índices de credibilidad: apenas un 16,1% de la ciudadanía afirma mantener mucha o bastante confianza en la figura del Presidente Kast , frente a un 61,2% que expresa tener poca o nula confianza, sumado a un 22,7% que se ubica en un nivel de confianza intermedio. Casi tres cuartas partes del electorado consideran que el jefe de Estado debe exigir la salida inmediata del ministro de Justicia, Fernando Rabat. (FOTO: ATON)   Coincidencia en Criteria y la alta intensidad del rechazo En una línea similar, la última entrega de Criteria ratificó la tendencia descendente de La Moneda al situar el respaldo al Mandatario en un 25%, bajando dos puntos respecto a la medición previa . De forma paralela, la desaprobación aumentó un punto para ubicarse en el 65% , mientras que un 10% de los encuestados declaró no contar con una postura definida. En tanto, entre el universo de personas que evalúan negativamente la gestión de Kast, el 59% asegura hacerlo con la máxima intensidad posible en una medición de 1 a 5, en contraste con el grupo que aprueba al Gobierno, donde apenas un 21% manifiesta respaldarlo con ese mismo nivel de firmeza . Crisis carcelaria y presión sobre el ministro Fernando Rabat El impacto negativo en los sondeos se vincula con la controversia por la rebaja de penas a condenados por delitos sexuales contra menores de edad . Según Pulso Ciudadano, un 71,7% de la población califica como mala o muy mala la respuesta del Ejecutivo frente a este episodio , frente a solo un 14,7% que la evalúa de forma positiva y un 13,6% que la considera regular. Esta reprobación resulta transversal, elevándose al 87,9% en sectores de oposición y al 76,4% en personas sin identificación política . En este marco, la continuidad del titular de Justicia se transformó en un flanco crítico para el oficialismo. Un 74,2% de los encuestados sostiene que el Presidente Kast cometió una equivocación al ratificar a Fernando Rabat en el cargo y demanda su renuncia inmediata, mientras que solo un 13,3% respalda su permanencia. El deterioro de las cifras presidenciales coincide con el rechazo al manejo gubernamental frente a la rebaja de penas carcelarias a condenados por delitos sexuales contra menores de edad. (FOTO: ATON) La exigencia de renuncia encuentra eco incluso en las filas gubernamentales, donde un 49,8% de los propios partidarios del Ejecutivo se muestra a favor de su salida . Apoyo a juicio político y rechazo a beneficios penitenciarios La disconformidad ciudadana también se traduce en un amplio respaldo a las acciones de fiscalización parlamentaria. De acuerdo con el sondeo, un 64,3% de los chilenos votaría a favor de una acusación constitucional contra el ministro Rabat si ejerciera un cargo como diputado, opción que supera con holgura al 21,2% que rechazaría el libelo acusatorio y al 14,5% que no toma posición. Este apoyo al juicio político es particularmente alto en las mujeres, con un 70,1%, y en el segmento juvenil de 18 a 30 años, donde trepa al 79,1%. Finalmente, ante la consulta sobre qué crímenes no deberían acceder a rebajas de condena por buena conducta, los delitos sexuales contra menores de edad encabezan las menciones con un 51,1% , seguidos por los homicidios con un 41,2%, el crimen organizado con un 37,4% y el narcotráfico con un 36,5%.",
+            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/aprobacion-de-kast-se-desploma-a-sus-minimos-historicos-en-medio-de/2026-11-01/121423.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261101/imag/foto_0000000420261101121423.jpg",
+            "published_raw": "Sun, 01 Nov 2026 12:14:23 -0300",
+            "published_at": "2026-11-01T12:14:23-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 6,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 2,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 5,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-005"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 67.6
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-001",
         "title": "Camila Vallejo cuestionó que Rabat siga como ministro: \"Ha mentido y ocultado información\"",
         "topic": "Instituciones y gobierno",
         "event_type": "POLITICAL_STATEMENT",
@@ -434,11 +484,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.1,
-          "level": "MEDIA",
+          "score": 50.3,
+          "level": "BAJA",
           "components": {
             "political_impact": 49,
-            "freshness": 95,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 36
@@ -456,7 +506,7 @@
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
             "title": "Camila Vallejo cuestionó que Rabat siga como ministro: \"Ha mentido y ocultado información\"",
-            "description": "La exministra Camila Vallejo cuestionó este domingo al Presidente José Antonio Kast por mantener en el cargo al titular de Justicia , Fernando Rabat , principal apuntado por el escándalo de las rebajas de condena a sentenciados por delitos sexuales contra menores de edad . En entrevista con radio Nuevo Mundo , la otrora secretaria de Estado criticó que \"justo en el momento que el Poder Judicial cambia el criterio a favor de las víctimas, al ministro Rabat se le ocurre empezar a aprobar por la vía administrativa las solicitudes \". Debido a esto, la militante comunista señaló que es \" realmente incomprensible que el Presidente José Antonio Kast siga respaldando políticamente a un ministro que ha mentido , que ha cambiado las versiones , que ha ocultado información , que ha entregado información parcial para seguir con esta lógica de echarle la culpa al empedrado o al gobierno anterior \". La exministra vocera de Gobierno, Camila Vallejo, lanzó duros cuestionamientos contra la permanencia del titular de Justicia, Fernando Rabat. (FOTO: ATON)   Respuesta oficialista y el debate por la acusación constitucional Los dardos de la exvocera se dan en un clima de tensión política marcado por la eventual presentación de una acusación constitucional contra Rabat . La ofensiva no solo abrió un flanco entre el Ejecutivo y las fuerzas de oposición, sino que también evidenció posturas encontradas al interior del oficialismo, donde Chile Vamos optó por marcar distancia mientras el Partido Republicano sostiene un respaldo cerrado al titular de Justicia . \"Respecto al ministro Rabat, no me corresponde pedir su salida para satisfacer a la oposición. Le corresponde dar explicaciones y conducir a una solución que se haga cargo de las víctimas . Los cambios de gabinete los decide el Presidente \", afirmó el diputado Agustín Romero (Republicanos) . Asimismo, dio cuenta que \"una acusación constitucional debe evaluarse por sus fundamentos, no utilizarse para forzar una renuncia. Yo como republicano y diputado de gobierno , mi posición es súper clara: respaldar al Presidente \". El Partido Republicano salió en defensa del ministro Rabat y descartaron apoyar una eventual acusación constitucional para forzar renuncias. (FOTO: ATON) A esta defensa se sumó el subsecretario de la Segegob , Gonzalo Arenas , quien en \"Mesa Central\" de Canal 13 cuestionó el relato de la oposición, recordando que la normativa aplicada lleva más de 20 años de vigencia . Arenas enfatizó que no existen fundamentos jurídicos para un juicio político y apeló a la lealtad constitucional de los parlamentarios de la coalición de gobierno. El Partido de la Gente: pieza clave en el Congreso En medio de la arremetida opositora encabezada por figuras como Vallejo y la resistencia del bloque oficialista, los equilibrios en la Cámara de Diputadas y Diputados dependen de bancadas no alineadas . El Partido de la Gente (PDG) se instaló como un actor determinante para el avance de la acusación constituciona l, aunque hasta el momento sus legisladores mantienen diferencias internas y no han fijado una postura común frente a la votación.",
+            "description": "La exministra Camila Vallejo cuestionó este domingo al Presidente José Antonio Kast por mantener en el cargo al titular de Justicia , Fernando Rabat , principal apuntado por el escándalo de las rebajas de condena a sentenciados por delitos sexuales contra menores de edad . En entrevista con radio Nuevo Mundo , la otrora secretaria de Estado criticó que \"justo en el momento que el Poder Judicial cambia el criterio a favor de las víctimas, al ministro Rabat se le ocurre empezar a aprobar por la vía administrativa las solicitudes \". Debido a esto, la militante comunista señaló que es \" realmente incomprensible que el Presidente José Antonio Kast siga respaldando políticamente a un ministro que ha mentido , que ha cambiado las versiones , que ha ocultado información , que ha entregado información parcial para seguir con esta lógica de echarle la culpa al empedrado o al gobierno anterior \". La exministra vocera de Gobierno, Camila Vallejo, lanzó duros cuestionamientos contra la permanencia del titular de Justicia, Fernando Rabat. (FOTO: ATON) \"El Gobierno tenía otra salida: el ministro Rabat debió haber rechazado la firma de los decretos , y cuando él dice que no tenía escapatoria, está mintiéndole al país\", complementó la jefa de la bancada de diputados comunista, Daniela Serrano . Su par socialista Nelson Venegas coincidió en que \" resulta incomprensible la actitud que está tomando el Presidente de la República : él debe sacar al ministro Rabat. Esto está generando no solo una complicación al Gobierno, sino que a estas alturas, a Chile entero\". Respuesta oficialista y el debate por la acusación constitucional Los dardos de la exvocera se dan en un clima de tensión política marcado por la eventual presentación de una acusación constitucional contra Rabat . La ofensiva no solo abrió un flanco entre el Ejecutivo y las fuerzas de oposición, sino que también evidenció posturas encontradas al interior del oficialismo, donde Chile Vamos optó por marcar distancia mientras el Partido Republicano sostiene un respaldo cerrado al titular de Justicia . \"Respecto al ministro Rabat, no me corresponde pedir su salida para satisfacer a la oposición. Le corresponde dar explicaciones y conducir a una solución que se haga cargo de las víctimas . Los cambios de gabinete los decide el Presidente \", afirmó el diputado Agustín Romero (Republicanos) . Asimismo, dio cuenta que \"una acusación constitucional debe evaluarse por sus fundamentos, no utilizarse para forzar una renuncia. Yo como republicano y diputado de gobierno , mi posición es súper clara: respaldar al Presidente \". El Partido Republicano salió en defensa del ministro Rabat y descartaron apoyar una eventual acusación constitucional para forzar renuncias. (FOTO: ATON) A esta defensa se sumó el subsecretario de la Segegob , Gonzalo Arenas , quien en \"Mesa Central\" de Canal 13 cuestionó el relato de la oposición, recordando que la normativa aplicada lleva más de 20 años de vigencia . Arenas enfatizó que no existen fundamentos jurídicos para un juicio político y apeló a la lealtad constitucional de los parlamentarios de la coalición de gobierno. En contraste, la senadora y timonel de RN, Andrea Balladares , consideró \"natural\" que los parlamentarios de su partido \" hagamos un análisis de la situación que hoy se enfrenta \". \"Esto no es cuestionar la decisión del Presidente, sino que asumir nuestra responsabilidad como partido que apoya al Gobierno. La lealtad también implica decir cuando se están cometiendo errores , y ayudar a solucionarlos\", puntualizó. En la misma línea, la jefa de la bancada de diputados UDI, Flor Weisse , opinó que \"la salida del exsubsecretario Silva obedece a un hecho puntual, pero no soluciona el problema de fondo. Esperamos que el Gobierno evalúe la crisis para descomprimir esta situación \". El Partido de la Gente: pieza clave en el Congreso En medio de la arremetida opositora encabezada por figuras como Vallejo y la resistencia del bloque oficialista, los equilibrios en la Cámara de Diputadas y Diputados dependen de bancadas no alineadas . El Partido de la Gente (PDG) se instaló como un actor determinante para el avance de la acusación constitucional , aunque hasta el momento sus legisladores mantienen diferencias internas y no han fijado una postura común frente a la votación. Al respecto, el diputado de esa tienda Fabián Ossandón  se limitó a señalar que la bancada revisará los antecedentes del libelo en su mérito , aunque está de acuerdo en que \"el ministro Rabat debería dar un paso al costado y asumir su responsabilidad política\" .",
             "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/camila-vallejo-cuestiono-que-rabat-siga-como-ministro-ha-mentido-y/2026-11-01/161900.html",
             "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261101/imag/foto_0000000420261101161900.png",
             "published_raw": "Sun, 01 Nov 2026 16:19:00 -0300",
@@ -469,16 +519,16 @@
             "score_international": 0,
             "score_conflict": 0,
             "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 6,
+            "score_ideology": 2,
+            "score_actor": 7,
             "score_noise": 1,
             "score_accident": 0,
-            "political_evidence": 16,
+            "political_evidence": 18,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
+            "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
+            "cluster_id": "PML-EVENT-001"
           }
         ],
         "article_count": 1,
@@ -486,13 +536,13 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 63.1
+          "chile_utility": 59.3
         },
         "repeated_in_general_top5": false
       },
       {
-        "position": 2,
-        "cluster_id": "PML-EVENT-001",
+        "position": 3,
+        "cluster_id": "PML-EVENT-002",
         "title": "Vocero presiona al oficialismo: Nadie que diga apoyar al Gobierno podría votar a favor la AC contra Rabat",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -503,11 +553,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 53.2,
-          "level": "MEDIA",
+          "score": 49.2,
+          "level": "BAJA",
           "components": {
             "political_impact": 54,
-            "freshness": 88,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -547,7 +597,7 @@
             "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
+            "cluster_id": "PML-EVENT-002"
           }
         ],
         "article_count": 1,
@@ -555,76 +605,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 62.2
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-021",
-        "title": "Gobierno intervino el Ministerio de Ciencia por conflicto entre ministra Lincolao y subsecretaria Rossi",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gobierno-intervino-el-ministerio-de-ciencia-por-conflicto-entre-ministra/2026-10-31/095806.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 46.4,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 56,
-            "freshness": 52,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 46
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-10-31T09:58:06-0300",
-        "last_seen": "2026-10-31T09:58:06-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Gobierno intervino el Ministerio de Ciencia por conflicto entre ministra Lincolao y subsecretaria Rossi",
-            "description": "El Gobierno decidió intervenir en el Ministerio de Ciencia debido al quiebre de la relación entre la ministra Ximena Lincolao y la subsecretaria Carolina Rossi , un conflicto que llegó a un punto crítico luego de semanas de desconfianzas, acusaciones cruzadas y desvinculaciones de funcionarios. Según publicó La Tercera , la crisis entre las principales autoridades de la cartera se agudizó en las últimas semanas de octubre debido a la salida del jefe de comunicaciones, Hernán Tello , y la del asesor cercano a la subsecretaria, Nicolás Fuenzalida. El diario aseguró que Rossi está más cerca de salir del Gobierno que de continuar bajo las condiciones actuales, según transmitió a sus cercanos. Si bien no ha dimitido, su permanencia depende de cambios en el funcionamiento interno del Ministerio de Ciencia. En tanto, desde el entorno de la ministra Lincolao afirman que el conflicto responde a deficiencias de gestión de la subsecretaria Rossi , especialmente en el ítems como la ejecución presupuestaria, cumplimiento de compromisos institucionales y relación con los funcionarios. El quiebre de la relación provocó la intervención directa de La Moneda , que decidió enviar a la exasesora de Economía de los segundos gobiernos de Michelle Bachelet y Sebastián Piñera, Carolina Calvo , que también es consultora del Banco Interarmericano de Desarrollo (BID) y exjefa de Proyectos en el Servicio Nacional de Migraciones. El rotativo reveló que el círculo de Lincolao considera la llegada de Calvo como un refuerzo para Rossi, y que desde el entorno de la subsecretaria sostienen que su incorporación constata la preocupación presidencial por el quiebre, que también recuerda el que ya vivió la titular de la cartera con su anterior subsecretario, Rafael Araos . Primeros conflictos La subsecretaria Rossi arribó al Ministerio de Ciencia para desempeñarse como jefa de división, antes de asumir la subsecretaria -en principio de manera interina- luego de la salida de Araos. En ese contexto, los primeros desencuentros se originaron con la conformación de los equipos. Según el entorno de Rossi, el nombramiento de Javiera Cuevas como jefa de gabinete de la subsecretaría terminó por concretar las funciones vinculadas a ambas autoridades en una misma persona. Asimismo, aseguran -según reproduce el rotativo- que Cuevas trabaja mayormente con Lincolao , acompañándola en viajes y administrando su agenda, mientras Rossi carecía de apoyo propio para realizar sus labores. En esa línea, sostienen que Nicolás Fuenzalida se desempeñaba como una especie de jefe de gabinete para Rossi . No obstante, desde el entorno de Lincolao rechazan dicha interpretación y afirman que Cuevas ha asumido responsabilidades que, supuestamente, la subsecretaria no ha gestionado de manera adecuada. Presupuesto, despido y acusaciones La Tercera  expuso que uno de los momentos que evidenció de mejor manera la desconfianza entre ambas autoridades se dio en el marco de una reunión con la Dirección de Presupuestos , en la que Lincolao retuvo los documentos presupuestaciones al asegurar que existían antecedentes de filtraciones internas . En ese contexto, Rossi aparentemente insistió por cuatro días para tener acceso a la información necesaria para realizar sus responsabilidades administrativas. Sus cercanos aseguran que existieron dificultades para obtener esos datos, hasta que finalmente Lincolao los entregó. El quiebre se profundizó debido a la desvinculación de Fuenzalida, que ejercía como principal apoyo de Rossi y l a dejó prácticamente sin equipo . Desde el círculo de la ministra afirmaron que s u salida se debió a una pérdida de confianza relacionada a la supuesta entrega de un pendrive con información de sistemas de la ANID a un funcionario del Segundo Piso de La Moneda, hace meses. Intervención del Palacio Finalmente, el conflicto escaló por los vínculos que ambas partes atribuyen al Segundo Piso de La Moneda, ya que desde el entorno de la ministra acusan a funcionarios de Palacio, como el jefe de asesores Alejandro Irarrázaval y Sebastián Torrealba (soporte en IA y transformación digital del Gobierno) de intervenir en decisiones internas y dar respaldo a Rossi. Por su parte, desde el círculo de Rossi descartan cualquier tipo de estrategia coordinada contra Lincolao, pero no niegan que la subsecretaria eventualmente conversó con miembros de La Moneda tras los últimos despidos en el ministerio. Fue en ese contexto en que se confirmó la incorporación de Carolina Calvo al ministerio, que fue comunicada internamente -desde La Moneda- como un refuerzo para la cartera, aunque su función específica no aparece detallada.",
-            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gobierno-intervino-el-ministerio-de-ciencia-por-conflicto-entre-ministra/2026-10-31/095806.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261031/imag/foto_0000000220261031095806.jpg",
-            "published_raw": "Sat, 31 Oct 2026 09:58:06 -0300",
-            "published_at": "2026-10-31T09:58:06-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 3,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 1,
-            "score_ideology": 0,
-            "score_actor": 0,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 5,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-021"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 55.4
+          "chile_utility": 58.2
         },
         "repeated_in_general_top5": false
       }
@@ -632,36 +613,40 @@
   },
   "topics": [
     {
-      "topic": "Conflictos y seguridad",
-      "event_count": 1,
-      "maximum_relevance": 65.1,
-      "leading_story": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales"
+      "topic": "Elecciones y opinión pública",
+      "event_count": 7,
+      "maximum_relevance": 68.4,
+      "leading_story": "El asedio criminal a los municipios prende los focos rojos para las elecciones en México de 2027"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 24,
-      "maximum_relevance": 62.6,
-      "leading_story": "Aprobación de Kast se desploma a sus mínimos históricos en medio de crisis en Justicia"
+      "event_count": 25,
+      "maximum_relevance": 66.4,
+      "leading_story": "El rechazo a la reforma de pensiones de Merz gana peso en Alemania"
     },
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 6,
-      "maximum_relevance": 54,
-      "leading_story": "El apoyo de una demócrata de Míchigan al rival republicano de El-Sayed provoca una ruptura en el partido"
+      "topic": "Conflictos y seguridad",
+      "event_count": 1,
+      "maximum_relevance": 61.1,
+      "leading_story": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 40.1,
+      "maximum_relevance": 36.3,
       "leading_story": "﻿A los 91 años falleció Isabel Morel, viuda del excanciller Orlando Letelier"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-028", "PML-EVENT-031", "PML-EVENT-025", "PML-EVENT-020", "PML-EVENT-019"],
+      "exited_top5": ["PML-EVENT-023", "PML-EVENT-005", "PML-EVENT-030", "PML-EVENT-027", "PML-EVENT-016"],
+      "retained_top5": []
+    }
   },
   "sources": {
-    "representative_sources": ["France 24", "Cooperativa", "EL PAÍS"],
+    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
     "source_count": 3
   },
   "system": {
