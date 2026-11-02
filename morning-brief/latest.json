@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-02",
-    "data_latest_timestamp": "2026-11-02T07:40:25-0300",
-    "data_age_hours": 0.1,
-    "generated_at": "2026-11-02T07:43:57-0300",
+    "data_latest_timestamp": "2026-11-02T17:32:31-0300",
+    "data_age_hours": 1,
+    "generated_at": "2026-11-02T18:32:48-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,39 +16,39 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 4 temas, 4 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 34,
-    "topics": 3,
-    "geographies": 3,
+    "ranked_events": 39,
+    "topics": 4,
+    "geographies": 4,
     "representative_sources": 2,
-    "average_top5_relevance": 64.7,
-    "maximum_relevance": 68.4
+    "average_top5_relevance": 60.6,
+    "maximum_relevance": 65.1
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-028",
-      "title": "El asedio criminal a los municipios prende los focos rojos para las elecciones en México de 2027",
-      "url": "https://elpais.com/mexico/2026-11-02/el-asedio-criminal-a-los-municipios-prende-los-focos-rojos-para-las-elecciones-en-mexico-de-2027.html",
+      "cluster_id": "PML-EVENT-029",
+      "title": "El Gobierno de Trump lleva al Supremo su pelea para apartar unas 20.000 boletas en California en vísperas de las ‘midterms’",
+      "url": "https://elpais.com/us/2026-11-02/el-gobierno-de-trump-lleva-al-supremo-su-pelea-para-apartar-unas-20000-boletas-en-california-en-visperas-de-las-midterms.html",
       "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "ELECTORAL_EVENT",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
-        "group": "América Latina",
-        "country": "México / América Latina"
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 68.4,
+        "score": 65.1,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 68.4
+        "editorial_utility": 65.1
       },
       "selection": {
-        "reason": "PML 68.4",
+        "reason": "PML 65.1",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -58,17 +58,20 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-02T06:30:00-0300",
-      "last_seen": "2026-11-02T06:30:00-0300",
-      "entities": "mexico",
-      "event_terms": [],
+      "first_seen": "2026-11-02T15:58:25-0300",
+      "last_seen": "2026-11-02T15:58:25-0300",
+      "entities": [
+        "trump",
+        "supremo"
+      ],
+      "event_terms": "supremo",
       "analysis": {
-        "summary": "Los asesinatos de candidatos y funcionarios electos se concentran en los municipios, que en un año serán renovados casi en su totalidad en el país",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en México / América Latina.",
+        "summary": "La Administración republicana argumenta que no se deben contar esas papeletas hasta que se corrobore si los votantes son ciudadanos estadounidenses",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
@@ -76,36 +79,112 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "El asedio criminal a los municipios prende los focos rojos para las elecciones en México de 2027",
-          "description": "Los asesinatos de candidatos y funcionarios electos se concentran en los municipios, que en un año serán renovados casi en su totalidad en el país",
-          "url": "https://elpais.com/mexico/2026-11-02/el-asedio-criminal-a-los-municipios-prende-los-focos-rojos-para-las-elecciones-en-mexico-de-2027.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/GEXWF2PSVNLRDCHAYRUJ33VN44.jpg?auth=57d4b45fe54d35e71b516736a0f37e9c90cf0587c9fe5b928f8e62b8831e0c5a",
-          "published_raw": "Mon, 02 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-02T06:30:00-0300",
-          "country": "México",
-          "region": "América Latina",
+          "title": "El Gobierno de Trump lleva al Supremo su pelea para apartar unas 20.000 boletas en California en vísperas de las ‘midterms’",
+          "description": "La Administración republicana argumenta que no se deben contar esas papeletas hasta que se corrobore si los votantes son ciudadanos estadounidenses",
+          "url": "https://elpais.com/us/2026-11-02/el-gobierno-de-trump-lleva-al-supremo-su-pelea-para-apartar-unas-20000-boletas-en-california-en-visperas-de-las-midterms.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/YXMON46ZGZNL5HLVY3WYMLPNVA.jpg?auth=805a18c5ab257758664e058ded87e52c7218a986f965fab17ead24c463881dad",
+          "published_raw": "Mon, 02 Nov 2026 18:58:25 GMT",
+          "published_at": "2026-11-02T15:58:25-0300",
+          "country": "No identificado",
+          "region": "Internacional",
           "language": "es",
-          "score_institutional": 0,
-          "score_elections": 2,
+          "score_institutional": 2,
+          "score_elections": 1,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": null,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
+          "cluster_id": "PML-EVENT-029"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-031",
+      "cluster_id": "PML-EVENT-030",
+      "title": "¿Qué hay detrás de la violencia contra los periodistas que las autoridades no pueden frenar?",
+      "url": "https://www.france24.com/es/programas/invitad-del-d%C3%ADa/20261102-qu%C3%A9-hay-detr%C3%A1s-de-la-violencia-contra-los-periodistas-que-las-autoridades-no-pueden-frenar",
+      "representative_source": "France 24",
+      "topic": "Relaciones internacionales",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "México / América Latina"
+      },
+      "relevance": {
+        "score": 58.4,
+        "level": "MEDIA",
+        "editorial_utility": 70.4
+      },
+      "selection": {
+        "reason": "PML 58.4; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-11-02T15:35:14-0300",
+      "last_seen": "2026-11-02T15:35:14-0300",
+      "entities": [
+        "onu",
+        "mexico"
+      ],
+      "event_terms": [],
+      "analysis": {
+        "summary": "¿Qué hay detrás de la violencia contra los periodistas que las autoridades no pueden frenar? Cada 2 de noviembre, el mundo conmemora el Día Internacional para Poner Fin a la Impunidad de los Crímenes contra Periodistas, una fecha establecida por la ONU hace 13 años tras el asesinato de dos periodistas franceses en Mali.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en México / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "¿Qué hay detrás de la violencia contra los periodistas que las autoridades no pueden frenar?",
+          "description": "¿Qué hay detrás de la violencia contra los periodistas que las autoridades no pueden frenar? Cada 2 de noviembre, el mundo conmemora el Día Internacional para Poner Fin a la Impunidad de los Crímenes contra Periodistas, una fecha establecida por la ONU hace 13 años tras el asesinato de dos periodistas franceses en Mali. Según un informe reciente entregado por las Naciones Unidas, 189 reporteros fueron asesinados ejerciendo sus funciones entre 2024 y 2025, un aumento del 20% comparado con el periodo anterior. Analizamos qué cambios han ocurrido en la lucha contra la impunidad con Juan Vásquez, oficial de comunicación de Article 19 México y Centroamérica.",
+          "url": "https://www.france24.com/es/programas/invitad-del-d%C3%ADa/20261102-qu%C3%A9-hay-detr%C3%A1s-de-la-violencia-contra-los-periodistas-que-las-autoridades-no-pueden-frenar",
+          "image_url": "https://s.france24.com/media/display/1c787be8-d6ec-11f1-ae62-1beafce15fea/w:1024/p:16x9/capture-3beab436.jpg",
+          "published_raw": "Mon, 02 Nov 2026 18:35:14 GMT",
+          "published_at": "2026-11-02T15:35:14-0300",
+          "country": "México",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 0,
+          "score_international": 2,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Relaciones internacionales",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-030"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-037",
       "title": "El rechazo a la reforma de pensiones de Merz gana peso en Alemania",
       "url": "https://elpais.com/economia/2026-11-02/el-rechazo-a-la-reforma-de-pensiones-de-merz-gana-peso-en-alemania.html",
       "representative_source": "EL PAÍS",
@@ -116,12 +195,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 66.4,
+        "score": 64.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 78.4
+        "editorial_utility": 67.4
       },
       "selection": {
-        "reason": "PML 66.4; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 64.4; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -172,29 +251,29 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-031"
+          "cluster_id": "PML-EVENT-037"
         }
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-025",
-      "title": "Cita con las urnas en Estados Unidos: la corrupción emerge como la gran preocupación de última hora de los votantes",
-      "url": "https://elpais.com/us/2026-11-02/cita-con-las-urnas-en-estados-unidos-la-corrupcion-emerge-como-la-gran-preocupacion-de-ultima-hora-de-los-votantes.html",
+      "position": 4,
+      "cluster_id": "PML-EVENT-016",
+      "title": "Ayuso condecora al presidente de Chile, el ultraderechista José Antonio Kast: “Defendemos lo mismo”",
+      "url": "https://elpais.com/espana/madrid/2026-11-02/ayuso-condecora-al-presidente-de-chile-el-ultraderechista-jose-antonio-kast-defendemos-lo-mismo.html",
       "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "topic": "Ideología y competencia política",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "Estados Unidos",
+        "group": "Chile",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 63.5,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 66.5
+        "score": 58.2,
+        "level": "MEDIA",
+        "editorial_utility": 67.2
       },
       "selection": {
-        "reason": "PML 63.5; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 58.2; aporta diversidad temática; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -204,13 +283,16 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-02T06:30:00-0300",
-      "last_seen": "2026-11-02T06:30:00-0300",
-      "entities": [],
+      "first_seen": "2026-11-02T15:46:54-0300",
+      "last_seen": "2026-11-02T15:46:54-0300",
+      "entities": [
+        "chile",
+        "milei"
+      ],
       "event_terms": [],
       "analysis": {
-        "summary": "Nueve de cada diez estadounidenses considera que la falta de integridad en el Gobierno es un problema muy grave, en vísperas del día de las elecciones de mitad de mandato",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
+        "summary": "La Medalla Internacional se concede por iniciativa personal de la presidenta y ya la han recibido otros mandatarios de extrema derecha o nítidamente conservadores, como el argentino Javier Milei o el ecuatoriano Daniel Noboa, además de los dirigentes antichavistas venezolanos Juan Guaidó y Edmundo González",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Ideología y competencia política y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -222,52 +304,52 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Cita con las urnas en Estados Unidos: la corrupción emerge como la gran preocupación de última hora de los votantes",
-          "description": "Nueve de cada diez estadounidenses considera que la falta de integridad en el Gobierno es un problema muy grave, en vísperas del día de las elecciones de mitad de mandato",
-          "url": "https://elpais.com/us/2026-11-02/cita-con-las-urnas-en-estados-unidos-la-corrupcion-emerge-como-la-gran-preocupacion-de-ultima-hora-de-los-votantes.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/3PDH63VQSJOXBNAWYXV7YSTMJU.jpg?auth=c93ccfcc0df934d4a5bb68252fc47fa3dd77f1035cf207108354e4377be23897",
-          "published_raw": "Mon, 02 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-02T06:30:00-0300",
+          "title": "Ayuso condecora al presidente de Chile, el ultraderechista José Antonio Kast: “Defendemos lo mismo”",
+          "description": "La Medalla Internacional se concede por iniciativa personal de la presidenta y ya la han recibido otros mandatarios de extrema derecha o nítidamente conservadores, como el argentino Javier Milei o el ecuatoriano Daniel Noboa, además de los dirigentes antichavistas venezolanos Juan Guaidó y Edmundo González",
+          "url": "https://elpais.com/espana/madrid/2026-11-02/ayuso-condecora-al-presidente-de-chile-el-ultraderechista-jose-antonio-kast-defendemos-lo-mismo.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/CTDULLHD5FIYFLMCI3FPK5AV64.jpg?auth=3a79b663b6dc68b950c38f3a54ed52ba3505d40b4bf2aa657d67f03716c745c4",
+          "published_raw": "Mon, 02 Nov 2026 18:46:54 GMT",
+          "published_at": "2026-11-02T15:46:54-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 2,
+          "score_institutional": 2,
+          "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
+          "score_ideology": 3,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
+          "political_evidence": 7,
+          "primary_topic": "Ideología y competencia política",
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-016"
         }
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-020",
-      "title": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261101-ecuador-inicia-su-cuarto-toque-de-queda-del-a%C3%B1o-para-contener-la-violencia-a-semanas-de-las-elecciones-locales",
-      "representative_source": "France 24",
-      "topic": "Conflictos y seguridad",
-      "event_type": "ELECTORAL_EVENT",
+      "position": 5,
+      "cluster_id": "PML-EVENT-036",
+      "title": "La UE afronta una negociación de vértigo para cerrar el relevo de Lagarde y el nuevo presupuesto comunitario en diciembre",
+      "url": "https://elpais.com/economia/2026-11-02/la-ue-afronta-una-negociacion-de-vertigo-para-cerrar-el-relevo-de-lagarde-y-el-nuevo-presupuesto-comunitario-en-diciembre.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "DIPLOMATIC_EVENT",
       "geography": {
-        "group": "América Latina",
-        "country": "Ecuador / América Latina"
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 61.1,
+        "score": 56.7,
         "level": "MEDIA",
-        "editorial_utility": 65.1
+        "editorial_utility": 64.7
       },
       "selection": {
-        "reason": "PML 61.1; aporta diversidad temática",
+        "reason": "PML 56.7; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -275,123 +357,50 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "France 24"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-01T09:39:38-0300",
-      "last_seen": "2026-11-01T09:39:38-0300",
+      "first_seen": "2026-11-02T01:30:01-0300",
+      "last_seen": "2026-11-02T01:30:01-0300",
       "entities": [],
-      "event_terms": "crisis",
+      "event_terms": "eleccion",
       "analysis": {
-        "summary": "El país inició este domingo 1 de noviembre su cuarto período de restricciones nocturnas de movilidad en lo corrido del año. Se trata de una medida que regirá durante diez días en cinco provincias de la costa, entre ellas Guayas, donde se encuentra Guayaquil, la ciudad más poblada de Ecuador.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Ecuador / América Latina.",
+        "summary": "Las grandes capitales velan armas ante una cumbre crítica en diciembre, destinada a reforzar los cimientos de la unión antes del superciclo electoral de 2027",
+        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
         "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
+          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales",
-          "description": "El país inició este domingo 1 de noviembre su cuarto período de restricciones nocturnas de movilidad en lo corrido del año. Se trata de una medida que regirá durante diez días en cinco provincias de la costa, entre ellas Guayas, donde se encuentra Guayaquil, la ciudad más poblada de Ecuador. El nuevo toque de queda llega en medio de una persistente crisis de seguridad, marcada por la expansión de las organizaciones criminales y el narcotráfico, y a cuatro semanas de unas elecciones locales en las que la seguridad vuelve a ocupar un lugar central en la disputa política.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261101-ecuador-inicia-su-cuarto-toque-de-queda-del-a%C3%B1o-para-contener-la-violencia-a-semanas-de-las-elecciones-locales",
-          "image_url": "https://s.france24.com/media/display/cc4fef62-d5f0-11f1-98a6-d18c5759e759/w:1024/p:16x9/000-B27E7GZ.jpg",
-          "published_raw": "Sun, 01 Nov 2026 12:39:38 GMT",
-          "published_at": "2026-11-01T09:39:38-0300",
-          "country": "Ecuador",
-          "region": "América Latina",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "La UE afronta una negociación de vértigo para cerrar el relevo de Lagarde y el nuevo presupuesto comunitario en diciembre",
+          "description": "Las grandes capitales velan armas ante una cumbre crítica en diciembre, destinada a reforzar los cimientos de la unión antes del superciclo electoral de 2027",
+          "url": "https://elpais.com/economia/2026-11-02/la-ue-afronta-una-negociacion-de-vertigo-para-cerrar-el-relevo-de-lagarde-y-el-nuevo-presupuesto-comunitario-en-diciembre.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/775NNBK2Y5CCNJRKDW57QNI2DA.jpg?auth=5918f20d264e7ac44dec9b2dd78226ae7283fbf6af4ee530bed0a61211381381",
+          "published_raw": "Mon, 02 Nov 2026 04:30:01 GMT",
+          "published_at": "2026-11-02T01:30:01-0300",
+          "country": "No identificado",
+          "region": "Internacional",
           "language": "es",
           "score_institutional": 0,
           "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 3,
-          "score_policy": 0,
+          "score_international": 1,
+          "score_conflict": 0,
+          "score_policy": 1,
           "score_ideology": 0,
           "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Elecciones y opinión pública",
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-019",
-      "title": "Audios atribuidos a Cerimedo revelan su poder en el Gobierno boliviano, pero la investigación se estanca",
-      "url": "https://elpais.com/argentina/2026-11-02/audios-atribuidos-a-cerimedo-revelan-su-poder-en-el-gobierno-boliviano-pero-la-investigacion-se-estanca.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "América Latina",
-        "country": "Argentina / América Latina"
-      },
-      "relevance": {
-        "score": 64,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 60
-      },
-      "selection": {
-        "reason": "PML 64",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-02T06:30:00-0300",
-      "last_seen": "2026-11-02T06:30:00-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "Se difunden conversaciones donde el exasesor del presidente Rodrigo Paz y estratega digital de la ultraderecha reparte cargos y prepara operativos policiales",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Argentina / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Audios atribuidos a Cerimedo revelan su poder en el Gobierno boliviano, pero la investigación se estanca",
-          "description": "Se difunden conversaciones donde el exasesor del presidente Rodrigo Paz y estratega digital de la ultraderecha reparte cargos y prepara operativos policiales",
-          "url": "https://elpais.com/argentina/2026-11-02/audios-atribuidos-a-cerimedo-revelan-su-poder-en-el-gobierno-boliviano-pero-la-investigacion-se-estanca.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/D2B2PUSHVVFNZBMVQ4XXWWJ6BI.JPG?auth=ad07b5db588cd217d8877921766e153031fd4975a27c2fbb20b9d3ae52612cb0",
-          "published_raw": "Mon, 02 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-02T06:30:00-0300",
-          "country": "Argentina",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-036"
         }
       ]
     }
@@ -404,7 +413,148 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-005",
+        "cluster_id": "PML-EVENT-007",
+        "title": "Diputado Leiva: La acusación constitucional no es contra el Gobierno",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_CRISIS",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/diputado-leiva-la-acusacion-constitucional-no-es-contra-el-gobierno/2026-11-02/091921.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 61.3,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 81,
+            "freshness": 88,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-02T09:19:21-0300",
+        "last_seen": "2026-11-02T09:19:21-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Diputado Leiva: La acusación constitucional no es contra el Gobierno",
+            "description": "El jefe de la bancada de diputados del Partido Socialista, Raúl Leiva , insistió en Cooperativa en la necesidad de presentar una acusación constitucional en contra del ministro de Justicia, Fernando Rabat , por la decisión de rebajar las condenas a un grupo de abusadores y violadores de menores de 14 años. En conversación con El Diario de Cooperativa , el diputado manifestó que \"nosotros tenemos la convicción de que aquí hay una infracción legal constitucional. E sta no es una acusación constitucional contra el gobierno, es hacer efectiva una responsabilidad constitucional, en el entendido que el gobierno ha sido incapaz también -y es un elemento adicional que complica la situación- de hacer efectiva la responsabilidad política del ministro de Estado\". \"Eventualmente puede seguir pasando, pero no ha ocurrido porque la Corte ha cambiado y ha modificado esta situación. Los gobiernos anteriores dieron la pelea donde había que darla, en tribunales, cambiando el criterio jurisprudencial, a diferencia de lo que hizo con infracción legal y constitucional el ministro Rabat, que en interpretación propia modifica el criterio que habían tenido ministros anteriores\", precisó. Para Leiva, \"este es un tema de convicción, de principios, de dejar libre a violadores de menores de 14 años\". El parlamentario también cuestionó la decisión del Presidente José Antonio Kast de viajar a Europa en medio de esta crisis, recalcando que \"el nivel de problema, esta verdadera emergencia que hay, no solo por la acusación, sino que lo que ha generado al interior del propio Ejecutivo, es cosa de ver las declaraciones vacilantes del nuevo vocero en todas las últimas intervenciones y las disputas que existen al interior de la coalición, eso requiere conducción, que es lo que ha faltado respecto del gobierno\". \"Que el Presidente se ausente una semana, en un momento crítico, donde tiene su menor aprobación y el mayor rechazo en estos ocho meses, me parece muy complejo para salir del país\" , aseguró. Leiva insistió en \" que más encima utilice este tipo de instancias para reunirse con líderes de la ultraderecha internacional, creo que no corresponde , no es bueno para el país\". Además, el diputado se refirió a las comparaciones entre el caso de Rabat y la salida de la exministra de Seguridad, Trinidad Steinert, frente a lo que recordó que \"Steinert nos plantearon 'para qué sale', hicimos una comisión investigadora y nunca apareció , por lo que tuvimos que remitir los antecedentes al Ministerio Público (...) la exministra, que nombró este gobierno, que tenía confianza política, no fue capaz una vez de ir a la comisión para escrutar su trabajo y su labor\". \"Tenemos a un ministro que no ha presentado la renuncia, creemos que sí debería el Presidente haberla solicitado y vamos a presentar la acusación constitucional\", sentenció.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/diputado-leiva-la-acusacion-constitucional-no-es-contra-el-gobierno/2026-11-02/091921.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261102/imag/foto_0000000220261102091921.jpg",
+            "published_raw": "Mon, 02 Nov 2026 09:19:21 -0300",
+            "published_at": "2026-11-02T09:19:21-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 8,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 0,
+            "score_ideology": 1,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-007"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 82.3
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-009",
+        "title": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas",
+        "topic": "Economía y políticas públicas",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/ricardo-solari-en-un-ano-quiroz-transformo-a-los-chilenos-en-estatistas/2026-11-02/120500.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 54,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 51,
+            "freshness": 95,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-02T12:05:00-0300",
+        "last_seen": "2026-11-02T12:05:00-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas",
+            "description": "El exministro Ricardo Solari (PS) atribuyó en El Primer Café las dificultades políticas y económicas que está atravesando hoy el país a una \"incapacidad de discernimiento de la realidad\" por parte del Presidente Jósé Antonio Kast . A propósito de la crisis causada por las rebajas de condena a pederastas, pero ligándola con los malos resultados en crecimiento y empleo, Solari afirmó que en estos momentos está \" en tela de juicio la capacidad y la competencia de gestión política del Gobierno, y el liderazgo del Presidente\" . Para el director del Instituto Igualdad  (centro de pensamiento del Partido Socialista), la salida de Rabat \"es un desde\" , pero no soluciona el \"problema de conducción general\" en términos políticos y económicos, que está ligado a \"una incompetencia en el discernimiento respecto de la  realidad que estamos viviendo como país\". \"La cosa va mucho más allá de Rabat\" Citando los resultados de la última Encuesta Bicentenario UC , el exministro del Trabajo señaló que \" el gran triunfo del ministro (de Hacienda, Jorge) Quiroz es haber transformado a los chilenos en estatistas\" . Según la medición, hoy un 43 por ciento considera que el Estado debería preocuparse y hacerse responsable del bienestar de las personas : un aumento de 15 puntos porcentuales respecto de 2025, cuando esta posición alcanzaba sólo el 28 por ciento. \"Si hace un año predominaba la apreciación  de que queríamos desempeños personales como camino de superación , hoy día la gente pide Estado... ¡En (apenas) un año!  Entonces, yo creo que la cosa va mucho más allá de Rabat , que es un hecho de la causa y que debería haber salido ya \", señaló el extitular del Trabajo (2000-2005) del Gobierno de Ricardo Lagos. \"Él (Rabat) debería hacer su propia evaluación, porque no está ayudando, pero  aquí hay un problema más general de conducción y de liderazgo , y es un tema que el Gobierno tiene que revisar, porque es mala cosa para un país  un Presidente que tiene una incapacidad de leer los datos de la realidad tanto en economía como en política  (...) Este país lo está pasando mal y necesita un cambio de rumbo\", enfatizó Solari. \"Las cifras seguirán siendo malas\" El economista aprovechó de comentar además que la última estadística en desempleo (9,8 por ciento) \"fue mala\", e indicó que \" las próximas cifras van a seguir siendo muy malas \". Señaló que el crecimiento de este 2026 estará bajo 0,5 puntos, y \"si tú tomas el rango optimista las predicciones económicas del Banco Central , (indica que) en estos primeros tres años de Gobierno (2026, 2027 y 2028) el país va a crecer un 2,3 por ciento  en promedio, cuando el año pasado, con el Presidente Boric, creció 2,5\". \"Aquí lo único claro es que hubo una rebaja de impuestos , una rebaja de los recursos del Presupuesto -que es la presencia del Estado que reclama la gente en la Encuesta Bicentenario- y un bencinazo que condiciona, de acuerdo a todos los análisis, tanto en los costos de las empresas como los ingresos de la familia\", cuestionó. Por todos estos motivoss, \"atribuir una gestión exitosa cuando tenemos estos números que nos golpean en la cara y que de alguna manera son una cierta tragedia social , me parece significativamente estar un poco fuera de la realidad \", insistió el socialista Solari. Vea también  Imacec: Economía creció 0,2% en septiembre lastrada por la minería \"Falta de criterio\" Luis Ruz, presidente del directorio de Democracia y Comunidad ,   centro de pensamiento de la Democracia Cristiana, opinó en El Primer Café que, \" desde el punto de vista político, el caso Rabat ya dejó de ser un episodio y se transformó en un momento político \"; de aquéllos que \"dejan huella\". \"Ya a esta altura del partido, el caso Rabat es un antes y un después   para este Gobierno\" : una crisis que delata \" falta de oficio político, de criterio político y de conocer cómo funciona la política en todas sus dimensiones\". El Ejecutivo \"ha cometido un error de criterio que está impactando muchísimo su aprobación\", y \"todo indica que, para que la crisis no siga adelante perjudicando al propio Presidente, lo más sano, políticamente hablando es que el ministro Rabat dé un paso  al lado\" , señaló el también vicepresidente falangista. ",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/ricardo-solari-en-un-ano-quiroz-transformo-a-los-chilenos-en-estatistas/2026-11-02/120500.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261102/imag/foto_0000000220261102120500.jpg",
+            "published_raw": "Mon, 02 Nov 2026 12:05:00 -0300",
+            "published_at": "2026-11-02T12:05:00-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 3,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 5,
+            "score_ideology": 1,
+            "score_actor": 3,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 13,
+            "primary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Instituciones y gobierno",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-009"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 9,
+          "labels": "Economía y políticas públicas",
+          "chile_utility": 63
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-008",
         "title": "Aprobación de Kast se desploma a sus mínimos históricos en medio de crisis en Justicia",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_CRISIS",
@@ -415,11 +565,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 58.6,
+          "score": 56.1,
           "level": "MEDIA",
           "components": {
             "political_impact": 72,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 48
@@ -459,7 +609,7 @@
             "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
+            "cluster_id": "PML-EVENT-008"
           }
         ],
         "article_count": 1,
@@ -467,145 +617,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 67.6
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-001",
-        "title": "Camila Vallejo cuestionó que Rabat siga como ministro: \"Ha mentido y ocultado información\"",
-        "topic": "Instituciones y gobierno",
-        "event_type": "POLITICAL_STATEMENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/camila-vallejo-cuestiono-que-rabat-siga-como-ministro-ha-mentido-y/2026-11-01/161900.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 50.3,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 49,
-            "freshness": 80,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 36
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-01T16:19:00-0300",
-        "last_seen": "2026-11-01T16:19:00-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Camila Vallejo cuestionó que Rabat siga como ministro: \"Ha mentido y ocultado información\"",
-            "description": "La exministra Camila Vallejo cuestionó este domingo al Presidente José Antonio Kast por mantener en el cargo al titular de Justicia , Fernando Rabat , principal apuntado por el escándalo de las rebajas de condena a sentenciados por delitos sexuales contra menores de edad . En entrevista con radio Nuevo Mundo , la otrora secretaria de Estado criticó que \"justo en el momento que el Poder Judicial cambia el criterio a favor de las víctimas, al ministro Rabat se le ocurre empezar a aprobar por la vía administrativa las solicitudes \". Debido a esto, la militante comunista señaló que es \" realmente incomprensible que el Presidente José Antonio Kast siga respaldando políticamente a un ministro que ha mentido , que ha cambiado las versiones , que ha ocultado información , que ha entregado información parcial para seguir con esta lógica de echarle la culpa al empedrado o al gobierno anterior \". La exministra vocera de Gobierno, Camila Vallejo, lanzó duros cuestionamientos contra la permanencia del titular de Justicia, Fernando Rabat. (FOTO: ATON) \"El Gobierno tenía otra salida: el ministro Rabat debió haber rechazado la firma de los decretos , y cuando él dice que no tenía escapatoria, está mintiéndole al país\", complementó la jefa de la bancada de diputados comunista, Daniela Serrano . Su par socialista Nelson Venegas coincidió en que \" resulta incomprensible la actitud que está tomando el Presidente de la República : él debe sacar al ministro Rabat. Esto está generando no solo una complicación al Gobierno, sino que a estas alturas, a Chile entero\". Respuesta oficialista y el debate por la acusación constitucional Los dardos de la exvocera se dan en un clima de tensión política marcado por la eventual presentación de una acusación constitucional contra Rabat . La ofensiva no solo abrió un flanco entre el Ejecutivo y las fuerzas de oposición, sino que también evidenció posturas encontradas al interior del oficialismo, donde Chile Vamos optó por marcar distancia mientras el Partido Republicano sostiene un respaldo cerrado al titular de Justicia . \"Respecto al ministro Rabat, no me corresponde pedir su salida para satisfacer a la oposición. Le corresponde dar explicaciones y conducir a una solución que se haga cargo de las víctimas . Los cambios de gabinete los decide el Presidente \", afirmó el diputado Agustín Romero (Republicanos) . Asimismo, dio cuenta que \"una acusación constitucional debe evaluarse por sus fundamentos, no utilizarse para forzar una renuncia. Yo como republicano y diputado de gobierno , mi posición es súper clara: respaldar al Presidente \". El Partido Republicano salió en defensa del ministro Rabat y descartaron apoyar una eventual acusación constitucional para forzar renuncias. (FOTO: ATON) A esta defensa se sumó el subsecretario de la Segegob , Gonzalo Arenas , quien en \"Mesa Central\" de Canal 13 cuestionó el relato de la oposición, recordando que la normativa aplicada lleva más de 20 años de vigencia . Arenas enfatizó que no existen fundamentos jurídicos para un juicio político y apeló a la lealtad constitucional de los parlamentarios de la coalición de gobierno. En contraste, la senadora y timonel de RN, Andrea Balladares , consideró \"natural\" que los parlamentarios de su partido \" hagamos un análisis de la situación que hoy se enfrenta \". \"Esto no es cuestionar la decisión del Presidente, sino que asumir nuestra responsabilidad como partido que apoya al Gobierno. La lealtad también implica decir cuando se están cometiendo errores , y ayudar a solucionarlos\", puntualizó. En la misma línea, la jefa de la bancada de diputados UDI, Flor Weisse , opinó que \"la salida del exsubsecretario Silva obedece a un hecho puntual, pero no soluciona el problema de fondo. Esperamos que el Gobierno evalúe la crisis para descomprimir esta situación \". El Partido de la Gente: pieza clave en el Congreso En medio de la arremetida opositora encabezada por figuras como Vallejo y la resistencia del bloque oficialista, los equilibrios en la Cámara de Diputadas y Diputados dependen de bancadas no alineadas . El Partido de la Gente (PDG) se instaló como un actor determinante para el avance de la acusación constitucional , aunque hasta el momento sus legisladores mantienen diferencias internas y no han fijado una postura común frente a la votación. Al respecto, el diputado de esa tienda Fabián Ossandón  se limitó a señalar que la bancada revisará los antecedentes del libelo en su mérito , aunque está de acuerdo en que \"el ministro Rabat debería dar un paso al costado y asumir su responsabilidad política\" .",
-            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/camila-vallejo-cuestiono-que-rabat-siga-como-ministro-ha-mentido-y/2026-11-01/161900.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261101/imag/foto_0000000420261101161900.png",
-            "published_raw": "Sun, 01 Nov 2026 16:19:00 -0300",
-            "published_at": "2026-11-01T16:19:00-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 9,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 2,
-            "score_actor": 7,
-            "score_noise": 1,
-            "score_accident": 0,
-            "political_evidence": 18,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Ideología y competencia política",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 59.3
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Vocero presiona al oficialismo: Nadie que diga apoyar al Gobierno podría votar a favor la AC contra Rabat",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/vocero-presiona-al-oficialismo-nadie-que-diga-apoyar-al-gobierno-podria/2026-11-01/101507.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 49.2,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 54,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 30
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-01T10:15:07-0300",
-        "last_seen": "2026-11-01T10:15:07-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Vocero presiona al oficialismo: Nadie que diga apoyar al Gobierno podría votar a favor la AC contra Rabat",
-            "description": "El subsecretario de la Secretaría General de Gobierno (Segegob), Gonzalo Arenas, defendió la decisión del Presidente José Antonio Kast de respaldar al cuestionado ministro de Justicia, Fernando Rabat, y apuntó a los partidos oficialistas a demostrar su apoyo al Ejecutivo de cara a la acusación constitucional anunciada por la oposición debido al escándalo por la rebaja de condenas a pederastas y violadores de derechos humanos . El vocero de Gobierno asumió el cargo el miércoles 21 de octubre , el mismo día que se conoció públicamente que el Ministerio de Justicia otorgó el beneficio a 56 pedófilos , por lo que su debut ha estado por la defensa a Rabat en medio de fuertes críticas de la oposición y diferencias con algunos partidos del oficialismo. En conversación con El Mercurio , Arenas se refirió al respaldo personal que el Mandatario le ha entregado a Rabat, pese a reconocer errores políticos y humanos, afirmando que \"aquí tenemos un ministro que cumplió con la ley, cumplió con la Constitución y, por lo tanto, estaba ejerciendo sus funciones dentro del marco de lo que es su función como ministro de Justicia\". \"Hay un tema muy importante para el Presidente: a los ministros y la acción de Gobierno hay que juzgarlos por la realidad y no por las imágenes políticas que se construyen al fragor de los debates . Aquí se ha construido una imagen absolutamente injusta, de que existiría un ministro que anda liberando delincuentes, como una especie de gran dador de rebajas de penas\", aseveró. Sin embargo, el subsecretario apuntó que \"despejado todo el bullicio político, encontramos que aplicó la ley, una mala ley, pero que tuvo que aplicarla y que está dispuesto a darle una solución de fondo\" . Al ser consultado por las consecuencias políticas del respaldo de Kast a Rabat, Arenas señaló que \"esas decisiones no se pueden evaluar por puntos más o menos de adhesión en las encuestas, porque son actitudes que reflejan coraje moral . Y el coraje moral no se mide por encuestas, sino por resultados\". \"Yo creo que el resultado de esta actitud del Presidente va a ser una ley que solucionará de forma definitiva estos graves problemas que afectan a niños vulnerados con crímenes tan horrendos\", puntualizó. El vocero del Ejecutivo sostuvo que el único escenario que justifique la salida de Rabat del Gobierno es perder la confianza del Presidente, pero aseguró que \"con todos los antecedentes que tiene el Presidente, el ministro cuenta con su confianza\" . AC contra Rabat: \"Ningún diputado de los que dicen apoyar al Gobierno podría votar a favor\" Frente al anunciado libelo contra Rabat y las diferencias que se han generado entre el Ejecutivo y algunos parlamentarios de Chile Vamos , Arenas afirmó que \"el Presidente no les está pidiendo lealtad a un Gobierno, les está pidiendo lealtad a la Constitución, porque aquí no se configura ninguna de las causales que permiten una acusación constitucional\". \"Si se va a ejercer una labor parlamentaria seria, con lealtad a la Constitución y a su espíritu, ningún diputado de los que dicen apoyar al Gobierno podría votar a favor de algo que tiene errores humanos grandes y errores políticos grandes , pero que desde el punto de vista jurídico-administrativo no configura ninguna causal de infracción a las leyes o a la Constitución \", enfatizó. [Lea también]   Jefa de bancada UDI no se siente \"obligada\" a defender a Rabat El subsecretario aseguró que los resultados de las gestiones del Gobierno para conseguir apoyos frente a la AC han sido \"muy buenos. La mayoría de los parlamentarios con los que hemos hablado entienden que aquí no hay ninguna causal de acusación constitucional que se configure\". \"Hasta el momento, hemos tenido apoyo de prácticamente todas las bancadas que apoyan al Gobierno, incluso de parlamentarios del PDG y de libertarios\", adelantó. Salida de Silva: \"El Gobierno no sabía de ese video, fue una imprudencia temeraria\" Arenas también abordó la salida del subsecretario de Justicia, Luis Silva , por la publicación de un video en que explicó que él firmó los decretos bajo el criterio establecido por Rabat. \"El Gobierno no sabía de ese video . Nosotros consideramos que es un profundo error por parte del subsecretario Silva, se lo representamos así. Fue una imprudencia temeraria , porque somos un Gobierno, actuamos en equipo y, por lo tanto, un tema que incluso ni siquiera el ministro sabía, me parece un profundo error que debe tener consecuencias \", subrayó. El vocero reiteró que la remoción de Silva \"se debe a la firma de los decretos. Se debe a que cometió un grave error con la publicación de ese video\" , aunque destacó que no espera que su salida \"cambie el fondo de la situación\". \"Si hay algún candidato de derecha que pretenda suceder a Kast en 2030, su preocupación debe ser que a este Gobierno le vaya bien\" De cara al futuro, el subsecretario de la Segegob advirtió especialmente a sectores de derecha, que \"cuando a un Gobierno de un sector le va mal, el Gobierno siguiente es del signo contrario\" . \"Si a este Gobierno le va mal, el próximo Gobierno es de una izquierda más radical que la de Boric o de un populismo desatado. Por eso, aquellos que creen que se puede estar en las buenas con el Gobierno, tener todas las cosas buenas y distanciarse de las malas, están jugando a una ilusión que nunca ha existido \", apuntó. En ese sentido, resaltó que \"si hay algún candidato de derecha , centroderecha o de centro, que pretenda suceder al Presidente Kast en 2030, su primera preocupación debe ser que a este Gobierno le vaya muy bien \".",
-            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/vocero-presiona-al-oficialismo-nadie-que-diga-apoyar-al-gobierno-podria/2026-11-01/101507.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261101/imag/foto_0000000220261101101507.jpg",
-            "published_raw": "Sun, 01 Nov 2026 10:15:07 -0300",
-            "published_at": "2026-11-01T10:15:07-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 7,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 3,
-            "score_actor": 6,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 17,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Ideología y competencia política",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 58.2
+          "chile_utility": 65.1
         },
         "repeated_in_general_top5": false
       }
@@ -613,40 +625,48 @@
   },
   "topics": [
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 7,
-      "maximum_relevance": 68.4,
-      "leading_story": "El asedio criminal a los municipios prende los focos rojos para las elecciones en México de 2027"
+      "topic": "Instituciones y gobierno",
+      "event_count": 28,
+      "maximum_relevance": 65.1,
+      "leading_story": "El Gobierno de Trump lleva al Supremo su pelea para apartar unas 20.000 boletas en California en vísperas de las ‘midterms’"
     },
     {
-      "topic": "Instituciones y gobierno",
-      "event_count": 25,
-      "maximum_relevance": 66.4,
-      "leading_story": "El rechazo a la reforma de pensiones de Merz gana peso en Alemania"
+      "topic": "Elecciones y opinión pública",
+      "event_count": 6,
+      "maximum_relevance": 60.5,
+      "leading_story": "Cita con las urnas en Estados Unidos: la corrupción emerge como la gran preocupación de última hora de los votantes"
+    },
+    {
+      "topic": "Relaciones internacionales",
+      "event_count": 2,
+      "maximum_relevance": 58.4,
+      "leading_story": "¿Qué hay detrás de la violencia contra los periodistas que las autoridades no pueden frenar?"
+    },
+    {
+      "topic": "Ideología y competencia política",
+      "event_count": 1,
+      "maximum_relevance": 58.2,
+      "leading_story": "Ayuso condecora al presidente de Chile, el ultraderechista José Antonio Kast: “Defendemos lo mismo”"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 1,
-      "maximum_relevance": 61.1,
+      "maximum_relevance": 56.1,
       "leading_story": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales"
     },
     {
-      "topic": "Relaciones internacionales",
+      "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 36.3,
-      "leading_story": "﻿A los 91 años falleció Isabel Morel, viuda del excanciller Orlando Letelier"
+      "maximum_relevance": 54,
+      "leading_story": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-028", "PML-EVENT-031", "PML-EVENT-025", "PML-EVENT-020", "PML-EVENT-019"],
-      "exited_top5": ["PML-EVENT-023", "PML-EVENT-005", "PML-EVENT-030", "PML-EVENT-027", "PML-EVENT-016"],
-      "retained_top5": []
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
