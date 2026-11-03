@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-03",
-    "data_latest_timestamp": "2026-11-03T10:27:18-0300",
-    "data_age_hours": 0.4,
-    "generated_at": "2026-11-03T10:52:49-0300",
+    "data_latest_timestamp": "2026-11-03T17:45:17-0300",
+    "data_age_hours": 0.1,
+    "generated_at": "2026-11-03T17:50:39-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,112 +16,39 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Elecciones y opinión pública.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 39,
+    "ranked_events": 34,
     "topics": 2,
-    "geographies": 3,
-    "representative_sources": 3,
-    "average_top5_relevance": 62.3,
-    "maximum_relevance": 67.6
+    "geographies": 2,
+    "representative_sources": 2,
+    "average_top5_relevance": 63.1,
+    "maximum_relevance": 69.8
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-030",
-      "title": "Estados Unidos ataca la isla iraní de Qeshm en la víspera de sus elecciones de medio mandato",
-      "url": "https://elpais.com/internacional/2026-11-03/estados-unidos-ataca-la-isla-irani-de-qeshm-en-la-vispera-de-sus-elecciones-de-medio-mandato.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "CONFLICT_ESCALATION",
-      "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 67.6,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 67.6
-      },
-      "selection": {
-        "reason": "PML 67.6",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-03T05:30:08-0300",
-      "last_seen": "2026-11-03T05:30:08-0300",
-      "entities": [],
-      "event_terms": "guerra",
-      "analysis": {
-        "summary": "Washington asegura que se trata de ataques “defensivos” que no implican un retorno inmediato a la guerra. Son los primeros bombardeos reconocidos desde septiembre",
-        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
-          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Estados Unidos ataca la isla iraní de Qeshm en la víspera de sus elecciones de medio mandato",
-          "description": "Washington asegura que se trata de ataques “defensivos” que no implican un retorno inmediato a la guerra. Son los primeros bombardeos reconocidos desde septiembre",
-          "url": "https://elpais.com/internacional/2026-11-03/estados-unidos-ataca-la-isla-irani-de-qeshm-en-la-vispera-de-sus-elecciones-de-medio-mandato.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/3WOY5Y5IX5OOFIUPQ4HINAP6BI.jpg?auth=6e489d7baea6b878e0843c7b2dd99331f59a48aa9681b3be5cf91b172fae3251",
-          "published_raw": "Tue, 03 Nov 2026 08:30:08 GMT",
-          "published_at": "2026-11-03T05:30:08-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 1,
-          "score_international": 1,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-019",
-      "title": "Las ‘midterms’ 2026, en vivo | Abren los colegios en unas elecciones en las que se decide el control del Congreso",
+      "cluster_id": "PML-EVENT-013",
+      "title": "Las ‘midterms’ 2026, en vivo | Los votantes acuden a las urnas en unas elecciones en las que Estados Unidos decide el control del Congreso",
       "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
       "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
+      "topic": "Elecciones y opinión pública",
       "event_type": "ELECTORAL_EVENT",
       "geography": {
         "group": "Chile",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 66.1,
+        "score": 69.8,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 78.1
+        "editorial_utility": 69.8
       },
       "selection": {
-        "reason": "PML 66.1; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 69.8",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -131,16 +58,16 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-03T10:27:18-0300",
-      "last_seen": "2026-11-03T10:27:18-0300",
+      "first_seen": "2026-11-03T17:45:17-0300",
+      "last_seen": "2026-11-03T17:45:17-0300",
       "entities": [
         "congreso",
         "senado"
       ],
-      "event_terms": [],
+      "event_terms": "eleccion",
       "analysis": {
-        "summary": "Un puñado de Estados reñidos decidirá qué partido se hace con una mayoría en el Senado | El Departamento de Justicia envía observadores y organizaciones se movilizan para evitar la intimidación de votantes",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "La jornada electoral transcurre sin incidentes graves, según observadores | Un puñado de Estados reñidos decide qué partido se hace con una mayoría en el Senado",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
           "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
@@ -152,17 +79,17 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Las ‘midterms’ 2026, en vivo | Abren los colegios en unas elecciones en las que se decide el control del Congreso",
-          "description": "Un puñado de Estados reñidos decidirá qué partido se hace con una mayoría en el Senado | El Departamento de Justicia envía observadores y organizaciones se movilizan para evitar la intimidación de votantes",
+          "title": "Las ‘midterms’ 2026, en vivo | Los votantes acuden a las urnas en unas elecciones en las que Estados Unidos decide el control del Congreso",
+          "description": "La jornada electoral transcurre sin incidentes graves, según observadores | Un puñado de Estados reñidos decide qué partido se hace con una mayoría en el Senado",
           "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/JE2W2RXPOFKHFL7LTL5MPO4PJU.jpg?auth=500c8aabfdcd97c1f86ccff284f877dd99fd247ebc43dd0a97b4a9bc9fc64b54",
-          "published_raw": "Tue, 03 Nov 2026 13:27:18 GMT",
-          "published_at": "2026-11-03T10:27:18-0300",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/W2JQVWABOZJA5IGRDFNQ3QJSSQ.jpg?auth=02d76fca2f3a3aff2e1ab7d1e3f72c489a8862373c56a4a71bc37a53e2bd3f77",
+          "published_raw": "Tue, 03 Nov 2026 20:45:17 GMT",
+          "published_at": "2026-11-03T17:45:17-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
           "score_institutional": 2,
-          "score_elections": 2,
+          "score_elections": 3,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
@@ -170,86 +97,9 @@
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-013",
-      "title": "Las claves de la crisis del Tribunal Constitucional en Polonia: forcejeos, acusaciones de golpe de Estado y guerra política",
-      "url": "https://elpais.com/internacional/2026-11-03/forcejeos-acusaciones-de-golpe-de-estado-y-guerra-politica-las-claves-de-la-crisis-del-tribunal-constitucional-en-polonia.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 64.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 63.2
-      },
-      "selection": {
-        "reason": "PML 64.2; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-03T01:30:01-0300",
-      "last_seen": "2026-11-03T01:30:01-0300",
-      "entities": [],
-      "event_terms": [
-        "crisis",
-        "tribunal",
-        "guerra"
-      ],
-      "analysis": {
-        "summary": "Los partidos de la derecha ultra y el Gobierno de centroderecha liberal encabezado por Donald Tusk pugnan por dominar un tribunal cuestionado por su politización",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Las claves de la crisis del Tribunal Constitucional en Polonia: forcejeos, acusaciones de golpe de Estado y guerra política",
-          "description": "Los partidos de la derecha ultra y el Gobierno de centroderecha liberal encabezado por Donald Tusk pugnan por dominar un tribunal cuestionado por su politización",
-          "url": "https://elpais.com/internacional/2026-11-03/forcejeos-acusaciones-de-golpe-de-estado-y-guerra-politica-las-claves-de-la-crisis-del-tribunal-constitucional-en-polonia.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/VZ4GNGTLYBMORIM3DNLE4KBGMM.jpg?auth=cfbaf69ca8a6d83593d70655ab10c0e30622791a23d78adbdd3e483378407e73",
-          "published_raw": "Tue, 03 Nov 2026 04:30:01 GMT",
-          "published_at": "2026-11-03T01:30:01-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 3,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 3,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 7,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
+          "political_evidence": 6,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
           "cluster_id": "PML-EVENT-013"
@@ -257,100 +107,24 @@
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-015",
-      "title": "Abogado de Luisa González denuncia una 'clara persecución política' en Ecuador",
-      "url": "https://www.france24.com/es/programas/la-entrevista/20261103-abogado-de-luisa-gonz%C3%A1lez-denuncia-una-clara-persecuci%C3%B3n-pol%C3%ADtica-en-ecuador",
-      "representative_source": "France 24",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Ecuador / América Latina"
-      },
-      "relevance": {
-        "score": 58.9,
-        "level": "MEDIA",
-        "editorial_utility": 54.9
-      },
-      "selection": {
-        "reason": "PML 58.9; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-11-03T09:49:04-0300",
-      "last_seen": "2026-11-03T09:49:04-0300",
-      "entities": [],
-      "event_terms": [
-        "eleccion",
-        "oposicion"
-      ],
-      "analysis": {
-        "summary": "En Ecuador, la excandidata presidencial Luisa González, del movimiento Revolución Ciudadana, permanece en prisión preventiva en el marco de una investigación por presunto lavado de dinero relacionado con la financiación de su campaña electoral de 2023. Desde su movimiento denuncian una persecución política contra la oposición que atribuyen al Gobierno del presidente Daniel Noboa. La defensa de González cuestiona el proceso y habla de una \"clara persecución política\".",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Ecuador / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Abogado de Luisa González denuncia una 'clara persecución política' en Ecuador",
-          "description": "En Ecuador, la excandidata presidencial Luisa González, del movimiento Revolución Ciudadana, permanece en prisión preventiva en el marco de una investigación por presunto lavado de dinero relacionado con la financiación de su campaña electoral de 2023. Desde su movimiento denuncian una persecución política contra la oposición que atribuyen al Gobierno del presidente Daniel Noboa. La defensa de González cuestiona el proceso y habla de una \"clara persecución política\". Para conocer sus argumentos y la situación jurídica de la exaspirante presidencial, conversamos con su abogado, Diego Guarderas en France 24.",
-          "url": "https://www.france24.com/es/programas/la-entrevista/20261103-abogado-de-luisa-gonz%C3%A1lez-denuncia-una-clara-persecuci%C3%B3n-pol%C3%ADtica-en-ecuador",
-          "image_url": "https://s.france24.com/media/display/ebc6756c-e742-11ef-9303-005056bfb2b6/w:1024/p:16x9/000_33Y23RK.jpg",
-          "published_raw": "Tue, 03 Nov 2026 12:49:04 GMT",
-          "published_at": "2026-11-03T09:49:04-0300",
-          "country": "Ecuador",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 6,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
-        }
-      ]
-    },
-    {
-      "position": 5,
+      "position": 2,
       "cluster_id": "PML-EVENT-006",
-      "title": "Diputado Leiva: La acusación constitucional no es contra el Gobierno",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/diputado-leiva-la-acusacion-constitucional-no-es-contra-el-gobierno/2026-11-02/091921.html",
+      "title": "Gobierno anunció veto sustitutivo a la ley de incendios",
+      "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/incendios-forestales/gobierno-anuncio-veto-sustitutivo-a-la-ley-de-incendios/2026-11-03/155713.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
         "group": "Chile",
         "country": "Chile"
       },
       "relevance": {
-        "score": 54.8,
-        "level": "MEDIA",
-        "editorial_utility": 47.8
+        "score": 65.1,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 72.1
       },
       "selection": {
-        "reason": "PML 54.8; diversidad relajada para completar el brief",
+        "reason": "PML 65.1; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -360,12 +134,91 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-02T09:19:21-0300",
-      "last_seen": "2026-11-02T09:19:21-0300",
-      "entities": [],
+      "first_seen": "2026-11-03T15:57:13-0300",
+      "last_seen": "2026-11-03T15:57:13-0300",
+      "entities": [
+        "congreso",
+        "chile"
+      ],
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "El ministro de Agricultura, Jaime Campos , anunció este martes que el Gobierno presentará un veto sustitutivo al proyecto de ley que regula la prevención y mitigación de incendios forestales . La iniciativa se encuentra en su etapa final de tramitación en el Congreso, luego de permanecer tres años en discusión legislativa.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Gobierno anunció veto sustitutivo a la ley de incendios",
+          "description": "El ministro de Agricultura, Jaime Campos , anunció este martes que el Gobierno presentará un veto sustitutivo al proyecto de ley que regula la prevención y mitigación de incendios forestales . La iniciativa se encuentra en su etapa final de tramitación en el Congreso, luego de permanecer tres años en discusión legislativa. El secretario de Estado comunicó la decisión en la Cámara de Diputadas y Diputados, que aprobó por 77 votos a favor, 51 en contra y 14 abstenciones el informe de la comisión mixta.  \"Hemos persuadido al Presidente de la República que presente un veto sustitutivo que incluya todas las materias y todas las aprensiones que, a nuestro modo de ver, debiesen estar incorporadas \", explicó Campos. Entre las modificaciones que pretende introducir el Gobierno, el ministro mencionó mecanismos de pago y compensación para los propietarios de terrenos afectados por la expropiación de franjas de sus predios , además de la transferencia de recursos económicos a los municipios para fortalecer su participación en la prevención y combate de incendios. INCENDIOS FORESTALES📰| Cámara votó informe de mixta a ley de prevención de incendios forestales. https://t.co/4mVRC2x1qA https://t.co/RWREcMsOrE — Diputadas y Diputados de Chile (@Camara_cl) November 3, 2026 Críticas desde la oposición La diputada Sofía González (Partido Comunista) cuestionó el anuncio del veto presidencial y advirtió que \"lo único que hace es seguir aumentando el tiempo de tramitación\". \" Chile necesita una mejor institucionalidad , recursos para poder identificar zonas de riesgo, cómo se manejan, dotar de responsabilidad tanto al mundo público como privado y también mejor capacidad para fiscalizar que cada uno de estos elementos se cumplan\", sostuvo la parlamentaria. Además, González emplazó a Campos: \"No siga insistiendo en esta situación\" .",
+          "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/incendios-forestales/gobierno-anuncio-veto-sustitutivo-a-la-ley-de-incendios/2026-11-03/155713.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261103/imag/foto_0000000220261103155713.jpg",
+          "published_raw": "Tue, 03 Nov 2026 15:57:13 -0300",
+          "published_at": "2026-11-03T15:57:13-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 7,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 13,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-006"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-004",
+      "title": "Romero y Pardo se enfrascaron sobre lealtades a Kast en medio de la crisis",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-republicano/romero-y-pardo-se-enfrascaron-sobre-lealtades-a-kast-en-medio-de-la-crisis/2026-11-03/110604.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 62.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 61.2
+      },
+      "selection": {
+        "reason": "PML 62.2; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-03T11:06:04-0300",
+      "last_seen": "2026-11-03T11:06:04-0300",
+      "entities": [
+        "chile",
+        "congreso"
+      ],
       "event_terms": "crisis",
       "analysis": {
-        "summary": "El jefe de la bancada de diputados del Partido Socialista, Raúl Leiva , insistió en Cooperativa en la necesidad de presentar una acusación constitucional en contra del ministro de Justicia, Fernando Rabat , por la decisión de rebajar las condenas a un grupo de abusadores y violadores de menores de 14 años. En conversación con El Diario de Cooperativa , el diputado manifestó que \"nosotros tenemos la convicción de que aquí hay una infracción legal constitucional.",
+        "summary": "Los diputados Agustín Romero (Partido Republicano) y Luis Pardo (Renovación Nacional) tuvieron este martes en El Primer Café intensos cruces de palabras a propósito la crisis que golpea al Gobierno y al oficialismo a raíz de las rebajas de condena a pederastas. El intercambio partió con ironías y risas moderadamente amistosas , pero fue subiendo de tono a medida que pasaban los minutos; con el telón de fondo de la decisión -transversalmente cuestionada- del Presidente José…",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -378,22 +231,22 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Diputado Leiva: La acusación constitucional no es contra el Gobierno",
-          "description": "El jefe de la bancada de diputados del Partido Socialista, Raúl Leiva , insistió en Cooperativa en la necesidad de presentar una acusación constitucional en contra del ministro de Justicia, Fernando Rabat , por la decisión de rebajar las condenas a un grupo de abusadores y violadores de menores de 14 años. En conversación con El Diario de Cooperativa , el diputado manifestó que \"nosotros tenemos la convicción de que aquí hay una infracción legal constitucional. E sta no es una acusación constitucional contra el gobierno, es hacer efectiva una responsabilidad constitucional, en el entendido que el gobierno ha sido incapaz también -y es un elemento adicional que complica la situación- de hacer efectiva la responsabilidad política del ministro de Estado\". \"Eventualmente puede seguir pasando, pero no ha ocurrido porque la Corte ha cambiado y ha modificado esta situación. Los gobiernos anteriores dieron la pelea donde había que darla, en tribunales, cambiando el criterio jurisprudencial, a diferencia de lo que hizo con infracción legal y constitucional el ministro Rabat, que en interpretación propia modifica el criterio que habían tenido ministros anteriores\", precisó. Para Leiva, \"este es un tema de convicción, de principios, de dejar libre a violadores de menores de 14 años\". El parlamentario también cuestionó la decisión del Presidente José Antonio Kast de viajar a Europa en medio de esta crisis, recalcando que \"el nivel de problema, esta verdadera emergencia que hay, no solo por la acusación, sino que lo que ha generado al interior del propio Ejecutivo, es cosa de ver las declaraciones vacilantes del nuevo vocero en todas las últimas intervenciones y las disputas que existen al interior de la coalición, eso requiere conducción, que es lo que ha faltado respecto del gobierno\". \"Que el Presidente se ausente una semana, en un momento crítico, donde tiene su menor aprobación y el mayor rechazo en estos ocho meses, me parece muy complejo para salir del país\" , aseguró. Leiva insistió en \" que más encima utilice este tipo de instancias para reunirse con líderes de la ultraderecha internacional, creo que no corresponde , no es bueno para el país\". Además, el diputado se refirió a las comparaciones entre el caso de Rabat y la salida de la exministra de Seguridad, Trinidad Steinert, frente a lo que recordó que \"Steinert nos plantearon 'para qué sale', hicimos una comisión investigadora y nunca apareció , por lo que tuvimos que remitir los antecedentes al Ministerio Público (...) la exministra, que nombró este gobierno, que tenía confianza política, no fue capaz una vez de ir a la comisión para escrutar su trabajo y su labor\". \"Tenemos a un ministro que no ha presentado la renuncia, creemos que sí debería el Presidente haberla solicitado y vamos a presentar la acusación constitucional\", sentenció.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/diputado-leiva-la-acusacion-constitucional-no-es-contra-el-gobierno/2026-11-02/091921.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261102/imag/foto_0000000220261102091921.jpg",
-          "published_raw": "Mon, 02 Nov 2026 09:19:21 -0300",
-          "published_at": "2026-11-02T09:19:21-0300",
+          "title": "Romero y Pardo se enfrascaron sobre lealtades a Kast en medio de la crisis",
+          "description": "Los diputados Agustín Romero (Partido Republicano) y Luis Pardo (Renovación Nacional) tuvieron este martes en El Primer Café intensos cruces de palabras a propósito la crisis que golpea al Gobierno y al oficialismo a raíz de las rebajas de condena a pederastas. El intercambio partió con ironías y risas moderadamente amistosas , pero fue subiendo de tono a medida que pasaban los minutos; con el telón de fondo de la decisión -transversalmente cuestionada- del Presidente José Antonio Kast de mantener en su cargo al ministro de Justicia, Fernando Rabat . En este contexto, Pardo defendió la declaración pública en la que RN planteó \"serios reparos\" al manejo del conflicto por parte del Ejecutivo , que -planteó- hoy tiene su agenda \"paralizada\". También llamó a \" fortalecer la conducción política del Gobierno , mejorando la capacidad de anticipación, coordinación y rigurosidad en la toma de decisiones\", y criticó, de paso, a \"quienes cumplen funciones de asesoría directa al Presidente de la República\". Declaración pública de Renovación Nacional ante los hechos conocidos en relación con la rebaja de penas a condenados por delitos sexuales contra menores de edad. https://t.co/LuGZlJKdKe — Renovación Nacional 🇨🇱 (@RNchile) November 3, 2026 \" Es una crítica, sin duda \", pero es preferible que se haya formulado \"como partido\" a favorecer que la manifiesten \"distintos parlamentarios de manera individual\", dando una sensación de \"desorden que termina perjudicando al mismo Gobierno\", señaló Pardo. A juicio del legislador RN, \"el Gobierno está pagando costos más allá de lo razonable y de lo prudente\" con este trance. \"Nosotros vamos a defender la decisión que tomó el Presidente de la República\", contestó Romero, preguntándose, con sorna, \"¿qué va a cambiar?\" con la crítica de RN: \" No creo que (en La Moneda) digan: ' ¡Uy!, respecto a este comunicado, entonces vamos a hacer todos los cambios que nos están pidiendo '\" . \"Si la solución es que se vaya el ministro y retrocedamos a lo que se hacía antes, que sea la Corte la que hace la pega y nosotros nos lavamos las manos; ese, por lo menos, no es el camino que nosotros vamos a tomar como republicanos \", enfatizó, para, a renglón seguido, lanzar un desafío a sus socios. \"Aquí vamos a ver quién es quién\" Agustín Romero: \"Yo voy a decir una cosa y quiero que la sepa todo el mundo que me está escuchando.  Aunque seamos nosotros 30 (los diputados republicanos) los únicos que vamos a apoyar la decisión del  Presidente de la República, vamos a estar los 30 con el Presidente, de aquí hasta el último día del Gobierno \". \"Esta cuestión de que estemos haciendo  comunicados para que se queden tranquilos los díscolos  a mí no me gusta. Acá tenemos que funcionar bien disciplinados. No podemos aceptar que le pase lo mismo que le pasó a otros gobiernos de nuestro  sector, que desde sus mismos partidos se empiezan a  torpedear sus medidas. Eso nosotros no lo vamos a aguantar . Vamos a seguir firmes apoyando la decisión del Presidente de la República, porque éste es nuestro Gobierno\". \" Nosotros fuimos los diputados de Kast . A los parlamentarios yo los veo en Cerro Castillo sacándose selfies con el Presidente , y aquí el Presidente nos dijo: ' Yo tomé esta decisión, ¿me apoyan o no me apoyan?'. Y aquí vamos a ver quién es quién nomás\". Luis Pardo: \"Yo no he señalado en ningún minuto que esto sea un comunicado para dejar tranquilos a los díscolos. Es un comunicado donde se constata un problema grave y y se hace presente públicamente, con lo cual se evita que aparezcan varios haciendo sus propios análisis, sus propias reprimendas al Gobierno\". \"Me parece perfectamente legítimo y necesario que, cuando existe una circunstancia grave como ésta, un partido se pronuncie colectivamente, expresando su preocupación y su posición\". \"Botarse a choro\" Pardo se refirió, en este punto, a las amenazas cruzadas que se han escuchado durante la última semana de un quiebre entre Chile Vamos y el Partido Republicano, e incluso a la posibilidad de su salida del Ejecutivo. Luis Pardo: \" Imagínese lo que pasaría si dejáramos los cargos...  (En la Administración Kast) perderían un activo importante; gente con experiencia y conocimiento\". Agustín Romero: \"Se quedan sin pega, nomás\". Luis Pardo: \"Eso desde el punto de vista de los que buscan pega, pues, pero no es el caso de la inmensa mayoría de los (militantes de Chile Vamos) que están (en el Gobierno)\". Agustín Romero: \"Tampoco es para botarse a choro\" . Luis Pardo: \"Bueno, regresando el Presidente de su gira internacional -que va a ser muy pronto, entiendo que en dos días más-, nosotros esperamos que esto tenga un curso de solución\". \"Yo nunca he pedido la renuncia del ministro Rabat, a quien le tengo un gran aprecio; ni lo haría, porque siempre es prerrogativa exclusiva del Presidente, pero ésta es una materia que va más allá de la figura de un ministro y que amerita una reacción que , a nuestro juicio, el Gobierno no ha tenido . Y ése es el sentido único del comunicado\". \"Niñerías\" Pardo continuó: \" Esa frase de (Romero) ' dejen de tomarse selfies con el Presidente ' me parece una niñería . No es la forma de enfrentar una relación adulta entre partes de un Gobierno\". \"El aporte que pueda hacer Renovación Nacional, precisamente por la experiencia que tuvimos de un Gobierno que fue abandonado   en los momentos más  difíciles , (es que) no queremos que le pase lo mismo al Presidente Kast , y nuestro aporte siempre va a ser en la línea de contribuir a superar una crisis y no de agudizarla con declaraciones impropias . La derecha, en toda su amplitud, tiene que aprender y sacar lecciones de lo que se pudo evitar y de aquello que se hizo mal (en el pasado)\". Agustín Romero : \"Seamos justos, el Partido Republicano en esa época (de Sebstián Piñera) era incipiente, recién inscrito. Los que abandonaron al Presidente Piñera fueron los (oficialistas de entonces) que le votaron (a favor) los retiros . ¿O no se acuerda, Luis Pardo? ¿Quiénes fueron los que votaron retiro? ¿Quiénes fueron los que empezaron con esa iniciativa?\". Luis Pardo: \"Yo voté en contra de los retiros\". Agustín Romero: \"Tú sí, pero ¿qué partido fue el que votaba (a favor) los retiros? No nos eches la culpa a nosotros de que dejamos botado al  Presidente Piñera . Nosotros ni estábamos en el Congreso. No, pues. Seamos justos\". Luis Pardo: \"Yo no estoy echándole la culpa a nadie, no he mencionado al Partido Republicano respecto del tema. Sí señalo lo importante que es que un Gobierno, en momentos difíciles -pues  hoy día el país está en momentos difíciles - tenga el apoyo absolutamente institucional de los partidos y que se mantengan esos partidos ordenados. Eso es parte también del desafío y del aprendizaje\". Agustín Romero: \" Claro, lo apoyo, pero lo critico en público...\". Luis Pardo: \"Te podría responder, Agustín, ¿qué pasó con la acusación constitucional (republicana contra Nicolás Grau), que evidentemente no le convenía al Presidente (Kast)? ¿Qué pasó con la acusación a los ministros de la Corte Suprema con que ustedes iban a partir corriendo ahora detrás de otro partido (el Libertario)? Yo creo que es mejor mantener la crítica institucional y de buen nivel que entrar en el dime y direte \". Agustín Romero: \"Si eso es lo que estamos pidiendo, pues; que mantengamos la crítica institucional\".",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-republicano/romero-y-pardo-se-enfrascaron-sobre-lealtades-a-kast-en-medio-de-la-crisis/2026-11-03/110604.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261103/imag/foto_0000000220261103110604.jpg",
+          "published_raw": "Tue, 03 Nov 2026 11:06:04 -0300",
+          "published_at": "2026-11-03T11:06:04-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 8,
+          "score_institutional": 7,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 1,
-          "score_actor": 4,
+          "score_actor": 5,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 14,
@@ -401,7 +254,160 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-006"
+          "cluster_id": "PML-EVENT-004"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-003",
+      "title": "Timonel PPD: \"La crisis se está empezando a hacer generalizada\"",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/ppd/timonel-ppd-la-crisis-se-esta-empezando-a-hacer-generalizada/2026-11-03/121110.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 61.6,
+        "level": "MEDIA",
+        "editorial_utility": 56.6
+      },
+      "selection": {
+        "reason": "PML 61.6; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-03T12:11:10-0300",
+      "last_seen": "2026-11-03T12:11:10-0300",
+      "entities": "chile",
+      "event_terms": [
+        "crisis",
+        "oposicion"
+      ],
+      "analysis": {
+        "summary": "El presidente del PPD, Raúl Soto , alertó en El Primer Café que la conjunción del caso Rabat con los problemas de crecimiento y empleo -que hoy tienen incluso movilizados a los camioneros- están dibujando un escenario de \"crisis generalizada\" en Chile , cuya responsabilidad es de la Administración Kast.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Timonel PPD: \"La crisis se está empezando a hacer generalizada\"",
+          "description": "El presidente del PPD, Raúl Soto , alertó en El Primer Café que la conjunción del caso Rabat con los problemas de crecimiento y empleo -que hoy tienen incluso movilizados a los camioneros- están dibujando un escenario de \"crisis generalizada\" en Chile , cuya responsabilidad es de la Administración Kast. \" Al Gobierno le llueve sobre mojado : por un lado está la crisis ética y de confianza por el caso Rabat ; y por el otro, la crisis económica y de alto costo de la vida provocada por el ministro (de Hacienda Jorge) Quiroz con la decisión de traspasar el costo de las bencinas (...) a la clase media y a los transportistas de Chile, que hasta ahora venían sosteniendo el costo de su propio bolsillo para respaldar a su Gobierno, pero que hoy día (...) se ven en la obligación de rebelarse y empezar a  ejercer presión \", analizó Soto en Cooperativa . \" Los gremios tienen que ejercer el rol que les corresponde, y cuando el Gobierno está tomando decisiones tan  equivocadas , evidentemente debe tener una respuesta de los que están siendo afectados. Más aún cuando las decisiones económicas van (...) acompañadas de  decisiones de política exterior que también van por un camino incorrecto  y que están afectando a sectores productivos muy importantes para la exportación chilena, como son la fruta, el vino, la madera, los salmones; afectando también nuestra economía y nuestra capacidad de crecimiento económico\", opinó el diputado. Promesas rotas En resumen, \"acá se están viendo impactadas y afectadas gravemente las principales promesas de campaña del actual Gobierno y del actual Presidente: el crecimiento económico está por el suelo, el desempleo está por las nubes y la inflación también\" . En este contexto \"hay, sin duda, mucha preocupación en la sociedad, y yo creo que el Gobierno debe dar un golpe de timón, una muestra clara de cambio de rumbo. De lo contrario, la crisis -que ya está empezando a hacerse generalizada- va a profundizarse, y no queremos eso para Chile\" , señaló el timonel. Desde la oposición \"le estamos diciendo al Gobierno que busque caminos distintos, que no sea tozudo , no sea tan inflexible en la perspectiva ideológica sobre la cual está tomando las decisiones en materia social, económica y de política exterior, porque la verdad que los resultados, a más de siete meses de iniciado el  Gobierno, son malos\" . \"El Gobierno dijo que íbamos a estar mejor y la verdad es que  estamos peor, y todos los problemas que teníamos se han acrecentado , se han profundizado y no vemos una salida clara y un norte claro\", lamentó el líder PPD. \"Mucha inconsistencia y bipolaridad\" Coincidió en el mismo panel la secretaria general del Partido Comunista, Bárbara Figueroa , quien observó \"una falta de capacidad de gobernar , de gestionar, dialogar y buscar puntos de encuentro\". \" Esta lógica de decir: ' Miren, todo va a estar bien mañana o pasado, o en 10 días más, o de aquí al 2028, o de aquí al no sé  cuantito '  no resiste tras ocho meses de Gobierno, sobre todo para una persona que  se preparó 10 años para llegar a la Presidencia de la República\" , criticó. Hasta ahora \"hay 58 autoridades que han salido en ocho meses: o sea, una total inexpertiz. Y si esto no es amateurismo , yo no sé qué es lo que es\", señaló la expresidenta de la CUT. Desde el Ejecutivo, \"además, presionan al empresariado y luego salen al mundo a decir: ' Señores, vengan por favor a invertir, este es el mejor de los  mundos '... O sea, en el mundo esta disonancia los terceros la miran, la ven. Y eso no le está haciendo bien al país\", insistió Figueroa, para quien el Gobierno, en general, \"está demostrando mucha inconsistencia y mucha bipolaridad en la forma en que está actuando, y eso afecta a la imagen país\".",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/ppd/timonel-ppd-la-crisis-se-esta-empezando-a-hacer-generalizada/2026-11-03/121110.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261103/imag/foto_0000000220261103121110.jpg",
+          "published_raw": "Tue, 03 Nov 2026 12:11:10 -0300",
+          "published_at": "2026-11-03T12:11:10-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 4,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 3,
+          "score_ideology": 1,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 14,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-003"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-020",
+      "title": "Trump asegura que suspenderá a final de año los 4.000 millones de dólares de ayuda militar a Israel",
+      "url": "https://elpais.com/internacional/2026-11-03/trump-dice-que-suspendera-4000-millones-de-dolares-en-ayuda-a-israel.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "POLITICAL_STATEMENT",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 56.8,
+        "level": "MEDIA",
+        "editorial_utility": 50.8
+      },
+      "selection": {
+        "reason": "PML 56.8; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-03T16:00:03-0300",
+      "last_seen": "2026-11-03T16:00:03-0300",
+      "entities": [
+        "trump",
+        "israel",
+        "congreso"
+      ],
+      "event_terms": [],
+      "analysis": {
+        "summary": "El presidente de EE UU dice que ha acordado la medida con Netanyahu, pero no aclara su alcance. El pacto no expira hasta 2028 y lo aprueba el Congreso",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Trump asegura que suspenderá a final de año los 4.000 millones de dólares de ayuda militar a Israel",
+          "description": "El presidente de EE UU dice que ha acordado la medida con Netanyahu, pero no aclara su alcance. El pacto no expira hasta 2028 y lo aprueba el Congreso",
+          "url": "https://elpais.com/internacional/2026-11-03/trump-dice-que-suspendera-4000-millones-de-dolares-en-ayuda-a-israel.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/ITSHTD4ZLRKOHP64G4QNTVIWNM.jpg?auth=9388b03fb0915e460dda741c75a3d81c0dd5825a15589c2ee78dde537a0d020b",
+          "published_raw": "Tue, 03 Nov 2026 19:00:03 GMT",
+          "published_at": "2026-11-03T16:00:03-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-020"
         }
       ]
     }
@@ -414,6 +420,147 @@
     "stories": [
       {
         "position": 1,
+        "cluster_id": "PML-EVENT-005",
+        "title": "Diputado Leiva: La acusación constitucional no es contra el Gobierno",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_CRISIS",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/diputado-leiva-la-acusacion-constitucional-no-es-contra-el-gobierno/2026-11-02/091921.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 52.3,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 81,
+            "freshness": 52,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-02T09:19:21-0300",
+        "last_seen": "2026-11-02T09:19:21-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Diputado Leiva: La acusación constitucional no es contra el Gobierno",
+            "description": "El jefe de la bancada de diputados del Partido Socialista, Raúl Leiva , insistió en Cooperativa en la necesidad de presentar una acusación constitucional en contra del ministro de Justicia, Fernando Rabat , por la decisión de rebajar las condenas a un grupo de abusadores y violadores de menores de 14 años. En conversación con El Diario de Cooperativa , el diputado manifestó que \"nosotros tenemos la convicción de que aquí hay una infracción legal constitucional. E sta no es una acusación constitucional contra el gobierno, es hacer efectiva una responsabilidad constitucional, en el entendido que el gobierno ha sido incapaz también -y es un elemento adicional que complica la situación- de hacer efectiva la responsabilidad política del ministro de Estado\". \"Eventualmente puede seguir pasando, pero no ha ocurrido porque la Corte ha cambiado y ha modificado esta situación. Los gobiernos anteriores dieron la pelea donde había que darla, en tribunales, cambiando el criterio jurisprudencial, a diferencia de lo que hizo con infracción legal y constitucional el ministro Rabat, que en interpretación propia modifica el criterio que habían tenido ministros anteriores\", precisó. Para Leiva, \"este es un tema de convicción, de principios, de dejar libre a violadores de menores de 14 años\". El parlamentario también cuestionó la decisión del Presidente José Antonio Kast de viajar a Europa en medio de esta crisis, recalcando que \"el nivel de problema, esta verdadera emergencia que hay, no solo por la acusación, sino que lo que ha generado al interior del propio Ejecutivo, es cosa de ver las declaraciones vacilantes del nuevo vocero en todas las últimas intervenciones y las disputas que existen al interior de la coalición, eso requiere conducción, que es lo que ha faltado respecto del gobierno\". \"Que el Presidente se ausente una semana, en un momento crítico, donde tiene su menor aprobación y el mayor rechazo en estos ocho meses, me parece muy complejo para salir del país\" , aseguró. Leiva insistió en \" que más encima utilice este tipo de instancias para reunirse con líderes de la ultraderecha internacional, creo que no corresponde , no es bueno para el país\". Además, el diputado se refirió a las comparaciones entre el caso de Rabat y la salida de la exministra de Seguridad, Trinidad Steinert, frente a lo que recordó que \"Steinert nos plantearon 'para qué sale', hicimos una comisión investigadora y nunca apareció , por lo que tuvimos que remitir los antecedentes al Ministerio Público (...) la exministra, que nombró este gobierno, que tenía confianza política, no fue capaz una vez de ir a la comisión para escrutar su trabajo y su labor\". \"Tenemos a un ministro que no ha presentado la renuncia, creemos que sí debería el Presidente haberla solicitado y vamos a presentar la acusación constitucional\", sentenció.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/diputado-leiva-la-acusacion-constitucional-no-es-contra-el-gobierno/2026-11-02/091921.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261102/imag/foto_0000000220261102091921.jpg",
+            "published_raw": "Mon, 02 Nov 2026 09:19:21 -0300",
+            "published_at": "2026-11-02T09:19:21-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 8,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 0,
+            "score_ideology": 1,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-005"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 73.3
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-010",
+        "title": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas",
+        "topic": "Economía y políticas públicas",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/ricardo-solari-en-un-ano-quiroz-transformo-a-los-chilenos-en-estatistas/2026-11-02/120500.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 45.8,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 51,
+            "freshness": 62,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-02T12:05:00-0300",
+        "last_seen": "2026-11-02T12:05:00-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas",
+            "description": "El exministro Ricardo Solari (PS) atribuyó en El Primer Café las dificultades políticas y económicas que está atravesando hoy el país a una \"incapacidad de discernimiento de la realidad\" por parte del Presidente Jósé Antonio Kast . A propósito de la crisis causada por las rebajas de condena a pederastas, pero ligándola con los malos resultados en crecimiento y empleo, Solari afirmó que en estos momentos está \" en tela de juicio la capacidad y la competencia de gestión política del Gobierno, y el liderazgo del Presidente\" . Para el director del Instituto Igualdad  (centro de pensamiento del Partido Socialista), la salida de Rabat \"es un desde\" , pero no soluciona el \"problema de conducción general\" en términos políticos y económicos, que está ligado a \"una incompetencia en el discernimiento respecto de la  realidad que estamos viviendo como país\". \"La cosa va mucho más allá de Rabat\" Citando los resultados de la última Encuesta Bicentenario UC , el exministro del Trabajo señaló que \" el gran triunfo del ministro (de Hacienda, Jorge) Quiroz es haber transformado a los chilenos en estatistas\" . Según la medición, hoy un 43 por ciento considera que el Estado debería preocuparse y hacerse responsable del bienestar de las personas : un aumento de 15 puntos porcentuales respecto de 2025, cuando esta posición alcanzaba sólo el 28 por ciento. \"Si hace un año predominaba la apreciación  de que queríamos desempeños personales como camino de superación , hoy día la gente pide Estado... ¡En (apenas) un año!  Entonces, yo creo que la cosa va mucho más allá de Rabat , que es un hecho de la causa y que debería haber salido ya \", señaló el extitular del Trabajo (2000-2005) del Gobierno de Ricardo Lagos. \"Él (Rabat) debería hacer su propia evaluación, porque no está ayudando, pero  aquí hay un problema más general de conducción y de liderazgo , y es un tema que el Gobierno tiene que revisar, porque es mala cosa para un país  un Presidente que tiene una incapacidad de leer los datos de la realidad tanto en economía como en política  (...) Este país lo está pasando mal y necesita un cambio de rumbo\", enfatizó Solari. \"Las cifras seguirán siendo malas\" El economista aprovechó de comentar además que la última estadística en desempleo (9,8 por ciento) \"fue mala\", e indicó que \" las próximas cifras van a seguir siendo muy malas \". Señaló que el crecimiento de este 2026 estará bajo 0,5 puntos, y \"si tú tomas el rango optimista las predicciones económicas del Banco Central , (indica que) en estos primeros tres años de Gobierno (2026, 2027 y 2028) el país va a crecer un 2,3 por ciento  en promedio, cuando el año pasado, con el Presidente Boric, creció 2,5\". \"Aquí lo único claro es que hubo una rebaja de impuestos , una rebaja de los recursos del Presupuesto -que es la presencia del Estado que reclama la gente en la Encuesta Bicentenario- y un bencinazo que condiciona, de acuerdo a todos los análisis, tanto en los costos de las empresas como los ingresos de la familia\", cuestionó. Por todos estos motivoss, \"atribuir una gestión exitosa cuando tenemos estos números que nos golpean en la cara y que de alguna manera son una cierta tragedia social , me parece significativamente estar un poco fuera de la realidad \", insistió el socialista Solari. Vea también  Imacec: Economía creció 0,2% en septiembre lastrada por la minería \"Falta de criterio\" Luis Ruz, presidente del directorio de Democracia y Comunidad ,   centro de pensamiento de la Democracia Cristiana, opinó en El Primer Café que, \" desde el punto de vista político, el caso Rabat ya dejó de ser un episodio y se transformó en un momento político \"; de aquéllos que \"dejan huella\". \"Ya a esta altura del partido, el caso Rabat es un antes y un después   para este Gobierno\" : una crisis que delata \" falta de oficio político, de criterio político y de conocer cómo funciona la política en todas sus dimensiones\". El Ejecutivo \"ha cometido un error de criterio que está impactando muchísimo su aprobación\", y \"todo indica que, para que la crisis no siga adelante perjudicando al propio Presidente, lo más sano, políticamente hablando es que el ministro Rabat dé un paso  al lado\" , señaló el también vicepresidente falangista. ",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/ricardo-solari-en-un-ano-quiroz-transformo-a-los-chilenos-en-estatistas/2026-11-02/120500.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261102/imag/foto_0000000220261102120500.jpg",
+            "published_raw": "Mon, 02 Nov 2026 12:05:00 -0300",
+            "published_at": "2026-11-02T12:05:00-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 3,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 5,
+            "score_ideology": 1,
+            "score_actor": 3,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 13,
+            "primary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Instituciones y gobierno",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-010"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 9,
+          "labels": "Economía y políticas públicas",
+          "chile_utility": 54.8
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
         "cluster_id": "PML-EVENT-008",
         "title": "Diputada Ossandón: Se hace muy difícil la continuidad del ministro Rabat",
         "topic": "Instituciones y gobierno",
@@ -425,11 +572,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55,
+          "score": 52,
           "level": "MEDIA",
           "components": {
             "political_impact": 50,
-            "freshness": 100,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -480,145 +627,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 76
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-010",
-        "title": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas",
-        "topic": "Economía y políticas públicas",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/ricardo-solari-en-un-ano-quiroz-transformo-a-los-chilenos-en-estatistas/2026-11-02/120500.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 48.3,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 51,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 30
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-02T12:05:00-0300",
-        "last_seen": "2026-11-02T12:05:00-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas",
-            "description": "El exministro Ricardo Solari (PS) atribuyó en El Primer Café las dificultades políticas y económicas que está atravesando hoy el país a una \"incapacidad de discernimiento de la realidad\" por parte del Presidente Jósé Antonio Kast . A propósito de la crisis causada por las rebajas de condena a pederastas, pero ligándola con los malos resultados en crecimiento y empleo, Solari afirmó que en estos momentos está \" en tela de juicio la capacidad y la competencia de gestión política del Gobierno, y el liderazgo del Presidente\" . Para el director del Instituto Igualdad  (centro de pensamiento del Partido Socialista), la salida de Rabat \"es un desde\" , pero no soluciona el \"problema de conducción general\" en términos políticos y económicos, que está ligado a \"una incompetencia en el discernimiento respecto de la  realidad que estamos viviendo como país\". \"La cosa va mucho más allá de Rabat\" Citando los resultados de la última Encuesta Bicentenario UC , el exministro del Trabajo señaló que \" el gran triunfo del ministro (de Hacienda, Jorge) Quiroz es haber transformado a los chilenos en estatistas\" . Según la medición, hoy un 43 por ciento considera que el Estado debería preocuparse y hacerse responsable del bienestar de las personas : un aumento de 15 puntos porcentuales respecto de 2025, cuando esta posición alcanzaba sólo el 28 por ciento. \"Si hace un año predominaba la apreciación  de que queríamos desempeños personales como camino de superación , hoy día la gente pide Estado... ¡En (apenas) un año!  Entonces, yo creo que la cosa va mucho más allá de Rabat , que es un hecho de la causa y que debería haber salido ya \", señaló el extitular del Trabajo (2000-2005) del Gobierno de Ricardo Lagos. \"Él (Rabat) debería hacer su propia evaluación, porque no está ayudando, pero  aquí hay un problema más general de conducción y de liderazgo , y es un tema que el Gobierno tiene que revisar, porque es mala cosa para un país  un Presidente que tiene una incapacidad de leer los datos de la realidad tanto en economía como en política  (...) Este país lo está pasando mal y necesita un cambio de rumbo\", enfatizó Solari. \"Las cifras seguirán siendo malas\" El economista aprovechó de comentar además que la última estadística en desempleo (9,8 por ciento) \"fue mala\", e indicó que \" las próximas cifras van a seguir siendo muy malas \". Señaló que el crecimiento de este 2026 estará bajo 0,5 puntos, y \"si tú tomas el rango optimista las predicciones económicas del Banco Central , (indica que) en estos primeros tres años de Gobierno (2026, 2027 y 2028) el país va a crecer un 2,3 por ciento  en promedio, cuando el año pasado, con el Presidente Boric, creció 2,5\". \"Aquí lo único claro es que hubo una rebaja de impuestos , una rebaja de los recursos del Presupuesto -que es la presencia del Estado que reclama la gente en la Encuesta Bicentenario- y un bencinazo que condiciona, de acuerdo a todos los análisis, tanto en los costos de las empresas como los ingresos de la familia\", cuestionó. Por todos estos motivoss, \"atribuir una gestión exitosa cuando tenemos estos números que nos golpean en la cara y que de alguna manera son una cierta tragedia social , me parece significativamente estar un poco fuera de la realidad \", insistió el socialista Solari. Vea también  Imacec: Economía creció 0,2% en septiembre lastrada por la minería \"Falta de criterio\" Luis Ruz, presidente del directorio de Democracia y Comunidad ,   centro de pensamiento de la Democracia Cristiana, opinó en El Primer Café que, \" desde el punto de vista político, el caso Rabat ya dejó de ser un episodio y se transformó en un momento político \"; de aquéllos que \"dejan huella\". \"Ya a esta altura del partido, el caso Rabat es un antes y un después   para este Gobierno\" : una crisis que delata \" falta de oficio político, de criterio político y de conocer cómo funciona la política en todas sus dimensiones\". El Ejecutivo \"ha cometido un error de criterio que está impactando muchísimo su aprobación\", y \"todo indica que, para que la crisis no siga adelante perjudicando al propio Presidente, lo más sano, políticamente hablando es que el ministro Rabat dé un paso  al lado\" , señaló el también vicepresidente falangista. ",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/ricardo-solari-en-un-ano-quiroz-transformo-a-los-chilenos-en-estatistas/2026-11-02/120500.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261102/imag/foto_0000000220261102120500.jpg",
-            "published_raw": "Mon, 02 Nov 2026 12:05:00 -0300",
-            "published_at": "2026-11-02T12:05:00-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 3,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 5,
-            "score_ideology": 1,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 13,
-            "primary_topic": "Economía y políticas públicas",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-010"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Economía y políticas públicas",
-          "chile_utility": 57.3
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-007",
-        "title": "Aprobación de Kast se desploma a sus mínimos históricos en medio de crisis en Justicia",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_CRISIS",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/aprobacion-de-kast-se-desploma-a-sus-minimos-historicos-en-medio-de/2026-11-01/121423.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 50.6,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 72,
-            "freshness": 40,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 48
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-01T12:14:23-0300",
-        "last_seen": "2026-11-01T12:14:23-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Aprobación de Kast se desploma a sus mínimos históricos en medio de crisis en Justicia",
-            "description": "La aprobación al Gobierno del Presidente José Antonio Kast cayó a su registro más bajo desde el inicio de su administración , alcanzando un 22,1% según la medición de Pulso Ciudadano y un 25% de acuerdo con Agenda Criteria , en un escenario político marcado por el desplome de la confianza pública y el rechazo ciudadano a la gestión de la crisis por beneficios penitenciarios a pederastas por parte del Ministerio de Justicia . Pulso Ciudadano: desplome estadístico y caída en la confianza El sondeo de Pulso Ciudadano evidenció un quiebre en el balance de la gestión presidencial. Mientras que la aprobación se redujo al 22,1%, la desaprobación escaló hasta un 67,5% , alcanzando su techo histórico en lo que va del período . El 10,5% restante de los participantes manifestó no saber o no respondió la consulta. El retroceso resulta estadísticamente significativo al compararlo con los datos de septiembre, cuando el Mandatario contaba con un 28,2% de respaldo y un 57,6% de rechazo , lo que representa una caída neta de 6,1 puntos porcentuales en su adhesión y un aumento de 9,9 puntos en el descontento popular. Este declive se refleja también en los índices de credibilidad: apenas un 16,1% de la ciudadanía afirma mantener mucha o bastante confianza en la figura del Presidente Kast , frente a un 61,2% que expresa tener poca o nula confianza, sumado a un 22,7% que se ubica en un nivel de confianza intermedio. Casi tres cuartas partes del electorado consideran que el jefe de Estado debe exigir la salida inmediata del ministro de Justicia, Fernando Rabat. (FOTO: ATON)   Coincidencia en Criteria y la alta intensidad del rechazo En una línea similar, la última entrega de Criteria ratificó la tendencia descendente de La Moneda al situar el respaldo al Mandatario en un 25%, bajando dos puntos respecto a la medición previa . De forma paralela, la desaprobación aumentó un punto para ubicarse en el 65% , mientras que un 10% de los encuestados declaró no contar con una postura definida. En tanto, entre el universo de personas que evalúan negativamente la gestión de Kast, el 59% asegura hacerlo con la máxima intensidad posible en una medición de 1 a 5, en contraste con el grupo que aprueba al Gobierno, donde apenas un 21% manifiesta respaldarlo con ese mismo nivel de firmeza . Crisis carcelaria y presión sobre el ministro Fernando Rabat El impacto negativo en los sondeos se vincula con la controversia por la rebaja de penas a condenados por delitos sexuales contra menores de edad . Según Pulso Ciudadano, un 71,7% de la población califica como mala o muy mala la respuesta del Ejecutivo frente a este episodio , frente a solo un 14,7% que la evalúa de forma positiva y un 13,6% que la considera regular. Esta reprobación resulta transversal, elevándose al 87,9% en sectores de oposición y al 76,4% en personas sin identificación política . En este marco, la continuidad del titular de Justicia se transformó en un flanco crítico para el oficialismo. Un 74,2% de los encuestados sostiene que el Presidente Kast cometió una equivocación al ratificar a Fernando Rabat en el cargo y demanda su renuncia inmediata, mientras que solo un 13,3% respalda su permanencia. El deterioro de las cifras presidenciales coincide con el rechazo al manejo gubernamental frente a la rebaja de penas carcelarias a condenados por delitos sexuales contra menores de edad. (FOTO: ATON) La exigencia de renuncia encuentra eco incluso en las filas gubernamentales, donde un 49,8% de los propios partidarios del Ejecutivo se muestra a favor de su salida . Apoyo a juicio político y rechazo a beneficios penitenciarios La disconformidad ciudadana también se traduce en un amplio respaldo a las acciones de fiscalización parlamentaria. De acuerdo con el sondeo, un 64,3% de los chilenos votaría a favor de una acusación constitucional contra el ministro Rabat si ejerciera un cargo como diputado, opción que supera con holgura al 21,2% que rechazaría el libelo acusatorio y al 14,5% que no toma posición. Este apoyo al juicio político es particularmente alto en las mujeres, con un 70,1%, y en el segmento juvenil de 18 a 30 años, donde trepa al 79,1%. Finalmente, ante la consulta sobre qué crímenes no deberían acceder a rebajas de condena por buena conducta, los delitos sexuales contra menores de edad encabezan las menciones con un 51,1% , seguidos por los homicidios con un 41,2%, el crimen organizado con un 37,4% y el narcotráfico con un 36,5%.",
-            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/aprobacion-de-kast-se-desploma-a-sus-minimos-historicos-en-medio-de/2026-11-01/121423.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261101/imag/foto_0000000420261101121423.jpg",
-            "published_raw": "Sun, 01 Nov 2026 12:14:23 -0300",
-            "published_at": "2026-11-01T12:14:23-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 6,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 2,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 14,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 59.6
+          "chile_utility": 73
         },
         "repeated_in_general_top5": false
       }
@@ -627,21 +636,15 @@
   "topics": [
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 6,
-      "maximum_relevance": 67.6,
-      "leading_story": "Estados Unidos ataca la isla iraní de Qeshm en la víspera de sus elecciones de medio mandato"
+      "event_count": 4,
+      "maximum_relevance": 69.8,
+      "leading_story": "Las ‘midterms’ 2026, en vivo | Los votantes acuden a las urnas en unas elecciones en las que Estados Unidos decide el control del Congreso"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 30,
-      "maximum_relevance": 66.1,
-      "leading_story": "Las ‘midterms’ 2026, en vivo | Abren los colegios en unas elecciones en las que se decide el control del Congreso"
-    },
-    {
-      "topic": "Relaciones internacionales",
-      "event_count": 1,
-      "maximum_relevance": 51.4,
-      "leading_story": "¿Qué hay detrás de la violencia contra los periodistas que las autoridades no pueden frenar?"
+      "event_count": 27,
+      "maximum_relevance": 65.1,
+      "leading_story": "Gobierno anunció veto sustitutivo a la ley de incendios"
     },
     {
       "topic": "Conflictos y seguridad",
@@ -650,22 +653,24 @@
       "leading_story": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales"
     },
     {
+      "topic": "Relaciones internacionales",
+      "event_count": 1,
+      "maximum_relevance": 48.9,
+      "leading_story": "¿Qué hay detrás de la violencia contra los periodistas que las autoridades no pueden frenar?"
+    },
+    {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 48.3,
+      "maximum_relevance": 45.8,
       "leading_story": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-030", "PML-EVENT-019", "PML-EVENT-013", "PML-EVENT-015"],
-      "exited_top5": ["PML-EVENT-027", "PML-EVENT-034", "PML-EVENT-025", "PML-EVENT-035"],
-      "retained_top5": "PML-EVENT-006"
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
