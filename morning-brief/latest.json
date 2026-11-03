@@ -3,52 +3,52 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-02",
-    "data_latest_timestamp": "2026-11-02T21:47:27-0300",
-    "data_age_hours": 5.1,
-    "generated_at": "2026-11-03T02:54:55-0300",
+    "date": "2026-11-03",
+    "data_latest_timestamp": "2026-11-03T10:27:18-0300",
+    "data_age_hours": 0.4,
+    "generated_at": "2026-11-03T10:52:49-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": true
+    "editorial_topic_diversity_met": false
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 38 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 39 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Elecciones y opinión pública.",
+    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 38,
-    "topics": 3,
+    "ranked_events": 39,
+    "topics": 2,
     "geographies": 3,
     "representative_sources": 3,
-    "average_top5_relevance": 58.7,
-    "maximum_relevance": 67.8
+    "average_top5_relevance": 62.3,
+    "maximum_relevance": 67.6
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-027",
-      "title": "El Tribunal Supremo rechaza apartar unas 20.000 boletas en California en vísperas de las ‘midterms’",
-      "url": "https://elpais.com/us/2026-11-02/el-tribunal-supremo-rechaza-apartar-unas-20000-boletas-en-california-en-visperas-de-las-midterms.html",
+      "cluster_id": "PML-EVENT-030",
+      "title": "Estados Unidos ataca la isla iraní de Qeshm en la víspera de sus elecciones de medio mandato",
+      "url": "https://elpais.com/internacional/2026-11-03/estados-unidos-ataca-la-isla-irani-de-qeshm-en-la-vispera-de-sus-elecciones-de-medio-mandato.html",
       "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "CONFLICT_ESCALATION",
       "geography": {
-        "group": "No identificado",
+        "group": "Estados Unidos",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 67.8,
+        "score": 67.6,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 67.8
+        "editorial_utility": 67.6
       },
       "selection": {
-        "reason": "PML 67.8",
+        "reason": "PML 67.6",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -58,19 +58,16 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-02T20:20:42-0300",
-      "last_seen": "2026-11-02T20:20:42-0300",
-      "entities": "supremo",
-      "event_terms": [
-        "tribunal",
-        "supremo"
-      ],
+      "first_seen": "2026-11-03T05:30:08-0300",
+      "last_seen": "2026-11-03T05:30:08-0300",
+      "entities": [],
+      "event_terms": "guerra",
       "analysis": {
-        "summary": "La Administración republicana argumentaba en su solicitud que no se deben contar esas papeletas hasta que se corrobore si los votantes son ciudadanos estadounidenses",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "Washington asegura que se trata de ataques “defensivos” que no implican un retorno inmediato a la guerra. Son los primeros bombardeos reconocidos desde septiembre",
+        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
         "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
+          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
@@ -79,52 +76,52 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "El Tribunal Supremo rechaza apartar unas 20.000 boletas en California en vísperas de las ‘midterms’",
-          "description": "La Administración republicana argumentaba en su solicitud que no se deben contar esas papeletas hasta que se corrobore si los votantes son ciudadanos estadounidenses",
-          "url": "https://elpais.com/us/2026-11-02/el-tribunal-supremo-rechaza-apartar-unas-20000-boletas-en-california-en-visperas-de-las-midterms.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/YXMON46ZGZNL5HLVY3WYMLPNVA.jpg?auth=805a18c5ab257758664e058ded87e52c7218a986f965fab17ead24c463881dad",
-          "published_raw": "Mon, 02 Nov 2026 23:20:42 GMT",
-          "published_at": "2026-11-02T20:20:42-0300",
+          "title": "Estados Unidos ataca la isla iraní de Qeshm en la víspera de sus elecciones de medio mandato",
+          "description": "Washington asegura que se trata de ataques “defensivos” que no implican un retorno inmediato a la guerra. Son los primeros bombardeos reconocidos desde septiembre",
+          "url": "https://elpais.com/internacional/2026-11-03/estados-unidos-ataca-la-isla-irani-de-qeshm-en-la-vispera-de-sus-elecciones-de-medio-mandato.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/3WOY5Y5IX5OOFIUPQ4HINAP6BI.jpg?auth=6e489d7baea6b878e0843c7b2dd99331f59a48aa9681b3be5cf91b172fae3251",
+          "published_raw": "Tue, 03 Nov 2026 08:30:08 GMT",
+          "published_at": "2026-11-03T05:30:08-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 0,
           "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
+          "score_international": 1,
+          "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-030"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-034",
-      "title": "Cita con las urnas en Estados Unidos: la corrupción emerge como la gran preocupación de última hora de los votantes",
-      "url": "https://elpais.com/us/2026-11-02/cita-con-las-urnas-en-estados-unidos-la-corrupcion-emerge-como-la-gran-preocupacion-de-ultima-hora-de-los-votantes.html",
+      "cluster_id": "PML-EVENT-019",
+      "title": "Las ‘midterms’ 2026, en vivo | Abren los colegios en unas elecciones en las que se decide el control del Congreso",
+      "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
       "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "ELECTORAL_EVENT",
       "geography": {
-        "group": "Estados Unidos",
+        "group": "Chile",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 58.5,
-        "level": "MEDIA",
-        "editorial_utility": 70.5
+        "score": 66.1,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 78.1
       },
       "selection": {
-        "reason": "PML 58.5; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 66.1; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -134,13 +131,93 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-02T06:30:00-0300",
-      "last_seen": "2026-11-02T06:30:00-0300",
-      "entities": [],
+      "first_seen": "2026-11-03T10:27:18-0300",
+      "last_seen": "2026-11-03T10:27:18-0300",
+      "entities": [
+        "congreso",
+        "senado"
+      ],
       "event_terms": [],
       "analysis": {
-        "summary": "La mayoría de estadounidenses consideran que la falta de integridad en el Gobierno es un problema muy grave, en vísperas del día de las elecciones de mitad de mandato",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
+        "summary": "Un puñado de Estados reñidos decidirá qué partido se hace con una mayoría en el Senado | El Departamento de Justicia envía observadores y organizaciones se movilizan para evitar la intimidación de votantes",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Las ‘midterms’ 2026, en vivo | Abren los colegios en unas elecciones en las que se decide el control del Congreso",
+          "description": "Un puñado de Estados reñidos decidirá qué partido se hace con una mayoría en el Senado | El Departamento de Justicia envía observadores y organizaciones se movilizan para evitar la intimidación de votantes",
+          "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/JE2W2RXPOFKHFL7LTL5MPO4PJU.jpg?auth=500c8aabfdcd97c1f86ccff284f877dd99fd247ebc43dd0a97b4a9bc9fc64b54",
+          "published_raw": "Tue, 03 Nov 2026 13:27:18 GMT",
+          "published_at": "2026-11-03T10:27:18-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-019"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-013",
+      "title": "Las claves de la crisis del Tribunal Constitucional en Polonia: forcejeos, acusaciones de golpe de Estado y guerra política",
+      "url": "https://elpais.com/internacional/2026-11-03/forcejeos-acusaciones-de-golpe-de-estado-y-guerra-politica-las-claves-de-la-crisis-del-tribunal-constitucional-en-polonia.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 64.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 63.2
+      },
+      "selection": {
+        "reason": "PML 64.2; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-03T01:30:01-0300",
+      "last_seen": "2026-11-03T01:30:01-0300",
+      "entities": [],
+      "event_terms": [
+        "crisis",
+        "tribunal",
+        "guerra"
+      ],
+      "analysis": {
+        "summary": "Los partidos de la derecha ultra y el Gobierno de centroderecha liberal encabezado por Donald Tusk pugnan por dominar un tribunal cuestionado por su politización",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -152,52 +229,52 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Cita con las urnas en Estados Unidos: la corrupción emerge como la gran preocupación de última hora de los votantes",
-          "description": "La mayoría de estadounidenses consideran que la falta de integridad en el Gobierno es un problema muy grave, en vísperas del día de las elecciones de mitad de mandato",
-          "url": "https://elpais.com/us/2026-11-02/cita-con-las-urnas-en-estados-unidos-la-corrupcion-emerge-como-la-gran-preocupacion-de-ultima-hora-de-los-votantes.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/24PIPWJ4UVB2LCKHXXKN5E4W7U.jpg?auth=9b9cd47a50bbcf06f27fb36756dd663b090da9451f9883f4115ffeb97f972c1b",
-          "published_raw": "Mon, 02 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-02T06:30:00-0300",
+          "title": "Las claves de la crisis del Tribunal Constitucional en Polonia: forcejeos, acusaciones de golpe de Estado y guerra política",
+          "description": "Los partidos de la derecha ultra y el Gobierno de centroderecha liberal encabezado por Donald Tusk pugnan por dominar un tribunal cuestionado por su politización",
+          "url": "https://elpais.com/internacional/2026-11-03/forcejeos-acusaciones-de-golpe-de-estado-y-guerra-politica-las-claves-de-la-crisis-del-tribunal-constitucional-en-polonia.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/VZ4GNGTLYBMORIM3DNLE4KBGMM.jpg?auth=cfbaf69ca8a6d83593d70655ab10c0e30622791a23d78adbdd3e483378407e73",
+          "published_raw": "Tue, 03 Nov 2026 04:30:01 GMT",
+          "published_at": "2026-11-03T01:30:01-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 2,
+          "score_institutional": 3,
+          "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
+          "score_conflict": 1,
           "score_policy": 0,
-          "score_ideology": 0,
+          "score_ideology": 3,
           "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
+          "political_evidence": 7,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-034"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-013"
         }
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-025",
-      "title": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261101-ecuador-inicia-su-cuarto-toque-de-queda-del-a%C3%B1o-para-contener-la-violencia-a-semanas-de-las-elecciones-locales",
+      "position": 4,
+      "cluster_id": "PML-EVENT-015",
+      "title": "Abogado de Luisa González denuncia una 'clara persecución política' en Ecuador",
+      "url": "https://www.france24.com/es/programas/la-entrevista/20261103-abogado-de-luisa-gonz%C3%A1lez-denuncia-una-clara-persecuci%C3%B3n-pol%C3%ADtica-en-ecuador",
       "representative_source": "France 24",
-      "topic": "Conflictos y seguridad",
-      "event_type": "ELECTORAL_EVENT",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
         "group": "América Latina",
         "country": "Ecuador / América Latina"
       },
       "relevance": {
-        "score": 53.1,
+        "score": 58.9,
         "level": "MEDIA",
-        "editorial_utility": 65.1
+        "editorial_utility": 54.9
       },
       "selection": {
-        "reason": "PML 53.1; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 58.9; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -207,17 +284,20 @@
         "source_count": 1,
         "sources": "France 24"
       },
-      "first_seen": "2026-11-01T09:39:38-0300",
-      "last_seen": "2026-11-01T09:39:38-0300",
+      "first_seen": "2026-11-03T09:49:04-0300",
+      "last_seen": "2026-11-03T09:49:04-0300",
       "entities": [],
-      "event_terms": "crisis",
+      "event_terms": [
+        "eleccion",
+        "oposicion"
+      ],
       "analysis": {
-        "summary": "El país inició este domingo 1 de noviembre su cuarto período de restricciones nocturnas de movilidad en lo corrido del año. Se trata de una medida que regirá durante diez días en cinco provincias de la costa, entre ellas Guayas, donde se encuentra Guayaquil, la ciudad más poblada de Ecuador.",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Ecuador / América Latina.",
+        "summary": "En Ecuador, la excandidata presidencial Luisa González, del movimiento Revolución Ciudadana, permanece en prisión preventiva en el marco de una investigación por presunto lavado de dinero relacionado con la financiación de su campaña electoral de 2023. Desde su movimiento denuncian una persecución política contra la oposición que atribuyen al Gobierno del presidente Daniel Noboa. La defensa de González cuestiona el proceso y habla de una \"clara persecución política\".",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Ecuador / América Latina.",
         "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
@@ -225,35 +305,35 @@
         {
           "source_id": "france24_latam",
           "source": "France 24",
-          "title": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales",
-          "description": "El país inició este domingo 1 de noviembre su cuarto período de restricciones nocturnas de movilidad en lo corrido del año. Se trata de una medida que regirá durante diez días en cinco provincias de la costa, entre ellas Guayas, donde se encuentra Guayaquil, la ciudad más poblada de Ecuador. El nuevo toque de queda llega en medio de una persistente crisis de seguridad, marcada por la expansión de las organizaciones criminales y el narcotráfico, y a cuatro semanas de unas elecciones locales en las que la seguridad vuelve a ocupar un lugar central en la disputa política.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261101-ecuador-inicia-su-cuarto-toque-de-queda-del-a%C3%B1o-para-contener-la-violencia-a-semanas-de-las-elecciones-locales",
-          "image_url": "https://s.france24.com/media/display/cc4fef62-d5f0-11f1-98a6-d18c5759e759/w:1024/p:16x9/000-B27E7GZ.jpg",
-          "published_raw": "Sun, 01 Nov 2026 12:39:38 GMT",
-          "published_at": "2026-11-01T09:39:38-0300",
+          "title": "Abogado de Luisa González denuncia una 'clara persecución política' en Ecuador",
+          "description": "En Ecuador, la excandidata presidencial Luisa González, del movimiento Revolución Ciudadana, permanece en prisión preventiva en el marco de una investigación por presunto lavado de dinero relacionado con la financiación de su campaña electoral de 2023. Desde su movimiento denuncian una persecución política contra la oposición que atribuyen al Gobierno del presidente Daniel Noboa. La defensa de González cuestiona el proceso y habla de una \"clara persecución política\". Para conocer sus argumentos y la situación jurídica de la exaspirante presidencial, conversamos con su abogado, Diego Guarderas en France 24.",
+          "url": "https://www.france24.com/es/programas/la-entrevista/20261103-abogado-de-luisa-gonz%C3%A1lez-denuncia-una-clara-persecuci%C3%B3n-pol%C3%ADtica-en-ecuador",
+          "image_url": "https://s.france24.com/media/display/ebc6756c-e742-11ef-9303-005056bfb2b6/w:1024/p:16x9/000_33Y23RK.jpg",
+          "published_raw": "Tue, 03 Nov 2026 12:49:04 GMT",
+          "published_at": "2026-11-03T09:49:04-0300",
           "country": "Ecuador",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 0,
-          "score_elections": 1,
+          "score_institutional": 2,
+          "score_elections": 2,
           "score_international": 0,
-          "score_conflict": 3,
+          "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 0,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Conflictos y seguridad",
+          "political_evidence": 6,
+          "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-015"
         }
       ]
     },
     {
-      "position": 4,
+      "position": 5,
       "cluster_id": "PML-EVENT-006",
       "title": "Diputado Leiva: La acusación constitucional no es contra el Gobierno",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/diputado-leiva-la-acusacion-constitucional-no-es-contra-el-gobierno/2026-11-02/091921.html",
@@ -265,12 +345,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 59.3,
+        "score": 54.8,
         "level": "MEDIA",
-        "editorial_utility": 59.3
+        "editorial_utility": 47.8
       },
       "selection": {
-        "reason": "PML 59.3; aporta diversidad geográfica",
+        "reason": "PML 54.8; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -324,79 +404,6 @@
           "cluster_id": "PML-EVENT-006"
         }
       ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-035",
-      "title": "La UE afronta una negociación de vértigo para cerrar el relevo de Lagarde y el nuevo presupuesto comunitario en diciembre",
-      "url": "https://elpais.com/economia/2026-11-02/la-ue-afronta-una-negociacion-de-vertigo-para-cerrar-el-relevo-de-lagarde-y-el-nuevo-presupuesto-comunitario-en-diciembre.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "DIPLOMATIC_EVENT",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 54.7,
-        "level": "MEDIA",
-        "editorial_utility": 53.7
-      },
-      "selection": {
-        "reason": "PML 54.7; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-02T01:30:01-0300",
-      "last_seen": "2026-11-02T01:30:01-0300",
-      "entities": [],
-      "event_terms": "eleccion",
-      "analysis": {
-        "summary": "Las grandes capitales velan armas ante una cumbre crítica en diciembre, destinada a reforzar los cimientos de la unión antes del superciclo electoral de 2027",
-        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
-          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "La UE afronta una negociación de vértigo para cerrar el relevo de Lagarde y el nuevo presupuesto comunitario en diciembre",
-          "description": "Las grandes capitales velan armas ante una cumbre crítica en diciembre, destinada a reforzar los cimientos de la unión antes del superciclo electoral de 2027",
-          "url": "https://elpais.com/economia/2026-11-02/la-ue-afronta-una-negociacion-de-vertigo-para-cerrar-el-relevo-de-lagarde-y-el-nuevo-presupuesto-comunitario-en-diciembre.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/775NNBK2Y5CCNJRKDW57QNI2DA.jpg?auth=5918f20d264e7ac44dec9b2dd78226ae7283fbf6af4ee530bed0a61211381381",
-          "published_raw": "Mon, 02 Nov 2026 04:30:01 GMT",
-          "published_at": "2026-11-02T01:30:01-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 1,
-          "score_international": 1,
-          "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-035"
-        }
-      ]
     }
   ],
   "chile_brief": {
@@ -407,25 +414,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-015",
-        "title": "Fiscal Valencia confirmó que Rabat figura como imputado tras denuncia por prevaricación",
+        "cluster_id": "PML-EVENT-008",
+        "title": "Diputada Ossandón: Se hace muy difícil la continuidad del ministro Rabat",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/judicial/ministerio-publico/fiscal-valencia-confirmo-que-rabat-figura-como-imputado-tras-denuncia/2026-11-02/214727.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/diputada-ossandon-se-hace-muy-dificil-la-continuidad-del-ministro-rabat/2026-11-03/091617.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.5,
+          "score": 55,
           "level": "MEDIA",
           "components": {
-            "political_impact": 51,
+            "political_impact": 50,
             "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 32
+            "continuity": 30
           }
         },
         "coverage": {
@@ -433,119 +440,53 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-02T21:47:27-0300",
-        "last_seen": "2026-11-02T21:47:27-0300",
+        "first_seen": "2026-11-03T09:16:17-0300",
+        "last_seen": "2026-11-03T09:16:17-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Fiscal Valencia confirmó que Rabat figura como imputado tras denuncia por prevaricación",
-            "description": "El fiscal nacional, Ángel Valencia, confirmó este lunes que el ministro de Justicia, Fernando Rabat, se encuentra en calidad de imputado debido a que enfrenta una denuncia por el presunto delito de prevaricación administrativa . La acción judicial fue presentada a la Fiscalía Metropolitana Centro Norte por los diputados Juan Santana (PS) y Luis Cuello (PC) , en el marco del escándalo por la rebaja de condenas a 56 pederastas . [Lea también]  Rebajas de condenas: Fiscalía abrió investigación contra Rabat y Silva Desde el Congreso, el jefe del Ministerio Público explicó que \"cuando se presenta una denuncia en contra de una persona, esa denuncia va nominativa, es decir, se dirige en contra de un individuo, de un ciudadano al que se le atribuye la comisión de hechos que supuestamente tendrían la calidad de delito y  existe una investigación en su contra por parte de la Fiscalía, esa persona formalmente tiene la calidad de imputado, tenga o no tenga mérito esa imputación\". En tanto, el titular de Justicia desdramatizó la situación y señaló que \"existe una denuncia en mi contra y, por lo tanto, seguirá la tramitación que corresponda de conformidad con los procesos penales y tendrá la colaboración , como yo espero que la preste cualquier chileno, al respecto de la cual se hace una denuncia\". \"Lo relevante es lo que se resuelva en definitiva\" , enfatizó el secretario de Estado. Debido a la polémica rebaja de condenas, organizaciones feministas convocaron para mañana, a las 19:00 horas, frente a La Moneda , la intervención \"Un violador en tu camino\" del colectivo Las Tesis para exigir la remoción del ministro Rabat.",
-            "url": "https://www.cooperativa.cl/noticias/pais/judicial/ministerio-publico/fiscal-valencia-confirmo-que-rabat-figura-como-imputado-tras-denuncia/2026-11-02/214727.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261102/imag/foto_0000000220261102214727.jpg",
-            "published_raw": "Mon, 02 Nov 2026 21:47:27 -0300",
-            "published_at": "2026-11-02T21:47:27-0300",
+            "title": "Diputada Ossandón: Se hace muy difícil la continuidad del ministro Rabat",
+            "description": "La vicepresidenta de la Cámara de Diputados, Ximena Ossandón (RN), dijo en Cooperativa que \"se hace muy difícil\" la continuidad del ministro de Justicia, Fernando Rabat, en medio de la polémica generada por el decreto que permitió la rebaja de condenas de abusadores y violadores de menores de edad. En El Diario de Cooperativa , la parlamentaria aseveró que \" esto es un tema que nos está paralizando , es un tema muy importante, de mucha sensibilidad y en el fondo todas las soluciones vienen del Presidente de la República. Vemos como aparece una acusación constitucional, que todavía no se va a presentar, se va a presentar la próxima semana, se va a enredar con el tema del Presupuesto\". \"En vez de amainarse, esto va creciendo, con todo el perjuicio que esto concita, entonces yo siento que aquí, bien el Presidente ya tomó una decisión, fue bien claro de mantener al ministro. Entonces esto tenemos que resolverlo con él, porque el gobierno y todo el sector se empieza a ver perjudicado\" , puntualizó. Para la diputada, \"no sacamos nada con estar cambiando ministros, pero si no se cambia la forma de hacer política, esta misma cultura que está instalada atrás, tal vez vamos a volver a repetir los mismos errores\". Ossandón insistió en que \"se hace muy difícil la continuidad (de Rabat). Ayer estábamos viendo otro proyecto y se levantan parlamentarios con carteles y esa va a ser la tónica que va a continuar lamentablemente y efectivamente eso va a hacer difícil que él pueda sacar con celeridad la agenda que se haya propuesto en materias tan relevantes como reformas o el tema de la reinserción\". Sin embargo, sobre la acusación constitucional, la diputada recordó que \"hoy día no existiría una transgresión a la Constitución y las leyes. Yo hoy día estaría votándola en contra\". UDI asume \"costos políticos\" de apoyar al gobierno El presidente de la UDI, Guillermo Ramírez, dijo este martes que asume los costos políticos de apoyar al gobierno y se distanció de la postura de Renovación Nacional, indicando que las críticas se deben hacer a puertas cerradas. En diálogo con La Tercera TV , el diputado aseveró que \"la institucionalidad establece mecanismos para estos casos y el mecanismo es una acusación constitucional, acéptenlo y que gane el que junte más votos. No estoy aquí hablando desde la soberbia, estoy hablando desde la institucionalidad\". \"Yo creo que lo bueno que se va a sacar es algo que lamentablemente no se hizo en el gobierno anterior, que es mejorar la institucionalidad para que esto no vuelva a ocurrir, porque a la gente de izquierda parece que les conforma el hecho de que pedófilos salgan de la cárcel por mandato judicial y no por vía administrativa, y ¿qué diputados de los que hoy día razgan vestiduras presentó un proyecto de ley para evitarlo?\", añadió.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/diputada-ossandon-se-hace-muy-dificil-la-continuidad-del-ministro-rabat/2026-11-03/091617.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261103/imag/foto_0000000220261103091617.jpg",
+            "published_raw": "Tue, 03 Nov 2026 09:16:17 -0300",
+            "published_at": "2026-11-03T09:16:17-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 4,
+            "score_institutional": 8,
             "score_elections": 0,
             "score_international": 0,
             "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 2,
+            "score_policy": 1,
+            "score_ideology": 1,
+            "score_actor": 3,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 6,
+            "political_evidence": 13,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": null,
+            "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-015"
+            "cluster_id": "PML-EVENT-008"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 64.5
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 76
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-013",
-        "title": "Ayuso condecora al presidente de Chile, el ultraderechista José Antonio Kast: “Defendemos lo mismo”",
-        "topic": "Ideología y competencia política",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "EL PAÍS",
-        "url": "https://elpais.com/espana/madrid/2026-11-02/ayuso-condecora-al-presidente-de-chile-el-ultraderechista-jose-antonio-kast-defendemos-lo-mismo.html",
-        "geography": {
-          "country": null,
-          "region": "Internacional"
-        },
-        "relevance": {
-          "score": 55.2,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 54,
-            "freshness": 88,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 28
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "EL PAÍS"
-        },
-        "first_seen": "2026-11-02T15:46:54-0300",
-        "last_seen": "2026-11-02T15:46:54-0300",
-        "articles": [
-          {
-            "source_id": "elpais_america",
-            "source": "EL PAÍS",
-            "title": "Ayuso condecora al presidente de Chile, el ultraderechista José Antonio Kast: “Defendemos lo mismo”",
-            "description": "La Medalla Internacional se concede por iniciativa personal de la presidenta y ya la han recibido otros mandatarios de extrema derecha o nítidamente conservadores, como el argentino Javier Milei o el ecuatoriano Daniel Noboa, además de los dirigentes antichavistas venezolanos Juan Guaidó y Edmundo González",
-            "url": "https://elpais.com/espana/madrid/2026-11-02/ayuso-condecora-al-presidente-de-chile-el-ultraderechista-jose-antonio-kast-defendemos-lo-mismo.html",
-            "image_url": "https://imagenes.elpais.com/resizer/v2/CTDULLHD5FIYFLMCI3FPK5AV64.jpg?auth=3a79b663b6dc68b950c38f3a54ed52ba3505d40b4bf2aa657d67f03716c745c4",
-            "published_raw": "Mon, 02 Nov 2026 18:46:54 GMT",
-            "published_at": "2026-11-02T15:46:54-0300",
-            "country": "No identificado",
-            "region": "Internacional",
-            "language": "es",
-            "score_institutional": 2,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 3,
-            "score_actor": 2,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 7,
-            "primary_topic": "Ideología y competencia política",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-013"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 64.2
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-009",
+        "cluster_id": "PML-EVENT-010",
         "title": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas",
         "topic": "Economía y políticas públicas",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -556,11 +497,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.3,
-          "level": "MEDIA",
+          "score": 48.3,
+          "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 88,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -600,7 +541,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-009"
+            "cluster_id": "PML-EVENT-010"
           }
         ],
         "article_count": 1,
@@ -608,7 +549,76 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Economía y políticas públicas",
-          "chile_utility": 61.3
+          "chile_utility": 57.3
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-007",
+        "title": "Aprobación de Kast se desploma a sus mínimos históricos en medio de crisis en Justicia",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_CRISIS",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/aprobacion-de-kast-se-desploma-a-sus-minimos-historicos-en-medio-de/2026-11-01/121423.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 50.6,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 72,
+            "freshness": 40,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 48
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-01T12:14:23-0300",
+        "last_seen": "2026-11-01T12:14:23-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Aprobación de Kast se desploma a sus mínimos históricos en medio de crisis en Justicia",
+            "description": "La aprobación al Gobierno del Presidente José Antonio Kast cayó a su registro más bajo desde el inicio de su administración , alcanzando un 22,1% según la medición de Pulso Ciudadano y un 25% de acuerdo con Agenda Criteria , en un escenario político marcado por el desplome de la confianza pública y el rechazo ciudadano a la gestión de la crisis por beneficios penitenciarios a pederastas por parte del Ministerio de Justicia . Pulso Ciudadano: desplome estadístico y caída en la confianza El sondeo de Pulso Ciudadano evidenció un quiebre en el balance de la gestión presidencial. Mientras que la aprobación se redujo al 22,1%, la desaprobación escaló hasta un 67,5% , alcanzando su techo histórico en lo que va del período . El 10,5% restante de los participantes manifestó no saber o no respondió la consulta. El retroceso resulta estadísticamente significativo al compararlo con los datos de septiembre, cuando el Mandatario contaba con un 28,2% de respaldo y un 57,6% de rechazo , lo que representa una caída neta de 6,1 puntos porcentuales en su adhesión y un aumento de 9,9 puntos en el descontento popular. Este declive se refleja también en los índices de credibilidad: apenas un 16,1% de la ciudadanía afirma mantener mucha o bastante confianza en la figura del Presidente Kast , frente a un 61,2% que expresa tener poca o nula confianza, sumado a un 22,7% que se ubica en un nivel de confianza intermedio. Casi tres cuartas partes del electorado consideran que el jefe de Estado debe exigir la salida inmediata del ministro de Justicia, Fernando Rabat. (FOTO: ATON)   Coincidencia en Criteria y la alta intensidad del rechazo En una línea similar, la última entrega de Criteria ratificó la tendencia descendente de La Moneda al situar el respaldo al Mandatario en un 25%, bajando dos puntos respecto a la medición previa . De forma paralela, la desaprobación aumentó un punto para ubicarse en el 65% , mientras que un 10% de los encuestados declaró no contar con una postura definida. En tanto, entre el universo de personas que evalúan negativamente la gestión de Kast, el 59% asegura hacerlo con la máxima intensidad posible en una medición de 1 a 5, en contraste con el grupo que aprueba al Gobierno, donde apenas un 21% manifiesta respaldarlo con ese mismo nivel de firmeza . Crisis carcelaria y presión sobre el ministro Fernando Rabat El impacto negativo en los sondeos se vincula con la controversia por la rebaja de penas a condenados por delitos sexuales contra menores de edad . Según Pulso Ciudadano, un 71,7% de la población califica como mala o muy mala la respuesta del Ejecutivo frente a este episodio , frente a solo un 14,7% que la evalúa de forma positiva y un 13,6% que la considera regular. Esta reprobación resulta transversal, elevándose al 87,9% en sectores de oposición y al 76,4% en personas sin identificación política . En este marco, la continuidad del titular de Justicia se transformó en un flanco crítico para el oficialismo. Un 74,2% de los encuestados sostiene que el Presidente Kast cometió una equivocación al ratificar a Fernando Rabat en el cargo y demanda su renuncia inmediata, mientras que solo un 13,3% respalda su permanencia. El deterioro de las cifras presidenciales coincide con el rechazo al manejo gubernamental frente a la rebaja de penas carcelarias a condenados por delitos sexuales contra menores de edad. (FOTO: ATON) La exigencia de renuncia encuentra eco incluso en las filas gubernamentales, donde un 49,8% de los propios partidarios del Ejecutivo se muestra a favor de su salida . Apoyo a juicio político y rechazo a beneficios penitenciarios La disconformidad ciudadana también se traduce en un amplio respaldo a las acciones de fiscalización parlamentaria. De acuerdo con el sondeo, un 64,3% de los chilenos votaría a favor de una acusación constitucional contra el ministro Rabat si ejerciera un cargo como diputado, opción que supera con holgura al 21,2% que rechazaría el libelo acusatorio y al 14,5% que no toma posición. Este apoyo al juicio político es particularmente alto en las mujeres, con un 70,1%, y en el segmento juvenil de 18 a 30 años, donde trepa al 79,1%. Finalmente, ante la consulta sobre qué crímenes no deberían acceder a rebajas de condena por buena conducta, los delitos sexuales contra menores de edad encabezan las menciones con un 51,1% , seguidos por los homicidios con un 41,2%, el crimen organizado con un 37,4% y el narcotráfico con un 36,5%.",
+            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/aprobacion-de-kast-se-desploma-a-sus-minimos-historicos-en-medio-de/2026-11-01/121423.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261101/imag/foto_0000000420261101121423.jpg",
+            "published_raw": "Sun, 01 Nov 2026 12:14:23 -0300",
+            "published_at": "2026-11-01T12:14:23-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 6,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 2,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 5,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-007"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 59.6
         },
         "repeated_in_general_top5": false
       }
@@ -616,48 +626,46 @@
   },
   "topics": [
     {
-      "topic": "Instituciones y gobierno",
-      "event_count": 28,
-      "maximum_relevance": 67.8,
-      "leading_story": "El Tribunal Supremo rechaza apartar unas 20.000 boletas en California en vísperas de las ‘midterms’"
+      "topic": "Elecciones y opinión pública",
+      "event_count": 6,
+      "maximum_relevance": 67.6,
+      "leading_story": "Estados Unidos ataca la isla iraní de Qeshm en la víspera de sus elecciones de medio mandato"
     },
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 5,
-      "maximum_relevance": 58.5,
-      "leading_story": "Cita con las urnas en Estados Unidos: la corrupción emerge como la gran preocupación de última hora de los votantes"
+      "topic": "Instituciones y gobierno",
+      "event_count": 30,
+      "maximum_relevance": 66.1,
+      "leading_story": "Las ‘midterms’ 2026, en vivo | Abren los colegios en unas elecciones en las que se decide el control del Congreso"
     },
     {
       "topic": "Relaciones internacionales",
-      "event_count": 2,
-      "maximum_relevance": 55.4,
-      "leading_story": "¿Qué hay detrás de la violencia contra los periodistas que las autoridades no pueden frenar?"
-    },
-    {
-      "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 55.2,
-      "leading_story": "Ayuso condecora al presidente de Chile, el ultraderechista José Antonio Kast: “Defendemos lo mismo”"
+      "maximum_relevance": 51.4,
+      "leading_story": "¿Qué hay detrás de la violencia contra los periodistas que las autoridades no pueden frenar?"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 1,
-      "maximum_relevance": 53.1,
+      "maximum_relevance": 49.4,
       "leading_story": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 52.3,
+      "maximum_relevance": 48.3,
       "leading_story": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-030", "PML-EVENT-019", "PML-EVENT-013", "PML-EVENT-015"],
+      "exited_top5": ["PML-EVENT-027", "PML-EVENT-034", "PML-EVENT-025", "PML-EVENT-035"],
+      "retained_top5": "PML-EVENT-006"
+    }
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
     "source_count": 3
   },
   "system": {
