@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-03",
-    "data_latest_timestamp": "2026-11-03T17:45:17-0300",
+    "data_latest_timestamp": "2026-11-03T22:04:16-0300",
     "data_age_hours": 0.1,
-    "generated_at": "2026-11-03T17:50:39-0300",
+    "generated_at": "2026-11-03T22:08:12-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,39 +16,39 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 31 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 34,
+    "ranked_events": 31,
     "topics": 2,
-    "geographies": 2,
+    "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 63.1,
-    "maximum_relevance": 69.8
+    "average_top5_relevance": 61.7,
+    "maximum_relevance": 66.8
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-013",
-      "title": "Las ‘midterms’ 2026, en vivo | Los votantes acuden a las urnas en unas elecciones en las que Estados Unidos decide el control del Congreso",
-      "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
+      "cluster_id": "PML-EVENT-017",
+      "title": "Lula arenga al ejército digital que impulsó su triunfo en Brasil para marcar el paso al Tribunal Supremo",
+      "url": "https://elpais.com/america/2026-11-03/lula-arenga-al-ejercito-digital-que-impulso-su-triunfo-en-brasil-para-marcar-el-paso-al-tribunal-supremo.html",
       "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "ELECTORAL_EVENT",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
-        "group": "Chile",
-        "country": "No identificado / Internacional"
+        "group": "América Latina",
+        "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 69.8,
+        "score": 66.8,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 69.8
+        "editorial_utility": 66.8
       },
       "selection": {
-        "reason": "PML 69.8",
+        "reason": "PML 66.8",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -58,20 +58,24 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-03T17:45:17-0300",
-      "last_seen": "2026-11-03T17:45:17-0300",
+      "first_seen": "2026-11-03T20:22:46-0300",
+      "last_seen": "2026-11-03T20:22:46-0300",
       "entities": [
-        "congreso",
-        "senado"
+        "lula",
+        "brasil",
+        "supremo"
       ],
-      "event_terms": "eleccion",
+      "event_terms": [
+        "tribunal",
+        "supremo"
+      ],
       "analysis": {
-        "summary": "La jornada electoral transcurre sin incidentes graves, según observadores | Un puñado de Estados reñidos decide qué partido se hace con una mayoría en el Senado",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
+        "summary": "El presidente insta a 10,4 millones de internautas a seguir el análisis de la constitucionalidad del decreto que prohibió las apuestas ‘online’",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
         "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
@@ -79,17 +83,17 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Las ‘midterms’ 2026, en vivo | Los votantes acuden a las urnas en unas elecciones en las que Estados Unidos decide el control del Congreso",
-          "description": "La jornada electoral transcurre sin incidentes graves, según observadores | Un puñado de Estados reñidos decide qué partido se hace con una mayoría en el Senado",
-          "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/W2JQVWABOZJA5IGRDFNQ3QJSSQ.jpg?auth=02d76fca2f3a3aff2e1ab7d1e3f72c489a8862373c56a4a71bc37a53e2bd3f77",
-          "published_raw": "Tue, 03 Nov 2026 20:45:17 GMT",
-          "published_at": "2026-11-03T17:45:17-0300",
+          "title": "Lula arenga al ejército digital que impulsó su triunfo en Brasil para marcar el paso al Tribunal Supremo",
+          "description": "El presidente insta a 10,4 millones de internautas a seguir el análisis de la constitucionalidad del decreto que prohibió las apuestas ‘online’",
+          "url": "https://elpais.com/america/2026-11-03/lula-arenga-al-ejercito-digital-que-impulso-su-triunfo-en-brasil-para-marcar-el-paso-al-tribunal-supremo.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/UALY4LQBXBM47AP6ZP3LAPMUNI.jpg?auth=505a7d2322c3ead2dec06c706bc650e8ff1aaa0e4cf319feebec77fe582cb45b",
+          "published_raw": "Tue, 03 Nov 2026 23:22:46 GMT",
+          "published_at": "2026-11-03T20:22:46-0300",
           "country": "No identificado",
-          "region": "Internacional",
+          "region": "América Latina",
           "language": "es",
-          "score_institutional": 2,
-          "score_elections": 3,
+          "score_institutional": 4,
+          "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
@@ -97,17 +101,93 @@
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 6,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-013"
+          "cluster_id": "PML-EVENT-017"
         }
       ]
     },
     {
       "position": 2,
+      "cluster_id": "PML-EVENT-024",
+      "title": "Estados Unidos explora los límites de su democracia",
+      "url": "https://elpais.com/us/2026-11-03/estados-unidos-explora-los-limites-de-su-democracia.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 57.5,
+        "level": "MEDIA",
+        "editorial_utility": 69.5
+      },
+      "selection": {
+        "reason": "PML 57.5; fallback editorial controlado; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-03T20:16:31-0300",
+      "last_seen": "2026-11-03T20:16:31-0300",
+      "entities": [
+        "congreso",
+        "trump"
+      ],
+      "event_terms": [],
+      "analysis": {
+        "summary": "Millones de estadounidenses votan para decidir el control del Congreso en unas elecciones consideradas un plebiscito sobre las políticas de Donald Trump",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Estados Unidos explora los límites de su democracia",
+          "description": "Millones de estadounidenses votan para decidir el control del Congreso en unas elecciones consideradas un plebiscito sobre las políticas de Donald Trump",
+          "url": "https://elpais.com/us/2026-11-03/estados-unidos-explora-los-limites-de-su-democracia.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/MZDXIMUTXRLMRLHEIP6AHWBP3E.jpg?auth=2a487904591a595077ad9e8cab29a4d130fd47fea4425cfdad84f1b9ad1a1af3",
+          "published_raw": "Tue, 03 Nov 2026 23:16:31 GMT",
+          "published_at": "2026-11-03T20:16:31-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-024"
+        }
+      ]
+    },
+    {
+      "position": 3,
       "cluster_id": "PML-EVENT-006",
       "title": "Gobierno anunció veto sustitutivo a la ley de incendios",
       "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/incendios-forestales/gobierno-anuncio-veto-sustitutivo-a-la-ley-de-incendios/2026-11-03/155713.html",
@@ -119,12 +199,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 65.1,
+        "score": 62.1,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 72.1
+        "editorial_utility": 65.1
       },
       "selection": {
-        "reason": "PML 65.1; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 62.1; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -183,8 +263,8 @@
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-004",
+      "position": 4,
+      "cluster_id": "PML-EVENT-005",
       "title": "Romero y Pardo se enfrascaron sobre lealtades a Kast en medio de la crisis",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-republicano/romero-y-pardo-se-enfrascaron-sobre-lealtades-a-kast-en-medio-de-la-crisis/2026-11-03/110604.html",
       "representative_source": "Cooperativa",
@@ -197,10 +277,10 @@
       "relevance": {
         "score": 62.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 61.2
+        "editorial_utility": 57.2
       },
       "selection": {
-        "reason": "PML 62.2; nuevo tipo de evento",
+        "reason": "PML 62.2; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -254,13 +334,13 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
+          "cluster_id": "PML-EVENT-005"
         }
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-003",
+      "position": 5,
+      "cluster_id": "PML-EVENT-004",
       "title": "Timonel PPD: \"La crisis se está empezando a hacer generalizada\"",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/ppd/timonel-ppd-la-crisis-se-esta-empezando-a-hacer-generalizada/2026-11-03/121110.html",
       "representative_source": "Cooperativa",
@@ -271,12 +351,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 61.6,
+        "score": 59.9,
         "level": "MEDIA",
-        "editorial_utility": 56.6
+        "editorial_utility": 51.9
       },
       "selection": {
-        "reason": "PML 61.6; diversidad relajada para completar el brief",
+        "reason": "PML 59.9; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -330,84 +410,7 @@
           "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-020",
-      "title": "Trump asegura que suspenderá a final de año los 4.000 millones de dólares de ayuda militar a Israel",
-      "url": "https://elpais.com/internacional/2026-11-03/trump-dice-que-suspendera-4000-millones-de-dolares-en-ayuda-a-israel.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "POLITICAL_STATEMENT",
-      "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 56.8,
-        "level": "MEDIA",
-        "editorial_utility": 50.8
-      },
-      "selection": {
-        "reason": "PML 56.8; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-03T16:00:03-0300",
-      "last_seen": "2026-11-03T16:00:03-0300",
-      "entities": [
-        "trump",
-        "israel",
-        "congreso"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "El presidente de EE UU dice que ha acordado la medida con Netanyahu, pero no aclara su alcance. El pacto no expira hasta 2028 y lo aprueba el Congreso",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Trump asegura que suspenderá a final de año los 4.000 millones de dólares de ayuda militar a Israel",
-          "description": "El presidente de EE UU dice que ha acordado la medida con Netanyahu, pero no aclara su alcance. El pacto no expira hasta 2028 y lo aprueba el Congreso",
-          "url": "https://elpais.com/internacional/2026-11-03/trump-dice-que-suspendera-4000-millones-de-dolares-en-ayuda-a-israel.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/ITSHTD4ZLRKOHP64G4QNTVIWNM.jpg?auth=9388b03fb0915e460dda741c75a3d81c0dd5825a15589c2ee78dde537a0d020b",
-          "published_raw": "Tue, 03 Nov 2026 19:00:03 GMT",
-          "published_at": "2026-11-03T16:00:03-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
+          "cluster_id": "PML-EVENT-004"
         }
       ]
     }
@@ -420,25 +423,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-005",
-        "title": "Diputado Leiva: La acusación constitucional no es contra el Gobierno",
+        "cluster_id": "PML-EVENT-001",
+        "title": "Caso Rabat marcó tensa aprobación del presupuesto de Justicia en comisión mixta",
         "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_CRISIS",
+        "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/diputado-leiva-la-acusacion-constitucional-no-es-contra-el-gobierno/2026-11-02/091921.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/caso-rabat-marco-tensa-aprobacion-del-presupuesto-de-justicia-en/2026-11-03/212609.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.3,
+          "score": 56,
           "level": "MEDIA",
           "components": {
-            "political_impact": 81,
-            "freshness": 52,
+            "political_impact": 52,
+            "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 30
+            "continuity": 34
           }
         },
         "coverage": {
@@ -446,121 +449,53 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-02T09:19:21-0300",
-        "last_seen": "2026-11-02T09:19:21-0300",
+        "first_seen": "2026-11-03T21:26:09-0300",
+        "last_seen": "2026-11-03T21:26:09-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Diputado Leiva: La acusación constitucional no es contra el Gobierno",
-            "description": "El jefe de la bancada de diputados del Partido Socialista, Raúl Leiva , insistió en Cooperativa en la necesidad de presentar una acusación constitucional en contra del ministro de Justicia, Fernando Rabat , por la decisión de rebajar las condenas a un grupo de abusadores y violadores de menores de 14 años. En conversación con El Diario de Cooperativa , el diputado manifestó que \"nosotros tenemos la convicción de que aquí hay una infracción legal constitucional. E sta no es una acusación constitucional contra el gobierno, es hacer efectiva una responsabilidad constitucional, en el entendido que el gobierno ha sido incapaz también -y es un elemento adicional que complica la situación- de hacer efectiva la responsabilidad política del ministro de Estado\". \"Eventualmente puede seguir pasando, pero no ha ocurrido porque la Corte ha cambiado y ha modificado esta situación. Los gobiernos anteriores dieron la pelea donde había que darla, en tribunales, cambiando el criterio jurisprudencial, a diferencia de lo que hizo con infracción legal y constitucional el ministro Rabat, que en interpretación propia modifica el criterio que habían tenido ministros anteriores\", precisó. Para Leiva, \"este es un tema de convicción, de principios, de dejar libre a violadores de menores de 14 años\". El parlamentario también cuestionó la decisión del Presidente José Antonio Kast de viajar a Europa en medio de esta crisis, recalcando que \"el nivel de problema, esta verdadera emergencia que hay, no solo por la acusación, sino que lo que ha generado al interior del propio Ejecutivo, es cosa de ver las declaraciones vacilantes del nuevo vocero en todas las últimas intervenciones y las disputas que existen al interior de la coalición, eso requiere conducción, que es lo que ha faltado respecto del gobierno\". \"Que el Presidente se ausente una semana, en un momento crítico, donde tiene su menor aprobación y el mayor rechazo en estos ocho meses, me parece muy complejo para salir del país\" , aseguró. Leiva insistió en \" que más encima utilice este tipo de instancias para reunirse con líderes de la ultraderecha internacional, creo que no corresponde , no es bueno para el país\". Además, el diputado se refirió a las comparaciones entre el caso de Rabat y la salida de la exministra de Seguridad, Trinidad Steinert, frente a lo que recordó que \"Steinert nos plantearon 'para qué sale', hicimos una comisión investigadora y nunca apareció , por lo que tuvimos que remitir los antecedentes al Ministerio Público (...) la exministra, que nombró este gobierno, que tenía confianza política, no fue capaz una vez de ir a la comisión para escrutar su trabajo y su labor\". \"Tenemos a un ministro que no ha presentado la renuncia, creemos que sí debería el Presidente haberla solicitado y vamos a presentar la acusación constitucional\", sentenció.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/diputado-leiva-la-acusacion-constitucional-no-es-contra-el-gobierno/2026-11-02/091921.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261102/imag/foto_0000000220261102091921.jpg",
-            "published_raw": "Mon, 02 Nov 2026 09:19:21 -0300",
-            "published_at": "2026-11-02T09:19:21-0300",
+            "title": "Caso Rabat marcó tensa aprobación del presupuesto de Justicia en comisión mixta",
+            "description": "La polémica rebaja de condenas a 56 abusadores sexuales y violadores de menores por parte del Ministerio de Justicia -presidido por Fernando Rabat- marcó la discusión y la posterior aprobación de la partida de la cartera en la Comisión Mixta de Presupuestos. Los recursos propuestos tuvieron el visto buena de la derecha -que tiene mayoría en la instancia- y del PDG, constituyendo 16 votos favorables contra 10 negativos, todos de la oposición. Al inicio de la discusión, parlamentarios de oposición exhibieron en sus pupitres carteles que decían \"Renuncia Rabat\", lo que generó la protesta de sus pares del oficialismo. Al comenzar la discusión de la partida presupuestaria del ministerio de justicia, diputados y senadores de oposición exhiben en sus pupitres carteles que dicen \"renuncia Rabat\". @Cooperativa — Jorge Espinoza Cuellar (@espinozacuellar) November 3, 2026 [Lea también]  Diputada Ossandón: Se hace muy difícil la continuidad del ministro Rabat Asimismo, la votación fue precedida por un acalorado debate sobre la pertinencia de discutir en dicho espacio los controversiales decretos del Gobierno que dejaron libres a los mentados condenados  y que también beneficiaron a  sentenciados radicados en Punta Peuco y a miembros del Tren de Aragua.  La senadora DC Yasna Provoste acusó que \"el ministro Rabat implementó una política de Gobierno de liberar con prontitud a todo violador, abusador y pederasta que se lo pidiera. Financiar instituciones también expresa prioridades y compromiso del Estado; aprobarlo (los recursos) como si nada hubiera ocurrido sería una señal de normalidad que en estas circunstancias no estoy dispuesta a entregar\". A su turno, el diputado libertario Pier Karlezi  criticó que, \"lamentablemente, cuando se quiere secuestrar el presupuesto y su discusión para hacer puntos políticos,  eso no le hace bien a la imagen de los diputados, de los senadores ni del Congreso en general\". Como respuesta, la senadora y presidenta del PS, Paulina Vodanovic,  señaló que \"los que secuestraron son los que están en Punta Peuco, y que están condenados y que ahí tienen que seguir. Se ha dicho que este no es el momento de la crítica al ministro. Entonces, ¿aquí habría que hacer como que nada pasó?\",  cuestionó. Hasta ahora, en la Comisión han sido aprobadas 12 de las 33 partidas del presupuesto sugerido para el próximo año. El proyecto deberá ser votado por la Cámara la próxima semana, mientras que la siguiente tendrá que visarla el Senado. [Lea también]  Romero y Pardo se enfrascaron sobre lealtades a Kast en medio de la crisis",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/caso-rabat-marco-tensa-aprobacion-del-presupuesto-de-justicia-en/2026-11-03/212609.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261103/imag/foto_0000000220261103212609.png",
+            "published_raw": "Tue, 03 Nov 2026 21:26:09 -0300",
+            "published_at": "2026-11-03T21:26:09-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
             "score_institutional": 8,
-            "score_elections": 0,
+            "score_elections": 1,
             "score_international": 0,
             "score_conflict": 1,
-            "score_policy": 0,
+            "score_policy": 1,
             "score_ideology": 1,
-            "score_actor": 4,
+            "score_actor": 6,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 14,
+            "political_evidence": 18,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
+            "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
+            "cluster_id": "PML-EVENT-001"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 21,
+          "bonus": 22,
           "labels": [
             "Estado e instituciones",
-            "Congreso y proceso legislativo"
+            "Congreso y proceso legislativo",
+            "Economía y políticas públicas"
           ],
-          "chile_utility": 73.3
+          "chile_utility": 78
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-010",
-        "title": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas",
-        "topic": "Economía y políticas públicas",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/ricardo-solari-en-un-ano-quiroz-transformo-a-los-chilenos-en-estatistas/2026-11-02/120500.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 45.8,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 51,
-            "freshness": 62,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 30
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-02T12:05:00-0300",
-        "last_seen": "2026-11-02T12:05:00-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas",
-            "description": "El exministro Ricardo Solari (PS) atribuyó en El Primer Café las dificultades políticas y económicas que está atravesando hoy el país a una \"incapacidad de discernimiento de la realidad\" por parte del Presidente Jósé Antonio Kast . A propósito de la crisis causada por las rebajas de condena a pederastas, pero ligándola con los malos resultados en crecimiento y empleo, Solari afirmó que en estos momentos está \" en tela de juicio la capacidad y la competencia de gestión política del Gobierno, y el liderazgo del Presidente\" . Para el director del Instituto Igualdad  (centro de pensamiento del Partido Socialista), la salida de Rabat \"es un desde\" , pero no soluciona el \"problema de conducción general\" en términos políticos y económicos, que está ligado a \"una incompetencia en el discernimiento respecto de la  realidad que estamos viviendo como país\". \"La cosa va mucho más allá de Rabat\" Citando los resultados de la última Encuesta Bicentenario UC , el exministro del Trabajo señaló que \" el gran triunfo del ministro (de Hacienda, Jorge) Quiroz es haber transformado a los chilenos en estatistas\" . Según la medición, hoy un 43 por ciento considera que el Estado debería preocuparse y hacerse responsable del bienestar de las personas : un aumento de 15 puntos porcentuales respecto de 2025, cuando esta posición alcanzaba sólo el 28 por ciento. \"Si hace un año predominaba la apreciación  de que queríamos desempeños personales como camino de superación , hoy día la gente pide Estado... ¡En (apenas) un año!  Entonces, yo creo que la cosa va mucho más allá de Rabat , que es un hecho de la causa y que debería haber salido ya \", señaló el extitular del Trabajo (2000-2005) del Gobierno de Ricardo Lagos. \"Él (Rabat) debería hacer su propia evaluación, porque no está ayudando, pero  aquí hay un problema más general de conducción y de liderazgo , y es un tema que el Gobierno tiene que revisar, porque es mala cosa para un país  un Presidente que tiene una incapacidad de leer los datos de la realidad tanto en economía como en política  (...) Este país lo está pasando mal y necesita un cambio de rumbo\", enfatizó Solari. \"Las cifras seguirán siendo malas\" El economista aprovechó de comentar además que la última estadística en desempleo (9,8 por ciento) \"fue mala\", e indicó que \" las próximas cifras van a seguir siendo muy malas \". Señaló que el crecimiento de este 2026 estará bajo 0,5 puntos, y \"si tú tomas el rango optimista las predicciones económicas del Banco Central , (indica que) en estos primeros tres años de Gobierno (2026, 2027 y 2028) el país va a crecer un 2,3 por ciento  en promedio, cuando el año pasado, con el Presidente Boric, creció 2,5\". \"Aquí lo único claro es que hubo una rebaja de impuestos , una rebaja de los recursos del Presupuesto -que es la presencia del Estado que reclama la gente en la Encuesta Bicentenario- y un bencinazo que condiciona, de acuerdo a todos los análisis, tanto en los costos de las empresas como los ingresos de la familia\", cuestionó. Por todos estos motivoss, \"atribuir una gestión exitosa cuando tenemos estos números que nos golpean en la cara y que de alguna manera son una cierta tragedia social , me parece significativamente estar un poco fuera de la realidad \", insistió el socialista Solari. Vea también  Imacec: Economía creció 0,2% en septiembre lastrada por la minería \"Falta de criterio\" Luis Ruz, presidente del directorio de Democracia y Comunidad ,   centro de pensamiento de la Democracia Cristiana, opinó en El Primer Café que, \" desde el punto de vista político, el caso Rabat ya dejó de ser un episodio y se transformó en un momento político \"; de aquéllos que \"dejan huella\". \"Ya a esta altura del partido, el caso Rabat es un antes y un después   para este Gobierno\" : una crisis que delata \" falta de oficio político, de criterio político y de conocer cómo funciona la política en todas sus dimensiones\". El Ejecutivo \"ha cometido un error de criterio que está impactando muchísimo su aprobación\", y \"todo indica que, para que la crisis no siga adelante perjudicando al propio Presidente, lo más sano, políticamente hablando es que el ministro Rabat dé un paso  al lado\" , señaló el también vicepresidente falangista. ",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/ricardo-solari-en-un-ano-quiroz-transformo-a-los-chilenos-en-estatistas/2026-11-02/120500.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261102/imag/foto_0000000220261102120500.jpg",
-            "published_raw": "Mon, 02 Nov 2026 12:05:00 -0300",
-            "published_at": "2026-11-02T12:05:00-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 3,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 5,
-            "score_ideology": 1,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 13,
-            "primary_topic": "Economía y políticas públicas",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-010"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Economía y políticas públicas",
-          "chile_utility": 54.8
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
         "cluster_id": "PML-EVENT-008",
         "title": "Diputada Ossandón: Se hace muy difícil la continuidad del ministro Rabat",
         "topic": "Instituciones y gobierno",
@@ -572,11 +507,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 52,
-          "level": "MEDIA",
+          "score": 50,
+          "level": "BAJA",
           "components": {
             "political_impact": 50,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -627,7 +562,76 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 73
+          "chile_utility": 71
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-012",
+        "title": "Jeannette Jara: \"Pareciera que Rabat está pauteando al Presidente; hay una falta de liderazgo tremenda\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/jeannette-jara-pareciera-que-rabat-esta-pauteando-al-presidente-hay/2026-11-03/191447.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 56.7,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 55,
+            "freshness": 100,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 32
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-03T19:14:47-0300",
+        "last_seen": "2026-11-03T19:14:47-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Jeannette Jara: \"Pareciera que Rabat está pauteando al Presidente; hay una falta de liderazgo tremenda\"",
+            "description": "La excandidata presidencial Jeannette Jara acusó este martes una \"falta de liderazgo tremenda\" del Presidente José Antonio Kast por su blindaje al ministro de Justicia , Fernando Rabat , apuntado por su responsabilidad en la liberación anticipada de condenados por delitos sexuales a menores de edad . La dirigenta opositora cuestionó el manejo político del Ejecutivo luego de que el jefe de Estado, desde su gira por Europa, asumiera públicamente la responsabilidad de la crisis y desestimara los cuestionamientos a la idoneidad del titular de la cartera . \" Pareciera que el ministro (Rabat) está pauteando al Presidente ; hay una falta de liderazgo tremenda \", arremetió la otrora ministra del Trabajo, que también dijo que esta situación se puede ver \" como un error político , porque en definitiva el ministro Rabat -no tengo dudas- va a terminar saliendo del gabinete , y será pronto , eso es evidente \". Jara cuestionó la conducción de La Moneda y afirmó que \"el ministro Rabat está pauteando al presidente\". (FOTO: ATON) En esta línea, Jara afirmó que \"no se puede resistir (en el cargo) ante una situación como esta, en la que niños y niñas han quedado expuestos a sus victimario, a que el ministro no asuma su responsabilidad política \". \"El mismo (Rabat) le está haciendo un flaco favor a su gobierno \", puntualizó la otrora autoridad, que participó esta jornada de una actividad pública de reconocimiento a adultos mayores Finalmente, puntualizó que dilatar la renuncia o remoción de la autoridad ministerial no solo intensifica la exposición de los menores a sus agresores sin asunción de responsabilidade s, sino que profundiza los costos de gobernabilidad para la propia administración de Kast.",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/jeannette-jara-pareciera-que-rabat-esta-pauteando-al-presidente-hay/2026-11-03/191447.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261103/imag/foto_0000000320261103191447.jpg",
+            "published_raw": "Tue, 03 Nov 2026 19:14:47 -0300",
+            "published_at": "2026-11-03T19:14:47-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 4,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 2,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 6,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": null,
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-012"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 65.7
         },
         "repeated_in_general_top5": false
       }
@@ -635,16 +639,16 @@
   },
   "topics": [
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 4,
-      "maximum_relevance": 69.8,
-      "leading_story": "Las ‘midterms’ 2026, en vivo | Los votantes acuden a las urnas en unas elecciones en las que Estados Unidos decide el control del Congreso"
+      "topic": "Instituciones y gobierno",
+      "event_count": 26,
+      "maximum_relevance": 66.8,
+      "leading_story": "Lula arenga al ejército digital que impulsó su triunfo en Brasil para marcar el paso al Tribunal Supremo"
     },
     {
-      "topic": "Instituciones y gobierno",
-      "event_count": 27,
-      "maximum_relevance": 65.1,
-      "leading_story": "Gobierno anunció veto sustitutivo a la ley de incendios"
+      "topic": "Elecciones y opinión pública",
+      "event_count": 2,
+      "maximum_relevance": 57.5,
+      "leading_story": "Estados Unidos explora los límites de su democracia"
     },
     {
       "topic": "Conflictos y seguridad",
@@ -655,13 +659,13 @@
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 48.9,
+      "maximum_relevance": 46.4,
       "leading_story": "¿Qué hay detrás de la violencia contra los periodistas que las autoridades no pueden frenar?"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 45.8,
+      "maximum_relevance": 43.3,
       "leading_story": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas"
     }
   ],
