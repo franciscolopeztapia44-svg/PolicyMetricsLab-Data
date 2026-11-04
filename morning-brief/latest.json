@@ -4,35 +4,112 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-04",
-    "data_latest_timestamp": "2026-11-04T07:32:10-0300",
-    "data_age_hours": 0.1,
-    "generated_at": "2026-11-04T07:39:45-0300",
+    "data_latest_timestamp": "2026-11-04T15:38:40-0300",
+    "data_age_hours": 0.9,
+    "generated_at": "2026-11-04T16:32:55-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": false
+    "editorial_topic_diversity_met": true
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 31 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 31,
-    "topics": 2,
+    "ranked_events": 33,
+    "topics": 3,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 61.6,
-    "maximum_relevance": 66.3
+    "average_top5_relevance": 62.9,
+    "maximum_relevance": 64
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-023",
+      "cluster_id": "PML-EVENT-009",
+      "title": "\"Pasada de máquina\" de Lincolao a la ley de IA abrió nuevo flanco dentro del Gobierno",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/pasada-de-maquina-de-lincolao-a-la-ley-de-ia-abrio-nuevo-flanco-dentro/2026-11-04/104629.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 64,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 64
+      },
+      "selection": {
+        "reason": "PML 64",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-04T10:46:29-0300",
+      "last_seen": "2026-11-04T10:46:29-0300",
+      "entities": [
+        "chile",
+        "congreso",
+        "senado"
+      ],
+      "event_terms": [],
+      "analysis": {
+        "summary": "La tramitación de la ley que busca regular la inteligencia artificial (IA) en Chile enfrenta complejas negociaciones dentro del Gobierno . De acuerdo con un reportaje publicado por La Tercera , la indicación sustitutiva impulsada por la ministra de Ciencia, Ximena Lincolao , generó discrepancias técnicas, jurídicas y tributarias entre distintas carteras antes de su presentación formal al Congreso.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "\"Pasada de máquina\" de Lincolao a la ley de IA abrió nuevo flanco dentro del Gobierno",
+          "description": "La tramitación de la ley que busca regular la inteligencia artificial (IA) en Chile enfrenta complejas negociaciones dentro del Gobierno . De acuerdo con un reportaje publicado por La Tercera , la indicación sustitutiva impulsada por la ministra de Ciencia, Ximena Lincolao , generó discrepancias técnicas, jurídicas y tributarias entre distintas carteras antes de su presentación formal al Congreso. Fuentes del Ejecutivo consultadas por el citado medio señalan que la secretaria de Estado intervino de forma personal el borrador del proyecto , al margen de las revisiones habituales con los equipos técnicos de su propio ministerio. A raíz de esto, la Secretaría General de la Presidencia (Segpres), liderada por el ministro  José García Ruminot , junto a asesores del Segundo Piso de La Moneda —entre ellos el profesional en materias tecnológicas Sebastián Torrealba —, debieron abrir una mesa de revisión para adecuar el texto a los estándares de técnica legislativa requeridos. Reparos tributarios Entre los puntos cuestionados en el texto presentado por Lincolao figura un mecanismo de depreciación acelerada del 100% para empresas del sector tecnológico , que permitiría reducir la carga impositiva en inversiones del rubro y que provocó reparos en la cartera de Hacienda por su impacto en las finanzas públicas. El proyecto original, ingresado en abril de 2023, contempla una regulación de la IA basada en categorías de riesgo, mientras que la ministra ha impulsado un modelo menos prescriptivo, con certificaciones voluntarias y espacios de experimentación regulatoria (\"sandboxes\") . Defensa de Ciencia Desde el Ministerio de Ciencia aseguraron a La Tercera que la iniciativa se \"ha hecho articulando un trabajo con todos los actores\" y \"las indicaciones serán ingresadas al Congreso en tiempo y forma\". La discusión también generó críticas parlamentarias: la senadora socialista Daniella Cicardini pidió aclarar \"si desde el Segundo Piso se está obstaculizando\" el trabajo de Lincolao, mientras que su par PPD Ricardo Celis apuntó a \"deficiencias en la asesoría legislativa\". El Senado fijó el 4 de diciembre como fecha límite para el ingreso formal de las indicaciones. Esta controversia se suma a la intervención que La Moneda realizó en el Ministerio de Ciencia, luego del quiebre de la relación entre Lincolao y la subsecretaria Carolina Rossi , marcado por acusaciones cruzadas, desconfianzas y desvinculaciones de funcionarios . En ese contexto, el Ejecutivo incorporó a la exasesora Carolina Calvo para reforzar la cartera.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/pasada-de-maquina-de-lincolao-a-la-ley-de-ia-abrio-nuevo-flanco-dentro/2026-11-04/104629.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104104629.jpg",
+          "published_raw": "Wed, 04 Nov 2026 10:46:29 -0300",
+          "published_at": "2026-11-04T10:46:29-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 9,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-009"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-024",
       "title": "Cuatro victorias clave (y dos sorpresas): repaso de los triunfos demócratas en las elecciones",
       "url": "https://elpais.com/us/2026-11-04/cuatro-victorias-clave-y-dos-sorpresas-repaso-a-los-triunfos-democratas-en-las-elecciones.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +120,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 66.3,
+        "score": 63.3,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 66.3
+        "editorial_utility": 71.3
       },
       "selection": {
-        "reason": "PML 66.3",
+        "reason": "PML 63.3; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -79,7 +156,7 @@
           "title": "Cuatro victorias clave (y dos sorpresas): repaso de los triunfos demócratas en las elecciones",
           "description": "La derrota de la senadora republicana Darline Graham en Carolina del Sur y el triunfo de Gina Hinojosa, la próxima gobernadora de Texas, están entre las principales sorpresas de una noche de ensueño para la oposición",
           "url": "https://elpais.com/us/2026-11-04/cuatro-victorias-clave-y-dos-sorpresas-repaso-a-los-triunfos-democratas-en-las-elecciones.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/3CVQGTMFYBOTNME7ZRN6227S2U.jpg?auth=41bd6ba278104a7d93963f38d9f12906b13d09c5e8d5e8f8fc6d6a82587ec549",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/STH5HHWIHFGWLABBANRR56UQ3I.jpg?auth=b6b4d0bfa5ec4c9c603deeb1f6ab2fc688a1a03f3f902d40c4f42dab2e8bbd21",
           "published_raw": "Wed, 04 Nov 2026 09:30:35 GMT",
           "published_at": "2026-11-04T06:30:35-0300",
           "country": "No identificado",
@@ -99,109 +176,29 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-021",
-      "title": "Lula arenga al ejército digital que impulsó su triunfo en Brasil para marcar el paso al Tribunal Supremo",
-      "url": "https://elpais.com/america/2026-11-03/lula-arenga-al-ejercito-digital-que-impulso-su-triunfo-en-brasil-para-marcar-el-paso-al-tribunal-supremo.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "América Latina",
-        "country": "No identificado / América Latina"
-      },
-      "relevance": {
-        "score": 63.9,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 75.9
-      },
-      "selection": {
-        "reason": "PML 63.9; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-03T20:22:46-0300",
-      "last_seen": "2026-11-03T20:22:46-0300",
-      "entities": [
-        "lula",
-        "brasil",
-        "supremo"
-      ],
-      "event_terms": [
-        "tribunal",
-        "supremo"
-      ],
-      "analysis": {
-        "summary": "El presidente insta a 10,4 millones de internautas a seguir el análisis de la constitucionalidad del decreto que prohibió las apuestas ‘online’",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Lula arenga al ejército digital que impulsó su triunfo en Brasil para marcar el paso al Tribunal Supremo",
-          "description": "El presidente insta a 10,4 millones de internautas a seguir el análisis de la constitucionalidad del decreto que prohibió las apuestas ‘online’",
-          "url": "https://elpais.com/america/2026-11-03/lula-arenga-al-ejercito-digital-que-impulso-su-triunfo-en-brasil-para-marcar-el-paso-al-tribunal-supremo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/UALY4LQBXBM47AP6ZP3LAPMUNI.jpg?auth=505a7d2322c3ead2dec06c706bc650e8ff1aaa0e4cf319feebec77fe582cb45b",
-          "published_raw": "Tue, 03 Nov 2026 23:22:46 GMT",
-          "published_at": "2026-11-03T20:22:46-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 4,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-024"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-006",
-      "title": "Gobierno anunció veto sustitutivo a la ley de incendios",
-      "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/incendios-forestales/gobierno-anuncio-veto-sustitutivo-a-la-ley-de-incendios/2026-11-03/155713.html",
+      "cluster_id": "PML-EVENT-012",
+      "title": "Comisión aprobó presupuesto de gores con \"una merma chica, de 3 a 4%\"",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/comision-aprobo-presupuesto-de-gores-con-una-merma-chica-de-3-a-4/2026-11-04/144619.html",
       "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
+      "topic": "Economía y políticas públicas",
       "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
         "group": "Chile",
         "country": "Chile"
       },
       "relevance": {
-        "score": 60.1,
-        "level": "MEDIA",
-        "editorial_utility": 63.1
+        "score": 62.8,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 66.8
       },
       "selection": {
-        "reason": "PML 60.1; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 62.8; aporta diversidad temática",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -211,16 +208,13 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-03T15:57:13-0300",
-      "last_seen": "2026-11-03T15:57:13-0300",
-      "entities": [
-        "congreso",
-        "chile"
-      ],
+      "first_seen": "2026-11-04T14:46:19-0300",
+      "last_seen": "2026-11-04T14:46:19-0300",
+      "entities": [],
       "event_terms": "oposicion",
       "analysis": {
-        "summary": "El ministro de Agricultura, Jaime Campos , anunció este martes que el Gobierno presentará un veto sustitutivo al proyecto de ley que regula la prevención y mitigación de incendios forestales . La iniciativa se encuentra en su etapa final de tramitación en el Congreso, luego de permanecer tres años en discusión legislativa.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "summary": "La Comisión Especial Mixta de Presupuestos aprobó la partida para los gobiernos regionales (gores) -que contemplaba recortes y restricciones al gasto-, luego de un acuerdo alcanzado entre el Ejecutivo, los parlamentarios y los gobernadores. El proyecto sugería un ajuste de 7% comparado con la iniciativa de Presupuesto inicial -y de un 10% equiparado con el vigente  este año-,  lo que generó controversia e inquietud en los gores  entre finales de septiembre e inicios de…",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Economía y políticas públicas y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
           "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
@@ -232,71 +226,70 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Gobierno anunció veto sustitutivo a la ley de incendios",
-          "description": "El ministro de Agricultura, Jaime Campos , anunció este martes que el Gobierno presentará un veto sustitutivo al proyecto de ley que regula la prevención y mitigación de incendios forestales . La iniciativa se encuentra en su etapa final de tramitación en el Congreso, luego de permanecer tres años en discusión legislativa. El secretario de Estado comunicó la decisión en la Cámara de Diputadas y Diputados, que aprobó por 77 votos a favor, 51 en contra y 14 abstenciones el informe de la comisión mixta.  \"Hemos persuadido al Presidente de la República que presente un veto sustitutivo que incluya todas las materias y todas las aprensiones que, a nuestro modo de ver, debiesen estar incorporadas \", explicó Campos. Entre las modificaciones que pretende introducir el Gobierno, el ministro mencionó mecanismos de pago y compensación para los propietarios de terrenos afectados por la expropiación de franjas de sus predios , además de la transferencia de recursos económicos a los municipios para fortalecer su participación en la prevención y combate de incendios. INCENDIOS FORESTALES📰| Cámara votó informe de mixta a ley de prevención de incendios forestales. https://t.co/4mVRC2x1qA https://t.co/RWREcMsOrE — Diputadas y Diputados de Chile (@Camara_cl) November 3, 2026 Críticas desde la oposición La diputada Sofía González (Partido Comunista) cuestionó el anuncio del veto presidencial y advirtió que \"lo único que hace es seguir aumentando el tiempo de tramitación\". \" Chile necesita una mejor institucionalidad , recursos para poder identificar zonas de riesgo, cómo se manejan, dotar de responsabilidad tanto al mundo público como privado y también mejor capacidad para fiscalizar que cada uno de estos elementos se cumplan\", sostuvo la parlamentaria. Además, González emplazó a Campos: \"No siga insistiendo en esta situación\" .",
-          "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/incendios-forestales/gobierno-anuncio-veto-sustitutivo-a-la-ley-de-incendios/2026-11-03/155713.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261103/imag/foto_0000000220261103155713.jpg",
-          "published_raw": "Tue, 03 Nov 2026 15:57:13 -0300",
-          "published_at": "2026-11-03T15:57:13-0300",
+          "title": "Comisión aprobó presupuesto de gores con \"una merma chica, de 3 a 4%\"",
+          "description": "La Comisión Especial Mixta de Presupuestos aprobó la partida para los gobiernos regionales (gores) -que contemplaba recortes y restricciones al gasto-, luego de un acuerdo alcanzado entre el Ejecutivo, los parlamentarios y los gobernadores. El proyecto sugería un ajuste de 7% comparado con la iniciativa de Presupuesto inicial -y de un 10% equiparado con el vigente  este año-,  lo que generó controversia e inquietud en los gores  entre finales de septiembre e inicios de octubre.  Sin embargo, el gobernador de Valparaíso, Rodrigo Mundaca,  afirmó que ahora contempla \"un margen de merma chico, entre un 3 y un 4%\". Asimismo, \"inicialmente, este proyecto no contemplaba reemplazar a los trabajadores que pasaban a retiro en los gobiernos regionales; y hoy día lo contempla.  También vamos a tener más flexibilidad en los instrumentos que están alojados en el FNDR (Fondo Nacional de Desarrollo Regional), en el programa de inversión en particular\", entre otros, aseguró Mundaca. El  ministro de Hacienda, Jorge Quiroz , señaló que \"las medidas de gestión permiten que partamos ejecutando (el Presupuesto) en las regiones desde el día uno\". \"Hay una tremenda responsabilidad hoy día de la reactivación del empleo: dimos un voto de confianza muy fuerte a la gestión futura de los gobernadores\" , añadió el jefe de la billetera fiscal. La aprobación de la partida en virtud del acuerdo fue valorada ampliamente por parlamentarios oficialistas y de oposición.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/comision-aprobo-presupuesto-de-gores-con-una-merma-chica-de-3-a-4/2026-11-04/144619.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104144619.png",
+          "published_raw": "Wed, 04 Nov 2026 14:46:19 -0300",
+          "published_at": "2026-11-04T14:46:19-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 7,
+          "score_institutional": 1,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 5,
+          "score_policy": 2,
+          "score_ideology": 0,
+          "score_actor": 3,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 13,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
+          "political_evidence": 6,
+          "primary_topic": "Economía y políticas públicas",
+          "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-006"
+          "cluster_id": "PML-EVENT-012"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-019",
-      "title": "Las ‘midterms’ 2026, en vivo | Vuelco político en Estados Unidos: los demócratas logran el control total del Congreso en un duro castigo a Trump",
-      "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
+      "cluster_id": "PML-EVENT-027",
+      "title": "Las ‘midterms’ 2026, en vivo | El vicepresidente J. D. Vance culpa a la guerra en Irán por la estrepitosa derrota republicana",
+      "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "Chile",
+        "group": "Internacional",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 59.5,
+        "score": 60.5,
         "level": "MEDIA",
-        "editorial_utility": 55.5
+        "editorial_utility": 63.5
       },
       "selection": {
-        "reason": "PML 59.5; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 60.5; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 2,
+        "article_count": 1,
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-04T03:41:17-0300",
-      "last_seen": "2026-11-04T07:32:10-0300",
+      "first_seen": "2026-11-04T15:38:40-0300",
+      "last_seen": "2026-11-04T15:38:40-0300",
       "entities": [
-        "congreso",
-        "trump",
-        "senado"
+        "iran",
+        "trump"
       ],
-      "event_terms": [],
+      "event_terms": "guerra",
       "analysis": {
-        "summary": "El Partido Demócrata se hace con el Senado y la Cámara de Representantes tras vencer en bastiones republicanos como Texas, Kansas, Iowa y Carolina del Sur | El demócrata Abdul El-Sayed gana las elecciones al Senado en Míchigan y se convierte en el primer musulmán en la Cámara alta | Trump admite la derrota y dice que aceptará los resultados",
+        "summary": "El presidente Donald Trump admite el lastre que supuso la guerra en las urnas, pero matiza al decir que “tomaría la misma decisión si tuviese que hacerlo”",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -309,47 +302,19 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Las ‘midterms’ 2026, en vivo | Vuelco político en Estados Unidos: los demócratas logran el control total del Congreso en un duro castigo a Trump",
-          "description": "El Partido Demócrata se hace con el Senado y la Cámara de Representantes tras vencer en bastiones republicanos como Texas, Kansas, Iowa y Carolina del Sur | El demócrata Abdul El-Sayed gana las elecciones al Senado en Míchigan y se convierte en el primer musulmán en la Cámara alta | Trump admite la derrota y dice que aceptará los resultados",
-          "url": "https://elpais.com/us/2026-11-03/las-midterms-2026-en-vivo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/TDQVYGNPSJARRF5ZL7YWMWIUM4.JPG?auth=425dd893e15b9eaa03a33a2065374ca1efad00653f356b9b6bb0bab8f59ccd17",
-          "published_raw": "Wed, 04 Nov 2026 10:32:10 GMT",
-          "published_at": "2026-11-04T07:32:10-0300",
+          "title": "Las ‘midterms’ 2026, en vivo | El vicepresidente J. D. Vance culpa a la guerra en Irán por la estrepitosa derrota republicana",
+          "description": "El presidente Donald Trump admite el lastre que supuso la guerra en las urnas, pero matiza al decir que “tomaría la misma decisión si tuviese que hacerlo”",
+          "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/JQC7BYPJ3BLDNNRCVDD74PYMLU.jpg?auth=00a9728f8690f8c3fd796932d7142f6c07a164fb396853cefea7f6cb6fd4b67d",
+          "published_raw": "Wed, 04 Nov 2026 18:38:40 GMT",
+          "published_at": "2026-11-04T15:38:40-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
-          "score_institutional": 3,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-019"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Los demócratas arrasan en las ‘midterms’ a lomos del voto de castigo a la caótica presidencia de Trump",
-          "description": "El partido, triunfante en territorios profundamente republicanos, se hace con el Senado y la Cámara de Representantes, algo que solo había pasado seis veces en la historia",
-          "url": "https://elpais.com/us/2026-11-04/los-democratas-arrasan-en-las-midterms-a-lomos-del-voto-de-castigo-a-la-caotica-presidencia-de-trump.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/OQX5NF6F5FEJPGMJAL6Y3NFSJU.jpg?auth=f3db7bb011574e5bfe99e44a84a53462923492457b17bc6a8d0ae02b0e0e8459",
-          "published_raw": "Wed, 04 Nov 2026 06:41:17 GMT",
-          "published_at": "2026-11-04T03:41:17-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 1,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
+          "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 1,
@@ -357,18 +322,18 @@
           "score_accident": 0,
           "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-027"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-005",
-      "title": "Romero y Pardo se enfrascaron sobre lealtades a Kast en medio de la crisis",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-republicano/romero-y-pardo-se-enfrascaron-sobre-lealtades-a-kast-en-medio-de-la-crisis/2026-11-03/110604.html",
+      "cluster_id": "PML-EVENT-002",
+      "title": "UDI pide que, superada la crisis, Kast instaure una coalición política formal",
+      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/udi-pide-que-superada-la-crisis-kast-instaure-una-coalicion-politica/2026-11-04/112029.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_CRISIS",
@@ -377,12 +342,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 58.2,
-        "level": "MEDIA",
-        "editorial_utility": 51.2
+        "score": 63.7,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 59.7
       },
       "selection": {
-        "reason": "PML 58.2; diversidad relajada para completar el brief",
+        "reason": "PML 63.7; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -392,15 +357,12 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-03T11:06:04-0300",
-      "last_seen": "2026-11-03T11:06:04-0300",
-      "entities": [
-        "chile",
-        "congreso"
-      ],
+      "first_seen": "2026-11-04T11:20:29-0300",
+      "last_seen": "2026-11-04T11:20:29-0300",
+      "entities": [],
       "event_terms": "crisis",
       "analysis": {
-        "summary": "Los diputados Agustín Romero (Partido Republicano) y Luis Pardo (Renovación Nacional) tuvieron este martes en El Primer Café intensos cruces de palabras a propósito la crisis que golpea al Gobierno y al oficialismo a raíz de las rebajas de condena a pederastas. El intercambio partió con ironías y risas moderadamente amistosas , pero fue subiendo de tono a medida que pasaban los minutos; con el telón de fondo de la decisión -transversalmente cuestionada- del Presidente José…",
+        "summary": "El diputado Eduardo Cretton, vicepresidente de la UDI , abogó en El Primer Café  por que, una vez superada la crisis de las rebajas de condena a pedófilos, el Presidente José Antonio Kast instaure de manera formal una \"nueva coalición política\" con los partidos que lo apoyan.",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -413,30 +375,30 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Romero y Pardo se enfrascaron sobre lealtades a Kast en medio de la crisis",
-          "description": "Los diputados Agustín Romero (Partido Republicano) y Luis Pardo (Renovación Nacional) tuvieron este martes en El Primer Café intensos cruces de palabras a propósito la crisis que golpea al Gobierno y al oficialismo a raíz de las rebajas de condena a pederastas. El intercambio partió con ironías y risas moderadamente amistosas , pero fue subiendo de tono a medida que pasaban los minutos; con el telón de fondo de la decisión -transversalmente cuestionada- del Presidente José Antonio Kast de mantener en su cargo al ministro de Justicia, Fernando Rabat . En este contexto, Pardo defendió la declaración pública en la que RN planteó \"serios reparos\" al manejo del conflicto por parte del Ejecutivo , que -planteó- hoy tiene su agenda \"paralizada\". También llamó a \" fortalecer la conducción política del Gobierno , mejorando la capacidad de anticipación, coordinación y rigurosidad en la toma de decisiones\", y criticó, de paso, a \"quienes cumplen funciones de asesoría directa al Presidente de la República\". Declaración pública de Renovación Nacional ante los hechos conocidos en relación con la rebaja de penas a condenados por delitos sexuales contra menores de edad. https://t.co/LuGZlJKdKe — Renovación Nacional 🇨🇱 (@RNchile) November 3, 2026 \" Es una crítica, sin duda \", pero es preferible que se haya formulado \"como partido\" a favorecer que la manifiesten \"distintos parlamentarios de manera individual\", dando una sensación de \"desorden que termina perjudicando al mismo Gobierno\", señaló Pardo. A juicio del legislador RN, \"el Gobierno está pagando costos más allá de lo razonable y de lo prudente\" con este trance. \"Nosotros vamos a defender la decisión que tomó el Presidente de la República\", contestó Romero, preguntándose, con sorna, \"¿qué va a cambiar?\" con la crítica de RN: \" No creo que (en La Moneda) digan: ' ¡Uy!, respecto a este comunicado, entonces vamos a hacer todos los cambios que nos están pidiendo '\" . \"Si la solución es que se vaya el ministro y retrocedamos a lo que se hacía antes, que sea la Corte la que hace la pega y nosotros nos lavamos las manos; ese, por lo menos, no es el camino que nosotros vamos a tomar como republicanos \", enfatizó, para, a renglón seguido, lanzar un desafío a sus socios. \"Aquí vamos a ver quién es quién\" Agustín Romero: \"Yo voy a decir una cosa y quiero que la sepa todo el mundo que me está escuchando.  Aunque seamos nosotros 30 (los diputados republicanos) los únicos que vamos a apoyar la decisión del  Presidente de la República, vamos a estar los 30 con el Presidente, de aquí hasta el último día del Gobierno \". \"Esta cuestión de que estemos haciendo  comunicados para que se queden tranquilos los díscolos  a mí no me gusta. Acá tenemos que funcionar bien disciplinados. No podemos aceptar que le pase lo mismo que le pasó a otros gobiernos de nuestro  sector, que desde sus mismos partidos se empiezan a  torpedear sus medidas. Eso nosotros no lo vamos a aguantar . Vamos a seguir firmes apoyando la decisión del Presidente de la República, porque éste es nuestro Gobierno\". \" Nosotros fuimos los diputados de Kast . A los parlamentarios yo los veo en Cerro Castillo sacándose selfies con el Presidente , y aquí el Presidente nos dijo: ' Yo tomé esta decisión, ¿me apoyan o no me apoyan?'. Y aquí vamos a ver quién es quién nomás\". Luis Pardo: \"Yo no he señalado en ningún minuto que esto sea un comunicado para dejar tranquilos a los díscolos. Es un comunicado donde se constata un problema grave y y se hace presente públicamente, con lo cual se evita que aparezcan varios haciendo sus propios análisis, sus propias reprimendas al Gobierno\". \"Me parece perfectamente legítimo y necesario que, cuando existe una circunstancia grave como ésta, un partido se pronuncie colectivamente, expresando su preocupación y su posición\". \"Botarse a choro\" Pardo se refirió, en este punto, a las amenazas cruzadas que se han escuchado durante la última semana de un quiebre entre Chile Vamos y el Partido Republicano, e incluso a la posibilidad de su salida del Ejecutivo. Luis Pardo: \" Imagínese lo que pasaría si dejáramos los cargos...  (En la Administración Kast) perderían un activo importante; gente con experiencia y conocimiento\". Agustín Romero: \"Se quedan sin pega, nomás\". Luis Pardo: \"Eso desde el punto de vista de los que buscan pega, pues, pero no es el caso de la inmensa mayoría de los (militantes de Chile Vamos) que están (en el Gobierno)\". Agustín Romero: \"Tampoco es para botarse a choro\" . Luis Pardo: \"Bueno, regresando el Presidente de su gira internacional -que va a ser muy pronto, entiendo que en dos días más-, nosotros esperamos que esto tenga un curso de solución\". \"Yo nunca he pedido la renuncia del ministro Rabat, a quien le tengo un gran aprecio; ni lo haría, porque siempre es prerrogativa exclusiva del Presidente, pero ésta es una materia que va más allá de la figura de un ministro y que amerita una reacción que , a nuestro juicio, el Gobierno no ha tenido . Y ése es el sentido único del comunicado\". \"Niñerías\" Pardo continuó: \" Esa frase de (Romero) ' dejen de tomarse selfies con el Presidente ' me parece una niñería . No es la forma de enfrentar una relación adulta entre partes de un Gobierno\". \"El aporte que pueda hacer Renovación Nacional, precisamente por la experiencia que tuvimos de un Gobierno que fue abandonado   en los momentos más  difíciles , (es que) no queremos que le pase lo mismo al Presidente Kast , y nuestro aporte siempre va a ser en la línea de contribuir a superar una crisis y no de agudizarla con declaraciones impropias . La derecha, en toda su amplitud, tiene que aprender y sacar lecciones de lo que se pudo evitar y de aquello que se hizo mal (en el pasado)\". Agustín Romero : \"Seamos justos, el Partido Republicano en esa época (de Sebstián Piñera) era incipiente, recién inscrito. Los que abandonaron al Presidente Piñera fueron los (oficialistas de entonces) que le votaron (a favor) los retiros . ¿O no se acuerda, Luis Pardo? ¿Quiénes fueron los que votaron retiro? ¿Quiénes fueron los que empezaron con esa iniciativa?\". Luis Pardo: \"Yo voté en contra de los retiros\". Agustín Romero: \"Tú sí, pero ¿qué partido fue el que votaba (a favor) los retiros? No nos eches la culpa a nosotros de que dejamos botado al  Presidente Piñera . Nosotros ni estábamos en el Congreso. No, pues. Seamos justos\". Luis Pardo: \"Yo no estoy echándole la culpa a nadie, no he mencionado al Partido Republicano respecto del tema. Sí señalo lo importante que es que un Gobierno, en momentos difíciles -pues  hoy día el país está en momentos difíciles - tenga el apoyo absolutamente institucional de los partidos y que se mantengan esos partidos ordenados. Eso es parte también del desafío y del aprendizaje\". Agustín Romero: \" Claro, lo apoyo, pero lo critico en público...\". Luis Pardo: \"Te podría responder, Agustín, ¿qué pasó con la acusación constitucional (republicana contra Nicolás Grau), que evidentemente no le convenía al Presidente (Kast)? ¿Qué pasó con la acusación a los ministros de la Corte Suprema con que ustedes iban a partir corriendo ahora detrás de otro partido (el Libertario)? Yo creo que es mejor mantener la crítica institucional y de buen nivel que entrar en el dime y direte \". Agustín Romero: \"Si eso es lo que estamos pidiendo, pues; que mantengamos la crítica institucional\".",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-republicano/romero-y-pardo-se-enfrascaron-sobre-lealtades-a-kast-en-medio-de-la-crisis/2026-11-03/110604.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261103/imag/foto_0000000220261103110604.jpg",
-          "published_raw": "Tue, 03 Nov 2026 11:06:04 -0300",
-          "published_at": "2026-11-03T11:06:04-0300",
+          "title": "UDI pide que, superada la crisis, Kast instaure una coalición política formal",
+          "description": "El diputado Eduardo Cretton, vicepresidente de la UDI , abogó en El Primer Café  por que, una vez superada la crisis de las rebajas de condena a pedófilos, el Presidente José Antonio Kast instaure de manera formal una \"nueva coalición política\" con los partidos que lo apoyan. El parlamentario afirmó que el error cometido por el ministro Fernando Rabat \"ha tenido un costo evidente para el Gobierno\" , y consideró  \"un poco dramático que (en la derecha y centroderecha) hayamos pasado del 62 por ciento del Rechazo de salida del 4 de septiembre (de 2022)  al 22 por ciento del Rechazo de entrada (en el plebicito de 2020 que preguntó por una nueva Constitución)\"; cifra, esta última, que equivale a la aprobación al Mandatario señalada por la más reciente encuesta Pulso Ciudadano . Mantener la situación actual \"es un problema, porque significa que, de una u otra forma, se empieza a diluir el apoyo ciudadano al Gobierno del Presidente\" , advirtió Cretton. \"Los partidos influyen poco en las decisiones\" \"Para mí el gran problema que hemos tenido durante estos siete meses de Gobierno es que no hemos sido capaces de construir una verdadera coalición política que permita darle sustento al Presidente\", afirmó. \" Es un problema de diseño,  donde los partidos políticos influyen poco en las decisiones que se están tomando. Por lo tanto, yo espero que una vez que salgamos de esta crisis, sea el propio Presidente  José Antonio Kast quien llame y convoque a una coalición política\" , dijo Cretton. \" Esto es mucho más profundo que simplemente sacar a un ministro , poner a otro ministro o meter más ministros políticos al gabinete. Esto tiene que ver con que los partidos políticos que sustentan al Gobierno quieran ser realmente capaces de trabajar juntos y construir una coalición\", y requiere \"que el Presidente José Antonio Kast -sobre todo en momentos críticos como los que está viviendo- no simplemente tiene que ser Jefe de Estado y Jefe de Gobierno, sino que también tiene que ser jefe de una coalición \". En esa línea, \"yo esperaría que cuando salgamos de esta crisis, el Presidente convoque a una nueva coalición política que nos permita revertir los malos números que estamos viendo y que nos permita hacernos cargo de los problemas\", insistió. \" El gran desafío que tiene el Gobierno ahora es cómo remontamos estos números que no son positivos: la baja en la aprobación, y para eso me parece que es evidente (la necesidad de) un diseño nuevo que considere una coalición política ya formal , donde los partidos políticos puedan colaborar y ser más influyentes a la hora de la toma de decisiones\", enfatizó el diputado. \"La UDI no se va a ir\" El dirigente gremialista agregó, a propósito de las tensiones desatadas en el oficialismo en las últimas semanas, que \" la UDI se ha comportado como un partido leal con el Presidente José Antonio Kast y no se va a ir del Gobierno -como han insinuado algunos - por el tema de los cargos\". \"Uno no está en el Gobierno por un par de cargos . Eso es totalmente secundario. Está en el Gobierno porque quiere construir un proyecto político en común\", pero \" si no hay una coalición política y hay tan bajos niveles de aprobación , la verdad es que esa tarea -que es probablemente la tarea política más importante que tenemos los partidos del Gobierno- se empieza a poner cuesta arriba \", advirtió.",
+          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/udi-pide-que-superada-la-crisis-kast-instaure-una-coalicion-politica/2026-11-04/112029.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104112029.jpg",
+          "published_raw": "Wed, 04 Nov 2026 11:20:29 -0300",
+          "published_at": "2026-11-04T11:20:29-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 7,
-          "score_elections": 0,
+          "score_institutional": 6,
+          "score_elections": 1,
           "score_international": 0,
-          "score_conflict": 1,
+          "score_conflict": 0,
           "score_policy": 0,
-          "score_ideology": 1,
+          "score_ideology": 2,
           "score_actor": 5,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 14,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-005"
+          "cluster_id": "PML-EVENT-002"
         }
       ]
     }
@@ -449,25 +411,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-001",
-        "title": "Caso Rabat marcó tensa aprobación del presupuesto de Justicia en comisión mixta",
+        "cluster_id": "PML-EVENT-006",
+        "title": "Gobierno anunció veto sustitutivo a la ley de incendios",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/caso-rabat-marco-tensa-aprobacion-del-presupuesto-de-justicia-en/2026-11-03/212609.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/incendios-forestales/gobierno-anuncio-veto-sustitutivo-a-la-ley-de-incendios/2026-11-03/155713.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 53,
+          "score": 58.1,
           "level": "MEDIA",
           "components": {
-            "political_impact": 52,
-            "freshness": 88,
+            "political_impact": 83,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 34
+            "continuity": 32
           }
         },
         "coverage": {
@@ -475,36 +437,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-03T21:26:09-0300",
-        "last_seen": "2026-11-03T21:26:09-0300",
+        "first_seen": "2026-11-03T15:57:13-0300",
+        "last_seen": "2026-11-03T15:57:13-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Caso Rabat marcó tensa aprobación del presupuesto de Justicia en comisión mixta",
-            "description": "La polémica rebaja de condenas a 56 abusadores sexuales y violadores de menores por parte del Ministerio de Justicia -presidido por Fernando Rabat- marcó la discusión y la posterior aprobación de la partida de la cartera en la Comisión Mixta de Presupuestos. Los recursos propuestos tuvieron el visto buena de la derecha -que tiene mayoría en la instancia- y del PDG, constituyendo 16 votos favorables contra 10 negativos, todos de la oposición. Al inicio de la discusión, parlamentarios de oposición exhibieron en sus pupitres carteles que decían \"Renuncia Rabat\", lo que generó la protesta de sus pares del oficialismo. Al comenzar la discusión de la partida presupuestaria del ministerio de justicia, diputados y senadores de oposición exhiben en sus pupitres carteles que dicen \"renuncia Rabat\". @Cooperativa — Jorge Espinoza Cuellar (@espinozacuellar) November 3, 2026 [Lea también]  Diputada Ossandón: Se hace muy difícil la continuidad del ministro Rabat Asimismo, la votación fue precedida por un acalorado debate sobre la pertinencia de discutir en dicho espacio los controversiales decretos del Gobierno que dejaron libres a los mentados condenados  y que también beneficiaron a  sentenciados radicados en Punta Peuco y a miembros del Tren de Aragua.  La senadora DC Yasna Provoste acusó que \"el ministro Rabat implementó una política de Gobierno de liberar con prontitud a todo violador, abusador y pederasta que se lo pidiera. Financiar instituciones también expresa prioridades y compromiso del Estado; aprobarlo (los recursos) como si nada hubiera ocurrido sería una señal de normalidad que en estas circunstancias no estoy dispuesta a entregar\". A su turno, el diputado libertario Pier Karlezi  criticó que, \"lamentablemente, cuando se quiere secuestrar el presupuesto y su discusión para hacer puntos políticos,  eso no le hace bien a la imagen de los diputados, de los senadores ni del Congreso en general\". Como respuesta, la senadora y presidenta del PS, Paulina Vodanovic,  señaló que \"los que secuestraron son los que están en Punta Peuco, y que están condenados y que ahí tienen que seguir. Se ha dicho que este no es el momento de la crítica al ministro. Entonces, ¿aquí habría que hacer como que nada pasó?\",  cuestionó. Hasta ahora, en la Comisión han sido aprobadas 12 de las 33 partidas del presupuesto sugerido para el próximo año. El proyecto deberá ser votado por la Cámara la próxima semana, mientras que la siguiente tendrá que visarla el Senado. [Lea también]  Romero y Pardo se enfrascaron sobre lealtades a Kast en medio de la crisis",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/caso-rabat-marco-tensa-aprobacion-del-presupuesto-de-justicia-en/2026-11-03/212609.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261103/imag/foto_0000000220261103212609.png",
-            "published_raw": "Tue, 03 Nov 2026 21:26:09 -0300",
-            "published_at": "2026-11-03T21:26:09-0300",
+            "title": "Gobierno anunció veto sustitutivo a la ley de incendios",
+            "description": "El ministro de Agricultura, Jaime Campos , anunció este martes que el Gobierno presentará un veto sustitutivo al proyecto de ley que regula la prevención y mitigación de incendios forestales . La iniciativa se encuentra en su etapa final de tramitación en el Congreso, luego de permanecer tres años en discusión legislativa. El secretario de Estado comunicó la decisión en la Cámara de Diputadas y Diputados, que aprobó por 77 votos a favor, 51 en contra y 14 abstenciones el informe de la comisión mixta.  \"Hemos persuadido al Presidente de la República que presente un veto sustitutivo que incluya todas las materias y todas las aprensiones que, a nuestro modo de ver, debiesen estar incorporadas \", explicó Campos. Entre las modificaciones que pretende introducir el Gobierno, el ministro mencionó mecanismos de pago y compensación para los propietarios de terrenos afectados por la expropiación de franjas de sus predios , además de la transferencia de recursos económicos a los municipios para fortalecer su participación en la prevención y combate de incendios. INCENDIOS FORESTALES📰| Cámara votó informe de mixta a ley de prevención de incendios forestales. https://t.co/4mVRC2x1qA https://t.co/RWREcMsOrE — Diputadas y Diputados de Chile (@Camara_cl) November 3, 2026 Críticas desde la oposición La diputada Sofía González (Partido Comunista) cuestionó el anuncio del veto presidencial y advirtió que \"lo único que hace es seguir aumentando el tiempo de tramitación\". \" Chile necesita una mejor institucionalidad , recursos para poder identificar zonas de riesgo, cómo se manejan, dotar de responsabilidad tanto al mundo público como privado y también mejor capacidad para fiscalizar que cada uno de estos elementos se cumplan\", sostuvo la parlamentaria. Además, González emplazó a Campos: \"No siga insistiendo en esta situación\" .",
+            "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/incendios-forestales/gobierno-anuncio-veto-sustitutivo-a-la-ley-de-incendios/2026-11-03/155713.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261103/imag/foto_0000000220261103155713.jpg",
+            "published_raw": "Tue, 03 Nov 2026 15:57:13 -0300",
+            "published_at": "2026-11-03T15:57:13-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 8,
-            "score_elections": 1,
+            "score_institutional": 7,
+            "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 1,
+            "score_conflict": 0,
+            "score_policy": 0,
             "score_ideology": 1,
-            "score_actor": 6,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 18,
+            "political_evidence": 13,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
+            "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
+            "cluster_id": "PML-EVENT-006"
           }
         ],
         "article_count": 1,
@@ -513,34 +475,33 @@
           "bonus": 22,
           "labels": [
             "Estado e instituciones",
-            "Congreso y proceso legislativo",
-            "Economía y políticas públicas"
+            "Congreso y proceso legislativo"
           ],
-          "chile_utility": 75
+          "chile_utility": 80.1
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-008",
-        "title": "Diputada Ossandón: Se hace muy difícil la continuidad del ministro Rabat",
+        "cluster_id": "PML-EVENT-005",
+        "title": "Timonel DC: La acusación busca sacar a Rabat, pero si renuncia la vamos a hacer igual",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/diputada-ossandon-se-hace-muy-dificil-la-continuidad-del-ministro-rabat/2026-11-03/091617.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/timonel-dc-la-acusacion-busca-sacar-a-rabat-pero-si-renuncia-la-vamos/2026-11-04/121603.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 48,
-          "level": "BAJA",
+          "score": 63,
+          "level": "MEDIA-ALTA",
           "components": {
-            "political_impact": 50,
-            "freshness": 72,
+            "political_impact": 80,
+            "freshness": 95,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 30
+            "continuity": 32
           }
         },
         "coverage": {
@@ -548,33 +509,102 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-03T09:16:17-0300",
-        "last_seen": "2026-11-03T09:16:17-0300",
+        "first_seen": "2026-11-04T12:16:03-0300",
+        "last_seen": "2026-11-04T12:16:03-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Diputada Ossandón: Se hace muy difícil la continuidad del ministro Rabat",
-            "description": "La vicepresidenta de la Cámara de Diputados, Ximena Ossandón (RN), dijo en Cooperativa que \"se hace muy difícil\" la continuidad del ministro de Justicia, Fernando Rabat, en medio de la polémica generada por el decreto que permitió la rebaja de condenas de abusadores y violadores de menores de edad. En El Diario de Cooperativa , la parlamentaria aseveró que \" esto es un tema que nos está paralizando , es un tema muy importante, de mucha sensibilidad y en el fondo todas las soluciones vienen del Presidente de la República. Vemos como aparece una acusación constitucional, que todavía no se va a presentar, se va a presentar la próxima semana, se va a enredar con el tema del Presupuesto\". \"En vez de amainarse, esto va creciendo, con todo el perjuicio que esto concita, entonces yo siento que aquí, bien el Presidente ya tomó una decisión, fue bien claro de mantener al ministro. Entonces esto tenemos que resolverlo con él, porque el gobierno y todo el sector se empieza a ver perjudicado\" , puntualizó. Para la diputada, \"no sacamos nada con estar cambiando ministros, pero si no se cambia la forma de hacer política, esta misma cultura que está instalada atrás, tal vez vamos a volver a repetir los mismos errores\". Ossandón insistió en que \"se hace muy difícil la continuidad (de Rabat). Ayer estábamos viendo otro proyecto y se levantan parlamentarios con carteles y esa va a ser la tónica que va a continuar lamentablemente y efectivamente eso va a hacer difícil que él pueda sacar con celeridad la agenda que se haya propuesto en materias tan relevantes como reformas o el tema de la reinserción\". Sin embargo, sobre la acusación constitucional, la diputada recordó que \"hoy día no existiría una transgresión a la Constitución y las leyes. Yo hoy día estaría votándola en contra\". UDI asume \"costos políticos\" de apoyar al gobierno El presidente de la UDI, Guillermo Ramírez, dijo este martes que asume los costos políticos de apoyar al gobierno y se distanció de la postura de Renovación Nacional, indicando que las críticas se deben hacer a puertas cerradas. En diálogo con La Tercera TV , el diputado aseveró que \"la institucionalidad establece mecanismos para estos casos y el mecanismo es una acusación constitucional, acéptenlo y que gane el que junte más votos. No estoy aquí hablando desde la soberbia, estoy hablando desde la institucionalidad\". \"Yo creo que lo bueno que se va a sacar es algo que lamentablemente no se hizo en el gobierno anterior, que es mejorar la institucionalidad para que esto no vuelva a ocurrir, porque a la gente de izquierda parece que les conforma el hecho de que pedófilos salgan de la cárcel por mandato judicial y no por vía administrativa, y ¿qué diputados de los que hoy día razgan vestiduras presentó un proyecto de ley para evitarlo?\", añadió.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/diputada-ossandon-se-hace-muy-dificil-la-continuidad-del-ministro-rabat/2026-11-03/091617.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261103/imag/foto_0000000220261103091617.jpg",
-            "published_raw": "Tue, 03 Nov 2026 09:16:17 -0300",
-            "published_at": "2026-11-03T09:16:17-0300",
+            "title": "Timonel DC: La acusación busca sacar a Rabat, pero si renuncia la vamos a hacer igual",
+            "description": "El presidente de la DC, Álvaro Ortiz , dijo en El Primer Café que la acusación constitucional anunciada por la oposición busca sacar de su cargo al  ministro Fernando Rabat , pero aun si éste renuncia, la ofensiva seguirá adelante. \"Nosotros podemos hacer una acusación constitucional incluso aunque llegara a renunciar el ministro o aunque lo lleguen a sacar: tenemos hasta 60 días para poder presentarla, y la vamos a presentar igual\" , señaló Ortiz en Cooperativa . Consultado por el objetivo del libelo, contestó que es, \" primero, sacar al ministro , porque no es una persona válida para poder interactuar de aquí en adelante\" con el Congreso. No obstante, reiteró que incluso si el ministro abandona el Gobierno, \"la vamos a hacer igual ,   porque el daño que ha causado es enorme y tenemos la convicción de que esta acusación constitucional va a marcar un precedente (...) Se va a hacer porque las responsabilidades no pueden quedar en el limbo \".  \" El Gobierno se equivocó y no quiere reconocer el error ni de la boca hacia afuera (...) Si el ministro hubiese tenido un mínimo de decoro, hubiese dado un paso al costado para no generar todo este problema\", pero lo cierto es que hasta el momento sólo ha demostrado \"mucha arrogancia\", acusó el diputado. \"Vamos a apelar a que le haga sentido al oficialismo\" El líder falangista añadió que la AC se fundará en \"antecedentes sólidos y fundamentos jurídicos; no solamente sobre el legítimo rechazo ciudadano\".  Pese a la minoría opositora en el Congreso, \"nosotros no estamos en la tarea de convencer a parlamentarios del oficialismo para que apoyen la acusación constitucional\"; simplemente \" vamos a apelar a que les haga sentido el objetivo de que en Chile nunca más el Estado pueda reabrir una herida a familias y a niños y niñas que fueron violados y que les jodieron la vida \". \"Todo lo que se prometió no se ha cumplido\" En términos más generales, Ortiz planteó que este escándalo delata \"una crisis en el liderazgo de José Antonio Kast , y no es un hecho esporádico\". \"En estos escasos meses han sido varios los hechos que han ido determinando la desaprobación del Gobierno a niveles verdaderamente históricos.  El Presidente ha perdido atributos esenciales que en un momento generó en la gente: empatía, consecuencia y conexión con la ciudadanía... Claramente todos esos atributos ya los perdió\"; en parte por culpa de Rabat, pero también por \"el impacto del alza de los combustibles, la inflación, el desempleo, etcétera\" , reflexionó. \" Todo lo que se prometió no se ha cumplido, y eso en política genera -con razón-  decepción y rechazo . Hay una acumulación de frustraciones y  expectativas incumplidas en mucha gente. (De hecho) ahora cuesta  encontrar personas que hayan votado por Kast , cuando después del 14 de diciembre del año pasado todos -con el pecho realmente inflamado- decían haber votado por Kast y (se jactaban) que habían ganado\", comentó con sorna.      ",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/timonel-dc-la-acusacion-busca-sacar-a-rabat-pero-si-renuncia-la-vamos/2026-11-04/121603.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104121603.jpg",
+            "published_raw": "Wed, 04 Nov 2026 12:16:03 -0300",
+            "published_at": "2026-11-04T12:16:03-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 8,
+            "score_institutional": 6,
             "score_elections": 0,
             "score_international": 0,
             "score_conflict": 0,
-            "score_policy": 1,
-            "score_ideology": 1,
-            "score_actor": 3,
+            "score_policy": 2,
+            "score_ideology": 0,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
             "political_evidence": 13,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-005"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 13,
+          "labels": "Estado e instituciones",
+          "chile_utility": 76
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-008",
+        "title": "Partido Republicano: Es necesario hacer ajustes para darle más tonelaje político al Gobierno",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/partido-republicano-es-necesario-hacer-ajustes-para-darle-mas-tonelaje/2026-11-04/105119.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 55.5,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 55,
+            "freshness": 95,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 32
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-04T10:51:19-0300",
+        "last_seen": "2026-11-04T10:51:19-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Partido Republicano: Es necesario hacer ajustes para darle más tonelaje político al Gobierno",
+            "description": "El secretario general del Partido Republicano, Vicente Bruna , comentó este miércoles en El Primer Café las versiones de prensa que hablan de un inminente cambio de gabinete , en medio de la crisis que golpea al Gobierno a propósito de las rebajas de condena a pederastas. Según publicó el martes Ex-Ante , \"la ventana para el cambio es la próxima semana\" y, además del criticado ministro de Justicia, Fernando Rabat , están \"bajo evaluación\" para salir del Ejecutivo los titulares de Trabajo (Tomás Rau), Segpres (José García Ruminot), Mujer (Judith Marín) y Ciencia (Ximena Lincolao). Los cambios alcanzarían también al Segundo Piso, equipo de asesores liderado por el cuestionado Alejandro Irarrázaval. \" Si el Presidente decide hacer ajustes en el gabinete, por supuesto que nosotros lo vamos a apoyar \", dijo Bruna este miércoles en Cooperativa . \"Esperemos que (de ocurrir) esos ajustes sean en beneficio del país\", señaló el dirigente, enfatizando que tales versiones \"todavía son trascendidos de prensa\". Sin embargo, añadió que \"si el Presidente decide efectivamente hacer cambios, van a ser pensando en darle más tonelaje político al Gobierno , y por supuesto que van a ser muy bienvenidos esos cambios , con los ministros o subsecretarios que lleguen\". \"Todos creemos que es necesario hacer ajustes\" Bruna reconoció que \" es evidente que se necesita hacer ajustes \", pero lo consideró totalmente \"normal\"; y señaló que existe un \"ánimo constructivo de todos los partidos\" oficialistas para ello. Sin perjuicio de que haya también \"ciertas voces disidentes\", descartó que exista \"una tensión tremenda\" en la derecha . \"El martes nos juntamos los secretarios generales de Chile Vamos y Republicanos justamente para abordar estos temas. Fue una conversación muy buena, muy franca: todos nos pudimos decir lo que cada uno pensaba, y la conclusión más grande es que estamos todos por remar para el mismo lado (...) y sacar el Gobierno adelante\", contó. En política \" nunca va a haber una sola voz , siempre va a haber formas de comunicar distintas, porque somos partidos con estilos distintos\", pero \" todos creemos que es necesario hacer ajustes\" , atendido el hecho de que \" un Gobierno perfecto no existe\" . \"Al menos en mi caso - lo he hecho en privado con distintas personas del Gobierno - estamos impulsando que esos ajustes se generen . (Y ya) hemos tenido muchos cambios que se han ido dando, fruto de estas conversaciones privadas\", aseveró. En estos meses \"nos hemos juntado los secretarios generales del oficialismo con distintos subsecretarios, ministros y el mismo Presidente para hacer ver (la necesidad de) esos cambios, y el Gobierno se ha comprometido a hacer esos cambios \", señaló Bruna.",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/partido-republicano-es-necesario-hacer-ajustes-para-darle-mas-tonelaje/2026-11-04/105119.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104105119.jpg",
+            "published_raw": "Wed, 04 Nov 2026 10:51:19 -0300",
+            "published_at": "2026-11-04T10:51:19-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 4,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 1,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 9,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
             "cluster_id": "PML-EVENT-008"
@@ -583,81 +613,12 @@
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 21,
+          "bonus": 19,
           "labels": [
             "Estado e instituciones",
-            "Congreso y proceso legislativo"
+            "Elecciones y opinión pública"
           ],
-          "chile_utility": 69
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-004",
-        "title": "Timonel PPD: \"La crisis se está empezando a hacer generalizada\"",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_CRISIS",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/ppd/timonel-ppd-la-crisis-se-esta-empezando-a-hacer-generalizada/2026-11-03/121110.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 55.9,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 71,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 46
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-03T12:11:10-0300",
-        "last_seen": "2026-11-03T12:11:10-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Timonel PPD: \"La crisis se está empezando a hacer generalizada\"",
-            "description": "El presidente del PPD, Raúl Soto , alertó en El Primer Café que la conjunción del caso Rabat con los problemas de crecimiento y empleo -que hoy tienen incluso movilizados a los camioneros- están dibujando un escenario de \"crisis generalizada\" en Chile , cuya responsabilidad es de la Administración Kast. \" Al Gobierno le llueve sobre mojado : por un lado está la crisis ética y de confianza por el caso Rabat ; y por el otro, la crisis económica y de alto costo de la vida provocada por el ministro (de Hacienda Jorge) Quiroz con la decisión de traspasar el costo de las bencinas (...) a la clase media y a los transportistas de Chile, que hasta ahora venían sosteniendo el costo de su propio bolsillo para respaldar a su Gobierno, pero que hoy día (...) se ven en la obligación de rebelarse y empezar a  ejercer presión \", analizó Soto en Cooperativa . \" Los gremios tienen que ejercer el rol que les corresponde, y cuando el Gobierno está tomando decisiones tan  equivocadas , evidentemente debe tener una respuesta de los que están siendo afectados. Más aún cuando las decisiones económicas van (...) acompañadas de  decisiones de política exterior que también van por un camino incorrecto  y que están afectando a sectores productivos muy importantes para la exportación chilena, como son la fruta, el vino, la madera, los salmones; afectando también nuestra economía y nuestra capacidad de crecimiento económico\", opinó el diputado. Promesas rotas En resumen, \"acá se están viendo impactadas y afectadas gravemente las principales promesas de campaña del actual Gobierno y del actual Presidente: el crecimiento económico está por el suelo, el desempleo está por las nubes y la inflación también\" . En este contexto \"hay, sin duda, mucha preocupación en la sociedad, y yo creo que el Gobierno debe dar un golpe de timón, una muestra clara de cambio de rumbo. De lo contrario, la crisis -que ya está empezando a hacerse generalizada- va a profundizarse, y no queremos eso para Chile\" , señaló el timonel. Desde la oposición \"le estamos diciendo al Gobierno que busque caminos distintos, que no sea tozudo , no sea tan inflexible en la perspectiva ideológica sobre la cual está tomando las decisiones en materia social, económica y de política exterior, porque la verdad que los resultados, a más de siete meses de iniciado el  Gobierno, son malos\" . \"El Gobierno dijo que íbamos a estar mejor y la verdad es que  estamos peor, y todos los problemas que teníamos se han acrecentado , se han profundizado y no vemos una salida clara y un norte claro\", lamentó el líder PPD. \"Mucha inconsistencia y bipolaridad\" Coincidió en el mismo panel la secretaria general del Partido Comunista, Bárbara Figueroa , quien observó \"una falta de capacidad de gobernar , de gestionar, dialogar y buscar puntos de encuentro\". \" Esta lógica de decir: ' Miren, todo va a estar bien mañana o pasado, o en 10 días más, o de aquí al 2028, o de aquí al no sé  cuantito '  no resiste tras ocho meses de Gobierno, sobre todo para una persona que  se preparó 10 años para llegar a la Presidencia de la República\" , criticó. Hasta ahora \"hay 58 autoridades que han salido en ocho meses: o sea, una total inexpertiz. Y si esto no es amateurismo , yo no sé qué es lo que es\", señaló la expresidenta de la CUT. Desde el Ejecutivo, \"además, presionan al empresariado y luego salen al mundo a decir: ' Señores, vengan por favor a invertir, este es el mejor de los  mundos '... O sea, en el mundo esta disonancia los terceros la miran, la ven. Y eso no le está haciendo bien al país\", insistió Figueroa, para quien el Gobierno, en general, \"está demostrando mucha inconsistencia y mucha bipolaridad en la forma en que está actuando, y eso afecta a la imagen país\".",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/ppd/timonel-ppd-la-crisis-se-esta-empezando-a-hacer-generalizada/2026-11-03/121110.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261103/imag/foto_0000000220261103121110.jpg",
-            "published_raw": "Tue, 03 Nov 2026 12:11:10 -0300",
-            "published_at": "2026-11-03T12:11:10-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 4,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 3,
-            "score_ideology": 1,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 14,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 64.9
+          "chile_utility": 74.5
         },
         "repeated_in_general_top5": false
       }
@@ -665,52 +626,48 @@
   },
   "topics": [
     {
+      "topic": "Instituciones y gobierno",
+      "event_count": 24,
+      "maximum_relevance": 64,
+      "leading_story": "\"Pasada de máquina\" de Lincolao a la ley de IA abrió nuevo flanco dentro del Gobierno"
+    },
+    {
       "topic": "Elecciones y opinión pública",
-      "event_count": 2,
-      "maximum_relevance": 66.3,
+      "event_count": 3,
+      "maximum_relevance": 63.3,
       "leading_story": "Cuatro victorias clave (y dos sorpresas): repaso de los triunfos demócratas en las elecciones"
     },
     {
-      "topic": "Instituciones y gobierno",
-      "event_count": 25,
-      "maximum_relevance": 63.9,
-      "leading_story": "Lula arenga al ejército digital que impulsó su triunfo en Brasil para marcar el paso al Tribunal Supremo"
+      "topic": "Economía y políticas públicas",
+      "event_count": 1,
+      "maximum_relevance": 62.8,
+      "leading_story": "Comisión aprobó presupuesto de gores con \"una merma chica, de 3 a 4%\""
     },
     {
       "topic": "Ideología y competencia política",
-      "event_count": 1,
-      "maximum_relevance": 54,
-      "leading_story": "Arancha González Laya: “No hay hechos alternativos cuando hablamos de hechos científicos”"
+      "event_count": 3,
+      "maximum_relevance": 53.5,
+      "leading_story": "Isabel Allende, premio Planeta 2026: “Cuidado con la extrema derecha y la extrema izquierda, el autoritarismo acentúa los problemas”"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 1,
-      "maximum_relevance": 49.4,
+      "maximum_relevance": 45.6,
       "leading_story": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 43.4,
+      "maximum_relevance": 39.6,
       "leading_story": "¿Qué hay detrás de la violencia contra los periodistas que las autoridades no pueden frenar?"
-    },
-    {
-      "topic": "Economía y políticas públicas",
-      "event_count": 1,
-      "maximum_relevance": 40.3,
-      "leading_story": "Ricardo Solari: En un año, Quiroz transformó a los chilenos en estatistas"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-023", "PML-EVENT-021", "PML-EVENT-019"],
-      "exited_top5": ["PML-EVENT-017", "PML-EVENT-024", "PML-EVENT-004"],
-      "retained_top5": ["PML-EVENT-006", "PML-EVENT-005"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
     "source_count": 3
   },
   "system": {
