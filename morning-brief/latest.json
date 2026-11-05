@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-05",
-    "data_latest_timestamp": "2026-11-05T06:30:00-0300",
-    "data_age_hours": 1,
-    "generated_at": "2026-11-05T07:32:03-0300",
+    "data_latest_timestamp": "2026-11-05T15:55:09-0300",
+    "data_age_hours": 1.2,
+    "generated_at": "2026-11-05T17:07:01-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,127 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 31 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Conflictos y seguridad.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 4 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 31,
+    "ranked_events": 33,
     "topics": 4,
     "geographies": 2,
-    "representative_sources": 2,
-    "average_top5_relevance": 60.3,
-    "maximum_relevance": 66.1
+    "representative_sources": 3,
+    "average_top5_relevance": 63,
+    "maximum_relevance": 75.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-020",
+      "cluster_id": "PML-EVENT-014",
+      "title": "En vivo: Santiago Peña renuncia a la Presidencia de Paraguay en medio del escándalo de Ueno Bank",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261105-ensi%C3%B3n-en-paraguay-diputados-debate-un-juicio-pol%C3%ADtico-contra-el-presidente-santiago-pe%C3%B1a",
+      "representative_source": "France 24",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "América Latina",
+        "country": "Paraguay / América Latina / No identificado"
+      },
+      "relevance": {
+        "score": 75.2,
+        "level": "ALTA",
+        "editorial_utility": 79.2
+      },
+      "selection": {
+        "reason": "PML 75.2; multifuente",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 2,
+        "source_count": 2,
+        "sources": [
+          "France 24",
+          "EL PAÍS"
+        ]
+      },
+      "first_seen": "2026-11-05T11:25:49-0300",
+      "last_seen": "2026-11-05T13:35:51-0300",
+      "entities": [],
+      "event_terms": "crisis",
+      "analysis": {
+        "summary": "El presidente de Paraguay, Santiago Peña, renunció a su cargo en medio de la crisis desatada por la intervención y el cierre de Ueno Bank, que afecta a millones de clientes y abrió un frente de inestabilidad política. La decisión se produce después de que los bloques de la Cámara de Diputados anunciaran su respaldo al juicio político y confirmaran los votos necesarios para avanzar con la destitución.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Paraguay / América Latina / No identificado.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "En vivo: Santiago Peña renuncia a la Presidencia de Paraguay en medio del escándalo de Ueno Bank",
+          "description": "El presidente de Paraguay, Santiago Peña, renunció a su cargo en medio de la crisis desatada por la intervención y el cierre de Ueno Bank, que afecta a millones de clientes y abrió un frente de inestabilidad política. La decisión se produce después de que los bloques de la Cámara de Diputados anunciaran su respaldo al juicio político y confirmaran los votos necesarios para avanzar con la destitución.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261105-ensi%C3%B3n-en-paraguay-diputados-debate-un-juicio-pol%C3%ADtico-contra-el-presidente-santiago-pe%C3%B1a",
+          "image_url": "https://s.france24.com/media/display/76925a60-d8bb-11f1-87b9-a575454bc579/w:1024/p:16x9/5228dd14a8f41728915e8558cc1d411603de9551.jpg",
+          "published_raw": "Thu, 05 Nov 2026 14:25:49 GMT",
+          "published_at": "2026-11-05T11:25:49-0300",
+          "country": "Paraguay",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 3,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-014"
+        },
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Santiago Peña renuncia a la presidencia de Paraguay acorralado por un escándalo financiero",
+          "description": "La Cámara de Diputados rechaza su dimisión para impedir que tenga fueros y avanza con el juicio político",
+          "url": "https://elpais.com/america/2026-11-05/santiago-pena-renuncia-a-la-presidencia-de-paraguay-jaqueado-por-un-escandalo-financiero.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/XD6VJKSJTFAIZIZ6UVOQQ3XIQI.jpg?auth=38c40bbf6ec217859f553419eeee814282f7298e2859aac0382b63d6883c7af7",
+          "published_raw": "Thu, 05 Nov 2026 16:35:51 GMT",
+          "published_at": "2026-11-05T13:35:51-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-014"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-022",
       "title": "Bombardeos, extradiciones y ciudades militarizadas marcan los primeros 90 días de De la Espriella en seguridad",
       "url": "https://elpais.com/america-colombia/2026-11-05/bombardeos-extradiciones-y-ciudades-militarizadas-marcan-los-primeros-90-dias-de-de-la-espriella-en-seguridad.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +147,12 @@
         "country": "Colombia / América Latina"
       },
       "relevance": {
-        "score": 66.1,
+        "score": 63.1,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 66.1
+        "editorial_utility": 70.1
       },
       "selection": {
-        "reason": "PML 66.1",
+        "reason": "PML 63.1; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -99,86 +203,114 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-002",
-      "title": "Cámara Baja expresó su \"preocupación y rechazo\" ante las rebajas de condena a pedófilos",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/camara-baja-expreso-su-preocupacion-y-rechazo-ante-las-rebajas-de/2026-11-04/162021.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 58.5,
-        "level": "MEDIA",
-        "editorial_utility": 70.5
-      },
-      "selection": {
-        "reason": "PML 58.5; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-04T16:20:21-0300",
-      "last_seen": "2026-11-04T16:20:21-0300",
-      "entities": "chile",
-      "event_terms": [],
-      "analysis": {
-        "summary": "La Cámara de Diputadas y Diputados de Chile expresó formalmente su \"preocupación y rechazo\" ante los decretos del Ministerio de Justicia que redujeron la condena y dejaron libres a 56 abusadores sexuales y violadores de menores. El Pleno aprobó con 84 votos de respaldo, 34 en contra -principalmente de diputados republicanos y de derecha- y 15 abstenciones el proyecto de acuerdo promovido por la bancada del Partido Comunista.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Cámara Baja expresó su \"preocupación y rechazo\" ante las rebajas de condena a pedófilos",
-          "description": "La Cámara de Diputadas y Diputados de Chile expresó formalmente su \"preocupación y rechazo\" ante los decretos del Ministerio de Justicia que redujeron la condena y dejaron libres a 56 abusadores sexuales y violadores de menores. El Pleno aprobó con 84 votos de respaldo, 34 en contra -principalmente de diputados republicanos y de derecha- y 15 abstenciones el proyecto de acuerdo promovido por la bancada del Partido Comunista. El debate anterior a la votación estuvo marcado por acusaciones políticas de un sector a otro.  \"Algunas de las cosas que están haciendo (desde la centroizquierda) es para hacer show político. Las denuncias en el Ministerio Público y en la Contraloría van a quedar en absolutamente nada, porque claramente aquí no hay delito (cometido por el titular de Justicia, Fernando Rabat)\", dijo el diputado republicano Cristián Araya. A su turno, el diputado comunista Marcos Barraza  se preguntó: ¿Acaso estas víctimas no merecían que el ministro Rabat agotara todas las herramientas legales disponibles para evitar que sus agresores recuperaran anticipadamente la libertad?\". \"El secretario de Estado cambió el criterio con que se resolvían estas solicitudes. Han pasado dos semanas desde que conocimos los hechos por la prensa y seguimos sin conocer íntegramente los fundamentos de los decretos ni las razones que justificaron ese cambio\", reprochó. El PDG y al menos 10 parlamentarios del oficialismo apoyaron la declaración formal. Éstos son Marlene Pérez (independiente de la bancada UDI), Cristóbal Martínez (UDI), René Manuel García, Carlos Chandía, Juan Carlos Beltrán, Mauro González, Claudia Mora (todos de RN), Sara Concha (Partido Cristiano), Tomás Kast y Jorge Guzmán (ambos de Evópoli). También votó a favor la diputada Joanna Pérez del movimiento Demócratas, expartido del cual fue presidenta la actual ministra de Energía, Ximena Rincón.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/camara-baja-expreso-su-preocupacion-y-rechazo-ante-las-rebajas-de/2026-11-04/162021.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104162021.png",
-          "published_raw": "Wed, 04 Nov 2026 16:20:21 -0300",
-          "published_at": "2026-11-04T16:20:21-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 5,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 3,
-          "score_actor": 5,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 14,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-002"
+          "cluster_id": "PML-EVENT-022"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-027",
+      "cluster_id": "PML-EVENT-015",
+      "title": "Crisis política en Paraguay: el presidente Santiago Peña, ad portas de un juicio político por crisis bancaria",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261105-crisis-pol%C3%ADtica-en-paraguay-el-presidente-santiago-pe%C3%B1a-ad-portas-de-un-juicio-pol%C3%ADtico-por-crisis-bancaria",
+      "representative_source": "France 24",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "América Latina",
+        "country": "Paraguay / América Latina"
+      },
+      "relevance": {
+        "score": 66.8,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 65.8
+      },
+      "selection": {
+        "reason": "PML 66.8; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 2,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-11-05T10:21:51-0300",
+      "last_seen": "2026-11-05T15:55:09-0300",
+      "entities": "congreso",
+      "event_terms": "crisis",
+      "analysis": {
+        "summary": "Diputados opositores presentaron ante el Congreso un pedido de juicio de destitución contra el presidente de Paraguay y su vicepresidente por la crisis que envuelve a uno de los mayores bancos del país y que condujo al congelamiento de los depósitos de alrededor de tres millones de personas. El pedido se discute con intensidad este jueves 5 de noviembre. ",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Paraguay / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Crisis política en Paraguay: el presidente Santiago Peña, ad portas de un juicio político por crisis bancaria",
+          "description": "Diputados opositores presentaron ante el Congreso un pedido de juicio de destitución contra el presidente de Paraguay y su vicepresidente por la crisis que envuelve a uno de los mayores bancos del país y que condujo al congelamiento de los depósitos de alrededor de tres millones de personas. El pedido se discute con intensidad este jueves 5 de noviembre. ",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261105-crisis-pol%C3%ADtica-en-paraguay-el-presidente-santiago-pe%C3%B1a-ad-portas-de-un-juicio-pol%C3%ADtico-por-crisis-bancaria",
+          "image_url": "https://s.france24.com/media/display/37388ab8-d868-11f1-a845-1beafce15fea/w:1024/p:16x9/6a24571d7d1035816b8b5f9d349f8fa717afba1c.jpg",
+          "published_raw": "Thu, 05 Nov 2026 13:21:51 GMT",
+          "published_at": "2026-11-05T10:21:51-0300",
+          "country": "Paraguay",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 3,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-015"
+        },
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Esto sabemos del escándalo del Ueno Bank, la crisis que tumbó al presidente paraguayo Santiago Peña",
+          "description": "La disolución por insolvencia financiera del Ueno Bank, uno de los principales bancos digitales de Paraguay y de estrechos vínculos con el presidente Santiago Peña, ha desencadenado una crisis financiera y un terremoto político en el país. Mientras casi 3 millones de clientes han visto congelado el acceso a sus ahorros y cuando el Congreso se disponía a iniciar un juicio político contra él, el mandatario conservador presentó su renuncia.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261105-esto-sabemos-del-esc%C3%A1ndalo-del-ueno-bank-la-crisis-que-tumb%C3%B3-al-presidente-paraguayo-santiago-pe%C3%B1a",
+          "image_url": "https://s.france24.com/media/display/6d08a08c-d945-11f1-b580-bf1914cabd52/w:1024/p:16x9/FOTO-PORTADA-PARAGUAY-SANTIAGO-PEN%CC%83A-RENUNCIA.jpg",
+          "published_raw": "Thu, 05 Nov 2026 18:55:09 GMT",
+          "published_at": "2026-11-05T15:55:09-0300",
+          "country": "Paraguay",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-015"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-029",
       "title": "Las elecciones de la primera vez: los récords de mujeres, negros, gays, musulmanes, latinos e indígenas en las ‘midterms’",
       "url": "https://elpais.com/us/2026-11-04/las-elecciones-de-la-primera-vez-los-records-de-mujeres-negros-gais-musulmanes-latinos-e-indigenas-en-las-midterms.html",
       "representative_source": "EL PAÍS",
@@ -189,12 +321,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 61.1,
+        "score": 56.6,
         "level": "MEDIA",
-        "editorial_utility": 69.1
+        "editorial_utility": 64.6
       },
       "selection": {
-        "reason": "PML 61.1; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 56.6; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -245,12 +377,12 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-029"
         }
       ]
     },
     {
-      "position": 4,
+      "position": 5,
       "cluster_id": "PML-EVENT-011",
       "title": "Comisión aprobó presupuesto de gores con \"una merma chica, de 3 a 4%\"",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/comision-aprobo-presupuesto-de-gores-con-una-merma-chica-de-3-a-4/2026-11-04/144619.html",
@@ -262,12 +394,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 57.8,
+        "score": 53.3,
         "level": "MEDIA",
-        "editorial_utility": 61.8
+        "editorial_utility": 62.3
       },
       "selection": {
-        "reason": "PML 57.8; aporta diversidad temática",
+        "reason": "PML 53.3; aporta diversidad temática; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -321,79 +453,6 @@
           "cluster_id": "PML-EVENT-011"
         }
       ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-003",
-      "title": "UDI pide que, superada la crisis, Kast instaure una coalición política formal",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/udi-pide-que-superada-la-crisis-kast-instaure-una-coalicion-politica/2026-11-04/112029.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 57.9,
-        "level": "MEDIA",
-        "editorial_utility": 56.9
-      },
-      "selection": {
-        "reason": "PML 57.9; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-04T11:20:29-0300",
-      "last_seen": "2026-11-04T11:20:29-0300",
-      "entities": [],
-      "event_terms": "crisis",
-      "analysis": {
-        "summary": "El diputado Eduardo Cretton, vicepresidente de la UDI , abogó en El Primer Café  por que, una vez superada la crisis de las rebajas de condena a pedófilos, el Presidente José Antonio Kast instaure de manera formal una \"nueva coalición política\" con los partidos que lo apoyan.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "UDI pide que, superada la crisis, Kast instaure una coalición política formal",
-          "description": "El diputado Eduardo Cretton, vicepresidente de la UDI , abogó en El Primer Café  por que, una vez superada la crisis de las rebajas de condena a pedófilos, el Presidente José Antonio Kast instaure de manera formal una \"nueva coalición política\" con los partidos que lo apoyan. El parlamentario afirmó que el error cometido por el ministro Fernando Rabat \"ha tenido un costo evidente para el Gobierno\" , y consideró  \"un poco dramático que (en la derecha y centroderecha) hayamos pasado del 62 por ciento del Rechazo de salida del 4 de septiembre (de 2022)  al 22 por ciento del Rechazo de entrada (en el plebicito de 2020 que preguntó por una nueva Constitución)\"; cifra, esta última, que equivale a la aprobación al Mandatario señalada por la más reciente encuesta Pulso Ciudadano . Mantener la situación actual \"es un problema, porque significa que, de una u otra forma, se empieza a diluir el apoyo ciudadano al Gobierno del Presidente\" , advirtió Cretton. \"Los partidos influyen poco en las decisiones\" \"Para mí el gran problema que hemos tenido durante estos siete meses de Gobierno es que no hemos sido capaces de construir una verdadera coalición política que permita darle sustento al Presidente\", afirmó. \" Es un problema de diseño,  donde los partidos políticos influyen poco en las decisiones que se están tomando. Por lo tanto, yo espero que una vez que salgamos de esta crisis, sea el propio Presidente  José Antonio Kast quien llame y convoque a una coalición política\" , dijo Cretton. \" Esto es mucho más profundo que simplemente sacar a un ministro , poner a otro ministro o meter más ministros políticos al gabinete. Esto tiene que ver con que los partidos políticos que sustentan al Gobierno quieran ser realmente capaces de trabajar juntos y construir una coalición\", y requiere \"que el Presidente José Antonio Kast -sobre todo en momentos críticos como los que está viviendo- no simplemente tiene que ser Jefe de Estado y Jefe de Gobierno, sino que también tiene que ser jefe de una coalición \". En esa línea, \"yo esperaría que cuando salgamos de esta crisis, el Presidente convoque a una nueva coalición política que nos permita revertir los malos números que estamos viendo y que nos permita hacernos cargo de los problemas\", insistió. \" El gran desafío que tiene el Gobierno ahora es cómo remontamos estos números que no son positivos: la baja en la aprobación, y para eso me parece que es evidente (la necesidad de) un diseño nuevo que considere una coalición política ya formal , donde los partidos políticos puedan colaborar y ser más influyentes a la hora de la toma de decisiones\", enfatizó el diputado. \"La UDI no se va a ir\" El dirigente gremialista agregó, a propósito de las tensiones desatadas en el oficialismo en las últimas semanas, que \" la UDI se ha comportado como un partido leal con el Presidente José Antonio Kast y no se va a ir del Gobierno -como han insinuado algunos - por el tema de los cargos\". \"Uno no está en el Gobierno por un par de cargos . Eso es totalmente secundario. Está en el Gobierno porque quiere construir un proyecto político en común\", pero \" si no hay una coalición política y hay tan bajos niveles de aprobación , la verdad es que esa tarea -que es probablemente la tarea política más importante que tenemos los partidos del Gobierno- se empieza a poner cuesta arriba \", advirtió.",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/udi-pide-que-superada-la-crisis-kast-instaure-una-coalicion-politica/2026-11-04/112029.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104112029.jpg",
-          "published_raw": "Wed, 04 Nov 2026 11:20:29 -0300",
-          "published_at": "2026-11-04T11:20:29-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 2,
-          "score_actor": 5,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 14,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
-        }
-      ]
     }
   ],
   "chile_brief": {
@@ -404,7 +463,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-008",
+        "cluster_id": "PML-EVENT-009",
         "title": "\"Pasada de máquina\" de Lincolao a la ley de IA abrió nuevo flanco dentro del Gobierno",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -415,11 +474,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 58.2,
+          "score": 55.7,
           "level": "MEDIA",
           "components": {
             "political_impact": 84,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -459,7 +518,7 @@
             "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-008"
+            "cluster_id": "PML-EVENT-009"
           }
         ],
         "article_count": 1,
@@ -470,31 +529,31 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 80.2
+          "chile_utility": 77.7
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-017",
-        "title": "Sala Cuna logró importante avance en la Cámara: Comisión destrabó nudo sobre financiamiento",
+        "cluster_id": "PML-EVENT-003",
+        "title": "UDI pide que, superada la crisis, Kast instaure una coalición política formal",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "INSTITUTIONAL_CRISIS",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/sala-cuna-logro-importante-avance-en-la-camara-comision-destrabo-nudo/2026-11-04/215339.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/udi-pide-que-superada-la-crisis-kast-instaure-una-coalicion-politica/2026-11-04/112029.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 51.8,
-          "level": "BAJA",
+          "score": 55.4,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 50,
-            "freshness": 88,
+            "political_impact": 71,
+            "freshness": 62,
             "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 28
+            "geographic_scope": 55,
+            "continuity": 44
           }
         },
         "coverage": {
@@ -502,71 +561,71 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-04T21:53:39-0300",
-        "last_seen": "2026-11-04T21:53:39-0300",
+        "first_seen": "2026-11-04T11:20:29-0300",
+        "last_seen": "2026-11-04T11:20:29-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Sala Cuna logró importante avance en la Cámara: Comisión destrabó nudo sobre financiamiento",
-            "description": "El proyecto de ley de Sala Cuna Universal dio un avance importante en su tramitación legislativa luego que la Comisión de Trabajo de la Cámara Baja aprobase las indicaciones del Ejecutivo, entre ellas la que reponía el mecanismo de financiamiento.  Dicho mecanismo, que contempla una cotización de 0,3% a cargo del empleador para el Fondo de Sala Cuna y considera, además, reducciones de 0,15 puntos en la cotización destinada al Fondo Solidario del Seguro de Cesantía y en la cuenta de capitalización individual, fue rechazado previamente en el Senado durante la primera etapa de la discusión parlamentaria. El ministro del Trabajo, Tomás Rau, destacó que  se destrabara el nudo  del financiamiento del proyecto: \"Hemos logrado un avance importante. Se aprobaron (en la Comisión) todos los artículos y todas las indicaciones\", valoró. \"Trabajamos arduamente en una sesión hasta total despacho el día de hoy. Repusimos los artículos que se habían caído en el primer trámite de financiamiento. Llegamos a una buena fórmula sostenible, recogiendo opiniones de distintos actores, tanto de la sociedad civil como en las conversaciones con parlamentarios\". El proyecto fue despachado a la Comisión de Hacienda, \"para después ir a la Sala de la Cámara y terminar el segundo trámite legislativo\", indicó el secretario de Estado.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/sala-cuna-logro-importante-avance-en-la-camara-comision-destrabo-nudo/2026-11-04/215339.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104215339.png",
-            "published_raw": "Wed, 04 Nov 2026 21:53:39 -0300",
-            "published_at": "2026-11-04T21:53:39-0300",
+            "title": "UDI pide que, superada la crisis, Kast instaure una coalición política formal",
+            "description": "El diputado Eduardo Cretton, vicepresidente de la UDI , abogó en El Primer Café  por que, una vez superada la crisis de las rebajas de condena a pedófilos, el Presidente José Antonio Kast instaure de manera formal una \"nueva coalición política\" con los partidos que lo apoyan. El parlamentario afirmó que el error cometido por el ministro Fernando Rabat \"ha tenido un costo evidente para el Gobierno\" , y consideró  \"un poco dramático que (en la derecha y centroderecha) hayamos pasado del 62 por ciento del Rechazo de salida del 4 de septiembre (de 2022)  al 22 por ciento del Rechazo de entrada (en el plebicito de 2020 que preguntó por una nueva Constitución)\"; cifra, esta última, que equivale a la aprobación al Mandatario señalada por la más reciente encuesta Pulso Ciudadano . Mantener la situación actual \"es un problema, porque significa que, de una u otra forma, se empieza a diluir el apoyo ciudadano al Gobierno del Presidente\" , advirtió Cretton. \"Los partidos influyen poco en las decisiones\" \"Para mí el gran problema que hemos tenido durante estos siete meses de Gobierno es que no hemos sido capaces de construir una verdadera coalición política que permita darle sustento al Presidente\", afirmó. \" Es un problema de diseño,  donde los partidos políticos influyen poco en las decisiones que se están tomando. Por lo tanto, yo espero que una vez que salgamos de esta crisis, sea el propio Presidente  José Antonio Kast quien llame y convoque a una coalición política\" , dijo Cretton. \" Esto es mucho más profundo que simplemente sacar a un ministro , poner a otro ministro o meter más ministros políticos al gabinete. Esto tiene que ver con que los partidos políticos que sustentan al Gobierno quieran ser realmente capaces de trabajar juntos y construir una coalición\", y requiere \"que el Presidente José Antonio Kast -sobre todo en momentos críticos como los que está viviendo- no simplemente tiene que ser Jefe de Estado y Jefe de Gobierno, sino que también tiene que ser jefe de una coalición \". En esa línea, \"yo esperaría que cuando salgamos de esta crisis, el Presidente convoque a una nueva coalición política que nos permita revertir los malos números que estamos viendo y que nos permita hacernos cargo de los problemas\", insistió. \" El gran desafío que tiene el Gobierno ahora es cómo remontamos estos números que no son positivos: la baja en la aprobación, y para eso me parece que es evidente (la necesidad de) un diseño nuevo que considere una coalición política ya formal , donde los partidos políticos puedan colaborar y ser más influyentes a la hora de la toma de decisiones\", enfatizó el diputado. \"La UDI no se va a ir\" El dirigente gremialista agregó, a propósito de las tensiones desatadas en el oficialismo en las últimas semanas, que \" la UDI se ha comportado como un partido leal con el Presidente José Antonio Kast y no se va a ir del Gobierno -como han insinuado algunos - por el tema de los cargos\". \"Uno no está en el Gobierno por un par de cargos . Eso es totalmente secundario. Está en el Gobierno porque quiere construir un proyecto político en común\", pero \" si no hay una coalición política y hay tan bajos niveles de aprobación , la verdad es que esa tarea -que es probablemente la tarea política más importante que tenemos los partidos del Gobierno- se empieza a poner cuesta arriba \", advirtió.",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/udi-pide-que-superada-la-crisis-kast-instaure-una-coalicion-politica/2026-11-04/112029.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104112029.jpg",
+            "published_raw": "Wed, 04 Nov 2026 11:20:29 -0300",
+            "published_at": "2026-11-04T11:20:29-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 4,
-            "score_elections": 0,
+            "score_institutional": 6,
+            "score_elections": 1,
             "score_international": 0,
             "score_conflict": 0,
             "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 1,
+            "score_ideology": 2,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 5,
+            "political_evidence": 14,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": null,
+            "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-017"
+            "cluster_id": "PML-EVENT-003"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 21,
+          "bonus": 19,
           "labels": [
             "Estado e instituciones",
-            "Congreso y proceso legislativo"
+            "Elecciones y opinión pública"
           ],
-          "chile_utility": 72.8
+          "chile_utility": 74.4
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-005",
-        "title": "Gobierno anunció veto sustitutivo a la ley de incendios",
+        "cluster_id": "PML-EVENT-001",
+        "title": "Oposición prepara acusación contra Rabat con al menos tres capítulos",
         "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
+        "event_type": "INSTITUTIONAL_CRISIS",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/incendios-forestales/gobierno-anuncio-veto-sustitutivo-a-la-ley-de-incendios/2026-11-03/155713.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/oposicion-prepara-acusacion-contra-rabat-con-al-menos-tres-capitulos/2026-11-05/144011.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 50.1,
-          "level": "BAJA",
+          "score": 62.2,
+          "level": "MEDIA-ALTA",
           "components": {
-            "political_impact": 83,
-            "freshness": 40,
+            "political_impact": 70,
+            "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 32
+            "continuity": 42
           }
         },
         "coverage": {
@@ -574,47 +633,44 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-03T15:57:13-0300",
-        "last_seen": "2026-11-03T15:57:13-0300",
+        "first_seen": "2026-11-05T14:40:11-0300",
+        "last_seen": "2026-11-05T14:40:11-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Gobierno anunció veto sustitutivo a la ley de incendios",
-            "description": "El ministro de Agricultura, Jaime Campos , anunció este martes que el Gobierno presentará un veto sustitutivo al proyecto de ley que regula la prevención y mitigación de incendios forestales . La iniciativa se encuentra en su etapa final de tramitación en el Congreso, luego de permanecer tres años en discusión legislativa. El secretario de Estado comunicó la decisión en la Cámara de Diputadas y Diputados, que aprobó por 77 votos a favor, 51 en contra y 14 abstenciones el informe de la comisión mixta.  \"Hemos persuadido al Presidente de la República que presente un veto sustitutivo que incluya todas las materias y todas las aprensiones que, a nuestro modo de ver, debiesen estar incorporadas \", explicó Campos. Entre las modificaciones que pretende introducir el Gobierno, el ministro mencionó mecanismos de pago y compensación para los propietarios de terrenos afectados por la expropiación de franjas de sus predios , además de la transferencia de recursos económicos a los municipios para fortalecer su participación en la prevención y combate de incendios. INCENDIOS FORESTALES📰| Cámara votó informe de mixta a ley de prevención de incendios forestales. https://t.co/4mVRC2x1qA https://t.co/RWREcMsOrE — Diputadas y Diputados de Chile (@Camara_cl) November 3, 2026 Críticas desde la oposición La diputada Sofía González (Partido Comunista) cuestionó el anuncio del veto presidencial y advirtió que \"lo único que hace es seguir aumentando el tiempo de tramitación\". \" Chile necesita una mejor institucionalidad , recursos para poder identificar zonas de riesgo, cómo se manejan, dotar de responsabilidad tanto al mundo público como privado y también mejor capacidad para fiscalizar que cada uno de estos elementos se cumplan\", sostuvo la parlamentaria. Además, González emplazó a Campos: \"No siga insistiendo en esta situación\" .",
-            "url": "https://www.cooperativa.cl/noticias/pais/desastres-naturales/incendios-forestales/gobierno-anuncio-veto-sustitutivo-a-la-ley-de-incendios/2026-11-03/155713.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261103/imag/foto_0000000220261103155713.jpg",
-            "published_raw": "Tue, 03 Nov 2026 15:57:13 -0300",
-            "published_at": "2026-11-03T15:57:13-0300",
+            "title": "Oposición prepara acusación contra Rabat con al menos tres capítulos",
+            "description": "La oposición avanzó este jueves en la preparación de la acusación constitucional contra el ministro de Justicia, Fernando Rabat , en medio de la controversia por las rebajas de condenas a personas sentenciadas por sexuales de menores y tras conocerse nuevos antecedentes sobre beneficios otorgados a extranjeros narcotraficantes . Según publicó Interferencia , al menos 13 extranjeros detenidos en la frontera norte recibieron reducciones de sus penas decretadas por el secretario del Estado. Entre los casos figuran un colombiano cuya libertad condicional había sido rechazada por unanimidad y un venezolano detenido con 32 kilos de ketamina, una granada y armas de fuego. El senador socialista Juan Luis Castro emplazó al Presidente José Antonio Kast a tomar medidas contra Rabat: \"¿Qué más hace falta que pase para que saquen del gabinete al ministro de Justicia? ¿Quién de la derecha se ha levantado a dar la cara para defenderlo? Nadie\" . \"Todos privadamente dicen que no pueden dejar solo al Presidente de la República, pero nadie defiende una autoridad que está sola \", dijo el jefe del comité del Socialismo Democrático en el Senado.  Tras una reunión con dirigentes políticos y abogados constitucionalistas, la oposición confirmó que la acusación contemplará al menos tres capítulos : las rebajas de condenas a condenados por delitos sexuales contra menores, los beneficios otorgados a violadores de derechos humanos y una eventual vulneración del principio de probidad. Diputado RN: \"El Gobierno tendría que anticiparse\" Desde el oficialismo, el diputado Luis Pardo (Renovación Nacional) admitió que  \"el Gobierno tendría que tener la capacidad de anticiparse a este tipo de situaciones\". \"El Gobierno ha sido muy claro en reconocer que estos decretos y estas rebajas de condena han sido  un error político  y, además, un error en relación a las sensibilidades de las víctimas y de la sociedad en momentos que tenemos un problema de inseguridad tan grande como el que tenemos\", reflexionó. Mientras, la diputada UDI Constanza Hube  sostuvo que \"es de Perogrullo decir que acá hubo un error, pero otra cosa distinta es empezar a motivar estas acusaciones constitucionales , buscando por razones políticas sacar un ministro\". \"(Los juicios políticos) son prácticas que le han hecho muy mal a nuestra democracia. Se hizo muy mal durante el Gobierno del Presidente Piñera e, incluso, durante el Gobierno pasado creo que también hubo acusaciones constitucionales que no tenían mérito \", cuestionó. Diputada UDI, Constanza Hube, ante acusación constitucional contra Fernando Rabat: \"tratar de sacar a ministros por razones políticas le ha hecho mucho daño a nuestra democracia... en el Gobierno anterior también hubo acusaciones que no tenían ningún mérito\". @Cooperativa — Jorge Espinoza Cuellar (@espinozacuellar) November 5, 2026 La presentación del libelo aún no tiene fecha definida.",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/oposicion-prepara-acusacion-contra-rabat-con-al-menos-tres-capitulos/2026-11-05/144011.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261105/imag/foto_0000001320261105144011.jpg",
+            "published_raw": "Thu, 05 Nov 2026 14:40:11 -0300",
+            "published_at": "2026-11-05T14:40:11-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
             "score_institutional": 7,
             "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 0,
+            "score_conflict": 1,
             "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 5,
+            "score_ideology": 2,
+            "score_actor": 6,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 13,
+            "political_evidence": 16,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
+            "cluster_id": "PML-EVENT-001"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 72.1
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 71.2
         },
         "repeated_in_general_top5": false
       }
@@ -622,52 +678,48 @@
   },
   "topics": [
     {
+      "topic": "Instituciones y gobierno",
+      "event_count": 24,
+      "maximum_relevance": 75.2,
+      "leading_story": "En vivo: Santiago Peña renuncia a la Presidencia de Paraguay en medio del escándalo de Ueno Bank"
+    },
+    {
       "topic": "Conflictos y seguridad",
       "event_count": 2,
-      "maximum_relevance": 66.1,
+      "maximum_relevance": 63.1,
       "leading_story": "Bombardeos, extradiciones y ciudades militarizadas marcan los primeros 90 días de De la Espriella en seguridad"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 3,
-      "maximum_relevance": 61.1,
+      "event_count": 4,
+      "maximum_relevance": 56.6,
       "leading_story": "Las elecciones de la primera vez: los récords de mujeres, negros, gays, musulmanes, latinos e indígenas en las ‘midterms’"
-    },
-    {
-      "topic": "Instituciones y gobierno",
-      "event_count": 23,
-      "maximum_relevance": 58.5,
-      "leading_story": "Cámara Baja expresó su \"preocupación y rechazo\" ante las rebajas de condena a pedófilos"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 57.8,
+      "maximum_relevance": 53.3,
       "leading_story": "Comisión aprobó presupuesto de gores con \"una merma chica, de 3 a 4%\""
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 47.8,
+      "maximum_relevance": 45.3,
       "leading_story": "Isabel Allende, premio Planeta 2026: “Cuidado con la extrema derecha y la extrema izquierda, el autoritarismo acentúa los problemas”"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 39.6,
+      "maximum_relevance": 35.9,
       "leading_story": "¿Qué hay detrás de la violencia contra los periodistas que las autoridades no pueden frenar?"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-020", "PML-EVENT-002", "PML-EVENT-027", "PML-EVENT-003"],
-      "exited_top5": ["PML-EVENT-031", "PML-EVENT-008", "PML-EVENT-019", "PML-EVENT-025"],
-      "retained_top5": "PML-EVENT-011"
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
     "source_count": 3
   },
   "system": {
