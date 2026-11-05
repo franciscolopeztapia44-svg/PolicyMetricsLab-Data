@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-04",
-    "data_latest_timestamp": "2026-11-04T15:38:40-0300",
-    "data_age_hours": 0.9,
-    "generated_at": "2026-11-04T16:32:55-0300",
+    "data_latest_timestamp": "2026-11-04T20:04:14-0300",
+    "data_age_hours": 2.3,
+    "generated_at": "2026-11-04T22:23:45-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,96 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Elecciones y opinión pública.",
+    "diversity": "La selección cubre 3 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 33,
+    "ranked_events": 35,
     "topics": 3,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 62.9,
-    "maximum_relevance": 64
+    "average_top5_relevance": 61.9,
+    "maximum_relevance": 64.8
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-009",
+      "cluster_id": "PML-EVENT-031",
+      "title": "Las elecciones de la primera vez: los récords de mujeres, negros, gays, musulmanes, latinos e indígenas en las ‘midterms’",
+      "url": "https://elpais.com/us/2026-11-04/las-elecciones-de-la-primera-vez-los-records-de-mujeres-negros-gais-musulmanes-latinos-e-indigenas-en-las-midterms.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 64.8,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 64.8
+      },
+      "selection": {
+        "reason": "PML 64.8",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-04T14:57:09-0300",
+      "last_seen": "2026-11-04T14:57:09-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "El-Sayed, primer senador musulmán. Pappas, primer senador gay. Hinojosa, primera gobernadora latina de Texas. Son algunos de los que rompen con sus victorias distintos techos de cristal",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Las elecciones de la primera vez: los récords de mujeres, negros, gays, musulmanes, latinos e indígenas en las ‘midterms’",
+          "description": "El-Sayed, primer senador musulmán. Pappas, primer senador gay. Hinojosa, primera gobernadora latina de Texas. Son algunos de los que rompen con sus victorias distintos techos de cristal",
+          "url": "https://elpais.com/us/2026-11-04/las-elecciones-de-la-primera-vez-los-records-de-mujeres-negros-gais-musulmanes-latinos-e-indigenas-en-las-midterms.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/32THL5TSZ5NWDNGNVQGAZTAQS4.jpg?auth=c1ebfd381041bfc3eb5850031c640b3ed52836a26c6a3c0eba7933c38a4694e9",
+          "published_raw": "Wed, 04 Nov 2026 17:57:09 GMT",
+          "published_at": "2026-11-04T14:57:09-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-031"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-008",
       "title": "\"Pasada de máquina\" de Lincolao a la ley de IA abrió nuevo flanco dentro del Gobierno",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/pasada-de-maquina-de-lincolao-a-la-ley-de-ia-abrio-nuevo-flanco-dentro/2026-11-04/104629.html",
       "representative_source": "Cooperativa",
@@ -43,12 +116,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 64,
+        "score": 62.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 64
+        "editorial_utility": 74.2
       },
       "selection": {
-        "reason": "PML 64",
+        "reason": "PML 62.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -103,86 +176,13 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-009"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-024",
-      "title": "Cuatro victorias clave (y dos sorpresas): repaso de los triunfos demócratas en las elecciones",
-      "url": "https://elpais.com/us/2026-11-04/cuatro-victorias-clave-y-dos-sorpresas-repaso-a-los-triunfos-democratas-en-las-elecciones.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "ELECTORAL_EVENT",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 63.3,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 71.3
-      },
-      "selection": {
-        "reason": "PML 63.3; aporta diversidad temática; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-04T06:30:35-0300",
-      "last_seen": "2026-11-04T06:30:35-0300",
-      "entities": [],
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "La derrota de la senadora republicana Darline Graham en Carolina del Sur y el triunfo de Gina Hinojosa, la próxima gobernadora de Texas, están entre las principales sorpresas de una noche de ensueño para la oposición",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Cuatro victorias clave (y dos sorpresas): repaso de los triunfos demócratas en las elecciones",
-          "description": "La derrota de la senadora republicana Darline Graham en Carolina del Sur y el triunfo de Gina Hinojosa, la próxima gobernadora de Texas, están entre las principales sorpresas de una noche de ensueño para la oposición",
-          "url": "https://elpais.com/us/2026-11-04/cuatro-victorias-clave-y-dos-sorpresas-repaso-a-los-triunfos-democratas-en-las-elecciones.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/STH5HHWIHFGWLABBANRR56UQ3I.jpg?auth=b6b4d0bfa5ec4c9c603deeb1f6ab2fc688a1a03f3f902d40c4f42dab2e8bbd21",
-          "published_raw": "Wed, 04 Nov 2026 09:30:35 GMT",
-          "published_at": "2026-11-04T06:30:35-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
+          "cluster_id": "PML-EVENT-008"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-012",
+      "cluster_id": "PML-EVENT-011",
       "title": "Comisión aprobó presupuesto de gores con \"una merma chica, de 3 a 4%\"",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/comision-aprobo-presupuesto-de-gores-con-una-merma-chica-de-3-a-4/2026-11-04/144619.html",
       "representative_source": "Cooperativa",
@@ -193,12 +193,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 62.8,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 66.8
+        "score": 61.5,
+        "level": "MEDIA",
+        "editorial_utility": 65.5
       },
       "selection": {
-        "reason": "PML 62.8; aporta diversidad temática",
+        "reason": "PML 61.5; aporta diversidad temática",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -249,29 +249,29 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
+          "cluster_id": "PML-EVENT-011"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-027",
-      "title": "Las ‘midterms’ 2026, en vivo | El vicepresidente J. D. Vance culpa a la guerra en Irán por la estrepitosa derrota republicana",
-      "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
+      "cluster_id": "PML-EVENT-019",
+      "title": "Lula arenga al ejército digital que impulsó su triunfo en Brasil para marcar el paso al Tribunal Supremo",
+      "url": "https://elpais.com/america/2026-11-03/lula-arenga-al-ejercito-digital-que-impulso-su-triunfo-en-brasil-para-marcar-el-paso-al-tribunal-supremo.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
+      "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
-        "group": "Internacional",
-        "country": "No identificado / Internacional"
+        "group": "América Latina",
+        "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 60.5,
+        "score": 59.9,
         "level": "MEDIA",
-        "editorial_utility": 63.5
+        "editorial_utility": 62.9
       },
       "selection": {
-        "reason": "PML 60.5; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 59.9; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -281,16 +281,20 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-04T15:38:40-0300",
-      "last_seen": "2026-11-04T15:38:40-0300",
+      "first_seen": "2026-11-03T20:22:46-0300",
+      "last_seen": "2026-11-03T20:22:46-0300",
       "entities": [
-        "iran",
-        "trump"
+        "lula",
+        "brasil",
+        "supremo"
       ],
-      "event_terms": "guerra",
+      "event_terms": [
+        "tribunal",
+        "supremo"
+      ],
       "analysis": {
-        "summary": "El presidente Donald Trump admite el lastre que supuso la guerra en las urnas, pero matiza al decir que “tomaría la misma decisión si tuviese que hacerlo”",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "El presidente insta a 10,4 millones de internautas a seguir el análisis de la constitucionalidad del decreto que prohibió las apuestas ‘online’",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -302,52 +306,52 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Las ‘midterms’ 2026, en vivo | El vicepresidente J. D. Vance culpa a la guerra en Irán por la estrepitosa derrota republicana",
-          "description": "El presidente Donald Trump admite el lastre que supuso la guerra en las urnas, pero matiza al decir que “tomaría la misma decisión si tuviese que hacerlo”",
-          "url": "https://elpais.com/us/2026-11-04/las-midterms-2026-en-vivo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/JQC7BYPJ3BLDNNRCVDD74PYMLU.jpg?auth=00a9728f8690f8c3fd796932d7142f6c07a164fb396853cefea7f6cb6fd4b67d",
-          "published_raw": "Wed, 04 Nov 2026 18:38:40 GMT",
-          "published_at": "2026-11-04T15:38:40-0300",
+          "title": "Lula arenga al ejército digital que impulsó su triunfo en Brasil para marcar el paso al Tribunal Supremo",
+          "description": "El presidente insta a 10,4 millones de internautas a seguir el análisis de la constitucionalidad del decreto que prohibió las apuestas ‘online’",
+          "url": "https://elpais.com/america/2026-11-03/lula-arenga-al-ejercito-digital-que-impulso-su-triunfo-en-brasil-para-marcar-el-paso-al-tribunal-supremo.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/UALY4LQBXBM47AP6ZP3LAPMUNI.jpg?auth=505a7d2322c3ead2dec06c706bc650e8ff1aaa0e4cf319feebec77fe582cb45b",
+          "published_raw": "Tue, 03 Nov 2026 23:22:46 GMT",
+          "published_at": "2026-11-03T20:22:46-0300",
           "country": "No identificado",
-          "region": "Internacional",
+          "region": "América Latina",
           "language": "es",
-          "score_institutional": 1,
+          "score_institutional": 4,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 1,
+          "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 5,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
+          "secondary_topic": null,
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-002",
-      "title": "UDI pide que, superada la crisis, Kast instaure una coalición política formal",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/udi-pide-que-superada-la-crisis-kast-instaure-una-coalicion-politica/2026-11-04/112029.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "cluster_id": "PML-EVENT-025",
+      "title": "Cuatro victorias clave (y dos sorpresas): repaso de los triunfos demócratas en las elecciones",
+      "url": "https://elpais.com/us/2026-11-04/cuatro-victorias-clave-y-dos-sorpresas-repaso-a-los-triunfos-democratas-en-las-elecciones.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "ELECTORAL_EVENT",
       "geography": {
-        "group": "Chile",
-        "country": "Chile"
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 63.7,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 59.7
+        "score": 61.3,
+        "level": "MEDIA",
+        "editorial_utility": 57.3
       },
       "selection": {
-        "reason": "PML 63.7; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 61.3",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -355,50 +359,50 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "Cooperativa"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-04T11:20:29-0300",
-      "last_seen": "2026-11-04T11:20:29-0300",
+      "first_seen": "2026-11-04T06:30:35-0300",
+      "last_seen": "2026-11-04T06:30:35-0300",
       "entities": [],
-      "event_terms": "crisis",
+      "event_terms": "oposicion",
       "analysis": {
-        "summary": "El diputado Eduardo Cretton, vicepresidente de la UDI , abogó en El Primer Café  por que, una vez superada la crisis de las rebajas de condena a pedófilos, el Presidente José Antonio Kast instaure de manera formal una \"nueva coalición política\" con los partidos que lo apoyan.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "summary": "La derrota de la senadora republicana Darline Graham en Carolina del Sur y el triunfo de Gina Hinojosa, la próxima gobernadora de Texas, están entre las principales sorpresas de una noche de ensueño para la oposición",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
         "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "UDI pide que, superada la crisis, Kast instaure una coalición política formal",
-          "description": "El diputado Eduardo Cretton, vicepresidente de la UDI , abogó en El Primer Café  por que, una vez superada la crisis de las rebajas de condena a pedófilos, el Presidente José Antonio Kast instaure de manera formal una \"nueva coalición política\" con los partidos que lo apoyan. El parlamentario afirmó que el error cometido por el ministro Fernando Rabat \"ha tenido un costo evidente para el Gobierno\" , y consideró  \"un poco dramático que (en la derecha y centroderecha) hayamos pasado del 62 por ciento del Rechazo de salida del 4 de septiembre (de 2022)  al 22 por ciento del Rechazo de entrada (en el plebicito de 2020 que preguntó por una nueva Constitución)\"; cifra, esta última, que equivale a la aprobación al Mandatario señalada por la más reciente encuesta Pulso Ciudadano . Mantener la situación actual \"es un problema, porque significa que, de una u otra forma, se empieza a diluir el apoyo ciudadano al Gobierno del Presidente\" , advirtió Cretton. \"Los partidos influyen poco en las decisiones\" \"Para mí el gran problema que hemos tenido durante estos siete meses de Gobierno es que no hemos sido capaces de construir una verdadera coalición política que permita darle sustento al Presidente\", afirmó. \" Es un problema de diseño,  donde los partidos políticos influyen poco en las decisiones que se están tomando. Por lo tanto, yo espero que una vez que salgamos de esta crisis, sea el propio Presidente  José Antonio Kast quien llame y convoque a una coalición política\" , dijo Cretton. \" Esto es mucho más profundo que simplemente sacar a un ministro , poner a otro ministro o meter más ministros políticos al gabinete. Esto tiene que ver con que los partidos políticos que sustentan al Gobierno quieran ser realmente capaces de trabajar juntos y construir una coalición\", y requiere \"que el Presidente José Antonio Kast -sobre todo en momentos críticos como los que está viviendo- no simplemente tiene que ser Jefe de Estado y Jefe de Gobierno, sino que también tiene que ser jefe de una coalición \". En esa línea, \"yo esperaría que cuando salgamos de esta crisis, el Presidente convoque a una nueva coalición política que nos permita revertir los malos números que estamos viendo y que nos permita hacernos cargo de los problemas\", insistió. \" El gran desafío que tiene el Gobierno ahora es cómo remontamos estos números que no son positivos: la baja en la aprobación, y para eso me parece que es evidente (la necesidad de) un diseño nuevo que considere una coalición política ya formal , donde los partidos políticos puedan colaborar y ser más influyentes a la hora de la toma de decisiones\", enfatizó el diputado. \"La UDI no se va a ir\" El dirigente gremialista agregó, a propósito de las tensiones desatadas en el oficialismo en las últimas semanas, que \" la UDI se ha comportado como un partido leal con el Presidente José Antonio Kast y no se va a ir del Gobierno -como han insinuado algunos - por el tema de los cargos\". \"Uno no está en el Gobierno por un par de cargos . Eso es totalmente secundario. Está en el Gobierno porque quiere construir un proyecto político en común\", pero \" si no hay una coalición política y hay tan bajos niveles de aprobación , la verdad es que esa tarea -que es probablemente la tarea política más importante que tenemos los partidos del Gobierno- se empieza a poner cuesta arriba \", advirtió.",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/udi-pide-que-superada-la-crisis-kast-instaure-una-coalicion-politica/2026-11-04/112029.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104112029.jpg",
-          "published_raw": "Wed, 04 Nov 2026 11:20:29 -0300",
-          "published_at": "2026-11-04T11:20:29-0300",
-          "country": "Chile",
-          "region": "Chile",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Cuatro victorias clave (y dos sorpresas): repaso de los triunfos demócratas en las elecciones",
+          "description": "La derrota de la senadora republicana Darline Graham en Carolina del Sur y el triunfo de Gina Hinojosa, la próxima gobernadora de Texas, están entre las principales sorpresas de una noche de ensueño para la oposición",
+          "url": "https://elpais.com/us/2026-11-04/cuatro-victorias-clave-y-dos-sorpresas-repaso-a-los-triunfos-democratas-en-las-elecciones.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/STH5HHWIHFGWLABBANRR56UQ3I.jpg?auth=b6b4d0bfa5ec4c9c603deeb1f6ab2fc688a1a03f3f902d40c4f42dab2e8bbd21",
+          "published_raw": "Wed, 04 Nov 2026 09:30:35 GMT",
+          "published_at": "2026-11-04T06:30:35-0300",
+          "country": "No identificado",
+          "region": "Internacional",
           "language": "es",
-          "score_institutional": 6,
+          "score_institutional": 0,
           "score_elections": 1,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
-          "score_ideology": 2,
-          "score_actor": 5,
+          "score_ideology": 0,
+          "score_actor": 3,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 14,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
+          "political_evidence": 4,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": null,
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-002"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-025"
         }
       ]
     }
@@ -411,7 +415,79 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-006",
+        "cluster_id": "PML-EVENT-003",
+        "title": "UDI pide que, superada la crisis, Kast instaure una coalición política formal",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_CRISIS",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/udi-pide-que-superada-la-crisis-kast-instaure-una-coalicion-politica/2026-11-04/112029.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 61.9,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 71,
+            "freshness": 88,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 44
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-04T11:20:29-0300",
+        "last_seen": "2026-11-04T11:20:29-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "UDI pide que, superada la crisis, Kast instaure una coalición política formal",
+            "description": "El diputado Eduardo Cretton, vicepresidente de la UDI , abogó en El Primer Café  por que, una vez superada la crisis de las rebajas de condena a pedófilos, el Presidente José Antonio Kast instaure de manera formal una \"nueva coalición política\" con los partidos que lo apoyan. El parlamentario afirmó que el error cometido por el ministro Fernando Rabat \"ha tenido un costo evidente para el Gobierno\" , y consideró  \"un poco dramático que (en la derecha y centroderecha) hayamos pasado del 62 por ciento del Rechazo de salida del 4 de septiembre (de 2022)  al 22 por ciento del Rechazo de entrada (en el plebicito de 2020 que preguntó por una nueva Constitución)\"; cifra, esta última, que equivale a la aprobación al Mandatario señalada por la más reciente encuesta Pulso Ciudadano . Mantener la situación actual \"es un problema, porque significa que, de una u otra forma, se empieza a diluir el apoyo ciudadano al Gobierno del Presidente\" , advirtió Cretton. \"Los partidos influyen poco en las decisiones\" \"Para mí el gran problema que hemos tenido durante estos siete meses de Gobierno es que no hemos sido capaces de construir una verdadera coalición política que permita darle sustento al Presidente\", afirmó. \" Es un problema de diseño,  donde los partidos políticos influyen poco en las decisiones que se están tomando. Por lo tanto, yo espero que una vez que salgamos de esta crisis, sea el propio Presidente  José Antonio Kast quien llame y convoque a una coalición política\" , dijo Cretton. \" Esto es mucho más profundo que simplemente sacar a un ministro , poner a otro ministro o meter más ministros políticos al gabinete. Esto tiene que ver con que los partidos políticos que sustentan al Gobierno quieran ser realmente capaces de trabajar juntos y construir una coalición\", y requiere \"que el Presidente José Antonio Kast -sobre todo en momentos críticos como los que está viviendo- no simplemente tiene que ser Jefe de Estado y Jefe de Gobierno, sino que también tiene que ser jefe de una coalición \". En esa línea, \"yo esperaría que cuando salgamos de esta crisis, el Presidente convoque a una nueva coalición política que nos permita revertir los malos números que estamos viendo y que nos permita hacernos cargo de los problemas\", insistió. \" El gran desafío que tiene el Gobierno ahora es cómo remontamos estos números que no son positivos: la baja en la aprobación, y para eso me parece que es evidente (la necesidad de) un diseño nuevo que considere una coalición política ya formal , donde los partidos políticos puedan colaborar y ser más influyentes a la hora de la toma de decisiones\", enfatizó el diputado. \"La UDI no se va a ir\" El dirigente gremialista agregó, a propósito de las tensiones desatadas en el oficialismo en las últimas semanas, que \" la UDI se ha comportado como un partido leal con el Presidente José Antonio Kast y no se va a ir del Gobierno -como han insinuado algunos - por el tema de los cargos\". \"Uno no está en el Gobierno por un par de cargos . Eso es totalmente secundario. Está en el Gobierno porque quiere construir un proyecto político en común\", pero \" si no hay una coalición política y hay tan bajos niveles de aprobación , la verdad es que esa tarea -que es probablemente la tarea política más importante que tenemos los partidos del Gobierno- se empieza a poner cuesta arriba \", advirtió.",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/udi-pide-que-superada-la-crisis-kast-instaure-una-coalicion-politica/2026-11-04/112029.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104112029.jpg",
+            "published_raw": "Wed, 04 Nov 2026 11:20:29 -0300",
+            "published_at": "2026-11-04T11:20:29-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 6,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 2,
+            "score_actor": 5,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Ideología y competencia política",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-003"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 19,
+          "labels": [
+            "Estado e instituciones",
+            "Elecciones y opinión pública"
+          ],
+          "chile_utility": 80.9
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-005",
         "title": "Gobierno anunció veto sustitutivo a la ley de incendios",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -422,11 +498,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 58.1,
+          "score": 55.6,
           "level": "MEDIA",
           "components": {
             "political_impact": 83,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 32
@@ -466,7 +542,7 @@
             "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
+            "cluster_id": "PML-EVENT-005"
           }
         ],
         "article_count": 1,
@@ -477,31 +553,31 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 80.1
+          "chile_utility": 77.6
         },
         "repeated_in_general_top5": false
       },
       {
-        "position": 2,
-        "cluster_id": "PML-EVENT-005",
-        "title": "Timonel DC: La acusación busca sacar a Rabat, pero si renuncia la vamos a hacer igual",
+        "position": 3,
+        "cluster_id": "PML-EVENT-002",
+        "title": "Cámara Baja expresó su \"preocupación y rechazo\" ante las rebajas de condena a pedófilos",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/timonel-dc-la-acusacion-busca-sacar-a-rabat-pero-si-renuncia-la-vamos/2026-11-04/121603.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/camara-baja-expreso-su-preocupacion-y-rechazo-ante-las-rebajas-de/2026-11-04/162021.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 63,
+          "score": 62.2,
           "level": "MEDIA-ALTA",
           "components": {
-            "political_impact": 80,
+            "political_impact": 79,
             "freshness": 95,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 32
+            "continuity": 28
           }
         },
         "coverage": {
@@ -509,36 +585,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-04T12:16:03-0300",
-        "last_seen": "2026-11-04T12:16:03-0300",
+        "first_seen": "2026-11-04T16:20:21-0300",
+        "last_seen": "2026-11-04T16:20:21-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Timonel DC: La acusación busca sacar a Rabat, pero si renuncia la vamos a hacer igual",
-            "description": "El presidente de la DC, Álvaro Ortiz , dijo en El Primer Café que la acusación constitucional anunciada por la oposición busca sacar de su cargo al  ministro Fernando Rabat , pero aun si éste renuncia, la ofensiva seguirá adelante. \"Nosotros podemos hacer una acusación constitucional incluso aunque llegara a renunciar el ministro o aunque lo lleguen a sacar: tenemos hasta 60 días para poder presentarla, y la vamos a presentar igual\" , señaló Ortiz en Cooperativa . Consultado por el objetivo del libelo, contestó que es, \" primero, sacar al ministro , porque no es una persona válida para poder interactuar de aquí en adelante\" con el Congreso. No obstante, reiteró que incluso si el ministro abandona el Gobierno, \"la vamos a hacer igual ,   porque el daño que ha causado es enorme y tenemos la convicción de que esta acusación constitucional va a marcar un precedente (...) Se va a hacer porque las responsabilidades no pueden quedar en el limbo \".  \" El Gobierno se equivocó y no quiere reconocer el error ni de la boca hacia afuera (...) Si el ministro hubiese tenido un mínimo de decoro, hubiese dado un paso al costado para no generar todo este problema\", pero lo cierto es que hasta el momento sólo ha demostrado \"mucha arrogancia\", acusó el diputado. \"Vamos a apelar a que le haga sentido al oficialismo\" El líder falangista añadió que la AC se fundará en \"antecedentes sólidos y fundamentos jurídicos; no solamente sobre el legítimo rechazo ciudadano\".  Pese a la minoría opositora en el Congreso, \"nosotros no estamos en la tarea de convencer a parlamentarios del oficialismo para que apoyen la acusación constitucional\"; simplemente \" vamos a apelar a que les haga sentido el objetivo de que en Chile nunca más el Estado pueda reabrir una herida a familias y a niños y niñas que fueron violados y que les jodieron la vida \". \"Todo lo que se prometió no se ha cumplido\" En términos más generales, Ortiz planteó que este escándalo delata \"una crisis en el liderazgo de José Antonio Kast , y no es un hecho esporádico\". \"En estos escasos meses han sido varios los hechos que han ido determinando la desaprobación del Gobierno a niveles verdaderamente históricos.  El Presidente ha perdido atributos esenciales que en un momento generó en la gente: empatía, consecuencia y conexión con la ciudadanía... Claramente todos esos atributos ya los perdió\"; en parte por culpa de Rabat, pero también por \"el impacto del alza de los combustibles, la inflación, el desempleo, etcétera\" , reflexionó. \" Todo lo que se prometió no se ha cumplido, y eso en política genera -con razón-  decepción y rechazo . Hay una acumulación de frustraciones y  expectativas incumplidas en mucha gente. (De hecho) ahora cuesta  encontrar personas que hayan votado por Kast , cuando después del 14 de diciembre del año pasado todos -con el pecho realmente inflamado- decían haber votado por Kast y (se jactaban) que habían ganado\", comentó con sorna.      ",
-            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/timonel-dc-la-acusacion-busca-sacar-a-rabat-pero-si-renuncia-la-vamos/2026-11-04/121603.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104121603.jpg",
-            "published_raw": "Wed, 04 Nov 2026 12:16:03 -0300",
-            "published_at": "2026-11-04T12:16:03-0300",
+            "title": "Cámara Baja expresó su \"preocupación y rechazo\" ante las rebajas de condena a pedófilos",
+            "description": "La Cámara de Diputadas y Diputados de Chile expresó formalmente su \"preocupación y rechazo\" ante los decretos del Ministerio de Justicia que redujeron la condena y dejaron libres a 56 abusadores sexuales y violadores de menores. El Pleno aprobó con 84 votos de respaldo, 34 en contra -principalmente de diputados republicanos y de derecha- y 15 abstenciones el proyecto de acuerdo promovido por la bancada del Partido Comunista. El debate anterior a la votación estuvo marcado por acusaciones políticas de un sector a otro.  \"Algunas de las cosas que están haciendo (desde la centroizquierda) es para hacer show político. Las denuncias en el Ministerio Público y en la Contraloría van a quedar en absolutamente nada, porque claramente aquí no hay delito (cometido por el titular de Justicia, Fernando Rabat)\", dijo el diputado republicano Cristián Araya. A su turno, el diputado comunista Marcos Barraza  se preguntó: ¿Acaso estas víctimas no merecían que el ministro Rabat agotara todas las herramientas legales disponibles para evitar que sus agresores recuperaran anticipadamente la libertad?\". \"El secretario de Estado cambió el criterio con que se resolvían estas solicitudes. Han pasado dos semanas desde que conocimos los hechos por la prensa y seguimos sin conocer íntegramente los fundamentos de los decretos ni las razones que justificaron ese cambio\", reprochó. El PDG y al menos 10 parlamentarios del oficialismo apoyaron la declaración formal. Éstos son Marlene Pérez (independiente de la bancada UDI), Cristóbal Martínez (UDI), René Manuel García, Carlos Chandía, Juan Carlos Beltrán, Mauro González, Claudia Mora (todos de RN), Sara Concha (Partido Cristiano), Tomás Kast y Jorge Guzmán (ambos de Evópoli). También votó a favor la diputada Joanna Pérez del movimiento Demócratas, expartido del cual fue presidenta la actual ministra de Energía, Ximena Rincón.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/camara-baja-expreso-su-preocupacion-y-rechazo-ante-las-rebajas-de/2026-11-04/162021.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104162021.png",
+            "published_raw": "Wed, 04 Nov 2026 16:20:21 -0300",
+            "published_at": "2026-11-04T16:20:21-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 6,
-            "score_elections": 0,
+            "score_institutional": 5,
+            "score_elections": 1,
             "score_international": 0,
             "score_conflict": 0,
-            "score_policy": 2,
-            "score_ideology": 0,
+            "score_policy": 0,
+            "score_ideology": 3,
             "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 13,
+            "political_evidence": 14,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
+            "cluster_id": "PML-EVENT-002"
           }
         ],
         "article_count": 1,
@@ -546,79 +622,7 @@
         "political_science_fit": {
           "bonus": 13,
           "labels": "Estado e instituciones",
-          "chile_utility": 76
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-008",
-        "title": "Partido Republicano: Es necesario hacer ajustes para darle más tonelaje político al Gobierno",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/partido-republicano-es-necesario-hacer-ajustes-para-darle-mas-tonelaje/2026-11-04/105119.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 55.5,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 55,
-            "freshness": 95,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 32
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-04T10:51:19-0300",
-        "last_seen": "2026-11-04T10:51:19-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Partido Republicano: Es necesario hacer ajustes para darle más tonelaje político al Gobierno",
-            "description": "El secretario general del Partido Republicano, Vicente Bruna , comentó este miércoles en El Primer Café las versiones de prensa que hablan de un inminente cambio de gabinete , en medio de la crisis que golpea al Gobierno a propósito de las rebajas de condena a pederastas. Según publicó el martes Ex-Ante , \"la ventana para el cambio es la próxima semana\" y, además del criticado ministro de Justicia, Fernando Rabat , están \"bajo evaluación\" para salir del Ejecutivo los titulares de Trabajo (Tomás Rau), Segpres (José García Ruminot), Mujer (Judith Marín) y Ciencia (Ximena Lincolao). Los cambios alcanzarían también al Segundo Piso, equipo de asesores liderado por el cuestionado Alejandro Irarrázaval. \" Si el Presidente decide hacer ajustes en el gabinete, por supuesto que nosotros lo vamos a apoyar \", dijo Bruna este miércoles en Cooperativa . \"Esperemos que (de ocurrir) esos ajustes sean en beneficio del país\", señaló el dirigente, enfatizando que tales versiones \"todavía son trascendidos de prensa\". Sin embargo, añadió que \"si el Presidente decide efectivamente hacer cambios, van a ser pensando en darle más tonelaje político al Gobierno , y por supuesto que van a ser muy bienvenidos esos cambios , con los ministros o subsecretarios que lleguen\". \"Todos creemos que es necesario hacer ajustes\" Bruna reconoció que \" es evidente que se necesita hacer ajustes \", pero lo consideró totalmente \"normal\"; y señaló que existe un \"ánimo constructivo de todos los partidos\" oficialistas para ello. Sin perjuicio de que haya también \"ciertas voces disidentes\", descartó que exista \"una tensión tremenda\" en la derecha . \"El martes nos juntamos los secretarios generales de Chile Vamos y Republicanos justamente para abordar estos temas. Fue una conversación muy buena, muy franca: todos nos pudimos decir lo que cada uno pensaba, y la conclusión más grande es que estamos todos por remar para el mismo lado (...) y sacar el Gobierno adelante\", contó. En política \" nunca va a haber una sola voz , siempre va a haber formas de comunicar distintas, porque somos partidos con estilos distintos\", pero \" todos creemos que es necesario hacer ajustes\" , atendido el hecho de que \" un Gobierno perfecto no existe\" . \"Al menos en mi caso - lo he hecho en privado con distintas personas del Gobierno - estamos impulsando que esos ajustes se generen . (Y ya) hemos tenido muchos cambios que se han ido dando, fruto de estas conversaciones privadas\", aseveró. En estos meses \"nos hemos juntado los secretarios generales del oficialismo con distintos subsecretarios, ministros y el mismo Presidente para hacer ver (la necesidad de) esos cambios, y el Gobierno se ha comprometido a hacer esos cambios \", señaló Bruna.",
-            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/partido-republicano-es-necesario-hacer-ajustes-para-darle-mas-tonelaje/2026-11-04/105119.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104105119.jpg",
-            "published_raw": "Wed, 04 Nov 2026 10:51:19 -0300",
-            "published_at": "2026-11-04T10:51:19-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 4,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 4,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 9,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Ideología y competencia política",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-008"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 19,
-          "labels": [
-            "Estado e instituciones",
-            "Elecciones y opinión pública"
-          ],
-          "chile_utility": 74.5
+          "chile_utility": 75.2
         },
         "repeated_in_general_top5": false
       }
@@ -626,27 +630,27 @@
   },
   "topics": [
     {
-      "topic": "Instituciones y gobierno",
-      "event_count": 24,
-      "maximum_relevance": 64,
-      "leading_story": "\"Pasada de máquina\" de Lincolao a la ley de IA abrió nuevo flanco dentro del Gobierno"
+      "topic": "Elecciones y opinión pública",
+      "event_count": 4,
+      "maximum_relevance": 64.8,
+      "leading_story": "Las elecciones de la primera vez: los récords de mujeres, negros, gays, musulmanes, latinos e indígenas en las ‘midterms’"
     },
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 3,
-      "maximum_relevance": 63.3,
-      "leading_story": "Cuatro victorias clave (y dos sorpresas): repaso de los triunfos demócratas en las elecciones"
+      "topic": "Instituciones y gobierno",
+      "event_count": 25,
+      "maximum_relevance": 62.2,
+      "leading_story": "\"Pasada de máquina\" de Lincolao a la ley de IA abrió nuevo flanco dentro del Gobierno"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 62.8,
+      "maximum_relevance": 61.5,
       "leading_story": "Comisión aprobó presupuesto de gores con \"una merma chica, de 3 a 4%\""
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 3,
-      "maximum_relevance": 53.5,
+      "maximum_relevance": 51.8,
       "leading_story": "Isabel Allende, premio Planeta 2026: “Cuidado con la extrema derecha y la extrema izquierda, el autoritarismo acentúa los problemas”"
     },
     {
@@ -667,7 +671,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
