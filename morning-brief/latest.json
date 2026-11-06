@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-06",
-    "data_latest_timestamp": "2026-11-06T07:17:24-0300",
-    "data_age_hours": 0.7,
-    "generated_at": "2026-11-06T07:58:56-0300",
+    "data_latest_timestamp": "2026-11-06T14:59:51-0300",
+    "data_age_hours": 1.1,
+    "generated_at": "2026-11-06T16:05:31-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 40 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 2 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 44 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Elecciones y opinión pública.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 40,
+    "ranked_events": 44,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 61.7,
-    "maximum_relevance": 66.1
+    "average_top5_relevance": 61.6,
+    "maximum_relevance": 63.1
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-020",
+      "cluster_id": "PML-EVENT-022",
       "title": "Los republicanos fracasan en su estrategia de ‘gerrymandering’ en las elecciones de medio mandato",
       "url": "https://elpais.com/us/2026-11-06/los-republicanos-fracasan-en-su-estrategia-de-gerrymandering-en-las-elecciones-de-medio-mandato.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +43,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 66.1,
+        "score": 63.1,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 66.1
+        "editorial_utility": 63.1
       },
       "selection": {
-        "reason": "PML 66.1",
+        "reason": "PML 63.1",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -99,88 +99,15 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
+          "cluster_id": "PML-EVENT-022"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-021",
-      "title": "El presidente y el Congreso de Paraguay se dirigen a un choque institucional tras un escándalo financiero",
-      "url": "https://elpais.com/america/2026-11-06/pena-desafia-al-congreso-paraguayo-y-se-defendera-en-el-juicio-politico-en-su-contra.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Chile",
-        "country": "No identificado / América Latina"
-      },
-      "relevance": {
-        "score": 62.4,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 74.4
-      },
-      "selection": {
-        "reason": "PML 62.4; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-05T22:56:16-0300",
-      "last_seen": "2026-11-05T22:56:16-0300",
-      "entities": "congreso",
-      "event_terms": [],
-      "analysis": {
-        "summary": "Peña desafía al Congreso paraguayo y se defenderá en el juicio político en su contra. Los diputados se niegan a aceptar la renuncia",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El presidente y el Congreso de Paraguay se dirigen a un choque institucional tras un escándalo financiero",
-          "description": "Peña desafía al Congreso paraguayo y se defenderá en el juicio político en su contra. Los diputados se niegan a aceptar la renuncia",
-          "url": "https://elpais.com/america/2026-11-06/pena-desafia-al-congreso-paraguayo-y-se-defendera-en-el-juicio-politico-en-su-contra.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/AGZG23DMQZJZLJTW4E3SZEFO6Y.jpg?auth=07f85072eddc58de3440d09f6632b2d47dee67b8272e91c46d0630c091d9f875",
-          "published_raw": "Fri, 06 Nov 2026 01:56:16 GMT",
-          "published_at": "2026-11-05T22:56:16-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 3,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 1,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-015",
-      "title": "Crisis política en Paraguay: el presidente Santiago Peña, ad portas de un juicio político por crisis bancaria",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261105-crisis-pol%C3%ADtica-en-paraguay-el-presidente-santiago-pe%C3%B1a-ad-portas-de-un-juicio-pol%C3%ADtico-por-crisis-bancaria",
+      "cluster_id": "PML-EVENT-013",
+      "title": "Se reanuda el juicio político al presidente de Paraguay, Santiago Peña, por el caso Ueno Bank",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261106-paraguay-santiago-pe%C3%B1a-pide-una-pr%C3%B3rroga-para-defenderse-del-juicio-pol%C3%ADtico",
       "representative_source": "France 24",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_CRISIS",
@@ -189,27 +116,27 @@
         "country": "Paraguay / América Latina"
       },
       "relevance": {
-        "score": 61.8,
-        "level": "MEDIA",
-        "editorial_utility": 61.8
+        "score": 63,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 75
       },
       "selection": {
-        "reason": "PML 61.8; aporta diversidad geográfica",
+        "reason": "PML 63; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 2,
+        "article_count": 1,
         "source_count": 1,
         "sources": "France 24"
       },
-      "first_seen": "2026-11-05T10:21:51-0300",
-      "last_seen": "2026-11-05T15:55:09-0300",
+      "first_seen": "2026-11-06T09:08:03-0300",
+      "last_seen": "2026-11-06T09:08:03-0300",
       "entities": "congreso",
-      "event_terms": "crisis",
+      "event_terms": [],
       "analysis": {
-        "summary": "Diputados opositores presentaron ante el Congreso un pedido de juicio de destitución contra el presidente de Paraguay y su vicepresidente por la crisis que envuelve a uno de los mayores bancos del país y que condujo al congelamiento de los depósitos de alrededor de tres millones de personas. El pedido se discute con intensidad este jueves 5 de noviembre. ",
+        "summary": "La Cámara de Senadores retomó este viernes la sesión extraordinaria para avanzar hacia la definición del juicio político contra Santiago Peña. Al reanudarse el debate, la senadora Yolanda Paredes, de Cruzada Nacional, pidió a las autoridades que confirmen de inmediato dónde se encuentra el mandatario, ante las sospechas de que podría haber abandonado el país tras su ausencia en el Congreso.",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Paraguay / América Latina.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -222,12 +149,12 @@
         {
           "source_id": "france24_latam",
           "source": "France 24",
-          "title": "Crisis política en Paraguay: el presidente Santiago Peña, ad portas de un juicio político por crisis bancaria",
-          "description": "Diputados opositores presentaron ante el Congreso un pedido de juicio de destitución contra el presidente de Paraguay y su vicepresidente por la crisis que envuelve a uno de los mayores bancos del país y que condujo al congelamiento de los depósitos de alrededor de tres millones de personas. El pedido se discute con intensidad este jueves 5 de noviembre. ",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261105-crisis-pol%C3%ADtica-en-paraguay-el-presidente-santiago-pe%C3%B1a-ad-portas-de-un-juicio-pol%C3%ADtico-por-crisis-bancaria",
-          "image_url": "https://s.france24.com/media/display/37388ab8-d868-11f1-a845-1beafce15fea/w:1024/p:16x9/6a24571d7d1035816b8b5f9d349f8fa717afba1c.jpg",
-          "published_raw": "Thu, 05 Nov 2026 13:21:51 GMT",
-          "published_at": "2026-11-05T10:21:51-0300",
+          "title": "Se reanuda el juicio político al presidente de Paraguay, Santiago Peña, por el caso Ueno Bank",
+          "description": "La Cámara de Senadores retomó este viernes la sesión extraordinaria para avanzar hacia la definición del juicio político contra Santiago Peña. Al reanudarse el debate, la senadora Yolanda Paredes, de Cruzada Nacional, pidió a las autoridades que confirmen de inmediato dónde se encuentra el mandatario, ante las sospechas de que podría haber abandonado el país tras su ausencia en el Congreso.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261106-paraguay-santiago-pe%C3%B1a-pide-una-pr%C3%B3rroga-para-defenderse-del-juicio-pol%C3%ADtico",
+          "image_url": "https://s.france24.com/media/display/a658a8e2-d9fd-11f1-aed2-bf1914cabd52/w:1024/p:16x9/627d2891358a698fd3138484d53550d7833c6a18.jpg",
+          "published_raw": "Fri, 06 Nov 2026 12:08:03 GMT",
+          "published_at": "2026-11-06T09:08:03-0300",
           "country": "Paraguay",
           "region": "América Latina",
           "language": "es",
@@ -245,41 +172,159 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
-        },
+          "cluster_id": "PML-EVENT-013"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-005",
+      "title": "Kast vuelve a una Moneda convulsionada por la crisis",
+      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/kast-vuelve-a-una-moneda-convulsionada-por-la-crisis/2026-11-06/082139.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 62.8,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 62.8
+      },
+      "selection": {
+        "reason": "PML 62.8; aporta diversidad geográfica",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-06T08:21:39-0300",
+      "last_seen": "2026-11-06T08:21:39-0300",
+      "entities": "chile",
+      "event_terms": "crisis",
+      "analysis": {
+        "summary": "El Presidente José Antonio Kast regresó a Chile tras su gira por Europa y retomará este viernes sus actividades en La Moneda, en medio de la profunda crisis política  generada por la polémica de las rebajas de condenas y las críticas desde el propio oficialismo a la conducción política del Gobierno .",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
         {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Esto sabemos del escándalo del Ueno Bank, la crisis que tumbó al presidente paraguayo Santiago Peña",
-          "description": "La disolución por insolvencia financiera del Ueno Bank, uno de los principales bancos digitales de Paraguay y de estrechos vínculos con el presidente Santiago Peña, ha desencadenado una crisis financiera y un terremoto político en el país. Mientras casi 3 millones de clientes han visto congelado el acceso a sus ahorros y cuando el Congreso se disponía a iniciar un juicio político contra él, el mandatario conservador presentó su renuncia.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261105-esto-sabemos-del-esc%C3%A1ndalo-del-ueno-bank-la-crisis-que-tumb%C3%B3-al-presidente-paraguayo-santiago-pe%C3%B1a",
-          "image_url": "https://s.france24.com/media/display/6d08a08c-d945-11f1-b580-bf1914cabd52/w:1024/p:16x9/FOTO-PORTADA-PARAGUAY-SANTIAGO-PEN%CC%83A-RENUNCIA.jpg",
-          "published_raw": "Thu, 05 Nov 2026 18:55:09 GMT",
-          "published_at": "2026-11-05T15:55:09-0300",
-          "country": "Paraguay",
-          "region": "América Latina",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Kast vuelve a una Moneda convulsionada por la crisis",
+          "description": "El Presidente José Antonio Kast regresó a Chile tras su gira por Europa y retomará este viernes sus actividades en La Moneda, en medio de la profunda crisis política  generada por la polémica de las rebajas de condenas y las críticas desde el propio oficialismo a la conducción política del Gobierno . Parlamentarios de Chile Vamos y otros sectores han planteado la necesidad de realizar ajustes ministeriales e incluso reformular el equipo de asesores del Segundo Piso , encabezado por el republicano Alejandro Irarrázaval . El senador Rojo Edwards (independiente, pero integrante del comité de Renovación Nacional) cuestionó el funcionamiento de este grupo y sostuvo que \"muchos de nosotros tenemos dudas de que ellos estén filtrando información para afectar a personas del propio Gobierno cuando no les gustan \". \"Lo que creo que debemos hacer -más allá de que, por cierto, es una prerrogativa del Presidente- puede ser reformular y rediseñar el Segundo Piso (..) Si seguimos en este tranco de decisiones, en particular el Segundo Piso, ni aunque llevemos como candidato a Bernardo O'Higgins ganaríamos las próximas elecciones presidenciales \", advirtió. Sin embargo, Kast volvió a descartar el jueves un cambio de gabinete  y defendió su atribución para designar a sus colaboradores. \"Lo descarté ayer (el miércoles), lo sigo descartando y no sé por qué se genera tanta controversia. A los ministros los convoca el Presidente; no las diferentes colectividades políticas \", adujo el Mandatario desde Madrid, aunque confirmó que se reunirá con los partidos oficialistas. Fuentes de La Moneda sostienen que no habrá modificaciones inmediatas, aunque no descartan evaluar ajustes más adelante, de cara al segundo año de Administración. La principal defensa del Ejecutivo frente a las críticas apunta a las leyes aprobadas durante sus primeros ocho meses de gestión. Kast liderará a la 13:30 horas una reunión del comité político para abordar las tensiones con los partidos que respaldan al Gobierno y reordenar la agenda, marcada también por las dificultades en la tramitación del Presupuesto 2027 , especialmente en educación y ciencia. El escenario se produce a pocos días de una nueva gira presidencial por Asia , que contempla visitas a China, Japón y Vietnam .",
+          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/kast-vuelve-a-una-moneda-convulsionada-por-la-crisis/2026-11-06/082139.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106082139.jpg",
+          "published_raw": "Fri, 06 Nov 2026 08:21:39 -0300",
+          "published_at": "2026-11-06T08:21:39-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
+          "score_institutional": 4,
+          "score_elections": 2,
           "score_international": 0,
           "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 1,
+          "score_policy": 2,
+          "score_ideology": 0,
+          "score_actor": 5,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
+          "political_evidence": 13,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-005"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-022",
+      "cluster_id": "PML-EVENT-020",
+      "title": "El rey de Bélgica rechaza la dimisión del primer ministro e insta a los partidos a seguir negociando",
+      "url": "https://elpais.com/internacional/2026-11-06/el-rey-de-belgica-rechaza-la-dimision-del-primer-ministro-e-insta-a-los-partidos-a-seguir-negociando.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 62.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 58.2
+      },
+      "selection": {
+        "reason": "PML 62.2; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-06T09:19:12-0300",
+      "last_seen": "2026-11-06T09:19:12-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "Bart De Wever había presentado su renuncia el lunes tras el fracaso de las conversaciones presupuestarias, pero el monarca dice que ve espacio en la coalición de gobierno para un acuerdo",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El rey de Bélgica rechaza la dimisión del primer ministro e insta a los partidos a seguir negociando",
+          "description": "Bart De Wever había presentado su renuncia el lunes tras el fracaso de las conversaciones presupuestarias, pero el monarca dice que ve espacio en la coalición de gobierno para un acuerdo",
+          "url": "https://elpais.com/internacional/2026-11-06/el-rey-de-belgica-rechaza-la-dimision-del-primer-ministro-e-insta-a-los-partidos-a-seguir-negociando.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/O35W6VRR4JKP5JMJPGP3VLIQAA.jpg?auth=94ecab46d71c62dfb84b03d5832dec026d1ae3e0a59c9d2006f64ebcb473a970",
+          "published_raw": "Fri, 06 Nov 2026 12:19:12 GMT",
+          "published_at": "2026-11-06T09:19:12-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 3,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-020"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-024",
       "title": "Ecuador: a juicio siete personas, entre ellas un exministro correísta, por el asesinato de Fernando Villavicencio",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261105-ecuador-a-juicio-siete-personas-entre-ellas-un-exministro-corre%C3%ADsta-por-el-asesinato-de-fernando-villavicencio",
       "representative_source": "France 24",
@@ -290,12 +335,12 @@
         "country": "Ecuador / América Latina"
       },
       "relevance": {
-        "score": 60.9,
+        "score": 56.9,
         "level": "MEDIA",
-        "editorial_utility": 56.9
+        "editorial_utility": 52.9
       },
       "selection": {
-        "reason": "PML 60.9; diversidad relajada para completar el brief",
+        "reason": "PML 56.9; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -346,80 +391,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-022"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-001",
-      "title": "Oposición prepara acusación contra Rabat con al menos tres capítulos",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/oposicion-prepara-acusacion-contra-rabat-con-al-menos-tres-capitulos/2026-11-05/144011.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 57.2,
-        "level": "MEDIA",
-        "editorial_utility": 50.2
-      },
-      "selection": {
-        "reason": "PML 57.2; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-05T14:40:11-0300",
-      "last_seen": "2026-11-05T14:40:11-0300",
-      "entities": "senado",
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "La oposición avanzó este jueves en la preparación de la acusación constitucional contra el ministro de Justicia, Fernando Rabat , en medio de la controversia por las rebajas de condenas a personas sentenciadas por sexuales de menores y tras conocerse nuevos antecedentes sobre beneficios otorgados a extranjeros narcotraficantes .",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Oposición prepara acusación contra Rabat con al menos tres capítulos",
-          "description": "La oposición avanzó este jueves en la preparación de la acusación constitucional contra el ministro de Justicia, Fernando Rabat , en medio de la controversia por las rebajas de condenas a personas sentenciadas por sexuales de menores y tras conocerse nuevos antecedentes sobre beneficios otorgados a extranjeros narcotraficantes . Tras una reunión con dirigentes políticos y abogados constitucionalistas, el bloque confirmó que la acusación contemplará al menos tres capítulos , cuyo contenido fue desmenuzado por el diputado y timonel PPD, Raúl Soto . \"Uno de ellos tiene que ver con infracciones legales, constitucionales, y de tratados internacionales relativas a la rebaja de condenas y liberación de abusadores y violadores de niños, niñas y adolescentes. El segundo capítulo tiene que ver con la rebaja de condenas y también la eventual liberación de violadores de derechos humanos y criminales de lesa humanidad , donde también habría infracciones no solo de carácter legal, sino que también de tratados internacionales\", profundizó el parlamentario. \"Y en tercer lugar -continuó-, (se acusa) porque existe un ministro que le ha mentido al país, a otro poder del Estado , que ha actuado de mala fe, y ha incumplido el principio de probidad\". [Lea también]   \"No sé por qué tanta controversia\": Kast descartó nuevamente un cambio de gabinete En cuanto a la presentación del documento , Soto añadió que \"no se va a anunciar fecha, sino que simplemente se va a ingresar , y se van a dar a conocer públicamente cada uno de los argumentos\". \"La próxima semana tenemos la discusión de la Ley de Presupuesto, pero la convicción la vamos a mantener , y en los próximos días vamos a presentar la acusación\", complementó la  diputada y presidenta del Frente Amplio, Gael Yeomans . Por último, su par comunista Marcos Barraza aseguró: \" Los fundamentos de la acusación tienen tal peso , que van a ir drenando y generando adhesión de votos de la derecha \". Vuelven a exigir la renuncia de Rabat La determinación del bloque opositor se da a conocer horas después de una nueva publicación del medio  Interferencia , que señala que  al menos 13 extranjeros detenidos en la frontera norte recibieron reducciones de sus penas decretadas por el secretario del Estado. Entre los casos figuran un colombiano cuya libertad condicional había sido rechazada por unanimidad, y un venezolano detenido con 32 kilos de ketamina, una granada y armas de fuego. El senador socialista Juan Luis Castro emplazó al Presidente José Antonio Kast a tomar medidas contra Rabat: \"¿Qué más hace falta que pase para que saquen del gabinete al ministro de Justicia? ¿Quién de la derecha se ha levantado a dar la cara para defenderlo? Nadie\" . \"Todos privadamente dicen que no pueden dejar solo al Presidente de la República, pero nadie defiende una autoridad que está sola \", dijo el jefe del comité del Socialismo Democrático en el Senado. A su vez, el  diputado socialista Raúl Leiva se preguntó: \"¿Cuál ha sido la actitud sobresaliente en materia de reinserción de un narcotraficante extranjero que ingresó una tonelada de cocaína?\" . Conocido este nuevo reportaje, el opositor exigió al Gobierno y al propio ministro Rabat que entreguen todos los antecedentes relacionados con el escándalo, \"porque uno también podría suponer que a lo mejor existe mucha información que están escondiendo frente a la ciudadanía\". Diputado RN: \"El Gobierno tendría que anticiparse\" Desde el oficialismo, el diputado Luis Pardo (Renovación Nacional) admitió que  \"el Gobierno tendría que tener la capacidad de anticiparse a este tipo de situaciones\". \"El Gobierno ha sido muy claro en reconocer que estos decretos y estas rebajas de condena han sido  un error político  y, además, un error en relación a las sensibilidades de las víctimas y de la sociedad en momentos que tenemos un problema de inseguridad tan grande como el que tenemos\", reflexionó. Mientras, la diputada UDI Constanza Hube  sostuvo que \"es de Perogrullo decir que acá hubo un error, pero otra cosa distinta es empezar a motivar estas acusaciones constitucionales , buscando por razones políticas sacar un ministro\". \"(Los juicios políticos) son prácticas que le han hecho muy mal a nuestra democracia. Se hizo muy mal durante el Gobierno del Presidente Piñera e, incluso, durante el Gobierno pasado creo que también hubo acusaciones constitucionales que no tenían mérito \", cuestionó. Diputada UDI, Constanza Hube, ante acusación constitucional contra Fernando Rabat: \"tratar de sacar a ministros por razones políticas le ha hecho mucho daño a nuestra democracia... en el Gobierno anterior también hubo acusaciones que no tenían ningún mérito\". @Cooperativa — Jorge Espinoza Cuellar (@espinozacuellar) November 5, 2026 La presentación del libelo aún no tiene fecha definida .",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/oposicion-prepara-acusacion-contra-rabat-con-al-menos-tres-capitulos/2026-11-05/144011.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261105/imag/foto_0000001320261105144011.jpg",
-          "published_raw": "Thu, 05 Nov 2026 14:40:11 -0300",
-          "published_at": "2026-11-05T14:40:11-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 9,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 1,
-          "score_ideology": 3,
-          "score_actor": 7,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 21,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
+          "cluster_id": "PML-EVENT-024"
         }
       ]
     }
@@ -432,6 +404,147 @@
     "stories": [
       {
         "position": 1,
+        "cluster_id": "PML-EVENT-012",
+        "title": "Félix de Vicente retiró candidatura a la CPC tras polémicos dichos por rebajas de condena a pedófilos",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/empresas/felix-de-vicente-retiro-candidatura-a-la-cpc-tras-polemicos-dichos-por/2026-11-06/145951.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 55,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 50,
+            "freshness": 100,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-06T14:59:51-0300",
+        "last_seen": "2026-11-06T14:59:51-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Félix de Vicente retiró candidatura a la CPC tras polémicos dichos por rebajas de condena a pedófilos",
+            "description": "El ingeniero comercial Félix de Vicente Mingo anunció este viernes el retiro de su postulación a la presidencia de la Confederación de la Producción y del Comercio (CPC) . La dimisión del representante del sector bancario se da tras sus controvertidas declaraciones en una entrevista a Radio 13C , en la que, al abordar el escándalo por las rebajas de condenas otorgadas a personas sentenciadas por delitos sexuales contra menores de edad , afirmó que se trataba de una disputa política y no formaba parte de las urgencias reales ni cotidianas de la población . Tras estos dichos, desde la propia banca señalaron que el exministro en el gobierno de Sebastián Piñrta puso sobre la mesa su renuncia como una alternativa obligada frente a la magnitud del impacto público de sus dichos. En tanto, a través de una declaración pública, el propio De Vicente confirmó su baja a la candidatura para liderar la CPC , la que realizó \" convicción de que el mundo empresarial debe acercarse a las preocupaciones de las personas y contribuir a recuperar el empleo , l a inversión y el crecimiento que Chile tanto necesita \". Mientras que, respecto a la bullada entrevista, indicó que sus declaraciones \" fueron sacadas de contexto y dieron pie a una interpretación que no corresponde a lo que quise decir \". El liderazgo gremial para suceder a Susana Jiménez se definirá entre Antonio Walker y Richard Von Appen (FOTO: ATON) \"Me refería a la acusación constitucional contra el ministro de Justicia (Fernando Rabat) , y no a los delitos de abuso sexual ni a una rebaja de las penas por esos delitos. Esos delitos son de extrema gravedad y marcan la vida de las víctimas . Frente a ellos no cabe la indiferencia \", puntualizó. \" Lamento sinceramente este malentendido , que me ha generado mucho dolor , y reitero mis disculpas a quienes se sintieron afectados u ofendidos \", añadió el otrora secretario de Estado. De Vicente dio cuenta que, \"después de una profunda reflexión, he decidido retirar mi postulación a la CPC. Las instituciones están por sobre las aspiraciones personales, y no quiero que esta polémica distraiga la atención de los grandes desafíos que enfrenta el país y el mundo empresarial \". Hacia el final de su misiva, el dirigente expresó su gratitud hacia los sectores productivos que respaldaron su opción, dando las gracias \"sinceramente a quienes me entregaron su confianza y apoyo durante estas semanas \". Tras esta declinación, la pugna para definir al sucesor de Susana Jiménez al mando de la multigremial empresarial queda acotada a dos cartas: el timonel de la Sociedad Nacional de Agricultura (SNA), Antonio Walker , y el expresidente de la Sociedad de Fomento Fabril (Sofofa), Richard Von Appen .",
+            "url": "https://www.cooperativa.cl/noticias/economia/empresas/felix-de-vicente-retiro-candidatura-a-la-cpc-tras-polemicos-dichos-por/2026-11-06/145951.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000320261106145951.png",
+            "published_raw": "Fri, 06 Nov 2026 14:59:51 -0300",
+            "published_at": "2026-11-06T14:59:51-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 3,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 0,
+            "score_actor": 1,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 5,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-012"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 19,
+          "labels": [
+            "Estado e instituciones",
+            "Elecciones y opinión pública"
+          ],
+          "chile_utility": 74
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-033",
+        "title": "Rojo Edwards: A este tranco, ni con Bernardo O'Higgins de candidato ganamos la próxima elección",
+        "topic": "Elecciones y opinión pública",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/rojo-edwards-a-este-tranco-ni-con-bernardo-o-higgins-de-candidato/2026-11-06/090833.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 55.4,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 51,
+            "freshness": 95,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 44
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-06T09:08:33-0300",
+        "last_seen": "2026-11-06T09:08:33-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Rojo Edwards: A este tranco, ni con Bernardo O'Higgins de candidato ganamos la próxima elección",
+            "description": "",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/rojo-edwards-a-este-tranco-ni-con-bernardo-o-higgins-de-candidato/2026-11-06/090833.html",
+            "image_url": "",
+            "published_raw": "Fri, 06 Nov 2026 09:08:33 -0300",
+            "published_at": "2026-11-06T09:08:33-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 0,
+            "score_elections": 2,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 1,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 3,
+            "primary_topic": "Elecciones y opinión pública",
+            "secondary_topic": null,
+            "decision": "ACCEPT",
+            "filter_confidence": "medium",
+            "cluster_id": "PML-EVENT-033"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 10,
+          "labels": "Elecciones y opinión pública",
+          "chile_utility": 65.4
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
         "cluster_id": "PML-EVENT-002",
         "title": "Presupuesto 2027 pasó a la Cámara con Educación y Ciencia rechazados",
         "topic": "Instituciones y gobierno",
@@ -443,11 +556,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.5,
+          "score": 52.5,
           "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 100,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 32
@@ -498,151 +611,7 @@
             "Estado e instituciones",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 73.5
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-011",
-        "title": "Comisión aprobó presupuesto de gores con \"una merma chica, de 3 a 4%\"",
-        "topic": "Economía y políticas públicas",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/comision-aprobo-presupuesto-de-gores-con-una-merma-chica-de-3-a-4/2026-11-04/144619.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 47.8,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 76,
-            "freshness": 40,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 30
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-04T14:46:19-0300",
-        "last_seen": "2026-11-04T14:46:19-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Comisión aprobó presupuesto de gores con \"una merma chica, de 3 a 4%\"",
-            "description": "La Comisión Especial Mixta de Presupuestos aprobó la partida para los gobiernos regionales (gores) -que contemplaba recortes y restricciones al gasto-, luego de un acuerdo alcanzado entre el Ejecutivo, los parlamentarios y los gobernadores. El proyecto sugería un ajuste de 7% comparado con la iniciativa de Presupuesto inicial -y de un 10% equiparado con el vigente  este año-,  lo que generó controversia e inquietud en los gores  entre finales de septiembre e inicios de octubre.  Sin embargo, el gobernador de Valparaíso, Rodrigo Mundaca,  afirmó que ahora contempla \"un margen de merma chico, entre un 3 y un 4%\". Asimismo, \"inicialmente, este proyecto no contemplaba reemplazar a los trabajadores que pasaban a retiro en los gobiernos regionales; y hoy día lo contempla.  También vamos a tener más flexibilidad en los instrumentos que están alojados en el FNDR (Fondo Nacional de Desarrollo Regional), en el programa de inversión en particular\", entre otros, aseguró Mundaca. El  ministro de Hacienda, Jorge Quiroz , señaló que \"las medidas de gestión permiten que partamos ejecutando (el Presupuesto) en las regiones desde el día uno\". \"Hay una tremenda responsabilidad hoy día de la reactivación del empleo: dimos un voto de confianza muy fuerte a la gestión futura de los gobernadores\" , añadió el jefe de la billetera fiscal. La aprobación de la partida en virtud del acuerdo fue valorada ampliamente por parlamentarios oficialistas y de oposición.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/comision-aprobo-presupuesto-de-gores-con-una-merma-chica-de-3-a-4/2026-11-04/144619.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104144619.png",
-            "published_raw": "Wed, 04 Nov 2026 14:46:19 -0300",
-            "published_at": "2026-11-04T14:46:19-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 1,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 2,
-            "score_ideology": 0,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 6,
-            "primary_topic": "Economía y políticas públicas",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-011"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Congreso y proceso legislativo",
-            "Economía y políticas públicas"
-          ],
-          "chile_utility": 69.8
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-004",
-        "title": "UDI pide que, superada la crisis, Kast instaure una coalición política formal",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_CRISIS",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/udi-pide-que-superada-la-crisis-kast-instaure-una-coalicion-politica/2026-11-04/112029.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 49.9,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 71,
-            "freshness": 40,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 44
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-04T11:20:29-0300",
-        "last_seen": "2026-11-04T11:20:29-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "UDI pide que, superada la crisis, Kast instaure una coalición política formal",
-            "description": "El diputado Eduardo Cretton, vicepresidente de la UDI , abogó en El Primer Café  por que, una vez superada la crisis de las rebajas de condena a pedófilos, el Presidente José Antonio Kast instaure de manera formal una \"nueva coalición política\" con los partidos que lo apoyan. El parlamentario afirmó que el error cometido por el ministro Fernando Rabat \"ha tenido un costo evidente para el Gobierno\" , y consideró  \"un poco dramático que (en la derecha y centroderecha) hayamos pasado del 62 por ciento del Rechazo de salida del 4 de septiembre (de 2022)  al 22 por ciento del Rechazo de entrada (en el plebicito de 2020 que preguntó por una nueva Constitución)\"; cifra, esta última, que equivale a la aprobación al Mandatario señalada por la más reciente encuesta Pulso Ciudadano . Mantener la situación actual \"es un problema, porque significa que, de una u otra forma, se empieza a diluir el apoyo ciudadano al Gobierno del Presidente\" , advirtió Cretton. \"Los partidos influyen poco en las decisiones\" \"Para mí el gran problema que hemos tenido durante estos siete meses de Gobierno es que no hemos sido capaces de construir una verdadera coalición política que permita darle sustento al Presidente\", afirmó. \" Es un problema de diseño,  donde los partidos políticos influyen poco en las decisiones que se están tomando. Por lo tanto, yo espero que una vez que salgamos de esta crisis, sea el propio Presidente  José Antonio Kast quien llame y convoque a una coalición política\" , dijo Cretton. \" Esto es mucho más profundo que simplemente sacar a un ministro , poner a otro ministro o meter más ministros políticos al gabinete. Esto tiene que ver con que los partidos políticos que sustentan al Gobierno quieran ser realmente capaces de trabajar juntos y construir una coalición\", y requiere \"que el Presidente José Antonio Kast -sobre todo en momentos críticos como los que está viviendo- no simplemente tiene que ser Jefe de Estado y Jefe de Gobierno, sino que también tiene que ser jefe de una coalición \". En esa línea, \"yo esperaría que cuando salgamos de esta crisis, el Presidente convoque a una nueva coalición política que nos permita revertir los malos números que estamos viendo y que nos permita hacernos cargo de los problemas\", insistió. \" El gran desafío que tiene el Gobierno ahora es cómo remontamos estos números que no son positivos: la baja en la aprobación, y para eso me parece que es evidente (la necesidad de) un diseño nuevo que considere una coalición política ya formal , donde los partidos políticos puedan colaborar y ser más influyentes a la hora de la toma de decisiones\", enfatizó el diputado. \"La UDI no se va a ir\" El dirigente gremialista agregó, a propósito de las tensiones desatadas en el oficialismo en las últimas semanas, que \" la UDI se ha comportado como un partido leal con el Presidente José Antonio Kast y no se va a ir del Gobierno -como han insinuado algunos - por el tema de los cargos\". \"Uno no está en el Gobierno por un par de cargos . Eso es totalmente secundario. Está en el Gobierno porque quiere construir un proyecto político en común\", pero \" si no hay una coalición política y hay tan bajos niveles de aprobación , la verdad es que esa tarea -que es probablemente la tarea política más importante que tenemos los partidos del Gobierno- se empieza a poner cuesta arriba \", advirtió.",
-            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/udi-pide-que-superada-la-crisis-kast-instaure-una-coalicion-politica/2026-11-04/112029.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261104/imag/foto_0000000220261104112029.jpg",
-            "published_raw": "Wed, 04 Nov 2026 11:20:29 -0300",
-            "published_at": "2026-11-04T11:20:29-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 6,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 2,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 14,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Ideología y competencia política",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 19,
-          "labels": [
-            "Estado e instituciones",
-            "Elecciones y opinión pública"
-          ],
-          "chile_utility": 68.9
+          "chile_utility": 70.5
         },
         "repeated_in_general_top5": false
       }
@@ -652,47 +621,37 @@
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 6,
-      "maximum_relevance": 66.1,
+      "maximum_relevance": 63.1,
       "leading_story": "Los republicanos fracasan en su estrategia de ‘gerrymandering’ en las elecciones de medio mandato"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 26,
-      "maximum_relevance": 62.4,
-      "leading_story": "El presidente y el Congreso de Paraguay se dirigen a un choque institucional tras un escándalo financiero"
+      "event_count": 31,
+      "maximum_relevance": 63,
+      "leading_story": "Se reanuda el juicio político al presidente de Paraguay, Santiago Peña, por el caso Ueno Bank"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 3,
-      "maximum_relevance": 57.8,
+      "maximum_relevance": 54,
       "leading_story": "Roberto Velasco, canciller de México: “Las relaciones con España son excelentes y atraviesan un momento muy positivo”"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 3,
-      "maximum_relevance": 56.6,
+      "maximum_relevance": 52.9,
       "leading_story": "La derrota de Trump aumenta la inquietud en Israel por el futuro de la alianza con EE UU"
-    },
-    {
-      "topic": "Economía y políticas públicas",
-      "event_count": 1,
-      "maximum_relevance": 47.8,
-      "leading_story": "Comisión aprobó presupuesto de gores con \"una merma chica, de 3 a 4%\""
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 39.8,
+      "maximum_relevance": 36,
       "leading_story": "Isabel Allende, premio Planeta 2026: “Cuidado con la extrema derecha y la extrema izquierda, el autoritarismo acentúa los problemas”"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-021", "PML-EVENT-015", "PML-EVENT-022", "PML-EVENT-001"],
-      "exited_top5": ["PML-EVENT-014", "PML-EVENT-025", "PML-EVENT-019", "PML-EVENT-011"],
-      "retained_top5": "PML-EVENT-020"
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
