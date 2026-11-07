@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-07",
-    "data_latest_timestamp": "2026-11-07T01:42:30-0300",
-    "data_age_hours": 5.1,
-    "generated_at": "2026-11-07T06:47:07-0300",
+    "data_latest_timestamp": "2026-11-07T12:30:55-0300",
+    "data_age_hours": 2.1,
+    "generated_at": "2026-11-07T14:37:51-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -17,22 +17,22 @@
   "summary": {
     "headline": "Panorama Político Diario",
     "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
     "ranked_events": 35,
-    "topics": 2,
+    "topics": 1,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 61.7,
-    "maximum_relevance": 66.3
+    "average_top5_relevance": 60.9,
+    "maximum_relevance": 66
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-013",
+      "cluster_id": "PML-EVENT-012",
       "title": "Paraguay: detenido por la policía el destituido presidente Santiago Peña; juramentado Pedro Alliana",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261106-paraguay-santiago-pe%C3%B1a-pide-una-pr%C3%B3rroga-para-defenderse-del-juicio-pol%C3%ADtico",
       "representative_source": "France 24",
@@ -43,12 +43,12 @@
         "country": "Paraguay / América Latina / No identificado"
       },
       "relevance": {
-        "score": 66.3,
+        "score": 62.5,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 70.3
+        "editorial_utility": 66.5
       },
       "selection": {
-        "reason": "PML 66.3; multifuente",
+        "reason": "PML 62.5; multifuente",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -105,7 +105,7 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-013"
+          "cluster_id": "PML-EVENT-012"
         },
         {
           "source_id": "elpais_america",
@@ -133,102 +133,29 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-013"
+          "cluster_id": "PML-EVENT-012"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-006",
-      "title": "Gobierno pondrá discusión inmediata a proyecto para derogar \"de raíz\" la ley de rebajas de condena",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gobierno-pondra-discusion-inmediata-a-proyecto-para-derogar-de-raiz-la/2026-11-06/175825.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 62.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 65.2
-      },
-      "selection": {
-        "reason": "PML 62.2; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-06T17:58:25-0300",
-      "last_seen": "2026-11-06T17:58:25-0300",
-      "entities": "congreso",
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "El Gobierno confirmó este viernes que otorgará discusión inmediata al proyecto de ley que busca derogar por completo la ley de rebaja de condenas , con el objetivo de eliminar este beneficio carcelario en medio del debate generado por la reincidencia de internos beneficiados y los cuestionamientos dirigidos al ministro de Justicia, Fernando Rabat .",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Gobierno pondrá discusión inmediata a proyecto para derogar \"de raíz\" la ley de rebajas de condena",
-          "description": "El Gobierno confirmó este viernes que otorgará discusión inmediata al proyecto de ley que busca derogar por completo la ley de rebaja de condenas , con el objetivo de eliminar este beneficio carcelario en medio del debate generado por la reincidencia de internos beneficiados y los cuestionamientos dirigidos al ministro de Justicia, Fernando Rabat . La determinación se adoptó tras una sesión de comité político de tres horas en el Palacio de La Moneda , encabezada por el Presidente José Antonio Kast tras su retorno de Europa . En la instancia, el Ejecutivo definió endurecer su postura legislativa y patrocinar una moción parlamentaria para poner fin a la normativa que data de más de dos décadas . Al ser consultado sobre la preocupación ciudadana frente a reclusos beneficiados que han vuelto a delinquir -particularmente en ilícitos vinculados al narcotráfico- , el subsecretario y vocero de Gobierno , Gonzalo Arenas , sostuvo que \"las personas que se han acogido al beneficio de rebaja de condenas vienen desde el 2003, no fue este gobierno el que ha dejado libre a personas \". \"Son miles y miles de casos que han sido beneficiados con esta ley de rebaja de condenas, por lo tanto, también hay muchos casos -no los conozco ahora todos- que tienen que haber tenido reincidencias , porque era un tema que no tenía exclusiones solamente en temas sexuales . Por eso hemos dicho que aquí el problema del sistema es integral\", arremetió la autoridad. La medida fue confirmada por el vocero subrogante Gonzalo Arenas tras el comité político encabezado por el Mandatario en La Moneda. (FOTO: ATON) En esta línea, precisó que, \"a pesar de que la oposición no quiso ayudar al gobierno a tramitar la ley de 'Nunca Más', el gobierno ha patrocinado un proyecto de ley que presentaron los senadores (Arturo) Longton y (Arturo) Squella para eliminar completamente esa ley de rebaja de condenas (por comportamiento sobresaliente) , para que no solamente en casos de delitos sexuales se excluya ese beneficio , sino que en todo caso \". \" Con eso se va a solucionar un problema por el cual llevamos más de 20 años , que no empezó en este gobierno y que , por supuesto , queremos que termine en este gobierno \", enfatizó Arenas. Frente a los riesgos que enfrentan los ciudadanos ante la salida anticipada de condenados que vuelven a reincidir, Arenas enfatizó que \"por supuesto que no pueden estar tranquilos mientras esta ley siga vigente \". La administración del Presidente José Antonio Kast anunció que aplicará máxima urgencia legislativa para suprimir por completo la normativa penitenciaria vigente desde 2003. (FOTO: ATON) \"Son miles las personas que han sido beneficiadas con esta ley y por eso es que la vamos simplemente a derogar. Ni siquiera vamos a tratar de dar una interpretación más adecuada , vamos a cortar el problema de raíz y esa ley del 2003 va a quedar absolutamente derogada y , por lo tanto , nadie más va a poder acceder a estos beneficios de rebaja de penas . En eso esperamos que el Congreso nos ayude\", puntualizó el vocero, que también confirmó que \" le vamos a poner discusión inmediata \" a la propuesta legislativa. Respaldo a Rabat y descarte de ajuste ministerial El anuncio estuvo acompañado por un respaldo hacia el gabinete de ministros, disipando las exigencias de parlamentarios y jefes comunales oficialistas respecto a eventuales ajustes en el equipo de gobierno . Sobre este escenario, el portavoz de La Moneda cerró la puerta a cualquier modificación en el gabinete: \"Como lo dijo muy claramente el Presidente en su viaje a Europa, y yo también lo recalqué en la última vocería, no hay cambios de gabinete actualmente en nuestro gobierno \", puntualizó. El Ejecutivo respaldó la gestión del ministro de Justicia, Fernando Rabat, y descartó un ajuste ministerial. (FOTO: ATON) En esta línea, aseguró que \" todos los ministros cuentan con el respaldo del Presidente de la República , están todos abocados principalmente a sacar adelante la Ley de Presupuesto y los desafíos económicos y sociales\". \"Por lo tanto, reafirmamos lo que hemos venido diciendo toda la semana: no hay cambio de gabinete , todos los ministros cuentan con la confianza del Presidente de la República \", cerró Arenas.",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gobierno-pondra-discusion-inmediata-a-proyecto-para-derogar-de-raiz-la/2026-11-06/175825.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106175825.png",
-          "published_raw": "Fri, 06 Nov 2026 17:58:25 -0300",
-          "published_at": "2026-11-06T17:58:25-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 4,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 12,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-006"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-021",
-      "title": "Ecuador: a juicio siete personas, entre ellas un exministro correísta, por el asesinato de Fernando Villavicencio",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261105-ecuador-a-juicio-siete-personas-entre-ellas-un-exministro-corre%C3%ADsta-por-el-asesinato-de-fernando-villavicencio",
+      "cluster_id": "PML-EVENT-027",
+      "title": "¿Quién es Pedro Alliana, el nuevo presidente de Paraguay? ¿Qué medidas tomará ante la crisis por Ueno Bank?",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261107-qui%C3%A9n-es-pedro-alliana-el-nuevo-presidente-de-paraguay-qu%C3%A9-medidas-tomar%C3%A1-ante-la-crisis-por-ueno-bank",
       "representative_source": "France 24",
-      "topic": "Elecciones y opinión pública",
+      "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
         "group": "América Latina",
-        "country": "Ecuador / América Latina"
+        "country": "Paraguay / América Latina"
       },
       "relevance": {
-        "score": 54.4,
-        "level": "MEDIA",
-        "editorial_utility": 61.4
+        "score": 66,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 64
       },
       "selection": {
-        "reason": "PML 54.4; aporta diversidad temática; nuevo tipo de evento",
+        "reason": "PML 66; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -238,13 +165,13 @@
         "source_count": 1,
         "sources": "France 24"
       },
-      "first_seen": "2026-11-05T20:24:03-0300",
-      "last_seen": "2026-11-05T20:24:03-0300",
-      "entities": [],
-      "event_terms": [],
+      "first_seen": "2026-11-07T12:30:55-0300",
+      "last_seen": "2026-11-07T12:30:55-0300",
+      "entities": "senado",
+      "event_terms": "crisis",
       "analysis": {
-        "summary": "El exministro del Interior ecuatoriano, José Serrano, se encuentra entre las seis personas que serán procesadas por el asesinato del candidato presidencial, que fue acribillado a su salida de un acto de campaña una semana antes de la primera vuelta de las elecciones en Ecuador. Serrano fue deportado desde Estados Unidos, donde fue detenido por ICE el año pasado.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en Ecuador / América Latina.",
+        "summary": "Los paraguayos amanecieron este sábado 7 de noviembre con un nuevo jefe de Estado. Se trata de Pedro Alliana, quien asumió el cargo, luego de que el derechista Santiago Peña fuera destituido por el Senado en un juicio político–y posteriormente puesto bajo arresto domiciliario– por su presunta implicación en el colapso de Ueno Bank. La crisis bancaria inicialmente dejó a unos tres millones de personas, la mitad de la población del país, sin acceso a su dinero.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Paraguay / América Latina.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -256,17 +183,17 @@
         {
           "source_id": "france24_latam",
           "source": "France 24",
-          "title": "Ecuador: a juicio siete personas, entre ellas un exministro correísta, por el asesinato de Fernando Villavicencio",
-          "description": "El exministro del Interior ecuatoriano, José Serrano, se encuentra entre las seis personas que serán procesadas por el asesinato del candidato presidencial, que fue acribillado a su salida de un acto de campaña una semana antes de la primera vuelta de las elecciones en Ecuador. Serrano fue deportado desde Estados Unidos, donde fue detenido por ICE el año pasado.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261105-ecuador-a-juicio-siete-personas-entre-ellas-un-exministro-corre%C3%ADsta-por-el-asesinato-de-fernando-villavicencio",
-          "image_url": "https://s.france24.com/media/display/72b8a3be-d96e-11f1-ac2f-d18c5759e759/w:1024/p:16x9/AP23230090868081.jpg",
-          "published_raw": "Thu, 05 Nov 2026 23:24:03 GMT",
-          "published_at": "2026-11-05T20:24:03-0300",
-          "country": "Ecuador",
+          "title": "¿Quién es Pedro Alliana, el nuevo presidente de Paraguay? ¿Qué medidas tomará ante la crisis por Ueno Bank?",
+          "description": "Los paraguayos amanecieron este sábado 7 de noviembre con un nuevo jefe de Estado. Se trata de Pedro Alliana, quien asumió el cargo, luego de que el derechista Santiago Peña fuera destituido por el Senado en un juicio político–y posteriormente puesto bajo arresto domiciliario– por su presunta implicación en el colapso de Ueno Bank. La crisis bancaria inicialmente dejó a unos tres millones de personas, la mitad de la población del país, sin acceso a su dinero.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261107-qui%C3%A9n-es-pedro-alliana-el-nuevo-presidente-de-paraguay-qu%C3%A9-medidas-tomar%C3%A1-ante-la-crisis-por-ueno-bank",
+          "image_url": "https://s.france24.com/media/display/08af8aee-dabf-11f1-b46b-695cb59fade5/w:1024/p:16x9/2026-11-07T110013Z-1200284480-RC2MIOAN3PEO-RTRMADP-3-PARAGUAY-POLITICS-ALLIANA.jpg",
+          "published_raw": "Sat, 07 Nov 2026 15:30:55 GMT",
+          "published_at": "2026-11-07T12:30:55-0300",
+          "country": "Paraguay",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 0,
-          "score_elections": 3,
+          "score_institutional": 2,
+          "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
@@ -274,17 +201,17 @@
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Elecciones y opinión pública",
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-027"
         }
       ]
     },
     {
-      "position": 4,
+      "position": 3,
       "cluster_id": "PML-EVENT-028",
       "title": "Asesinados en Guatemala un diputado y tres oficiales en un ataque armado",
       "url": "https://elpais.com/america/2026-11-07/asesinado-en-guatemala-un-diputado-y-tres-oficiales-en-un-ataque-armado.html",
@@ -296,12 +223,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 64.7,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 60.7
+        "score": 61.7,
+        "level": "MEDIA",
+        "editorial_utility": 57.7
       },
       "selection": {
-        "reason": "PML 64.7; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 61.7; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -357,6 +284,79 @@
       ]
     },
     {
+      "position": 4,
+      "cluster_id": "PML-EVENT-006",
+      "title": "Gobierno pondrá discusión inmediata a proyecto para derogar \"de raíz\" la ley de rebajas de condena",
+      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gobierno-pondra-discusion-inmediata-a-proyecto-para-derogar-de-raiz-la/2026-11-06/175825.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 58.2,
+        "level": "MEDIA",
+        "editorial_utility": 52.2
+      },
+      "selection": {
+        "reason": "PML 58.2; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-06T17:58:25-0300",
+      "last_seen": "2026-11-06T17:58:25-0300",
+      "entities": "congreso",
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "El Gobierno confirmó este viernes que otorgará discusión inmediata al proyecto de ley que busca derogar por completo la ley de rebaja de condenas , con el objetivo de eliminar este beneficio carcelario en medio del debate generado por la reincidencia de internos beneficiados y los cuestionamientos dirigidos al ministro de Justicia, Fernando Rabat .",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Gobierno pondrá discusión inmediata a proyecto para derogar \"de raíz\" la ley de rebajas de condena",
+          "description": "El Gobierno confirmó este viernes que otorgará discusión inmediata al proyecto de ley que busca derogar por completo la ley de rebaja de condenas , con el objetivo de eliminar este beneficio carcelario en medio del debate generado por la reincidencia de internos beneficiados y los cuestionamientos dirigidos al ministro de Justicia, Fernando Rabat . La determinación se adoptó tras una sesión de comité político de tres horas en el Palacio de La Moneda , encabezada por el Presidente José Antonio Kast tras su retorno de Europa . En la instancia, el Ejecutivo definió endurecer su postura legislativa y patrocinar una moción parlamentaria para poner fin a la normativa que data de más de dos décadas . Al ser consultado sobre la preocupación ciudadana frente a reclusos beneficiados que han vuelto a delinquir -particularmente en ilícitos vinculados al narcotráfico- , el subsecretario y vocero de Gobierno , Gonzalo Arenas , sostuvo que \"las personas que se han acogido al beneficio de rebaja de condenas vienen desde el 2003, no fue este gobierno el que ha dejado libre a personas \". \"Son miles y miles de casos que han sido beneficiados con esta ley de rebaja de condenas, por lo tanto, también hay muchos casos -no los conozco ahora todos- que tienen que haber tenido reincidencias , porque era un tema que no tenía exclusiones solamente en temas sexuales . Por eso hemos dicho que aquí el problema del sistema es integral\", arremetió la autoridad. La medida fue confirmada por el vocero subrogante Gonzalo Arenas tras el comité político encabezado por el Mandatario en La Moneda. (FOTO: ATON) En esta línea, precisó que, \"a pesar de que la oposición no quiso ayudar al gobierno a tramitar la ley de 'Nunca Más', el gobierno ha patrocinado un proyecto de ley que presentaron los senadores (Arturo) Longton y (Arturo) Squella para eliminar completamente esa ley de rebaja de condenas (por comportamiento sobresaliente) , para que no solamente en casos de delitos sexuales se excluya ese beneficio , sino que en todo caso \". \" Con eso se va a solucionar un problema por el cual llevamos más de 20 años , que no empezó en este gobierno y que , por supuesto , queremos que termine en este gobierno \", enfatizó Arenas. Frente a los riesgos que enfrentan los ciudadanos ante la salida anticipada de condenados que vuelven a reincidir, Arenas enfatizó que \"por supuesto que no pueden estar tranquilos mientras esta ley siga vigente \". La administración del Presidente José Antonio Kast anunció que aplicará máxima urgencia legislativa para suprimir por completo la normativa penitenciaria vigente desde 2003. (FOTO: ATON) \"Son miles las personas que han sido beneficiadas con esta ley y por eso es que la vamos simplemente a derogar. Ni siquiera vamos a tratar de dar una interpretación más adecuada , vamos a cortar el problema de raíz y esa ley del 2003 va a quedar absolutamente derogada y , por lo tanto , nadie más va a poder acceder a estos beneficios de rebaja de penas . En eso esperamos que el Congreso nos ayude\", puntualizó el vocero, que también confirmó que \" le vamos a poner discusión inmediata \" a la propuesta legislativa. Respaldo a Rabat y descarte de ajuste ministerial El anuncio estuvo acompañado por un respaldo hacia el gabinete de ministros, disipando las exigencias de parlamentarios y jefes comunales oficialistas respecto a eventuales ajustes en el equipo de gobierno . Sobre este escenario, el portavoz de La Moneda cerró la puerta a cualquier modificación en el gabinete: \"Como lo dijo muy claramente el Presidente en su viaje a Europa, y yo también lo recalqué en la última vocería, no hay cambios de gabinete actualmente en nuestro gobierno \", puntualizó. El Ejecutivo respaldó la gestión del ministro de Justicia, Fernando Rabat, y descartó un ajuste ministerial. (FOTO: ATON) En esta línea, aseguró que \" todos los ministros cuentan con el respaldo del Presidente de la República , están todos abocados principalmente a sacar adelante la Ley de Presupuesto y los desafíos económicos y sociales\". \"Por lo tanto, reafirmamos lo que hemos venido diciendo toda la semana: no hay cambio de gabinete , todos los ministros cuentan con la confianza del Presidente de la República \", cerró Arenas.",
+          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gobierno-pondra-discusion-inmediata-a-proyecto-para-derogar-de-raiz-la/2026-11-06/175825.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106175825.png",
+          "published_raw": "Fri, 06 Nov 2026 17:58:25 -0300",
+          "published_at": "2026-11-06T17:58:25-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 12,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-006"
+        }
+      ]
+    },
+    {
       "position": 5,
       "cluster_id": "PML-EVENT-004",
       "title": "Kast vuelve a una Moneda convulsionada por la crisis",
@@ -369,12 +369,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 60.8,
+        "score": 56.3,
         "level": "MEDIA",
-        "editorial_utility": 53.8
+        "editorial_utility": 47.3
       },
       "selection": {
-        "reason": "PML 60.8; diversidad relajada para completar el brief",
+        "reason": "PML 56.3; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -438,7 +438,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-012",
+        "cluster_id": "PML-EVENT-011",
         "title": "Félix de Vicente retiró candidatura a la CPC tras polémicos dichos por rebajas de condena a pedófilos",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -449,11 +449,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 52,
-          "level": "MEDIA",
+          "score": 48,
+          "level": "BAJA",
           "components": {
             "political_impact": 50,
-            "freshness": 88,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -493,7 +493,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-012"
+            "cluster_id": "PML-EVENT-011"
           }
         ],
         "article_count": 1,
@@ -504,7 +504,7 @@
             "Estado e instituciones",
             "Elecciones y opinión pública"
           ],
-          "chile_utility": 71
+          "chile_utility": 67
         },
         "repeated_in_general_top5": false
       },
@@ -521,11 +521,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 51.7,
+          "score": 47.2,
           "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 80,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 44
@@ -573,7 +573,7 @@
         "political_science_fit": {
           "bonus": 10,
           "labels": "Elecciones y opinión pública",
-          "chile_utility": 61.7
+          "chile_utility": 57.2
         },
         "repeated_in_general_top5": false
       },
@@ -590,11 +590,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 48.5,
+          "score": 46,
           "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 32
@@ -645,7 +645,7 @@
             "Estado e instituciones",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 66.5
+          "chile_utility": 64
         },
         "repeated_in_general_top5": false
       }
@@ -655,41 +655,37 @@
     {
       "topic": "Instituciones y gobierno",
       "event_count": 27,
-      "maximum_relevance": 66.3,
-      "leading_story": "Paraguay: detenido por la policía el destituido presidente Santiago Peña; juramentado Pedro Alliana"
+      "maximum_relevance": 66,
+      "leading_story": "¿Quién es Pedro Alliana, el nuevo presidente de Paraguay? ¿Qué medidas tomará ante la crisis por Ueno Bank?"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 4,
-      "maximum_relevance": 54.4,
+      "maximum_relevance": 48.9,
       "leading_story": "Ecuador: a juicio siete personas, entre ellas un exministro correísta, por el asesinato de Fernando Villavicencio"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 2,
-      "maximum_relevance": 47.8,
-      "leading_story": "Colombia: un periodista sufre un atentado tras denunciar amenazas; la protección le había sido retirada"
-    },
-    {
-      "topic": "Ideología y competencia política",
-      "event_count": 1,
-      "maximum_relevance": 36,
-      "leading_story": "Isabel Allende, premio Planeta 2026: “Cuidado con la extrema derecha y la extrema izquierda, el autoritarismo acentúa los problemas”"
+      "maximum_relevance": 45.6,
+      "leading_story": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
       "maximum_relevance": 35.9,
       "leading_story": "¿Qué hay detrás de la violencia contra los periodistas que las autoridades no pueden frenar?"
+    },
+    {
+      "topic": "Ideología y competencia política",
+      "event_count": 1,
+      "maximum_relevance": 32.3,
+      "leading_story": "Isabel Allende, premio Planeta 2026: “Cuidado con la extrema derecha y la extrema izquierda, el autoritarismo acentúa los problemas”"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-028", "PML-EVENT-004"],
-      "exited_top5": ["PML-EVENT-023", "PML-EVENT-024"],
-      "retained_top5": ["PML-EVENT-013", "PML-EVENT-006", "PML-EVENT-021"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
     "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
