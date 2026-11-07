@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-07",
-    "data_latest_timestamp": "2026-11-07T12:30:55-0300",
-    "data_age_hours": 2.1,
-    "generated_at": "2026-11-07T14:37:51-0300",
+    "data_latest_timestamp": "2026-11-07T18:21:48-0300",
+    "data_age_hours": 0.3,
+    "generated_at": "2026-11-07T18:37:36-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,130 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 35 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 35,
+    "ranked_events": 36,
     "topics": 1,
-    "geographies": 2,
+    "geographies": 3,
     "representative_sources": 3,
-    "average_top5_relevance": 60.9,
-    "maximum_relevance": 66
+    "average_top5_relevance": 58.7,
+    "maximum_relevance": 64.7
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-012",
-      "title": "Paraguay: detenido por la policía el destituido presidente Santiago Peña; juramentado Pedro Alliana",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261106-paraguay-santiago-pe%C3%B1a-pide-una-pr%C3%B3rroga-para-defenderse-del-juicio-pol%C3%ADtico",
-      "representative_source": "France 24",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Paraguay / América Latina / No identificado"
-      },
-      "relevance": {
-        "score": 62.5,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 66.5
-      },
-      "selection": {
-        "reason": "PML 62.5; multifuente",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 2,
-        "source_count": 2,
-        "sources": [
-          "France 24",
-          "EL PAÍS"
-        ]
-      },
-      "first_seen": "2026-11-06T09:08:03-0300",
-      "last_seen": "2026-11-06T20:56:54-0300",
-      "entities": [
-        "congreso",
-        "senado"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "La Fiscalía emitió una orden de detención por el delito de lesión de confianza, luego de que la Cámara Alta del Congreso aprobara la destitución del mandatario paraguayo por \"mal desempeño de funciones\" tras un juicio político en ausencia, pues Peña no se presentó para su defensa.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Paraguay / América Latina / No identificado.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Paraguay: detenido por la policía el destituido presidente Santiago Peña; juramentado Pedro Alliana",
-          "description": "La Fiscalía emitió una orden de detención por el delito de lesión de confianza, luego de que la Cámara Alta del Congreso aprobara la destitución del mandatario paraguayo por \"mal desempeño de funciones\" tras un juicio político en ausencia, pues Peña no se presentó para su defensa. La orden fue ejecutada por la Policía Nacional, que aseguró que el exmandatario había sido \"oficialmente detenido\" dentro de su domicilio, mientras en el Congreso se juramentaba el vicepresidente Pedro Alliana para completar el periodo hasta 2028.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261106-paraguay-santiago-pe%C3%B1a-pide-una-pr%C3%B3rroga-para-defenderse-del-juicio-pol%C3%ADtico",
-          "image_url": "https://s.france24.com/media/display/afb7fd06-da3f-11f1-991d-1beafce15fea/w:1024/p:16x9/2026-11-06T232219Z-1388200167-RC2MIOAIIPF1-RTRMADP-3-PARAGUAY-POLITICS.jpg",
-          "published_raw": "Fri, 06 Nov 2026 12:08:03 GMT",
-          "published_at": "2026-11-06T09:08:03-0300",
-          "country": "Paraguay",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 3,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El presidente de Paraguay, Santiago Peña, destituido y detenido por presunta corrupción",
-          "description": "El Senado aprueba con los votos de todos los legisladores del oficialismo la muerte política del mandatario, alcanzado por un escándalo financiero. El vicepresidente Pedro Alliana es juramentado como nuevo jefe de Estado",
-          "url": "https://elpais.com/america/2026-11-06/santiago-pena-destituido-por-el-congreso-como-presidente-de-paraguay.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/JIBMPDMXQ5J4HCLSR36EAH3YBE.jpg?auth=265edb499e564606469dc0fd957c12974e70268f30c0a098068d6e3910043c3b",
-          "published_raw": "Fri, 06 Nov 2026 23:56:54 GMT",
-          "published_at": "2026-11-06T20:56:54-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-027",
+      "cluster_id": "PML-EVENT-030",
       "title": "¿Quién es Pedro Alliana, el nuevo presidente de Paraguay? ¿Qué medidas tomará ante la crisis por Ueno Bank?",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261107-qui%C3%A9n-es-pedro-alliana-el-nuevo-presidente-de-paraguay-qu%C3%A9-medidas-tomar%C3%A1-ante-la-crisis-por-ueno-bank",
       "representative_source": "France 24",
@@ -150,12 +43,12 @@
         "country": "Paraguay / América Latina"
       },
       "relevance": {
-        "score": 66,
+        "score": 64.7,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 64
+        "editorial_utility": 64.7
       },
       "selection": {
-        "reason": "PML 66; nuevo tipo de evento",
+        "reason": "PML 64.7",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -206,13 +99,86 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-030"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-028",
+      "title": "El presidente de Israel encarga formar Gobierno al líder opositor Gadi Eisenkot",
+      "url": "https://elpais.com/internacional/2026-11-07/el-presidente-de-israel-encarga-formar-gobierno-al-lider-opositor-gadi-eisenkot.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Internacional",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 59.4,
+        "level": "MEDIA",
+        "editorial_utility": 62.4
+      },
+      "selection": {
+        "reason": "PML 59.4; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-07T18:21:48-0300",
+      "last_seen": "2026-11-07T18:21:48-0300",
+      "entities": "israel",
+      "event_terms": [],
+      "analysis": {
+        "summary": "“Ha llegado el momento de formar un Ejecutivo de emergencia nacional”, asegura el exjefe del Estado Mayor, que obtuvo 67 de los 120 apoyos posibles, incluidos los de las dos listas árabes",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El presidente de Israel encarga formar Gobierno al líder opositor Gadi Eisenkot",
+          "description": "“Ha llegado el momento de formar un Ejecutivo de emergencia nacional”, asegura el exjefe del Estado Mayor, que obtuvo 67 de los 120 apoyos posibles, incluidos los de las dos listas árabes",
+          "url": "https://elpais.com/internacional/2026-11-07/el-presidente-de-israel-encarga-formar-gobierno-al-lider-opositor-gadi-eisenkot.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/3TVL2X7YQJLLHLUPFYTRN7FNBA.jpg?auth=5ac20d5524b7a75e2fa18fcd1ee75e6b4840c2eb73674ea5008fa0b5260491e2",
+          "published_raw": "Sat, 07 Nov 2026 21:21:48 GMT",
+          "published_at": "2026-11-07T18:21:48-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-028"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-028",
+      "cluster_id": "PML-EVENT-031",
       "title": "Asesinados en Guatemala un diputado y tres oficiales en un ataque armado",
       "url": "https://elpais.com/america/2026-11-07/asesinado-en-guatemala-un-diputado-y-tres-oficiales-en-un-ataque-armado.html",
       "representative_source": "EL PAÍS",
@@ -223,12 +189,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 61.7,
+        "score": 59.7,
         "level": "MEDIA",
-        "editorial_utility": 57.7
+        "editorial_utility": 55.7
       },
       "selection": {
-        "reason": "PML 61.7; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 59.7; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -279,7 +245,7 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
+          "cluster_id": "PML-EVENT-031"
         }
       ]
     },
@@ -296,12 +262,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 58.2,
+        "score": 55.7,
         "level": "MEDIA",
-        "editorial_utility": 52.2
+        "editorial_utility": 49.7
       },
       "selection": {
-        "reason": "PML 58.2; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 55.7; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -369,12 +335,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 56.3,
+        "score": 53.8,
         "level": "MEDIA",
-        "editorial_utility": 47.3
+        "editorial_utility": 44.8
       },
       "selection": {
-        "reason": "PML 56.3; diversidad relajada para completar el brief",
+        "reason": "PML 53.8; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -449,11 +415,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 48,
+          "score": 45.5,
           "level": "BAJA",
           "components": {
             "political_impact": 50,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -504,31 +470,31 @@
             "Estado e instituciones",
             "Elecciones y opinión pública"
           ],
-          "chile_utility": 67
+          "chile_utility": 64.5
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-029",
-        "title": "Rojo Edwards: A este tranco, ni con Bernardo O'Higgins de candidato ganamos la próxima elección",
-        "topic": "Elecciones y opinión pública",
+        "cluster_id": "PML-EVENT-003",
+        "title": "Analista: En Chile Vamos crece una \"decepción enorme\" con Kast",
+        "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/rojo-edwards-a-este-tranco-ni-con-bernardo-o-higgins-de-candidato/2026-11-06/090833.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/analista-en-chile-vamos-crece-una-decepcion-enorme-con-kast/2026-11-06/101344.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 47.2,
+          "score": 46.8,
           "level": "BAJA",
           "components": {
-            "political_impact": 51,
-            "freshness": 62,
+            "political_impact": 53,
+            "freshness": 52,
             "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 44
+            "geographic_scope": 55,
+            "continuity": 36
           }
         },
         "coverage": {
@@ -536,68 +502,68 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-06T09:08:33-0300",
-        "last_seen": "2026-11-06T09:08:33-0300",
+        "first_seen": "2026-11-06T10:13:44-0300",
+        "last_seen": "2026-11-06T10:13:44-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Rojo Edwards: A este tranco, ni con Bernardo O'Higgins de candidato ganamos la próxima elección",
-            "description": "",
-            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/rojo-edwards-a-este-tranco-ni-con-bernardo-o-higgins-de-candidato/2026-11-06/090833.html",
-            "image_url": "",
-            "published_raw": "Fri, 06 Nov 2026 09:08:33 -0300",
-            "published_at": "2026-11-06T09:08:33-0300",
+            "title": "Analista: En Chile Vamos crece una \"decepción enorme\" con Kast",
+            "description": "El analista político y director ejecutivo de Qualiz, Carlos Correa , advirtió que el creciente distanciamiento entre Chile Vamos y el Gobierno , en medio de la crisis por el caso Rabat, podría dejar al Presidente José Antonio Kast ante un Congreso hostil y dificultar su gestión . En conversación con El Diario de Cooperativa , Correa analizó los resultados del estudio Brecha Pública , elaborado por la Universidad Central y Qualiz, que compara las percepciones de la ciudadanía con las de un panel político integrado por parlamentarios, exautoridades y asesores de distintos sectores. El analista sostuvo que el caso Rabat ha repercutido en ambos grupos. Entre los integrantes del panel político, señaló, se instaló la percepción de que \"no hay capacidad para gobernar\" . Según Correa, entre los formadores de opinión existe la impresión de que \"el presidente y su equipo no son capaces de manejar una crisis como la del caso Rabat\" . A su juicio, las respuestas improvisadas del Ejecutivo han generado \"una sensación de desgobierno\" . Recordó que, en las primeras mediciones, el panel político evaluaba mejor al Gobierno que la ciudadanía. Sin embargo, advirtió que ese respaldo se ha deteriorado incluso entre sectores afines al oficialismo. \"Dentro de Chile Vamos, de las autoridades de Chile Vamos y de los votantes de Chile Vamos y de los grupos de opinión, se está instalando una decepción enorme del gobierno de Kast \", sostuvo. El riesgo de un quiebre con Chile Vamos Correa planteó que un eventual apoyo de parlamentarios de Chile Vamos a la acusación constitucional contra Rabat podría provocar un quiebre en el oficialismo. Por el peso parlamentario del bloque, advirtió que \"si el presidente se desentiende de Chile Vamos, tiene un Congreso bien hostil y así no se puede gobernar\" . El analista explicó que el malestar se remonta a la conformación del gabinete, debido a la escasa participación de Chile Vamos. \"En Chile Vamos después del gabinete todos quedaron con mucha hambre\" , afirmó, aunque precisó que ese descontento no se traducía inicialmente en una desaprobación al Ejecutivo. \"A la oposición no le conviene que se vote junto con el presupuesto\" El analista también abordó la demora de la oposición en presentar la acusación constitucional contra Rabat y el posible efecto de los tiempos legislativos en su tramitación. \"A la oposición no le conviene que se vote junto con el presupuesto y por la misma razón al gobierno sí le conviene\" , sostuvo. Según explicó, si la acusación se ingresa durante los próximos días , su votación podría coincidir con la etapa final de la discusión del Presupuesto 2027 , cuando el Ejecutivo negocia con parlamentarios cuyos votos pueden resultar decisivos. A su juicio, esa coincidencia podría favorecer al Gobierno en la búsqueda de apoyos para rechazar la acusación, debido a las negociaciones presupuestarias con los llamados diputados \"bisagra\" . Correa planteó que este escenario ayudaría a explicar tanto la demora de la oposición como la insistencia del Presidente Kast en que se presente la acusación . La economía sigue siendo el principal factor de desaprobación Más allá del caso Rabat, Correa señaló que la situación económica sigue siendo el principal factor de desaprobación del Gobierno , una tendencia que ya se manifestaba antes de la crisis del ministro de Justicia. Según detalló, solo un 2,8% de los ciudadanos consultados considera que la economía está creciendo , mientras que un 52,7% cree que se encuentra en contracción o recesión y un 43% la percibe estancada .",
+            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/analista-en-chile-vamos-crece-una-decepcion-enorme-con-kast/2026-11-06/101344.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106101344.jpg",
+            "published_raw": "Fri, 06 Nov 2026 10:13:44 -0300",
+            "published_at": "2026-11-06T10:13:44-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 0,
+            "score_institutional": 7,
             "score_elections": 2,
             "score_international": 0,
             "score_conflict": 0,
-            "score_policy": 0,
+            "score_policy": 1,
             "score_ideology": 0,
-            "score_actor": 1,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 3,
-            "primary_topic": "Elecciones y opinión pública",
-            "secondary_topic": null,
+            "political_evidence": 15,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
-            "filter_confidence": "medium",
-            "cluster_id": "PML-EVENT-029"
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-003"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 10,
-          "labels": "Elecciones y opinión pública",
-          "chile_utility": 57.2
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 55.8
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Presupuesto 2027 pasó a la Cámara con Educación y Ciencia rechazados",
+        "cluster_id": "PML-EVENT-006",
+        "title": "Gobierno pondrá discusión inmediata a proyecto para derogar \"de raíz\" la ley de rebajas de condena",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-paso-a-la-camara-con-educacion-y-ciencia-rechazados/2026-11-06/071724.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gobierno-pondra-discusion-inmediata-a-proyecto-para-derogar-de-raiz-la/2026-11-06/175825.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 46,
-          "level": "BAJA",
+          "score": 55.7,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 51,
+            "political_impact": 84,
             "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 32
+            "continuity": 30
           }
         },
         "coverage": {
@@ -605,62 +571,62 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-06T07:17:24-0300",
-        "last_seen": "2026-11-06T07:17:24-0300",
+        "first_seen": "2026-11-06T17:58:25-0300",
+        "last_seen": "2026-11-06T17:58:25-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Presupuesto 2027 pasó a la Cámara con Educación y Ciencia rechazados",
-            "description": "La Comisión Especial Mixta de Presupuestos despachó a la Cámara de Diputadas y Diputados el proyecto de Presupuesto 2027 , tras concluir cerca de la 01:30 de este viernes la votación de sus 33 partidas y del articulado. La instancia aprobó la mayor parte de los recursos propuestos por el Ejecutivo, pero rechazó las partidas de los ministerios de Educación y Ciencia , además de asignaciones de distintos servicios y programas, que deberán discutirse nuevamente en las siguientes etapas de la tramitación. Según informó el Senado, entre los acuerdos destacan el financiamiento para los gobiernos regionales y una suplementación de recursos para garantizar la continuidad de las prestaciones de la Ley Ricarte Soto , cuyo financiamiento había generado cuestionamientos de parlamentarios por los recortes propuestos . El proyecto será revisado la próxima semana por la Sala de la Cámara y posteriormente por el Senado, con el 30 de noviembre como plazo máximo para concluir su tramitación. Educación concentra los cuestionamientos Uno de los principales reveses para el Ejecutivo fue el rechazo del presupuesto de Educación, que contempla 17,3 billones de pesos para el próximo año. La partida fue desestimada por 11 votos en contra, dos a favor y 11 abstenciones , estas últimas mayoritariamente de parlamentarios oficialistas. Los cuestionamientos apuntaron a los recortes en aportes a la educación superior, becas y el programa de Becas de Acceso TIC, asociado a la entrega de computadores a estudiantes vulnerables. También hubo reparos a los recursos para los Servicios Locales de Educación Pública (SLEP), la educación parvularia, la Junji y los programas de alimentación y salud escolar de Junaeb . Aunque se aprobaron los fondos del Ministerio del Interior, la comisión rechazó los recursos del Servicio Nacional de Prevención y Respuesta ante Desastres (Senapred) . Lo mismo ocurrió con el capítulo de la Subsecretaría del Patrimonio Cultural. Gobierno buscará reponer fondos en Educación y Salud Tras la sesión, el ministro de Hacienda, Jorge Quiroz , valoró el avance del proyecto y defendió las prioridades del Ejecutivo, que al inicio de la discusión se había declarado dispuesto a perfeccionar la propuesta, manteniendo la restricción fiscal . \"Este es un presupuesto de ajuste moderado, crecimiento moderado al gasto, que se atreve a poner ciertos énfasis\", afirmó el secretario de Estado, según recogió La Tercera . En esa línea, destacó los recursos para seguridad, niñez, reactivación económica, empleo y obras públicas. Respecto de los rechazos, anunció que \"vamos a reponer ciertas partidas, desde luego, especialmente en Educación y en Salud\" , aunque dejó abierta la posibilidad de no insistir en otras asignaciones. \"Eso lo vamos a ver la semana que viene, pero es un proceso que va avanzando bien\", agregó. Recursos sociales y cierre de Prodemu marcan el debate La comisión aprobó por mayoría el presupuesto del Ministerio de Desarrollo Social , pero rechazó la asignación para Adultos con Discapacidad en Residencias, como señal de oposición a la eliminación de la referencia expresa al financiamiento de Coanil . Según explicó el Senado, aunque la propuesta mantiene recursos generales para estas residencias, el cambio generó inquietud por la continuidad del apoyo específico a la corporación y de la atención a personas que requieren cuidados permanentes. En el Ministerio de la Mujer y la Equidad de Género , los fondos fueron respaldados tras un debate sobre el cierre de la fundación Prodemu, una medida frente a la cual exautoridades y parlamentarias han buscado alternativas para mantener la institución . \"El cierre de Prodemu es gravísimo. Es una institución que está representada en los lugares más alejados del país\", sostuvo la senadora Beatriz Sánchez , quien destacó su trabajo de capacitación y liderazgo de mujeres en sectores rurales. Tesoro Público se aprueba entre reparos por la deuda La partida del Tesoro Público fue aprobada con 12 votos a favor y seis abstenciones , en una discusión marcada por el endeudamiento y las proyecciones de ingresos fiscales. El Ejecutivo solicita para 2027 una autorización de endeudamiento de hasta 25 mil millones de dólares , mientras que el articulado contempla un margen adicional de 600 millones de dólares para compromisos específicos de amortizaciones e intereses. Durante el debate surgió la propuesta de postergar la entrada en vigencia de la rebaja del impuesto de primera categoría para las empresas contemplada en la ley de reconstrucción, en medio de las diferencias sobre su impacto en la recaudación.",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-paso-a-la-camara-con-educacion-y-ciencia-rechazados/2026-11-06/071724.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106071724.jpg",
-            "published_raw": "Fri, 06 Nov 2026 07:17:24 -0300",
-            "published_at": "2026-11-06T07:17:24-0300",
+            "title": "Gobierno pondrá discusión inmediata a proyecto para derogar \"de raíz\" la ley de rebajas de condena",
+            "description": "El Gobierno confirmó este viernes que otorgará discusión inmediata al proyecto de ley que busca derogar por completo la ley de rebaja de condenas , con el objetivo de eliminar este beneficio carcelario en medio del debate generado por la reincidencia de internos beneficiados y los cuestionamientos dirigidos al ministro de Justicia, Fernando Rabat . La determinación se adoptó tras una sesión de comité político de tres horas en el Palacio de La Moneda , encabezada por el Presidente José Antonio Kast tras su retorno de Europa . En la instancia, el Ejecutivo definió endurecer su postura legislativa y patrocinar una moción parlamentaria para poner fin a la normativa que data de más de dos décadas . Al ser consultado sobre la preocupación ciudadana frente a reclusos beneficiados que han vuelto a delinquir -particularmente en ilícitos vinculados al narcotráfico- , el subsecretario y vocero de Gobierno , Gonzalo Arenas , sostuvo que \"las personas que se han acogido al beneficio de rebaja de condenas vienen desde el 2003, no fue este gobierno el que ha dejado libre a personas \". \"Son miles y miles de casos que han sido beneficiados con esta ley de rebaja de condenas, por lo tanto, también hay muchos casos -no los conozco ahora todos- que tienen que haber tenido reincidencias , porque era un tema que no tenía exclusiones solamente en temas sexuales . Por eso hemos dicho que aquí el problema del sistema es integral\", arremetió la autoridad. La medida fue confirmada por el vocero subrogante Gonzalo Arenas tras el comité político encabezado por el Mandatario en La Moneda. (FOTO: ATON) En esta línea, precisó que, \"a pesar de que la oposición no quiso ayudar al gobierno a tramitar la ley de 'Nunca Más', el gobierno ha patrocinado un proyecto de ley que presentaron los senadores (Arturo) Longton y (Arturo) Squella para eliminar completamente esa ley de rebaja de condenas (por comportamiento sobresaliente) , para que no solamente en casos de delitos sexuales se excluya ese beneficio , sino que en todo caso \". \" Con eso se va a solucionar un problema por el cual llevamos más de 20 años , que no empezó en este gobierno y que , por supuesto , queremos que termine en este gobierno \", enfatizó Arenas. Frente a los riesgos que enfrentan los ciudadanos ante la salida anticipada de condenados que vuelven a reincidir, Arenas enfatizó que \"por supuesto que no pueden estar tranquilos mientras esta ley siga vigente \". La administración del Presidente José Antonio Kast anunció que aplicará máxima urgencia legislativa para suprimir por completo la normativa penitenciaria vigente desde 2003. (FOTO: ATON) \"Son miles las personas que han sido beneficiadas con esta ley y por eso es que la vamos simplemente a derogar. Ni siquiera vamos a tratar de dar una interpretación más adecuada , vamos a cortar el problema de raíz y esa ley del 2003 va a quedar absolutamente derogada y , por lo tanto , nadie más va a poder acceder a estos beneficios de rebaja de penas . En eso esperamos que el Congreso nos ayude\", puntualizó el vocero, que también confirmó que \" le vamos a poner discusión inmediata \" a la propuesta legislativa. Respaldo a Rabat y descarte de ajuste ministerial El anuncio estuvo acompañado por un respaldo hacia el gabinete de ministros, disipando las exigencias de parlamentarios y jefes comunales oficialistas respecto a eventuales ajustes en el equipo de gobierno . Sobre este escenario, el portavoz de La Moneda cerró la puerta a cualquier modificación en el gabinete: \"Como lo dijo muy claramente el Presidente en su viaje a Europa, y yo también lo recalqué en la última vocería, no hay cambios de gabinete actualmente en nuestro gobierno \", puntualizó. El Ejecutivo respaldó la gestión del ministro de Justicia, Fernando Rabat, y descartó un ajuste ministerial. (FOTO: ATON) En esta línea, aseguró que \" todos los ministros cuentan con el respaldo del Presidente de la República , están todos abocados principalmente a sacar adelante la Ley de Presupuesto y los desafíos económicos y sociales\". \"Por lo tanto, reafirmamos lo que hemos venido diciendo toda la semana: no hay cambio de gabinete , todos los ministros cuentan con la confianza del Presidente de la República \", cerró Arenas.",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gobierno-pondra-discusion-inmediata-a-proyecto-para-derogar-de-raiz-la/2026-11-06/175825.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106175825.png",
+            "published_raw": "Fri, 06 Nov 2026 17:58:25 -0300",
+            "published_at": "2026-11-06T17:58:25-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 7,
-            "score_elections": 1,
+            "score_institutional": 6,
+            "score_elections": 0,
             "score_international": 0,
             "score_conflict": 1,
-            "score_policy": 4,
+            "score_policy": 1,
             "score_ideology": 0,
             "score_actor": 4,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 17,
+            "political_evidence": 12,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
+            "cluster_id": "PML-EVENT-006"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 18,
+          "bonus": 22,
           "labels": [
             "Estado e instituciones",
-            "Economía y políticas públicas"
+            "Congreso y proceso legislativo"
           ],
-          "chile_utility": 64
+          "chile_utility": 67.7
         },
-        "repeated_in_general_top5": false
+        "repeated_in_general_top5": true
       }
     ]
   },
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 27,
-      "maximum_relevance": 66,
+      "event_count": 29,
+      "maximum_relevance": 64.7,
       "leading_story": "¿Quién es Pedro Alliana, el nuevo presidente de Paraguay? ¿Qué medidas tomará ante la crisis por Ueno Bank?"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 4,
+      "event_count": 3,
       "maximum_relevance": 48.9,
       "leading_story": "Ecuador: a juicio siete personas, entre ellas un exministro correísta, por el asesinato de Fernando Villavicencio"
     },
