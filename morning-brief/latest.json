@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-07",
-    "data_latest_timestamp": "2026-11-07T18:21:48-0300",
-    "data_age_hours": 0.3,
-    "generated_at": "2026-11-07T18:37:36-0300",
+    "date": "2026-11-08",
+    "data_latest_timestamp": "2026-11-08T01:30:01-0300",
+    "data_age_hours": 0.8,
+    "generated_at": "2026-11-08T02:15:27-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,96 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 36 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 37 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Conflictos y seguridad.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 36,
-    "topics": 1,
-    "geographies": 3,
+    "ranked_events": 37,
+    "topics": 2,
+    "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 58.7,
-    "maximum_relevance": 64.7
+    "average_top5_relevance": 57.5,
+    "maximum_relevance": 64.6
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-030",
+      "cluster_id": "PML-EVENT-018",
+      "title": "Al menos tres militares muertos y 16 heridos graves en un ataque con drones",
+      "url": "https://elpais.com/america-colombia/2026-11-07/al-menos-tres-militares-muertos-y-16-heridos-graves-en-un-ataque-con-drones.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Conflictos y seguridad",
+      "event_type": "CONFLICT_ESCALATION",
+      "geography": {
+        "group": "América Latina",
+        "country": "Colombia / América Latina"
+      },
+      "relevance": {
+        "score": 64.6,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 64.6
+      },
+      "selection": {
+        "reason": "PML 64.6",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-07T19:39:53-0300",
+      "last_seen": "2026-11-07T19:39:53-0300",
+      "entities": [],
+      "event_terms": "ataque",
+      "analysis": {
+        "summary": "De la Espriella condenó “el cobarde ataque terrorista” y ordenó “capturar a los responsables”. Ocho horas después, dos medios de comunicación tomaron medidas de seguridad por “riesgo de atentado”",
+        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Colombia / América Latina.",
+        "watch_next": [
+          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
+          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Al menos tres militares muertos y 16 heridos graves en un ataque con drones",
+          "description": "De la Espriella condenó “el cobarde ataque terrorista” y ordenó “capturar a los responsables”. Ocho horas después, dos medios de comunicación tomaron medidas de seguridad por “riesgo de atentado”",
+          "url": "https://elpais.com/america-colombia/2026-11-07/al-menos-tres-militares-muertos-y-16-heridos-graves-en-un-ataque-con-drones.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/JSONNDQQ25E7JBFSPBSCY2AIIY.jpg?auth=8edbfe33b2c3a31344fb8dc81c86284d8012135fb3c4988ff385976e30102d43",
+          "published_raw": "Sat, 07 Nov 2026 22:39:53 GMT",
+          "published_at": "2026-11-07T19:39:53-0300",
+          "country": "Colombia",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 4,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-018"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-031",
       "title": "¿Quién es Pedro Alliana, el nuevo presidente de Paraguay? ¿Qué medidas tomará ante la crisis por Ueno Bank?",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261107-qui%C3%A9n-es-pedro-alliana-el-nuevo-presidente-de-paraguay-qu%C3%A9-medidas-tomar%C3%A1-ante-la-crisis-por-ueno-bank",
       "representative_source": "France 24",
@@ -43,12 +116,12 @@
         "country": "Paraguay / América Latina"
       },
       "relevance": {
-        "score": 64.7,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 64.7
+        "score": 61,
+        "level": "MEDIA",
+        "editorial_utility": 68
       },
       "selection": {
-        "reason": "PML 64.7",
+        "reason": "PML 61; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -99,158 +172,12 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-030"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-028",
-      "title": "El presidente de Israel encarga formar Gobierno al líder opositor Gadi Eisenkot",
-      "url": "https://elpais.com/internacional/2026-11-07/el-presidente-de-israel-encarga-formar-gobierno-al-lider-opositor-gadi-eisenkot.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Internacional",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 59.4,
-        "level": "MEDIA",
-        "editorial_utility": 62.4
-      },
-      "selection": {
-        "reason": "PML 59.4; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-07T18:21:48-0300",
-      "last_seen": "2026-11-07T18:21:48-0300",
-      "entities": "israel",
-      "event_terms": [],
-      "analysis": {
-        "summary": "“Ha llegado el momento de formar un Ejecutivo de emergencia nacional”, asegura el exjefe del Estado Mayor, que obtuvo 67 de los 120 apoyos posibles, incluidos los de las dos listas árabes",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El presidente de Israel encarga formar Gobierno al líder opositor Gadi Eisenkot",
-          "description": "“Ha llegado el momento de formar un Ejecutivo de emergencia nacional”, asegura el exjefe del Estado Mayor, que obtuvo 67 de los 120 apoyos posibles, incluidos los de las dos listas árabes",
-          "url": "https://elpais.com/internacional/2026-11-07/el-presidente-de-israel-encarga-formar-gobierno-al-lider-opositor-gadi-eisenkot.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/3TVL2X7YQJLLHLUPFYTRN7FNBA.jpg?auth=5ac20d5524b7a75e2fa18fcd1ee75e6b4840c2eb73674ea5008fa0b5260491e2",
-          "published_raw": "Sat, 07 Nov 2026 21:21:48 GMT",
-          "published_at": "2026-11-07T18:21:48-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-028"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-031",
-      "title": "Asesinados en Guatemala un diputado y tres oficiales en un ataque armado",
-      "url": "https://elpais.com/america/2026-11-07/asesinado-en-guatemala-un-diputado-y-tres-oficiales-en-un-ataque-armado.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "CONFLICT_ESCALATION",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / América Latina"
-      },
-      "relevance": {
-        "score": 59.7,
-        "level": "MEDIA",
-        "editorial_utility": 55.7
-      },
-      "selection": {
-        "reason": "PML 59.7; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-07T01:42:30-0300",
-      "last_seen": "2026-11-07T01:42:30-0300",
-      "entities": [],
-      "event_terms": "ataque",
-      "analysis": {
-        "summary": "Las víctimas del ataque son el diputado Julio Portillo, dos policías y uno de los guardaespaldas del legislador",
-        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
-        "watch_next": [
-          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
-          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Asesinados en Guatemala un diputado y tres oficiales en un ataque armado",
-          "description": "Las víctimas del ataque son el diputado Julio Portillo, dos policías y uno de los guardaespaldas del legislador",
-          "url": "https://elpais.com/america/2026-11-07/asesinado-en-guatemala-un-diputado-y-tres-oficiales-en-un-ataque-armado.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/7YDRCH3FXRIZHCVZXQTKNXJY6A.jpg?auth=eb069e4c8bb9a40ebafc526664f0c6a0129b0f8c56f692fe871ac5b7392ae3f8",
-          "published_raw": "Sat, 07 Nov 2026 04:42:30 GMT",
-          "published_at": "2026-11-07T01:42:30-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
           "cluster_id": "PML-EVENT-031"
         }
       ]
     },
     {
-      "position": 4,
+      "position": 3,
       "cluster_id": "PML-EVENT-006",
       "title": "Gobierno pondrá discusión inmediata a proyecto para derogar \"de raíz\" la ley de rebajas de condena",
       "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gobierno-pondra-discusion-inmediata-a-proyecto-para-derogar-de-raiz-la/2026-11-06/175825.html",
@@ -262,12 +189,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 55.7,
+        "score": 53.2,
         "level": "MEDIA",
-        "editorial_utility": 49.7
+        "editorial_utility": 56.2
       },
       "selection": {
-        "reason": "PML 55.7; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 53.2; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -323,6 +250,79 @@
       ]
     },
     {
+      "position": 4,
+      "cluster_id": "PML-EVENT-032",
+      "title": "Asesinados en Guatemala un diputado y tres oficiales en un ataque armado",
+      "url": "https://elpais.com/america/2026-11-07/asesinado-en-guatemala-un-diputado-y-tres-oficiales-en-un-ataque-armado.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "CONFLICT_ESCALATION",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / América Latina"
+      },
+      "relevance": {
+        "score": 57.7,
+        "level": "MEDIA",
+        "editorial_utility": 52.7
+      },
+      "selection": {
+        "reason": "PML 57.7; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-07T01:42:30-0300",
+      "last_seen": "2026-11-07T01:42:30-0300",
+      "entities": [],
+      "event_terms": "ataque",
+      "analysis": {
+        "summary": "Las víctimas del ataque son el diputado Julio Portillo, dos policías y uno de los guardaespaldas del legislador",
+        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "watch_next": [
+          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
+          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Asesinados en Guatemala un diputado y tres oficiales en un ataque armado",
+          "description": "Las víctimas del ataque son el diputado Julio Portillo, dos policías y uno de los guardaespaldas del legislador",
+          "url": "https://elpais.com/america/2026-11-07/asesinado-en-guatemala-un-diputado-y-tres-oficiales-en-un-ataque-armado.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/7YDRCH3FXRIZHCVZXQTKNXJY6A.jpg?auth=eb069e4c8bb9a40ebafc526664f0c6a0129b0f8c56f692fe871ac5b7392ae3f8",
+          "published_raw": "Sat, 07 Nov 2026 04:42:30 GMT",
+          "published_at": "2026-11-07T01:42:30-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-032"
+        }
+      ]
+    },
+    {
       "position": 5,
       "cluster_id": "PML-EVENT-004",
       "title": "Kast vuelve a una Moneda convulsionada por la crisis",
@@ -335,12 +335,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 53.8,
-        "level": "MEDIA",
-        "editorial_utility": 44.8
+        "score": 50.8,
+        "level": "BAJA",
+        "editorial_utility": 43.8
       },
       "selection": {
-        "reason": "PML 53.8; diversidad relajada para completar el brief",
+        "reason": "PML 50.8; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -399,152 +399,11 @@
   "chile_brief": {
     "country": "Chile",
     "title": "Chile | Política e instituciones",
-    "story_count": 3,
+    "story_count": 1,
     "selector_model": "PML Chile Political Science Selector v0.1",
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-011",
-        "title": "Félix de Vicente retiró candidatura a la CPC tras polémicos dichos por rebajas de condena a pedófilos",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/empresas/felix-de-vicente-retiro-candidatura-a-la-cpc-tras-polemicos-dichos-por/2026-11-06/145951.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 45.5,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 50,
-            "freshness": 62,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 30
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-06T14:59:51-0300",
-        "last_seen": "2026-11-06T14:59:51-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Félix de Vicente retiró candidatura a la CPC tras polémicos dichos por rebajas de condena a pedófilos",
-            "description": "El ingeniero comercial Félix de Vicente Mingo anunció este viernes el retiro de su postulación a la presidencia de la Confederación de la Producción y del Comercio (CPC) . La dimisión del representante del sector bancario se da tras sus controvertidas declaraciones en una entrevista a Radio 13C , en la que, al abordar el escándalo por las rebajas de condenas otorgadas a personas sentenciadas por delitos sexuales contra menores de edad , afirmó que se trataba de una disputa política y no formaba parte de las urgencias reales ni cotidianas de la población . Tras estos dichos, desde la propia banca señalaron que el exministro en el gobierno de Sebastián Piñrta puso sobre la mesa su renuncia como una alternativa obligada frente a la magnitud del impacto público de sus dichos. En tanto, a través de una declaración pública, el propio De Vicente confirmó su baja a la candidatura para liderar la CPC , la que realizó \" convicción de que el mundo empresarial debe acercarse a las preocupaciones de las personas y contribuir a recuperar el empleo , l a inversión y el crecimiento que Chile tanto necesita \". Mientras que, respecto a la bullada entrevista, indicó que sus declaraciones \" fueron sacadas de contexto y dieron pie a una interpretación que no corresponde a lo que quise decir \". El liderazgo gremial para suceder a Susana Jiménez se definirá entre Antonio Walker y Richard Von Appen (FOTO: ATON) \"Me refería a la acusación constitucional contra el ministro de Justicia (Fernando Rabat) , y no a los delitos de abuso sexual ni a una rebaja de las penas por esos delitos. Esos delitos son de extrema gravedad y marcan la vida de las víctimas . Frente a ellos no cabe la indiferencia \", puntualizó. \" Lamento sinceramente este malentendido , que me ha generado mucho dolor , y reitero mis disculpas a quienes se sintieron afectados u ofendidos \", añadió el otrora secretario de Estado. De Vicente dio cuenta que, \"después de una profunda reflexión, he decidido retirar mi postulación a la CPC. Las instituciones están por sobre las aspiraciones personales, y no quiero que esta polémica distraiga la atención de los grandes desafíos que enfrenta el país y el mundo empresarial \". Hacia el final de su misiva, el dirigente expresó su gratitud hacia los sectores productivos que respaldaron su opción, dando las gracias \"sinceramente a quienes me entregaron su confianza y apoyo durante estas semanas \". Tras esta declinación, la pugna para definir al sucesor de Susana Jiménez al mando de la multigremial empresarial queda acotada a dos cartas: el timonel de la Sociedad Nacional de Agricultura (SNA), Antonio Walker , y el expresidente de la Sociedad de Fomento Fabril (Sofofa), Richard Von Appen .",
-            "url": "https://www.cooperativa.cl/noticias/economia/empresas/felix-de-vicente-retiro-candidatura-a-la-cpc-tras-polemicos-dichos-por/2026-11-06/145951.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000320261106145951.png",
-            "published_raw": "Fri, 06 Nov 2026 14:59:51 -0300",
-            "published_at": "2026-11-06T14:59:51-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 3,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 1,
-            "score_ideology": 0,
-            "score_actor": 1,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 5,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-011"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 19,
-          "labels": [
-            "Estado e instituciones",
-            "Elecciones y opinión pública"
-          ],
-          "chile_utility": 64.5
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-003",
-        "title": "Analista: En Chile Vamos crece una \"decepción enorme\" con Kast",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/analista-en-chile-vamos-crece-una-decepcion-enorme-con-kast/2026-11-06/101344.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 46.8,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 53,
-            "freshness": 52,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 36
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-06T10:13:44-0300",
-        "last_seen": "2026-11-06T10:13:44-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Analista: En Chile Vamos crece una \"decepción enorme\" con Kast",
-            "description": "El analista político y director ejecutivo de Qualiz, Carlos Correa , advirtió que el creciente distanciamiento entre Chile Vamos y el Gobierno , en medio de la crisis por el caso Rabat, podría dejar al Presidente José Antonio Kast ante un Congreso hostil y dificultar su gestión . En conversación con El Diario de Cooperativa , Correa analizó los resultados del estudio Brecha Pública , elaborado por la Universidad Central y Qualiz, que compara las percepciones de la ciudadanía con las de un panel político integrado por parlamentarios, exautoridades y asesores de distintos sectores. El analista sostuvo que el caso Rabat ha repercutido en ambos grupos. Entre los integrantes del panel político, señaló, se instaló la percepción de que \"no hay capacidad para gobernar\" . Según Correa, entre los formadores de opinión existe la impresión de que \"el presidente y su equipo no son capaces de manejar una crisis como la del caso Rabat\" . A su juicio, las respuestas improvisadas del Ejecutivo han generado \"una sensación de desgobierno\" . Recordó que, en las primeras mediciones, el panel político evaluaba mejor al Gobierno que la ciudadanía. Sin embargo, advirtió que ese respaldo se ha deteriorado incluso entre sectores afines al oficialismo. \"Dentro de Chile Vamos, de las autoridades de Chile Vamos y de los votantes de Chile Vamos y de los grupos de opinión, se está instalando una decepción enorme del gobierno de Kast \", sostuvo. El riesgo de un quiebre con Chile Vamos Correa planteó que un eventual apoyo de parlamentarios de Chile Vamos a la acusación constitucional contra Rabat podría provocar un quiebre en el oficialismo. Por el peso parlamentario del bloque, advirtió que \"si el presidente se desentiende de Chile Vamos, tiene un Congreso bien hostil y así no se puede gobernar\" . El analista explicó que el malestar se remonta a la conformación del gabinete, debido a la escasa participación de Chile Vamos. \"En Chile Vamos después del gabinete todos quedaron con mucha hambre\" , afirmó, aunque precisó que ese descontento no se traducía inicialmente en una desaprobación al Ejecutivo. \"A la oposición no le conviene que se vote junto con el presupuesto\" El analista también abordó la demora de la oposición en presentar la acusación constitucional contra Rabat y el posible efecto de los tiempos legislativos en su tramitación. \"A la oposición no le conviene que se vote junto con el presupuesto y por la misma razón al gobierno sí le conviene\" , sostuvo. Según explicó, si la acusación se ingresa durante los próximos días , su votación podría coincidir con la etapa final de la discusión del Presupuesto 2027 , cuando el Ejecutivo negocia con parlamentarios cuyos votos pueden resultar decisivos. A su juicio, esa coincidencia podría favorecer al Gobierno en la búsqueda de apoyos para rechazar la acusación, debido a las negociaciones presupuestarias con los llamados diputados \"bisagra\" . Correa planteó que este escenario ayudaría a explicar tanto la demora de la oposición como la insistencia del Presidente Kast en que se presente la acusación . La economía sigue siendo el principal factor de desaprobación Más allá del caso Rabat, Correa señaló que la situación económica sigue siendo el principal factor de desaprobación del Gobierno , una tendencia que ya se manifestaba antes de la crisis del ministro de Justicia. Según detalló, solo un 2,8% de los ciudadanos consultados considera que la economía está creciendo , mientras que un 52,7% cree que se encuentra en contracción o recesión y un 43% la percibe estancada .",
-            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/analista-en-chile-vamos-crece-una-decepcion-enorme-con-kast/2026-11-06/101344.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261106/imag/foto_0000000220261106101344.jpg",
-            "published_raw": "Fri, 06 Nov 2026 10:13:44 -0300",
-            "published_at": "2026-11-06T10:13:44-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 7,
-            "score_elections": 2,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 1,
-            "score_ideology": 0,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 15,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 55.8
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
         "cluster_id": "PML-EVENT-006",
         "title": "Gobierno pondrá discusión inmediata a proyecto para derogar \"de raíz\" la ley de rebajas de condena",
         "topic": "Instituciones y gobierno",
@@ -556,11 +415,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.7,
+          "score": 53.2,
           "level": "MEDIA",
           "components": {
             "political_impact": 84,
-            "freshness": 62,
+            "freshness": 52,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -611,7 +470,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 67.7
+          "chile_utility": 65.2
         },
         "repeated_in_general_top5": true
       }
@@ -619,22 +478,22 @@
   },
   "topics": [
     {
+      "topic": "Conflictos y seguridad",
+      "event_count": 3,
+      "maximum_relevance": 64.6,
+      "leading_story": "Al menos tres militares muertos y 16 heridos graves en un ataque con drones"
+    },
+    {
       "topic": "Instituciones y gobierno",
       "event_count": 29,
-      "maximum_relevance": 64.7,
+      "maximum_relevance": 61,
       "leading_story": "¿Quién es Pedro Alliana, el nuevo presidente de Paraguay? ¿Qué medidas tomará ante la crisis por Ueno Bank?"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 3,
-      "maximum_relevance": 48.9,
+      "maximum_relevance": 45.2,
       "leading_story": "Ecuador: a juicio siete personas, entre ellas un exministro correísta, por el asesinato de Fernando Villavicencio"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 2,
-      "maximum_relevance": 45.6,
-      "leading_story": "Ecuador inicia su cuarto toque de queda del año para contener la violencia a semanas de las elecciones locales"
     },
     {
       "topic": "Relaciones internacionales",
@@ -650,11 +509,15 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-018", "PML-EVENT-032"],
+      "exited_top5": ["PML-EVENT-030", "PML-EVENT-028"],
+      "retained_top5": ["PML-EVENT-031", "PML-EVENT-006", "PML-EVENT-004"]
+    }
   },
   "sources": {
-    "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
+    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
     "source_count": 3
   },
   "system": {
