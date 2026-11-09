@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-09",
-    "data_latest_timestamp": "2026-11-09T06:30:00-0300",
-    "data_age_hours": 1.6,
-    "generated_at": "2026-11-09T08:06:43-0300",
+    "data_latest_timestamp": "2026-11-09T15:04:43-0300",
+    "data_age_hours": 4,
+    "generated_at": "2026-11-09T19:06:29-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,354 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 37 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 37 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
     "ranked_events": 37,
-    "topics": 1,
+    "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 56.8,
-    "maximum_relevance": 60.1
+    "average_top5_relevance": 63.2,
+    "maximum_relevance": 67
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-018",
+      "cluster_id": "PML-EVENT-004",
+      "title": "Ubilla cuestiona ataques a Chile Vamos y pide convivencia oficialista",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/chile-vamos/ubilla-cuestiona-ataques-a-chile-vamos-y-pide-convivencia-oficialista/2026-11-09/110443.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "CONFLICT_ESCALATION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 67,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 67
+      },
+      "selection": {
+        "reason": "PML 67",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-09T11:04:43-0300",
+      "last_seen": "2026-11-09T11:04:43-0300",
+      "entities": "chile",
+      "event_terms": [
+        "crisis",
+        "oposicion"
+      ],
+      "analysis": {
+        "summary": "El exsubsecretario del Interior Rodrigo Ubilla cuestionó las descalificaciones entre parlamentarios del oficialismo y advirtió que estas pueden tener un costo ante la ciudadanía, en medio del debate por la permanencia del ministro de Justicia , Fernando Rabat , y las solicitudes de ajustes políticos al Gobierno .",
+        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
+          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Ubilla cuestiona ataques a Chile Vamos y pide convivencia oficialista",
+          "description": "El exsubsecretario del Interior Rodrigo Ubilla cuestionó las descalificaciones entre parlamentarios del oficialismo y advirtió que estas pueden tener un costo ante la ciudadanía, en medio del debate por la permanencia del ministro de Justicia , Fernando Rabat , y las solicitudes de ajustes políticos al Gobierno . En El Primer Café de Cooperativa , el director del área Política y Sociedad Civil de Libertad y Desarrollo defendió que Chile Vamos aporte la experiencia de sus gobiernos anteriores para enfrentar la crisis y mejorar la gestión del Presidente José Antonio Kast. \"Aquellos parlamentarios que de alguna manera en el pasado inmediato han hecho descalificaciones sobre otros parlamentarios de la propia coalición, creo que al final la gente los va a castigar , porque todo el mundo entiende que tiene que haber una convivencia sobre los elementos comunes\", afirmó. Ubilla precisó que sus cuestionamientos no apuntan a las declaraciones de Andrea Balladares ni de Paulina Núñez , quienes han planteado la necesidad de ajustes en la conducción del Ejecutivo, sino a las descalificaciones dirigidas contra Chile Vamos. \"Son declaraciones que no ayudan a construir una convivencia básica\", sostuvo, y llamó a los partidos y parlamentarios oficialistas a generar las condiciones para sacar adelante la agenda social y económica. \"Recuperar la sintonía\" El exsubsecretario rechazó que las diferencias dentro del sector respondan a distintos grados de lealtad hacia el Mandatario. A su juicio, las propuestas de Chile Vamos buscan poner a disposición del Ejecutivo herramientas para mejorar su gestión. \"No es cómodo para un gobierno tener a los siete meses entre un 25 y un 30% de apoyo\", expresó. Sin embargo, aseguró que esa situación se puede revertir y que hacerlo \"significa volver a encontrar sintonía con la gente\". Respecto de la acusación constitucional que prepara la oposición contra Rabat , Ubilla distinguió que \"una cosa es que se diga que aquí se produjo un problema que tiene consecuencias, y otra cosa que ese problema, con esas consecuencias, amerite una acusación constitucional\". En ese sentido, sostuvo que la oposición debe reunir argumentos suficientes para convencer a parlamentarios fuera de sus filas, dado que, según indicó, sus votos no bastan para aprobarla en la Cámara. Ruz: El problema ya está en La Moneda Desde la oposición, el vicepresidente de la Democracia Cristiana y presidente del directorio de Democracia y Comunidad, Luis Ruz, afirmó que la permanencia de Rabat se transformó en una prueba de fuerza para Kast . \"El gobierno transformó una crisis ministerial en una crisis de autoridad presidencial\", sostuvo, al cuestionar la decisión de mantener al titular de Justicia pese al costo político de la controversia por las rebajas de penas a condenados por delitos sexuales contra menores. \"El Presidente Kast ha querido mostrar firmeza, pero la firmeza sin flexibilidad puede ser más bien rigidez, y lo rígido muchas veces se quiebra \", añadió. Ruz consideró que el conflicto dejó de estar radicado únicamente en el Ministerio de Justicia y pasó a instalarse en La Moneda. Además, advirtió que una eventual derrota de la acusación constitucional no eliminaría el costo asumido por el Ejecutivo . \"El Gobierno puede ganar la votación de esta acusación constitucional si finalmente se presenta, pero lo que no ha ganado y no va a ganar es la discusión de fondo\", afirmó. El dirigente DC también distinguió entre la \"lealtad del soldado\" y la \"lealtad del consejero\" , y valoró que Chile Vamos promueva una reflexión sobre la conducción del Gobierno. A su juicio, limitar ese debate puede terminar afectando la unidad del oficialismo. Pezoa defiende que las críticas se hagan en privado El presidente del directorio de Ideas Republicanas, Álvaro Pezoa, rechazó la interpretación de Ruz y defendió que el partido del Mandatario se mantenga alineado con él durante la crisis. \"Los comentarios que se tengan que hacer en una situación como esta se hacen en privado, no se hacen públicamente\", sostuvo. Pezoa señaló que sería extraño que desde el Partido Republicano surgieran críticas abiertas que derivaran en una polémica pública, y consideró esperable que la colectividad respalde al Presidente. También evaluó que los partidos que apoyan al Gobierno han actuado con prudencia e incluyó en esa valoración las entrevistas de Balladares y Núñez. \"Obviamente dan a entender que les gustaría ver algunas mejoras y yo creo que esas mejoras, parte de ellas, se requieren\", reconoció. En medio de la decisión de La Moneda de descartar un cambio de gabinete , Pezoa estimó que Kast mantendrá su respaldo a Rabat porque está convencido de que no existe una falta legal o constitucional . En esa línea, cuestionó los fundamentos de la eventual acusación y advirtió sobre lo que considera una \"trivialización\" de este mecanismo.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/chile-vamos/ubilla-cuestiona-ataques-a-chile-vamos-y-pide-convivencia-oficialista/2026-11-09/110443.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261109/imag/foto_0000000220261109110443.jpg",
+          "published_raw": "Mon, 09 Nov 2026 11:04:43 -0300",
+          "published_at": "2026-11-09T11:04:43-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 8,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 15,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-004"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-025",
+      "title": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?",
+      "url": "https://www.france24.com/es/programas/enlace/20261109-ecuador-qu%C3%A9-han-cambiado-1-000-d%C3%ADas-de-estado-de-excepci%C3%B3n",
+      "representative_source": "France 24",
+      "topic": "Conflictos y seguridad",
+      "event_type": "POLICY_SECURITY",
+      "geography": {
+        "group": "América Latina",
+        "country": "Ecuador / América Latina"
+      },
+      "relevance": {
+        "score": 64.8,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 76.8
+      },
+      "selection": {
+        "reason": "PML 64.8; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-11-09T13:38:44-0300",
+      "last_seen": "2026-11-09T13:38:44-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "Ecuador cumple 1.000 días bajo estados de excepción desde enero de 2024, una estrategia que ha normalizado la presencia militar en las calles. Las cifras oficiales registraron menos homicidios en 2024, pero la violencia repuntó en 2025 hasta un récord histórico. En 2026, pese a un nuevo descenso, los asesinatos siguen superando los 20 diarios.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Ecuador / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?",
+          "description": "Ecuador cumple 1.000 días bajo estados de excepción desde enero de 2024, una estrategia que ha normalizado la presencia militar en las calles. Las cifras oficiales registraron menos homicidios en 2024, pero la violencia repuntó en 2025 hasta un récord histórico. En 2026, pese a un nuevo descenso, los asesinatos siguen superando los 20 diarios. Desde Guayaquil, analizamos qué ha cambiado en la seguridad del país, el impacto de la militarización y las consecuencias de prolongar las medidas extraordinarias durante casi tres años. Reportaje de Carolina Mella para France 24.",
+          "url": "https://www.france24.com/es/programas/enlace/20261109-ecuador-qu%C3%A9-han-cambiado-1-000-d%C3%ADas-de-estado-de-excepci%C3%B3n",
+          "image_url": "https://s.france24.com/media/display/cc4fef62-d5f0-11f1-98a6-d18c5759e759/w:1024/p:16x9/000-B27E7GZ.jpg",
+          "published_raw": "Mon, 09 Nov 2026 16:38:44 GMT",
+          "published_at": "2026-11-09T13:38:44-0300",
+          "country": "Ecuador",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 3,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-025"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-024",
+      "title": "El Supremo rechaza suspender también el voto de los hijos de los nacionalizados por la ‘ley de nietos’",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-09/el-supremo-rechaza-suspender-tambien-el-derecho-al-voto-de-los-hijos-de-los-nacionalizados-por-la-ley-de-nietos.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 66.6,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 65.6
+      },
+      "selection": {
+        "reason": "PML 66.6; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-09T14:48:23-0300",
+      "last_seen": "2026-11-09T14:48:23-0300",
+      "entities": "supremo",
+      "event_terms": "supremo",
+      "analysis": {
+        "summary": "Los magistrados desestiman la petición de Vox y de Iustitia Europa por el “breve lapso temporal” que queda hasta las elecciones del 29-N",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El Supremo rechaza suspender también el voto de los hijos de los nacionalizados por la ‘ley de nietos’",
+          "description": "Los magistrados desestiman la petición de Vox y de Iustitia Europa por el “breve lapso temporal” que queda hasta las elecciones del 29-N",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-09/el-supremo-rechaza-suspender-tambien-el-derecho-al-voto-de-los-hijos-de-los-nacionalizados-por-la-ley-de-nietos.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/AP5AJNACI5E4TBHLQGFFKP4A7E.jpeg?auth=4add81b7e48348dcd59ea36f7b82cca72a8312a0ca34c6541e2d59aaf921d4fd",
+          "published_raw": "Mon, 09 Nov 2026 17:48:23 GMT",
+          "published_at": "2026-11-09T14:48:23-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-024"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-006",
+      "title": "Soto: Acusación contra Rabat está al 99% y tendrá votos oficialistas",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/ppd/soto-acusacion-contra-rabat-esta-al-99-y-tendra-votos-oficialistas/2026-11-08/152309.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 59.9,
+        "level": "MEDIA",
+        "editorial_utility": 55.9
+      },
+      "selection": {
+        "reason": "PML 59.9; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 2,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-08T15:23:09-0300",
+      "last_seen": "2026-11-09T08:30:35-0300",
+      "entities": [
+        "congreso",
+        "senado",
+        "chile"
+      ],
+      "event_terms": [
+        "oposicion",
+        "crisis",
+        "judicial"
+      ],
+      "analysis": {
+        "summary": "El presidente de la Democracia Cristiana, el diputado Álvaro Ortiz , confirmó en Cooperativa que esta semana se presentará la acusación constitucional en contra del ministro de Justicia, Fernando Rabat , por la polémica firma de decretos para reducir condenas de abusadores y violadores de menores de 14 años.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Timonel DC: Esta semana se va a presentar la acusación contra Rabat",
+          "description": "El presidente de la Democracia Cristiana, el diputado Álvaro Ortiz , confirmó en Cooperativa que esta semana se presentará la acusación constitucional en contra del ministro de Justicia, Fernando Rabat , por la polémica firma de decretos para reducir condenas de abusadores y violadores de menores de 14 años. En conversación con El Diario de Cooperativa , el parlamentario dijo que \"una acusación constitucional se tiene que hacer como corresponde, se tiene que trabajar de una manera adecuada\". \"¿Se va a presentar? Sí se va a presentar. ¿Cuándo? Esta semana \", insistió Ortiz. Ortiz adelantó que \"de hecho, en unos minutos más tenemos la reunión de coordinación de partidos de oposición, como todos los lunes en la mañana y vamos a conocer ya esos detalles con mayor claridad\". Asimismo, el timonel recordó el tiempo que tomó preparar anteriores libelos: \"Pasó casi un mes cuando se acusó constitucionalmente al ministro (Carlos) Montes luego de su anuncio; cuando se acusó constitucionalmente a la exministra Carolina Tohá, dos meses\". \"¿Por qué quiero plantear esto? Porque las acusaciones constitucionales no se presentan al otro día después que se anuncian. Se tienen que elaborar, los abogados tienen que conversar, se tiene que ver cuáles son los capítulos que se van a presentar. En esta semana va a estar presentada esa acusación constitucional (contra Rabat)\", enfatizó. El parlamentario DC reiteró que la AC contra el titular de Justicia \"no es algo en contra del Presidente. Yo no sé si más del 90 por ciento de los chilenos nos habíamos puesto de acuerdo para decir 'todos estamos en contra'. Esto obedece a algo tan sensible como recordar a la familia y a las víctimas una violación de un niño o una niña. Esto no es una acusación constitucional por un tema político, por algo que se hizo en un ministerio, no, estamos hablando de rebajas de condenas a personas que les fregaron, les jodieron la vida, a niños y niñas de nuestro país\". Rabat llegó al Congreso sin ser invitado En paralelo, la tensión con el ministro de Justicia se trasladó al Congreso, porque R abat llegó esta mañana a la Comisión de Constitución del Senado pese a que su presidente, el senador Vlado Mirosevic (PL), decidió no invitarlo por la demora del Gobierno  en responder a las solicitudes de información sobre las rebajas de penas. El secretario de Estado explicó que asistió a la instancia por las obligaciones que le impone su cargo y señaló que el ministerio trabaja en cerca de 50 requerimientos enviados por el Congreso. No obstante, el senador Mirosevi c insistió en que \" el ministro no es un interlocutor válido. Está asistiendo a sesiones de comisiones en el Congreso Nacional sin ser invitado. Uno no va donde no lo invitan, eso es de buena educación. Pero estar provocando, yendo donde no lo invitan, sabiendo que genera un problema para su propio gobierno\" .\" \"Evidentemente que esto expone que es más necesario que nunca que el Presidente Kast le pida la renunci a o que él, de motu proprio , pueda dar un paso al costado entendiendo que le está haciendo un daño a su Presidente y a su Gobierno. La crisis se sigue profundizando, se sigue alargando y eso no es por una decisión de la oposición, es por una falta de decisión del Presidente Kast\", aseveró. Discusión jurídica sobre los cargos que serán incorporados Una de las razones de la demora es la discusión jurídica sobre los cargos que finalmente serán incorporados en la AC,  puesto que algunos expertos consultados por el sector han cuestionado la solidez judicial del libelo. Sin embargo, los partidos de oposición desdramatizaron esas diferencias y aseguraron que las observaciones permitieron anticipar la defensa de Rabat y reforzar el texto. Entre los fundamentos aparecen eventuales infracciones a las normas que protegen a niños, niñas y adolescentes, los beneficios concedidos a condenados por crímenes de lesa humanidad y la demora en la entrega de información  por parte de Rabat. [Lea también] Soto: Acusación contra Rabat está al 99% y tendrá votos oficialistas El diputado Raúl Soto, presidente del PPD , señaló que \"siempre habrá opiniones jurídicas diversas, eso es parte del ejercicio jurídico y parte también del contexto democrático en el cual estamos . Nosotros lo valoramos, eso ha enriquecido el trabajo y ha permitido también incorporar otros argumentos en el camino\". \"Es probable que algunos parlamentarios voten a favor unos capítulos y otros en contra, y eso lo desdramatizamos porque basta con que se apruebe un capítulo para que el ministro sea destituido\", aseveró el legislador.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/timonel-dc-esta-semana-se-va-a-presentar-la-acusacion-contra-rabat/2026-11-09/083035.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261109/imag/foto_0000000220261109083035.jpg",
+          "published_raw": "Mon, 09 Nov 2026 08:30:35 -0300",
+          "published_at": "2026-11-09T08:30:35-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 8,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 14,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-006"
+        },
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Soto: Acusación contra Rabat está al 99% y tendrá votos oficialistas",
+          "description": "El diputado Raúl Soto, presidente del PPD,  aseguró que la acusación constitucional contra el ministro de Justicia, Francisco Rabat, se encuentra \"casi lista\" y contaría con votos oficialistas. En conversación con \"Estado Nacional\" de TVN , el parlamentario abordó la acción que prepara la oposición contra el secretario de Estado en respuesta a la rebaja de penas a personas condenadas por abuso y violación contra menores de edad, narcotráficantes, asesinos y violadores de derechos humano s, decretos firmados por su cartera. \"Está concluyendo el trabajo de redacción de la acusación constitucional. Diría que estamos en un 99% de avance y en los próximos días se va a concluir en un 100% ; se van a hacer las revisiones y los retoques finales para poder presentarla en los próximos días\", afirmó el diputado opositor. [Lea también]   Acusación contra Rabat: RN descarta \"órdenes del partido\" y pide ajustes políticos Soto aseveró que el titular de Justicia \"tiene responsabilidad política, administrativa por la liberación de pedófilos, de violadores de derechos humanos, de narcotraficantes y criminales altamente peligrosos en nuestro país. Fue un cambio de criterio jurídico absolutamente equivocado y, además de eso, ha infringido leyes, la Constitución y tratados internacionales\". El parlamentario adelantó que la acción consiste en tres capítulos: \" Uno por la liberación de pedófilos, otro por la liberación y rebaja de condena de violadores de derechos humanos, y un tercero por faltas a la probidad \". \" El ministro ha actuado de mala fe, ha escondido información y derechamente ha mentido ante otro poder del Estado como el Congreso Nacional y ante toda la opinión pública\", agregó el legislador. Votos de Chile Vamos y del PDG El timonel PPD fue enfático en señalar que \"acá hay dos caminos: nos ponemos del lado de las víctimas , que son niños, niñas y adolescentes vulnerados en sus derechos, abusados, violados, y también de sus familias; o del lado de los victimarios , que son los abusadores, los violadores de esos niños, y de un gobierno indolente que sigue defendiendo lo indefendible\". En ese sentido, afirmó que \" van a estar todos los votos de la oposición , pero no me cabe ninguna duda que también van a existir votos del oficialismo, particularmente de Chile Vamos, y espero que tengamos los votos de la totalidad del PDG \". Soto sostuvo que la situación no solo generó una crisis política, sino también una \"crisis ética muy profunda, es una crisis moral que genera un quiebre con la sociedad chilena. Y esa desconfianza va a ser muy difícil de recuperarla si el Presidente Kast no asume su liderazgo y solicita la renuncia a su ministro (...) Por defenderlo, está poniendo en riesgo a todo su Gobierno \". En cuanto a la propuesta presentada por el Ejecutivo para derogar las rebajas de pena , el diputado manifestó la disponibilidad del sector para avanzar en ella . Sin embargo, planteó que \"quien debe liderar ese proceso no es el ministro Fernando Rabat. Él creó el problema, él generó esta crisis, no va a ser la persona que la va a solucionar\".",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/ppd/soto-acusacion-contra-rabat-esta-al-99-y-tendra-votos-oficialistas/2026-11-08/152309.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000001420261108152309.jpg",
+          "published_raw": "Sun, 08 Nov 2026 15:23:09 -0300",
+          "published_at": "2026-11-08T15:23:09-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 6,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 12,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-006"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-016",
       "title": "Desde el ataque a una base militar hasta la evacuación de un canal de TV: ¿qué está pasando en Colombia?",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261108-desde-el-ataque-a-una-base-militar-hasta-la-evacuaci%C3%B3n-de-un-canal-de-tv-qu%C3%A9-est%C3%A1-pasando-en-colombia",
       "representative_source": "France 24",
@@ -43,12 +374,12 @@
         "country": "Colombia / América Latina"
       },
       "relevance": {
-        "score": 60.1,
+        "score": 57.6,
         "level": "MEDIA",
-        "editorial_utility": 60.1
+        "editorial_utility": 50.6
       },
       "selection": {
-        "reason": "PML 60.1",
+        "reason": "PML 57.6; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -99,308 +430,7 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-018"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-002",
-      "title": "Acusación contra Rabat: RN descarta \"órdenes del partido\" y pide ajustes políticos",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/acusacion-contra-rabat-rn-descarta-ordenes-del-partido-y-pide-ajustes/2026-11-08/150007.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 57,
-        "level": "MEDIA",
-        "editorial_utility": 60
-      },
-      "selection": {
-        "reason": "PML 57; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-08T15:00:07-0300",
-      "last_seen": "2026-11-08T15:00:07-0300",
-      "entities": "congreso",
-      "event_terms": [
-        "oposicion",
-        "crisis"
-      ],
-      "analysis": {
-        "summary": "La presidenta de Renovación Nacional, Andrea Balladares, dejó en manos de los diputados de su partido la definición sobre la acusación constitucional que prepara la oposición contra el ministro de Justicia, Fernando Rabat , y llamó a evaluar su contenido antes de resolver una posición.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Acusación contra Rabat: RN descarta \"órdenes del partido\" y pide ajustes políticos",
-          "description": "La presidenta de Renovación Nacional, Andrea Balladares, dejó en manos de los diputados de su partido la definición sobre la acusación constitucional que prepara la oposición contra el ministro de Justicia, Fernando Rabat , y llamó a evaluar su contenido antes de resolver una posición. La senadora también sostuvo que la crisis por las rebajas de condenas dejó en evidencia problemas de coordinación política y comunicacional en el Gobierno , diagnóstico que coincidió con el del senador de Evópoli Luciano Cruz-Coke , quien pidió mejorar la gestión y la relación del Ejecutivo con los partidos que lo respaldan. Consultada sobre si toda la bancada de RN se alineará contra el libelo, Balladares respondió que esa decisión corresponde a los diputados, aunque recordó que su jefe de bancada ha anticipado que cree que votarán en contra. \"Nosotros no tenemos órdenes de partido, eso no existe\" , afirmó. Añadió que los parlamentarios deben deliberar dentro de la bancada y resolver cuando conozcan el texto, \"evaluando el mérito de la acusación\". Balladares evitó pronunciarse sobre el fondo del eventual libelo, señalando que, como senadora, podría tener que actuar como jurado. Oficialismo pide mejorar la coordinación El presidente de Evópoli, Luciano Cruz-Coke, cuestionó la viabilidad de la ofensiva y atribuyó la demora en su presentación a una presunta falta de apoyos. \"Yo creo que no tienen los votos\" , afirmó, junto con sostener que el conflicto es de carácter político y no constitucional. El senador también respaldó la decisión de mantener a Rabat: \"Yo soy presidente de un partido de gobierno y respeto y respaldo la posición del presidente de la República\". Más allá de la acusación, Balladares planteó que la crisis exige cambios en el funcionamiento del Ejecutivo, en medio de los cuestionamientos desde el propio oficialismo a la conducción política del Gobierno . \"Esta crisis ha dejado en evidencia una debilidad aún en la coordinación política y comunicacional del gobierno\" , sostuvo, aunque descartó responsabilizar al vocero, argumentando que recién asumía sus funciones cuando se produjo la controversia. La presidenta de RN señaló que las mejoras no pasan necesariamente por reemplazar ministros, subsecretarios o asesores: \"La verdad que es más estructural que eso\" , afirmó. En esa línea, pidió una coordinación de mejor nivel con los partidos para anticipar crisis y retomar las prioridades del programa. También advirtió que el caso ha afectado atributos del Mandatario : \"Eso afecta al presidente, al gobierno y a todos los partidos que lo apoyamos\" . Cruz-Coke coincidió en que un eventual cambio de gabinete no basta para resolver las dificultades. \"Para mí no es un problema de nombres, es un problema también de gestión y diseño político\" , expresó. El senador planteó fortalecer la coordinación entre el Ejecutivo y los partidos que sostienen su agenda en el Congreso, con el objetivo de evitar errores que calificó como \"autoinfligidos\". Los planteamientos se producen después de que La Moneda descartara un cambio de gabinete pese a las presiones de sectores oficialistas .",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/acusacion-contra-rabat-rn-descarta-ordenes-del-partido-y-pide-ajustes/2026-11-08/150007.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000000220261108150007.jpg",
-          "published_raw": "Sun, 08 Nov 2026 15:00:07 -0300",
-          "published_at": "2026-11-08T15:00:07-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 8,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 8,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 17,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-002"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-017",
-      "title": "Carlos Suárez, el hombre que susurra al presidente de Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-09/carlos-suarez-el-hombre-que-susurra-al-presidente-de-colombia.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Colombia / América Latina"
-      },
-      "relevance": {
-        "score": 59,
-        "level": "MEDIA",
-        "editorial_utility": 55
-      },
-      "selection": {
-        "reason": "PML 59; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-09T06:30:00-0300",
-      "last_seen": "2026-11-09T06:30:00-0300",
-      "entities": "colombia",
-      "event_terms": [],
-      "analysis": {
-        "summary": "Sin cargo en el gabinete, el estratega de su campaña preside la junta de Ecopetrol, controla el acceso al presidente y es señalado por su inmenso poder",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Carlos Suárez, el hombre que susurra al presidente de Colombia",
-          "description": "Sin cargo en el gabinete, el estratega de su campaña preside la junta de Ecopetrol, controla el acceso al presidente y es señalado por su inmenso poder",
-          "url": "https://elpais.com/america-colombia/2026-11-09/carlos-suarez-el-hombre-que-susurra-al-presidente-de-colombia.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/QG2PVGY5XRHH5KBQR5TZTVEIYU.webp?auth=a229211ab1876d605a66abae1e8780837062cb73101854d47dbd63978e32519e",
-          "published_raw": "Mon, 09 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-09T06:30:00-0300",
-          "country": "Colombia",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-017"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-008",
-      "title": "Soto: Acusación contra Rabat está al 99% y tendrá votos oficialistas",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/ppd/soto-acusacion-contra-rabat-esta-al-99-y-tendra-votos-oficialistas/2026-11-08/152309.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 56.7,
-        "level": "MEDIA",
-        "editorial_utility": 49.7
-      },
-      "selection": {
-        "reason": "PML 56.7; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-08T15:23:09-0300",
-      "last_seen": "2026-11-08T15:23:09-0300",
-      "entities": [
-        "congreso",
-        "chile"
-      ],
-      "event_terms": [
-        "oposicion",
-        "crisis"
-      ],
-      "analysis": {
-        "summary": "El diputado Raúl Soto, presidente del PPD,  aseguró que la acusación constitucional contra el ministro de Justicia, Francisco Rabat, se encuentra \"casi lista\" y contaría con votos oficialistas. En conversación con \"Estado Nacional\" de TVN , el parlamentario abordó la acción que prepara la oposición contra el secretario de Estado en respuesta a la rebaja de penas a personas condenadas por abuso y violación contra menores de edad, narcotráficantes, asesinos y violadores de…",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Soto: Acusación contra Rabat está al 99% y tendrá votos oficialistas",
-          "description": "El diputado Raúl Soto, presidente del PPD,  aseguró que la acusación constitucional contra el ministro de Justicia, Francisco Rabat, se encuentra \"casi lista\" y contaría con votos oficialistas. En conversación con \"Estado Nacional\" de TVN , el parlamentario abordó la acción que prepara la oposición contra el secretario de Estado en respuesta a la rebaja de penas a personas condenadas por abuso y violación contra menores de edad, narcotráficantes, asesinos y violadores de derechos humano s, decretos firmados por su cartera. \"Está concluyendo el trabajo de redacción de la acusación constitucional. Diría que estamos en un 99% de avance y en los próximos días se va a concluir en un 100% ; se van a hacer las revisiones y los retoques finales para poder presentarla en los próximos días\", afirmó el diputado opositor. [Lea también]   Acusación contra Rabat: RN descarta \"órdenes del partido\" y pide ajustes políticos Soto aseveró que el titular de Justicia \"tiene responsabilidad política, administrativa por la liberación de pedófilos, de violadores de derechos humanos, de narcotraficantes y criminales altamente peligrosos en nuestro país. Fue un cambio de criterio jurídico absolutamente equivocado y, además de eso, ha infringido leyes, la Constitución y tratados internacionales\". El parlamentario adelantó que la acción consiste en tres capítulos: \" Uno por la liberación de pedófilos, otro por la liberación y rebaja de condena de violadores de derechos humanos, y un tercero por faltas a la probidad \". \" El ministro ha actuado de mala fe, ha escondido información y derechamente ha mentido ante otro poder del Estado como el Congreso Nacional y ante toda la opinión pública\", agregó el legislador. Votos de Chile Vamos y del PDG El timonel PPD fue enfático en señalar que \"acá hay dos caminos: nos ponemos del lado de las víctimas , que son niños, niñas y adolescentes vulnerados en sus derechos, abusados, violados, y también de sus familias; o del lado de los victimarios , que son los abusadores, los violadores de esos niños, y de un gobierno indolente que sigue defendiendo lo indefendible\". En ese sentido, afirmó que \" van a estar todos los votos de la oposición , pero no me cabe ninguna duda que también van a existir votos del oficialismo, particularmente de Chile Vamos, y espero que tengamos los votos de la totalidad del PDG \". Soto sostuvo que la situación no solo generó una crisis política, sino también una \"crisis ética muy profunda, es una crisis moral que genera un quiebre con la sociedad chilena. Y esa desconfianza va a ser muy difícil de recuperarla si el Presidente Kast no asume su liderazgo y solicita la renuncia a su ministro (...) Por defenderlo, está poniendo en riesgo a todo su Gobierno \". En cuanto a la propuesta presentada por el Ejecutivo para derogar las rebajas de pena , el diputado manifestó la disponibilidad del sector para avanzar en ella . Sin embargo, planteó que \"quien debe liderar ese proceso no es el ministro Fernando Rabat. Él creó el problema, él generó esta crisis, no va a ser la persona que la va a solucionar\".",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/ppd/soto-acusacion-contra-rabat-esta-al-99-y-tendra-votos-oficialistas/2026-11-08/152309.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000001420261108152309.jpg",
-          "published_raw": "Sun, 08 Nov 2026 15:23:09 -0300",
-          "published_at": "2026-11-08T15:23:09-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 6,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 12,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-034",
-      "title": "¿Quién es Pedro Alliana, el nuevo presidente de Paraguay? ¿Qué medidas tomará ante la crisis por Ueno Bank?",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261107-qui%C3%A9n-es-pedro-alliana-el-nuevo-presidente-de-paraguay-qu%C3%A9-medidas-tomar%C3%A1-ante-la-crisis-por-ueno-bank",
-      "representative_source": "France 24",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "América Latina",
-        "country": "Paraguay / América Latina"
-      },
-      "relevance": {
-        "score": 51,
-        "level": "BAJA",
-        "editorial_utility": 41
-      },
-      "selection": {
-        "reason": "PML 51; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-11-07T12:30:55-0300",
-      "last_seen": "2026-11-07T12:30:55-0300",
-      "entities": "senado",
-      "event_terms": "crisis",
-      "analysis": {
-        "summary": "Los paraguayos amanecieron este sábado 7 de noviembre con un nuevo jefe de Estado. Se trata de Pedro Alliana, quien asumió el cargo, luego de que el derechista Santiago Peña fuera destituido por el Senado en un juicio político–y posteriormente puesto bajo arresto domiciliario– por su presunta implicación en el colapso de Ueno Bank. La crisis bancaria inicialmente dejó a unos tres millones de personas, la mitad de la población del país, sin acceso a su dinero.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Paraguay / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "¿Quién es Pedro Alliana, el nuevo presidente de Paraguay? ¿Qué medidas tomará ante la crisis por Ueno Bank?",
-          "description": "Los paraguayos amanecieron este sábado 7 de noviembre con un nuevo jefe de Estado. Se trata de Pedro Alliana, quien asumió el cargo, luego de que el derechista Santiago Peña fuera destituido por el Senado en un juicio político–y posteriormente puesto bajo arresto domiciliario– por su presunta implicación en el colapso de Ueno Bank. La crisis bancaria inicialmente dejó a unos tres millones de personas, la mitad de la población del país, sin acceso a su dinero.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261107-qui%C3%A9n-es-pedro-alliana-el-nuevo-presidente-de-paraguay-qu%C3%A9-medidas-tomar%C3%A1-ante-la-crisis-por-ueno-bank",
-          "image_url": "https://s.france24.com/media/display/08af8aee-dabf-11f1-b46b-695cb59fade5/w:1024/p:16x9/2026-11-07T110013Z-1200284480-RC2MIOAN3PEO-RTRMADP-3-PARAGUAY-POLITICS-ALLIANA.jpg",
-          "published_raw": "Sat, 07 Nov 2026 15:30:55 GMT",
-          "published_at": "2026-11-07T12:30:55-0300",
-          "country": "Paraguay",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-034"
+          "cluster_id": "PML-EVENT-016"
         }
       ]
     }
@@ -413,6 +443,147 @@
     "stories": [
       {
         "position": 1,
+        "cluster_id": "PML-EVENT-001",
+        "title": "Acusación contra Rabat: RN descarta \"órdenes del partido\" y pide ajustes políticos",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_CRISIS",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/acusacion-contra-rabat-rn-descarta-ordenes-del-partido-y-pide-ajustes/2026-11-08/150007.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 52.5,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 72,
+            "freshness": 62,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 34
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-08T15:00:07-0300",
+        "last_seen": "2026-11-08T15:00:07-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Acusación contra Rabat: RN descarta \"órdenes del partido\" y pide ajustes políticos",
+            "description": "La presidenta de Renovación Nacional, Andrea Balladares, dejó en manos de los diputados de su partido la definición sobre la acusación constitucional que prepara la oposición contra el ministro de Justicia, Fernando Rabat , y llamó a evaluar su contenido antes de resolver una posición. La senadora también sostuvo que la crisis por las rebajas de condenas dejó en evidencia problemas de coordinación política y comunicacional en el Gobierno , diagnóstico que coincidió con el del senador de Evópoli Luciano Cruz-Coke , quien pidió mejorar la gestión y la relación del Ejecutivo con los partidos que lo respaldan. Consultada sobre si toda la bancada de RN se alineará contra el libelo, Balladares respondió que esa decisión corresponde a los diputados, aunque recordó que su jefe de bancada ha anticipado que cree que votarán en contra. \"Nosotros no tenemos órdenes de partido, eso no existe\" , afirmó. Añadió que los parlamentarios deben deliberar dentro de la bancada y resolver cuando conozcan el texto, \"evaluando el mérito de la acusación\". Balladares evitó pronunciarse sobre el fondo del eventual libelo, señalando que, como senadora, podría tener que actuar como jurado. Oficialismo pide mejorar la coordinación El presidente de Evópoli, Luciano Cruz-Coke, cuestionó la viabilidad de la ofensiva y atribuyó la demora en su presentación a una presunta falta de apoyos. \"Yo creo que no tienen los votos\" , afirmó, junto con sostener que el conflicto es de carácter político y no constitucional. El senador también respaldó la decisión de mantener a Rabat: \"Yo soy presidente de un partido de gobierno y respeto y respaldo la posición del presidente de la República\". Más allá de la acusación, Balladares planteó que la crisis exige cambios en el funcionamiento del Ejecutivo, en medio de los cuestionamientos desde el propio oficialismo a la conducción política del Gobierno . \"Esta crisis ha dejado en evidencia una debilidad aún en la coordinación política y comunicacional del gobierno\" , sostuvo, aunque descartó responsabilizar al vocero, argumentando que recién asumía sus funciones cuando se produjo la controversia. La presidenta de RN señaló que las mejoras no pasan necesariamente por reemplazar ministros, subsecretarios o asesores: \"La verdad que es más estructural que eso\" , afirmó. En esa línea, pidió una coordinación de mejor nivel con los partidos para anticipar crisis y retomar las prioridades del programa. También advirtió que el caso ha afectado atributos del Mandatario : \"Eso afecta al presidente, al gobierno y a todos los partidos que lo apoyamos\" . Cruz-Coke coincidió en que un eventual cambio de gabinete no basta para resolver las dificultades. \"Para mí no es un problema de nombres, es un problema también de gestión y diseño político\" , expresó. El senador planteó fortalecer la coordinación entre el Ejecutivo y los partidos que sostienen su agenda en el Congreso, con el objetivo de evitar errores que calificó como \"autoinfligidos\". Los planteamientos se producen después de que La Moneda descartara un cambio de gabinete pese a las presiones de sectores oficialistas .",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/acusacion-contra-rabat-rn-descarta-ordenes-del-partido-y-pide-ajustes/2026-11-08/150007.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000000220261108150007.jpg",
+            "published_raw": "Sun, 08 Nov 2026 15:00:07 -0300",
+            "published_at": "2026-11-08T15:00:07-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 8,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 8,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 17,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-001"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 19,
+          "labels": [
+            "Estado e instituciones",
+            "Elecciones y opinión pública"
+          ],
+          "chile_utility": 71.5
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-007",
+        "title": "El votante fiel se reduce: Apoyo sostenido a Kast cae al 20%",
+        "topic": "Elecciones y opinión pública",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/el-votante-fiel-se-reduce-apoyo-sostenido-a-kast-cae-al-20/2026-11-08/101239.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 49.4,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 53,
+            "freshness": 62,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 38
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-08T10:12:39-0300",
+        "last_seen": "2026-11-08T10:12:39-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "El votante fiel se reduce: Apoyo sostenido a Kast cae al 20%",
+            "description": "La proporción de personas que ha aprobado de manera sostenida al Gobierno del Presidente José Antonio Kast bajó del 30% al 20% entre junio y noviembre , según un estudio de Panel Ciudadano de la Universidad del Desarrollo (UDD), publicado este domingo por El Mercurio . La investigación encuestó a las mismas 1.010 personas durante los primeros 240 días de administración , con 16 mediciones entre marzo y noviembre, lo que permitió identificar cómo cambió el respaldo individual al mandatario. En la última consulta, realizada el 2 de noviembre, la aprobación presidencial llegó al 24% y la desaprobación al 66% . El respaldo cayó 35 puntos porcentuales respecto del 59% registrado al inicio de su gestión. El estudio distingue esa evaluación puntual del apoyo permanente: este último corresponde a quienes han aprobado al Presidente en todas las mediciones y que actualmente representan el 20% del panel. El retroceso entre los votantes obligados Uno de los principales hallazgos es la caída del respaldo entre los votantes \"obligados\", es decir, quienes comenzaron a sufragar desde 2022 , tras el restablecimiento de la obligatoriedad del voto. En ese grupo, la aprobación a Kast disminuyó del 68% el 14 de marzo al 26% el 2 de noviembre . Entre los votantes habituales, en tanto, pasó del 55% al 22%. Juan Pablo Lavín, director de Panel Ciudadano UDD , explicó a El Mercurio que los electores obligados constituían una de las principales fortalezas del mandatario, pero que sus evaluaciones se han acercado a las de quienes ya participaban regularmente en elecciones. \"La ventaja que sacaba el Presidente en los menos ideológicos, los que buscan soluciones concretas sin importar el color político, casi la pierde por completo\", sostuvo. La medición se conoce en medio de la controversia por los decretos de rebaja de penas a condenados por delitos sexuales contra menores, que involucra al ministro de Justicia, Fernando Rabat, y al exsubsecretario Luis Silva. Sin embargo, Lavín atribuyó el deterioro del respaldo a un fenómeno más amplio que esa crisis : el distanciamiento de electores que esperaban resultados del Ejecutivo. \"Por la tendencia que vemos, lo más probable es que la aprobación estuviera en torno al 25% con o sin caso Rabat\", afirmó al diario. La mitad del panel ha cambiado de opinión El seguimiento también mostró un aumento de quienes han alternado entre aprobar y desaprobar al Gobierno. Ese grupo creció del 40% al 50% entre junio y noviembre , mientras que quienes han rechazado la gestión en todas las mediciones se mantuvieron en el 30%. En el mismo periodo, el respaldo permanente descendió del 30% al 20%. Según el análisis recogido por El Mercurio , varios de los encuestados clasificados como cambiantes aprobaron al mandatario en marzo o abril, pero no volvieron a hacerlo en las consultas posteriores. El apoyo permanente supera al electorado original de Kast El estudio también cruzó las evaluaciones con el comportamiento electoral y constató que solo el 45% de quienes han apoyado siempre al Presidente votó por él en la primera vuelta de 2025 . Dentro de ese núcleo de respaldo, un 29% sufragó por Johannes Kaiser, un 14% por Evelyn Matthei y un 8% por Franco Parisi . El resto eligió a otro candidato o no votó. Para Lavín, estos resultados muestran que el apoyo sostenido proviene principalmente de sectores identificados ideológicamente con la derecha. \"El piso del Gobierno no es el voto propio de Kast, sino la coalición de derecha que lo llevó a segunda vuelta\", plantea el estudio citado por el medio.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/el-votante-fiel-se-reduce-apoyo-sostenido-a-kast-cae-al-20/2026-11-08/101239.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000000220261108101239.jpg",
+            "published_raw": "Sun, 08 Nov 2026 10:12:39 -0300",
+            "published_at": "2026-11-08T10:12:39-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 4,
+            "score_elections": 5,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 1,
+            "score_actor": 3,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 13,
+            "primary_topic": "Elecciones y opinión pública",
+            "secondary_topic": "Instituciones y gobierno",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-007"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 10,
+          "labels": "Elecciones y opinión pública",
+          "chile_utility": 59.4
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
         "cluster_id": "PML-EVENT-009",
         "title": "Gobierno pondrá discusión inmediata a proyecto para derogar \"de raíz\" la ley de rebajas de condena",
         "topic": "Instituciones y gobierno",
@@ -482,183 +653,41 @@
           "chile_utility": 68.5
         },
         "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-011",
-        "title": "\"Todo va a estar bien\": Frase de Kast genera más decepción que esperanza",
-        "topic": "Elecciones y opinión pública",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/todo-va-a-estar-bien-frase-de-kast-genera-mas-decepcion-que-esperanza/2026-11-08/124626.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 53.6,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 52,
-            "freshness": 80,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 38
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-08T12:46:26-0300",
-        "last_seen": "2026-11-08T12:46:26-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "\"Todo va a estar bien\": Frase de Kast genera más decepción que esperanza",
-            "description": "La frase \"Todo va a estar bien\", utilizada por el Presidente José Antonio Kast, genera decepción en un 46% de los encuestados , según los resultados de Agenda Criteria publicados este domingo 8 de noviembre. Ante la consulta por las emociones que provoca el mensaje presidencial, un 30% mencionó rabia, un 21% esperanza y un 15% confianza . La pregunta permitía seleccionar más de una alternativa, por lo que los porcentajes no suman 100%. La expresión ha acompañado a Kast desde sus campañas presidenciales y al cierre del proceso electoral que lo llevó a La Moneda. Ver esta publicación en Instagram Una publicación compartida por José Antonio Kast Rist (@joseantoniokast) Entre quienes declararon haber votado por Kast en la segunda vuelta presidencial de 2025, la esperanza fue la emoción más mencionada, con un 41% , seguida por la decepción, con un 32%, y la confianza, con un 31%. El estudio también consultó por la capacidad del Ejecutivo para lograr que al país le vaya bien: un 68% lo consideró poco o nada capaz , frente a un 23% que lo evaluó como bastante o muy capaz. Otro 9% señaló no tenerlo claro. Solo un 16% identifica un plan claro de seguridad En materia de gestión, un 47% de los encuestados consideró que el Gobierno no tiene un plan claro de seguridad y está improvisando , cinco puntos más que en agosto, la última medición disponible sobre esta materia. En contraste, un 16% afirmó que existe un plan claro , mientras un 28% sostuvo que el Ejecutivo tiene algunas ideas, pero no un plan definido. Un 9% respondió que no sabe. La percepción de improvisación también alcanzó un 48% en generación de empleo y un 44% en crecimiento económico . En esas áreas, quienes identificaron un plan claro representaron un 17% y un 20%, respectivamente. Respecto de octubre, la percepción de improvisación aumentó tres puntos en empleo y disminuyó uno en crecimiento económico. Al evaluar el camino que sigue el Gobierno para enfrentar lo que ha descrito como una situación de emergencia, un 55% lo calificó como incorrecto y un 26% como correcto . En marzo, esas cifras eran de 43% y 39%, respectivamente. Aprobación presidencial llega a 24% La aprobación de Kast se situó en 24%, un punto menos que la semana anterior , mientras la desaprobación subió dos puntos y llegó a 67% . Un 9% declaró no saber. En la medición de Criteria difundida el 1 de noviembre , el respaldo al Mandatario se ubicaba en 25% y el rechazo, en 65%. La encuesta también registró una disminución de los atributos presidenciales respecto de mayo. Quienes consideran que Kast tiene las capacidades necesarias para el cargo pasaron de 50% a 36% , mientras la proporción que lo identifica como \"el líder que Chile necesita\" bajó de 42% a 26%. Los atributos con mayor reconocimiento fueron \"es trabajador\", con un 48%, y \"es directo, va de frente\", con un 39% , aunque ambos retrocedieron respecto de mayo, en ocho y 14 puntos, respectivamente. Ficha técnica La encuesta Agenda Criteria se realizó entre el 5 y el 6 de noviembre de 2026 , mediante cuestionarios autoadministrados a través de un panel online cerrado y certificado, con una muestra de 802 casos . El estudio es cuantitativo y no probabilístico , con selección aleatoria dentro del panel y estratificación por cuotas. Su población objetivo corresponde a hombres y mujeres de 18 años o más, de los niveles socioeconómicos ABCD, residentes en todo Chile. Los resultados fueron ponderados por zona, sexo, edad y nivel socioeconómico.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/todo-va-a-estar-bien-frase-de-kast-genera-mas-decepcion-que-esperanza/2026-11-08/124626.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000000220261108124626.jpg",
-            "published_raw": "Sun, 08 Nov 2026 12:46:26 -0300",
-            "published_at": "2026-11-08T12:46:26-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 2,
-            "score_elections": 3,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 1,
-            "score_ideology": 0,
-            "score_actor": 1,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 8,
-            "primary_topic": "Elecciones y opinión pública",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-011"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 10,
-          "labels": "Elecciones y opinión pública",
-          "chile_utility": 63.6
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-005",
-        "title": "El votante fiel se reduce: Apoyo sostenido a Kast cae al 20%",
-        "topic": "Elecciones y opinión pública",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/el-votante-fiel-se-reduce-apoyo-sostenido-a-kast-cae-al-20/2026-11-08/101239.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 51.9,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 53,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 38
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-08T10:12:39-0300",
-        "last_seen": "2026-11-08T10:12:39-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "El votante fiel se reduce: Apoyo sostenido a Kast cae al 20%",
-            "description": "La proporción de personas que ha aprobado de manera sostenida al Gobierno del Presidente José Antonio Kast bajó del 30% al 20% entre junio y noviembre , según un estudio de Panel Ciudadano de la Universidad del Desarrollo (UDD), publicado este domingo por El Mercurio . La investigación encuestó a las mismas 1.010 personas durante los primeros 240 días de administración , con 16 mediciones entre marzo y noviembre, lo que permitió identificar cómo cambió el respaldo individual al mandatario. En la última consulta, realizada el 2 de noviembre, la aprobación presidencial llegó al 24% y la desaprobación al 66% . El respaldo cayó 35 puntos porcentuales respecto del 59% registrado al inicio de su gestión. El estudio distingue esa evaluación puntual del apoyo permanente: este último corresponde a quienes han aprobado al Presidente en todas las mediciones y que actualmente representan el 20% del panel. El retroceso entre los votantes obligados Uno de los principales hallazgos es la caída del respaldo entre los votantes \"obligados\", es decir, quienes comenzaron a sufragar desde 2022 , tras el restablecimiento de la obligatoriedad del voto. En ese grupo, la aprobación a Kast disminuyó del 68% el 14 de marzo al 26% el 2 de noviembre . Entre los votantes habituales, en tanto, pasó del 55% al 22%. Juan Pablo Lavín, director de Panel Ciudadano UDD , explicó a El Mercurio que los electores obligados constituían una de las principales fortalezas del mandatario, pero que sus evaluaciones se han acercado a las de quienes ya participaban regularmente en elecciones. \"La ventaja que sacaba el Presidente en los menos ideológicos, los que buscan soluciones concretas sin importar el color político, casi la pierde por completo\", sostuvo. La medición se conoce en medio de la controversia por los decretos de rebaja de penas a condenados por delitos sexuales contra menores, que involucra al ministro de Justicia, Fernando Rabat, y al exsubsecretario Luis Silva. Sin embargo, Lavín atribuyó el deterioro del respaldo a un fenómeno más amplio que esa crisis : el distanciamiento de electores que esperaban resultados del Ejecutivo. \"Por la tendencia que vemos, lo más probable es que la aprobación estuviera en torno al 25% con o sin caso Rabat\", afirmó al diario. La mitad del panel ha cambiado de opinión El seguimiento también mostró un aumento de quienes han alternado entre aprobar y desaprobar al Gobierno. Ese grupo creció del 40% al 50% entre junio y noviembre , mientras que quienes han rechazado la gestión en todas las mediciones se mantuvieron en el 30%. En el mismo periodo, el respaldo permanente descendió del 30% al 20%. Según el análisis recogido por El Mercurio , varios de los encuestados clasificados como cambiantes aprobaron al mandatario en marzo o abril, pero no volvieron a hacerlo en las consultas posteriores. El apoyo permanente supera al electorado original de Kast El estudio también cruzó las evaluaciones con el comportamiento electoral y constató que solo el 45% de quienes han apoyado siempre al Presidente votó por él en la primera vuelta de 2025 . Dentro de ese núcleo de respaldo, un 29% sufragó por Johannes Kaiser, un 14% por Evelyn Matthei y un 8% por Franco Parisi . El resto eligió a otro candidato o no votó. Para Lavín, estos resultados muestran que el apoyo sostenido proviene principalmente de sectores identificados ideológicamente con la derecha. \"El piso del Gobierno no es el voto propio de Kast, sino la coalición de derecha que lo llevó a segunda vuelta\", plantea el estudio citado por el medio.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/el-votante-fiel-se-reduce-apoyo-sostenido-a-kast-cae-al-20/2026-11-08/101239.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000000220261108101239.jpg",
-            "published_raw": "Sun, 08 Nov 2026 10:12:39 -0300",
-            "published_at": "2026-11-08T10:12:39-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 4,
-            "score_elections": 5,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 1,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 13,
-            "primary_topic": "Elecciones y opinión pública",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 10,
-          "labels": "Elecciones y opinión pública",
-          "chile_utility": 61.9
-        },
-        "repeated_in_general_top5": false
       }
     ]
   },
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 28,
-      "maximum_relevance": 60.1,
-      "leading_story": "Desde el ataque a una base militar hasta la evacuación de un canal de TV: ¿qué está pasando en Colombia?"
+      "event_count": 27,
+      "maximum_relevance": 67,
+      "leading_story": "Ubilla cuestiona ataques a Chile Vamos y pide convivencia oficialista"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 3,
+      "maximum_relevance": 64.8,
+      "leading_story": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 3,
-      "maximum_relevance": 54.2,
+      "maximum_relevance": 50.5,
       "leading_story": "Kansas o Albacete"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 4,
-      "maximum_relevance": 53.6,
-      "leading_story": "\"Todo va a estar bien\": Frase de Kast genera más decepción que esperanza"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 2,
-      "maximum_relevance": 50.1,
-      "leading_story": "El atentado en Cracovia deja a Polonia en estado de ‘shock’: “Es lo más aterrador que he vivido. Esto se nos va a quedar”"
+      "maximum_relevance": 49.4,
+      "leading_story": "El votante fiel se reduce: Apoyo sostenido a Kast cae al 20%"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-018", "PML-EVENT-017", "PML-EVENT-034"],
-      "exited_top5": ["PML-EVENT-020", "PML-EVENT-019", "PML-EVENT-022"],
-      "retained_top5": ["PML-EVENT-002", "PML-EVENT-008"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
+    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
     "source_count": 3
   },
   "system": {
