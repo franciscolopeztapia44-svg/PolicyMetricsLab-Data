@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-10",
-    "data_latest_timestamp": "2026-11-10T00:28:56-0300",
-    "data_age_hours": 3.3,
-    "generated_at": "2026-11-10T03:44:45-0300",
+    "data_latest_timestamp": "2026-11-10T19:26:35-0300",
+    "data_age_hours": 0.6,
+    "generated_at": "2026-11-10T19:59:38-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,25 +16,25 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 29 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 28 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 29,
+    "ranked_events": 28,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 61.9,
-    "maximum_relevance": 64.2
+    "average_top5_relevance": 59.5,
+    "maximum_relevance": 65.3
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-010",
-      "title": "Rebajas de condenas: Rabat decidió \"parar cualquier decreto ante las nuevas circunstancias\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/rebajas-de-condenas-rabat-decidio-parar-cualquier-decreto-ante-las/2026-11-10/002856.html",
+      "cluster_id": "PML-EVENT-004",
+      "title": "Presupuesto: Cámara rechazó partida del Ministerio del Interior por recortes a emergencias y Ley Cholito",
+      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-camara-rechazo-partida-del-ministerio-del-interior-por/2026-11-10/192635.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -43,30 +43,36 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 64.2,
+        "score": 65.3,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 64.2
+        "editorial_utility": 65.3
       },
       "selection": {
-        "reason": "PML 64.2",
+        "reason": "PML 65.3",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 1,
+        "article_count": 2,
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-10T00:28:56-0300",
-      "last_seen": "2026-11-10T00:28:56-0300",
-      "entities": [],
+      "first_seen": "2026-11-10T16:31:08-0300",
+      "last_seen": "2026-11-10T19:26:35-0300",
+      "entities": [
+        "congreso",
+        "chile",
+        "senado",
+        "bachelet",
+        "boric"
+      ],
       "event_terms": [
-        "crisis",
-        "oposicion"
+        "judicial",
+        "ataque"
       ],
       "analysis": {
-        "summary": "El vocero de Gobierno, el subsecretario Gonzalo Arenas , defendió nuevamente este lunes el procedimiento de rebajas de condenas en medio de la dura crisis política que enfrenta el Ejecutivo por el denominado caso Rabat . La controversia se intensificó luego de conocerse que el ministro de Justicia, Fernando Rabat , firmó hace menos de una semana un nuevo decreto que rebajó la condena de un reconocido homicida de la Región de Valparaíso .",
+        "summary": "En el marco de la discusión de la Ley de Presupuesto 2027 , la Cámara de Diputados rechazó este martes la partida correspondiente al Ministerio del Interior y Seguridad Pública, en una votación que concluyó con un empate a 71 sufragios, impidiendo alcanzar la mayoría requerida para su aprobación.",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -79,30 +85,58 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Rebajas de condenas: Rabat decidió \"parar cualquier decreto ante las nuevas circunstancias\"",
-          "description": "El vocero de Gobierno, el subsecretario Gonzalo Arenas , defendió nuevamente este lunes el procedimiento de rebajas de condenas en medio de la dura crisis política que enfrenta el Ejecutivo por el denominado caso Rabat . La controversia se intensificó luego de conocerse que el ministro de Justicia, Fernando Rabat , firmó hace menos de una semana un nuevo decreto que rebajó la condena de un reconocido homicida de la Región de Valparaíso . Al respecto, Arenas sostuvo que \"en el Gobierno anterior se dictaron cerca de 1.600 decretos de rebajas de narcotraficantes ; o sea, es un procedimiento que ha existido siempre\". Sin embargo, precisó que \"ahora, ante las nuevas circunstancias, el ministro también ha tomado la decisión de parar cualquier decreto desde el jueves anterior, hasta que se resuelva cuál va a ser la situación definitiva de las personas que están acogidas a la ley general y no solo a la excepción por delitos sexuales contra menores\". Las declaraciones se producen en medio de las críticas de sectores del oficialismo a la conducción política del caso y mientras el Presidente José Antonio Kast prepara reuniones con los timoneles de los partidos oficialistas para abordar la crisis. En paralelo, la oposición dejó en manos de sus bancadas la definición de la fecha para presentar esta semana la acusación constitucional (AC) contra Rabat .",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/rebajas-de-condenas-rabat-decidio-parar-cualquier-decreto-ante-las/2026-11-10/002856.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000001320261110002856.jpg",
-          "published_raw": "Tue, 10 Nov 2026 00:28:56 -0300",
-          "published_at": "2026-11-10T00:28:56-0300",
+          "title": "Presupuesto: Cámara rechazó partida del Ministerio del Interior por recortes a emergencias y Ley Cholito",
+          "description": "En el marco de la discusión de la Ley de Presupuesto 2027 , la Cámara de Diputados rechazó este martes la partida correspondiente al Ministerio del Interior y Seguridad Pública, en una votación que concluyó con un empate a 71 sufragios, impidiendo alcanzar la mayoría requerida para su aprobación. De momento, la cartera del Interior es la única que no ha conseguido el respaldo de los legisladores , a diferencia de las partidas de Presidencia, Congreso Nacional, Poder Judicial, Contraloría y Relaciones Exteriores, que ya obtuvieron el visto bueno por parte de la corporación. ⭕️ #Presupuesto2027 La Cámara rechaza la partida del Ministerio del Interior, por 71 votos a favor y 71 en contra. Sigue el debate por: 📺 https://t.co/yUv697DucZ 📲 https://t.co/lIwKrNFWvI — Diputadas y Diputados de Chile (@Camara_cl) November 10, 2026 El rechazo de la mitad de los parlamentarios se concentró principalmente en dos materias: el debilitamiento de los recursos destinados a la prevención de desastres naturales , y una fuerte disminución en los fondos correspondientes a la implementación de la Ley de Tenencia Responsable de Mascotas , conocida como Ley Cholito. En medio del debate, el diputado Daniel Manouchehri (PS) increpó directamente al titular de Hacienda: \"Qué se le pasa por la cabeza, ministro (Jorge) Quiroz? ¿No ve la televisión? ¿No lee las noticias? ¿No escucharon nada del cambio climático? Eso de que somos un país sísmico, los incendios. ¿Les suena algo? ¿O los convenció el señor Kaiser del negacionismo climático?\", fustigó. \"¿Y qué decir de las mascotas? Reducen en un 86% el presupuesto de la Ley Cholito. ¿Qué le hicieron las mascotas a Kast?\" , reprochó el parlamentario opositor. [Lea también] Presupuesto: Cámara rechazó asignaciones para gastos y personal de expresidentes El desenlace de la votación también estuvo marcado por descuelgues, entre ellos el voto en contra del diputado Carlos Chandía (RN) , exárbitro FIFA, lo que terminó por dejar sin efecto los recursos destinados a Interior. Tras este resultado, el Gobierno deberá presentar una indicación única ante el Senado para reponer el financiamiento total de la cartera liderada por el biministro Claudio Alvarado. La Cámara baja rechazó toda la partida presupuestaria del Ministerio del Interior. (Al registrarse un empate a 71 votos, se entiende que no hubo mayoría para aprobarla). @Cooperativa — Jorge Espinoza Cuellar (@espinozacuellar) November 10, 2026",
+          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-camara-rechazo-partida-del-ministerio-del-interior-por/2026-11-10/192635.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110192635.jpg",
+          "published_raw": "Tue, 10 Nov 2026 19:26:35 -0300",
+          "published_at": "2026-11-10T19:26:35-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 6,
-          "score_elections": 0,
+          "score_institutional": 8,
+          "score_elections": 1,
+          "score_international": 1,
+          "score_conflict": 1,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 14,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-004"
+        },
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Presupuesto: Cámara rechazó asignaciones para gastos y personal de expresidentes",
+          "description": "En el marco de la discusión particular de la Ley de Presupuesto , l a Cámara de Diputados aprobó este martes las tres primeras partidas: Presidencia de la República, Poder Judicial y Congreso Nacional, pero rechazó , dentro de esta última, los recursos destinados  al financiamiento de las asignaciones de los expresidentes de la República. El pleno resolvió apoyar la propuesta del diputado Javier Olivares (PDG) para eliminar las asignaciones operativas de los exmandatarios, tales como gastos de funcionamiento de oficinas, costos de movilización y contratación de personal. 📌Cámara despachó Partida 02 Congreso Nacional. Ahora comienza el debate de la Partida 03 Poder Judicial. En vivo por: 📲https://t.co/lIwKrNFoGa 📺https://t.co/yUv697CWnr https://t.co/aCJKEgFf5c — Diputadas y Diputados de Chile (@Camara_cl) November 10, 2026 La votación generó un intenso debate, instancia en que el parlamentario promotor expresó: \" Basta de pagarles a los expresidentes por todo. Dejemos que ellos también, con la platita que han podido hacer, puedan pagar sus oficinas y a sus empleados, y que eso no salga de la plata de todos los chilenos\". \"¿Por qué le vamos a seguir entregando más y más platita a personas privilegiadas? Los expresidentes, en el próximo presupuesto para 2027, solamente van a contar con su sueldo . Así que que se pongan a mandar currículum y que se pongan también a buscar trabajo para que puedan sumar para poder pagar sus oficinas. Pero ya no puede seguir haciéndose eso con plata de todos los chilenos\", indicó. 🇨🇱 Si los chilenos tenemos que apretarnos el cinturón, los expresidentes de la República también. Por eso, presente una indicación al Presupuesto 2027 para rebajar en más de $508 millones los recursos destinados a los expresidentes y dejar solo lo que corresponde a sus dietas. Mi propuesta baja esa asignación de $915.745.000 a $406.900.000. Espero todos los parlamentarios me apoyen en esta moción de justicia social. — Javier Olivares A (@JavierOlivares) November 10, 2026 La diputada Daniela Serrano (PC) cuestionó la medida y aseguró que desde el oficialismo \"constantemente existe un ataque a la figura de la expresidenta Michelle Bachelet y también del Presidente Gabriel Boric. Es muy desleal que hoy día se pongan (esos dineros) en cuestionamiento, (porque) cuando estaba el expresidente Piñera no se decía nada en esta Cámara\". La indicación sólo afecta a las asignaciones de funcionamiento y logística institucional, sin alterar la dieta o pensión mensual que constitucionalmente perciben los exjefes de Estado. Luego de zanjar la partida del Congreso Nacional, la Sala de la Cámara inició de inmediato la discusión de la partida número cuatro, correspondiente a la Contraloría General de la República.",
+          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-camara-rechazo-asignaciones-para-gastos-y-personal-de/2026-11-10/163108.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110163108.jpg",
+          "published_raw": "Tue, 10 Nov 2026 16:31:08 -0300",
+          "published_at": "2026-11-10T16:31:08-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 5,
+          "score_elections": 1,
           "score_international": 0,
           "score_conflict": 0,
-          "score_policy": 0,
+          "score_policy": 1,
           "score_ideology": 0,
-          "score_actor": 4,
+          "score_actor": 3,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 10,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-010"
+          "cluster_id": "PML-EVENT-004"
         }
       ]
     },
@@ -119,12 +153,12 @@
         "country": "Ecuador / América Latina"
       },
       "relevance": {
-        "score": 61.8,
+        "score": 55.3,
         "level": "MEDIA",
-        "editorial_utility": 73.8
+        "editorial_utility": 67.3
       },
       "selection": {
-        "reason": "PML 61.8; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 55.3; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -181,6 +215,110 @@
     },
     {
       "position": 3,
+      "cluster_id": "PML-EVENT-002",
+      "title": "Cámara Baja aprobó en general el Presupuesto 2027, que avanzó a votación particular",
+      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-aprobo-en-general-el-presupuesto-2027-que-avanzo-a-votacion/2026-11-09/195727.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 63.5,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 58.5
+      },
+      "selection": {
+        "reason": "PML 63.5",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 2,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-09T19:57:27-0300",
+      "last_seen": "2026-11-10T14:47:09-0300",
+      "entities": [
+        "congreso",
+        "senado"
+      ],
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "El proyecto de Presupuesto 2027 comenzará su discusión en particular en la Cámara de Diputadas y Diputados en medio de tensiones entre el Gobierno y la oposición , tras las críticas del ministro de Hacienda, Jorge Quiroz, al nivel del debate y el bloqueo al ingreso del director de Presupuestos, José Pablo Gómez, a la Sala. La corporación aprobó en general la propuesta de erario nacional este lunes , en una sesión marcada por las controversias.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Presupuesto 2027: Dichos de Quiroz tensan debate en la Cámara",
+          "description": "El proyecto de Presupuesto 2027 comenzará su discusión en particular en la Cámara de Diputadas y Diputados en medio de tensiones entre el Gobierno y la oposición , tras las críticas del ministro de Hacienda, Jorge Quiroz, al nivel del debate y el bloqueo al ingreso del director de Presupuestos, José Pablo Gómez, a la Sala. La corporación aprobó en general la propuesta de erario nacional este lunes , en una sesión marcada por las controversias. Al término del debate, Quiroz pidió \"llevar la discusión realmente a un plano un poquito más elevado\" y cuestionó que los parlamentarios hablaran para las redes sociales. Sus declaraciones provocaron críticas en la oposición, que horas antes había rechazado autorizar el ingreso de Gómez al hemiciclo . La medida tiene como antecedente los bloqueos que parlamentarios de derecha aplicaron durante el Gobierno anterior a la entonces directora de Presupuestos, Javiera Martínez . Desde el oficialismo, el diputado Jorge Guzmán (Evópoli) planteó que \"más allá de los errores del pasado que pudo haber cometido el Partido Republicano, uno esperaría de la oposición que aprendan de ellos y que acepten la participación del director de Presupuesto para que haya un diálogo real\". Guzmán también defendió la respuesta de Quiroz: \"Si estamos en el nivel de los discursos que vimos ayer, con una insolencia, con una falta de respeto al ministro de Hacienda, que el ministro les conteste con algo así me parece que es legítimo \". Por su parte, el diputado Coloma (UDI) sostuvo que \"ayer hubo palabras de más de lado a lado que nosotros no consideramos positivo para el diálogo que tiene que tener el país en esta ley tan importante para todos los chilenos\". Ilabaca acusa una actitud \"prepotente y arrogante\" del Gobierno Pese al llamado del oficialismo a reconsiderar el ingreso del director de Presupuestos, el diputado Marcos Ilabaca (PS) ratificó que no dará su autorización y cuestionó las declaraciones de Quiroz . \" La actitud del Gobierno ha sido una actitud prepotente y arrogante . Y yo en lo particular no le voy a dar la autorización para que ingrese el director de Presupuesto\", aseveró. El parlamentario añadió que \"el ministro no puede venir a criticar diciendo que él viene a subir el estándar, viene a subir el nivel, porque las decisiones que hoy día tienen colapsado a nuestro país son gracias a sus características personales, son gracias a sus decisiones \". A su vez, el diputado Carlos Bianchi cuestionó al titular de Hacienda: \"Que él venga con su pasado a provocar al Congreso me parece que fue lo menos inteligente. Yo no sé si él tiene la moralidad suficiente para señalar aquello\". \" El ministro Quiroz es un provocador . Hizo que tuviera que llamársele la atención desde la mesa de la Cámara de Diputados\", agregó. Ossandón cuestiona al subsecretario de Hacienda por debate sobre apuestas Las tensiones entre representantes de Hacienda y parlamentarios también se extendieron a la Comisión de Economía del Senado , durante la discusión del proyecto sobre plataformas de apuestas. En esa instancia, el subsecretario de Hacienda, Sebastián Valebona , sostuvo que votar contra la iniciativa equivalía a \"votar en contra de los niños\", lo que provocó el rechazo del senador Manuel José Ossandón (RN) . \"Es un paso positivo ir en el camino de la regulación. Las plataformas es una realidad que operan, y que operan de manera ilegal. Lo que estaríamos haciendo votando en contra de esto sería votar en contra de los niños que hoy día están jugando, que son adictos, que no tienen las medidas de protección que nosotros como Ejecutivo estamos proponiendo\", afirmó Valebona. Ossandón respondió: \" No acepto que el subsecretario venga a decirnos aquí que votar esto es en contra de los niños, eso no se lo acepto \". \"Trabajé 20 años en las poblaciones que usted ni conoce, así que no me venga a decir eso. Me parece una falta de respeto. Le puedo mostrar miles de casos de ludopatía y gente que está reventada por esto, y cómo se arreglan los partidos y todo. Así que eso yo no lo acepto, ¿qué se ha imaginado? \", añadió.",
+          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-dichos-de-quiroz-tensan-debate-en-la-camara/2026-11-10/144709.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110144709.jpg",
+          "published_raw": "Tue, 10 Nov 2026 14:47:09 -0300",
+          "published_at": "2026-11-10T14:47:09-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 7,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 1,
+          "score_actor": 6,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 15,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-002"
+        },
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Cámara Baja aprobó en general el Presupuesto 2027, que avanzó a votación particular",
+          "description": "Con  80 votos a favor , 63 en contra y una abstención , la Cámara de Diputadas y Diputados aprobó este lunes , en general , el proyecto de Ley de Presupuesto 2027 , dando inicio a una etapa de votación en particular que pondrá a prueba la mayoría oficialista en el Congreso . La negativa en bloque manifestada por los comités opositores operó como una señal política de rechazo al diseño del erario fiscal . El alineamiento en contra se dio con margen de maniobra , considerando que el trámite general no corría peligro y que, ante un eventual rechazo definitivo tanto en la Cámara Baja como en el Senado, la ley define que rija por defecto el proyecto original ingresado por el Gobierno . Ahora, la Cámara Baja se prepara para sesiones que podrían extenderse hasta la madrugada del viernes para resolver las 2.242 indicaciones ingresadas . Gran parte de estas enmiendas corresponden a glosas de información periódica que se consolidarán en votaciones conjuntas , mientras que otras quedarán inadmisibles por reiteración o defectos de formulación . La tramitación particular continuará durante extensas jornadas con la revisión de más de 2.200 indicaciones y la discusión en bloque de la partida de Educación. (FOTO: ATON) Un punto neurálgico del debate será la partida del Ministerio de Educación, que fue repuesta íntegramente por el Ejecutivo tras haber sido rechazada en la Comisión Especial Mixta . Dicho movimiento reglamentario dejó sin efecto todas las indicaciones presentadas previamente por los parlamentarios , obligando a la sala a votar la asignación en su totalidad -aprobándola o rechazándola- antes de su posterior revisión en el Senado. Críticas del oficialismo y oposición La falta de reposición en Educación, las partidas de Senapred e incluso para el Servicio Nacional de Discapacidad (Senadis), generó diversas reacciones tanto desde el oficialismo como de la oposición. Desde el oficialismo, la diputada Flor Weisse (UDI) continúa con esperanza de reponer el presupuesto en Educación: \" En política nunca se cierran las puertas . Todavía seguimos conversando, hay posibilidades que obtener protocolos de acuerdo. Tenemos todavía días y horas en las cuales v amos a seguir conversando y hay que tener antecedentes y fundamentos que sean sólidos para poder lograr convencer, en el buen sentido, al ministro en base a lo que nosotros creemos que es lo más conveniente\". Desde la otra vereda, el diputado Marcos Ilabaca (PS) fue más duro y emplazó al líder de Hacienda: \"¿Qué pasó, señor Quiroz, con la partida de Senapred? ¿Qué pasó con la partida de Ciencia? Parece que se le quedaron olvidadas. Al no reponerlo lo que se votó en la mixta, hoy día no tiene presupuesto en esas partidas. ¿Qué va a hacer con ese tremendo error que usted ha cometido en esta discusión?\". Los cuestionamientos del ministro Quiroz E l ministro de Hacienda , Jorge Quiroz , intervino al término de la sesión con un llamado a los parlamentarios para \" tratar de ver si podemos llevar la discusión realmente a un plano un poquito más elevado \", cuestionado que la mayoría de ellos \"hablan para el reel , hablan para las redes sociales\". \"Quisiera invitarlos también a trabajar más colaborativamente. En lo que va en la fecha , hemos recibido 6.000 indicaciones sumando la Comisión Mixta y las que han ingresado en esta Cámara \", afirmó también el jefe de la billetera fiscal. La intervención de Quiroz terminó por tensar más el clima en un hemiciclo fuertemente polarizado.",
+          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-aprobo-en-general-el-presupuesto-2027-que-avanzo-a-votacion/2026-11-09/195727.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261109/imag/foto_0000000320261109195727.png",
+          "published_raw": "Mon, 09 Nov 2026 19:57:27 -0300",
+          "published_at": "2026-11-09T19:57:27-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 8,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 2,
+          "score_ideology": 0,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 15,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-002"
+        }
+      ]
+    },
+    {
+      "position": 4,
       "cluster_id": "PML-EVENT-003",
       "title": "Ubilla cuestiona ataques a Chile Vamos y pide convivencia oficialista",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/chile-vamos/ubilla-cuestiona-ataques-a-chile-vamos-y-pide-convivencia-oficialista/2026-11-09/110443.html",
@@ -192,12 +330,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 63.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 61.2
+        "score": 56.2,
+        "level": "MEDIA",
+        "editorial_utility": 52.2
       },
       "selection": {
-        "reason": "PML 63.2; nuevo tipo de evento",
+        "reason": "PML 56.2; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -256,10 +394,10 @@
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-006",
-      "title": "Cámara Baja aprobó en general el Presupuesto 2027, que avanzó a votación particular",
-      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-aprobo-en-general-el-presupuesto-2027-que-avanzo-a-votacion/2026-11-09/195727.html",
+      "position": 5,
+      "cluster_id": "PML-EVENT-008",
+      "title": "Rebajas de condenas: Rabat decidió \"parar cualquier decreto ante las nuevas circunstancias\"",
+      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/rebajas-de-condenas-rabat-decidio-parar-cualquier-decreto-ante-las/2026-11-10/002856.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -268,12 +406,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 62.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 57.2
+        "score": 57.2,
+        "level": "MEDIA",
+        "editorial_utility": 49.2
       },
       "selection": {
-        "reason": "PML 62.2; diversidad relajada para completar el brief",
+        "reason": "PML 57.2; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -283,15 +421,15 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-09T19:57:27-0300",
-      "last_seen": "2026-11-09T19:57:27-0300",
-      "entities": [
-        "congreso",
-        "senado"
+      "first_seen": "2026-11-10T00:28:56-0300",
+      "last_seen": "2026-11-10T00:28:56-0300",
+      "entities": [],
+      "event_terms": [
+        "crisis",
+        "oposicion"
       ],
-      "event_terms": [],
       "analysis": {
-        "summary": "Con  80 votos a favor , 63 en contra y una abstención , la Cámara de Diputadas y Diputados aprobó este lunes , en general , el proyecto de Ley de Presupuesto 2027 , dando inicio a una etapa de votación en particular que pondrá a prueba la mayoría oficialista en el Congreso . La negativa en bloque manifestada por los comités opositores operó como una señal política de rechazo al diseño del erario fiscal .",
+        "summary": "El vocero de Gobierno, el subsecretario Gonzalo Arenas , defendió nuevamente este lunes el procedimiento de rebajas de condenas en medio de la dura crisis política que enfrenta el Ejecutivo por el denominado caso Rabat . La controversia se intensificó luego de conocerse que el ministro de Justicia, Fernando Rabat , firmó hace menos de una semana un nuevo decreto que rebajó la condena de un reconocido homicida de la Región de Valparaíso .",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -304,121 +442,12 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Cámara Baja aprobó en general el Presupuesto 2027, que avanzó a votación particular",
-          "description": "Con  80 votos a favor , 63 en contra y una abstención , la Cámara de Diputadas y Diputados aprobó este lunes , en general , el proyecto de Ley de Presupuesto 2027 , dando inicio a una etapa de votación en particular que pondrá a prueba la mayoría oficialista en el Congreso . La negativa en bloque manifestada por los comités opositores operó como una señal política de rechazo al diseño del erario fiscal . El alineamiento en contra se dio con margen de maniobra , considerando que el trámite general no corría peligro y que, ante un eventual rechazo definitivo tanto en la Cámara Baja como en el Senado, la ley define que rija por defecto el proyecto original ingresado por el Gobierno . Ahora, la Cámara Baja se prepara para sesiones que podrían extenderse hasta la madrugada del viernes para resolver las 2.242 indicaciones ingresadas . Gran parte de estas enmiendas corresponden a glosas de información periódica que se consolidarán en votaciones conjuntas , mientras que otras quedarán inadmisibles por reiteración o defectos de formulación . La tramitación particular continuará durante extensas jornadas con la revisión de más de 2.200 indicaciones y la discusión en bloque de la partida de Educación. (FOTO: ATON) Un punto neurálgico del debate será la partida del Ministerio de Educación, que fue repuesta íntegramente por el Ejecutivo tras haber sido rechazada en la Comisión Especial Mixta . Dicho movimiento reglamentario dejó sin efecto todas las indicaciones presentadas previamente por los parlamentarios , obligando a la sala a votar la asignación en su totalidad -aprobándola o rechazándola- antes de su posterior revisión en el Senado. Los cuestionamientos del ministro Quiroz E l ministro de Hacienda , Jorge Quiroz , intervino al término de la sesión con un llamado a los parlamentarios para \" tratar de ver si podemos llevar la discusión realmente a un plano un poquito más elevado \", cuestionado que la mayoría de ellos \"hablan para el reel , hablan para las redes sociales\". \"Quisiera invitarlos también a trabajar más colaborativamente. En lo que va en la fecha , hemos recibido 6.000 indicaciones sumando la Comisión Mixta y las que han ingresado en esta Cámara \", afirmó también el jefe de la billetera fiscal. La intervención de Quiroz terminó por tensar más el clima en un hemiciclo fuertemente polarizado.",
-          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-aprobo-en-general-el-presupuesto-2027-que-avanzo-a-votacion/2026-11-09/195727.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261109/imag/foto_0000000320261109195727.png",
-          "published_raw": "Mon, 09 Nov 2026 19:57:27 -0300",
-          "published_at": "2026-11-09T19:57:27-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 8,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 2,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 13,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-006"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-005",
-      "title": "Soto: Acusación contra Rabat está al 99% y tendrá votos oficialistas",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/ppd/soto-acusacion-contra-rabat-esta-al-99-y-tendra-votos-oficialistas/2026-11-08/152309.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 57.9,
-        "level": "MEDIA",
-        "editorial_utility": 51.9
-      },
-      "selection": {
-        "reason": "PML 57.9; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 2,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-08T15:23:09-0300",
-      "last_seen": "2026-11-09T08:30:35-0300",
-      "entities": [
-        "congreso",
-        "senado",
-        "chile"
-      ],
-      "event_terms": [
-        "oposicion",
-        "crisis",
-        "judicial"
-      ],
-      "analysis": {
-        "summary": "El presidente de la Democracia Cristiana, el diputado Álvaro Ortiz , confirmó en Cooperativa que esta semana se presentará la acusación constitucional en contra del ministro de Justicia, Fernando Rabat , por la polémica firma de decretos para reducir condenas de abusadores y violadores de menores de 14 años.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Timonel DC: Esta semana se va a presentar la acusación contra Rabat",
-          "description": "El presidente de la Democracia Cristiana, el diputado Álvaro Ortiz , confirmó en Cooperativa que esta semana se presentará la acusación constitucional en contra del ministro de Justicia, Fernando Rabat , por la polémica firma de decretos para reducir condenas de abusadores y violadores de menores de 14 años. En conversación con El Diario de Cooperativa , el parlamentario dijo que \"una acusación constitucional se tiene que hacer como corresponde, se tiene que trabajar de una manera adecuada\". \"¿Se va a presentar? Sí se va a presentar. ¿Cuándo? Esta semana \", insistió Ortiz. Ortiz adelantó que \"de hecho, en unos minutos más tenemos la reunión de coordinación de partidos de oposición, como todos los lunes en la mañana y vamos a conocer ya esos detalles con mayor claridad\". Asimismo, el timonel recordó el tiempo que tomó preparar anteriores libelos: \"Pasó casi un mes cuando se acusó constitucionalmente al ministro (Carlos) Montes luego de su anuncio; cuando se acusó constitucionalmente a la exministra Carolina Tohá, dos meses\". \"¿Por qué quiero plantear esto? Porque las acusaciones constitucionales no se presentan al otro día después que se anuncian. Se tienen que elaborar, los abogados tienen que conversar, se tiene que ver cuáles son los capítulos que se van a presentar. En esta semana va a estar presentada esa acusación constitucional (contra Rabat)\", enfatizó. El parlamentario DC reiteró que la AC contra el titular de Justicia \"no es algo en contra del Presidente. Yo no sé si más del 90 por ciento de los chilenos nos habíamos puesto de acuerdo para decir 'todos estamos en contra'. Esto obedece a algo tan sensible como recordar a la familia y a las víctimas una violación de un niño o una niña. Esto no es una acusación constitucional por un tema político, por algo que se hizo en un ministerio, no, estamos hablando de rebajas de condenas a personas que les fregaron, les jodieron la vida, a niños y niñas de nuestro país\". Rabat llegó al Congreso sin ser invitado En paralelo, la tensión con el ministro de Justicia se trasladó al Congreso, porque Rabat llegó esta mañana a la Comisión de Constitución del Senado pese a que su presidente, el senador Vlado Mirosevic (PL), decidió no invitarlo por la demora del Gobierno  en responder a las  solicitudes de información sobre las rebajas de penas . \"Yo como presidente de esta comisión, efectivamente, no invité al ministro. Pero quiero hacer presente la molestia de la mayoría de los miembros de esta comisión respecto de la demora en la entrega de los antecedentes , en particular el oficio que nosotros despachamos semanas atrás respecto de los decretos firmados\", dijo Mirosevic. El secretario de Estado explicó que asistió a la instancia por las obligaciones que le impone su cargo y señaló que el ministerio trabaja en cerca de 50 requerimientos enviados por el Congreso. No obstante, el senador del PL  insistió en que \" el ministro no es un interlocutor válido. Está asistiendo a sesiones de comisiones en el Congreso Nacional sin ser invitado. Uno no va donde no lo invitan, eso es de buena educación. Pero estar provocando, yendo donde no lo invitan, sabiendo que genera un problema para su propio Gobierno\" .\" \"Evidentemente que esto expone que es más necesario que nunca que el Presidente Kast le pida la renunci a o que él, de motu proprio , pueda dar un paso al costado entendiendo que le está haciendo un daño a su Presidente y a su Gobierno. La crisis se sigue profundizando, se sigue alargando y eso no es por una decisión de la oposición, es por una falta de decisión del Presidente Kast\", aseveró. Rabat respondió a Mirosevic y le señaló que \"usted me había desinvitado a esta comisión. Estoy aquí cumpliendo las obligaciones que me impone la Constitución Política de la República, en tanto soy el ministro de Justicia y Derechos Humanos del Gobierno del presidente José Antonio Kast. En relación con su solicitud de información, todas ellas se encuentran trabajándose para responderle al Congreso Nacional\". Discusión jurídica sobre los cargos que serán incorporados Una de las razones de la demora es la discusión jurídica sobre los cargos que finalmente serán incorporados en la AC,  puesto que algunos expertos consultados por el sector han cuestionado la solidez judicial del libelo. Sin embargo, los partidos de oposición desdramatizaron esas diferencias y aseguraron que las observaciones permitieron anticipar la defensa de Rabat y reforzar el texto. Entre los fundamentos aparecen eventuales infracciones a las normas que protegen a niños, niñas y adolescentes, los beneficios concedidos a condenados por crímenes de lesa humanidad y la demora en la entrega de información  por parte de Rabat. [Lea también] Soto: Acusación contra Rabat está al 99% y tendrá votos oficialistas El diputado Raúl Soto, presidente del PPD , señaló que \"siempre habrá opiniones jurídicas diversas, eso es parte del ejercicio jurídico y parte también del contexto democrático en el cual estamos . Nosotros lo valoramos, eso ha enriquecido el trabajo y ha permitido también incorporar otros argumentos en el camino\". \"Es probable que algunos parlamentarios voten a favor unos capítulos y otros en contra, y eso lo desdramatizamos porque basta con que se apruebe un capítulo para que el ministro sea destituido\", aseveró el legislador.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/timonel-dc-esta-semana-se-va-a-presentar-la-acusacion-contra-rabat/2026-11-09/083035.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261109/imag/foto_0000000220261109083035.jpg",
-          "published_raw": "Mon, 09 Nov 2026 08:30:35 -0300",
-          "published_at": "2026-11-09T08:30:35-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 8,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 5,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 14,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-005"
-        },
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Soto: Acusación contra Rabat está al 99% y tendrá votos oficialistas",
-          "description": "El diputado Raúl Soto, presidente del PPD,  aseguró que la acusación constitucional contra el ministro de Justicia, Francisco Rabat, se encuentra \"casi lista\" y contaría con votos oficialistas. En conversación con \"Estado Nacional\" de TVN , el parlamentario abordó la acción que prepara la oposición contra el secretario de Estado en respuesta a la rebaja de penas a personas condenadas por abuso y violación contra menores de edad, narcotráficantes, asesinos y violadores de derechos humano s, decretos firmados por su cartera. \"Está concluyendo el trabajo de redacción de la acusación constitucional. Diría que estamos en un 99% de avance y en los próximos días se va a concluir en un 100% ; se van a hacer las revisiones y los retoques finales para poder presentarla en los próximos días\", afirmó el diputado opositor. [Lea también]   Acusación contra Rabat: RN descarta \"órdenes del partido\" y pide ajustes políticos Soto aseveró que el titular de Justicia \"tiene responsabilidad política, administrativa por la liberación de pedófilos, de violadores de derechos humanos, de narcotraficantes y criminales altamente peligrosos en nuestro país. Fue un cambio de criterio jurídico absolutamente equivocado y, además de eso, ha infringido leyes, la Constitución y tratados internacionales\". El parlamentario adelantó que la acción consiste en tres capítulos: \" Uno por la liberación de pedófilos, otro por la liberación y rebaja de condena de violadores de derechos humanos, y un tercero por faltas a la probidad \". \" El ministro ha actuado de mala fe, ha escondido información y derechamente ha mentido ante otro poder del Estado como el Congreso Nacional y ante toda la opinión pública\", agregó el legislador. Votos de Chile Vamos y del PDG El timonel PPD fue enfático en señalar que \"acá hay dos caminos: nos ponemos del lado de las víctimas , que son niños, niñas y adolescentes vulnerados en sus derechos, abusados, violados, y también de sus familias; o del lado de los victimarios , que son los abusadores, los violadores de esos niños, y de un gobierno indolente que sigue defendiendo lo indefendible\". En ese sentido, afirmó que \" van a estar todos los votos de la oposición , pero no me cabe ninguna duda que también van a existir votos del oficialismo, particularmente de Chile Vamos, y espero que tengamos los votos de la totalidad del PDG \". Soto sostuvo que la situación no solo generó una crisis política, sino también una \"crisis ética muy profunda, es una crisis moral que genera un quiebre con la sociedad chilena. Y esa desconfianza va a ser muy difícil de recuperarla si el Presidente Kast no asume su liderazgo y solicita la renuncia a su ministro (...) Por defenderlo, está poniendo en riesgo a todo su Gobierno \". En cuanto a la propuesta presentada por el Ejecutivo para derogar las rebajas de pena , el diputado manifestó la disponibilidad del sector para avanzar en ella . Sin embargo, planteó que \"quien debe liderar ese proceso no es el ministro Fernando Rabat. Él creó el problema, él generó esta crisis, no va a ser la persona que la va a solucionar\".",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/ppd/soto-acusacion-contra-rabat-esta-al-99-y-tendra-votos-oficialistas/2026-11-08/152309.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000001420261108152309.jpg",
-          "published_raw": "Sun, 08 Nov 2026 15:23:09 -0300",
-          "published_at": "2026-11-08T15:23:09-0300",
+          "title": "Rebajas de condenas: Rabat decidió \"parar cualquier decreto ante las nuevas circunstancias\"",
+          "description": "El vocero de Gobierno, el subsecretario Gonzalo Arenas , defendió nuevamente este lunes el procedimiento de rebajas de condenas en medio de la dura crisis política que enfrenta el Ejecutivo por el denominado caso Rabat . La controversia se intensificó luego de conocerse que el ministro de Justicia, Fernando Rabat , firmó hace menos de una semana un nuevo decreto que rebajó la condena de un reconocido homicida de la Región de Valparaíso . Al respecto, Arenas sostuvo que \"en el Gobierno anterior se dictaron cerca de 1.600 decretos de rebajas de narcotraficantes ; o sea, es un procedimiento que ha existido siempre\". Sin embargo, precisó que \"ahora, ante las nuevas circunstancias, el ministro también ha tomado la decisión de parar cualquier decreto desde el jueves anterior, hasta que se resuelva cuál va a ser la situación definitiva de las personas que están acogidas a la ley general y no solo a la excepción por delitos sexuales contra menores\". Las declaraciones se producen en medio de las críticas de sectores del oficialismo a la conducción política del caso y mientras el Presidente José Antonio Kast prepara reuniones con los timoneles de los partidos oficialistas para abordar la crisis. En paralelo, la oposición dejó en manos de sus bancadas la definición de la fecha para presentar esta semana la acusación constitucional (AC) contra Rabat .",
+          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/rebajas-de-condenas-rabat-decidio-parar-cualquier-decreto-ante-las/2026-11-10/002856.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000001320261110002856.jpg",
+          "published_raw": "Tue, 10 Nov 2026 00:28:56 -0300",
+          "published_at": "2026-11-10T00:28:56-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
@@ -428,15 +457,15 @@
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 6,
+          "score_actor": 4,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 12,
+          "political_evidence": 10,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-005"
+          "cluster_id": "PML-EVENT-008"
         }
       ]
     }
@@ -449,166 +478,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-001",
-        "title": "Acusación contra Rabat: RN descarta \"órdenes del partido\" y pide ajustes políticos",
+        "cluster_id": "PML-EVENT-009",
+        "title": "Vodanovic criticó \"guion\" del Gobierno: Cuando no le resulta culpar a Boric, culpa a Bachelet",
         "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_CRISIS",
+        "event_type": "POLITICAL_STATEMENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/acusacion-contra-rabat-rn-descarta-ordenes-del-partido-y-pide-ajustes/2026-11-08/150007.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/vodanovic-critico-guion-del-gobierno-cuando-no-le-resulta-culpar-a/2026-11-10/115732.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 50,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 72,
-            "freshness": 52,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 34
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-08T15:00:07-0300",
-        "last_seen": "2026-11-08T15:00:07-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Acusación contra Rabat: RN descarta \"órdenes del partido\" y pide ajustes políticos",
-            "description": "La presidenta de Renovación Nacional, Andrea Balladares, dejó en manos de los diputados de su partido la definición sobre la acusación constitucional que prepara la oposición contra el ministro de Justicia, Fernando Rabat , y llamó a evaluar su contenido antes de resolver una posición. La senadora también sostuvo que la crisis por las rebajas de condenas dejó en evidencia problemas de coordinación política y comunicacional en el Gobierno , diagnóstico que coincidió con el del senador de Evópoli Luciano Cruz-Coke , quien pidió mejorar la gestión y la relación del Ejecutivo con los partidos que lo respaldan. Consultada sobre si toda la bancada de RN se alineará contra el libelo, Balladares respondió que esa decisión corresponde a los diputados, aunque recordó que su jefe de bancada ha anticipado que cree que votarán en contra. \"Nosotros no tenemos órdenes de partido, eso no existe\" , afirmó. Añadió que los parlamentarios deben deliberar dentro de la bancada y resolver cuando conozcan el texto, \"evaluando el mérito de la acusación\". Balladares evitó pronunciarse sobre el fondo del eventual libelo, señalando que, como senadora, podría tener que actuar como jurado. Oficialismo pide mejorar la coordinación El presidente de Evópoli, Luciano Cruz-Coke, cuestionó la viabilidad de la ofensiva y atribuyó la demora en su presentación a una presunta falta de apoyos. \"Yo creo que no tienen los votos\" , afirmó, junto con sostener que el conflicto es de carácter político y no constitucional. El senador también respaldó la decisión de mantener a Rabat: \"Yo soy presidente de un partido de gobierno y respeto y respaldo la posición del presidente de la República\". Más allá de la acusación, Balladares planteó que la crisis exige cambios en el funcionamiento del Ejecutivo, en medio de los cuestionamientos desde el propio oficialismo a la conducción política del Gobierno . \"Esta crisis ha dejado en evidencia una debilidad aún en la coordinación política y comunicacional del gobierno\" , sostuvo, aunque descartó responsabilizar al vocero, argumentando que recién asumía sus funciones cuando se produjo la controversia. La presidenta de RN señaló que las mejoras no pasan necesariamente por reemplazar ministros, subsecretarios o asesores: \"La verdad que es más estructural que eso\" , afirmó. En esa línea, pidió una coordinación de mejor nivel con los partidos para anticipar crisis y retomar las prioridades del programa. También advirtió que el caso ha afectado atributos del Mandatario : \"Eso afecta al presidente, al gobierno y a todos los partidos que lo apoyamos\" . Cruz-Coke coincidió en que un eventual cambio de gabinete no basta para resolver las dificultades. \"Para mí no es un problema de nombres, es un problema también de gestión y diseño político\" , expresó. El senador planteó fortalecer la coordinación entre el Ejecutivo y los partidos que sostienen su agenda en el Congreso, con el objetivo de evitar errores que calificó como \"autoinfligidos\". Los planteamientos se producen después de que La Moneda descartara un cambio de gabinete pese a las presiones de sectores oficialistas .",
-            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/acusacion-contra-rabat-rn-descarta-ordenes-del-partido-y-pide-ajustes/2026-11-08/150007.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000000220261108150007.jpg",
-            "published_raw": "Sun, 08 Nov 2026 15:00:07 -0300",
-            "published_at": "2026-11-08T15:00:07-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 8,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 8,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 17,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 19,
-          "labels": [
-            "Estado e instituciones",
-            "Elecciones y opinión pública"
-          ],
-          "chile_utility": 69
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-011",
-        "title": "\"Todo va a estar bien\": Frase de Kast genera más decepción que esperanza",
-        "topic": "Elecciones y opinión pública",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/todo-va-a-estar-bien-frase-de-kast-genera-mas-decepcion-que-esperanza/2026-11-08/124626.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 46.6,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 52,
-            "freshness": 52,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 38
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-08T12:46:26-0300",
-        "last_seen": "2026-11-08T12:46:26-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "\"Todo va a estar bien\": Frase de Kast genera más decepción que esperanza",
-            "description": "La frase \"Todo va a estar bien\", utilizada por el Presidente José Antonio Kast, genera decepción en un 46% de los encuestados , según los resultados de Agenda Criteria publicados este domingo 8 de noviembre. Ante la consulta por las emociones que provoca el mensaje presidencial, un 30% mencionó rabia, un 21% esperanza y un 15% confianza . La pregunta permitía seleccionar más de una alternativa, por lo que los porcentajes no suman 100%. La expresión ha acompañado a Kast desde sus campañas presidenciales y al cierre del proceso electoral que lo llevó a La Moneda. Ver esta publicación en Instagram Una publicación compartida por José Antonio Kast Rist (@joseantoniokast) Entre quienes declararon haber votado por Kast en la segunda vuelta presidencial de 2025, la esperanza fue la emoción más mencionada, con un 41% , seguida por la decepción, con un 32%, y la confianza, con un 31%. El estudio también consultó por la capacidad del Ejecutivo para lograr que al país le vaya bien: un 68% lo consideró poco o nada capaz , frente a un 23% que lo evaluó como bastante o muy capaz. Otro 9% señaló no tenerlo claro. Solo un 16% identifica un plan claro de seguridad En materia de gestión, un 47% de los encuestados consideró que el Gobierno no tiene un plan claro de seguridad y está improvisando , cinco puntos más que en agosto, la última medición disponible sobre esta materia. En contraste, un 16% afirmó que existe un plan claro , mientras un 28% sostuvo que el Ejecutivo tiene algunas ideas, pero no un plan definido. Un 9% respondió que no sabe. La percepción de improvisación también alcanzó un 48% en generación de empleo y un 44% en crecimiento económico . En esas áreas, quienes identificaron un plan claro representaron un 17% y un 20%, respectivamente. Respecto de octubre, la percepción de improvisación aumentó tres puntos en empleo y disminuyó uno en crecimiento económico. Al evaluar el camino que sigue el Gobierno para enfrentar lo que ha descrito como una situación de emergencia, un 55% lo calificó como incorrecto y un 26% como correcto . En marzo, esas cifras eran de 43% y 39%, respectivamente. Aprobación presidencial llega a 24% La aprobación de Kast se situó en 24%, un punto menos que la semana anterior , mientras la desaprobación subió dos puntos y llegó a 67% . Un 9% declaró no saber. En la medición de Criteria difundida el 1 de noviembre , el respaldo al Mandatario se ubicaba en 25% y el rechazo, en 65%. La encuesta también registró una disminución de los atributos presidenciales respecto de mayo. Quienes consideran que Kast tiene las capacidades necesarias para el cargo pasaron de 50% a 36% , mientras la proporción que lo identifica como \"el líder que Chile necesita\" bajó de 42% a 26%. Los atributos con mayor reconocimiento fueron \"es trabajador\", con un 48%, y \"es directo, va de frente\", con un 39% , aunque ambos retrocedieron respecto de mayo, en ocho y 14 puntos, respectivamente. Ficha técnica La encuesta Agenda Criteria se realizó entre el 5 y el 6 de noviembre de 2026 , mediante cuestionarios autoadministrados a través de un panel online cerrado y certificado, con una muestra de 802 casos . El estudio es cuantitativo y no probabilístico , con selección aleatoria dentro del panel y estratificación por cuotas. Su población objetivo corresponde a hombres y mujeres de 18 años o más, de los niveles socioeconómicos ABCD, residentes en todo Chile. Los resultados fueron ponderados por zona, sexo, edad y nivel socioeconómico.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/encuestas/todo-va-a-estar-bien-frase-de-kast-genera-mas-decepcion-que-esperanza/2026-11-08/124626.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261108/imag/foto_0000000220261108124626.jpg",
-            "published_raw": "Sun, 08 Nov 2026 12:46:26 -0300",
-            "published_at": "2026-11-08T12:46:26-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 2,
-            "score_elections": 3,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 1,
-            "score_ideology": 0,
-            "score_actor": 1,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 8,
-            "primary_topic": "Elecciones y opinión pública",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-011"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 10,
-          "labels": "Elecciones y opinión pública",
-          "chile_utility": 56.6
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Oposición bloquea ingreso del director de Presupuestos y replica medida contra Martínez",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/oposicion-bloquea-ingreso-del-director-de-presupuestos-y-replica-medida/2026-11-09/150443.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 53.2,
+          "score": 54.6,
           "level": "MEDIA",
           "components": {
-            "political_impact": 50,
+            "political_impact": 52,
             "freshness": 88,
             "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 42
+            "geographic_scope": 55,
+            "continuity": 28
           }
         },
         "coverage": {
@@ -616,36 +504,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-09T15:04:43-0300",
-        "last_seen": "2026-11-09T15:04:43-0300",
+        "first_seen": "2026-11-10T11:57:32-0300",
+        "last_seen": "2026-11-10T11:57:32-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Oposición bloquea ingreso del director de Presupuestos y replica medida contra Martínez",
-            "description": "Los comités parlamentarios de la oposición rechazaron este lunes autorizar el ingreso del director de Presupuestos, José Pablo Gómez, a la Sala de la Cámara de Diputadas y Diputados , en el inicio de la discusión del proyecto de Ley de Presupuestos 2027 . La decisión tiene como antecedente los bloqueos que parlamentarios de derecha aplicaron durante el Gobierno anterior a la entonces directora de Presupuestos, Javiera Martínez , a quien impidieron participar en distintas ocasiones del debate en el hemiciclo. El diputado Agustín Romero (Republicanos) cuestionó la disposición de la oposición al diálogo, aunque reconoció haber recurrido a la misma medida durante la administración pasada. \"Yo no puedo reclamar mucho por esto porque en la administración pasada tampoco permití el ingreso de la 'mejor directora de Presupuesto de todos los tiempos' \", sostuvo. Las bancadas de oposición negaron el acuerdo para permitir la presencia en el hemiciclo del director de Presupuestos, José Pablo Gómez. (FOTO: ATON) Pese a ello, afirmó que el ministro de Hacienda, Jorge Quiroz, está en condiciones de conducir la discusión y abordó el escenario de las partidas de Educación y Ciencia, rechazadas previamente en la Comisión Especial Mixta de Presupuestos . \"La partida de Educación se repone completa, así que no hay ninguna posibilidad de presentar indicaciones ni votación separada: o se aprueba o se rechaza \", explicó. Según Romero, en Ciencia ocurrirá lo mismo, mientras que otras asignaciones rechazadas en la comisión no fueron repuestas. \"Sence creo que no se repuso, y todas las que rebajamos nosotros de sitios de memoria se mantuvieron con las asignaciones de mil pesos que quedaron originalmente\", agregó. Oposición cuestiona recursos para empleo y capacitación En paralelo, las bancadas de centroizquierda acordaron centrar sus cuestionamientos en el empleo y los recursos destinados a capacitación . La diputada Gael Yeomans (Frente Amplio) calificó la propuesta como una \"Ley de Presupuesto del desempleo\" y acusó una reducción de los fondos para capacitación y para el subsidio unificado al empleo. La parlamentaria vinculó esos recortes con las decisiones tributarias del Gobierno y cuestionó que Quiroz \"sacó una 'ley de los súper ricos' que ahora le obliga a tener que recortar recursos desde los derechos sociales de las personas\". Desde el bloque opositor reforzaron la ofensiva contra el Ejecutivo catalogando la propuesta como una \"Ley de Presupuesto del desempleo\". (FOTO: ATON) Por su parte, el diputado Raúl Soto (PPD) emplazó al ministro de Economía por los compromisos del Ejecutivo en materia laboral. \" En junio de este año el ministro de Economía prometió 50.000 nuevos empleos a octubre de este año \", señaló. Soto sostuvo que esa meta no se cumplió y afirmó que, por el contrario, se destruyeron 100.000 empleos , citando cifras del INE. El parlamentario también apuntó al ministro del Trabajo, Tomás Rau, a quien atribuyó responsabilidad por no generar condiciones para la empleabilidad . Más de 2.200 indicaciones y la postura de Hacienda La discusión en la Cámara contempla 2.242 indicaciones, de las cuales cerca de un centenar corresponden al Ejecutivo . La Secretaría de la corporación revisa las propuestas para identificar aquellas inadmisibles, repetidas o mal formuladas. En tanto, las glosas de información se darán por aprobadas en conjunto . En este escenario, el ministro de Hacienda, Jorge Quiroz, aseguró que la tramitación avanza y consideró habituales las diferencias surgidas durante el debate. Pese al ambiente de fricción en el Congreso, el ministro de Hacienda, Jorge Quiroz, aseguró que \"estamos tranquilos, no tenemos ninguna preocupación\". (FOTO: ATON ) \"La Ley de Presupuesto va avanzando, estamos tranquilos, no tenemos ninguna preocupación en ese sentido. Es lo normal, siempre hay discusiones, siempre hay partidas que se traban \", afirmó. El secretario de Estado añadió que \"la semana pasada destrabamos el tema de las donaciones, cada día tiene su afán, cada semana tiene algo más que hay que resolver\". El cronograma legislativo contempla la votación en general durante la tarde de este lunes . La discusión y votación en particular de las partidas se extendería desde este martes hasta la madrugada del viernes .",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/oposicion-bloquea-ingreso-del-director-de-presupuestos-y-replica-medida/2026-11-09/150443.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261109/imag/foto_0000000520261109150443.png",
-            "published_raw": "Mon, 09 Nov 2026 15:04:43 -0300",
-            "published_at": "2026-11-09T15:04:43-0300",
+            "title": "Vodanovic criticó \"guion\" del Gobierno: Cuando no le resulta culpar a Boric, culpa a Bachelet",
+            "description": "La presidenta del Partido Socialista, Paulina Vodanovic, acusó al Gobierno de recurrir a las administraciones de Gabriel Boric y Michelle Bachelet para explicar los problemas actuales , en medio de la controversia por las irregularidades detectadas en las cifras de producción de Codelco . En El Primer Café de Cooperativa , la senadora cuestionó las declaraciones del presidente de la cuprífera, Bernardo Fontaine, y sostuvo que su responsabilidad es adoptar medidas para mejorar la empresa y esperar los resultados de las investigaciones antes de atribuir responsabilidades. \"Su obligación no es atacar a la institucionalidad anterior sin antecedentes fundados. Porque aquí lo que hemos visto además del gobierno es que este guion está escrito: todo es culpa del gobierno anterior, y si no es del anterior es de Bachelet 2014; cuando no le resulta Boric, le resulta Bachelet 2014 \", afirmó. Vodanovic acompañó ese reproche con una defensa de las políticas impulsadas por la exmandataria y una alusión a la discusión presupuestaria sobre la entrega de computadores a estudiantes. \"La gente se da cuenta que con Bachelet tuvo pensiones, que tuvo gratuidad universitaria, que tuvo los computadores, que no se los andaban quitando para después devolvérselos\", señaló. Rechaza que se trate de una defensa de Pacheco Consultada sobre si la postura del PS frente a la controversia respondía también a una defensa de Máximo Pacheco , militante socialista y expresidente de Codelco, a quien Bernardo Fontaine sucedió en la presidencia del directorio, Vodanovic rechazó que el respaldo de su partido se limitara a una persona. \"Reducir esto a la defensa de una persona me parece que es ofender la inteligencia de los chilenos\", respondió Vodanovic, quien insistió en que deben conocerse los resultados de las auditorías y las investigaciones. La senadora también reaccionó a los cuestionamientos de Fontaine al PS por su postura frente a las denuncias sobre las cifras de producción de la minera. \"El señor Fontaine tiene toda la facultad de ir e interponer las acciones que quiera, pero también tiene la obligación y el deber de esperar el resultado de eso y de no anticipar una opinión tan tajante\" , sostuvo. En esa línea, recalcó que el presidente de la compañía debe concentrarse en su gestión: \"Tiene que ver y proyectar la empresa para que tenga mejores números, esa es su obligación\". Acusa una estrategia para privatizar Codelco Vodanovic defendió la declaración pública de su partido sobre la situación de la minera y acusó que existe una estrategia para deteriorar su imagen y abrir paso a una privatización . \"Lo que aquí se está haciendo es tratar de demoler la imagen de una empresa estatal como es Codelco, que puede ser sujeta a muchos cambios y mejoras, por cierto\", afirmó. Consultada por el objetivo que atribuye a esa estrategia, respondió: \"Privatizar Codelco a través de la venta de los demás yacimientos o las participaciones en los demás yacimientos, si Codelco no es solo Chuquicamata\". La presidenta del PS sostuvo que su postura no implica rechazar las fiscalizaciones, sino exigir que se respeten los procedimientos y se conozcan sus conclusiones antes de formular acusaciones. La secretaria general del PC, Bárbara Figueroa , respaldó el planteamiento socialista y expresó preocupación por las declaraciones de Fontaine, tanto por el rigor de la información como por el interés de actores privados en participar en la actividad minera.",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/vodanovic-critico-guion-del-gobierno-cuando-no-le-resulta-culpar-a/2026-11-10/115732.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000001420261110115732.jpg",
+            "published_raw": "Tue, 10 Nov 2026 11:57:32 -0300",
+            "published_at": "2026-11-10T11:57:32-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 6,
-            "score_elections": 1,
+            "score_institutional": 3,
+            "score_elections": 0,
             "score_international": 0,
             "score_conflict": 0,
-            "score_policy": 4,
-            "score_ideology": 2,
-            "score_actor": 3,
+            "score_policy": 1,
+            "score_ideology": 1,
+            "score_actor": 4,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 16,
+            "political_evidence": 9,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
+            "cluster_id": "PML-EVENT-009"
           }
         ],
         "article_count": 1,
@@ -653,7 +541,145 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 62.2
+          "chile_utility": 63.6
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-007",
+        "title": "Rabat descarta presión para dejar Justicia: \"Estoy muy contento en mi labor\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/rabat-descarta-presion-para-dejar-justicia-estoy-muy-contento-en-mi/2026-11-10/145024.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 53.8,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 50,
+            "freshness": 95,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-10T14:50:24-0300",
+        "last_seen": "2026-11-10T14:50:24-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Rabat descarta presión para dejar Justicia: \"Estoy muy contento en mi labor\"",
+            "description": "El ministro de Justicia, Fernando Rabat, afirmó este martes que no se siente presionado a dejar el cargo , en medio de los cuestionamientos por las rebajas de condenas a personas sentenciadas por delitos sexuales contra menores de edad . \" No me siento presionado, no siento presión para nada: estoy muy contento en mi labor como ministro de Justicia del Presidente José Antonio Kast \", sostuvo en los pasillos del Congreso Nacional. El secretario de Estado aseguró que continuará con su trabajo legislativo, mientras la oposición prepara una acusación constitucional en su contra. \"He venido durante ocho meses prácticamente todos los días de la semana (al Congreso) y lo voy a seguir haciendo. Creo que es muy importante intervenir en el trabajo legislativo, lograr acuerdos con los señores parlamentarios para tener una legislación que sea lo mejor para Chile \", afirmó. Respecto a la controversia por el caso del Colegio Apoquindo, Rabat precisó que \"mi labor profesional fue defender civilmente a una persona que era dueña del establecimiento educacional\". (FOTO: ATON) Consultado por la rebaja de condena otorgada a una mujer condenada por abusos sexuales en el Colegio Apoquindo , Rabat rechazó los cuestionamientos por su trabajo como abogado de uno de los dueños del establecimiento entre 2014 y 2023 y llamó a \"informar bien\". \"No he representado a esas personas condenadas penalmente. Mi labor profesional fue defender civilmente a una persona que era dueña del establecimiento educacional , y eso no tiene ninguna situación extraordinaria\", puntualizó. En paralelo, el Ministerio Público solicitó copias de decretos ministeriales y fijó un plazo de siete días hábiles para su entrega , que, según el ministro, aún no vence. En el ámbito político, la oposición continúa preparando una acusación constitucional contra Rabat , en medio del debate entre los partidos oficialistas sobre su respaldo al secretario de Estado. Críticas desde el oficialismo Las declaraciones de Rabat se producen en medio de cuestionamientos desde sectores del propio oficialismo a su continuidad en el cargo . Exministros del Gobierno de Sebastián Piñera advirtieron sobre los costos de mantener al secretario de Estado. Víctor Pérez calificó de \"riesgosa\" la decisión , mientras que Cristián Monckeberg afirmó que \"no somos borregos, se necesitan cambios\" . Rodrigo Álvarez también planteó que se deben asumir responsabilidades. En esa misma línea, el alcalde de Providencia y exvocero de Gobierno, Jaime Bellolio , cuestionó la conducción del Ejecutivo. \"Creo que hay una dificultad en la dirección que ha tomado el gobierno, en la manera en que se toman algunas decisiones que a veces se demoran demasiado\", afirmó. El complejo escenario empujó al Presidente José Antonio Kast a convocar este martes a los timoneles oficialistas a un cónclave en Cerro Castillo. (FOTO: ATON) \"Creo que obviamente nos pueden faltar algunos datos porque no estamos adentro del gobierno, pero hay momentos en los cuales los equipos tienen que cambiar para poder seguir adelante con la agenda \", enfatizó. \"De lo contrario, se profundiza el error y en vez de que se vea como un presidente que apoya a los ministros, se ve como alguien que no ha querido tomar otras decisiones, y cuando algo es un error grave, tiene que haber consecuencias \", añadió. En medio de estos cuestionamientos, el Presidente José Antonio Kast convocó para la noche de este martes a los presidentes de los partidos oficialistas al Palacio de Cerro Castillo .",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/rabat-descarta-presion-para-dejar-justicia-estoy-muy-contento-en-mi/2026-11-10/145024.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000420261110145024.png",
+            "published_raw": "Tue, 10 Nov 2026 14:50:24 -0300",
+            "published_at": "2026-11-10T14:50:24-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 6,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 5,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 11,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": null,
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-007"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 62.8
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-010",
+        "title": "Longton: Aplicar alza de las bencinas fue \"decisión responsable\", pero faltó prontitud en medidas paliativas",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/longton-aplicar-alza-de-las-bencinas-fue-decision-responsable-pero/2026-11-10/093113.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 52.6,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 52,
+            "freshness": 88,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-10T09:31:13-0300",
+        "last_seen": "2026-11-10T09:31:13-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Longton: Aplicar alza de las bencinas fue \"decisión responsable\", pero faltó prontitud en medidas paliativas",
+            "description": "El senador Andrés Longton (RN) planteó en Cooperativa que fue buena la decisión del Presidente Kast de no enfrentar el alza internacional de las bencinas y pasar el costo a los consumidores, aunque reconoció que se debió tomar medidas para enfrentar sus consecuencias con \"mayor prontitud\", con el fin de evitar manifestaciones como la que realizan actualmente los camioneros en diversos lugares del país. En conversación con El Diario de Cooperativa , el parlamentario recalcó que \"hay elementos que escapan un poco de la responsabilidad directa del gobierno, independientemente de que el alza de las bencinas se haya tomado la decisión de que se hiciera una vez y no de manera progresiva. Probablemente habríamos estado en el mismo escenario, pero de una manera más lenta pero que igualmente hubiese afectado indirectamente a los camioneros\". \"Ha pasado tiempo desde las alzas de las bencinas, por lo tanto yo creo que eventualmente habríamos llegado al mismo resultado hoy día o en un mes más\" , sostuvo. Para Longton, \"la decisión que toma el Presidente es una decisión responsable, desde el punto de vista del alza de las bencinas, porque claramente que a Chile le habría costado mucho más y en el mediano y largo plazo habríamos tenido una consecuencia de endeudamiento mucho mayor\". \"Fue una buena decisión, pero las medidas que tienen que ver con subsidios y ayudas directas deben tomarse con mayor prontitud . Eso sí lo reconozco, que estas cosas hay que anticiparlas, porque obviamente que la crisis de los camioneros era algo que era previsible\", aseveró. Sobre la continuidad del ministro de Justicia, Fernando Rabat, el diputado insistió en que \"el Presidente tomó una decisión y nosotros como colaboradores del gobierno, donde participamos activamente, lo respaldamos, obviamente que no podría ser menos\". \"Hay que modificar los diseños , sobre todo porque la popularidad del Presidente, principalmente por este episodio, ha bajado independientemente de si hay muy buenas explicaciones, ya se instaló un clima político en determinado camino, más allá de lo injusto que pueda ser para el ministro, pero claramente que este tipo de cosas tiene que resolverse con mayor prontitud desde el punto de vista de la toma de decisiones\", sentenció.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/longton-aplicar-alza-de-las-bencinas-fue-decision-responsable-pero/2026-11-10/093113.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110093113.jpg",
+            "published_raw": "Tue, 10 Nov 2026 09:31:13 -0300",
+            "published_at": "2026-11-10T09:31:13-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 4,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 9,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-010"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 61.6
         },
         "repeated_in_general_top5": false
       }
@@ -662,39 +688,29 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 24,
-      "maximum_relevance": 64.2,
-      "leading_story": "Rebajas de condenas: Rabat decidió \"parar cualquier decreto ante las nuevas circunstancias\""
+      "event_count": 26,
+      "maximum_relevance": 65.3,
+      "leading_story": "Presupuesto: Cámara rechazó partida del Ministerio del Interior por recortes a emergencias y Ley Cholito"
+    },
+    {
+      "topic": "Relaciones internacionales",
+      "event_count": 1,
+      "maximum_relevance": 56.6,
+      "leading_story": "Ucrania, Rusia y EE UU se reúnen por primera vez en nueve meses, con la seguridad de Europa encima de la mesa"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 1,
-      "maximum_relevance": 61.8,
+      "maximum_relevance": 55.3,
       "leading_story": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?"
-    },
-    {
-      "topic": "Ideología y competencia política",
-      "event_count": 1,
-      "maximum_relevance": 48.5,
-      "leading_story": "Kansas o Albacete"
-    },
-    {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 3,
-      "maximum_relevance": 46.6,
-      "leading_story": "\"Todo va a estar bien\": Frase de Kast genera más decepción que esperanza"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-010", "PML-EVENT-023", "PML-EVENT-003", "PML-EVENT-005"],
-      "exited_top5": ["PML-EVENT-004", "PML-EVENT-025", "PML-EVENT-024", "PML-EVENT-016"],
-      "retained_top5": "PML-EVENT-006"
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "France 24", "EL PAÍS"],
+    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
     "source_count": 3
   },
   "system": {
