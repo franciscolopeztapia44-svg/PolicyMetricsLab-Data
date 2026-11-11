@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-10",
-    "data_latest_timestamp": "2026-11-10T19:26:35-0300",
-    "data_age_hours": 0.6,
-    "generated_at": "2026-11-10T19:59:38-0300",
+    "date": "2026-11-11",
+    "data_latest_timestamp": "2026-11-11T00:36:05-0300",
+    "data_age_hours": 1.8,
+    "generated_at": "2026-11-11T02:25:03-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -17,7 +17,7 @@
   "summary": {
     "headline": "Panorama Político Diario",
     "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 28 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
@@ -26,13 +26,159 @@
     "topics": 2,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 59.5,
-    "maximum_relevance": 65.3
+    "average_top5_relevance": 59.2,
+    "maximum_relevance": 64.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-004",
+      "cluster_id": "PML-EVENT-007",
+      "title": "UDI: El Presidente decidió enfrentar la acusación constitucional con Rabat para ganarla",
+      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/udi-el-presidente-decidio-enfrentar-la-acusacion-constitucional-con/2026-11-11/003605.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 64.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 64.2
+      },
+      "selection": {
+        "reason": "PML 64.2",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-11T00:36:05-0300",
+      "last_seen": "2026-11-11T00:36:05-0300",
+      "entities": "chile",
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "Este martes por la noche, en Cerro Castillo , el Presidente José Antonio Kast buscó cerrar las diferencias al interior del oficialismo y contener las críticas a la conducción política de su Gobierno , en medio de las presiones por un cambio de gabinete y la controversia en torno al ministro de Justicia , Fernando Rabat , por las rebajas de condena a agresores sexuales de menores y a narcotraficantes .",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "UDI: El Presidente decidió enfrentar la acusación constitucional con Rabat para ganarla",
+          "description": "Este martes por la noche, en Cerro Castillo , el Presidente José Antonio Kast buscó cerrar las diferencias al interior del oficialismo y contener las críticas a la conducción política de su Gobierno , en medio de las presiones por un cambio de gabinete y la controversia en torno al ministro de Justicia , Fernando Rabat , por las rebajas de condena a agresores sexuales de menores y a narcotraficantes . A su llegada a la reunión que convocó el Mandatario con los presidentes de los partidos oficialistas en el palacio viñamarino, el timonel de la Unión Demócrata Independiente (UDI), Guillermo Ramírez , aseguró que el Jefe de Estado decidió enfrentar la eventual acusación constitucional (AC) contra Rabat sin removerlo de su cargo. \"El Presidente de la República tomó una decisión: él quiere enfrentar la acusación constitucional; quiere enfrentarla con el ministro Rabat y la quiere ganar\" , afirmó el diputado. El líder gremialista agregó que, a su juicio, \"para saber si es que va a haber un cambio de gabinete, habría que preguntarle también a la oposición cuándo va a presentar esa acusación, porque, antes de eso, hasta donde entendemos, no va a haber ningún tipo de cambio de gabinete\".  Las declaraciones se producen luego de una serie de cuestionamientos desde sectores del oficialismo y de exautoridades de los Gobiernos del fallecido Sebastián Piñera (2010-2014, 2018-2022). Entre ellos, el alcalde de Providencia y exministro,  Jaime Bellolio (UDI), quien criticó la conducción del Ejecutivo y advirtió que \"cuando algo es un error grave tiene que haber consecuencias\". \"Un proyecto político sólido\" Por su parte, el vocero y subsecretario de Gobierno, Gonzalo Arenas , sostuvo que la cita en Cerro Castillo buscó fortalecer la relación entre La Moneda y los partidos del oficialismo. \"Queremos tener una nueva etapa en la relación con los partidos políticos\", señaló el portavoz, agregando que el objetivo es conformar \"un proyecto político sólido que mira más allá, incluso, del 2030\". La reunión se realizó antes del próximo viaje internacional de Kast, quien la próxima semana iniciará su primera gira por Asia. A las tensiones se suma la designación de la exministra Trinidad Steinert como nueva agregada de seguridad de la Embajada de Chile en Paraguay , nombramiento que también ha generado reparos en sectores oficialistas.",
+          "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/udi-el-presidente-decidio-enfrentar-la-acusacion-constitucional-con/2026-11-11/003605.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111003605.jpg",
+          "published_raw": "Wed, 11 Nov 2026 00:36:05 -0300",
+          "published_at": "2026-11-11T00:36:05-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 6,
+          "score_noise": 1,
+          "score_accident": 0,
+          "political_evidence": 12,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-007"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-023",
+      "title": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?",
+      "url": "https://www.france24.com/es/programas/enlace/20261109-ecuador-qu%C3%A9-han-cambiado-1-000-d%C3%ADas-de-estado-de-excepci%C3%B3n",
+      "representative_source": "France 24",
+      "topic": "Conflictos y seguridad",
+      "event_type": "POLICY_SECURITY",
+      "geography": {
+        "group": "América Latina",
+        "country": "Ecuador / América Latina"
+      },
+      "relevance": {
+        "score": 52.8,
+        "level": "MEDIA",
+        "editorial_utility": 64.8
+      },
+      "selection": {
+        "reason": "PML 52.8; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-11-09T13:38:44-0300",
+      "last_seen": "2026-11-09T13:38:44-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "Ecuador cumple 1.000 días bajo estados de excepción desde enero de 2024, una estrategia que ha normalizado la presencia militar en las calles. Las cifras oficiales registraron menos homicidios en 2024, pero la violencia repuntó en 2025 hasta un récord histórico. En 2026, pese a un nuevo descenso, los asesinatos siguen superando los 20 diarios.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Ecuador / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?",
+          "description": "Ecuador cumple 1.000 días bajo estados de excepción desde enero de 2024, una estrategia que ha normalizado la presencia militar en las calles. Las cifras oficiales registraron menos homicidios en 2024, pero la violencia repuntó en 2025 hasta un récord histórico. En 2026, pese a un nuevo descenso, los asesinatos siguen superando los 20 diarios. Desde Guayaquil, analizamos qué ha cambiado en la seguridad del país, el impacto de la militarización y las consecuencias de prolongar las medidas extraordinarias durante casi tres años. Reportaje de Carolina Mella para France 24.",
+          "url": "https://www.france24.com/es/programas/enlace/20261109-ecuador-qu%C3%A9-han-cambiado-1-000-d%C3%ADas-de-estado-de-excepci%C3%B3n",
+          "image_url": "https://s.france24.com/media/display/cc4fef62-d5f0-11f1-98a6-d18c5759e759/w:1024/p:16x9/000-B27E7GZ.jpg",
+          "published_raw": "Mon, 09 Nov 2026 16:38:44 GMT",
+          "published_at": "2026-11-09T13:38:44-0300",
+          "country": "Ecuador",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 3,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-023"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-005",
       "title": "Presupuesto: Cámara rechazó partida del Ministerio del Interior por recortes a emergencias y Ley Cholito",
       "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-camara-rechazo-partida-del-ministerio-del-interior-por/2026-11-10/192635.html",
       "representative_source": "Cooperativa",
@@ -43,12 +189,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 65.3,
+        "score": 64,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 65.3
+        "editorial_utility": 62
       },
       "selection": {
-        "reason": "PML 65.3",
+        "reason": "PML 64; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -108,7 +254,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
+          "cluster_id": "PML-EVENT-005"
         },
         {
           "source_id": "cooperativa_politica",
@@ -136,85 +282,12 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
+          "cluster_id": "PML-EVENT-005"
         }
       ]
     },
     {
-      "position": 2,
-      "cluster_id": "PML-EVENT-023",
-      "title": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?",
-      "url": "https://www.france24.com/es/programas/enlace/20261109-ecuador-qu%C3%A9-han-cambiado-1-000-d%C3%ADas-de-estado-de-excepci%C3%B3n",
-      "representative_source": "France 24",
-      "topic": "Conflictos y seguridad",
-      "event_type": "POLICY_SECURITY",
-      "geography": {
-        "group": "América Latina",
-        "country": "Ecuador / América Latina"
-      },
-      "relevance": {
-        "score": 55.3,
-        "level": "MEDIA",
-        "editorial_utility": 67.3
-      },
-      "selection": {
-        "reason": "PML 55.3; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-11-09T13:38:44-0300",
-      "last_seen": "2026-11-09T13:38:44-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "Ecuador cumple 1.000 días bajo estados de excepción desde enero de 2024, una estrategia que ha normalizado la presencia militar en las calles. Las cifras oficiales registraron menos homicidios en 2024, pero la violencia repuntó en 2025 hasta un récord histórico. En 2026, pese a un nuevo descenso, los asesinatos siguen superando los 20 diarios.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Ecuador / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?",
-          "description": "Ecuador cumple 1.000 días bajo estados de excepción desde enero de 2024, una estrategia que ha normalizado la presencia militar en las calles. Las cifras oficiales registraron menos homicidios en 2024, pero la violencia repuntó en 2025 hasta un récord histórico. En 2026, pese a un nuevo descenso, los asesinatos siguen superando los 20 diarios. Desde Guayaquil, analizamos qué ha cambiado en la seguridad del país, el impacto de la militarización y las consecuencias de prolongar las medidas extraordinarias durante casi tres años. Reportaje de Carolina Mella para France 24.",
-          "url": "https://www.france24.com/es/programas/enlace/20261109-ecuador-qu%C3%A9-han-cambiado-1-000-d%C3%ADas-de-estado-de-excepci%C3%B3n",
-          "image_url": "https://s.france24.com/media/display/cc4fef62-d5f0-11f1-98a6-d18c5759e759/w:1024/p:16x9/000-B27E7GZ.jpg",
-          "published_raw": "Mon, 09 Nov 2026 16:38:44 GMT",
-          "published_at": "2026-11-09T13:38:44-0300",
-          "country": "Ecuador",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 3,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
-        }
-      ]
-    },
-    {
-      "position": 3,
+      "position": 4,
       "cluster_id": "PML-EVENT-002",
       "title": "Cámara Baja aprobó en general el Presupuesto 2027, que avanzó a votación particular",
       "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-aprobo-en-general-el-presupuesto-2027-que-avanzo-a-votacion/2026-11-09/195727.html",
@@ -226,12 +299,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 63.5,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 58.5
+        "score": 61.7,
+        "level": "MEDIA",
+        "editorial_utility": 56.7
       },
       "selection": {
-        "reason": "PML 63.5",
+        "reason": "PML 61.7; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -318,7 +391,7 @@
       ]
     },
     {
-      "position": 4,
+      "position": 5,
       "cluster_id": "PML-EVENT-003",
       "title": "Ubilla cuestiona ataques a Chile Vamos y pide convivencia oficialista",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/chile-vamos/ubilla-cuestiona-ataques-a-chile-vamos-y-pide-convivencia-oficialista/2026-11-09/110443.html",
@@ -330,12 +403,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 56.2,
+        "score": 53.2,
         "level": "MEDIA",
-        "editorial_utility": 52.2
+        "editorial_utility": 47.2
       },
       "selection": {
-        "reason": "PML 56.2; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 53.2; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -392,82 +465,6 @@
           "cluster_id": "PML-EVENT-003"
         }
       ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-008",
-      "title": "Rebajas de condenas: Rabat decidió \"parar cualquier decreto ante las nuevas circunstancias\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/rebajas-de-condenas-rabat-decidio-parar-cualquier-decreto-ante-las/2026-11-10/002856.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 57.2,
-        "level": "MEDIA",
-        "editorial_utility": 49.2
-      },
-      "selection": {
-        "reason": "PML 57.2; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-10T00:28:56-0300",
-      "last_seen": "2026-11-10T00:28:56-0300",
-      "entities": [],
-      "event_terms": [
-        "crisis",
-        "oposicion"
-      ],
-      "analysis": {
-        "summary": "El vocero de Gobierno, el subsecretario Gonzalo Arenas , defendió nuevamente este lunes el procedimiento de rebajas de condenas en medio de la dura crisis política que enfrenta el Ejecutivo por el denominado caso Rabat . La controversia se intensificó luego de conocerse que el ministro de Justicia, Fernando Rabat , firmó hace menos de una semana un nuevo decreto que rebajó la condena de un reconocido homicida de la Región de Valparaíso .",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Rebajas de condenas: Rabat decidió \"parar cualquier decreto ante las nuevas circunstancias\"",
-          "description": "El vocero de Gobierno, el subsecretario Gonzalo Arenas , defendió nuevamente este lunes el procedimiento de rebajas de condenas en medio de la dura crisis política que enfrenta el Ejecutivo por el denominado caso Rabat . La controversia se intensificó luego de conocerse que el ministro de Justicia, Fernando Rabat , firmó hace menos de una semana un nuevo decreto que rebajó la condena de un reconocido homicida de la Región de Valparaíso . Al respecto, Arenas sostuvo que \"en el Gobierno anterior se dictaron cerca de 1.600 decretos de rebajas de narcotraficantes ; o sea, es un procedimiento que ha existido siempre\". Sin embargo, precisó que \"ahora, ante las nuevas circunstancias, el ministro también ha tomado la decisión de parar cualquier decreto desde el jueves anterior, hasta que se resuelva cuál va a ser la situación definitiva de las personas que están acogidas a la ley general y no solo a la excepción por delitos sexuales contra menores\". Las declaraciones se producen en medio de las críticas de sectores del oficialismo a la conducción política del caso y mientras el Presidente José Antonio Kast prepara reuniones con los timoneles de los partidos oficialistas para abordar la crisis. En paralelo, la oposición dejó en manos de sus bancadas la definición de la fecha para presentar esta semana la acusación constitucional (AC) contra Rabat .",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/rebajas-de-condenas-rabat-decidio-parar-cualquier-decreto-ante-las/2026-11-10/002856.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000001320261110002856.jpg",
-          "published_raw": "Tue, 10 Nov 2026 00:28:56 -0300",
-          "published_at": "2026-11-10T00:28:56-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 4,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 10,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
-        }
-      ]
     }
   ],
   "chile_brief": {
@@ -478,7 +475,149 @@
     "stories": [
       {
         "position": 1,
+        "cluster_id": "PML-EVENT-004",
+        "title": "¿Para el reel? \"Menos mal que sabía de economía, ministro\", dijo un diputado liberal a Quiroz",
+        "topic": "Economía y políticas públicas",
+        "event_type": "POLITICAL_STATEMENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/para-el-reel-menos-mal-que-sabia-de-economia-ministro-dijo-un/2026-11-10/213539.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 52.9,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 48,
+            "freshness": 95,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 28
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-10T21:35:39-0300",
+        "last_seen": "2026-11-10T21:35:39-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "¿Para el reel? \"Menos mal que sabía de economía, ministro\", dijo un diputado liberal a Quiroz",
+            "description": "En medio del debate de la partida presupuestaria del Ministerio de Hacienda , el diputado del Partido Liberal por Arica Luis Malla se dirigió este martes, en duros términos, al titular de dicha cartera,  Jorge Quiroz . \"Ministro Quiroz: salga un ratito a la calle, porque harta calle le falta... Por su bencinazo la gente no llega a fin de mes, los camioneros están en paro , hay más de un millón de personas sin pega en Chile y la inflación se está disparando\", enumeró Malla al intervenir en la Sala. \"Ministro: tiene a Chile asfixiado ... Menos mal que sabía de economía , señor ministro...\", prosiguió. Y agregó luego: \" Chile no funciona como una empresa ni como una farmacia coludida. De eso usted sí sabe harto ...\". \"Y con su megarreforma les  hicieron un regalito a las grandes empresas y les bajaron los impuestos como premio a  sus amiguitos millonarios , mientras a la gente la obligan a apretarse el cinturón y le destruyen los derechos sociales, el medioambiente, la canasta básica familiar y la educación y salud pública\", disparó. La intervención fue criticada por parlamentarios oficialistas y se da un día después de que, en la propia Cámara, en la votación en general del Presupuesto, el ministro Quiroz llamara a los diputados a subir el nivel del debate y dejar de \"hablar para el reel \" de redes sociales . Luis Malla intervino también en el debate del lunes, y frente a su tono, similar al de hoy, la vicepresidenta de la Cámara, Ximena Ossandón (RN), intentó llamarlo al orden, pero él contestó desafiante: \" No se van a censurar . Yo voy a decir lo que Chile piensa\", según consta en un reel que publicó en su cuenta de Instagram. Ver esta publicación en Instagram Una publicación compartida de Luis Malla | Diputado de Arica y Parinacota (@luis.malla) Muy activo en la red, publicó durante esta jornada otro video grabado en la Cámara celebrando el rechazo a la partida del Ministerio del Interior , y compartió una caricatura que le envió un seguidor, de él mismo en actitud de Tío Sam y tomando de su chaqueta a una versión empequeñecida y lastimera del jefe de la billetera fiscal. Ver esta publicación en Instagram Una publicación compartida de Luis Malla | Diputado de Arica y Parinacota (@luis.malla)   Ver esta publicación en Instagram Una publicación compartida de Pablo Olave (@olavearte)  ",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/para-el-reel-menos-mal-que-sabia-de-economia-ministro-dijo-un/2026-11-10/213539.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110213539.jpg",
+            "published_raw": "Tue, 10 Nov 2026 21:35:39 -0300",
+            "published_at": "2026-11-10T21:35:39-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 4,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 5,
+            "score_ideology": 1,
+            "score_actor": 3,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Instituciones y gobierno",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-004"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 74.9
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
         "cluster_id": "PML-EVENT-009",
+        "title": "Rebajas de condenas: Rabat decidió \"parar cualquier decreto ante las nuevas circunstancias\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/rebajas-de-condenas-rabat-decidio-parar-cualquier-decreto-ante-las/2026-11-10/002856.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 54.7,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 80,
+            "freshness": 62,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 32
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-10T00:28:56-0300",
+        "last_seen": "2026-11-10T00:28:56-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Rebajas de condenas: Rabat decidió \"parar cualquier decreto ante las nuevas circunstancias\"",
+            "description": "El vocero de Gobierno, el subsecretario Gonzalo Arenas , defendió nuevamente este lunes el procedimiento de rebajas de condenas en medio de la dura crisis política que enfrenta el Ejecutivo por el denominado caso Rabat . La controversia se intensificó luego de conocerse que el ministro de Justicia, Fernando Rabat , firmó hace menos de una semana un nuevo decreto que rebajó la condena de un reconocido homicida de la Región de Valparaíso . Al respecto, Arenas sostuvo que \"en el Gobierno anterior se dictaron cerca de 1.600 decretos de rebajas de narcotraficantes ; o sea, es un procedimiento que ha existido siempre\". Sin embargo, precisó que \"ahora, ante las nuevas circunstancias, el ministro también ha tomado la decisión de parar cualquier decreto desde el jueves anterior, hasta que se resuelva cuál va a ser la situación definitiva de las personas que están acogidas a la ley general y no solo a la excepción por delitos sexuales contra menores\". Las declaraciones se producen en medio de las críticas de sectores del oficialismo a la conducción política del caso y mientras el Presidente José Antonio Kast prepara reuniones con los timoneles de los partidos oficialistas para abordar la crisis. En paralelo, la oposición dejó en manos de sus bancadas la definición de la fecha para presentar esta semana la acusación constitucional (AC) contra Rabat .",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/rebajas-de-condenas-rabat-decidio-parar-cualquier-decreto-ante-las/2026-11-10/002856.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000001320261110002856.jpg",
+            "published_raw": "Tue, 10 Nov 2026 00:28:56 -0300",
+            "published_at": "2026-11-10T00:28:56-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 6,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 10,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": null,
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-009"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 13,
+          "labels": "Estado e instituciones",
+          "chile_utility": 67.7
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-010",
         "title": "Vodanovic criticó \"guion\" del Gobierno: Cuando no le resulta culpar a Boric, culpa a Bachelet",
         "topic": "Instituciones y gobierno",
         "event_type": "POLITICAL_STATEMENT",
@@ -489,11 +628,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.6,
+          "score": 52.6,
           "level": "MEDIA",
           "components": {
             "political_impact": 52,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 28
@@ -533,144 +672,6 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-009"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 63.6
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-007",
-        "title": "Rabat descarta presión para dejar Justicia: \"Estoy muy contento en mi labor\"",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/rabat-descarta-presion-para-dejar-justicia-estoy-muy-contento-en-mi/2026-11-10/145024.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 53.8,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 50,
-            "freshness": 95,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 30
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-10T14:50:24-0300",
-        "last_seen": "2026-11-10T14:50:24-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Rabat descarta presión para dejar Justicia: \"Estoy muy contento en mi labor\"",
-            "description": "El ministro de Justicia, Fernando Rabat, afirmó este martes que no se siente presionado a dejar el cargo , en medio de los cuestionamientos por las rebajas de condenas a personas sentenciadas por delitos sexuales contra menores de edad . \" No me siento presionado, no siento presión para nada: estoy muy contento en mi labor como ministro de Justicia del Presidente José Antonio Kast \", sostuvo en los pasillos del Congreso Nacional. El secretario de Estado aseguró que continuará con su trabajo legislativo, mientras la oposición prepara una acusación constitucional en su contra. \"He venido durante ocho meses prácticamente todos los días de la semana (al Congreso) y lo voy a seguir haciendo. Creo que es muy importante intervenir en el trabajo legislativo, lograr acuerdos con los señores parlamentarios para tener una legislación que sea lo mejor para Chile \", afirmó. Respecto a la controversia por el caso del Colegio Apoquindo, Rabat precisó que \"mi labor profesional fue defender civilmente a una persona que era dueña del establecimiento educacional\". (FOTO: ATON) Consultado por la rebaja de condena otorgada a una mujer condenada por abusos sexuales en el Colegio Apoquindo , Rabat rechazó los cuestionamientos por su trabajo como abogado de uno de los dueños del establecimiento entre 2014 y 2023 y llamó a \"informar bien\". \"No he representado a esas personas condenadas penalmente. Mi labor profesional fue defender civilmente a una persona que era dueña del establecimiento educacional , y eso no tiene ninguna situación extraordinaria\", puntualizó. En paralelo, el Ministerio Público solicitó copias de decretos ministeriales y fijó un plazo de siete días hábiles para su entrega , que, según el ministro, aún no vence. En el ámbito político, la oposición continúa preparando una acusación constitucional contra Rabat , en medio del debate entre los partidos oficialistas sobre su respaldo al secretario de Estado. Críticas desde el oficialismo Las declaraciones de Rabat se producen en medio de cuestionamientos desde sectores del propio oficialismo a su continuidad en el cargo . Exministros del Gobierno de Sebastián Piñera advirtieron sobre los costos de mantener al secretario de Estado. Víctor Pérez calificó de \"riesgosa\" la decisión , mientras que Cristián Monckeberg afirmó que \"no somos borregos, se necesitan cambios\" . Rodrigo Álvarez también planteó que se deben asumir responsabilidades. En esa misma línea, el alcalde de Providencia y exvocero de Gobierno, Jaime Bellolio , cuestionó la conducción del Ejecutivo. \"Creo que hay una dificultad en la dirección que ha tomado el gobierno, en la manera en que se toman algunas decisiones que a veces se demoran demasiado\", afirmó. El complejo escenario empujó al Presidente José Antonio Kast a convocar este martes a los timoneles oficialistas a un cónclave en Cerro Castillo. (FOTO: ATON) \"Creo que obviamente nos pueden faltar algunos datos porque no estamos adentro del gobierno, pero hay momentos en los cuales los equipos tienen que cambiar para poder seguir adelante con la agenda \", enfatizó. \"De lo contrario, se profundiza el error y en vez de que se vea como un presidente que apoya a los ministros, se ve como alguien que no ha querido tomar otras decisiones, y cuando algo es un error grave, tiene que haber consecuencias \", añadió. En medio de estos cuestionamientos, el Presidente José Antonio Kast convocó para la noche de este martes a los presidentes de los partidos oficialistas al Palacio de Cerro Castillo .",
-            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/rabat-descarta-presion-para-dejar-justicia-estoy-muy-contento-en-mi/2026-11-10/145024.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000420261110145024.png",
-            "published_raw": "Tue, 10 Nov 2026 14:50:24 -0300",
-            "published_at": "2026-11-10T14:50:24-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 6,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 11,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": null,
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 62.8
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-010",
-        "title": "Longton: Aplicar alza de las bencinas fue \"decisión responsable\", pero faltó prontitud en medidas paliativas",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/longton-aplicar-alza-de-las-bencinas-fue-decision-responsable-pero/2026-11-10/093113.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 52.6,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 52,
-            "freshness": 88,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 30
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-10T09:31:13-0300",
-        "last_seen": "2026-11-10T09:31:13-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Longton: Aplicar alza de las bencinas fue \"decisión responsable\", pero faltó prontitud en medidas paliativas",
-            "description": "El senador Andrés Longton (RN) planteó en Cooperativa que fue buena la decisión del Presidente Kast de no enfrentar el alza internacional de las bencinas y pasar el costo a los consumidores, aunque reconoció que se debió tomar medidas para enfrentar sus consecuencias con \"mayor prontitud\", con el fin de evitar manifestaciones como la que realizan actualmente los camioneros en diversos lugares del país. En conversación con El Diario de Cooperativa , el parlamentario recalcó que \"hay elementos que escapan un poco de la responsabilidad directa del gobierno, independientemente de que el alza de las bencinas se haya tomado la decisión de que se hiciera una vez y no de manera progresiva. Probablemente habríamos estado en el mismo escenario, pero de una manera más lenta pero que igualmente hubiese afectado indirectamente a los camioneros\". \"Ha pasado tiempo desde las alzas de las bencinas, por lo tanto yo creo que eventualmente habríamos llegado al mismo resultado hoy día o en un mes más\" , sostuvo. Para Longton, \"la decisión que toma el Presidente es una decisión responsable, desde el punto de vista del alza de las bencinas, porque claramente que a Chile le habría costado mucho más y en el mediano y largo plazo habríamos tenido una consecuencia de endeudamiento mucho mayor\". \"Fue una buena decisión, pero las medidas que tienen que ver con subsidios y ayudas directas deben tomarse con mayor prontitud . Eso sí lo reconozco, que estas cosas hay que anticiparlas, porque obviamente que la crisis de los camioneros era algo que era previsible\", aseveró. Sobre la continuidad del ministro de Justicia, Fernando Rabat, el diputado insistió en que \"el Presidente tomó una decisión y nosotros como colaboradores del gobierno, donde participamos activamente, lo respaldamos, obviamente que no podría ser menos\". \"Hay que modificar los diseños , sobre todo porque la popularidad del Presidente, principalmente por este episodio, ha bajado independientemente de si hay muy buenas explicaciones, ya se instaló un clima político en determinado camino, más allá de lo injusto que pueda ser para el ministro, pero claramente que este tipo de cosas tiene que resolverse con mayor prontitud desde el punto de vista de la toma de decisiones\", sentenció.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/longton-aplicar-alza-de-las-bencinas-fue-decision-responsable-pero/2026-11-10/093113.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110093113.jpg",
-            "published_raw": "Tue, 10 Nov 2026 09:31:13 -0300",
-            "published_at": "2026-11-10T09:31:13-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 4,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 4,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 9,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
             "cluster_id": "PML-EVENT-010"
           }
         ],
@@ -688,26 +689,36 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 26,
-      "maximum_relevance": 65.3,
-      "leading_story": "Presupuesto: Cámara rechazó partida del Ministerio del Interior por recortes a emergencias y Ley Cholito"
+      "event_count": 25,
+      "maximum_relevance": 64.2,
+      "leading_story": "UDI: El Presidente decidió enfrentar la acusación constitucional con Rabat para ganarla"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 56.6,
+      "maximum_relevance": 54.6,
       "leading_story": "Ucrania, Rusia y EE UU se reúnen por primera vez en nueve meses, con la seguridad de Europa encima de la mesa"
+    },
+    {
+      "topic": "Economía y políticas públicas",
+      "event_count": 1,
+      "maximum_relevance": 52.9,
+      "leading_story": "¿Para el reel? \"Menos mal que sabía de economía, ministro\", dijo un diputado liberal a Quiroz"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 1,
-      "maximum_relevance": 55.3,
+      "maximum_relevance": 52.8,
       "leading_story": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-007", "PML-EVENT-005"],
+      "exited_top5": ["PML-EVENT-004", "PML-EVENT-008"],
+      "retained_top5": ["PML-EVENT-023", "PML-EVENT-002", "PML-EVENT-003"]
+    }
   },
   "sources": {
     "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
