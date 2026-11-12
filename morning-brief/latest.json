@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-11",
-    "data_latest_timestamp": "2026-11-11T17:55:33-0300",
-    "data_age_hours": 0.9,
-    "generated_at": "2026-11-11T18:48:53-0300",
+    "data_latest_timestamp": "2026-11-11T22:54:55-0300",
+    "data_age_hours": 4.6,
+    "generated_at": "2026-11-12T03:28:57-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,128 +16,58 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 30 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 28 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 30,
+    "ranked_events": 28,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 60.5,
-    "maximum_relevance": 62.2
+    "average_top5_relevance": 61.2,
+    "maximum_relevance": 63.8
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-005",
-      "title": "Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/camara-rechazo-la-partida-de-educacion-y-quiroz-ofrecio-una-alternativa/2026-11-11/142154.html",
+      "cluster_id": "PML-EVENT-009",
+      "title": "UDI: El Presidente decidió enfrentar la acusación constitucional con Rabat para ganarla",
+      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/udi-el-presidente-decidio-enfrentar-la-acusacion-constitucional-con/2026-11-11/003605.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
+      "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
         "group": "Chile",
         "country": "Chile"
       },
       "relevance": {
-        "score": 62.2,
+        "score": 63.8,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 62.2
+        "editorial_utility": 63.8
       },
       "selection": {
-        "reason": "PML 62.2",
+        "reason": "PML 63.8",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 1,
+        "article_count": 2,
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-11T14:21:54-0300",
-      "last_seen": "2026-11-11T14:21:54-0300",
-      "entities": "senado",
-      "event_terms": [],
+      "first_seen": "2026-11-11T00:36:05-0300",
+      "last_seen": "2026-11-11T19:34:29-0300",
+      "entities": [
+        "chile",
+        "senado"
+      ],
+      "event_terms": "oposicion",
       "analysis": {
-        "summary": "La Cámara de Diputadas y Diputados rechazó este miércoles la partida del Ministerio de Educación durante la discusión en particular del Presupuesto 2027 . La propuesta obtuvo 73 votos a favor y 73 en contra , por lo que no alcanzó la mayoría necesaria para su aprobación. El fin de \"Yo Elijo Mi PC\" , programa que entregaba computadores a estudiantes de séptimo básico, marcó el debate.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\"",
-          "description": "La Cámara de Diputadas y Diputados rechazó este miércoles la partida del Ministerio de Educación durante la discusión en particular del Presupuesto 2027 . La propuesta obtuvo 73 votos a favor y 73 en contra , por lo que no alcanzó la mayoría necesaria para su aprobación. El fin de \"Yo Elijo Mi PC\" , programa que entregaba computadores a estudiantes de séptimo básico, marcó el debate. Antes de la votación, el ministro de Hacienda, Jorge Quiroz , se comprometió a abordar la continuidad de la entrega de equipos durante el trámite del proyecto en el Senado. Según consignó Emol , Quiroz reconoció la preocupación de los diputados por el futuro de las becas de acceso a las tecnologías de la información y la comunicación (TIC) y el impacto que tiene para los estudiantes recibir un computador. También advirtió que, según los estudios a los que aludió en la Sala, \"no siempre esta entrega resulta en mejoras de aprendizaje\" . El ministro planteó que la discusión en el Senado debe considerar ambos aspectos. \"Una mirada conjunta donde consideremos entregas de computadores, pero consideremos también recoger elementos que permitan mejorar este programa\" , afirmó. El debate por el fin de \"Yo Elijo Mi PC\" La diputada Irací Hassler (PC) cuestionó las prioridades del Ejecutivo. A su juicio, la propuesta del Gobierno \"promueve quitarle los computadores a los niños y niñas, mientras el Estado chileno le entrega millonarios recursos a los más ricos de nuestro país\". Desde el Partido Republicano , el diputado Stephan Schubert respaldó los cambios al programa y cuestionó que los equipos permanezcan almacenados. \"No queremos más computadores llegando a ser obsoletos en las bodegas\", afirmó. \"Por supuesto que hay que transformar esa política pública, que tiene hoy día un fin más bien social que educacional \", sostuvo Schubert. Tras la votación, la Sala continuó con la partida del Ministerio de Justicia . La discusión se centró en la permanencia del ministro Fernando Rabat en el cargo tras la polémica por las rebajas de condena a sentenciados por delitos sexuales contra menores de 14 años.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/camara-rechazo-la-partida-de-educacion-y-quiroz-ofrecio-una-alternativa/2026-11-11/142154.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111142154.jpg",
-          "published_raw": "Wed, 11 Nov 2026 14:21:54 -0300",
-          "published_at": "2026-11-11T14:21:54-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 3,
-          "score_ideology": 0,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 13,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-005"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-021",
-      "title": "La policía británica detiene a un soldado estadounidense acusado de espiar para Rusia",
-      "url": "https://elpais.com/internacional/2026-11-11/la-policia-britanica-detiene-a-un-soldado-estadounidense-acusado-de-espiar-para-rusia.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Conflictos y seguridad",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Internacional",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 62.1,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 74.1
-      },
-      "selection": {
-        "reason": "PML 62.1; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-11T12:41:34-0300",
-      "last_seen": "2026-11-11T12:41:34-0300",
-      "entities": "rusia",
-      "event_terms": [],
-      "analysis": {
-        "summary": "Washington acusa a tres iraníes de estar detrás del intento de atentado a la base aérea de Fairford",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
+        "summary": "Este martes por la noche, en Cerro Castillo , el Presidente José Antonio Kast buscó cerrar las diferencias al interior del oficialismo y contener las críticas a la conducción política de su Gobierno , en medio de las presiones por un cambio de gabinete y la controversia en torno al ministro de Justicia , Fernando Rabat , por las rebajas de condena a agresores sexuales de menores y a narcotraficantes .",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -147,38 +77,66 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "La policía británica detiene a un soldado estadounidense acusado de espiar para Rusia",
-          "description": "Washington acusa a tres iraníes de estar detrás del intento de atentado a la base aérea de Fairford",
-          "url": "https://elpais.com/internacional/2026-11-11/la-policia-britanica-detiene-a-un-soldado-estadounidense-acusado-de-espiar-para-rusia.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/G46GAZDCUFJPTBCT776HOEZ4IM.jpg?auth=3214dcbd59c711df6c6d78a8a1847ab46d50bf9c846b431fc53da3c0a002c162",
-          "published_raw": "Wed, 11 Nov 2026 15:41:34 GMT",
-          "published_at": "2026-11-11T12:41:34-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "UDI: El Presidente decidió enfrentar la acusación constitucional con Rabat para ganarla",
+          "description": "Este martes por la noche, en Cerro Castillo , el Presidente José Antonio Kast buscó cerrar las diferencias al interior del oficialismo y contener las críticas a la conducción política de su Gobierno , en medio de las presiones por un cambio de gabinete y la controversia en torno al ministro de Justicia , Fernando Rabat , por las rebajas de condena a agresores sexuales de menores y a narcotraficantes . A su llegada a la reunión que convocó el Mandatario con los presidentes de los partidos oficialistas en el palacio viñamarino, el timonel de la Unión Demócrata Independiente (UDI), Guillermo Ramírez , aseguró que el Jefe de Estado decidió enfrentar la eventual acusación constitucional (AC) contra Rabat sin removerlo de su cargo. \"El Presidente de la República tomó una decisión: él quiere enfrentar la acusación constitucional; quiere enfrentarla con el ministro Rabat y la quiere ganar\" , afirmó el diputado. El líder gremialista agregó que, a su juicio, \"para saber si es que va a haber un cambio de gabinete, habría que preguntarle también a la oposición cuándo va a presentar esa acusación, porque, antes de eso, hasta donde entendemos, no va a haber ningún tipo de cambio de gabinete\".  Desde RN, el diputado Diego Schalper aseveró que \"a mí me preocupa a ratos que nos demoremos en la toma de decisiones, porque mientras más nos demoremos nos estamos perdiendo la gran oportunidad que tiene la derecha chilena de tener mayoría en ambas cámaras y por lo tanto, cada semana que pasa es una semana que perdemos de poder sacar cosas importantes adelante y que después nos vamos a arrepentir\". Las declaraciones se producen luego de una serie de cuestionamientos desde sectores del oficialismo y de exautoridades de los Gobiernos del fallecido Sebastián Piñera (2010-2014, 2018-2022). Entre ellos, el alcalde de Providencia y exministro,  Jaime Bellolio (UDI), quien criticó la conducción del Ejecutivo y advirtió que \"cuando algo es un error grave tiene que haber consecuencias\". \"Un proyecto político sólido\" Por su parte, el vocero y subsecretario de Gobierno, Gonzalo Arenas , sostuvo que la cita en Cerro Castillo buscó fortalecer la relación entre La Moneda y los partidos del oficialismo. \"Queremos tener una nueva etapa en la relación con los partidos políticos\", señaló el portavoz, agregando que el objetivo es conformar \"un proyecto político sólido que mira más allá, incluso, del 2030\". La reunión se realizó antes del próximo viaje internacional de Kast, quien la próxima semana iniciará su primera gira por Asia. Críticas por nombramiento de Steinert A las tensiones se suma la designación de la exministra Trinidad Steinert como nueva agregada de seguridad de la Embajada de Chile en Paraguay , nombramiento que también ha generado reparos en sectores oficialistas. La diputada Constanza Schönhaut (FA) criticó que \"el nombramiento de Trinidad Steinert es realmente una falta de respeto para todo Chile. No solo duró solo dos meses, sino que además se negó sistemáticamente a asistir a la comisión investigadora. Entonces uno se pregunta realmente qué es lo que pretende el Presidente Kast que Trinidad Steinert vaya a representar al Estado de Chile fuera del país\". En el oficialismo, el diputado Jorge Guzmán (Evópoli) recalcó que \"a mí no me gustan los premios de consuelo. La exministra Steinert tuvo la oportunidad de ser ministra de Seguridad, fue removida de su cargo porque no cumplió con las expectativas\". \"No me gusta, no me parece e insisto, son premios de consuelo para alguien que no estuvo a la altura del cargo que le tocó representar\", añadió.",
+          "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/udi-el-presidente-decidio-enfrentar-la-acusacion-constitucional-con/2026-11-11/003605.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111003605.jpg",
+          "published_raw": "Wed, 11 Nov 2026 00:36:05 -0300",
+          "published_at": "2026-11-11T00:36:05-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 0,
+          "score_institutional": 6,
           "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 2,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 6,
+          "score_noise": 1,
+          "score_accident": 0,
+          "political_evidence": 13,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-009"
+        },
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Couso no ve mérito para acusación constitucional contra Rabat ni la Corte Suprema",
+          "description": "El abogado constitucionalista Javier Couso (DC) aseguró en Cooperativa que los antecedentes hasta ahora conocidos por la rebaja de condena a pederastas son insuficientes para sustentar la acusación constitucional -anunciada por la oposición- contra el ministro de Justicia , Fernando Rabat , así como la promovida por el Partido Nacional Libertario contra los integrantes de la Corte Suprema . En conversación con Lo Que Queda del Día , el académico de la Universidad Diego Portales (UDP) analizó la demora en la entrega, a la Comisión de Constitución del Senado , de los decretos que redujeron las penas a personas condenadas por violación de menores de edad , y el hecho de que éstos no llegaran a la Cámara, donde se prepara al libelo contra Rabat. \"El ministro ha estado jugando al gato y al ratón . El haber puesto tantos reparos y complicaciones para entregar documentos que, de haberse establecido una comisión especial investigadora, habrían tenido que ser enviados a la Cámara y (Rabat) habría estado obligado incluso a comparecer de nuevo hasta tres veces o incluso más si hay mayoría de la Cámara que lo hubiera pedido\", explicó. [Lea también] Rebajas de condenas: Rabat decidió \"parar cualquier decreto ante las nuevas circunstancias\" El profesor catalogó la estrategia del secretario de Estado como \"maniobras, digamos, que están dentro de la legalidad, pero que son francamente irritantes  y ponen un ambiente que no es no es bueno para él, porque ya estamos en una circunstancia compleja. Pero se estas cosas solo dilatan lo que va a ocurrir: se van a conocer\" Para Couso,  \"es un mal argumento que un poder del Estado le diga a otro que no le va a entregar información o se la va a entregar a cuentagotas porque hay que preocuparse de las víctimas, cuando hemos visto que hay filtraciones que han ocurrido desde ese mismo poder del Estado . En comisiones como la de Defensa se presenta información secreta y no se ha filtrado. Francamente, no entiendo la estrategia del ministro\". \"Interpretación plausible\" El jurista señaló que, al firmar las rebajas de condena a pedófilos, el titular de Justicia se inclinó por una \"interpretación tan plausible de la ley , que la propia Corte Suprema interpretó eso en el 90 por ciento de los casos (que analizó) en los últimos años \". \"Todo ministro que aplica las leyes, las debe interpretar y había dos interpretaciones plausibles: una,  es la de la jurisprudencia de la Corte Suprema hasta hace unos meses atrás, que planteaba que la naturaleza de la rebaja de pena se vincula a la pena y, por lo tanto, no puede aplicarse retroactivamente a quienes habían cometido el crimen y habían sido condenados\", apuntó. \"Y había otra , que era más reciente por parte de la Suprema, que es un mero beneficio administrativo que no crea derecho adquirido . Entonces, cuando un ministro tiene que ejecutar las leyes, y eso se hace típicamente mediante la dictación de decretos, tiene que interpretarla y era plausible esta interpretación de la ley\", complementó el abogado. En esa materia, el jurista desechó la pertinencia del argumento que atribuye a Rabat de \"haber mentido cuando fue a exponer (una vez que estalló el escándalo) a una sesión especial de la Cámara,  porque hay un principio de probidad que está en la Constitución, que plantea que todo funcionario público debe actuar siempre con probidad, en este caso con honestidad\". \"Si se empieza a acusar a los ministros por decir inexactitudes en el debate político que se da al interior de la Cámara, vamos a llenarnos de acusaciones constitucionales \", cuestionó. El error de la oposición El experto constitucionalista afirmó que la oposición \"cometió un un error\" al anunciar la AC contra Rabat ,  \"porque todos los antecedentes que quiere habrían tenido que ser entregados en el acto por el ministro de Estado de haberse creado una comisión especial investigadora, toda la documentación habría estado a tiempo\". \"Me parece prudente no acusar mientras no se tengan todos los antecedentes, sino  habría sido una acusación a ciegas. Sabemos que hay ha habido acusaciones frívolas en los últimos 15, 20 años en Chile\", agregó. Finalmente, Couso planteó que actualmente, \"con los antecedentes con que cuento ahora, no me parece que hayan antecedentes suficientes ni para acusar al ministro ni para acusar a los integrantes de la Corte Suprema , como ha anunciado otro grupo de parlamentarios del Partido Nacional Libertario\". \"Una acusación constitucional contra un ministro de Estado requiere distintas causales, pero las que imagino van a invocarse son haber infringido la Constitución, las leyes o haberla dejado sin ejecución\", subrayó. Pese a que el escenario \"podría cambiar si es que se demostrara una teoría de que se ha se ha demorado tanto la entrega de antecedentes es porque se quiere ocultar quizás algo que no conocemos, no quiero especular , pero con los antecedentes que tengo hoy, a mi juicio no se configuran estas tres causales que son las que han trascendido\".",
+          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/couso-no-ve-merito-para-acusacion-constitucional-contra-rabat-ni-la/2026-11-11/193429.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111193429.jpg",
+          "published_raw": "Wed, 11 Nov 2026 19:34:29 -0300",
+          "published_at": "2026-11-11T19:34:29-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 7,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 0,
+          "score_actor": 3,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Relaciones internacionales",
+          "political_evidence": 10,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-009"
         }
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-022",
+      "position": 2,
+      "cluster_id": "PML-EVENT-020",
       "title": "Las negociaciones de Abu Dabi sobre Ucrania concluyen con un canje de prisioneros y sin progresos para la paz",
       "url": "https://elpais.com/internacional/2026-11-11/las-negociaciones-de-abu-dabi-sobre-ucrania-concluyen-con-un-canje-de-prisioneros-y-sin-progresos-para-la-paz.html",
       "representative_source": "EL PAÍS",
@@ -191,10 +149,10 @@
       "relevance": {
         "score": 60.9,
         "level": "MEDIA",
-        "editorial_utility": 58.9
+        "editorial_utility": 72.9
       },
       "selection": {
-        "reason": "PML 60.9; nuevo tipo de evento",
+        "reason": "PML 60.9; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -245,29 +203,29 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-022"
+          "cluster_id": "PML-EVENT-020"
         }
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-007",
-      "title": "UDI: El Presidente decidió enfrentar la acusación constitucional con Rabat para ganarla",
-      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/udi-el-presidente-decidio-enfrentar-la-acusacion-constitucional-con/2026-11-11/003605.html",
+      "position": 3,
+      "cluster_id": "PML-EVENT-003",
+      "title": "Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\"",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/camara-rechazo-la-partida-de-educacion-y-quiroz-ofrecio-una-alternativa/2026-11-11/142154.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "event_type": "INSTITUTIONAL_DECISION",
       "geography": {
         "group": "Chile",
         "country": "Chile"
       },
       "relevance": {
-        "score": 59.2,
+        "score": 60.5,
         "level": "MEDIA",
-        "editorial_utility": 54.2
+        "editorial_utility": 58.5
       },
       "selection": {
-        "reason": "PML 59.2",
+        "reason": "PML 60.5; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -277,94 +235,15 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-11T00:36:05-0300",
-      "last_seen": "2026-11-11T00:36:05-0300",
-      "entities": "chile",
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "Este martes por la noche, en Cerro Castillo , el Presidente José Antonio Kast buscó cerrar las diferencias al interior del oficialismo y contener las críticas a la conducción política de su Gobierno , en medio de las presiones por un cambio de gabinete y la controversia en torno al ministro de Justicia , Fernando Rabat , por las rebajas de condena a agresores sexuales de menores y a narcotraficantes .",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "UDI: El Presidente decidió enfrentar la acusación constitucional con Rabat para ganarla",
-          "description": "Este martes por la noche, en Cerro Castillo , el Presidente José Antonio Kast buscó cerrar las diferencias al interior del oficialismo y contener las críticas a la conducción política de su Gobierno , en medio de las presiones por un cambio de gabinete y la controversia en torno al ministro de Justicia , Fernando Rabat , por las rebajas de condena a agresores sexuales de menores y a narcotraficantes . A su llegada a la reunión que convocó el Mandatario con los presidentes de los partidos oficialistas en el palacio viñamarino, el timonel de la Unión Demócrata Independiente (UDI), Guillermo Ramírez , aseguró que el Jefe de Estado decidió enfrentar la eventual acusación constitucional (AC) contra Rabat sin removerlo de su cargo. \"El Presidente de la República tomó una decisión: él quiere enfrentar la acusación constitucional; quiere enfrentarla con el ministro Rabat y la quiere ganar\" , afirmó el diputado. El líder gremialista agregó que, a su juicio, \"para saber si es que va a haber un cambio de gabinete, habría que preguntarle también a la oposición cuándo va a presentar esa acusación, porque, antes de eso, hasta donde entendemos, no va a haber ningún tipo de cambio de gabinete\".  Desde RN, el diputado Diego Schalper aseveró que \"a mí me preocupa a ratos que nos demoremos en la toma de decisiones, porque mientras más nos demoremos nos estamos perdiendo la gran oportunidad que tiene la derecha chilena de tener mayoría en ambas cámaras y por lo tanto, cada semana que pasa es una semana que perdemos de poder sacar cosas importantes adelante y que después nos vamos a arrepentir\". Las declaraciones se producen luego de una serie de cuestionamientos desde sectores del oficialismo y de exautoridades de los Gobiernos del fallecido Sebastián Piñera (2010-2014, 2018-2022). Entre ellos, el alcalde de Providencia y exministro,  Jaime Bellolio (UDI), quien criticó la conducción del Ejecutivo y advirtió que \"cuando algo es un error grave tiene que haber consecuencias\". \"Un proyecto político sólido\" Por su parte, el vocero y subsecretario de Gobierno, Gonzalo Arenas , sostuvo que la cita en Cerro Castillo buscó fortalecer la relación entre La Moneda y los partidos del oficialismo. \"Queremos tener una nueva etapa en la relación con los partidos políticos\", señaló el portavoz, agregando que el objetivo es conformar \"un proyecto político sólido que mira más allá, incluso, del 2030\". La reunión se realizó antes del próximo viaje internacional de Kast, quien la próxima semana iniciará su primera gira por Asia. Críticas por nombramiento de Steinert A las tensiones se suma la designación de la exministra Trinidad Steinert como nueva agregada de seguridad de la Embajada de Chile en Paraguay , nombramiento que también ha generado reparos en sectores oficialistas. La diputada Constanza Schönhaut (FA) criticó que \"el nombramiento de Trinidad Steinert es realmente una falta de respeto para todo Chile. No solo duró solo dos meses, sino que además se negó sistemáticamente a asistir a la comisión investigadora. Entonces uno se pregunta realmente qué es lo que pretende el Presidente Kast que Trinidad Steinert vaya a representar al Estado de Chile fuera del país\". En el oficialismo, el diputado Jorge Guzmán (Evópoli) recalcó que \"a mí no me gustan los premios de consuelo. La exministra Steinert tuvo la oportunidad de ser ministra de Seguridad, fue removida de su cargo porque no cumplió con las expectativas\". \"No me gusta, no me parece e insisto, son premios de consuelo para alguien que no estuvo a la altura del cargo que le tocó representar\", añadió.",
-          "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/udi-el-presidente-decidio-enfrentar-la-acusacion-constitucional-con/2026-11-11/003605.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111003605.jpg",
-          "published_raw": "Wed, 11 Nov 2026 00:36:05 -0300",
-          "published_at": "2026-11-11T00:36:05-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 6,
-          "score_noise": 1,
-          "score_accident": 0,
-          "political_evidence": 13,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-007"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-004",
-      "title": "Presupuesto: Cámara rechazó partida del Ministerio del Interior por recortes a emergencias y Ley Cholito",
-      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-camara-rechazo-partida-del-ministerio-del-interior-por/2026-11-10/192635.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 58.3,
-        "level": "MEDIA",
-        "editorial_utility": 53.3
-      },
-      "selection": {
-        "reason": "PML 58.3; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 2,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-10T16:31:08-0300",
-      "last_seen": "2026-11-10T19:26:35-0300",
+      "first_seen": "2026-11-11T14:21:54-0300",
+      "last_seen": "2026-11-11T14:21:54-0300",
       "entities": [
-        "congreso",
-        "chile",
         "senado",
-        "bachelet",
-        "boric"
+        "chile"
       ],
-      "event_terms": [
-        "judicial",
-        "ataque"
-      ],
+      "event_terms": [],
       "analysis": {
-        "summary": "En el marco de la discusión de la Ley de Presupuesto 2027 , la Cámara de Diputados rechazó este martes la partida correspondiente al Ministerio del Interior y Seguridad Pública, en una votación que concluyó con un empate a 71 sufragios, impidiendo alcanzar la mayoría requerida para su aprobación.",
+        "summary": "La Cámara de Diputadas y Diputados rechazó este miércoles la partida del Ministerio de Educación durante la discusión en particular del Presupuesto 2027 . La propuesta obtuvo 73 votos a favor y 73 en contra , por lo que no alcanzó la mayoría necesaria para su aprobación. El fin de \"Yo Elijo Mi PC\" , programa que entregaba computadores a estudiantes de séptimo básico, marcó el debate.",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -377,58 +256,180 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Presupuesto: Cámara rechazó partida del Ministerio del Interior por recortes a emergencias y Ley Cholito",
-          "description": "En el marco de la discusión de la Ley de Presupuesto 2027 , la Cámara de Diputados rechazó este martes la partida correspondiente al Ministerio del Interior y Seguridad Pública, en una votación que concluyó con un empate a 71 sufragios, impidiendo alcanzar la mayoría requerida para su aprobación. De momento, la cartera del Interior es la única que no ha conseguido el respaldo de los legisladores , a diferencia de las partidas de Presidencia, Congreso Nacional, Poder Judicial, Contraloría y Relaciones Exteriores, que ya obtuvieron el visto bueno por parte de la corporación. ⭕️ #Presupuesto2027 La Cámara rechaza la partida del Ministerio del Interior, por 71 votos a favor y 71 en contra. Sigue el debate por: 📺 https://t.co/yUv697DucZ 📲 https://t.co/lIwKrNFWvI — Diputadas y Diputados de Chile (@Camara_cl) November 10, 2026 El rechazo de la mitad de los parlamentarios se concentró principalmente en dos materias: el debilitamiento de los recursos destinados a la prevención de desastres naturales , y una fuerte disminución en los fondos correspondientes a la implementación de la Ley de Tenencia Responsable de Mascotas , conocida como Ley Cholito. En medio del debate, el diputado Daniel Manouchehri (PS) increpó directamente al titular de Hacienda: \"Qué se le pasa por la cabeza, ministro (Jorge) Quiroz? ¿No ve la televisión? ¿No lee las noticias? ¿No escucharon nada del cambio climático? Eso de que somos un país sísmico, los incendios. ¿Les suena algo? ¿O los convenció el señor Kaiser del negacionismo climático?\", fustigó. \"¿Y qué decir de las mascotas? Reducen en un 86% el presupuesto de la Ley Cholito. ¿Qué le hicieron las mascotas a Kast?\" , reprochó el parlamentario opositor. [Lea también] Presupuesto: Cámara rechazó asignaciones para gastos y personal de expresidentes El diputado Juan Marcelo Valenzuela (PDG) explicó que su rechazo \"tiene que ver con el debilitamiento de los fondos de tenencia responsable. Es insostenible que le hayan pegado un manotazo de tres mil millones de pesos a este programa\". \"La otra razón tiene que ver con Senapred, por el cambio climático ha ocurrido un montón de catástrofes y hoy día el Ejecutivo tiene que fortalecer Senapred y lo está debilitando\" , sostuvo. Ante estas palabras, el ministro Quiroz replicó que \"se ha hablado mucho de la reducción al programa de gestión de riesgos, pero la reducción total en Senapred no supera el 3 por ciento respecto al presupuesto de apertura del 2026 y al respecto, efectivamente hubo un ajuste a comienzos de año\". El desenlace de la votación también estuvo marcado por descuelgues, entre ellos el voto en contra del diputado Carlos Chandía (RN) , exárbitro FIFA, lo que terminó por dejar sin efecto los recursos destinados a Interior. Tras este resultado, el Gobierno deberá presentar una indicación única ante el Senado para reponer el financiamiento total de la cartera liderada por el biministro Claudio Alvarado. La Cámara baja rechazó toda la partida presupuestaria del Ministerio del Interior. (Al registrarse un empate a 71 votos, se entiende que no hubo mayoría para aprobarla). @Cooperativa — Jorge Espinoza Cuellar (@espinozacuellar) November 10, 2026",
-          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-camara-rechazo-partida-del-ministerio-del-interior-por/2026-11-10/192635.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110192635.jpg",
-          "published_raw": "Tue, 10 Nov 2026 19:26:35 -0300",
-          "published_at": "2026-11-10T19:26:35-0300",
+          "title": "Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\"",
+          "description": "La Cámara de Diputadas y Diputados rechazó este miércoles la partida del Ministerio de Educación durante la discusión en particular del Presupuesto 2027 . La propuesta obtuvo 73 votos a favor y 73 en contra , por lo que no alcanzó la mayoría necesaria para su aprobación. El fin de \"Yo Elijo Mi PC\" , programa que entregaba computadores a estudiantes de séptimo básico, marcó el debate. Antes de la votación, el ministro de Hacienda, Jorge Quiroz , se comprometió a abordar la continuidad de la entrega de equipos durante el trámite del proyecto en el Senado. Según consignó Emol , Quiroz reconoció la preocupación de los diputados por el futuro de las becas de acceso a las tecnologías de la información y la comunicación (TIC) y el impacto que tiene para los estudiantes recibir un computador. También advirtió que, según los estudios a los que aludió en la Sala, \"no siempre esta entrega resulta en mejoras de aprendizaje\" . El ministro planteó que la discusión en el Senado debe considerar ambos aspectos. \"Una mirada conjunta donde consideremos entregas de computadores, pero consideremos también recoger elementos que permitan mejorar este programa\" , afirmó. Desde RN, el diputado Luis Pardo confirmó que \"el ministro de Hacienda ha acogido nuestra propuesta y ha comprometido públicamente en la Sala que va a mantener el programa 'Yo elijo mi PC' , lo cual valoramos profundamente, porque sabemos que este programa es muy importante para los niños de séptimo básico y sus familias\". El debate por el fin de \"Yo Elijo Mi PC\" La diputada Irací Hassler (PC) cuestionó las prioridades del Ejecutivo. A su juicio, la propuesta del Gobierno \"promueve quitarle los computadores a los niños y niñas, mientras el Estado chileno le entrega millonarios recursos a los más ricos de nuestro país\". La diputada Emilia Schneider (Frente Amplio) expuso: \"El Presidente Kast y el ministro Quiroz le han mentido a todo Chile. Entonces , ¿cómo vamos a confiar en que van a reponer el presupuesto para los computadores de los niños, niñas y jóvenes que más lo necesitan? No lo hicieron en la Cámara de Diputados, ¿por qué habríamos de confiar que en el Senado así lo hicieran?\". Desde el Partido Republicano , el diputado Stephan Schubert respaldó los cambios al programa y cuestionó que los equipos permanezcan almacenados. \"No queremos más computadores llegando a ser obsoletos en las bodegas\", afirmó. \"Por supuesto que hay que transformar esa política pública, que tiene hoy día un fin más bien social que educacional \", sostuvo Schubert. Tras la votación, la Sala continuó con la partida del Ministerio de Justicia . La discusión se centró en la permanencia del ministro Fernando Rabat en el cargo tras la polémica por las rebajas de condena a sentenciados por delitos sexuales contra menores de 14 años.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/camara-rechazo-la-partida-de-educacion-y-quiroz-ofrecio-una-alternativa/2026-11-11/142154.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111142154.jpg",
+          "published_raw": "Wed, 11 Nov 2026 14:21:54 -0300",
+          "published_at": "2026-11-11T14:21:54-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 8,
+          "score_institutional": 7,
           "score_elections": 1,
-          "score_international": 1,
-          "score_conflict": 1,
-          "score_policy": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 3,
           "score_ideology": 0,
-          "score_actor": 2,
+          "score_actor": 4,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 14,
+          "political_evidence": 15,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
-        },
+          "cluster_id": "PML-EVENT-003"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-019",
+      "title": "La policía británica detiene a un soldado estadounidense acusado de espiar para Rusia",
+      "url": "https://elpais.com/internacional/2026-11-11/la-policia-britanica-detiene-a-un-soldado-estadounidense-acusado-de-espiar-para-rusia.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Conflictos y seguridad",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Internacional",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 60.3,
+        "level": "MEDIA",
+        "editorial_utility": 55.3
+      },
+      "selection": {
+        "reason": "PML 60.3",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-11T12:41:34-0300",
+      "last_seen": "2026-11-11T12:41:34-0300",
+      "entities": "rusia",
+      "event_terms": [],
+      "analysis": {
+        "summary": "Washington acusa a tres iraníes de estar detrás del intento de atentado a la base aérea de Fairford",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "La policía británica detiene a un soldado estadounidense acusado de espiar para Rusia",
+          "description": "Washington acusa a tres iraníes de estar detrás del intento de atentado a la base aérea de Fairford",
+          "url": "https://elpais.com/internacional/2026-11-11/la-policia-britanica-detiene-a-un-soldado-estadounidense-acusado-de-espiar-para-rusia.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/G46GAZDCUFJPTBCT776HOEZ4IM.jpg?auth=3214dcbd59c711df6c6d78a8a1847ab46d50bf9c846b431fc53da3c0a002c162",
+          "published_raw": "Wed, 11 Nov 2026 15:41:34 GMT",
+          "published_at": "2026-11-11T12:41:34-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 0,
+          "score_international": 1,
+          "score_conflict": 2,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-019"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-007",
+      "title": "Presidenta del Senado pide solución al paro camionero antes del nuevo viaje de Kast",
+      "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/presidenta-del-senado-pide-solucion-al-paro-camionero-antes-del-nuevo/2026-11-11/225455.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 60.5,
+        "level": "MEDIA",
+        "editorial_utility": 56.5
+      },
+      "selection": {
+        "reason": "PML 60.5; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-11T22:54:55-0300",
+      "last_seen": "2026-11-11T22:54:55-0300",
+      "entities": [
+        "senado",
+        "chile",
+        "boric"
+      ],
+      "event_terms": "crisis",
+      "analysis": {
+        "summary": "La presidenta del Senado, Paulina Núñez (RN) , hizo votos por que el paro de los camioneros  que se inició el martes quede resuelto antes del nuevo viaje internacional de José Antonio Kast . El Mandatario parte el viernes a una gira por Asia que lo llevará a Vietnam, China y Japón , y evitando plantear que la suspenda debido a la crisis, la parlamentaria enfatizó la urgencia de que el Gobierno encuentre una solución pronta frente a la protesta de los transportistas de carga.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Presupuesto: Cámara rechazó asignaciones para gastos y personal de expresidentes",
-          "description": "En el marco de la discusión particular de la Ley de Presupuesto , l a Cámara de Diputados aprobó este martes las tres primeras partidas: Presidencia de la República, Poder Judicial y Congreso Nacional, pero rechazó , dentro de esta última, los recursos destinados  al financiamiento de las asignaciones de los expresidentes de la República. El pleno resolvió apoyar la propuesta del diputado Javier Olivares (PDG) para eliminar las asignaciones operativas de los exmandatarios, tales como gastos de funcionamiento de oficinas, costos de movilización y contratación de personal. 📌Cámara despachó Partida 02 Congreso Nacional. Ahora comienza el debate de la Partida 03 Poder Judicial. En vivo por: 📲https://t.co/lIwKrNFoGa 📺https://t.co/yUv697CWnr https://t.co/aCJKEgFf5c — Diputadas y Diputados de Chile (@Camara_cl) November 10, 2026 La votación generó un intenso debate, instancia en que el parlamentario promotor expresó: \" Basta de pagarles a los expresidentes por todo. Dejemos que ellos también, con la platita que han podido hacer, puedan pagar sus oficinas y a sus empleados, y que eso no salga de la plata de todos los chilenos\". \"¿Por qué le vamos a seguir entregando más y más platita a personas privilegiadas? Los expresidentes, en el próximo presupuesto para 2027, solamente van a contar con su sueldo . Así que que se pongan a mandar currículum y que se pongan también a buscar trabajo para que puedan sumar para poder pagar sus oficinas. Pero ya no puede seguir haciéndose eso con plata de todos los chilenos\", indicó. 🇨🇱 Si los chilenos tenemos que apretarnos el cinturón, los expresidentes de la República también. Por eso, presente una indicación al Presupuesto 2027 para rebajar en más de $508 millones los recursos destinados a los expresidentes y dejar solo lo que corresponde a sus dietas. Mi propuesta baja esa asignación de $915.745.000 a $406.900.000. Espero todos los parlamentarios me apoyen en esta moción de justicia social. — Javier Olivares A (@JavierOlivares) November 10, 2026 La diputada Daniela Serrano (PC) cuestionó la medida y aseguró que desde el oficialismo \"constantemente existe un ataque a la figura de la expresidenta Michelle Bachelet y también del Presidente Gabriel Boric. Es muy desleal que hoy día se pongan (esos dineros) en cuestionamiento, (porque) cuando estaba el expresidente Piñera no se decía nada en esta Cámara\". La indicación sólo afecta a las asignaciones de funcionamiento y logística institucional, sin alterar la dieta o pensión mensual que constitucionalmente perciben los exjefes de Estado. Luego de zanjar la partida del Congreso Nacional, la Sala de la Cámara inició de inmediato la discusión de la partida número cuatro, correspondiente a la Contraloría General de la República.",
-          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-camara-rechazo-asignaciones-para-gastos-y-personal-de/2026-11-10/163108.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110163108.jpg",
-          "published_raw": "Tue, 10 Nov 2026 16:31:08 -0300",
-          "published_at": "2026-11-10T16:31:08-0300",
+          "title": "Presidenta del Senado pide solución al paro camionero antes del nuevo viaje de Kast",
+          "description": "La presidenta del Senado, Paulina Núñez (RN) , hizo votos por que el paro de los camioneros  que se inició el martes quede resuelto antes del nuevo viaje internacional de José Antonio Kast . El Mandatario parte el viernes a una gira por Asia que lo llevará a Vietnam, China y Japón , y evitando plantear que la suspenda debido a la crisis, la parlamentaria enfatizó la urgencia de que el Gobierno encuentre una solución pronta frente a la protesta de los transportistas de carga. \"Si se lleva a cabo la APEC, evidentemente que el Presidente tiene que estar con su delegación, porque es Chile el que tiene que estar. Pero el conflicto no aguanta más horas ni más días \", advirtió la senadora por Antofagasta. \" Tiene que estar resuelto esto -que no digo que condicione el viaje del Presidente; quiero ser muy clara en aquello-, pero por supuesto que esta situación, esta crisis, este problema, tiene que estar resuelto, ojalá, en las próximas horas \", remarcó Núñez, que es una de las figuras \"presidenciables\" de su partido. Siempre hay un tuit En el pasado hubo varias ocasiones en que el hoy Presidente Kast fustigó al entonces Jefe de Estado, Gabriel Boric , por sus salidas del país: por ejemplo, en medio del caso Fundaciones u otras coyunturas. En octubre de 2023, hace sólo tres años, Kast tuiteó: \" En medio de una grave crisis económica, un país en recesión y el desempleo al alza, el Presidente Boric se va de gira a China con seis ministros de Estado incluyendo a la vocera, ¿cómo se explica esto? ». ",
+          "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/presidenta-del-senado-pide-solucion-al-paro-camionero-antes-del-nuevo/2026-11-11/225455.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111225455.jpg",
+          "published_raw": "Wed, 11 Nov 2026 22:54:55 -0300",
+          "published_at": "2026-11-11T22:54:55-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
           "score_institutional": 5,
-          "score_elections": 1,
+          "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
+          "score_conflict": 2,
           "score_policy": 1,
           "score_ideology": 0,
-          "score_actor": 3,
+          "score_actor": 5,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 10,
+          "political_evidence": 13,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
+          "cluster_id": "PML-EVENT-007"
         }
       ]
     }
@@ -441,6 +442,107 @@
     "stories": [
       {
         "position": 1,
+        "cluster_id": "PML-EVENT-006",
+        "title": "Presupuesto: Cámara rechazó partida del Ministerio del Interior por recortes a emergencias y Ley Cholito",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-camara-rechazo-partida-del-ministerio-del-interior-por/2026-11-10/192635.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 55.8,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 81,
+            "freshness": 62,
+            "source_count": 32,
+            "geographic_scope": 40,
+            "continuity": 36
+          }
+        },
+        "coverage": {
+          "article_count": 2,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-10T16:31:08-0300",
+        "last_seen": "2026-11-10T19:26:35-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Presupuesto: Cámara rechazó partida del Ministerio del Interior por recortes a emergencias y Ley Cholito",
+            "description": "En el marco de la discusión de la Ley de Presupuesto 2027 , la Cámara de Diputados rechazó este martes la partida correspondiente al Ministerio del Interior y Seguridad Pública, en una votación que concluyó con un empate a 71 sufragios, impidiendo alcanzar la mayoría requerida para su aprobación. De momento, la cartera del Interior es la única que no ha conseguido el respaldo de los legisladores , a diferencia de las partidas de Presidencia, Congreso Nacional, Poder Judicial, Contraloría y Relaciones Exteriores, que ya obtuvieron el visto bueno por parte de la corporación. ⭕️ #Presupuesto2027 La Cámara rechaza la partida del Ministerio del Interior, por 71 votos a favor y 71 en contra. Sigue el debate por: 📺 https://t.co/yUv697DucZ 📲 https://t.co/lIwKrNFWvI — Diputadas y Diputados de Chile (@Camara_cl) November 10, 2026 El rechazo de la mitad de los parlamentarios se concentró principalmente en dos materias: el debilitamiento de los recursos destinados a la prevención de desastres naturales , y una fuerte disminución en los fondos correspondientes a la implementación de la Ley de Tenencia Responsable de Mascotas , conocida como Ley Cholito. En medio del debate, el diputado Daniel Manouchehri (PS) increpó directamente al titular de Hacienda: \"Qué se le pasa por la cabeza, ministro (Jorge) Quiroz? ¿No ve la televisión? ¿No lee las noticias? ¿No escucharon nada del cambio climático? Eso de que somos un país sísmico, los incendios. ¿Les suena algo? ¿O los convenció el señor Kaiser del negacionismo climático?\", fustigó. \"¿Y qué decir de las mascotas? Reducen en un 86% el presupuesto de la Ley Cholito. ¿Qué le hicieron las mascotas a Kast?\" , reprochó el parlamentario opositor. [Lea también] Presupuesto: Cámara rechazó asignaciones para gastos y personal de expresidentes El diputado Juan Marcelo Valenzuela (PDG) explicó que su rechazo \"tiene que ver con el debilitamiento de los fondos de tenencia responsable. Es insostenible que le hayan pegado un manotazo de tres mil millones de pesos a este programa\". \"La otra razón tiene que ver con Senapred, por el cambio climático ha ocurrido un montón de catástrofes y hoy día el Ejecutivo tiene que fortalecer Senapred y lo está debilitando\" , sostuvo. Ante estas palabras, el ministro Quiroz replicó que \"se ha hablado mucho de la reducción al programa de gestión de riesgos, pero la reducción total en Senapred no supera el 3 por ciento respecto al presupuesto de apertura del 2026 y al respecto, efectivamente hubo un ajuste a comienzos de año\". El desenlace de la votación también estuvo marcado por descuelgues, entre ellos el voto en contra del diputado Carlos Chandía (RN) , exárbitro FIFA, lo que terminó por dejar sin efecto los recursos destinados a Interior. Tras este resultado, el Gobierno deberá presentar una indicación única ante el Senado para reponer el financiamiento total de la cartera liderada por el biministro Claudio Alvarado. La Cámara baja rechazó toda la partida presupuestaria del Ministerio del Interior. (Al registrarse un empate a 71 votos, se entiende que no hubo mayoría para aprobarla). @Cooperativa — Jorge Espinoza Cuellar (@espinozacuellar) November 10, 2026",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-camara-rechazo-partida-del-ministerio-del-interior-por/2026-11-10/192635.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110192635.jpg",
+            "published_raw": "Tue, 10 Nov 2026 19:26:35 -0300",
+            "published_at": "2026-11-10T19:26:35-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 8,
+            "score_elections": 1,
+            "score_international": 1,
+            "score_conflict": 1,
+            "score_policy": 1,
+            "score_ideology": 0,
+            "score_actor": 2,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-006"
+          },
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Presupuesto: Cámara rechazó asignaciones para gastos y personal de expresidentes",
+            "description": "En el marco de la discusión particular de la Ley de Presupuesto , l a Cámara de Diputados aprobó este martes las tres primeras partidas: Presidencia de la República, Poder Judicial y Congreso Nacional, pero rechazó , dentro de esta última, los recursos destinados  al financiamiento de las asignaciones de los expresidentes de la República. El pleno resolvió apoyar la propuesta del diputado Javier Olivares (PDG) para eliminar las asignaciones operativas de los exmandatarios, tales como gastos de funcionamiento de oficinas, costos de movilización y contratación de personal. 📌Cámara despachó Partida 02 Congreso Nacional. Ahora comienza el debate de la Partida 03 Poder Judicial. En vivo por: 📲https://t.co/lIwKrNFoGa 📺https://t.co/yUv697CWnr https://t.co/aCJKEgFf5c — Diputadas y Diputados de Chile (@Camara_cl) November 10, 2026 La votación generó un intenso debate, instancia en que el parlamentario promotor expresó: \" Basta de pagarles a los expresidentes por todo. Dejemos que ellos también, con la platita que han podido hacer, puedan pagar sus oficinas y a sus empleados, y que eso no salga de la plata de todos los chilenos\". \"¿Por qué le vamos a seguir entregando más y más platita a personas privilegiadas? Los expresidentes, en el próximo presupuesto para 2027, solamente van a contar con su sueldo . Así que que se pongan a mandar currículum y que se pongan también a buscar trabajo para que puedan sumar para poder pagar sus oficinas. Pero ya no puede seguir haciéndose eso con plata de todos los chilenos\", indicó. 🇨🇱 Si los chilenos tenemos que apretarnos el cinturón, los expresidentes de la República también. Por eso, presente una indicación al Presupuesto 2027 para rebajar en más de $508 millones los recursos destinados a los expresidentes y dejar solo lo que corresponde a sus dietas. Mi propuesta baja esa asignación de $915.745.000 a $406.900.000. Espero todos los parlamentarios me apoyen en esta moción de justicia social. — Javier Olivares A (@JavierOlivares) November 10, 2026 La diputada Daniela Serrano (PC) cuestionó la medida y aseguró que desde el oficialismo \"constantemente existe un ataque a la figura de la expresidenta Michelle Bachelet y también del Presidente Gabriel Boric. Es muy desleal que hoy día se pongan (esos dineros) en cuestionamiento, (porque) cuando estaba el expresidente Piñera no se decía nada en esta Cámara\". La indicación sólo afecta a las asignaciones de funcionamiento y logística institucional, sin alterar la dieta o pensión mensual que constitucionalmente perciben los exjefes de Estado. Luego de zanjar la partida del Congreso Nacional, la Sala de la Cámara inició de inmediato la discusión de la partida número cuatro, correspondiente a la Contraloría General de la República.",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-camara-rechazo-asignaciones-para-gastos-y-personal-de/2026-11-10/163108.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110163108.jpg",
+            "published_raw": "Tue, 10 Nov 2026 16:31:08 -0300",
+            "published_at": "2026-11-10T16:31:08-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 5,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 0,
+            "score_actor": 3,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 10,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-006"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 77.8
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
         "cluster_id": "PML-EVENT-001",
         "title": "Gobierno entregó al Congreso los decretos de rebaja de condena",
         "topic": "Instituciones y gobierno",
@@ -452,11 +554,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 56.7,
+          "score": 54.9,
           "level": "MEDIA",
           "components": {
             "political_impact": 59,
-            "freshness": 95,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 32
@@ -474,7 +576,7 @@
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
             "title": "Gobierno entregó al Congreso los decretos de rebaja de condena",
-            "description": "El Ministerio de Justicia entregó este miércoles a la Comisión de Constitución del Senado los decretos que redujeron las penas de personas condenadas por abuso sexual o violación de menores de edad. Un funcionario de la cartera acudió -en medio de la sesión- con seis portafolios para hacer entrega de 308 decretos de rebaja de condenas a abusadores de menores, correspondientes al periodo entre 2022 y 2026. La acción fue requerida insistentemente por los diputados de la oposición con el fin de poder nutrir su acusación constitucional que se está creando contra el ministro de Justicia, Fernando Rabat. Sin embargo, el envío causó controversia debido a que Justicia remitió los archivos al Senado y no a la Cámara de Diputados , corporación encargada de la labor fiscalizadora. Asimismo, en la Comisión de Constitución de la Cámara Alta también se abrió un debate debido a que senadoras de oposición consideraron que la entrega de información no fue total , sino que más bien parcial. El presidente de la comisión, Vlado Mirosevic , señaló que los senadores analizarán si corresponde mantener los decretos en reserva. Fiscalía y Contraloría también solicitaron antecedentes La Fiscalía Regional Metropolitana Centro Norte solicitó los decretos en el marco de la investigación por eventual prevaricación que abrió tras una denuncia de los diputados Luis Cuello (PC) y Juan Santana (PS) . El Ministerio Público busca esclarecer si se cometió algún delito al conceder las rebajas. El ministro de Justicia, Fernando Rabat , señaló el martes que la Fiscalía había dado a su cartera siete días hábiles para responder y que, a esa fecha, el plazo seguía vigente. Respecto de la Contraloría General de la República , que también fiscaliza las rebajas, aseguró que el ministerio ya había respondido al organismo. Rabat atribuyó la demora en la entrega de los decretos a la recopilación de antecedentes y a la necesidad de resguardar los datos personales que contienen. Añadió que la cartera tenía cerca de 50 solicitudes de información del Congreso sobre la materia. DC: \"La AC  se va a presentar cuando deba presentarse\" El diputado Jorge Díaz, jefe de bancada de la DC , sostuvo que \"la acusación constitucional contra el ministro Rabat se va a presentar cuando deba presentarse\". \"Este es un trabajo que ha costado un poco más porque son varias bancadas de oposición, todas las bancadas de oposición las que se están articulando para que esto ocurra. Por lo tanto, tiene que tener la anuencia de todos para que sea un texto completo y suficiente \", aseveró. Por su parte, el diputado Raúl Leiva (PS) señaló que \"nosotros hemos sido contestes y sumamente responsables . Queríamos tener acceso a toda la información que permita validar los argumentos jurídicos y técnicos, porque los políticos ya están establecidos por la propia declaración del Presidente respecto a una acusación constitucional\". La Moneda respaldó a Rabat ante la posible acusación constitucional La noche del martes, el Presidente José Antonio Kast se reunió en Cerro Castillo con los presidentes de los partidos oficialistas para abordar la defensa de Rabat ante la acusación constitucional que prepara la oposición . El Mandatario ya había ratificado su respaldo al ministro y asumido la responsabilidad política por las rebajas. Al término de la reunión, el vocero de Gobierno, Gonzalo Arenas , adelantó que Justicia entregaría los decretos el miércoles y afirmó que \"el apoyo al ministro Rabat es indiscutible\" . También expresó su confianza en que los partidos oficialistas respaldarán al titular de Justicia si la oposición presenta la acusación. Esta mañana, en el Primer Café de Cooperativa , el diputado Jorge Guzmán (Evópoli) afirmó que \" hoy lo que más necesita el Gobierno, y lo hemos visto en otros gobiernos también, es darle más tonelaje político, darle más peso político a su composición ministerial, porque en cuando existe ese peso político, es más fácil llegar, es más fácil comunicar y es más fácil sensibilizar con las necesidades ciudadanas\". \"Me refiero, hoy día lleva ocho meses el Gobierno, pero un tiempo necesario es lo más cercano a antes del año de Gobierno\", agregó. Por su parte, el secretario general del Partido Republicano, Vicente Bruna, manifestó que \"cuando un Gobierno está más bajo en las encuestas, a los políticos en general les empieza a dar miedo, y el incentivo ahí es a criticar al Gobierno para conseguir réditos políticos\" . \"Creo que esa es una mala política, que se da tanto en la izquierda como en la derecha, que tiene que ser erradicada, porque uno tiene que estar con el Gobierno en las buenas y en las malas, sobre todo en las malas, que es cuando más se necesita\", subrayó.",
+            "description": "El Ministerio de Justicia entregó este miércoles a la Comisión de Constitución del Senado los decretos que redujeron las penas de personas condenadas por abuso sexual o violación de menores de edad. Un funcionario de la cartera acudió -en medio de la sesión- con seis portafolios para hacer entrega de 308 decretos de rebaja de condenas a abusadores de menores, correspondientes al periodo entre 2022 y 2026. La acción fue requerida insistentemente por los diputados de la oposición con el fin de poder nutrir su acusación constitucional que se está creando contra el ministro de Justicia, Fernando Rabat. Sin embargo, el envío causó controversia debido a que Justicia remitió los archivos al Senado y no a la Cámara de Diputados , corporación encargada de la labor fiscalizadora. Asimismo, en la Comisión de Constitución de la Cámara Alta también se abrió un debate debido a que senadoras de oposición consideraron que la entrega de información no fue total , sino que más bien parcial. El presidente de la comisión, Vlado Mirosevic , señaló que los senadores analizarán si corresponde mantener los decretos en reserva. Fiscalía y Contraloría también solicitaron antecedentes La Fiscalía Regional Metropolitana Centro Norte solicitó los decretos en el marco de la investigación por eventual prevaricación que abrió tras una denuncia de los diputados Luis Cuello (PC) y Juan Santana (PS) . El Ministerio Público busca esclarecer si se cometió algún delito al conceder las rebajas. El ministro de Justicia, Fernando Rabat , señaló el martes que la Fiscalía había dado a su cartera siete días hábiles para responder y que, a esa fecha, el plazo seguía vigente. Respecto de la Contraloría General de la República , que también fiscaliza las rebajas, aseguró que el ministerio ya había respondido al organismo. Rabat atribuyó la demora en la entrega de los decretos a la recopilación de antecedentes y a la necesidad de resguardar los datos personales que contienen. Añadió que la cartera tenía cerca de 50 solicitudes de información del Congreso sobre la materia. \"Se van a contestar todas ellas de manera completa. Hoy hicimos una primera entrega de estos decretos puesto que estaban relacionados con el proyecto de ley que estaba en tabla hoy\", sostuvo el ministro. Rabat resaltó que \"en 20 años se han rebajado condenas a 40 personas que se encuentran condenadas por hechos ocurridos en el año 1973 . ¿Y durante este Gobierno? Tres . Acá lo que importa es la víctima y por eso hemos cumplido con la normativa y hemos entregado la información en carácter de reservado\". DC: \"La AC  se va a presentar cuando deba presentarse\" El diputado Jorge Díaz, jefe de bancada de la DC , sostuvo que \"la acusación constitucional contra el ministro Rabat se va a presentar cuando deba presentarse\". \"Este es un trabajo que ha costado un poco más porque son varias bancadas de oposición, todas las bancadas de oposición las que se están articulando para que esto ocurra. Por lo tanto, tiene que tener la anuencia de todos para que sea un texto completo y suficiente \", aseveró. Por su parte, el diputado Raúl Leiva (PS) señaló que \"nosotros hemos sido contestes y sumamente responsables . Queríamos tener acceso a toda la información que permita validar los argumentos jurídicos y técnicos, porque los políticos ya están establecidos por la propia declaración del Presidente respecto a una acusación constitucional\". Oposición critica que no se entregaran decretos que beneficiaron a condenados por crimen organizado Parlamentarios de la Comisión de Constitución del Senado manifestaron sus reparos respecto a que no se entregaron los decretos que beneficiaron a condenados por crimen organizado. El senador Arturo Squella, presidente del Partido Republicano , cuestionó esta última crítica: \" Yo llamo a la oposición a que actúen con honestidad intelectual . Nunca han estado en duda aquellas personas condenadas por delitos que no se refieran de connotación sexual en contra de menores de edad. Evidentemente están haciendo un punto político\" , afirmó. \"Yo me sumo a la posibilidad de que cuanto antes nos entreguen la información de todas las personas beneficiadas porque, de alguna manera, eso va a obrar en favor del proyecto que hemos presentado ahora para que cada uno de los parlamentarios se dé cuenta de que no hay otro camino que derogar esta ley\", apuntó. La Moneda respaldó a Rabat ante la posible acusación constitucional La noche del martes, el Presidente José Antonio Kast se reunió en Cerro Castillo con los presidentes de los partidos oficialistas para abordar la defensa de Rabat ante la acusación constitucional que prepara la oposición . El Mandatario ya había ratificado su respaldo al ministro y asumido la responsabilidad política por las rebajas. Al término de la reunión, el vocero de Gobierno, Gonzalo Arenas , adelantó que Justicia entregaría los decretos el miércoles y afirmó que \"el apoyo al ministro Rabat es indiscutible\" . También expresó su confianza en que los partidos oficialistas respaldarán al titular de Justicia si la oposición presenta la acusación. Esta mañana, en el Primer Café de Cooperativa , el diputado Jorge Guzmán (Evópoli) afirmó que \" hoy lo que más necesita el Gobierno, y lo hemos visto en otros gobiernos también, es darle más tonelaje político, darle más peso político a su composición ministerial, porque en cuando existe ese peso político, es más fácil llegar, es más fácil comunicar y es más fácil sensibilizar con las necesidades ciudadanas\". \"Me refiero, hoy día lleva ocho meses el Gobierno, pero un tiempo necesario es lo más cercano a antes del año de Gobierno\", agregó. Por su parte, el secretario general del Partido Republicano, Vicente Bruna, manifestó que \"cuando un Gobierno está más bajo en las encuestas, a los políticos en general les empieza a dar miedo, y el incentivo ahí es a criticar al Gobierno para conseguir réditos políticos\" . \"Creo que esa es una mala política, que se da tanto en la izquierda como en la derecha, que tiene que ser erradicada, porque uno tiene que estar con el Gobierno en las buenas y en las malas, sobre todo en las malas, que es cuando más se necesita\", subrayó.",
             "url": "https://www.cooperativa.cl/noticias/pais/politica/gobierno-entrego-al-congreso-los-decretos-de-rebaja-de-condena/2026-11-11/121235.html",
             "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111121235.jpg",
             "published_raw": "Wed, 11 Nov 2026 12:12:35 -0300",
@@ -482,16 +584,16 @@
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 9,
+            "score_institutional": 10,
             "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 0,
+            "score_conflict": 1,
             "score_policy": 0,
             "score_ideology": 2,
             "score_actor": 6,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 17,
+            "political_evidence": 19,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
@@ -507,101 +609,28 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 77.7
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-003",
-        "title": "¿Para el reel? \"Menos mal que sabía de economía, ministro\", dijo un diputado liberal a Quiroz",
-        "topic": "Economía y políticas públicas",
-        "event_type": "POLITICAL_STATEMENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/para-el-reel-menos-mal-que-sabia-de-economia-ministro-dijo-un/2026-11-10/213539.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 47.2,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 48,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 28
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-10T21:35:39-0300",
-        "last_seen": "2026-11-10T21:35:39-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "¿Para el reel? \"Menos mal que sabía de economía, ministro\", dijo un diputado liberal a Quiroz",
-            "description": "En medio del debate de la partida presupuestaria del Ministerio de Hacienda , el diputado del Partido Liberal por Arica Luis Malla se dirigió este martes, en duros términos, al titular de dicha cartera,  Jorge Quiroz . \"Ministro Quiroz: salga un ratito a la calle, porque harta calle le falta... Por su bencinazo la gente no llega a fin de mes, los camioneros están en paro , hay más de un millón de personas sin pega en Chile y la inflación se está disparando\", enumeró Malla al intervenir en la Sala. \"Ministro: tiene a Chile asfixiado ... Menos mal que sabía de economía , señor ministro...\", prosiguió. Y agregó luego: \" Chile no funciona como una empresa ni como una farmacia coludida. De eso usted sí sabe harto ...\". \"Y con su megarreforma les  hicieron un regalito a las grandes empresas y les bajaron los impuestos como premio a  sus amiguitos millonarios , mientras a la gente la obligan a apretarse el cinturón y le destruyen los derechos sociales, el medioambiente, la canasta básica familiar y la educación y salud pública\", disparó. La intervención fue criticada por parlamentarios oficialistas y se da un día después de que, en la propia Cámara, en la votación en general del Presupuesto, el ministro Quiroz llamara a los diputados a subir el nivel del debate y dejar de \"hablar para el reel \" de redes sociales . Luis Malla intervino también en el debate del lunes, y frente a su tono, similar al de hoy, la vicepresidenta de la Cámara, Ximena Ossandón (RN), intentó llamarlo al orden, pero él contestó desafiante: \" No se van a censurar . Yo voy a decir lo que Chile piensa\", según consta en un reel que publicó en su cuenta de Instagram. Ver esta publicación en Instagram Una publicación compartida de Luis Malla | Diputado de Arica y Parinacota (@luis.malla) Muy activo en la red, publicó durante esta jornada otro video grabado en la Cámara celebrando el rechazo a la partida del Ministerio del Interior , y compartió una caricatura que le envió un seguidor, de él mismo en actitud de Tío Sam y tomando de su chaqueta a una versión empequeñecida y lastimera del jefe de la billetera fiscal. Ver esta publicación en Instagram Una publicación compartida de Luis Malla | Diputado de Arica y Parinacota (@luis.malla)   Ver esta publicación en Instagram Una publicación compartida de Pablo Olave (@olavearte)  ",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/para-el-reel-menos-mal-que-sabia-de-economia-ministro-dijo-un/2026-11-10/213539.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110213539.jpg",
-            "published_raw": "Tue, 10 Nov 2026 21:35:39 -0300",
-            "published_at": "2026-11-10T21:35:39-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 4,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 5,
-            "score_ideology": 1,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 14,
-            "primary_topic": "Economía y políticas públicas",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo",
-            "Economía y políticas públicas"
-          ],
-          "chile_utility": 69.2
+          "chile_utility": 75.9
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-010",
-        "title": "¿Por qué el Gobierno pausó el proyecto para limitar el alza de los combustibles?",
+        "cluster_id": "PML-EVENT-002",
+        "title": "Diputada republicana arremetió en la Cámara contra \"Derechos Humanos Company\"",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/por-que-el-gobierno-pauso-el-proyecto-para-limitar-el-alza-de-los/2026-11-11/155703.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-republicano/diputada-republicana-arremetio-en-la-camara-contra-derechos-humanos/2026-11-11/193512.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 56.5,
+          "score": 53.8,
           "level": "MEDIA",
           "components": {
-            "political_impact": 55,
-            "freshness": 100,
+            "political_impact": 50,
+            "freshness": 95,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -612,44 +641,47 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-11T15:57:03-0300",
-        "last_seen": "2026-11-11T15:57:03-0300",
+        "first_seen": "2026-11-11T19:35:12-0300",
+        "last_seen": "2026-11-11T19:35:12-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "¿Por qué el Gobierno pausó el proyecto para limitar el alza de los combustibles?",
-            "description": "En el marco de las movilizaciones del gremio del transporte de carga y a la espera de los resultados de las negociaciones, el Gobierno resolvió este miércoles pausar la tramitación del proyecto de ley destinado a contener el aumento de los combustibles. La iniciativa, anunciada el lunes por el Presidente José Antonio Kast , buscaba evitar que las futuras alzas semanales de los combustibles superaran el umbral de los 20 pesos mediante un trámite con discusión inmediata. Si bien el Mandatario afirmó que la propuesta tendría discusión inmediata esta semana, e l ministro de Hacienda, Jorge Quiroz, confirmó que la idea está en pausa y explicó las razones: \"Ese primer proyecto contaba con el apoyo, y de hecho fue una idea que surgió de ellos mismos, de la Confederación del Transporte Terrestre y la Confederación de Dueños de Camiones , entre otros\", señaló. \" Pero ahora han seguido otras conversaciones y pusimos ese proyecto en pausa a la espera de lo que salga . Y lo que salga, que se modifique, nuevamente va a ser un acuerdo conjunto entre el Presidente , que es quien dirige este tema primeramente, con la anuencia o la concurrencia, según corresponda, del ministro del Interior y quien habla\", agregó el jefe de la billetera fiscal. Reunión en el Senado y exigencia de Fedequinta En paralelo, la presidenta del senado, Paulina Núñez (RN), y otros parlamentarios integrantes de las comisiones de Transportes y de Economía, sostuvieron este miércoles una reunión con representantes de Fedequinta , organización que congrega a cerca de 800 transportistas de carga portuaria de Valparaíso. Tras la cita, el presidente subrogante del gremio, Gerardo Álvarez , informó que la senadora Núñez se comprometió a transmitir directamente al Gobierno la principal demanda de la asociación: asegurar la estabilización en el precio del diésel en un plazo mínimo de 120 días. Asimismo, el dirigente adelantó que durante esta jornada las bases de la federación resolverán si se suman formalmente al paro nacional de camioneros .",
-            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/por-que-el-gobierno-pauso-el-proyecto-para-limitar-el-alza-de-los/2026-11-11/155703.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111155703.jpg",
-            "published_raw": "Wed, 11 Nov 2026 15:57:03 -0300",
-            "published_at": "2026-11-11T15:57:03-0300",
+            "title": "Diputada republicana arremetió en la Cámara contra \"Derechos Humanos Company\"",
+            "description": "El debate de la partida del Ministerio de Justicia en el proyecto de Presupuesto 2027  estuvo marcada en la Cámara Baja por la intervención de la diputada republicana Javiera Rodríguez , quien acusó al mundo de los derechos humanos de actuar al modo de una empresa lucrativa. Si bien, la partida de Justicia fue aprobada en el hemiciclo , la discusión se centró en los decretos de rebaja de condena firmados por el ministro Fernando Rabat y la acusación constitucional que enfrentará próximamente. En este contexto intervino Rodríguez: \" Quiero partir mostrando mi repudio a quienes se han arrogado la propiedad de los derechos humanos en Chile; a esa gran empresa llamada Derechos Humanos Company \". \"Y es que hace un par de semanas nos enteramos que delincuentes de la peor calaña habían sido liberados por una ley, pero Derechos Humanos Company decidió que el culpable era un hombre, justo de este Gobierno. Por eso, son empresarios del dolor ajeno \", arremetió la autodenominada \"capitana\" Rodríguez. Ver esta publicación en Instagram Una publicación compartida por 𝗖𝗔𝗣𝗜𝗧𝗔𝗡𝗔 𝗥𝗢𝗗𝗥𝗜́𝗚𝗨𝗘𝗭 (@capitanarod) El comentario no cayó bien en la oposición, especialmente, en la diputada comunista Lorena Pizarro, expresidenta de la Agrupación de Familiares de Detenidos Desaparecidos : \"Más allá de lo energúmena que de verdad es, yo ni siquiera escucho la maldad que hay tras lo que dice \". \"Lo que me parece preocupante es que en este hemiciclo el negacionismo se haya instalado . No importa si yo soy hija de un desaparecido cuando se me ha dicho 'supéralo'. No. Tengo la dignidad heredada de la Agrupación de Familiares de Detenidos Desaparecidos \", aseveró. Pizarro llamó \"energúmena\" a la republicana. (Foto: ATON) El episodio obligó a la vicepresidente de la Cámara, Ximena Ossandón (RN) , a suspender por algunos minutos la sesión. Durante el receso, la diputada Pizarro se acercó al sector republicano y le dijo a Rodríguez: \" Ven a decírmelo a la cara \", y fue contenida por sus pares del Frente Amplio y del Partido Comunista en medio de una fuerte emoción. Más tarde, Rodríguez dio un punto de prensa y aseguró mantener sus dichos, dijo que no se arrepiente de lo que dijo  y que continuará marcando sus puntos con valentía. Lorena Pizarro -también ante la prensa-  reivindicó la memoria de los detenidos desaparecidos y la lucha por la verdad histórica. Comités rechazaron \"expresiones malévolas\" Posteriormente, el presidente de la Cámara Baja, Jorge Alessandri (UDI) , leyó una declaración unánime de los comités parlamentarios planteando que \"el debate en la Sala debe desarrollarse con pleno respeto a la dignidad de todos sus integrantes\". \"Los comités rechazan toda expresión que recurra a descalificaciones personales o que utilice como instrumento de confrontación la historia personal o familiar de un parlamentario. Los comités recuerdan a las diputadas y diputados que el reglamento de la corporación les exige como un deber de conducta actuar con fraternidad hacia sus colegas. Esto implica abstenerse cuidadosamente de toda expresión malévola o injuriosa y de alusiones a sus antecedentes personales\", señala el escrito. ⭕️ COMUNICADO OFICIAL DE LOS COMITÉS PARLAMENTARIOS DE LA CÁMARA DE DIPUTADAS Y DIPUTADOS. https://t.co/W4Hoik6rl9 — Diputadas y Diputados de Chile (@Camara_cl) November 11, 2026  ",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-republicano/diputada-republicana-arremetio-en-la-camara-contra-derechos-humanos/2026-11-11/193512.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000001320261111193512.jpg",
+            "published_raw": "Wed, 11 Nov 2026 19:35:12 -0300",
+            "published_at": "2026-11-11T19:35:12-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 6,
+            "score_institutional": 8,
             "score_elections": 0,
             "score_international": 0,
             "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 4,
+            "score_policy": 1,
+            "score_ideology": 1,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 10,
+            "political_evidence": 15,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": null,
+            "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-010"
+            "cluster_id": "PML-EVENT-002"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 65.5
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 74.8
         },
         "repeated_in_general_top5": false
       }
@@ -658,32 +690,32 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 24,
-      "maximum_relevance": 62.2,
-      "leading_story": "Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\""
+      "event_count": 21,
+      "maximum_relevance": 63.8,
+      "leading_story": "UDI: El Presidente decidió enfrentar la acusación constitucional con Rabat para ganarla"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 3,
-      "maximum_relevance": 62.1,
-      "leading_story": "La policía británica detiene a un soldado estadounidense acusado de espiar para Rusia"
+      "maximum_relevance": 60.9,
+      "leading_story": "Las negociaciones de Abu Dabi sobre Ucrania concluyen con un canje de prisioneros y sin progresos para la paz"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 53.9,
+      "maximum_relevance": 51.9,
       "leading_story": "Mercosur: la geoestrategia detrás de un pacto comercial con luces y sombras"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 1,
-      "maximum_relevance": 50.3,
+      "event_count": 2,
+      "maximum_relevance": 48.3,
       "leading_story": "Un magma de 39 candidatos para sustituir a Macron en Francia"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 47.2,
+      "maximum_relevance": 44.7,
       "leading_story": "¿Para el reel? \"Menos mal que sabía de economía, ministro\", dijo un diputado liberal a Quiroz"
     }
   ],
