@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-12",
-    "data_latest_timestamp": "2026-11-12T14:02:52-0300",
-    "data_age_hours": 0.4,
-    "generated_at": "2026-11-12T14:27:27-0300",
+    "data_latest_timestamp": "2026-11-12T18:26:10-0300",
+    "data_age_hours": 1.9,
+    "generated_at": "2026-11-12T20:21:47-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,248 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 28 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 28,
-    "topics": 2,
-    "geographies": 2,
+    "ranked_events": 33,
+    "topics": 1,
+    "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 60.3,
-    "maximum_relevance": 62.5
+    "average_top5_relevance": 61.6,
+    "maximum_relevance": 65.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-016",
+      "cluster_id": "PML-EVENT-007",
+      "title": "Oposición levantó veto al jefe de la Dipres en la Cámara",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/oposicion-levanto-veto-al-jefe-de-la-dipres-en-la-camara/2026-11-12/162201.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 65.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 65.2
+      },
+      "selection": {
+        "reason": "PML 65.2",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-12T16:22:01-0300",
+      "last_seen": "2026-11-12T16:22:01-0300",
+      "entities": [],
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "Luego de la entrega -por parte del Ministerio de Justicia a la Comisión de Constitución- de los decretos que rebajaron condenas a pedófilos, la oposición decidió autorizar la entrada a la Sala de la Cámara del director de Presupuestos, José Pablo Gómez, para la discusión del erario 2027. De acuerdo con La Tercera, el presidente de la Cámara de Diputados, Jorge Alessandri (UDI), informó que los comités autorizarán este jueves el ingreso.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Oposición levantó veto al jefe de la Dipres en la Cámara",
+          "description": "Luego de la entrega -por parte del Ministerio de Justicia a la Comisión de Constitución- de los decretos que rebajaron condenas a pedófilos, la oposición decidió autorizar la entrada a la Sala de la Cámara del director de Presupuestos, José Pablo Gómez, para la discusión del erario 2027. De acuerdo con La Tercera, el presidente de la Cámara de Diputados, Jorge Alessandri (UDI), informó que los comités autorizarán este jueves el ingreso. Lo mismo ratificó el secretario general de la Cámara, Miguel Landeros:  \"Los comités acordaron autorizar, en los términos que ha señalado el señor presidente, al señor director de presupuestos a la sala de la corporación durante la discusión de la Ley de Presupuestos, cuando no se encuentre presente el señor ministro de Hacienda\", dijo. La oposición no concedía la unanimidad para admitir la presencia en la sala del jefe de la Dipres en señal de protesta por la mantención del ministro de Justicia, Fernando Rabat, en el cargo. Según informó el diputado Raúl Leiva (PS), en representación de los demás cómites de la oposición, la medida se iba a mantener mientras no se entregaran desde Justicia la información sobre los decretos de rebaja de condenas, hecho que se cumplió el miércoles. \"Agradeciendo la concomitancia que tuvieron los comités en permitir el ingreso de la Dipres a la Sala, el señor (Jorge) Quiroz ordenó que esos decretos se ingresaran y llegaron acá antes de las 12:00 horas, permitiendo el ejercicio de la función fiscalizadora de la Cámara de Diputados , que lamentablemente obstruyó y negó el ministro Rabat durante más de 20 días\" , puntualizó el parlamentario. [Lea también]  Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\"",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/oposicion-levanto-veto-al-jefe-de-la-dipres-en-la-camara/2026-11-12/162201.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000220261112162201.png",
+          "published_raw": "Thu, 12 Nov 2026 16:22:01 -0300",
+          "published_at": "2026-11-12T16:22:01-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 12,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-007"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-026",
+      "title": "Trump retira a Vance de las conversaciones con Irán para acabar la guerra",
+      "url": "https://elpais.com/internacional/2026-11-12/trump-retira-a-vance-de-las-conversaciones-con-iran-para-acabar-la-guerra.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 60.5,
+        "level": "MEDIA",
+        "editorial_utility": 63.5
+      },
+      "selection": {
+        "reason": "PML 60.5; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-12T15:28:12-0300",
+      "last_seen": "2026-11-12T15:28:12-0300",
+      "entities": [
+        "trump",
+        "iran"
+      ],
+      "event_terms": "guerra",
+      "analysis": {
+        "summary": "“No necesitamos un acuerdo”, ha escrito el presidente estadounidense, que quiere que su número dos se centre en descubrir supuestos casos de corrupción en los Estados bajo control demócrata",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Trump retira a Vance de las conversaciones con Irán para acabar la guerra",
+          "description": "“No necesitamos un acuerdo”, ha escrito el presidente estadounidense, que quiere que su número dos se centre en descubrir supuestos casos de corrupción en los Estados bajo control demócrata",
+          "url": "https://elpais.com/internacional/2026-11-12/trump-retira-a-vance-de-las-conversaciones-con-iran-para-acabar-la-guerra.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/3OPNORXBMFIWLOVEW62T3GEQYQ.jpg?auth=f66fd741cf306b3c440013aedd9ade03c1b5c9f90026d6c0aee20aef962b57c0",
+          "published_raw": "Thu, 12 Nov 2026 18:28:12 GMT",
+          "published_at": "2026-11-12T15:28:12-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-026"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-003",
+      "title": "Oposición prevé presentar esta noche la acusación constitucional contra Rabat",
+      "url": "https://www.cooperativa.cl/noticias/pais/judicial/oposicion-preve-presentar-esta-noche-la-acusacion-constitucional-contra/2026-11-12/142752.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 62.6,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 58.6
+      },
+      "selection": {
+        "reason": "PML 62.6; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-12T14:27:52-0300",
+      "last_seen": "2026-11-12T14:27:52-0300",
+      "entities": "congreso",
+      "event_terms": [
+        "oposicion",
+        "judicial"
+      ],
+      "analysis": {
+        "summary": "La oposición prevé presentar la noche de este jueves la acusación constitucional contra el ministro de Justicia, Fernando Rabat , por las rebajas de condena que otorgó a 56 personas condenadas por delitos sexuales contra menores de edad, sin que mediara una orden judicial previa. Las bancadas de centroizquierda se reunirán a las 16:00 horas en el Congreso para definir el horario de presentación.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Oposición prevé presentar esta noche la acusación constitucional contra Rabat",
+          "description": "La oposición prevé presentar la noche de este jueves la acusación constitucional contra el ministro de Justicia, Fernando Rabat , por las rebajas de condena que otorgó a 56 personas condenadas por delitos sexuales contra menores de edad, sin que mediara una orden judicial previa. Las bancadas de centroizquierda se reunirán a las 16:00 horas en el Congreso para definir el horario de presentación. Una de las opciones es ingresar el libelo a la Cámara de Diputadas y Diputados entre las 20:00 y las 21:00 horas . Según parlamentarios del sector, el texto ya está listo y solo falta la \"decisión política\" sobre el momento de su presentación . El paro de camioneros ha abierto un debate en la oposición sobre cuándo ingresar la acusación, mientras el oficialismo cuestiona la demora. [Lea también] Couso no ve mérito para acusación constitucional contra Rabat ni la Corte Suprema \"La acusación constitucional se va a presentar esta semana, dentro de las próximas horas , tal como nos habíamos comprometido\", dijo el diputado Álvaro Ortiz , presidente de la DC. En una línea, similar el jefe de la bancada de diputados de la DC, Jorge Díaz , remarcó que \" esta acusación constitucional se va a presentar en las próximas horas \". \"Esperamos que en la tarde podamos convocar nuevamente a la prensa para anunciar que se va a presentar esta acusación constitucional, porque las víctimas son las principales afectadas y esta situación no puede quedar en la máxima impunidad ni sin asumir ningún tipo de responsabilidad política \", enfatizó el parlamentario. PPD llamó a \"llevar adelante todas las acciones\" El diputado Raúl Soto (PPD) afirmó que la acusación está lista. \" La decisión política del día y la hora de la presentación la van a anunciar los jefes de bancada. Yo creo que efectivamente esto no se debiese seguir dilatando\", señaló. Asimismo, llamó \"a la calma, a que no exista ansiedad y que si hay algún partido político de la oposición que no esté de acuerdo con acusar constitucionalmente al ministro Fernando Rabat , que lo diga de manera clara , explícita ante el país\". \"Nosotros como PPD tomamos una decisión, que es ponernos del lado de las víctimas , que es llevar adelante todas las acciones para que se persigan las responsabilidades \", puntualizó el legislador. Por su parte, el diputado Raúl Leiva (PS) defendió el tiempo que tomó redactar el libelo. \"Han pasado ocho días desde que la oposición señaló la decisión de presentar una acusación constitucional. Un texto de esa naturaleza no es improvisación, es trabajo, es seriedad y responsabilidad \", sostuvo. [Lea también] Diputada republicana arremetió en la Cámara contra \"Derechos Humanos Company\" El oficialismo pronostica la caída del libelo En tanto, desde los partidos de gobierno desestimaron la viabilidad de la acción impulsada por la oposición parlamentaria . Respecto a la presentación del docmento, el presidente de la Unión Demócrata Independiente (UDI) , diputado Guillermo Ramírez , ironizó que \" ya era hora , esto es como el cuento del lobo \". \"Llevamos semanas esperando la acusación constitucional, eso le dio tiempo al Gobierno para poder ordenar las filas y la verdad es que yo tengo la impresión de que esa acusación va a fracasar. Si tuviera que apostar, vamos a ganar la acusación constitucional en la Cámara de Diputados y no de manera tan justa \", aseguró el legislador.",
+          "url": "https://www.cooperativa.cl/noticias/pais/judicial/oposicion-preve-presentar-esta-noche-la-acusacion-constitucional-contra/2026-11-12/142752.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000220261112142752.png",
+          "published_raw": "Thu, 12 Nov 2026 14:27:52 -0300",
+          "published_at": "2026-11-12T14:27:52-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 8,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 6,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 15,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-003"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-020",
       "title": "Trump amenaza con duplicar los aranceles a México si no endurece la frontera",
       "url": "https://elpais.com/us/2026-11-12/trump-amenaza-con-duplicar-los-aranceles-a-mexico-si-no-endurece-la-frontera.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +268,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 62.5,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 62.5
+        "score": 59.5,
+        "level": "MEDIA",
+        "editorial_utility": 53.5
       },
       "selection": {
-        "reason": "PML 62.5",
+        "reason": "PML 59.5; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -105,90 +330,12 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-016"
+          "cluster_id": "PML-EVENT-020"
         }
       ]
     },
     {
-      "position": 2,
-      "cluster_id": "PML-EVENT-011",
-      "title": "Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-12/lula-viaja-a-madrid-para-hacer-campana-con-sanchez.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 58.9,
-        "level": "MEDIA",
-        "editorial_utility": 65.9
-      },
-      "selection": {
-        "reason": "PML 58.9; aporta diversidad temática; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-12T14:02:52-0300",
-      "last_seen": "2026-11-12T14:02:52-0300",
-      "entities": [
-        "lula",
-        "brasil",
-        "sheinbaum",
-        "mexico"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "Claudia Sheinbaum, presidenta de México, mantendrá una conversación telefónica con el candidato socialista esta tarde",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
-          "description": "Claudia Sheinbaum, presidenta de México, mantendrá una conversación telefónica con el candidato socialista esta tarde",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-12/lula-viaja-a-madrid-para-hacer-campana-con-sanchez.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/VD4MX7DRCFBO5BEXD7PQCCHRUA.jpg?auth=d4c3834102649faa748dd81d2a2ae6d5b29e915538483290bfef9a6887dea054",
-          "published_raw": "Thu, 12 Nov 2026 17:02:52 GMT",
-          "published_at": "2026-11-12T14:02:52-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 6,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-011"
-        }
-      ]
-    },
-    {
-      "position": 3,
+      "position": 5,
       "cluster_id": "PML-EVENT-001",
       "title": "Oposición reflota tuits del \"candidato Kast\" contra Piñera y Boric ante viaje en pleno paro camionero",
       "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/oposicion-reflota-tuits-del-candidato-kast-contra-pinera-y-boric-ante/2026-11-12/125216.html",
@@ -200,12 +347,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 61.2,
+        "score": 60,
         "level": "MEDIA",
-        "editorial_utility": 61.2
+        "editorial_utility": 51
       },
       "selection": {
-        "reason": "PML 61.2; aporta diversidad geográfica",
+        "reason": "PML 60; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -242,7 +389,7 @@
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
           "title": "Oposición reflota tuits del \"candidato Kast\" contra Piñera y Boric ante viaje en pleno paro camionero",
-          "description": "La oposición arremetió este jueves contra el viaje del Presidente José Antonio Kast al continente asiático en medio de la crisis por el paro de transportistas , recordando que, durante su época de candidato, el Mandatario utilizó sus redes sociales para cuestionar a sus antecesores por realizar este tipo de giras durante situaciones complejas. La controversia se instaló ante la confirmación de que Kast partirá este viernes por la noche rumbo a una gira internacional por China , Japón y Vietnam , un escenario donde legisladores opositores recordaron la severidad con la que el entonces postulante a La Moneda criticaba a los expresidentes Sebastián Piñera y Gabriel Boric en episodios de similar complejidad nacional . \" No voy a recordar los tuits del candidato Kast criticando al presidente Piñera y Boric , (en los que los trataba) de cobardes , que no sabían , de que no viajen . Bueno, hágase cargo de su historia y su responsabilidad, porque uno lo quiera o no, el Presidente de Chile se llama José Antonio Kast y el llamado a solucionar los problemas es él mismo \", señaló el diputado socialista Raúl Leiva . Desde el Congreso acusaron una falta de coherencia frente a los cuestionamientos que en el pasado emitió contra Sebastián Piñera y Gabriel Boric por viajar durante situaciones complejas. (FOTO: ATON) Desde la bancada socialista apuntaron a la necesidad de mantener la coherencia política y asumir el liderazgo en la gestión directa para destrabar el conflicto que mantiene paralizados a los gremios del transporte terrestre. A la arremetida opositora se sumó el diputado y timonel del Partido por la Democracia (PPD) , Raúl Soto , quien remarcó que \"si el Presidente se quiere ir de gira internacional, que el ministro (de Hacienda, Jorge) Quiroz a lo menos dé la cara , encabece las negociaciones y que ponga sobre la mesa propuestas contundentes , que sean aceptadas por los gremios paralizados para que esta situación se solucione\". \" No entiende que ya no es candidato y ahora tiene que actuar , (cuando en su momento afirmó) que un Presidente, cuando tenía un paro o una movilización, no podía salir del territorio\", complementó el diputado y timonel DC, Álvaro Ortiz . Dicho esto, el parlamentario ironizó que \"pareciera que a la ciudadanía le da lo mismo si está o no el Presidente: total cuando él está acá, sigue mandando Quiroz \". Pese a las críticas por su cambio de estándar respecto a su etapa de candidato, La Moneda ratificó que el viaje oficial a China, Japón y Vietnam se llevará a cabo. (FOTO: ATON) Tras los emplazamientos, el titular de la billetera fiscal se retiró de la tramitación de la Ley de Presupuestos en la sede legislativa para trasladarse a La Moneda e integrarse a las tratativas con los gremios movilizados . Pese al contraste expuesto por la oposición sobre los dichos del otrora candidato y actual Mandatario, el Ejecutivo descartó suspender la misión diplomática , ratificando como prioritaria su agenda internacional en el continente asiático. La defensa oficialista En el oficialismo, y después de que la presidenta del Senado, Paulina Núñez (RN), llamara al Gobierno a desactivar el conflicto antes de que Kast parta rumbo a Asia, el diputado y timonel UDI, Guillermo Ramírez , remarcó la importancia del viaje dada la compleja situación del país , que según el ministro Quiroz, está en recesión técnica . \"La APEC es probablemente la instancia de comercio internacional más importante del mundo, y dado que estamos en un momento económico delicado, me parecería desproporcionado suspender o no asistir a una reunión en donde estamos trabajando por tener más socios comerciales, lo que fortalece la economía chilena\", argumentó el líder gremialista. Con todo, \"está bien si el Presidente decide viajar, y si por alguna razón decidiera quedarse, no lo vamos a criticar\" , remató Ramírez.",
+          "description": "La oposición arremetió este jueves contra el viaje del Presidente José Antonio Kast al continente asiático en medio de la crisis por el paro de transportistas , recordando que, durante su época de candidato, el Mandatario utilizó sus redes sociales para cuestionar a sus antecesores por realizar este tipo de giras durante situaciones complejas. La controversia se instaló ante la confirmación de que Kast partirá este viernes por la noche rumbo a una gira internacional por China , Japón y Vietnam , un escenario donde legisladores opositores recordaron la severidad con la que el entonces postulante a La Moneda criticaba a los expresidentes Sebastián Piñera y Gabriel Boric en episodios de similar complejidad nacional . \" No voy a recordar los tuits del candidato Kast criticando al presidente Piñera y Boric , (en los que los trataba) de cobardes , que no sabían , de que no viajen . Bueno, hágase cargo de su historia y su responsabilidad, porque uno lo quiera o no, el Presidente de Chile se llama José Antonio Kast y el llamado a solucionar los problemas es él mismo \", señaló el diputado socialista Raúl Leiva . Desde el Congreso acusaron una falta de coherencia frente a los cuestionamientos que en el pasado emitió contra Sebastián Piñera y Gabriel Boric por viajar durante situaciones complejas. (FOTO: ATON) Desde la bancada socialista apuntaron a la necesidad de mantener la coherencia política y asumir el liderazgo en la gestión directa para destrabar el conflicto que mantiene paralizados a los gremios del transporte terrestre. A la arremetida opositora se sumó el diputado y timonel del Partido por la Democracia (PPD) , Raúl Soto , quien remarcó que \"si el Presidente se quiere ir de gira internacional, que el ministro (de Hacienda, Jorge) Quiroz a lo menos dé la cara , encabece las negociaciones y que ponga sobre la mesa propuestas contundentes , que sean aceptadas por los gremios paralizados para que esta situación se solucione\". \" No entiende que ya no es candidato y ahora tiene que actuar , (cuando en su momento afirmó) que un Presidente, cuando tenía un paro o una movilización, no podía salir del territorio\", complementó el diputado y timonel DC, Álvaro Ortiz . Dicho esto, el parlamentario ironizó que \"pareciera que a la ciudadanía le da lo mismo si está o no el Presidente: total cuando él está acá, sigue mandando Quiroz \". Pese a las críticas por su cambio de estándar respecto a su etapa de candidato, La Moneda ratificó que el viaje oficial a China, Japón y Vietnam se llevará a cabo. (FOTO: ATON) Tras los emplazamientos, el titular de la billetera fiscal se retiró de la tramitación de la Ley de Presupuestos en la sede legislativa para trasladarse a La Moneda e integrarse a las tratativas con los gremios movilizados . Pese al contraste expuesto por la oposición sobre los dichos del otrora candidato y actual Mandatario, el Ejecutivo descartó suspender la misión diplomática , ratificando como prioritaria su agenda internacional en el continente asiático. La defensa oficialista En el oficialismo, y después de que la presidenta del Senado, Paulina Núñez (RN), llamara al Gobierno a desactivar el conflicto antes de que Kast parta rumbo a Asia, el diputado y timonel UDI, Guillermo Ramírez , remarcó la importancia del viaje dada la compleja situación del país , que según el ministro Quiroz, está en recesión técnica . \"La APEC es probablemente la instancia de comercio internacional más importante del mundo, y dado que estamos en un momento económico delicado, me parecería desproporcionado suspender o no asistir a una reunión en donde estamos trabajando por tener más socios comerciales, lo que fortalece la economía chilena\", argumentó el líder gremialista. Con todo, \"está bien si el Presidente decide viajar, y si por alguna razón decidiera quedarse, no lo vamos a criticar\" , remató Ramírez. En la misma línea, Núñez dijo que, \"si se lleva a cabo la APEC, evidentemente que el Presidente tiene que estar con su delegación, pero el conflicto no aguanta más días ni más horas. Tiene que estar resuelto esto. No condicionaría al Mandatario, pero ojalá esto del paro se solucione en las próximas horas\".",
           "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/oposicion-reflota-tuits-del-candidato-kast-contra-pinera-y-boric-ante/2026-11-12/125216.html",
           "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000420261112125216.png",
           "published_raw": "Thu, 12 Nov 2026 12:52:16 -0300",
@@ -295,183 +442,6 @@
           "cluster_id": "PML-EVENT-001"
         }
       ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-018",
-      "title": "El presidente chino invoca al líder revolucionario Sun Yat-sen para reclamar la soberanía sobre Taiwán",
-      "url": "https://elpais.com/internacional/2026-11-12/el-presidente-chino-invoca-al-lider-revolucionario-sun-yat-sen-para-reclamar-la-soberania-sobre-taiwan.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "DIPLOMATIC_EVENT",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 61,
-        "level": "MEDIA",
-        "editorial_utility": 56
-      },
-      "selection": {
-        "reason": "PML 61; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-12T09:52:44-0300",
-      "last_seen": "2026-11-12T09:52:44-0300",
-      "entities": [],
-      "event_terms": "soberania",
-      "analysis": {
-        "summary": "Xi Jinping defiende “la reunificación completa de la patria” como una “tarea histórica irrenunciable” del Partido Comunista",
-        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
-          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El presidente chino invoca al líder revolucionario Sun Yat-sen para reclamar la soberanía sobre Taiwán",
-          "description": "Xi Jinping defiende “la reunificación completa de la patria” como una “tarea histórica irrenunciable” del Partido Comunista",
-          "url": "https://elpais.com/internacional/2026-11-12/el-presidente-chino-invoca-al-lider-revolucionario-sun-yat-sen-para-reclamar-la-soberania-sobre-taiwan.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/DCLOF76UXJLQPM5FUXIFPA6JMM.jpg?auth=d5a94d5dc357d949811e8f9a63448003d8a6131f43be23574e60c8588e05a93a",
-          "published_raw": "Thu, 12 Nov 2026 12:52:44 GMT",
-          "published_at": "2026-11-12T09:52:44-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-018"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-008",
-      "title": "UDI: El Presidente decidió enfrentar la acusación constitucional con Rabat para ganarla",
-      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/udi-el-presidente-decidio-enfrentar-la-acusacion-constitucional-con/2026-11-11/003605.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 58,
-        "level": "MEDIA",
-        "editorial_utility": 52
-      },
-      "selection": {
-        "reason": "PML 58; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 2,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-11T00:36:05-0300",
-      "last_seen": "2026-11-11T19:34:29-0300",
-      "entities": [
-        "chile",
-        "senado"
-      ],
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "Este martes por la noche, en Cerro Castillo , el Presidente José Antonio Kast buscó cerrar las diferencias al interior del oficialismo y contener las críticas a la conducción política de su Gobierno , en medio de las presiones por un cambio de gabinete y la controversia en torno al ministro de Justicia , Fernando Rabat , por las rebajas de condena a agresores sexuales de menores y a narcotraficantes .",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "UDI: El Presidente decidió enfrentar la acusación constitucional con Rabat para ganarla",
-          "description": "Este martes por la noche, en Cerro Castillo , el Presidente José Antonio Kast buscó cerrar las diferencias al interior del oficialismo y contener las críticas a la conducción política de su Gobierno , en medio de las presiones por un cambio de gabinete y la controversia en torno al ministro de Justicia , Fernando Rabat , por las rebajas de condena a agresores sexuales de menores y a narcotraficantes . A su llegada a la reunión que convocó el Mandatario con los presidentes de los partidos oficialistas en el palacio viñamarino, el timonel de la Unión Demócrata Independiente (UDI), Guillermo Ramírez , aseguró que el Jefe de Estado decidió enfrentar la eventual acusación constitucional (AC) contra Rabat sin removerlo de su cargo. \"El Presidente de la República tomó una decisión: él quiere enfrentar la acusación constitucional; quiere enfrentarla con el ministro Rabat y la quiere ganar\" , afirmó el diputado. El líder gremialista agregó que, a su juicio, \"para saber si es que va a haber un cambio de gabinete, habría que preguntarle también a la oposición cuándo va a presentar esa acusación, porque, antes de eso, hasta donde entendemos, no va a haber ningún tipo de cambio de gabinete\".  Desde RN, el diputado Diego Schalper aseveró que \"a mí me preocupa a ratos que nos demoremos en la toma de decisiones, porque mientras más nos demoremos nos estamos perdiendo la gran oportunidad que tiene la derecha chilena de tener mayoría en ambas cámaras y por lo tanto, cada semana que pasa es una semana que perdemos de poder sacar cosas importantes adelante y que después nos vamos a arrepentir\". Las declaraciones se producen luego de una serie de cuestionamientos desde sectores del oficialismo y de exautoridades de los Gobiernos del fallecido Sebastián Piñera (2010-2014, 2018-2022). Entre ellos, el alcalde de Providencia y exministro,  Jaime Bellolio (UDI), quien criticó la conducción del Ejecutivo y advirtió que \"cuando algo es un error grave tiene que haber consecuencias\". \"Un proyecto político sólido\" Por su parte, el vocero y subsecretario de Gobierno, Gonzalo Arenas , sostuvo que la cita en Cerro Castillo buscó fortalecer la relación entre La Moneda y los partidos del oficialismo. \"Queremos tener una nueva etapa en la relación con los partidos políticos\", señaló el portavoz, agregando que el objetivo es conformar \"un proyecto político sólido que mira más allá, incluso, del 2030\". La reunión se realizó antes del próximo viaje internacional de Kast, quien la próxima semana iniciará su primera gira por Asia. Críticas por nombramiento de Steinert A las tensiones se suma la designación de la exministra Trinidad Steinert como nueva agregada de seguridad de la Embajada de Chile en Paraguay , nombramiento que también ha generado reparos en sectores oficialistas. La diputada Constanza Schönhaut (FA) criticó que \"el nombramiento de Trinidad Steinert es realmente una falta de respeto para todo Chile. No solo duró solo dos meses, sino que además se negó sistemáticamente a asistir a la comisión investigadora. Entonces uno se pregunta realmente qué es lo que pretende el Presidente Kast que Trinidad Steinert vaya a representar al Estado de Chile fuera del país\". En el oficialismo, el diputado Jorge Guzmán (Evópoli) recalcó que \"a mí no me gustan los premios de consuelo. La exministra Steinert tuvo la oportunidad de ser ministra de Seguridad, fue removida de su cargo porque no cumplió con las expectativas\". \"No me gusta, no me parece e insisto, son premios de consuelo para alguien que no estuvo a la altura del cargo que le tocó representar\", añadió.",
-          "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/udi-el-presidente-decidio-enfrentar-la-acusacion-constitucional-con/2026-11-11/003605.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111003605.jpg",
-          "published_raw": "Wed, 11 Nov 2026 00:36:05 -0300",
-          "published_at": "2026-11-11T00:36:05-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 6,
-          "score_noise": 1,
-          "score_accident": 0,
-          "political_evidence": 13,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
-        },
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Couso no ve mérito para acusación constitucional contra Rabat ni la Corte Suprema",
-          "description": "El abogado constitucionalista Javier Couso (DC) aseguró en Cooperativa que los antecedentes hasta ahora conocidos por la rebaja de condena a pederastas son insuficientes para sustentar la acusación constitucional -anunciada por la oposición- contra el ministro de Justicia , Fernando Rabat , así como la promovida por el Partido Nacional Libertario contra los integrantes de la Corte Suprema . En conversación con Lo Que Queda del Día , el académico de la Universidad Diego Portales (UDP) analizó la demora en la entrega, a la Comisión de Constitución del Senado , de los decretos que redujeron las penas a personas condenadas por violación de menores de edad , y el hecho de que éstos no llegaran a la Cámara, donde se prepara al libelo contra Rabat. \"El ministro ha estado jugando al gato y al ratón . El haber puesto tantos reparos y complicaciones para entregar documentos que, de haberse establecido una comisión especial investigadora, habrían tenido que ser enviados a la Cámara y (Rabat) habría estado obligado incluso a comparecer de nuevo hasta tres veces o incluso más si hay mayoría de la Cámara que lo hubiera pedido\", explicó. [Lea también] Rebajas de condenas: Rabat decidió \"parar cualquier decreto ante las nuevas circunstancias\" El profesor catalogó la estrategia del secretario de Estado como \"maniobras, digamos, que están dentro de la legalidad, pero que son francamente irritantes  y ponen un ambiente que no es no es bueno para él, porque ya estamos en una circunstancia compleja. Pero se estas cosas solo dilatan lo que va a ocurrir: se van a conocer\" Para Couso,  \"es un mal argumento que un poder del Estado le diga a otro que no le va a entregar información o se la va a entregar a cuentagotas porque hay que preocuparse de las víctimas, cuando hemos visto que hay filtraciones que han ocurrido desde ese mismo poder del Estado . En comisiones como la de Defensa se presenta información secreta y no se ha filtrado. Francamente, no entiendo la estrategia del ministro\". \"Interpretación plausible\" El jurista señaló que, al firmar las rebajas de condena a pedófilos, el titular de Justicia se inclinó por una \"interpretación tan plausible de la ley , que la propia Corte Suprema interpretó eso en el 90 por ciento de los casos (que analizó) en los últimos años \". \"Todo ministro que aplica las leyes, las debe interpretar y había dos interpretaciones plausibles: una,  es la de la jurisprudencia de la Corte Suprema hasta hace unos meses atrás, que planteaba que la naturaleza de la rebaja de pena se vincula a la pena y, por lo tanto, no puede aplicarse retroactivamente a quienes habían cometido el crimen y habían sido condenados\", apuntó. \"Y había otra , que era más reciente por parte de la Suprema, que es un mero beneficio administrativo que no crea derecho adquirido . Entonces, cuando un ministro tiene que ejecutar las leyes, y eso se hace típicamente mediante la dictación de decretos, tiene que interpretarla y era plausible esta interpretación de la ley\", complementó el abogado. En esa materia, el jurista desechó la pertinencia del argumento que atribuye a Rabat de \"haber mentido cuando fue a exponer (una vez que estalló el escándalo) a una sesión especial de la Cámara,  porque hay un principio de probidad que está en la Constitución, que plantea que todo funcionario público debe actuar siempre con probidad, en este caso con honestidad\". \"Si se empieza a acusar a los ministros por decir inexactitudes en el debate político que se da al interior de la Cámara, vamos a llenarnos de acusaciones constitucionales \", cuestionó. El error de la oposición El experto constitucionalista afirmó que la oposición \"cometió un un error\" al anunciar la AC contra Rabat ,  \"porque todos los antecedentes que quiere habrían tenido que ser entregados en el acto por el ministro de Estado de haberse creado una comisión especial investigadora, toda la documentación habría estado a tiempo\". \"Me parece prudente no acusar mientras no se tengan todos los antecedentes, sino  habría sido una acusación a ciegas. Sabemos que hay ha habido acusaciones frívolas en los últimos 15, 20 años en Chile\", agregó. Finalmente, Couso planteó que actualmente, \"con los antecedentes con que cuento ahora, no me parece que hayan antecedentes suficientes ni para acusar al ministro ni para acusar a los integrantes de la Corte Suprema , como ha anunciado otro grupo de parlamentarios del Partido Nacional Libertario\". \"Una acusación constitucional contra un ministro de Estado requiere distintas causales, pero las que imagino van a invocarse son haber infringido la Constitución, las leyes o haberla dejado sin ejecución\", subrayó. Pese a que el escenario \"podría cambiar si es que se demostrara una teoría de que se ha se ha demorado tanto la entrega de antecedentes es porque se quiere ocultar quizás algo que no conocemos, no quiero especular , pero con los antecedentes que tengo hoy, a mi juicio no se configuran estas tres causales que son las que han trascendido\".",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/couso-no-ve-merito-para-acusacion-constitucional-contra-rabat-ni-la/2026-11-11/193429.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111193429.jpg",
-          "published_raw": "Wed, 11 Nov 2026 19:34:29 -0300",
-          "published_at": "2026-11-11T19:34:29-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 7,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 10,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
-        }
-      ]
     }
   ],
   "chile_brief": {
@@ -482,108 +452,79 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-006",
-        "title": "Presupuesto: Cámara rechazó partida del Ministerio del Interior por recortes a emergencias y Ley Cholito",
+        "cluster_id": "PML-EVENT-008",
+        "title": "AFP Uno propone al Gobierno cambio en el retiro programado para elevar las pensiones cerca de un 7%",
         "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
+        "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-camara-rechazo-partida-del-ministerio-del-interior-por/2026-11-10/192635.html",
+        "url": "https://www.cooperativa.cl/noticias/economia/sistema-previsional/afp/afp-uno-propone-al-gobierno-cambio-en-el-retiro-programado-para-elevar/2026-11-12/164423.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 50.3,
-          "level": "BAJA",
+          "score": 57.2,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 81,
-            "freshness": 40,
-            "source_count": 32,
+            "political_impact": 56,
+            "freshness": 100,
+            "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 36
+            "continuity": 34
           }
         },
         "coverage": {
-          "article_count": 2,
+          "article_count": 1,
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-10T16:31:08-0300",
-        "last_seen": "2026-11-10T19:26:35-0300",
+        "first_seen": "2026-11-12T16:44:23-0300",
+        "last_seen": "2026-11-12T16:44:23-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Presupuesto: Cámara rechazó partida del Ministerio del Interior por recortes a emergencias y Ley Cholito",
-            "description": "En el marco de la discusión de la Ley de Presupuesto 2027 , la Cámara de Diputados rechazó este martes la partida correspondiente al Ministerio del Interior y Seguridad Pública, en una votación que concluyó con un empate a 71 sufragios, impidiendo alcanzar la mayoría requerida para su aprobación. De momento, la cartera del Interior es la única que no ha conseguido el respaldo de los legisladores , a diferencia de las partidas de Presidencia, Congreso Nacional, Poder Judicial, Contraloría y Relaciones Exteriores, que ya obtuvieron el visto bueno por parte de la corporación. ⭕️ #Presupuesto2027 La Cámara rechaza la partida del Ministerio del Interior, por 71 votos a favor y 71 en contra. Sigue el debate por: 📺 https://t.co/yUv697DucZ 📲 https://t.co/lIwKrNFWvI — Diputadas y Diputados de Chile (@Camara_cl) November 10, 2026 El rechazo de la mitad de los parlamentarios se concentró principalmente en dos materias: el debilitamiento de los recursos destinados a la prevención de desastres naturales , y una fuerte disminución en los fondos correspondientes a la implementación de la Ley de Tenencia Responsable de Mascotas , conocida como Ley Cholito. En medio del debate, el diputado Daniel Manouchehri (PS) increpó directamente al titular de Hacienda: \"Qué se le pasa por la cabeza, ministro (Jorge) Quiroz? ¿No ve la televisión? ¿No lee las noticias? ¿No escucharon nada del cambio climático? Eso de que somos un país sísmico, los incendios. ¿Les suena algo? ¿O los convenció el señor Kaiser del negacionismo climático?\", fustigó. \"¿Y qué decir de las mascotas? Reducen en un 86% el presupuesto de la Ley Cholito. ¿Qué le hicieron las mascotas a Kast?\" , reprochó el parlamentario opositor. [Lea también] Presupuesto: Cámara rechazó asignaciones para gastos y personal de expresidentes El diputado Juan Marcelo Valenzuela (PDG) explicó que su rechazo \"tiene que ver con el debilitamiento de los fondos de tenencia responsable. Es insostenible que le hayan pegado un manotazo de tres mil millones de pesos a este programa\". \"La otra razón tiene que ver con Senapred, por el cambio climático ha ocurrido un montón de catástrofes y hoy día el Ejecutivo tiene que fortalecer Senapred y lo está debilitando\" , sostuvo. Ante estas palabras, el ministro Quiroz replicó que \"se ha hablado mucho de la reducción al programa de gestión de riesgos, pero la reducción total en Senapred no supera el 3 por ciento respecto al presupuesto de apertura del 2026 y al respecto, efectivamente hubo un ajuste a comienzos de año\". El desenlace de la votación también estuvo marcado por descuelgues, entre ellos el voto en contra del diputado Carlos Chandía (RN) , exárbitro FIFA, lo que terminó por dejar sin efecto los recursos destinados a Interior. Tras este resultado, el Gobierno deberá presentar una indicación única ante el Senado para reponer el financiamiento total de la cartera liderada por el biministro Claudio Alvarado. La Cámara baja rechazó toda la partida presupuestaria del Ministerio del Interior. (Al registrarse un empate a 71 votos, se entiende que no hubo mayoría para aprobarla). @Cooperativa — Jorge Espinoza Cuellar (@espinozacuellar) November 10, 2026",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-camara-rechazo-partida-del-ministerio-del-interior-por/2026-11-10/192635.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110192635.jpg",
-            "published_raw": "Tue, 10 Nov 2026 19:26:35 -0300",
-            "published_at": "2026-11-10T19:26:35-0300",
+            "title": "AFP Uno propone al Gobierno cambio en el retiro programado para elevar las pensiones cerca de un 7%",
+            "description": "AFP Uno presentó una propuesta al Gobierno con el objetivo de incrementar en torno a un 7% los montos de las jubilaciones bajo la modalidad de retiro programado , iniciativa surgida como respuesta a la crisis que afectó a los afiliados tras el desplome del Fondo E . Según reveló Emol este jueves, el planteamiento, que fue derivado al ministro del Trabajo , Tomás Rau , contempla una modificación al mecanismo con el cual se calcula la Tasa de Interés Técnica del Retiro Programado (TITRP) , indicador que determina la rentabilidad estimada de los fondos previsionales del jubilado y fija el pago mensual respectivo. La administradora de fondos envió un planteamiento al ministro del Trabajo, Tomás Rau, tras el impacto que causó la caída del Fondo E. (FOTO: ATON) En la actualidad, la TITRP se estructura en un 80% sobre la base de proyecciones de rentabilidad futura y en un 20% a partir del comportamiento histórico que registraron los fondos C, D y E en los últimos diez años. Este diseño se estableció en 2019 para contener las variaciones abruptas de las jubilaciones. No obstante, la reforma previsional de 2025 introdujo una banda de resguardo que limita a un máximo de 10% la variación del monto en cada recálculo derivado de los ajustes de dicha tasa , mecanismo que rige desde septiembre de ese año. Bajo este nuevo escenario, la administradora argumentó que el porcentaje retrospectivo se volvió obsoleto . En el documento remitido al titular del Trabajo, la entidad solicitó \" revisar y modificar el Decreto Supremo N° 47 , eliminando el componente de rentabilidad histórica que representa el 20% de la fórmula para calcular la TITRP , de modo que esta dependa íntegramente del componente basado en las estimaciones de los retornos esperados \". La iniciativa apunta a reformar la fórmula de la Tasa de Interés Técnica del Retiro Programado para que dependa exclusivamente de la rentabilidad futura esperada. (FOTO: ATON) Asimismo, el texto remarca que sostener la banda de contención vigente permitiría avanzar hacia \" una regulación más simple , coherente y adecuada al nuevo escenario previsional\" . Diferencial de tasas y estimación de impacto Las cifras reportadas por la Superintendencia de Pensiones reflejan el impacto de la metodología actual . En noviembre, la tasa sustentada únicamente en las expectativas de retorno futuro alcanzó un 4,25%; sin embargo, al ponderar el 20% del rendimiento histórico , el índice final aplicado a las pensiones retrocedió a 3,67% . Aquella brecha de 0,58 puntos porcentuales es la que sustenta el cálculo de AFP Uno, el cual proyecta que el monto de una pensión bajo retiro programado podría situarse cerca de 7% por encima en términos reales . De concretarse el ajuste administrativo, las jubilaciones bajo esta modalidad podrían aumentar alrededor de 7% en términos reales. (FOTO: ATON) Desde la entidad precisaron que este porcentaje corresponde a un ejercicio ilustrativo que varía en cada caso particular, por lo que no implica un alza generalizada y uniforme para la totalidad de los jubilados . A su vez, la administradora recalcó que la medida adquiere urgencia regulatoria de cara al 1 de abril de 2027 , fecha en que los actuales multifondos serán reemplazados por diez fondos generacionales. Dado que la fórmula vigente continúa atada al desempeño pretérito de los fondos tradicionales, AFP Uno advirtió la necesidad de corregir el cálculo, destacando que no se precisa una ley en el Congreso, sino únicamente la modificación de un decreto supremo.",
+            "url": "https://www.cooperativa.cl/noticias/economia/sistema-previsional/afp/afp-uno-propone-al-gobierno-cambio-en-el-retiro-programado-para-elevar/2026-11-12/164423.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000520261112164423.jpg",
+            "published_raw": "Thu, 12 Nov 2026 16:44:23 -0300",
+            "published_at": "2026-11-12T16:44:23-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 8,
-            "score_elections": 1,
-            "score_international": 1,
-            "score_conflict": 1,
-            "score_policy": 1,
-            "score_ideology": 0,
-            "score_actor": 2,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 14,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
-          },
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Presupuesto: Cámara rechazó asignaciones para gastos y personal de expresidentes",
-            "description": "En el marco de la discusión particular de la Ley de Presupuesto , l a Cámara de Diputados aprobó este martes las tres primeras partidas: Presidencia de la República, Poder Judicial y Congreso Nacional, pero rechazó , dentro de esta última, los recursos destinados  al financiamiento de las asignaciones de los expresidentes de la República. El pleno resolvió apoyar la propuesta del diputado Javier Olivares (PDG) para eliminar las asignaciones operativas de los exmandatarios, tales como gastos de funcionamiento de oficinas, costos de movilización y contratación de personal. 📌Cámara despachó Partida 02 Congreso Nacional. Ahora comienza el debate de la Partida 03 Poder Judicial. En vivo por: 📲https://t.co/lIwKrNFoGa 📺https://t.co/yUv697CWnr https://t.co/aCJKEgFf5c — Diputadas y Diputados de Chile (@Camara_cl) November 10, 2026 La votación generó un intenso debate, instancia en que el parlamentario promotor expresó: \" Basta de pagarles a los expresidentes por todo. Dejemos que ellos también, con la platita que han podido hacer, puedan pagar sus oficinas y a sus empleados, y que eso no salga de la plata de todos los chilenos\". \"¿Por qué le vamos a seguir entregando más y más platita a personas privilegiadas? Los expresidentes, en el próximo presupuesto para 2027, solamente van a contar con su sueldo . Así que que se pongan a mandar currículum y que se pongan también a buscar trabajo para que puedan sumar para poder pagar sus oficinas. Pero ya no puede seguir haciéndose eso con plata de todos los chilenos\", indicó. 🇨🇱 Si los chilenos tenemos que apretarnos el cinturón, los expresidentes de la República también. Por eso, presente una indicación al Presupuesto 2027 para rebajar en más de $508 millones los recursos destinados a los expresidentes y dejar solo lo que corresponde a sus dietas. Mi propuesta baja esa asignación de $915.745.000 a $406.900.000. Espero todos los parlamentarios me apoyen en esta moción de justicia social. — Javier Olivares A (@JavierOlivares) November 10, 2026 La diputada Daniela Serrano (PC) cuestionó la medida y aseguró que desde el oficialismo \"constantemente existe un ataque a la figura de la expresidenta Michelle Bachelet y también del Presidente Gabriel Boric. Es muy desleal que hoy día se pongan (esos dineros) en cuestionamiento, (porque) cuando estaba el expresidente Piñera no se decía nada en esta Cámara\". La indicación sólo afecta a las asignaciones de funcionamiento y logística institucional, sin alterar la dieta o pensión mensual que constitucionalmente perciben los exjefes de Estado. Luego de zanjar la partida del Congreso Nacional, la Sala de la Cámara inició de inmediato la discusión de la partida número cuatro, correspondiente a la Contraloría General de la República.",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-camara-rechazo-asignaciones-para-gastos-y-personal-de/2026-11-10/163108.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261110/imag/foto_0000000220261110163108.jpg",
-            "published_raw": "Tue, 10 Nov 2026 16:31:08 -0300",
-            "published_at": "2026-11-10T16:31:08-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 5,
-            "score_elections": 1,
+            "score_institutional": 7,
+            "score_elections": 0,
             "score_international": 0,
             "score_conflict": 0,
-            "score_policy": 1,
+            "score_policy": 3,
             "score_ideology": 0,
-            "score_actor": 3,
+            "score_actor": 1,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 10,
+            "political_evidence": 11,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
+            "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
+            "cluster_id": "PML-EVENT-008"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 22,
+          "bonus": 18,
           "labels": [
             "Estado e instituciones",
-            "Congreso y proceso legislativo",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 72.3
+          "chile_utility": 75.2
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-003",
+        "cluster_id": "PML-EVENT-004",
         "title": "Oposición repudia \"grave falta de respeto\" de diputada republicana que arremetió contra DD.HH.",
         "topic": "Ideología y competencia política",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -594,11 +535,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.8,
+          "score": 54,
           "level": "MEDIA",
           "components": {
             "political_impact": 50,
-            "freshness": 95,
+            "freshness": 88,
             "source_count": 32,
             "geographic_scope": 40,
             "continuity": 46
@@ -638,7 +579,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-004"
           },
           {
             "source_id": "cooperativa_politica",
@@ -666,7 +607,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-004"
           }
         ],
         "article_count": 1,
@@ -674,13 +615,13 @@
         "political_science_fit": {
           "bonus": 12,
           "labels": "Congreso y proceso legislativo",
-          "chile_utility": 67.8
+          "chile_utility": 66
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-004",
+        "cluster_id": "PML-EVENT-005",
         "title": "Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\"",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -691,11 +632,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 56.5,
+          "score": 54,
           "level": "MEDIA",
           "components": {
             "political_impact": 79,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 28
@@ -735,7 +676,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
+            "cluster_id": "PML-EVENT-005"
           }
         ],
         "article_count": 1,
@@ -743,7 +684,7 @@
         "political_science_fit": {
           "bonus": 13,
           "labels": "Estado e instituciones",
-          "chile_utility": 69.5
+          "chile_utility": 67
         },
         "repeated_in_general_top5": false
       }
@@ -752,20 +693,20 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 22,
-      "maximum_relevance": 62.5,
-      "leading_story": "Trump amenaza con duplicar los aranceles a México si no endurece la frontera"
+      "event_count": 26,
+      "maximum_relevance": 65.2,
+      "leading_story": "Oposición levantó veto al jefe de la Dipres en la Cámara"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 2,
-      "maximum_relevance": 58.9,
+      "event_count": 4,
+      "maximum_relevance": 57.7,
       "leading_story": "Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 55.8,
+      "maximum_relevance": 54,
       "leading_story": "Oposición repudia \"grave falta de respeto\" de diputada republicana que arremetió contra DD.HH."
     },
     {
@@ -779,24 +720,14 @@
       "event_count": 1,
       "maximum_relevance": 42.3,
       "leading_story": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?"
-    },
-    {
-      "topic": "Economía y políticas públicas",
-      "event_count": 1,
-      "maximum_relevance": 39.2,
-      "leading_story": "¿Para el reel? \"Menos mal que sabía de economía, ministro\", dijo un diputado liberal a Quiroz"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-016", "PML-EVENT-011", "PML-EVENT-001", "PML-EVENT-018", "PML-EVENT-008"],
-      "exited_top5": ["PML-EVENT-009", "PML-EVENT-020", "PML-EVENT-003", "PML-EVENT-019", "PML-EVENT-007"],
-      "retained_top5": []
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
     "source_count": 3
   },
   "system": {
