@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-11",
-    "data_latest_timestamp": "2026-11-11T22:54:55-0300",
-    "data_age_hours": 4.6,
-    "generated_at": "2026-11-12T03:28:57-0300",
+    "date": "2026-11-12",
+    "data_latest_timestamp": "2026-11-12T14:02:52-0300",
+    "data_age_hours": 0.4,
+    "generated_at": "2026-11-12T14:27:27-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,8 +16,8 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 28 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 28 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
@@ -26,13 +26,352 @@
     "topics": 2,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 61.2,
-    "maximum_relevance": 63.8
+    "average_top5_relevance": 60.3,
+    "maximum_relevance": 62.5
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-009",
+      "cluster_id": "PML-EVENT-016",
+      "title": "Trump amenaza con duplicar los aranceles a México si no endurece la frontera",
+      "url": "https://elpais.com/us/2026-11-12/trump-amenaza-con-duplicar-los-aranceles-a-mexico-si-no-endurece-la-frontera.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "DIPLOMATIC_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 62.5,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 62.5
+      },
+      "selection": {
+        "reason": "PML 62.5",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-12T11:53:36-0300",
+      "last_seen": "2026-11-12T11:53:36-0300",
+      "entities": [
+        "trump",
+        "mexico"
+      ],
+      "event_terms": [
+        "aranceles",
+        "eleccion"
+      ],
+      "analysis": {
+        "summary": "El presidente advierte, tras sufrir un revés electoral, que “enormes caravanas” de inmigrantes viajan hacia Estados Unidos para entrar ilegalmente en el país",
+        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
+          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Trump amenaza con duplicar los aranceles a México si no endurece la frontera",
+          "description": "El presidente advierte, tras sufrir un revés electoral, que “enormes caravanas” de inmigrantes viajan hacia Estados Unidos para entrar ilegalmente en el país",
+          "url": "https://elpais.com/us/2026-11-12/trump-amenaza-con-duplicar-los-aranceles-a-mexico-si-no-endurece-la-frontera.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/MV6ICCSCBRAJ3GHIDNI45ZG4RQ.JPG?auth=9de9e1a7daf05c88e0b7b44dde2ad810901e5c4434e42e2839ff6e76dd87645f",
+          "published_raw": "Thu, 12 Nov 2026 14:53:36 GMT",
+          "published_at": "2026-11-12T11:53:36-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-016"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-011",
+      "title": "Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-12/lula-viaja-a-madrid-para-hacer-campana-con-sanchez.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 58.9,
+        "level": "MEDIA",
+        "editorial_utility": 65.9
+      },
+      "selection": {
+        "reason": "PML 58.9; aporta diversidad temática; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-12T14:02:52-0300",
+      "last_seen": "2026-11-12T14:02:52-0300",
+      "entities": [
+        "lula",
+        "brasil",
+        "sheinbaum",
+        "mexico"
+      ],
+      "event_terms": [],
+      "analysis": {
+        "summary": "Claudia Sheinbaum, presidenta de México, mantendrá una conversación telefónica con el candidato socialista esta tarde",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil",
+          "description": "Claudia Sheinbaum, presidenta de México, mantendrá una conversación telefónica con el candidato socialista esta tarde",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-12/lula-viaja-a-madrid-para-hacer-campana-con-sanchez.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/VD4MX7DRCFBO5BEXD7PQCCHRUA.jpg?auth=d4c3834102649faa748dd81d2a2ae6d5b29e915538483290bfef9a6887dea054",
+          "published_raw": "Thu, 12 Nov 2026 17:02:52 GMT",
+          "published_at": "2026-11-12T14:02:52-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 6,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-011"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-001",
+      "title": "Oposición reflota tuits del \"candidato Kast\" contra Piñera y Boric ante viaje en pleno paro camionero",
+      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/oposicion-reflota-tuits-del-candidato-kast-contra-pinera-y-boric-ante/2026-11-12/125216.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 61.2,
+        "level": "MEDIA",
+        "editorial_utility": 61.2
+      },
+      "selection": {
+        "reason": "PML 61.2; aporta diversidad geográfica",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 2,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-11T22:54:55-0300",
+      "last_seen": "2026-11-12T12:52:16-0300",
+      "entities": [
+        "boric",
+        "chile",
+        "congreso",
+        "senado"
+      ],
+      "event_terms": [
+        "oposicion",
+        "crisis"
+      ],
+      "analysis": {
+        "summary": "La oposición arremetió este jueves contra el viaje del Presidente José Antonio Kast al continente asiático en medio de la crisis por el paro de transportistas , recordando que, durante su época de candidato, el Mandatario utilizó sus redes sociales para cuestionar a sus antecesores por realizar este tipo de giras durante situaciones complejas.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Oposición reflota tuits del \"candidato Kast\" contra Piñera y Boric ante viaje en pleno paro camionero",
+          "description": "La oposición arremetió este jueves contra el viaje del Presidente José Antonio Kast al continente asiático en medio de la crisis por el paro de transportistas , recordando que, durante su época de candidato, el Mandatario utilizó sus redes sociales para cuestionar a sus antecesores por realizar este tipo de giras durante situaciones complejas. La controversia se instaló ante la confirmación de que Kast partirá este viernes por la noche rumbo a una gira internacional por China , Japón y Vietnam , un escenario donde legisladores opositores recordaron la severidad con la que el entonces postulante a La Moneda criticaba a los expresidentes Sebastián Piñera y Gabriel Boric en episodios de similar complejidad nacional . \" No voy a recordar los tuits del candidato Kast criticando al presidente Piñera y Boric , (en los que los trataba) de cobardes , que no sabían , de que no viajen . Bueno, hágase cargo de su historia y su responsabilidad, porque uno lo quiera o no, el Presidente de Chile se llama José Antonio Kast y el llamado a solucionar los problemas es él mismo \", señaló el diputado socialista Raúl Leiva . Desde el Congreso acusaron una falta de coherencia frente a los cuestionamientos que en el pasado emitió contra Sebastián Piñera y Gabriel Boric por viajar durante situaciones complejas. (FOTO: ATON) Desde la bancada socialista apuntaron a la necesidad de mantener la coherencia política y asumir el liderazgo en la gestión directa para destrabar el conflicto que mantiene paralizados a los gremios del transporte terrestre. A la arremetida opositora se sumó el diputado y timonel del Partido por la Democracia (PPD) , Raúl Soto , quien remarcó que \"si el Presidente se quiere ir de gira internacional, que el ministro (de Hacienda, Jorge) Quiroz a lo menos dé la cara , encabece las negociaciones y que ponga sobre la mesa propuestas contundentes , que sean aceptadas por los gremios paralizados para que esta situación se solucione\". \" No entiende que ya no es candidato y ahora tiene que actuar , (cuando en su momento afirmó) que un Presidente, cuando tenía un paro o una movilización, no podía salir del territorio\", complementó el diputado y timonel DC, Álvaro Ortiz . Dicho esto, el parlamentario ironizó que \"pareciera que a la ciudadanía le da lo mismo si está o no el Presidente: total cuando él está acá, sigue mandando Quiroz \". Pese a las críticas por su cambio de estándar respecto a su etapa de candidato, La Moneda ratificó que el viaje oficial a China, Japón y Vietnam se llevará a cabo. (FOTO: ATON) Tras los emplazamientos, el titular de la billetera fiscal se retiró de la tramitación de la Ley de Presupuestos en la sede legislativa para trasladarse a La Moneda e integrarse a las tratativas con los gremios movilizados . Pese al contraste expuesto por la oposición sobre los dichos del otrora candidato y actual Mandatario, el Ejecutivo descartó suspender la misión diplomática , ratificando como prioritaria su agenda internacional en el continente asiático. La defensa oficialista En el oficialismo, y después de que la presidenta del Senado, Paulina Núñez (RN), llamara al Gobierno a desactivar el conflicto antes de que Kast parta rumbo a Asia, el diputado y timonel UDI, Guillermo Ramírez , remarcó la importancia del viaje dada la compleja situación del país , que según el ministro Quiroz, está en recesión técnica . \"La APEC es probablemente la instancia de comercio internacional más importante del mundo, y dado que estamos en un momento económico delicado, me parecería desproporcionado suspender o no asistir a una reunión en donde estamos trabajando por tener más socios comerciales, lo que fortalece la economía chilena\", argumentó el líder gremialista. Con todo, \"está bien si el Presidente decide viajar, y si por alguna razón decidiera quedarse, no lo vamos a criticar\" , remató Ramírez.",
+          "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/oposicion-reflota-tuits-del-candidato-kast-contra-pinera-y-boric-ante/2026-11-12/125216.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000420261112125216.png",
+          "published_raw": "Thu, 12 Nov 2026 12:52:16 -0300",
+          "published_at": "2026-11-12T12:52:16-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 8,
+          "score_elections": 1,
+          "score_international": 1,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 8,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 20,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-001"
+        },
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Presidenta del Senado pide solución al paro camionero antes del nuevo viaje de Kast",
+          "description": "La presidenta del Senado, Paulina Núñez (RN) , hizo votos por que el paro de los camioneros  que se inició el martes quede resuelto antes del nuevo viaje internacional de José Antonio Kast . El Mandatario parte el viernes a una gira por Asia que lo llevará a Vietnam, China y Japón , y evitando plantear que la suspenda debido a la crisis, la parlamentaria enfatizó la urgencia de que el Gobierno encuentre una solución pronta frente a la protesta de los transportistas de carga. \"Si se lleva a cabo la APEC, evidentemente que el Presidente tiene que estar con su delegación, porque es Chile el que tiene que estar. Pero el conflicto no aguanta más horas ni más días \", advirtió la senadora por Antofagasta. \" Tiene que estar resuelto esto -que no digo que condicione el viaje del Presidente; quiero ser muy clara en aquello-, pero por supuesto que esta situación, esta crisis, este problema, tiene que estar resuelto, ojalá, en las próximas horas \", remarcó Núñez, que es una de las figuras \"presidenciables\" de su partido. Siempre hay un tuit En el pasado hubo varias ocasiones en que el hoy Presidente Kast fustigó al entonces Jefe de Estado, Gabriel Boric , por sus salidas del país: por ejemplo, en medio del caso Fundaciones u otras coyunturas. En octubre de 2023, hace sólo tres años, Kast tuiteó: \" En medio de una grave crisis económica, un país en recesión y el desempleo al alza, el Presidente Boric se va de gira a China con seis ministros de Estado incluyendo a la vocera, ¿cómo se explica esto? ». ",
+          "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/presidenta-del-senado-pide-solucion-al-paro-camionero-antes-del-nuevo/2026-11-11/225455.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111225455.jpg",
+          "published_raw": "Wed, 11 Nov 2026 22:54:55 -0300",
+          "published_at": "2026-11-11T22:54:55-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 5,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 2,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 13,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-001"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-018",
+      "title": "El presidente chino invoca al líder revolucionario Sun Yat-sen para reclamar la soberanía sobre Taiwán",
+      "url": "https://elpais.com/internacional/2026-11-12/el-presidente-chino-invoca-al-lider-revolucionario-sun-yat-sen-para-reclamar-la-soberania-sobre-taiwan.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "DIPLOMATIC_EVENT",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 61,
+        "level": "MEDIA",
+        "editorial_utility": 56
+      },
+      "selection": {
+        "reason": "PML 61; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-12T09:52:44-0300",
+      "last_seen": "2026-11-12T09:52:44-0300",
+      "entities": [],
+      "event_terms": "soberania",
+      "analysis": {
+        "summary": "Xi Jinping defiende “la reunificación completa de la patria” como una “tarea histórica irrenunciable” del Partido Comunista",
+        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
+          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El presidente chino invoca al líder revolucionario Sun Yat-sen para reclamar la soberanía sobre Taiwán",
+          "description": "Xi Jinping defiende “la reunificación completa de la patria” como una “tarea histórica irrenunciable” del Partido Comunista",
+          "url": "https://elpais.com/internacional/2026-11-12/el-presidente-chino-invoca-al-lider-revolucionario-sun-yat-sen-para-reclamar-la-soberania-sobre-taiwan.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/DCLOF76UXJLQPM5FUXIFPA6JMM.jpg?auth=d5a94d5dc357d949811e8f9a63448003d8a6131f43be23574e60c8588e05a93a",
+          "published_raw": "Thu, 12 Nov 2026 12:52:44 GMT",
+          "published_at": "2026-11-12T09:52:44-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-018"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-008",
       "title": "UDI: El Presidente decidió enfrentar la acusación constitucional con Rabat para ganarla",
       "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/udi-el-presidente-decidio-enfrentar-la-acusacion-constitucional-con/2026-11-11/003605.html",
       "representative_source": "Cooperativa",
@@ -43,12 +382,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 63.8,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 63.8
+        "score": 58,
+        "level": "MEDIA",
+        "editorial_utility": 52
       },
       "selection": {
-        "reason": "PML 63.8",
+        "reason": "PML 58; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -102,7 +441,7 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-009"
+          "cluster_id": "PML-EVENT-008"
         },
         {
           "source_id": "cooperativa_politica",
@@ -130,306 +469,7 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-009"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-020",
-      "title": "Las negociaciones de Abu Dabi sobre Ucrania concluyen con un canje de prisioneros y sin progresos para la paz",
-      "url": "https://elpais.com/internacional/2026-11-11/las-negociaciones-de-abu-dabi-sobre-ucrania-concluyen-con-un-canje-de-prisioneros-y-sin-progresos-para-la-paz.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Conflictos y seguridad",
-      "event_type": "DIPLOMATIC_EVENT",
-      "geography": {
-        "group": "Internacional",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 60.9,
-        "level": "MEDIA",
-        "editorial_utility": 72.9
-      },
-      "selection": {
-        "reason": "PML 60.9; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-11T11:41:15-0300",
-      "last_seen": "2026-11-11T11:41:15-0300",
-      "entities": "ucrania",
-      "event_terms": [],
-      "analysis": {
-        "summary": "El Kremlin presiona para ligar la invasión a una revisión de la seguridad de toda Europa en las conversaciones entre Moscú, Kiev y Washington",
-        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
-          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Las negociaciones de Abu Dabi sobre Ucrania concluyen con un canje de prisioneros y sin progresos para la paz",
-          "description": "El Kremlin presiona para ligar la invasión a una revisión de la seguridad de toda Europa en las conversaciones entre Moscú, Kiev y Washington",
-          "url": "https://elpais.com/internacional/2026-11-11/las-negociaciones-de-abu-dabi-sobre-ucrania-concluyen-con-un-canje-de-prisioneros-y-sin-progresos-para-la-paz.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/O5RLU32IIRPO5IAG7TCLTFUDPM.jpg?auth=566d904fe4c549d4c762ea96b8c495806d5ea791de5b52f09af9914451d734de",
-          "published_raw": "Wed, 11 Nov 2026 14:41:15 GMT",
-          "published_at": "2026-11-11T11:41:15-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-003",
-      "title": "Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/camara-rechazo-la-partida-de-educacion-y-quiroz-ofrecio-una-alternativa/2026-11-11/142154.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 60.5,
-        "level": "MEDIA",
-        "editorial_utility": 58.5
-      },
-      "selection": {
-        "reason": "PML 60.5; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-11T14:21:54-0300",
-      "last_seen": "2026-11-11T14:21:54-0300",
-      "entities": [
-        "senado",
-        "chile"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "La Cámara de Diputadas y Diputados rechazó este miércoles la partida del Ministerio de Educación durante la discusión en particular del Presupuesto 2027 . La propuesta obtuvo 73 votos a favor y 73 en contra , por lo que no alcanzó la mayoría necesaria para su aprobación. El fin de \"Yo Elijo Mi PC\" , programa que entregaba computadores a estudiantes de séptimo básico, marcó el debate.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\"",
-          "description": "La Cámara de Diputadas y Diputados rechazó este miércoles la partida del Ministerio de Educación durante la discusión en particular del Presupuesto 2027 . La propuesta obtuvo 73 votos a favor y 73 en contra , por lo que no alcanzó la mayoría necesaria para su aprobación. El fin de \"Yo Elijo Mi PC\" , programa que entregaba computadores a estudiantes de séptimo básico, marcó el debate. Antes de la votación, el ministro de Hacienda, Jorge Quiroz , se comprometió a abordar la continuidad de la entrega de equipos durante el trámite del proyecto en el Senado. Según consignó Emol , Quiroz reconoció la preocupación de los diputados por el futuro de las becas de acceso a las tecnologías de la información y la comunicación (TIC) y el impacto que tiene para los estudiantes recibir un computador. También advirtió que, según los estudios a los que aludió en la Sala, \"no siempre esta entrega resulta en mejoras de aprendizaje\" . El ministro planteó que la discusión en el Senado debe considerar ambos aspectos. \"Una mirada conjunta donde consideremos entregas de computadores, pero consideremos también recoger elementos que permitan mejorar este programa\" , afirmó. Desde RN, el diputado Luis Pardo confirmó que \"el ministro de Hacienda ha acogido nuestra propuesta y ha comprometido públicamente en la Sala que va a mantener el programa 'Yo elijo mi PC' , lo cual valoramos profundamente, porque sabemos que este programa es muy importante para los niños de séptimo básico y sus familias\". El debate por el fin de \"Yo Elijo Mi PC\" La diputada Irací Hassler (PC) cuestionó las prioridades del Ejecutivo. A su juicio, la propuesta del Gobierno \"promueve quitarle los computadores a los niños y niñas, mientras el Estado chileno le entrega millonarios recursos a los más ricos de nuestro país\". La diputada Emilia Schneider (Frente Amplio) expuso: \"El Presidente Kast y el ministro Quiroz le han mentido a todo Chile. Entonces , ¿cómo vamos a confiar en que van a reponer el presupuesto para los computadores de los niños, niñas y jóvenes que más lo necesitan? No lo hicieron en la Cámara de Diputados, ¿por qué habríamos de confiar que en el Senado así lo hicieran?\". Desde el Partido Republicano , el diputado Stephan Schubert respaldó los cambios al programa y cuestionó que los equipos permanezcan almacenados. \"No queremos más computadores llegando a ser obsoletos en las bodegas\", afirmó. \"Por supuesto que hay que transformar esa política pública, que tiene hoy día un fin más bien social que educacional \", sostuvo Schubert. Tras la votación, la Sala continuó con la partida del Ministerio de Justicia . La discusión se centró en la permanencia del ministro Fernando Rabat en el cargo tras la polémica por las rebajas de condena a sentenciados por delitos sexuales contra menores de 14 años.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/camara-rechazo-la-partida-de-educacion-y-quiroz-ofrecio-una-alternativa/2026-11-11/142154.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111142154.jpg",
-          "published_raw": "Wed, 11 Nov 2026 14:21:54 -0300",
-          "published_at": "2026-11-11T14:21:54-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 7,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 3,
-          "score_ideology": 0,
-          "score_actor": 4,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 15,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-019",
-      "title": "La policía británica detiene a un soldado estadounidense acusado de espiar para Rusia",
-      "url": "https://elpais.com/internacional/2026-11-11/la-policia-britanica-detiene-a-un-soldado-estadounidense-acusado-de-espiar-para-rusia.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Conflictos y seguridad",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Internacional",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 60.3,
-        "level": "MEDIA",
-        "editorial_utility": 55.3
-      },
-      "selection": {
-        "reason": "PML 60.3",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-11T12:41:34-0300",
-      "last_seen": "2026-11-11T12:41:34-0300",
-      "entities": "rusia",
-      "event_terms": [],
-      "analysis": {
-        "summary": "Washington acusa a tres iraníes de estar detrás del intento de atentado a la base aérea de Fairford",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "La policía británica detiene a un soldado estadounidense acusado de espiar para Rusia",
-          "description": "Washington acusa a tres iraníes de estar detrás del intento de atentado a la base aérea de Fairford",
-          "url": "https://elpais.com/internacional/2026-11-11/la-policia-britanica-detiene-a-un-soldado-estadounidense-acusado-de-espiar-para-rusia.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/G46GAZDCUFJPTBCT776HOEZ4IM.jpg?auth=3214dcbd59c711df6c6d78a8a1847ab46d50bf9c846b431fc53da3c0a002c162",
-          "published_raw": "Wed, 11 Nov 2026 15:41:34 GMT",
-          "published_at": "2026-11-11T12:41:34-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 0,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-007",
-      "title": "Presidenta del Senado pide solución al paro camionero antes del nuevo viaje de Kast",
-      "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/presidenta-del-senado-pide-solucion-al-paro-camionero-antes-del-nuevo/2026-11-11/225455.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 60.5,
-        "level": "MEDIA",
-        "editorial_utility": 56.5
-      },
-      "selection": {
-        "reason": "PML 60.5; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-11T22:54:55-0300",
-      "last_seen": "2026-11-11T22:54:55-0300",
-      "entities": [
-        "senado",
-        "chile",
-        "boric"
-      ],
-      "event_terms": "crisis",
-      "analysis": {
-        "summary": "La presidenta del Senado, Paulina Núñez (RN) , hizo votos por que el paro de los camioneros  que se inició el martes quede resuelto antes del nuevo viaje internacional de José Antonio Kast . El Mandatario parte el viernes a una gira por Asia que lo llevará a Vietnam, China y Japón , y evitando plantear que la suspenda debido a la crisis, la parlamentaria enfatizó la urgencia de que el Gobierno encuentre una solución pronta frente a la protesta de los transportistas de carga.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Presidenta del Senado pide solución al paro camionero antes del nuevo viaje de Kast",
-          "description": "La presidenta del Senado, Paulina Núñez (RN) , hizo votos por que el paro de los camioneros  que se inició el martes quede resuelto antes del nuevo viaje internacional de José Antonio Kast . El Mandatario parte el viernes a una gira por Asia que lo llevará a Vietnam, China y Japón , y evitando plantear que la suspenda debido a la crisis, la parlamentaria enfatizó la urgencia de que el Gobierno encuentre una solución pronta frente a la protesta de los transportistas de carga. \"Si se lleva a cabo la APEC, evidentemente que el Presidente tiene que estar con su delegación, porque es Chile el que tiene que estar. Pero el conflicto no aguanta más horas ni más días \", advirtió la senadora por Antofagasta. \" Tiene que estar resuelto esto -que no digo que condicione el viaje del Presidente; quiero ser muy clara en aquello-, pero por supuesto que esta situación, esta crisis, este problema, tiene que estar resuelto, ojalá, en las próximas horas \", remarcó Núñez, que es una de las figuras \"presidenciables\" de su partido. Siempre hay un tuit En el pasado hubo varias ocasiones en que el hoy Presidente Kast fustigó al entonces Jefe de Estado, Gabriel Boric , por sus salidas del país: por ejemplo, en medio del caso Fundaciones u otras coyunturas. En octubre de 2023, hace sólo tres años, Kast tuiteó: \" En medio de una grave crisis económica, un país en recesión y el desempleo al alza, el Presidente Boric se va de gira a China con seis ministros de Estado incluyendo a la vocera, ¿cómo se explica esto? ». ",
-          "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/presidenta-del-senado-pide-solucion-al-paro-camionero-antes-del-nuevo/2026-11-11/225455.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111225455.jpg",
-          "published_raw": "Wed, 11 Nov 2026 22:54:55 -0300",
-          "published_at": "2026-11-11T22:54:55-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 5,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 5,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 13,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-007"
+          "cluster_id": "PML-EVENT-008"
         }
       ]
     }
@@ -453,11 +493,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.8,
-          "level": "MEDIA",
+          "score": 50.3,
+          "level": "BAJA",
           "components": {
             "political_impact": 81,
-            "freshness": 62,
+            "freshness": 40,
             "source_count": 32,
             "geographic_scope": 40,
             "continuity": 36
@@ -537,112 +577,40 @@
             "Congreso y proceso legislativo",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 77.8
+          "chile_utility": 72.3
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-001",
-        "title": "Gobierno entregó al Congreso los decretos de rebaja de condena",
-        "topic": "Instituciones y gobierno",
+        "cluster_id": "PML-EVENT-003",
+        "title": "Oposición repudia \"grave falta de respeto\" de diputada republicana que arremetió contra DD.HH.",
+        "topic": "Ideología y competencia política",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/gobierno-entrego-al-congreso-los-decretos-de-rebaja-de-condena/2026-11-11/121235.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/dd-hh/oposicion-repudia-grave-falta-de-respeto-de-diputada-republicana-que/2026-11-12/105725.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.9,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 59,
-            "freshness": 88,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 32
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-11T12:12:35-0300",
-        "last_seen": "2026-11-11T12:12:35-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Gobierno entregó al Congreso los decretos de rebaja de condena",
-            "description": "El Ministerio de Justicia entregó este miércoles a la Comisión de Constitución del Senado los decretos que redujeron las penas de personas condenadas por abuso sexual o violación de menores de edad. Un funcionario de la cartera acudió -en medio de la sesión- con seis portafolios para hacer entrega de 308 decretos de rebaja de condenas a abusadores de menores, correspondientes al periodo entre 2022 y 2026. La acción fue requerida insistentemente por los diputados de la oposición con el fin de poder nutrir su acusación constitucional que se está creando contra el ministro de Justicia, Fernando Rabat. Sin embargo, el envío causó controversia debido a que Justicia remitió los archivos al Senado y no a la Cámara de Diputados , corporación encargada de la labor fiscalizadora. Asimismo, en la Comisión de Constitución de la Cámara Alta también se abrió un debate debido a que senadoras de oposición consideraron que la entrega de información no fue total , sino que más bien parcial. El presidente de la comisión, Vlado Mirosevic , señaló que los senadores analizarán si corresponde mantener los decretos en reserva. Fiscalía y Contraloría también solicitaron antecedentes La Fiscalía Regional Metropolitana Centro Norte solicitó los decretos en el marco de la investigación por eventual prevaricación que abrió tras una denuncia de los diputados Luis Cuello (PC) y Juan Santana (PS) . El Ministerio Público busca esclarecer si se cometió algún delito al conceder las rebajas. El ministro de Justicia, Fernando Rabat , señaló el martes que la Fiscalía había dado a su cartera siete días hábiles para responder y que, a esa fecha, el plazo seguía vigente. Respecto de la Contraloría General de la República , que también fiscaliza las rebajas, aseguró que el ministerio ya había respondido al organismo. Rabat atribuyó la demora en la entrega de los decretos a la recopilación de antecedentes y a la necesidad de resguardar los datos personales que contienen. Añadió que la cartera tenía cerca de 50 solicitudes de información del Congreso sobre la materia. \"Se van a contestar todas ellas de manera completa. Hoy hicimos una primera entrega de estos decretos puesto que estaban relacionados con el proyecto de ley que estaba en tabla hoy\", sostuvo el ministro. Rabat resaltó que \"en 20 años se han rebajado condenas a 40 personas que se encuentran condenadas por hechos ocurridos en el año 1973 . ¿Y durante este Gobierno? Tres . Acá lo que importa es la víctima y por eso hemos cumplido con la normativa y hemos entregado la información en carácter de reservado\". DC: \"La AC  se va a presentar cuando deba presentarse\" El diputado Jorge Díaz, jefe de bancada de la DC , sostuvo que \"la acusación constitucional contra el ministro Rabat se va a presentar cuando deba presentarse\". \"Este es un trabajo que ha costado un poco más porque son varias bancadas de oposición, todas las bancadas de oposición las que se están articulando para que esto ocurra. Por lo tanto, tiene que tener la anuencia de todos para que sea un texto completo y suficiente \", aseveró. Por su parte, el diputado Raúl Leiva (PS) señaló que \"nosotros hemos sido contestes y sumamente responsables . Queríamos tener acceso a toda la información que permita validar los argumentos jurídicos y técnicos, porque los políticos ya están establecidos por la propia declaración del Presidente respecto a una acusación constitucional\". Oposición critica que no se entregaran decretos que beneficiaron a condenados por crimen organizado Parlamentarios de la Comisión de Constitución del Senado manifestaron sus reparos respecto a que no se entregaron los decretos que beneficiaron a condenados por crimen organizado. El senador Arturo Squella, presidente del Partido Republicano , cuestionó esta última crítica: \" Yo llamo a la oposición a que actúen con honestidad intelectual . Nunca han estado en duda aquellas personas condenadas por delitos que no se refieran de connotación sexual en contra de menores de edad. Evidentemente están haciendo un punto político\" , afirmó. \"Yo me sumo a la posibilidad de que cuanto antes nos entreguen la información de todas las personas beneficiadas porque, de alguna manera, eso va a obrar en favor del proyecto que hemos presentado ahora para que cada uno de los parlamentarios se dé cuenta de que no hay otro camino que derogar esta ley\", apuntó. La Moneda respaldó a Rabat ante la posible acusación constitucional La noche del martes, el Presidente José Antonio Kast se reunió en Cerro Castillo con los presidentes de los partidos oficialistas para abordar la defensa de Rabat ante la acusación constitucional que prepara la oposición . El Mandatario ya había ratificado su respaldo al ministro y asumido la responsabilidad política por las rebajas. Al término de la reunión, el vocero de Gobierno, Gonzalo Arenas , adelantó que Justicia entregaría los decretos el miércoles y afirmó que \"el apoyo al ministro Rabat es indiscutible\" . También expresó su confianza en que los partidos oficialistas respaldarán al titular de Justicia si la oposición presenta la acusación. Esta mañana, en el Primer Café de Cooperativa , el diputado Jorge Guzmán (Evópoli) afirmó que \" hoy lo que más necesita el Gobierno, y lo hemos visto en otros gobiernos también, es darle más tonelaje político, darle más peso político a su composición ministerial, porque en cuando existe ese peso político, es más fácil llegar, es más fácil comunicar y es más fácil sensibilizar con las necesidades ciudadanas\". \"Me refiero, hoy día lleva ocho meses el Gobierno, pero un tiempo necesario es lo más cercano a antes del año de Gobierno\", agregó. Por su parte, el secretario general del Partido Republicano, Vicente Bruna, manifestó que \"cuando un Gobierno está más bajo en las encuestas, a los políticos en general les empieza a dar miedo, y el incentivo ahí es a criticar al Gobierno para conseguir réditos políticos\" . \"Creo que esa es una mala política, que se da tanto en la izquierda como en la derecha, que tiene que ser erradicada, porque uno tiene que estar con el Gobierno en las buenas y en las malas, sobre todo en las malas, que es cuando más se necesita\", subrayó.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/gobierno-entrego-al-congreso-los-decretos-de-rebaja-de-condena/2026-11-11/121235.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111121235.jpg",
-            "published_raw": "Wed, 11 Nov 2026 12:12:35 -0300",
-            "published_at": "2026-11-11T12:12:35-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 10,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 0,
-            "score_ideology": 2,
-            "score_actor": 6,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 19,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Ideología y competencia política",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 21,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 75.9
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Diputada republicana arremetió en la Cámara contra \"Derechos Humanos Company\"",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-republicano/diputada-republicana-arremetio-en-la-camara-contra-derechos-humanos/2026-11-11/193512.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 53.8,
+          "score": 55.8,
           "level": "MEDIA",
           "components": {
             "political_impact": 50,
             "freshness": 95,
-            "source_count": 30,
+            "source_count": 32,
             "geographic_scope": 40,
-            "continuity": 30
+            "continuity": 46
           }
         },
         "coverage": {
-          "article_count": 1,
+          "article_count": 2,
           "source_count": 1,
           "sources": "Cooperativa"
         },
         "first_seen": "2026-11-11T19:35:12-0300",
-        "last_seen": "2026-11-11T19:35:12-0300",
+        "last_seen": "2026-11-12T10:57:25-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
@@ -670,18 +638,112 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
+            "cluster_id": "PML-EVENT-003"
+          },
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Oposición repudia \"grave falta de respeto\" de diputada republicana que arremetió contra DD.HH.",
+            "description": "Un grupo de partidos de oposición manifestó su \"enérgico rechazo\" hacia las palabras de la diputada republicana Javiera Rodríguez , quien ayer miércoles acusó al mundo de los derechos humanos de actuar como una empresa lucrativa . Durante el debate de la partida del Ministerio de Justicia del Presupuesto 2027, la oficialista expuso su \" repudio a quienes se han arrogado la propiedad de los derechos humanos en Chile ; a esa gran empresa llamada Derechos Humanos Company \", y advirtió que quienes exigen transparencia sobre los crímenes de la dictadura son \"empresarios del dolor ajeno\" . Los dichos de Rodríguez no solo irritaron a los opositores presentes en la sesión, sino que más tarde motivaron la firma de una declaración unánime de los comités parlamentarios , llamando a que \"el debate en la Sala se desarrolle con pleno respeto a la dignidad de todos sus integrantes\", lo que, entre otras cosas, \"implica abstenerse cuidadosamente de toda expresión malévola o injuriosa \". Después de que la diputada se negara a ofrecer disculpas en la víspera, seis colectividades de oposición -Partido Liberal; Democracia Cristiana; PPD; Partido Socialista; Frente Amplio y Partido Comunista - intensificaron su crítica este jueves mediante una declaración pública, titulada \"Los derechos humanos no son un negocio. La memoria no se relativiza\" . Ver esta publicación en Instagram Una publicación compartida por Partido Socialista de Chile (@pschile) El escrito afirma que la militante republicana \" calificó despectivamente la defensa de los derechos humanos en Chile como una empresa llamada ' Derechos Humanos Company '\", lo cual \"constituye una grave falta de respeto a las víctimas de la dictadura , sus familias y a quienes han luchado por la verdad y la justicia\". Dirigiéndose abiertamente a Rodríguez , la misiva detalla: \"Le recordamos que en Chile todavía hay más de mil detenidos desaparecidos cuyo paradero se desconoce . Miles de compatriotas fueron ejecutados, encarcelados, torturados o expulsados del país. Hubo personas degolladas y quemadas vivas. Los lugares donde se cometieron estos crímenes son hoy sitios de memoria , testimonios del horror que nuestro país jamás debe olvidar\". En ese sentido, \" rechazamos también los recortes contemplados en el Presupuesto 2027 , que reducen a apenas 1.000 pesos anuales los recursos asignados al Museo de la Memoria y los Derechos Humanos y a diversos sitios de memoria. Es una decisión atroz e inaceptable que exigimos revertir\", emplaza la oposición. \" Los derechos humanos no son una empresa ni la memoria un negocio. Son un compromiso irrenunciable con la dignidad humana, la verdad, la justicia y la democracia\", remarca la declaración, relevando asimismo que la democracia actual \"costó sufrimiento, sacrificios y muchas vidas. No permitiremos que se desprecie esa historia ni que se intente borrar lo ocurrido durante la dictadura\". Al cierre, el bloque subraya que \" la memoria es parte de nuestra historia . Defenderla es defender la democracia y garantizar que el horror nunca más vuelva a repetirse . ¡Verdad, justicia, memoria y nunca más!\".",
+            "url": "https://www.cooperativa.cl/noticias/pais/dd-hh/oposicion-repudia-grave-falta-de-respeto-de-diputada-republicana-que/2026-11-12/105725.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000220261112105725.png",
+            "published_raw": "Thu, 12 Nov 2026 10:57:25 -0300",
+            "published_at": "2026-11-12T10:57:25-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 2,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 3,
+            "score_actor": 3,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 9,
+            "primary_topic": "Ideología y competencia política",
+            "secondary_topic": "Instituciones y gobierno",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-003"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 21,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 74.8
+          "bonus": 12,
+          "labels": "Congreso y proceso legislativo",
+          "chile_utility": 67.8
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-004",
+        "title": "Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/camara-rechazo-la-partida-de-educacion-y-quiroz-ofrecio-una-alternativa/2026-11-11/142154.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 56.5,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 79,
+            "freshness": 72,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 28
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-11T14:21:54-0300",
+        "last_seen": "2026-11-11T14:21:54-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\"",
+            "description": "La Cámara de Diputadas y Diputados rechazó este miércoles la partida del Ministerio de Educación durante la discusión en particular del Presupuesto 2027 . La propuesta obtuvo 73 votos a favor y 73 en contra , por lo que no alcanzó la mayoría necesaria para su aprobación. El fin de \"Yo Elijo Mi PC\" , programa que entregaba computadores a estudiantes de séptimo básico, marcó el debate. Antes de la votación, el ministro de Hacienda, Jorge Quiroz , se comprometió a abordar la continuidad de la entrega de equipos durante el trámite del proyecto en el Senado. Según consignó Emol , Quiroz reconoció la preocupación de los diputados por el futuro de las becas de acceso a las tecnologías de la información y la comunicación (TIC) y el impacto que tiene para los estudiantes recibir un computador. También advirtió que, según los estudios a los que aludió en la Sala, \"no siempre esta entrega resulta en mejoras de aprendizaje\" . El ministro planteó que la discusión en el Senado debe considerar ambos aspectos. \"Una mirada conjunta donde consideremos entregas de computadores, pero consideremos también recoger elementos que permitan mejorar este programa\" , afirmó. Desde RN, el diputado Luis Pardo confirmó que \"el ministro de Hacienda ha acogido nuestra propuesta y ha comprometido públicamente en la Sala que va a mantener el programa 'Yo elijo mi PC' , lo cual valoramos profundamente, porque sabemos que este programa es muy importante para los niños de séptimo básico y sus familias\". El debate por el fin de \"Yo Elijo Mi PC\" La diputada Irací Hassler (PC) cuestionó las prioridades del Ejecutivo. A su juicio, la propuesta del Gobierno \"promueve quitarle los computadores a los niños y niñas, mientras el Estado chileno le entrega millonarios recursos a los más ricos de nuestro país\". La diputada Emilia Schneider (Frente Amplio) expuso: \"El Presidente Kast y el ministro Quiroz le han mentido a todo Chile. Entonces , ¿cómo vamos a confiar en que van a reponer el presupuesto para los computadores de los niños, niñas y jóvenes que más lo necesitan? No lo hicieron en la Cámara de Diputados, ¿por qué habríamos de confiar que en el Senado así lo hicieran?\". Desde el Partido Republicano , el diputado Stephan Schubert respaldó los cambios al programa y cuestionó que los equipos permanezcan almacenados. \"No queremos más computadores llegando a ser obsoletos en las bodegas\", afirmó. \"Por supuesto que hay que transformar esa política pública, que tiene hoy día un fin más bien social que educacional \", sostuvo Schubert. Tras la votación, la Sala continuó con la partida del Ministerio de Justicia . La discusión se centró en la permanencia del ministro Fernando Rabat en el cargo tras la polémica por las rebajas de condena a sentenciados por delitos sexuales contra menores de 14 años.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/camara-rechazo-la-partida-de-educacion-y-quiroz-ofrecio-una-alternativa/2026-11-11/142154.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111142154.jpg",
+            "published_raw": "Wed, 11 Nov 2026 14:21:54 -0300",
+            "published_at": "2026-11-11T14:21:54-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 7,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 3,
+            "score_ideology": 0,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 15,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-004"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 13,
+          "labels": "Estado e instituciones",
+          "chile_utility": 69.5
         },
         "repeated_in_general_top5": false
       }
@@ -690,41 +752,51 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 21,
-      "maximum_relevance": 63.8,
-      "leading_story": "UDI: El Presidente decidió enfrentar la acusación constitucional con Rabat para ganarla"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 3,
-      "maximum_relevance": 60.9,
-      "leading_story": "Las negociaciones de Abu Dabi sobre Ucrania concluyen con un canje de prisioneros y sin progresos para la paz"
-    },
-    {
-      "topic": "Relaciones internacionales",
-      "event_count": 1,
-      "maximum_relevance": 51.9,
-      "leading_story": "Mercosur: la geoestrategia detrás de un pacto comercial con luces y sombras"
+      "event_count": 22,
+      "maximum_relevance": 62.5,
+      "leading_story": "Trump amenaza con duplicar los aranceles a México si no endurece la frontera"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 2,
-      "maximum_relevance": 48.3,
-      "leading_story": "Un magma de 39 candidatos para sustituir a Macron en Francia"
+      "maximum_relevance": 58.9,
+      "leading_story": "Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
+    },
+    {
+      "topic": "Ideología y competencia política",
+      "event_count": 1,
+      "maximum_relevance": 55.8,
+      "leading_story": "Oposición repudia \"grave falta de respeto\" de diputada republicana que arremetió contra DD.HH."
+    },
+    {
+      "topic": "Relaciones internacionales",
+      "event_count": 1,
+      "maximum_relevance": 43.9,
+      "leading_story": "Mercosur: la geoestrategia detrás de un pacto comercial con luces y sombras"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 1,
+      "maximum_relevance": 42.3,
+      "leading_story": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 44.7,
+      "maximum_relevance": 39.2,
       "leading_story": "¿Para el reel? \"Menos mal que sabía de economía, ministro\", dijo un diputado liberal a Quiroz"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-016", "PML-EVENT-011", "PML-EVENT-001", "PML-EVENT-018", "PML-EVENT-008"],
+      "exited_top5": ["PML-EVENT-009", "PML-EVENT-020", "PML-EVENT-003", "PML-EVENT-019", "PML-EVENT-007"],
+      "retained_top5": []
+    }
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
