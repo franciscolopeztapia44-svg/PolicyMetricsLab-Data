@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-12",
-    "data_latest_timestamp": "2026-11-12T18:26:10-0300",
-    "data_age_hours": 1.9,
-    "generated_at": "2026-11-12T20:21:47-0300",
+    "date": "2026-11-13",
+    "data_latest_timestamp": "2026-11-13T00:20:40-0300",
+    "data_age_hours": 2.5,
+    "generated_at": "2026-11-13T02:48:33-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,174 +16,25 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 30 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 33,
+    "ranked_events": 30,
     "topics": 1,
-    "geographies": 3,
+    "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 61.6,
-    "maximum_relevance": 65.2
+    "average_top5_relevance": 59.8,
+    "maximum_relevance": 63.9
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-007",
-      "title": "Oposición levantó veto al jefe de la Dipres en la Cámara",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/oposicion-levanto-veto-al-jefe-de-la-dipres-en-la-camara/2026-11-12/162201.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 65.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 65.2
-      },
-      "selection": {
-        "reason": "PML 65.2",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-12T16:22:01-0300",
-      "last_seen": "2026-11-12T16:22:01-0300",
-      "entities": [],
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "Luego de la entrega -por parte del Ministerio de Justicia a la Comisión de Constitución- de los decretos que rebajaron condenas a pedófilos, la oposición decidió autorizar la entrada a la Sala de la Cámara del director de Presupuestos, José Pablo Gómez, para la discusión del erario 2027. De acuerdo con La Tercera, el presidente de la Cámara de Diputados, Jorge Alessandri (UDI), informó que los comités autorizarán este jueves el ingreso.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Oposición levantó veto al jefe de la Dipres en la Cámara",
-          "description": "Luego de la entrega -por parte del Ministerio de Justicia a la Comisión de Constitución- de los decretos que rebajaron condenas a pedófilos, la oposición decidió autorizar la entrada a la Sala de la Cámara del director de Presupuestos, José Pablo Gómez, para la discusión del erario 2027. De acuerdo con La Tercera, el presidente de la Cámara de Diputados, Jorge Alessandri (UDI), informó que los comités autorizarán este jueves el ingreso. Lo mismo ratificó el secretario general de la Cámara, Miguel Landeros:  \"Los comités acordaron autorizar, en los términos que ha señalado el señor presidente, al señor director de presupuestos a la sala de la corporación durante la discusión de la Ley de Presupuestos, cuando no se encuentre presente el señor ministro de Hacienda\", dijo. La oposición no concedía la unanimidad para admitir la presencia en la sala del jefe de la Dipres en señal de protesta por la mantención del ministro de Justicia, Fernando Rabat, en el cargo. Según informó el diputado Raúl Leiva (PS), en representación de los demás cómites de la oposición, la medida se iba a mantener mientras no se entregaran desde Justicia la información sobre los decretos de rebaja de condenas, hecho que se cumplió el miércoles. \"Agradeciendo la concomitancia que tuvieron los comités en permitir el ingreso de la Dipres a la Sala, el señor (Jorge) Quiroz ordenó que esos decretos se ingresaran y llegaron acá antes de las 12:00 horas, permitiendo el ejercicio de la función fiscalizadora de la Cámara de Diputados , que lamentablemente obstruyó y negó el ministro Rabat durante más de 20 días\" , puntualizó el parlamentario. [Lea también]  Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\"",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/oposicion-levanto-veto-al-jefe-de-la-dipres-en-la-camara/2026-11-12/162201.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000220261112162201.png",
-          "published_raw": "Thu, 12 Nov 2026 16:22:01 -0300",
-          "published_at": "2026-11-12T16:22:01-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 4,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 12,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-007"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-026",
-      "title": "Trump retira a Vance de las conversaciones con Irán para acabar la guerra",
-      "url": "https://elpais.com/internacional/2026-11-12/trump-retira-a-vance-de-las-conversaciones-con-iran-para-acabar-la-guerra.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 60.5,
-        "level": "MEDIA",
-        "editorial_utility": 63.5
-      },
-      "selection": {
-        "reason": "PML 60.5; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-12T15:28:12-0300",
-      "last_seen": "2026-11-12T15:28:12-0300",
-      "entities": [
-        "trump",
-        "iran"
-      ],
-      "event_terms": "guerra",
-      "analysis": {
-        "summary": "“No necesitamos un acuerdo”, ha escrito el presidente estadounidense, que quiere que su número dos se centre en descubrir supuestos casos de corrupción en los Estados bajo control demócrata",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Trump retira a Vance de las conversaciones con Irán para acabar la guerra",
-          "description": "“No necesitamos un acuerdo”, ha escrito el presidente estadounidense, que quiere que su número dos se centre en descubrir supuestos casos de corrupción en los Estados bajo control demócrata",
-          "url": "https://elpais.com/internacional/2026-11-12/trump-retira-a-vance-de-las-conversaciones-con-iran-para-acabar-la-guerra.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/3OPNORXBMFIWLOVEW62T3GEQYQ.jpg?auth=f66fd741cf306b3c440013aedd9ade03c1b5c9f90026d6c0aee20aef962b57c0",
-          "published_raw": "Thu, 12 Nov 2026 18:28:12 GMT",
-          "published_at": "2026-11-12T15:28:12-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-003",
-      "title": "Oposición prevé presentar esta noche la acusación constitucional contra Rabat",
-      "url": "https://www.cooperativa.cl/noticias/pais/judicial/oposicion-preve-presentar-esta-noche-la-acusacion-constitucional-contra/2026-11-12/142752.html",
+      "cluster_id": "PML-EVENT-001",
+      "title": "Acusación constitucional a Rabat: Desafiante, la UDI anticipa triunfo holgado del oficialismo",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/acusacion-constitucional-a-rabat-desafiante-la-udi-anticipa-triunfo/2026-11-12/223151.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_CRISIS",
@@ -192,30 +43,35 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 62.6,
+        "score": 63.9,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 58.6
+        "editorial_utility": 63.9
       },
       "selection": {
-        "reason": "PML 62.6; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 63.9",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 1,
+        "article_count": 4,
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-12T14:27:52-0300",
-      "last_seen": "2026-11-12T14:27:52-0300",
-      "entities": "congreso",
+      "first_seen": "2026-11-11T19:34:29-0300",
+      "last_seen": "2026-11-12T22:31:51-0300",
+      "entities": [
+        "congreso",
+        "senado",
+        "boric",
+        "chile"
+      ],
       "event_terms": [
         "oposicion",
         "judicial"
       ],
       "analysis": {
-        "summary": "La oposición prevé presentar la noche de este jueves la acusación constitucional contra el ministro de Justicia, Fernando Rabat , por las rebajas de condena que otorgó a 56 personas condenadas por delitos sexuales contra menores de edad, sin que mediara una orden judicial previa. Las bancadas de centroizquierda se reunirán a las 16:00 horas en el Congreso para definir el horario de presentación.",
+        "summary": "El presidente de la UDI, el diputado Guillermo Ramírez , manifestó su confianza en que la acusación constitucional contra el ministro de Justicia, Fernando Rabat  — presentada este jueves y dos semanas después de su anuncio —, no prosperará en la Cámara Baja. \"Ya era hora. Esto es como el cuento del lobo.",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -225,6 +81,34 @@
         "status": "ready"
       },
       "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Acusación constitucional a Rabat: Desafiante, la UDI anticipa triunfo holgado del oficialismo",
+          "description": "El presidente de la UDI, el diputado Guillermo Ramírez , manifestó su confianza en que la acusación constitucional contra el ministro de Justicia, Fernando Rabat  — presentada este jueves y dos semanas después de su anuncio —, no prosperará en la Cámara Baja. \"Ya era hora. Esto es como el cuento del lobo. Llevábamos semanas esperando la acusación constitucional y eso le dio tiempo al Gobierno para poder ordenar las filas y, la verdad, tengo la impresión de que esa acusación va a fracasar \", sostuvo. Luego, agregó: \"Si tuviera que apostar, vamos a ganar la acusación constitucional en la Cámara de Diputados y no de manera tan justa (apretada)\" . En la misma línea, el jefe de bancada de Renovación Nacional (RN), Diego Schalper , afirmó que, incluso, \" hasta sus promotores originales (de la acusación constitucional) han ido dándose cuenta de que no tiene fundamento\" . El parlamentario ironizó que evalúan invitar al exministro de Justicia Luis Cordero al Congreso para \"explicar por qué un error político no necesariamente implica una infracción constitucional\". El libelo cuenta con las firmas de diputados del Frente Amplio (FA), el Partido Socialista (PS), el Partido Liberal (PL), el Partido Por la Democracia (PPD), la Democracia Cristiana (DC) y el Partido Comunista (PC) . El documento fue presentado a las 20:05 horas en la oficina de partes de la Cámara Baja, mientras continuaba la discusión del Presupuesto 2027 . Los cuestionamientos contra Rabat se concentran en tres materias: la rebaja de condenas a condenados por delitos sexuales contra menores, beneficios otorgados a condenados por violaciones a los derechos humanos y presuntas faltas a la probidad por entregar explicaciones que la oposición considera falsas o incompletas ante el Congreso. El escenario de la votación Para que la acusación avance al Senado, deberá contar con la mayoría de los diputados presentes en la Sala. Considerando una asistencia completa de los 155 parlamentarios en ejercicio , el libelo necesitará al menos 78 votos favorables . De acuerdo con la distribución de las bancadas parlamentarias, las bancadas de derecha suman 76 escaños. En tanto, las fuerzas de izquierda y centroizquierda reúnen 65 diputados , mientras que el Partido de la Gente (PDG) cuenta con 14 . El próximo lunes se dará cuenta formalmente del ingreso de la acusación ante la Sala y se sortearán los cinco integrantes de la comisión parlamentaria que deberán analizar sus antecedentes y elaborar un informe. Controversia por decretos El ingreso de la acusación constitucional coincidió con la entrega de los decretos de rebaja de condenas solicitados por los parlamentarios opositores. Los documentos fueron enviados por correo electrónico a la Cámara Baja, luego de gestiones del ministro de Hacienda, Jorge Quiroz . El diputado socialista Raúl Leiva cuestionó la demora en la entrega de estos antecedentes y aseguró que los parlamentarios los solicitaban desde el 22 de octubre . \"Hoy día, el ministro Quiroz le dio una instrucción y llegaron en cinco minutos \", apuntó. Leiva señaló que esperan revisar los documentos para determinar eventuales vulneraciones legales y constitucionales, especialmente en los casos relacionados con violaciones a los derechos humanos.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/acusacion-constitucional-a-rabat-desafiante-la-udi-anticipa-triunfo/2026-11-12/223151.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000220261112223151.jpg",
+          "published_raw": "Thu, 12 Nov 2026 22:31:51 -0300",
+          "published_at": "2026-11-12T22:31:51-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 8,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 6,
+          "score_actor": 6,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 22,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-001"
+        },
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
@@ -251,13 +135,69 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
+          "cluster_id": "PML-EVENT-001"
+        },
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Los argumentos de la acusación constitucional al ministro Fernando Rabat",
+          "description": "A 15 días de haberla anunciado, la oposición ingresó a la Cámara Baja la acusación constitucional contra el ministro de Justicia, Fernando Rabat, por las polémicas rebajas de condena que concedió a pedófilos y criminales de lesa humanidad  sin órdenes judiciales que lo obligaran. El libelo, presentado a las 20:05 horas de esta jornada, tiene 189 páginas y se compone de tres capítulos:  el primero y el segundo tratarán sobre las mentadas reducciones, mientras que el tercero aborda \"la información inexacta e incompleta que entregó (Rabat ante la Sala de la Cámara el 28 de octubre, durante una sesión especial)  para justificarlas\". A juicio de los diputados firmantes -militantes de la DC, el PL, el PPD, el, PS, el FA y el PC-, el titular de Justicia cometió \"infracciones evidentes que dejaron sin protección a quienes la ley debe proteger\",  que se demuestran en sus \"decretos (firmados), fallos y declaraciones\". 🔴 AHORA La oposición ingresa la anunciada acusación constitucional contra el ministro de Justicia, Fernando Rabat. @Cooperativa https://t.co/2qrMwN6iAF — Jorge Espinoza Cuellar (@espinozacuellar) November 12, 2026 En concreto, el ministro Rabat -acusaron- \"abandonó el criterio que el Ministerio de Justicia sostuvo en dos administraciones, sin mediar cambio legal ni orden judicial que lo obligara; resolvió a favor del condenado, sin considerar a las víctimas, infringiendo la ley; y atribuyó la decisión a otros: a las comisiones, a la Corte Suprema, a la ley, al Congreso y al Gobierno anterior (de Gabriel Boric)\". Asimismo, la oposición recordó que la Administración Kast \"no ha hecho valer las responsabilidades\" pese a reconocer un error político en haber rebajado las condenas y reiteró que  el líder de Justicia \"ya no es un interlocutor válido\". [Lea también] Couso no ve mérito para acusación constitucional contra Rabat ni la Corte Suprema Una de las diputadas firmantes, Daniela Serrano (PC), afirmó que \"esto es por responsabilidad por Chile y por las víctimas. Lo que estamos haciendo valer es nuestra atribución fiscalizadora como Cámara. Sé que hubo mucha expectación de los tiempos en que se redactaron esta AC, pero queremos dar tranquilidad de que esto fue un trabajo responsable y coordinado\". El libelo \"se dará cuenta el día lunes\" 16 de noviembre, agregó.  Las infracciones legales al rebajar condena a pedófilos El texto sostiene que, al rebajar las condenas de 56 pedófilos, \"el ministro infringió el artículo 17, letra e), de la Ley N° 19.856, modificado por la Ley N° 21.421,  que lo prohíbe expresamente\". Asimismo, afirma que desatendió los intereses superiores de los niños, vulnerando \"el artículo 5°, inciso segundo, de la Constitución, la Convención sobre los Derechos del Niño y la Ley N° 21.430, que obligan a considerarlo primordialmente\". Por último, la oposición acusó que Rabat \"cometió abuso de poder, (ya que) las sentencias sólo obligan en la causa que resuelven (art. 3° del Código Civil). Sin embargo, (el abogado)  convirtió fallos favorables a algunos condenados en una regla general, invocando la eficiencia y 'la conveniencia de evitar la judicialización'\". Además, \"concedió rebajas en causas que estaban siendo conocidas por los tribunales, sin esperar su decisión; e infringió la ley por omisión al suspender la tramitación de las postulaciones (de los condenados para que rebajen su sentencia), contra su obligación legal de resolver\". El documento de 189 páginas y tres capítulos fue ingresado a las 20:05 horas de esta jornada e incluye firmas de diputados DC, PL, PPD, PS, FA y PC. (Foto: ATON) Respecto a las reducciones concedidas a criminales de lesa humanidad En cuanto a las rebajas de sentencia que Rabat concedió a tres exagentes del Estado por violaciones de DD.HH. durante la dictadura -dos de los cuales estaban presos en Punta Peuco-, la centroizquierda acusó que omitió \"el artículo 5°, inciso segundo de la Constitución, que obliga a respetar los derechos garantizados por los tratados vigentes\". Entre ellos, figuran \"la Convención Americana, la Convención contra la Tortura y las convenciones sobre desaparición forzada, que exigen penas proporcionales y efectivas. Según la Corte Interamericana, eso incluye no conceder beneficios indebidos durante la ejecución de la pena\", sostiene el texto. Además, \"no consideró a las víctimas (a la hora de evaluar rebajar las condenas). No las informó ni ponderó los efectos de la liberación sobre ellas y, en el caso de los desaparecidos, no examinó si el condenado ayudó a esclarecer su paradero, condición que la Convención Interamericana sobre Desaparición Forzada pone para cualquier atenuación\",  enfatizó la oposición.  Presuntas vulneraciones a la probidad, a la lealtad a la Cámara y al informar al Congreso Por último, el sector denunció que el titular de Justicia \"faltó a la verdad, entregó información inexacta y omitió antecedentes relevantes\" durante sus comparecencias ante la Comisión de Constitución del Senado el 27 de octubre, ante la Sala de la Cámara el día después y \"ante la prensa\". Con ello, infringió -aseguran- \"el principio de probidad (artículo 8° de la Constitución y artículo 52 de la Ley N° 18.575 (DFL N° 1/19.653), que exige 'un desempeño honesto y leal de la función o cargo', (pues)  no hay desempeño honesto cuando un ministro informa a otro poder del Estado hechos falsos o incompletos\". Finalmente, también vulneró \"el deber de lealtad con la Cámara;  el artículo 53 de la misma ley exige el recto ejercicio del poder público, y la Contraloría ha dicho que la probidad incluye la lealtad con la comunidad y los demás poderes del Estado; y el deber de informar al Congreso\",  faltando al artículo 37 de la Carta Magna.  [Lea también]  Rabat descarta presión para dejar Justicia: \"Estoy muy contento en mi labor\"",
+          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/los-argumentos-de-la-acusacion-constitucional-al-ministro-fernando-rabat/2026-11-12/202314.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000001320261112202314.png",
+          "published_raw": "Thu, 12 Nov 2026 20:23:14 -0300",
+          "published_at": "2026-11-12T20:23:14-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 10,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 3,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 14,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-001"
+        },
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Couso no ve mérito para acusación constitucional contra Rabat ni la Corte Suprema",
+          "description": "El abogado constitucionalista Javier Couso (DC) aseguró en Cooperativa que los antecedentes hasta ahora conocidos por la rebaja de condena a pederastas son insuficientes para sustentar la acusación constitucional -anunciada por la oposición- contra el ministro de Justicia , Fernando Rabat , así como la promovida por el Partido Nacional Libertario contra los integrantes de la Corte Suprema . En conversación con Lo Que Queda del Día , el académico de la Universidad Diego Portales (UDP) analizó la demora en la entrega, a la Comisión de Constitución del Senado , de los decretos que redujeron las penas a personas condenadas por violación de menores de edad , y el hecho de que éstos no llegaran a la Cámara, donde se prepara al libelo contra Rabat. \"El ministro ha estado jugando al gato y al ratón . El haber puesto tantos reparos y complicaciones para entregar documentos que, de haberse establecido una comisión especial investigadora, habrían tenido que ser enviados a la Cámara y (Rabat) habría estado obligado incluso a comparecer de nuevo hasta tres veces o incluso más si hay mayoría de la Cámara que lo hubiera pedido\", explicó. [Lea también] Rebajas de condenas: Rabat decidió \"parar cualquier decreto ante las nuevas circunstancias\" El profesor catalogó la estrategia del secretario de Estado como \"maniobras, digamos, que están dentro de la legalidad, pero que son francamente irritantes  y ponen un ambiente que no es no es bueno para él, porque ya estamos en una circunstancia compleja. Pero se estas cosas solo dilatan lo que va a ocurrir: se van a conocer\" Para Couso,  \"es un mal argumento que un poder del Estado le diga a otro que no le va a entregar información o se la va a entregar a cuentagotas porque hay que preocuparse de las víctimas, cuando hemos visto que hay filtraciones que han ocurrido desde ese mismo poder del Estado . En comisiones como la de Defensa se presenta información secreta y no se ha filtrado. Francamente, no entiendo la estrategia del ministro\". \"Interpretación plausible\" El jurista señaló que, al firmar las rebajas de condena a pedófilos, el titular de Justicia se inclinó por una \"interpretación tan plausible de la ley , que la propia Corte Suprema interpretó eso en el 90 por ciento de los casos (que analizó) en los últimos años \". \"Todo ministro que aplica las leyes, las debe interpretar y había dos interpretaciones plausibles: una,  es la de la jurisprudencia de la Corte Suprema hasta hace unos meses atrás, que planteaba que la naturaleza de la rebaja de pena se vincula a la pena y, por lo tanto, no puede aplicarse retroactivamente a quienes habían cometido el crimen y habían sido condenados\", apuntó. \"Y había otra , que era más reciente por parte de la Suprema, que es un mero beneficio administrativo que no crea derecho adquirido . Entonces, cuando un ministro tiene que ejecutar las leyes, y eso se hace típicamente mediante la dictación de decretos, tiene que interpretarla y era plausible esta interpretación de la ley\", complementó el abogado. En esa materia, el jurista desechó la pertinencia del argumento que atribuye a Rabat de \"haber mentido cuando fue a exponer (una vez que estalló el escándalo) a una sesión especial de la Cámara,  porque hay un principio de probidad que está en la Constitución, que plantea que todo funcionario público debe actuar siempre con probidad, en este caso con honestidad\". \"Si se empieza a acusar a los ministros por decir inexactitudes en el debate político que se da al interior de la Cámara, vamos a llenarnos de acusaciones constitucionales \", cuestionó. El error de la oposición El experto constitucionalista afirmó que la oposición \"cometió un un error\" al anunciar la AC contra Rabat ,  \"porque todos los antecedentes que quiere habrían tenido que ser entregados en el acto por el ministro de Estado de haberse creado una comisión especial investigadora, toda la documentación habría estado a tiempo\". \"Me parece prudente no acusar mientras no se tengan todos los antecedentes, sino  habría sido una acusación a ciegas. Sabemos que hay ha habido acusaciones frívolas en los últimos 15, 20 años en Chile\", agregó. Finalmente, Couso planteó que actualmente, \"con los antecedentes con que cuento ahora, no me parece que hayan antecedentes suficientes ni para acusar al ministro ni para acusar a los integrantes de la Corte Suprema , como ha anunciado otro grupo de parlamentarios del Partido Nacional Libertario\". \"Una acusación constitucional contra un ministro de Estado requiere distintas causales, pero las que imagino van a invocarse son haber infringido la Constitución, las leyes o haberla dejado sin ejecución\", subrayó. Pese a que el escenario \"podría cambiar si es que se demostrara una teoría de que se ha se ha demorado tanto la entrega de antecedentes es porque se quiere ocultar quizás algo que no conocemos, no quiero especular , pero con los antecedentes que tengo hoy, a mi juicio no se configuran estas tres causales que son las que han trascendido\".",
+          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/couso-no-ve-merito-para-acusacion-constitucional-contra-rabat-ni-la/2026-11-11/193429.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111193429.jpg",
+          "published_raw": "Wed, 11 Nov 2026 19:34:29 -0300",
+          "published_at": "2026-11-11T19:34:29-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 7,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 3,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 10,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-001"
         }
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-020",
+      "position": 2,
+      "cluster_id": "PML-EVENT-017",
       "title": "Trump amenaza con duplicar los aranceles a México si no endurece la frontera",
       "url": "https://elpais.com/us/2026-11-12/trump-amenaza-con-duplicar-los-aranceles-a-mexico-si-no-endurece-la-frontera.html",
       "representative_source": "EL PAÍS",
@@ -268,12 +208,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 59.5,
+        "score": 57.5,
         "level": "MEDIA",
-        "editorial_utility": 53.5
+        "editorial_utility": 60.5
       },
       "selection": {
-        "reason": "PML 59.5; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 57.5; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -330,13 +270,86 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
+          "cluster_id": "PML-EVENT-017"
         }
       ]
     },
     {
-      "position": 5,
-      "cluster_id": "PML-EVENT-001",
+      "position": 3,
+      "cluster_id": "PML-EVENT-006",
+      "title": "Oposición levantó veto al jefe de la Dipres en la Cámara",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/oposicion-levanto-veto-al-jefe-de-la-dipres-en-la-camara/2026-11-12/162201.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 62.2,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 58.2
+      },
+      "selection": {
+        "reason": "PML 62.2; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-12T16:22:01-0300",
+      "last_seen": "2026-11-12T16:22:01-0300",
+      "entities": [],
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "Luego de la entrega -por parte del Ministerio de Justicia a la Comisión de Constitución- de los decretos que rebajaron condenas a pedófilos, la oposición decidió autorizar la entrada a la Sala de la Cámara del director de Presupuestos, José Pablo Gómez, para la discusión del erario 2027. De acuerdo con La Tercera, el presidente de la Cámara de Diputados, Jorge Alessandri (UDI), informó que los comités autorizarán este jueves el ingreso.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Oposición levantó veto al jefe de la Dipres en la Cámara",
+          "description": "Luego de la entrega -por parte del Ministerio de Justicia a la Comisión de Constitución- de los decretos que rebajaron condenas a pedófilos, la oposición decidió autorizar la entrada a la Sala de la Cámara del director de Presupuestos, José Pablo Gómez, para la discusión del erario 2027. De acuerdo con La Tercera, el presidente de la Cámara de Diputados, Jorge Alessandri (UDI), informó que los comités autorizarán este jueves el ingreso. Lo mismo ratificó el secretario general de la Cámara, Miguel Landeros:  \"Los comités acordaron autorizar, en los términos que ha señalado el señor presidente, al señor director de presupuestos a la sala de la corporación durante la discusión de la Ley de Presupuestos, cuando no se encuentre presente el señor ministro de Hacienda\", dijo. La oposición no concedía la unanimidad para admitir la presencia en la sala del jefe de la Dipres en señal de protesta por la mantención del ministro de Justicia, Fernando Rabat, en el cargo. Según informó el diputado Raúl Leiva (PS), en representación de los demás cómites de la oposición, la medida se iba a mantener mientras no se entregaran desde Justicia la información sobre los decretos de rebaja de condenas, hecho que se cumplió el miércoles. \"Agradeciendo la concomitancia que tuvieron los comités en permitir el ingreso de la Dipres a la Sala, el señor (Jorge) Quiroz ordenó que esos decretos se ingresaran y llegaron acá antes de las 12:00 horas, permitiendo el ejercicio de la función fiscalizadora de la Cámara de Diputados , que lamentablemente obstruyó y negó el ministro Rabat durante más de 20 días\" , puntualizó el parlamentario. [Lea también]  Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\"",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/oposicion-levanto-veto-al-jefe-de-la-dipres-en-la-camara/2026-11-12/162201.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000220261112162201.png",
+          "published_raw": "Thu, 12 Nov 2026 16:22:01 -0300",
+          "published_at": "2026-11-12T16:22:01-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 12,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-006"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-002",
       "title": "Oposición reflota tuits del \"candidato Kast\" contra Piñera y Boric ante viaje en pleno paro camionero",
       "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/oposicion-reflota-tuits-del-candidato-kast-contra-pinera-y-boric-ante/2026-11-12/125216.html",
       "representative_source": "Cooperativa",
@@ -347,12 +360,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 60,
+        "score": 58.2,
         "level": "MEDIA",
-        "editorial_utility": 51
+        "editorial_utility": 52.2
       },
       "selection": {
-        "reason": "PML 60; diversidad relajada para completar el brief",
+        "reason": "PML 58.2; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -411,7 +424,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
+          "cluster_id": "PML-EVENT-002"
         },
         {
           "source_id": "cooperativa_politica",
@@ -439,7 +452,80 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
+          "cluster_id": "PML-EVENT-002"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-019",
+      "title": "El presidente chino invoca al líder revolucionario Sun Yat-sen para reclamar la soberanía sobre Taiwán",
+      "url": "https://elpais.com/internacional/2026-11-12/el-presidente-chino-invoca-al-lider-revolucionario-sun-yat-sen-para-reclamar-la-soberania-sobre-taiwan.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "DIPLOMATIC_EVENT",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 57.2,
+        "level": "MEDIA",
+        "editorial_utility": 48.2
+      },
+      "selection": {
+        "reason": "PML 57.2; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-12T09:52:44-0300",
+      "last_seen": "2026-11-12T09:52:44-0300",
+      "entities": [],
+      "event_terms": "soberania",
+      "analysis": {
+        "summary": "Xi Jinping defiende “la reunificación completa de la patria” como una “tarea histórica irrenunciable” del Partido Comunista",
+        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
+          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El presidente chino invoca al líder revolucionario Sun Yat-sen para reclamar la soberanía sobre Taiwán",
+          "description": "Xi Jinping defiende “la reunificación completa de la patria” como una “tarea histórica irrenunciable” del Partido Comunista",
+          "url": "https://elpais.com/internacional/2026-11-12/el-presidente-chino-invoca-al-lider-revolucionario-sun-yat-sen-para-reclamar-la-soberania-sobre-taiwan.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/DCLOF76UXJLQPM5FUXIFPA6JMM.jpg?auth=d5a94d5dc357d949811e8f9a63448003d8a6131f43be23574e60c8588e05a93a",
+          "published_raw": "Thu, 12 Nov 2026 12:52:44 GMT",
+          "published_at": "2026-11-12T09:52:44-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     }
@@ -452,7 +538,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-008",
+        "cluster_id": "PML-EVENT-007",
         "title": "AFP Uno propone al Gobierno cambio en el retiro programado para elevar las pensiones cerca de un 7%",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -463,11 +549,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 57.2,
+          "score": 54.2,
           "level": "MEDIA",
           "components": {
             "political_impact": 56,
-            "freshness": 100,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 34
@@ -507,7 +593,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-008"
+            "cluster_id": "PML-EVENT-007"
           }
         ],
         "article_count": 1,
@@ -518,7 +604,7 @@
             "Estado e instituciones",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 75.2
+          "chile_utility": 72.2
         },
         "repeated_in_general_top5": false
       },
@@ -535,11 +621,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54,
+          "score": 52,
           "level": "MEDIA",
           "components": {
             "political_impact": 50,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 32,
             "geographic_scope": 40,
             "continuity": 46
@@ -615,7 +701,7 @@
         "political_science_fit": {
           "bonus": 12,
           "labels": "Congreso y proceso legislativo",
-          "chile_utility": 66
+          "chile_utility": 64
         },
         "repeated_in_general_top5": false
       },
@@ -632,11 +718,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54,
-          "level": "MEDIA",
+          "score": 51.5,
+          "level": "BAJA",
           "components": {
             "political_impact": 79,
-            "freshness": 62,
+            "freshness": 52,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 28
@@ -684,7 +770,7 @@
         "political_science_fit": {
           "bonus": 13,
           "labels": "Estado e instituciones",
-          "chile_utility": 67
+          "chile_utility": 64.5
         },
         "repeated_in_general_top5": false
       }
@@ -693,20 +779,20 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 26,
-      "maximum_relevance": 65.2,
-      "leading_story": "Oposición levantó veto al jefe de la Dipres en la Cámara"
+      "event_count": 23,
+      "maximum_relevance": 63.9,
+      "leading_story": "Acusación constitucional a Rabat: Desafiante, la UDI anticipa triunfo holgado del oficialismo"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 4,
-      "maximum_relevance": 57.7,
+      "maximum_relevance": 55.9,
       "leading_story": "Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 54,
+      "maximum_relevance": 52,
       "leading_story": "Oposición repudia \"grave falta de respeto\" de diputada republicana que arremetió contra DD.HH."
     },
     {
@@ -723,8 +809,12 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-017", "PML-EVENT-006", "PML-EVENT-002", "PML-EVENT-019"],
+      "exited_top5": ["PML-EVENT-007", "PML-EVENT-026", "PML-EVENT-003", "PML-EVENT-020"],
+      "retained_top5": "PML-EVENT-001"
+    }
   },
   "sources": {
     "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
