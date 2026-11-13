@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-13",
-    "data_latest_timestamp": "2026-11-13T10:36:34-0300",
-    "data_age_hours": 0.7,
-    "generated_at": "2026-11-13T11:15:37-0300",
+    "data_latest_timestamp": "2026-11-13T17:06:50-0300",
+    "data_age_hours": 1.2,
+    "generated_at": "2026-11-13T18:17:08-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,133 +16,25 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 24 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 24 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
     "ranked_events": 24,
     "topics": 1,
-    "geographies": 2,
+    "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 58.7,
-    "maximum_relevance": 63.6
+    "average_top5_relevance": 60.8,
+    "maximum_relevance": 65.6
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-012",
-      "title": "La caravana migrante que cruza México y agita la amenaza de aranceles de Trump: “Nuestro terror es que la presidenta nos regrese”",
-      "url": "https://elpais.com/mexico/2026-11-13/la-caravana-migrante-que-cruza-mexico-nuestro-terror-es-que-la-presidenta-diga-no-me-conviene-que-suban-los-aranceles-y-nos-regrese.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "DIPLOMATIC_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "México / América Latina / No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 63.6,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 63.6
-      },
-      "selection": {
-        "reason": "PML 63.6",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 2,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-12T11:53:36-0300",
-      "last_seen": "2026-11-13T06:30:00-0300",
-      "entities": [
-        "mexico",
-        "trump",
-        "sheinbaum"
-      ],
-      "event_terms": [
-        "aranceles",
-        "eleccion"
-      ],
-      "analysis": {
-        "summary": "El presidente advierte a Sheinbaum que duplicara las tasas comerciales si no detiene a las 1.500 personas que caminan desde el sur hacia Estados Unidos",
-        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en México / América Latina / No identificado / Internacional.",
-        "watch_next": [
-          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
-          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "La caravana migrante que cruza México y agita la amenaza de aranceles de Trump: “Nuestro terror es que la presidenta nos regrese”",
-          "description": "El presidente advierte a Sheinbaum que duplicara las tasas comerciales si no detiene a las 1.500 personas que caminan desde el sur hacia Estados Unidos",
-          "url": "https://elpais.com/mexico/2026-11-13/la-caravana-migrante-que-cruza-mexico-nuestro-terror-es-que-la-presidenta-diga-no-me-conviene-que-suban-los-aranceles-y-nos-regrese.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/QBZIYMZNLNO7BE64HDXUUV5TIY.jpg?auth=d737b0cba2a90efd808f1192f187d4c37a51fc6ebfa7c6ba0c5517612f45910a",
-          "published_raw": "Fri, 13 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-13T06:30:00-0300",
-          "country": "México",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Trump amenaza con duplicar los aranceles a México si no endurece la frontera",
-          "description": "El presidente advierte, tras sufrir un revés electoral, que “enormes caravanas” de inmigrantes viajan hacia Estados Unidos para entrar ilegalmente en el país",
-          "url": "https://elpais.com/us/2026-11-12/trump-amenaza-con-duplicar-los-aranceles-a-mexico-si-no-endurece-la-frontera.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/MV6ICCSCBRAJ3GHIDNI45ZG4RQ.JPG?auth=9de9e1a7daf05c88e0b7b44dde2ad810901e5c4434e42e2839ff6e76dd87645f",
-          "published_raw": "Thu, 12 Nov 2026 14:53:36 GMT",
-          "published_at": "2026-11-12T11:53:36-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-012"
-        }
-      ]
-    },
-    {
-      "position": 2,
       "cluster_id": "PML-EVENT-001",
-      "title": "Acusación constitucional a Rabat: Desafiante, la UDI anticipa triunfo holgado del oficialismo",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/acusacion-constitucional-a-rabat-desafiante-la-udi-anticipa-triunfo/2026-11-12/223151.html",
+      "title": "Gobierno cerró filas en defensa de Rabat y acusó \"falta de mérito\" en acusación constitucional",
+      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/gobierno-cerro-filas-en-defensa-de-rabat-y-acuso-falta-de-merito-en/2026-11-13/144816.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_CRISIS",
@@ -151,23 +43,23 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 58.9,
-        "level": "MEDIA",
-        "editorial_utility": 61.9
+        "score": 65.6,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 65.6
       },
       "selection": {
-        "reason": "PML 58.9; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 65.6",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 4,
+        "article_count": 5,
         "source_count": 1,
         "sources": "Cooperativa"
       },
       "first_seen": "2026-11-11T19:34:29-0300",
-      "last_seen": "2026-11-12T22:31:51-0300",
+      "last_seen": "2026-11-13T14:48:16-0300",
       "entities": [
         "congreso",
         "senado",
@@ -211,6 +103,34 @@
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 22,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-001"
+        },
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Gobierno cerró filas en defensa de Rabat y acusó \"falta de mérito\" en acusación constitucional",
+          "description": "El Gobierno acusó este viernes \"falta de mérito\" en la acusación constitucional presentada por la oposición contra el ministro de Justicia, Fernando Rabat , volviendo a respaldar su actuar \"legal y constitucional\" frente a los cuestionamientos por su gestión. Desde el comité político del Ejecutivo salieron al paso del libelo presentado la noche previa por las bancadas opositoras, el cual busca destituir e inhabilitar a la autoridad cuestionando rebajas de condena otorgadas por decreto e interpelaciones ante comisiones legislativas. Previamente, en declaraciones de prensa, la vocería de Gobierno ya había calificado el escrito de 189 páginas como \"liviano y mal preparado\" . Durante una vocería ofrecida en el Palacio de La Moneda, el subsecretario y vocero de Gobierno, Gonzalo Arenas , reiteró que desde la administración del Presidente José Antonio Kast consideran que \"el ministro Rabat no cometió ningún hecho ilegal y tampoco inconstitucional \" . Desde la sede de Gobierno, el vocero Gonzalo Arenas remarcó que Rabat \"cumplió con la Constitución y la ley\". (FOTO: ATON) Según su opinión, \"por el contrario, cumplió con la Constitución y la ley y , por tanto , esa acusación constitucional , a nuestro juicio , no cumple con ninguno de los requisitos necesarios para ser una acusación constitucional que se pueda votar a favor \". \"Nosotros estamos conversando con todas las bancadas que apoyan al Gobierno, estamos buscando y explicando por qué esta acusación constitucional es improcedente y no cumple con los requisitos constitucionales \", enfatizó Arenas, que pese a tener que esperar los argumentos en la instancia, señaló que están \" convencidos que se va a rechazar por la falta de mérito que tiene esta acusación \". Contenido del libelo opositor La arremetida parlamentaria contra Rabat ingresó al Congreso tras intensas negociaciones entre bancadas y revisiones legales. El texto sostiene que el titular de Justicia vulneró la Constitución y las leyes en el otorgamiento de beneficios carcelarios y en sus posteriores exposiciones ante el Poder Legislativo . El primer capítulo del documento impugna los beneficios otorgados a 56 personas sentenciadas por delitos sexuales contra niños , niñas y adolescentes , alegando que una ley aprobada en 2022 las excluía explícitamente y que el ministro generalizó criterios de fallos judiciales sin órdenes individuales. El Palacio de La Moneda desplegó una cerrada defensa en favor del ministro de Justicia, Fernando Rabat, tras la presentación del libelo acusatorio en el Congreso Nacional. (FOTO: ATON) El segundo capítulo cuestiona rebajas concedidas a exagentes estatales condenados por crímenes de lesa humanidad que recuperaron la libertad, mientras que el tercer apartado apunta a las explicaciones que entregó ante las comisiones de Constitución del Senado y de la Cámara Baja . Oposición reacciona a los dichos del vocero de Gobierno El blindaje de La Moneda generó molestia en los parlamentarios firmantes de la acusación, quienes desestimaron los cuestionamientos de Arenas y aseguraron que el documento no responde a discrepancias políticas , sino a hechos acreditados en decretos y fallos judiciales . La diputada frenteamplista Emilia Schneider señaló que \"llama la atención la rapidez de la lectura del vocero de Gobierno\", advirtiendo que \" le parece que esto más bien responde a cuñas que estaban preparadas para intentar desviar el foco de la atención que hoy debe estar puesta : en las víctimas y en los responsables de las decisiones que se tomaron \". \" La acusación constitucional que presentamos ayer tiene un robusto fundamento \", aseveró la parlamentaria. En respuesta a la postura del Ejecutivo, la diputada Emilia Schneider sostuvo que el libelo acusatorio \"tiene un robusto fundamento\". (FOTO: ATON) En esta línea, su par socialista Daniel Manouchehri arremetió contra Arenas y le dijo que \" debe dejar la charlatanería y ponerse serio . Apenas presentamos las 189 páginas de la acusación constitucional en contra de Rabat, él la calificó de liviana. En minutos , ya tenía un veredicto \". El trámite continuará su curso el próximo lunes, fecha en que se dará cuenta del ingreso del libelo ante la Sala de la Cámara de Diputadas y Diputados y se sorteará a los cinco integrantes de la comisión revisora que evacuará el informe de admisibilidad.",
+          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/gobierno-cerro-filas-en-defensa-de-rabat-y-acuso-falta-de-merito-en/2026-11-13/144816.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261113/imag/foto_0000000520261113144816.png",
+          "published_raw": "Fri, 13 Nov 2026 14:48:16 -0300",
+          "published_at": "2026-11-13T14:48:16-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 10,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 15,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
@@ -304,8 +224,271 @@
       ]
     },
     {
+      "position": 2,
+      "cluster_id": "PML-EVENT-008",
+      "title": "El Tribunal Supremo accede a revisar la orden de Trump para prohibir el acceso al asilo en la frontera sur",
+      "url": "https://elpais.com/us/migracion/2026-11-13/el-tribunal-supremo-accede-a-revisar-la-orden-de-trump-para-prohibir-el-acceso-al-asilo-en-la-frontera-sur.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 64.9,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 64.9
+      },
+      "selection": {
+        "reason": "PML 64.9; aporta diversidad geográfica",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-13T17:06:50-0300",
+      "last_seen": "2026-11-13T17:06:50-0300",
+      "entities": [
+        "supremo",
+        "trump"
+      ],
+      "event_terms": [
+        "tribunal",
+        "supremo"
+      ],
+      "analysis": {
+        "summary": "La máxima corte del país decidirá si el presidente tiene la autoridad para prohibir este derecho",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El Tribunal Supremo accede a revisar la orden de Trump para prohibir el acceso al asilo en la frontera sur",
+          "description": "La máxima corte del país decidirá si el presidente tiene la autoridad para prohibir este derecho",
+          "url": "https://elpais.com/us/migracion/2026-11-13/el-tribunal-supremo-accede-a-revisar-la-orden-de-trump-para-prohibir-el-acceso-al-asilo-en-la-frontera-sur.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/FNARMMPEE6U7J4Z5FO2EDZMX2A.jpg?auth=b0078b0d44d074e0fd75ea9d66e7a7ac39a3f2f2f11e2110cd9bf24d3edc9f7d",
+          "published_raw": "Fri, 13 Nov 2026 20:06:50 GMT",
+          "published_at": "2026-11-13T17:06:50-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 4,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 6,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-008"
+        }
+      ]
+    },
+    {
       "position": 3,
-      "cluster_id": "PML-EVENT-006",
+      "cluster_id": "PML-EVENT-014",
+      "title": "La caravana migrante que cruza México y agita la amenaza de aranceles de Trump: “Nuestro terror es que la presidenta nos regrese”",
+      "url": "https://elpais.com/mexico/2026-11-13/la-caravana-migrante-que-cruza-mexico-nuestro-terror-es-que-la-presidenta-diga-no-me-conviene-que-suban-los-aranceles-y-nos-regrese.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "DIPLOMATIC_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / Internacional / México / América Latina"
+      },
+      "relevance": {
+        "score": 61.8,
+        "level": "MEDIA",
+        "editorial_utility": 57.8
+      },
+      "selection": {
+        "reason": "PML 61.8; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 2,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-12T11:53:36-0300",
+      "last_seen": "2026-11-13T06:30:00-0300",
+      "entities": [
+        "trump",
+        "mexico",
+        "sheinbaum"
+      ],
+      "event_terms": [
+        "aranceles",
+        "eleccion"
+      ],
+      "analysis": {
+        "summary": "El presidente advierte, tras sufrir un revés electoral, que “enormes caravanas” de inmigrantes viajan hacia Estados Unidos para entrar ilegalmente en el país",
+        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional / México / América Latina.",
+        "watch_next": [
+          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
+          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Trump amenaza con duplicar los aranceles a México si no endurece la frontera",
+          "description": "El presidente advierte, tras sufrir un revés electoral, que “enormes caravanas” de inmigrantes viajan hacia Estados Unidos para entrar ilegalmente en el país",
+          "url": "https://elpais.com/us/2026-11-12/trump-amenaza-con-duplicar-los-aranceles-a-mexico-si-no-endurece-la-frontera.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/MV6ICCSCBRAJ3GHIDNI45ZG4RQ.JPG?auth=9de9e1a7daf05c88e0b7b44dde2ad810901e5c4434e42e2839ff6e76dd87645f",
+          "published_raw": "Thu, 12 Nov 2026 14:53:36 GMT",
+          "published_at": "2026-11-12T11:53:36-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-014"
+        },
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "La caravana migrante que cruza México y agita la amenaza de aranceles de Trump: “Nuestro terror es que la presidenta nos regrese”",
+          "description": "El republicano avisa a Sheinbaum de que duplicará las tasas comerciales si no detiene a las 1.500 personas que caminan hacia Estados Unidos",
+          "url": "https://elpais.com/mexico/2026-11-13/la-caravana-migrante-que-cruza-mexico-nuestro-terror-es-que-la-presidenta-diga-no-me-conviene-que-suban-los-aranceles-y-nos-regrese.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/QBZIYMZNLNO7BE64HDXUUV5TIY.jpg?auth=d737b0cba2a90efd808f1192f187d4c37a51fc6ebfa7c6ba0c5517612f45910a",
+          "published_raw": "Fri, 13 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-13T06:30:00-0300",
+          "country": "México",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-014"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-017",
+      "title": "El Gobierno de Lula saca adelante un plan para ahorrar unos 10.000 millones de dólares de gasto público",
+      "url": "https://elpais.com/america/2026-11-13/el-gobierno-de-lula-anuncia-un-plan-para-ahorrar-unos-10000-millones-de-gasto-publico.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / América Latina"
+      },
+      "relevance": {
+        "score": 56,
+        "level": "MEDIA",
+        "editorial_utility": 50
+      },
+      "selection": {
+        "reason": "PML 56; fallback editorial controlado; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-13T15:35:27-0300",
+      "last_seen": "2026-11-13T15:35:27-0300",
+      "entities": [
+        "lula",
+        "brasil"
+      ],
+      "event_terms": [],
+      "analysis": {
+        "summary": "El presidente reelecto de Brasil está bajo presión para sanear las cuentas y reducir la deuda",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El Gobierno de Lula saca adelante un plan para ahorrar unos 10.000 millones de dólares de gasto público",
+          "description": "El presidente reelecto de Brasil está bajo presión para sanear las cuentas y reducir la deuda",
+          "url": "https://elpais.com/america/2026-11-13/el-gobierno-de-lula-anuncia-un-plan-para-ahorrar-unos-10000-millones-de-gasto-publico.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/OGBDOJQGZNISLEHQE5BHM7FYFE.jpg?auth=72fb699c34563e4588c95bb64934caf7e842534f135a1a56609b1042dff63525",
+          "published_raw": "Fri, 13 Nov 2026 18:35:27 GMT",
+          "published_at": "2026-11-13T15:35:27-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-017"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-005",
       "title": "Oposición levantó veto al jefe de la Dipres en la Cámara",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/oposicion-levanto-veto-al-jefe-de-la-dipres-en-la-camara/2026-11-12/162201.html",
       "representative_source": "Cooperativa",
@@ -316,12 +499,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 58.2,
+        "score": 55.7,
         "level": "MEDIA",
-        "editorial_utility": 54.2
+        "editorial_utility": 47.7
       },
       "selection": {
-        "reason": "PML 58.2; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 55.7; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -372,152 +555,6 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-006"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-018",
-      "title": "Tensión entre Martín Caparrós y una portavoz de Vox en un acto sobre la ELA en el Congreso: “No sabía que venían xenófobos, no habría venido”",
-      "url": "https://elpais.com/sociedad/2026-11-13/tension-entre-martin-caparros-y-una-portavoz-de-vox-en-un-acto-sobre-la-ela-en-el-congreso-no-sabia-que-venian-xenofobos-no-habria-venido.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 57.4,
-        "level": "MEDIA",
-        "editorial_utility": 51.4
-      },
-      "selection": {
-        "reason": "PML 57.4; fallback editorial controlado; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-13T10:36:34-0300",
-      "last_seen": "2026-11-13T10:36:34-0300",
-      "entities": "congreso",
-      "event_terms": [],
-      "analysis": {
-        "summary": "El escritor argentino ha interrumpido a María Ruiz, de la ejecutiva del partido ultraderechista, al hacer referencia a la prioridad nacional en un evento sobre la Ley ELA",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Tensión entre Martín Caparrós y una portavoz de Vox en un acto sobre la ELA en el Congreso: “No sabía que venían xenófobos, no habría venido”",
-          "description": "El escritor argentino ha interrumpido a María Ruiz, de la ejecutiva del partido ultraderechista, al hacer referencia a la prioridad nacional en un evento sobre la Ley ELA",
-          "url": "https://elpais.com/sociedad/2026-11-13/tension-entre-martin-caparros-y-una-portavoz-de-vox-en-un-acto-sobre-la-ela-en-el-congreso-no-sabia-que-venian-xenofobos-no-habria-venido.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/TLOVUOV57ZDJXA7XSYANESNVPQ.jpg?auth=aa34e4bf5d989612a1076b5c275bc84ca1614ca0e8580dc8f91f05ac050fba91",
-          "published_raw": "Fri, 13 Nov 2026 13:36:34 GMT",
-          "published_at": "2026-11-13T10:36:34-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-018"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-005",
-      "title": "Cámara Baja despachó Presupuesto 2027 con siete partidas rechazadas tras maratónica sesión",
-      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-despacho-presupuesto-2027-con-siete-partidas-rechazadas-tras/2026-11-13/091148.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 55.5,
-        "level": "MEDIA",
-        "editorial_utility": 46.5
-      },
-      "selection": {
-        "reason": "PML 55.5; fallback editorial controlado; diversidad relajada para completar el brief",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-13T09:11:48-0300",
-      "last_seen": "2026-11-13T09:11:48-0300",
-      "entities": "senado",
-      "event_terms": [],
-      "analysis": {
-        "summary": "La Cámara de Diputadas y Diputados despachó al Senado el proyecto de Presupuesto 2027 , tras una maratónica discusión que se extendió hasta pasadas las seis de la mañana de este viernes y dejó sin aprobación los recursos destinados a siete partidas clave del Gobierno.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Cámara Baja despachó Presupuesto 2027 con siete partidas rechazadas tras maratónica sesión",
-          "description": "La Cámara de Diputadas y Diputados despachó al Senado el proyecto de Presupuesto 2027 , tras una maratónica discusión que se extendió hasta pasadas las seis de la mañana de este viernes y dejó sin aprobación los recursos destinados a siete partidas clave del Gobierno. El rechazo afectó a los presupuestos de Interior, Educación, Secretaría General de Gobierno, Minería, Mujer y Equidad de Género, Culturas y Ciencia, en medio de los cuestionamientos a los recortes propuestos por el Ejecutivo. El debate de la ley presupuestaria se extendió por cuatro jornadas. En la última sesión, fueron rechazados los recursos para Mujer y Equidad de Género, por 58 votos a favor y 59 en contra, y Culturas , por 59 a favor y 60 en contra, con controversias por el cierre de la Fundación para la Promoción y Desarrollo de la Mujer (Prodemu), los recortes al sector cultural y el financiamiento de los sitios de memoria. Durante la misma jornada del jueves, se aprobaron los presupuestos de Bienes Nacionales, Trabajo y Previsión Social y Salud . A ellos se sumaron durante la madrugada los de Desarrollo Social, Segpres, Medio Ambiente, Deportes y Seguridad Pública , este último con recursos superiores a los 3,4 billones de pesos para 2027. \"Vamos a reponer las cosas que se rechazaron\" Pese a que la mayoría de los recursos obtuvo luz verde, el Ejecutivo deberá enfrentar una nueva negociación para conseguir respaldo a los presupuestos rechazados. Eel ministro de Hacienda, Jorge Quiroz, valoró el avance de la tramitación: \"Vamos bien encaminados, efectivamente en general aprobando prácticamente todas las partidas. Quedan algunos obstáculos desde luego, pero creo que vamos muy bien encaminados a terminar este proceso bien \". Respecto de los recursos que no consiguieron respaldo, el secretario de Estado adelantó que el Ejecutivo insistirá durante la discusión en el Senado, que comenzará la próxima semana. \"Vamos a reponer las cosas que se rechazaron. Probablemente lo haremos con algún ajuste y tenemos que ir en paralelo conversando más algunos temas. En particular en educación es un tema que tenemos que conversar más a fondo \", sostuvo. &nbsp; Foto: ATON Cuatro jornadas de negociación La discusión comenzó el martes con el rechazo de los recursos para Interior , en medio de cuestionamientos a los recortes destinados a Senapred, la Subdere y \"Ley Cholito\". También se eliminaron los fondos operacionales para los expresidentes de la República. El miércoles, Educación sufrió uno de los principales reveses del Ejecutivo, en una jornada marcada por los debates \" Yo Elijo Mi PC\", jardines infantiles y programas Junaeb . En Justicia, se incorporaron nuevas exigencias de información sobre rebajas de condenas, indultos y beneficios penitenciarios, en medio de la controversia por el ministro Fernando Rabat. Durante el jueves, Minería y Segegob tampoco consiguieron respaldo , entre críticas a los recortes presupuestarios y a la conducción comunicacional del Gobierno. Finalmente, la extensa sesión que concluyó este viernes también dejó sin aprobación recursos para organismos como el Instituto Nacional de Deportes, Senadis y el Servicio de Protección Especializada a la Niñez y Adolescencia.    ",
-          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-despacho-presupuesto-2027-con-siete-partidas-rechazadas-tras/2026-11-13/091148.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261113/imag/foto_0000000220261113091148.jpg",
-          "published_raw": "Fri, 13 Nov 2026 09:11:48 -0300",
-          "published_at": "2026-11-13T09:11:48-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 3,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 12,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
           "cluster_id": "PML-EVENT-005"
         }
       ]
@@ -542,11 +579,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.2,
-          "level": "MEDIA",
+          "score": 51.8,
+          "level": "BAJA",
           "components": {
             "political_impact": 54,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 32,
             "geographic_scope": 55,
             "continuity": 54
@@ -625,13 +662,13 @@
             "Estado e instituciones",
             "Elecciones y opinión pública"
           ],
-          "chile_utility": 73.2
+          "chile_utility": 70.8
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-003",
+        "cluster_id": "PML-EVENT-004",
         "title": "Oposición repudia \"grave falta de respeto\" de diputada republicana que arremetió contra DD.HH.",
         "topic": "Ideología y competencia política",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -642,11 +679,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 50,
+          "score": 45,
           "level": "BAJA",
           "components": {
             "political_impact": 50,
-            "freshness": 72,
+            "freshness": 52,
             "source_count": 32,
             "geographic_scope": 40,
             "continuity": 46
@@ -686,7 +723,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-004"
           },
           {
             "source_id": "cooperativa_politica",
@@ -714,7 +751,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-004"
           }
         ],
         "article_count": 1,
@@ -722,31 +759,31 @@
         "political_science_fit": {
           "bonus": 12,
           "labels": "Congreso y proceso legislativo",
-          "chile_utility": 62
+          "chile_utility": 57
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-007",
-        "title": "AFP Uno propone al Gobierno cambio en el retiro programado para elevar las pensiones cerca de 7%",
+        "cluster_id": "PML-EVENT-003",
+        "title": "Cámara Baja despachó Presupuesto 2027 con siete partidas rechazadas tras maratónica sesión",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/sistema-previsional/afp/afp-uno-propone-al-gobierno-cambio-en-el-retiro-programado-para-elevar/2026-11-12/164423.html",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-despacho-presupuesto-2027-con-siete-partidas-rechazadas-tras/2026-11-13/091148.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.2,
+          "score": 52.5,
           "level": "MEDIA",
           "components": {
-            "political_impact": 56,
-            "freshness": 80,
+            "political_impact": 51,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 34
+            "continuity": 32
           }
         },
         "coverage": {
@@ -754,36 +791,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-12T16:44:23-0300",
-        "last_seen": "2026-11-12T16:44:23-0300",
+        "first_seen": "2026-11-13T09:11:48-0300",
+        "last_seen": "2026-11-13T09:11:48-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "AFP Uno propone al Gobierno cambio en el retiro programado para elevar las pensiones cerca de 7%",
-            "description": "AFP Uno presentó una propuesta al Gobierno con el objetivo de incrementar en torno a 7% los montos de las jubilaciones bajo la modalidad de retiro programado , iniciativa surgida como respuesta a la crisis que afectó a los afiliados tras el desplome del Fondo E . Según reveló Emol este jueves, el planteamiento, que fue derivado al ministro del Trabajo , Tomás Rau , contempla una modificación al mecanismo con el cual se calcula la Tasa de Interés Técnica del Retiro Programado (TITRP) , indicador que determina la rentabilidad estimada de los fondos previsionales del jubilado y fija el pago mensual respectivo. La administradora de fondos envió un planteamiento al ministro del Trabajo, Tomás Rau, tras el impacto que causó la caída del Fondo E. (FOTO: ATON) En la actualidad, la TITRP se estructura en un 80% sobre la base de proyecciones de rentabilidad futura y en 20% a partir del comportamiento histórico que registraron los fondos C, D y E en los últimos 10 años. Este diseño se estableció en 2019 para contener las variaciones abruptas de las jubilaciones. No obstante, la reforma previsional de 2025 introdujo una banda de resguardo que limita a un máximo de 10% la variación del monto en cada recálculo derivado de los ajustes de dicha tasa , mecanismo que rige desde septiembre de ese año. Bajo este nuevo escenario, la administradora argumentó que el porcentaje retrospectivo se volvió obsoleto . En el documento remitido al titular del Trabajo, la entidad solicitó \" revisar y modificar el Decreto Supremo N° 47 , eliminando el componente de rentabilidad histórica que representa el 20% de la fórmula para calcular la TITRP , de modo que esta dependa íntegramente del componente basado en las estimaciones de los retornos esperados \". La iniciativa apunta a reformar la fórmula de la Tasa de Interés Técnica del Retiro Programado para que dependa exclusivamente de la rentabilidad futura esperada. (FOTO: ATON) Asimismo, el texto remarca que sostener la banda de contención vigente permitiría avanzar hacia \" una regulación más simple , coherente y adecuada al nuevo escenario previsional\" . Diferencial de tasas y estimación de impacto Las cifras reportadas por la Superintendencia de Pensiones reflejan el impacto de la metodología actual . En noviembre, la tasa sustentada únicamente en las expectativas de retorno futuro alcanzó un 4,25%; sin embargo, al ponderar el 20% del rendimiento histórico , el índice final aplicado a las pensiones retrocedió a 3,67% . Aquella brecha de 0,58 puntos porcentuales es la que sustenta el cálculo de AFP Uno, el cual proyecta que el monto de una pensión bajo retiro programado podría situarse cerca de 7% por encima en términos reales . De concretarse el ajuste administrativo, las jubilaciones bajo esta modalidad podrían aumentar alrededor de 7% en términos reales. (FOTO: ATON) Desde la entidad precisaron que este porcentaje corresponde a un ejercicio ilustrativo que varía en cada caso particular, por lo que no implica un alza generalizada y uniforme para la totalidad de los jubilados . A su vez, la administradora recalcó que la medida adquiere urgencia regulatoria de cara al 1 de abril de 2027 , fecha en que los actuales multifondos serán reemplazados por diez fondos generacionales. Dado que la fórmula vigente continúa atada al desempeño pretérito de los fondos tradicionales, AFP Uno advirtió la necesidad de corregir el cálculo, destacando que no se precisa una ley en el Congreso, sino únicamente la modificación de un decreto supremo.",
-            "url": "https://www.cooperativa.cl/noticias/economia/sistema-previsional/afp/afp-uno-propone-al-gobierno-cambio-en-el-retiro-programado-para-elevar/2026-11-12/164423.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000520261112164423.jpg",
-            "published_raw": "Thu, 12 Nov 2026 16:44:23 -0300",
-            "published_at": "2026-11-12T16:44:23-0300",
+            "title": "Cámara Baja despachó Presupuesto 2027 con siete partidas rechazadas tras maratónica sesión",
+            "description": "La Cámara de Diputadas y Diputados despachó al Senado el proyecto de Presupuesto 2027 , tras una maratónica discusión que se extendió hasta pasadas las seis de la mañana de este viernes y dejó sin aprobación los recursos destinados a siete partidas clave del Gobierno. El rechazo afectó a los presupuestos de Interior, Educación, Secretaría General de Gobierno, Minería, Mujer y Equidad de Género, Culturas y Ciencia, en medio de los cuestionamientos a los recortes propuestos por el Ejecutivo. El debate de la ley presupuestaria se extendió por cuatro jornadas. En la última sesión, fueron rechazados los recursos para Mujer y Equidad de Género, por 58 votos a favor y 59 en contra, y Culturas , por 59 a favor y 60 en contra, con controversias por el cierre de la Fundación para la Promoción y Desarrollo de la Mujer (Prodemu), los recortes al sector cultural y el financiamiento de los sitios de memoria. Durante la misma jornada del jueves, se aprobaron los presupuestos de Bienes Nacionales, Trabajo y Previsión Social y Salud . A ellos se sumaron durante la madrugada los de Desarrollo Social, Segpres, Medio Ambiente, Deportes y Seguridad Pública , este último con recursos superiores a los 3,4 billones de pesos para 2027. \"Vamos a reponer las cosas que se rechazaron\" Pese a que la mayoría de los recursos obtuvo luz verde, el Ejecutivo deberá enfrentar una nueva negociación para conseguir respaldo a los presupuestos rechazados. Eel ministro de Hacienda, Jorge Quiroz, valoró el avance de la tramitación: \"Vamos bien encaminados, efectivamente en general aprobando prácticamente todas las partidas. Quedan algunos obstáculos desde luego, pero creo que vamos muy bien encaminados a terminar este proceso bien \". Respecto de los recursos que no consiguieron respaldo, el secretario de Estado adelantó que el Ejecutivo insistirá durante la discusión en el Senado, que comenzará la próxima semana. \"Vamos a reponer las cosas que se rechazaron. Probablemente lo haremos con algún ajuste y tenemos que ir en paralelo conversando más algunos temas. En particular en educación es un tema que tenemos que conversar más a fondo \", sostuvo.   Foto: ATON Desde el oficialismo, el senador republicano Renzo Trisotti, llamó a mantener la disposición al diálogo mostrada durante la discusión en la Cámara, para \"permitir destrabar todas estas partidas y tener el presupuesto necesario para poder seguir desarrollando en todas las áreas del país, obviamente con las prioridades que ha impuesto el Gobierno \". Por su parte, el senador comunista Daniel Núñez condicionó su respaldo a los recursos de Minería a que Hacienda aclare su postura sobre la participación privada en Codelco. \"Mientras el ministro de Hacienda no se retracte de sus palabras a favor de la privatización de Codelco, vamos a rechazar el presupuesto del Ministerio de Minería, al igual como lo hizo la Cámara de Diputados\", advirtió. \" Ojalá que en el Senado se dé un debate serio y no se den estos episodios que ocurrieron en la Cámara de intercambio de descalificaciones\", declaró por su parte el senador UDI Gustavo Sanhueza.  En tanto, la senadora de Renovación Nacional, María José Gatica , pidió avanzar en los consensos: \"El llamado es a no trancar la pelota y llegar a un acuerdo antes del 30 de noviembre\". El Senado discutirá y votará el proyecto durante la próxima semana, tras lo cual volverá a la Cámara para una nueva revisión. Si persisten las diferencias, una comisión mixta deberá resolverlas antes del 29 de noviembre, según los plazos señalados durante el debate. Cuatro jornadas de negociación La discusión comenzó el martes con el rechazo de los recursos para Interior , en medio de cuestionamientos a los recortes destinados a Senapred, la Subdere y \"Ley Cholito\". También se eliminaron los fondos operacionales para los expresidentes de la República. El miércoles, Educación sufrió uno de los principales reveses del Ejecutivo, en una jornada marcada por los debates \" Yo Elijo Mi PC\", jardines infantiles y programas Junaeb . En Justicia, se incorporaron nuevas exigencias de información sobre rebajas de condenas, indultos y beneficios penitenciarios, en medio de la controversia por el ministro Fernando Rabat. Durante el jueves, Minería y Segegob tampoco consiguieron respaldo , entre críticas a los recortes presupuestarios y a la conducción comunicacional del Gobierno. Finalmente, la extensa sesión que concluyó este viernes también dejó sin aprobación recursos para organismos como el Instituto Nacional de Deportes, Senadis y el Servicio de Protección Especializada a la Niñez y Adolescencia.",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-despacho-presupuesto-2027-con-siete-partidas-rechazadas-tras/2026-11-13/091148.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261113/imag/foto_0000000220261113091148.jpg",
+            "published_raw": "Fri, 13 Nov 2026 09:11:48 -0300",
+            "published_at": "2026-11-13T09:11:48-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
             "score_institutional": 7,
             "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 0,
+            "score_conflict": 1,
             "score_policy": 3,
-            "score_ideology": 0,
-            "score_actor": 1,
+            "score_ideology": 1,
+            "score_actor": 4,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 11,
+            "political_evidence": 16,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
+            "cluster_id": "PML-EVENT-003"
           }
         ],
         "article_count": 1,
@@ -794,7 +831,7 @@
             "Estado e instituciones",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 70.2
+          "chile_utility": 70.5
         },
         "repeated_in_general_top5": false
       }
@@ -803,27 +840,27 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 20,
-      "maximum_relevance": 63.6,
-      "leading_story": "La caravana migrante que cruza México y agita la amenaza de aranceles de Trump: “Nuestro terror es que la presidenta nos regrese”"
+      "event_count": 19,
+      "maximum_relevance": 65.6,
+      "leading_story": "Gobierno cerró filas en defensa de Rabat y acusó \"falta de mérito\" en acusación constitucional"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 2,
+      "maximum_relevance": 55.1,
+      "leading_story": "De campo de fútbol a base militar: Haití y El Salvador recapturan el principal estadio de Puerto Príncipe"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 2,
-      "maximum_relevance": 51.9,
+      "maximum_relevance": 49.4,
       "leading_story": "Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 50,
+      "maximum_relevance": 45,
       "leading_story": "Oposición repudia \"grave falta de respeto\" de diputada republicana que arremetió contra DD.HH."
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 1,
-      "maximum_relevance": 42.3,
-      "leading_story": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?"
     }
   ],
   "changes_since_yesterday": {
@@ -831,7 +868,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
     "source_count": 3
   },
   "system": {
