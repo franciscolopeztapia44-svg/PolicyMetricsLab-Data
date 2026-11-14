@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-13",
-    "data_latest_timestamp": "2026-11-13T17:06:50-0300",
-    "data_age_hours": 1.2,
-    "generated_at": "2026-11-13T18:17:08-0300",
+    "date": "2026-11-14",
+    "data_latest_timestamp": "2026-11-14T00:54:05-0300",
+    "data_age_hours": 1.7,
+    "generated_at": "2026-11-14T02:38:42-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,22 +16,101 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 24 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 27 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 24,
+    "ranked_events": 27,
     "topics": 1,
     "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 60.8,
-    "maximum_relevance": 65.6
+    "average_top5_relevance": 58.7,
+    "maximum_relevance": 63.7
   },
   "top_stories": [
     {
       "position": 1,
+      "cluster_id": "PML-EVENT-010",
+      "title": "El Tribunal Supremo accede a revisar la orden de Trump para prohibir el acceso al asilo en la frontera sur",
+      "url": "https://elpais.com/us/migracion/2026-11-13/el-tribunal-supremo-accede-a-revisar-la-orden-de-trump-para-prohibir-el-acceso-al-asilo-en-la-frontera-sur.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 63.7,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 63.7
+      },
+      "selection": {
+        "reason": "PML 63.7",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-13T19:17:07-0300",
+      "last_seen": "2026-11-13T19:17:07-0300",
+      "entities": [
+        "supremo",
+        "trump"
+      ],
+      "event_terms": [
+        "tribunal",
+        "supremo"
+      ],
+      "analysis": {
+        "summary": "La máxima corte del país decidirá si el presidente tiene la autoridad para prohibir este derecho",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El Tribunal Supremo accede a revisar la orden de Trump para prohibir el acceso al asilo en la frontera sur",
+          "description": "La máxima corte del país decidirá si el presidente tiene la autoridad para prohibir este derecho",
+          "url": "https://elpais.com/us/migracion/2026-11-13/el-tribunal-supremo-accede-a-revisar-la-orden-de-trump-para-prohibir-el-acceso-al-asilo-en-la-frontera-sur.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/FNARMMPEE6U7J4Z5FO2EDZMX2A.jpg?auth=b0078b0d44d074e0fd75ea9d66e7a7ac39a3f2f2f11e2110cd9bf24d3edc9f7d",
+          "published_raw": "Fri, 13 Nov 2026 22:17:07 GMT",
+          "published_at": "2026-11-13T19:17:07-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 4,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 6,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-010"
+        }
+      ]
+    },
+    {
+      "position": 2,
       "cluster_id": "PML-EVENT-001",
       "title": "Gobierno cerró filas en defensa de Rabat y acusó \"falta de mérito\" en acusación constitucional",
       "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/gobierno-cerro-filas-en-defensa-de-rabat-y-acuso-falta-de-merito-en/2026-11-13/144816.html",
@@ -43,22 +122,22 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 65.6,
+        "score": 62.6,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 65.6
+        "editorial_utility": 62.6
       },
       "selection": {
-        "reason": "PML 65.6",
+        "reason": "PML 62.6; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 5,
+        "article_count": 4,
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-11T19:34:29-0300",
+      "first_seen": "2026-11-12T14:27:52-0300",
       "last_seen": "2026-11-13T14:48:16-0300",
       "entities": [
         "congreso",
@@ -113,7 +192,7 @@
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
           "title": "Gobierno cerró filas en defensa de Rabat y acusó \"falta de mérito\" en acusación constitucional",
-          "description": "El Gobierno acusó este viernes \"falta de mérito\" en la acusación constitucional presentada por la oposición contra el ministro de Justicia, Fernando Rabat , volviendo a respaldar su actuar \"legal y constitucional\" frente a los cuestionamientos por su gestión. Desde el comité político del Ejecutivo salieron al paso del libelo presentado la noche previa por las bancadas opositoras, el cual busca destituir e inhabilitar a la autoridad cuestionando rebajas de condena otorgadas por decreto e interpelaciones ante comisiones legislativas. Previamente, en declaraciones de prensa, la vocería de Gobierno ya había calificado el escrito de 189 páginas como \"liviano y mal preparado\" . Durante una vocería ofrecida en el Palacio de La Moneda, el subsecretario y vocero de Gobierno, Gonzalo Arenas , reiteró que desde la administración del Presidente José Antonio Kast consideran que \"el ministro Rabat no cometió ningún hecho ilegal y tampoco inconstitucional \" . Desde la sede de Gobierno, el vocero Gonzalo Arenas remarcó que Rabat \"cumplió con la Constitución y la ley\". (FOTO: ATON) Según su opinión, \"por el contrario, cumplió con la Constitución y la ley y , por tanto , esa acusación constitucional , a nuestro juicio , no cumple con ninguno de los requisitos necesarios para ser una acusación constitucional que se pueda votar a favor \". \"Nosotros estamos conversando con todas las bancadas que apoyan al Gobierno, estamos buscando y explicando por qué esta acusación constitucional es improcedente y no cumple con los requisitos constitucionales \", enfatizó Arenas, que pese a tener que esperar los argumentos en la instancia, señaló que están \" convencidos que se va a rechazar por la falta de mérito que tiene esta acusación \". Contenido del libelo opositor La arremetida parlamentaria contra Rabat ingresó al Congreso tras intensas negociaciones entre bancadas y revisiones legales. El texto sostiene que el titular de Justicia vulneró la Constitución y las leyes en el otorgamiento de beneficios carcelarios y en sus posteriores exposiciones ante el Poder Legislativo . El primer capítulo del documento impugna los beneficios otorgados a 56 personas sentenciadas por delitos sexuales contra niños , niñas y adolescentes , alegando que una ley aprobada en 2022 las excluía explícitamente y que el ministro generalizó criterios de fallos judiciales sin órdenes individuales. El Palacio de La Moneda desplegó una cerrada defensa en favor del ministro de Justicia, Fernando Rabat, tras la presentación del libelo acusatorio en el Congreso Nacional. (FOTO: ATON) El segundo capítulo cuestiona rebajas concedidas a exagentes estatales condenados por crímenes de lesa humanidad que recuperaron la libertad, mientras que el tercer apartado apunta a las explicaciones que entregó ante las comisiones de Constitución del Senado y de la Cámara Baja . Oposición reacciona a los dichos del vocero de Gobierno El blindaje de La Moneda generó molestia en los parlamentarios firmantes de la acusación, quienes desestimaron los cuestionamientos de Arenas y aseguraron que el documento no responde a discrepancias políticas , sino a hechos acreditados en decretos y fallos judiciales . La diputada frenteamplista Emilia Schneider señaló que \"llama la atención la rapidez de la lectura del vocero de Gobierno\", advirtiendo que \" le parece que esto más bien responde a cuñas que estaban preparadas para intentar desviar el foco de la atención que hoy debe estar puesta : en las víctimas y en los responsables de las decisiones que se tomaron \". \" La acusación constitucional que presentamos ayer tiene un robusto fundamento \", aseveró la parlamentaria. En respuesta a la postura del Ejecutivo, la diputada Emilia Schneider sostuvo que el libelo acusatorio \"tiene un robusto fundamento\". (FOTO: ATON) En esta línea, su par socialista Daniel Manouchehri arremetió contra Arenas y le dijo que \" debe dejar la charlatanería y ponerse serio . Apenas presentamos las 189 páginas de la acusación constitucional en contra de Rabat, él la calificó de liviana. En minutos , ya tenía un veredicto \". El trámite continuará su curso el próximo lunes, fecha en que se dará cuenta del ingreso del libelo ante la Sala de la Cámara de Diputadas y Diputados y se sorteará a los cinco integrantes de la comisión revisora que evacuará el informe de admisibilidad.",
+          "description": "El Gobierno acusó este viernes \"falta de mérito\" en la acusación constitucional presentada por la oposición contra el ministro de Justicia, Fernando Rabat , volviendo a respaldar su actuar \"legal y constitucional\" frente a los cuestionamientos por su gestión. Desde el comité político del Ejecutivo salieron al paso del libelo presentado la noche previa por las bancadas opositoras, el cual busca destituir e inhabilitar a la autoridad cuestionando rebajas de condena otorgadas por decreto e interpelaciones ante comisiones legislativas. Previamente, en declaraciones de prensa, la vocería de Gobierno ya había calificado el escrito de 189 páginas como \"liviano y mal preparado\" . Durante una vocería ofrecida en el Palacio de La Moneda, el subsecretario y vocero de Gobierno, Gonzalo Arenas , reiteró que desde la administración del Presidente José Antonio Kast consideran que \"el ministro Rabat no cometió ningún hecho ilegal y tampoco inconstitucional \" . Desde la sede de Gobierno, el vocero Gonzalo Arenas remarcó que Rabat \"cumplió con la Constitución y la ley\". (FOTO: ATON) Según su opinión, \"por el contrario, cumplió con la Constitución y la ley y , por tanto , esa acusación constitucional , a nuestro juicio , no cumple con ninguno de los requisitos necesarios para ser una acusación constitucional que se pueda votar a favor \". \"Nosotros estamos conversando con todas las bancadas que apoyan al Gobierno, estamos buscando y explicando por qué esta acusación constitucional es improcedente y no cumple con los requisitos constitucionales \", enfatizó Arenas, que pese a tener que esperar los argumentos en la instancia, señaló que están \" convencidos que se va a rechazar por la falta de mérito que tiene esta acusación \". Contenido del libelo opositor La arremetida parlamentaria contra Rabat ingresó al Congreso tras intensas negociaciones entre bancadas y revisiones legales. El texto sostiene que el titular de Justicia vulneró la Constitución y las leyes en el otorgamiento de beneficios carcelarios y en sus posteriores exposiciones ante el Poder Legislativo . El primer capítulo del documento impugna los beneficios otorgados a 56 personas sentenciadas por delitos sexuales contra niños , niñas y adolescentes , alegando que una ley aprobada en 2022 las excluía explícitamente y que el ministro generalizó criterios de fallos judiciales sin órdenes individuales. El Palacio de La Moneda desplegó una cerrada defensa en favor del ministro de Justicia, Fernando Rabat, tras la presentación del libelo acusatorio en el Congreso Nacional. (FOTO: ATON) El segundo capítulo cuestiona rebajas concedidas a exagentes estatales condenados por crímenes de lesa humanidad que recuperaron la libertad, mientras que el tercer apartado apunta a las explicaciones que entregó ante las comisiones de Constitución del Senado y de la Cámara Baja . Oposición reacciona a los dichos del vocero de Gobierno El blindaje de La Moneda generó molestia en los parlamentarios firmantes de la acusación, quienes desestimaron los cuestionamientos de Arenas y aseguraron que el documento no responde a discrepancias políticas , sino a hechos acreditados en decretos y fallos judiciales . La diputada frenteamplista Emilia Schneider señaló que \"llama la atención la rapidez de la lectura del vocero de Gobierno\", advirtiendo que \" le parece que esto más bien responde a cuñas que estaban preparadas para intentar desviar el foco de la atención que hoy debe estar puesta : en las víctimas y en los responsables de las decisiones que se tomaron \". \" La acusación constitucional que presentamos ayer tiene un robusto fundamento \", aseveró la parlamentaria. \"(El libelo) parte de la premisa de que el ministro actuó fuera de la ley , porque, tal como dice el artículo 7 de la Constitución, ninguna autoridad puede actuar más allá de las atribuciones que les da la ley. Y la ley es clara: no procede en caso alguno rebaja de penas a agresores sexuales de niños y niñas, y este Gobierno lo hizo de igual manera. Y no le echen la culpa a los tribunales, porque ese es otro poder\", afirmó Schneider. \"Acá el ministro tiene que responder, también, porque cambió criterios técnicos históricos del Ministerio de Justicia; por ejemplo, en torno a derechos humanos . Y para defender todo esto, el ministro Rabat fue al Congreso, a la Cámara de Diputados y Diputadas, a mentir \", añadió. En respuesta a la postura del Ejecutivo, la diputada Emilia Schneider sostuvo que el libelo acusatorio \"tiene un robusto fundamento\". (FOTO: ATON) En esta línea, su par socialista Daniel Manouchehri arremetió contra Arenas y le dijo que \" debe dejar la charlatanería y ponerse serio . Apenas presentamos las 189 páginas de la acusación constitucional en contra de Rabat, él la calificó de liviana. En minutos , ya tenía un veredicto \". El trámite continuará su curso el próximo lunes, fecha en que se dará cuenta del ingreso del libelo ante la Sala de la Cámara de Diputadas y Diputados y se sorteará a los cinco integrantes de la comisión revisora que evacuará el informe de admisibilidad.",
           "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/gobierno-cerro-filas-en-defensa-de-rabat-y-acuso-falta-de-merito-en/2026-11-13/144816.html",
           "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261113/imag/foto_0000000520261113144816.png",
           "published_raw": "Fri, 13 Nov 2026 14:48:16 -0300",
@@ -121,7 +200,7 @@
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 10,
+          "score_institutional": 11,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
@@ -130,7 +209,7 @@
           "score_actor": 4,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 15,
+          "political_evidence": 16,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
@@ -192,119 +271,12 @@
           "decision": "ACCEPT",
           "filter_confidence": "high",
           "cluster_id": "PML-EVENT-001"
-        },
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Couso no ve mérito para acusación constitucional contra Rabat ni la Corte Suprema",
-          "description": "El abogado constitucionalista Javier Couso (DC) aseguró en Cooperativa que los antecedentes hasta ahora conocidos por la rebaja de condena a pederastas son insuficientes para sustentar la acusación constitucional -anunciada por la oposición- contra el ministro de Justicia , Fernando Rabat , así como la promovida por el Partido Nacional Libertario contra los integrantes de la Corte Suprema . En conversación con Lo Que Queda del Día , el académico de la Universidad Diego Portales (UDP) analizó la demora en la entrega, a la Comisión de Constitución del Senado , de los decretos que redujeron las penas a personas condenadas por violación de menores de edad , y el hecho de que éstos no llegaran a la Cámara, donde se prepara al libelo contra Rabat. \"El ministro ha estado jugando al gato y al ratón . El haber puesto tantos reparos y complicaciones para entregar documentos que, de haberse establecido una comisión especial investigadora, habrían tenido que ser enviados a la Cámara y (Rabat) habría estado obligado incluso a comparecer de nuevo hasta tres veces o incluso más si hay mayoría de la Cámara que lo hubiera pedido\", explicó. [Lea también] Rebajas de condenas: Rabat decidió \"parar cualquier decreto ante las nuevas circunstancias\" El profesor catalogó la estrategia del secretario de Estado como \"maniobras, digamos, que están dentro de la legalidad, pero que son francamente irritantes  y ponen un ambiente que no es no es bueno para él, porque ya estamos en una circunstancia compleja. Pero se estas cosas solo dilatan lo que va a ocurrir: se van a conocer\" Para Couso,  \"es un mal argumento que un poder del Estado le diga a otro que no le va a entregar información o se la va a entregar a cuentagotas porque hay que preocuparse de las víctimas, cuando hemos visto que hay filtraciones que han ocurrido desde ese mismo poder del Estado . En comisiones como la de Defensa se presenta información secreta y no se ha filtrado. Francamente, no entiendo la estrategia del ministro\". \"Interpretación plausible\" El jurista señaló que, al firmar las rebajas de condena a pedófilos, el titular de Justicia se inclinó por una \"interpretación tan plausible de la ley , que la propia Corte Suprema interpretó eso en el 90 por ciento de los casos (que analizó) en los últimos años \". \"Todo ministro que aplica las leyes, las debe interpretar y había dos interpretaciones plausibles: una,  es la de la jurisprudencia de la Corte Suprema hasta hace unos meses atrás, que planteaba que la naturaleza de la rebaja de pena se vincula a la pena y, por lo tanto, no puede aplicarse retroactivamente a quienes habían cometido el crimen y habían sido condenados\", apuntó. \"Y había otra , que era más reciente por parte de la Suprema, que es un mero beneficio administrativo que no crea derecho adquirido . Entonces, cuando un ministro tiene que ejecutar las leyes, y eso se hace típicamente mediante la dictación de decretos, tiene que interpretarla y era plausible esta interpretación de la ley\", complementó el abogado. En esa materia, el jurista desechó la pertinencia del argumento que atribuye a Rabat de \"haber mentido cuando fue a exponer (una vez que estalló el escándalo) a una sesión especial de la Cámara,  porque hay un principio de probidad que está en la Constitución, que plantea que todo funcionario público debe actuar siempre con probidad, en este caso con honestidad\". \"Si se empieza a acusar a los ministros por decir inexactitudes en el debate político que se da al interior de la Cámara, vamos a llenarnos de acusaciones constitucionales \", cuestionó. El error de la oposición El experto constitucionalista afirmó que la oposición \"cometió un un error\" al anunciar la AC contra Rabat ,  \"porque todos los antecedentes que quiere habrían tenido que ser entregados en el acto por el ministro de Estado de haberse creado una comisión especial investigadora, toda la documentación habría estado a tiempo\". \"Me parece prudente no acusar mientras no se tengan todos los antecedentes, sino  habría sido una acusación a ciegas. Sabemos que hay ha habido acusaciones frívolas en los últimos 15, 20 años en Chile\", agregó. Finalmente, Couso planteó que actualmente, \"con los antecedentes con que cuento ahora, no me parece que hayan antecedentes suficientes ni para acusar al ministro ni para acusar a los integrantes de la Corte Suprema , como ha anunciado otro grupo de parlamentarios del Partido Nacional Libertario\". \"Una acusación constitucional contra un ministro de Estado requiere distintas causales, pero las que imagino van a invocarse son haber infringido la Constitución, las leyes o haberla dejado sin ejecución\", subrayó. Pese a que el escenario \"podría cambiar si es que se demostrara una teoría de que se ha se ha demorado tanto la entrega de antecedentes es porque se quiere ocultar quizás algo que no conocemos, no quiero especular , pero con los antecedentes que tengo hoy, a mi juicio no se configuran estas tres causales que son las que han trascendido\".",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/couso-no-ve-merito-para-acusacion-constitucional-contra-rabat-ni-la/2026-11-11/193429.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111193429.jpg",
-          "published_raw": "Wed, 11 Nov 2026 19:34:29 -0300",
-          "published_at": "2026-11-11T19:34:29-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 7,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 10,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-008",
-      "title": "El Tribunal Supremo accede a revisar la orden de Trump para prohibir el acceso al asilo en la frontera sur",
-      "url": "https://elpais.com/us/migracion/2026-11-13/el-tribunal-supremo-accede-a-revisar-la-orden-de-trump-para-prohibir-el-acceso-al-asilo-en-la-frontera-sur.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 64.9,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 64.9
-      },
-      "selection": {
-        "reason": "PML 64.9; aporta diversidad geográfica",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-13T17:06:50-0300",
-      "last_seen": "2026-11-13T17:06:50-0300",
-      "entities": [
-        "supremo",
-        "trump"
-      ],
-      "event_terms": [
-        "tribunal",
-        "supremo"
-      ],
-      "analysis": {
-        "summary": "La máxima corte del país decidirá si el presidente tiene la autoridad para prohibir este derecho",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El Tribunal Supremo accede a revisar la orden de Trump para prohibir el acceso al asilo en la frontera sur",
-          "description": "La máxima corte del país decidirá si el presidente tiene la autoridad para prohibir este derecho",
-          "url": "https://elpais.com/us/migracion/2026-11-13/el-tribunal-supremo-accede-a-revisar-la-orden-de-trump-para-prohibir-el-acceso-al-asilo-en-la-frontera-sur.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/FNARMMPEE6U7J4Z5FO2EDZMX2A.jpg?auth=b0078b0d44d074e0fd75ea9d66e7a7ac39a3f2f2f11e2110cd9bf24d3edc9f7d",
-          "published_raw": "Fri, 13 Nov 2026 20:06:50 GMT",
-          "published_at": "2026-11-13T17:06:50-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 4,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 6,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-014",
+      "cluster_id": "PML-EVENT-016",
       "title": "La caravana migrante que cruza México y agita la amenaza de aranceles de Trump: “Nuestro terror es que la presidenta nos regrese”",
       "url": "https://elpais.com/mexico/2026-11-13/la-caravana-migrante-que-cruza-mexico-nuestro-terror-es-que-la-presidenta-diga-no-me-conviene-que-suban-los-aranceles-y-nos-regrese.html",
       "representative_source": "EL PAÍS",
@@ -315,12 +287,12 @@
         "country": "No identificado / Internacional / México / América Latina"
       },
       "relevance": {
-        "score": 61.8,
+        "score": 57.8,
         "level": "MEDIA",
-        "editorial_utility": 57.8
+        "editorial_utility": 53.8
       },
       "selection": {
-        "reason": "PML 61.8; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 57.8; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -378,7 +350,7 @@
           "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-014"
+          "cluster_id": "PML-EVENT-016"
         },
         {
           "source_id": "elpais_america",
@@ -406,29 +378,29 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-014"
+          "cluster_id": "PML-EVENT-016"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-017",
-      "title": "El Gobierno de Lula saca adelante un plan para ahorrar unos 10.000 millones de dólares de gasto público",
-      "url": "https://elpais.com/america/2026-11-13/el-gobierno-de-lula-anuncia-un-plan-para-ahorrar-unos-10000-millones-de-gasto-publico.html",
+      "cluster_id": "PML-EVENT-019",
+      "title": "“Los parches no funcionan”: el Gobierno de EE UU culpa al “anticuado” sistema de control aéreo por la suspensión de vuelos",
+      "url": "https://elpais.com/us/2026-11-14/los-parches-no-funcionan-el-gobierno-de-ee-uu-culpa-al-anticuado-sistema-de-control-aereo-por-la-suspension-de-vuelos.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "América Latina",
-        "country": "No identificado / América Latina"
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 56,
+        "score": 56.3,
         "level": "MEDIA",
-        "editorial_utility": 50
+        "editorial_utility": 50.3
       },
       "selection": {
-        "reason": "PML 56; fallback editorial controlado; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 56.3; fallback editorial controlado; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -438,16 +410,13 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-13T15:35:27-0300",
-      "last_seen": "2026-11-13T15:35:27-0300",
-      "entities": [
-        "lula",
-        "brasil"
-      ],
+      "first_seen": "2026-11-14T00:54:05-0300",
+      "last_seen": "2026-11-14T00:54:05-0300",
+      "entities": "congreso",
       "event_terms": [],
       "analysis": {
-        "summary": "El presidente reelecto de Brasil está bajo presión para sanear las cuentas y reducir la deuda",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "summary": "El secretario de Transporte, Sean Duffy, ha exigido al Congreso al menos 30.000 millones de dólares para actualizar los mecanismos actuales: “Es una cuestión de seguridad nacional”",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -459,30 +428,30 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "El Gobierno de Lula saca adelante un plan para ahorrar unos 10.000 millones de dólares de gasto público",
-          "description": "El presidente reelecto de Brasil está bajo presión para sanear las cuentas y reducir la deuda",
-          "url": "https://elpais.com/america/2026-11-13/el-gobierno-de-lula-anuncia-un-plan-para-ahorrar-unos-10000-millones-de-gasto-publico.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/OGBDOJQGZNISLEHQE5BHM7FYFE.jpg?auth=72fb699c34563e4588c95bb64934caf7e842534f135a1a56609b1042dff63525",
-          "published_raw": "Fri, 13 Nov 2026 18:35:27 GMT",
-          "published_at": "2026-11-13T15:35:27-0300",
+          "title": "“Los parches no funcionan”: el Gobierno de EE UU culpa al “anticuado” sistema de control aéreo por la suspensión de vuelos",
+          "description": "El secretario de Transporte, Sean Duffy, ha exigido al Congreso al menos 30.000 millones de dólares para actualizar los mecanismos actuales: “Es una cuestión de seguridad nacional”",
+          "url": "https://elpais.com/us/2026-11-14/los-parches-no-funcionan-el-gobierno-de-ee-uu-culpa-al-anticuado-sistema-de-control-aereo-por-la-suspension-de-vuelos.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/EYVIQN5S2NMLHMSUXYVAJCEW4M.jpg?auth=0092ab60097601f94450d8f328ba98193a36382eff0e8a836a3bd2e2b4baea32",
+          "published_raw": "Sat, 14 Nov 2026 03:54:05 GMT",
+          "published_at": "2026-11-14T00:54:05-0300",
           "country": "No identificado",
-          "region": "América Latina",
+          "region": "Internacional",
           "language": "es",
           "score_institutional": 2,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
+          "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
           "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-017"
+          "cluster_id": "PML-EVENT-019"
         }
       ]
     },
@@ -499,12 +468,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 55.7,
+        "score": 53.2,
         "level": "MEDIA",
-        "editorial_utility": 47.7
+        "editorial_utility": 45.2
       },
       "selection": {
-        "reason": "PML 55.7; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 53.2; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -568,6 +537,78 @@
     "stories": [
       {
         "position": 1,
+        "cluster_id": "PML-EVENT-003",
+        "title": "Cámara Baja despachó Presupuesto 2027 con siete partidas rechazadas tras maratónica sesión",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-despacho-presupuesto-2027-con-siete-partidas-rechazadas-tras/2026-11-13/091148.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 50.5,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 51,
+            "freshness": 80,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 32
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-13T09:11:48-0300",
+        "last_seen": "2026-11-13T09:11:48-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Cámara Baja despachó Presupuesto 2027 con siete partidas rechazadas tras maratónica sesión",
+            "description": "La Cámara de Diputadas y Diputados despachó al Senado el proyecto de Presupuesto 2027 , tras una maratónica discusión que se extendió hasta pasadas las seis de la mañana de este viernes y dejó sin aprobación los recursos destinados a siete partidas clave del Gobierno. El rechazo afectó a los presupuestos de Interior, Educación, Secretaría General de Gobierno, Minería, Mujer y Equidad de Género, Culturas y Ciencia, en medio de los cuestionamientos a los recortes propuestos por el Ejecutivo. El debate de la ley presupuestaria se extendió por cuatro jornadas. En la última sesión, fueron rechazados los recursos para Mujer y Equidad de Género, por 58 votos a favor y 59 en contra, y Culturas , por 59 a favor y 60 en contra, con controversias por el cierre de la Fundación para la Promoción y Desarrollo de la Mujer (Prodemu), los recortes al sector cultural y el financiamiento de los sitios de memoria. Durante la misma jornada del jueves, se aprobaron los presupuestos de Bienes Nacionales, Trabajo y Previsión Social y Salud . A ellos se sumaron durante la madrugada los de Desarrollo Social, Segpres, Medio Ambiente, Deportes y Seguridad Pública , este último con recursos superiores a los 3,4 billones de pesos para 2027. \"Vamos a reponer las cosas que se rechazaron\" Pese a que la mayoría de los recursos obtuvo luz verde, el Ejecutivo deberá enfrentar una nueva negociación para conseguir respaldo a los presupuestos rechazados. Eel ministro de Hacienda, Jorge Quiroz, valoró el avance de la tramitación: \"Vamos bien encaminados, efectivamente en general aprobando prácticamente todas las partidas. Quedan algunos obstáculos desde luego, pero creo que vamos muy bien encaminados a terminar este proceso bien \". Respecto de los recursos que no consiguieron respaldo, el secretario de Estado adelantó que el Ejecutivo insistirá durante la discusión en el Senado, que comenzará la próxima semana. \"Vamos a reponer las cosas que se rechazaron. Probablemente lo haremos con algún ajuste y tenemos que ir en paralelo conversando más algunos temas. En particular en educación es un tema que tenemos que conversar más a fondo \", sostuvo.   Foto: ATON Desde el oficialismo, el senador republicano Renzo Trisotti, llamó a mantener la disposición al diálogo mostrada durante la discusión en la Cámara, para \"permitir destrabar todas estas partidas y tener el presupuesto necesario para poder seguir desarrollando en todas las áreas del país, obviamente con las prioridades que ha impuesto el Gobierno \". Por su parte, el senador comunista Daniel Núñez condicionó su respaldo a los recursos de Minería a que Hacienda aclare su postura sobre la participación privada en Codelco. \"Mientras el ministro de Hacienda no se retracte de sus palabras a favor de la privatización de Codelco, vamos a rechazar el presupuesto del Ministerio de Minería, al igual como lo hizo la Cámara de Diputados\", advirtió. \" Ojalá que en el Senado se dé un debate serio y no se den estos episodios que ocurrieron en la Cámara de intercambio de descalificaciones\", declaró por su parte el senador UDI Gustavo Sanhueza.   En tanto, la senadora de Renovación Nacional, María José Gatica , pidió avanzar en los consensos: \"El llamado es a no trancar la pelota y llegar a un acuerdo antes del 30 de noviembre\". El Senado discutirá y votará el proyecto durante la próxima semana, tras lo cual volverá a la Cámara para una nueva revisión. Si persisten las diferencias, una comisión mixta deberá resolverlas antes del 29 de noviembre, según los plazos señalados durante el debate. Cuatro jornadas de negociación La discusión comenzó el martes con el rechazo de los recursos para Interior , en medio de cuestionamientos a los recortes destinados a Senapred, la Subdere y \"Ley Cholito\". También se eliminaron los fondos operacionales para los expresidentes de la República. El miércoles, Educación sufrió uno de los principales reveses del Ejecutivo, en una jornada marcada por los debates \" Yo Elijo Mi PC\", jardines infantiles y programas Junaeb . En Justicia, se incorporaron nuevas exigencias de información sobre rebajas de condenas, indultos y beneficios penitenciarios, en medio de la controversia por el ministro Fernando Rabat. Durante el jueves, Minería y Segegob tampoco consiguieron respaldo , entre críticas a los recortes presupuestarios y a la conducción comunicacional del Gobierno. Finalmente, la extensa sesión que concluyó este viernes también dejó sin aprobación recursos para organismos como el Instituto Nacional de Deportes, Senadis y el Servicio de Protección Especializada a la Niñez y Adolescencia . Cronograma y plazos constitucionales El proyecto será revisado y votado la próxima semana en la Sala del Senado para luego cumplir su tercer trámite en la Cámara de origen . De persistir las diferencias en las asignaciones presupuestarias, la iniciativa se resolverá en una comisión mixta que debe zanjar el articulado definitivo a más tardar el 29 de noviembre, dando cumplimiento a los plazos fijados por la Constitución.",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-despacho-presupuesto-2027-con-siete-partidas-rechazadas-tras/2026-11-13/091148.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261113/imag/foto_0000000220261113091148.jpg",
+            "published_raw": "Fri, 13 Nov 2026 09:11:48 -0300",
+            "published_at": "2026-11-13T09:11:48-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 7,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 3,
+            "score_ideology": 1,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 16,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-003"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 18,
+          "labels": [
+            "Estado e instituciones",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 68.5
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
         "cluster_id": "PML-EVENT-002",
         "title": "Oposición reflota tuits del \"candidato Kast\" contra Piñera y Boric ante viaje en pleno paro camionero",
         "topic": "Instituciones y gobierno",
@@ -579,11 +620,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 51.8,
+          "score": 46.2,
           "level": "BAJA",
           "components": {
             "political_impact": 54,
-            "freshness": 62,
+            "freshness": 40,
             "source_count": 32,
             "geographic_scope": 55,
             "continuity": 54
@@ -662,128 +703,31 @@
             "Estado e instituciones",
             "Elecciones y opinión pública"
           ],
-          "chile_utility": 70.8
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-004",
-        "title": "Oposición repudia \"grave falta de respeto\" de diputada republicana que arremetió contra DD.HH.",
-        "topic": "Ideología y competencia política",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/dd-hh/oposicion-repudia-grave-falta-de-respeto-de-diputada-republicana-que/2026-11-12/105725.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 45,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 50,
-            "freshness": 52,
-            "source_count": 32,
-            "geographic_scope": 40,
-            "continuity": 46
-          }
-        },
-        "coverage": {
-          "article_count": 2,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-11T19:35:12-0300",
-        "last_seen": "2026-11-12T10:57:25-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Diputada republicana arremetió en la Cámara contra \"Derechos Humanos Company\"",
-            "description": "El debate de la partida del Ministerio de Justicia en el proyecto de Presupuesto 2027  estuvo marcada en la Cámara Baja por la intervención de la diputada republicana Javiera Rodríguez , quien acusó al mundo de los derechos humanos de actuar al modo de una empresa lucrativa. Si bien, la partida de Justicia fue aprobada en el hemiciclo , la discusión se centró en los decretos de rebaja de condena firmados por el ministro Fernando Rabat y la acusación constitucional que enfrentará próximamente. En este contexto intervino Rodríguez: \" Quiero partir mostrando mi repudio a quienes se han arrogado la propiedad de los derechos humanos en Chile; a esa gran empresa llamada Derechos Humanos Company \". \"Y es que hace un par de semanas nos enteramos que delincuentes de la peor calaña habían sido liberados por una ley, pero Derechos Humanos Company decidió que el culpable era un hombre, justo de este Gobierno. Por eso, son empresarios del dolor ajeno \", arremetió la autodenominada \"capitana\" Rodríguez. Ver esta publicación en Instagram Una publicación compartida por 𝗖𝗔𝗣𝗜𝗧𝗔𝗡𝗔 𝗥𝗢𝗗𝗥𝗜́𝗚𝗨𝗘𝗭 (@capitanarod) El comentario no cayó bien en la oposición, especialmente, en la diputada comunista Lorena Pizarro, expresidenta de la Agrupación de Familiares de Detenidos Desaparecidos : \"Más allá de lo energúmena que de verdad es, yo ni siquiera escucho la maldad que hay tras lo que dice \". \"Lo que me parece preocupante es que en este hemiciclo el negacionismo se haya instalado . No importa si yo soy hija de un desaparecido cuando se me ha dicho 'supéralo'. No. Tengo la dignidad heredada de la Agrupación de Familiares de Detenidos Desaparecidos \", aseveró. Pizarro llamó \"energúmena\" a la republicana. (Foto: ATON) El episodio obligó a la vicepresidente de la Cámara, Ximena Ossandón (RN) , a suspender por algunos minutos la sesión. Durante el receso, la diputada Pizarro se acercó al sector republicano y le dijo a Rodríguez: \" Ven a decírmelo a la cara \", y fue contenida por sus pares del Frente Amplio y del Partido Comunista en medio de una fuerte emoción. Más tarde, Rodríguez dio un punto de prensa y aseguró mantener sus dichos, dijo que no se arrepiente de lo que dijo  y que continuará marcando sus puntos con valentía. Lorena Pizarro -también ante la prensa-  reivindicó la memoria de los detenidos desaparecidos y la lucha por la verdad histórica. Comités rechazaron \"expresiones malévolas\" Posteriormente, el presidente de la Cámara Baja, Jorge Alessandri (UDI) , leyó una declaración unánime de los comités parlamentarios planteando que \"el debate en la Sala debe desarrollarse con pleno respeto a la dignidad de todos sus integrantes\". \"Los comités rechazan toda expresión que recurra a descalificaciones personales o que utilice como instrumento de confrontación la historia personal o familiar de un parlamentario. Los comités recuerdan a las diputadas y diputados que el reglamento de la corporación les exige como un deber de conducta actuar con fraternidad hacia sus colegas. Esto implica abstenerse cuidadosamente de toda expresión malévola o injuriosa y de alusiones a sus antecedentes personales\", señala el escrito. ⭕️ COMUNICADO OFICIAL DE LOS COMITÉS PARLAMENTARIOS DE LA CÁMARA DE DIPUTADAS Y DIPUTADOS. https://t.co/W4Hoik6rl9 — Diputadas y Diputados de Chile (@Camara_cl) November 11, 2026  ",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-republicano/diputada-republicana-arremetio-en-la-camara-contra-derechos-humanos/2026-11-11/193512.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000001320261111193512.jpg",
-            "published_raw": "Wed, 11 Nov 2026 19:35:12 -0300",
-            "published_at": "2026-11-11T19:35:12-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 8,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 1,
-            "score_ideology": 1,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 15,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
-          },
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Oposición repudia \"grave falta de respeto\" de diputada republicana que arremetió contra DD.HH.",
-            "description": "Un grupo de partidos de oposición manifestó su \"enérgico rechazo\" hacia las palabras de la diputada republicana Javiera Rodríguez , quien ayer miércoles acusó al mundo de los derechos humanos de actuar como una empresa lucrativa . Durante el debate de la partida del Ministerio de Justicia del Presupuesto 2027, la oficialista expuso su \" repudio a quienes se han arrogado la propiedad de los derechos humanos en Chile ; a esa gran empresa llamada Derechos Humanos Company \", y advirtió que quienes exigen transparencia sobre los crímenes de la dictadura son \"empresarios del dolor ajeno\" . Los dichos de Rodríguez no solo irritaron a los opositores presentes en la sesión, sino que más tarde motivaron la firma de una declaración unánime de los comités parlamentarios , llamando a que \"el debate en la Sala se desarrolle con pleno respeto a la dignidad de todos sus integrantes\", lo que, entre otras cosas, \"implica abstenerse cuidadosamente de toda expresión malévola o injuriosa \". Después de que la diputada se negara a ofrecer disculpas en la víspera, seis colectividades de oposición -Partido Liberal; Democracia Cristiana; PPD; Partido Socialista; Frente Amplio y Partido Comunista - intensificaron su crítica este jueves mediante una declaración pública, titulada \"Los derechos humanos no son un negocio. La memoria no se relativiza\" . Ver esta publicación en Instagram Una publicación compartida por Partido Socialista de Chile (@pschile) El escrito afirma que la militante republicana \" calificó despectivamente la defensa de los derechos humanos en Chile como una empresa llamada ' Derechos Humanos Company '\", lo cual \"constituye una grave falta de respeto a las víctimas de la dictadura , sus familias y a quienes han luchado por la verdad y la justicia\". Dirigiéndose abiertamente a Rodríguez , la misiva detalla: \"Le recordamos que en Chile todavía hay más de mil detenidos desaparecidos cuyo paradero se desconoce . Miles de compatriotas fueron ejecutados, encarcelados, torturados o expulsados del país. Hubo personas degolladas y quemadas vivas. Los lugares donde se cometieron estos crímenes son hoy sitios de memoria , testimonios del horror que nuestro país jamás debe olvidar\". En ese sentido, \" rechazamos también los recortes contemplados en el Presupuesto 2027 , que reducen a apenas 1.000 pesos anuales los recursos asignados al Museo de la Memoria y los Derechos Humanos y a diversos sitios de memoria. Es una decisión atroz e inaceptable que exigimos revertir\", emplaza la oposición. \" Los derechos humanos no son una empresa ni la memoria un negocio. Son un compromiso irrenunciable con la dignidad humana, la verdad, la justicia y la democracia\", remarca la declaración, relevando asimismo que la democracia actual \"costó sufrimiento, sacrificios y muchas vidas. No permitiremos que se desprecie esa historia ni que se intente borrar lo ocurrido durante la dictadura\". Al cierre, el bloque subraya que \" la memoria es parte de nuestra historia . Defenderla es defender la democracia y garantizar que el horror nunca más vuelva a repetirse . ¡Verdad, justicia, memoria y nunca más!\".",
-            "url": "https://www.cooperativa.cl/noticias/pais/dd-hh/oposicion-repudia-grave-falta-de-respeto-de-diputada-republicana-que/2026-11-12/105725.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000220261112105725.png",
-            "published_raw": "Thu, 12 Nov 2026 10:57:25 -0300",
-            "published_at": "2026-11-12T10:57:25-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 2,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 1,
-            "score_ideology": 3,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 9,
-            "primary_topic": "Ideología y competencia política",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 12,
-          "labels": "Congreso y proceso legislativo",
-          "chile_utility": 57
+          "chile_utility": 65.2
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-003",
-        "title": "Cámara Baja despachó Presupuesto 2027 con siete partidas rechazadas tras maratónica sesión",
+        "cluster_id": "PML-EVENT-004",
+        "title": "PS exige que Kast controle a la \"patota\" republicana en la Cámara",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-despacho-presupuesto-2027-con-siete-partidas-rechazadas-tras/2026-11-13/091148.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/ps-exige-que-kast-controle-a-la-patota-republicana-en-la-camara/2026-11-13/212748.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.5,
+          "score": 56,
           "level": "MEDIA",
           "components": {
-            "political_impact": 51,
-            "freshness": 88,
+            "political_impact": 50,
+            "freshness": 95,
             "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 32
+            "geographic_scope": 55,
+            "continuity": 30
           }
         },
         "coverage": {
@@ -791,47 +735,44 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-13T09:11:48-0300",
-        "last_seen": "2026-11-13T09:11:48-0300",
+        "first_seen": "2026-11-13T21:27:48-0300",
+        "last_seen": "2026-11-13T21:27:48-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Cámara Baja despachó Presupuesto 2027 con siete partidas rechazadas tras maratónica sesión",
-            "description": "La Cámara de Diputadas y Diputados despachó al Senado el proyecto de Presupuesto 2027 , tras una maratónica discusión que se extendió hasta pasadas las seis de la mañana de este viernes y dejó sin aprobación los recursos destinados a siete partidas clave del Gobierno. El rechazo afectó a los presupuestos de Interior, Educación, Secretaría General de Gobierno, Minería, Mujer y Equidad de Género, Culturas y Ciencia, en medio de los cuestionamientos a los recortes propuestos por el Ejecutivo. El debate de la ley presupuestaria se extendió por cuatro jornadas. En la última sesión, fueron rechazados los recursos para Mujer y Equidad de Género, por 58 votos a favor y 59 en contra, y Culturas , por 59 a favor y 60 en contra, con controversias por el cierre de la Fundación para la Promoción y Desarrollo de la Mujer (Prodemu), los recortes al sector cultural y el financiamiento de los sitios de memoria. Durante la misma jornada del jueves, se aprobaron los presupuestos de Bienes Nacionales, Trabajo y Previsión Social y Salud . A ellos se sumaron durante la madrugada los de Desarrollo Social, Segpres, Medio Ambiente, Deportes y Seguridad Pública , este último con recursos superiores a los 3,4 billones de pesos para 2027. \"Vamos a reponer las cosas que se rechazaron\" Pese a que la mayoría de los recursos obtuvo luz verde, el Ejecutivo deberá enfrentar una nueva negociación para conseguir respaldo a los presupuestos rechazados. Eel ministro de Hacienda, Jorge Quiroz, valoró el avance de la tramitación: \"Vamos bien encaminados, efectivamente en general aprobando prácticamente todas las partidas. Quedan algunos obstáculos desde luego, pero creo que vamos muy bien encaminados a terminar este proceso bien \". Respecto de los recursos que no consiguieron respaldo, el secretario de Estado adelantó que el Ejecutivo insistirá durante la discusión en el Senado, que comenzará la próxima semana. \"Vamos a reponer las cosas que se rechazaron. Probablemente lo haremos con algún ajuste y tenemos que ir en paralelo conversando más algunos temas. En particular en educación es un tema que tenemos que conversar más a fondo \", sostuvo.   Foto: ATON Desde el oficialismo, el senador republicano Renzo Trisotti, llamó a mantener la disposición al diálogo mostrada durante la discusión en la Cámara, para \"permitir destrabar todas estas partidas y tener el presupuesto necesario para poder seguir desarrollando en todas las áreas del país, obviamente con las prioridades que ha impuesto el Gobierno \". Por su parte, el senador comunista Daniel Núñez condicionó su respaldo a los recursos de Minería a que Hacienda aclare su postura sobre la participación privada en Codelco. \"Mientras el ministro de Hacienda no se retracte de sus palabras a favor de la privatización de Codelco, vamos a rechazar el presupuesto del Ministerio de Minería, al igual como lo hizo la Cámara de Diputados\", advirtió. \" Ojalá que en el Senado se dé un debate serio y no se den estos episodios que ocurrieron en la Cámara de intercambio de descalificaciones\", declaró por su parte el senador UDI Gustavo Sanhueza.  En tanto, la senadora de Renovación Nacional, María José Gatica , pidió avanzar en los consensos: \"El llamado es a no trancar la pelota y llegar a un acuerdo antes del 30 de noviembre\". El Senado discutirá y votará el proyecto durante la próxima semana, tras lo cual volverá a la Cámara para una nueva revisión. Si persisten las diferencias, una comisión mixta deberá resolverlas antes del 29 de noviembre, según los plazos señalados durante el debate. Cuatro jornadas de negociación La discusión comenzó el martes con el rechazo de los recursos para Interior , en medio de cuestionamientos a los recortes destinados a Senapred, la Subdere y \"Ley Cholito\". También se eliminaron los fondos operacionales para los expresidentes de la República. El miércoles, Educación sufrió uno de los principales reveses del Ejecutivo, en una jornada marcada por los debates \" Yo Elijo Mi PC\", jardines infantiles y programas Junaeb . En Justicia, se incorporaron nuevas exigencias de información sobre rebajas de condenas, indultos y beneficios penitenciarios, en medio de la controversia por el ministro Fernando Rabat. Durante el jueves, Minería y Segegob tampoco consiguieron respaldo , entre críticas a los recortes presupuestarios y a la conducción comunicacional del Gobierno. Finalmente, la extensa sesión que concluyó este viernes también dejó sin aprobación recursos para organismos como el Instituto Nacional de Deportes, Senadis y el Servicio de Protección Especializada a la Niñez y Adolescencia.",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-despacho-presupuesto-2027-con-siete-partidas-rechazadas-tras/2026-11-13/091148.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261113/imag/foto_0000000220261113091148.jpg",
-            "published_raw": "Fri, 13 Nov 2026 09:11:48 -0300",
-            "published_at": "2026-11-13T09:11:48-0300",
+            "title": "PS exige que Kast controle a la \"patota\" republicana en la Cámara",
+            "description": "La bancada de diputados del Partido Socialista (PS) acusó al Partido Republicano de ser \"el principal responsable del clima de hostilidad\" advertido esta semana en la Cámara Baja en medio de la discusión del Presupuesto 2027,  y denunció que corresponde a un  \"matonaje político\" que debe ser condenado y controlado por el Presidente José Antonio Kast. Los controvertidos episodios comenzaron el miércoles, cuando, en medio de la discusión de la partida de Justicia -marcada por la polémica de las rebajas de condena a pedófilos-, la diputada republicana Javiera Rodríguez  acusó a la centroizquierda de \"arrogarse y lucrar\" con la propiedad de los derechos humanos y con \"el dolor ajeno\" en el país, tildando al sector, despectivamente, como \"Derechos Humanos Company\". Ver esta publicación en Instagram Una publicación compartida por 𝗖𝗔𝗣𝗜𝗧𝗔𝗡𝗔 𝗥𝗢𝗗𝗥𝗜́𝗚𝗨𝗘𝗭 (@capitanarod) Aquello provocó la furia de la oposición y, especialmente, de la diputada comunista Lorena Pizarro -expresidenta de la Agrupación de Familiares de Detenidos Desaparecidos-,  que calificó a su par republicana de \"energúmena\" y, durante el receso,  la encaró y la desafió: \"Ven a decírmelo a la cara\".  El ambiente obligó a suspender la sesión.  La hostilidad continuó el día siguiente, jueves, cuando -en medio de la discusión de los recursos de Salud- el diputado republicano Cristián Araya  reivindicó los dichos de su compañera Rodríguez y acusó un presunto uso político de los enfermos de cáncer, lo que provocó incluso la indignación de la vicepresidenta de la Cámara, la oficialista Ximena Ossandón (RN),  que lo censuró y, desde la testera, calificó su actuar como \"patético\". El episodio también causó la molestia del diputado RN Diego Schalper, que llamó al jefe de la bancada republicana, Benjamín Moreno, que \"controle a sus diputados\". Acto seguido, Moreno se levantó de su asiento para recriminar a Schalper por solicitar una reunión de comités parlamentarios,   mientras era contenido por parlamentarios del sector.  Ante el desorden, Ossandón suspendió nuevamente la sesión. \"Pareciera que la corporación de esta Sala no madura nunca\", lamentó. \"Matonaje, patota política y faltas de respeto\", fustigó el PS En este contexto, mediante una declaración pública, el Partido Socialista denunció que las \"reiteradas provocaciones\" de la bancada republicana \"han escalado al punto de generar enfrentamientos incluso con parlamentarios de su propio sector, que han intentado poner orden\". \"Esta semana fuimos testigos de los agravios de una diputada republicana a la lucha de los familiares de detenidos desaparecidos; de los insultos de un diputado de dicho partido a quienes hemos trabajado siempre por el derecho a la salud; y de diversas provocaciones y enfrentamientos  que obligaron en reiteradas oportunidades a suspender la sesión\" del debate de Presupuesto 2027, acusó la tienda. \"A ello se suma la hostilidad y falta de respeto permanente de diputados republicanos hacia integrantes de la Mesa de la Corporación\", agrega el texto en respaldo a Ossandón; por lo que \"son estas conductas de matonaje político las que han terminado alterando el normal funcionamiento de la Cámara\", fustigaron los socialistas.  \"Mientras el país espera respuestas sobre sus principales necesidades, la bancada del Presidente actúa como una patota política y luego pretende dar lecciones de respeto. Emplazamos al Mandatario a condenar estas conductas y a poner orden en su partido: debe aclarar si estas provocaciones cuentan con su respaldo o si ha perdido la autoridad sobre sus parlamentarios\", cierra la declaración del partido opositor.  [Vea también]  Senadoras Campillai y Flores se enfrascaron en una pelea \"cuma\" frente a las cámaras",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/ps-exige-que-kast-controle-a-la-patota-republicana-en-la-camara/2026-11-13/212748.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261113/imag/foto_0000000220261113212748.png",
+            "published_raw": "Fri, 13 Nov 2026 21:27:48 -0300",
+            "published_at": "2026-11-13T21:27:48-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 7,
+            "score_institutional": 3,
             "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 3,
-            "score_ideology": 1,
-            "score_actor": 4,
+            "score_conflict": 0,
+            "score_policy": 2,
+            "score_ideology": 3,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 16,
+            "political_evidence": 13,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-004"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 18,
-          "labels": [
-            "Estado e instituciones",
-            "Economía y políticas públicas"
-          ],
-          "chile_utility": 70.5
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 65
         },
         "repeated_in_general_top5": false
       }
@@ -840,35 +781,39 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 19,
-      "maximum_relevance": 65.6,
-      "leading_story": "Gobierno cerró filas en defensa de Rabat y acusó \"falta de mérito\" en acusación constitucional"
+      "event_count": 22,
+      "maximum_relevance": 63.7,
+      "leading_story": "El Tribunal Supremo accede a revisar la orden de Trump para prohibir el acceso al asilo en la frontera sur"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 2,
-      "maximum_relevance": 55.1,
+      "maximum_relevance": 52.1,
       "leading_story": "De campo de fútbol a base militar: Haití y El Salvador recapturan el principal estadio de Puerto Príncipe"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 2,
-      "maximum_relevance": 49.4,
+      "maximum_relevance": 46.9,
       "leading_story": "Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 45,
+      "maximum_relevance": 41.2,
       "leading_story": "Oposición repudia \"grave falta de respeto\" de diputada republicana que arremetió contra DD.HH."
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-010", "PML-EVENT-016", "PML-EVENT-019"],
+      "exited_top5": ["PML-EVENT-008", "PML-EVENT-014", "PML-EVENT-017"],
+      "retained_top5": ["PML-EVENT-001", "PML-EVENT-005"]
+    }
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
