@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-14",
-    "data_latest_timestamp": "2026-11-14T00:54:05-0300",
-    "data_age_hours": 1.7,
-    "generated_at": "2026-11-14T02:38:42-0300",
+    "data_latest_timestamp": "2026-11-14T13:45:28-0300",
+    "data_age_hours": 3.1,
+    "generated_at": "2026-11-14T16:49:35-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,39 +16,39 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 27 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 17 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 27,
+    "ranked_events": 17,
     "topics": 1,
-    "geographies": 3,
+    "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 58.7,
-    "maximum_relevance": 63.7
+    "average_top5_relevance": 56.8,
+    "maximum_relevance": 62
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-010",
-      "title": "El Tribunal Supremo accede a revisar la orden de Trump para prohibir el acceso al asilo en la frontera sur",
-      "url": "https://elpais.com/us/migracion/2026-11-13/el-tribunal-supremo-accede-a-revisar-la-orden-de-trump-para-prohibir-el-acceso-al-asilo-en-la-frontera-sur.html",
+      "cluster_id": "PML-EVENT-013",
+      "title": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia",
+      "url": "https://elpais.com/internacional/2026-11-14/zelenski-asegura-que-ee-uu-sugiere-admitir-a-ucrania-en-la-otan-a-cambio-de-entregar-el-donbas-a-rusia.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "event_type": "POLITICAL_STATEMENT",
       "geography": {
-        "group": "Estados Unidos",
+        "group": "Internacional",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 63.7,
+        "score": 62,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 63.7
+        "editorial_utility": 62
       },
       "selection": {
-        "reason": "PML 63.7",
+        "reason": "PML 62",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -58,18 +58,16 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-13T19:17:07-0300",
-      "last_seen": "2026-11-13T19:17:07-0300",
+      "first_seen": "2026-11-14T12:09:29-0300",
+      "last_seen": "2026-11-14T12:09:29-0300",
       "entities": [
-        "supremo",
-        "trump"
+        "ucrania",
+        "otan",
+        "rusia"
       ],
-      "event_terms": [
-        "tribunal",
-        "supremo"
-      ],
+      "event_terms": [],
       "analysis": {
-        "summary": "La máxima corte del país decidirá si el presidente tiene la autoridad para prohibir este derecho",
+        "summary": "El presidente ucranio descarta esa posibilidad que, afirma, debería ser sometida a referéndum en caso de concretarse una oferta",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -82,30 +80,30 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "El Tribunal Supremo accede a revisar la orden de Trump para prohibir el acceso al asilo en la frontera sur",
-          "description": "La máxima corte del país decidirá si el presidente tiene la autoridad para prohibir este derecho",
-          "url": "https://elpais.com/us/migracion/2026-11-13/el-tribunal-supremo-accede-a-revisar-la-orden-de-trump-para-prohibir-el-acceso-al-asilo-en-la-frontera-sur.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/FNARMMPEE6U7J4Z5FO2EDZMX2A.jpg?auth=b0078b0d44d074e0fd75ea9d66e7a7ac39a3f2f2f11e2110cd9bf24d3edc9f7d",
-          "published_raw": "Fri, 13 Nov 2026 22:17:07 GMT",
-          "published_at": "2026-11-13T19:17:07-0300",
+          "title": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia",
+          "description": "El presidente ucranio descarta esa posibilidad que, afirma, debería ser sometida a referéndum en caso de concretarse una oferta",
+          "url": "https://elpais.com/internacional/2026-11-14/zelenski-asegura-que-ee-uu-sugiere-admitir-a-ucrania-en-la-otan-a-cambio-de-entregar-el-donbas-a-rusia.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/NCAEFTLE25PHBGDAG6EXFOJH2Q.jpg?auth=05ce68db5c48d423ebe6c9ce20fcafeb36d837e0c2d4a2ee6a8d3e3eaccbb261",
+          "published_raw": "Sat, 14 Nov 2026 15:09:29 GMT",
+          "published_at": "2026-11-14T12:09:29-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
-          "score_institutional": 4,
+          "score_institutional": 1,
           "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
+          "score_international": 1,
+          "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 6,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-010"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-013"
         }
       ]
     },
@@ -122,12 +120,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 62.6,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 62.6
+        "score": 59.1,
+        "level": "MEDIA",
+        "editorial_utility": 62.1
       },
       "selection": {
-        "reason": "PML 62.6; aporta diversidad geográfica",
+        "reason": "PML 59.1; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -192,7 +190,7 @@
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
           "title": "Gobierno cerró filas en defensa de Rabat y acusó \"falta de mérito\" en acusación constitucional",
-          "description": "El Gobierno acusó este viernes \"falta de mérito\" en la acusación constitucional presentada por la oposición contra el ministro de Justicia, Fernando Rabat , volviendo a respaldar su actuar \"legal y constitucional\" frente a los cuestionamientos por su gestión. Desde el comité político del Ejecutivo salieron al paso del libelo presentado la noche previa por las bancadas opositoras, el cual busca destituir e inhabilitar a la autoridad cuestionando rebajas de condena otorgadas por decreto e interpelaciones ante comisiones legislativas. Previamente, en declaraciones de prensa, la vocería de Gobierno ya había calificado el escrito de 189 páginas como \"liviano y mal preparado\" . Durante una vocería ofrecida en el Palacio de La Moneda, el subsecretario y vocero de Gobierno, Gonzalo Arenas , reiteró que desde la administración del Presidente José Antonio Kast consideran que \"el ministro Rabat no cometió ningún hecho ilegal y tampoco inconstitucional \" . Desde la sede de Gobierno, el vocero Gonzalo Arenas remarcó que Rabat \"cumplió con la Constitución y la ley\". (FOTO: ATON) Según su opinión, \"por el contrario, cumplió con la Constitución y la ley y , por tanto , esa acusación constitucional , a nuestro juicio , no cumple con ninguno de los requisitos necesarios para ser una acusación constitucional que se pueda votar a favor \". \"Nosotros estamos conversando con todas las bancadas que apoyan al Gobierno, estamos buscando y explicando por qué esta acusación constitucional es improcedente y no cumple con los requisitos constitucionales \", enfatizó Arenas, que pese a tener que esperar los argumentos en la instancia, señaló que están \" convencidos que se va a rechazar por la falta de mérito que tiene esta acusación \". Contenido del libelo opositor La arremetida parlamentaria contra Rabat ingresó al Congreso tras intensas negociaciones entre bancadas y revisiones legales. El texto sostiene que el titular de Justicia vulneró la Constitución y las leyes en el otorgamiento de beneficios carcelarios y en sus posteriores exposiciones ante el Poder Legislativo . El primer capítulo del documento impugna los beneficios otorgados a 56 personas sentenciadas por delitos sexuales contra niños , niñas y adolescentes , alegando que una ley aprobada en 2022 las excluía explícitamente y que el ministro generalizó criterios de fallos judiciales sin órdenes individuales. El Palacio de La Moneda desplegó una cerrada defensa en favor del ministro de Justicia, Fernando Rabat, tras la presentación del libelo acusatorio en el Congreso Nacional. (FOTO: ATON) El segundo capítulo cuestiona rebajas concedidas a exagentes estatales condenados por crímenes de lesa humanidad que recuperaron la libertad, mientras que el tercer apartado apunta a las explicaciones que entregó ante las comisiones de Constitución del Senado y de la Cámara Baja . Oposición reacciona a los dichos del vocero de Gobierno El blindaje de La Moneda generó molestia en los parlamentarios firmantes de la acusación, quienes desestimaron los cuestionamientos de Arenas y aseguraron que el documento no responde a discrepancias políticas , sino a hechos acreditados en decretos y fallos judiciales . La diputada frenteamplista Emilia Schneider señaló que \"llama la atención la rapidez de la lectura del vocero de Gobierno\", advirtiendo que \" le parece que esto más bien responde a cuñas que estaban preparadas para intentar desviar el foco de la atención que hoy debe estar puesta : en las víctimas y en los responsables de las decisiones que se tomaron \". \" La acusación constitucional que presentamos ayer tiene un robusto fundamento \", aseveró la parlamentaria. \"(El libelo) parte de la premisa de que el ministro actuó fuera de la ley , porque, tal como dice el artículo 7 de la Constitución, ninguna autoridad puede actuar más allá de las atribuciones que les da la ley. Y la ley es clara: no procede en caso alguno rebaja de penas a agresores sexuales de niños y niñas, y este Gobierno lo hizo de igual manera. Y no le echen la culpa a los tribunales, porque ese es otro poder\", afirmó Schneider. \"Acá el ministro tiene que responder, también, porque cambió criterios técnicos históricos del Ministerio de Justicia; por ejemplo, en torno a derechos humanos . Y para defender todo esto, el ministro Rabat fue al Congreso, a la Cámara de Diputados y Diputadas, a mentir \", añadió. En respuesta a la postura del Ejecutivo, la diputada Emilia Schneider sostuvo que el libelo acusatorio \"tiene un robusto fundamento\". (FOTO: ATON) En esta línea, su par socialista Daniel Manouchehri arremetió contra Arenas y le dijo que \" debe dejar la charlatanería y ponerse serio . Apenas presentamos las 189 páginas de la acusación constitucional en contra de Rabat, él la calificó de liviana. En minutos , ya tenía un veredicto \". El trámite continuará su curso el próximo lunes, fecha en que se dará cuenta del ingreso del libelo ante la Sala de la Cámara de Diputadas y Diputados y se sorteará a los cinco integrantes de la comisión revisora que evacuará el informe de admisibilidad.",
+          "description": "El Gobierno acusó este viernes \"falta de mérito\" en la acusación constitucional presentada por la oposición contra el ministro de Justicia, Fernando Rabat , volviendo a respaldar su actuar \"legal y constitucional\" frente a los cuestionamientos por su gestión. Desde el comité político del Ejecutivo salieron al paso del libelo presentado la noche previa por las bancadas opositoras, el cual busca destituir e inhabilitar a la autoridad cuestionando rebajas de condena otorgadas por decreto e interpelaciones ante comisiones legislativas. Previamente, en declaraciones de prensa, la vocería de Gobierno ya había calificado el escrito de 189 páginas como \"liviano y mal preparado\" . Durante una vocería ofrecida en el Palacio de La Moneda, el subsecretario y vocero de Gobierno, Gonzalo Arenas , reiteró que desde la administración del Presidente José Antonio Kast consideran que \"el ministro Rabat no cometió ningún hecho ilegal y tampoco inconstitucional \" . Desde la sede de Gobierno, el vocero Gonzalo Arenas remarcó que Rabat \"cumplió con la Constitución y la ley\". (FOTO: ATON) Según su opinión, \"por el contrario, cumplió con la Constitución y la ley y , por tanto , esa acusación constitucional , a nuestro juicio , no cumple con ninguno de los requisitos necesarios para ser una acusación constitucional que se pueda votar a favor \". \"Nosotros estamos conversando con todas las bancadas que apoyan al Gobierno, estamos buscando y explicando por qué esta acusación constitucional es improcedente y no cumple con los requisitos constitucionales \", enfatizó Arenas, que pese a tener que esperar los argumentos en la instancia, señaló que están \" convencidos que se va a rechazar por la falta de mérito que tiene esta acusación \". El jefe de bancada de Renovación Nacional, diputado Diego Schalper, se sumó a las críticas y apuntó: \"Yo he visto acusaciones deslucidas, acusaciones muy deslucidas, y la que hemos conocido el día de ayer, que se presenta, entregada a medianoche\". \"Si la oposición quiere hacer del conflicto político la dinámica, allá ellos. Nosotros tenemos cosas demasiado importantes de las cuales preocuparnos , pero tengo la impresión de que la oposición, a medida que los días avanzan, ellos mismos se dan cuenta que tienen tan poco mérito jurídico \", aseveró. Contenido del libelo opositor La arremetida parlamentaria contra Rabat ingresó al Congreso tras intensas negociaciones entre bancadas y revisiones legales. El texto sostiene que el titular de Justicia vulneró la Constitución y las leyes en el otorgamiento de beneficios carcelarios y en sus posteriores exposiciones ante el Poder Legislativo . El primer capítulo del documento impugna los beneficios otorgados a 56 personas sentenciadas por delitos sexuales contra niños , niñas y adolescentes , alegando que una ley aprobada en 2022 las excluía explícitamente y que el ministro generalizó criterios de fallos judiciales sin órdenes individuales. El Palacio de La Moneda desplegó una cerrada defensa en favor del ministro de Justicia, Fernando Rabat, tras la presentación del libelo acusatorio en el Congreso Nacional. (FOTO: ATON) El segundo capítulo cuestiona rebajas concedidas a exagentes estatales condenados por crímenes de lesa humanidad que recuperaron la libertad, mientras que el tercer apartado apunta a las explicaciones que entregó ante las comisiones de Constitución del Senado y de la Cámara Baja . Oposición reacciona a los dichos del vocero de Gobierno El blindaje de La Moneda generó molestia en los parlamentarios firmantes de la acusación, quienes desestimaron los cuestionamientos de Arenas y aseguraron que el documento no responde a discrepancias políticas , sino a hechos acreditados en decretos y fallos judiciales . La diputada frenteamplista Emilia Schneider señaló que \"llama la atención la rapidez de la lectura del vocero de Gobierno\", advirtiendo que \" le parece que esto más bien responde a cuñas que estaban preparadas para intentar desviar el foco de la atención que hoy debe estar puesta : en las víctimas y en los responsables de las decisiones que se tomaron \". \" La acusación constitucional que presentamos ayer tiene un robusto fundamento \", aseveró la parlamentaria. \"(El libelo) parte de la premisa de que el ministro actuó fuera de la ley , porque, tal como dice el artículo 7 de la Constitución, ninguna autoridad puede actuar más allá de las atribuciones que les da la ley. Y la ley es clara: no procede en caso alguno rebaja de penas a agresores sexuales de niños y niñas, y este Gobierno lo hizo de igual manera. Y no le echen la culpa a los tribunales, porque ese es otro poder\", afirmó Schneider. \"Acá el ministro tiene que responder, también, porque cambió criterios técnicos históricos del Ministerio de Justicia; por ejemplo, en torno a derechos humanos . Y para defender todo esto, el ministro Rabat fue al Congreso, a la Cámara de Diputados y Diputadas, a mentir \", añadió. En respuesta a la postura del Ejecutivo, la diputada Emilia Schneider sostuvo que el libelo acusatorio \"tiene un robusto fundamento\". (FOTO: ATON) En esta línea, su par socialista Daniel Manouchehri arremetió contra Arenas y le dijo que \" debe dejar la charlatanería y ponerse serio . Apenas presentamos las 189 páginas de la acusación constitucional en contra de Rabat, él la calificó de liviana. En minutos , ya tenía un veredicto \". El trámite continuará su curso el próximo lunes, fecha en que se dará cuenta del ingreso del libelo ante la Sala de la Cámara de Diputadas y Diputados y se sorteará a los cinco integrantes de la comisión revisora que evacuará el informe de admisibilidad.",
           "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/gobierno-cerro-filas-en-defensa-de-rabat-y-acuso-falta-de-merito-en/2026-11-13/144816.html",
           "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261113/imag/foto_0000000520261113144816.png",
           "published_raw": "Fri, 13 Nov 2026 14:48:16 -0300",
@@ -203,15 +201,15 @@
           "score_institutional": 11,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
+          "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 1,
           "score_actor": 4,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 16,
+          "political_evidence": 17,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
           "cluster_id": "PML-EVENT-001"
@@ -276,131 +274,23 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-016",
-      "title": "La caravana migrante que cruza México y agita la amenaza de aranceles de Trump: “Nuestro terror es que la presidenta nos regrese”",
-      "url": "https://elpais.com/mexico/2026-11-13/la-caravana-migrante-que-cruza-mexico-nuestro-terror-es-que-la-presidenta-diga-no-me-conviene-que-suban-los-aranceles-y-nos-regrese.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "DIPLOMATIC_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "No identificado / Internacional / México / América Latina"
-      },
-      "relevance": {
-        "score": 57.8,
-        "level": "MEDIA",
-        "editorial_utility": 53.8
-      },
-      "selection": {
-        "reason": "PML 57.8; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 2,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-12T11:53:36-0300",
-      "last_seen": "2026-11-13T06:30:00-0300",
-      "entities": [
-        "trump",
-        "mexico",
-        "sheinbaum"
-      ],
-      "event_terms": [
-        "aranceles",
-        "eleccion"
-      ],
-      "analysis": {
-        "summary": "El presidente advierte, tras sufrir un revés electoral, que “enormes caravanas” de inmigrantes viajan hacia Estados Unidos para entrar ilegalmente en el país",
-        "why_it_matters": "Es relevante porque involucra relaciones entre gobiernos o instituciones internacionales y puede derivar en nuevas decisiones diplomáticas. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional / México / América Latina.",
-        "watch_next": [
-          "Comunicados, reuniones o decisiones oficiales posteriores de los gobiernos e instituciones involucradas.",
-          "Acuerdos, sanciones, resoluciones o medidas diplomáticas formalmente anunciadas.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Trump amenaza con duplicar los aranceles a México si no endurece la frontera",
-          "description": "El presidente advierte, tras sufrir un revés electoral, que “enormes caravanas” de inmigrantes viajan hacia Estados Unidos para entrar ilegalmente en el país",
-          "url": "https://elpais.com/us/2026-11-12/trump-amenaza-con-duplicar-los-aranceles-a-mexico-si-no-endurece-la-frontera.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/MV6ICCSCBRAJ3GHIDNI45ZG4RQ.JPG?auth=9de9e1a7daf05c88e0b7b44dde2ad810901e5c4434e42e2839ff6e76dd87645f",
-          "published_raw": "Thu, 12 Nov 2026 14:53:36 GMT",
-          "published_at": "2026-11-12T11:53:36-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-016"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "La caravana migrante que cruza México y agita la amenaza de aranceles de Trump: “Nuestro terror es que la presidenta nos regrese”",
-          "description": "El republicano avisa a Sheinbaum de que duplicará las tasas comerciales si no detiene a las 1.500 personas que caminan hacia Estados Unidos",
-          "url": "https://elpais.com/mexico/2026-11-13/la-caravana-migrante-que-cruza-mexico-nuestro-terror-es-que-la-presidenta-diga-no-me-conviene-que-suban-los-aranceles-y-nos-regrese.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/QBZIYMZNLNO7BE64HDXUUV5TIY.jpg?auth=d737b0cba2a90efd808f1192f187d4c37a51fc6ebfa7c6ba0c5517612f45910a",
-          "published_raw": "Fri, 13 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-13T06:30:00-0300",
-          "country": "México",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-016"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-019",
-      "title": "“Los parches no funcionan”: el Gobierno de EE UU culpa al “anticuado” sistema de control aéreo por la suspensión de vuelos",
-      "url": "https://elpais.com/us/2026-11-14/los-parches-no-funcionan-el-gobierno-de-ee-uu-culpa-al-anticuado-sistema-de-control-aereo-por-la-suspension-de-vuelos.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-006",
+      "title": "Mirosevic acudirá al Consejo para la Transparencia por los decretos entregados por el Gobierno",
+      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/mirosevic-acudira-al-consejo-para-la-transparencia-por-los-decretos/2026-11-14/134100.html",
+      "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 56.3,
+        "score": 56.7,
         "level": "MEDIA",
-        "editorial_utility": 50.3
+        "editorial_utility": 52.7
       },
       "selection": {
-        "reason": "PML 56.3; fallback editorial controlado; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 56.7; fallback editorial controlado; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -408,15 +298,15 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-14T00:54:05-0300",
-      "last_seen": "2026-11-14T00:54:05-0300",
-      "entities": "congreso",
-      "event_terms": [],
+      "first_seen": "2026-11-14T13:41:00-0300",
+      "last_seen": "2026-11-14T13:41:00-0300",
+      "entities": "senado",
+      "event_terms": "oposicion",
       "analysis": {
-        "summary": "El secretario de Transporte, Sean Duffy, ha exigido al Congreso al menos 30.000 millones de dólares para actualizar los mecanismos actuales: “Es una cuestión de seguridad nacional”",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "El senador Vlado Mirosevic (PL) , presidente de la Comisión de Constitución de la Cámara Alta, confirmó que recurrirá al Consejo para la Transparencia tras la entrega de los decretos relacionados a las rebajas de condenas firmados por el Ministerio de Justicia, los que llegaron en estado reservado.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -426,38 +316,114 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "“Los parches no funcionan”: el Gobierno de EE UU culpa al “anticuado” sistema de control aéreo por la suspensión de vuelos",
-          "description": "El secretario de Transporte, Sean Duffy, ha exigido al Congreso al menos 30.000 millones de dólares para actualizar los mecanismos actuales: “Es una cuestión de seguridad nacional”",
-          "url": "https://elpais.com/us/2026-11-14/los-parches-no-funcionan-el-gobierno-de-ee-uu-culpa-al-anticuado-sistema-de-control-aereo-por-la-suspension-de-vuelos.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/EYVIQN5S2NMLHMSUXYVAJCEW4M.jpg?auth=0092ab60097601f94450d8f328ba98193a36382eff0e8a836a3bd2e2b4baea32",
-          "published_raw": "Sat, 14 Nov 2026 03:54:05 GMT",
-          "published_at": "2026-11-14T00:54:05-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Mirosevic acudirá al Consejo para la Transparencia por los decretos entregados por el Gobierno",
+          "description": "El senador Vlado Mirosevic (PL) , presidente de la Comisión de Constitución de la Cámara Alta, confirmó que recurrirá al Consejo para la Transparencia tras la entrega de los decretos relacionados a las rebajas de condenas firmados por el Ministerio de Justicia, los que llegaron en estado reservado. La cartera entregó esta semana más de 300 decretos relacionados a la disminución de penas , correspondientes al período 2022-2026 , de los que 17 llevan la firma del ministro Fernando Rabat y no fueron precedidos por un fallo de la Corte Suprema. La Comisión solicitó estos documentos para avanzar en la discusión de los proyectos que buscan modificar el sistema de rebajas de condena. El senador Mirosevic señaló que \"el ministro Rabat se demoró 20 y tantos días en entregarnos los decretos. No hay una justificación técnica para tanta demora. Los decretos estaban en los computadores del ministerio, ¿por qué se demoraron tanto? \". \"Pero una vez que los entregaron, lo entregaron calificándolos de reservado . Y nosotros tenemos que recibirlo en el Senado y no los podemos recalificar, porque eso depende de quién lo entrega\", acusó. En esa línea, aseguró que \"el día lunes vamos a recurrir al Consejo para la Transparencia para que se pronuncie sobre si es correcto o no la calificación de reservado, porque los nombres de las víctimas en los documentos vienen tachados, por lo tanto, ya está resguardada\". La situación se enmarca en la discusión de la acusación constitucional contra el ministro Rabat por la oposición, presentada esta semana. Asimismo, una investigación del medio Reportea  reveló que el secretario de Estado les redujo la condena a tres violadores de los derechos humanos durante la dictadura; mientras, en el Gobierno de Sebastián Piñera, el entonces ministro de Justicia Hernán Larraín firmó la rebaja de condena a al menos otros 19 criminales.",
+          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/mirosevic-acudira-al-consejo-para-la-transparencia-por-los-decretos/2026-11-14/134100.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261114/imag/foto_0000000220261114134100.jpg",
+          "published_raw": "Sat, 14 Nov 2026 13:41:00 -0300",
+          "published_at": "2026-11-14T13:41:00-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 8,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 1,
+          "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 0,
+          "score_actor": 4,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 12,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
+          "secondary_topic": null,
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-006"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-004",
+      "title": "Presupuesto: Senado se alista para un arduo debate tras polémicos desfinanciamientos",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/presupuesto-senado-se-alista-para-un-arduo-debate-tras-polemicos/2026-11-14/134528.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 56.2,
+        "level": "MEDIA",
+        "editorial_utility": 49.2
+      },
+      "selection": {
+        "reason": "PML 56.2; fallback editorial controlado; diversidad relajada para completar el brief",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-14T13:45:28-0300",
+      "last_seen": "2026-11-14T13:45:28-0300",
+      "entities": [
+        "senado",
+        "chile"
+      ],
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "El Senado se prepara para un arduo debate luego de recibir, desde la Cámara de Diputados, el proyecto de Presupuesto 2027, que arribó con siete partidas rechazadas   sumado a polémicas por el desfinanciamiento a los sitios de memoria, la baja de recursos para subsidiar el empleo y los recortes a programas sociales.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Presupuesto: Senado se alista para un arduo debate tras polémicos desfinanciamientos",
+          "description": "El Senado se prepara para un arduo debate luego de recibir, desde la Cámara de Diputados, el proyecto de Presupuesto 2027, que arribó con siete partidas rechazadas   sumado a polémicas por el desfinanciamiento a los sitios de memoria, la baja de recursos para subsidiar el empleo y los recortes a programas sociales. La Cámara Alta visará entre el martes y el jueves las 27 partidas que ya fueron aprobadas, así como también las otras -correspondientes a Interior, Educación, Segegob, Minería, Mujer, Cultura y Ciencia- que fueron rechazadas y que no cuentan con recursos.  Esto, ya que entre el pleno de los diputados  se generaron discrepancias en el financiamiento de organismos como el Instituto Nacional de Deportes, Senadis, el Servicio de Protección Especializada a la Niñez y Adolescencia, el Serviu de Tarapacá y la Subsecretaría del Ministerio del Trabajo. También se suman cuestionamientos a instituciones como Aduanas, Senapred, el Servicio Agrícola y Ganadero y la Dirección del Trabajo; todo sin mencionar el controversial recorte al programa educativo \"Yo Elijo mi PC\". [Lea también]  PS exige que Kast controle a la \"patota\" republicana en la Cámara En este escenario, el senador comunista Daniel Núñez dijo a Cooperativa que \"hay que jugársela para que haya un presupuesto que resuelva los problemas sociales más urgentes que vive la población, por ejemplo, en materia de empleo. Vamos a exigir que haya más inversión pública\". \"Se han paralizado una gran cantidad de obras públicas muy importantes que generan empleo, así que nos parece que es un tema clave en el proyecto todo lo que tiene que ver con la creación de trabajo\", defendió. El parlamentario criticó también el desfinanciamiento a seis sitios de memoria, cuyos recursos quedaron reducidos a mil pesos, y acusó la existencia de una mirada \"negacionista\" por parte de la derecha.  Desde ese sector, en tanto, el senador UDI y vicepresidente del Senado, Iván Moreira,  recriminó que \"la oposición en Chile es obstructiva, traba y constantemente quiere propinarle golpes al Gobierno, pero esperamos que aquellos líderes serios que existen tengan la capacidad de poder controlar una discusión de una ley tan importante como esta\". Los expertos y su moderado optimismo en cuanto a la aprobación de las glosas faltantes Sin embargo, desde el mundo experto guardan cierto optimismo sobre el resultado del debate parlamentario. El analista político Germán Silva  abordó algunas concesiones que puede hacer el Ejecutivo para llegar a un acuerdo con la oposición senatorial. \"Creo que en el caso de Educación el Gobierno va a reponer Yo elijo mi PC. En el caso de Interior, (lo hará con) la partida de Senapred, que venía con un recorte muy importante; y también seguramente va a estar (solucionada) la glosa de Cultura y Memoria\", sostuvo. \"Sin embargo, tengo la impresión que en el caso del aporte al Fondo Autónomo de Protección Previsional (FAPP) va a haber ahí una controversia importante; se da justamente en un momento en que hubo una pérdida significativa del fondo E\", indicó Silva. El economista Carlos Smith, en tanto, abordó el rechazo que la Cámara dio a la autorización de endeudamiento del Gobierno -lo que deberá ser visado también por el Senado- y, si bien calificó de \"responsable\" el gasto fiscal contemplado en el Presupuesto 2027, reconoció que es frágil en expectativas financieras, sobre todo con el acuerdo alcanzado para acabar con el paro de los camioneros.  \"Desde el punto de vista de la dirección, (el gasto fiscal proyectado para el próximo año) es bastante responsable. Está creciendo un 1,5% anual en términos reales, lo que es muy distinto a lo que creció en promedio en la última década, que era el 5%\", dijo el académico UDD. \"Sí hay que reconocer que es frágil desde el punto de vista de los supuestos, porque supone que el próximo año vamos a crecer un 3,3%, lo cual no es fácil de lograr. Y el problema principal de todo esto es que hay otros compromisos, por ejemplo, que ya se agregaron y que no estaban en la agenda, que es el compromiso con los camioneros, que va a significar un gasto importante\",  afirmó.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/presupuesto-senado-se-alista-para-un-arduo-debate-tras-polemicos/2026-11-14/134528.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261114/imag/foto_0000000220261114134528.png",
+          "published_raw": "Sat, 14 Nov 2026 13:45:28 -0300",
+          "published_at": "2026-11-14T13:45:28-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 3,
+          "score_ideology": 2,
+          "score_actor": 3,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 14,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-004"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-005",
+      "cluster_id": "PML-EVENT-008",
       "title": "Oposición levantó veto al jefe de la Dipres en la Cámara",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/oposicion-levanto-veto-al-jefe-de-la-dipres-en-la-camara/2026-11-12/162201.html",
       "representative_source": "Cooperativa",
@@ -468,12 +434,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 53.2,
-        "level": "MEDIA",
-        "editorial_utility": 45.2
+        "score": 50.2,
+        "level": "BAJA",
+        "editorial_utility": 42.2
       },
       "selection": {
-        "reason": "PML 53.2; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 50.2; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -524,7 +490,7 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-005"
+          "cluster_id": "PML-EVENT-008"
         }
       ]
     }
@@ -537,6 +503,78 @@
     "stories": [
       {
         "position": 1,
+        "cluster_id": "PML-EVENT-007",
+        "title": "Senador Núñez: El Gobierno no cuenta con los recursos para financiar acuerdo con camioneros",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/transportes/senador-nunez-el-gobierno-no-cuenta-con-los-recursos-para-financiar/2026-11-14/083158.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 55.5,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 55,
+            "freshness": 95,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 32
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-14T08:31:58-0300",
+        "last_seen": "2026-11-14T08:31:58-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Senador Núñez: El Gobierno no cuenta con los recursos para financiar acuerdo con camioneros",
+            "description": "El senador comunista Daniel Núñez acusó que el Gobierno no tiene los recursos necesarios para financiar el acuerdo con los camioneros -que contempla una rebaja de 142 pesos del diésel y el congelamiento de su valor hasta el 31 de marzo de 2027-, por lo que pidió a Hacienda postergar por un año la entrada en vigencia de la megarreforma. En conversación con El Diario de Cooperativa, el parlamentario discrepó de la versión del Ejecutivo de que dispone de los fondos requeridos: \"Sinceramente, creo que es todo lo contrario. Lo que ha hecho este Gobierno es tremendamente irresponsable, porque se ha dedicado a adoptar medidas que le bajan impuestos a los más ricos de Chile y por esa vía desfinancian al Estado\". \"Aquí las cosas hay que decirlas como son: La Moneda hoy no cuenta con recursos para financiar este acuerdo que firmó con los camioneros. Probablemente, el ministro (de Hacienda, Jorge) Quiroz va a tener que solicitar elevar más el endeudamiento en la discusión que nos queda del Presupuesto 2027, o va a transparentar que, probablemente, dejará de cubrir algunas de las demandas sociales\", criticó Núñez. \"El costo del acuerdo es muy importante: son 900 millones de dólares que no están contemplados en el debate (...). Entonces, creo que acá tenemos que adoptar una medida de emergencia que implique allegar nuevos recursos al Estado para que el 2027 podamos financiar este entendimiento, que es necesario (...). Lo mejor sería -y se lo vamos a proponer al ministro Quiroz una vez más- que se postergue por un año la entrada en vigencia de la megarreforma\", indicó el senador del PC. Presupuesto: Propondrán restituir recursos al subsidio al empleo y a sitios de memoria Respecto a la discusión del Presupuesto 2027 -proyecto que fue despachado al Senado con siete partidas rechazadas-, Núñez anticipó que la oposición propondrá \"aumentar los recursos al subsidio unificado al empleo, que caen un 50% en este erario\". \"O sea, esto es una locura: hay una crisis de empleo y el Gobierno baja los apoyos destinados a empresas privadas para que se motiven y tengan un incentivo para contratar más trabajadores. Es algo que no podemos comprender\", criticó. El parlamentario opositor también apuntó a una \"ofensiva negacionista\" como la causa que dejó a seis sitios de memoria sin financiamiento: \"Lo vimos encabezado con una crueldad inhumana de esta famosa diputada republicana (Javiera) Rodríguez, que lo que está haciendo es sencillamente desconocer las violaciones a los derechos humanos que hubo en Chile y los delitos de lesa humanidad bajo la dictadura\", acusó. \"Es algo que por supuesto rechazamos tajantemente y vamos a exigir que vía indicación del Gobierno se repongan todos esos recursos y se aumenten los destinados al Plan de Búsqueda\", cerró el senador comunista.",
+            "url": "https://www.cooperativa.cl/noticias/pais/transportes/senador-nunez-el-gobierno-no-cuenta-con-los-recursos-para-financiar/2026-11-14/083158.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261114/imag/foto_0000000220261114083158.png",
+            "published_raw": "Sat, 14 Nov 2026 08:31:58 -0300",
+            "published_at": "2026-11-14T08:31:58-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 4,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 3,
+            "score_ideology": 1,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 12,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-007"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 76.5
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
         "cluster_id": "PML-EVENT-003",
         "title": "Cámara Baja despachó Presupuesto 2027 con siete partidas rechazadas tras maratónica sesión",
         "topic": "Instituciones y gobierno",
@@ -548,11 +586,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 50.5,
+          "score": 46,
           "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 80,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 32
@@ -603,113 +641,13 @@
             "Estado e instituciones",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 68.5
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Oposición reflota tuits del \"candidato Kast\" contra Piñera y Boric ante viaje en pleno paro camionero",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/oposicion-reflota-tuits-del-candidato-kast-contra-pinera-y-boric-ante/2026-11-12/125216.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 46.2,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 54,
-            "freshness": 40,
-            "source_count": 32,
-            "geographic_scope": 55,
-            "continuity": 54
-          }
-        },
-        "coverage": {
-          "article_count": 2,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-11T22:54:55-0300",
-        "last_seen": "2026-11-12T12:52:16-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Oposición reflota tuits del \"candidato Kast\" contra Piñera y Boric ante viaje en pleno paro camionero",
-            "description": "La oposición arremetió este jueves contra el viaje del Presidente José Antonio Kast al continente asiático en medio de la crisis por el paro de transportistas , recordando que, durante su época de candidato, el Mandatario utilizó sus redes sociales para cuestionar a sus antecesores por realizar este tipo de giras durante situaciones complejas. La controversia se instaló ante la confirmación de que Kast partirá este viernes por la noche rumbo a una gira internacional por China , Japón y Vietnam , un escenario donde legisladores opositores recordaron la severidad con la que el entonces postulante a La Moneda criticaba a los expresidentes Sebastián Piñera y Gabriel Boric en episodios de similar complejidad nacional . \" No voy a recordar los tuits del candidato Kast criticando al presidente Piñera y Boric , (en los que los trataba) de cobardes , que no sabían , de que no viajen . Bueno, hágase cargo de su historia y su responsabilidad, porque uno lo quiera o no, el Presidente de Chile se llama José Antonio Kast y el llamado a solucionar los problemas es él mismo \", señaló el diputado socialista Raúl Leiva . Desde el Congreso acusaron una falta de coherencia frente a los cuestionamientos que en el pasado emitió contra Sebastián Piñera y Gabriel Boric por viajar durante situaciones complejas. (FOTO: ATON) Desde la bancada socialista apuntaron a la necesidad de mantener la coherencia política y asumir el liderazgo en la gestión directa para destrabar el conflicto que mantiene paralizados a los gremios del transporte terrestre. A la arremetida opositora se sumó el diputado y timonel del Partido por la Democracia (PPD) , Raúl Soto , quien remarcó que \"si el Presidente se quiere ir de gira internacional, que el ministro (de Hacienda, Jorge) Quiroz a lo menos dé la cara , encabece las negociaciones y que ponga sobre la mesa propuestas contundentes , que sean aceptadas por los gremios paralizados para que esta situación se solucione\". \" No entiende que ya no es candidato y ahora tiene que actuar , (cuando en su momento afirmó) que un Presidente, cuando tenía un paro o una movilización, no podía salir del territorio\", complementó el diputado y timonel DC, Álvaro Ortiz . Dicho esto, el parlamentario ironizó que \"pareciera que a la ciudadanía le da lo mismo si está o no el Presidente: total cuando él está acá, sigue mandando Quiroz \". Pese a las críticas por su cambio de estándar respecto a su etapa de candidato, La Moneda ratificó que el viaje oficial a China, Japón y Vietnam se llevará a cabo. (FOTO: ATON) Tras los emplazamientos, el titular de la billetera fiscal se retiró de la tramitación de la Ley de Presupuestos en la sede legislativa para trasladarse a La Moneda e integrarse a las tratativas con los gremios movilizados . Pese al contraste expuesto por la oposición sobre los dichos del otrora candidato y actual Mandatario, el Ejecutivo descartó suspender la misión diplomática , ratificando como prioritaria su agenda internacional en el continente asiático. La defensa oficialista En el oficialismo, y después de que la presidenta del Senado, Paulina Núñez (RN), llamara al Gobierno a desactivar el conflicto antes de que Kast parta rumbo a Asia, el diputado y timonel UDI, Guillermo Ramírez , remarcó la importancia del viaje dada la compleja situación del país , que según el ministro Quiroz, está en recesión técnica . \"La APEC es probablemente la instancia de comercio internacional más importante del mundo, y dado que estamos en un momento económico delicado, me parecería desproporcionado suspender o no asistir a una reunión en donde estamos trabajando por tener más socios comerciales, lo que fortalece la economía chilena\", argumentó el líder gremialista. Con todo, \"está bien si el Presidente decide viajar, y si por alguna razón decidiera quedarse, no lo vamos a criticar\" , remató Ramírez. En la misma línea, Núñez dijo que, \"si se lleva a cabo la APEC, evidentemente que el Presidente tiene que estar con su delegación, pero el conflicto no aguanta más días ni más horas. Tiene que estar resuelto esto. No condicionaría al Mandatario, pero ojalá esto del paro se solucione en las próximas horas\". Por su parte, el diputado del Partido Republicano Stephan Schubert, también defendió la gira: \"Ir hoy día a señalar a los países en Oriente que vengan a invertir a Chile cuando estamos cambiando las reglas para flexibilizar la contratación laboral , cuando estamos cambiando las reglas de los mercados, eso tiene un sentido precisamente para revertir el desempleo que estamos sufriendo y la falta de dinamismo en la economía. Por lo tanto, es muy oportuno viajar\".",
-            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/oposicion-reflota-tuits-del-candidato-kast-contra-pinera-y-boric-ante/2026-11-12/125216.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000420261112125216.png",
-            "published_raw": "Thu, 12 Nov 2026 12:52:16 -0300",
-            "published_at": "2026-11-12T12:52:16-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 8,
-            "score_elections": 1,
-            "score_international": 1,
-            "score_conflict": 1,
-            "score_policy": 1,
-            "score_ideology": 1,
-            "score_actor": 8,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 21,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
-          },
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Presidenta del Senado pide solución al paro camionero antes del nuevo viaje de Kast",
-            "description": "La presidenta del Senado, Paulina Núñez (RN) , hizo votos por que el paro de los camioneros  que se inició el martes quede resuelto antes del nuevo viaje internacional de José Antonio Kast . El Mandatario parte el viernes a una gira por Asia que lo llevará a Vietnam, China y Japón , y evitando plantear que la suspenda debido a la crisis, la parlamentaria enfatizó la urgencia de que el Gobierno encuentre una solución pronta frente a la protesta de los transportistas de carga. \"Si se lleva a cabo la APEC, evidentemente que el Presidente tiene que estar con su delegación, porque es Chile el que tiene que estar. Pero el conflicto no aguanta más horas ni más días \", advirtió la senadora por Antofagasta. \" Tiene que estar resuelto esto -que no digo que condicione el viaje del Presidente; quiero ser muy clara en aquello-, pero por supuesto que esta situación, esta crisis, este problema, tiene que estar resuelto, ojalá, en las próximas horas \", remarcó Núñez, que es una de las figuras \"presidenciables\" de su partido. Siempre hay un tuit En el pasado hubo varias ocasiones en que el hoy Presidente Kast fustigó al entonces Jefe de Estado, Gabriel Boric , por sus salidas del país: por ejemplo, en medio del caso Fundaciones u otras coyunturas. En octubre de 2023, hace sólo tres años, Kast tuiteó: \" En medio de una grave crisis económica, un país en recesión y el desempleo al alza, el Presidente Boric se va de gira a China con seis ministros de Estado incluyendo a la vocera, ¿cómo se explica esto? ». ",
-            "url": "https://www.cooperativa.cl/noticias/pais/manifestaciones/presidenta-del-senado-pide-solucion-al-paro-camionero-antes-del-nuevo/2026-11-11/225455.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261111/imag/foto_0000000220261111225455.jpg",
-            "published_raw": "Wed, 11 Nov 2026 22:54:55 -0300",
-            "published_at": "2026-11-11T22:54:55-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 5,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 2,
-            "score_policy": 1,
-            "score_ideology": 0,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 13,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 19,
-          "labels": [
-            "Estado e instituciones",
-            "Elecciones y opinión pública"
-          ],
-          "chile_utility": 65.2
+          "chile_utility": 64
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-004",
+        "cluster_id": "PML-EVENT-005",
         "title": "PS exige que Kast controle a la \"patota\" republicana en la Cámara",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -720,11 +658,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 56,
+          "score": 52.2,
           "level": "MEDIA",
           "components": {
             "political_impact": 50,
-            "freshness": 95,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 30
@@ -764,7 +702,7 @@
             "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
+            "cluster_id": "PML-EVENT-005"
           }
         ],
         "article_count": 1,
@@ -772,7 +710,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 65
+          "chile_utility": 61.2
         },
         "repeated_in_general_top5": false
       }
@@ -781,40 +719,24 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 22,
-      "maximum_relevance": 63.7,
-      "leading_story": "El Tribunal Supremo accede a revisar la orden de Trump para prohibir el acceso al asilo en la frontera sur"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 2,
-      "maximum_relevance": 52.1,
-      "leading_story": "De campo de fútbol a base militar: Haití y El Salvador recapturan el principal estadio de Puerto Príncipe"
+      "event_count": 16,
+      "maximum_relevance": 62,
+      "leading_story": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 2,
-      "maximum_relevance": 46.9,
-      "leading_story": "Lula viaja a Madrid para hacer campaña con Sánchez tras su remontada en Brasil"
-    },
-    {
-      "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 41.2,
-      "leading_story": "Oposición repudia \"grave falta de respeto\" de diputada republicana que arremetió contra DD.HH."
+      "maximum_relevance": 32.8,
+      "leading_story": "Burlas con IA, injerencias rusas y extremismo: campañas tóxicas al servicio de los algoritmos"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-010", "PML-EVENT-016", "PML-EVENT-019"],
-      "exited_top5": ["PML-EVENT-008", "PML-EVENT-014", "PML-EVENT-017"],
-      "retained_top5": ["PML-EVENT-001", "PML-EVENT-005"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
-    "source_count": 3
+    "representative_sources": ["EL PAÍS", "Cooperativa"],
+    "source_count": 2
   },
   "system": {
     "collection_status": "completed",
