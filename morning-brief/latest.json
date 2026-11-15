@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-14",
-    "data_latest_timestamp": "2026-11-14T14:23:22-0300",
-    "data_age_hours": 7.5,
-    "generated_at": "2026-11-14T21:53:49-0300",
+    "date": "2026-11-15",
+    "data_latest_timestamp": "2026-11-15T06:30:00-0300",
+    "data_age_hours": 1,
+    "generated_at": "2026-11-15T07:32:45-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,39 +16,39 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 25 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 23 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 2 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 25,
+    "ranked_events": 23,
     "topics": 1,
-    "geographies": 2,
+    "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 56.8,
-    "maximum_relevance": 62
+    "average_top5_relevance": 55.7,
+    "maximum_relevance": 63.4
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-016",
-      "title": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia",
-      "url": "https://elpais.com/internacional/2026-11-14/zelenski-asegura-que-ee-uu-sugiere-admitir-a-ucrania-en-la-otan-a-cambio-de-entregar-el-donbas-a-rusia.html",
+      "cluster_id": "PML-EVENT-014",
+      "title": "El Gobierno de México mira hacia China bajo la vigilancia incómoda de Estados Unidos",
+      "url": "https://elpais.com/mexico/2026-11-15/el-gobierno-de-mexico-mira-hacia-china-bajo-la-vigilancia-incomoda-de-estados-unidos.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "POLITICAL_STATEMENT",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "Internacional",
-        "country": "No identificado / Internacional"
+        "group": "América Latina",
+        "country": "México / América Latina"
       },
       "relevance": {
-        "score": 62,
+        "score": 63.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 62
+        "editorial_utility": 63.4
       },
       "selection": {
-        "reason": "PML 62",
+        "reason": "PML 63.4",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -58,17 +58,17 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-14T12:09:29-0300",
-      "last_seen": "2026-11-14T12:09:29-0300",
+      "first_seen": "2026-11-15T06:30:00-0300",
+      "last_seen": "2026-11-15T06:30:00-0300",
       "entities": [
-        "ucrania",
-        "otan",
-        "rusia"
+        "mexico",
+        "sheinbaum",
+        "trump"
       ],
       "event_terms": [],
       "analysis": {
-        "summary": "El presidente ucranio descarta esa posibilidad que, afirma, debería ser sometida a referéndum en caso de concretarse una oferta",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "La presidenta Sheinbaum tiene agendada una reunión con su par chino, Xi Jinping, en plena disputa comercial entre Pekín y Washington y bajo las amenazas arancelarias de Trump",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en México / América Latina.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -80,16 +80,16 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia",
-          "description": "El presidente ucranio descarta esa posibilidad que, afirma, debería ser sometida a referéndum en caso de concretarse una oferta",
-          "url": "https://elpais.com/internacional/2026-11-14/zelenski-asegura-que-ee-uu-sugiere-admitir-a-ucrania-en-la-otan-a-cambio-de-entregar-el-donbas-a-rusia.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/NCAEFTLE25PHBGDAG6EXFOJH2Q.jpg?auth=05ce68db5c48d423ebe6c9ce20fcafeb36d837e0c2d4a2ee6a8d3e3eaccbb261",
-          "published_raw": "Sat, 14 Nov 2026 15:09:29 GMT",
-          "published_at": "2026-11-14T12:09:29-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "title": "El Gobierno de México mira hacia China bajo la vigilancia incómoda de Estados Unidos",
+          "description": "La presidenta Sheinbaum tiene agendada una reunión con su par chino, Xi Jinping, en plena disputa comercial entre Pekín y Washington y bajo las amenazas arancelarias de Trump",
+          "url": "https://elpais.com/mexico/2026-11-15/el-gobierno-de-mexico-mira-hacia-china-bajo-la-vigilancia-incomoda-de-estados-unidos.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/H3O4RZHDIBA2HLCBKFWPH4PV5U.jpeg?auth=0d3811876d762d37c626d48e83a7095d81eabfc85c7912fa46943b35d0ee0689",
+          "published_raw": "Sun, 15 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-15T06:30:00-0300",
+          "country": "México",
+          "region": "América Latina",
           "language": "es",
-          "score_institutional": 1,
+          "score_institutional": 2,
           "score_elections": 0,
           "score_international": 1,
           "score_conflict": 0,
@@ -98,17 +98,167 @@
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 4,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-016"
+          "cluster_id": "PML-EVENT-014"
         }
       ]
     },
     {
       "position": 2,
+      "cluster_id": "PML-EVENT-017",
+      "title": "Cuba al final de Trump",
+      "url": "https://elpais.com/america/2026-11-15/cuba-al-final-de-trump.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / América Latina"
+      },
+      "relevance": {
+        "score": 55.3,
+        "level": "MEDIA",
+        "editorial_utility": 55.3
+      },
+      "selection": {
+        "reason": "PML 55.3; fallback editorial controlado; aporta diversidad geográfica",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-15T06:30:00-0300",
+      "last_seen": "2026-11-15T06:30:00-0300",
+      "entities": [
+        "trump",
+        "iran",
+        "venezuela"
+      ],
+      "event_terms": "guerra",
+      "analysis": {
+        "summary": "Conforme se consolida el rechazo a la guerra en Irán y se rutiniza el entendimiento con el gobierno de Venezuela, la última carta de Washington es La Habana",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Cuba al final de Trump",
+          "description": "Conforme se consolida el rechazo a la guerra en Irán y se rutiniza el entendimiento con el gobierno de Venezuela, la última carta de Washington es La Habana",
+          "url": "https://elpais.com/america/2026-11-15/cuba-al-final-de-trump.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/KP5WVHW4NQBQRABGJX7XUKN7VE.jpg?auth=c7d1bd97267a85f35a8a48e3e9fbc14599c1d23a86c4410f14ba93e004afe655",
+          "published_raw": "Sun, 15 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-15T06:30:00-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 1,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-017"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-012",
+      "title": "Cien días de la Patria Milagro de De la Espriella: del protagonismo de la seguridad al déficit fiscal como amenaza",
+      "url": "https://elpais.com/america-colombia/2026-11-15/cien-dias-de-la-patria-milagro-la-seguridad-vuelve-a-ser-protagonista-pero-con-el-deficit-fiscal-como-amenaza.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Colombia / América Latina"
+      },
+      "relevance": {
+        "score": 55.1,
+        "level": "MEDIA",
+        "editorial_utility": 49.1
+      },
+      "selection": {
+        "reason": "PML 55.1; fallback editorial controlado; diversidad relajada para completar el brief",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-15T06:30:00-0300",
+      "last_seen": "2026-11-15T06:30:00-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "El presidente mantiene su popularidad promoviendo los operativos militares y con la incertidumbre de cuadrar las cuentas tras el desequilibro del Gobierno de Petro",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Cien días de la Patria Milagro de De la Espriella: del protagonismo de la seguridad al déficit fiscal como amenaza",
+          "description": "El presidente mantiene su popularidad promoviendo los operativos militares y con la incertidumbre de cuadrar las cuentas tras el desequilibro del Gobierno de Petro",
+          "url": "https://elpais.com/america-colombia/2026-11-15/cien-dias-de-la-patria-milagro-la-seguridad-vuelve-a-ser-protagonista-pero-con-el-deficit-fiscal-como-amenaza.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/DMJCVR26OFHEJMYXB6P3D2AKKU.jpg?auth=b6dfb3a927448050967b9efb6530d0a2df013c4fef6ec19465ab238846c0e10d",
+          "published_raw": "Sun, 15 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-15T06:30:00-0300",
+          "country": "Colombia",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 2,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-012"
+        }
+      ]
+    },
+    {
+      "position": 4,
       "cluster_id": "PML-EVENT-001",
       "title": "Gobierno cerró filas en defensa de Rabat y acusó \"falta de mérito\" en acusación constitucional",
       "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/gobierno-cerro-filas-en-defensa-de-rabat-y-acuso-falta-de-merito-en/2026-11-13/144816.html",
@@ -120,12 +270,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 59.1,
-        "level": "MEDIA",
-        "editorial_utility": 62.1
+        "score": 51.1,
+        "level": "BAJA",
+        "editorial_utility": 45.1
       },
       "selection": {
-        "reason": "PML 59.1; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 51.1; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -273,24 +423,24 @@
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-006",
-      "title": "Mirosevic acudirá al Consejo para la Transparencia por los decretos entregados por el Gobierno",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/mirosevic-acudira-al-consejo-para-la-transparencia-por-los-decretos/2026-11-14/134100.html",
-      "representative_source": "Cooperativa",
+      "position": 5,
+      "cluster_id": "PML-EVENT-018",
+      "title": "“El idilio de los medios con Trump ha acabado”: la victoria demócrata cambia las reglas de la prensa de Washington",
+      "url": "https://elpais.com/us/2026-11-15/el-idilio-de-los-medios-con-trump-ha-acabado-la-victoria-democrata-cambia-las-reglas-de-la-prensa-de-washington.html",
+      "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "Chile",
-        "country": "Chile"
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 56.7,
+        "score": 53.5,
         "level": "MEDIA",
-        "editorial_utility": 52.7
+        "editorial_utility": 42.5
       },
       "selection": {
-        "reason": "PML 56.7; fallback editorial controlado; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 53.5; fallback editorial controlado; diversidad relajada para completar el brief",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -298,15 +448,15 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "Cooperativa"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-14T13:41:00-0300",
-      "last_seen": "2026-11-14T13:41:00-0300",
-      "entities": "senado",
-      "event_terms": "oposicion",
+      "first_seen": "2026-11-15T01:40:00-0300",
+      "last_seen": "2026-11-15T01:40:00-0300",
+      "entities": "trump",
+      "event_terms": "victoria",
       "analysis": {
-        "summary": "El senador Vlado Mirosevic (PL) , presidente de la Comisión de Constitución de la Cámara Alta, confirmó que recurrirá al Consejo para la Transparencia tras la entrega de los decretos relacionados a las rebajas de condenas firmados por el Ministerio de Justicia, los que llegaron en estado reservado.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "summary": "La debilidad del presidente tras el revés de las ‘midterms’ reabre el debate sobre cómo cubrir a un político que se nutre de la atención de una profesión a la que ataca constantemente",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -316,181 +466,32 @@
       },
       "articles": [
         {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Mirosevic acudirá al Consejo para la Transparencia por los decretos entregados por el Gobierno",
-          "description": "El senador Vlado Mirosevic (PL) , presidente de la Comisión de Constitución de la Cámara Alta, confirmó que recurrirá al Consejo para la Transparencia tras la entrega de los decretos relacionados a las rebajas de condenas firmados por el Ministerio de Justicia, los que llegaron en estado reservado. La cartera entregó esta semana más de 300 decretos relacionados a la disminución de penas , correspondientes al período 2022-2026 , de los que 17 llevan la firma del ministro Fernando Rabat y no fueron precedidos por un fallo de la Corte Suprema. La Comisión solicitó estos documentos para avanzar en la discusión de los proyectos que buscan modificar el sistema de rebajas de condena. El senador Mirosevic señaló que \"el ministro Rabat se demoró 20 y tantos días en entregarnos los decretos. No hay una justificación técnica para tanta demora. Los decretos estaban en los computadores del ministerio, ¿por qué se demoraron tanto? \". \"Pero una vez que los entregaron, lo entregaron calificándolos de reservado . Y nosotros tenemos que recibirlo en el Senado y no los podemos recalificar, porque eso depende de quién lo entrega\", acusó. En esa línea, aseguró que \"el día lunes vamos a recurrir al Consejo para la Transparencia para que se pronuncie sobre si es correcto o no la calificación de reservado, porque los nombres de las víctimas en los documentos vienen tachados, por lo tanto, ya está resguardada\". La situación se enmarca en la discusión de la acusación constitucional contra el ministro Rabat por la oposición, presentada esta semana. Asimismo, una investigación del medio Reportea  reveló que el secretario de Estado les redujo la condena a tres violadores de los derechos humanos durante la dictadura; mientras, en el Gobierno de Sebastián Piñera, el entonces ministro de Justicia Hernán Larraín firmó la rebaja de condena a al menos otros 19 criminales.",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/mirosevic-acudira-al-consejo-para-la-transparencia-por-los-decretos/2026-11-14/134100.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261114/imag/foto_0000000220261114134100.jpg",
-          "published_raw": "Sat, 14 Nov 2026 13:41:00 -0300",
-          "published_at": "2026-11-14T13:41:00-0300",
-          "country": "Chile",
-          "region": "Chile",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "“El idilio de los medios con Trump ha acabado”: la victoria demócrata cambia las reglas de la prensa de Washington",
+          "description": "La debilidad del presidente tras el revés de las ‘midterms’ reabre el debate sobre cómo cubrir a un político que se nutre de la atención de una profesión a la que ataca constantemente",
+          "url": "https://elpais.com/us/2026-11-15/el-idilio-de-los-medios-con-trump-ha-acabado-la-victoria-democrata-cambia-las-reglas-de-la-prensa-de-washington.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/CLLGFW7K7RJ5NPJG5SQ4I2W2GI.jpg?auth=e407e873664dd4fc1094548486865e74ad49acba101b6adde49c8994218a9fb1",
+          "published_raw": "Sun, 15 Nov 2026 04:40:00 GMT",
+          "published_at": "2026-11-15T01:40:00-0300",
+          "country": "No identificado",
+          "region": "Internacional",
           "language": "es",
-          "score_institutional": 8,
+          "score_institutional": 1,
           "score_elections": 0,
-          "score_international": 0,
+          "score_international": 1,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 4,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 12,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-006"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-004",
-      "title": "Presupuesto: Senado se alista para un arduo debate tras polémicos desfinanciamientos",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/presupuesto-senado-se-alista-para-un-arduo-debate-tras-polemicos/2026-11-14/134528.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 56.2,
-        "level": "MEDIA",
-        "editorial_utility": 49.2
-      },
-      "selection": {
-        "reason": "PML 56.2; fallback editorial controlado; diversidad relajada para completar el brief",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-14T13:45:28-0300",
-      "last_seen": "2026-11-14T13:45:28-0300",
-      "entities": [
-        "senado",
-        "chile"
-      ],
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "El Senado se prepara para un arduo debate luego de recibir, desde la Cámara de Diputados, el proyecto de Presupuesto 2027, que arribó con siete partidas rechazadas   sumado a polémicas por el desfinanciamiento a los sitios de memoria, la baja de recursos para subsidiar el empleo y los recortes a programas sociales.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Presupuesto: Senado se alista para un arduo debate tras polémicos desfinanciamientos",
-          "description": "El Senado se prepara para un arduo debate luego de recibir, desde la Cámara de Diputados, el proyecto de Presupuesto 2027, que arribó con siete partidas rechazadas   sumado a polémicas por el desfinanciamiento a los sitios de memoria, la baja de recursos para subsidiar el empleo y los recortes a programas sociales. La Cámara Alta visará entre el martes y el jueves las 27 partidas que ya fueron aprobadas, así como también las otras -correspondientes a Interior, Educación, Segegob, Minería, Mujer, Cultura y Ciencia- que fueron rechazadas y que no cuentan con recursos.  Esto, ya que entre el pleno de los diputados  se generaron discrepancias en el financiamiento de organismos como el Instituto Nacional de Deportes, Senadis, el Servicio de Protección Especializada a la Niñez y Adolescencia, el Serviu de Tarapacá y la Subsecretaría del Ministerio del Trabajo. También se suman cuestionamientos a instituciones como Aduanas, Senapred, el Servicio Agrícola y Ganadero y la Dirección del Trabajo; todo sin mencionar el controversial recorte al programa educativo \"Yo Elijo mi PC\". [Lea también]  PS exige que Kast controle a la \"patota\" republicana en la Cámara En este escenario, el senador comunista Daniel Núñez dijo a Cooperativa que \"hay que jugársela para que haya un presupuesto que resuelva los problemas sociales más urgentes que vive la población, por ejemplo, en materia de empleo. Vamos a exigir que haya más inversión pública\". \"Se han paralizado una gran cantidad de obras públicas muy importantes que generan empleo, así que nos parece que es un tema clave en el proyecto todo lo que tiene que ver con la creación de trabajo\", defendió. El parlamentario criticó también el desfinanciamiento a seis sitios de memoria, cuyos recursos quedaron reducidos a mil pesos, y acusó la existencia de una mirada \"negacionista\" por parte de la derecha.  Desde ese sector, en tanto, el senador UDI y vicepresidente del Senado, Iván Moreira,  recriminó que \"la oposición en Chile es obstructiva, traba y constantemente quiere propinarle golpes al Gobierno, pero esperamos que aquellos líderes serios que existen tengan la capacidad de poder controlar una discusión de una ley tan importante como esta\". Los expertos y su moderado optimismo en cuanto a la aprobación de las glosas faltantes Sin embargo, desde el mundo experto guardan cierto optimismo sobre el resultado del debate parlamentario. El analista político Germán Silva  abordó algunas concesiones que puede hacer el Ejecutivo para llegar a un acuerdo con la oposición senatorial. \"Creo que en el caso de Educación el Gobierno va a reponer Yo elijo mi PC. En el caso de Interior, (lo hará con) la partida de Senapred, que venía con un recorte muy importante; y también seguramente va a estar (solucionada) la glosa de Cultura y Memoria\", sostuvo. \"Sin embargo, tengo la impresión que en el caso del aporte al Fondo Autónomo de Protección Previsional (FAPP) va a haber ahí una controversia importante; se da justamente en un momento en que hubo una pérdida significativa del fondo E\", indicó Silva. El economista Carlos Smith, en tanto, abordó el rechazo que la Cámara dio a la autorización de endeudamiento del Gobierno -lo que deberá ser visado también por el Senado- y, si bien calificó de \"responsable\" el gasto fiscal contemplado en el Presupuesto 2027, reconoció que es frágil en expectativas financieras, sobre todo con el acuerdo alcanzado para acabar con el paro de los camioneros.  \"Desde el punto de vista de la dirección, (el gasto fiscal proyectado para el próximo año) es bastante responsable. Está creciendo un 1,5% anual en términos reales, lo que es muy distinto a lo que creció en promedio en la última década, que era el 5%\", dijo el académico UDD. \"Sí hay que reconocer que es frágil desde el punto de vista de los supuestos, porque supone que el próximo año vamos a crecer un 3,3%, lo cual no es fácil de lograr. Y el problema principal de todo esto es que hay otros compromisos, por ejemplo, que ya se agregaron y que no estaban en la agenda, que es el compromiso con los camioneros, que va a significar un gasto importante\",  afirmó.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/presupuesto-senado-se-alista-para-un-arduo-debate-tras-polemicos/2026-11-14/134528.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261114/imag/foto_0000000220261114134528.png",
-          "published_raw": "Sat, 14 Nov 2026 13:45:28 -0300",
-          "published_at": "2026-11-14T13:45:28-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 3,
-          "score_ideology": 2,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 14,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-008",
-      "title": "Oposición levantó veto al jefe de la Dipres en la Cámara",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/oposicion-levanto-veto-al-jefe-de-la-dipres-en-la-camara/2026-11-12/162201.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 50.2,
-        "level": "BAJA",
-        "editorial_utility": 42.2
-      },
-      "selection": {
-        "reason": "PML 50.2; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-12T16:22:01-0300",
-      "last_seen": "2026-11-12T16:22:01-0300",
-      "entities": [],
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "Luego de la entrega -por parte del Ministerio de Justicia a la Comisión de Constitución- de los decretos que rebajaron condenas a pedófilos, la oposición decidió autorizar la entrada a la Sala de la Cámara del director de Presupuestos, José Pablo Gómez, para la discusión del erario 2027. De acuerdo con La Tercera, el presidente de la Cámara de Diputados, Jorge Alessandri (UDI), informó que los comités autorizarán este jueves el ingreso.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Oposición levantó veto al jefe de la Dipres en la Cámara",
-          "description": "Luego de la entrega -por parte del Ministerio de Justicia a la Comisión de Constitución- de los decretos que rebajaron condenas a pedófilos, la oposición decidió autorizar la entrada a la Sala de la Cámara del director de Presupuestos, José Pablo Gómez, para la discusión del erario 2027. De acuerdo con La Tercera, el presidente de la Cámara de Diputados, Jorge Alessandri (UDI), informó que los comités autorizarán este jueves el ingreso. Lo mismo ratificó el secretario general de la Cámara, Miguel Landeros:  \"Los comités acordaron autorizar, en los términos que ha señalado el señor presidente, al señor director de presupuestos a la sala de la corporación durante la discusión de la Ley de Presupuestos, cuando no se encuentre presente el señor ministro de Hacienda\", dijo. La oposición no concedía la unanimidad para admitir la presencia en la sala del jefe de la Dipres en señal de protesta por la mantención del ministro de Justicia, Fernando Rabat, en el cargo. Según informó el diputado Raúl Leiva (PS), en representación de los demás cómites de la oposición, la medida se iba a mantener mientras no se entregaran desde Justicia la información sobre los decretos de rebaja de condenas, hecho que se cumplió el miércoles. \"Agradeciendo la concomitancia que tuvieron los comités en permitir el ingreso de la Dipres a la Sala, el señor (Jorge) Quiroz ordenó que esos decretos se ingresaran y llegaron acá antes de las 12:00 horas, permitiendo el ejercicio de la función fiscalizadora de la Cámara de Diputados , que lamentablemente obstruyó y negó el ministro Rabat durante más de 20 días\" , puntualizó el parlamentario. [Lea también]  Cámara rechazó la partida de Educación y Quiroz ofreció una alternativa a \"Yo Elijo Mi PC\"",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/oposicion-levanto-veto-al-jefe-de-la-dipres-en-la-camara/2026-11-12/162201.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000220261112162201.png",
-          "published_raw": "Thu, 12 Nov 2026 16:22:01 -0300",
-          "published_at": "2026-11-12T16:22:01-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 4,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 12,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-018"
         }
       ]
     }
@@ -503,7 +504,80 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-007",
+        "cluster_id": "PML-EVENT-003",
+        "title": "Presupuesto: Senado se alista para un arduo debate tras polémicos desfinanciamientos",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/presupuesto-senado-se-alista-para-un-arduo-debate-tras-polemicos/2026-11-14/134528.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 51.2,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 54,
+            "freshness": 80,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-14T13:45:28-0300",
+        "last_seen": "2026-11-14T13:45:28-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Presupuesto: Senado se alista para un arduo debate tras polémicos desfinanciamientos",
+            "description": "El Senado se prepara para un arduo debate luego de recibir, desde la Cámara de Diputados, el proyecto de Presupuesto 2027, que arribó con siete partidas rechazadas   sumado a polémicas por el desfinanciamiento a los sitios de memoria, la baja de recursos para subsidiar el empleo y los recortes a programas sociales. La Cámara Alta visará entre el martes y el jueves las 27 partidas que ya fueron aprobadas, así como también las otras -correspondientes a Interior, Educación, Segegob, Minería, Mujer, Cultura y Ciencia- que fueron rechazadas y que no cuentan con recursos.  Esto, ya que entre el pleno de los diputados  se generaron discrepancias en el financiamiento de organismos como el Instituto Nacional de Deportes, Senadis, el Servicio de Protección Especializada a la Niñez y Adolescencia, el Serviu de Tarapacá y la Subsecretaría del Ministerio del Trabajo. También se suman cuestionamientos a instituciones como Aduanas, Senapred, el Servicio Agrícola y Ganadero y la Dirección del Trabajo; todo sin mencionar el controversial recorte al programa educativo \"Yo Elijo mi PC\". [Lea también]  PS exige que Kast controle a la \"patota\" republicana en la Cámara En este escenario, el senador comunista Daniel Núñez dijo a Cooperativa que \"hay que jugársela para que haya un presupuesto que resuelva los problemas sociales más urgentes que vive la población, por ejemplo, en materia de empleo. Vamos a exigir que haya más inversión pública\". \"Se han paralizado una gran cantidad de obras públicas muy importantes que generan empleo, así que nos parece que es un tema clave en el proyecto todo lo que tiene que ver con la creación de trabajo\", defendió. El parlamentario criticó también el desfinanciamiento a seis sitios de memoria, cuyos recursos quedaron reducidos a mil pesos, y acusó la existencia de una mirada \"negacionista\" por parte de la derecha.  Desde ese sector, en tanto, el senador UDI y vicepresidente del Senado, Iván Moreira,  recriminó que \"la oposición en Chile es obstructiva, traba y constantemente quiere propinarle golpes al Gobierno, pero esperamos que aquellos líderes serios que existen tengan la capacidad de poder controlar una discusión de una ley tan importante como esta\". Los expertos y su moderado optimismo en cuanto a la aprobación de las glosas faltantes Sin embargo, desde el mundo experto guardan cierto optimismo sobre el resultado del debate parlamentario. El analista político Germán Silva  abordó algunas concesiones que puede hacer el Ejecutivo para llegar a un acuerdo con la oposición senatorial. \"Creo que en el caso de Educación el Gobierno va a reponer Yo elijo mi PC. En el caso de Interior, (lo hará con) la partida de Senapred, que venía con un recorte muy importante; y también seguramente va a estar (solucionada) la glosa de Cultura y Memoria\", sostuvo. \"Sin embargo, tengo la impresión que en el caso del aporte al Fondo Autónomo de Protección Previsional (FAPP) va a haber ahí una controversia importante; se da justamente en un momento en que hubo una pérdida significativa del fondo E\", indicó Silva. El economista Carlos Smith, en tanto, abordó el rechazo que la Cámara dio a la autorización de endeudamiento del Gobierno -lo que deberá ser visado también por el Senado- y, si bien calificó de \"responsable\" el gasto fiscal contemplado en el Presupuesto 2027, reconoció que es frágil en expectativas financieras, sobre todo con el acuerdo alcanzado para acabar con el paro de los camioneros.  \"Desde el punto de vista de la dirección, (el gasto fiscal proyectado para el próximo año) es bastante responsable. Está creciendo un 1,5% anual en términos reales, lo que es muy distinto a lo que creció en promedio en la última década, que era el 5%\", dijo el académico UDD. \"Sí hay que reconocer que es frágil desde el punto de vista de los supuestos, porque supone que el próximo año vamos a crecer un 3,3%, lo cual no es fácil de lograr. Y el problema principal de todo esto es que hay otros compromisos, por ejemplo, que ya se agregaron y que no estaban en la agenda, que es el compromiso con los camioneros, que va a significar un gasto importante\",  afirmó.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/presupuesto-senado-se-alista-para-un-arduo-debate-tras-polemicos/2026-11-14/134528.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261114/imag/foto_0000000220261114134528.png",
+            "published_raw": "Sat, 14 Nov 2026 13:45:28 -0300",
+            "published_at": "2026-11-14T13:45:28-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 6,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 3,
+            "score_ideology": 2,
+            "score_actor": 3,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-003"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 73.2
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-006",
         "title": "Senador Núñez: El Gobierno no cuenta con los recursos para financiar acuerdo con camioneros",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -514,11 +588,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.5,
-          "level": "MEDIA",
+          "score": 49.7,
+          "level": "BAJA",
           "components": {
             "political_impact": 55,
-            "freshness": 95,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 32
@@ -558,7 +632,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
+            "cluster_id": "PML-EVENT-006"
           }
         ],
         "article_count": 1,
@@ -569,102 +643,30 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 76.5
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-003",
-        "title": "Cámara Baja despachó Presupuesto 2027 con siete partidas rechazadas tras maratónica sesión",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-despacho-presupuesto-2027-con-siete-partidas-rechazadas-tras/2026-11-13/091148.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 46,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 51,
-            "freshness": 62,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 32
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-13T09:11:48-0300",
-        "last_seen": "2026-11-13T09:11:48-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Cámara Baja despachó Presupuesto 2027 con siete partidas rechazadas tras maratónica sesión",
-            "description": "La Cámara de Diputadas y Diputados despachó al Senado el proyecto de Presupuesto 2027 , tras una maratónica discusión que se extendió hasta pasadas las seis de la mañana de este viernes y dejó sin aprobación los recursos destinados a siete partidas clave del Gobierno. El rechazo afectó a los presupuestos de Interior, Educación, Secretaría General de Gobierno, Minería, Mujer y Equidad de Género, Culturas y Ciencia, en medio de los cuestionamientos a los recortes propuestos por el Ejecutivo. El debate de la ley presupuestaria se extendió por cuatro jornadas. En la última sesión, fueron rechazados los recursos para Mujer y Equidad de Género, por 58 votos a favor y 59 en contra, y Culturas , por 59 a favor y 60 en contra, con controversias por el cierre de la Fundación para la Promoción y Desarrollo de la Mujer (Prodemu), los recortes al sector cultural y el financiamiento de los sitios de memoria. Durante la misma jornada del jueves, se aprobaron los presupuestos de Bienes Nacionales, Trabajo y Previsión Social y Salud . A ellos se sumaron durante la madrugada los de Desarrollo Social, Segpres, Medio Ambiente, Deportes y Seguridad Pública , este último con recursos superiores a los 3,4 billones de pesos para 2027. \"Vamos a reponer las cosas que se rechazaron\" Pese a que la mayoría de los recursos obtuvo luz verde, el Ejecutivo deberá enfrentar una nueva negociación para conseguir respaldo a los presupuestos rechazados. Eel ministro de Hacienda, Jorge Quiroz, valoró el avance de la tramitación: \"Vamos bien encaminados, efectivamente en general aprobando prácticamente todas las partidas. Quedan algunos obstáculos desde luego, pero creo que vamos muy bien encaminados a terminar este proceso bien \". Respecto de los recursos que no consiguieron respaldo, el secretario de Estado adelantó que el Ejecutivo insistirá durante la discusión en el Senado, que comenzará la próxima semana. \"Vamos a reponer las cosas que se rechazaron. Probablemente lo haremos con algún ajuste y tenemos que ir en paralelo conversando más algunos temas. En particular en educación es un tema que tenemos que conversar más a fondo \", sostuvo.   Foto: ATON Desde el oficialismo, el senador republicano Renzo Trisotti, llamó a mantener la disposición al diálogo mostrada durante la discusión en la Cámara, para \"permitir destrabar todas estas partidas y tener el presupuesto necesario para poder seguir desarrollando en todas las áreas del país, obviamente con las prioridades que ha impuesto el Gobierno \". Por su parte, el senador comunista Daniel Núñez condicionó su respaldo a los recursos de Minería a que Hacienda aclare su postura sobre la participación privada en Codelco. \"Mientras el ministro de Hacienda no se retracte de sus palabras a favor de la privatización de Codelco, vamos a rechazar el presupuesto del Ministerio de Minería, al igual como lo hizo la Cámara de Diputados\", advirtió. \" Ojalá que en el Senado se dé un debate serio y no se den estos episodios que ocurrieron en la Cámara de intercambio de descalificaciones\", declaró por su parte el senador UDI Gustavo Sanhueza.   En tanto, la senadora de Renovación Nacional, María José Gatica , pidió avanzar en los consensos: \"El llamado es a no trancar la pelota y llegar a un acuerdo antes del 30 de noviembre\". El Senado discutirá y votará el proyecto durante la próxima semana, tras lo cual volverá a la Cámara para una nueva revisión. Si persisten las diferencias, una comisión mixta deberá resolverlas antes del 29 de noviembre, según los plazos señalados durante el debate. Cuatro jornadas de negociación La discusión comenzó el martes con el rechazo de los recursos para Interior , en medio de cuestionamientos a los recortes destinados a Senapred, la Subdere y \"Ley Cholito\". También se eliminaron los fondos operacionales para los expresidentes de la República. El miércoles, Educación sufrió uno de los principales reveses del Ejecutivo, en una jornada marcada por los debates \" Yo Elijo Mi PC\", jardines infantiles y programas Junaeb . En Justicia, se incorporaron nuevas exigencias de información sobre rebajas de condenas, indultos y beneficios penitenciarios, en medio de la controversia por el ministro Fernando Rabat. Durante el jueves, Minería y Segegob tampoco consiguieron respaldo , entre críticas a los recortes presupuestarios y a la conducción comunicacional del Gobierno. Finalmente, la extensa sesión que concluyó este viernes también dejó sin aprobación recursos para organismos como el Instituto Nacional de Deportes, Senadis y el Servicio de Protección Especializada a la Niñez y Adolescencia . Cronograma y plazos constitucionales El proyecto será revisado y votado la próxima semana en la Sala del Senado para luego cumplir su tercer trámite en la Cámara de origen . De persistir las diferencias en las asignaciones presupuestarias, la iniciativa se resolverá en una comisión mixta que debe zanjar el articulado definitivo a más tardar el 29 de noviembre, dando cumplimiento a los plazos fijados por la Constitución.",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-baja-despacho-presupuesto-2027-con-siete-partidas-rechazadas-tras/2026-11-13/091148.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261113/imag/foto_0000000220261113091148.jpg",
-            "published_raw": "Fri, 13 Nov 2026 09:11:48 -0300",
-            "published_at": "2026-11-13T09:11:48-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 7,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 3,
-            "score_ideology": 1,
-            "score_actor": 4,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 16,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 18,
-          "labels": [
-            "Estado e instituciones",
-            "Economía y políticas públicas"
-          ],
-          "chile_utility": 64
+          "chile_utility": 70.7
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-005",
-        "title": "PS exige que Kast controle a la \"patota\" republicana en la Cámara",
+        "cluster_id": "PML-EVENT-015",
+        "title": "Impulsan proyecto que endurece multas por venta de vapeadores y cigarrillos a menores",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/ps-exige-que-kast-controle-a-la-patota-republicana-en-la-camara/2026-11-13/212748.html",
+        "url": "https://www.cooperativa.cl/noticias/sociedad/salud/tabaco/impulsan-proyecto-que-endurece-multas-por-venta-de-vapeadores-y/2026-11-14/185241.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.2,
+          "score": 52.3,
           "level": "MEDIA",
           "components": {
-            "political_impact": 50,
-            "freshness": 80,
+            "political_impact": 51,
+            "freshness": 88,
             "source_count": 30,
-            "geographic_scope": 55,
+            "geographic_scope": 40,
             "continuity": 30
           }
         },
@@ -673,36 +675,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-13T21:27:48-0300",
-        "last_seen": "2026-11-13T21:27:48-0300",
+        "first_seen": "2026-11-14T18:52:41-0300",
+        "last_seen": "2026-11-14T18:52:41-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "PS exige que Kast controle a la \"patota\" republicana en la Cámara",
-            "description": "La bancada de diputados del Partido Socialista (PS) acusó al Partido Republicano de ser \"el principal responsable del clima de hostilidad\" advertido esta semana en la Cámara Baja en medio de la discusión del Presupuesto 2027,  y denunció que corresponde a un  \"matonaje político\" que debe ser condenado y controlado por el Presidente José Antonio Kast. Los controvertidos episodios comenzaron el miércoles, cuando, en medio de la discusión de la partida de Justicia -marcada por la polémica de las rebajas de condena a pedófilos-, la diputada republicana Javiera Rodríguez  acusó a la centroizquierda de \"arrogarse y lucrar\" con la propiedad de los derechos humanos y con \"el dolor ajeno\" en el país, tildando al sector, despectivamente, como \"Derechos Humanos Company\". Ver esta publicación en Instagram Una publicación compartida por 𝗖𝗔𝗣𝗜𝗧𝗔𝗡𝗔 𝗥𝗢𝗗𝗥𝗜́𝗚𝗨𝗘𝗭 (@capitanarod) Aquello provocó la furia de la oposición y, especialmente, de la diputada comunista Lorena Pizarro -expresidenta de la Agrupación de Familiares de Detenidos Desaparecidos-,  que calificó a su par republicana de \"energúmena\" y, durante el receso,  la encaró y la desafió: \"Ven a decírmelo a la cara\".  El ambiente obligó a suspender la sesión.  La hostilidad continuó el día siguiente, jueves, cuando -en medio de la discusión de los recursos de Salud- el diputado republicano Cristián Araya  reivindicó los dichos de su compañera Rodríguez y acusó un presunto uso político de los enfermos de cáncer, lo que provocó incluso la indignación de la vicepresidenta de la Cámara, la oficialista Ximena Ossandón (RN),  que lo censuró y, desde la testera, calificó su actuar como \"patético\". El episodio también causó la molestia del diputado RN Diego Schalper, que llamó al jefe de la bancada republicana, Benjamín Moreno, que \"controle a sus diputados\". Acto seguido, Moreno se levantó de su asiento para recriminar a Schalper por solicitar una reunión de comités parlamentarios,   mientras era contenido por parlamentarios del sector.  Ante el desorden, Ossandón suspendió nuevamente la sesión. \"Pareciera que la corporación de esta Sala no madura nunca\", lamentó. \"Matonaje, patota política y faltas de respeto\", fustigó el PS En este contexto, mediante una declaración pública, el Partido Socialista denunció que las \"reiteradas provocaciones\" de la bancada republicana \"han escalado al punto de generar enfrentamientos incluso con parlamentarios de su propio sector, que han intentado poner orden\". \"Esta semana fuimos testigos de los agravios de una diputada republicana a la lucha de los familiares de detenidos desaparecidos; de los insultos de un diputado de dicho partido a quienes hemos trabajado siempre por el derecho a la salud; y de diversas provocaciones y enfrentamientos  que obligaron en reiteradas oportunidades a suspender la sesión\" del debate de Presupuesto 2027, acusó la tienda. \"A ello se suma la hostilidad y falta de respeto permanente de diputados republicanos hacia integrantes de la Mesa de la Corporación\", agrega el texto en respaldo a Ossandón; por lo que \"son estas conductas de matonaje político las que han terminado alterando el normal funcionamiento de la Cámara\", fustigaron los socialistas.  \"Mientras el país espera respuestas sobre sus principales necesidades, la bancada del Presidente actúa como una patota política y luego pretende dar lecciones de respeto. Emplazamos al Mandatario a condenar estas conductas y a poner orden en su partido: debe aclarar si estas provocaciones cuentan con su respaldo o si ha perdido la autoridad sobre sus parlamentarios\", cierra la declaración del partido opositor.  [Vea también]  Senadoras Campillai y Flores se enfrascaron en una pelea \"cuma\" frente a las cámaras",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/ps-exige-que-kast-controle-a-la-patota-republicana-en-la-camara/2026-11-13/212748.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261113/imag/foto_0000000220261113212748.png",
-            "published_raw": "Fri, 13 Nov 2026 21:27:48 -0300",
-            "published_at": "2026-11-13T21:27:48-0300",
+            "title": "Impulsan proyecto que endurece multas por venta de vapeadores y cigarrillos a menores",
+            "description": "La diputada Lilian Betancurt (PDG) impulsa un proyecto de ley que busca endurecer las sanciones por la venta de cigarrillos y dispositivos de vapeo a menores de edad, a través de una modificación a la Ley del Tabaco .  La iniciativa busca fortalecer las herramientas de protección de niños, niñas y adolescentes, aumentando las multas para quienes comercialicen, ofrezcan, distribuyan o entreguen cigarrillos, vapeadores, sistemas electrónicos con o sin nicotina y sus accesorios a menores de 18 años. Entre las modificaciones propuestas, s e destaca elevar las multas generales actuales, que van desde las 3 hasta las 50 UTM, a un rango de 20 a 150 UTM (10 millones de pesos) . Para el caso de infractores pertenecientes a la industria, las sanciones aumentan desde 30 a 300 UTM hasta 101 a 500 UTM (36 millones). \"Las multas por sí solas no son suficientes si un establecimiento puede seguir funcionando y comercializando estos productos después de cometer reiteradamente la misma infracción. Por eso estamos proponiendo que, cuando exista reincidencia, la clausura sea obligatoria. Las reglas deben ser claras y aplicarse de la misma manera en todo el país \", señaló la parlamentaria por la Región del Biobío. El proyecto también propone que la clausura deberá aplicarse siempre que exista reincidencia, y contempla un período de entre 15 y 30 días . Asimismo, mantiene la definición vigente de reincidencia, correspondiente a dos o más infracciones cometidas dentro del plazo de un año, contando desde la primera. La propuesta, además, apunta a terminar con la discrecionalidad en la verificación de edad -que actualmente, por ley, permite que los vendedores soliciten la cédula de identidad cuando tienen dudas sobre la edad del comprador-, estableciendo que los comerciantes deberán exigir el carnet o un documento oficial vigente con fotografía cuando exista esa duda, que no podrán concretar la venta mientras no se acredite la edad mínima legal. La iniciativa también precisa qu e las multas establecidas en el numeral 6 del artículo 16 recaerán sobre el titular del establecimiento , mientras que la sanción contemplada en el numeral 13 corresponderá a la persona que materialmente realizó la venta, ofrecimiento, distribución o entrega.",
+            "url": "https://www.cooperativa.cl/noticias/sociedad/salud/tabaco/impulsan-proyecto-que-endurece-multas-por-venta-de-vapeadores-y/2026-11-14/185241.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261114/imag/foto_0000000220261114185241.jpg",
+            "published_raw": "Sat, 14 Nov 2026 18:52:41 -0300",
+            "published_at": "2026-11-14T18:52:41-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 3,
+            "score_institutional": 2,
             "score_elections": 0,
-            "score_international": 0,
+            "score_international": 1,
             "score_conflict": 0,
-            "score_policy": 2,
-            "score_ideology": 3,
-            "score_actor": 5,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 1,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 13,
+            "political_evidence": 4,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Ideología y competencia política",
+            "secondary_topic": "Relaciones internacionales",
             "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
+            "filter_confidence": "medium",
+            "cluster_id": "PML-EVENT-015"
           }
         ],
         "article_count": 1,
@@ -710,7 +712,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 61.2
+          "chile_utility": 61.3
         },
         "repeated_in_general_top5": false
       }
@@ -719,26 +721,30 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 21,
-      "maximum_relevance": 62,
-      "leading_story": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia"
-    },
-    {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 2,
-      "maximum_relevance": 54,
-      "leading_story": "Feijóo reclama en Galicia el impulso para llegar a La Moncloa: “Sigo siendo el mismo”"
+      "event_count": 20,
+      "maximum_relevance": 63.4,
+      "leading_story": "El Gobierno de México mira hacia China bajo la vigilancia incómoda de Estados Unidos"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 2,
-      "maximum_relevance": 48.1,
-      "leading_story": "De campo de fútbol a base militar: Haití y El Salvador recapturan el principal estadio de Puerto Príncipe"
+      "maximum_relevance": 42.3,
+      "leading_story": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?"
+    },
+    {
+      "topic": "Elecciones y opinión pública",
+      "event_count": 1,
+      "maximum_relevance": 32.8,
+      "leading_story": "Burlas con IA, injerencias rusas y extremismo: campañas tóxicas al servicio de los algoritmos"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-014", "PML-EVENT-017", "PML-EVENT-012", "PML-EVENT-018"],
+      "exited_top5": ["PML-EVENT-016", "PML-EVENT-006", "PML-EVENT-004", "PML-EVENT-008"],
+      "retained_top5": "PML-EVENT-001"
+    }
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
