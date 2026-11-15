@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-14",
-    "data_latest_timestamp": "2026-11-14T13:45:28-0300",
-    "data_age_hours": 3.1,
-    "generated_at": "2026-11-14T16:49:35-0300",
+    "data_latest_timestamp": "2026-11-14T14:23:22-0300",
+    "data_age_hours": 7.5,
+    "generated_at": "2026-11-14T21:53:49-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,13 +16,13 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 17 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 25 eventos políticos rankeados. El principal evento se concentra en Internacional y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 17,
+    "ranked_events": 25,
     "topics": 1,
     "geographies": 2,
     "representative_sources": 2,
@@ -32,7 +32,7 @@
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-013",
+      "cluster_id": "PML-EVENT-016",
       "title": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia",
       "url": "https://elpais.com/internacional/2026-11-14/zelenski-asegura-que-ee-uu-sugiere-admitir-a-ucrania-en-la-otan-a-cambio-de-entregar-el-donbas-a-rusia.html",
       "representative_source": "EL PAÍS",
@@ -103,7 +103,7 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-013"
+          "cluster_id": "PML-EVENT-016"
         }
       ]
     },
@@ -719,15 +719,21 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 16,
+      "event_count": 21,
       "maximum_relevance": 62,
       "leading_story": "Zelenski asegura que EE UU sugiere admitir a Ucrania en la OTAN a cambio de entregar el Donbás a Rusia"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 1,
-      "maximum_relevance": 32.8,
-      "leading_story": "Burlas con IA, injerencias rusas y extremismo: campañas tóxicas al servicio de los algoritmos"
+      "event_count": 2,
+      "maximum_relevance": 54,
+      "leading_story": "Feijóo reclama en Galicia el impulso para llegar a La Moncloa: “Sigo siendo el mismo”"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 2,
+      "maximum_relevance": 48.1,
+      "leading_story": "De campo de fútbol a base militar: Haití y El Salvador recapturan el principal estadio de Puerto Príncipe"
     }
   ],
   "changes_since_yesterday": {
@@ -735,8 +741,8 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa"],
-    "source_count": 2
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "source_count": 3
   },
   "system": {
     "collection_status": "completed",
