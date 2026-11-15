@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-15",
-    "data_latest_timestamp": "2026-11-15T06:30:00-0300",
-    "data_age_hours": 1,
-    "generated_at": "2026-11-15T07:32:45-0300",
+    "data_latest_timestamp": "2026-11-15T15:01:46-0300",
+    "data_age_hours": 0.6,
+    "generated_at": "2026-11-15T15:39:03-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,102 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 23 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 26 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
     "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 2 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 23,
+    "ranked_events": 26,
     "topics": 1,
     "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 55.7,
-    "maximum_relevance": 63.4
+    "average_top5_relevance": 59.8,
+    "maximum_relevance": 65.4
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-014",
+      "cluster_id": "PML-EVENT-006",
+      "title": "Congreso espera despachar a ley el acuerdo con los camioneros a más tardar el martes",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/congreso-espera-despachar-a-ley-el-acuerdo-con-los-camioneros-a-mas/2026-11-15/132714.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 65.4,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 65.4
+      },
+      "selection": {
+        "reason": "PML 65.4",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-15T13:27:14-0300",
+      "last_seen": "2026-11-15T13:27:14-0300",
+      "entities": [
+        "congreso",
+        "senado"
+      ],
+      "event_terms": [
+        "oposicion",
+        "crisis"
+      ],
+      "analysis": {
+        "summary": "El Congreso espera tramitar con rapidez  el proyecto de acuerdo entre el Gobierno y los camioneros para bajar en 142 pesos el precio del diésel - entre otras medidas- y despacharlo a ley a más tardar el martes. La iniciativa también contempla congelar los precios hasta el 31 de marzo de 2027 ,  extender el beneficio de recuperación del impuesto específico para el transporte de carga durante todo ese año y aumentar el porcentaje de reintegro de peajes para el transporte…",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Congreso espera despachar a ley el acuerdo con los camioneros a más tardar el martes",
+          "description": "El Congreso espera tramitar con rapidez  el proyecto de acuerdo entre el Gobierno y los camioneros para bajar en 142 pesos el precio del diésel - entre otras medidas- y despacharlo a ley a más tardar el martes. La iniciativa también contempla congelar los precios hasta el 31 de marzo de 2027 ,  extender el beneficio de recuperación del impuesto específico para el transporte de carga durante todo ese año y aumentar el porcentaje de reintegro de peajes para el transporte interurbano, como puntos más destacados.  \"Lo que le corresponde al Congreso es legislar inmediatamente para plasmar este acuerdo en un texto, en la ley, que es lo que nos ordena. Si hay algunos que pretenden que a lo mejor se haga un mayor esfuerzo, tienen la razón respecto de que tenemos que partir por aprobar esto, que es lo mínimo\", dijo la presidenta del Senado, Paulina Núñez (RN).  \"Fijamos los plazos (de tramitación) y nos coordinamos con la mesa de la Cámara. El día lunes van a sesionar ellos primero, luego vamos a sesionar inmediatamente nosotros, para que el día martes ya seamos capaces de despacharlo a ley, si es que incluso no es el propio lunes\", afirmó. [Lea también]  Eyzaguirre por paro de transportistas: Hay un uso del poder oligopólico muy inaceptable Desde la oposición, en tanto, si bien saben que no cuentan con mayoría, sostienen que buscarán mejorar aspectos del texto.  El diputado de la bancada PPD-independientes Carlos Bianchi criticó que \"esto no resuelve la situación de los valores de los combustibles para las personas en general o para las mipymes, pequeños transportistas\". \"Por lo tanto, yo espero que se dé la oportunidad de mejorar ese proyecto. Ahora, como (en la derecha) tienen mayoría, lo más probable es que esto sea una imposición y no tengamos ninguna posibilidad de mejorar\" el proyecto, reprochó. Pavez: \"El Gobierno ha hecho importantes esfuerzos para atenuar\" el bencinazo El subsecretario del Interior, Máximo Pavez, relevó los esfuerzos hechos por el Gobierno para llegar al acuerdo y atenuar el alza de combustibles, luego que el ministro de Hacienda, Jorge Quiroz,  dijera a La Tercera que \"siempre va a haber un dolorcillo de guata cuando se abre la billetera más allá de lo previsto\", pese a calificar el entendimiento como \"satisfactorio\". \"El Ejecutivo desde marzo ha hecho importantísimos esfuerzos para atenuar esta crisis internacional, que es la más grande en 50 años en materia de combustibles\", dijo el subsecretario al programa Mesa Central, de Canal 13. \"Entre el 11 de marzo y el 11 de noviembre se han inyectado 1,4 billones de pesos al sistema Mepco para poder atenuar todo lo que ha significado el alza de las bencinas. Es decir, si el Gobierno no hubiese hecho los esfuerzos que hizo al principio, nosotros habríamos gastado, con precios más o menos similares a los que están ahora, más de 3,8 billones de pesos\", defendió Pavez.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/congreso-espera-despachar-a-ley-el-acuerdo-con-los-camioneros-a-mas/2026-11-15/132714.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115132714.png",
+          "published_raw": "Sun, 15 Nov 2026 13:27:14 -0300",
+          "published_at": "2026-11-15T13:27:14-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 8,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 13,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-006"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-016",
       "title": "El Gobierno de México mira hacia China bajo la vigilancia incómoda de Estados Unidos",
       "url": "https://elpais.com/mexico/2026-11-15/el-gobierno-de-mexico-mira-hacia-china-bajo-la-vigilancia-incomoda-de-estados-unidos.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +122,12 @@
         "country": "México / América Latina"
       },
       "relevance": {
-        "score": 63.4,
-        "level": "MEDIA-ALTA",
+        "score": 60.4,
+        "level": "MEDIA",
         "editorial_utility": 63.4
       },
       "selection": {
-        "reason": "PML 63.4",
+        "reason": "PML 60.4; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -103,202 +182,50 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-014"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-017",
-      "title": "Cuba al final de Trump",
-      "url": "https://elpais.com/america/2026-11-15/cuba-al-final-de-trump.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / América Latina"
-      },
-      "relevance": {
-        "score": 55.3,
-        "level": "MEDIA",
-        "editorial_utility": 55.3
-      },
-      "selection": {
-        "reason": "PML 55.3; fallback editorial controlado; aporta diversidad geográfica",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-15T06:30:00-0300",
-      "last_seen": "2026-11-15T06:30:00-0300",
-      "entities": [
-        "trump",
-        "iran",
-        "venezuela"
-      ],
-      "event_terms": "guerra",
-      "analysis": {
-        "summary": "Conforme se consolida el rechazo a la guerra en Irán y se rutiniza el entendimiento con el gobierno de Venezuela, la última carta de Washington es La Habana",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Cuba al final de Trump",
-          "description": "Conforme se consolida el rechazo a la guerra en Irán y se rutiniza el entendimiento con el gobierno de Venezuela, la última carta de Washington es La Habana",
-          "url": "https://elpais.com/america/2026-11-15/cuba-al-final-de-trump.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/KP5WVHW4NQBQRABGJX7XUKN7VE.jpg?auth=c7d1bd97267a85f35a8a48e3e9fbc14599c1d23a86c4410f14ba93e004afe655",
-          "published_raw": "Sun, 15 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-15T06:30:00-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-017"
+          "cluster_id": "PML-EVENT-016"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-012",
-      "title": "Cien días de la Patria Milagro de De la Espriella: del protagonismo de la seguridad al déficit fiscal como amenaza",
-      "url": "https://elpais.com/america-colombia/2026-11-15/cien-dias-de-la-patria-milagro-la-seguridad-vuelve-a-ser-protagonista-pero-con-el-deficit-fiscal-como-amenaza.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Colombia / América Latina"
-      },
-      "relevance": {
-        "score": 55.1,
-        "level": "MEDIA",
-        "editorial_utility": 49.1
-      },
-      "selection": {
-        "reason": "PML 55.1; fallback editorial controlado; diversidad relajada para completar el brief",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-15T06:30:00-0300",
-      "last_seen": "2026-11-15T06:30:00-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "El presidente mantiene su popularidad promoviendo los operativos militares y con la incertidumbre de cuadrar las cuentas tras el desequilibro del Gobierno de Petro",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Cien días de la Patria Milagro de De la Espriella: del protagonismo de la seguridad al déficit fiscal como amenaza",
-          "description": "El presidente mantiene su popularidad promoviendo los operativos militares y con la incertidumbre de cuadrar las cuentas tras el desequilibro del Gobierno de Petro",
-          "url": "https://elpais.com/america-colombia/2026-11-15/cien-dias-de-la-patria-milagro-la-seguridad-vuelve-a-ser-protagonista-pero-con-el-deficit-fiscal-como-amenaza.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/DMJCVR26OFHEJMYXB6P3D2AKKU.jpg?auth=b6dfb3a927448050967b9efb6530d0a2df013c4fef6ec19465ab238846c0e10d",
-          "published_raw": "Sun, 15 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-15T06:30:00-0300",
-          "country": "Colombia",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-001",
-      "title": "Gobierno cerró filas en defensa de Rabat y acusó \"falta de mérito\" en acusación constitucional",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/gobierno-cerro-filas-en-defensa-de-rabat-y-acuso-falta-de-merito-en/2026-11-13/144816.html",
+      "cluster_id": "PML-EVENT-002",
+      "title": "Presupuesto 2027: Oposición pidió voluntad de diálogo al Gobierno en el Senado",
+      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-oposicion-pidio-voluntad-de-dialogo-al-gobierno-en-el/2026-11-15/135316.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
         "group": "Chile",
         "country": "Chile"
       },
       "relevance": {
-        "score": 51.1,
-        "level": "BAJA",
-        "editorial_utility": 45.1
+        "score": 59.1,
+        "level": "MEDIA",
+        "editorial_utility": 54.1
       },
       "selection": {
-        "reason": "PML 51.1; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 59.1; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 4,
+        "article_count": 1,
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-12T14:27:52-0300",
-      "last_seen": "2026-11-13T14:48:16-0300",
+      "first_seen": "2026-11-15T13:53:16-0300",
+      "last_seen": "2026-11-15T13:53:16-0300",
       "entities": [
-        "congreso",
         "senado",
-        "boric",
-        "chile"
+        "congreso"
       ],
       "event_terms": [
         "oposicion",
-        "judicial"
+        "hospitales"
       ],
       "analysis": {
-        "summary": "El presidente de la UDI, el diputado Guillermo Ramírez , manifestó su confianza en que la acusación constitucional contra el ministro de Justicia, Fernando Rabat  — presentada este jueves y dos semanas después de su anuncio —, no prosperará en la Cámara Baja. \"Ya era hora. Esto es como el cuento del lobo.",
+        "summary": "La discusión del proyecto de Presupuesto 2027 comenzará este martes en la Sala del Senado , donde desde ya los parlamentarios comenzaron a tomar posiciones para prepararse para el arduo debate que se extenderá hasta el jueves, cuando se espera que ya se encuentre aprobado.",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -311,136 +238,52 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Acusación constitucional a Rabat: Desafiante, la UDI anticipa triunfo holgado del oficialismo",
-          "description": "El presidente de la UDI, el diputado Guillermo Ramírez , manifestó su confianza en que la acusación constitucional contra el ministro de Justicia, Fernando Rabat  — presentada este jueves y dos semanas después de su anuncio —, no prosperará en la Cámara Baja. \"Ya era hora. Esto es como el cuento del lobo. Llevábamos semanas esperando la acusación constitucional y eso le dio tiempo al Gobierno para poder ordenar las filas y, la verdad, tengo la impresión de que esa acusación va a fracasar \", sostuvo. Luego, agregó: \"Si tuviera que apostar, vamos a ganar la acusación constitucional en la Cámara de Diputados y no de manera tan justa (apretada)\" . En la misma línea, el jefe de bancada de Renovación Nacional (RN), Diego Schalper , afirmó que, incluso, \" hasta sus promotores originales (de la acusación constitucional) han ido dándose cuenta de que no tiene fundamento\" . El parlamentario ironizó que evalúan invitar al exministro de Justicia Luis Cordero al Congreso para \"explicar por qué un error político no necesariamente implica una infracción constitucional\" . Las voces de los impulsores El libelo cuenta con las firmas de diputados del Frente Amplio (FA), el Partido Socialista (PS), el Partido Liberal (PL), el Partido Por la Democracia (PPD), la Democracia Cristiana (DC) y el Partido Comunista (PC) . \"El Gobierno del Presidente Kast, a través del ministro Rabat, le dio la espalda a las víctimas de pedófilos y de violaciones a los derechos humanos \", fustigó la diputada frenteamplista Emilia Schneider . En tanto, la jefa de la bancada de diputados del PC, Daniela Serrano , admitió: \"Sé que hubo mucha expectación de los tiempos en que se redactó esta acusación constitucional. Sin embargo, damos tranquilidad de que esto fue un trabajo responsable y coordinado \". El documento fue presentado a las 20:05 horas en la oficina de partes de la Cámara Baja, mientras continuaba la discusión del Presupuesto 2027 . Los cuestionamientos contra Rabat se concentran en tres materias: la rebaja de condenas a condenados por delitos sexuales contra menores, beneficios otorgados a condenados por violaciones a los derechos humanos y presuntas faltas a la probidad por entregar explicaciones que la oposición considera falsas o incompletas ante el Congreso. El escenario de la votación Para que la acusación avance al Senado, deberá contar con la mayoría de los diputados presentes en la Sala. Considerando una asistencia completa de los 155 parlamentarios en ejercicio , el libelo necesitará al menos 78 votos favorables . De acuerdo con la distribución de las bancadas parlamentarias, las bancadas de derecha suman 76 escaños. En tanto, las fuerzas de izquierda y centroizquierda reúnen 65 diputados , mientras que el Partido de la Gente (PDG) cuenta con 14 . El próximo lunes se dará cuenta formalmente del ingreso de la acusación ante la Sala y se sortearán los cinco integrantes de la comisión parlamentaria que deberán analizar sus antecedentes y elaborar un informe. Controversia por decretos El ingreso de la acusación constitucional coincidió con la entrega de los decretos de rebaja de condenas solicitados por los parlamentarios opositores. Los documentos fueron enviados por correo electrónico a la Cámara Baja, luego de gestiones del ministro de Hacienda, Jorge Quiroz . El diputado socialista Raúl Leiva cuestionó la demora en la entrega de estos antecedentes y aseguró que los parlamentarios los solicitaban desde el 22 de octubre . \"Hoy día, el ministro Quiroz le dio una instrucción y llegaron en cinco minutos \", apuntó. Leiva señaló que esperan revisar los documentos para determinar eventuales vulneraciones legales y constitucionales, especialmente en los casos relacionados con violaciones a los derechos humanos.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/acusacion-constitucional-a-rabat-desafiante-la-udi-anticipa-triunfo/2026-11-12/223151.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000220261112223151.jpg",
-          "published_raw": "Thu, 12 Nov 2026 22:31:51 -0300",
-          "published_at": "2026-11-12T22:31:51-0300",
+          "title": "Presupuesto 2027: Oposición pidió voluntad de diálogo al Gobierno en el Senado",
+          "description": "La discusión del proyecto de Presupuesto 2027 comenzará este martes en la Sala del Senado , donde desde ya los parlamentarios comenzaron a tomar posiciones para prepararse para el arduo debate que se extenderá hasta el jueves, cuando se espera que ya se encuentre aprobado. La propuesta fue despachada desde la Cámara de Diputadas y Diputados con 27 partidas aprobadas, mientras que otras siete quedaron sin respaldo parlamentario, las que corresponden a  Interior, Educación, Secretaría General de Gobierno, Minería, Mujer y Equidad de Género, Cultura y Ciencias. Los primeros seis fueron directamente rechazados en la Cámara Baja, mientras Ciencias se encontraba sin recursos desde la comisión mixta de Presupuestos. La falta de fondos para dichas partidas ha generado tensión en el Congreso. Por ello, la senadora Loreto Carvajal (PPD) espera que el Ejecutivo tenga voluntad de dialogar en el segundo trámite. \"El Gobierno solo apostó a los votos del PDG en la Cámara, y hoy llega al Senado con siete partidas importantes rechazadas. Esperamos un Gobierno con real y genuina voluntad de diálogo y un ministro Quiroz menos intransigente , que comprenda la difícil realidad económica del país. El debate presupuestario será fundamental para enfrentar lo que prevemos: un tumultuoso 2027\", afirmó. No obstante, desde el Partido Republicano, el senador Renzo Trisotti destacó la gestión del titular de Hacienda: \"Esperamos que la disposición que mostró el ministro de Hacienda, tanto en la comisión mixta previa de Presupuesto como en la Cámara de Diputados, pueda permitir destrabar todas estas partidas y tener el presupuesto necesario para poder seguir desarrollando en todas las áreas el país; obviamente, con las prioridades que ha impuesto el Gobierno\". Preocupación del Colegio Médico y el mundo comunal Entre las situaciones controvertidas se encuentra la falta de financiamiento para seis sitios de memoria, cuyos presupuestos quedaron reducidos a 1.000 pesos. Asimismo, hay discrepancias por los rechazos a asignaciones específicas de distintos organismos públicos como el Instituto Nacional del Deporte, Senadis, el Servicio de Protección Especializada a la Niñez y la Adolescencia, la Subsecretaría del Trabajo . Además de cuestionamientos al financiamiento de Aduanas, Senapred, el Servicio Agrícola y Ganadero (SAG) y la Dirección del Trabajo. En esa línea, la presidenta del Colegio Médico, Ana María Arriagada , manifestó sus inquietudes: \"(Se debe) asegurar el pago de la deuda hospitalaria , que no se reste del presupuesto del año entrante; defender toda mejora que asegure que la Ley Ricarte Soto cuente con los fondos disponibles, no solo para atender a los pacientes que están, sino para recibir más pacientes y además, para ojalá abrirse a incorporar nuevas drogas\". \" Queremos vigilar también los recursos para listas de espera y por eso nos interesa mucho el presupuesto de los hospitales\", agregó. En paralelo, la alcaldesa de Quilicura, Paulina Bobadilla, expuso las preocupaciones para el mundo comunal: \"Genera una gran incertidumbre para la gran mayoría de alcaldes y alcaldesas . Hoy día no tenemos certezas del presupuesto para Salud, Educación, Ley Cholito, Ley TEA, la ley de seguridad municipal. Nosotros tenemos nuevas obligaciones, pero no tenemos nuevos recursos\". Economista: Se debe agregar recursos a Obras Públicas y Vivienda, pero con cuidado de aumentar la deuda Por su parte, el economista Gonzalo Escobar, académico de la Facultad de Economía y Negocios de la Universidad Andrés Bello, señaló que se debe agregar recursos a las partidas de Obras Públicas y Vivienda, pero advierte que es muy probable que la deuda pública supere el 45% para el 2027. \"Debería haber un impulso mayor en sectores como Obras Públicas y Vivienda. Por el contrario, digamos, si uno lo ve, las mayores alzas están en ministerios como Salud —que es importante—, Seguridad y Defensa, y no así en lo que es Obras Públicas y Vivienda. Por lo tanto, ahí hay un tema bastante preocupante. ¿Fiscalmente es responsable? Claro que sí, pero hay que tener cuidado porque es muy probable que la deuda supere el umbral del 45% \", analizó.",
+          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-oposicion-pidio-voluntad-de-dialogo-al-gobierno-en-el/2026-11-15/135316.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115135316.jpg",
+          "published_raw": "Sun, 15 Nov 2026 13:53:16 -0300",
+          "published_at": "2026-11-15T13:53:16-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
           "score_institutional": 8,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 6,
-          "score_actor": 6,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 22,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
-        },
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Gobierno cerró filas en defensa de Rabat y acusó \"falta de mérito\" en acusación constitucional",
-          "description": "El Gobierno acusó este viernes \"falta de mérito\" en la acusación constitucional presentada por la oposición contra el ministro de Justicia, Fernando Rabat , volviendo a respaldar su actuar \"legal y constitucional\" frente a los cuestionamientos por su gestión. Desde el comité político del Ejecutivo salieron al paso del libelo presentado la noche previa por las bancadas opositoras, el cual busca destituir e inhabilitar a la autoridad cuestionando rebajas de condena otorgadas por decreto e interpelaciones ante comisiones legislativas. Previamente, en declaraciones de prensa, la vocería de Gobierno ya había calificado el escrito de 189 páginas como \"liviano y mal preparado\" . Durante una vocería ofrecida en el Palacio de La Moneda, el subsecretario y vocero de Gobierno, Gonzalo Arenas , reiteró que desde la administración del Presidente José Antonio Kast consideran que \"el ministro Rabat no cometió ningún hecho ilegal y tampoco inconstitucional \" . Desde la sede de Gobierno, el vocero Gonzalo Arenas remarcó que Rabat \"cumplió con la Constitución y la ley\". (FOTO: ATON) Según su opinión, \"por el contrario, cumplió con la Constitución y la ley y , por tanto , esa acusación constitucional , a nuestro juicio , no cumple con ninguno de los requisitos necesarios para ser una acusación constitucional que se pueda votar a favor \". \"Nosotros estamos conversando con todas las bancadas que apoyan al Gobierno, estamos buscando y explicando por qué esta acusación constitucional es improcedente y no cumple con los requisitos constitucionales \", enfatizó Arenas, que pese a tener que esperar los argumentos en la instancia, señaló que están \" convencidos que se va a rechazar por la falta de mérito que tiene esta acusación \". El jefe de bancada de Renovación Nacional, diputado Diego Schalper, se sumó a las críticas y apuntó: \"Yo he visto acusaciones deslucidas, acusaciones muy deslucidas, y la que hemos conocido el día de ayer, que se presenta, entregada a medianoche\". \"Si la oposición quiere hacer del conflicto político la dinámica, allá ellos. Nosotros tenemos cosas demasiado importantes de las cuales preocuparnos , pero tengo la impresión de que la oposición, a medida que los días avanzan, ellos mismos se dan cuenta que tienen tan poco mérito jurídico \", aseveró. Contenido del libelo opositor La arremetida parlamentaria contra Rabat ingresó al Congreso tras intensas negociaciones entre bancadas y revisiones legales. El texto sostiene que el titular de Justicia vulneró la Constitución y las leyes en el otorgamiento de beneficios carcelarios y en sus posteriores exposiciones ante el Poder Legislativo . El primer capítulo del documento impugna los beneficios otorgados a 56 personas sentenciadas por delitos sexuales contra niños , niñas y adolescentes , alegando que una ley aprobada en 2022 las excluía explícitamente y que el ministro generalizó criterios de fallos judiciales sin órdenes individuales. El Palacio de La Moneda desplegó una cerrada defensa en favor del ministro de Justicia, Fernando Rabat, tras la presentación del libelo acusatorio en el Congreso Nacional. (FOTO: ATON) El segundo capítulo cuestiona rebajas concedidas a exagentes estatales condenados por crímenes de lesa humanidad que recuperaron la libertad, mientras que el tercer apartado apunta a las explicaciones que entregó ante las comisiones de Constitución del Senado y de la Cámara Baja . Oposición reacciona a los dichos del vocero de Gobierno El blindaje de La Moneda generó molestia en los parlamentarios firmantes de la acusación, quienes desestimaron los cuestionamientos de Arenas y aseguraron que el documento no responde a discrepancias políticas , sino a hechos acreditados en decretos y fallos judiciales . La diputada frenteamplista Emilia Schneider señaló que \"llama la atención la rapidez de la lectura del vocero de Gobierno\", advirtiendo que \" le parece que esto más bien responde a cuñas que estaban preparadas para intentar desviar el foco de la atención que hoy debe estar puesta : en las víctimas y en los responsables de las decisiones que se tomaron \". \" La acusación constitucional que presentamos ayer tiene un robusto fundamento \", aseveró la parlamentaria. \"(El libelo) parte de la premisa de que el ministro actuó fuera de la ley , porque, tal como dice el artículo 7 de la Constitución, ninguna autoridad puede actuar más allá de las atribuciones que les da la ley. Y la ley es clara: no procede en caso alguno rebaja de penas a agresores sexuales de niños y niñas, y este Gobierno lo hizo de igual manera. Y no le echen la culpa a los tribunales, porque ese es otro poder\", afirmó Schneider. \"Acá el ministro tiene que responder, también, porque cambió criterios técnicos históricos del Ministerio de Justicia; por ejemplo, en torno a derechos humanos . Y para defender todo esto, el ministro Rabat fue al Congreso, a la Cámara de Diputados y Diputadas, a mentir \", añadió. En respuesta a la postura del Ejecutivo, la diputada Emilia Schneider sostuvo que el libelo acusatorio \"tiene un robusto fundamento\". (FOTO: ATON) En esta línea, su par socialista Daniel Manouchehri arremetió contra Arenas y le dijo que \" debe dejar la charlatanería y ponerse serio . Apenas presentamos las 189 páginas de la acusación constitucional en contra de Rabat, él la calificó de liviana. En minutos , ya tenía un veredicto \". El trámite continuará su curso el próximo lunes, fecha en que se dará cuenta del ingreso del libelo ante la Sala de la Cámara de Diputadas y Diputados y se sorteará a los cinco integrantes de la comisión revisora que evacuará el informe de admisibilidad.",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/gobierno-cerro-filas-en-defensa-de-rabat-y-acuso-falta-de-merito-en/2026-11-13/144816.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261113/imag/foto_0000000520261113144816.png",
-          "published_raw": "Fri, 13 Nov 2026 14:48:16 -0300",
-          "published_at": "2026-11-13T14:48:16-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 11,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 4,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 17,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
-        },
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Oposición prevé presentar esta noche la acusación constitucional contra Rabat",
-          "description": "La oposición prevé presentar la noche de este jueves la acusación constitucional contra el ministro de Justicia, Fernando Rabat , por las rebajas de condena que otorgó a 56 personas condenadas por delitos sexuales contra menores de edad, sin que mediara una orden judicial previa. Las bancadas de centroizquierda se reunirán a las 16:00 horas en el Congreso para definir el horario de presentación. Una de las opciones es ingresar el libelo a la Cámara de Diputadas y Diputados entre las 20:00 y las 21:00 horas . Según parlamentarios del sector, el texto ya está listo y solo falta la \"decisión política\" sobre el momento de su presentación . El paro de camioneros ha abierto un debate en la oposición sobre cuándo ingresar la acusación, mientras el oficialismo cuestiona la demora. [Lea también] Couso no ve mérito para acusación constitucional contra Rabat ni la Corte Suprema \"La acusación constitucional se va a presentar esta semana, dentro de las próximas horas , tal como nos habíamos comprometido\", dijo el diputado Álvaro Ortiz , presidente de la DC. En una línea, similar el jefe de la bancada de diputados de la DC, Jorge Díaz , remarcó que \" esta acusación constitucional se va a presentar en las próximas horas \". \"Esperamos que en la tarde podamos convocar nuevamente a la prensa para anunciar que se va a presentar esta acusación constitucional, porque las víctimas son las principales afectadas y esta situación no puede quedar en la máxima impunidad ni sin asumir ningún tipo de responsabilidad política \", enfatizó el parlamentario. PPD llamó a \"llevar adelante todas las acciones\" El diputado Raúl Soto (PPD) afirmó que la acusación está lista. \" La decisión política del día y la hora de la presentación la van a anunciar los jefes de bancada. Yo creo que efectivamente esto no se debiese seguir dilatando\", señaló. Asimismo, llamó \"a la calma, a que no exista ansiedad y que si hay algún partido político de la oposición que no esté de acuerdo con acusar constitucionalmente al ministro Fernando Rabat , que lo diga de manera clara , explícita ante el país\". \"Nosotros como PPD tomamos una decisión, que es ponernos del lado de las víctimas , que es llevar adelante todas las acciones para que se persigan las responsabilidades \", puntualizó el legislador. Por su parte, el diputado Raúl Leiva (PS) defendió el tiempo que tomó redactar el libelo. \"Han pasado ocho días desde que la oposición señaló la decisión de presentar una acusación constitucional. Un texto de esa naturaleza no es improvisación, es trabajo, es seriedad y responsabilidad \", sostuvo. [Lea también] Diputada republicana arremetió en la Cámara contra \"Derechos Humanos Company\" El oficialismo pronostica la caída del libelo En tanto, desde los partidos de gobierno desestimaron la viabilidad de la acción impulsada por la oposición parlamentaria . Respecto a la presentación del docmento, el presidente de la Unión Demócrata Independiente (UDI) , diputado Guillermo Ramírez , ironizó que \" ya era hora , esto es como el cuento del lobo \". \"Llevamos semanas esperando la acusación constitucional, eso le dio tiempo al Gobierno para poder ordenar las filas y la verdad es que yo tengo la impresión de que esa acusación va a fracasar. Si tuviera que apostar, vamos a ganar la acusación constitucional en la Cámara de Diputados y no de manera tan justa \", aseguró el legislador.",
-          "url": "https://www.cooperativa.cl/noticias/pais/judicial/oposicion-preve-presentar-esta-noche-la-acusacion-constitucional-contra/2026-11-12/142752.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000000220261112142752.png",
-          "published_raw": "Thu, 12 Nov 2026 14:27:52 -0300",
-          "published_at": "2026-11-12T14:27:52-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 8,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 1,
+          "score_policy": 4,
+          "score_ideology": 0,
           "score_actor": 6,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 15,
+          "political_evidence": 19,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
+          "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
-        },
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Los argumentos de la acusación constitucional al ministro Fernando Rabat",
-          "description": "A 15 días de haberla anunciado, la oposición ingresó a la Cámara Baja la acusación constitucional contra el ministro de Justicia, Fernando Rabat, por las polémicas rebajas de condena que concedió a pedófilos y criminales de lesa humanidad  sin órdenes judiciales que lo obligaran. El libelo, presentado a las 20:05 horas de esta jornada, tiene 189 páginas y se compone de tres capítulos:  el primero y el segundo tratarán sobre las mentadas reducciones, mientras que el tercero aborda \"la información inexacta e incompleta que entregó (Rabat ante la Sala de la Cámara el 28 de octubre, durante una sesión especial)  para justificarlas\". A juicio de los diputados firmantes -militantes de la DC, el PL, el PPD, el, PS, el FA y el PC-, el titular de Justicia cometió \"infracciones evidentes que dejaron sin protección a quienes la ley debe proteger\",  que se demuestran en sus \"decretos (firmados), fallos y declaraciones\". 🔴 AHORA La oposición ingresa la anunciada acusación constitucional contra el ministro de Justicia, Fernando Rabat. @Cooperativa https://t.co/2qrMwN6iAF — Jorge Espinoza Cuellar (@espinozacuellar) November 12, 2026 En concreto, el ministro Rabat -acusaron- \"abandonó el criterio que el Ministerio de Justicia sostuvo en dos administraciones, sin mediar cambio legal ni orden judicial que lo obligara; resolvió a favor del condenado, sin considerar a las víctimas, infringiendo la ley; y atribuyó la decisión a otros: a las comisiones, a la Corte Suprema, a la ley, al Congreso y al Gobierno anterior (de Gabriel Boric)\". Asimismo, la oposición recordó que la Administración Kast \"no ha hecho valer las responsabilidades\" pese a reconocer un error político en haber rebajado las condenas y reiteró que  el líder de Justicia \"ya no es un interlocutor válido\". [Lea también] Couso no ve mérito para acusación constitucional contra Rabat ni la Corte Suprema Una de las diputadas firmantes, Daniela Serrano (PC), afirmó que \"esto es por responsabilidad por Chile y por las víctimas. Lo que estamos haciendo valer es nuestra atribución fiscalizadora como Cámara. Sé que hubo mucha expectación de los tiempos en que se redactaron esta AC, pero queremos dar tranquilidad de que esto fue un trabajo responsable y coordinado\". El libelo \"se dará cuenta el día lunes\" 16 de noviembre, agregó.  Las infracciones legales al rebajar condena a pedófilos El texto sostiene que, al rebajar las condenas de 56 pedófilos, \"el ministro infringió el artículo 17, letra e), de la Ley N° 19.856, modificado por la Ley N° 21.421,  que lo prohíbe expresamente\". Asimismo, afirma que desatendió los intereses superiores de los niños, vulnerando \"el artículo 5°, inciso segundo, de la Constitución, la Convención sobre los Derechos del Niño y la Ley N° 21.430, que obligan a considerarlo primordialmente\". Por último, la oposición acusó que Rabat \"cometió abuso de poder, (ya que) las sentencias sólo obligan en la causa que resuelven (art. 3° del Código Civil). Sin embargo, (el abogado)  convirtió fallos favorables a algunos condenados en una regla general, invocando la eficiencia y 'la conveniencia de evitar la judicialización'\". Además, \"concedió rebajas en causas que estaban siendo conocidas por los tribunales, sin esperar su decisión; e infringió la ley por omisión al suspender la tramitación de las postulaciones (de los condenados para que rebajen su sentencia), contra su obligación legal de resolver\". El documento de 189 páginas y tres capítulos fue ingresado a las 20:05 horas de esta jornada e incluye firmas de diputados DC, PL, PPD, PS, FA y PC. (Foto: ATON) Respecto a las reducciones concedidas a criminales de lesa humanidad En cuanto a las rebajas de sentencia que Rabat concedió a tres exagentes del Estado por violaciones de DD.HH. durante la dictadura -dos de los cuales estaban presos en Punta Peuco-, la centroizquierda acusó que omitió \"el artículo 5°, inciso segundo de la Constitución, que obliga a respetar los derechos garantizados por los tratados vigentes\". Entre ellos, figuran \"la Convención Americana, la Convención contra la Tortura y las convenciones sobre desaparición forzada, que exigen penas proporcionales y efectivas. Según la Corte Interamericana, eso incluye no conceder beneficios indebidos durante la ejecución de la pena\", sostiene el texto. Además, \"no consideró a las víctimas (a la hora de evaluar rebajar las condenas). No las informó ni ponderó los efectos de la liberación sobre ellas y, en el caso de los desaparecidos, no examinó si el condenado ayudó a esclarecer su paradero, condición que la Convención Interamericana sobre Desaparición Forzada pone para cualquier atenuación\",  enfatizó la oposición.  Presuntas vulneraciones a la probidad, a la lealtad a la Cámara y al informar al Congreso Por último, el sector denunció que el titular de Justicia \"faltó a la verdad, entregó información inexacta y omitió antecedentes relevantes\" durante sus comparecencias ante la Comisión de Constitución del Senado el 27 de octubre, ante la Sala de la Cámara el día después y \"ante la prensa\". Con ello, infringió -aseguran- \"el principio de probidad (artículo 8° de la Constitución y artículo 52 de la Ley N° 18.575 (DFL N° 1/19.653), que exige 'un desempeño honesto y leal de la función o cargo', (pues)  no hay desempeño honesto cuando un ministro informa a otro poder del Estado hechos falsos o incompletos\". Finalmente, también vulneró \"el deber de lealtad con la Cámara;  el artículo 53 de la misma ley exige el recto ejercicio del poder público, y la Contraloría ha dicho que la probidad incluye la lealtad con la comunidad y los demás poderes del Estado; y el deber de informar al Congreso\",  faltando al artículo 37 de la Carta Magna.  [Lea también]  Rabat descarta presión para dejar Justicia: \"Estoy muy contento en mi labor\"",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/los-argumentos-de-la-acusacion-constitucional-al-ministro-fernando-rabat/2026-11-12/202314.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261112/imag/foto_0000001320261112202314.png",
-          "published_raw": "Thu, 12 Nov 2026 20:23:14 -0300",
-          "published_at": "2026-11-12T20:23:14-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 10,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 14,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
+          "cluster_id": "PML-EVENT-002"
         }
       ]
     },
     {
-      "position": 5,
-      "cluster_id": "PML-EVENT-018",
-      "title": "“El idilio de los medios con Trump ha acabado”: la victoria demócrata cambia las reglas de la prensa de Washington",
-      "url": "https://elpais.com/us/2026-11-15/el-idilio-de-los-medios-con-trump-ha-acabado-la-victoria-democrata-cambia-las-reglas-de-la-prensa-de-washington.html",
+      "position": 4,
+      "cluster_id": "PML-EVENT-019",
+      "title": "Guatemala decreta el estado de sitio en el feudo de los grupos narco señalados como terroristas por Estados Unidos",
+      "url": "https://elpais.com/america/2026-11-15/guatemala-decreta-el-estado-de-sitio-en-el-feudo-de-los-grupos-narco-senalados-como-terroristas-por-estados-unidos.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
         "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
+        "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 53.5,
+        "score": 57.3,
         "level": "MEDIA",
-        "editorial_utility": 42.5
+        "editorial_utility": 49.3
       },
       "selection": {
-        "reason": "PML 53.5; fallback editorial controlado; diversidad relajada para completar el brief",
+        "reason": "PML 57.3; fallback editorial controlado; diversidad relajada para completar el brief; aporta diversidad geográfica",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -450,12 +293,85 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-15T01:40:00-0300",
-      "last_seen": "2026-11-15T01:40:00-0300",
-      "entities": "trump",
-      "event_terms": "victoria",
+      "first_seen": "2026-11-15T14:21:16-0300",
+      "last_seen": "2026-11-15T14:21:16-0300",
+      "entities": "mexico",
+      "event_terms": [],
       "analysis": {
-        "summary": "La debilidad del presidente tras el revés de las ‘midterms’ reabre el debate sobre cómo cubrir a un político que se nutre de la atención de una profesión a la que ataca constantemente",
+        "summary": "La medida del presidente Arévalo regirá durante un mes en Zacapa e Izabal, zonas clave para el trasiego de droga hacia México",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Guatemala decreta el estado de sitio en el feudo de los grupos narco señalados como terroristas por Estados Unidos",
+          "description": "La medida del presidente Arévalo regirá durante un mes en Zacapa e Izabal, zonas clave para el trasiego de droga hacia México",
+          "url": "https://elpais.com/america/2026-11-15/guatemala-decreta-el-estado-de-sitio-en-el-feudo-de-los-grupos-narco-senalados-como-terroristas-por-estados-unidos.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/Z65AWZUVVNGYXCZJY5LWBEM3YU.jpg?auth=4392fc85fd012c13c3fe733a7773a14f4c3a5cd9b987fce9a4387780e7b8629c",
+          "published_raw": "Sun, 15 Nov 2026 17:21:16 GMT",
+          "published_at": "2026-11-15T14:21:16-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Conflictos y seguridad",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-019"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-015",
+      "title": "Trump rompe 37 horas de inusual silencio para culpar del parón aeronáutico al Gobierno de Biden",
+      "url": "https://elpais.com/us/2026-11-15/trump-rompe-37-horas-de-inusual-silencio-para-culpar-del-paron-aeronautico-al-gobierno-de-biden.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 56.8,
+        "level": "MEDIA",
+        "editorial_utility": 45.8
+      },
+      "selection": {
+        "reason": "PML 56.8; fallback editorial controlado; diversidad relajada para completar el brief",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-15T15:01:46-0300",
+      "last_seen": "2026-11-15T15:01:46-0300",
+      "entities": "trump",
+      "event_terms": "crisis",
+      "analysis": {
+        "summary": "El presidente de Estados Unidos tardó un día y medio en pronunciarse sobre la mayor crisis de la aviación del país desde los atentados terroristas de 2001",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -468,30 +384,30 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "“El idilio de los medios con Trump ha acabado”: la victoria demócrata cambia las reglas de la prensa de Washington",
-          "description": "La debilidad del presidente tras el revés de las ‘midterms’ reabre el debate sobre cómo cubrir a un político que se nutre de la atención de una profesión a la que ataca constantemente",
-          "url": "https://elpais.com/us/2026-11-15/el-idilio-de-los-medios-con-trump-ha-acabado-la-victoria-democrata-cambia-las-reglas-de-la-prensa-de-washington.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/CLLGFW7K7RJ5NPJG5SQ4I2W2GI.jpg?auth=e407e873664dd4fc1094548486865e74ad49acba101b6adde49c8994218a9fb1",
-          "published_raw": "Sun, 15 Nov 2026 04:40:00 GMT",
-          "published_at": "2026-11-15T01:40:00-0300",
+          "title": "Trump rompe 37 horas de inusual silencio para culpar del parón aeronáutico al Gobierno de Biden",
+          "description": "El presidente de Estados Unidos tardó un día y medio en pronunciarse sobre la mayor crisis de la aviación del país desde los atentados terroristas de 2001",
+          "url": "https://elpais.com/us/2026-11-15/trump-rompe-37-horas-de-inusual-silencio-para-culpar-del-paron-aeronautico-al-gobierno-de-biden.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/7OEAP7PYB5LIZEALKOI4H7HNWQ.jpg?auth=f9c518ae7f7e5740b9c095069e161785cc852ead0d9a345e3fa8740644c3f649",
+          "published_raw": "Sun, 15 Nov 2026 18:01:46 GMT",
+          "published_at": "2026-11-15T15:01:46-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
-          "score_institutional": 1,
+          "score_institutional": 2,
           "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 0,
+          "score_international": 0,
+          "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 4,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-018"
+          "cluster_id": "PML-EVENT-015"
         }
       ]
     }
@@ -504,7 +420,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-003",
+        "cluster_id": "PML-EVENT-005",
         "title": "Presupuesto: Senado se alista para un arduo debate tras polémicos desfinanciamientos",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -515,11 +431,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 51.2,
+          "score": 46.7,
           "level": "BAJA",
           "components": {
             "political_impact": 54,
-            "freshness": 80,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -559,7 +475,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-005"
           }
         ],
         "article_count": 1,
@@ -571,31 +487,31 @@
             "Congreso y proceso legislativo",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 73.2
+          "chile_utility": 68.7
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-006",
-        "title": "Senador Núñez: El Gobierno no cuenta con los recursos para financiar acuerdo con camioneros",
+        "cluster_id": "PML-EVENT-003",
+        "title": "Parisi advirtió que en el PDG hay tendencia mayoritaria a apoyar la AC contra Rabat",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "POLITICAL_STATEMENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/transportes/senador-nunez-el-gobierno-no-cuenta-con-los-recursos-para-financiar/2026-11-14/083158.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/parisi-advirtio-que-en-el-pdg-hay-tendencia-mayoritaria-a-apoyar-la-ac/2026-11-15/121022.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 49.7,
-          "level": "BAJA",
+          "score": 55.6,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 55,
-            "freshness": 72,
+            "political_impact": 50,
+            "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 32
+            "continuity": 36
           }
         },
         "coverage": {
@@ -603,53 +519,50 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-14T08:31:58-0300",
-        "last_seen": "2026-11-14T08:31:58-0300",
+        "first_seen": "2026-11-15T12:10:22-0300",
+        "last_seen": "2026-11-15T12:10:22-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Senador Núñez: El Gobierno no cuenta con los recursos para financiar acuerdo con camioneros",
-            "description": "El senador comunista Daniel Núñez acusó que el Gobierno no tiene los recursos necesarios para financiar el acuerdo con los camioneros -que contempla una rebaja de 142 pesos del diésel y el congelamiento de su valor hasta el 31 de marzo de 2027-, por lo que pidió a Hacienda postergar por un año la entrada en vigencia de la megarreforma. En conversación con El Diario de Cooperativa, el parlamentario discrepó de la versión del Ejecutivo de que dispone de los fondos requeridos: \"Sinceramente, creo que es todo lo contrario. Lo que ha hecho este Gobierno es tremendamente irresponsable, porque se ha dedicado a adoptar medidas que le bajan impuestos a los más ricos de Chile y por esa vía desfinancian al Estado\". \"Aquí las cosas hay que decirlas como son: La Moneda hoy no cuenta con recursos para financiar este acuerdo que firmó con los camioneros. Probablemente, el ministro (de Hacienda, Jorge) Quiroz va a tener que solicitar elevar más el endeudamiento en la discusión que nos queda del Presupuesto 2027, o va a transparentar que, probablemente, dejará de cubrir algunas de las demandas sociales\", criticó Núñez. \"El costo del acuerdo es muy importante: son 900 millones de dólares que no están contemplados en el debate (...). Entonces, creo que acá tenemos que adoptar una medida de emergencia que implique allegar nuevos recursos al Estado para que el 2027 podamos financiar este entendimiento, que es necesario (...). Lo mejor sería -y se lo vamos a proponer al ministro Quiroz una vez más- que se postergue por un año la entrada en vigencia de la megarreforma\", indicó el senador del PC. Presupuesto: Propondrán restituir recursos al subsidio al empleo y a sitios de memoria Respecto a la discusión del Presupuesto 2027 -proyecto que fue despachado al Senado con siete partidas rechazadas-, Núñez anticipó que la oposición propondrá \"aumentar los recursos al subsidio unificado al empleo, que caen un 50% en este erario\". \"O sea, esto es una locura: hay una crisis de empleo y el Gobierno baja los apoyos destinados a empresas privadas para que se motiven y tengan un incentivo para contratar más trabajadores. Es algo que no podemos comprender\", criticó. El parlamentario opositor también apuntó a una \"ofensiva negacionista\" como la causa que dejó a seis sitios de memoria sin financiamiento: \"Lo vimos encabezado con una crueldad inhumana de esta famosa diputada republicana (Javiera) Rodríguez, que lo que está haciendo es sencillamente desconocer las violaciones a los derechos humanos que hubo en Chile y los delitos de lesa humanidad bajo la dictadura\", acusó. \"Es algo que por supuesto rechazamos tajantemente y vamos a exigir que vía indicación del Gobierno se repongan todos esos recursos y se aumenten los destinados al Plan de Búsqueda\", cerró el senador comunista.",
-            "url": "https://www.cooperativa.cl/noticias/pais/transportes/senador-nunez-el-gobierno-no-cuenta-con-los-recursos-para-financiar/2026-11-14/083158.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261114/imag/foto_0000000220261114083158.png",
-            "published_raw": "Sat, 14 Nov 2026 08:31:58 -0300",
-            "published_at": "2026-11-14T08:31:58-0300",
+            "title": "Parisi advirtió que en el PDG hay tendencia mayoritaria a apoyar la AC contra Rabat",
+            "description": "El excandidato presidencial y secretario general del Partido de la Gente (PDG), Franco Parisi , aseguró que existe una mayoría dentro de su colectividad que apunta a apoyar la acusación constitucional presentada por la oposición contra el ministro de Justicia y Derechos Humanos, Fernando Rabat , en medio de la controversia por la rebaja de condenas a personas sentenciadas por delitos sexuales contra menores de edad. En una entrevista con La Tercera , Parisi cuestionó el manejo del Presidente José Antonio Kast frente a la crisis y aseguró que, \"nosotros hemos tratado de decir a la autoridad que lo mejor es que el ministro Rabat dé un paso al costado \". \"Hay una complejidad muy grande que no ha sabido manejar el Presidente Kast . Hay mucha gente en el gobierno, por lo menos los que hablan conmigo, que está muy molesta, porque ha alargado una crónica de una muerte anunciada \", sostuvo. Consultado sobre si existía una mayoría favorable al libelo dentro del PDG, Parisi respondió que \" lo que yo he conversado, sí, pero es que todavía no sabemos de qué estamos hablando. Veamos el documento, hay que analizarlo, hay que discutirlo \". El líder de la colectividad también advirtió que \"lamentablemente, los ánimos en el Parlamento están demasiado polarizados\" y abordó la diferencia entre las implicancias políticas y constitucionales de la controversia. \"Es difícil explicarle a la víctima de un violador, de un pederasta, que (al victimario) lo dejaron libre y que no hay ningún error constitucional . Por lo tanto, yo creo que va a pesar más la arista política que la constitucional\", afirmó para La Tercera. En esa línea, sostuvo que \" este es un problema político, no constitucional. Si no, lleguemos al Tribunal Constitucional. Esa es mi postura. Pero, obviamente, los diputados van a tener que discutir, analizar y tomar una decisión. Lo que yo espero es que la decisión sea tomada mayoritariamente por todos\". El PDG podría definir el futuro de la acusación Para aprobar la acusación constitucional contra el ministro Rabat se necesitan 78 votos y, con 65 apoyos preliminares, los 15 diputados del Partido de la Gente  podrían resultar decisivos para el futuro del libelo. Ante los cuestionamientos del senador liberal, Vlado Mirosevic, quien acusó al PDG de actuar como una especie de \"cogobierno\" del Presidente José Antonio Kast , el diputado Patricio Briones (PDG),  respondió: \"Las palabras del senador Mirosevic solo hablan de revanchismo y tratan de opacar su propia gestión en el liderazgo de su sector\". El parlamentario también abordó la relación de la bancada: \" Franco Parisi es nuestro líder , Franco Parisi siempre va a ser nuestro candidato a la presidencia, pero la autonomía y la independencia cada uno de nosotros como diputados está siendo ejercida en su máximo esplendor \", enfatizó. Desde el oficialismo, el presidente de la UDI, Guillermo Ramírez , señaló: \"Hoy día mismo Franco Parisi reconoce que en el PDG las decisiones están divididas , por lo tanto también es esperable que haya algunos votos del PDG que van a votar en contra. Ya con eso la acusación se rechaza y por lo tanto estamos tranquilos \". Por su parte, el diputado, Jaime Mulet (FRVS) recordó que la legislación sobre rebajas de condenas fue aprobada transversalmente en 2003. \"Si las cosas se han hecho mal, bueno, corrijámoslas, pero creo que siempre es bueno tener en perspectiva las cosas y no usar una oportunidad política \", planteó. Este lunes se dará cuenta del ingreso de la acusación constitucional ante la Sala de la Cámara , donde también se sortearán los cinco integrantes de la comisión encargada de revisar el libelo.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/parisi-advirtio-que-en-el-pdg-hay-tendencia-mayoritaria-a-apoyar-la-ac/2026-11-15/121022.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115121022.jpg",
+            "published_raw": "Sun, 15 Nov 2026 12:10:22 -0300",
+            "published_at": "2026-11-15T12:10:22-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 4,
-            "score_elections": 0,
-            "score_international": 0,
+            "score_institutional": 8,
+            "score_elections": 1,
+            "score_international": 1,
             "score_conflict": 0,
-            "score_policy": 3,
+            "score_policy": 0,
             "score_ideology": 1,
-            "score_actor": 4,
+            "score_actor": 8,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 12,
+            "political_evidence": 19,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
+            "cluster_id": "PML-EVENT-003"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 21,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 70.7
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 64.6
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-015",
+        "cluster_id": "PML-EVENT-017",
         "title": "Impulsan proyecto que endurece multas por venta de vapeadores y cigarrillos a menores",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -660,11 +573,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.3,
-          "level": "MEDIA",
+          "score": 48.3,
+          "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 88,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -704,7 +617,7 @@
             "secondary_topic": "Relaciones internacionales",
             "decision": "ACCEPT",
             "filter_confidence": "medium",
-            "cluster_id": "PML-EVENT-015"
+            "cluster_id": "PML-EVENT-017"
           }
         ],
         "article_count": 1,
@@ -712,7 +625,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 61.3
+          "chile_utility": 57.3
         },
         "repeated_in_general_top5": false
       }
@@ -721,9 +634,9 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 20,
-      "maximum_relevance": 63.4,
-      "leading_story": "El Gobierno de México mira hacia China bajo la vigilancia incómoda de Estados Unidos"
+      "event_count": 23,
+      "maximum_relevance": 65.4,
+      "leading_story": "Congreso espera despachar a ley el acuerdo con los camioneros a más tardar el martes"
     },
     {
       "topic": "Conflictos y seguridad",
@@ -739,15 +652,11 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-014", "PML-EVENT-017", "PML-EVENT-012", "PML-EVENT-018"],
-      "exited_top5": ["PML-EVENT-016", "PML-EVENT-006", "PML-EVENT-004", "PML-EVENT-008"],
-      "retained_top5": "PML-EVENT-001"
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
     "source_count": 3
   },
   "system": {
