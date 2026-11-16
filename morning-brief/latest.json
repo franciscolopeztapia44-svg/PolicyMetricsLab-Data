@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-15",
-    "data_latest_timestamp": "2026-11-15T16:49:18-0300",
-    "data_age_hours": 5.1,
-    "generated_at": "2026-11-15T21:52:46-0300",
+    "date": "2026-11-16",
+    "data_latest_timestamp": "2026-11-16T06:30:00-0300",
+    "data_age_hours": 1.3,
+    "generated_at": "2026-11-16T07:48:49-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,8 +16,8 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 27 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 2 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 27 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
@@ -26,13 +26,86 @@
     "topics": 1,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 59.2,
-    "maximum_relevance": 64.2
+    "average_top5_relevance": 61.4,
+    "maximum_relevance": 69.7
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-006",
+      "cluster_id": "PML-EVENT-011",
+      "title": "El Gobierno de Milei busca eliminar las elecciones primarias para llegar con ventaja a las presidenciales de 2027",
+      "url": "https://elpais.com/argentina/2026-11-16/el-gobierno-de-milei-busca-eliminar-las-elecciones-primarias-para-llegar-con-ventaja-a-las-presidenciales-de-2027.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "ELECTORAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Argentina / América Latina"
+      },
+      "relevance": {
+        "score": 69.7,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 69.7
+      },
+      "selection": {
+        "reason": "PML 69.7",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-16T06:30:00-0300",
+      "last_seen": "2026-11-16T06:30:00-0300",
+      "entities": "milei",
+      "event_terms": "soberania",
+      "analysis": {
+        "summary": "El oficialismo acelera la agenda legislativa en las últimas semanas del año. Quiere aprobar el Presupuesto 2027, la reforma de la carta orgánica del Banco Central y la Ley de soberanía",
+        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Argentina / América Latina.",
+        "watch_next": [
+          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
+          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El Gobierno de Milei busca eliminar las elecciones primarias para llegar con ventaja a las presidenciales de 2027",
+          "description": "El oficialismo acelera la agenda legislativa en las últimas semanas del año. Quiere aprobar el Presupuesto 2027, la reforma de la carta orgánica del Banco Central y la Ley de soberanía",
+          "url": "https://elpais.com/argentina/2026-11-16/el-gobierno-de-milei-busca-eliminar-las-elecciones-primarias-para-llegar-con-ventaja-a-las-presidenciales-de-2027.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/LQQZRIYWXJPJ7HNPI4RHNSMJ74.jpg?auth=97490d34a300e6ae0cac5cd8878b6cde3eea8898d054accfcc94667caafe5e9d",
+          "published_raw": "Mon, 16 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-16T06:30:00-0300",
+          "country": "Argentina",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 3,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 2,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 8,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-011"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-003",
       "title": "Congreso espera despachar a ley el acuerdo con los camioneros a más tardar el martes",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/congreso-espera-despachar-a-ley-el-acuerdo-con-los-camioneros-a-mas/2026-11-15/132714.html",
       "representative_source": "Cooperativa",
@@ -43,12 +116,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 64.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 64.2
+        "score": 60.9,
+        "level": "MEDIA",
+        "editorial_utility": 63.9
       },
       "selection": {
-        "reason": "PML 64.2",
+        "reason": "PML 60.9; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -83,7 +156,7 @@
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
           "title": "Congreso espera despachar a ley el acuerdo con los camioneros a más tardar el martes",
-          "description": "El Congreso espera tramitar con rapidez  el proyecto de acuerdo entre el Gobierno y los camioneros para bajar en 142 pesos el precio del diésel - entre otras medidas- y despacharlo a ley a más tardar el martes. La iniciativa también contempla congelar los precios hasta el 31 de marzo de 2027 ,  extender el beneficio de recuperación del impuesto específico para el transporte de carga durante todo ese año y aumentar el porcentaje de reintegro de peajes para el transporte interurbano, como puntos más destacados.  \"Lo que le corresponde al Congreso es legislar inmediatamente para plasmar este acuerdo en un texto, en la ley, que es lo que nos ordena. Si hay algunos que pretenden que a lo mejor se haga un mayor esfuerzo, tienen la razón respecto de que tenemos que partir por aprobar esto, que es lo mínimo\", dijo la presidenta del Senado, Paulina Núñez (RN).  \"Fijamos los plazos (de tramitación) y nos coordinamos con la mesa de la Cámara. El día lunes van a sesionar ellos primero, luego vamos a sesionar inmediatamente nosotros, para que el día martes ya seamos capaces de despacharlo a ley, si es que incluso no es el propio lunes\", afirmó. [Lea también]  Eyzaguirre por paro de transportistas: Hay un uso del poder oligopólico muy inaceptable Desde la oposición, en tanto, si bien saben que no cuentan con mayoría, sostienen que buscarán mejorar aspectos del texto.  El diputado de la bancada PPD-independientes Carlos Bianchi criticó que \"esto no resuelve la situación de los valores de los combustibles para las personas en general o para las mipymes, pequeños transportistas\". \"Por lo tanto, yo espero que se dé la oportunidad de mejorar ese proyecto. Ahora, como (en la derecha) tienen mayoría, lo más probable es que esto sea una imposición y no tengamos ninguna posibilidad de mejorar\" el proyecto, reprochó. Pavez: \"El Gobierno ha hecho importantes esfuerzos para atenuar\" el bencinazo El subsecretario del Interior, Máximo Pavez, relevó los esfuerzos hechos por el Gobierno para llegar al acuerdo y atenuar el alza de combustibles, luego que el ministro de Hacienda, Jorge Quiroz,  dijera a La Tercera que \"siempre va a haber un dolorcillo de guata cuando se abre la billetera más allá de lo previsto\", pese a calificar el entendimiento como \"satisfactorio\". \"El Ejecutivo desde marzo ha hecho importantísimos esfuerzos para atenuar esta crisis internacional, que es la más grande en 50 años en materia de combustibles\", dijo el subsecretario al programa Mesa Central, de Canal 13. \"Entre el 11 de marzo y el 11 de noviembre se han inyectado 1,4 billones de pesos al sistema Mepco para poder atenuar todo lo que ha significado el alza de las bencinas. Es decir, si el Gobierno no hubiese hecho los esfuerzos que hizo al principio, nosotros habríamos gastado, con precios más o menos similares a los que están ahora, más de 3,8 billones de pesos\", defendió Pavez.",
+          "description": "El Congreso espera tramitar con rapidez  el proyecto de acuerdo entre el Gobierno y los camioneros para bajar en 142 pesos el precio del diésel - entre otras medidas- y despacharlo a ley a más tardar el martes. La iniciativa también contempla congelar los precios hasta el 31 de marzo de 2027 ,  extender el beneficio de recuperación del impuesto específico para el transporte de carga durante todo ese año y aumentar el porcentaje de reintegro de peajes para el transporte interurbano, como puntos más destacados.  \"Lo que le corresponde al Congreso es legislar inmediatamente para plasmar este acuerdo en un texto, en la ley, que es lo que nos ordena. Si hay algunos que pretenden que a lo mejor se haga un mayor esfuerzo, tienen la razón respecto de que tenemos que partir por aprobar esto, que es lo mínimo\", dijo la presidenta del Senado, Paulina Núñez (RN).  \"Fijamos los plazos (de tramitación) y nos coordinamos con la mesa de la Cámara. El día lunes van a sesionar ellos primero, luego vamos a sesionar inmediatamente nosotros, para que el día martes ya seamos capaces de despacharlo a ley, si es que incluso no es el propio lunes\", afirmó. [Lea también]  Eyzaguirre por paro de transportistas: Hay un uso del poder oligopólico muy inaceptable Desde la oposición, en tanto, si bien saben que no cuentan con mayoría, sostienen que buscarán mejorar aspectos del texto.  El diputado de la bancada PPD-independientes Carlos Bianchi criticó que \"esto no resuelve la situación de los valores de los combustibles para las personas en general o para las mipymes, pequeños transportistas\". \"Por lo tanto, yo espero que se dé la oportunidad de mejorar ese proyecto. Ahora, como (en la derecha) tienen mayoría, lo más probable es que esto sea una imposición y no tengamos ninguna posibilidad de mejorar\" el proyecto, reprochó. Mientras que la senadora y presidenta del Partido Socialista , Paulina Vodanovic , señaló que \"es un proyecto que hay que estudiar, pero sí entender que una solución que no es una negociación, sino simplemente consiste en entregarle un cheque a todos los transportistas del país sin focalizar en los que tienen más problemas, que son los pequeños\". \" Pareciera ser que no es la solución adecuada cuando involucra una cantidad de gastos para el país tan importante , que incluso es superior a lo que habría costado mantener el Mepco originalmente\", advirtió la legisladora, que señaló también que \"frente a los camioneros no aplicó ninguna ley\". \" ¿Alguien lo vio al ministro de Seguridad con la interrupción en las carreteras o con la demora en las carreteras? Ministro ausente. Aquí hay una bomba de tiempo instalada dentro de La Moneda que el Presidente tiene que por una vez por todas resolver\" , enfatizó. Pavez: \"El Gobierno ha hecho importantes esfuerzos para atenuar\" el bencinazo El subsecretario del Interior, Máximo Pavez, relevó los esfuerzos hechos por el Gobierno para llegar al acuerdo y atenuar el alza de combustibles, luego que el ministro de Hacienda, Jorge Quiroz,  dijera a La Tercera que \"siempre va a haber un dolorcillo de guata cuando se abre la billetera más allá de lo previsto\", pese a calificar el entendimiento como \"satisfactorio\". \"El Ejecutivo desde marzo ha hecho importantísimos esfuerzos para atenuar esta crisis internacional, que es la más grande en 50 años en materia de combustibles\", dijo el subsecretario al programa Mesa Central, de Canal 13. \"Entre el 11 de marzo y el 11 de noviembre se han inyectado 1,4 billones de pesos al sistema Mepco para poder atenuar todo lo que ha significado el alza de las bencinas. Es decir, si el Gobierno no hubiese hecho los esfuerzos que hizo al principio, nosotros habríamos gastado, con precios más o menos similares a los que están ahora, más de 3,8 billones de pesos\", defendió Pavez.",
           "url": "https://www.cooperativa.cl/noticias/pais/politica/congreso-espera-despachar-a-ley-el-acuerdo-con-los-camioneros-a-mas/2026-11-15/132714.html",
           "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115132714.png",
           "published_raw": "Sun, 15 Nov 2026 13:27:14 -0300",
@@ -91,45 +164,118 @@
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 8,
+          "score_institutional": 9,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
+          "score_conflict": 1,
           "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 4,
+          "score_ideology": 2,
+          "score_actor": 7,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 13,
+          "political_evidence": 19,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-006"
+          "cluster_id": "PML-EVENT-003"
         }
       ]
     },
     {
-      "position": 2,
+      "position": 3,
+      "cluster_id": "PML-EVENT-009",
+      "title": "Parlamentarias FA respaldaron a Ximena Ossandón tras ataques republicanos",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/frente-amplio/parlamentarias-fa-respaldaron-a-ximena-ossandon-tras-ataques-republicanos/2026-11-15/165829.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "CONFLICT_ESCALATION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 59.4,
+        "level": "MEDIA",
+        "editorial_utility": 55.4
+      },
+      "selection": {
+        "reason": "PML 59.4; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-15T16:58:29-0300",
+      "last_seen": "2026-11-15T16:58:29-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "Parlamentarias del Frente Amplio manifestaron su rechazo a las declaraciones de los diputados Javiera Rodríguez y Cristián Araya en medio de la discusión del Presupuesto 2027 , quienes arremetieron en contra de los defensores de los derechos humanos , y respaldaron el actuar de la vicepresidenta de la Cámara, Ximena Ossandón. En una carta abierta, las legisladoras señalaron que tras el \"vergonzoso episodio ´DD.HH.",
+        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
+          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Parlamentarias FA respaldaron a Ximena Ossandón tras ataques republicanos",
+          "description": "Parlamentarias del Frente Amplio manifestaron su rechazo a las declaraciones de los diputados Javiera Rodríguez y Cristián Araya en medio de la discusión del Presupuesto 2027 , quienes arremetieron en contra de los defensores de los derechos humanos , y respaldaron el actuar de la vicepresidenta de la Cámara, Ximena Ossandón. En una carta abierta, las legisladoras señalaron que tras el \"vergonzoso episodio ´DD.HH. Company' , protagonizado por la diputada Javiera Rodríguez y secundado por su compañero republican Cristián Araya, siguieron los ataques de esa bancada contra Ximena Ossandón, vicepresidenta de la Cámara\". \"Ossandón había pedido a Araya cumplir los acuerdos de conducta , después de que nos llamara 'carroñeros de la desgracia' a quienes defendemos los recursos de la saludad pública para tratamientos del cáncer y nos enviara 'a llorar a la FIFA' . Tenemos profundas diferencias políticas con la vicepresidenta, pero cuenta con nuestro respeto y solidaridad frente a esta ofensiva. Estaba cumpliendo su responsabilidad\" , aseveraron. Asimismo, las parlamentarias acusaron que entre los respaldos al diputado Araya, se encuentra su par Luis Sánchez -también republicano-, quien escribió: \"Quien quiere respeto que se lo gane\". \"Creíamos que compartíamos un acuerdo elemental: todas las personas merecemos respeto por el solo hecho de serlo. No necesitamos ganárnoslo con un cargo ni con adhesión política\", planteó el FA. Sin embargo, afirmaron que \"ni la vicepresidencia de la Cámara ni su habitual defensa del Gobierno le evitaron el maltrato. Su 'falta' fue ponerle un límite a un diputado del partido del Presidente . Al parecer, para Sánchez, el respeto requiere también obsecuencia\". Las parlamentarias señalaron que pensaban que \"la polarización de la Cámara era entre izquierda y derecha. Empezamos a creer que la diferencia es más básica: algunas entendemos el respeto como un mínimo para convivir; otros, como un premio por darles la razón \". La misiva fue firmada por las diputadas Tatiana Urrutia, Gael Yeomans, Emilia Schneider, Carolina Tello, Constanza Schönhaut, Consuelo Veloso, Francisca Bello, Coca Ñanco, Lorena Fries, Javiera Morales, Valentina Cáceres y la senadora Beatriz Sánchez.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/frente-amplio/parlamentarias-fa-respaldaron-a-ximena-ossandon-tras-ataques-republicanos/2026-11-15/165829.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115165829.jpg",
+          "published_raw": "Sun, 15 Nov 2026 16:58:29 -0300",
+          "published_at": "2026-11-15T16:58:29-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 4,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 2,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 11,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-009"
+        }
+      ]
+    },
+    {
+      "position": 4,
       "cluster_id": "PML-EVENT-021",
-      "title": "Guatemala decreta el estado de sitio en el feudo de los grupos narco señalados como terroristas por Estados Unidos",
-      "url": "https://elpais.com/america/2026-11-15/guatemala-decreta-el-estado-de-sitio-en-el-feudo-de-los-grupos-narco-senalados-como-terroristas-por-estados-unidos.html",
+      "title": "El presidente Daniel Noboa se juega el poder territorial de Ecuador",
+      "url": "https://elpais.com/america/2026-11-16/el-presidente-daniel-noboa-se-juega-el-poder-territorial-de-ecuador.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "Estados Unidos",
+        "group": "América Latina",
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 57.3,
+        "score": 58.8,
         "level": "MEDIA",
-        "editorial_utility": 60.3
+        "editorial_utility": 52.8
       },
       "selection": {
-        "reason": "PML 57.3; fallback editorial controlado; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
+        "reason": "PML 58.8; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
@@ -137,12 +283,12 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-15T14:21:16-0300",
-      "last_seen": "2026-11-15T14:21:16-0300",
-      "entities": "mexico",
+      "first_seen": "2026-11-16T06:30:00-0300",
+      "last_seen": "2026-11-16T06:30:00-0300",
+      "entities": [],
       "event_terms": [],
       "analysis": {
-        "summary": "La medida del presidente Arévalo regirá durante un mes en Zacapa e Izabal, zonas clave para el trasiego de droga hacia México",
+        "summary": "Los ecuatorianos elegirán el 29 de noviembre alcaldes, prefectos y a los miembros del Consejo de Participación Ciudadana. Para el presidente, las elecciones serán una prueba de fuerza frente al correísmo, que compite con sus siglas suspendidas",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -155,19 +301,19 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Guatemala decreta el estado de sitio en el feudo de los grupos narco señalados como terroristas por Estados Unidos",
-          "description": "La medida del presidente Arévalo regirá durante un mes en Zacapa e Izabal, zonas clave para el trasiego de droga hacia México",
-          "url": "https://elpais.com/america/2026-11-15/guatemala-decreta-el-estado-de-sitio-en-el-feudo-de-los-grupos-narco-senalados-como-terroristas-por-estados-unidos.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/Z65AWZUVVNGYXCZJY5LWBEM3YU.jpg?auth=4392fc85fd012c13c3fe733a7773a14f4c3a5cd9b987fce9a4387780e7b8629c",
-          "published_raw": "Sun, 15 Nov 2026 17:21:16 GMT",
-          "published_at": "2026-11-15T14:21:16-0300",
+          "title": "El presidente Daniel Noboa se juega el poder territorial de Ecuador",
+          "description": "Los ecuatorianos elegirán el 29 de noviembre alcaldes, prefectos y a los miembros del Consejo de Participación Ciudadana. Para el presidente, las elecciones serán una prueba de fuerza frente al correísmo, que compite con sus siglas suspendidas",
+          "url": "https://elpais.com/america/2026-11-16/el-presidente-daniel-noboa-se-juega-el-poder-territorial-de-ecuador.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/BUKBL2QU6BOHNFHMQI5C7PEBWE.jpg?auth=3f39138f37b21eac128a6b872c627bf37c1eac85c2313fbab8fe192a3a106457",
+          "published_raw": "Mon, 16 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-16T06:30:00-0300",
           "country": "No identificado",
           "region": "América Latina",
           "language": "es",
           "score_institutional": 1,
-          "score_elections": 0,
+          "score_elections": 1,
           "score_international": 0,
-          "score_conflict": 1,
+          "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 1,
@@ -175,7 +321,7 @@
           "score_accident": 0,
           "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
           "cluster_id": "PML-EVENT-021"
@@ -183,178 +329,26 @@
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-003",
-      "title": "Presupuesto 2027: Oposición pidió voluntad de diálogo al Gobierno en el Senado",
-      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-oposicion-pidio-voluntad-de-dialogo-al-gobierno-en-el/2026-11-15/135316.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 59.1,
-        "level": "MEDIA",
-        "editorial_utility": 54.1
-      },
-      "selection": {
-        "reason": "PML 59.1; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-15T13:53:16-0300",
-      "last_seen": "2026-11-15T13:53:16-0300",
-      "entities": [
-        "senado",
-        "congreso"
-      ],
-      "event_terms": [
-        "oposicion",
-        "hospitales"
-      ],
-      "analysis": {
-        "summary": "La discusión del proyecto de Presupuesto 2027 comenzará este martes en la Sala del Senado , donde desde ya los parlamentarios comenzaron a tomar posiciones para prepararse para el arduo debate que se extenderá hasta el jueves, cuando se espera que ya se encuentre aprobado.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Presupuesto 2027: Oposición pidió voluntad de diálogo al Gobierno en el Senado",
-          "description": "La discusión del proyecto de Presupuesto 2027 comenzará este martes en la Sala del Senado , donde desde ya los parlamentarios comenzaron a tomar posiciones para prepararse para el arduo debate que se extenderá hasta el jueves, cuando se espera que ya se encuentre aprobado. La propuesta fue despachada desde la Cámara de Diputadas y Diputados con 27 partidas aprobadas, mientras que otras siete quedaron sin respaldo parlamentario, las que corresponden a  Interior, Educación, Secretaría General de Gobierno, Minería, Mujer y Equidad de Género, Cultura y Ciencias. Los primeros seis fueron directamente rechazados en la Cámara Baja, mientras Ciencias se encontraba sin recursos desde la comisión mixta de Presupuestos. La falta de fondos para dichas partidas ha generado tensión en el Congreso. Por ello, la senadora Loreto Carvajal (PPD) espera que el Ejecutivo tenga voluntad de dialogar en el segundo trámite. \"El Gobierno solo apostó a los votos del PDG en la Cámara, y hoy llega al Senado con siete partidas importantes rechazadas. Esperamos un Gobierno con real y genuina voluntad de diálogo y un ministro Quiroz menos intransigente , que comprenda la difícil realidad económica del país. El debate presupuestario será fundamental para enfrentar lo que prevemos: un tumultuoso 2027\", afirmó. No obstante, desde el Partido Republicano, el senador Renzo Trisotti destacó la gestión del titular de Hacienda: \"Esperamos que la disposición que mostró el ministro de Hacienda, tanto en la comisión mixta previa de Presupuesto como en la Cámara de Diputados, pueda permitir destrabar todas estas partidas y tener el presupuesto necesario para poder seguir desarrollando en todas las áreas el país; obviamente, con las prioridades que ha impuesto el Gobierno\". Preocupación del Colegio Médico y el mundo comunal Entre las situaciones controvertidas se encuentra la falta de financiamiento para seis sitios de memoria, cuyos presupuestos quedaron reducidos a 1.000 pesos. Asimismo, hay discrepancias por los rechazos a asignaciones específicas de distintos organismos públicos como el Instituto Nacional del Deporte, Senadis, el Servicio de Protección Especializada a la Niñez y la Adolescencia, la Subsecretaría del Trabajo . Además de cuestionamientos al financiamiento de Aduanas, Senapred, el Servicio Agrícola y Ganadero (SAG) y la Dirección del Trabajo. En esa línea, la presidenta del Colegio Médico, Ana María Arriagada , manifestó sus inquietudes: \"(Se debe) asegurar el pago de la deuda hospitalaria , que no se reste del presupuesto del año entrante; defender toda mejora que asegure que la Ley Ricarte Soto cuente con los fondos disponibles, no solo para atender a los pacientes que están, sino para recibir más pacientes y además, para ojalá abrirse a incorporar nuevas drogas\". \" Queremos vigilar también los recursos para listas de espera y por eso nos interesa mucho el presupuesto de los hospitales\", agregó. En paralelo, la alcaldesa de Quilicura, Paulina Bobadilla, expuso las preocupaciones para el mundo comunal: \"Genera una gran incertidumbre para la gran mayoría de alcaldes y alcaldesas . Hoy día no tenemos certezas del presupuesto para Salud, Educación, Ley Cholito, Ley TEA, la ley de seguridad municipal. Nosotros tenemos nuevas obligaciones, pero no tenemos nuevos recursos\". Economista: Se debe agregar recursos a Obras Públicas y Vivienda, pero con cuidado de aumentar la deuda Por su parte, el economista Gonzalo Escobar, académico de la Facultad de Economía y Negocios de la Universidad Andrés Bello, señaló que se debe agregar recursos a las partidas de Obras Públicas y Vivienda, pero advierte que es muy probable que la deuda pública supere el 45% para el 2027. \"Debería haber un impulso mayor en sectores como Obras Públicas y Vivienda. Por el contrario, digamos, si uno lo ve, las mayores alzas están en ministerios como Salud —que es importante—, Seguridad y Defensa, y no así en lo que es Obras Públicas y Vivienda. Por lo tanto, ahí hay un tema bastante preocupante. ¿Fiscalmente es responsable? Claro que sí, pero hay que tener cuidado porque es muy probable que la deuda supere el umbral del 45% \", analizó.",
-          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-oposicion-pidio-voluntad-de-dialogo-al-gobierno-en-el/2026-11-15/135316.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115135316.jpg",
-          "published_raw": "Sun, 15 Nov 2026 13:53:16 -0300",
-          "published_at": "2026-11-15T13:53:16-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 8,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 4,
-          "score_ideology": 0,
-          "score_actor": 6,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 19,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-011",
-      "title": "Matthei por compromisos de Kast: \"Cuando prometes algo que no puedes cumplir, es un engaño\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/udi/matthei-por-compromisos-de-kast-cuando-prometes-algo-que-no-puedes/2026-11-15/164918.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 58.8,
-        "level": "MEDIA",
-        "editorial_utility": 50.8
-      },
-      "selection": {
-        "reason": "PML 58.8; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-15T16:49:18-0300",
-      "last_seen": "2026-11-15T16:49:18-0300",
-      "entities": [],
-      "event_terms": "crisis",
-      "analysis": {
-        "summary": "La exacandidata presidencial y otrora alcaldesa de Providencia, Evelyn Matthei, acusó \"engaño\" en los compromisos de campaña del Presidente José Antonio Kast  y calificó de \"absurda y poco inteligente\" la conducción del Gobierno por el escándalo de las rebajas de condena a pederastas otorgadas por el ministro de Justicia, Fernando Rabat.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Matthei por compromisos de Kast: \"Cuando prometes algo que no puedes cumplir, es un engaño\"",
-          "description": "La exacandidata presidencial y otrora alcaldesa de Providencia, Evelyn Matthei, acusó \"engaño\" en los compromisos de campaña del Presidente José Antonio Kast  y calificó de \"absurda y poco inteligente\" la conducción del Gobierno por el escándalo de las rebajas de condena a pederastas otorgadas por el ministro de Justicia, Fernando Rabat. En conversación con el programa de streaming Podkast, conducido por el exsenador Evópoli Felipe Kast, la exjefa comunal reiteró sus cuestionamientos a la falta de un plan de seguridad , especialmente por las promesas de campaña incumplidas. \"El mayor error del gobierno fue cuando la ciudadanía se dio cuenta de que todo esto de la seguridad era puro bluff, porque no había nada\" , expresó la militante gremialista, según reprodujo La Tercera . Matthei señaló que \"estaban los nombres, el Cancerbero, el plan, no sé, todas esas tonteras, pero no había nada detrás, no había un solo pensamiento , no había una persona seria, no había una persona que supiera de esta materia. Nada, no había nada \". \"Creo que esa fue la primera desilusión, porque ese tema había sido muy central en la campaña . Creo que eso fue muy grave, porque puso después el tema de la metáfora, cuando dijo que iba a expulsar a no sé cuántos extranjeros y cuando le preguntaron cuándo lo iba a hacer, (el Presidente Kast) dijo que era una metáfora . Mucha gente había votado por él por eso\", aseveró. En esa línea, la exalaldesa recordó las promesas de Kast durante la campaña presidencial: \"¿Qué eran los planes de seguridad? Cuando tú prometes algo que no puedes cumplir, eso es un engaño , porque claro, yo podría decirle que vamos a crear un millón y medio de empleos si tú sabes que eso no puede, es mentira \", fustigó. Caso Rabat: \"Una crisis llevada en forma tan absurda y poco inteligente\" Evelyn Matthei también reprochó el manejo de la crisis derivada del denominado Caso Rabat y otros momentos complejos que ha enfrentado el Ejecutivo: \"Cómo ha manejado diversas crisis denota una falta de flexibilidad y una falta de entendimiento de las emociones de las personas que es muy preocupante\", manifestó. La otrora alcaldesa criticó la forma en que el Mandatario manejó los hechos que terminaron con las salidas de las exministras Trinidad Steinert (Seguridad) , Natalia Duco (Deportes) y  Mara Sedini (Segegob) . \"Parece que a las mujeres las deja ir antes que los hombres . Y te digo, las faltas eran incomparables, porque no eran solamente abusos sexuales contra menores. Era también liberación de narcotraficantes extranjeros \", cuestionó, según la publicación del diario. En ese sentido, enfatizó: \"Entonces uno dice, pero cómo el ministro no lo consultó con nadie, no se dio cuenta de que esto era un tema grande, que por lo menos tenía que consultarlo\". \"Cuando tú eres ministro, tú eres parte de un Gobierno. El Gobierno tiene una motivación, tiene un norte, y si tú vas en contra de eso, o sea, ¿qué haces como ministro? Yo de verdad no entiendo nada. Creo que pocas veces he visto una crisis llevada en forma tan absurda, tan poco inteligente como esta \", reprochó la excandidata presidencial de la UDI.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/udi/matthei-por-compromisos-de-kast-cuando-prometes-algo-que-no-puedes/2026-11-15/164918.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115164918.jpg",
-          "published_raw": "Sun, 15 Nov 2026 16:49:18 -0300",
-          "published_at": "2026-11-15T16:49:18-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 3,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 7,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-011"
-        }
-      ]
-    },
-    {
       "position": 5,
-      "cluster_id": "PML-EVENT-017",
-      "title": "Trump rompe 37 horas de inusual silencio para culpar del parón aeronáutico al Gobierno de Biden",
-      "url": "https://elpais.com/us/2026-11-15/trump-rompe-37-horas-de-inusual-silencio-para-culpar-del-paron-aeronautico-al-gobierno-de-biden.html",
+      "cluster_id": "PML-EVENT-022",
+      "title": "Venezuela no puede esperar a que Rubio sea presidente",
+      "url": "https://elpais.com/us/2026-11-16/venezuela-no-puede-esperar-a-que-rubio-sea-presidente.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "Estados Unidos",
+        "group": "América Latina",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 56.8,
+        "score": 58.2,
         "level": "MEDIA",
-        "editorial_utility": 45.8
+        "editorial_utility": 49.2
       },
       "selection": {
-        "reason": "PML 56.8; fallback editorial controlado; diversidad relajada para completar el brief",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
+        "reason": "PML 58.2; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
@@ -362,12 +356,15 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-15T15:01:46-0300",
-      "last_seen": "2026-11-15T15:01:46-0300",
-      "entities": "trump",
-      "event_terms": "crisis",
+      "first_seen": "2026-11-16T06:30:00-0300",
+      "last_seen": "2026-11-16T06:30:00-0300",
+      "entities": [
+        "venezuela",
+        "rubio"
+      ],
+      "event_terms": [],
       "analysis": {
-        "summary": "El presidente de Estados Unidos tardó un día y medio en pronunciarse sobre la mayor crisis de la aviación del país desde los atentados terroristas de 2001",
+        "summary": "El secretario de Estado de EE UU debe buscar una transferencia negociada que produzca un gobierno legítimo y estable. Esto alinearía su ambición política con el interés de los venezolanos",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -380,30 +377,30 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Trump rompe 37 horas de inusual silencio para culpar del parón aeronáutico al Gobierno de Biden",
-          "description": "El presidente de Estados Unidos tardó un día y medio en pronunciarse sobre la mayor crisis de la aviación del país desde los atentados terroristas de 2001",
-          "url": "https://elpais.com/us/2026-11-15/trump-rompe-37-horas-de-inusual-silencio-para-culpar-del-paron-aeronautico-al-gobierno-de-biden.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/7OEAP7PYB5LIZEALKOI4H7HNWQ.jpg?auth=f9c518ae7f7e5740b9c095069e161785cc852ead0d9a345e3fa8740644c3f649",
-          "published_raw": "Sun, 15 Nov 2026 18:01:46 GMT",
-          "published_at": "2026-11-15T15:01:46-0300",
+          "title": "Venezuela no puede esperar a que Rubio sea presidente",
+          "description": "El secretario de Estado de EE UU debe buscar una transferencia negociada que produzca un gobierno legítimo y estable. Esto alinearía su ambición política con el interés de los venezolanos",
+          "url": "https://elpais.com/us/2026-11-16/venezuela-no-puede-esperar-a-que-rubio-sea-presidente.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/R5G7HKXYUVKA5AMNFNEDQBNEWU.jpg?auth=9a4a8211ee0a948c684d6b4888bf038bbba54e0f56e3ea0b052f382f9692a66f",
+          "published_raw": "Mon, 16 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-16T06:30:00-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
           "score_institutional": 2,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 1,
+          "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
+          "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-017"
+          "cluster_id": "PML-EVENT-022"
         }
       ]
     }
@@ -416,25 +413,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-005",
-        "title": "Presupuesto: Senado se alista para un arduo debate tras polémicos desfinanciamientos",
+        "cluster_id": "PML-EVENT-002",
+        "title": "Presupuesto 2027: Oposición pidió voluntad de diálogo al Gobierno en el Senado",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/presupuesto-senado-se-alista-para-un-arduo-debate-tras-polemicos/2026-11-14/134528.html",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-oposicion-pidio-voluntad-de-dialogo-al-gobierno-en-el/2026-11-15/135316.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 46.7,
-          "level": "BAJA",
+          "score": 54.1,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 54,
-            "freshness": 62,
+            "political_impact": 59,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 30
+            "continuity": 44
           }
         },
         "coverage": {
@@ -442,36 +439,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-14T13:45:28-0300",
-        "last_seen": "2026-11-14T13:45:28-0300",
+        "first_seen": "2026-11-15T13:53:16-0300",
+        "last_seen": "2026-11-15T13:53:16-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Presupuesto: Senado se alista para un arduo debate tras polémicos desfinanciamientos",
-            "description": "El Senado se prepara para un arduo debate luego de recibir, desde la Cámara de Diputados, el proyecto de Presupuesto 2027, que arribó con siete partidas rechazadas   sumado a polémicas por el desfinanciamiento a los sitios de memoria, la baja de recursos para subsidiar el empleo y los recortes a programas sociales. La Cámara Alta visará entre el martes y el jueves las 27 partidas que ya fueron aprobadas, así como también las otras -correspondientes a Interior, Educación, Segegob, Minería, Mujer, Cultura y Ciencia- que fueron rechazadas y que no cuentan con recursos.  Esto, ya que entre el pleno de los diputados  se generaron discrepancias en el financiamiento de organismos como el Instituto Nacional de Deportes, Senadis, el Servicio de Protección Especializada a la Niñez y Adolescencia, el Serviu de Tarapacá y la Subsecretaría del Ministerio del Trabajo. También se suman cuestionamientos a instituciones como Aduanas, Senapred, el Servicio Agrícola y Ganadero y la Dirección del Trabajo; todo sin mencionar el controversial recorte al programa educativo \"Yo Elijo mi PC\". [Lea también]  PS exige que Kast controle a la \"patota\" republicana en la Cámara En este escenario, el senador comunista Daniel Núñez dijo a Cooperativa que \"hay que jugársela para que haya un presupuesto que resuelva los problemas sociales más urgentes que vive la población, por ejemplo, en materia de empleo. Vamos a exigir que haya más inversión pública\". \"Se han paralizado una gran cantidad de obras públicas muy importantes que generan empleo, así que nos parece que es un tema clave en el proyecto todo lo que tiene que ver con la creación de trabajo\", defendió. El parlamentario criticó también el desfinanciamiento a seis sitios de memoria, cuyos recursos quedaron reducidos a mil pesos, y acusó la existencia de una mirada \"negacionista\" por parte de la derecha.  Desde ese sector, en tanto, el senador UDI y vicepresidente del Senado, Iván Moreira,  recriminó que \"la oposición en Chile es obstructiva, traba y constantemente quiere propinarle golpes al Gobierno, pero esperamos que aquellos líderes serios que existen tengan la capacidad de poder controlar una discusión de una ley tan importante como esta\". Los expertos y su moderado optimismo en cuanto a la aprobación de las glosas faltantes Sin embargo, desde el mundo experto guardan cierto optimismo sobre el resultado del debate parlamentario. El analista político Germán Silva  abordó algunas concesiones que puede hacer el Ejecutivo para llegar a un acuerdo con la oposición senatorial. \"Creo que en el caso de Educación el Gobierno va a reponer Yo elijo mi PC. En el caso de Interior, (lo hará con) la partida de Senapred, que venía con un recorte muy importante; y también seguramente va a estar (solucionada) la glosa de Cultura y Memoria\", sostuvo. \"Sin embargo, tengo la impresión que en el caso del aporte al Fondo Autónomo de Protección Previsional (FAPP) va a haber ahí una controversia importante; se da justamente en un momento en que hubo una pérdida significativa del fondo E\", indicó Silva. El economista Carlos Smith, en tanto, abordó el rechazo que la Cámara dio a la autorización de endeudamiento del Gobierno -lo que deberá ser visado también por el Senado- y, si bien calificó de \"responsable\" el gasto fiscal contemplado en el Presupuesto 2027, reconoció que es frágil en expectativas financieras, sobre todo con el acuerdo alcanzado para acabar con el paro de los camioneros.  \"Desde el punto de vista de la dirección, (el gasto fiscal proyectado para el próximo año) es bastante responsable. Está creciendo un 1,5% anual en términos reales, lo que es muy distinto a lo que creció en promedio en la última década, que era el 5%\", dijo el académico UDD. \"Sí hay que reconocer que es frágil desde el punto de vista de los supuestos, porque supone que el próximo año vamos a crecer un 3,3%, lo cual no es fácil de lograr. Y el problema principal de todo esto es que hay otros compromisos, por ejemplo, que ya se agregaron y que no estaban en la agenda, que es el compromiso con los camioneros, que va a significar un gasto importante\",  afirmó.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/presupuesto-senado-se-alista-para-un-arduo-debate-tras-polemicos/2026-11-14/134528.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261114/imag/foto_0000000220261114134528.png",
-            "published_raw": "Sat, 14 Nov 2026 13:45:28 -0300",
-            "published_at": "2026-11-14T13:45:28-0300",
+            "title": "Presupuesto 2027: Oposición pidió voluntad de diálogo al Gobierno en el Senado",
+            "description": "La discusión del proyecto de Presupuesto 2027 comenzará este martes en la Sala del Senado , donde desde ya los parlamentarios comenzaron a tomar posiciones para prepararse para el arduo debate que se extenderá hasta el jueves, cuando se espera que ya se encuentre aprobado. La propuesta fue despachada desde la Cámara de Diputadas y Diputados con 27 partidas aprobadas, mientras que otras siete quedaron sin respaldo parlamentario, las que corresponden a  Interior , Educación , Secretaría General de Gobierno , Minería , Mujer y Equidad de Género , Cultura y Ciencias . Los primeros seis fueron directamente rechazados en la Cámara Baja, mientras Ciencias se encontraba sin recursos desde la comisión mixta de Presupuestos. La falta de fondos para dichas partidas ha generado tensión en el Congreso. Por ello, la senadora Loreto Carvajal (PPD) espera que el Ejecutivo tenga voluntad de dialogar en el segundo trámite. \"El Gobierno solo apostó a los votos del PDG en la Cámara, y hoy llega al Senado con siete partidas importantes rechazadas. Esperamos un Gobierno con real y genuina voluntad de diálogo y un ministro Quiroz menos intransigente , que comprenda la difícil realidad económica del país . El debate presupuestario será fundamental para enfrentar lo que prevemos: un tumultuoso 2027\", afirmó. No obstante, desde el Partido Republicano, el senador Renzo Trisotti destacó la gestión del titular de Hacienda: \"Esperamos que la disposición que mostró el ministro de Hacienda, tanto en la comisión mixta previa de Presupuesto como en la Cámara de Diputados, pueda permitir destrabar todas estas partidas y tener el presupuesto necesario para poder seguir desarrollando en todas las áreas el país; obviamente, con las prioridades que ha impuesto el Gobierno\". Preocupación del Colegio Médico y el mundo comunal Entre las situaciones controvertidas se encuentra la falta de financiamiento para seis sitios de memoria , cuyos presupuestos quedaron reducidos a 1.000 pesos. Asimismo, hay discrepancias por los rechazos a asignaciones específicas de distintos organismos públicos como el Instituto Nacional del Deporte , Senadis , el Servicio de Protección Especializada a la Niñez y la Adolescencia , la Subsecretaría del Trabajo . Además de cuestionamientos al financiamiento de Aduanas , Senapred , el Servicio Agrícola y Ganadero (SAG) y la Dirección del Trabajo . En esa línea, la presidenta del Colegio Médico , Ana María Arriagada , manifestó sus inquietudes: \"(Se debe) asegurar el pago de la deuda hospitalaria , que no se reste del presupuesto del año entrante; defender toda mejora que asegure que la Ley Ricarte Soto cuente con los fondos disponibles, no solo para atender a los pacientes que están, sino para recibir más pacientes y además, para ojalá abrirse a incorporar nuevas drogas\". \" Queremos vigilar también los recursos para listas de espera y por eso nos interesa mucho el presupuesto de los hospitales\", agregó. En paralelo, la alcaldesa de Quilicura , Paulina Bobadilla , expuso las preocupaciones para el mundo comunal: \"Genera una gran incertidumbre para la gran mayoría de alcaldes y alcaldesas. Hoy día no tenemos certezas del presupuesto para Salud , Educación, Ley Cholito , Ley TEA , la ley de seguridad municipal . Nosotros tenemos nuevas obligaciones, pero no tenemos nuevos recursos\". Economista: Se debe agregar recursos a Obras Públicas y Vivienda, pero con cuidado de aumentar la deuda Por su parte, el economista Gonzalo Escobar, académico de la Facultad de Economía y Negocios de la Universidad Andrés Bello, señaló que se debe agregar recursos a las partidas de Obras Públicas y Vivienda, pero advierte que es muy probable que la deuda pública supere el 45% para el 2027 . \"Debería haber un impulso mayor en sectores como Obras Públicas y Vivienda. Por el contrario, digamos, si uno lo ve, las mayores alzas están en ministerios como Salud —que es importante—, Seguridad y Defensa, y no así en lo que es Obras Públicas y Vivienda. Por lo tanto, ahí hay un tema bastante preocupante. ¿Fiscalmente es responsable? Claro que sí , pero hay que tener cuidado porque es muy probable que la deuda supere el umbral del 45% \", analizó.",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-oposicion-pidio-voluntad-de-dialogo-al-gobierno-en-el/2026-11-15/135316.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115135316.jpg",
+            "published_raw": "Sun, 15 Nov 2026 13:53:16 -0300",
+            "published_at": "2026-11-15T13:53:16-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 6,
+            "score_institutional": 8,
             "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 3,
-            "score_ideology": 2,
-            "score_actor": 3,
+            "score_conflict": 1,
+            "score_policy": 4,
+            "score_ideology": 0,
+            "score_actor": 6,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 14,
+            "political_evidence": 19,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
+            "cluster_id": "PML-EVENT-002"
           }
         ],
         "article_count": 1,
@@ -483,100 +480,31 @@
             "Congreso y proceso legislativo",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 68.7
+          "chile_utility": 76.1
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Parisi advirtió que en el PDG hay tendencia mayoritaria a apoyar la AC contra Rabat",
-        "topic": "Instituciones y gobierno",
-        "event_type": "POLITICAL_STATEMENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/parisi-advirtio-que-en-el-pdg-hay-tendencia-mayoritaria-a-apoyar-la-ac/2026-11-15/121022.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 53.9,
-          "level": "MEDIA",
-          "components": {
-            "political_impact": 49,
-            "freshness": 95,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 34
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-15T12:10:22-0300",
-        "last_seen": "2026-11-15T12:10:22-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Parisi advirtió que en el PDG hay tendencia mayoritaria a apoyar la AC contra Rabat",
-            "description": "El excandidato presidencial y secretario general del Partido de la Gente (PDG), Franco Parisi , aseguró que existe una mayoría dentro de su colectividad que apunta a apoyar la acusación constitucional presentada por la oposición contra el ministro de Justicia y Derechos Humanos, Fernando Rabat , en medio de la controversia por la rebaja de condenas a personas sentenciadas por delitos sexuales contra menores de edad. En una entrevista con La Tercera , Parisi cuestionó el manejo del Presidente José Antonio Kast frente a la crisis y aseguró que, \"nosotros hemos tratado de decir a la autoridad que lo mejor es que el ministro Rabat dé un paso al costado \". \"Hay una complejidad muy grande que no ha sabido manejar el Presidente Kast . Hay mucha gente en el gobierno, por lo menos los que hablan conmigo, que está muy molesta, porque ha alargado una crónica de una muerte anunciada \", sostuvo. Consultado sobre si existía una mayoría favorable al libelo dentro del PDG, Parisi respondió que \" lo que yo he conversado, sí, pero es que todavía no sabemos de qué estamos hablando. Veamos el documento, hay que analizarlo, hay que discutirlo \". El líder de la colectividad también advirtió que \"lamentablemente, los ánimos en el Parlamento están demasiado polarizados\" y abordó la diferencia entre las implicancias políticas y constitucionales de la controversia. \"Es difícil explicarle a la víctima de un violador, de un pederasta, que (al victimario) lo dejaron libre y que no hay ningún error constitucional . Por lo tanto, yo creo que va a pesar más la arista política que la constitucional\", afirmó para La Tercera. En esa línea, sostuvo que \" este es un problema político, no constitucional. Si no, lleguemos al Tribunal Constitucional. Esa es mi postura. Pero, obviamente, los diputados van a tener que discutir, analizar y tomar una decisión. Lo que yo espero es que la decisión sea tomada mayoritariamente por todos\". El PDG podría definir el futuro de la acusación Para aprobar la acusación constitucional contra el ministro Rabat se necesitan 78 votos y, con 65 apoyos preliminares, los 15 diputados del Partido de la Gente  podrían resultar decisivos para el futuro del libelo. Ante los cuestionamientos del senador liberal Vlado Mirosevic, quien acusó al PDG de actuar como una especie de \"cogobierno\" del Presidente José Antonio Kast , el diputado Patricio Briones (PDG),  respondió: \"Las palabras del senador Mirosevic solo hablan de revanchismo y tratan de opacar su propia gestión en el liderazgo de su sector\". El parlamentario también abordó la relación de la bancada: \" Franco Parisi es nuestro líder , Franco Parisi siempre va a ser nuestro candidato a la presidencia, pero la autonomía y la independencia cada uno de nosotros como diputados está siendo ejercida en su máximo esplendor \", enfatizó. Por su parte, la diputada Lilian Betancurt (PDG) enfatizó que, aunque entiende \"la presión de la centroizquierda por impulsar una acusación contra el ministro Rabat, decirle al senador Vlado (Mirosevic) que el PDG no está para recibir órdenes ni actuar al ritmo de la oposición \". \"Como dice el refrán: 'no hay que poner la carreta delante de los bueyes' . Primero analizaremos todos los antecedentes y después tomaremos una decisión responsable como bancada \", puntualizó la parlamentaria, que también llamó al senador a no \"confundirse\" con las críticas a Franco Parisi, dado que \"no es el economista de Kast, sino que ha puesto sobre la mesa las preocupaciones de la gente común \". Mientras el también diputado PDG Roberto Arroyo dijo que una \" hipocresía política no tiene límites es lo que refleja el escuchar a un senador sin memoria ni coherencia \". El parlamentario aseguró que \"la ciudadanía no necesita políticos que descubran que existen víctimas solo cuando les conviene políticamente, necesita autoridades consecuentes que den la cara cuando están gobernando y no solamente cuando están en la oposición \". \"Antes de repartir lecciones de moral y de responsabilidad, explique por qué no tuvo la misma firmeza con quienes fueron sus aliados. La memoria de los chilenos no se borra con un discurso ni se manipula con oportunismo político \", cerró. Debate parlamentario Desde el oficialismo, el presidente de la UDI, Guillermo Ramírez , señaló: \"Hoy día mismo Franco Parisi reconoce que en el PDG las decisiones están divididas , por lo tanto también es esperable que haya algunos votos del PDG que van a votar en contra. Ya con eso la acusación se rechaza y por lo tanto estamos tranquilos \". Por su parte, el diputado, Jaime Mulet (FRVS) recordó que la legislación sobre rebajas de condenas fue aprobada transversalmente en 2003. \"Si las cosas se han hecho mal, bueno, corrijámoslas, pero creo que siempre es bueno tener en perspectiva las cosas y no usar una oportunidad política \", planteó. Este lunes se dará cuenta del ingreso de la acusación constitucional ante la Sala de la Cámara , donde también se sortearán los cinco integrantes de la comisión encargada de revisar el libelo.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/parisi-advirtio-que-en-el-pdg-hay-tendencia-mayoritaria-a-apoyar-la-ac/2026-11-15/121022.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115121022.jpg",
-            "published_raw": "Sun, 15 Nov 2026 12:10:22 -0300",
-            "published_at": "2026-11-15T12:10:22-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 8,
-            "score_elections": 1,
-            "score_international": 1,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 2,
-            "score_actor": 8,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 20,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Ideología y competencia política",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 9,
-          "labels": "Estado e instituciones",
-          "chile_utility": 62.9
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-018",
-        "title": "Impulsan proyecto que endurece multas por venta de vapeadores y cigarrillos a menores",
+        "cluster_id": "PML-EVENT-013",
+        "title": "Cadem: Aprobación de Kast cayó al 27% y paro camionero tuvo alto respaldo ciudadano",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/sociedad/salud/tabaco/impulsan-proyecto-que-endurece-multas-por-venta-de-vapeadores-y/2026-11-14/185241.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/cadem-aprobacion-de-kast-cayo-al-27-y-paro-camionero-tuvo-alto/2026-11-15/235927.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 48.3,
-          "level": "BAJA",
+          "score": 55.9,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 51,
-            "freshness": 72,
+            "political_impact": 53,
+            "freshness": 88,
             "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 30
+            "geographic_scope": 55,
+            "continuity": 38
           }
         },
         "coverage": {
@@ -584,36 +512,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-14T18:52:41-0300",
-        "last_seen": "2026-11-14T18:52:41-0300",
+        "first_seen": "2026-11-15T23:59:27-0300",
+        "last_seen": "2026-11-15T23:59:27-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Impulsan proyecto que endurece multas por venta de vapeadores y cigarrillos a menores",
-            "description": "La diputada Lilian Betancurt (PDG) impulsa un proyecto de ley que busca endurecer las sanciones por la venta de cigarrillos y dispositivos de vapeo a menores de edad, a través de una modificación a la Ley del Tabaco .  La iniciativa busca fortalecer las herramientas de protección de niños, niñas y adolescentes, aumentando las multas para quienes comercialicen, ofrezcan, distribuyan o entreguen cigarrillos, vapeadores, sistemas electrónicos con o sin nicotina y sus accesorios a menores de 18 años. Entre las modificaciones propuestas, s e destaca elevar las multas generales actuales, que van desde las 3 hasta las 50 UTM, a un rango de 20 a 150 UTM (10 millones de pesos) . Para el caso de infractores pertenecientes a la industria, las sanciones aumentan desde 30 a 300 UTM hasta 101 a 500 UTM (36 millones). \"Las multas por sí solas no son suficientes si un establecimiento puede seguir funcionando y comercializando estos productos después de cometer reiteradamente la misma infracción. Por eso estamos proponiendo que, cuando exista reincidencia, la clausura sea obligatoria. Las reglas deben ser claras y aplicarse de la misma manera en todo el país \", señaló la parlamentaria por la Región del Biobío. El proyecto también propone que la clausura deberá aplicarse siempre que exista reincidencia, y contempla un período de entre 15 y 30 días . Asimismo, mantiene la definición vigente de reincidencia, correspondiente a dos o más infracciones cometidas dentro del plazo de un año, contando desde la primera. La propuesta, además, apunta a terminar con la discrecionalidad en la verificación de edad -que actualmente, por ley, permite que los vendedores soliciten la cédula de identidad cuando tienen dudas sobre la edad del comprador-, estableciendo que los comerciantes deberán exigir el carnet o un documento oficial vigente con fotografía cuando exista esa duda, que no podrán concretar la venta mientras no se acredite la edad mínima legal. La iniciativa también precisa qu e las multas establecidas en el numeral 6 del artículo 16 recaerán sobre el titular del establecimiento , mientras que la sanción contemplada en el numeral 13 corresponderá a la persona que materialmente realizó la venta, ofrecimiento, distribución o entrega.",
-            "url": "https://www.cooperativa.cl/noticias/sociedad/salud/tabaco/impulsan-proyecto-que-endurece-multas-por-venta-de-vapeadores-y/2026-11-14/185241.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261114/imag/foto_0000000220261114185241.jpg",
-            "published_raw": "Sat, 14 Nov 2026 18:52:41 -0300",
-            "published_at": "2026-11-14T18:52:41-0300",
+            "title": "Cadem: Aprobación de Kast cayó al 27% y paro camionero tuvo alto respaldo ciudadano",
+            "description": "La aprobación a la gestión del Presidente José Antonio Kast retrocedió dos puntos y llegó al 27% , mientras que la desaprobación trepó al 69%, según los resultados de la última encuesta Plaza Pública Cadem. La baja en las cifras de La Moneda coincidió con un 79% de respaldo ciudadano a la movilización que lideraron los gremios del transporte de carga , en rechazo al valor de los combustibles . Con la baja de dos puntos porcentuales en la aprobación y el incremento de un punto en la desaprobación, el Ejecutivo cerró un ciclo de negociaciones con una reprobación que roza el 70% del universo consultado . La desaprobación a la administración del Gobierno subió un punto porcentual y alcanzó el 69% a nivel nacional. (FOTO: ATON) Este desgaste político se produjo en un contexto tensionado por el desarrollo del conflicto camionero y las conversaciones contrarreloj destinadas a amortiguar el impacto financiero de las tarifas energéticas . Sintonía ciudadana con las demandas del transporte En contraste con las evaluaciones negativas hacia el Gobierno, las exigencias planteadas por el sector del transporte contaron con una amplia validación social . De acuerdo con el estudio, el 79% de la población se mostró a favor de que los transportistas paralizaran sus actividades para presionar por una reducción en los precios de los combustibles, frente a un 17% que rechazó la medida y un 4% que prefirió no emitir opinión . Sin embargo, al ser consultados sobre la interrupción de rutas, el apoyo retrocedió quince puntos y se situó en un 64% , evidenciando que los cortes viales generan mayores reparos en comparación con la causa de fondo. Casi ocho de cada diez consultados manifestaron su respaldo a la movilización de los camioneros por el costo de los combustibles. (FOTO: ATON) En relación con el impacto cotidiano de la movilización, un 49% de los encuestados afirmó que el paro perjudicó de forma significativa el funcionamiento del país , mientras que un 34% consideró que tuvo efectos moderados y solo un 16% percibió secuelas mínimas o inexistentes. Cuestionamientos a la anticipación del Gobierno y balance del acuerdo La principal falencia atribuida al Ejecutivo radicó en su falta de oportunidad y prevención política . Una mayoría del 84% de los participantes reprobó el manejo del conflicto , señalando que las autoridades debieron actuar con antelación para impedir que la disputa escalara hasta la ocupación de las carreteras , una crítica que provino incluso de quienes apoyaron la movilización gremial. Pese al castigo hacia la gestión de la crisis, la rebaja de 142 pesos por litro de diésel consiguió un 66% de adhesión ciudadana , consolidándose como una de las medidas mejor valoradas del sondeo junto con la política de congelamiento a las alzas de los combustibles.",
+            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/cadem-aprobacion-de-kast-cayo-al-27-y-paro-camionero-tuvo-alto/2026-11-15/235927.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000420261115235927.jpg",
+            "published_raw": "Sun, 15 Nov 2026 23:59:27 -0300",
+            "published_at": "2026-11-15T23:59:27-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
             "score_institutional": 2,
-            "score_elections": 0,
-            "score_international": 1,
-            "score_conflict": 0,
+            "score_elections": 2,
+            "score_international": 0,
+            "score_conflict": 1,
             "score_policy": 0,
             "score_ideology": 0,
             "score_actor": 1,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 4,
+            "political_evidence": 6,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Relaciones internacionales",
+            "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
-            "filter_confidence": "medium",
-            "cluster_id": "PML-EVENT-018"
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-013"
           }
         ],
         "article_count": 1,
@@ -621,7 +549,76 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 57.3
+          "chile_utility": 64.9
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-012",
+        "title": "Matthei por compromisos de Kast: \"Cuando prometes algo que no puedes cumplir, es un engaño\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/udi/matthei-por-compromisos-de-kast-cuando-prometes-algo-que-no-puedes/2026-11-15/164918.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 53.8,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 53,
+            "freshness": 80,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 36
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-15T16:49:18-0300",
+        "last_seen": "2026-11-15T16:49:18-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Matthei por compromisos de Kast: \"Cuando prometes algo que no puedes cumplir, es un engaño\"",
+            "description": "La exacandidata presidencial y otrora alcaldesa de Providencia, Evelyn Matthei, acusó \"engaño\" en los compromisos de campaña del Presidente José Antonio Kast  y calificó de \"absurda y poco inteligente\" la conducción del Gobierno por el escándalo de las rebajas de condena a pederastas otorgadas por el ministro de Justicia, Fernando Rabat. En conversación con el programa de streaming Podkast, conducido por el exsenador Evópoli Felipe Kast, la exjefa comunal reiteró sus cuestionamientos a la falta de un plan de seguridad , especialmente por las promesas de campaña incumplidas. \"El mayor error del gobierno fue cuando la ciudadanía se dio cuenta de que todo esto de la seguridad era puro bluff, porque no había nada\" , expresó la militante gremialista, según reprodujo La Tercera . Matthei señaló que \"estaban los nombres, el Cancerbero, el plan, no sé, todas esas tonteras, pero no había nada detrás, no había un solo pensamiento , no había una persona seria, no había una persona que supiera de esta materia. Nada, no había nada \". \"Creo que esa fue la primera desilusión, porque ese tema había sido muy central en la campaña . Creo que eso fue muy grave, porque puso después el tema de la metáfora, cuando dijo que iba a expulsar a no sé cuántos extranjeros y cuando le preguntaron cuándo lo iba a hacer, (el Presidente Kast) dijo que era una metáfora . Mucha gente había votado por él por eso\", aseveró. En esa línea, la exalaldesa recordó las promesas de Kast durante la campaña presidencial: \"¿Qué eran los planes de seguridad? Cuando tú prometes algo que no puedes cumplir, eso es un engaño , porque claro, yo podría decirle que vamos a crear un millón y medio de empleos si tú sabes que eso no puede, es mentira \", fustigó. Caso Rabat: \"Una crisis llevada en forma tan absurda y poco inteligente\" Evelyn Matthei también reprochó el manejo de la crisis derivada del denominado Caso Rabat y otros momentos complejos que ha enfrentado el Ejecutivo: \"Cómo ha manejado diversas crisis denota una falta de flexibilidad y una falta de entendimiento de las emociones de las personas que es muy preocupante\", manifestó. La otrora alcaldesa criticó la forma en que el Mandatario manejó los hechos que terminaron con las salidas de las exministras Trinidad Steinert (Seguridad) , Natalia Duco (Deportes) y  Mara Sedini (Segegob) . \"Parece que a las mujeres las deja ir antes que los hombres . Y te digo, las faltas eran incomparables, porque no eran solamente abusos sexuales contra menores. Era también liberación de narcotraficantes extranjeros \", cuestionó, según la publicación del diario. En ese sentido, enfatizó: \"Entonces uno dice, pero cómo el ministro no lo consultó con nadie, no se dio cuenta de que esto era un tema grande, que por lo menos tenía que consultarlo\". \"Cuando tú eres ministro, tú eres parte de un Gobierno. El Gobierno tiene una motivación, tiene un norte, y si tú vas en contra de eso, o sea, ¿qué haces como ministro? Yo de verdad no entiendo nada. Creo que pocas veces he visto una crisis llevada en forma tan absurda, tan poco inteligente como esta \", reprochó la excandidata presidencial de la UDI.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/udi/matthei-por-compromisos-de-kast-cuando-prometes-algo-que-no-puedes/2026-11-15/164918.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115164918.jpg",
+            "published_raw": "Sun, 15 Nov 2026 16:49:18 -0300",
+            "published_at": "2026-11-15T16:49:18-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 3,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 2,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 7,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-012"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 62.8
         },
         "repeated_in_general_top5": false
       }
@@ -630,29 +627,27 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 23,
-      "maximum_relevance": 64.2,
-      "leading_story": "Congreso espera despachar a ley el acuerdo con los camioneros a más tardar el martes"
+      "event_count": 25,
+      "maximum_relevance": 69.7,
+      "leading_story": "El Gobierno de Milei busca eliminar las elecciones primarias para llegar con ventaja a las presidenciales de 2027"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 2,
-      "maximum_relevance": 56.5,
+      "maximum_relevance": 51.5,
       "leading_story": "Un terremoto, incógnitas sobre las ayudas y una ola terrorista: los 100 días de gobierno de De la Espriella"
-    },
-    {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 2,
-      "maximum_relevance": 55.5,
-      "leading_story": "El PSOE propone destinar el 1% del PIB a vivienda social y crear una prestación estatal por crianza"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-009", "PML-EVENT-022"],
+      "exited_top5": ["PML-EVENT-006", "PML-EVENT-017"],
+      "retained_top5": ["PML-EVENT-011", "PML-EVENT-003", "PML-EVENT-021"]
+    }
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
