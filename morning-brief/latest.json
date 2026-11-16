@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-15",
-    "data_latest_timestamp": "2026-11-15T15:01:46-0300",
-    "data_age_hours": 0.6,
-    "generated_at": "2026-11-15T15:39:03-0300",
+    "data_latest_timestamp": "2026-11-15T16:49:18-0300",
+    "data_age_hours": 5.1,
+    "generated_at": "2026-11-15T21:52:46-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,18 +16,18 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 26 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 2 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 27 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 2 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 26,
+    "ranked_events": 27,
     "topics": 1,
-    "geographies": 3,
+    "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 59.8,
-    "maximum_relevance": 65.4
+    "average_top5_relevance": 59.2,
+    "maximum_relevance": 64.2
   },
   "top_stories": [
     {
@@ -43,12 +43,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 65.4,
+        "score": 64.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 65.4
+        "editorial_utility": 64.2
       },
       "selection": {
-        "reason": "PML 65.4",
+        "reason": "PML 64.2",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -111,25 +111,25 @@
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-016",
-      "title": "El Gobierno de México mira hacia China bajo la vigilancia incómoda de Estados Unidos",
-      "url": "https://elpais.com/mexico/2026-11-15/el-gobierno-de-mexico-mira-hacia-china-bajo-la-vigilancia-incomoda-de-estados-unidos.html",
+      "cluster_id": "PML-EVENT-021",
+      "title": "Guatemala decreta el estado de sitio en el feudo de los grupos narco señalados como terroristas por Estados Unidos",
+      "url": "https://elpais.com/america/2026-11-15/guatemala-decreta-el-estado-de-sitio-en-el-feudo-de-los-grupos-narco-senalados-como-terroristas-por-estados-unidos.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "América Latina",
-        "country": "México / América Latina"
+        "group": "Estados Unidos",
+        "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 60.4,
+        "score": 57.3,
         "level": "MEDIA",
-        "editorial_utility": 63.4
+        "editorial_utility": 60.3
       },
       "selection": {
-        "reason": "PML 60.4; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
+        "reason": "PML 57.3; fallback editorial controlado; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
@@ -137,17 +137,13 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-15T06:30:00-0300",
-      "last_seen": "2026-11-15T06:30:00-0300",
-      "entities": [
-        "mexico",
-        "sheinbaum",
-        "trump"
-      ],
+      "first_seen": "2026-11-15T14:21:16-0300",
+      "last_seen": "2026-11-15T14:21:16-0300",
+      "entities": "mexico",
       "event_terms": [],
       "analysis": {
-        "summary": "La presidenta Sheinbaum tiene agendada una reunión con su par chino, Xi Jinping, en plena disputa comercial entre Pekín y Washington y bajo las amenazas arancelarias de Trump",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en México / América Latina.",
+        "summary": "La medida del presidente Arévalo regirá durante un mes en Zacapa e Izabal, zonas clave para el trasiego de droga hacia México",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -159,36 +155,36 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "El Gobierno de México mira hacia China bajo la vigilancia incómoda de Estados Unidos",
-          "description": "La presidenta Sheinbaum tiene agendada una reunión con su par chino, Xi Jinping, en plena disputa comercial entre Pekín y Washington y bajo las amenazas arancelarias de Trump",
-          "url": "https://elpais.com/mexico/2026-11-15/el-gobierno-de-mexico-mira-hacia-china-bajo-la-vigilancia-incomoda-de-estados-unidos.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/H3O4RZHDIBA2HLCBKFWPH4PV5U.jpeg?auth=0d3811876d762d37c626d48e83a7095d81eabfc85c7912fa46943b35d0ee0689",
-          "published_raw": "Sun, 15 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-15T06:30:00-0300",
-          "country": "México",
+          "title": "Guatemala decreta el estado de sitio en el feudo de los grupos narco señalados como terroristas por Estados Unidos",
+          "description": "La medida del presidente Arévalo regirá durante un mes en Zacapa e Izabal, zonas clave para el trasiego de droga hacia México",
+          "url": "https://elpais.com/america/2026-11-15/guatemala-decreta-el-estado-de-sitio-en-el-feudo-de-los-grupos-narco-senalados-como-terroristas-por-estados-unidos.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/Z65AWZUVVNGYXCZJY5LWBEM3YU.jpg?auth=4392fc85fd012c13c3fe733a7773a14f4c3a5cd9b987fce9a4387780e7b8629c",
+          "published_raw": "Sun, 15 Nov 2026 17:21:16 GMT",
+          "published_at": "2026-11-15T14:21:16-0300",
+          "country": "No identificado",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 1,
           "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 0,
+          "score_international": 0,
+          "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-016"
+          "cluster_id": "PML-EVENT-021"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-002",
+      "cluster_id": "PML-EVENT-003",
       "title": "Presupuesto 2027: Oposición pidió voluntad de diálogo al Gobierno en el Senado",
       "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-oposicion-pidio-voluntad-de-dialogo-al-gobierno-en-el/2026-11-15/135316.html",
       "representative_source": "Cooperativa",
@@ -261,45 +257,45 @@
           "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-002"
+          "cluster_id": "PML-EVENT-003"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-019",
-      "title": "Guatemala decreta el estado de sitio en el feudo de los grupos narco señalados como terroristas por Estados Unidos",
-      "url": "https://elpais.com/america/2026-11-15/guatemala-decreta-el-estado-de-sitio-en-el-feudo-de-los-grupos-narco-senalados-como-terroristas-por-estados-unidos.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-011",
+      "title": "Matthei por compromisos de Kast: \"Cuando prometes algo que no puedes cumplir, es un engaño\"",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/udi/matthei-por-compromisos-de-kast-cuando-prometes-algo-que-no-puedes/2026-11-15/164918.html",
+      "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / América Latina"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 57.3,
+        "score": 58.8,
         "level": "MEDIA",
-        "editorial_utility": 49.3
+        "editorial_utility": 50.8
       },
       "selection": {
-        "reason": "PML 57.3; fallback editorial controlado; diversidad relajada para completar el brief; aporta diversidad geográfica",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
+        "reason": "PML 58.8; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-15T14:21:16-0300",
-      "last_seen": "2026-11-15T14:21:16-0300",
-      "entities": "mexico",
-      "event_terms": [],
+      "first_seen": "2026-11-15T16:49:18-0300",
+      "last_seen": "2026-11-15T16:49:18-0300",
+      "entities": [],
+      "event_terms": "crisis",
       "analysis": {
-        "summary": "La medida del presidente Arévalo regirá durante un mes en Zacapa e Izabal, zonas clave para el trasiego de droga hacia México",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "summary": "La exacandidata presidencial y otrora alcaldesa de Providencia, Evelyn Matthei, acusó \"engaño\" en los compromisos de campaña del Presidente José Antonio Kast  y calificó de \"absurda y poco inteligente\" la conducción del Gobierno por el escándalo de las rebajas de condena a pederastas otorgadas por el ministro de Justicia, Fernando Rabat.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -309,38 +305,38 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Guatemala decreta el estado de sitio en el feudo de los grupos narco señalados como terroristas por Estados Unidos",
-          "description": "La medida del presidente Arévalo regirá durante un mes en Zacapa e Izabal, zonas clave para el trasiego de droga hacia México",
-          "url": "https://elpais.com/america/2026-11-15/guatemala-decreta-el-estado-de-sitio-en-el-feudo-de-los-grupos-narco-senalados-como-terroristas-por-estados-unidos.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/Z65AWZUVVNGYXCZJY5LWBEM3YU.jpg?auth=4392fc85fd012c13c3fe733a7773a14f4c3a5cd9b987fce9a4387780e7b8629c",
-          "published_raw": "Sun, 15 Nov 2026 17:21:16 GMT",
-          "published_at": "2026-11-15T14:21:16-0300",
-          "country": "No identificado",
-          "region": "América Latina",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Matthei por compromisos de Kast: \"Cuando prometes algo que no puedes cumplir, es un engaño\"",
+          "description": "La exacandidata presidencial y otrora alcaldesa de Providencia, Evelyn Matthei, acusó \"engaño\" en los compromisos de campaña del Presidente José Antonio Kast  y calificó de \"absurda y poco inteligente\" la conducción del Gobierno por el escándalo de las rebajas de condena a pederastas otorgadas por el ministro de Justicia, Fernando Rabat. En conversación con el programa de streaming Podkast, conducido por el exsenador Evópoli Felipe Kast, la exjefa comunal reiteró sus cuestionamientos a la falta de un plan de seguridad , especialmente por las promesas de campaña incumplidas. \"El mayor error del gobierno fue cuando la ciudadanía se dio cuenta de que todo esto de la seguridad era puro bluff, porque no había nada\" , expresó la militante gremialista, según reprodujo La Tercera . Matthei señaló que \"estaban los nombres, el Cancerbero, el plan, no sé, todas esas tonteras, pero no había nada detrás, no había un solo pensamiento , no había una persona seria, no había una persona que supiera de esta materia. Nada, no había nada \". \"Creo que esa fue la primera desilusión, porque ese tema había sido muy central en la campaña . Creo que eso fue muy grave, porque puso después el tema de la metáfora, cuando dijo que iba a expulsar a no sé cuántos extranjeros y cuando le preguntaron cuándo lo iba a hacer, (el Presidente Kast) dijo que era una metáfora . Mucha gente había votado por él por eso\", aseveró. En esa línea, la exalaldesa recordó las promesas de Kast durante la campaña presidencial: \"¿Qué eran los planes de seguridad? Cuando tú prometes algo que no puedes cumplir, eso es un engaño , porque claro, yo podría decirle que vamos a crear un millón y medio de empleos si tú sabes que eso no puede, es mentira \", fustigó. Caso Rabat: \"Una crisis llevada en forma tan absurda y poco inteligente\" Evelyn Matthei también reprochó el manejo de la crisis derivada del denominado Caso Rabat y otros momentos complejos que ha enfrentado el Ejecutivo: \"Cómo ha manejado diversas crisis denota una falta de flexibilidad y una falta de entendimiento de las emociones de las personas que es muy preocupante\", manifestó. La otrora alcaldesa criticó la forma en que el Mandatario manejó los hechos que terminaron con las salidas de las exministras Trinidad Steinert (Seguridad) , Natalia Duco (Deportes) y  Mara Sedini (Segegob) . \"Parece que a las mujeres las deja ir antes que los hombres . Y te digo, las faltas eran incomparables, porque no eran solamente abusos sexuales contra menores. Era también liberación de narcotraficantes extranjeros \", cuestionó, según la publicación del diario. En ese sentido, enfatizó: \"Entonces uno dice, pero cómo el ministro no lo consultó con nadie, no se dio cuenta de que esto era un tema grande, que por lo menos tenía que consultarlo\". \"Cuando tú eres ministro, tú eres parte de un Gobierno. El Gobierno tiene una motivación, tiene un norte, y si tú vas en contra de eso, o sea, ¿qué haces como ministro? Yo de verdad no entiendo nada. Creo que pocas veces he visto una crisis llevada en forma tan absurda, tan poco inteligente como esta \", reprochó la excandidata presidencial de la UDI.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/udi/matthei-por-compromisos-de-kast-cuando-prometes-algo-que-no-puedes/2026-11-15/164918.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115164918.jpg",
+          "published_raw": "Sun, 15 Nov 2026 16:49:18 -0300",
+          "published_at": "2026-11-15T16:49:18-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
+          "score_institutional": 3,
+          "score_elections": 1,
           "score_international": 0,
           "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 7,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-011"
         }
       ]
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-015",
+      "cluster_id": "PML-EVENT-017",
       "title": "Trump rompe 37 horas de inusual silencio para culpar del parón aeronáutico al Gobierno de Biden",
       "url": "https://elpais.com/us/2026-11-15/trump-rompe-37-horas-de-inusual-silencio-para-culpar-del-paron-aeronautico-al-gobierno-de-biden.html",
       "representative_source": "EL PAÍS",
@@ -407,7 +403,7 @@
           "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-017"
         }
       ]
     }
@@ -493,7 +489,7 @@
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-003",
+        "cluster_id": "PML-EVENT-002",
         "title": "Parisi advirtió que en el PDG hay tendencia mayoritaria a apoyar la AC contra Rabat",
         "topic": "Instituciones y gobierno",
         "event_type": "POLITICAL_STATEMENT",
@@ -504,14 +500,14 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.6,
+          "score": 53.9,
           "level": "MEDIA",
           "components": {
-            "political_impact": 50,
-            "freshness": 100,
+            "political_impact": 49,
+            "freshness": 95,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 36
+            "continuity": 34
           }
         },
         "coverage": {
@@ -526,7 +522,7 @@
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
             "title": "Parisi advirtió que en el PDG hay tendencia mayoritaria a apoyar la AC contra Rabat",
-            "description": "El excandidato presidencial y secretario general del Partido de la Gente (PDG), Franco Parisi , aseguró que existe una mayoría dentro de su colectividad que apunta a apoyar la acusación constitucional presentada por la oposición contra el ministro de Justicia y Derechos Humanos, Fernando Rabat , en medio de la controversia por la rebaja de condenas a personas sentenciadas por delitos sexuales contra menores de edad. En una entrevista con La Tercera , Parisi cuestionó el manejo del Presidente José Antonio Kast frente a la crisis y aseguró que, \"nosotros hemos tratado de decir a la autoridad que lo mejor es que el ministro Rabat dé un paso al costado \". \"Hay una complejidad muy grande que no ha sabido manejar el Presidente Kast . Hay mucha gente en el gobierno, por lo menos los que hablan conmigo, que está muy molesta, porque ha alargado una crónica de una muerte anunciada \", sostuvo. Consultado sobre si existía una mayoría favorable al libelo dentro del PDG, Parisi respondió que \" lo que yo he conversado, sí, pero es que todavía no sabemos de qué estamos hablando. Veamos el documento, hay que analizarlo, hay que discutirlo \". El líder de la colectividad también advirtió que \"lamentablemente, los ánimos en el Parlamento están demasiado polarizados\" y abordó la diferencia entre las implicancias políticas y constitucionales de la controversia. \"Es difícil explicarle a la víctima de un violador, de un pederasta, que (al victimario) lo dejaron libre y que no hay ningún error constitucional . Por lo tanto, yo creo que va a pesar más la arista política que la constitucional\", afirmó para La Tercera. En esa línea, sostuvo que \" este es un problema político, no constitucional. Si no, lleguemos al Tribunal Constitucional. Esa es mi postura. Pero, obviamente, los diputados van a tener que discutir, analizar y tomar una decisión. Lo que yo espero es que la decisión sea tomada mayoritariamente por todos\". El PDG podría definir el futuro de la acusación Para aprobar la acusación constitucional contra el ministro Rabat se necesitan 78 votos y, con 65 apoyos preliminares, los 15 diputados del Partido de la Gente  podrían resultar decisivos para el futuro del libelo. Ante los cuestionamientos del senador liberal, Vlado Mirosevic, quien acusó al PDG de actuar como una especie de \"cogobierno\" del Presidente José Antonio Kast , el diputado Patricio Briones (PDG),  respondió: \"Las palabras del senador Mirosevic solo hablan de revanchismo y tratan de opacar su propia gestión en el liderazgo de su sector\". El parlamentario también abordó la relación de la bancada: \" Franco Parisi es nuestro líder , Franco Parisi siempre va a ser nuestro candidato a la presidencia, pero la autonomía y la independencia cada uno de nosotros como diputados está siendo ejercida en su máximo esplendor \", enfatizó. Desde el oficialismo, el presidente de la UDI, Guillermo Ramírez , señaló: \"Hoy día mismo Franco Parisi reconoce que en el PDG las decisiones están divididas , por lo tanto también es esperable que haya algunos votos del PDG que van a votar en contra. Ya con eso la acusación se rechaza y por lo tanto estamos tranquilos \". Por su parte, el diputado, Jaime Mulet (FRVS) recordó que la legislación sobre rebajas de condenas fue aprobada transversalmente en 2003. \"Si las cosas se han hecho mal, bueno, corrijámoslas, pero creo que siempre es bueno tener en perspectiva las cosas y no usar una oportunidad política \", planteó. Este lunes se dará cuenta del ingreso de la acusación constitucional ante la Sala de la Cámara , donde también se sortearán los cinco integrantes de la comisión encargada de revisar el libelo.",
+            "description": "El excandidato presidencial y secretario general del Partido de la Gente (PDG), Franco Parisi , aseguró que existe una mayoría dentro de su colectividad que apunta a apoyar la acusación constitucional presentada por la oposición contra el ministro de Justicia y Derechos Humanos, Fernando Rabat , en medio de la controversia por la rebaja de condenas a personas sentenciadas por delitos sexuales contra menores de edad. En una entrevista con La Tercera , Parisi cuestionó el manejo del Presidente José Antonio Kast frente a la crisis y aseguró que, \"nosotros hemos tratado de decir a la autoridad que lo mejor es que el ministro Rabat dé un paso al costado \". \"Hay una complejidad muy grande que no ha sabido manejar el Presidente Kast . Hay mucha gente en el gobierno, por lo menos los que hablan conmigo, que está muy molesta, porque ha alargado una crónica de una muerte anunciada \", sostuvo. Consultado sobre si existía una mayoría favorable al libelo dentro del PDG, Parisi respondió que \" lo que yo he conversado, sí, pero es que todavía no sabemos de qué estamos hablando. Veamos el documento, hay que analizarlo, hay que discutirlo \". El líder de la colectividad también advirtió que \"lamentablemente, los ánimos en el Parlamento están demasiado polarizados\" y abordó la diferencia entre las implicancias políticas y constitucionales de la controversia. \"Es difícil explicarle a la víctima de un violador, de un pederasta, que (al victimario) lo dejaron libre y que no hay ningún error constitucional . Por lo tanto, yo creo que va a pesar más la arista política que la constitucional\", afirmó para La Tercera. En esa línea, sostuvo que \" este es un problema político, no constitucional. Si no, lleguemos al Tribunal Constitucional. Esa es mi postura. Pero, obviamente, los diputados van a tener que discutir, analizar y tomar una decisión. Lo que yo espero es que la decisión sea tomada mayoritariamente por todos\". El PDG podría definir el futuro de la acusación Para aprobar la acusación constitucional contra el ministro Rabat se necesitan 78 votos y, con 65 apoyos preliminares, los 15 diputados del Partido de la Gente  podrían resultar decisivos para el futuro del libelo. Ante los cuestionamientos del senador liberal Vlado Mirosevic, quien acusó al PDG de actuar como una especie de \"cogobierno\" del Presidente José Antonio Kast , el diputado Patricio Briones (PDG),  respondió: \"Las palabras del senador Mirosevic solo hablan de revanchismo y tratan de opacar su propia gestión en el liderazgo de su sector\". El parlamentario también abordó la relación de la bancada: \" Franco Parisi es nuestro líder , Franco Parisi siempre va a ser nuestro candidato a la presidencia, pero la autonomía y la independencia cada uno de nosotros como diputados está siendo ejercida en su máximo esplendor \", enfatizó. Por su parte, la diputada Lilian Betancurt (PDG) enfatizó que, aunque entiende \"la presión de la centroizquierda por impulsar una acusación contra el ministro Rabat, decirle al senador Vlado (Mirosevic) que el PDG no está para recibir órdenes ni actuar al ritmo de la oposición \". \"Como dice el refrán: 'no hay que poner la carreta delante de los bueyes' . Primero analizaremos todos los antecedentes y después tomaremos una decisión responsable como bancada \", puntualizó la parlamentaria, que también llamó al senador a no \"confundirse\" con las críticas a Franco Parisi, dado que \"no es el economista de Kast, sino que ha puesto sobre la mesa las preocupaciones de la gente común \". Mientras el también diputado PDG Roberto Arroyo dijo que una \" hipocresía política no tiene límites es lo que refleja el escuchar a un senador sin memoria ni coherencia \". El parlamentario aseguró que \"la ciudadanía no necesita políticos que descubran que existen víctimas solo cuando les conviene políticamente, necesita autoridades consecuentes que den la cara cuando están gobernando y no solamente cuando están en la oposición \". \"Antes de repartir lecciones de moral y de responsabilidad, explique por qué no tuvo la misma firmeza con quienes fueron sus aliados. La memoria de los chilenos no se borra con un discurso ni se manipula con oportunismo político \", cerró. Debate parlamentario Desde el oficialismo, el presidente de la UDI, Guillermo Ramírez , señaló: \"Hoy día mismo Franco Parisi reconoce que en el PDG las decisiones están divididas , por lo tanto también es esperable que haya algunos votos del PDG que van a votar en contra. Ya con eso la acusación se rechaza y por lo tanto estamos tranquilos \". Por su parte, el diputado, Jaime Mulet (FRVS) recordó que la legislación sobre rebajas de condenas fue aprobada transversalmente en 2003. \"Si las cosas se han hecho mal, bueno, corrijámoslas, pero creo que siempre es bueno tener en perspectiva las cosas y no usar una oportunidad política \", planteó. Este lunes se dará cuenta del ingreso de la acusación constitucional ante la Sala de la Cámara , donde también se sortearán los cinco integrantes de la comisión encargada de revisar el libelo.",
             "url": "https://www.cooperativa.cl/noticias/pais/politica/parisi-advirtio-que-en-el-pdg-hay-tendencia-mayoritaria-a-apoyar-la-ac/2026-11-15/121022.html",
             "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115121022.jpg",
             "published_raw": "Sun, 15 Nov 2026 12:10:22 -0300",
@@ -539,16 +535,16 @@
             "score_international": 1,
             "score_conflict": 0,
             "score_policy": 0,
-            "score_ideology": 1,
+            "score_ideology": 2,
             "score_actor": 8,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 19,
+            "political_evidence": 20,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
+            "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
+            "cluster_id": "PML-EVENT-002"
           }
         ],
         "article_count": 1,
@@ -556,13 +552,13 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 64.6
+          "chile_utility": 62.9
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-017",
+        "cluster_id": "PML-EVENT-018",
         "title": "Impulsan proyecto que endurece multas por venta de vapeadores y cigarrillos a menores",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -617,7 +613,7 @@
             "secondary_topic": "Relaciones internacionales",
             "decision": "ACCEPT",
             "filter_confidence": "medium",
-            "cluster_id": "PML-EVENT-017"
+            "cluster_id": "PML-EVENT-018"
           }
         ],
         "article_count": 1,
@@ -635,20 +631,20 @@
     {
       "topic": "Instituciones y gobierno",
       "event_count": 23,
-      "maximum_relevance": 65.4,
+      "maximum_relevance": 64.2,
       "leading_story": "Congreso espera despachar a ley el acuerdo con los camioneros a más tardar el martes"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 2,
-      "maximum_relevance": 42.3,
-      "leading_story": "Ecuador: ¿qué han cambiado 1.000 días de estado de excepción?"
+      "maximum_relevance": 56.5,
+      "leading_story": "Un terremoto, incógnitas sobre las ayudas y una ola terrorista: los 100 días de gobierno de De la Espriella"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 1,
-      "maximum_relevance": 32.8,
-      "leading_story": "Burlas con IA, injerencias rusas y extremismo: campañas tóxicas al servicio de los algoritmos"
+      "event_count": 2,
+      "maximum_relevance": 55.5,
+      "leading_story": "El PSOE propone destinar el 1% del PIB a vivienda social y crear una prestación estatal por crianza"
     }
   ],
   "changes_since_yesterday": {
