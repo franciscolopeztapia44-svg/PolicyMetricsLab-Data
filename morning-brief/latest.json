@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-16",
-    "data_latest_timestamp": "2026-11-16T16:45:10-0300",
-    "data_age_hours": 2,
-    "generated_at": "2026-11-16T18:48:02-0300",
+    "data_latest_timestamp": "2026-11-16T21:31:54-0300",
+    "data_age_hours": 6.7,
+    "generated_at": "2026-11-17T04:13:30-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -17,17 +17,17 @@
   "summary": {
     "headline": "Panorama Político Diario",
     "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 26 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 5 tipos de evento político.",
+    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
     "ranked_events": 26,
-    "topics": 1,
+    "topics": 2,
     "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 60.9,
-    "maximum_relevance": 66.7
+    "average_top5_relevance": 59.9,
+    "maximum_relevance": 64.7
   },
   "top_stories": [
     {
@@ -43,12 +43,12 @@
         "country": "Argentina / América Latina"
       },
       "relevance": {
-        "score": 66.7,
+        "score": 64.7,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 66.7
+        "editorial_utility": 64.7
       },
       "selection": {
-        "reason": "PML 66.7",
+        "reason": "PML 64.7",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -105,6 +105,79 @@
     },
     {
       "position": 2,
+      "cluster_id": "PML-EVENT-016",
+      "title": "Keiko Fujimori se reúne con Xi Jinping en medio de las presiones de Trump sobre Perú",
+      "url": "https://elpais.com/america/2026-11-17/keiko-fujimori-se-reune-con-xi-jinping-en-medio-de-las-presiones-de-trump-sobre-peru.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Relaciones internacionales",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / América Latina"
+      },
+      "relevance": {
+        "score": 59,
+        "level": "MEDIA",
+        "editorial_utility": 66
+      },
+      "selection": {
+        "reason": "PML 59; aporta diversidad temática; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-16T21:31:54-0300",
+      "last_seen": "2026-11-16T21:31:54-0300",
+      "entities": "trump",
+      "event_terms": [],
+      "analysis": {
+        "summary": "La presidenta peruana busca estrechar los vínculos económicos con China, su principal socio comercial, durante la cumbre de la APEC, después de haber reforzado sus relaciones con Washington",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en No identificado / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Keiko Fujimori se reúne con Xi Jinping en medio de las presiones de Trump sobre Perú",
+          "description": "La presidenta peruana busca estrechar los vínculos económicos con China, su principal socio comercial, durante la cumbre de la APEC, después de haber reforzado sus relaciones con Washington",
+          "url": "https://elpais.com/america/2026-11-17/keiko-fujimori-se-reune-con-xi-jinping-en-medio-de-las-presiones-de-trump-sobre-peru.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/J4VXU5ZPYVGIFBHQCEFGNEQMDA.jpg?auth=21dff497d539831718aaa4ebb0921ccb83e385583e036dbceebad154403df55c",
+          "published_raw": "Tue, 17 Nov 2026 00:31:54 GMT",
+          "published_at": "2026-11-16T21:31:54-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 2,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Relaciones internacionales",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-016"
+        }
+      ]
+    },
+    {
+      "position": 3,
       "cluster_id": "PML-EVENT-019",
       "title": "Alvarado interviene en crisis del Ministerio de Ciencia y cita a ministra Lincolao",
       "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/alvarado-interviene-en-crisis-del-ministerio-de-ciencia-y-cita-a/2026-11-16/164510.html",
@@ -116,12 +189,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 63.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 66.2
+        "score": 61.9,
+        "level": "MEDIA",
+        "editorial_utility": 64.9
       },
       "selection": {
-        "reason": "PML 63.2; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 61.9; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -177,7 +250,7 @@
       ]
     },
     {
-      "position": 3,
+      "position": 4,
       "cluster_id": "PML-EVENT-023",
       "title": "El Reino Unido, Australia, Canadá e Italia exigen al Gobierno de Israel que permita la entrada de ayuda humanitaria en Gaza",
       "url": "https://elpais.com/internacional/2026-11-16/el-reino-unido-australia-canada-e-italia-exigen-al-gobierno-de-israel-que-permita-la-entrada-de-ayuda-humanitaria-en-gaza.html",
@@ -189,12 +262,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 60.9,
+        "score": 58.9,
         "level": "MEDIA",
-        "editorial_utility": 56.9
+        "editorial_utility": 53.9
       },
       "selection": {
-        "reason": "PML 60.9; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 58.9; diversidad relajada para completar el brief; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -254,8 +327,8 @@
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-008",
+      "position": 5,
+      "cluster_id": "PML-EVENT-007",
       "title": "Parlamentarias FA respaldaron a Ximena Ossandón tras ataques republicanos",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/frente-amplio/parlamentarias-fa-respaldaron-a-ximena-ossandon-tras-ataques-republicanos/2026-11-15/165829.html",
       "representative_source": "Cooperativa",
@@ -266,12 +339,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 57.4,
+        "score": 54.9,
         "level": "MEDIA",
-        "editorial_utility": 51.4
+        "editorial_utility": 48.9
       },
       "selection": {
-        "reason": "PML 57.4; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 54.9; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -322,86 +395,7 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-008"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-003",
-      "title": "Congreso espera despachar a ley el acuerdo con los camioneros a más tardar el martes",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/congreso-espera-despachar-a-ley-el-acuerdo-con-los-camioneros-a-mas/2026-11-15/132714.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 56.4,
-        "level": "MEDIA",
-        "editorial_utility": 48.4
-      },
-      "selection": {
-        "reason": "PML 56.4; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-15T13:27:14-0300",
-      "last_seen": "2026-11-15T13:27:14-0300",
-      "entities": [
-        "congreso",
-        "senado"
-      ],
-      "event_terms": [
-        "oposicion",
-        "crisis"
-      ],
-      "analysis": {
-        "summary": "El Congreso espera tramitar con rapidez  el proyecto de acuerdo entre el Gobierno y los camioneros para bajar en 142 pesos el precio del diésel - entre otras medidas- y despacharlo a ley a más tardar el martes. La iniciativa también contempla congelar los precios hasta el 31 de marzo de 2027 ,  extender el beneficio de recuperación del impuesto específico para el transporte de carga durante todo ese año y aumentar el porcentaje de reintegro de peajes para el transporte…",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Congreso espera despachar a ley el acuerdo con los camioneros a más tardar el martes",
-          "description": "El Congreso espera tramitar con rapidez  el proyecto de acuerdo entre el Gobierno y los camioneros para bajar en 142 pesos el precio del diésel - entre otras medidas- y despacharlo a ley a más tardar el martes. La iniciativa también contempla congelar los precios hasta el 31 de marzo de 2027 ,  extender el beneficio de recuperación del impuesto específico para el transporte de carga durante todo ese año y aumentar el porcentaje de reintegro de peajes para el transporte interurbano, como puntos más destacados.  \"Lo que le corresponde al Congreso es legislar inmediatamente para plasmar este acuerdo en un texto, en la ley, que es lo que nos ordena. Si hay algunos que pretenden que a lo mejor se haga un mayor esfuerzo, tienen la razón respecto de que tenemos que partir por aprobar esto, que es lo mínimo\", dijo la presidenta del Senado, Paulina Núñez (RN).  \"Fijamos los plazos (de tramitación) y nos coordinamos con la mesa de la Cámara. El día lunes van a sesionar ellos primero, luego vamos a sesionar inmediatamente nosotros, para que el día martes ya seamos capaces de despacharlo a ley, si es que incluso no es el propio lunes\", afirmó. [Lea también]  Eyzaguirre por paro de transportistas: Hay un uso del poder oligopólico muy inaceptable Desde la oposición, en tanto, si bien saben que no cuentan con mayoría, sostienen que buscarán mejorar aspectos del texto.  El diputado de la bancada PPD-independientes Carlos Bianchi criticó que \"esto no resuelve la situación de los valores de los combustibles para las personas en general o para las mipymes, pequeños transportistas\". \"Por lo tanto, yo espero que se dé la oportunidad de mejorar ese proyecto. Ahora, como (en la derecha) tienen mayoría, lo más probable es que esto sea una imposición y no tengamos ninguna posibilidad de mejorar\" el proyecto, reprochó. Mientras que la senadora y presidenta del Partido Socialista , Paulina Vodanovic , señaló que \"es un proyecto que hay que estudiar, pero sí entender que una solución que no es una negociación, sino simplemente consiste en entregarle un cheque a todos los transportistas del país sin focalizar en los que tienen más problemas, que son los pequeños\". \" Pareciera ser que no es la solución adecuada cuando involucra una cantidad de gastos para el país tan importante , que incluso es superior a lo que habría costado mantener el Mepco originalmente\", advirtió la legisladora, que señaló también que \"frente a los camioneros no aplicó ninguna ley\". \" ¿Alguien lo vio al ministro de Seguridad con la interrupción en las carreteras o con la demora en las carreteras? Ministro ausente. Aquí hay una bomba de tiempo instalada dentro de La Moneda que el Presidente tiene que por una vez por todas resolver\" , enfatizó. Pavez: \"El Gobierno ha hecho importantes esfuerzos para atenuar\" el bencinazo El subsecretario del Interior, Máximo Pavez, relevó los esfuerzos hechos por el Gobierno para llegar al acuerdo y atenuar el alza de combustibles, luego que el ministro de Hacienda, Jorge Quiroz,  dijera a La Tercera que \"siempre va a haber un dolorcillo de guata cuando se abre la billetera más allá de lo previsto\", pese a calificar el entendimiento como \"satisfactorio\". \"El Ejecutivo desde marzo ha hecho importantísimos esfuerzos para atenuar esta crisis internacional, que es la más grande en 50 años en materia de combustibles\", dijo el subsecretario al programa Mesa Central, de Canal 13. \"Entre el 11 de marzo y el 11 de noviembre se han inyectado 1,4 billones de pesos al sistema Mepco para poder atenuar todo lo que ha significado el alza de las bencinas. Es decir, si el Gobierno no hubiese hecho los esfuerzos que hizo al principio, nosotros habríamos gastado, con precios más o menos similares a los que están ahora, más de 3,8 billones de pesos\", defendió Pavez.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/congreso-espera-despachar-a-ley-el-acuerdo-con-los-camioneros-a-mas/2026-11-15/132714.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115132714.png",
-          "published_raw": "Sun, 15 Nov 2026 13:27:14 -0300",
-          "published_at": "2026-11-15T13:27:14-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 9,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 2,
-          "score_actor": 7,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 19,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
+          "cluster_id": "PML-EVENT-007"
         }
       ]
     }
@@ -414,25 +408,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-004",
-        "title": "Proyecto que rebaja el precio de los combustibles avanzó en la Comisión de Hacienda",
+        "cluster_id": "PML-EVENT-009",
+        "title": "Cámara Baja despachó proyecto que rebaja el precio de los combustibles al Senado",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/proyecto-que-rebaja-el-precio-de-los-combustibles-avanzo-en-la-comision/2026-11-16/145302.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/camara-baja-despacho-proyecto-que-rebaja-el-precio-de-los-combustibles/2026-11-16/191848.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.8,
+          "score": 56,
           "level": "MEDIA",
           "components": {
-            "political_impact": 52,
+            "political_impact": 54,
             "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 32
+            "continuity": 28
           }
         },
         "coverage": {
@@ -440,36 +434,108 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-16T14:53:02-0300",
-        "last_seen": "2026-11-16T14:53:02-0300",
+        "first_seen": "2026-11-16T19:18:48-0300",
+        "last_seen": "2026-11-16T19:18:48-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Proyecto que rebaja el precio de los combustibles avanzó en la Comisión de Hacienda",
-            "description": "La Comisión de Hacienda de la Cámara de Diputadas y Diputados aprobó y despachó a la Sala el proyecto de ley que establece una rebaja inmediata en los precios de las bencinas y el petróleo diésel . La medida también instaura un congelamiento de tarifas para contener la presión inflacionaria sobre la economía nacional y aliviar la carga financiera de las empresas de transporte de carga tras el paro gremial de la semana pasada. Tras superar su primer trámite legislativo en comisión, la propuesta legal comenzó a debatirse en la Sala de la Cámara Baja, con miras a ingresar al Senado durante la misma jornada para completar su tramitación antes de la entrada en vigencia fijada para este jueves . La iniciativa legal fue sustentada mediante una indicación sustitutiva ingresada por el Ministerio de Hacienda para plasmar los consensos suscritos con las organizaciones de transportistas. \"Se llegó a un acuerdo, que es el que motiva la modificación de ciertos aspectos del proyecto que se presentó originalmente, y por lo tanto esto se traduce en una indicación sustitutiva , que es la que aquí se presenta \", destacó el ministro de Hacienda , Jorge Quiroz . Durante el debate legislativo, parlamentarios respaldaron la medida, pero advirtieron desigualdades frente a otros sectores. (FOTO: ATON) En esta línea, explicó que la indicación \"tiene cinco medidas: la primera, es que revierte el alza de precios realizada el 12 de noviembre en gasolinas y diésel , y baja 100 pesos por litro más en diésel\" . \"Por lo tanto, hay una baja de 140 pesos en el diésel respecto del precio que había antes del alza , y se establece este nuevo precio como un techo que pueda tener el precio del combustible , en el caso del diésel, hasta el 31 de marzo\", precisó el jefe de la billetera fiscal. Aunque preliminarmente el tope de precios culminaba al cierre de marzo, el cronograma oficial extendió el congelamiento hasta el miércoles 7 de abril de 2027 con el fin de acoplarse a los ciclos de variación del mecanismo, los cuales operan en periodos de tres semanas. Pesca artesanal y agricultura: las advertencias en el debate parlamentario Pese a que la iniciativa contó con un respaldo transversal en la Comisión de Hacienda, distintos representantes de oposición y del oficialismo recalcaron que los efectos del encarecimiento energético no se limitan a los camiones y exigieron soluciones dirigidas a rubros productivos que no fueron incluidos en el pacto original . Desde el Frente Amplio, el diputado Jorge Brito dijo que, aunque le parece \"importante valorar el esfuerzo de los transportistas, no son los únicos que se mueven impulsados por combustibles \". \" Particularmente la actividad de la pesca artesanal está siendo bastante insostenible . Pescadores gastaban 100 mil pesos en la Caleta Portales al salir a tirar los espineles a la mar, y hoy gastan 150 mil pesos\", alertó el parlamentario. A los cuestionamientos se sumó el diputado independiente Carlos Bianchi , quien afirmó que, aunque se votará a favor y que hay que \"felicitar\" al gremio camionero por la medida, \" aquí sí que hay una discriminación \". En opinión del parlamentario, \"hubo un transporte de los camioneros, el de los grandes , que ni siquiera estuvieron en la paralización y son los más beneficiados , y los pequeños y medianos (solo) algo recogieron de estos beneficios\". Desde el oficialismo, la diputada Ximena Ossandón (RN) argumentó que \"efectivamente nosotros vamos a apoyar este proyecto, también reconocemos que hay una rebaja considerable y positiva para todos , porque esa es la gran incertidumbre que existe, y se hace un esfuerzo\". Pese a esto, advirtió que \"si bien esto a todos nos beneficia, creo que el campo , la agricultura , necesita también ver parte de este esfuerzo \". En la misma línea, el presidente de la Comisión de Hacienda, el diputado republicano Agustín Romero , indicó que \" es indudable que el pueblo chileno ha sufrido mucho con estas alzas . \"Las consecuencias de esta guerra, no queridas por el gobierno, no querida por nadie, ni por el oficialismo ni por la oposición, han sido muy dolorosas para la gente, y me parece positivo que hoy día se equilibre también esto \", puntualizó.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/proyecto-que-rebaja-el-precio-de-los-combustibles-avanzo-en-la-comision/2026-11-16/145302.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261116/imag/foto_0000000320261116145302.png",
-            "published_raw": "Mon, 16 Nov 2026 14:53:02 -0300",
-            "published_at": "2026-11-16T14:53:02-0300",
+            "title": "Cámara Baja despachó proyecto que rebaja el precio de los combustibles al Senado",
+            "description": "El proyecto de ley que establece una rebaja inmediata en los precios de las bencinas y el petróleo diése l pasó al Senado , luego de ser despachado rápidamente por la Sala de la Cámara de Diputadas y Diputados. La Comisión de Hacienda de la Cámara Baja despachó esta mañana la iniciativa que instaura un congelamiento de tarifas para contener la presión inflacionaria sobre la economía nacional y aliviar la carga financiera de las empresas de transporte de carga tras el paro gremial de la semana pasada. De esa forma, el proyecto fue discutido esta tarde y aprobado rápidamente en la Sala de la corporación, y antes de las 17:00 horas fue despacho al Senado. El diputado Juan Marcelo Valenzuela (PDG) destacó que \" estamos llegando a tiempo, entendiendo que el precio de la bencina está muy alto y era urgente ponerle un techo. Hoy día estamos avanzando en esa dirección \". Sin embargo, aseveró que \"nosotros nunca estamos conformes. Le dijimos al Ejecutivo que tiene que hacer mayores esfuerzos. Quedaron fuera los agricultores, los pescadores artesanales, todas las empresas que están acogidas al régimen ProPyme, transportistas escolares también. Estamos pidiendo que se haga una mesa para poder llegar con ayuda adicionales a todas esas personas que hoy día lo están pasando mal\". Por su parte, la diputada Flor Weisse (UDI) precisó que \" era muy importante poder, de acuerdo a los tiempos, aprobar hoy día. Tiene que seguir en el Senado porque tiene que estar publicado en el Diario Oficial esto para que pueda surtir efecto  este jueves , que es donde se revierte el alza del jueves anterior de los 40 pesos y además a sumar los 100 pesos de rebaja\". Comisión de Hacienda del Senado sesiona en paralelo Un poco más tarde, se inició una sesión especial de sala del Senado , en la que el segundo punto de la tabla es el proyecto relativo a los combustibles y el transporte de carga . No obstante, la iniciativa es abordada por la Comisión de Hacienda en paralelo, con la exposición del ministro de Hacienda, Jorge Quiroz. \"Uno de los acuerdos de comité, es que la Comisión de Hacienda pueda sesionar en paralelo a esta sala para conocer del segundo proyecto que está en la tabla. Entonces, vamos a darle autorización a la Comisión de Hacienda para que pueda sesionar en paralelo a la sala , por acuerdo de comité\", anunció la presidenta de la corporación, Paulina Núñez (RN). El secretario general, Luis Rojas, precisó que \"la idea es discutirlo durante esta sesión hasta las 20:00 horas. Si no se alcanza a despachar ese proyecto, estaremos citados mañana a las 9:30 de la mañana hasta total despacho\". En paralelo a la discusión, a nivel internacional, el precio del petróleo Brent bajó a 92,44 dólares el barril. Sin embargo, el precio del dólar subió a los 999,55 pesos chilenos, según Bloomberg.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/camara-baja-despacho-proyecto-que-rebaja-el-precio-de-los-combustibles/2026-11-16/191848.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261116/imag/foto_0000000220261116191848.jpg",
+            "published_raw": "Mon, 16 Nov 2026 19:18:48 -0300",
+            "published_at": "2026-11-16T19:18:48-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 8,
+            "score_institutional": 6,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 3,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 9,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": null,
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-009"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 77
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-003",
+        "title": "Congreso espera despachar a ley el acuerdo con los camioneros a más tardar el martes",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/congreso-espera-despachar-a-ley-el-acuerdo-con-los-camioneros-a-mas/2026-11-15/132714.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 53.9,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 85,
+            "freshness": 52,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 34
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-15T13:27:14-0300",
+        "last_seen": "2026-11-15T13:27:14-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Congreso espera despachar a ley el acuerdo con los camioneros a más tardar el martes",
+            "description": "El Congreso espera tramitar con rapidez  el proyecto de acuerdo entre el Gobierno y los camioneros para bajar en 142 pesos el precio del diésel - entre otras medidas- y despacharlo a ley a más tardar el martes. La iniciativa también contempla congelar los precios hasta el 31 de marzo de 2027 ,  extender el beneficio de recuperación del impuesto específico para el transporte de carga durante todo ese año y aumentar el porcentaje de reintegro de peajes para el transporte interurbano, como puntos más destacados.  \"Lo que le corresponde al Congreso es legislar inmediatamente para plasmar este acuerdo en un texto, en la ley, que es lo que nos ordena. Si hay algunos que pretenden que a lo mejor se haga un mayor esfuerzo, tienen la razón respecto de que tenemos que partir por aprobar esto, que es lo mínimo\", dijo la presidenta del Senado, Paulina Núñez (RN).  \"Fijamos los plazos (de tramitación) y nos coordinamos con la mesa de la Cámara. El día lunes van a sesionar ellos primero, luego vamos a sesionar inmediatamente nosotros, para que el día martes ya seamos capaces de despacharlo a ley, si es que incluso no es el propio lunes\", afirmó. [Lea también]  Eyzaguirre por paro de transportistas: Hay un uso del poder oligopólico muy inaceptable Desde la oposición, en tanto, si bien saben que no cuentan con mayoría, sostienen que buscarán mejorar aspectos del texto.  El diputado de la bancada PPD-independientes Carlos Bianchi criticó que \"esto no resuelve la situación de los valores de los combustibles para las personas en general o para las mipymes, pequeños transportistas\". \"Por lo tanto, yo espero que se dé la oportunidad de mejorar ese proyecto. Ahora, como (en la derecha) tienen mayoría, lo más probable es que esto sea una imposición y no tengamos ninguna posibilidad de mejorar\" el proyecto, reprochó. Mientras que la senadora y presidenta del Partido Socialista , Paulina Vodanovic , señaló que \"es un proyecto que hay que estudiar, pero sí entender que una solución que no es una negociación, sino simplemente consiste en entregarle un cheque a todos los transportistas del país sin focalizar en los que tienen más problemas, que son los pequeños\". \" Pareciera ser que no es la solución adecuada cuando involucra una cantidad de gastos para el país tan importante , que incluso es superior a lo que habría costado mantener el Mepco originalmente\", advirtió la legisladora, que señaló también que \"frente a los camioneros no aplicó ninguna ley\". \" ¿Alguien lo vio al ministro de Seguridad con la interrupción en las carreteras o con la demora en las carreteras? Ministro ausente. Aquí hay una bomba de tiempo instalada dentro de La Moneda que el Presidente tiene que por una vez por todas resolver\" , enfatizó. Pavez: \"El Gobierno ha hecho importantes esfuerzos para atenuar\" el bencinazo El subsecretario del Interior, Máximo Pavez, relevó los esfuerzos hechos por el Gobierno para llegar al acuerdo y atenuar el alza de combustibles, luego que el ministro de Hacienda, Jorge Quiroz,  dijera a La Tercera que \"siempre va a haber un dolorcillo de guata cuando se abre la billetera más allá de lo previsto\", pese a calificar el entendimiento como \"satisfactorio\". \"El Ejecutivo desde marzo ha hecho importantísimos esfuerzos para atenuar esta crisis internacional, que es la más grande en 50 años en materia de combustibles\", dijo el subsecretario al programa Mesa Central, de Canal 13. \"Entre el 11 de marzo y el 11 de noviembre se han inyectado 1,4 billones de pesos al sistema Mepco para poder atenuar todo lo que ha significado el alza de las bencinas. Es decir, si el Gobierno no hubiese hecho los esfuerzos que hizo al principio, nosotros habríamos gastado, con precios más o menos similares a los que están ahora, más de 3,8 billones de pesos\", defendió Pavez.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/congreso-espera-despachar-a-ley-el-acuerdo-con-los-camioneros-a-mas/2026-11-15/132714.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115132714.png",
+            "published_raw": "Sun, 15 Nov 2026 13:27:14 -0300",
+            "published_at": "2026-11-15T13:27:14-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 9,
             "score_elections": 0,
             "score_international": 0,
             "score_conflict": 1,
             "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 5,
+            "score_ideology": 2,
+            "score_actor": 7,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 14,
+            "political_evidence": 19,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
+            "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
+            "cluster_id": "PML-EVENT-003"
           }
         ],
         "article_count": 1,
@@ -478,16 +544,15 @@
           "bonus": 22,
           "labels": [
             "Estado e instituciones",
-            "Congreso y proceso legislativo",
-            "Economía y políticas públicas"
+            "Congreso y proceso legislativo"
           ],
-          "chile_utility": 77.8
+          "chile_utility": 75.9
         },
         "repeated_in_general_top5": false
       },
       {
-        "position": 2,
-        "cluster_id": "PML-EVENT-012",
+        "position": 3,
+        "cluster_id": "PML-EVENT-004",
         "title": "Comisión investigadora de AC contra Rabat quedó con mayoría opositora",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -498,14 +563,14 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.8,
+          "score": 54.2,
           "level": "MEDIA",
           "components": {
-            "political_impact": 50,
-            "freshness": 100,
+            "political_impact": 51,
+            "freshness": 95,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 28
+            "continuity": 32
           }
         },
         "coverage": {
@@ -520,7 +585,7 @@
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
             "title": "Comisión investigadora de AC contra Rabat quedó con mayoría opositora",
-            "description": "Tras el ingreso formal de la acusación constitucional contra el ministro de Justicia, Fernando Rabat , la Cámara de Diputadas y Diputados procedió este lunes al sorteo de la comisión revisora. La instancia quedó integrada por los diputados Carlos Chandía (RN), Lorena Pizarro (PC), Germán Verdugo (PNL), Raúl Soto (PPD) y Lorena Fries (FA) . Los 12 parlamentarios que firmaron el libelo fueron excluidos del sorteo. La comisión deberá discutir la acusación constitucional contra Rabat, que tiene tres argumentos principales: las rebajas de condenas otorgadas a personas condenadas por delitos sexuales contra menores ; los beneficios concedidos a condenados por crímenes de lesa humanidad , y una eventual infracción al principio de probidad. De acuerdo a la normativa, el acusado será notificado dentro de los tres días que se da cuenta la acusación. Así, el afectado -dentro del décimo día de su notificación- podrá comparecer ante la comisión para ejercer su defensa, sea personalmente o mediante una presentación escrita. La comisión tendrá un plazo de seis días, contados desde la comparecencia del acusado, para estudiar el libelo y pronunciarse al respecto.",
+            "description": "Tras el ingreso formal de la acusación constitucional contra el ministro de Justicia, Fernando Rabat , la Cámara de Diputadas y Diputados procedió este lunes al sorteo de la comisión revisora. La instancia quedó integrada por los diputados Carlos Chandía (RN), Lorena Pizarro (PC), Germán Verdugo (PNL), Raúl Soto (PPD) y Lorena Fries (FA) . Los 12 parlamentarios que firmaron el libelo fueron excluidos del sorteo. La comisión deberá discutir la acusación constitucional contra Rabat, que tiene tres argumentos principales: las rebajas de condenas otorgadas a personas condenadas por delitos sexuales contra menores ; los beneficios concedidos a condenados por crímenes de lesa humanidad , y una eventual infracción al principio de probidad. De acuerdo a la normativa, el acusado será notificado dentro de los tres días que se da cuenta la acusación. Así, el afectado -dentro del décimo día de su notificación- podrá comparecer ante la comisión para ejercer su defensa, sea personalmente o mediante una presentación escrita. La comisión tendrá un plazo de seis días, contados desde la comparecencia del acusado, para estudiar el libelo y pronunciarse al respecto. La entrega de los decretos La primera medida de la comisión revisora se enfocará en la transparencia documental. Los parlamentarios opositores denunciaron que el Ministerio de Justicia ha proporcionado información fragmentada tanto al Senado como a la Cámara Baja . \"Como diputados de oposición, miembros de esta comisión, hemos acordado como primera medida exigir al ministro Fernando Rabat y al Gobierno absoluta transparencia , porque todavía no han entregado todos los decretos \", arremetió el timonel del PPD , Raúl Soto . En esta línea, el parlamentario cuestionó que \"hicieron una entrega parcial en el Senado de la República, hicieron otra entrega parcial de algunos decretos en la Cámara de Diputadas y Diputados , y la comisión revisora de la acusación constitucional va a exigir que se entreguen todos y cada uno de los decretos\". La incertidumbre en el hemiciclo y el factor PDG De presentarse los 155 integrantes de la Corporación, el texto requerirá una mayoría de 78 apoyos para sortear la valla de la Cámara . El bloque opositor cuenta con una base estimada de 65 sufragios -sujeta a tres licencias médicas de parlamentarias-, mientras que las fuerzas leales al Ejecutivo suman 75 escaños , también afectadas por una ausencia médica . Bajo este marco, legisladores de Chile Vamos han manifestado reservas frente a la gestión de Rabat, lo que deja el resultado en manos de bancadas intermedias, principalmente el Partido de la Gente (PDG) . Aunque figuras partidarias como Franco Parisi y la diputada Pamela Jiles señalaron una predisposición a respaldar la acusación, la directiva y la jefatura de bancada recalcaron que aún no existe una determinación zanjada institucionalmente . Sin adelantar una postura, el jefe de la bancada de diputados del PDG , Juan Marcelo Valenzuela , aseguró que su sector hubiera exigido la salida de Rabat \"en 24 horas\" tras conocerse el hecho . Asimismo, dijo que \" es difícil tener una posición y una postura y una mayoría de un texto que no conocemos \". En tanto, el diputado y presidente de la Comisión de Constitución, Jaime Mulet (FRVS) , afirmó que \" la decisión de votar esta acusación constitucional pasa por su estudio muy a fondo \". \"He sido muy cuidadoso en este tema, especialmente porque soy presidente de la Comisión de Constitución. Aquí no hay que olvidarse que la ley que gatilla estos beneficios es una ley que se dictó hace más de 20 años atrás por el presidente Lagos ; hay que hacerse cargo de eso también\", puntualizó. \"Hay ministros de la Corte Suprema, ministros de Corte de Apelaciones que han mantenido interpretaciones divergentes y por eso que creo que hay que tener mucho cuidado para ser coherente en la vida . Yo trato de serlo\", añadió el parlamentario. Defensa jurídica de Rabat Tras ser notificado formalmente, el titular de Justicia dispondrá de un plazo de 10 días para responder las imputaciones por escrito o de manera personal ante la comisión revisora . Para articular su defensa, Rabat designó al penalista Juan Ignacio Piña , exsubsecretario de la cartera , expresidente del Consejo de Defensa del Estado (CDE) y litigante del equipo chileno ante la Corte Internacional de Justicia de La Haya por las aguas del río Silala. En 2024, Piña lideró exitosamente la defensa de la entonces ministra del Interior , Carolina Tohá , ante la acusación promovida en ese periodo por el Partido Republicano. La comisión revisora se constituirá este martes para elegir a su titular y confeccionar el cronograma de audiencias y audiencias con expertos constitucionalistas y expositores que intervendrán en el debate previo a la votación en Sala.",
             "url": "https://www.cooperativa.cl/noticias/pais/politica/comision-investigadora-de-ac-contra-rabat-quedo-con-mayoria-opositora/2026-11-16/155940.html",
             "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261116/imag/foto_0000000220261116155940.jpg",
             "published_raw": "Mon, 16 Nov 2026 15:59:40 -0300",
@@ -528,21 +593,21 @@
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 4,
-            "score_elections": 0,
+            "score_institutional": 10,
+            "score_elections": 1,
             "score_international": 0,
             "score_conflict": 0,
             "score_policy": 0,
             "score_ideology": 0,
-            "score_actor": 2,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 6,
+            "political_evidence": 16,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": null,
+            "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-012"
+            "cluster_id": "PML-EVENT-004"
           }
         ],
         "article_count": 1,
@@ -553,80 +618,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 75.8
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Presupuesto 2027: Oposición pidió voluntad de diálogo al Gobierno en el Senado",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-oposicion-pidio-voluntad-de-dialogo-al-gobierno-en-el/2026-11-15/135316.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 49.6,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 59,
-            "freshness": 62,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 44
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-15T13:53:16-0300",
-        "last_seen": "2026-11-15T13:53:16-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Presupuesto 2027: Oposición pidió voluntad de diálogo al Gobierno en el Senado",
-            "description": "La discusión del proyecto de Presupuesto 2027 comenzará este martes en la Sala del Senado , donde desde ya los parlamentarios comenzaron a tomar posiciones para prepararse para el arduo debate que se extenderá hasta el jueves, cuando se espera que ya se encuentre aprobado. La propuesta fue despachada desde la Cámara de Diputadas y Diputados con 27 partidas aprobadas, mientras que otras siete quedaron sin respaldo parlamentario, las que corresponden a  Interior , Educación , Secretaría General de Gobierno , Minería , Mujer y Equidad de Género , Cultura y Ciencias . Los primeros seis fueron directamente rechazados en la Cámara Baja, mientras Ciencias se encontraba sin recursos desde la comisión mixta de Presupuestos. La falta de fondos para dichas partidas ha generado tensión en el Congreso. Por ello, la senadora Loreto Carvajal (PPD) espera que el Ejecutivo tenga voluntad de dialogar en el segundo trámite. \"El Gobierno solo apostó a los votos del PDG en la Cámara, y hoy llega al Senado con siete partidas importantes rechazadas. Esperamos un Gobierno con real y genuina voluntad de diálogo y un ministro Quiroz menos intransigente , que comprenda la difícil realidad económica del país . El debate presupuestario será fundamental para enfrentar lo que prevemos: un tumultuoso 2027\", afirmó. No obstante, desde el Partido Republicano, el senador Renzo Trisotti destacó la gestión del titular de Hacienda: \"Esperamos que la disposición que mostró el ministro de Hacienda, tanto en la comisión mixta previa de Presupuesto como en la Cámara de Diputados, pueda permitir destrabar todas estas partidas y tener el presupuesto necesario para poder seguir desarrollando en todas las áreas el país; obviamente, con las prioridades que ha impuesto el Gobierno\". Preocupación del Colegio Médico y el mundo comunal Entre las situaciones controvertidas se encuentra la falta de financiamiento para seis sitios de memoria , cuyos presupuestos quedaron reducidos a 1.000 pesos. Asimismo, hay discrepancias por los rechazos a asignaciones específicas de distintos organismos públicos como el Instituto Nacional del Deporte , Senadis , el Servicio de Protección Especializada a la Niñez y la Adolescencia , la Subsecretaría del Trabajo . Además de cuestionamientos al financiamiento de Aduanas , Senapred , el Servicio Agrícola y Ganadero (SAG) y la Dirección del Trabajo . En esa línea, la presidenta del Colegio Médico , Ana María Arriagada , manifestó sus inquietudes: \"(Se debe) asegurar el pago de la deuda hospitalaria , que no se reste del presupuesto del año entrante; defender toda mejora que asegure que la Ley Ricarte Soto cuente con los fondos disponibles, no solo para atender a los pacientes que están, sino para recibir más pacientes y además, para ojalá abrirse a incorporar nuevas drogas\". \" Queremos vigilar también los recursos para listas de espera y por eso nos interesa mucho el presupuesto de los hospitales\", agregó. En paralelo, la alcaldesa de Quilicura , Paulina Bobadilla , expuso las preocupaciones para el mundo comunal: \"Genera una gran incertidumbre para la gran mayoría de alcaldes y alcaldesas. Hoy día no tenemos certezas del presupuesto para Salud , Educación, Ley Cholito , Ley TEA , la ley de seguridad municipal . Nosotros tenemos nuevas obligaciones, pero no tenemos nuevos recursos\". Economista: Se debe agregar recursos a Obras Públicas y Vivienda, pero con cuidado de aumentar la deuda Por su parte, el economista Gonzalo Escobar, académico de la Facultad de Economía y Negocios de la Universidad Andrés Bello, señaló que se debe agregar recursos a las partidas de Obras Públicas y Vivienda, pero advierte que es muy probable que la deuda pública supere el 45% para el 2027 . \"Debería haber un impulso mayor en sectores como Obras Públicas y Vivienda. Por el contrario, digamos, si uno lo ve, las mayores alzas están en ministerios como Salud —que es importante—, Seguridad y Defensa, y no así en lo que es Obras Públicas y Vivienda. Por lo tanto, ahí hay un tema bastante preocupante. ¿Fiscalmente es responsable? Claro que sí , pero hay que tener cuidado porque es muy probable que la deuda supere el umbral del 45% \", analizó.",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/presupuesto-2027-oposicion-pidio-voluntad-de-dialogo-al-gobierno-en-el/2026-11-15/135316.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261115/imag/foto_0000000220261115135316.jpg",
-            "published_raw": "Sun, 15 Nov 2026 13:53:16 -0300",
-            "published_at": "2026-11-15T13:53:16-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 8,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 4,
-            "score_ideology": 0,
-            "score_actor": 6,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 19,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo",
-            "Economía y políticas públicas"
-          ],
-          "chile_utility": 71.6
+          "chile_utility": 75.2
         },
         "repeated_in_general_top5": false
       }
@@ -635,14 +627,20 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 23,
-      "maximum_relevance": 66.7,
+      "event_count": 22,
+      "maximum_relevance": 64.7,
       "leading_story": "El Gobierno de Milei busca eliminar las elecciones primarias para llegar con ventaja a las presidenciales de 2027"
+    },
+    {
+      "topic": "Relaciones internacionales",
+      "event_count": 1,
+      "maximum_relevance": 59,
+      "leading_story": "Keiko Fujimori se reúne con Xi Jinping en medio de las presiones de Trump sobre Perú"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 1,
-      "maximum_relevance": 55,
+      "maximum_relevance": 53.2,
       "leading_story": "La izquierda alemana aplica el cordón sanitario y revalida el Gobierno de Mecklemburgo-Pomerania Occidental"
     },
     {
