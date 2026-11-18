@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-17",
-    "data_latest_timestamp": "2026-11-17T14:43:02-0300",
-    "data_age_hours": 0.6,
-    "generated_at": "2026-11-17T15:19:00-0300",
+    "data_latest_timestamp": "2026-11-17T21:36:43-0300",
+    "data_age_hours": 2.2,
+    "generated_at": "2026-11-17T23:47:24-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,8 +16,8 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 23 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 23 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
@@ -25,14 +25,163 @@
     "ranked_events": 23,
     "topics": 1,
     "geographies": 2,
-    "representative_sources": 2,
+    "representative_sources": 3,
     "average_top5_relevance": 58.5,
-    "maximum_relevance": 63.4
+    "maximum_relevance": 65
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-015",
+      "cluster_id": "PML-EVENT-019",
+      "title": "El fiscal general de Paraguay renuncia ante la advertencia de un juicio político por el caso Ueno Bank",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261117-el-fiscal-general-de-paraguay-renuncia-ante-la-advertencia-de-un-juicio-pol%C3%ADtico-por-el-caso-ueno-bank",
+      "representative_source": "France 24",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "América Latina",
+        "country": "Paraguay / América Latina"
+      },
+      "relevance": {
+        "score": 65,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 65
+      },
+      "selection": {
+        "reason": "PML 65",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-11-17T16:09:26-0300",
+      "last_seen": "2026-11-17T16:09:26-0300",
+      "entities": [],
+      "event_terms": "crisis",
+      "analysis": {
+        "summary": "El fiscal general de Paraguay renunció este martes 17 de noviembre en medio de las gestiones de la Cámara de Diputados para someterlo a juicio político y de críticas por su actuación en la crisis bancaria, según una carta divulgada por medios.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Paraguay / América Latina.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "El fiscal general de Paraguay renuncia ante la advertencia de un juicio político por el caso Ueno Bank",
+          "description": "El fiscal general de Paraguay renunció este martes 17 de noviembre en medio de las gestiones de la Cámara de Diputados para someterlo a juicio político y de críticas por su actuación en la crisis bancaria, según una carta divulgada por medios.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261117-el-fiscal-general-de-paraguay-renuncia-ante-la-advertencia-de-un-juicio-pol%C3%ADtico-por-el-caso-ueno-bank",
+          "image_url": "https://s.france24.com/media/display/67ac17f8-e2ba-11f1-9f12-1ba7ddfab527/w:1024/p:16x9/ab25ccdb932268ef586c52484bce931358481fa1.jpg",
+          "published_raw": "Tue, 17 Nov 2026 19:09:26 GMT",
+          "published_at": "2026-11-17T16:09:26-0300",
+          "country": "Paraguay",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-019"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-009",
+      "title": "Voluntad para Chile busca constituirse como partido ante el Servel",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/voluntad-para-chile-busca-constituirse-como-partido-ante-el-servel/2026-11-17/210607.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 58.5,
+        "level": "MEDIA",
+        "editorial_utility": 61.5
+      },
+      "selection": {
+        "reason": "PML 58.5; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-17T21:06:07-0300",
+      "last_seen": "2026-11-17T21:06:07-0300",
+      "entities": "chile",
+      "event_terms": [
+        "eleccion",
+        "soberania"
+      ],
+      "analysis": {
+        "summary": "El nuevo partido de izquierda Voluntad para Chile inició su proceso de constitución legal ante el Servicio Electoral (Servel) con la presentación de más de 150 firmas , en una actividad que reunió a su directiva y marcó el comienzo para avanzar en la conformación de la colectividad.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Voluntad para Chile busca constituirse como partido ante el Servel",
+          "description": "El nuevo partido de izquierda Voluntad para Chile inició su proceso de constitución legal ante el Servicio Electoral (Servel) con la presentación de más de 150 firmas , en una actividad que reunió a su directiva y marcó el comienzo para avanzar en la conformación de la colectividad. La presentación fue encabezada por su presidente Álvaro Ramis , exrector de la Universidad Academia de Humanismo Cristiano y presidente del Centro de Estudios Territorio y Comunidad; la secretaria general Natalia Garrido , dirigenta social; y el vicepresidente Rodrigo Mundaca , gobernador regional de Valparaíso. El grupo destacó la necesidad de construir una alternativa política vinculada con las comunidades , las organizaciones sociales y las demandas de la ciudadanía. \"Voluntad para Chile inicia una larga jornada para la unidad política y social del pueblo, para la construcción de un proyecto al servicio de las personas que se levantan temprano en la mañana a buscar la prosperidad, la felicidad, el trabajo, el desarrollo nacional, que defienden la soberanía de nuestra patria \", sostuvo Ramis. El líder del nuevo movimiento destacó que el trabajo de la organización tendrá como eje a las comunidades y sus condiciones de vida , desde la seguridad de las familias hasta las oportunidades para desarrollar sus proyectos personales y colectivos. La secretaria general, por su parte, relevó el origen de la iniciativa: \"Nace del encuentro de organizaciones sociales, dirigentes sociales, colectivos políticos y nos une la profunda convicción de que Chile necesita una herramienta política que vuelva a conectar con la vida concreta, con la vida real de las personas\". \"Hacemos un llamado hoy día a esperar pacientemente la respuesta del Servel y después nosotras vamos a salir a reunir todas esas firmas necesarias para tener una herramienta política al servicio del pueblo, de nuestras vecinas y vecinos \", manifestó Garrido. Por su parte, el gobernador Mundaca enfatizó en el carácter regional y descentralizador del proyecto: \"Santiago no es Chile, Chile son sus regiones\" . \"Somos una expresión organizada de resistencia, pero también somos una expresión organizada para proponerle a Chile un nuevo modelo de desarrollo que ponga en el centro el bienestar de las personas, la protección de la naturaleza, la generación de empleo, pero por sobre todas las cosas, también recupere la dignidad para todo el pueblo de Chile\", expresó el vicepresidente de la colectividad. El alcalde de La Cisterna, Joel Olmos, valoró la participación de trabajadores, pobladores, autoridades locales y representantes de organizaciones sociales en la conformación. \" Hay un movimiento social que hoy día se levanta organizado para reivindicar el derecho del pueblo chileno a tener una vida digna \", aseveró. En la presentación, también participaron otros integrantes de la directiva: Iván Carrasco, Joel Olmos, Catalina Valenzuela, Javier Pineda, Bárbara Sepúlveda, Manuel Jacques, Kassandra Prado y Constanza Maldonado.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/voluntad-para-chile-busca-constituirse-como-partido-ante-el-servel/2026-11-17/210607.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261117/imag/foto_0000000220261117210607.jpg",
+          "published_raw": "Tue, 17 Nov 2026 21:06:07 -0300",
+          "published_at": "2026-11-17T21:06:07-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 1,
+          "score_ideology": 1,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 9,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-009"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-017",
       "title": "El Gobierno aprueba subir el salario mínimo un 5,3% y el sueldo de los funcionarios un 4,5%",
       "url": "https://elpais.com/economia/2026-11-17/el-gobierno-aprueba-subir-el-salario-minimo-un-53-y-el-sueldo-de-los-funcionarios-un-45.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +192,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 63.4,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 63.4
+        "score": 59.7,
+        "level": "MEDIA",
+        "editorial_utility": 54.7
       },
       "selection": {
-        "reason": "PML 63.4",
+        "reason": "PML 59.7; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -99,13 +248,13 @@
           "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-017"
         }
       ]
     },
     {
-      "position": 2,
-      "cluster_id": "PML-EVENT-002",
+      "position": 4,
+      "cluster_id": "PML-EVENT-001",
       "title": "Senado inició debate del Presupuesto con una disputa sobre recursos para pensiones",
       "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/senado-inicio-debate-del-presupuesto-con-una-disputa-sobre-recursos-para/2026-11-17/144302.html",
       "representative_source": "Cooperativa",
@@ -116,14 +265,14 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 58.8,
+        "score": 55.8,
         "level": "MEDIA",
-        "editorial_utility": 61.8
+        "editorial_utility": 48.8
       },
       "selection": {
-        "reason": "PML 58.8; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
+        "reason": "PML 55.8; fallback editorial controlado; diversidad relajada para completar el brief",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
@@ -133,7 +282,10 @@
       },
       "first_seen": "2026-11-17T14:43:02-0300",
       "last_seen": "2026-11-17T14:43:02-0300",
-      "entities": "senado",
+      "entities": [
+        "senado",
+        "congreso"
+      ],
       "event_terms": "oposicion",
       "analysis": {
         "summary": "El proyecto de Presupuesto 2027 , el primero de la actual Administración del Presidente José Antonio Kast, inició este martes su discusión en el Senado, con siete partidas rechazadas desde la Cámara de Diputadas y Diputados. El proyecto llegó a la Cámara Alta sin recursos aprobados para el Ministerio del Interior y Seguridad Pública, Ministerio de Educación, Ministerio de Minería, Segegob, Ministerio de la Mujer, Ministerio de las Culturas y el Ministerio de Ciencias,…",
@@ -150,7 +302,7 @@
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
           "title": "Senado inició debate del Presupuesto con una disputa sobre recursos para pensiones",
-          "description": "El proyecto de Presupuesto 2027 , el primero de la actual Administración del Presidente José Antonio Kast, inició este martes su discusión en el Senado, con siete partidas rechazadas desde la Cámara de Diputadas y Diputados. El proyecto llegó a la Cámara Alta sin recursos aprobados para el Ministerio del Interior y Seguridad Pública, Ministerio de Educación, Ministerio de Minería, Segegob, Ministerio de la Mujer, Ministerio de las Culturas y el Ministerio de Ciencias, Tecnología, Conocimiento e Innovación. El Ejecutivo repuso la mayor cantidad de estas partidas en los mismos términos en que fueron rechazadas previamente en la Cámara Baja. Y paralelamente se abrió a un proceso de negociación con quienes presidieron las subcomisiones mixtas de Presupuesto en la primera etapa de la tramitación, con el objetivo de llegar a un acuerdo que evite que alguna de estas partidas quede completamente rechazada en su segundo trámite. Entre los programas que quedan fuera y han generado controversia se encuentra el de \"Yo Elijo mi PC\", la beca que entrega computadores a estudiantes de séptimo básico, que no está todavía repuesto. Intercambio poco amistoso Asimismo, surgió preocupación entre parlamentarios de oposición porque tampoco están previstos los recursos que obliga la reforma previsional para suplementar el Fondo Autónomo de Protección Previsional (FAPP). El senador Daniel Núñez (PC) sostuvo en su intervención que \" el Estado debe cumplir sus compromisos . Tiene que hacer estos depósitos que casi llegan a 200 millones de dólares, y en el Presupuesto 2027 esa plata no está. Porque el ministro y el director de Presupuesto nos dijeron que había que empezar a pagarlo en 2028, que estábamos equivocados . Y no, no estamos equivocados. Aquí está la respuesta\". El ministro de Hacienda, Jorge Quiroz , le explicó al parlamentario: \"No consideramos aclarado el punto, porque la Contraloría se remite a un oficio de la Superintendencia de Pensione s, oficio que a nosotros nos merece dudas . Y dado que nos remite a dicho oficio, nosotros hemos enviado un oficio a la Superintendencia de Pensiones para que aclare el punto, y nuestra apreciación es que ese cuento de plazos no está correcto \". \"Me parece increíble que el Ministerio de Hacienda ponga en duda las opiniones y oficios de la Superintendencia de Pensiones . Porque si usted, ministro, pone en duda todos los oficios de actores y organismos públicos, este país sería ingobernable . Me parece indecente\", refutó el senador Núñez. La discusión marcó el inicio de la tramitación del erario nacional en el Senado, que comenzó dos horas más tarde de lo previsto porque se estaba desarrollando una reunión de los comités para organizar la tramitación. Desde el oficialismo, el senador Luciano Cruz-Coke (Evópoli) sostuvo que \" gracias precisamente al FAPP, que está financiado ,  esto es una ley permanente , por tanto, tiene financiamiento y había un problema de interpretación que lo ha aclarado bien el ministro y me tenía preocupado\". \" Me parece que esa respuesta está contestad a y que ha habido también, en alguna parte, algo de majadería en instalar ciertos fantasmas, como la misma cosa que se ha hecho con la Ley Ricarte Soto. Son prestaciones que el Estado tiene obligación de cumplir porque además están por ley\", agregó. No obstante, la senadora Daniella Cicardini (PS) planteó: \" Permítame sospechar la mañosa interpretación de este Gobierno, del ministro Quiroz, de no tener estos recursos en el FAPP en el Tesoro Público, porque son los mismos que se negaron a la reforma de pensiones por una mirada ideológica. El señor Kast y su sector político. O sea, el pronunciamiento de la Contraloría, ¿por dónde se lo está pasando? Perdóneme la expresión, presidente\".",
+          "description": "El proyecto de Presupuesto 2027 , el primero de la actual Administración del Presidente José Antonio Kast, inició este martes su discusión en el Senado, con siete partidas rechazadas desde la Cámara de Diputadas y Diputados. El proyecto llegó a la Cámara Alta sin recursos aprobados para el Ministerio del Interior y Seguridad Pública, Ministerio de Educación, Ministerio de Minería, Segegob, Ministerio de la Mujer, Ministerio de las Culturas y el Ministerio de Ciencias, Tecnología, Conocimiento e Innovación. El Ejecutivo repuso la mayor cantidad de estas partidas en los mismos términos en que fueron rechazadas previamente en la Cámara Baja. Y paralelamente se abrió a un proceso de negociación con quienes presidieron las subcomisiones mixtas de Presupuesto en la primera etapa de la tramitación, con el objetivo de llegar a un acuerdo que evite que alguna de estas partidas quede completamente rechazada en su segundo trámite. Entre los programas que quedan fuera y han generado controversia se encuentra el de \"Yo Elijo mi PC\", la beca que entrega computadores a estudiantes de séptimo básico, que no está todavía repuesto. La presidenta del Senado, Paulina Núñez (RN) , señaló que \"hay siete partidas rechazadas. Si queremos aprobarlas en el Senado, evidentemente que tienen que tener un esfuerzo mayor, porque de lo contrario, siendo rechazadas por el Senado, ni siquiera la comisión mixta va a ser un espacio para poder entregar esos recursos\". \"Obviamente, no podemos dar esa respuesta desde el Congreso, pero esta vez como colegisladores estamos exigiendo ese esfuerzo mayor, porque ayer estábamos discutiendo aquí en la sala mayores recursos para hacer frente y detener ese bloqueo, ese paro que hubo de los camioneros. Por lo tanto, cuando hay prioridades salen los recursos , y hoy día lo que estamos presentando acá es que estas siete partidas que están priorizadas de manera transversal también tengan los recursos\", agregó. Intercambio poco amistoso Asimismo, surgió preocupación entre parlamentarios de oposición porque tampoco están previstos los recursos que obliga la reforma previsional para suplementar el Fondo Autónomo de Protección Previsional (FAPP). El senador Daniel Núñez (PC) sostuvo en su intervención que \" el Estado debe cumplir sus compromisos . Tiene que hacer estos depósitos que casi llegan a 200 millones de dólares, y en el Presupuesto 2027 esa plata no está. Porque el ministro y el director de Presupuesto nos dijeron que había que empezar a pagarlo en 2028, que estábamos equivocados . Y no, no estamos equivocados. Aquí está la respuesta\". El ministro de Hacienda, Jorge Quiroz , le explicó al parlamentario: \"No consideramos aclarado el punto, porque la Contraloría se remite a un oficio de la Superintendencia de Pensione s, oficio que a nosotros nos merece dudas . Y dado que nos remite a dicho oficio, nosotros hemos enviado un oficio a la Superintendencia de Pensiones para que aclare el punto, y nuestra apreciación es que ese cuento de plazos no está correcto \". \"Me parece increíble que el Ministerio de Hacienda ponga en duda las opiniones y oficios de la Superintendencia de Pensiones . Porque si usted, ministro, pone en duda todos los oficios de actores y organismos públicos, este país sería ingobernable . Me parece indecente\", refutó el senador Núñez. De acuerdo a la reforma de pensiones, el a porte del Estado al FAPP se debe hacer en el tercer año desde que entró en vigencia la ley, en este caso, el año 2025 . El Gobierno interpreta que e l tercer año es 2028 , mientras que la Superintendencia de Pensiones señaló que el tercer año es el 2027 , lo que fue ratificado por la Contraloría. La discusión marcó el inicio de la tramitación del erario nacional en el Senado, que comenzó dos horas más tarde de lo previsto porque se estaba desarrollando una reunión de los comités para organizar la tramitación. Desde el oficialismo, el senador Luciano Cruz-Coke (Evópoli) sostuvo que \" gracias precisamente al FAPP, que está financiado ,  esto es una ley permanente , por tanto, tiene financiamiento y había un problema de interpretación que lo ha aclarado bien el ministro y me tenía preocupado\". \" Me parece que esa respuesta está contestad a y que ha habido también, en alguna parte, algo de majadería en instalar ciertos fantasmas, como la misma cosa que se ha hecho con la Ley Ricarte Soto. Son prestaciones que el Estado tiene obligación de cumplir porque además están por ley\", agregó. No obstante, la senadora Daniella Cicardini (PS) planteó: \" Permítame sospechar la mañosa interpretación de este Gobierno, del ministro Quiroz, de no tener estos recursos en el FAPP en el Tesoro Público, porque son los mismos que se negaron a la reforma de pensiones por una mirada ideológica. El señor Kast y su sector político. O sea, el pronunciamiento de la Contraloría, ¿por dónde se lo está pasando? Perdóneme la expresión, presidente\".",
           "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/senado-inicio-debate-del-presupuesto-con-una-disputa-sobre-recursos-para/2026-11-17/144302.html",
           "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261117/imag/foto_0000000320261117144302.jpg",
           "published_raw": "Tue, 17 Nov 2026 14:43:02 -0300",
@@ -158,100 +310,18 @@
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 9,
+          "score_institutional": 11,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 1,
           "score_policy": 4,
           "score_ideology": 0,
-          "score_actor": 6,
+          "score_actor": 7,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 20,
+          "political_evidence": 23,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-002"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-001",
-      "title": "Alessandri: El \"crecimiento mágico\" se está moviendo al segundo semestre de 2027, y no sé si la paciencia aguanta",
-      "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/chile/alessandri-el-crecimiento-magico-se-esta-moviendo-al-segundo-semestre/2026-11-17/090259.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 58,
-        "level": "MEDIA",
-        "editorial_utility": 53
-      },
-      "selection": {
-        "reason": "PML 58; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-17T09:02:59-0300",
-      "last_seen": "2026-11-17T09:02:59-0300",
-      "entities": [
-        "trump",
-        "iran",
-        "chile",
-        "brasil",
-        "argentina"
-      ],
-      "event_terms": [
-        "guerra",
-        "oposicion"
-      ],
-      "analysis": {
-        "summary": "El presidente de la Cámara Baja, Jorge Alessandri (UDI), advirtió en Cooperativa que es posible que la ciudadanía pierda la paciencia aguardando la llegada del \"crecimiento mágico\" prometido por el Gobierno , ya que -en sus palabras- se postergó hasta la segunda mitad del próximo año. \"Evidentemente, tenemos el desafío más grande en economía y empleo. Todos hablaban de buenas cifras para el 2027, cuando creceríamos al 3%, (pero) yo lo miraría con cautela .",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Alessandri: El \"crecimiento mágico\" se está moviendo al segundo semestre de 2027, y no sé si la paciencia aguanta",
-          "description": "El presidente de la Cámara Baja, Jorge Alessandri (UDI), advirtió en Cooperativa que es posible que la ciudadanía pierda la paciencia aguardando la llegada del \"crecimiento mágico\" prometido por el Gobierno , ya que -en sus palabras- se postergó hasta la segunda mitad del próximo año. \"Evidentemente, tenemos el desafío más grande en economía y empleo. Todos hablaban de buenas cifras para el 2027, cuando creceríamos al 3%, (pero) yo lo miraría con cautela . Se está viendo una situación geopolítica todavía complicada: Trump está debilitado, pero pareciera que no cesa en sus objetivos y sigue la guerra de Irán; sigue la inflación, y también siguen altas las tasas en Estados Unidos'', observó en El Diario de Cooperativa . En ese sentido, el diputado planteó que \" si ya empezamos a hablar de recuperación para el 2028, va a ser difícil (...) Necesitamos más crecimiento, y veo que ese 'crecimiento mágico' del 2027 ya se está moviendo al segundo semestre, y no sé si la paciencia de la gente aguante tanto en la era de la inmediatez \". Consultado respecto de si, para lograr mejores resultados , hace falta incorporar figuras con más experiencia política al gabinete del Presidente Kast , el gremialista se abrió a \"todo lo que sirva\" con ese objetivo , incluso a la idea de \"piñerizar\" a la actual Administración . El ministro de Hacienda, Jorge Quiroz, ha insistido en sus proyecciones positivas de crecimiento, pese a reconocer que el país entró en recesión técnica. (Foto: ATON) \"Creo que hay mucha gente muy valiosa en el Gobierno: de hecho, hay muchos equipos en mandos medios que tuvieron esa experiencia de la rendición de cuentas, de reuniones bilaterales, del sentido de urgencia, de que los problemas son para ayer. Quizás, hay que visibilizar más eso, y si eso pasa por cambios políticos en la primera línea, o cambios en el sentido de comunicar, está bien \", reflexionó. Pero más allá de posibles ajustes ministeriales, el también candidato a la presidencia de la UDI remarcó la necesidad de \"convencer a los actores económicos de que es el tiempo de invertir en Chile . No puede ser que seamos el único país de Sudamérica que no está creciendo\" , fustigando   que \" el Perú, con su tremenda inestabilidad política , donde los presidentes duran siete meses en promedio, crezca más que nosotros \". \"Algo pasa que no logramos comunicar a los actores relevantes de decisiones económicas que Chile está de nuevo en una línea de crecimiento económico, de seguridad, y de una permisología acotada y con certezas . Si resolvemos esos tres pilares, vienen grandes momentos para Chile\", aseveró el líder de la Cámara. Por lo pronto, resaltó que el Gobierno registra \"números espectaculares en seguridad, homicidios y secuestros\" , pero hizo ver que el ministro del ramo, Martín Arrau, tiene el desafío de \" demostrar y cacarear más eso , y que esos números se traspasen a una sensación de seguridad\". Pese a eventuales riesgos, valoró acuerdo con OpenAI Siguiendo en la línea de atraer inversión, Alessandri valoró el reciente acuerdo alcanzado por el Ministerio de Ciencias con OpenAI , que ha motivado preocupación no solo porque en EE.UU. se tramita una demanda contra la compañía de Sam Altman por fallas de seguridad , sino que por  la falta de la Ley de Protección de Datos  en nuestro país , ya que el Gobierno de Kast postergó su entrada en vigencia hasta diciembre de 2027. Aunque dijo conocer solo los reportes de prensa de este compromiso, el parlamentario relevó que \" el mundo va hacia la automatización y la Inteligencia Artificial , y la economía va hacia los data centers \", por lo que ve necesario instalar tales recintos en nuestro territorio . \" Nosotros podemos tener una ley restrictiva, como la de la Unión Europea , pero nos vamos a perder muchas oportunidades . Diría que debemos tener una legislación que permita el entrenamiento de las IA, el uso de los datos resguardados y anonimizados, para fines estadísticos, pero si nos cerramos mientras que Perú, Brasil y Argentina se abren, y terminan todos los data center allá, no lloremos después sobre la leche derramada\", alertó. Con todo, admitió que \"hay riesgos cada vez que se adopta una nueva tecnología, pero el que se queda fuera del tren de la tecnología , la automatización, y la IA, va a ser un país que sufrirá mucho y por muchos años \", de modo que abogó por más convenios como el de OpenAI, \"tomando los resguardos para Chile, pero abriéndose a este torbellino imparable\" . Positivo pronóstico de la AC contra Rabat Por otro lado, se declaró optimista sobre el resultado de la acusación constitucional contra el ministro de Justicia, Fernando Rabat , apostando incluso por descuelgues desde la oposición , que impulsa el proceso por las rebajas de condenas a abusadores sexuales y violadores de derechos humanos. A pesar de que un sector del Partido de la Gente está a favor del libelo , el presidente de la Cámara señaló que \" eso no le alcanza a la oposición para aprobarla , y habrá que ver lo que dice el diputado (del FRVS Jaime) Mulet , que actúa bastante independiente, o algunos diputados de la DC, como (Felipe) Camaño \". En definitiva, el gremialista cree que el futuro político de Rabat \" se va a definir por pocos votos , y si bien eso no resuelve el costo político para el Gobierno, ni el daño que se hizo, es importante mantener a las fuerzas oficialistas alineadas, y en eso ha estado empeñado el ministro (de Interior Claudio) Alvarado, y también el propio Presidente , que ha llamado por teléfono a varios parlamentarios\".",
-          "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/chile/alessandri-el-crecimiento-magico-se-esta-moviendo-al-segundo-semestre/2026-11-17/090259.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261117/imag/foto_0000000220261117090259.jpg",
-          "published_raw": "Tue, 17 Nov 2026 09:02:59 -0300",
-          "published_at": "2026-11-17T09:02:59-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 9,
-          "score_elections": 1,
-          "score_international": 1,
-          "score_conflict": 2,
-          "score_policy": 2,
-          "score_ideology": 0,
-          "score_actor": 6,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 21,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "high",
           "cluster_id": "PML-EVENT-001"
@@ -259,7 +329,7 @@
       ]
     },
     {
-      "position": 4,
+      "position": 5,
       "cluster_id": "PML-EVENT-020",
       "title": "Alvarado interviene en crisis del Ministerio de Ciencia y cita a ministra Lincolao",
       "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/alvarado-interviene-en-crisis-del-ministerio-de-ciencia-y-cita-a/2026-11-16/164510.html",
@@ -271,12 +341,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 56.2,
+        "score": 53.7,
         "level": "MEDIA",
-        "editorial_utility": 50.2
+        "editorial_utility": 45.7
       },
       "selection": {
-        "reason": "PML 56.2; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 53.7; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -330,82 +400,6 @@
           "cluster_id": "PML-EVENT-020"
         }
       ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-010",
-      "title": "Ayuso critica el apoyo de Lula a Pedro Sánchez en la campaña: “Cada vez hay más fuerzas externas”",
-      "url": "https://elpais.com/espana/madrid/2026-11-17/ayuso-critica-el-apoyo-de-lula-a-pedro-sanchez-en-la-campana-cada-vez-hay-mas-fuerzas-externas.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "POLITICAL_STATEMENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 56.1,
-        "level": "MEDIA",
-        "editorial_utility": 48.1
-      },
-      "selection": {
-        "reason": "PML 56.1; diversidad relajada para completar el brief; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-17T12:08:47-0300",
-      "last_seen": "2026-11-17T12:08:47-0300",
-      "entities": [
-        "lula",
-        "brasil"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "La presidenta ironiza con que el presidente de Brasil le puede dar al candidato socialista “consejos prácticos” para iniciar la remontada",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Ayuso critica el apoyo de Lula a Pedro Sánchez en la campaña: “Cada vez hay más fuerzas externas”",
-          "description": "La presidenta ironiza con que el presidente de Brasil le puede dar al candidato socialista “consejos prácticos” para iniciar la remontada",
-          "url": "https://elpais.com/espana/madrid/2026-11-17/ayuso-critica-el-apoyo-de-lula-a-pedro-sanchez-en-la-campana-cada-vez-hay-mas-fuerzas-externas.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/DJQ2LT7IBBI7DLI42LTY5VMXFY.jpg?auth=5232b90e51f2cae9dc99da44813e6d8ca141f74a80e56401a6856f62aa0174da",
-          "published_raw": "Tue, 17 Nov 2026 15:08:47 GMT",
-          "published_at": "2026-11-17T12:08:47-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 8,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-010"
-        }
-      ]
     }
   ],
   "chile_brief": {
@@ -416,25 +410,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-005",
-        "title": "Proyecto que rebaja el precio de los combustibles avanzó en la Comisión de Hacienda",
+        "cluster_id": "PML-EVENT-013",
+        "title": "Comisión de Hacienda despachó proyecto de Sala Cuna Universal a la Sala de la Cámara",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/proyecto-que-rebaja-el-precio-de-los-combustibles-avanzo-en-la-comision/2026-11-16/145302.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-de-hacienda-despacho-proyecto-de-sala-cuna-universal-a-la-sala/2026-11-17/191814.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 48.8,
-          "level": "BAJA",
+          "score": 54.8,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 52,
-            "freshness": 72,
+            "political_impact": 50,
+            "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 32
+            "continuity": 28
           }
         },
         "coverage": {
@@ -442,36 +436,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-16T14:53:02-0300",
-        "last_seen": "2026-11-16T14:53:02-0300",
+        "first_seen": "2026-11-17T19:18:14-0300",
+        "last_seen": "2026-11-17T19:18:14-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Proyecto que rebaja el precio de los combustibles avanzó en la Comisión de Hacienda",
-            "description": "La Comisión de Hacienda de la Cámara de Diputadas y Diputados aprobó y despachó a la Sala el proyecto de ley que establece una rebaja inmediata en los precios de las bencinas y el petróleo diésel . La medida también instaura un congelamiento de tarifas para contener la presión inflacionaria sobre la economía nacional y aliviar la carga financiera de las empresas de transporte de carga tras el paro gremial de la semana pasada. Tras superar su primer trámite legislativo en comisión, la propuesta legal comenzó a debatirse en la Sala de la Cámara Baja, con miras a ingresar al Senado durante la misma jornada para completar su tramitación antes de la entrada en vigencia fijada para este jueves . La iniciativa legal fue sustentada mediante una indicación sustitutiva ingresada por el Ministerio de Hacienda para plasmar los consensos suscritos con las organizaciones de transportistas. \"Se llegó a un acuerdo, que es el que motiva la modificación de ciertos aspectos del proyecto que se presentó originalmente, y por lo tanto esto se traduce en una indicación sustitutiva , que es la que aquí se presenta \", destacó el ministro de Hacienda , Jorge Quiroz . Durante el debate legislativo, parlamentarios respaldaron la medida, pero advirtieron desigualdades frente a otros sectores. (FOTO: ATON) En esta línea, explicó que la indicación \"tiene cinco medidas: la primera, es que revierte el alza de precios realizada el 12 de noviembre en gasolinas y diésel , y baja 100 pesos por litro más en diésel\" . \"Por lo tanto, hay una baja de 140 pesos en el diésel respecto del precio que había antes del alza , y se establece este nuevo precio como un techo que pueda tener el precio del combustible , en el caso del diésel, hasta el 31 de marzo\", precisó el jefe de la billetera fiscal. Aunque preliminarmente el tope de precios culminaba al cierre de marzo, el cronograma oficial extendió el congelamiento hasta el miércoles 7 de abril de 2027 con el fin de acoplarse a los ciclos de variación del mecanismo, los cuales operan en periodos de tres semanas. Pesca artesanal y agricultura: las advertencias en el debate parlamentario Pese a que la iniciativa contó con un respaldo transversal en la Comisión de Hacienda, distintos representantes de oposición y del oficialismo recalcaron que los efectos del encarecimiento energético no se limitan a los camiones y exigieron soluciones dirigidas a rubros productivos que no fueron incluidos en el pacto original . Desde el Frente Amplio, el diputado Jorge Brito dijo que, aunque le parece \"importante valorar el esfuerzo de los transportistas, no son los únicos que se mueven impulsados por combustibles \". \" Particularmente la actividad de la pesca artesanal está siendo bastante insostenible . Pescadores gastaban 100 mil pesos en la Caleta Portales al salir a tirar los espineles a la mar, y hoy gastan 150 mil pesos\", alertó el parlamentario. A los cuestionamientos se sumó el diputado independiente Carlos Bianchi , quien afirmó que, aunque se votará a favor y que hay que \"felicitar\" al gremio camionero por la medida, \" aquí sí que hay una discriminación \". En opinión del parlamentario, \"hubo un transporte de los camioneros, el de los grandes , que ni siquiera estuvieron en la paralización y son los más beneficiados , y los pequeños y medianos (solo) algo recogieron de estos beneficios\". Desde el oficialismo, la diputada Ximena Ossandón (RN) argumentó que \"efectivamente nosotros vamos a apoyar este proyecto, también reconocemos que hay una rebaja considerable y positiva para todos , porque esa es la gran incertidumbre que existe, y se hace un esfuerzo\". Pese a esto, advirtió que \"si bien esto a todos nos beneficia, creo que el campo , la agricultura , necesita también ver parte de este esfuerzo \". En la misma línea, el presidente de la Comisión de Hacienda, el diputado republicano Agustín Romero , indicó que \" es indudable que el pueblo chileno ha sufrido mucho con estas alzas . \"Las consecuencias de esta guerra, no queridas por el gobierno, no querida por nadie, ni por el oficialismo ni por la oposición, han sido muy dolorosas para la gente, y me parece positivo que hoy día se equilibre también esto \", puntualizó.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/proyecto-que-rebaja-el-precio-de-los-combustibles-avanzo-en-la-comision/2026-11-16/145302.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261116/imag/foto_0000000320261116145302.png",
-            "published_raw": "Mon, 16 Nov 2026 14:53:02 -0300",
-            "published_at": "2026-11-16T14:53:02-0300",
+            "title": "Comisión de Hacienda despachó proyecto de Sala Cuna Universal a la Sala de la Cámara",
+            "description": "La Comisión de Hacienda votó este martes todos los artículos del proyecto de Sala Cuna Universal y lo despachó a la Sala de la Cámara de Diputadas y Diputados. El proyecto será financiado con recursos de las y los trabajadores: del seguro de cesantía, de la cuenta individual y del Fondo de Cesantía Solidario . En ese sentido, el Estado no destinará recursos y los empleadores nominalmente sí. El ministro del Trabajo, Tomás Rau, explicó que \" el 89,7% de las empresas tiene 19 o menos mujeres por el costo que eso ha significado . Hemos encontrado una fórmula que quizás no es perfecta, pero que es muy superior a la realidad actual\". \"Considera una cotización de 0,3% a cargo del empleador , y para no subir los costos laborales, se reduce la cotización que hacen los empleadores mensualmente al Fondo de Cesantía Solidario en 0,15% y a la cuenta individual en 0,15% \", precisó el cálculo. La Cámara tiene previsto mañana votar el proyecto de Sala Cuna, que se encuentra en segundo trámite. La iniciativa deberá ser despachada hacia el Senado, luego que en su primer trámite en la Cámara Alta se aprobó sin fórmula de financiamiento y el Gobierno logró proponer un plan y aprobarlo en la corporación.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-de-hacienda-despacho-proyecto-de-sala-cuna-universal-a-la-sala/2026-11-17/191814.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261117/imag/foto_0000000220261117191814.jpeg",
+            "published_raw": "Tue, 17 Nov 2026 19:18:14 -0300",
+            "published_at": "2026-11-17T19:18:14-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 8,
+            "score_institutional": 5,
             "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 1,
+            "score_conflict": 0,
             "score_policy": 0,
             "score_ideology": 0,
-            "score_actor": 5,
+            "score_actor": 2,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 14,
+            "political_evidence": 7,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
+            "secondary_topic": null,
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
+            "cluster_id": "PML-EVENT-013"
           }
         ],
         "article_count": 1,
@@ -483,13 +477,85 @@
             "Congreso y proceso legislativo",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 70.8
+          "chile_utility": 76.8
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-009",
+        "cluster_id": "PML-EVENT-002",
+        "title": "Alessandri: El \"crecimiento mágico\" se está moviendo al segundo semestre de 2027, y no sé si la paciencia aguanta",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/chile/alessandri-el-crecimiento-magico-se-esta-moviendo-al-segundo-semestre/2026-11-17/090259.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 54.3,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 52,
+            "freshness": 80,
+            "source_count": 30,
+            "geographic_scope": 62,
+            "continuity": 34
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-17T09:02:59-0300",
+        "last_seen": "2026-11-17T09:02:59-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Alessandri: El \"crecimiento mágico\" se está moviendo al segundo semestre de 2027, y no sé si la paciencia aguanta",
+            "description": "El presidente de la Cámara Baja, Jorge Alessandri (UDI), advirtió en Cooperativa que es posible que la ciudadanía pierda la paciencia aguardando la llegada del \"crecimiento mágico\" prometido por el Gobierno , ya que -en sus palabras- se postergó hasta la segunda mitad del próximo año. \"Evidentemente, tenemos el desafío más grande en economía y empleo. Todos hablaban de buenas cifras para el 2027, cuando creceríamos al 3%, (pero) yo lo miraría con cautela . Se está viendo una situación geopolítica todavía complicada: Trump está debilitado, pero pareciera que no cesa en sus objetivos y sigue la guerra de Irán; sigue la inflación, y también siguen altas las tasas en Estados Unidos'', observó en El Diario de Cooperativa . En ese sentido, el diputado planteó que \" si ya empezamos a hablar de recuperación para el 2028, va a ser difícil (...) Necesitamos más crecimiento, y veo que ese 'crecimiento mágico' del 2027 ya se está moviendo al segundo semestre, y no sé si la paciencia de la gente aguante tanto en la era de la inmediatez \". Consultado respecto de si, para lograr mejores resultados , hace falta incorporar figuras con más experiencia política al gabinete del Presidente Kast , el gremialista se abrió a \"todo lo que sirva\" con ese objetivo , incluso a la idea de \"piñerizar\" a la actual Administración . El ministro de Hacienda, Jorge Quiroz, ha insistido en sus proyecciones positivas de crecimiento, pese a reconocer que el país entró en recesión técnica. (Foto: ATON) \"Creo que hay mucha gente muy valiosa en el Gobierno: de hecho, hay muchos equipos en mandos medios que tuvieron esa experiencia de la rendición de cuentas, de reuniones bilaterales, del sentido de urgencia, de que los problemas son para ayer. Quizás, hay que visibilizar más eso, y si eso pasa por cambios políticos en la primera línea, o cambios en el sentido de comunicar, está bien \", reflexionó. Pero más allá de posibles ajustes ministeriales, el también candidato a la presidencia de la UDI remarcó la necesidad de \"convencer a los actores económicos de que es el tiempo de invertir en Chile . No puede ser que seamos el único país de Sudamérica que no está creciendo\" , fustigando   que \" el Perú, con su tremenda inestabilidad política , donde los presidentes duran siete meses en promedio, crezca más que nosotros \". \"Algo pasa que no logramos comunicar a los actores relevantes de decisiones económicas que Chile está de nuevo en una línea de crecimiento económico, de seguridad, y de una permisología acotada y con certezas . Si resolvemos esos tres pilares, vienen grandes momentos para Chile\", aseveró el líder de la Cámara. Por lo pronto, resaltó que el Gobierno registra \"números espectaculares en seguridad, homicidios y secuestros\" , pero hizo ver que el ministro del ramo, Martín Arrau, tiene el desafío de \" demostrar y cacarear más eso , y que esos números se traspasen a una sensación de seguridad\". Pese a eventuales riesgos, valoró acuerdo con OpenAI Siguiendo en la línea de atraer inversión, Alessandri valoró el reciente acuerdo alcanzado por el Ministerio de Ciencias con OpenAI , que ha motivado preocupación no solo porque en EE.UU. se tramita una demanda contra la compañía de Sam Altman por fallas de seguridad , sino que por  la falta de la Ley de Protección de Datos  en nuestro país , ya que el Gobierno de Kast postergó su entrada en vigencia hasta diciembre de 2027. Aunque dijo conocer solo los reportes de prensa de este compromiso, el parlamentario relevó que \" el mundo va hacia la automatización y la Inteligencia Artificial , y la economía va hacia los data centers \", por lo que ve necesario instalar tales recintos en nuestro territorio . \" Nosotros podemos tener una ley restrictiva, como la de la Unión Europea , pero nos vamos a perder muchas oportunidades . Diría que debemos tener una legislación que permita el entrenamiento de las IA, el uso de los datos resguardados y anonimizados, para fines estadísticos, pero si nos cerramos mientras que Perú, Brasil y Argentina se abren, y terminan todos los data center allá, no lloremos después sobre la leche derramada\", alertó. Con todo, admitió que \"hay riesgos cada vez que se adopta una nueva tecnología, pero el que se queda fuera del tren de la tecnología , la automatización, y la IA, va a ser un país que sufrirá mucho y por muchos años \", de modo que abogó por más convenios como el de OpenAI, \"tomando los resguardos para Chile, pero abriéndose a este torbellino imparable\" . Positivo pronóstico de la AC contra Rabat Por otro lado, se declaró optimista sobre el resultado de la acusación constitucional contra el ministro de Justicia, Fernando Rabat , apostando incluso por descuelgues desde la oposición , que impulsa el proceso por las rebajas de condenas a abusadores sexuales y violadores de derechos humanos. A pesar de que un sector del Partido de la Gente está a favor del libelo , el presidente de la Cámara señaló que \" eso no le alcanza a la oposición para aprobarla , y habrá que ver lo que dice el diputado (del FRVS Jaime) Mulet , que actúa bastante independiente, o algunos diputados de la DC, como (Felipe) Camaño \". En definitiva, el gremialista cree que el futuro político de Rabat \" se va a definir por pocos votos , y si bien eso no resuelve el costo político para el Gobierno, ni el daño que se hizo, es importante mantener a las fuerzas oficialistas alineadas, y en eso ha estado empeñado el ministro (de Interior Claudio) Alvarado, y también el propio Presidente , que ha llamado por teléfono a varios parlamentarios\".",
+            "url": "https://www.cooperativa.cl/noticias/economia/crecimiento/chile/alessandri-el-crecimiento-magico-se-esta-moviendo-al-segundo-semestre/2026-11-17/090259.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261117/imag/foto_0000000220261117090259.jpg",
+            "published_raw": "Tue, 17 Nov 2026 09:02:59 -0300",
+            "published_at": "2026-11-17T09:02:59-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 9,
+            "score_elections": 1,
+            "score_international": 1,
+            "score_conflict": 2,
+            "score_policy": 2,
+            "score_ideology": 0,
+            "score_actor": 6,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 21,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Conflictos y seguridad",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-002"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 18,
+          "labels": [
+            "Estado e instituciones",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 72.3
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-010",
         "title": "Cámara Baja despachó proyecto que rebaja el precio de los combustibles al Senado",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -500,11 +566,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 49,
+          "score": 46.5,
           "level": "BAJA",
           "components": {
             "political_impact": 54,
-            "freshness": 72,
+            "freshness": 62,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 28
@@ -544,7 +610,7 @@
             "secondary_topic": null,
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-009"
+            "cluster_id": "PML-EVENT-010"
           }
         ],
         "article_count": 1,
@@ -555,79 +621,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 70
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-004",
-        "title": "Comisión investigadora de AC contra Rabat quedó con mayoría opositora",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/comision-investigadora-de-ac-contra-rabat-quedo-con-mayoria-opositora/2026-11-16/155940.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 48.5,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 51,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 32
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-16T15:59:40-0300",
-        "last_seen": "2026-11-16T15:59:40-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Comisión investigadora de AC contra Rabat quedó con mayoría opositora",
-            "description": "Tras el ingreso formal de la acusación constitucional contra el ministro de Justicia, Fernando Rabat , la Cámara de Diputadas y Diputados procedió este lunes al sorteo de la comisión revisora. La instancia quedó integrada por los diputados Carlos Chandía (RN), Lorena Pizarro (PC), Germán Verdugo (PNL), Raúl Soto (PPD) y Lorena Fries (FA) . Los 12 parlamentarios que firmaron el libelo fueron excluidos del sorteo. La comisión deberá discutir la acusación constitucional contra Rabat, que tiene tres argumentos principales: las rebajas de condenas otorgadas a personas condenadas por delitos sexuales contra menores ; los beneficios concedidos a condenados por crímenes de lesa humanidad , y una eventual infracción al principio de probidad. De acuerdo a la normativa, el acusado será notificado dentro de los tres días que se da cuenta la acusación. Así, el afectado -dentro del décimo día de su notificación- podrá comparecer ante la comisión para ejercer su defensa, sea personalmente o mediante una presentación escrita. La comisión tendrá un plazo de seis días, contados desde la comparecencia del acusado, para estudiar el libelo y pronunciarse al respecto. La entrega de los decretos La primera medida de la comisión revisora se enfocará en la transparencia documental. Los parlamentarios opositores denunciaron que el Ministerio de Justicia ha proporcionado información fragmentada tanto al Senado como a la Cámara Baja . \"Como diputados de oposición, miembros de esta comisión, hemos acordado como primera medida exigir al ministro Fernando Rabat y al Gobierno absoluta transparencia , porque todavía no han entregado todos los decretos \", arremetió el timonel del PPD , Raúl Soto . En esta línea, el parlamentario cuestionó que \"hicieron una entrega parcial en el Senado de la República, hicieron otra entrega parcial de algunos decretos en la Cámara de Diputadas y Diputados , y la comisión revisora de la acusación constitucional va a exigir que se entreguen todos y cada uno de los decretos\". Desde la otra vereda, el diputado Verdugo  anticipó que \"voy a abordar (el libelo) desde mi perspectiva como abogado, como un tema estrictamente jurídico \". \"Por supuesto, el resultado (de los decretos) lo conocemos, pero vamos a hacer lo posible por dejar planteados los términos en que esta situación se dio \", añadió. La incertidumbre en el hemiciclo y el factor PDG De presentarse los 155 integrantes de la Corporación, el texto requerirá una mayoría de 78 apoyos para sortear la valla de la Cámara . El bloque opositor cuenta con una base estimada de 65 sufragios -sujeta a tres licencias médicas de parlamentarias-, mientras que las fuerzas leales al Ejecutivo suman 75 escaños , también afectadas por una ausencia médica . Bajo este marco, legisladores de Chile Vamos han manifestado reservas frente a la gestión de Rabat, lo que deja el resultado en manos de bancadas intermedias, principalmente el Partido de la Gente (PDG) . Aunque figuras partidarias como Franco Parisi y la diputada Pamela Jiles señalaron una predisposición a respaldar la acusación, la directiva y la jefatura de bancada recalcaron que aún no existe una determinación zanjada institucionalmente . Sin adelantar una postura, el jefe de la bancada de diputados del PDG , Juan Marcelo Valenzuela , aseguró que su sector hubiera exigido la salida de Rabat \"en 24 horas\" tras conocerse el hecho . Asimismo, dijo que \" es difícil tener una posición y una postura y una mayoría de un texto que no conocemos \". En tanto, el diputado y presidente de la Comisión de Constitución, Jaime Mulet (FRVS) , afirmó que \" la decisión de votar esta acusación constitucional pasa por su estudio muy a fondo \". \"He sido muy cuidadoso en este tema, especialmente porque soy presidente de la Comisión de Constitución. Aquí no hay que olvidarse que la ley que gatilla estos beneficios es una ley que se dictó hace más de 20 años atrás por el presidente Lagos ; hay que hacerse cargo de eso también\", puntualizó. \"Hay ministros de la Corte Suprema, ministros de Corte de Apelaciones que han mantenido interpretaciones divergentes y por eso que creo que hay que tener mucho cuidado para ser coherente en la vida . Yo trato de serlo\", añadió el parlamentario. Defensa jurídica de Rabat Tras ser notificado formalmente, el titular de Justicia dispondrá de un plazo de 10 días para responder las imputaciones por escrito o de manera personal ante la comisión revisora . Para articular su defensa, Rabat designó al penalista Juan Ignacio Piña , exsubsecretario de la cartera , expresidente del Consejo de Defensa del Estado (CDE) y litigante del equipo chileno ante la Corte Internacional de Justicia de La Haya por las aguas del río Silala. En 2024, Piña lideró exitosamente la defensa de la entonces ministra del Interior , Carolina Tohá , ante la acusación promovida en ese periodo por el Partido Republicano. La comisión revisora se constituirá este martes para elegir a su titular y confeccionar el cronograma de audiencias y audiencias con expertos constitucionalistas y expositores que intervendrán en el debate previo a la votación en Sala.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/comision-investigadora-de-ac-contra-rabat-quedo-con-mayoria-opositora/2026-11-16/155940.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261116/imag/foto_0000000220261116155940.jpg",
-            "published_raw": "Mon, 16 Nov 2026 15:59:40 -0300",
-            "published_at": "2026-11-16T15:59:40-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 10,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 16,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 21,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 69.5
+          "chile_utility": 67.5
         },
         "repeated_in_general_top5": false
       }
@@ -636,20 +630,14 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 19,
-      "maximum_relevance": 63.4,
-      "leading_story": "El Gobierno aprueba subir el salario mínimo un 5,3% y el sueldo de los funcionarios un 4,5%"
-    },
-    {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 1,
-      "maximum_relevance": 52.6,
-      "leading_story": "Los resultados electorales de las ‘midterms’ en materia de justicia penal que quizá pasaron desapercibidos"
+      "event_count": 20,
+      "maximum_relevance": 65,
+      "leading_story": "El fiscal general de Paraguay renuncia ante la advertencia de un juicio político por el caso Ueno Bank"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 3,
-      "maximum_relevance": 52.5,
+      "maximum_relevance": 50.5,
       "leading_story": "Zuhal dio a luz en una tienda de campaña: las sudanesas que crían solas a sus hijos en El Obeid bajo el zumbido de los drones"
     }
   ],
@@ -658,7 +646,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
     "source_count": 3
   },
   "system": {
