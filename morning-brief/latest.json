@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-17",
-    "data_latest_timestamp": "2026-11-17T21:36:43-0300",
-    "data_age_hours": 2.2,
-    "generated_at": "2026-11-17T23:47:24-0300",
+    "date": "2026-11-18",
+    "data_latest_timestamp": "2026-11-18T06:30:00-0300",
+    "data_age_hours": 1.9,
+    "generated_at": "2026-11-18T08:21:12-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 23 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 24 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 2 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 23,
-    "topics": 1,
+    "ranked_events": 24,
+    "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 58.5,
-    "maximum_relevance": 65
+    "average_top5_relevance": 56.8,
+    "maximum_relevance": 61.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-019",
+      "cluster_id": "PML-EVENT-020",
       "title": "El fiscal general de Paraguay renuncia ante la advertencia de un juicio político por el caso Ueno Bank",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261117-el-fiscal-general-de-paraguay-renuncia-ante-la-advertencia-de-un-juicio-pol%C3%ADtico-por-el-caso-ueno-bank",
       "representative_source": "France 24",
@@ -43,12 +43,12 @@
         "country": "Paraguay / América Latina"
       },
       "relevance": {
-        "score": 65,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 65
+        "score": 61.2,
+        "level": "MEDIA",
+        "editorial_utility": 61.2
       },
       "selection": {
-        "reason": "PML 65",
+        "reason": "PML 61.2",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -99,12 +99,85 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-020"
         }
       ]
     },
     {
       "position": 2,
+      "cluster_id": "PML-EVENT-019",
+      "title": "El debate | ¿Son las campañas electorales capaces de cambiar votos?",
+      "url": "https://elpais.com/opinion/2026-11-18/el-debate-son-las-campanas-electorales-capaces-de-cambiar-votos.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 54,
+        "level": "MEDIA",
+        "editorial_utility": 62
+      },
+      "selection": {
+        "reason": "PML 54; fallback editorial controlado; aporta diversidad temática; nuevo tipo de evento",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-18T01:30:01-0300",
+      "last_seen": "2026-11-18T01:30:01-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "Docenas de encuestas miden al minuto la reacción de los ciudadanos a cada gesto de los candidatos hasta el 29-N. Pero no está claro cuál es el impacto real sobre las urnas de esta carrera",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El debate | ¿Son las campañas electorales capaces de cambiar votos?",
+          "description": "Docenas de encuestas miden al minuto la reacción de los ciudadanos a cada gesto de los candidatos hasta el 29-N. Pero no está claro cuál es el impacto real sobre las urnas de esta carrera",
+          "url": "https://elpais.com/opinion/2026-11-18/el-debate-son-las-campanas-electorales-capaces-de-cambiar-votos.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/MCFXMJRZXRGHJIWDI2YXLOXWK4.jpg?auth=d0f9f2356ade6cce7dbe5ed548ae329b9700e5b09f7e928208dc6532a50dafbe",
+          "published_raw": "Wed, 18 Nov 2026 04:30:01 GMT",
+          "published_at": "2026-11-18T01:30:01-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 0,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-019"
+        }
+      ]
+    },
+    {
+      "position": 3,
       "cluster_id": "PML-EVENT-009",
       "title": "Voluntad para Chile busca constituirse como partido ante el Servel",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/voluntad-para-chile-busca-constituirse-como-partido-ante-el-servel/2026-11-17/210607.html",
@@ -116,14 +189,14 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 58.5,
+        "score": 55.5,
         "level": "MEDIA",
-        "editorial_utility": 61.5
+        "editorial_utility": 55.5
       },
       "selection": {
-        "reason": "PML 58.5; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
+        "reason": "PML 55.5; fallback editorial controlado; aporta diversidad geográfica",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
@@ -180,24 +253,24 @@
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-017",
-      "title": "El Gobierno aprueba subir el salario mínimo un 5,3% y el sueldo de los funcionarios un 4,5%",
-      "url": "https://elpais.com/economia/2026-11-17/el-gobierno-aprueba-subir-el-salario-minimo-un-53-y-el-sueldo-de-los-funcionarios-un-45.html",
+      "position": 4,
+      "cluster_id": "PML-EVENT-013",
+      "title": "“¡Viva Cristo Rey!”, el grito de De la Espriella que remite a La Violencia, el franquismo y la Guerra Cristera",
+      "url": "https://elpais.com/america-colombia/2026-11-16/viva-cristo-rey-el-grito-de-de-la-espriella-que-remite-a-la-violencia-el-franquismo-y-la-guerra-cristera.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
+        "group": "América Latina",
+        "country": "Colombia / América Latina"
       },
       "relevance": {
-        "score": 59.7,
+        "score": 58.3,
         "level": "MEDIA",
-        "editorial_utility": 54.7
+        "editorial_utility": 52.3
       },
       "selection": {
-        "reason": "PML 59.7; diversidad relajada para completar el brief",
+        "reason": "PML 58.3; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -207,17 +280,17 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-17T08:50:39-0300",
-      "last_seen": "2026-11-17T08:50:39-0300",
-      "entities": [],
-      "event_terms": [],
+      "first_seen": "2026-11-18T06:30:00-0300",
+      "last_seen": "2026-11-18T06:30:00-0300",
+      "entities": "colombia",
+      "event_terms": "guerra",
       "analysis": {
-        "summary": "El Consejo de Ministros respalda la exención en el IRPF para el suelo retributivo y un paquete de medidas laborales que persigue más trasparencia salarial en las empresas",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "El presidente de Colombia y su ministro del Interior, Alejandro Ordóñez, concluyen sus discursos con una consigna usada para perseguir opositores en múltiples conflictos a lo largo del siglo XX",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
         "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
@@ -225,52 +298,52 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "El Gobierno aprueba subir el salario mínimo un 5,3% y el sueldo de los funcionarios un 4,5%",
-          "description": "El Consejo de Ministros respalda la exención en el IRPF para el suelo retributivo y un paquete de medidas laborales que persigue más trasparencia salarial en las empresas",
-          "url": "https://elpais.com/economia/2026-11-17/el-gobierno-aprueba-subir-el-salario-minimo-un-53-y-el-sueldo-de-los-funcionarios-un-45.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/VHWBYXOQUFDP5FLII4AGSSVG2M.jpg?auth=ef044696a2df924f1e10b5b3527698a2f21a9502f100e4a7fb3ae3285a29622d",
-          "published_raw": "Tue, 17 Nov 2026 11:50:39 GMT",
-          "published_at": "2026-11-17T08:50:39-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "title": "“¡Viva Cristo Rey!”, el grito de De la Espriella que remite a La Violencia, el franquismo y la Guerra Cristera",
+          "description": "El presidente de Colombia y su ministro del Interior, Alejandro Ordóñez, concluyen sus discursos con una consigna usada para perseguir opositores en múltiples conflictos a lo largo del siglo XX",
+          "url": "https://elpais.com/america-colombia/2026-11-16/viva-cristo-rey-el-grito-de-de-la-espriella-que-remite-a-la-violencia-el-franquismo-y-la-guerra-cristera.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/MJFLOG4CJ5HBRCEA5RIS2376FY.jpg?auth=f38c8f108e9cbf7858bd5937c21d5f109e58ad3fb1a915747b2bd27d87ca19c9",
+          "published_raw": "Wed, 18 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-18T06:30:00-0300",
+          "country": "Colombia",
+          "region": "América Latina",
           "language": "es",
           "score_institutional": 2,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
+          "score_conflict": 2,
+          "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
+          "political_evidence": 6,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-017"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-013"
         }
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-001",
-      "title": "Senado inició debate del Presupuesto con una disputa sobre recursos para pensiones",
-      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/senado-inicio-debate-del-presupuesto-con-una-disputa-sobre-recursos-para/2026-11-17/144302.html",
-      "representative_source": "Cooperativa",
+      "position": 5,
+      "cluster_id": "PML-EVENT-016",
+      "title": "Mary Peltola gana en Alaska y sella una mayoría demócrata de 56 escaños en el Senado",
+      "url": "https://elpais.com/us/2026-11-18/mary-peltola-gana-en-alaska-y-sella-una-mayoria-democrata-de-56-escanos-en-el-senado.html",
+      "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
         "group": "Chile",
-        "country": "Chile"
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 55.8,
+        "score": 55.2,
         "level": "MEDIA",
-        "editorial_utility": 48.8
+        "editorial_utility": 46.2
       },
       "selection": {
-        "reason": "PML 55.8; fallback editorial controlado; diversidad relajada para completar el brief",
+        "reason": "PML 55.2; fallback editorial controlado; diversidad relajada para completar el brief",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -278,18 +351,15 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "Cooperativa"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-17T14:43:02-0300",
-      "last_seen": "2026-11-17T14:43:02-0300",
-      "entities": [
-        "senado",
-        "congreso"
-      ],
-      "event_terms": "oposicion",
+      "first_seen": "2026-11-18T00:33:21-0300",
+      "last_seen": "2026-11-18T00:33:21-0300",
+      "entities": "senado",
+      "event_terms": [],
       "analysis": {
-        "summary": "El proyecto de Presupuesto 2027 , el primero de la actual Administración del Presidente José Antonio Kast, inició este martes su discusión en el Senado, con siete partidas rechazadas desde la Cámara de Diputadas y Diputados. El proyecto llegó a la Cámara Alta sin recursos aprobados para el Ministerio del Interior y Seguridad Pública, Ministerio de Educación, Ministerio de Minería, Segegob, Ministerio de la Mujer, Ministerio de las Culturas y el Ministerio de Ciencias,…",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "summary": "La contienda por este escaño estuvo marcada por la controversia sobre si Peltola y su entorno convencieron a un homónimo del senador republicano Dan Sullivan para que se registrara como candidato con el propósito de restarle votos",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -299,105 +369,32 @@
       },
       "articles": [
         {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Senado inició debate del Presupuesto con una disputa sobre recursos para pensiones",
-          "description": "El proyecto de Presupuesto 2027 , el primero de la actual Administración del Presidente José Antonio Kast, inició este martes su discusión en el Senado, con siete partidas rechazadas desde la Cámara de Diputadas y Diputados. El proyecto llegó a la Cámara Alta sin recursos aprobados para el Ministerio del Interior y Seguridad Pública, Ministerio de Educación, Ministerio de Minería, Segegob, Ministerio de la Mujer, Ministerio de las Culturas y el Ministerio de Ciencias, Tecnología, Conocimiento e Innovación. El Ejecutivo repuso la mayor cantidad de estas partidas en los mismos términos en que fueron rechazadas previamente en la Cámara Baja. Y paralelamente se abrió a un proceso de negociación con quienes presidieron las subcomisiones mixtas de Presupuesto en la primera etapa de la tramitación, con el objetivo de llegar a un acuerdo que evite que alguna de estas partidas quede completamente rechazada en su segundo trámite. Entre los programas que quedan fuera y han generado controversia se encuentra el de \"Yo Elijo mi PC\", la beca que entrega computadores a estudiantes de séptimo básico, que no está todavía repuesto. La presidenta del Senado, Paulina Núñez (RN) , señaló que \"hay siete partidas rechazadas. Si queremos aprobarlas en el Senado, evidentemente que tienen que tener un esfuerzo mayor, porque de lo contrario, siendo rechazadas por el Senado, ni siquiera la comisión mixta va a ser un espacio para poder entregar esos recursos\". \"Obviamente, no podemos dar esa respuesta desde el Congreso, pero esta vez como colegisladores estamos exigiendo ese esfuerzo mayor, porque ayer estábamos discutiendo aquí en la sala mayores recursos para hacer frente y detener ese bloqueo, ese paro que hubo de los camioneros. Por lo tanto, cuando hay prioridades salen los recursos , y hoy día lo que estamos presentando acá es que estas siete partidas que están priorizadas de manera transversal también tengan los recursos\", agregó. Intercambio poco amistoso Asimismo, surgió preocupación entre parlamentarios de oposición porque tampoco están previstos los recursos que obliga la reforma previsional para suplementar el Fondo Autónomo de Protección Previsional (FAPP). El senador Daniel Núñez (PC) sostuvo en su intervención que \" el Estado debe cumplir sus compromisos . Tiene que hacer estos depósitos que casi llegan a 200 millones de dólares, y en el Presupuesto 2027 esa plata no está. Porque el ministro y el director de Presupuesto nos dijeron que había que empezar a pagarlo en 2028, que estábamos equivocados . Y no, no estamos equivocados. Aquí está la respuesta\". El ministro de Hacienda, Jorge Quiroz , le explicó al parlamentario: \"No consideramos aclarado el punto, porque la Contraloría se remite a un oficio de la Superintendencia de Pensione s, oficio que a nosotros nos merece dudas . Y dado que nos remite a dicho oficio, nosotros hemos enviado un oficio a la Superintendencia de Pensiones para que aclare el punto, y nuestra apreciación es que ese cuento de plazos no está correcto \". \"Me parece increíble que el Ministerio de Hacienda ponga en duda las opiniones y oficios de la Superintendencia de Pensiones . Porque si usted, ministro, pone en duda todos los oficios de actores y organismos públicos, este país sería ingobernable . Me parece indecente\", refutó el senador Núñez. De acuerdo a la reforma de pensiones, el a porte del Estado al FAPP se debe hacer en el tercer año desde que entró en vigencia la ley, en este caso, el año 2025 . El Gobierno interpreta que e l tercer año es 2028 , mientras que la Superintendencia de Pensiones señaló que el tercer año es el 2027 , lo que fue ratificado por la Contraloría. La discusión marcó el inicio de la tramitación del erario nacional en el Senado, que comenzó dos horas más tarde de lo previsto porque se estaba desarrollando una reunión de los comités para organizar la tramitación. Desde el oficialismo, el senador Luciano Cruz-Coke (Evópoli) sostuvo que \" gracias precisamente al FAPP, que está financiado ,  esto es una ley permanente , por tanto, tiene financiamiento y había un problema de interpretación que lo ha aclarado bien el ministro y me tenía preocupado\". \" Me parece que esa respuesta está contestad a y que ha habido también, en alguna parte, algo de majadería en instalar ciertos fantasmas, como la misma cosa que se ha hecho con la Ley Ricarte Soto. Son prestaciones que el Estado tiene obligación de cumplir porque además están por ley\", agregó. No obstante, la senadora Daniella Cicardini (PS) planteó: \" Permítame sospechar la mañosa interpretación de este Gobierno, del ministro Quiroz, de no tener estos recursos en el FAPP en el Tesoro Público, porque son los mismos que se negaron a la reforma de pensiones por una mirada ideológica. El señor Kast y su sector político. O sea, el pronunciamiento de la Contraloría, ¿por dónde se lo está pasando? Perdóneme la expresión, presidente\".",
-          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/senado-inicio-debate-del-presupuesto-con-una-disputa-sobre-recursos-para/2026-11-17/144302.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261117/imag/foto_0000000320261117144302.jpg",
-          "published_raw": "Tue, 17 Nov 2026 14:43:02 -0300",
-          "published_at": "2026-11-17T14:43:02-0300",
-          "country": "Chile",
-          "region": "Chile",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Mary Peltola gana en Alaska y sella una mayoría demócrata de 56 escaños en el Senado",
+          "description": "La contienda por este escaño estuvo marcada por la controversia sobre si Peltola y su entorno convencieron a un homónimo del senador republicano Dan Sullivan para que se registrara como candidato con el propósito de restarle votos",
+          "url": "https://elpais.com/us/2026-11-18/mary-peltola-gana-en-alaska-y-sella-una-mayoria-democrata-de-56-escanos-en-el-senado.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/CZZMWKREWFLUHAP7ERVAJDHAEE.jpg?auth=7f9f09e03ea80c05e8c9f8886d25827bd8141ee940a11d235cc0acd9d6bd2e65",
+          "published_raw": "Wed, 18 Nov 2026 03:33:21 GMT",
+          "published_at": "2026-11-18T00:33:21-0300",
+          "country": "No identificado",
+          "region": "Internacional",
           "language": "es",
-          "score_institutional": 11,
-          "score_elections": 0,
+          "score_institutional": 1,
+          "score_elections": 1,
           "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 4,
-          "score_ideology": 0,
-          "score_actor": 7,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 23,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-020",
-      "title": "Alvarado interviene en crisis del Ministerio de Ciencia y cita a ministra Lincolao",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/alvarado-interviene-en-crisis-del-ministerio-de-ciencia-y-cita-a/2026-11-16/164510.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 53.7,
-        "level": "MEDIA",
-        "editorial_utility": 45.7
-      },
-      "selection": {
-        "reason": "PML 53.7; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-16T16:45:10-0300",
-      "last_seen": "2026-11-16T16:45:10-0300",
-      "entities": [],
-      "event_terms": "crisis",
-      "analysis": {
-        "summary": "El vicepresidente Claudio Alvarado anunció este lunes una intervención directa en el Ministerio de Ciencia, Tecnología, Conocimiento e Innovación para frenar el quiebre institucional entre la ministra Ximena Lincolao y la subsecretaria Carolina Rossi , citando a una reunión apenas la titular del ramo aterrice en territorio nacional.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Alvarado interviene en crisis del Ministerio de Ciencia y cita a ministra Lincolao",
-          "description": "El vicepresidente Claudio Alvarado anunció este lunes una intervención directa en el Ministerio de Ciencia, Tecnología, Conocimiento e Innovación para frenar el quiebre institucional entre la ministra Ximena Lincolao y la subsecretaria Carolina Rossi , citando a una reunión apenas la titular del ramo aterrice en territorio nacional. La determinación del Ejecutivo se dio a conocer luego de que la tensión ministerial escalara por la desvinculación de tres funcionarios clave , ejecutada en momentos en que Lincolao se encontraba en el extranjero y Rossi oficiaba como ministra subrogante, sin haber sido informada de las medidas . Frente a la controversia pública, Alvarado emplazó a los equipos ministeriales a mejorar su gestión interna y el vínculo político, asegurando que en este tipo de casos es necesaria una \"mayor coordinación y participación con los partidos , mayor gestión interna en los ministerios \". Asimismo, afirmó que es necesario \" evitar este tipo de situaciones que proyectan hacia afuera que existen problemas que no son sanos , no son convenientes , y que hay que administrar y arreglar \". El vicepresidente lamentó la crisis desatada entre la ministra y la subsecretaria Carolina Rossi. (FOTO: ATON/Ministerio de Ciencia) \"La ministra regresa mañana al país de una gira por Estados Unidos, y espero poder reunirme con ella y con sus equipos para buscar una solución a un problema que no se puede mantener en el tiempo \", puntualizó el titular de Interior en entrevista con radio Infinita . El detonante que forzó la acción del Ejecutivo Según consignó Emol , la molestia en La Moneda responde a un conflicto que se tornó insostenible tras los despidos conocidos este fin de semana . Entre los desvinculados está Juan José Tagle , asesor jurídico a honorarios cercano al gabinete de Rossi, junto a Magdalena Calcagni y Tomás Rivero , de la División de Tecnologías Emergentes. Las salidas no solo tomaron por sorpresa a los funcionarios, sino que la propia ministra Lincolao se encargó de eliminarlos personalmente del grupo de WhatsApp de Coordinación Ministerial . A pesar de que desde la Subsecretaría de Ciencia se emitió una declaración señalando que \"estas decisiones son parte de la labor de la subsecretaría, que tiene como objetivo mantener equipos que fortalezcan la ciencia y el conocimiento en el país, y seguiremos trabajando en esa línea\", el descontento de Rossi se hizo público a través de un correo enviado a los funcionarios donde cuestionó abiertamente las formas y el fondo de la determinación .",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/alvarado-interviene-en-crisis-del-ministerio-de-ciencia-y-cita-a/2026-11-16/164510.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261116/imag/foto_0000000320261116164510.png",
-          "published_raw": "Mon, 16 Nov 2026 16:45:10 -0300",
-          "published_at": "2026-11-16T16:45:10-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
+          "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 0,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 4,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
+          "cluster_id": "PML-EVENT-016"
         }
       ]
     }
@@ -410,7 +407,80 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-013",
+        "cluster_id": "PML-EVENT-001",
+        "title": "Senado inició debate del Presupuesto con una disputa sobre recursos para pensiones",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/senado-inicio-debate-del-presupuesto-con-una-disputa-sobre-recursos-para/2026-11-17/144302.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 53.8,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 56,
+            "freshness": 80,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 50
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-17T14:43:02-0300",
+        "last_seen": "2026-11-17T14:43:02-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Senado inició debate del Presupuesto con una disputa sobre recursos para pensiones",
+            "description": "El proyecto de Presupuesto 2027 , el primero de la actual Administración del Presidente José Antonio Kast, inició este martes su discusión en el Senado, con siete partidas rechazadas desde la Cámara de Diputadas y Diputados. El proyecto llegó a la Cámara Alta sin recursos aprobados para el Ministerio del Interior y Seguridad Pública, Ministerio de Educación, Ministerio de Minería, Segegob, Ministerio de la Mujer, Ministerio de las Culturas y el Ministerio de Ciencias, Tecnología, Conocimiento e Innovación. El Ejecutivo repuso la mayor cantidad de estas partidas en los mismos términos en que fueron rechazadas previamente en la Cámara Baja. Y paralelamente se abrió a un proceso de negociación con quienes presidieron las subcomisiones mixtas de Presupuesto en la primera etapa de la tramitación, con el objetivo de llegar a un acuerdo que evite que alguna de estas partidas quede completamente rechazada en su segundo trámite. Entre los programas que quedan fuera y han generado controversia se encuentra el de \"Yo Elijo mi PC\", la beca que entrega computadores a estudiantes de séptimo básico, que no está todavía repuesto. La presidenta del Senado, Paulina Núñez (RN) , señaló que \"hay siete partidas rechazadas. Si queremos aprobarlas en el Senado, evidentemente que tienen que tener un esfuerzo mayor, porque de lo contrario, siendo rechazadas por el Senado, ni siquiera la comisión mixta va a ser un espacio para poder entregar esos recursos\". \"Obviamente, no podemos dar esa respuesta desde el Congreso, pero esta vez como colegisladores estamos exigiendo ese esfuerzo mayor, porque ayer estábamos discutiendo aquí en la sala mayores recursos para hacer frente y detener ese bloqueo, ese paro que hubo de los camioneros. Por lo tanto, cuando hay prioridades salen los recursos , y hoy día lo que estamos presentando acá es que estas siete partidas que están priorizadas de manera transversal también tengan los recursos\", agregó. Intercambio poco amistoso Asimismo, surgió preocupación entre parlamentarios de oposición porque tampoco están previstos los recursos que obliga la reforma previsional para suplementar el Fondo Autónomo de Protección Previsional (FAPP). El senador Daniel Núñez (PC) sostuvo en su intervención que \" el Estado debe cumplir sus compromisos . Tiene que hacer estos depósitos que casi llegan a 200 millones de dólares, y en el Presupuesto 2027 esa plata no está. Porque el ministro y el director de Presupuesto nos dijeron que había que empezar a pagarlo en 2028, que estábamos equivocados . Y no, no estamos equivocados. Aquí está la respuesta\". El ministro de Hacienda, Jorge Quiroz , le explicó al parlamentario: \"No consideramos aclarado el punto, porque la Contraloría se remite a un oficio de la Superintendencia de Pensione s, oficio que a nosotros nos merece dudas . Y dado que nos remite a dicho oficio, nosotros hemos enviado un oficio a la Superintendencia de Pensiones para que aclare el punto, y nuestra apreciación es que ese cuento de plazos no está correcto \". \"Me parece increíble que el Ministerio de Hacienda ponga en duda las opiniones y oficios de la Superintendencia de Pensiones . Porque si usted, ministro, pone en duda todos los oficios de actores y organismos públicos, este país sería ingobernable . Me parece indecente\", refutó el senador Núñez. De acuerdo a la reforma de pensiones, el a porte del Estado al FAPP se debe hacer en el tercer año desde que entró en vigencia la ley, en este caso, el año 2025 . El Gobierno interpreta que e l tercer año es 2028 , mientras que la Superintendencia de Pensiones señaló que el tercer año es el 2027 , lo que fue ratificado por la Contraloría. La discusión marcó el inicio de la tramitación del erario nacional en el Senado, que comenzó dos horas más tarde de lo previsto porque se estaba desarrollando una reunión de los comités para organizar la tramitación. Desde el oficialismo, el senador Luciano Cruz-Coke (Evópoli) sostuvo que \" gracias precisamente al FAPP, que está financiado ,  esto es una ley permanente , por tanto, tiene financiamiento y había un problema de interpretación que lo ha aclarado bien el ministro y me tenía preocupado\". \" Me parece que esa respuesta está contestad a y que ha habido también, en alguna parte, algo de majadería en instalar ciertos fantasmas, como la misma cosa que se ha hecho con la Ley Ricarte Soto. Son prestaciones que el Estado tiene obligación de cumplir porque además están por ley\", agregó. No obstante, la senadora Daniella Cicardini (PS) planteó: \" Permítame sospechar la mañosa interpretación de este Gobierno, del ministro Quiroz, de no tener estos recursos en el FAPP en el Tesoro Público, porque son los mismos que se negaron a la reforma de pensiones por una mirada ideológica. El señor Kast y su sector político. O sea, el pronunciamiento de la Contraloría, ¿por dónde se lo está pasando? Perdóneme la expresión, presidente\".",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/senado-inicio-debate-del-presupuesto-con-una-disputa-sobre-recursos-para/2026-11-17/144302.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261117/imag/foto_0000000320261117144302.jpg",
+            "published_raw": "Tue, 17 Nov 2026 14:43:02 -0300",
+            "published_at": "2026-11-17T14:43:02-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 11,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 4,
+            "score_ideology": 0,
+            "score_actor": 7,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 23,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-001"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 75.8
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-012",
         "title": "Comisión de Hacienda despachó proyecto de Sala Cuna Universal a la Sala de la Cámara",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -421,11 +491,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.8,
-          "level": "MEDIA",
+          "score": 51.8,
+          "level": "BAJA",
           "components": {
             "political_impact": 50,
-            "freshness": 100,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 28
@@ -465,7 +535,7 @@
             "secondary_topic": null,
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-013"
+            "cluster_id": "PML-EVENT-012"
           }
         ],
         "article_count": 1,
@@ -477,12 +547,12 @@
             "Congreso y proceso legislativo",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 76.8
+          "chile_utility": 73.8
         },
         "repeated_in_general_top5": false
       },
       {
-        "position": 2,
+        "position": 3,
         "cluster_id": "PML-EVENT-002",
         "title": "Alessandri: El \"crecimiento mágico\" se está moviendo al segundo semestre de 2027, y no sé si la paciencia aguanta",
         "topic": "Instituciones y gobierno",
@@ -494,11 +564,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 54.3,
+          "score": 52.3,
           "level": "MEDIA",
           "components": {
             "political_impact": 52,
-            "freshness": 80,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 62,
             "continuity": 34
@@ -549,79 +619,7 @@
             "Estado e instituciones",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 72.3
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-010",
-        "title": "Cámara Baja despachó proyecto que rebaja el precio de los combustibles al Senado",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/camara-baja-despacho-proyecto-que-rebaja-el-precio-de-los-combustibles/2026-11-16/191848.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 46.5,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 54,
-            "freshness": 62,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 28
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-16T19:18:48-0300",
-        "last_seen": "2026-11-16T19:18:48-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Cámara Baja despachó proyecto que rebaja el precio de los combustibles al Senado",
-            "description": "El proyecto de ley que establece una rebaja inmediata en los precios de las bencinas y el petróleo diése l pasó al Senado , luego de ser despachado rápidamente por la Sala de la Cámara de Diputadas y Diputados. La Comisión de Hacienda de la Cámara Baja despachó esta mañana la iniciativa que instaura un congelamiento de tarifas para contener la presión inflacionaria sobre la economía nacional y aliviar la carga financiera de las empresas de transporte de carga tras el paro gremial de la semana pasada. De esa forma, el proyecto fue discutido esta tarde y aprobado rápidamente en la Sala de la corporación, y antes de las 17:00 horas fue despacho al Senado. El diputado Juan Marcelo Valenzuela (PDG) destacó que \" estamos llegando a tiempo, entendiendo que el precio de la bencina está muy alto y era urgente ponerle un techo. Hoy día estamos avanzando en esa dirección \". Sin embargo, aseveró que \"nosotros nunca estamos conformes. Le dijimos al Ejecutivo que tiene que hacer mayores esfuerzos. Quedaron fuera los agricultores, los pescadores artesanales, todas las empresas que están acogidas al régimen ProPyme, transportistas escolares también. Estamos pidiendo que se haga una mesa para poder llegar con ayuda adicionales a todas esas personas que hoy día lo están pasando mal\". Por su parte, la diputada Flor Weisse (UDI) precisó que \" era muy importante poder, de acuerdo a los tiempos, aprobar hoy día. Tiene que seguir en el Senado porque tiene que estar publicado en el Diario Oficial esto para que pueda surtir efecto  este jueves , que es donde se revierte el alza del jueves anterior de los 40 pesos y además a sumar los 100 pesos de rebaja\". Comisión de Hacienda del Senado sesiona en paralelo Un poco más tarde, se inició una sesión especial de sala del Senado , en la que el segundo punto de la tabla es el proyecto relativo a los combustibles y el transporte de carga . No obstante, la iniciativa es abordada por la Comisión de Hacienda en paralelo, con la exposición del ministro de Hacienda, Jorge Quiroz. \"Uno de los acuerdos de comité, es que la Comisión de Hacienda pueda sesionar en paralelo a esta sala para conocer del segundo proyecto que está en la tabla. Entonces, vamos a darle autorización a la Comisión de Hacienda para que pueda sesionar en paralelo a la sala , por acuerdo de comité\", anunció la presidenta de la corporación, Paulina Núñez (RN). El secretario general, Luis Rojas, precisó que \"la idea es discutirlo durante esta sesión hasta las 20:00 horas. Si no se alcanza a despachar ese proyecto, estaremos citados mañana a las 9:30 de la mañana hasta total despacho\". En paralelo a la discusión, a nivel internacional, el precio del petróleo Brent bajó a 92,44 dólares el barril. Sin embargo, el precio del dólar subió a los 999,55 pesos chilenos, según Bloomberg.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/camara-baja-despacho-proyecto-que-rebaja-el-precio-de-los-combustibles/2026-11-16/191848.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261116/imag/foto_0000000220261116191848.jpg",
-            "published_raw": "Mon, 16 Nov 2026 19:18:48 -0300",
-            "published_at": "2026-11-16T19:18:48-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 6,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 9,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": null,
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-010"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 21,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 67.5
+          "chile_utility": 70.3
         },
         "repeated_in_general_top5": false
       }
@@ -631,19 +629,29 @@
     {
       "topic": "Instituciones y gobierno",
       "event_count": 20,
-      "maximum_relevance": 65,
+      "maximum_relevance": 61.2,
       "leading_story": "El fiscal general de Paraguay renuncia ante la advertencia de un juicio político por el caso Ueno Bank"
     },
     {
+      "topic": "Elecciones y opinión pública",
+      "event_count": 2,
+      "maximum_relevance": 54,
+      "leading_story": "El debate | ¿Son las campañas electorales capaces de cambiar votos?"
+    },
+    {
       "topic": "Conflictos y seguridad",
-      "event_count": 3,
-      "maximum_relevance": 50.5,
-      "leading_story": "Zuhal dio a luz en una tienda de campaña: las sudanesas que crían solas a sus hijos en El Obeid bajo el zumbido de los drones"
+      "event_count": 2,
+      "maximum_relevance": 37.8,
+      "leading_story": "Un terremoto, incógnitas sobre las ayudas y una ola terrorista: los 100 días de gobierno de De la Espriella"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-013", "PML-EVENT-016"],
+      "exited_top5": ["PML-EVENT-017", "PML-EVENT-001"],
+      "retained_top5": ["PML-EVENT-020", "PML-EVENT-019", "PML-EVENT-009"]
+    }
   },
   "sources": {
     "representative_sources": ["France 24", "EL PAÍS", "Cooperativa"],
