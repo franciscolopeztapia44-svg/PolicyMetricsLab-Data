@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-18",
-    "data_latest_timestamp": "2026-11-18T23:11:30-0300",
+    "date": "2026-11-19",
+    "data_latest_timestamp": "2026-11-19T08:11:25-0300",
     "data_age_hours": 0.2,
-    "generated_at": "2026-11-18T23:23:51-0300",
+    "generated_at": "2026-11-19T08:22:20-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,22 +16,128 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 30 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 30 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Relaciones internacionales.",
+    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 2 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
     "ranked_events": 30,
     "topics": 2,
-    "geographies": 2,
+    "geographies": 3,
     "representative_sources": 3,
-    "average_top5_relevance": 58.2,
-    "maximum_relevance": 62.2
+    "average_top5_relevance": 57.4,
+    "maximum_relevance": 62.6
   },
   "top_stories": [
     {
       "position": 1,
+      "cluster_id": "PML-EVENT-019",
+      "title": "Xi, Trump y Putin, tras la cumbre de Shenzhen: “Una guerra nuclear no se puede ganar y nunca debe librarse”",
+      "url": "https://elpais.com/internacional/2026-11-19/trump-y-putin-interactuan-en-shenzhen-antes-de-las-reuniones-con-xi.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Relaciones internacionales",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 62.6,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 62.6
+      },
+      "selection": {
+        "reason": "PML 62.6",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 2,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-18T14:13:12-0300",
+      "last_seen": "2026-11-19T08:11:25-0300",
+      "entities": [
+        "trump",
+        "onu",
+        "iran",
+        "ucrania"
+      ],
+      "event_terms": "guerra",
+      "analysis": {
+        "summary": "Los líderes de las tres mayores potencias se comprometen a impulsar una reforma de la ONU y a garantizar la estabilidad de los flujos energéticos. El republicano, sobre el mandatario ruso: “Es mi amigo”",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Xi, Trump y Putin, tras la cumbre de Shenzhen: “Una guerra nuclear no se puede ganar y nunca debe librarse”",
+          "description": "Los líderes de las tres mayores potencias se comprometen a impulsar una reforma de la ONU y a garantizar la estabilidad de los flujos energéticos. El republicano, sobre el mandatario ruso: “Es mi amigo”",
+          "url": "https://elpais.com/internacional/2026-11-19/trump-y-putin-interactuan-en-shenzhen-antes-de-las-reuniones-con-xi.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/K5ALE3WIAFB4LF5A6O4UF3B7LU.jpg?auth=74afe4724d852ed7f81dbb85f71248660221ec93e37a776f35f5b96061f20b69",
+          "published_raw": "Thu, 19 Nov 2026 11:11:25 GMT",
+          "published_at": "2026-11-19T08:11:25-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 2,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Relaciones internacionales",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-019"
+        },
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "¿La ‘Nueva Yalta’? Las claves de la primera cumbre de Trump, Putin y Xi",
+          "description": "El presidente de EE UU asegura que, además del control de armamento e Irán, abordarán la guerra en Ucrania",
+          "url": "https://elpais.com/internacional/2026-11-18/la-nueva-yalta-las-claves-de-la-primera-cumbre-de-trump-putin-y-xi.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/QLH4IRHX7FP6HF72DWPM4BI4MU.jpg?auth=6d3ca8c592aa8398e9c905f05fd3c6aa07a305362a45e72fb42f3b7fa82808c1",
+          "published_raw": "Wed, 18 Nov 2026 17:13:12 GMT",
+          "published_at": "2026-11-18T14:13:12-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 1,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-019"
+        }
+      ]
+    },
+    {
+      "position": 2,
       "cluster_id": "PML-EVENT-004",
       "title": "Cámara aprobó Sala Cuna y la envió al Senado, que estima despacharla la próxima semana",
       "url": "https://www.cooperativa.cl/noticias/pais/trabajo/camara-aprobo-sala-cuna-y-la-envio-al-senado-que-estima-despacharla-la/2026-11-18/155855.html",
@@ -43,12 +149,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 62.2,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 62.2
+        "score": 60.2,
+        "level": "MEDIA",
+        "editorial_utility": 72.2
       },
       "selection": {
-        "reason": "PML 62.2",
+        "reason": "PML 60.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -108,99 +214,26 @@
       ]
     },
     {
-      "position": 2,
-      "cluster_id": "PML-EVENT-015",
-      "title": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261119-ni-un-peso-menos-los-chilenos-protestan-contra-los-presupuestos-del-gobierno-kast",
-      "representative_source": "France 24",
-      "topic": "Economía y políticas públicas",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 58.2,
-        "level": "MEDIA",
-        "editorial_utility": 65.2
-      },
-      "selection": {
-        "reason": "PML 58.2; aporta diversidad temática; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-11-18T23:11:30-0300",
-      "last_seen": "2026-11-18T23:11:30-0300",
-      "entities": "chile",
-      "event_terms": [],
-      "analysis": {
-        "summary": "Una serie de movilizaciones en Santiago y otras de las principales ciudades de Chile fue protagonizada por sindicatos y varios movimientos sociales. Los manifestantes se pronunciaron contra los recortes para la educación, salud y cultura en la ley de presupuesto para 2027 presentada por el Gobierno de José Antonio Kast. Esto en medio de un descontento generalizado contra el Ejecutivo, que según algunas encuestas, supera el 70%.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Economía y políticas públicas y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast",
-          "description": "Una serie de movilizaciones en Santiago y otras de las principales ciudades de Chile fue protagonizada por sindicatos y varios movimientos sociales. Los manifestantes se pronunciaron contra los recortes para la educación, salud y cultura en la ley de presupuesto para 2027 presentada por el Gobierno de José Antonio Kast. Esto en medio de un descontento generalizado contra el Ejecutivo, que según algunas encuestas, supera el 70%.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261119-ni-un-peso-menos-los-chilenos-protestan-contra-los-presupuestos-del-gobierno-kast",
-          "image_url": "https://s.france24.com/media/display/4652dd36-e3b3-11f1-a028-c5c0357b2a0c/w:1024/p:16x9/2026-11-18T173203Z-1865229298-RC2EQOA6DA1B-RTRMADP-3-CHILE-PROTEST.jpg",
-          "published_raw": "Thu, 19 Nov 2026 02:11:30 GMT",
-          "published_at": "2026-11-18T23:11:30-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 3,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 1,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Economía y políticas públicas",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
-        }
-      ]
-    },
-    {
       "position": 3,
-      "cluster_id": "PML-EVENT-023",
-      "title": "Un tribunal de Florida condena a un pastor acusado de planear el asesinato del presidente de Haití Jovenel Moïse",
-      "url": "https://elpais.com/america/2026-11-18/un-tribunal-de-florida-condena-a-un-pastor-acusado-de-planear-el-asesinato-del-presidente-de-haiti-jovenel-moise.html",
+      "cluster_id": "PML-EVENT-024",
+      "title": "La caída de Ueno Bank en Paraguay arrastra al jefe de fiscales y amenaza al contralor",
+      "url": "https://elpais.com/america/2026-11-19/la-caida-de-ueno-bank-en-paraguay-arrastra-al-jefe-de-fiscales-y-amenaza-al-contralor.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "No identificado",
+        "group": "América Latina",
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 62,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 61
+        "score": 57,
+        "level": "MEDIA",
+        "editorial_utility": 57
       },
       "selection": {
-        "reason": "PML 62; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
+        "reason": "PML 57; fallback editorial controlado; aporta diversidad geográfica",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
@@ -208,12 +241,12 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-18T20:46:49-0300",
-      "last_seen": "2026-11-18T20:46:49-0300",
+      "first_seen": "2026-11-19T06:30:00-0300",
+      "last_seen": "2026-11-19T06:30:00-0300",
       "entities": [],
-      "event_terms": "tribunal",
+      "event_terms": [],
       "analysis": {
-        "summary": "Sanon, un pastor haitiano-estadounidense de 68 años, es condenado por tramar el crimen con el fin de tomar la presidencia del país caribeño y podría enfrentar cadena perpetua",
+        "summary": "Varios altos cargos del Gobierno y del Estado, entre ellos el presidente Santiago Peña, están entre rejas por uno de los mayores escándalos financieros del país",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -226,12 +259,12 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Un tribunal de Florida condena a un pastor acusado de planear el asesinato del presidente de Haití Jovenel Moïse",
-          "description": "Sanon, un pastor haitiano-estadounidense de 68 años, es condenado por tramar el crimen con el fin de tomar la presidencia del país caribeño y podría enfrentar cadena perpetua",
-          "url": "https://elpais.com/america/2026-11-18/un-tribunal-de-florida-condena-a-un-pastor-acusado-de-planear-el-asesinato-del-presidente-de-haiti-jovenel-moise.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/ELKVMPR5Q5FQNMQGDATEHJRSE4.png?auth=dd60f8304d8b144e507bcef0e1efdd45d3a4a2c1c250bc84a624de3a36e476bd",
-          "published_raw": "Wed, 18 Nov 2026 23:46:49 GMT",
-          "published_at": "2026-11-18T20:46:49-0300",
+          "title": "La caída de Ueno Bank en Paraguay arrastra al jefe de fiscales y amenaza al contralor",
+          "description": "Varios altos cargos del Gobierno y del Estado, entre ellos el presidente Santiago Peña, están entre rejas por uno de los mayores escándalos financieros del país",
+          "url": "https://elpais.com/america/2026-11-19/la-caida-de-ueno-bank-en-paraguay-arrastra-al-jefe-de-fiscales-y-amenaza-al-contralor.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/KGKL37LSU5JRDE4S4YURKIPI3U.jpg?auth=820e9080b68adc6fe33907df19dd30f0123715f171c6d89573fbf4cc9bb305ad",
+          "published_raw": "Thu, 19 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-19T06:30:00-0300",
           "country": "No identificado",
           "region": "América Latina",
           "language": "es",
@@ -249,29 +282,29 @@
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
+          "cluster_id": "PML-EVENT-024"
         }
       ]
     },
     {
       "position": 4,
-      "cluster_id": "PML-EVENT-005",
-      "title": "Diputado de Evópoli defendió las críticas a Kast: \"No podemos confundir lealtad con obsecuencia\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/diputado-de-evopoli-defendio-las-criticas-a-kast-no-podemos-confundir/2026-11-18/111311.html",
-      "representative_source": "Cooperativa",
+      "cluster_id": "PML-EVENT-025",
+      "title": "Carlos Slim, junto a Joseph Oughourlian: “Invertir en México significa empleo y desarrollo económico”",
+      "url": "https://elpais.com/mexico/2026-11-19/carlos-slim-junto-a-joseph-oughourlian-invertir-en-mexico-significa-empleo-y-desarrollo-economico.html",
+      "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "Chile",
-        "country": "Chile"
+        "group": "América Latina",
+        "country": "México / América Latina"
       },
       "relevance": {
-        "score": 54.5,
+        "score": 55.8,
         "level": "MEDIA",
-        "editorial_utility": 49.5
+        "editorial_utility": 49.8
       },
       "selection": {
-        "reason": "PML 54.5; fallback editorial controlado; diversidad relajada para completar el brief",
+        "reason": "PML 55.8; fallback editorial controlado; diversidad relajada para completar el brief",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -279,18 +312,15 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "Cooperativa"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-18T11:13:11-0300",
-      "last_seen": "2026-11-18T11:13:11-0300",
-      "entities": [
-        "chile",
-        "senado"
-      ],
+      "first_seen": "2026-11-19T04:31:00-0300",
+      "last_seen": "2026-11-19T04:31:00-0300",
+      "entities": "mexico",
       "event_terms": [],
       "analysis": {
-        "summary": "El diputado Jorge Guzmán (Evópoli) defendió este miércoles en El Primer Café de Cooperativa el papel de Chile Vamos a la hora de advertir errores en el Gobierno de José Antonio Kast. El parlamentario discrepó con el secretario general del Partido Republicano, Vicente Bruna , quien cuestionó a los dirigentes del sector que hacen públicas sus diferencias con La Moneda.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "summary": "El presidente de PRISA y de EL PAÍS reconoce la trayectoria del empresario mexicano, su compromiso con el país norteamericano y su visión a la hora de invertir a largo plazo",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en México / América Latina.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -300,32 +330,32 @@
       },
       "articles": [
         {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Diputado de Evópoli defendió las críticas a Kast: \"No podemos confundir lealtad con obsecuencia\"",
-          "description": "El diputado Jorge Guzmán (Evópoli) defendió este miércoles en El Primer Café de Cooperativa el papel de Chile Vamos a la hora de advertir errores en el Gobierno de José Antonio Kast. El parlamentario discrepó con el secretario general del Partido Republicano, Vicente Bruna , quien cuestionó a los dirigentes del sector que hacen públicas sus diferencias con La Moneda. La discusión surgió a propósito de los dichos de la presidenta del Senado, Paulina Núñez , quien atribuyó el momento que atraviesa el Gobierno a \"errores propios de los distintos ministros y del Ejecutivo\". Guzmán recurrió al tenis para explicar qué ha complicado al oficialismo. \"Si esto fuera tenis, claramente el Gobierno ha cometido errores no forzados \", dijo el diputado, quien coincidió con Bruna en la necesidad de corregirlos con rapidez. \"No podemos confundir lealtad con obsecuencia\" , planteó el parlamentario quien indicó que la lealtad con el Presidente \"nos obliga a visualizar y hacer ver cuando existan situaciones que complejizan, que no van por un buen camino, que perjudican al desarrollo de Chile\". \"La mirada que ha tenido Chile Vamos, la mirada que ha tenido Evópoli, es hacer ver esos temas\", remarcó y agregó: \"Lo hicimos -por ejemplo- con mucha valentía y con mucha persistencia en la reforma constitucional de estado de excepción (...) y eso permitió tener una corrección al tema. Entonces yo creo que nuestra mirada es contribuir, aportar, ayudar, pero también ser muy claros cuando existan ideas o propuestas que no sean idóneas para el futuro de Chile\". Como ejemplo, recordó los reparos que planteó su sector durante la discusión de una reforma sobre estados de excepción constitucional. Según Guzmán, esa insistencia permitió corregir la propuesta. \"Nuestra mirada es contribuir, aportar, ayudar\", afirmó, pero también ser claros \"cuando existan ideas o propuestas que no sean idóneas para el futuro de Chile\" . Bruna cuestionó a los \"descolgados\" del oficialismo Bruna sostuvo que la gran mayoría del oficialismo respalda a Kast, aunque admitió que esperaba mayor cohesión. \"Lamento profundamente que existan personas que se sumen constantemente a las críticas públicas que nada contribuyen a mejorar la gestión del Gobierno\", señaló. Esos \"descolgados\", añadió, \"tensionan al oficialismo completo\" . Consultado por la responsabilidad del propio Ejecutivo, el dirigente republicano valoró que el vocero de Gobierno, Gonzalo Arenas , pidiera disculpas al Partido de la Gente tras describir a la colectividad como \"un cúmulo de deseos\" . Para Bruna, la reacción del subsecretario muestra que el Gobierno es capaz de reconocer sus errores.",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/diputado-de-evopoli-defendio-las-criticas-a-kast-no-podemos-confundir/2026-11-18/111311.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261118/imag/foto_0000000220261118111311.jpg",
-          "published_raw": "Wed, 18 Nov 2026 11:13:11 -0300",
-          "published_at": "2026-11-18T11:13:11-0300",
-          "country": "Chile",
-          "region": "Chile",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Carlos Slim, junto a Joseph Oughourlian: “Invertir en México significa empleo y desarrollo económico”",
+          "description": "El presidente de PRISA y de EL PAÍS reconoce la trayectoria del empresario mexicano, su compromiso con el país norteamericano y su visión a la hora de invertir a largo plazo",
+          "url": "https://elpais.com/mexico/2026-11-19/carlos-slim-junto-a-joseph-oughourlian-invertir-en-mexico-significa-empleo-y-desarrollo-economico.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/7YRX2JJGWBBNHP2P5RNW5DXZUM.JPG?auth=017b9baac89d9177d92b331710a1d6532e94c5641599726c8f34659994a57c7c",
+          "published_raw": "Thu, 19 Nov 2026 07:31:00 GMT",
+          "published_at": "2026-11-19T04:31:00-0300",
+          "country": "México",
+          "region": "América Latina",
           "language": "es",
-          "score_institutional": 8,
+          "score_institutional": 1,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
-          "score_policy": 0,
+          "score_policy": 1,
           "score_ideology": 0,
-          "score_actor": 6,
-          "score_noise": 1,
+          "score_actor": 1,
+          "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 13,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-005"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-025"
         }
       ]
     },
@@ -342,12 +372,12 @@
         "country": "Paraguay / América Latina"
       },
       "relevance": {
-        "score": 54.2,
-        "level": "MEDIA",
-        "editorial_utility": 47.2
+        "score": 51.2,
+        "level": "BAJA",
+        "editorial_utility": 44.2
       },
       "selection": {
-        "reason": "PML 54.2; diversidad relajada para completar el brief; aporta diversidad geográfica",
+        "reason": "PML 51.2; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -411,25 +441,97 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-001",
-        "title": "Senado inició debate del Presupuesto con una disputa sobre recursos para pensiones",
-        "topic": "Instituciones y gobierno",
+        "cluster_id": "PML-EVENT-016",
+        "title": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast",
+        "topic": "Economía y políticas públicas",
         "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/senado-inicio-debate-del-presupuesto-con-una-disputa-sobre-recursos-para/2026-11-17/144302.html",
+        "representative_source": "France 24",
+        "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261119-ni-un-peso-menos-los-chilenos-protestan-contra-los-presupuestos-del-gobierno-kast",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 46.8,
+          "score": 55.2,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 54,
+            "freshness": 88,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 28
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "France 24"
+        },
+        "first_seen": "2026-11-18T23:11:30-0300",
+        "last_seen": "2026-11-18T23:11:30-0300",
+        "articles": [
+          {
+            "source_id": "france24_latam",
+            "source": "France 24",
+            "title": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast",
+            "description": "Una serie de movilizaciones en Santiago y otras de las principales ciudades de Chile fue protagonizada por sindicatos y varios movimientos sociales. Los manifestantes se pronunciaron contra los recortes para la educación, salud y cultura en la ley de presupuesto para 2027 presentada por el Gobierno de José Antonio Kast. Esto en medio de un descontento generalizado contra el Ejecutivo, que según algunas encuestas, supera el 70%.",
+            "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261119-ni-un-peso-menos-los-chilenos-protestan-contra-los-presupuestos-del-gobierno-kast",
+            "image_url": "https://s.france24.com/media/display/4652dd36-e3b3-11f1-a028-c5c0357b2a0c/w:1024/p:16x9/2026-11-18T173203Z-1865229298-RC2EQOA6DA1B-RTRMADP-3-CHILE-PROTEST.jpg",
+            "published_raw": "Thu, 19 Nov 2026 02:11:30 GMT",
+            "published_at": "2026-11-18T23:11:30-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 2,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 3,
+            "score_ideology": 0,
+            "score_actor": 0,
+            "score_noise": 1,
+            "score_accident": 0,
+            "political_evidence": 5,
+            "primary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Instituciones y gobierno",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-016"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 18,
+          "labels": [
+            "Estado e instituciones",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 73.2
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-005",
+        "title": "Diputado de Evópoli defendió las críticas a Kast: \"No podemos confundir lealtad con obsecuencia\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/diputado-de-evopoli-defendio-las-criticas-a-kast-no-podemos-confundir/2026-11-18/111311.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 50.5,
           "level": "BAJA",
           "components": {
-            "political_impact": 56,
-            "freshness": 52,
+            "political_impact": 51,
+            "freshness": 72,
             "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 50
+            "geographic_scope": 55,
+            "continuity": 30
           }
         },
         "coverage": {
@@ -437,53 +539,52 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-17T14:43:02-0300",
-        "last_seen": "2026-11-17T14:43:02-0300",
+        "first_seen": "2026-11-18T11:13:11-0300",
+        "last_seen": "2026-11-18T11:13:11-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Senado inició debate del Presupuesto con una disputa sobre recursos para pensiones",
-            "description": "El proyecto de Presupuesto 2027 , el primero de la actual Administración del Presidente José Antonio Kast, inició este martes su discusión en el Senado, con siete partidas rechazadas desde la Cámara de Diputadas y Diputados. El proyecto llegó a la Cámara Alta sin recursos aprobados para el Ministerio del Interior y Seguridad Pública, Ministerio de Educación, Ministerio de Minería, Segegob, Ministerio de la Mujer, Ministerio de las Culturas y el Ministerio de Ciencias, Tecnología, Conocimiento e Innovación. El Ejecutivo repuso la mayor cantidad de estas partidas en los mismos términos en que fueron rechazadas previamente en la Cámara Baja. Y paralelamente se abrió a un proceso de negociación con quienes presidieron las subcomisiones mixtas de Presupuesto en la primera etapa de la tramitación, con el objetivo de llegar a un acuerdo que evite que alguna de estas partidas quede completamente rechazada en su segundo trámite. Entre los programas que quedan fuera y han generado controversia se encuentra el de \"Yo Elijo mi PC\", la beca que entrega computadores a estudiantes de séptimo básico, que no está todavía repuesto. La presidenta del Senado, Paulina Núñez (RN) , señaló que \"hay siete partidas rechazadas. Si queremos aprobarlas en el Senado, evidentemente que tienen que tener un esfuerzo mayor, porque de lo contrario, siendo rechazadas por el Senado, ni siquiera la comisión mixta va a ser un espacio para poder entregar esos recursos\". \"Obviamente, no podemos dar esa respuesta desde el Congreso, pero esta vez como colegisladores estamos exigiendo ese esfuerzo mayor, porque ayer estábamos discutiendo aquí en la sala mayores recursos para hacer frente y detener ese bloqueo, ese paro que hubo de los camioneros. Por lo tanto, cuando hay prioridades salen los recursos , y hoy día lo que estamos presentando acá es que estas siete partidas que están priorizadas de manera transversal también tengan los recursos\", agregó. Intercambio poco amistoso Asimismo, surgió preocupación entre parlamentarios de oposición porque tampoco están previstos los recursos que obliga la reforma previsional para suplementar el Fondo Autónomo de Protección Previsional (FAPP). El senador Daniel Núñez (PC) sostuvo en su intervención que \" el Estado debe cumplir sus compromisos . Tiene que hacer estos depósitos que casi llegan a 200 millones de dólares, y en el Presupuesto 2027 esa plata no está. Porque el ministro y el director de Presupuesto nos dijeron que había que empezar a pagarlo en 2028, que estábamos equivocados . Y no, no estamos equivocados. Aquí está la respuesta\". El ministro de Hacienda, Jorge Quiroz , le explicó al parlamentario: \"No consideramos aclarado el punto, porque la Contraloría se remite a un oficio de la Superintendencia de Pensione s, oficio que a nosotros nos merece dudas . Y dado que nos remite a dicho oficio, nosotros hemos enviado un oficio a la Superintendencia de Pensiones para que aclare el punto, y nuestra apreciación es que ese cuento de plazos no está correcto \". \"Me parece increíble que el Ministerio de Hacienda ponga en duda las opiniones y oficios de la Superintendencia de Pensiones . Porque si usted, ministro, pone en duda todos los oficios de actores y organismos públicos, este país sería ingobernable . Me parece indecente\", refutó el senador Núñez. De acuerdo a la reforma de pensiones, el a porte del Estado al FAPP se debe hacer en el tercer año desde que entró en vigencia la ley, en este caso, el año 2025 . El Gobierno interpreta que e l tercer año es 2028 , mientras que la Superintendencia de Pensiones señaló que el tercer año es el 2027 , lo que fue ratificado por la Contraloría. La discusión marcó el inicio de la tramitación del erario nacional en el Senado, que comenzó dos horas más tarde de lo previsto porque se estaba desarrollando una reunión de los comités para organizar la tramitación. Desde el oficialismo, el senador Luciano Cruz-Coke (Evópoli) sostuvo que \" gracias precisamente al FAPP, que está financiado ,  esto es una ley permanente , por tanto, tiene financiamiento y había un problema de interpretación que lo ha aclarado bien el ministro y me tenía preocupado\". \" Me parece que esa respuesta está contestad a y que ha habido también, en alguna parte, algo de majadería en instalar ciertos fantasmas, como la misma cosa que se ha hecho con la Ley Ricarte Soto. Son prestaciones que el Estado tiene obligación de cumplir porque además están por ley\", agregó. No obstante, la senadora Daniella Cicardini (PS) planteó: \" Permítame sospechar la mañosa interpretación de este Gobierno, del ministro Quiroz, de no tener estos recursos en el FAPP en el Tesoro Público, porque son los mismos que se negaron a la reforma de pensiones por una mirada ideológica. El señor Kast y su sector político. O sea, el pronunciamiento de la Contraloría, ¿por dónde se lo está pasando? Perdóneme la expresión, presidente\".",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/senado-inicio-debate-del-presupuesto-con-una-disputa-sobre-recursos-para/2026-11-17/144302.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261117/imag/foto_0000000320261117144302.jpg",
-            "published_raw": "Tue, 17 Nov 2026 14:43:02 -0300",
-            "published_at": "2026-11-17T14:43:02-0300",
+            "title": "Diputado de Evópoli defendió las críticas a Kast: \"No podemos confundir lealtad con obsecuencia\"",
+            "description": "El diputado Jorge Guzmán (Evópoli) defendió este miércoles en El Primer Café de Cooperativa el papel de Chile Vamos a la hora de advertir errores en el Gobierno de José Antonio Kast. El parlamentario discrepó con el secretario general del Partido Republicano, Vicente Bruna , quien cuestionó a los dirigentes del sector que hacen públicas sus diferencias con La Moneda. La discusión surgió a propósito de los dichos de la presidenta del Senado, Paulina Núñez , quien atribuyó el momento que atraviesa el Gobierno a \"errores propios de los distintos ministros y del Ejecutivo\". Guzmán recurrió al tenis para explicar qué ha complicado al oficialismo. \"Si esto fuera tenis, claramente el Gobierno ha cometido errores no forzados \", dijo el diputado, quien coincidió con Bruna en la necesidad de corregirlos con rapidez. \"No podemos confundir lealtad con obsecuencia\" , planteó el parlamentario quien indicó que la lealtad con el Presidente \"nos obliga a visualizar y hacer ver cuando existan situaciones que complejizan, que no van por un buen camino, que perjudican al desarrollo de Chile\". \"La mirada que ha tenido Chile Vamos, la mirada que ha tenido Evópoli, es hacer ver esos temas\", remarcó y agregó: \"Lo hicimos -por ejemplo- con mucha valentía y con mucha persistencia en la reforma constitucional de estado de excepción (...) y eso permitió tener una corrección al tema. Entonces yo creo que nuestra mirada es contribuir, aportar, ayudar, pero también ser muy claros cuando existan ideas o propuestas que no sean idóneas para el futuro de Chile\". Como ejemplo, recordó los reparos que planteó su sector durante la discusión de una reforma sobre estados de excepción constitucional. Según Guzmán, esa insistencia permitió corregir la propuesta. \"Nuestra mirada es contribuir, aportar, ayudar\", afirmó, pero también ser claros \"cuando existan ideas o propuestas que no sean idóneas para el futuro de Chile\" . Bruna cuestionó a los \"descolgados\" del oficialismo Bruna sostuvo que la gran mayoría del oficialismo respalda a Kast, aunque admitió que esperaba mayor cohesión. \"Lamento profundamente que existan personas que se sumen constantemente a las críticas públicas que nada contribuyen a mejorar la gestión del Gobierno\", señaló. Esos \"descolgados\", añadió, \"tensionan al oficialismo completo\" . Consultado por la responsabilidad del propio Ejecutivo, el dirigente republicano valoró que el vocero de Gobierno, Gonzalo Arenas , pidiera disculpas al Partido de la Gente tras describir a la colectividad como \"un cúmulo de deseos\" . Para Bruna, la reacción del subsecretario muestra que el Gobierno es capaz de reconocer sus errores.",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/diputado-de-evopoli-defendio-las-criticas-a-kast-no-podemos-confundir/2026-11-18/111311.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261118/imag/foto_0000000220261118111311.jpg",
+            "published_raw": "Wed, 18 Nov 2026 11:13:11 -0300",
+            "published_at": "2026-11-18T11:13:11-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 11,
+            "score_institutional": 8,
             "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 4,
+            "score_conflict": 0,
+            "score_policy": 0,
             "score_ideology": 0,
-            "score_actor": 7,
-            "score_noise": 0,
+            "score_actor": 6,
+            "score_noise": 1,
             "score_accident": 0,
-            "political_evidence": 23,
+            "political_evidence": 13,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
+            "secondary_topic": null,
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
+            "cluster_id": "PML-EVENT-005"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 22,
+          "bonus": 21,
           "labels": [
             "Estado e instituciones",
-            "Congreso y proceso legislativo",
-            "Economía y políticas públicas"
+            "Congreso y proceso legislativo"
           ],
-          "chile_utility": 68.8
+          "chile_utility": 71.5
         },
         "repeated_in_general_top5": false
       },
       {
-        "position": 2,
+        "position": 3,
         "cluster_id": "PML-EVENT-008",
         "title": "Voluntad para Chile busca constituirse como partido ante el Servel",
         "topic": "Instituciones y gobierno",
@@ -495,11 +596,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 49,
+          "score": 46.5,
           "level": "BAJA",
           "components": {
             "political_impact": 52,
-            "freshness": 62,
+            "freshness": 52,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 36
@@ -550,80 +651,7 @@
             "Estado e instituciones",
             "Elecciones y opinión pública"
           ],
-          "chile_utility": 68
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-012",
-        "title": "Comisión de Hacienda despachó proyecto de Sala Cuna Universal a la Sala de la Cámara",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-de-hacienda-despacho-proyecto-de-sala-cuna-universal-a-la-sala/2026-11-17/191814.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 45.3,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 50,
-            "freshness": 62,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 28
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-17T19:18:14-0300",
-        "last_seen": "2026-11-17T19:18:14-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Comisión de Hacienda despachó proyecto de Sala Cuna Universal a la Sala de la Cámara",
-            "description": "La Comisión de Hacienda votó este martes todos los artículos del proyecto de Sala Cuna Universal y lo despachó a la Sala de la Cámara de Diputadas y Diputados. El proyecto será financiado con recursos de las y los trabajadores: del seguro de cesantía, de la cuenta individual y del Fondo de Cesantía Solidario . En ese sentido, el Estado no destinará recursos y los empleadores nominalmente sí. El ministro del Trabajo, Tomás Rau, explicó que \" el 89,7% de las empresas tiene 19 o menos mujeres por el costo que eso ha significado . Hemos encontrado una fórmula que quizás no es perfecta, pero que es muy superior a la realidad actual\". \"Considera una cotización de 0,3% a cargo del empleador , y para no subir los costos laborales, se reduce la cotización que hacen los empleadores mensualmente al Fondo de Cesantía Solidario en 0,15% y a la cuenta individual en 0,15% \", precisó el cálculo. La Cámara tiene previsto mañana votar el proyecto de Sala Cuna, que se encuentra en segundo trámite. La iniciativa deberá ser despachada hacia el Senado, luego que en su primer trámite en la Cámara Alta se aprobó sin fórmula de financiamiento y el Gobierno logró proponer un plan y aprobarlo en la corporación.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/comision-de-hacienda-despacho-proyecto-de-sala-cuna-universal-a-la-sala/2026-11-17/191814.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261117/imag/foto_0000000220261117191814.jpeg",
-            "published_raw": "Tue, 17 Nov 2026 19:18:14 -0300",
-            "published_at": "2026-11-17T19:18:14-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 5,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 2,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 7,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": null,
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-012"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo",
-            "Economía y políticas públicas"
-          ],
-          "chile_utility": 67.3
+          "chile_utility": 65.5
         },
         "repeated_in_general_top5": false
       }
@@ -631,36 +659,46 @@
   },
   "topics": [
     {
+      "topic": "Relaciones internacionales",
+      "event_count": 1,
+      "maximum_relevance": 62.6,
+      "leading_story": "Xi, Trump y Putin, tras la cumbre de Shenzhen: “Una guerra nuclear no se puede ganar y nunca debe librarse”"
+    },
+    {
       "topic": "Instituciones y gobierno",
-      "event_count": 25,
-      "maximum_relevance": 62.2,
+      "event_count": 24,
+      "maximum_relevance": 60.2,
       "leading_story": "Cámara aprobó Sala Cuna y la envió al Senado, que estima despacharla la próxima semana"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 58.2,
+      "maximum_relevance": 55.2,
       "leading_story": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 3,
-      "maximum_relevance": 52.9,
-      "leading_story": "\"Bandas carcelarias están transformando a Ecuador en un narcoestado\": 'WSJ'"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 1,
-      "maximum_relevance": 48.3,
-      "leading_story": "El debate | ¿Son las campañas electorales capaces de cambiar votos?"
+      "maximum_relevance": 52.3,
+      "leading_story": "90 minutos cara a cara: Sánchez busca remontar los dos puntos que le separan del PP y Feijóo repetir el éxito de 2023"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 3,
+      "maximum_relevance": 50.9,
+      "leading_story": "\"Bandas carcelarias están transformando a Ecuador en un narcoestado\": 'WSJ'"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-019", "PML-EVENT-024", "PML-EVENT-025"],
+      "exited_top5": ["PML-EVENT-015", "PML-EVENT-023", "PML-EVENT-005"],
+      "retained_top5": ["PML-EVENT-004", "PML-EVENT-027"]
+    }
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
