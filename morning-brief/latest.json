@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-19",
-    "data_latest_timestamp": "2026-11-19T08:11:25-0300",
-    "data_age_hours": 0.2,
-    "generated_at": "2026-11-19T08:22:20-0300",
+    "data_latest_timestamp": "2026-11-19T21:22:31-0300",
+    "data_age_hours": 1.8,
+    "generated_at": "2026-11-19T23:07:54-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,64 +16,59 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 30 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Relaciones internacionales.",
-    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 2 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 28 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Elecciones y opinión pública.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 30,
+    "ranked_events": 28,
     "topics": 2,
-    "geographies": 3,
-    "representative_sources": 3,
-    "average_top5_relevance": 57.4,
-    "maximum_relevance": 62.6
+    "geographies": 2,
+    "representative_sources": 2,
+    "average_top5_relevance": 62.3,
+    "maximum_relevance": 65.1
   },
   "top_stories": [
     {
       "position": 1,
       "cluster_id": "PML-EVENT-019",
-      "title": "Xi, Trump y Putin, tras la cumbre de Shenzhen: “Una guerra nuclear no se puede ganar y nunca debe librarse”",
-      "url": "https://elpais.com/internacional/2026-11-19/trump-y-putin-interactuan-en-shenzhen-antes-de-las-reuniones-con-xi.html",
+      "title": "Feijóo se lanza al ataque ante un Sánchez que evita el cuerpo a cuerpo",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/feijoo-enmienda-ocho-anos-de-gobierno-ante-un-sanchez-que-evita-la-confrontacion.html",
       "representative_source": "EL PAÍS",
-      "topic": "Relaciones internacionales",
-      "event_type": "GENERAL_POLITICAL_EVENT",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "CONFLICT_ESCALATION",
       "geography": {
-        "group": "Estados Unidos",
+        "group": "No identificado",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 62.6,
+        "score": 65.1,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 62.6
+        "editorial_utility": 65.1
       },
       "selection": {
-        "reason": "PML 62.6",
+        "reason": "PML 65.1",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
-        "article_count": 2,
+        "article_count": 1,
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-18T14:13:12-0300",
-      "last_seen": "2026-11-19T08:11:25-0300",
-      "entities": [
-        "trump",
-        "onu",
-        "iran",
-        "ucrania"
-      ],
-      "event_terms": "guerra",
+      "first_seen": "2026-11-19T20:13:55-0300",
+      "last_seen": "2026-11-19T20:13:55-0300",
+      "entities": [],
+      "event_terms": "ataque",
       "analysis": {
-        "summary": "Los líderes de las tres mayores potencias se comprometen a impulsar una reforma de la ONU y a garantizar la estabilidad de los flujos energéticos. El republicano, sobre el mandatario ruso: “Es mi amigo”",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Relaciones internacionales y la sitúa en No identificado / Internacional.",
+        "summary": "En el único cara a cara de la campaña, el candidato popular enmienda la totalidad de la gestión del Gobierno y cuestiona una y otra vez la decencia de su rival, que opta por un tono pausado y minimiza el choque directo",
+        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
         "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
+          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
+          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
         ],
         "status": "ready"
       },
@@ -81,55 +76,27 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Xi, Trump y Putin, tras la cumbre de Shenzhen: “Una guerra nuclear no se puede ganar y nunca debe librarse”",
-          "description": "Los líderes de las tres mayores potencias se comprometen a impulsar una reforma de la ONU y a garantizar la estabilidad de los flujos energéticos. El republicano, sobre el mandatario ruso: “Es mi amigo”",
-          "url": "https://elpais.com/internacional/2026-11-19/trump-y-putin-interactuan-en-shenzhen-antes-de-las-reuniones-con-xi.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/K5ALE3WIAFB4LF5A6O4UF3B7LU.jpg?auth=74afe4724d852ed7f81dbb85f71248660221ec93e37a776f35f5b96061f20b69",
-          "published_raw": "Thu, 19 Nov 2026 11:11:25 GMT",
-          "published_at": "2026-11-19T08:11:25-0300",
+          "title": "Feijóo se lanza al ataque ante un Sánchez que evita el cuerpo a cuerpo",
+          "description": "En el único cara a cara de la campaña, el candidato popular enmienda la totalidad de la gestión del Gobierno y cuestiona una y otra vez la decencia de su rival, que opta por un tono pausado y minimiza el choque directo",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/feijoo-enmienda-ocho-anos-de-gobierno-ante-un-sanchez-que-evita-la-confrontacion.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/MG2HTHFVZJAAXFYQUD56WEFK6U.jpg?auth=60be129e858d9b49619e9ad04082e6b10e18793c6c1c51f32699f30c9ef5f962",
+          "published_raw": "Thu, 19 Nov 2026 23:13:55 GMT",
+          "published_at": "2026-11-19T20:13:55-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
           "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 2,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Relaciones internacionales",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
-        },
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "¿La ‘Nueva Yalta’? Las claves de la primera cumbre de Trump, Putin y Xi",
-          "description": "El presidente de EE UU asegura que, además del control de armamento e Irán, abordarán la guerra en Ucrania",
-          "url": "https://elpais.com/internacional/2026-11-18/la-nueva-yalta-las-claves-de-la-primera-cumbre-de-trump-putin-y-xi.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/QLH4IRHX7FP6HF72DWPM4BI4MU.jpg?auth=6d3ca8c592aa8398e9c905f05fd3c6aa07a305362a45e72fb42f3b7fa82808c1",
-          "published_raw": "Wed, 18 Nov 2026 17:13:12 GMT",
-          "published_at": "2026-11-18T14:13:12-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 1,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 1,
           "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
+          "score_accident": 1,
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
           "cluster_id": "PML-EVENT-019"
@@ -138,9 +105,82 @@
     },
     {
       "position": 2,
+      "cluster_id": "PML-EVENT-012",
+      "title": "La Corte Suprema declara inconstitucional la desregulación de los seguros privados de salud que decretó Milei",
+      "url": "https://elpais.com/argentina/2026-11-19/la-corte-suprema-declara-inconstitucional-la-desregulacion-de-los-seguros-privados-de-salud-que-decreto-milei.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "América Latina",
+        "country": "Argentina / América Latina"
+      },
+      "relevance": {
+        "score": 64.7,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 76.7
+      },
+      "selection": {
+        "reason": "PML 64.7; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-19T19:58:01-0300",
+      "last_seen": "2026-11-19T19:58:01-0300",
+      "entities": "milei",
+      "event_terms": "tribunal",
+      "analysis": {
+        "summary": "El fallo del máximo tribunal amenaza la legalidad de un decreto clave para el programa económico del Gobierno argentino",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Argentina / América Latina.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "La Corte Suprema declara inconstitucional la desregulación de los seguros privados de salud que decretó Milei",
+          "description": "El fallo del máximo tribunal amenaza la legalidad de un decreto clave para el programa económico del Gobierno argentino",
+          "url": "https://elpais.com/argentina/2026-11-19/la-corte-suprema-declara-inconstitucional-la-desregulacion-de-los-seguros-privados-de-salud-que-decreto-milei.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/OE5SHY7HGFFM3M5XMLULFK5YAA.jpg?auth=f244aec45f7ae265305333a70eff7a4662b35f236187bf192de715dcba83e7d4",
+          "published_raw": "Thu, 19 Nov 2026 22:58:01 GMT",
+          "published_at": "2026-11-19T19:58:01-0300",
+          "country": "Argentina",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 4,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-012"
+        }
+      ]
+    },
+    {
+      "position": 3,
       "cluster_id": "PML-EVENT-004",
-      "title": "Cámara aprobó Sala Cuna y la envió al Senado, que estima despacharla la próxima semana",
-      "url": "https://www.cooperativa.cl/noticias/pais/trabajo/camara-aprobo-sala-cuna-y-la-envio-al-senado-que-estima-despacharla-la/2026-11-18/155855.html",
+      "title": "Sumario por hurto y ley Karin: Lincolao explicó despidos previos a renuncia de subsecretaria Rossi",
+      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/sumario-por-hurto-y-ley-karin-lincolao-explico-despidos-previos-a/2026-11-19/163849.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -149,12 +189,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 60.2,
-        "level": "MEDIA",
-        "editorial_utility": 72.2
+        "score": 63.1,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 63.1
       },
       "selection": {
-        "reason": "PML 60.2; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 63.1; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -164,16 +204,18 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-18T15:58:55-0300",
-      "last_seen": "2026-11-18T15:58:55-0300",
+      "first_seen": "2026-11-19T16:38:49-0300",
+      "last_seen": "2026-11-19T16:38:49-0300",
       "entities": [
-        "senado",
         "chile",
-        "boric"
+        "congreso"
       ],
-      "event_terms": [],
+      "event_terms": [
+        "crisis",
+        "oposicion"
+      ],
       "analysis": {
-        "summary": "El proyecto de Sala Cuna Universal fue aprobado esta jornada por la Sala de la Cámara de Diputadas y Diputados, por lo que fue despachado al Senado. La iniciativa  tuvo el visto bueno del hemiciclo con 132 votos a favor y 12 abstenciones, por lo que inició su tercer trámite constitucional. ✅ APROBADO | La Cámara respalda el proyecto de Sala Cuna Universal. Vuelve al Senado, con modificaciones.",
+        "summary": "La ministra de Ciencia, Tecnología e Innovación, Ximena Lincolao , explicó este jueves los motivos detrás de los sumarios y despidos previos ocurridos al interior de la cartera, que marcaron la renuncia de la subsecretaria Carolina Rossi . Las salidas se ejecutaron de manera sorpresiva en momentos en que la ministra se encontraba en el extranjero -en el marco de su agenda en Silicon Valley y la cumbre de la APEC - y mientras la subsecretaria Rossi oficiaba como ministra…",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -186,27 +228,27 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Cámara aprobó Sala Cuna y la envió al Senado, que estima despacharla la próxima semana",
-          "description": "El proyecto de Sala Cuna Universal fue aprobado esta jornada por la Sala de la Cámara de Diputadas y Diputados, por lo que fue despachado al Senado. La iniciativa  tuvo el visto bueno del hemiciclo con 132 votos a favor y 12 abstenciones, por lo que inició su tercer trámite constitucional. ✅ APROBADO | La Cámara respalda el proyecto de Sala Cuna Universal. Vuelve al Senado, con modificaciones. — Diputadas y Diputados de Chile (@Camara_cl) November 18, 2026 La iniciativa amplía el derecho eliminando la exigencia de que las empresas tengan 20 o más trabajadoras para estar obligadas a proveerlo, además de crear un Fondo Solidario para financiarlo. También amplía la cobertura a trabajadoras y trabajadores, incluidos determinados independientes. El ministro del Trabajo, Tomás Rau , dijo que \"estamos muy contentos, hemos tenido una jornada histórica. Quiero agradecer a cada uno de los presentes que hizo posible este avance, nos queda todavía el tercer trámite, pero la votación que hemos logrado hoy día ha sido muy importante. Acá no ha sido por un voto, no ha sido por dos votos, ha sido por decenas de votos. No estamos hablando de un triunfo de un gobierno en particular, este proyecto partió en el gobierno del Presidente Piñera, siguió en el gobierno del Presidente Boric y el Presidente Kast ahora lo ha retomado\". \"Este proyecto viene primero a hacer justicia a las mujeres de Chile, también este proyecto va a proveer acceso a salas cunas a decenas de miles de niños que hoy día no tienen acceso a sala cuna\", valoró. SALA CUNA UNIVERSAL 📰| Cámara respaldó extensión del beneficio de la sala cuna. https://t.co/NJ1eTNFm09 — Diputadas y Diputados de Chile (@Camara_cl) November 18, 2026 La presidenta del Senado, Paulina Núñez (RN), anunció que el martes 24 se dará cuenta en la Sala el proyecto de Sala Cuna, con miras a despacharlo a ley el miércoles 25. \"Queremos comprometernos con los siguientes tiempos: el día martes vamos a dar cuenta en la Sala para que este proyecto lo conozca la Comisión de Trabajo que está presidida por el senador Luciano Cruz-Coke y ojalá al día siguiente podamos despacharlo nuevamente a la Sala con tal de que tengamos un día histórico\", sostuvo la parlamentaria. Gobierno se comprometió a establecer tope del 20% al copago Uno de los puntos que generaron mayor discusión fue el eventual copago que tendrán que pagar las familias. Sin embargo, antes de la votación, el Gobierno se comprometió a presentar, a través de una ley miscelánea antes de fin de año, una modificación para que el pago no supere el 20%. Rau  explicó que, \"como está el proyecto actualmente, el copago tiene una protección solo para las familias vulnerables en el tramo del 40%  del Registro Social de Hogares; allí, contempla un subsidio del 50% del copago que se genere. Y las familias pertenecientes al tramo 41%-60%, tienen un subsidio del 30%\". \"Eso es financiado con cargo al Fondo (Solidario). Lo que hemos planteado es que, a través de una ley miscelánea, nos comprometemos de aquí a fin de año no dejar libremente el copago, sino ponerle un tope del 20%\", sostuvo. La diputada Constanza Schönhaut (FA) planteó que \"Chile lleva décadas castigando la contratación de las mujeres y con un desempleo femenino del 10,5 por ciento es urgente levantar esas barreras, por eso votamos a favor de este proyecto en general, pero es inaceptable que el gobierno intente escalar este proyecto como universal, porque la plata va a salir del seguro de cesantía de los trabajadores y del bolsillo de las familias con la incorporación del copago\". \"Votamos en contra del sistema de financiamiento del copago e insistimos en incorporar al sector público, a Junji, Integra, al sistema de financiamiento a través del fondo que fue rechazado finalmente\", añadió.",
-          "url": "https://www.cooperativa.cl/noticias/pais/trabajo/camara-aprobo-sala-cuna-y-la-envio-al-senado-que-estima-despacharla-la/2026-11-18/155855.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261118/imag/foto_0000000220261118155855.png",
-          "published_raw": "Wed, 18 Nov 2026 15:58:55 -0300",
-          "published_at": "2026-11-18T15:58:55-0300",
+          "title": "Sumario por hurto y ley Karin: Lincolao explicó despidos previos a renuncia de subsecretaria Rossi",
+          "description": "La ministra de Ciencia, Tecnología e Innovación, Ximena Lincolao , explicó este jueves los motivos detrás de los sumarios y despidos previos ocurridos al interior de la cartera, que marcaron la renuncia de la subsecretaria Carolina Rossi . Las salidas se ejecutaron de manera sorpresiva en momentos en que la ministra se encontraba en el extranjero -en el marco de su agenda en Silicon Valley y la cumbre de la APEC - y mientras la subsecretaria Rossi oficiaba como ministra subrogante, sin haber sido informada de la determinación. La medida afectó a Juan José Tagle , asesor jurídico a honorarios estrechamente vinculado al gabinete de Rossi, además de Magdalena Calcagni y Tomás Rivero, profesionales pertenecientes a la División de Tecnologías Emergentes. [Lea también] Gobierno intervino el Ministerio de Ciencia por conflicto entre ministra Lincolao y subsecretaria Rossi Al ser consultada por la situación, la ministra Lincolao explicó que \"yo estaba en una comisión de servicio. La subsecretaria (Rossi) era la ministra y la subsecretaria subrogante (Carolina Calvo) . Entre ellas dos conversaron este tema el día anterior\". \"Los despidos venían por un sumario que existía a una persona por hurto, la otra persona tenía otro sumario, una Ley Karin , y la otra persona tenía problemas de gestión . Estas son personas a honorarios, y otra persona que era un jefe de división: dos de honorarios y uno jefe de división\", indicó la secretaria de Estado. Lincolao hizo hincapié en que \"yo vengo de una escuela donde no se habla de las razones por las cuales las personas son destituidas, por respeto a las personas. Pero, lamentablemente, me veo obligada a dar este detalle para que se sepa que esto no tiene que ver con desvinculaciones a los otros funcionarios\". Con la dimisión de Carolina Rossi, la cartera registra ya la segunda renuncia en su subsecretaría. Su partida se suma a la salida previa del exsubsecretario  Rafael Araos , quien al dejar el cargo había señalado diferencias de gestión y visión con el Gobierno. \"Aprecio el trabajo que hicieron los dos subsecretarios\" Consultada por los medios a su ingreso al encuentro Emprende Tu Mente (ETM), la secretaria de Estado evitó responder directamente si ha considerado renunciar, asegurando que su relación con el Gobierno \"es excelente\". Frente a la insistencia de los reporteros sobre una eventual crisis en la cartera de Ciencia, la ministra respondió que ese es \"el foco de algunos, no el foco de todos\". Finalmente, Lincolao se refirió a los sumarios previos a la salida de la ahora exsubsecretaria Rossi: \" Yo aprecio el trabajo que hicieron los dos subsecretarios muchísimo. Les deseo lo mejor, pero esas son cosas que ocurren\" , aseveró. \"(Con) lo que nosotros nos tenemos que quedar es que Chile no puede quedarse en esa parte, tiene que quedarse en la grande: esta. Y ese es el foco mío: elevar al país, sacar al país de estar al sur del mundo, y eso es lo que está haciendo acá \", concluyó. Reacciones desde el Congreso El jefe de bancada del Partido Republicano, el diputado Benjamín Moreno , comentó que \"se pueden ir dos subsecretarios perfectamente, pero evidentemente uno ve las cosas que se van haciendo en el Ministerio y ahí uno puede poner en la balanza y decir 'se están haciendo cosas que son convenientes en materia de ciencias e innovación, sí o no', se están firmando convenios importantes y ahí cada uno podrá tener su análisis en esta materia\". \"Hay formas de trabajar que no siempre acomodan con todos y la ministra Lincolao me imagino tiene una forma, una energía, una rapidez para trabajar, que quizás no siempre va calzando con todos\", añadió. Moreno sostuvo que \" si hay un ministro o subsecretario que cuenta con el respaldo del Presidente Kast, cuenta con mi respaldo , y si él encuentra que es bueno, yo encuentro que es bueno\". Desde la oposición, el diputado Daniel Manouchehri (PS) planteó que \"la pregunta de fondo es ¿por qué no sacaron antes a la subsecretaria? Porque las denuncias por Ley Karin que tenían eran anteriores y las situaciones que se han denunciado eran bien escandalosas, una subsecretaria que intervenía a favor de funcionarios que fueron despedidos por situaciones muy graves, como robarse un matero, unas cosas que además de graves son situaciones bien ordinarias que estaban aconteciendo\". \"Nosotros vemos que este sigue siendo un gobierno poco serio y pareciera que esta vez sí le pudieron doblar la mano al segundo piso. Yo volvería a insistirle al segundo piso a que deje trabajar a sus ministros\", agregó.",
+          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/sumario-por-hurto-y-ley-karin-lincolao-explico-despidos-previos-a/2026-11-19/163849.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261119/imag/foto_0000000220261119163849.png",
+          "published_raw": "Thu, 19 Nov 2026 16:38:49 -0300",
+          "published_at": "2026-11-19T16:38:49-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 9,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
+          "score_institutional": 8,
+          "score_elections": 0,
+          "score_international": 1,
+          "score_conflict": 1,
+          "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 5,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 16,
+          "political_evidence": 15,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "high",
           "cluster_id": "PML-EVENT-004"
@@ -214,170 +256,24 @@
       ]
     },
     {
-      "position": 3,
-      "cluster_id": "PML-EVENT-024",
-      "title": "La caída de Ueno Bank en Paraguay arrastra al jefe de fiscales y amenaza al contralor",
-      "url": "https://elpais.com/america/2026-11-19/la-caida-de-ueno-bank-en-paraguay-arrastra-al-jefe-de-fiscales-y-amenaza-al-contralor.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "No identificado / América Latina"
-      },
-      "relevance": {
-        "score": 57,
-        "level": "MEDIA",
-        "editorial_utility": 57
-      },
-      "selection": {
-        "reason": "PML 57; fallback editorial controlado; aporta diversidad geográfica",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-19T06:30:00-0300",
-      "last_seen": "2026-11-19T06:30:00-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "Varios altos cargos del Gobierno y del Estado, entre ellos el presidente Santiago Peña, están entre rejas por uno de los mayores escándalos financieros del país",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "La caída de Ueno Bank en Paraguay arrastra al jefe de fiscales y amenaza al contralor",
-          "description": "Varios altos cargos del Gobierno y del Estado, entre ellos el presidente Santiago Peña, están entre rejas por uno de los mayores escándalos financieros del país",
-          "url": "https://elpais.com/america/2026-11-19/la-caida-de-ueno-bank-en-paraguay-arrastra-al-jefe-de-fiscales-y-amenaza-al-contralor.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/KGKL37LSU5JRDE4S4YURKIPI3U.jpg?auth=820e9080b68adc6fe33907df19dd30f0123715f171c6d89573fbf4cc9bb305ad",
-          "published_raw": "Thu, 19 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-19T06:30:00-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 2,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
-        }
-      ]
-    },
-    {
       "position": 4,
-      "cluster_id": "PML-EVENT-025",
-      "title": "Carlos Slim, junto a Joseph Oughourlian: “Invertir en México significa empleo y desarrollo económico”",
-      "url": "https://elpais.com/mexico/2026-11-19/carlos-slim-junto-a-joseph-oughourlian-invertir-en-mexico-significa-empleo-y-desarrollo-economico.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-006",
+      "title": "Kaiser respalda a diputados del PNL ante posible acusación contra Chomali",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/kaiser-respalda-a-diputados-del-pnl-ante-posible-acusacion-contra-chomali/2026-11-19/154453.html",
+      "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
+      "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
-        "group": "América Latina",
-        "country": "México / América Latina"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 55.8,
+        "score": 59.8,
         "level": "MEDIA",
-        "editorial_utility": 49.8
+        "editorial_utility": 55.8
       },
       "selection": {
-        "reason": "PML 55.8; fallback editorial controlado; diversidad relajada para completar el brief",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-19T04:31:00-0300",
-      "last_seen": "2026-11-19T04:31:00-0300",
-      "entities": "mexico",
-      "event_terms": [],
-      "analysis": {
-        "summary": "El presidente de PRISA y de EL PAÍS reconoce la trayectoria del empresario mexicano, su compromiso con el país norteamericano y su visión a la hora de invertir a largo plazo",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en México / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Carlos Slim, junto a Joseph Oughourlian: “Invertir en México significa empleo y desarrollo económico”",
-          "description": "El presidente de PRISA y de EL PAÍS reconoce la trayectoria del empresario mexicano, su compromiso con el país norteamericano y su visión a la hora de invertir a largo plazo",
-          "url": "https://elpais.com/mexico/2026-11-19/carlos-slim-junto-a-joseph-oughourlian-invertir-en-mexico-significa-empleo-y-desarrollo-economico.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/7YRX2JJGWBBNHP2P5RNW5DXZUM.JPG?auth=017b9baac89d9177d92b331710a1d6532e94c5641599726c8f34659994a57c7c",
-          "published_raw": "Thu, 19 Nov 2026 07:31:00 GMT",
-          "published_at": "2026-11-19T04:31:00-0300",
-          "country": "México",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-025"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-027",
-      "title": "El fiscal general de Paraguay renuncia ante la advertencia de un juicio político por el caso Ueno Bank",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261117-el-fiscal-general-de-paraguay-renuncia-ante-la-advertencia-de-un-juicio-pol%C3%ADtico-por-el-caso-ueno-bank",
-      "representative_source": "France 24",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "América Latina",
-        "country": "Paraguay / América Latina"
-      },
-      "relevance": {
-        "score": 51.2,
-        "level": "BAJA",
-        "editorial_utility": 44.2
-      },
-      "selection": {
-        "reason": "PML 51.2; diversidad relajada para completar el brief",
+        "reason": "PML 59.8; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -385,50 +281,127 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "France 24"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-17T16:09:26-0300",
-      "last_seen": "2026-11-17T16:09:26-0300",
-      "entities": [],
-      "event_terms": "crisis",
+      "first_seen": "2026-11-19T15:44:53-0300",
+      "last_seen": "2026-11-19T15:44:53-0300",
+      "entities": "senado",
+      "event_terms": "interpelacion",
       "analysis": {
-        "summary": "El fiscal general de Paraguay renunció este martes 17 de noviembre en medio de las gestiones de la Cámara de Diputados para someterlo a juicio político y de críticas por su actuación en la crisis bancaria, según una carta divulgada por medios.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Paraguay / América Latina.",
+        "summary": "El presidente del Partido Nacional Libertario (PNL), Johannes Kaiser , comprometió este jueves el respaldo de su partido a las decisiones que adopten sus diputados, luego de que Hans Marowski planteara la posibilidad de acusar constitucionalmente a la ministra de Salud, May Chomali . El emplazamiento surgió después de que el Senado rechazara el miércoles, con 21 votos a favor y 21 en contra , una indicación del Gobierno al proyecto de Presupuesto 2027.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "El fiscal general de Paraguay renuncia ante la advertencia de un juicio político por el caso Ueno Bank",
-          "description": "El fiscal general de Paraguay renunció este martes 17 de noviembre en medio de las gestiones de la Cámara de Diputados para someterlo a juicio político y de críticas por su actuación en la crisis bancaria, según una carta divulgada por medios.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261117-el-fiscal-general-de-paraguay-renuncia-ante-la-advertencia-de-un-juicio-pol%C3%ADtico-por-el-caso-ueno-bank",
-          "image_url": "https://s.france24.com/media/display/67ac17f8-e2ba-11f1-9f12-1ba7ddfab527/w:1024/p:16x9/ab25ccdb932268ef586c52484bce931358481fa1.jpg",
-          "published_raw": "Tue, 17 Nov 2026 19:09:26 GMT",
-          "published_at": "2026-11-17T16:09:26-0300",
-          "country": "Paraguay",
-          "region": "América Latina",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Kaiser respalda a diputados del PNL ante posible acusación contra Chomali",
+          "description": "El presidente del Partido Nacional Libertario (PNL), Johannes Kaiser , comprometió este jueves el respaldo de su partido a las decisiones que adopten sus diputados, luego de que Hans Marowski planteara la posibilidad de acusar constitucionalmente a la ministra de Salud, May Chomali . El emplazamiento surgió después de que el Senado rechazara el miércoles, con 21 votos a favor y 21 en contra , una indicación del Gobierno al proyecto de Presupuesto 2027. El Ejecutivo buscaba impedir que se usaran recursos de Salud para financiar terapias de hormonización cruzada en menores de 18 años, así como cirugías con la misma finalidad. La propuesta del Ejecutivo contemplaba una excepción para quienes ya recibieran esos fármacos con financiamiento público al 31 de diciembre de 2026. Para continuar el tratamiento, exigía una reevaluación clínica individual y documentada y el consentimiento de sus padres o representantes legales. En un video publicado en X , Marowski afirmó que Chomali se había comprometido con los diputados a poner fin al financiamiento público de estos tratamientos y a modificar la normativa que lo permite. \"No queremos más promesas ni explicaciones, queremos hechos y garantías concretas\", dijo el diputado. Agregó que, si se mantiene ese financiamiento, buscarán que se determinen las responsabilidades políticas, \"incluida una acusación constitucional si existieran los fundamentos\" . @MinistraChomali con los niños no se juega. #MayChomali #ministeriodesalud #hormonizaciondeniños #infancia https://t.co/bK3iaqJVKe — Hans Marowski C. (@HMarowskiC) November 18, 2026 Kaiser ofreció el respaldo del partido a su bancada Consultado en la sede del PNL por la eventual responsabilidad de Chomali, Kaiser sostuvo que el Ministerio de Salud ha ignorado las recomendaciones de la comisión investigadora de la Cámara sobre tratamientos hormonales en menores de edad , según consignó La Tercera . \"Si se descubre que desde el Ministerio (de Salud) se siguen realizando intervenciones que son lesivas para la salud de menores de edad, entonces evidentemente que nuestros parlamentarios tomarán las decisiones que consideren correctas. El PNL los va a respaldar \", afirmó el excandidato presidencial. Kaiser emplazó a Kast y defendió la interpelación En el mismo punto de prensa, Kaiser también cuestionó al Presidente José Antonio Kast , de gira por Asia , y defendió el uso de la interpelación parlamentaria. \"El señor Presidente de la República tiene la obligación de solucionar los problemas y debería dedicarse a eso. La interpelación es un instrumento de fiscalización de la Cámara de Diputados, no es una sanción \", sostuvo. Kaiser agregó que \"para eso se eligió al señor Presidente de la República, no para ser comentarista\" .",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/kaiser-respalda-a-diputados-del-pnl-ante-posible-acusacion-contra-chomali/2026-11-19/154453.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261119/imag/foto_0000000220261119154453.jpg",
+          "published_raw": "Thu, 19 Nov 2026 15:44:53 -0300",
+          "published_at": "2026-11-19T15:44:53-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 7,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
-          "score_policy": 0,
+          "score_policy": 2,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 3,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 12,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-006"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-001",
+      "title": "Fiscalía investiga falsificación de firma de senadora que está con Kast en Asia",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/fiscalia-investiga-falsificacion-de-firma-de-senadora-que-esta-con-kast/2026-11-19/083545.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 58.9,
+        "level": "MEDIA",
+        "editorial_utility": 51.9
+      },
+      "selection": {
+        "reason": "PML 58.9; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-19T08:35:45-0300",
+      "last_seen": "2026-11-19T08:35:45-0300",
+      "entities": [
+        "congreso",
+        "senado",
+        "chile"
+      ],
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "La Fiscalía Regional de Valparaíso  abrió una investigación de oficio para esclarecer una eventual falsificación de la firma de la senadora Ximena Órdenes (independiente-Partido Por la Democracia). La controversia estalló el martes por la tarde, tras aparecer en la Cámara Alta el retiro de los permisos constitucionales de la legisladora y Fidel Espinoza (Partido Socialista), quienes integran la comitiva del Presidente José Antonio Kast en su gira por Asia .  Dicha…",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Fiscalía investiga falsificación de firma de senadora que está con Kast en Asia",
+          "description": "La Fiscalía Regional de Valparaíso  abrió una investigación de oficio para esclarecer una eventual falsificación de la firma de la senadora Ximena Órdenes (independiente-Partido Por la Democracia). La controversia estalló el martes por la tarde, tras aparecer en la Cámara Alta el retiro de los permisos constitucionales de la legisladora y Fidel Espinoza (Partido Socialista), quienes integran la comitiva del Presidente José Antonio Kast en su gira por Asia .  Dicha modificación implicaba aumentar nuevamente el quórum necesario para aprobar determinadas materias en el Congreso , en medio de la discusión del proyecto del Presupuesto 2027 . Mientras Espinoza descartó una falsificación de su firma y atribuyó lo ocurrido a una desprolijidad administrativa ,  el senador del PPD Pedro Araya dio lectura ayer en Sala a una carta de Órdenes, en la que la parlamentaria negó haber solicitado el retiro de su autorización. \"Quiero señalar, de manera categórica, que no he retirado mi solicitud de permiso constitucional, no he suscrito ni remitido ningún documento en ese sentido y tampoco he autorizado a ninguna persona para utilizar mi firma o actuar en mi representación con ese propósito . Saluda atentamente a usted, Ximena Órdenes Neira, senadora\", decía la misiva leída por Araya. Sus declaraciones motivaron la investigación de oficio del Ministerio Público. Tras dar lectura al documento, el senador Rodolfo Carter (independiente-Partido Republicano) solicitó que los antecedentes fueran certificados y remitidos al Ministerio Público para \"que acredite quién eventualmente ha cometido este delito\". \"A lo menos hay una falsificación de firma de una senadora de la República\" , advirtió el oficialista. Órdenes: \"Espero que esto sea esclarecido a la brevedad\" Desde el otro lado del mundo, la senadora Órdenes abordó hoy la controversia y recalcó: \"En medio de la gira presidencial en Asia, tomé conocimiento que el permiso constitucional que había solicitado oportunamente y que había sido conocido y aprobado por la sala del Senado, había sido retirado\". \"En ese sentido, quiero señalar que en ningún momento yo solicité y menos autoricé el retiro de ese permiso \", subrayó.  \"Desconozco el formato y el procedimiento que se utilizó para la adopción de esa acción. Y espero que esto sea esclarecido sin duda a la brevedad posible \", agregó. En el Congreso, Araya precisó hoy que \"lo que ella (Órdenes) quiso es que quedaran de manifiesto públicamente que ella no tuvo nada que ver. Efectivamente está consciente de que, producto de la actuación del Ministerio Público, hay una investigación y ella va a colaborar en calidad de víctima \". \"La intención de ella en ningún minuto fue generar este tipo de situaciones, pero, claramente, si estamos en presencia de un delito -y así lo ha determinado la Fiscalía-, tendrá que investigarse\", recalcó. Castro: \"Es una materia resuelta\" Ayer, sin embargo, el senador Juan Luis Castro (Partido Socialista), jefe del comité del Socialismo Democrático (que agrupa a senadores del PS, PPD y Partido Liberal), restó gravedad al episodio y aseguró que la situación ya había sido resuelta. \"(Quiero) decirles a los colegas que están un poco nerviosos que ese tema reglamentario se resolvió ayer (martes) por la noche en conformidad con la propia interesada, así que eso es una materia resuelta \", afirmó el parlamentario. Por su parte, la presidenta del Senado, Paulina Núñez (Renovación Nacional), explicó que  \"el documento llegó firmado por la senadora (Órdenes), al parecer sin la anuencia de ella. Por lo tanto, lo primero que correspondía era que, nuevamente, esos permisos estuvieran presentados\". La controversia también tiene una arista política, debido a las diferencias que mantienen Araya y Castro , luego de que el comité del Socialismo Democrático resolviera sacar al primero de la presidencia de la Comisión de Constitución . \"Gracias al senador Juan Luis Castro, el Gobierno sale del fondo del ring y hoy día entra la oposición a dar explicaciones. Entonces, hay un error político que es del porte de una catedral\" , fustigó Araya. El próximo martes, con Órdenes ya de regreso en Chile, la bancada del PPD se reunirá para definir una postura común, aunque el presidente de la colectividad, el diputado Raúl Soto, ya apuntó en una entrevista que la parlamentaria fue víctima de una acción \"cuestionable\" , al retirar ese permiso constitucional sin su consentimiento, y con la eventual utilización de su firma sin su autorización. Mesa del Senado: \"A la fecha, no existe una confirmación de que se haya producido una falsificación de firmas\" Finalmente, la mesa del Senado , encabezada por Núñez y el vicepresidente Iván Moreira (UDI), se refirió a la controversia y señaló que \" a la fecha, no existe una confirmación de que se haya producido una falsificación de firmas en la tramitación de estos permisos, incluso uno de los senadores involucrados lo ha descartado públicamente.  Por lo tanto, resulta improcedente presentar como un hecho acreditado una situación que no ha sido establecida\". Respecto de la situación planteada por Órdenes, la directiva anunció que analizará la solicitud presentada en la Sala para determinar los pasos institucionales correspondientes y sostuvo que serán las instancias competentes las encargadas de esclarecer eventuales irregularidades. Asimismo, aclaró que la recepción de los documentos por parte de la Secretaría del Senado constituye un trámite administrativo y no implica validar las autorizaciones ni verificar las circunstancias en que fueron firmadas. Finalmente, informó que la Corporación no ha recibido una notificación oficial sobre la investigación de oficio del Ministerio Público , aunque aseguró que \"colaborará plenamente con la Fiscalía, entregando los antecedentes que sean solicitados, en el marco de sus atribuciones y procedimientos institucionales\".",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/fiscalia-investiga-falsificacion-de-firma-de-senadora-que-esta-con-kast/2026-11-19/083545.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261119/imag/foto_0000000220261119083545.jpg",
+          "published_raw": "Thu, 19 Nov 2026 08:35:45 -0300",
+          "published_at": "2026-11-19T08:35:45-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 9,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 2,
+          "score_actor": 6,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 18,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-001"
         }
       ]
     }
@@ -441,7 +414,79 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-016",
+        "cluster_id": "PML-EVENT-003",
+        "title": "Caso Firmas: Gobierno calificó de \"máxima gravedad\" retiro de permisos en el Senado",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/caso-firmas-gobierno-califico-de-maxima-gravedad-retiro-de-permisos/2026-11-19/155845.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 57.4,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 60,
+            "freshness": 95,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 36
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-19T15:58:45-0300",
+        "last_seen": "2026-11-19T15:58:45-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Caso Firmas: Gobierno calificó de \"máxima gravedad\" retiro de permisos en el Senado",
+            "description": "En medio de una investigación abierta por el Ministerio Público ante una eventual falsificación de firmas , el vicepresidente de la República, Claudio Alvarado , calificó como una situación de \"máxima gravedad\" el retiro de los permisos constitucionales de los senadores  Ximena Órdenes (independiente-Partido Por la Democracia) y  Fidel Espinoza (Partido Socialista), sin que ambos tuvieran conocimiento de la gestión. \"Es una situación lamentable que nunca debería suceder. Tratar de alterar los quórum del Senado de la República , a través de documentos que no son fidedignos , yo creo que es de la máxima gravedad . Es altamente cuestionable y éticamente reprochable \", dijo el biministro del Interior y de la Secretaría General de Gobierno (Segegob). La autoridad agregó que, \"si hay alguna consideración mayor en este acto, serán otras instancias que tienen que decidir\". La controversia estalló estalló el martes por la tarde, tras aparecer en la Cámara Alta el retiro de los permisos constitucionales de Órdenes y Espinoza, quienes integran la comitiva del Presidente José Antonio Kast en su gira por Asia .  Dicha modificación implicaba aumentar nuevamente el quórum necesario para aprobar determinadas materias en el Congreso , en medio de la discusión del proyecto del Presupuesto 2027 . Mientras Espinoza descartó una falsificación de su firma y atribuyó lo ocurrido a una desprolijidad administrativa,  Órdenes negó haber solicitado el retiro de su autorización y la  Fiscalía Regional de Valparaíso abrió una investigación de oficio . \"En medio de la gira presidencial en Asia, tomé conocimiento que el permiso constitucional que había solicitado oportunamente y que había sido conocido y aprobado por la sala del Senado, había sido retirado\", señaló la senadora. \"En ese sentido, quiero señalar que en ningún momento yo solicité y menos autoricé el retiro de ese permiso. Desconozco el formato y el procedimiento que se utilizó para la adopción de esa acción. Y espero que esto sea esclarecido sin duda a la brevedad posible\" , recalcó. La presidenta del PS, Paulina Vodanovic , explicó que \"se suspendió la votación y se votó ayer con el quórum que correspondía, por lo tanto aquí no hubo ningún tipo de alteración , así es que no se produjo ese eventual daño\". \"Nosotros, como un partido que tiene 93 años de luchas sociales, vamos a hacer todos los esfuerzos políticos, con todos los partidos de la oposición, con el mismo PPD, para acercar nuestras posiciones, porque no puede ser que en vez de estar peleando por los derechos de los chilenos estemos en discusiones absolutamente estériles\", añadió. La  Mesa del Senado emitió una declaración pública en la que indicó que \" a la fecha, no existe una confirmación de que se haya producido una falsificación de firmas en la tramitación de estos permisos , incluso uno de los senadores involucrados lo ha descartado públicamente\".  Asimismo, la directiva anunció que analizará la solicitud presentada en Sala para evaluar los pasos institucionales que correspondan, incluida la eventual presentación de antecedentes ante la Fiscalía.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/caso-firmas-gobierno-califico-de-maxima-gravedad-retiro-de-permisos/2026-11-19/155845.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261119/imag/foto_0000000220261119155845.jpg",
+            "published_raw": "Thu, 19 Nov 2026 15:58:45 -0300",
+            "published_at": "2026-11-19T15:58:45-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 8,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 1,
+            "score_actor": 5,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 16,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-003"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 78.4
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-013",
         "title": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast",
         "topic": "Economía y políticas públicas",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -452,11 +497,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.2,
-          "level": "MEDIA",
+          "score": 51.2,
+          "level": "BAJA",
           "components": {
             "political_impact": 54,
-            "freshness": 88,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 28
@@ -496,7 +541,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-016"
+            "cluster_id": "PML-EVENT-013"
           }
         ],
         "article_count": 1,
@@ -507,103 +552,31 @@
             "Estado e instituciones",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 73.2
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-005",
-        "title": "Diputado de Evópoli defendió las críticas a Kast: \"No podemos confundir lealtad con obsecuencia\"",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/diputado-de-evopoli-defendio-las-criticas-a-kast-no-podemos-confundir/2026-11-18/111311.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 50.5,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 51,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 30
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-18T11:13:11-0300",
-        "last_seen": "2026-11-18T11:13:11-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Diputado de Evópoli defendió las críticas a Kast: \"No podemos confundir lealtad con obsecuencia\"",
-            "description": "El diputado Jorge Guzmán (Evópoli) defendió este miércoles en El Primer Café de Cooperativa el papel de Chile Vamos a la hora de advertir errores en el Gobierno de José Antonio Kast. El parlamentario discrepó con el secretario general del Partido Republicano, Vicente Bruna , quien cuestionó a los dirigentes del sector que hacen públicas sus diferencias con La Moneda. La discusión surgió a propósito de los dichos de la presidenta del Senado, Paulina Núñez , quien atribuyó el momento que atraviesa el Gobierno a \"errores propios de los distintos ministros y del Ejecutivo\". Guzmán recurrió al tenis para explicar qué ha complicado al oficialismo. \"Si esto fuera tenis, claramente el Gobierno ha cometido errores no forzados \", dijo el diputado, quien coincidió con Bruna en la necesidad de corregirlos con rapidez. \"No podemos confundir lealtad con obsecuencia\" , planteó el parlamentario quien indicó que la lealtad con el Presidente \"nos obliga a visualizar y hacer ver cuando existan situaciones que complejizan, que no van por un buen camino, que perjudican al desarrollo de Chile\". \"La mirada que ha tenido Chile Vamos, la mirada que ha tenido Evópoli, es hacer ver esos temas\", remarcó y agregó: \"Lo hicimos -por ejemplo- con mucha valentía y con mucha persistencia en la reforma constitucional de estado de excepción (...) y eso permitió tener una corrección al tema. Entonces yo creo que nuestra mirada es contribuir, aportar, ayudar, pero también ser muy claros cuando existan ideas o propuestas que no sean idóneas para el futuro de Chile\". Como ejemplo, recordó los reparos que planteó su sector durante la discusión de una reforma sobre estados de excepción constitucional. Según Guzmán, esa insistencia permitió corregir la propuesta. \"Nuestra mirada es contribuir, aportar, ayudar\", afirmó, pero también ser claros \"cuando existan ideas o propuestas que no sean idóneas para el futuro de Chile\" . Bruna cuestionó a los \"descolgados\" del oficialismo Bruna sostuvo que la gran mayoría del oficialismo respalda a Kast, aunque admitió que esperaba mayor cohesión. \"Lamento profundamente que existan personas que se sumen constantemente a las críticas públicas que nada contribuyen a mejorar la gestión del Gobierno\", señaló. Esos \"descolgados\", añadió, \"tensionan al oficialismo completo\" . Consultado por la responsabilidad del propio Ejecutivo, el dirigente republicano valoró que el vocero de Gobierno, Gonzalo Arenas , pidiera disculpas al Partido de la Gente tras describir a la colectividad como \"un cúmulo de deseos\" . Para Bruna, la reacción del subsecretario muestra que el Gobierno es capaz de reconocer sus errores.",
-            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/diputado-de-evopoli-defendio-las-criticas-a-kast-no-podemos-confundir/2026-11-18/111311.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261118/imag/foto_0000000220261118111311.jpg",
-            "published_raw": "Wed, 18 Nov 2026 11:13:11 -0300",
-            "published_at": "2026-11-18T11:13:11-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 8,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 0,
-            "score_actor": 6,
-            "score_noise": 1,
-            "score_accident": 0,
-            "political_evidence": 13,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": null,
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 21,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 71.5
+          "chile_utility": 69.2
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-008",
-        "title": "Voluntad para Chile busca constituirse como partido ante el Servel",
+        "cluster_id": "PML-EVENT-002",
+        "title": "Cámara aprobó Sala Cuna y la envió al Senado, que estima despacharla la próxima semana",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/voluntad-para-chile-busca-constituirse-como-partido-ante-el-servel/2026-11-17/210607.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/trabajo/camara-aprobo-sala-cuna-y-la-envio-al-senado-que-estima-despacharla-la/2026-11-18/155855.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 46.5,
-          "level": "BAJA",
+          "score": 55.2,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 52,
-            "freshness": 52,
+            "political_impact": 83,
+            "freshness": 62,
             "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 36
+            "geographic_scope": 40,
+            "continuity": 28
           }
         },
         "coverage": {
@@ -611,47 +584,47 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-17T21:06:07-0300",
-        "last_seen": "2026-11-17T21:06:07-0300",
+        "first_seen": "2026-11-18T15:58:55-0300",
+        "last_seen": "2026-11-18T15:58:55-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Voluntad para Chile busca constituirse como partido ante el Servel",
-            "description": "El nuevo partido de izquierda Voluntad para Chile inició su proceso de constitución legal ante el Servicio Electoral (Servel) con la presentación de más de 150 firmas , en una actividad que reunió a su directiva y marcó el comienzo para avanzar en la conformación de la colectividad. La presentación fue encabezada por su presidente Álvaro Ramis , exrector de la Universidad Academia de Humanismo Cristiano y presidente del Centro de Estudios Territorio y Comunidad; la secretaria general Natalia Garrido , dirigenta social; y el vicepresidente Rodrigo Mundaca , gobernador regional de Valparaíso. El grupo destacó la necesidad de construir una alternativa política vinculada con las comunidades , las organizaciones sociales y las demandas de la ciudadanía. \"Voluntad para Chile inicia una larga jornada para la unidad política y social del pueblo, para la construcción de un proyecto al servicio de las personas que se levantan temprano en la mañana a buscar la prosperidad, la felicidad, el trabajo, el desarrollo nacional, que defienden la soberanía de nuestra patria \", sostuvo Ramis. El líder del nuevo movimiento destacó que el trabajo de la organización tendrá como eje a las comunidades y sus condiciones de vida , desde la seguridad de las familias hasta las oportunidades para desarrollar sus proyectos personales y colectivos. La secretaria general, por su parte, relevó el origen de la iniciativa: \"Nace del encuentro de organizaciones sociales, dirigentes sociales, colectivos políticos y nos une la profunda convicción de que Chile necesita una herramienta política que vuelva a conectar con la vida concreta, con la vida real de las personas\". \"Hacemos un llamado hoy día a esperar pacientemente la respuesta del Servel y después nosotras vamos a salir a reunir todas esas firmas necesarias para tener una herramienta política al servicio del pueblo, de nuestras vecinas y vecinos \", manifestó Garrido. Por su parte, el gobernador Mundaca enfatizó en el carácter regional y descentralizador del proyecto: \"Santiago no es Chile, Chile son sus regiones\" . \"Somos una expresión organizada de resistencia, pero también somos una expresión organizada para proponerle a Chile un nuevo modelo de desarrollo que ponga en el centro el bienestar de las personas, la protección de la naturaleza, la generación de empleo, pero por sobre todas las cosas, también recupere la dignidad para todo el pueblo de Chile\", expresó el vicepresidente de la colectividad. El alcalde de La Cisterna, Joel Olmos, valoró la participación de trabajadores, pobladores, autoridades locales y representantes de organizaciones sociales en la conformación. \" Hay un movimiento social que hoy día se levanta organizado para reivindicar el derecho del pueblo chileno a tener una vida digna \", aseveró. En la presentación, también participaron otros integrantes de la directiva: Iván Carrasco, Joel Olmos, Catalina Valenzuela, Javier Pineda, Bárbara Sepúlveda, Manuel Jacques, Kassandra Prado y Constanza Maldonado.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/voluntad-para-chile-busca-constituirse-como-partido-ante-el-servel/2026-11-17/210607.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261117/imag/foto_0000000220261117210607.jpg",
-            "published_raw": "Tue, 17 Nov 2026 21:06:07 -0300",
-            "published_at": "2026-11-17T21:06:07-0300",
+            "title": "Cámara aprobó Sala Cuna y la envió al Senado, que estima despacharla la próxima semana",
+            "description": "El proyecto de Sala Cuna Universal fue aprobado esta jornada por la Sala de la Cámara de Diputadas y Diputados, por lo que fue despachado al Senado. La iniciativa  tuvo el visto bueno del hemiciclo con 132 votos a favor y 12 abstenciones, por lo que inició su tercer trámite constitucional. ✅ APROBADO | La Cámara respalda el proyecto de Sala Cuna Universal. Vuelve al Senado, con modificaciones. — Diputadas y Diputados de Chile (@Camara_cl) November 18, 2026 La iniciativa amplía el derecho eliminando la exigencia de que las empresas tengan 20 o más trabajadoras para estar obligadas a proveerlo, además de crear un Fondo Solidario para financiarlo. También amplía la cobertura a trabajadoras y trabajadores, incluidos determinados independientes. El ministro del Trabajo, Tomás Rau , dijo que \"estamos muy contentos, hemos tenido una jornada histórica. Quiero agradecer a cada uno de los presentes que hizo posible este avance, nos queda todavía el tercer trámite, pero la votación que hemos logrado hoy día ha sido muy importante. Acá no ha sido por un voto, no ha sido por dos votos, ha sido por decenas de votos. No estamos hablando de un triunfo de un gobierno en particular, este proyecto partió en el gobierno del Presidente Piñera, siguió en el gobierno del Presidente Boric y el Presidente Kast ahora lo ha retomado\". \"Este proyecto viene primero a hacer justicia a las mujeres de Chile, también este proyecto va a proveer acceso a salas cunas a decenas de miles de niños que hoy día no tienen acceso a sala cuna\", valoró. Por su parte, la ministra de la Mujer, Judith Marín , destacó que la propuesta \" va al corazón del empleo femenino , puesto que elimina la discriminación y el umbral de la trabajadora número 20\". \"En segundo lugar, es de toda justicia , y en tercer lugar, lo que hace este proyecto es hablar de corresponsabilidad , puesto que equipara el acceso a sala cuna tanto para trabajadores hombres y para mujeres\", relevó. SALA CUNA UNIVERSAL 📰| Cámara respaldó extensión del beneficio de la sala cuna. https://t.co/NJ1eTNFm09 — Diputadas y Diputados de Chile (@Camara_cl) November 18, 2026 La presidenta del Senado, Paulina Núñez (RN), anunció que el martes 24 se dará cuenta en la Sala el proyecto de Sala Cuna, con miras a despacharlo a ley el miércoles 25. \"Queremos comprometernos con los siguientes tiempos: el día martes vamos a dar cuenta en la Sala para que este proyecto lo conozca la Comisión de Trabajo que está presidida por el senador Luciano Cruz-Coke y ojalá al día siguiente podamos despacharlo nuevamente a la Sala con tal de que tengamos un día histórico\", sostuvo la parlamentaria. Gobierno se comprometió a establecer tope del 20% al copago Uno de los puntos que generaron mayor discusión fue el eventual copago que tendrán que pagar las familias. Sin embargo, antes de la votación, el Gobierno se comprometió a presentar, a través de una ley miscelánea antes de fin de año, una modificación para que el pago no supere el 20%. Rau  explicó que, \"como está el proyecto actualmente, el copago tiene una protección solo para las familias vulnerables en el tramo del 40%  del Registro Social de Hogares; allí, contempla un subsidio del 50% del copago que se genere. Y las familias pertenecientes al tramo 41%-60%, tienen un subsidio del 30%\". \"Eso es financiado con cargo al Fondo (Solidario). Lo que hemos planteado es que, a través de una ley miscelánea, nos comprometemos de aquí a fin de año no dejar libremente el copago, sino ponerle un tope del 20%\", sostuvo. La diputada Constanza Schönhaut (FA) planteó que \"Chile lleva décadas castigando la contratación de las mujeres y con un desempleo femenino del 10,5 por ciento es urgente levantar esas barreras, por eso votamos a favor de este proyecto en general, pero es inaceptable que el gobierno intente escalar este proyecto como universal, porque la plata va a salir del seguro de cesantía de los trabajadores y del bolsillo de las familias con la incorporación del copago\". \"Votamos en contra del sistema de financiamiento del copago e insistimos en incorporar al sector público, a Junji, Integra, al sistema de financiamiento a través del fondo que fue rechazado finalmente\", añadió. En la misma línea, la diputada comunista Sofía González  advirtió sobre el impacto que podría tener la utilización de recursos del seguro de cesantía y la obligación de las familias de cubrir eventuales diferencias. \"Estamos debilitando un derecho para financiar otro: por otro lado, si la sala cuna cobra más de lo que aporta el fondo, la diferencia deberá pagarla la propia familia. La sala cuna no puede convertirse en otro negociado financiado con el bolsillo de los trabajadores\", urgió. ",
+            "url": "https://www.cooperativa.cl/noticias/pais/trabajo/camara-aprobo-sala-cuna-y-la-envio-al-senado-que-estima-despacharla-la/2026-11-18/155855.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261118/imag/foto_0000000220261118155855.png",
+            "published_raw": "Wed, 18 Nov 2026 15:58:55 -0300",
+            "published_at": "2026-11-18T15:58:55-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 1,
+            "score_institutional": 9,
             "score_elections": 1,
             "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 1,
+            "score_conflict": 0,
+            "score_policy": 2,
             "score_ideology": 1,
-            "score_actor": 4,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 9,
+            "political_evidence": 18,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
+            "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-008"
+            "cluster_id": "PML-EVENT-002"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 19,
+          "bonus": 22,
           "labels": [
             "Estado e instituciones",
-            "Elecciones y opinión pública"
+            "Congreso y proceso legislativo"
           ],
-          "chile_utility": 65.5
+          "chile_utility": 77.2
         },
         "repeated_in_general_top5": false
       }
@@ -659,43 +632,39 @@
   },
   "topics": [
     {
-      "topic": "Relaciones internacionales",
-      "event_count": 1,
-      "maximum_relevance": 62.6,
-      "leading_story": "Xi, Trump y Putin, tras la cumbre de Shenzhen: “Una guerra nuclear no se puede ganar y nunca debe librarse”"
+      "topic": "Elecciones y opinión pública",
+      "event_count": 3,
+      "maximum_relevance": 65.1,
+      "leading_story": "Feijóo se lanza al ataque ante un Sánchez que evita el cuerpo a cuerpo"
     },
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 24,
-      "maximum_relevance": 60.2,
-      "leading_story": "Cámara aprobó Sala Cuna y la envió al Senado, que estima despacharla la próxima semana"
+      "event_count": 21,
+      "maximum_relevance": 64.7,
+      "leading_story": "La Corte Suprema declara inconstitucional la desregulación de los seguros privados de salud que decretó Milei"
+    },
+    {
+      "topic": "Relaciones internacionales",
+      "event_count": 1,
+      "maximum_relevance": 55.3,
+      "leading_story": "Xi, Trump y Putin, tras la cumbre de Shenzhen: “Una guerra nuclear no se puede ganar y nunca debe librarse”"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 55.2,
+      "maximum_relevance": 51.2,
       "leading_story": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast"
     },
     {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 1,
-      "maximum_relevance": 52.3,
-      "leading_story": "90 minutos cara a cara: Sánchez busca remontar los dos puntos que le separan del PP y Feijóo repetir el éxito de 2023"
-    },
-    {
       "topic": "Conflictos y seguridad",
-      "event_count": 3,
-      "maximum_relevance": 50.9,
+      "event_count": 2,
+      "maximum_relevance": 45.9,
       "leading_story": "\"Bandas carcelarias están transformando a Ecuador en un narcoestado\": 'WSJ'"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-019", "PML-EVENT-024", "PML-EVENT-025"],
-      "exited_top5": ["PML-EVENT-015", "PML-EVENT-023", "PML-EVENT-005"],
-      "retained_top5": ["PML-EVENT-004", "PML-EVENT-027"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
