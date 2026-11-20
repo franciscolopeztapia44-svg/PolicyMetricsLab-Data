@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-19",
-    "data_latest_timestamp": "2026-11-19T21:22:31-0300",
-    "data_age_hours": 1.8,
-    "generated_at": "2026-11-19T23:07:54-0300",
+    "date": "2026-11-20",
+    "data_latest_timestamp": "2026-11-20T06:30:00-0300",
+    "data_age_hours": 1.6,
+    "generated_at": "2026-11-20T08:05:25-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,96 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 28 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 29 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 28,
+    "ranked_events": 29,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 62.3,
-    "maximum_relevance": 65.1
+    "average_top5_relevance": 61.4,
+    "maximum_relevance": 69.1
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-019",
+      "cluster_id": "PML-EVENT-010",
+      "title": "Más recortes, nuevos impuestos y venta de activos: el Gobierno y el Congreso buscan alternativas para reemplazar el IVA en la reforma tributaria",
+      "url": "https://elpais.com/america-colombia/2026-11-20/mas-recortes-nuevos-impuestos-y-venta-de-activos-el-gobierno-y-el-congreso-buscan-alternativas-para-reemplazar-el-iva-en-la-reforma-tributaria.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Colombia / América Latina"
+      },
+      "relevance": {
+        "score": 69.1,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 69.1
+      },
+      "selection": {
+        "reason": "PML 69.1",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-20T06:30:00-0300",
+      "last_seen": "2026-11-20T06:30:00-0300",
+      "entities": "congreso",
+      "event_terms": "aranceles",
+      "analysis": {
+        "summary": "Los partidos de la coalición de Gobierno proponen vender el 8% de Ecopetrol, ponerle IVA y aranceles a compras de bajo costo en plataformas digitales y eliminar o fusionar cerca de 100 entidades estatales",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Más recortes, nuevos impuestos y venta de activos: el Gobierno y el Congreso buscan alternativas para reemplazar el IVA en la reforma tributaria",
+          "description": "Los partidos de la coalición de Gobierno proponen vender el 8% de Ecopetrol, ponerle IVA y aranceles a compras de bajo costo en plataformas digitales y eliminar o fusionar cerca de 100 entidades estatales",
+          "url": "https://elpais.com/america-colombia/2026-11-20/mas-recortes-nuevos-impuestos-y-venta-de-activos-el-gobierno-y-el-congreso-buscan-alternativas-para-reemplazar-el-iva-en-la-reforma-tributaria.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/IBLJQBEMDJP3LP5SZ4OTLPGRWQ.jpg?auth=b66cfdecc39c8ea44fe6eef52638dbdb446eec6bcab9ab59337ba96988563010",
+          "published_raw": "Fri, 20 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-20T06:30:00-0300",
+          "country": "Colombia",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 4,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 2,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 6,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-010"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-022",
       "title": "Feijóo se lanza al ataque ante un Sánchez que evita el cuerpo a cuerpo",
       "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/feijoo-enmienda-ocho-anos-de-gobierno-ante-un-sanchez-que-evita-la-confrontacion.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +116,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 65.1,
+        "score": 62.1,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 65.1
+        "editorial_utility": 70.1
       },
       "selection": {
-        "reason": "PML 65.1",
+        "reason": "PML 62.1; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -99,29 +172,29 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-019"
+          "cluster_id": "PML-EVENT-022"
         }
       ]
     },
     {
-      "position": 2,
-      "cluster_id": "PML-EVENT-012",
-      "title": "La Corte Suprema declara inconstitucional la desregulación de los seguros privados de salud que decretó Milei",
-      "url": "https://elpais.com/argentina/2026-11-19/la-corte-suprema-declara-inconstitucional-la-desregulacion-de-los-seguros-privados-de-salud-que-decreto-milei.html",
+      "position": 3,
+      "cluster_id": "PML-EVENT-021",
+      "title": "Una intensa semana en China consolida al México de Sheinbaum en la escena internacional",
+      "url": "https://elpais.com/mexico/2026-11-20/una-intensa-semana-en-china-consolida-al-mexico-de-sheinbaum-en-la-escena-internacional.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
         "group": "América Latina",
-        "country": "Argentina / América Latina"
+        "country": "México / América Latina"
       },
       "relevance": {
-        "score": 64.7,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 76.7
+        "score": 59.3,
+        "level": "MEDIA",
+        "editorial_utility": 62.3
       },
       "selection": {
-        "reason": "PML 64.7; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 59.3; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -131,17 +204,21 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-19T19:58:01-0300",
-      "last_seen": "2026-11-19T19:58:01-0300",
-      "entities": "milei",
-      "event_terms": "tribunal",
+      "first_seen": "2026-11-20T06:30:00-0300",
+      "last_seen": "2026-11-20T06:30:00-0300",
+      "entities": [
+        "mexico",
+        "sheinbaum",
+        "trump"
+      ],
+      "event_terms": [],
       "analysis": {
-        "summary": "El fallo del máximo tribunal amenaza la legalidad de un decreto clave para el programa económico del Gobierno argentino",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Argentina / América Latina.",
+        "summary": "La presidenta tendió puentes con Xi Jinping, dialogó con Trump y llevó el Plan México a la cumbre de la APEC. El viaje marca un giro en la política exterior, aunque también exhibe los límites de la dependencia económica con EE UU",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en México / América Latina.",
         "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
@@ -149,35 +226,35 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "La Corte Suprema declara inconstitucional la desregulación de los seguros privados de salud que decretó Milei",
-          "description": "El fallo del máximo tribunal amenaza la legalidad de un decreto clave para el programa económico del Gobierno argentino",
-          "url": "https://elpais.com/argentina/2026-11-19/la-corte-suprema-declara-inconstitucional-la-desregulacion-de-los-seguros-privados-de-salud-que-decreto-milei.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/OE5SHY7HGFFM3M5XMLULFK5YAA.jpg?auth=f244aec45f7ae265305333a70eff7a4662b35f236187bf192de715dcba83e7d4",
-          "published_raw": "Thu, 19 Nov 2026 22:58:01 GMT",
-          "published_at": "2026-11-19T19:58:01-0300",
-          "country": "Argentina",
+          "title": "Una intensa semana en China consolida al México de Sheinbaum en la escena internacional",
+          "description": "La presidenta tendió puentes con Xi Jinping, dialogó con Trump y llevó el Plan México a la cumbre de la APEC. El viaje marca un giro en la política exterior, aunque también exhibe los límites de la dependencia económica con EE UU",
+          "url": "https://elpais.com/mexico/2026-11-20/una-intensa-semana-en-china-consolida-al-mexico-de-sheinbaum-en-la-escena-internacional.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/URZAL2ZC2NL6BL3DMD3P3WWSBI.jpg?auth=68ce8742cefbd7abce637a4de6aaa1890bcd1005eafc43fe2b32ccf2c71c5c05",
+          "published_raw": "Fri, 20 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-20T06:30:00-0300",
+          "country": "México",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 4,
+          "score_institutional": 1,
           "score_elections": 0,
-          "score_international": 0,
+          "score_international": 1,
           "score_conflict": 0,
-          "score_policy": 1,
+          "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 0,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 5,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-021"
         }
       ]
     },
     {
-      "position": 3,
+      "position": 4,
       "cluster_id": "PML-EVENT-004",
       "title": "Sumario por hurto y ley Karin: Lincolao explicó despidos previos a renuncia de subsecretaria Rossi",
       "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/sumario-por-hurto-y-ley-karin-lincolao-explico-despidos-previos-a/2026-11-19/163849.html",
@@ -189,12 +266,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 63.1,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 63.1
+        "score": 59.4,
+        "level": "MEDIA",
+        "editorial_utility": 54.4
       },
       "selection": {
-        "reason": "PML 63.1; aporta diversidad geográfica",
+        "reason": "PML 59.4; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -256,79 +333,6 @@
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-006",
-      "title": "Kaiser respalda a diputados del PNL ante posible acusación contra Chomali",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/kaiser-respalda-a-diputados-del-pnl-ante-posible-acusacion-contra-chomali/2026-11-19/154453.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 59.8,
-        "level": "MEDIA",
-        "editorial_utility": 55.8
-      },
-      "selection": {
-        "reason": "PML 59.8; diversidad relajada para completar el brief; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-19T15:44:53-0300",
-      "last_seen": "2026-11-19T15:44:53-0300",
-      "entities": "senado",
-      "event_terms": "interpelacion",
-      "analysis": {
-        "summary": "El presidente del Partido Nacional Libertario (PNL), Johannes Kaiser , comprometió este jueves el respaldo de su partido a las decisiones que adopten sus diputados, luego de que Hans Marowski planteara la posibilidad de acusar constitucionalmente a la ministra de Salud, May Chomali . El emplazamiento surgió después de que el Senado rechazara el miércoles, con 21 votos a favor y 21 en contra , una indicación del Gobierno al proyecto de Presupuesto 2027.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Kaiser respalda a diputados del PNL ante posible acusación contra Chomali",
-          "description": "El presidente del Partido Nacional Libertario (PNL), Johannes Kaiser , comprometió este jueves el respaldo de su partido a las decisiones que adopten sus diputados, luego de que Hans Marowski planteara la posibilidad de acusar constitucionalmente a la ministra de Salud, May Chomali . El emplazamiento surgió después de que el Senado rechazara el miércoles, con 21 votos a favor y 21 en contra , una indicación del Gobierno al proyecto de Presupuesto 2027. El Ejecutivo buscaba impedir que se usaran recursos de Salud para financiar terapias de hormonización cruzada en menores de 18 años, así como cirugías con la misma finalidad. La propuesta del Ejecutivo contemplaba una excepción para quienes ya recibieran esos fármacos con financiamiento público al 31 de diciembre de 2026. Para continuar el tratamiento, exigía una reevaluación clínica individual y documentada y el consentimiento de sus padres o representantes legales. En un video publicado en X , Marowski afirmó que Chomali se había comprometido con los diputados a poner fin al financiamiento público de estos tratamientos y a modificar la normativa que lo permite. \"No queremos más promesas ni explicaciones, queremos hechos y garantías concretas\", dijo el diputado. Agregó que, si se mantiene ese financiamiento, buscarán que se determinen las responsabilidades políticas, \"incluida una acusación constitucional si existieran los fundamentos\" . @MinistraChomali con los niños no se juega. #MayChomali #ministeriodesalud #hormonizaciondeniños #infancia https://t.co/bK3iaqJVKe — Hans Marowski C. (@HMarowskiC) November 18, 2026 Kaiser ofreció el respaldo del partido a su bancada Consultado en la sede del PNL por la eventual responsabilidad de Chomali, Kaiser sostuvo que el Ministerio de Salud ha ignorado las recomendaciones de la comisión investigadora de la Cámara sobre tratamientos hormonales en menores de edad , según consignó La Tercera . \"Si se descubre que desde el Ministerio (de Salud) se siguen realizando intervenciones que son lesivas para la salud de menores de edad, entonces evidentemente que nuestros parlamentarios tomarán las decisiones que consideren correctas. El PNL los va a respaldar \", afirmó el excandidato presidencial. Kaiser emplazó a Kast y defendió la interpelación En el mismo punto de prensa, Kaiser también cuestionó al Presidente José Antonio Kast , de gira por Asia , y defendió el uso de la interpelación parlamentaria. \"El señor Presidente de la República tiene la obligación de solucionar los problemas y debería dedicarse a eso. La interpelación es un instrumento de fiscalización de la Cámara de Diputados, no es una sanción \", sostuvo. Kaiser agregó que \"para eso se eligió al señor Presidente de la República, no para ser comentarista\" .",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/kaiser-respalda-a-diputados-del-pnl-ante-posible-acusacion-contra-chomali/2026-11-19/154453.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261119/imag/foto_0000000220261119154453.jpg",
-          "published_raw": "Thu, 19 Nov 2026 15:44:53 -0300",
-          "published_at": "2026-11-19T15:44:53-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 7,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 2,
-          "score_ideology": 0,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 12,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-006"
-        }
-      ]
-    },
-    {
       "position": 5,
       "cluster_id": "PML-EVENT-001",
       "title": "Fiscalía investiga falsificación de firma de senadora que está con Kast en Asia",
@@ -341,12 +345,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 58.9,
+        "score": 56.9,
         "level": "MEDIA",
-        "editorial_utility": 51.9
+        "editorial_utility": 50.9
       },
       "selection": {
-        "reason": "PML 58.9; diversidad relajada para completar el brief",
+        "reason": "PML 56.9; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -425,11 +429,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 57.4,
+          "score": 53.6,
           "level": "MEDIA",
           "components": {
             "political_impact": 60,
-            "freshness": 95,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 36
@@ -480,13 +484,13 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 78.4
+          "chile_utility": 74.6
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-013",
+        "cluster_id": "PML-EVENT-015",
         "title": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast",
         "topic": "Economía y políticas públicas",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -497,11 +501,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 51.2,
+          "score": 46.2,
           "level": "BAJA",
           "components": {
             "political_impact": 54,
-            "freshness": 72,
+            "freshness": 52,
             "source_count": 30,
             "geographic_scope": 55,
             "continuity": 28
@@ -541,7 +545,7 @@
             "secondary_topic": "Instituciones y gobierno",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-013"
+            "cluster_id": "PML-EVENT-015"
           }
         ],
         "article_count": 1,
@@ -552,7 +556,7 @@
             "Estado e instituciones",
             "Economía y políticas públicas"
           ],
-          "chile_utility": 69.2
+          "chile_utility": 64.2
         },
         "repeated_in_general_top5": false
       },
@@ -569,11 +573,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.2,
-          "level": "MEDIA",
+          "score": 49.7,
+          "level": "BAJA",
           "components": {
             "political_impact": 83,
-            "freshness": 62,
+            "freshness": 40,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 28
@@ -624,7 +628,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 77.2
+          "chile_utility": 71.7
         },
         "repeated_in_general_top5": false
       }
@@ -632,39 +636,49 @@
   },
   "topics": [
     {
+      "topic": "Instituciones y gobierno",
+      "event_count": 22,
+      "maximum_relevance": 69.1,
+      "leading_story": "Más recortes, nuevos impuestos y venta de activos: el Gobierno y el Congreso buscan alternativas para reemplazar el IVA en la reforma tributaria"
+    },
+    {
       "topic": "Elecciones y opinión pública",
-      "event_count": 3,
-      "maximum_relevance": 65.1,
+      "event_count": 2,
+      "maximum_relevance": 62.1,
       "leading_story": "Feijóo se lanza al ataque ante un Sánchez que evita el cuerpo a cuerpo"
     },
     {
-      "topic": "Instituciones y gobierno",
-      "event_count": 21,
-      "maximum_relevance": 64.7,
-      "leading_story": "La Corte Suprema declara inconstitucional la desregulación de los seguros privados de salud que decretó Milei"
+      "topic": "Ideología y competencia política",
+      "event_count": 1,
+      "maximum_relevance": 53.5,
+      "leading_story": "El monarca que reinó desde el centro y lo destruyó: las raíces del fracaso de Macron"
     },
     {
       "topic": "Relaciones internacionales",
       "event_count": 1,
-      "maximum_relevance": 55.3,
+      "maximum_relevance": 53.3,
       "leading_story": "Xi, Trump y Putin, tras la cumbre de Shenzhen: “Una guerra nuclear no se puede ganar y nunca debe librarse”"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 51.2,
+      "maximum_relevance": 46.2,
       "leading_story": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 2,
-      "maximum_relevance": 45.9,
+      "maximum_relevance": 42.9,
       "leading_story": "\"Bandas carcelarias están transformando a Ecuador en un narcoestado\": 'WSJ'"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-010", "PML-EVENT-022", "PML-EVENT-021"],
+      "exited_top5": ["PML-EVENT-019", "PML-EVENT-012", "PML-EVENT-006"],
+      "retained_top5": ["PML-EVENT-004", "PML-EVENT-001"]
+    }
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
