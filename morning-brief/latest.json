@@ -3,261 +3,38 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-20",
-    "data_latest_timestamp": "2026-11-20T06:30:00-0300",
-    "data_age_hours": 1.6,
-    "generated_at": "2026-11-20T08:05:25-0300",
+    "date": "2026-11-21",
+    "data_latest_timestamp": "2026-11-21T06:30:00-0300",
+    "data_age_hours": 1.3,
+    "generated_at": "2026-11-21T07:46:51-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": false
+    "editorial_topic_diversity_met": true
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 29 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 4 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 26 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 29,
-    "topics": 2,
-    "geographies": 2,
+    "ranked_events": 26,
+    "topics": 3,
+    "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 61.4,
-    "maximum_relevance": 69.1
+    "average_top5_relevance": 57.9,
+    "maximum_relevance": 61.9
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-010",
-      "title": "Más recortes, nuevos impuestos y venta de activos: el Gobierno y el Congreso buscan alternativas para reemplazar el IVA en la reforma tributaria",
-      "url": "https://elpais.com/america-colombia/2026-11-20/mas-recortes-nuevos-impuestos-y-venta-de-activos-el-gobierno-y-el-congreso-buscan-alternativas-para-reemplazar-el-iva-en-la-reforma-tributaria.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Colombia / América Latina"
-      },
-      "relevance": {
-        "score": 69.1,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 69.1
-      },
-      "selection": {
-        "reason": "PML 69.1",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-20T06:30:00-0300",
-      "last_seen": "2026-11-20T06:30:00-0300",
-      "entities": "congreso",
-      "event_terms": "aranceles",
-      "analysis": {
-        "summary": "Los partidos de la coalición de Gobierno proponen vender el 8% de Ecopetrol, ponerle IVA y aranceles a compras de bajo costo en plataformas digitales y eliminar o fusionar cerca de 100 entidades estatales",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Más recortes, nuevos impuestos y venta de activos: el Gobierno y el Congreso buscan alternativas para reemplazar el IVA en la reforma tributaria",
-          "description": "Los partidos de la coalición de Gobierno proponen vender el 8% de Ecopetrol, ponerle IVA y aranceles a compras de bajo costo en plataformas digitales y eliminar o fusionar cerca de 100 entidades estatales",
-          "url": "https://elpais.com/america-colombia/2026-11-20/mas-recortes-nuevos-impuestos-y-venta-de-activos-el-gobierno-y-el-congreso-buscan-alternativas-para-reemplazar-el-iva-en-la-reforma-tributaria.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/IBLJQBEMDJP3LP5SZ4OTLPGRWQ.jpg?auth=b66cfdecc39c8ea44fe6eef52638dbdb446eec6bcab9ab59337ba96988563010",
-          "published_raw": "Fri, 20 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-20T06:30:00-0300",
-          "country": "Colombia",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 4,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 2,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 6,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-010"
-        }
-      ]
-    },
-    {
-      "position": 2,
-      "cluster_id": "PML-EVENT-022",
-      "title": "Feijóo se lanza al ataque ante un Sánchez que evita el cuerpo a cuerpo",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/feijoo-enmienda-ocho-anos-de-gobierno-ante-un-sanchez-que-evita-la-confrontacion.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "CONFLICT_ESCALATION",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 62.1,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 70.1
-      },
-      "selection": {
-        "reason": "PML 62.1; aporta diversidad temática; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-19T20:13:55-0300",
-      "last_seen": "2026-11-19T20:13:55-0300",
-      "entities": [],
-      "event_terms": "ataque",
-      "analysis": {
-        "summary": "En el único cara a cara de la campaña, el candidato popular enmienda la totalidad de la gestión del Gobierno y cuestiona una y otra vez la decencia de su rival, que opta por un tono pausado y minimiza el choque directo",
-        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
-          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Feijóo se lanza al ataque ante un Sánchez que evita el cuerpo a cuerpo",
-          "description": "En el único cara a cara de la campaña, el candidato popular enmienda la totalidad de la gestión del Gobierno y cuestiona una y otra vez la decencia de su rival, que opta por un tono pausado y minimiza el choque directo",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-19/feijoo-enmienda-ocho-anos-de-gobierno-ante-un-sanchez-que-evita-la-confrontacion.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/MG2HTHFVZJAAXFYQUD56WEFK6U.jpg?auth=60be129e858d9b49619e9ad04082e6b10e18793c6c1c51f32699f30c9ef5f962",
-          "published_raw": "Thu, 19 Nov 2026 23:13:55 GMT",
-          "published_at": "2026-11-19T20:13:55-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 1,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-022"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-021",
-      "title": "Una intensa semana en China consolida al México de Sheinbaum en la escena internacional",
-      "url": "https://elpais.com/mexico/2026-11-20/una-intensa-semana-en-china-consolida-al-mexico-de-sheinbaum-en-la-escena-internacional.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "México / América Latina"
-      },
-      "relevance": {
-        "score": 59.3,
-        "level": "MEDIA",
-        "editorial_utility": 62.3
-      },
-      "selection": {
-        "reason": "PML 59.3; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-20T06:30:00-0300",
-      "last_seen": "2026-11-20T06:30:00-0300",
-      "entities": [
-        "mexico",
-        "sheinbaum",
-        "trump"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "La presidenta tendió puentes con Xi Jinping, dialogó con Trump y llevó el Plan México a la cumbre de la APEC. El viaje marca un giro en la política exterior, aunque también exhibe los límites de la dependencia económica con EE UU",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en México / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Una intensa semana en China consolida al México de Sheinbaum en la escena internacional",
-          "description": "La presidenta tendió puentes con Xi Jinping, dialogó con Trump y llevó el Plan México a la cumbre de la APEC. El viaje marca un giro en la política exterior, aunque también exhibe los límites de la dependencia económica con EE UU",
-          "url": "https://elpais.com/mexico/2026-11-20/una-intensa-semana-en-china-consolida-al-mexico-de-sheinbaum-en-la-escena-internacional.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/URZAL2ZC2NL6BL3DMD3P3WWSBI.jpg?auth=68ce8742cefbd7abce637a4de6aaa1890bcd1005eafc43fe2b32ccf2c71c5c05",
-          "published_raw": "Fri, 20 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-20T06:30:00-0300",
-          "country": "México",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-004",
-      "title": "Sumario por hurto y ley Karin: Lincolao explicó despidos previos a renuncia de subsecretaria Rossi",
-      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/sumario-por-hurto-y-ley-karin-lincolao-explico-despidos-previos-a/2026-11-19/163849.html",
+      "cluster_id": "PML-EVENT-003",
+      "title": "Alcaldes piden al Congreso frenar recorte del 58,3% a la Ley Cholito en el Presupuesto 2027",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/municipales/alcaldes-piden-al-congreso-frenar-recorte-del-58-3-a-la-ley-cholito-en/2026-11-20/191512.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -266,12 +43,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 59.4,
+        "score": 61.9,
         "level": "MEDIA",
-        "editorial_utility": 54.4
+        "editorial_utility": 61.9
       },
       "selection": {
-        "reason": "PML 59.4; diversidad relajada para completar el brief",
+        "reason": "PML 61.9",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -281,18 +58,16 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-19T16:38:49-0300",
-      "last_seen": "2026-11-19T16:38:49-0300",
+      "first_seen": "2026-11-20T19:15:12-0300",
+      "last_seen": "2026-11-20T19:15:12-0300",
       "entities": [
-        "chile",
-        "congreso"
+        "congreso",
+        "senado",
+        "chile"
       ],
-      "event_terms": [
-        "crisis",
-        "oposicion"
-      ],
+      "event_terms": "oposicion",
       "analysis": {
-        "summary": "La ministra de Ciencia, Tecnología e Innovación, Ximena Lincolao , explicó este jueves los motivos detrás de los sumarios y despidos previos ocurridos al interior de la cartera, que marcaron la renuncia de la subsecretaria Carolina Rossi . Las salidas se ejecutaron de manera sorpresiva en momentos en que la ministra se encontraba en el extranjero -en el marco de su agenda en Silicon Valley y la cumbre de la APEC - y mientras la subsecretaria Rossi oficiaba como ministra…",
+        "summary": "Un grupo de alcaldes de distintos sectores políticos se reunió este viernes en la Plaza de la Constitución para solicitar al Congreso un aumento de los recursos destinados al Programa de Tenencia Responsable de Animales de Compañía en la Ley de Presupuesto 2027, el principal instrumento para implementar la denominada Ley Cholito .",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -305,52 +80,52 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Sumario por hurto y ley Karin: Lincolao explicó despidos previos a renuncia de subsecretaria Rossi",
-          "description": "La ministra de Ciencia, Tecnología e Innovación, Ximena Lincolao , explicó este jueves los motivos detrás de los sumarios y despidos previos ocurridos al interior de la cartera, que marcaron la renuncia de la subsecretaria Carolina Rossi . Las salidas se ejecutaron de manera sorpresiva en momentos en que la ministra se encontraba en el extranjero -en el marco de su agenda en Silicon Valley y la cumbre de la APEC - y mientras la subsecretaria Rossi oficiaba como ministra subrogante, sin haber sido informada de la determinación. La medida afectó a Juan José Tagle , asesor jurídico a honorarios estrechamente vinculado al gabinete de Rossi, además de Magdalena Calcagni y Tomás Rivero, profesionales pertenecientes a la División de Tecnologías Emergentes. [Lea también] Gobierno intervino el Ministerio de Ciencia por conflicto entre ministra Lincolao y subsecretaria Rossi Al ser consultada por la situación, la ministra Lincolao explicó que \"yo estaba en una comisión de servicio. La subsecretaria (Rossi) era la ministra y la subsecretaria subrogante (Carolina Calvo) . Entre ellas dos conversaron este tema el día anterior\". \"Los despidos venían por un sumario que existía a una persona por hurto, la otra persona tenía otro sumario, una Ley Karin , y la otra persona tenía problemas de gestión . Estas son personas a honorarios, y otra persona que era un jefe de división: dos de honorarios y uno jefe de división\", indicó la secretaria de Estado. Lincolao hizo hincapié en que \"yo vengo de una escuela donde no se habla de las razones por las cuales las personas son destituidas, por respeto a las personas. Pero, lamentablemente, me veo obligada a dar este detalle para que se sepa que esto no tiene que ver con desvinculaciones a los otros funcionarios\". Con la dimisión de Carolina Rossi, la cartera registra ya la segunda renuncia en su subsecretaría. Su partida se suma a la salida previa del exsubsecretario  Rafael Araos , quien al dejar el cargo había señalado diferencias de gestión y visión con el Gobierno. \"Aprecio el trabajo que hicieron los dos subsecretarios\" Consultada por los medios a su ingreso al encuentro Emprende Tu Mente (ETM), la secretaria de Estado evitó responder directamente si ha considerado renunciar, asegurando que su relación con el Gobierno \"es excelente\". Frente a la insistencia de los reporteros sobre una eventual crisis en la cartera de Ciencia, la ministra respondió que ese es \"el foco de algunos, no el foco de todos\". Finalmente, Lincolao se refirió a los sumarios previos a la salida de la ahora exsubsecretaria Rossi: \" Yo aprecio el trabajo que hicieron los dos subsecretarios muchísimo. Les deseo lo mejor, pero esas son cosas que ocurren\" , aseveró. \"(Con) lo que nosotros nos tenemos que quedar es que Chile no puede quedarse en esa parte, tiene que quedarse en la grande: esta. Y ese es el foco mío: elevar al país, sacar al país de estar al sur del mundo, y eso es lo que está haciendo acá \", concluyó. Reacciones desde el Congreso El jefe de bancada del Partido Republicano, el diputado Benjamín Moreno , comentó que \"se pueden ir dos subsecretarios perfectamente, pero evidentemente uno ve las cosas que se van haciendo en el Ministerio y ahí uno puede poner en la balanza y decir 'se están haciendo cosas que son convenientes en materia de ciencias e innovación, sí o no', se están firmando convenios importantes y ahí cada uno podrá tener su análisis en esta materia\". \"Hay formas de trabajar que no siempre acomodan con todos y la ministra Lincolao me imagino tiene una forma, una energía, una rapidez para trabajar, que quizás no siempre va calzando con todos\", añadió. Moreno sostuvo que \" si hay un ministro o subsecretario que cuenta con el respaldo del Presidente Kast, cuenta con mi respaldo , y si él encuentra que es bueno, yo encuentro que es bueno\". Desde la oposición, el diputado Daniel Manouchehri (PS) planteó que \"la pregunta de fondo es ¿por qué no sacaron antes a la subsecretaria? Porque las denuncias por Ley Karin que tenían eran anteriores y las situaciones que se han denunciado eran bien escandalosas, una subsecretaria que intervenía a favor de funcionarios que fueron despedidos por situaciones muy graves, como robarse un matero, unas cosas que además de graves son situaciones bien ordinarias que estaban aconteciendo\". \"Nosotros vemos que este sigue siendo un gobierno poco serio y pareciera que esta vez sí le pudieron doblar la mano al segundo piso. Yo volvería a insistirle al segundo piso a que deje trabajar a sus ministros\", agregó.",
-          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/sumario-por-hurto-y-ley-karin-lincolao-explico-despidos-previos-a/2026-11-19/163849.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261119/imag/foto_0000000220261119163849.png",
-          "published_raw": "Thu, 19 Nov 2026 16:38:49 -0300",
-          "published_at": "2026-11-19T16:38:49-0300",
+          "title": "Alcaldes piden al Congreso frenar recorte del 58,3% a la Ley Cholito en el Presupuesto 2027",
+          "description": "Un grupo de alcaldes de distintos sectores políticos se reunió este viernes en la Plaza de la Constitución para solicitar al Congreso un aumento de los recursos destinados al Programa de Tenencia Responsable de Animales de Compañía en la Ley de Presupuesto 2027, el principal instrumento para implementar la denominada Ley Cholito . Ver esta publicación en Instagram Una publicación compartida por Asociación Chilena de Municipalidades (@achmchile) En 2026, el financiamiento del programa alcanzó los 3.635 millones de pesos , pero para el Presupuesto 2027, el Ejecutivo propuso inicialmente una rebaja de casi el 86% , dejando el fondo en 514 millones de pesos. No obstante, durante el debate del proyecto en el Senado, el Gobierno accedió a incorporar 1.000 millones adicionales, lo que elevó la propuesta a 1.514 millones de pesos. Pese a esa modificación, el monto sigue siendo un 58,3% inferior al asignado en el año actual , una reducción que tanto municipios como organizaciones civiles consideran insuficiente para sostener los programas de atención y cuidado de mascotas. Asociación Chilena de Municipalidades: \"Necesitamos recursos\" El Programa de Tenencia Responsable de Animales de Compañía depende de la Subsecretaría de Desarrollo Regional y Administrativo, entidad encargada de canalizar los recursos hacia los municipios y otras entidades para financiar esterilizaciones, vacunaciones, implementación de microchips, atención veterinaria y campañas educativas. El alcalde de Zapallar, Gustavo Alessandri, presidente de la Asociación Chilena de Municipalidades,  indicó que \"la Ley Cholito necesita financiamiento. Se trabaja en todas las municipalidades del país y para eso necesitamos recursos\" . \"La salud de un perro, de un gato, que incluye la Ley Cholito, es fundamental. Necesitamos recursos para fomentar la responsabilidad y los animales son parte de una familia. Sin recursos, es imposible poder cumplir los objetivos que tiene la ley \", enfatizó el jefe comunal. Por su parte, el alcalde de Estación Central. Felipe Muñoz, explicó que su comuna \"se caracterizaba por contar con una gran cantidad de perros callejeros. Afortunadamente, es un tema a través de este programa que hemos logrado controlar\". \"Sin embargo, hoy vemos cómo para el Gobierno este no es un tema importante : un consenso de parte de todos los alcaldes de Chile, de manera que se pueda reponer y finalmente poder contar hoy día los municipios con los recursos que nos permitan mantener estas políticas tan bien valoradas por la comunidad \", aseveró. Oposición acusa \"descriterio\" y oficialismo pide \"ser realistas\" La reducción presupuestaria también generó reacciones en el Congreso. La diputada Lorena Fries (Frente Amplio) calificó la rebaja del financiamiento del programa como \"un descriterio , no solo porque hoy día las mascotas en Chile tienen una importancia brutal para todas las familias, sino que porque se necesita que tengan todas las condiciones\". \"La falta de presupuesto para un país que hoy día tiene muchísimas mascotas, me parece que políticamente es descriteriado \", resaltó la parlamentaria. Por su parte, la diputada Ximena Ossandón (RN) aseguró no estar de acuerdo \"con que se rebaje el presupuesto en esta materia, pero sí hay que ser muy realista y tenemos que avanzar porque hoy día lo que necesitamos es una política pública de tenencia responsable de animales y no solo un plan \". El antecedente de Kast y el próximo paso en la Cámara Baja La discusión presupuestaria reabrió además el debate sobre la postura que tuvo el presidente José Antonio Kast frente a la Ley Cholito cuando ejercía como diputado. En mayo de 2017, durante la votación que permitió despachar la normativa en el Congreso, se registraron 100 votos a favor, dos abstenciones y un único voto en contra, correspondiente al ahora Mandatario. Ante los cuestionamientos por el recorte para el próximo año, el Ejecutivo señaló que existen proyectos previamente adjudicados por alrededor de 3.000 millones de pesos que continuarán ejecutándose durante 2027. Por ahora, el futuro del presupuesto del Programa de Tenencia Responsable de Animales de Compañía quedará en manos de la Cámara Baja , instancia que deberá revisar la rebaja del 58,3% durante el tercer trámite constitucional para definir si confirma o rechaza el recorte.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/municipales/alcaldes-piden-al-congreso-frenar-recorte-del-58-3-a-la-ley-cholito-en/2026-11-20/191512.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261120/imag/foto_0000000220261120191512.jpg",
+          "published_raw": "Fri, 20 Nov 2026 19:15:12 -0300",
+          "published_at": "2026-11-20T19:15:12-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
           "score_institutional": 8,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 1,
-          "score_policy": 0,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 3,
           "score_ideology": 0,
           "score_actor": 5,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 15,
+          "political_evidence": 17,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
+          "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-004"
+          "cluster_id": "PML-EVENT-003"
         }
       ]
     },
     {
-      "position": 5,
-      "cluster_id": "PML-EVENT-001",
-      "title": "Fiscalía investiga falsificación de firma de senadora que está con Kast en Asia",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/fiscalia-investiga-falsificacion-de-firma-de-senadora-que-esta-con-kast/2026-11-19/083545.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
+      "position": 2,
+      "cluster_id": "PML-EVENT-013",
+      "title": "El mercado no quita ojo al ‘efecto Mélenchon’ en Francia, una economía que sufre “una crisis a cámara lenta”",
+      "url": "https://elpais.com/economia/negocios/2026-11-21/el-mercado-no-quita-ojo-al-efecto-melenchon-en-francia-una-economia-que-sufre-una-crisis-a-camara-lenta.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Ideología y competencia política",
       "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
-        "group": "Chile",
-        "country": "Chile"
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 56.9,
+        "score": 61.9,
         "level": "MEDIA",
-        "editorial_utility": 50.9
+        "editorial_utility": 69.9
       },
       "selection": {
-        "reason": "PML 56.9; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 61.9; aporta diversidad temática; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -358,19 +133,15 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "Cooperativa"
+        "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-19T08:35:45-0300",
-      "last_seen": "2026-11-19T08:35:45-0300",
-      "entities": [
-        "congreso",
-        "senado",
-        "chile"
-      ],
-      "event_terms": "oposicion",
+      "first_seen": "2026-11-21T01:30:00-0300",
+      "last_seen": "2026-11-21T01:30:00-0300",
+      "entities": [],
+      "event_terms": "crisis",
       "analysis": {
-        "summary": "La Fiscalía Regional de Valparaíso  abrió una investigación de oficio para esclarecer una eventual falsificación de la firma de la senadora Ximena Órdenes (independiente-Partido Por la Democracia). La controversia estalló el martes por la tarde, tras aparecer en la Cámara Alta el retiro de los permisos constitucionales de la legisladora y Fidel Espinoza (Partido Socialista), quienes integran la comitiva del Presidente José Antonio Kast en su gira por Asia .  Dicha…",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "summary": "El candidato de extrema izquierda gana opciones para enfrentarse a su némesis de extrema derecha, Marine Le Pen, en la segunda vuelta de las presidenciales francesas",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Ideología y competencia política y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -380,32 +151,251 @@
       },
       "articles": [
         {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Fiscalía investiga falsificación de firma de senadora que está con Kast en Asia",
-          "description": "La Fiscalía Regional de Valparaíso  abrió una investigación de oficio para esclarecer una eventual falsificación de la firma de la senadora Ximena Órdenes (independiente-Partido Por la Democracia). La controversia estalló el martes por la tarde, tras aparecer en la Cámara Alta el retiro de los permisos constitucionales de la legisladora y Fidel Espinoza (Partido Socialista), quienes integran la comitiva del Presidente José Antonio Kast en su gira por Asia .  Dicha modificación implicaba aumentar nuevamente el quórum necesario para aprobar determinadas materias en el Congreso , en medio de la discusión del proyecto del Presupuesto 2027 . Mientras Espinoza descartó una falsificación de su firma y atribuyó lo ocurrido a una desprolijidad administrativa ,  el senador del PPD Pedro Araya dio lectura ayer en Sala a una carta de Órdenes, en la que la parlamentaria negó haber solicitado el retiro de su autorización. \"Quiero señalar, de manera categórica, que no he retirado mi solicitud de permiso constitucional, no he suscrito ni remitido ningún documento en ese sentido y tampoco he autorizado a ninguna persona para utilizar mi firma o actuar en mi representación con ese propósito . Saluda atentamente a usted, Ximena Órdenes Neira, senadora\", decía la misiva leída por Araya. Sus declaraciones motivaron la investigación de oficio del Ministerio Público. Tras dar lectura al documento, el senador Rodolfo Carter (independiente-Partido Republicano) solicitó que los antecedentes fueran certificados y remitidos al Ministerio Público para \"que acredite quién eventualmente ha cometido este delito\". \"A lo menos hay una falsificación de firma de una senadora de la República\" , advirtió el oficialista. Órdenes: \"Espero que esto sea esclarecido a la brevedad\" Desde el otro lado del mundo, la senadora Órdenes abordó hoy la controversia y recalcó: \"En medio de la gira presidencial en Asia, tomé conocimiento que el permiso constitucional que había solicitado oportunamente y que había sido conocido y aprobado por la sala del Senado, había sido retirado\". \"En ese sentido, quiero señalar que en ningún momento yo solicité y menos autoricé el retiro de ese permiso \", subrayó.  \"Desconozco el formato y el procedimiento que se utilizó para la adopción de esa acción. Y espero que esto sea esclarecido sin duda a la brevedad posible \", agregó. En el Congreso, Araya precisó hoy que \"lo que ella (Órdenes) quiso es que quedaran de manifiesto públicamente que ella no tuvo nada que ver. Efectivamente está consciente de que, producto de la actuación del Ministerio Público, hay una investigación y ella va a colaborar en calidad de víctima \". \"La intención de ella en ningún minuto fue generar este tipo de situaciones, pero, claramente, si estamos en presencia de un delito -y así lo ha determinado la Fiscalía-, tendrá que investigarse\", recalcó. Castro: \"Es una materia resuelta\" Ayer, sin embargo, el senador Juan Luis Castro (Partido Socialista), jefe del comité del Socialismo Democrático (que agrupa a senadores del PS, PPD y Partido Liberal), restó gravedad al episodio y aseguró que la situación ya había sido resuelta. \"(Quiero) decirles a los colegas que están un poco nerviosos que ese tema reglamentario se resolvió ayer (martes) por la noche en conformidad con la propia interesada, así que eso es una materia resuelta \", afirmó el parlamentario. Por su parte, la presidenta del Senado, Paulina Núñez (Renovación Nacional), explicó que  \"el documento llegó firmado por la senadora (Órdenes), al parecer sin la anuencia de ella. Por lo tanto, lo primero que correspondía era que, nuevamente, esos permisos estuvieran presentados\". La controversia también tiene una arista política, debido a las diferencias que mantienen Araya y Castro , luego de que el comité del Socialismo Democrático resolviera sacar al primero de la presidencia de la Comisión de Constitución . \"Gracias al senador Juan Luis Castro, el Gobierno sale del fondo del ring y hoy día entra la oposición a dar explicaciones. Entonces, hay un error político que es del porte de una catedral\" , fustigó Araya. El próximo martes, con Órdenes ya de regreso en Chile, la bancada del PPD se reunirá para definir una postura común, aunque el presidente de la colectividad, el diputado Raúl Soto, ya apuntó en una entrevista que la parlamentaria fue víctima de una acción \"cuestionable\" , al retirar ese permiso constitucional sin su consentimiento, y con la eventual utilización de su firma sin su autorización. Mesa del Senado: \"A la fecha, no existe una confirmación de que se haya producido una falsificación de firmas\" Finalmente, la mesa del Senado , encabezada por Núñez y el vicepresidente Iván Moreira (UDI), se refirió a la controversia y señaló que \" a la fecha, no existe una confirmación de que se haya producido una falsificación de firmas en la tramitación de estos permisos, incluso uno de los senadores involucrados lo ha descartado públicamente.  Por lo tanto, resulta improcedente presentar como un hecho acreditado una situación que no ha sido establecida\". Respecto de la situación planteada por Órdenes, la directiva anunció que analizará la solicitud presentada en la Sala para determinar los pasos institucionales correspondientes y sostuvo que serán las instancias competentes las encargadas de esclarecer eventuales irregularidades. Asimismo, aclaró que la recepción de los documentos por parte de la Secretaría del Senado constituye un trámite administrativo y no implica validar las autorizaciones ni verificar las circunstancias en que fueron firmadas. Finalmente, informó que la Corporación no ha recibido una notificación oficial sobre la investigación de oficio del Ministerio Público , aunque aseguró que \"colaborará plenamente con la Fiscalía, entregando los antecedentes que sean solicitados, en el marco de sus atribuciones y procedimientos institucionales\".",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/fiscalia-investiga-falsificacion-de-firma-de-senadora-que-esta-con-kast/2026-11-19/083545.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261119/imag/foto_0000000220261119083545.jpg",
-          "published_raw": "Thu, 19 Nov 2026 08:35:45 -0300",
-          "published_at": "2026-11-19T08:35:45-0300",
-          "country": "Chile",
-          "region": "Chile",
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El mercado no quita ojo al ‘efecto Mélenchon’ en Francia, una economía que sufre “una crisis a cámara lenta”",
+          "description": "El candidato de extrema izquierda gana opciones para enfrentarse a su némesis de extrema derecha, Marine Le Pen, en la segunda vuelta de las presidenciales francesas",
+          "url": "https://elpais.com/economia/negocios/2026-11-21/el-mercado-no-quita-ojo-al-efecto-melenchon-en-francia-una-economia-que-sufre-una-crisis-a-camara-lenta.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/4GSRIWS7UFA4LENVDGPYDKSANI.JPG?auth=9346253149b547c469c020dc74fe18d27ebbce7a03790ecfc196131cea51b75d",
+          "published_raw": "Sat, 21 Nov 2026 04:30:00 GMT",
+          "published_at": "2026-11-21T01:30:00-0300",
+          "country": "No identificado",
+          "region": "Internacional",
           "language": "es",
-          "score_institutional": 9,
+          "score_institutional": 1,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 4,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 8,
+          "primary_topic": "Ideología y competencia política",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-013"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-015",
+      "title": "Trilateral en Shenzhen: la cumbre donde Trump presumió, Putin volvió y Xi ganó",
+      "url": "https://elpais.com/internacional/2026-11-21/trilateral-en-shenzhen-la-cumbre-donde-trump-presumio-putin-volvio-y-xi-gano.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 55.3,
+        "level": "MEDIA",
+        "editorial_utility": 67.3
+      },
+      "selection": {
+        "reason": "PML 55.3; fallback editorial controlado; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-21T06:30:00-0300",
+      "last_seen": "2026-11-21T06:30:00-0300",
+      "entities": "trump",
+      "event_terms": [],
+      "analysis": {
+        "summary": "El presidente de Estados Unidos se cargó de agasajos en su visita a China, tras la bofetada que le propinaron los votantes en las elecciones de mitad de mandato",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Trilateral en Shenzhen: la cumbre donde Trump presumió, Putin volvió y Xi ganó",
+          "description": "El presidente de Estados Unidos se cargó de agasajos en su visita a China, tras la bofetada que le propinaron los votantes en las elecciones de mitad de mandato",
+          "url": "https://elpais.com/internacional/2026-11-21/trilateral-en-shenzhen-la-cumbre-donde-trump-presumio-putin-volvio-y-xi-gano.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/6ZWHP23G7ZPOPMVTNYMV5JGEFY.jpg?auth=cccb74cafac001818bfad7f2f306b42abec13413d24966bde940f655024b7afe",
+          "published_raw": "Sat, 21 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-21T06:30:00-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 2,
+          "score_international": 1,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 5,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-015"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-022",
+      "title": "El requisito imposible que dejó a Colombia sin escudo antidrones",
+      "url": "https://elpais.com/america-colombia/2026-11-21/el-requisito-imposible-que-dejo-a-colombia-sin-escudo-antidrones.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Colombia / América Latina"
+      },
+      "relevance": {
+        "score": 57,
+        "level": "MEDIA",
+        "editorial_utility": 57
+      },
+      "selection": {
+        "reason": "PML 57; fallback editorial controlado; aporta diversidad geográfica",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-21T06:30:00-0300",
+      "last_seen": "2026-11-21T06:30:00-0300",
+      "entities": "colombia",
+      "event_terms": [],
+      "analysis": {
+        "summary": "El ministro de Defensa acusa a su predecesor de bloquear las adquisiciones. Los documentos internos del ministerio muestran que quien frenó la compra fue un comité técnico de la propia Fuerza Pública, que concluyó que ningún sistema cumplía lo que él mismo exigía",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "El requisito imposible que dejó a Colombia sin escudo antidrones",
+          "description": "El ministro de Defensa acusa a su predecesor de bloquear las adquisiciones. Los documentos internos del ministerio muestran que quien frenó la compra fue un comité técnico de la propia Fuerza Pública, que concluyó que ningún sistema cumplía lo que él mismo exigía",
+          "url": "https://elpais.com/america-colombia/2026-11-21/el-requisito-imposible-que-dejo-a-colombia-sin-escudo-antidrones.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/2BHWQEFZR5OT3EPYCOC2PEDOPM.jpg?auth=92db35d8a0e4ff88e3bf31340c2634806411f9b90a6a88b941f712bbdb87f347",
+          "published_raw": "Sat, 21 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-21T06:30:00-0300",
+          "country": "Colombia",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 2,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 2,
-          "score_actor": 6,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 18,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
+          "secondary_topic": null,
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-022"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-023",
+      "title": "La gran batalla de PSOE, PP y Vox por los votos decisivos de las provincias pequeñas y medianas",
+      "url": "https://elpais.com/espana/elecciones-generales/2026-11-21/la-gran-batalla-de-psoe-pp-y-vox-por-los-votos-decisivos-de-las-provincias-pequenas-y-medianas.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 53.5,
+        "level": "MEDIA",
+        "editorial_utility": 47.5
+      },
+      "selection": {
+        "reason": "PML 53.5; fallback editorial controlado; diversidad relajada para completar el brief",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-21T01:30:01-0300",
+      "last_seen": "2026-11-21T01:30:01-0300",
+      "entities": "congreso",
+      "event_terms": [],
+      "analysis": {
+        "summary": "Los partidos pelean por las 29 circunscripciones con entre tres y cinco escaños, que aportan casi un tercio de los diputados del Congreso",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "La gran batalla de PSOE, PP y Vox por los votos decisivos de las provincias pequeñas y medianas",
+          "description": "Los partidos pelean por las 29 circunscripciones con entre tres y cinco escaños, que aportan casi un tercio de los diputados del Congreso",
+          "url": "https://elpais.com/espana/elecciones-generales/2026-11-21/la-gran-batalla-de-psoe-pp-y-vox-por-los-votos-decisivos-de-las-provincias-pequenas-y-medianas.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/SI2SDOYCQREARH6V2ZFW377POU.jpg?auth=9c05b12c3b2630f0467fdc9f48f9b246b77c7ee94998ce7ca8dd5fbdfa0e48c4",
+          "published_raw": "Sat, 21 Nov 2026 04:30:01 GMT",
+          "published_at": "2026-11-21T01:30:01-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": null,
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-023"
         }
       ]
     }
@@ -418,25 +408,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-003",
-        "title": "Caso Firmas: Gobierno calificó de \"máxima gravedad\" retiro de permisos en el Senado",
+        "cluster_id": "PML-EVENT-004",
+        "title": "Sumario por hurto y ley Karin: Lincolao explicó despidos previos a renuncia de subsecretaria Rossi",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/caso-firmas-gobierno-califico-de-maxima-gravedad-retiro-de-permisos/2026-11-19/155845.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/sumario-por-hurto-y-ley-karin-lincolao-explico-despidos-previos-a/2026-11-19/163849.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 53.6,
-          "level": "MEDIA",
+          "score": 49.4,
+          "level": "BAJA",
           "components": {
-            "political_impact": 60,
-            "freshness": 80,
+            "political_impact": 80,
+            "freshness": 40,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 36
+            "continuity": 34
           }
         },
         "coverage": {
@@ -444,180 +434,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-19T15:58:45-0300",
-        "last_seen": "2026-11-19T15:58:45-0300",
+        "first_seen": "2026-11-19T16:38:49-0300",
+        "last_seen": "2026-11-19T16:38:49-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Caso Firmas: Gobierno calificó de \"máxima gravedad\" retiro de permisos en el Senado",
-            "description": "En medio de una investigación abierta por el Ministerio Público ante una eventual falsificación de firmas , el vicepresidente de la República, Claudio Alvarado , calificó como una situación de \"máxima gravedad\" el retiro de los permisos constitucionales de los senadores  Ximena Órdenes (independiente-Partido Por la Democracia) y  Fidel Espinoza (Partido Socialista), sin que ambos tuvieran conocimiento de la gestión. \"Es una situación lamentable que nunca debería suceder. Tratar de alterar los quórum del Senado de la República , a través de documentos que no son fidedignos , yo creo que es de la máxima gravedad . Es altamente cuestionable y éticamente reprochable \", dijo el biministro del Interior y de la Secretaría General de Gobierno (Segegob). La autoridad agregó que, \"si hay alguna consideración mayor en este acto, serán otras instancias que tienen que decidir\". La controversia estalló estalló el martes por la tarde, tras aparecer en la Cámara Alta el retiro de los permisos constitucionales de Órdenes y Espinoza, quienes integran la comitiva del Presidente José Antonio Kast en su gira por Asia .  Dicha modificación implicaba aumentar nuevamente el quórum necesario para aprobar determinadas materias en el Congreso , en medio de la discusión del proyecto del Presupuesto 2027 . Mientras Espinoza descartó una falsificación de su firma y atribuyó lo ocurrido a una desprolijidad administrativa,  Órdenes negó haber solicitado el retiro de su autorización y la  Fiscalía Regional de Valparaíso abrió una investigación de oficio . \"En medio de la gira presidencial en Asia, tomé conocimiento que el permiso constitucional que había solicitado oportunamente y que había sido conocido y aprobado por la sala del Senado, había sido retirado\", señaló la senadora. \"En ese sentido, quiero señalar que en ningún momento yo solicité y menos autoricé el retiro de ese permiso. Desconozco el formato y el procedimiento que se utilizó para la adopción de esa acción. Y espero que esto sea esclarecido sin duda a la brevedad posible\" , recalcó. La presidenta del PS, Paulina Vodanovic , explicó que \"se suspendió la votación y se votó ayer con el quórum que correspondía, por lo tanto aquí no hubo ningún tipo de alteración , así es que no se produjo ese eventual daño\". \"Nosotros, como un partido que tiene 93 años de luchas sociales, vamos a hacer todos los esfuerzos políticos, con todos los partidos de la oposición, con el mismo PPD, para acercar nuestras posiciones, porque no puede ser que en vez de estar peleando por los derechos de los chilenos estemos en discusiones absolutamente estériles\", añadió. La  Mesa del Senado emitió una declaración pública en la que indicó que \" a la fecha, no existe una confirmación de que se haya producido una falsificación de firmas en la tramitación de estos permisos , incluso uno de los senadores involucrados lo ha descartado públicamente\".  Asimismo, la directiva anunció que analizará la solicitud presentada en Sala para evaluar los pasos institucionales que correspondan, incluida la eventual presentación de antecedentes ante la Fiscalía.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/caso-firmas-gobierno-califico-de-maxima-gravedad-retiro-de-permisos/2026-11-19/155845.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261119/imag/foto_0000000220261119155845.jpg",
-            "published_raw": "Thu, 19 Nov 2026 15:58:45 -0300",
-            "published_at": "2026-11-19T15:58:45-0300",
+            "title": "Sumario por hurto y ley Karin: Lincolao explicó despidos previos a renuncia de subsecretaria Rossi",
+            "description": "La ministra de Ciencia, Tecnología e Innovación, Ximena Lincolao , explicó este jueves los motivos detrás de los sumarios y despidos previos ocurridos al interior de la cartera, que marcaron la renuncia de la subsecretaria Carolina Rossi . Las salidas se ejecutaron de manera sorpresiva en momentos en que la ministra se encontraba en el extranjero -en el marco de su agenda en Silicon Valley y la cumbre de la APEC - y mientras la subsecretaria Rossi oficiaba como ministra subrogante, sin haber sido informada de la determinación. La medida afectó a Juan José Tagle , asesor jurídico a honorarios estrechamente vinculado al gabinete de Rossi, además de Magdalena Calcagni y Tomás Rivero, profesionales pertenecientes a la División de Tecnologías Emergentes. [Lea también] Gobierno intervino el Ministerio de Ciencia por conflicto entre ministra Lincolao y subsecretaria Rossi Al ser consultada por la situación, la ministra Lincolao explicó que \"yo estaba en una comisión de servicio. La subsecretaria (Rossi) era la ministra y la subsecretaria subrogante (Carolina Calvo) . Entre ellas dos conversaron este tema el día anterior\". \"Los despidos venían por un sumario que existía a una persona por hurto, la otra persona tenía otro sumario, una Ley Karin , y la otra persona tenía problemas de gestión . Estas son personas a honorarios, y otra persona que era un jefe de división: dos de honorarios y uno jefe de división\", indicó la secretaria de Estado. Lincolao hizo hincapié en que \"yo vengo de una escuela donde no se habla de las razones por las cuales las personas son destituidas, por respeto a las personas. Pero, lamentablemente, me veo obligada a dar este detalle para que se sepa que esto no tiene que ver con desvinculaciones a los otros funcionarios\". Con la dimisión de Carolina Rossi, la cartera registra ya la segunda renuncia en su subsecretaría. Su partida se suma a la salida previa del exsubsecretario  Rafael Araos , quien al dejar el cargo había señalado diferencias de gestión y visión con el Gobierno. \"Aprecio el trabajo que hicieron los dos subsecretarios\" Consultada por los medios a su ingreso al encuentro Emprende Tu Mente (ETM), la secretaria de Estado evitó responder directamente si ha considerado renunciar, asegurando que su relación con el Gobierno \"es excelente\". Frente a la insistencia de los reporteros sobre una eventual crisis en la cartera de Ciencia, la ministra respondió que ese es \"el foco de algunos, no el foco de todos\". Finalmente, Lincolao se refirió a los sumarios previos a la salida de la ahora exsubsecretaria Rossi: \" Yo aprecio el trabajo que hicieron los dos subsecretarios muchísimo. Les deseo lo mejor, pero esas son cosas que ocurren\" , aseveró. \"(Con) lo que nosotros nos tenemos que quedar es que Chile no puede quedarse en esa parte, tiene que quedarse en la grande: esta. Y ese es el foco mío: elevar al país, sacar al país de estar al sur del mundo, y eso es lo que está haciendo acá \", concluyó. Con todo, \" cuando se vive un momento transformador como éste, siempre van a haber situaciones: alguna resistencia al cambio o cosas de ese tipo. Y lo que tenemos que pensar es que en 10 años, nos vamos a acordar de este minuto, del liderazgo y de la fuerza y firmeza que tuvimos para hacer lo que es necesario Reacciones desde el Congreso El jefe de bancada del Partido Republicano, el diputado Benjamín Moreno , comentó que \"se pueden ir dos subsecretarios perfectamente, pero evidentemente uno ve las cosas que se van haciendo en el Ministerio y ahí uno puede poner en la balanza y decir 'se están haciendo cosas que son convenientes en materia de ciencias e innovación, sí o no', se están firmando convenios importantes y ahí cada uno podrá tener su análisis en esta materia\". \"Hay formas de trabajar que no siempre acomodan con todos y la ministra Lincolao me imagino tiene una forma, una energía, una rapidez para trabajar, que quizás no siempre va calzando con todos\", añadió. Moreno sostuvo que \" si hay un ministro o subsecretario que cuenta con el respaldo del Presidente Kast, cuenta con mi respaldo , y si él encuentra que es bueno, yo encuentro que es bueno\". Desde la oposición, el diputado socialista Daniel Manouchehri, que preside la Comisión de Ciencia , aseveró: \"La pregunta de fondo es:  ¿por qué no sacaron antes a la subsecretaria? Porque las denuncias por Ley Karin que tenía eran anteriores, y las situaciones que se han denunciado eran bien escandalosas: una subsecretaria que intervenía a favor de funcionarios que fueron despedidos por situaciones muy graves, como robarse un matero, unas cosas que además de graves son situaciones bien ordinarias que estaban aconteciendo\". \"Nosotros vemos que este sigue siendo un Gobierno poco serio y pareciera que esta vez sí le pudieron doblar la mano al segundo piso. Yo volvería a insistirle al segundo piso a que deje trabajar a sus ministros\", agregó. A su vez, el exministro de Ciencia Flavio Salazar relevó que en el mundo académico existe una \" preocupación por cómo, en cierta medida, el Ministerio ha hecho noticia principalmente por los temas internos , más que por la aplicación de una mirada estratégica o programática que implique avances para el desarrollo de la ciencia, el conocimiento y las tecnologías, que son los objetivos que tiene\".",
+            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/sumario-por-hurto-y-ley-karin-lincolao-explico-despidos-previos-a/2026-11-19/163849.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261119/imag/foto_0000000220261119163849.png",
+            "published_raw": "Thu, 19 Nov 2026 16:38:49 -0300",
+            "published_at": "2026-11-19T16:38:49-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
             "score_institutional": 8,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 1,
+            "score_elections": 0,
+            "score_international": 1,
+            "score_conflict": 1,
+            "score_policy": 0,
             "score_ideology": 1,
             "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
             "political_evidence": 16,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
+            "secondary_topic": "Relaciones internacionales",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-003"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 21,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 74.6
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-015",
-        "title": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast",
-        "topic": "Economía y políticas públicas",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "France 24",
-        "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261119-ni-un-peso-menos-los-chilenos-protestan-contra-los-presupuestos-del-gobierno-kast",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 46.2,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 54,
-            "freshness": 52,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 28
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "France 24"
-        },
-        "first_seen": "2026-11-18T23:11:30-0300",
-        "last_seen": "2026-11-18T23:11:30-0300",
-        "articles": [
-          {
-            "source_id": "france24_latam",
-            "source": "France 24",
-            "title": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast",
-            "description": "Una serie de movilizaciones en Santiago y otras de las principales ciudades de Chile fue protagonizada por sindicatos y varios movimientos sociales. Los manifestantes se pronunciaron contra los recortes para la educación, salud y cultura en la ley de presupuesto para 2027 presentada por el Gobierno de José Antonio Kast. Esto en medio de un descontento generalizado contra el Ejecutivo, que según algunas encuestas, supera el 70%.",
-            "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261119-ni-un-peso-menos-los-chilenos-protestan-contra-los-presupuestos-del-gobierno-kast",
-            "image_url": "https://s.france24.com/media/display/4652dd36-e3b3-11f1-a028-c5c0357b2a0c/w:1024/p:16x9/2026-11-18T173203Z-1865229298-RC2EQOA6DA1B-RTRMADP-3-CHILE-PROTEST.jpg",
-            "published_raw": "Thu, 19 Nov 2026 02:11:30 GMT",
-            "published_at": "2026-11-18T23:11:30-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 2,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 3,
-            "score_ideology": 0,
-            "score_actor": 0,
-            "score_noise": 1,
-            "score_accident": 0,
-            "political_evidence": 5,
-            "primary_topic": "Economía y políticas públicas",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-015"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 18,
-          "labels": [
-            "Estado e instituciones",
-            "Economía y políticas públicas"
-          ],
-          "chile_utility": 64.2
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Cámara aprobó Sala Cuna y la envió al Senado, que estima despacharla la próxima semana",
-        "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_DECISION",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/trabajo/camara-aprobo-sala-cuna-y-la-envio-al-senado-que-estima-despacharla-la/2026-11-18/155855.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 49.7,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 83,
-            "freshness": 40,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 28
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-18T15:58:55-0300",
-        "last_seen": "2026-11-18T15:58:55-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Cámara aprobó Sala Cuna y la envió al Senado, que estima despacharla la próxima semana",
-            "description": "El proyecto de Sala Cuna Universal fue aprobado esta jornada por la Sala de la Cámara de Diputadas y Diputados, por lo que fue despachado al Senado. La iniciativa  tuvo el visto bueno del hemiciclo con 132 votos a favor y 12 abstenciones, por lo que inició su tercer trámite constitucional. ✅ APROBADO | La Cámara respalda el proyecto de Sala Cuna Universal. Vuelve al Senado, con modificaciones. — Diputadas y Diputados de Chile (@Camara_cl) November 18, 2026 La iniciativa amplía el derecho eliminando la exigencia de que las empresas tengan 20 o más trabajadoras para estar obligadas a proveerlo, además de crear un Fondo Solidario para financiarlo. También amplía la cobertura a trabajadoras y trabajadores, incluidos determinados independientes. El ministro del Trabajo, Tomás Rau , dijo que \"estamos muy contentos, hemos tenido una jornada histórica. Quiero agradecer a cada uno de los presentes que hizo posible este avance, nos queda todavía el tercer trámite, pero la votación que hemos logrado hoy día ha sido muy importante. Acá no ha sido por un voto, no ha sido por dos votos, ha sido por decenas de votos. No estamos hablando de un triunfo de un gobierno en particular, este proyecto partió en el gobierno del Presidente Piñera, siguió en el gobierno del Presidente Boric y el Presidente Kast ahora lo ha retomado\". \"Este proyecto viene primero a hacer justicia a las mujeres de Chile, también este proyecto va a proveer acceso a salas cunas a decenas de miles de niños que hoy día no tienen acceso a sala cuna\", valoró. Por su parte, la ministra de la Mujer, Judith Marín , destacó que la propuesta \" va al corazón del empleo femenino , puesto que elimina la discriminación y el umbral de la trabajadora número 20\". \"En segundo lugar, es de toda justicia , y en tercer lugar, lo que hace este proyecto es hablar de corresponsabilidad , puesto que equipara el acceso a sala cuna tanto para trabajadores hombres y para mujeres\", relevó. SALA CUNA UNIVERSAL 📰| Cámara respaldó extensión del beneficio de la sala cuna. https://t.co/NJ1eTNFm09 — Diputadas y Diputados de Chile (@Camara_cl) November 18, 2026 La presidenta del Senado, Paulina Núñez (RN), anunció que el martes 24 se dará cuenta en la Sala el proyecto de Sala Cuna, con miras a despacharlo a ley el miércoles 25. \"Queremos comprometernos con los siguientes tiempos: el día martes vamos a dar cuenta en la Sala para que este proyecto lo conozca la Comisión de Trabajo que está presidida por el senador Luciano Cruz-Coke y ojalá al día siguiente podamos despacharlo nuevamente a la Sala con tal de que tengamos un día histórico\", sostuvo la parlamentaria. Gobierno se comprometió a establecer tope del 20% al copago Uno de los puntos que generaron mayor discusión fue el eventual copago que tendrán que pagar las familias. Sin embargo, antes de la votación, el Gobierno se comprometió a presentar, a través de una ley miscelánea antes de fin de año, una modificación para que el pago no supere el 20%. Rau  explicó que, \"como está el proyecto actualmente, el copago tiene una protección solo para las familias vulnerables en el tramo del 40%  del Registro Social de Hogares; allí, contempla un subsidio del 50% del copago que se genere. Y las familias pertenecientes al tramo 41%-60%, tienen un subsidio del 30%\". \"Eso es financiado con cargo al Fondo (Solidario). Lo que hemos planteado es que, a través de una ley miscelánea, nos comprometemos de aquí a fin de año no dejar libremente el copago, sino ponerle un tope del 20%\", sostuvo. La diputada Constanza Schönhaut (FA) planteó que \"Chile lleva décadas castigando la contratación de las mujeres y con un desempleo femenino del 10,5 por ciento es urgente levantar esas barreras, por eso votamos a favor de este proyecto en general, pero es inaceptable que el gobierno intente escalar este proyecto como universal, porque la plata va a salir del seguro de cesantía de los trabajadores y del bolsillo de las familias con la incorporación del copago\". \"Votamos en contra del sistema de financiamiento del copago e insistimos en incorporar al sector público, a Junji, Integra, al sistema de financiamiento a través del fondo que fue rechazado finalmente\", añadió. En la misma línea, la diputada comunista Sofía González  advirtió sobre el impacto que podría tener la utilización de recursos del seguro de cesantía y la obligación de las familias de cubrir eventuales diferencias. \"Estamos debilitando un derecho para financiar otro: por otro lado, si la sala cuna cobra más de lo que aporta el fondo, la diferencia deberá pagarla la propia familia. La sala cuna no puede convertirse en otro negociado financiado con el bolsillo de los trabajadores\", urgió. ",
-            "url": "https://www.cooperativa.cl/noticias/pais/trabajo/camara-aprobo-sala-cuna-y-la-envio-al-senado-que-estima-despacharla-la/2026-11-18/155855.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261118/imag/foto_0000000220261118155855.png",
-            "published_raw": "Wed, 18 Nov 2026 15:58:55 -0300",
-            "published_at": "2026-11-18T15:58:55-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 9,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 2,
-            "score_ideology": 1,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 18,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
+            "cluster_id": "PML-EVENT-004"
           }
         ],
         "article_count": 1,
@@ -628,7 +474,152 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 71.7
+          "chile_utility": 71.4
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-001",
+        "title": "Senado despachó el Presupuesto 2027: repuso recursos para Educación y Cultura",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/senado-despacho-el-presupuesto-2027-repuso-recursos-para-educacion-y/2026-11-20/104454.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 49,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 54,
+            "freshness": 72,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 28
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-20T10:44:54-0300",
+        "last_seen": "2026-11-20T10:44:54-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Senado despachó el Presupuesto 2027: repuso recursos para Educación y Cultura",
+            "description": "El Senado concluyó la votación del proyecto de Presupuesto 2027 la madrugada de este viernes, tras una extensa jornada marcada por acuerdos para reponer recursos en Educación y Cultura , además de una controversia por fondos destinados a las empresas forestales. Entre los principales acuerdos estuvo la reposición del presupuesto del Ministerio de Educación , cuya partida fue rechazada por la Cámara Baja, y que recibió casi 48.000 millones de pesos adicionales respecto de la propuesta original . De ese monto, 35.000 millones se destinarán al programa Yo Elijo Mi PC , que el Gobierno buscaba eliminar, mientras que otros 6.300 millones serán asignados a educación superior. La senadora de la Democracia Cristiana Yasna Provoste  valoró el acuerdo alcanzado: \"El año 2027 los estudiantes de séptimo básico de la educación pública van a recibir su computador y sus profesores van a recibir capacitación en nuevas tecnologías digitales. Ese computador no lo trajo ni el grito ni el meme, lo trajo el acuerdo \". La partida fue aprobada con 25 votos a favor y dos en contra , entre ellos el de la senadora del Frente Amplio Beatriz Sánchez, quien cuestionó el tiempo disponible para revisar el proyecto: \" No me gusta, no quiero votar cosas que no he visto. Este presupuesto de Educación, que son 399 páginas que nos dieron hace 45 minutos, una hora, no lo vi completo\", se quejó. Reposición de recursos para sitios de memoria Otro de los acuerdos permitió reponer el presupuesto original del Ministerio de las Culturas, incluyendo los recursos destinados a sitios de memoria. \"Efectivamente el Gobierno ha repuesto los recursos para sitios de memoria, pero hay senadores aquí presentes que presentaron indicación para que se redujeran a 1.000 pesos . Y me parece a mí que poner en cuestión la memoria con insultos, de verdad debiera hacernos reflexionar desde el Senado de la República\", cuestionó la presidenta del Partido Socialista, Paulina Vodanovic. Por su parte, el senador republicano Cristián Vial planteó reparos: \"reponer estos fondos, yo no tengo problema si eso nos ayuda a avanzar, pero ojalá que alguna vez hagamos un monumento donde estemos todos representados y nos demos la mano, y finalmente superemos esto\". Polémica por 50.000 millones para empresas forestales La mayor controversia surgió al final de la jornada, durante la discusión de la partida del Tesoro Público, donde el Gobierno contempló 50.000 millones de pesos para apoyar proyectos de repoblación forestal , una medida que generó críticas por su similitud con el antiguo Decreto Ley 701, promulgado durante la dictadura. \" Esto es pasar un perro muerto. Esto no se hace . A la última hora, no se pasa de contrabando\", reprochó el senador socialista Alfonso de Urresti. La senadora independiente Alejandra Sepúlveda, también cuestionó la iniciativa: \"Esto no genera la mano de obra que se está diciendo. Pero además, es impresentable que se coloquen 50.000 millones aquí y los saca de INDAP.  Y lo segundo, las complicaciones que tenemos por los monocultivos en este tema son brutales\". Ante las críticas, el ministro de Hacienda, Jorge Quiroz, respondió: \"Solicito si se pudiese mantener un poco más la calma acá. Es una iniciativa que no va a las grandes empresas, tiene un tope de tamaño \". Sin embargo, el senador comunista Daniel Núñez replicó: \" Eso no lo dice la glosa . En ningún momento dice que hay un límite de tamaño del productor beneficiado\". La jornada también dejó rechazada la partida de Agricultura , por lo que aún quedaron diferencias pendientes entre ambas cámaras. El proyecto volverá el próximo lunes a la Cámara de Diputadas y Diputados, que deberá revisar los cambios aprobados por el Senado.",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/senado-despacho-el-presupuesto-2027-repuso-recursos-para-educacion-y/2026-11-20/104454.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261120/imag/foto_0000000220261120104454.jpg",
+            "published_raw": "Fri, 20 Nov 2026 10:44:54 -0300",
+            "published_at": "2026-11-20T10:44:54-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 9,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 2,
+            "score_ideology": 2,
+            "score_actor": 5,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 19,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-001"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo",
+            "Economía y políticas públicas"
+          ],
+          "chile_utility": 71
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-002",
+        "title": "Fiscalía investiga falsificación de firma de senadora que está con Kast en Asia",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_CRISIS",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/fiscalia-investiga-falsificacion-de-firma-de-senadora-que-esta-con-kast/2026-11-19/083545.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 48.9,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 71,
+            "freshness": 40,
+            "source_count": 30,
+            "geographic_scope": 55,
+            "continuity": 34
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-19T08:35:45-0300",
+        "last_seen": "2026-11-19T08:35:45-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Fiscalía investiga falsificación de firma de senadora que está con Kast en Asia",
+            "description": "La Fiscalía Regional de Valparaíso  abrió una investigación de oficio para esclarecer una eventual falsificación de la firma de la senadora Ximena Órdenes (independiente-Partido Por la Democracia). La controversia estalló el martes por la tarde, tras aparecer en la Cámara Alta el retiro de los permisos constitucionales de la legisladora y Fidel Espinoza (Partido Socialista), quienes integran la comitiva del Presidente José Antonio Kast en su gira por Asia .  Dicha modificación implicaba aumentar nuevamente el quórum necesario para aprobar determinadas materias en el Congreso , en medio de la discusión del proyecto del Presupuesto 2027 . Mientras Espinoza descartó una falsificación de su firma y atribuyó lo ocurrido a una desprolijidad administrativa ,  el senador del PPD Pedro Araya dio lectura ayer en Sala a una carta de Órdenes, en la que la parlamentaria negó haber solicitado el retiro de su autorización. \"Quiero señalar, de manera categórica, que no he retirado mi solicitud de permiso constitucional, no he suscrito ni remitido ningún documento en ese sentido y tampoco he autorizado a ninguna persona para utilizar mi firma o actuar en mi representación con ese propósito . Saluda atentamente a usted, Ximena Órdenes Neira, senadora\", decía la misiva leída por Araya. Sus declaraciones motivaron la investigación de oficio del Ministerio Público. Tras dar lectura al documento, el senador Rodolfo Carter (independiente-Partido Republicano) solicitó que los antecedentes fueran certificados y remitidos al Ministerio Público para \"que acredite quién eventualmente ha cometido este delito\". \"A lo menos hay una falsificación de firma de una senadora de la República\" , advirtió el oficialista. Órdenes: \"Espero que esto sea esclarecido a la brevedad\" Desde el otro lado del mundo, la senadora Órdenes abordó hoy la controversia y recalcó: \"En medio de la gira presidencial en Asia, tomé conocimiento que el permiso constitucional que había solicitado oportunamente y que había sido conocido y aprobado por la sala del Senado, había sido retirado\". \"En ese sentido, quiero señalar que en ningún momento yo solicité y menos autoricé el retiro de ese permiso \", subrayó.  \"Desconozco el formato y el procedimiento que se utilizó para la adopción de esa acción. Y espero que esto sea esclarecido sin duda a la brevedad posible \", agregó. En el Congreso, Araya precisó hoy que \"lo que ella (Órdenes) quiso es que quedaran de manifiesto públicamente que ella no tuvo nada que ver. Efectivamente está consciente de que, producto de la actuación del Ministerio Público, hay una investigación y ella va a colaborar en calidad de víctima \". \"La intención de ella en ningún minuto fue generar este tipo de situaciones, pero, claramente, si estamos en presencia de un delito -y así lo ha determinado la Fiscalía-, tendrá que investigarse\", recalcó. Castro: \"Es una materia resuelta\" Ayer, sin embargo, el senador Juan Luis Castro (Partido Socialista), jefe del comité del Socialismo Democrático (que agrupa a senadores del PS, PPD y Partido Liberal), restó gravedad al episodio y aseguró que la situación ya había sido resuelta. \"(Quiero) decirles a los colegas que están un poco nerviosos que ese tema reglamentario se resolvió ayer (martes) por la noche en conformidad con la propia interesada, así que eso es una materia resuelta \", afirmó el parlamentario. Por su parte, la presidenta del Senado, Paulina Núñez (Renovación Nacional), explicó que  \"el documento llegó firmado por la senadora (Órdenes), al parecer sin la anuencia de ella. Por lo tanto, lo primero que correspondía era que, nuevamente, esos permisos estuvieran presentados\". La controversia también tiene una arista política, debido a las diferencias que mantienen Araya y Castro , luego de que el comité del Socialismo Democrático resolviera sacar al primero de la presidencia de la Comisión de Constitución . \"Gracias al senador Juan Luis Castro, el Gobierno sale del fondo del ring y hoy día entra la oposición a dar explicaciones. Entonces, hay un error político que es del porte de una catedral\" , fustigó Araya. El próximo martes, con Órdenes ya de regreso en Chile, la bancada del PPD se reunirá para definir una postura común, aunque el presidente de la colectividad, el diputado Raúl Soto, ya apuntó en una entrevista que la parlamentaria fue víctima de una acción \"cuestionable\" , al retirar ese permiso constitucional sin su consentimiento, y con la eventual utilización de su firma sin su autorización. Mesa del Senado: \"A la fecha, no existe una confirmación de que se haya producido una falsificación de firmas\" Finalmente, la mesa del Senado , encabezada por Núñez y el vicepresidente Iván Moreira (UDI), se refirió a la controversia y señaló que \" a la fecha, no existe una confirmación de que se haya producido una falsificación de firmas en la tramitación de estos permisos, incluso uno de los senadores involucrados lo ha descartado públicamente.  Por lo tanto, resulta improcedente presentar como un hecho acreditado una situación que no ha sido establecida\". Respecto de la situación planteada por Órdenes, la directiva anunció que analizará la solicitud presentada en la Sala para determinar los pasos institucionales correspondientes y sostuvo que serán las instancias competentes las encargadas de esclarecer eventuales irregularidades. Asimismo, aclaró que la recepción de los documentos por parte de la Secretaría del Senado constituye un trámite administrativo y no implica validar las autorizaciones ni verificar las circunstancias en que fueron firmadas. Finalmente, informó que la Corporación no ha recibido una notificación oficial sobre la investigación de oficio del Ministerio Público , aunque aseguró que \"colaborará plenamente con la Fiscalía, entregando los antecedentes que sean solicitados, en el marco de sus atribuciones y procedimientos institucionales\".",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/fiscalia-investiga-falsificacion-de-firma-de-senadora-que-esta-con-kast/2026-11-19/083545.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261119/imag/foto_0000000220261119083545.jpg",
+            "published_raw": "Thu, 19 Nov 2026 08:35:45 -0300",
+            "published_at": "2026-11-19T08:35:45-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 9,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 2,
+            "score_actor": 6,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 18,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Ideología y competencia política",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-002"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 69.9
         },
         "repeated_in_general_top5": false
       }
@@ -637,51 +628,45 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 22,
-      "maximum_relevance": 69.1,
-      "leading_story": "Más recortes, nuevos impuestos y venta de activos: el Gobierno y el Congreso buscan alternativas para reemplazar el IVA en la reforma tributaria"
-    },
-    {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 2,
-      "maximum_relevance": 62.1,
-      "leading_story": "Feijóo se lanza al ataque ante un Sánchez que evita el cuerpo a cuerpo"
+      "event_count": 20,
+      "maximum_relevance": 61.9,
+      "leading_story": "Alcaldes piden al Congreso frenar recorte del 58,3% a la Ley Cholito en el Presupuesto 2027"
     },
     {
       "topic": "Ideología y competencia política",
-      "event_count": 1,
-      "maximum_relevance": 53.5,
-      "leading_story": "El monarca que reinó desde el centro y lo destruyó: las raíces del fracaso de Macron"
+      "event_count": 2,
+      "maximum_relevance": 61.9,
+      "leading_story": "El mercado no quita ojo al ‘efecto Mélenchon’ en Francia, una economía que sufre “una crisis a cámara lenta”"
     },
     {
-      "topic": "Relaciones internacionales",
+      "topic": "Elecciones y opinión pública",
       "event_count": 1,
-      "maximum_relevance": 53.3,
-      "leading_story": "Xi, Trump y Putin, tras la cumbre de Shenzhen: “Una guerra nuclear no se puede ganar y nunca debe librarse”"
+      "maximum_relevance": 55.3,
+      "leading_story": "Trilateral en Shenzhen: la cumbre donde Trump presumió, Putin volvió y Xi ganó"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 46.2,
+      "maximum_relevance": 39.5,
       "leading_story": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 2,
-      "maximum_relevance": 42.9,
+      "maximum_relevance": 39.1,
       "leading_story": "\"Bandas carcelarias están transformando a Ecuador en un narcoestado\": 'WSJ'"
     }
   ],
   "changes_since_yesterday": {
     "status": "available",
     "data": {
-      "entered_top5": ["PML-EVENT-010", "PML-EVENT-022", "PML-EVENT-021"],
-      "exited_top5": ["PML-EVENT-019", "PML-EVENT-012", "PML-EVENT-006"],
-      "retained_top5": ["PML-EVENT-004", "PML-EVENT-001"]
+      "entered_top5": ["PML-EVENT-003", "PML-EVENT-013", "PML-EVENT-015", "PML-EVENT-023"],
+      "exited_top5": ["PML-EVENT-010", "PML-EVENT-021", "PML-EVENT-004", "PML-EVENT-001"],
+      "retained_top5": "PML-EVENT-022"
     }
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
     "source_count": 3
   },
   "system": {
