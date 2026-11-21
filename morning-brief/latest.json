@@ -4,30 +4,30 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-21",
-    "data_latest_timestamp": "2026-11-21T06:30:00-0300",
-    "data_age_hours": 1.3,
-    "generated_at": "2026-11-21T07:46:51-0300",
+    "data_latest_timestamp": "2026-11-21T09:35:32-0300",
+    "data_age_hours": 6.3,
+    "generated_at": "2026-11-21T15:53:14-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
     "chile_selector_model": "PML Chile Political Science Selector v0.1",
     "top_diversity_fallback": false,
-    "editorial_topic_diversity_met": true
+    "editorial_topic_diversity_met": false
   },
   "summary": {
     "headline": "Panorama Político Diario",
     "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 26 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 3 temas, 3 áreas geográficas y 3 tipos de evento político.",
+    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 2 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
     "ranked_events": 26,
-    "topics": 3,
+    "topics": 1,
     "geographies": 3,
     "representative_sources": 2,
-    "average_top5_relevance": 57.9,
-    "maximum_relevance": 61.9
+    "average_top5_relevance": 56.6,
+    "maximum_relevance": 59.9
   },
   "top_stories": [
     {
@@ -43,12 +43,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 61.9,
+        "score": 59.9,
         "level": "MEDIA",
-        "editorial_utility": 61.9
+        "editorial_utility": 59.9
       },
       "selection": {
-        "reason": "PML 61.9",
+        "reason": "PML 59.9",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -109,152 +109,6 @@
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-013",
-      "title": "El mercado no quita ojo al ‘efecto Mélenchon’ en Francia, una economía que sufre “una crisis a cámara lenta”",
-      "url": "https://elpais.com/economia/negocios/2026-11-21/el-mercado-no-quita-ojo-al-efecto-melenchon-en-francia-una-economia-que-sufre-una-crisis-a-camara-lenta.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Ideología y competencia política",
-      "event_type": "INSTITUTIONAL_CRISIS",
-      "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 61.9,
-        "level": "MEDIA",
-        "editorial_utility": 69.9
-      },
-      "selection": {
-        "reason": "PML 61.9; aporta diversidad temática; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-21T01:30:00-0300",
-      "last_seen": "2026-11-21T01:30:00-0300",
-      "entities": [],
-      "event_terms": "crisis",
-      "analysis": {
-        "summary": "El candidato de extrema izquierda gana opciones para enfrentarse a su némesis de extrema derecha, Marine Le Pen, en la segunda vuelta de las presidenciales francesas",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Ideología y competencia política y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El mercado no quita ojo al ‘efecto Mélenchon’ en Francia, una economía que sufre “una crisis a cámara lenta”",
-          "description": "El candidato de extrema izquierda gana opciones para enfrentarse a su némesis de extrema derecha, Marine Le Pen, en la segunda vuelta de las presidenciales francesas",
-          "url": "https://elpais.com/economia/negocios/2026-11-21/el-mercado-no-quita-ojo-al-efecto-melenchon-en-francia-una-economia-que-sufre-una-crisis-a-camara-lenta.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/4GSRIWS7UFA4LENVDGPYDKSANI.JPG?auth=9346253149b547c469c020dc74fe18d27ebbce7a03790ecfc196131cea51b75d",
-          "published_raw": "Sat, 21 Nov 2026 04:30:00 GMT",
-          "published_at": "2026-11-21T01:30:00-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 4,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 8,
-          "primary_topic": "Ideología y competencia política",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-013"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-015",
-      "title": "Trilateral en Shenzhen: la cumbre donde Trump presumió, Putin volvió y Xi ganó",
-      "url": "https://elpais.com/internacional/2026-11-21/trilateral-en-shenzhen-la-cumbre-donde-trump-presumio-putin-volvio-y-xi-gano.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 55.3,
-        "level": "MEDIA",
-        "editorial_utility": 67.3
-      },
-      "selection": {
-        "reason": "PML 55.3; fallback editorial controlado; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-21T06:30:00-0300",
-      "last_seen": "2026-11-21T06:30:00-0300",
-      "entities": "trump",
-      "event_terms": [],
-      "analysis": {
-        "summary": "El presidente de Estados Unidos se cargó de agasajos en su visita a China, tras la bofetada que le propinaron los votantes en las elecciones de mitad de mandato",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Trilateral en Shenzhen: la cumbre donde Trump presumió, Putin volvió y Xi ganó",
-          "description": "El presidente de Estados Unidos se cargó de agasajos en su visita a China, tras la bofetada que le propinaron los votantes en las elecciones de mitad de mandato",
-          "url": "https://elpais.com/internacional/2026-11-21/trilateral-en-shenzhen-la-cumbre-donde-trump-presumio-putin-volvio-y-xi-gano.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/6ZWHP23G7ZPOPMVTNYMV5JGEFY.jpg?auth=cccb74cafac001818bfad7f2f306b42abec13413d24966bde940f655024b7afe",
-          "published_raw": "Sat, 21 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-21T06:30:00-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 2,
-          "score_international": 1,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
-        }
-      ]
-    },
-    {
-      "position": 4,
       "cluster_id": "PML-EVENT-022",
       "title": "El requisito imposible que dejó a Colombia sin escudo antidrones",
       "url": "https://elpais.com/america-colombia/2026-11-21/el-requisito-imposible-que-dejo-a-colombia-sin-escudo-antidrones.html",
@@ -266,12 +120,12 @@
         "country": "Colombia / América Latina"
       },
       "relevance": {
-        "score": 57,
+        "score": 55.8,
         "level": "MEDIA",
-        "editorial_utility": 57
+        "editorial_utility": 58.8
       },
       "selection": {
-        "reason": "PML 57; fallback editorial controlado; aporta diversidad geográfica",
+        "reason": "PML 55.8; fallback editorial controlado; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -327,24 +181,176 @@
       ]
     },
     {
+      "position": 3,
+      "cluster_id": "PML-EVENT-002",
+      "title": "Analista: El Gobierno se ahorraría muchos malos ratos si incorporara al Partido Libertario",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/analista-el-gobierno-se-ahorraria-muchos-malos-ratos-si-incorporara-al/2026-11-21/091156.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 56.6,
+        "level": "MEDIA",
+        "editorial_utility": 51.6
+      },
+      "selection": {
+        "reason": "PML 56.6; fallback editorial controlado; diversidad relajada para completar el brief",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-21T09:11:56-0300",
+      "last_seen": "2026-11-21T09:11:56-0300",
+      "entities": [
+        "congreso",
+        "chile"
+      ],
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "El académico Guillermo Bustamante , director del Doctorado en Comunicación de la Universidad de Los Andes, abordó este sábado en Cooperativa la polémica que enfrenta el Gobierno con el Partido Nacional Libertario , y aseguró que el \"fuego amigo\" es lo que más perjudica a la administración del Presidente José Antonio Kast .",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Analista: El Gobierno se ahorraría muchos malos ratos si incorporara al Partido Libertario",
+          "description": "El académico Guillermo Bustamante , director del Doctorado en Comunicación de la Universidad de Los Andes, abordó este sábado en Cooperativa la polémica que enfrenta el Gobierno con el Partido Nacional Libertario , y aseguró que el \"fuego amigo\" es lo que más perjudica a la administración del Presidente José Antonio Kast . El conflicto político se dio tras la amenaza de Libertarios sobre una posible acusación constitucional contra la ministra de Salud , May Chomali , por el financiamiento a tratamientos de hormonización para menores de edad en el Presupuesto 2027 . En entrevista con El Diario de Cooperativa , el analista sostuvo que, más allá de los argumentos jurídicos de la acción, la arremetida libertaria desnuda la incapacidad del oficialismo para articular acuerdos prelegislativos con sectores afines antes de ingresar las partidas al Parlamento. Para Bustamante, el intento de enjuiciar políticamente a la titular del Minsal confirma una tendencia de la colectividad a extremar posiciones , desordenando la base de apoyo legislativo del Ejecutivo. \" El Partido Nacional Libertario tiende a sobredimensionar algunas cosas . Es cierto que no está dentro del Gobierno , pero el fuego amigo es lo que le hace más mal al Gobierno de José Antonio Kast \", advirtió. La advertencia libertaria de una acusación constitucional contra la ministra de Salud, May Chomalí, abrió un conflicto político en el Congreso. (FOTO: ATON) En opinión del experto, más allá de analizar una posible acusación constitucional contra Chomali, \"la mirada es un poco más política y tiene que ver con por qué no hay una negociación previa antes de presentar los presupuestos , antes de generar algún proyecto de ley que incorpore al Partido Nacional Libertario y que sea mucho más cercano a todo el gobierno \". \"En esta línea, el Ejecutivo se podría ahorrar muchos malos ratos y mostrar una gobernabilidad mucho más relevante si incorporara al Partido Nacional Libertario en este tipo de espacio\", puntualizó en Cooperativa . De acuerdo con el planteamiento de Bustamante, el nudo del problema descansa en la improvisación en el trámite legislativo, ya que el Ejecutivo no previó ni negoció con antelación las materias sensibles del erario público con fuerzas que no integran el gabinete ministerial, pero que se han autodefinido como \"oposición amigable\". Miradas parlamentarias Frente a la caída de la norma presupuestaria, la diputada del Partido Social Cristiano (PSC) Sara Concha lamentó \"profundamente que algunos senadores hayan rechazado la indicación presentada por el Gobierno en la Ley de Presupuesto , que buscaba prohibir el financiamiento de tratamientos de hormonización en menores de edad\". \"Cuando hablamos de salud y desarrollo de nuestros niños, debemos actuar con la máxima responsabilidad \", afirmó la parlamentaria. En esta línea, pidió al Ejecutivo \" entregar máxima urgencia a nuestro proyecto de ley , que busca prohibir prácticas y tratamientos en cirugías que tengan por objeto obstaculizar o impedir el sano desarrollo psíquico o físico de nuestros niños , niñas y adolescentes \". En tanto, desde la UDI, e l diputado Daniel Lilayu remarcó la necesidad de separar las discrepancias programáticas de las herramientas sancionatorias de última ratio . \"No desconocemos la importancia de revisar y de eliminar el financiamiento de las terapias hormonales, y creemos que esa discusión tiene que darse con responsabilidad y seriedad, pero una cosa es tener diferencias y otra muy distinta es amenazar con una acusación constitucional a una ministra de Salud que está muy bien evaluada , por lo demás \", advirtió el integrante de la Comisión de Salud de la Cámara Baja. \"Hoy Chile tiene urgencias mucho más importantes. No podemos distraernos en disputas políticas. Necesitamos unidad y soluciones concretas para todos los chilenos \", enfatizó el parlamentario.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/analista-el-gobierno-se-ahorraria-muchos-malos-ratos-si-incorporara-al/2026-11-21/091156.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261121/imag/foto_0000001320261121091156.jpg",
+          "published_raw": "Sat, 21 Nov 2026 09:11:56 -0300",
+          "published_at": "2026-11-21T09:11:56-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 9,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 2,
+          "score_ideology": 0,
+          "score_actor": 6,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 18,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-002"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-010",
+      "title": "Castro revela que Paulina Vodanovic ideó la revocación de permisos de Órdenes y Espinoza",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/castro-revela-que-paulina-vodanovic-ideo-la-revocacion-de-permisos-de/2026-11-21/093532.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 55.3,
+        "level": "MEDIA",
+        "editorial_utility": 47.3
+      },
+      "selection": {
+        "reason": "PML 55.3; fallback editorial controlado; diversidad relajada para completar el brief",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-21T09:35:32-0300",
+      "last_seen": "2026-11-21T09:35:32-0300",
+      "entities": [
+        "senado",
+        "chile"
+      ],
+      "event_terms": [],
+      "analysis": {
+        "summary": "El senador socialista Juan Luis Castro afirmó que el polémico retiro de los permisos constitucionales de sus pares Ximena Órdenes (PPD-independientes) y Fidel Espinoza (PS) fue idea de la también parlamentaria y timonel de su partido, Paulina Vodanovic. La controversia fue informada el martes en la Sala del Senado.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Castro revela que Paulina Vodanovic ideó la revocación de permisos de Órdenes y Espinoza",
+          "description": "El senador socialista Juan Luis Castro afirmó que el polémico retiro de los permisos constitucionales de sus pares Ximena Órdenes (PPD-independientes) y Fidel Espinoza (PS) fue idea de la también parlamentaria y timonel de su partido, Paulina Vodanovic. La controversia fue informada el martes en la Sala del Senado. Posteriormente, Órdenes y Espinoza -que se encontraban acompañando al Presidente Kast en su gira por Asia-  denunciaron que sus permisos fueron retirados sin su conocimiento,  lo que suscitó alarmas en el hemiciclo al implicar la modificación del quórum  en medio de la discusión del proyecto del Presupuesto 2027. Mientras que Órdenes recriminó el retiro de su permiso a través de una carta leída en una sesión por el senador PPD Pedro Araya  -declaraciones que motivaron a la Fiscalía abrir una investigación al día siguiente, miércoles, por eventual falsificación de firmas-,   Espinoza acusó un \"error garrafal\" de Castro y Vodanovic, pero que corresponde a una \"desprolijidad administrativa\", no a un delito. En este contexto, en una entrevista a El Mercurio, Castro -que tramitó el controversial retiro de permisos- reveló que la timonel socialista fue la ideóloga de la estratagema. \"La idea del retiro de los permisos que habían pedido los senadores me la planteó la senadora Paulina Vodanovic (PS), que había hablado con el coordinador administrativo para plantearle lo mismo previamente, (antes de) que yo supiera\", dijo el parlamentario el medio citado.  \"Procedí a decirle que tramitara el coordinador, sabiendo que las reglas incluyen que tiene que haber un contacto directo de él por cualquier vía para poder tener el consentimiento de los senadores  que estaban fuera de Chile\", relató.  Un día antes, Vodanovic blindó a Castro en X Las declaraciones de Castro adquieren relevancia dado que 24 horas antes, mientras era recriminado políticamente por tramitar la revocación de los documentos, Vodanovic lo defendió.  A través de su cuenta de X, la timonel y senadora socialista posteó: \"Siempre tomar decisiones puede ser criticado, pero de ahí a atribuir al senador Castro participación en un delito es una bajeza\". \"La utilización política que ha hecho la derecha es inaceptable. Ingrata situación para quien es un jefe de comité (del Socialismo Democrático) que conduce política y administrativamente con harto esfuerzo y mucha dedicación. Tomó una decisión en un momento álgido del debate, pero no por ello pueden atribuirle una intencionalidad que no corresponde\",  sostuvo. Castro enfatizó que la restitución fue rápida y \"no quiere imaginar\" vendetta política de Araya En la entrevista en El Mercurio, Castro enfatizó que la noche del martes -mismo día que estalló el escándalo- pudo comunicarse con Órdenes para informarle que había \"retirado la suspensión del permiso; o sea, volvía todo al estado anterior\", y que le pidió \"las excusas del caso, porque este fue un error administrativo del que yo no tengo que ver directamente con las firmas, porque son digitales\". \"El episodio fue el martes y, al otro día -dado que esto ya se había dado vuelta atrás- se habían restituido (los permisos), pues  no fueron más de cuatro horas el tiempo de su verdadera suspensión\",  dijo el senador socialista. También afirmó que, cuando \"el senador Espinoza supo de esto y tuvo molestia, se le explicó. De hecho, Paulina Vodanovic habló con él; se le explicó el contexto del agobio, el momento político que se vivía y entendió que esto había sido simplemente una mera desprolijidad\". Por último, expresó desconocer las intenciones del senador Pedro Araya  al haber leído ceremoniosamente la carta de Órdenes, aunque consideró que sus actos \"magnificaron\" la situación: \"Me imagino que está herido después que él salió de la comisión de Constitución por decisión del comité, pero no quisiera imaginarme que esto fuera una especie de vuelta de mano\". En otra entrevista concedida a La Tercera, Castro calificó de \"lamentable\" que la Fiscalía haya abierto una investigación al respecto: \"Cuando entra la Justicia a un problema de las definiciones o acuerdos políticos, dentro además de una misma bancada, se está judicializando lo que está en el ámbito meramente de la convivencia interna de los partidos, no siendo eso una línea que establezca delitos o ilegalidades\". \"Aquí se producen acusaciones que yo las veo absolutamente irresponsables y al voleo. Por lo tanto, no tengo temor; al revés, tengo todo lo que sea pertinente en ayudar a que se investiguen los hechos, que van a estar muy lejos de alguna situación constitutiva de delito\", sostuvo. El senador socialista también señaló que es una práctica común que los parlamentarios dejen a disposición de los jefes de comité un pool de firmas digitales en caso de ser pertinente.  Romero: El PS incurrió en el aprovechamiento político más canalla Ante ello, el diputado republicano Agustín Romero planteó que eso \"deja abierta una pregunta que es bastante simple, a mi juicio: ¿quién autorizó a usarlas en ese caso?  Aparentemente, la senadora (Órdenes) no lo autorizó y el senador Espinoza tampoco\". Además, \"al retirar esos permisos se elevaba el número de votos que necesitaba el Gobierno para aprobar la autorización de endeudamiento del presupuesto. Esa autorización permite, entre otras cosas, refinanciar vencimientos y cumplir con el pago de la deuda externa de Chile. Y ahí está el aprovechamiento político más canalla\",  criticó. \"Por complicarle una votación al Ejecutivo, desde el Partido Socialista estuvieron dispuestos a dificultar que Chile contara con una herramienta para pagar sus compromisos internacionales, y eso también exige una explicación\", emplazó Romero.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/castro-revela-que-paulina-vodanovic-ideo-la-revocacion-de-permisos-de/2026-11-21/093532.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261121/imag/foto_0000000220261121093532.png",
+          "published_raw": "Sat, 21 Nov 2026 09:35:32 -0300",
+          "published_at": "2026-11-21T09:35:32-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 4,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 2,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 12,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-010"
+        }
+      ]
+    },
+    {
       "position": 5,
-      "cluster_id": "PML-EVENT-023",
-      "title": "La gran batalla de PSOE, PP y Vox por los votos decisivos de las provincias pequeñas y medianas",
-      "url": "https://elpais.com/espana/elecciones-generales/2026-11-21/la-gran-batalla-de-psoe-pp-y-vox-por-los-votos-decisivos-de-las-provincias-pequenas-y-medianas.html",
+      "cluster_id": "PML-EVENT-021",
+      "title": "Zelenski, después de que Trump se refiriera a Putin como un “amigo”: “Para nosotros es un asesino”",
+      "url": "https://elpais.com/internacional/2026-11-21/zelenski-despues-de-que-trump-se-refiriera-a-putin-como-un-amigo-para-nosotros-es-un-asesino.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "No identificado",
+        "group": "Estados Unidos",
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 53.5,
+        "score": 55.3,
         "level": "MEDIA",
-        "editorial_utility": 47.5
+        "editorial_utility": 44.3
       },
       "selection": {
-        "reason": "PML 53.5; fallback editorial controlado; diversidad relajada para completar el brief",
+        "reason": "PML 55.3; fallback editorial controlado; diversidad relajada para completar el brief; aporta diversidad geográfica",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -354,12 +360,15 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-21T01:30:01-0300",
-      "last_seen": "2026-11-21T01:30:01-0300",
-      "entities": "congreso",
+      "first_seen": "2026-11-21T07:44:14-0300",
+      "last_seen": "2026-11-21T07:44:14-0300",
+      "entities": [
+        "trump",
+        "rusia"
+      ],
       "event_terms": [],
       "analysis": {
-        "summary": "Los partidos pelean por las 29 circunscripciones con entre tres y cinco escaños, que aportan casi un tercio de los diputados del Congreso",
+        "summary": "El presidente ucranio considera que solo EE UU puede presionar a Rusia y que declaraciones como las del republicano no contribuyen a la resolución del conflicto",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -372,19 +381,19 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "La gran batalla de PSOE, PP y Vox por los votos decisivos de las provincias pequeñas y medianas",
-          "description": "Los partidos pelean por las 29 circunscripciones con entre tres y cinco escaños, que aportan casi un tercio de los diputados del Congreso",
-          "url": "https://elpais.com/espana/elecciones-generales/2026-11-21/la-gran-batalla-de-psoe-pp-y-vox-por-los-votos-decisivos-de-las-provincias-pequenas-y-medianas.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/SI2SDOYCQREARH6V2ZFW377POU.jpg?auth=9c05b12c3b2630f0467fdc9f48f9b246b77c7ee94998ce7ca8dd5fbdfa0e48c4",
-          "published_raw": "Sat, 21 Nov 2026 04:30:01 GMT",
-          "published_at": "2026-11-21T01:30:01-0300",
+          "title": "Zelenski, después de que Trump se refiriera a Putin como un “amigo”: “Para nosotros es un asesino”",
+          "description": "El presidente ucranio considera que solo EE UU puede presionar a Rusia y que declaraciones como las del republicano no contribuyen a la resolución del conflicto",
+          "url": "https://elpais.com/internacional/2026-11-21/zelenski-despues-de-que-trump-se-refiriera-a-putin-como-un-amigo-para-nosotros-es-un-asesino.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/6TEMQGOYYZCNXPED2Y3UGMI2M4.jpg?auth=a03f61960f0ad0839b3bd3eaf723eaafe32b4a4efc4fe4fd24f18b2b7d677fd8",
+          "published_raw": "Sat, 21 Nov 2026 10:44:14 GMT",
+          "published_at": "2026-11-21T07:44:14-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 1,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 0,
+          "score_conflict": 1,
           "score_policy": 0,
           "score_ideology": 0,
           "score_actor": 1,
@@ -392,10 +401,10 @@
           "score_accident": 0,
           "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
+          "secondary_topic": "Conflictos y seguridad",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
+          "cluster_id": "PML-EVENT-021"
         }
       ]
     }
@@ -553,25 +562,25 @@
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Fiscalía investiga falsificación de firma de senadora que está con Kast en Asia",
+        "cluster_id": "PML-EVENT-011",
+        "title": "Monckeberg propone una coalición abierta al centro que incluya a republicanos",
         "topic": "Instituciones y gobierno",
-        "event_type": "INSTITUTIONAL_CRISIS",
+        "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/fiscalia-investiga-falsificacion-de-firma-de-senadora-que-esta-con-kast/2026-11-19/083545.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/chile-vamos/monckeberg-propone-una-coalicion-abierta-al-centro-que-incluya-a/2026-11-20/112056.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 48.9,
+          "score": 48.1,
           "level": "BAJA",
           "components": {
-            "political_impact": 71,
-            "freshness": 40,
+            "political_impact": 51,
+            "freshness": 72,
             "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 34
+            "geographic_scope": 40,
+            "continuity": 28
           }
         },
         "coverage": {
@@ -579,47 +588,47 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-19T08:35:45-0300",
-        "last_seen": "2026-11-19T08:35:45-0300",
+        "first_seen": "2026-11-20T11:20:56-0300",
+        "last_seen": "2026-11-20T11:20:56-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Fiscalía investiga falsificación de firma de senadora que está con Kast en Asia",
-            "description": "La Fiscalía Regional de Valparaíso  abrió una investigación de oficio para esclarecer una eventual falsificación de la firma de la senadora Ximena Órdenes (independiente-Partido Por la Democracia). La controversia estalló el martes por la tarde, tras aparecer en la Cámara Alta el retiro de los permisos constitucionales de la legisladora y Fidel Espinoza (Partido Socialista), quienes integran la comitiva del Presidente José Antonio Kast en su gira por Asia .  Dicha modificación implicaba aumentar nuevamente el quórum necesario para aprobar determinadas materias en el Congreso , en medio de la discusión del proyecto del Presupuesto 2027 . Mientras Espinoza descartó una falsificación de su firma y atribuyó lo ocurrido a una desprolijidad administrativa ,  el senador del PPD Pedro Araya dio lectura ayer en Sala a una carta de Órdenes, en la que la parlamentaria negó haber solicitado el retiro de su autorización. \"Quiero señalar, de manera categórica, que no he retirado mi solicitud de permiso constitucional, no he suscrito ni remitido ningún documento en ese sentido y tampoco he autorizado a ninguna persona para utilizar mi firma o actuar en mi representación con ese propósito . Saluda atentamente a usted, Ximena Órdenes Neira, senadora\", decía la misiva leída por Araya. Sus declaraciones motivaron la investigación de oficio del Ministerio Público. Tras dar lectura al documento, el senador Rodolfo Carter (independiente-Partido Republicano) solicitó que los antecedentes fueran certificados y remitidos al Ministerio Público para \"que acredite quién eventualmente ha cometido este delito\". \"A lo menos hay una falsificación de firma de una senadora de la República\" , advirtió el oficialista. Órdenes: \"Espero que esto sea esclarecido a la brevedad\" Desde el otro lado del mundo, la senadora Órdenes abordó hoy la controversia y recalcó: \"En medio de la gira presidencial en Asia, tomé conocimiento que el permiso constitucional que había solicitado oportunamente y que había sido conocido y aprobado por la sala del Senado, había sido retirado\". \"En ese sentido, quiero señalar que en ningún momento yo solicité y menos autoricé el retiro de ese permiso \", subrayó.  \"Desconozco el formato y el procedimiento que se utilizó para la adopción de esa acción. Y espero que esto sea esclarecido sin duda a la brevedad posible \", agregó. En el Congreso, Araya precisó hoy que \"lo que ella (Órdenes) quiso es que quedaran de manifiesto públicamente que ella no tuvo nada que ver. Efectivamente está consciente de que, producto de la actuación del Ministerio Público, hay una investigación y ella va a colaborar en calidad de víctima \". \"La intención de ella en ningún minuto fue generar este tipo de situaciones, pero, claramente, si estamos en presencia de un delito -y así lo ha determinado la Fiscalía-, tendrá que investigarse\", recalcó. Castro: \"Es una materia resuelta\" Ayer, sin embargo, el senador Juan Luis Castro (Partido Socialista), jefe del comité del Socialismo Democrático (que agrupa a senadores del PS, PPD y Partido Liberal), restó gravedad al episodio y aseguró que la situación ya había sido resuelta. \"(Quiero) decirles a los colegas que están un poco nerviosos que ese tema reglamentario se resolvió ayer (martes) por la noche en conformidad con la propia interesada, así que eso es una materia resuelta \", afirmó el parlamentario. Por su parte, la presidenta del Senado, Paulina Núñez (Renovación Nacional), explicó que  \"el documento llegó firmado por la senadora (Órdenes), al parecer sin la anuencia de ella. Por lo tanto, lo primero que correspondía era que, nuevamente, esos permisos estuvieran presentados\". La controversia también tiene una arista política, debido a las diferencias que mantienen Araya y Castro , luego de que el comité del Socialismo Democrático resolviera sacar al primero de la presidencia de la Comisión de Constitución . \"Gracias al senador Juan Luis Castro, el Gobierno sale del fondo del ring y hoy día entra la oposición a dar explicaciones. Entonces, hay un error político que es del porte de una catedral\" , fustigó Araya. El próximo martes, con Órdenes ya de regreso en Chile, la bancada del PPD se reunirá para definir una postura común, aunque el presidente de la colectividad, el diputado Raúl Soto, ya apuntó en una entrevista que la parlamentaria fue víctima de una acción \"cuestionable\" , al retirar ese permiso constitucional sin su consentimiento, y con la eventual utilización de su firma sin su autorización. Mesa del Senado: \"A la fecha, no existe una confirmación de que se haya producido una falsificación de firmas\" Finalmente, la mesa del Senado , encabezada por Núñez y el vicepresidente Iván Moreira (UDI), se refirió a la controversia y señaló que \" a la fecha, no existe una confirmación de que se haya producido una falsificación de firmas en la tramitación de estos permisos, incluso uno de los senadores involucrados lo ha descartado públicamente.  Por lo tanto, resulta improcedente presentar como un hecho acreditado una situación que no ha sido establecida\". Respecto de la situación planteada por Órdenes, la directiva anunció que analizará la solicitud presentada en la Sala para determinar los pasos institucionales correspondientes y sostuvo que serán las instancias competentes las encargadas de esclarecer eventuales irregularidades. Asimismo, aclaró que la recepción de los documentos por parte de la Secretaría del Senado constituye un trámite administrativo y no implica validar las autorizaciones ni verificar las circunstancias en que fueron firmadas. Finalmente, informó que la Corporación no ha recibido una notificación oficial sobre la investigación de oficio del Ministerio Público , aunque aseguró que \"colaborará plenamente con la Fiscalía, entregando los antecedentes que sean solicitados, en el marco de sus atribuciones y procedimientos institucionales\".",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/fiscalia-investiga-falsificacion-de-firma-de-senadora-que-esta-con-kast/2026-11-19/083545.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261119/imag/foto_0000000220261119083545.jpg",
-            "published_raw": "Thu, 19 Nov 2026 08:35:45 -0300",
-            "published_at": "2026-11-19T08:35:45-0300",
+            "title": "Monckeberg propone una coalición abierta al centro que incluya a republicanos",
+            "description": "El expresidente de Renovación Nacional Cristián Monckeberg planteó este viernes en El Primer Café de Cooperativa que el Presidente José Antonio Kast impulse una coalición que reúna a RN, la UDI y el Partido Republicano, abra espacio al centro y tenga un proyecto que se extienda más allá de los cuatro años de su mandato. La propuesta surgió a raíz de las declaraciones del alcalde de Santiago, Mario Desbordes , quien cuestionó a su sector por el electorado que busca representar. \"Hoy no hay partidos que representen a la centroderecha, porque pareciera que Chile Vamos le está disputando los votos a Republicanos y Nacional Libertarios \", afirmó el jefe comunal en T13 . Monckeberg compartió parte de ese diagnóstico y sostuvo que también les corresponde a los republicanos acercar posiciones. \"Yo imagino y sueño con una coalición donde esté el Partido Republicano, que es un partido fuerte, nuevo pero fuerte; donde esté la UDI, donde esté Renovación Nacional, y donde abramos un espacio a la lógica de centro\" , dijo. \"Esa emergencia se está agotando\" Para el exministro, Kast fijó las condiciones en que los partidos se incorporaron a su administración. \"Las reglas del juego las fijó él, y los partidos se sumaron lealmente a ese empeño\", recordó. A su juicio, los límites de ese acuerdo empiezan a verse: \"Este Gobierno se instaló en la lógica de la emergencia. Bueno, esa emergencia se está agotando\" . Monckeberg reconoció avances en migración y seguridad, pero situó en el crecimiento económico una de las dificultades del Ejecutivo. En una eventual segunda etapa del gabinete, dijo, le gustaría que Kast incorporara figuras con experiencia de gobiernos anteriores y diera mayor presencia a los partidos de Chile Vamos. \"No es un problema de pega, porque no estamos discutiendo eso; es un problema de presencia de los partidos y de colaborar y aportar en la buena marcha del Gobierno\" , sostuvo. Moreno: \"¿Y metiste más partidos para qué?\" El jefe de la bancada republicana, Benjamín Moreno , valoró la mirada de Desbordes desde el municipio de Santiago, pero puso en duda que una mayor participación de los partidos resuelva por sí sola las dificultades del Ejecutivo. \"Puedes meter más partidos, perfecto; ya, ¿y metiste más partidos para qué?\", preguntó. El diputado identificó dos tareas pendientes: mejorar la comunicación del Gobierno y la coordinación política . A su juicio, avanzar en ambas permitiría dedicar menos tiempo a los conflictos internos y más a los problemas ciudadanos. El excanciller Ignacio Walker vio en las declaraciones de Desbordes y en las advertencias de Hernán Larraín Matte sobre el rumbo de la administración un diagnóstico común: \"En el Gobierno hay un problema de conducción política muy serio\" . El exministro de Hacienda Nicolás Eyzaguirre vinculó la discusión con la experiencia de su propio sector. Recordó que la centroizquierda perdió su perfil cuando asumió posiciones de grupos minoritarios y advirtió a Monckeberg del riesgo de que a Chile Vamos le ocurra algo similar. \"Los encuentro una centroderecha democrática que es muy necesaria para el país\" , le dijo.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/chile-vamos/monckeberg-propone-una-coalicion-abierta-al-centro-que-incluya-a/2026-11-20/112056.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261120/imag/foto_0000000220261120112056.jpg",
+            "published_raw": "Fri, 20 Nov 2026 11:20:56 -0300",
+            "published_at": "2026-11-20T11:20:56-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 9,
+            "score_institutional": 5,
             "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 1,
+            "score_conflict": 1,
+            "score_policy": 0,
             "score_ideology": 2,
-            "score_actor": 6,
+            "score_actor": 4,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 18,
+            "political_evidence": 12,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
+            "cluster_id": "PML-EVENT-011"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 21,
+          "bonus": 19,
           "labels": [
             "Estado e instituciones",
-            "Congreso y proceso legislativo"
+            "Elecciones y opinión pública"
           ],
-          "chile_utility": 69.9
+          "chile_utility": 67.1
         },
         "repeated_in_general_top5": false
       }
@@ -628,21 +637,21 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 20,
-      "maximum_relevance": 61.9,
+      "event_count": 22,
+      "maximum_relevance": 59.9,
       "leading_story": "Alcaldes piden al Congreso frenar recorte del 58,3% a la Ley Cholito en el Presupuesto 2027"
-    },
-    {
-      "topic": "Ideología y competencia política",
-      "event_count": 2,
-      "maximum_relevance": 61.9,
-      "leading_story": "El mercado no quita ojo al ‘efecto Mélenchon’ en Francia, una economía que sufre “una crisis a cámara lenta”"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 1,
-      "maximum_relevance": 55.3,
+      "maximum_relevance": 54,
       "leading_story": "Trilateral en Shenzhen: la cumbre donde Trump presumió, Putin volvió y Xi ganó"
+    },
+    {
+      "topic": "Ideología y competencia política",
+      "event_count": 1,
+      "maximum_relevance": 42.8,
+      "leading_story": "El monarca que reinó desde el centro y lo destruyó: las raíces del fracaso de Macron"
     },
     {
       "topic": "Economía y políticas públicas",
@@ -652,18 +661,14 @@
     },
     {
       "topic": "Conflictos y seguridad",
-      "event_count": 2,
+      "event_count": 1,
       "maximum_relevance": 39.1,
       "leading_story": "\"Bandas carcelarias están transformando a Ecuador en un narcoestado\": 'WSJ'"
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-003", "PML-EVENT-013", "PML-EVENT-015", "PML-EVENT-023"],
-      "exited_top5": ["PML-EVENT-010", "PML-EVENT-021", "PML-EVENT-004", "PML-EVENT-001"],
-      "retained_top5": "PML-EVENT-022"
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
     "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
