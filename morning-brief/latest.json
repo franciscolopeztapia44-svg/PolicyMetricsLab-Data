@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-21",
-    "data_latest_timestamp": "2026-11-21T09:35:32-0300",
-    "data_age_hours": 6.3,
-    "generated_at": "2026-11-21T15:53:14-0300",
+    "date": "2026-11-22",
+    "data_latest_timestamp": "2026-11-22T06:30:00-0300",
+    "data_age_hours": 1.4,
+    "generated_at": "2026-11-22T07:55:05-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,22 +16,172 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 26 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 2 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 26,
-    "topics": 1,
+    "ranked_events": 33,
+    "topics": 2,
     "geographies": 3,
-    "representative_sources": 2,
-    "average_top5_relevance": 56.6,
-    "maximum_relevance": 59.9
+    "representative_sources": 3,
+    "average_top5_relevance": 57.7,
+    "maximum_relevance": 64.4
   },
   "top_stories": [
     {
       "position": 1,
+      "cluster_id": "PML-EVENT-027",
+      "title": "La derrota republicana abre la puerta a una nueva era en el Supremo de Estados Unidos",
+      "url": "https://elpais.com/us/2026-11-22/la-derrota-republicana-abre-la-puerta-a-una-nueva-era-en-el-supremo-de-estados-unidos.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Estados Unidos",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 64.4,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 64.4
+      },
+      "selection": {
+        "reason": "PML 64.4",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-22T01:30:01-0300",
+      "last_seen": "2026-11-22T01:30:01-0300",
+      "entities": [
+        "supremo",
+        "senado",
+        "trump"
+      ],
+      "event_terms": "supremo",
+      "analysis": {
+        "summary": "La mayoría demócrata en el Senado dificulta que Trump nombre más jueces conservadores antes de dejar el poder, salvo que uno de los seis actuales dimita y la Casa Blanca corra a designarle sustituto",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "La derrota republicana abre la puerta a una nueva era en el Supremo de Estados Unidos",
+          "description": "La mayoría demócrata en el Senado dificulta que Trump nombre más jueces conservadores antes de dejar el poder, salvo que uno de los seis actuales dimita y la Casa Blanca corra a designarle sustituto",
+          "url": "https://elpais.com/us/2026-11-22/la-derrota-republicana-abre-la-puerta-a-una-nueva-era-en-el-supremo-de-estados-unidos.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/5NA3AEBX5ZGZ3HNQI6VEZL5NHE.jpg?auth=76894f2afeb61bbf58dd039a2f85a662e16e573124ce3a753494a9486c2e2733",
+          "published_raw": "Sun, 22 Nov 2026 04:30:01 GMT",
+          "published_at": "2026-11-22T01:30:01-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-027"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-026",
+      "title": "Fotogalería | La votación de los españoles en Ciudad de México",
+      "url": "https://elpais.com/mexico/2026-11-22/fotogaleria-la-votacion-de-los-espanoles-en-ciudad-de-mexico.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Elecciones y opinión pública",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "México / América Latina"
+      },
+      "relevance": {
+        "score": 57.5,
+        "level": "MEDIA",
+        "editorial_utility": 69.5
+      },
+      "selection": {
+        "reason": "PML 57.5; fallback editorial controlado; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-22T06:30:00-0300",
+      "last_seen": "2026-11-22T06:30:00-0300",
+      "entities": "mexico",
+      "event_terms": [],
+      "analysis": {
+        "summary": "Los españoles residentes en México comenzaron a depositar sus votos para las elecciones generales de España del próximo 29 de noviembre, en una jornada marcada por una afluencia moderada, las quejas por la demora en el envío de papeletas por correo y la incertidumbre en torno a los sufragios de los nacionalizados por la llamada Ley de Nietos",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en México / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Fotogalería | La votación de los españoles en Ciudad de México",
+          "description": "Los españoles residentes en México comenzaron a depositar sus votos para las elecciones generales de España del próximo 29 de noviembre, en una jornada marcada por una afluencia moderada, las quejas por la demora en el envío de papeletas por correo y la incertidumbre en torno a los sufragios de los nacionalizados por la llamada Ley de Nietos",
+          "url": "https://elpais.com/mexico/2026-11-22/fotogaleria-la-votacion-de-los-espanoles-en-ciudad-de-mexico.html",
+          "image_url": "",
+          "published_raw": "Sun, 22 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-22T06:30:00-0300",
+          "country": "México",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 0,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Elecciones y opinión pública",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-026"
+        }
+      ]
+    },
+    {
+      "position": 3,
       "cluster_id": "PML-EVENT-003",
       "title": "Alcaldes piden al Congreso frenar recorte del 58,3% a la Ley Cholito en el Presupuesto 2027",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/municipales/alcaldes-piden-al-congreso-frenar-recorte-del-58-3-a-la-ley-cholito-en/2026-11-20/191512.html",
@@ -43,12 +193,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 59.9,
+        "score": 52.9,
         "level": "MEDIA",
-        "editorial_utility": 59.9
+        "editorial_utility": 55.9
       },
       "selection": {
-        "reason": "PML 59.9",
+        "reason": "PML 52.9; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -108,10 +258,86 @@
       ]
     },
     {
-      "position": 2,
-      "cluster_id": "PML-EVENT-022",
-      "title": "El requisito imposible que dejó a Colombia sin escudo antidrones",
-      "url": "https://elpais.com/america-colombia/2026-11-21/el-requisito-imposible-que-dejo-a-colombia-sin-escudo-antidrones.html",
+      "position": 4,
+      "cluster_id": "PML-EVENT-020",
+      "title": "Diez años del acuerdo de paz en Colombia: la guerra que terminó y las promesas que quedaron a medias",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261122-diez-a%C3%B1os-del-acuerdo-de-paz-en-colombia-la-guerra-que-termin%C3%B3-y-las-promesas-que-quedaron-a-medias",
+      "representative_source": "France 24",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Colombia / América Latina"
+      },
+      "relevance": {
+        "score": 57.7,
+        "level": "MEDIA",
+        "editorial_utility": 52.7
+      },
+      "selection": {
+        "reason": "PML 57.7; fallback editorial controlado; diversidad relajada para completar el brief",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "France 24"
+      },
+      "first_seen": "2026-11-21T23:35:38-0300",
+      "last_seen": "2026-11-21T23:35:38-0300",
+      "entities": [
+        "colombia",
+        "farc"
+      ],
+      "event_terms": "guerra",
+      "analysis": {
+        "summary": "El 24 de noviembre de 2016, el Estado colombiano y las FARC firmaron en Bogotá el acuerdo de paz que desarmó a la guerrilla más antigua del continente. Diez años después, France 24 en Español habló con víctimas y expertos para hacer un balance. Todos reconocen que el pacto cambió al país, pero coinciden en que se cumplió a medias.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "Diez años del acuerdo de paz en Colombia: la guerra que terminó y las promesas que quedaron a medias",
+          "description": "El 24 de noviembre de 2016, el Estado colombiano y las FARC firmaron en Bogotá el acuerdo de paz que desarmó a la guerrilla más antigua del continente. Diez años después, France 24 en Español habló con víctimas y expertos para hacer un balance. Todos reconocen que el pacto cambió al país, pero coinciden en que se cumplió a medias. Hoy su futuro depende del ultraderechista Abelardo de la Espriella, un presidente que ganó las elecciones con la promesa de mano dura contra los grupos armados.",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261122-diez-a%C3%B1os-del-acuerdo-de-paz-en-colombia-la-guerra-que-termin%C3%B3-y-las-promesas-que-quedaron-a-medias",
+          "image_url": "https://s.france24.com/media/display/93e7317a-dc81-11ec-8b43-005056bf30b7/w:1024/p:16x9/AP20306768553179.jpg",
+          "published_raw": "Sun, 22 Nov 2026 02:35:38 GMT",
+          "published_at": "2026-11-21T23:35:38-0300",
+          "country": "Colombia",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Elecciones y opinión pública",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-020"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-015",
+      "title": "De la Espriella se muestra como auditor de su propio Gobierno",
+      "url": "https://elpais.com/america-colombia/2026-11-22/de-la-espriella-se-muestra-como-auditor-de-su-propio-gobierno.html",
       "representative_source": "EL PAÍS",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
@@ -120,12 +346,12 @@
         "country": "Colombia / América Latina"
       },
       "relevance": {
-        "score": 55.8,
+        "score": 56,
         "level": "MEDIA",
-        "editorial_utility": 58.8
+        "editorial_utility": 48
       },
       "selection": {
-        "reason": "PML 55.8; fallback editorial controlado; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 56; fallback editorial controlado; diversidad relajada para completar el brief",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -135,12 +361,12 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-21T06:30:00-0300",
-      "last_seen": "2026-11-21T06:30:00-0300",
-      "entities": "colombia",
+      "first_seen": "2026-11-22T06:30:00-0300",
+      "last_seen": "2026-11-22T06:30:00-0300",
+      "entities": [],
       "event_terms": [],
       "analysis": {
-        "summary": "El ministro de Defensa acusa a su predecesor de bloquear las adquisiciones. Los documentos internos del ministerio muestran que quien frenó la compra fue un comité técnico de la propia Fuerza Pública, que concluyó que ningún sistema cumplía lo que él mismo exigía",
+        "summary": "El presidente revierte decisiones económicas que promueven sus ministros, le hace advertencias al gabinete por medio de cartas y despide públicamente a sus funcionarios",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -153,258 +379,30 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "El requisito imposible que dejó a Colombia sin escudo antidrones",
-          "description": "El ministro de Defensa acusa a su predecesor de bloquear las adquisiciones. Los documentos internos del ministerio muestran que quien frenó la compra fue un comité técnico de la propia Fuerza Pública, que concluyó que ningún sistema cumplía lo que él mismo exigía",
-          "url": "https://elpais.com/america-colombia/2026-11-21/el-requisito-imposible-que-dejo-a-colombia-sin-escudo-antidrones.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/2BHWQEFZR5OT3EPYCOC2PEDOPM.jpg?auth=92db35d8a0e4ff88e3bf31340c2634806411f9b90a6a88b941f712bbdb87f347",
-          "published_raw": "Sat, 21 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-21T06:30:00-0300",
+          "title": "De la Espriella se muestra como auditor de su propio Gobierno",
+          "description": "El presidente revierte decisiones económicas que promueven sus ministros, le hace advertencias al gabinete por medio de cartas y despide públicamente a sus funcionarios",
+          "url": "https://elpais.com/america-colombia/2026-11-22/de-la-espriella-se-muestra-como-auditor-de-su-propio-gobierno.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/U3C5ZZWEDRKHHDPH6GFXSJLZKY.jpg?auth=49cf3a718ea3659ba854d5603868d40e7df6f25ecdd50f134abaa390ee3c4672",
+          "published_raw": "Sun, 22 Nov 2026 09:30:00 GMT",
+          "published_at": "2026-11-22T06:30:00-0300",
           "country": "Colombia",
           "region": "América Latina",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 4,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
+          "political_evidence": 6,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": null,
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-022"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-002",
-      "title": "Analista: El Gobierno se ahorraría muchos malos ratos si incorporara al Partido Libertario",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/analista-el-gobierno-se-ahorraria-muchos-malos-ratos-si-incorporara-al/2026-11-21/091156.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 56.6,
-        "level": "MEDIA",
-        "editorial_utility": 51.6
-      },
-      "selection": {
-        "reason": "PML 56.6; fallback editorial controlado; diversidad relajada para completar el brief",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-21T09:11:56-0300",
-      "last_seen": "2026-11-21T09:11:56-0300",
-      "entities": [
-        "congreso",
-        "chile"
-      ],
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "El académico Guillermo Bustamante , director del Doctorado en Comunicación de la Universidad de Los Andes, abordó este sábado en Cooperativa la polémica que enfrenta el Gobierno con el Partido Nacional Libertario , y aseguró que el \"fuego amigo\" es lo que más perjudica a la administración del Presidente José Antonio Kast .",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Analista: El Gobierno se ahorraría muchos malos ratos si incorporara al Partido Libertario",
-          "description": "El académico Guillermo Bustamante , director del Doctorado en Comunicación de la Universidad de Los Andes, abordó este sábado en Cooperativa la polémica que enfrenta el Gobierno con el Partido Nacional Libertario , y aseguró que el \"fuego amigo\" es lo que más perjudica a la administración del Presidente José Antonio Kast . El conflicto político se dio tras la amenaza de Libertarios sobre una posible acusación constitucional contra la ministra de Salud , May Chomali , por el financiamiento a tratamientos de hormonización para menores de edad en el Presupuesto 2027 . En entrevista con El Diario de Cooperativa , el analista sostuvo que, más allá de los argumentos jurídicos de la acción, la arremetida libertaria desnuda la incapacidad del oficialismo para articular acuerdos prelegislativos con sectores afines antes de ingresar las partidas al Parlamento. Para Bustamante, el intento de enjuiciar políticamente a la titular del Minsal confirma una tendencia de la colectividad a extremar posiciones , desordenando la base de apoyo legislativo del Ejecutivo. \" El Partido Nacional Libertario tiende a sobredimensionar algunas cosas . Es cierto que no está dentro del Gobierno , pero el fuego amigo es lo que le hace más mal al Gobierno de José Antonio Kast \", advirtió. La advertencia libertaria de una acusación constitucional contra la ministra de Salud, May Chomalí, abrió un conflicto político en el Congreso. (FOTO: ATON) En opinión del experto, más allá de analizar una posible acusación constitucional contra Chomali, \"la mirada es un poco más política y tiene que ver con por qué no hay una negociación previa antes de presentar los presupuestos , antes de generar algún proyecto de ley que incorpore al Partido Nacional Libertario y que sea mucho más cercano a todo el gobierno \". \"En esta línea, el Ejecutivo se podría ahorrar muchos malos ratos y mostrar una gobernabilidad mucho más relevante si incorporara al Partido Nacional Libertario en este tipo de espacio\", puntualizó en Cooperativa . De acuerdo con el planteamiento de Bustamante, el nudo del problema descansa en la improvisación en el trámite legislativo, ya que el Ejecutivo no previó ni negoció con antelación las materias sensibles del erario público con fuerzas que no integran el gabinete ministerial, pero que se han autodefinido como \"oposición amigable\". Miradas parlamentarias Frente a la caída de la norma presupuestaria, la diputada del Partido Social Cristiano (PSC) Sara Concha lamentó \"profundamente que algunos senadores hayan rechazado la indicación presentada por el Gobierno en la Ley de Presupuesto , que buscaba prohibir el financiamiento de tratamientos de hormonización en menores de edad\". \"Cuando hablamos de salud y desarrollo de nuestros niños, debemos actuar con la máxima responsabilidad \", afirmó la parlamentaria. En esta línea, pidió al Ejecutivo \" entregar máxima urgencia a nuestro proyecto de ley , que busca prohibir prácticas y tratamientos en cirugías que tengan por objeto obstaculizar o impedir el sano desarrollo psíquico o físico de nuestros niños , niñas y adolescentes \". En tanto, desde la UDI, e l diputado Daniel Lilayu remarcó la necesidad de separar las discrepancias programáticas de las herramientas sancionatorias de última ratio . \"No desconocemos la importancia de revisar y de eliminar el financiamiento de las terapias hormonales, y creemos que esa discusión tiene que darse con responsabilidad y seriedad, pero una cosa es tener diferencias y otra muy distinta es amenazar con una acusación constitucional a una ministra de Salud que está muy bien evaluada , por lo demás \", advirtió el integrante de la Comisión de Salud de la Cámara Baja. \"Hoy Chile tiene urgencias mucho más importantes. No podemos distraernos en disputas políticas. Necesitamos unidad y soluciones concretas para todos los chilenos \", enfatizó el parlamentario.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/analista-el-gobierno-se-ahorraria-muchos-malos-ratos-si-incorporara-al/2026-11-21/091156.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261121/imag/foto_0000001320261121091156.jpg",
-          "published_raw": "Sat, 21 Nov 2026 09:11:56 -0300",
-          "published_at": "2026-11-21T09:11:56-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 9,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 2,
-          "score_ideology": 0,
-          "score_actor": 6,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 18,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-002"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-010",
-      "title": "Castro revela que Paulina Vodanovic ideó la revocación de permisos de Órdenes y Espinoza",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/castro-revela-que-paulina-vodanovic-ideo-la-revocacion-de-permisos-de/2026-11-21/093532.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 55.3,
-        "level": "MEDIA",
-        "editorial_utility": 47.3
-      },
-      "selection": {
-        "reason": "PML 55.3; fallback editorial controlado; diversidad relajada para completar el brief",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-21T09:35:32-0300",
-      "last_seen": "2026-11-21T09:35:32-0300",
-      "entities": [
-        "senado",
-        "chile"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "El senador socialista Juan Luis Castro afirmó que el polémico retiro de los permisos constitucionales de sus pares Ximena Órdenes (PPD-independientes) y Fidel Espinoza (PS) fue idea de la también parlamentaria y timonel de su partido, Paulina Vodanovic. La controversia fue informada el martes en la Sala del Senado.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Castro revela que Paulina Vodanovic ideó la revocación de permisos de Órdenes y Espinoza",
-          "description": "El senador socialista Juan Luis Castro afirmó que el polémico retiro de los permisos constitucionales de sus pares Ximena Órdenes (PPD-independientes) y Fidel Espinoza (PS) fue idea de la también parlamentaria y timonel de su partido, Paulina Vodanovic. La controversia fue informada el martes en la Sala del Senado. Posteriormente, Órdenes y Espinoza -que se encontraban acompañando al Presidente Kast en su gira por Asia-  denunciaron que sus permisos fueron retirados sin su conocimiento,  lo que suscitó alarmas en el hemiciclo al implicar la modificación del quórum  en medio de la discusión del proyecto del Presupuesto 2027. Mientras que Órdenes recriminó el retiro de su permiso a través de una carta leída en una sesión por el senador PPD Pedro Araya  -declaraciones que motivaron a la Fiscalía abrir una investigación al día siguiente, miércoles, por eventual falsificación de firmas-,   Espinoza acusó un \"error garrafal\" de Castro y Vodanovic, pero que corresponde a una \"desprolijidad administrativa\", no a un delito. En este contexto, en una entrevista a El Mercurio, Castro -que tramitó el controversial retiro de permisos- reveló que la timonel socialista fue la ideóloga de la estratagema. \"La idea del retiro de los permisos que habían pedido los senadores me la planteó la senadora Paulina Vodanovic (PS), que había hablado con el coordinador administrativo para plantearle lo mismo previamente, (antes de) que yo supiera\", dijo el parlamentario el medio citado.  \"Procedí a decirle que tramitara el coordinador, sabiendo que las reglas incluyen que tiene que haber un contacto directo de él por cualquier vía para poder tener el consentimiento de los senadores  que estaban fuera de Chile\", relató.  Un día antes, Vodanovic blindó a Castro en X Las declaraciones de Castro adquieren relevancia dado que 24 horas antes, mientras era recriminado políticamente por tramitar la revocación de los documentos, Vodanovic lo defendió.  A través de su cuenta de X, la timonel y senadora socialista posteó: \"Siempre tomar decisiones puede ser criticado, pero de ahí a atribuir al senador Castro participación en un delito es una bajeza\". \"La utilización política que ha hecho la derecha es inaceptable. Ingrata situación para quien es un jefe de comité (del Socialismo Democrático) que conduce política y administrativamente con harto esfuerzo y mucha dedicación. Tomó una decisión en un momento álgido del debate, pero no por ello pueden atribuirle una intencionalidad que no corresponde\",  sostuvo. Castro enfatizó que la restitución fue rápida y \"no quiere imaginar\" vendetta política de Araya En la entrevista en El Mercurio, Castro enfatizó que la noche del martes -mismo día que estalló el escándalo- pudo comunicarse con Órdenes para informarle que había \"retirado la suspensión del permiso; o sea, volvía todo al estado anterior\", y que le pidió \"las excusas del caso, porque este fue un error administrativo del que yo no tengo que ver directamente con las firmas, porque son digitales\". \"El episodio fue el martes y, al otro día -dado que esto ya se había dado vuelta atrás- se habían restituido (los permisos), pues  no fueron más de cuatro horas el tiempo de su verdadera suspensión\",  dijo el senador socialista. También afirmó que, cuando \"el senador Espinoza supo de esto y tuvo molestia, se le explicó. De hecho, Paulina Vodanovic habló con él; se le explicó el contexto del agobio, el momento político que se vivía y entendió que esto había sido simplemente una mera desprolijidad\". Por último, expresó desconocer las intenciones del senador Pedro Araya  al haber leído ceremoniosamente la carta de Órdenes, aunque consideró que sus actos \"magnificaron\" la situación: \"Me imagino que está herido después que él salió de la comisión de Constitución por decisión del comité, pero no quisiera imaginarme que esto fuera una especie de vuelta de mano\". En otra entrevista concedida a La Tercera, Castro calificó de \"lamentable\" que la Fiscalía haya abierto una investigación al respecto: \"Cuando entra la Justicia a un problema de las definiciones o acuerdos políticos, dentro además de una misma bancada, se está judicializando lo que está en el ámbito meramente de la convivencia interna de los partidos, no siendo eso una línea que establezca delitos o ilegalidades\". \"Aquí se producen acusaciones que yo las veo absolutamente irresponsables y al voleo. Por lo tanto, no tengo temor; al revés, tengo todo lo que sea pertinente en ayudar a que se investiguen los hechos, que van a estar muy lejos de alguna situación constitutiva de delito\", sostuvo. El senador socialista también señaló que es una práctica común que los parlamentarios dejen a disposición de los jefes de comité un pool de firmas digitales en caso de ser pertinente.  Romero: El PS incurrió en el aprovechamiento político más canalla Ante ello, el diputado republicano Agustín Romero planteó que eso \"deja abierta una pregunta que es bastante simple, a mi juicio: ¿quién autorizó a usarlas en ese caso?  Aparentemente, la senadora (Órdenes) no lo autorizó y el senador Espinoza tampoco\". Además, \"al retirar esos permisos se elevaba el número de votos que necesitaba el Gobierno para aprobar la autorización de endeudamiento del presupuesto. Esa autorización permite, entre otras cosas, refinanciar vencimientos y cumplir con el pago de la deuda externa de Chile. Y ahí está el aprovechamiento político más canalla\",  criticó. \"Por complicarle una votación al Ejecutivo, desde el Partido Socialista estuvieron dispuestos a dificultar que Chile contara con una herramienta para pagar sus compromisos internacionales, y eso también exige una explicación\", emplazó Romero.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/castro-revela-que-paulina-vodanovic-ideo-la-revocacion-de-permisos-de/2026-11-21/093532.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261121/imag/foto_0000000220261121093532.png",
-          "published_raw": "Sat, 21 Nov 2026 09:35:32 -0300",
-          "published_at": "2026-11-21T09:35:32-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 4,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 2,
-          "score_actor": 4,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 12,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-010"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-021",
-      "title": "Zelenski, después de que Trump se refiriera a Putin como un “amigo”: “Para nosotros es un asesino”",
-      "url": "https://elpais.com/internacional/2026-11-21/zelenski-despues-de-que-trump-se-refiriera-a-putin-como-un-amigo-para-nosotros-es-un-asesino.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
-      },
-      "relevance": {
-        "score": 55.3,
-        "level": "MEDIA",
-        "editorial_utility": 44.3
-      },
-      "selection": {
-        "reason": "PML 55.3; fallback editorial controlado; diversidad relajada para completar el brief; aporta diversidad geográfica",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-21T07:44:14-0300",
-      "last_seen": "2026-11-21T07:44:14-0300",
-      "entities": [
-        "trump",
-        "rusia"
-      ],
-      "event_terms": [],
-      "analysis": {
-        "summary": "El presidente ucranio considera que solo EE UU puede presionar a Rusia y que declaraciones como las del republicano no contribuyen a la resolución del conflicto",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Zelenski, después de que Trump se refiriera a Putin como un “amigo”: “Para nosotros es un asesino”",
-          "description": "El presidente ucranio considera que solo EE UU puede presionar a Rusia y que declaraciones como las del republicano no contribuyen a la resolución del conflicto",
-          "url": "https://elpais.com/internacional/2026-11-21/zelenski-despues-de-que-trump-se-refiriera-a-putin-como-un-amigo-para-nosotros-es-un-asesino.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/6TEMQGOYYZCNXPED2Y3UGMI2M4.jpg?auth=a03f61960f0ad0839b3bd3eaf723eaafe32b4a4efc4fe4fd24f18b2b7d677fd8",
-          "published_raw": "Sat, 21 Nov 2026 10:44:14 GMT",
-          "published_at": "2026-11-21T07:44:14-0300",
-          "country": "No identificado",
-          "region": "Internacional",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-015"
         }
       ]
     }
@@ -417,6 +415,78 @@
     "stories": [
       {
         "position": 1,
+        "cluster_id": "PML-EVENT-002",
+        "title": "Analista: El Gobierno se ahorraría muchos malos ratos si incorporara al Partido Libertario",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/analista-el-gobierno-se-ahorraria-muchos-malos-ratos-si-incorporara-al/2026-11-21/091156.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 49.6,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 54,
+            "freshness": 72,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 34
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-21T09:11:56-0300",
+        "last_seen": "2026-11-21T09:11:56-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Analista: El Gobierno se ahorraría muchos malos ratos si incorporara al Partido Libertario",
+            "description": "El académico Guillermo Bustamante , director del Doctorado en Comunicación de la Universidad de Los Andes, abordó este sábado en Cooperativa la polémica que enfrenta el Gobierno con el Partido Nacional Libertario , y aseguró que el \"fuego amigo\" es lo que más perjudica a la administración del Presidente José Antonio Kast . El conflicto político se dio tras la amenaza de Libertarios sobre una posible acusación constitucional contra la ministra de Salud , May Chomali , por el financiamiento a tratamientos de hormonización para menores de edad en el Presupuesto 2027 . En entrevista con El Diario de Cooperativa , el analista sostuvo que, más allá de los argumentos jurídicos de la acción, la arremetida libertaria desnuda la incapacidad del oficialismo para articular acuerdos prelegislativos con sectores afines antes de ingresar las partidas al Parlamento. Para Bustamante, el intento de enjuiciar políticamente a la titular del Minsal confirma una tendencia de la colectividad a extremar posiciones , desordenando la base de apoyo legislativo del Ejecutivo. \" El Partido Nacional Libertario tiende a sobredimensionar algunas cosas . Es cierto que no está dentro del Gobierno , pero el fuego amigo es lo que le hace más mal al Gobierno de José Antonio Kast \", advirtió. La advertencia libertaria de una acusación constitucional contra la ministra de Salud, May Chomalí, abrió un conflicto político en el Congreso. (FOTO: ATON) En opinión del experto, más allá de analizar una posible acusación constitucional contra Chomali, \"la mirada es un poco más política y tiene que ver con por qué no hay una negociación previa antes de presentar los presupuestos , antes de generar algún proyecto de ley que incorpore al Partido Nacional Libertario y que sea mucho más cercano a todo el gobierno \". \"En esta línea, el Ejecutivo se podría ahorrar muchos malos ratos y mostrar una gobernabilidad mucho más relevante si incorporara al Partido Nacional Libertario en este tipo de espacio\", puntualizó en Cooperativa . De acuerdo con el planteamiento de Bustamante, el nudo del problema descansa en la improvisación en el trámite legislativo, ya que el Ejecutivo no previó ni negoció con antelación las materias sensibles del erario público con fuerzas que no integran el gabinete ministerial, pero que se han autodefinido como \"oposición amigable\". Miradas parlamentarias Frente a la caída de la norma presupuestaria, la diputada del Partido Social Cristiano (PSC) Sara Concha lamentó \"profundamente que algunos senadores hayan rechazado la indicación presentada por el Gobierno en la Ley de Presupuesto , que buscaba prohibir el financiamiento de tratamientos de hormonización en menores de edad\". \"Cuando hablamos de salud y desarrollo de nuestros niños, debemos actuar con la máxima responsabilidad \", afirmó la parlamentaria. En esta línea, pidió al Ejecutivo \" entregar máxima urgencia a nuestro proyecto de ley , que busca prohibir prácticas y tratamientos en cirugías que tengan por objeto obstaculizar o impedir el sano desarrollo psíquico o físico de nuestros niños , niñas y adolescentes \". En tanto, desde la UDI, e l diputado Daniel Lilayu remarcó la necesidad de separar las discrepancias programáticas de las herramientas sancionatorias de última ratio . \"No desconocemos la importancia de revisar y de eliminar el financiamiento de las terapias hormonales, y creemos que esa discusión tiene que darse con responsabilidad y seriedad, pero una cosa es tener diferencias y otra muy distinta es amenazar con una acusación constitucional a una ministra de Salud que está muy bien evaluada , por lo demás \", advirtió el integrante de la Comisión de Salud de la Cámara Baja. \"Hoy Chile tiene urgencias mucho más importantes. No podemos distraernos en disputas políticas. Necesitamos unidad y soluciones concretas para todos los chilenos \", enfatizó el parlamentario.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/analista-el-gobierno-se-ahorraria-muchos-malos-ratos-si-incorporara-al/2026-11-21/091156.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261121/imag/foto_0000001320261121091156.jpg",
+            "published_raw": "Sat, 21 Nov 2026 09:11:56 -0300",
+            "published_at": "2026-11-21T09:11:56-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 9,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 1,
+            "score_policy": 2,
+            "score_ideology": 0,
+            "score_actor": 6,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 18,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-002"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 19,
+          "labels": [
+            "Estado e instituciones",
+            "Elecciones y opinión pública"
+          ],
+          "chile_utility": 68.6
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
         "cluster_id": "PML-EVENT-004",
         "title": "Sumario por hurto y ley Karin: Lincolao explicó despidos previos a renuncia de subsecretaria Rossi",
         "topic": "Instituciones y gobierno",
@@ -428,11 +498,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 49.4,
+          "score": 45.6,
           "level": "BAJA",
           "components": {
             "political_impact": 80,
-            "freshness": 40,
+            "freshness": 25,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 34
@@ -483,104 +553,31 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 71.4
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-001",
-        "title": "Senado despachó el Presupuesto 2027: repuso recursos para Educación y Cultura",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/senado-despacho-el-presupuesto-2027-repuso-recursos-para-educacion-y/2026-11-20/104454.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 49,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 54,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 28
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-20T10:44:54-0300",
-        "last_seen": "2026-11-20T10:44:54-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Senado despachó el Presupuesto 2027: repuso recursos para Educación y Cultura",
-            "description": "El Senado concluyó la votación del proyecto de Presupuesto 2027 la madrugada de este viernes, tras una extensa jornada marcada por acuerdos para reponer recursos en Educación y Cultura , además de una controversia por fondos destinados a las empresas forestales. Entre los principales acuerdos estuvo la reposición del presupuesto del Ministerio de Educación , cuya partida fue rechazada por la Cámara Baja, y que recibió casi 48.000 millones de pesos adicionales respecto de la propuesta original . De ese monto, 35.000 millones se destinarán al programa Yo Elijo Mi PC , que el Gobierno buscaba eliminar, mientras que otros 6.300 millones serán asignados a educación superior. La senadora de la Democracia Cristiana Yasna Provoste  valoró el acuerdo alcanzado: \"El año 2027 los estudiantes de séptimo básico de la educación pública van a recibir su computador y sus profesores van a recibir capacitación en nuevas tecnologías digitales. Ese computador no lo trajo ni el grito ni el meme, lo trajo el acuerdo \". La partida fue aprobada con 25 votos a favor y dos en contra , entre ellos el de la senadora del Frente Amplio Beatriz Sánchez, quien cuestionó el tiempo disponible para revisar el proyecto: \" No me gusta, no quiero votar cosas que no he visto. Este presupuesto de Educación, que son 399 páginas que nos dieron hace 45 minutos, una hora, no lo vi completo\", se quejó. Reposición de recursos para sitios de memoria Otro de los acuerdos permitió reponer el presupuesto original del Ministerio de las Culturas, incluyendo los recursos destinados a sitios de memoria. \"Efectivamente el Gobierno ha repuesto los recursos para sitios de memoria, pero hay senadores aquí presentes que presentaron indicación para que se redujeran a 1.000 pesos . Y me parece a mí que poner en cuestión la memoria con insultos, de verdad debiera hacernos reflexionar desde el Senado de la República\", cuestionó la presidenta del Partido Socialista, Paulina Vodanovic. Por su parte, el senador republicano Cristián Vial planteó reparos: \"reponer estos fondos, yo no tengo problema si eso nos ayuda a avanzar, pero ojalá que alguna vez hagamos un monumento donde estemos todos representados y nos demos la mano, y finalmente superemos esto\". Polémica por 50.000 millones para empresas forestales La mayor controversia surgió al final de la jornada, durante la discusión de la partida del Tesoro Público, donde el Gobierno contempló 50.000 millones de pesos para apoyar proyectos de repoblación forestal , una medida que generó críticas por su similitud con el antiguo Decreto Ley 701, promulgado durante la dictadura. \" Esto es pasar un perro muerto. Esto no se hace . A la última hora, no se pasa de contrabando\", reprochó el senador socialista Alfonso de Urresti. La senadora independiente Alejandra Sepúlveda, también cuestionó la iniciativa: \"Esto no genera la mano de obra que se está diciendo. Pero además, es impresentable que se coloquen 50.000 millones aquí y los saca de INDAP.  Y lo segundo, las complicaciones que tenemos por los monocultivos en este tema son brutales\". Ante las críticas, el ministro de Hacienda, Jorge Quiroz, respondió: \"Solicito si se pudiese mantener un poco más la calma acá. Es una iniciativa que no va a las grandes empresas, tiene un tope de tamaño \". Sin embargo, el senador comunista Daniel Núñez replicó: \" Eso no lo dice la glosa . En ningún momento dice que hay un límite de tamaño del productor beneficiado\". La jornada también dejó rechazada la partida de Agricultura , por lo que aún quedaron diferencias pendientes entre ambas cámaras. El proyecto volverá el próximo lunes a la Cámara de Diputadas y Diputados, que deberá revisar los cambios aprobados por el Senado.",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/senado-despacho-el-presupuesto-2027-repuso-recursos-para-educacion-y/2026-11-20/104454.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261120/imag/foto_0000000220261120104454.jpg",
-            "published_raw": "Fri, 20 Nov 2026 10:44:54 -0300",
-            "published_at": "2026-11-20T10:44:54-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 9,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 2,
-            "score_ideology": 2,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 19,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo",
-            "Economía y políticas públicas"
-          ],
-          "chile_utility": 71
+          "chile_utility": 67.6
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-011",
-        "title": "Monckeberg propone una coalición abierta al centro que incluya a republicanos",
+        "cluster_id": "PML-EVENT-014",
+        "title": "Schneider y Kaiser protagonizaron cruce en redes por identidad de género",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/chile-vamos/monckeberg-propone-una-coalicion-abierta-al-centro-que-incluya-a/2026-11-20/112056.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/schneider-y-kaiser-protagonizaron-cruce-en-redes-por-identidad-de-genero/2026-11-21/185840.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 48.1,
-          "level": "BAJA",
+          "score": 52.3,
+          "level": "MEDIA",
           "components": {
             "political_impact": 51,
-            "freshness": 72,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 28
+            "continuity": 30
           }
         },
         "coverage": {
@@ -588,47 +585,44 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-20T11:20:56-0300",
-        "last_seen": "2026-11-20T11:20:56-0300",
+        "first_seen": "2026-11-21T18:58:40-0300",
+        "last_seen": "2026-11-21T18:58:40-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Monckeberg propone una coalición abierta al centro que incluya a republicanos",
-            "description": "El expresidente de Renovación Nacional Cristián Monckeberg planteó este viernes en El Primer Café de Cooperativa que el Presidente José Antonio Kast impulse una coalición que reúna a RN, la UDI y el Partido Republicano, abra espacio al centro y tenga un proyecto que se extienda más allá de los cuatro años de su mandato. La propuesta surgió a raíz de las declaraciones del alcalde de Santiago, Mario Desbordes , quien cuestionó a su sector por el electorado que busca representar. \"Hoy no hay partidos que representen a la centroderecha, porque pareciera que Chile Vamos le está disputando los votos a Republicanos y Nacional Libertarios \", afirmó el jefe comunal en T13 . Monckeberg compartió parte de ese diagnóstico y sostuvo que también les corresponde a los republicanos acercar posiciones. \"Yo imagino y sueño con una coalición donde esté el Partido Republicano, que es un partido fuerte, nuevo pero fuerte; donde esté la UDI, donde esté Renovación Nacional, y donde abramos un espacio a la lógica de centro\" , dijo. \"Esa emergencia se está agotando\" Para el exministro, Kast fijó las condiciones en que los partidos se incorporaron a su administración. \"Las reglas del juego las fijó él, y los partidos se sumaron lealmente a ese empeño\", recordó. A su juicio, los límites de ese acuerdo empiezan a verse: \"Este Gobierno se instaló en la lógica de la emergencia. Bueno, esa emergencia se está agotando\" . Monckeberg reconoció avances en migración y seguridad, pero situó en el crecimiento económico una de las dificultades del Ejecutivo. En una eventual segunda etapa del gabinete, dijo, le gustaría que Kast incorporara figuras con experiencia de gobiernos anteriores y diera mayor presencia a los partidos de Chile Vamos. \"No es un problema de pega, porque no estamos discutiendo eso; es un problema de presencia de los partidos y de colaborar y aportar en la buena marcha del Gobierno\" , sostuvo. Moreno: \"¿Y metiste más partidos para qué?\" El jefe de la bancada republicana, Benjamín Moreno , valoró la mirada de Desbordes desde el municipio de Santiago, pero puso en duda que una mayor participación de los partidos resuelva por sí sola las dificultades del Ejecutivo. \"Puedes meter más partidos, perfecto; ya, ¿y metiste más partidos para qué?\", preguntó. El diputado identificó dos tareas pendientes: mejorar la comunicación del Gobierno y la coordinación política . A su juicio, avanzar en ambas permitiría dedicar menos tiempo a los conflictos internos y más a los problemas ciudadanos. El excanciller Ignacio Walker vio en las declaraciones de Desbordes y en las advertencias de Hernán Larraín Matte sobre el rumbo de la administración un diagnóstico común: \"En el Gobierno hay un problema de conducción política muy serio\" . El exministro de Hacienda Nicolás Eyzaguirre vinculó la discusión con la experiencia de su propio sector. Recordó que la centroizquierda perdió su perfil cuando asumió posiciones de grupos minoritarios y advirtió a Monckeberg del riesgo de que a Chile Vamos le ocurra algo similar. \"Los encuentro una centroderecha democrática que es muy necesaria para el país\" , le dijo.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/chile-vamos/monckeberg-propone-una-coalicion-abierta-al-centro-que-incluya-a/2026-11-20/112056.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261120/imag/foto_0000000220261120112056.jpg",
-            "published_raw": "Fri, 20 Nov 2026 11:20:56 -0300",
-            "published_at": "2026-11-20T11:20:56-0300",
+            "title": "Schneider y Kaiser protagonizaron cruce en redes por identidad de género",
+            "description": "El debate sobre el reconocimiento de la identidad de género y el respeto hacia las personas trans sumó un nuevo enfrentamiento político, luego de que la diputada Emilia Schneider (Frente Amplio) y Johannes Kaiser (Partido Nacional Libertario) intercambiaran mensajes a través de X. La controversia surgió después de que el excandidato presidencial realizara comentarios transfóbicos en contra de la parlamentaria  en una entrevista con \"Mesa Central\" de T13 , refiriéndose a ella como \"el señor Schneider\" , y luego, como \"el o la excolega Schneider\" . El timonel libertario propinó tales insultos en medio de la discusión legislativa sobre el financiamiento público de tratamientos hormonales . Este sábado, el exdiputado volvió a arremeter contra la diputada y defendió sus declaraciones: \"Si tienes un problema conmigo por decir la verdad, entonces el problema no es conmigo. Es con la verdad\" . Si tienes un problema conmigo por decir la verdad entonces el problema no es conmigo. Es con la verdad. — Johannes Kaiser (@Jou_Kaiser) November 21, 2026 Schneider le respondió con un texto publicado en la misma red social: \"No entiende el punto, se lo aclaro: me tiene sin cuidado la 'verdad' que usted crea sobre mí. Tanta fijación dice más de usted que de mí . Lo importante: Chile tiene una ley de identidad de género que reconoce a las personas trans y eso sí que es verdad. E implica respeto\". En ese sentido, la diputada frenteamplista señaló que el debate no debería depender de las convicciones personales de cada legislador , sino del respeto hacia la identidad de las personas y el impacto que pueden tener los discursos públicos. \" ¿En qué aporta al debate tratar a una persona de una forma distinta a cómo se presenta ante el mundo? Nadie le pide una convicción interna, porque a nadie le importa. Es respeto, porque si no, el mensaje que queda es que es válido pasar a llevar a personas trans porque no estás de acuerdo, y de ahí a la violencia callejera no hay tantos pasos \", aseveró. No entiende el punto, se lo aclaro: me tiene sin cuidado la “verdad” que usted crea sobre mi. Tanta fijación dice más de usted que de mi. Lo importante: Chile tiene una ley de identidad de género que reconoce a las personas trans y eso sí que es verdad. E implica respeto. En qué aporta al debate tratar a una persona de una forma distinta a cómo se presenta ante el mundo? Nadie le pide una convicción interna, porque a nadie le importa. Es respeto, porque sino el mensaje que queda es que es válido pasar a llevar a personas trans porque no estás de acuerdo, y de ahí a la violencia callejera no hay tantos pasos. El problema no es con usted, el problema es el efecto que tienen sus palabras y gustitos en la sociedad. Cuando hablo de usted yo hablo de sus ideas fracasadas y respondo sus mentiras, usted habla de mi identidad y mis genitales. Rarísimo. — Emilia Schneider (@emischneiderv) November 21, 2026 Por lo anterior, también cuestionó que Kaiser abordara aspectos de su identidad personal, en lugar de centrarse en las diferencias políticas y legislativas que mantienen . \"El problema no es con usted, el problema es el efecto que tienen sus palabras y gustitos en la sociedad. Cuando hablo de usted, yo hablo de sus ideas fracasadas y respondo sus mentiras, usted habla de mi identidad y mis genitales . Rarísimo\", enfatizó. Kaiser: \"Más allá de la cortesía, no tengo por qué ocultar mi convicción interna\" Posteriormente, el líder libertario refutó: \"Usted no entiende el punto. Más allá de la cortesía, no tengo por qué ocultar mi convicción interna, respaldada por la observación empírica e ideológica \". En cuanto a su crítica hacia las terapias hormonales , relevó que \"sale a la palestra esencialmente porque empuja a otra gente, especialmente a menores de edad, por un camino doloroso y que termina para muchos con sus cuerpos destrozados, al igual que sus vidas, sin mejorar de manera alguna su salud mental\". Sobre el caso particular de Schneider, el exdiputado agregó: \" Lamento desde el fondo de mi alta el calvario que usted sufre, pero eso no le autoriza a empujar a otros al mismo destino . Menos por ley. Menos en base a engaños. Ya basta\". Usted no entiende el punto. Más allá de la cortesía, no tengo por que ocultar mi convicción interna, respaldada por la observación empírica y la biología. El por qué sale a la palestra es esencialmente porque empuja a otra gente, especialmente a menores de edad, por un camino doloroso y que termina para muchos con sus cuerpos destrozados, al igual que sus vidas, sin mejorar de manera alguna su salud mental. Yo lamento desde el fondo de mi alma el calvario que Usted sufre, pero eso no le autoriza a empujar a otros al mismo destino. Menos por ley. Menos en base a engaños. Ya basta. — Johannes Kaiser (@Jou_Kaiser) November 21, 2026 La parlamentaria volvió a responderle , aclarando: \" De calvario nada, soy una persona muy en paz conmigo misma . Nadie le pide cortesía, no importa. Lo que dice no es cierto, y lo expliqué ayer en la misma radio donde fue a tirar la piedra y esconder la mano con cobardía sobre mí \". Por último, respecto de la discusión legislativa misma, la frenteamplista insistió en que  \"nadie empuja a ningún niño o niña a nada, eso no se lo acepto. Es usted el que quiere imponer una visión que no tiene respaldo en la ciencia\" . De calvario nada, soy una persona muy en paz conmigo misma. Nadie le pide cortesía, no importa. Lo que dice no es cierto, y lo expliqué latamente ayer en la misma radio donde usted fue a tirar la piedra y esconder la mano con cobardía sobre mi. Porque apenas lo interrumpen recula. Nadie empuja a ningún niño o niña a nada, eso no se lo acepto. Es usted el que quiere imponer una visión que NO tiene respaldo en la ciencia. Lo que estamos defendiendo es precisamente la posibilidad de tomar decisiones difíciles con criterio médico y familiar. No es imponer, pero usted si quiere prohibir programas que no existen y cerrar una discusión sin la voz de familias ni sociedades científicas. Chile entero conoce su falta de rigor y altura. Vea a su ex camarada el presidente Kast, otra cosa es con guitarra. Ser un polemista es una cosa, hacerse cargo es otra. Saludos! — Emilia Schneider (@emischneiderv) November 21, 2026",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/schneider-y-kaiser-protagonizaron-cruce-en-redes-por-identidad-de-genero/2026-11-21/185840.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261121/imag/foto_0000000220261121185840.jpg",
+            "published_raw": "Sat, 21 Nov 2026 18:58:40 -0300",
+            "published_at": "2026-11-21T18:58:40-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 5,
+            "score_institutional": 3,
             "score_elections": 0,
             "score_international": 0,
             "score_conflict": 1,
-            "score_policy": 0,
-            "score_ideology": 2,
-            "score_actor": 4,
+            "score_policy": 1,
+            "score_ideology": 0,
+            "score_actor": 3,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 12,
+            "political_evidence": 8,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Ideología y competencia política",
+            "secondary_topic": "Conflictos y seguridad",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-011"
+            "cluster_id": "PML-EVENT-014"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 19,
-          "labels": [
-            "Estado e instituciones",
-            "Elecciones y opinión pública"
-          ],
-          "chile_utility": 67.1
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 61.3
         },
         "repeated_in_general_top5": false
       }
@@ -637,41 +631,45 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 22,
-      "maximum_relevance": 59.9,
-      "leading_story": "Alcaldes piden al Congreso frenar recorte del 58,3% a la Ley Cholito en el Presupuesto 2027"
+      "event_count": 24,
+      "maximum_relevance": 64.4,
+      "leading_story": "La derrota republicana abre la puerta a una nueva era en el Supremo de Estados Unidos"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 1,
-      "maximum_relevance": 54,
-      "leading_story": "Trilateral en Shenzhen: la cumbre donde Trump presumió, Putin volvió y Xi ganó"
+      "event_count": 4,
+      "maximum_relevance": 57.5,
+      "leading_story": "Fotogalería | La votación de los españoles en Ciudad de México"
     },
     {
       "topic": "Ideología y competencia política",
-      "event_count": 1,
-      "maximum_relevance": 42.8,
-      "leading_story": "El monarca que reinó desde el centro y lo destruyó: las raíces del fracaso de Macron"
+      "event_count": 3,
+      "maximum_relevance": 54,
+      "leading_story": "El último socialista"
     },
     {
       "topic": "Economía y políticas públicas",
       "event_count": 1,
-      "maximum_relevance": 39.5,
+      "maximum_relevance": 35.8,
       "leading_story": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 1,
-      "maximum_relevance": 39.1,
+      "maximum_relevance": 35.4,
       "leading_story": "\"Bandas carcelarias están transformando a Ecuador en un narcoestado\": 'WSJ'"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-027", "PML-EVENT-026", "PML-EVENT-020", "PML-EVENT-015"],
+      "exited_top5": ["PML-EVENT-022", "PML-EVENT-002", "PML-EVENT-010", "PML-EVENT-021"],
+      "retained_top5": "PML-EVENT-003"
+    }
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
+    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
     "source_count": 3
   },
   "system": {
