@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-22",
-    "data_latest_timestamp": "2026-11-22T06:30:00-0300",
-    "data_age_hours": 1.4,
-    "generated_at": "2026-11-22T07:55:05-0300",
+    "data_latest_timestamp": "2026-11-22T15:12:47-0300",
+    "data_age_hours": 1,
+    "generated_at": "2026-11-22T16:14:49-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,23 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 3 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 31 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 2 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 33,
-    "topics": 2,
+    "ranked_events": 31,
+    "topics": 1,
     "geographies": 3,
     "representative_sources": 3,
-    "average_top5_relevance": 57.7,
-    "maximum_relevance": 64.4
+    "average_top5_relevance": 56.8,
+    "maximum_relevance": 60.7
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-027",
+      "cluster_id": "PML-EVENT-026",
       "title": "La derrota republicana abre la puerta a una nueva era en el Supremo de Estados Unidos",
       "url": "https://elpais.com/us/2026-11-22/la-derrota-republicana-abre-la-puerta-a-una-nueva-era-en-el-supremo-de-estados-unidos.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +43,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 64.4,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 64.4
+        "score": 60.7,
+        "level": "MEDIA",
+        "editorial_utility": 60.7
       },
       "selection": {
-        "reason": "PML 64.4",
+        "reason": "PML 60.7",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -103,29 +103,29 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-027"
+          "cluster_id": "PML-EVENT-026"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-026",
-      "title": "Fotogalería | La votación de los españoles en Ciudad de México",
-      "url": "https://elpais.com/mexico/2026-11-22/fotogaleria-la-votacion-de-los-espanoles-en-ciudad-de-mexico.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Elecciones y opinión pública",
+      "cluster_id": "PML-EVENT-006",
+      "title": "Criteria: Aprobación a Kast repuntó tras desplome de las últimas semanas",
+      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/criteria-aprobacion-a-kast-repunto-tras-desplome-de-las-ultimas-semanas/2026-11-22/142756.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "América Latina",
-        "country": "México / América Latina"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 57.5,
+        "score": 57.3,
         "level": "MEDIA",
-        "editorial_utility": 69.5
+        "editorial_utility": 60.3
       },
       "selection": {
-        "reason": "PML 57.5; fallback editorial controlado; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 57.3; fallback editorial controlado; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -133,15 +133,15 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-22T06:30:00-0300",
-      "last_seen": "2026-11-22T06:30:00-0300",
-      "entities": "mexico",
+      "first_seen": "2026-11-22T14:27:56-0300",
+      "last_seen": "2026-11-22T14:27:56-0300",
+      "entities": "chile",
       "event_terms": [],
       "analysis": {
-        "summary": "Los españoles residentes en México comenzaron a depositar sus votos para las elecciones generales de España del próximo 29 de noviembre, en una jornada marcada por una afluencia moderada, las quejas por la demora en el envío de papeletas por correo y la incertidumbre en torno a los sufragios de los nacionalizados por la llamada Ley de Nietos",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en México / América Latina.",
+        "summary": "La aprobación del Presidente José Antonio Kast aumentó en cinco puntos porcentuales y llegó al 23% luego de fuertes caídas registradas en las últimas semanas , reveló la reciente encuesta Criteria , publicada este domingo . El muestreo se realizó entre el 19 y 20 de noviembre a través de un panel online, que reunió 802 casos, entre mujeres y hombres de 18 o más años, de niveles socioeconómicos ABCD, residentes de todo el país.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -151,56 +151,56 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Fotogalería | La votación de los españoles en Ciudad de México",
-          "description": "Los españoles residentes en México comenzaron a depositar sus votos para las elecciones generales de España del próximo 29 de noviembre, en una jornada marcada por una afluencia moderada, las quejas por la demora en el envío de papeletas por correo y la incertidumbre en torno a los sufragios de los nacionalizados por la llamada Ley de Nietos",
-          "url": "https://elpais.com/mexico/2026-11-22/fotogaleria-la-votacion-de-los-espanoles-en-ciudad-de-mexico.html",
-          "image_url": "",
-          "published_raw": "Sun, 22 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-22T06:30:00-0300",
-          "country": "México",
-          "region": "América Latina",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Criteria: Aprobación a Kast repuntó tras desplome de las últimas semanas",
+          "description": "La aprobación del Presidente José Antonio Kast aumentó en cinco puntos porcentuales y llegó al 23% luego de fuertes caídas registradas en las últimas semanas , reveló la reciente encuesta Criteria , publicada este domingo . El muestreo se realizó entre el 19 y 20 de noviembre a través de un panel online, que reunió 802 casos, entre mujeres y hombres de 18 o más años, de niveles socioeconómicos ABCD, residentes de todo el país. [Lea también] Criteria: Aprobación a Kast cayó a 18% y el 79% rechaza mantener a Rabat en Justicia El sondeo arrojó que la desaprobación del Mandatario disminuyó en 4 puntos porcentuales respecto a la medición anterior y se ubicó en un 68% , mientras que un 9% declaró no saber qué responder (-1%). Respecto a la evaluación del Gabinete , los ministros mejor evaluados son Iván Poduje (Vivienda) y May Chomali (Salud) , con 48% cada uno , y la titular de Bienes Nacionales, Catalina Parot, con 44% . En contraste, entre los peores evaluados se encuentra el titular de Justicia, Fernando Rabat (73% de desaprobación) , su par de Hacienda, Jorge Quiroz (70%) , y el ministro del Trabajo, Tomás Rau (57%) . Urgencias ciudadanas En cuanto a las prioridades ciudadanas , la encuesta mostró que las urgencias se concentran en materia económica y seguridad: el alza del costo de la vida lidera las preocupaciones (52%) , seguida por l a falta de empleo (43%) y la delincuencia (42%). También aparece el estancamiento económico (31%) , el narcotráfico y crimen organizado (28%) y la corrupción (22%) . Asimismo, los resultados del estudio indicaron que la visión sobre la situación actual del país es predominantemente negativa: la frase \"Chile está peor\" es la más repetida (22%) , seguida por el alza del costo de la vida e inflación (14%) y la idea de que el Gobierno es incapaz (13%). Finalmente, un 46% de los encuestados se inclinó por un crecimiento económico y sostenido (-2% respecto a junio de 2025) para mejorar la calidad de vida; un 28% optó por la igualdad social y una distribución más equitativa (+3%) , y el 26% se ubicó en una posición neutra .",
+          "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/criteria-aprobacion-a-kast-repunto-tras-desplome-de-las-ultimas-semanas/2026-11-22/142756.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261122/imag/foto_0000000220261122142756.jpg",
+          "published_raw": "Sun, 22 Nov 2026 14:27:56 -0300",
+          "published_at": "2026-11-22T14:27:56-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 1,
+          "score_institutional": 4,
           "score_elections": 2,
           "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
+          "score_conflict": 3,
+          "score_policy": 4,
           "score_ideology": 0,
-          "score_actor": 0,
+          "score_actor": 2,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Elecciones y opinión pública",
-          "secondary_topic": "Instituciones y gobierno",
+          "political_evidence": 15,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-006"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-003",
-      "title": "Alcaldes piden al Congreso frenar recorte del 58,3% a la Ley Cholito en el Presupuesto 2027",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/municipales/alcaldes-piden-al-congreso-frenar-recorte-del-58-3-a-la-ley-cholito-en/2026-11-20/191512.html",
+      "cluster_id": "PML-EVENT-001",
+      "title": "\"No los podemos dejar sin plata\": Presupuesto de Agricultura enfrenta semana definitoria en comisión mixta",
+      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/no-los-podemos-dejar-sin-plata-presupuesto-de-agricultura-enfrenta/2026-11-22/151247.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
         "group": "Chile",
         "country": "Chile"
       },
       "relevance": {
-        "score": 52.9,
+        "score": 56.4,
         "level": "MEDIA",
-        "editorial_utility": 55.9
+        "editorial_utility": 51.4
       },
       "selection": {
-        "reason": "PML 52.9; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "STRICT",
-        "strict_eligible": true,
+        "reason": "PML 56.4; fallback editorial controlado; diversidad relajada para completar el brief",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
       },
       "coverage": {
@@ -208,21 +208,23 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-20T19:15:12-0300",
-      "last_seen": "2026-11-20T19:15:12-0300",
+      "first_seen": "2026-11-22T15:12:47-0300",
+      "last_seen": "2026-11-22T15:12:47-0300",
       "entities": [
-        "congreso",
         "senado",
-        "chile"
+        "congreso"
       ],
-      "event_terms": "oposicion",
+      "event_terms": [
+        "oposicion",
+        "tribunal"
+      ],
       "analysis": {
-        "summary": "Un grupo de alcaldes de distintos sectores políticos se reunió este viernes en la Plaza de la Constitución para solicitar al Congreso un aumento de los recursos destinados al Programa de Tenencia Responsable de Animales de Compañía en la Ley de Presupuesto 2027, el principal instrumento para implementar la denominada Ley Cholito .",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "summary": "La discusión del Presupuesto 2027 entra este lunes en una etapa clave en la Cámara de Diputadas y Diputados , luego de que el Senado despachara el articulado general, pero asestara un golpe a La Moneda al rechazar la partida del Ministerio de Agricultura con participación incluso del propio oficialismo. .",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
@@ -230,30 +232,30 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Alcaldes piden al Congreso frenar recorte del 58,3% a la Ley Cholito en el Presupuesto 2027",
-          "description": "Un grupo de alcaldes de distintos sectores políticos se reunió este viernes en la Plaza de la Constitución para solicitar al Congreso un aumento de los recursos destinados al Programa de Tenencia Responsable de Animales de Compañía en la Ley de Presupuesto 2027, el principal instrumento para implementar la denominada Ley Cholito . Ver esta publicación en Instagram Una publicación compartida por Asociación Chilena de Municipalidades (@achmchile) En 2026, el financiamiento del programa alcanzó los 3.635 millones de pesos , pero para el Presupuesto 2027, el Ejecutivo propuso inicialmente una rebaja de casi el 86% , dejando el fondo en 514 millones de pesos. No obstante, durante el debate del proyecto en el Senado, el Gobierno accedió a incorporar 1.000 millones adicionales, lo que elevó la propuesta a 1.514 millones de pesos. Pese a esa modificación, el monto sigue siendo un 58,3% inferior al asignado en el año actual , una reducción que tanto municipios como organizaciones civiles consideran insuficiente para sostener los programas de atención y cuidado de mascotas. Asociación Chilena de Municipalidades: \"Necesitamos recursos\" El Programa de Tenencia Responsable de Animales de Compañía depende de la Subsecretaría de Desarrollo Regional y Administrativo, entidad encargada de canalizar los recursos hacia los municipios y otras entidades para financiar esterilizaciones, vacunaciones, implementación de microchips, atención veterinaria y campañas educativas. El alcalde de Zapallar, Gustavo Alessandri, presidente de la Asociación Chilena de Municipalidades,  indicó que \"la Ley Cholito necesita financiamiento. Se trabaja en todas las municipalidades del país y para eso necesitamos recursos\" . \"La salud de un perro, de un gato, que incluye la Ley Cholito, es fundamental. Necesitamos recursos para fomentar la responsabilidad y los animales son parte de una familia. Sin recursos, es imposible poder cumplir los objetivos que tiene la ley \", enfatizó el jefe comunal. Por su parte, el alcalde de Estación Central. Felipe Muñoz, explicó que su comuna \"se caracterizaba por contar con una gran cantidad de perros callejeros. Afortunadamente, es un tema a través de este programa que hemos logrado controlar\". \"Sin embargo, hoy vemos cómo para el Gobierno este no es un tema importante : un consenso de parte de todos los alcaldes de Chile, de manera que se pueda reponer y finalmente poder contar hoy día los municipios con los recursos que nos permitan mantener estas políticas tan bien valoradas por la comunidad \", aseveró. Oposición acusa \"descriterio\" y oficialismo pide \"ser realistas\" La reducción presupuestaria también generó reacciones en el Congreso. La diputada Lorena Fries (Frente Amplio) calificó la rebaja del financiamiento del programa como \"un descriterio , no solo porque hoy día las mascotas en Chile tienen una importancia brutal para todas las familias, sino que porque se necesita que tengan todas las condiciones\". \"La falta de presupuesto para un país que hoy día tiene muchísimas mascotas, me parece que políticamente es descriteriado \", resaltó la parlamentaria. Por su parte, la diputada Ximena Ossandón (RN) aseguró no estar de acuerdo \"con que se rebaje el presupuesto en esta materia, pero sí hay que ser muy realista y tenemos que avanzar porque hoy día lo que necesitamos es una política pública de tenencia responsable de animales y no solo un plan \". El antecedente de Kast y el próximo paso en la Cámara Baja La discusión presupuestaria reabrió además el debate sobre la postura que tuvo el presidente José Antonio Kast frente a la Ley Cholito cuando ejercía como diputado. En mayo de 2017, durante la votación que permitió despachar la normativa en el Congreso, se registraron 100 votos a favor, dos abstenciones y un único voto en contra, correspondiente al ahora Mandatario. Ante los cuestionamientos por el recorte para el próximo año, el Ejecutivo señaló que existen proyectos previamente adjudicados por alrededor de 3.000 millones de pesos que continuarán ejecutándose durante 2027. Por ahora, el futuro del presupuesto del Programa de Tenencia Responsable de Animales de Compañía quedará en manos de la Cámara Baja , instancia que deberá revisar la rebaja del 58,3% durante el tercer trámite constitucional para definir si confirma o rechaza el recorte.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/municipales/alcaldes-piden-al-congreso-frenar-recorte-del-58-3-a-la-ley-cholito-en/2026-11-20/191512.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261120/imag/foto_0000000220261120191512.jpg",
-          "published_raw": "Fri, 20 Nov 2026 19:15:12 -0300",
-          "published_at": "2026-11-20T19:15:12-0300",
+          "title": "\"No los podemos dejar sin plata\": Presupuesto de Agricultura enfrenta semana definitoria en comisión mixta",
+          "description": "La discusión del Presupuesto 2027 entra este lunes en una etapa clave en la Cámara de Diputadas y Diputados , luego de que el Senado despachara el articulado general, pero asestara un golpe a La Moneda al rechazar la partida del Ministerio de Agricultura con participación incluso del propio oficialismo. . El avance legislativo estuvo marcado por intensas negociaciones en las que el Ejecutivo debió incorporar cerca de 84 mil millones de pesos netos adicionales para destrabar siete partidas que habían sido previamente desestimadas en la Cámara Baja: Interior , Educación , Minería , Segegob , Mujer , Culturas y Ciencia . Pese a este esfuerzo financiero, el recorte presupuestario a entidades vinculadas al mundo rural impidió un acuerdo total . Comisión mixta por fondos agrícolas El rechazo de la partida de Agricultura obligará a constituir una comisión mixta integrada por cinco senadores y cinco diputados , instancia que sesionaría este martes y el miércoles para resolver las discrepancias antes de la fecha límite del 29 de noviembre. El descontento transversal apuntó a los ajustes a programas esenciales para los pequeños productores campesinos y al anuncio del cierre de Prodemu . Frente a este escenario, la senadora del PPD Loreto Carvajal remarcó que \"resulta muy complejo aprobar recursos, sobre todo en una partida tan relevante para toda la agricultura del país y en particular para regiones \". \" No podemos pensar sino en que el Ministerio de Agricultura debe fortalecer programas tan relevantes como, por ejemplo, el apoyo hacia las mujeres campesinas, hacia la agricultura familiar campesina, y es allí donde vamos a poner los puntos cuando venga el resultado, y sobre todo cuando tengamos que aprobar lo que ha definido la comisión mixta \", enfatizó la legisladora. \"No podemos pensar sino en que el Ministerio de Agricultura debe fortalecer programas relevantes \", afirmó la senadora del PPD Loreto Carvajal. (FOTO: ATON) Desde la oposición, el diputado de la UDI Daniel Lilayu coincidió con que \"el rechazo de la partida de Agricultura en el Senado es, claramente, una señal de preocupación. No podemos dejar al mundo agrícola sin plata \". Debido a esto, el parlamentario dijo esperar que \"el Gobierno reponga los recursos que fueron cuestionados , particularmente aquellos destinados a Indap , Prodesal y al apoyo de nuestros pequeños agricultores . No podemos dejar desprotegido al mundo agrícola ni a las familias que viven del campo\". Educación y Salud: flancos abiertos y advertencia de paro El ámbito educacional, el Gobierno restituyó casi 48 mil millones de pesos -de los cuales 36 mil millones se asignaron a becas TIC para computadores del programa 'Yo Elijo Mi PC' en séptimo básico -, pero la tardanza de la indicación molestó a los parlamentarios. Asimismo, el p residente del Colegio de Profesores , Mario Aguilar , criticó la falta de foco en el fortalecimiento de la educación pública y convocó a una jornada de protesta nacional para este martes . En Salud, en tanto, se añadieron 5 mil millones de pesos netos a la Ley Ricarte Soto , pero el Senado frenó la indicación gubernamental que pretendía prohibir el financiamiento público para tratamientos hormonales y cirugías en menores de 18 años , lo que derivó en duros cuestionamientos hacia la ministra May Chomali y la amenaza de una posible acusación constitucional en su contra . El erario nacional enfrenta días decisivos en el Congreso tras ser despachado por el Senado. (FOTO: ATON) Al respecto, Germán Silva , analista político y académico de la Universidad Andrés Bello (UNAB) , señaló que \" para el Gobierno el principal problema es poder mantener la disciplina fiscal , que es parte de su relato fundamental que tuvo en campaña y que ha tenido en estos primeros meses de gobierno por parte del ministro Quiroz\". A estos, sumó el riesgo de \" algunas impugnaciones al Tribunal Constitucional , considerando que esta discusión en la Cámara de Diputados primero, y eventualmente en comisión mixta (después),, se da en medio de una acusación constitucional que está generando una tensión muy importante entre el oficialismo y la oposición \". Economistas alertan por \"estrecho margen\" en Presupuesto 2027 En tanto, la configuración final del Presupuesto 2027 tras su paso por el Senado encendió las alertas entre los expertos macroeconómicos, quienes advierten una vulnerabilidad ante eventuales contingencias financieras y cuestionan la exclusión de medidas de apoyo laboral en un contexto de desaceleración y desempleo elevado . Durante la tramitación en la Cámara Alta, el Ejecutivo logró reponer la  facultad para un endeudamiento fiscal por un monto de hasta 25 mil millones de dólares durante 2027 . Asimismo, se adelantó para este ejercicio un aporte de aproximadamente 160 millones de dólares con destino al  Fondo Autónomo de Protección Previsional (FAPP), compromiso que el Ministerio de Hacienda esperaba tener que materializar recién en 2028. Pese a los acuerdos logrados para reponer partidas presupuestarias globales, el resultado del debate dejó al descubierto bajas. Quedaron desestimados tres subsidios al empleo que representaban casi 90 mil millones de pesos , situación especialmente sensible ante una desocupación que se sitúa en 9,8% en el promedio país. Expertos advierten que en el debate por el Presupuesto 2027 quedaron fuera tres subsidios al empleo equivalentes a cerca de 90 mil millones de pesos. (FOTO: ATON) Del mismo modo, salieron del balance recursos asociados a Red Movilidad y becas de posgrado . \"Creo que el cambio más relevante es que el Senado repuso la autorización que había pedido el Gobierno de endeudarse hasta 25 mil millones de dólares el 2027. Se adelantó al 2027 un aporte de unos 160 millones de dólares al Fondo Previsional que Hacienda quería hacer el 2028 \", analizó  Carlos Smith , economista del Centro de Investigación de Empresa y Sociedad de la Universidad del Desarrollo (CIES UDD) . \"Se financia reordenando recursos que ya estaban previstos, pero reduce el margen para imprevistos. Lo que quedó fuera llama un poco la atención, que son tres subsidios al empleo justo cuando la desocupación está en 9,8% \", puntualizó el experto. Smith aseveró también que \" más que un Presupuesto irresponsable, es un Presupuesto con muy poco margen . Si el 2027 se crece al 2% y el cobre se mantiene hacia abajo, van a faltar ingresos . Y con la deuda donde está, la única salida sería recortar gasto durante el año\".",
+          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/no-los-podemos-dejar-sin-plata-presupuesto-de-agricultura-enfrenta/2026-11-22/151247.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261122/imag/foto_0000000520261122151247.png",
+          "published_raw": "Sun, 22 Nov 2026 15:12:47 -0300",
+          "published_at": "2026-11-22T15:12:47-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 8,
+          "score_institutional": 10,
           "score_elections": 1,
           "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 3,
+          "score_conflict": 1,
+          "score_policy": 5,
           "score_ideology": 0,
           "score_actor": 5,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 17,
+          "political_evidence": 22,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-003"
+          "cluster_id": "PML-EVENT-001"
         }
       ]
     },
@@ -270,12 +272,12 @@
         "country": "Colombia / América Latina"
       },
       "relevance": {
-        "score": 57.7,
+        "score": 55.7,
         "level": "MEDIA",
-        "editorial_utility": 52.7
+        "editorial_utility": 47.7
       },
       "selection": {
-        "reason": "PML 57.7; fallback editorial controlado; diversidad relajada para completar el brief",
+        "reason": "PML 55.7; fallback editorial controlado; diversidad relajada para completar el brief; aporta diversidad geográfica",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -335,23 +337,23 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-015",
-      "title": "De la Espriella se muestra como auditor de su propio Gobierno",
-      "url": "https://elpais.com/america-colombia/2026-11-22/de-la-espriella-se-muestra-como-auditor-de-su-propio-gobierno.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-005",
+      "title": "Defensor en la AC: \"El ministro Rabat está convencido de que su interpretación fue correcta\"",
+      "url": "https://www.cooperativa.cl/noticias/pais/judicial/defensor-en-la-ac-el-ministro-rabat-esta-convencido-de-que-su/2026-11-22/102512.html",
+      "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "América Latina",
-        "country": "Colombia / América Latina"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 56,
+        "score": 54,
         "level": "MEDIA",
-        "editorial_utility": 48
+        "editorial_utility": 43
       },
       "selection": {
-        "reason": "PML 56; fallback editorial controlado; diversidad relajada para completar el brief",
+        "reason": "PML 54; fallback editorial controlado; diversidad relajada para completar el brief",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -359,15 +361,19 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-22T06:30:00-0300",
-      "last_seen": "2026-11-22T06:30:00-0300",
-      "entities": [],
-      "event_terms": [],
+      "first_seen": "2026-11-22T10:25:12-0300",
+      "last_seen": "2026-11-22T10:25:12-0300",
+      "entities": "congreso",
+      "event_terms": [
+        "tribunal",
+        "judicial",
+        "oposicion"
+      ],
       "analysis": {
-        "summary": "El presidente revierte decisiones económicas que promueven sus ministros, le hace advertencias al gabinete por medio de cartas y despide públicamente a sus funcionarios",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
+        "summary": "El ministro de Justicia, Fernando Rabat, respondió formalmente a la acusación constitucional presentada en su contra  por las polémicas rebajas de condena a pedófilos y criminales de lesa humanidad, y cuestionó que los parlamentarios busquen acusarlo políticamente por no compartir diferentes interpretaciones que -sostuvo- pueden existir en una materia jurídica.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -377,32 +383,32 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "De la Espriella se muestra como auditor de su propio Gobierno",
-          "description": "El presidente revierte decisiones económicas que promueven sus ministros, le hace advertencias al gabinete por medio de cartas y despide públicamente a sus funcionarios",
-          "url": "https://elpais.com/america-colombia/2026-11-22/de-la-espriella-se-muestra-como-auditor-de-su-propio-gobierno.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/U3C5ZZWEDRKHHDPH6GFXSJLZKY.jpg?auth=49cf3a718ea3659ba854d5603868d40e7df6f25ecdd50f134abaa390ee3c4672",
-          "published_raw": "Sun, 22 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-22T06:30:00-0300",
-          "country": "Colombia",
-          "region": "América Latina",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Defensor en la AC: \"El ministro Rabat está convencido de que su interpretación fue correcta\"",
+          "description": "El ministro de Justicia, Fernando Rabat, respondió formalmente a la acusación constitucional presentada en su contra  por las polémicas rebajas de condena a pedófilos y criminales de lesa humanidad, y cuestionó que los parlamentarios busquen acusarlo políticamente por no compartir diferentes interpretaciones que -sostuvo- pueden existir en una materia jurídica. La respuesta fue redactada e ingresada el viernes al Congreso por el abogado que defenderá a Rabat ante el libelo: Juan Ignacio Piña,  que coincidió con él en el Caso Riggs y, además, representó con éxito a la exministra Carolina Tohá cuando enfrentaba en octubre de 2024 una acusación impulsada por Republicanos. En el escrito, de acuerdo con El Mercurio,  Piña niega que Rabat haya incurrido en infracciones constitucionales y cuestiona que se pretenda establecer su responsabilidad política por decisiones adoptadas en materias donde existen distintas interpretaciones jurídicas posibles. \"Una interpretación que el máximo tribunal ha compartido en numerosos fallos podrá ser discutida, e incluso desestimada en definitiva; pero no puede calificarse de insostenible bajo todo método de interpretación sin calificar de igual modo a los jueces que la adoptaron\", reza el documento. Por lo tanto, \"la cuestión que corresponde resolver no es si los acusadores (parlamentarios) comparten la interpretación jurídica adoptada por el Ministerio de Justicia y Derechos Humanos, sino si las actuaciones concretas que se imputan constituyen efectivamente una infracción de la Constitución Política o de las leyes que sea personalmente atribuible\", afirma el texto.  Sostuvo que no había expresa irretroactividad, pero sí jurisprudencia de la Suprema Según consigna el diario, en contestación al capítulo uno de la acusación, Piña defiende que, en 2022, cuando se modificó la ley que regula las rebajas de condena y se excluyó del beneficio a sentenciados por pedofilia, no se determinó si dicho cambio era retroactivo o no.  \"No existe una norma que ordene aplicar la nueva exclusión a delitos cometidos antes de su vigencia. Existe, en cambio, una garantía constitucional que se aplicó (por Rabat) y una controversia jurisprudencial que el propio libelo reconoce\", sostiene el escrito.  Respecto al capítulo dos de la AC, que acusa a Justicia de rebajar condenas a criminales de lesa humanidad, el texto de la defensa respondió que la legislación no establecía una exclusión expresa para estos delitos y que el ministro carecía de atribuciones para incorporar esos requisitos adicionales. El documento también destaca que los dos condenados cuyos decretos de rebaja fueron firmados por Rabat cumplieron cerca del 90% de sus respectivas penas privativas de libertad, por lo que \"no hubo impunidad y sí hubo una señal de rehabilitación que la ley ordena considerar\". Además, cuestionó que los parlamentarios acusadores invoquen el Estatuto de Roma como fundamento para atribuir responsabilidad constitucional al ministro, puesto que el propio libelo \"reconoce que no se aplica directamente a estos casos\". Por último, sobre el capítulo tres -que acusa a Rabat de dar datos errados, imprecisos y parciales cuando fue citado al Congreso-, la contestación sostiene que el desacuerdo se relaciona con el alcance de distintas disposiciones de la Ley 19.856 y no con la entrega deliberada de información falsa. \"Una conclusión jurídica extraída de una premisa normativa verdadera puede ser discutida; incluso puede ser errada, pero no es una mentira\", plantea el documento. [Lea también]  Los argumentos de la acusación constitucional al ministro Fernando Rabat Piña: Este no es un problema de si Rabat dio o no la pelea hasta el final En una entrevista a La Tercera, Piña señaló que ingresaron la contestación el viernes para cumplir con \"una instrucción bastante clara del ministro: nos pidió que intentemos resolver esto rápidamente, porque es muy difícil abocarse a las tareas propias del Ministerio teniendo un foco de desatención, entre otras cosas\". El defensor de Rabat calificó de \"satisfactorio\" que la acusación se vote el 30 de noviembre -como está previsto- y consideró como \"una posibilidad real\" invocar la cuestión previa, pero aclaró que eso no está definido todavía y que deben evaluarlo.  De todos modos, Piña sostuvo que \"este no es un problema de si (el titular de Justicia) no dio la pelea hasta el final (oponiéndose en tribunales a rebajar las condenas). De alguna manera, la Corte Suprema durante mucho tiempo dio señales bastante claras respecto de cómo se interpretaba esto\". \"El ministro tenía una jurisprudencia consistente de la Corte Suprema de la que tenía que hacerse cargo. Esa jurisprudencia acredita que su postura es una interpretación bastante plausible.  Y no solo eso: es una interpretación de la que el ministro está convencido -y de la que yo también lo estoy- de que es la correcta\", dijo el abogado.  También expresó su desacuerdo sobre los parlamentarios que acusan que hubo un \"giro\" desde febrero en el criterio de los fallos de la Corte Suprema que atendían casos de rebajas de condena: \"Ojalá dijeran zig-zag, sería más honesto (...). A pesar de que (Rabat) ya tenía unos fallos donde se empezó a resolver de una manera distinta y se empezaron a rechazar los amparos (ingresados por los condenados para disminuir su pena), él 'no acogió ese giro'. Lo que pasa es que en realidad aquí no asistimos a ningún 'giro'. Solo empezamos a ver un cambio en la integración de la Sala (Penal)\". Por lo tanto, \"aquí hay dos interpretaciones perfectamente conformes con el texto legal y con los principios invocados. Yo no tengo ninguna duda de que una es mejor en Derecho que la otra, pero incluso llegando a la conclusión de que fueran 50 y 50, ¿cómo vamos a transformar en una infracción constitucional grave optar por una de esas dos interpretaciones legítimas? Ese es el problema de base\", argumentó Piña. [Lea también] Criteria: Aprobación a Kast cayó a 18% y el 79% rechaza mantener a Rabat en Justicia \"Mañana (lunes) estarán\" entregados todos los decretos a la comisión investigadora El defensor también sostuvo que \"mañana (lunes) estarán\" entregados a la comisión investigadora todos los decretos firmados por el Gobierno que dictaron una rebaja de condena sin una orden judicial que lo obligase. \"Todavía estamos dentro de plazo y esto no se pierde de vista, pero la verdad es que la comisión nos pidió que estuvieran para mañana (lunes), y mañana estarán. Hemos tenido que revisar una inmensa cantidad de decretos, anonimizarlos ahí donde corresponde para resguardar los derechos de los ciudadanos (víctimas) que están (identificados)\", señaló. \"En principio me voy a hacer cargo yo. El ministro tiene una cartera muy exigente;  tengo el privilegio de conocerla muy bien y sé lo difícil que es ser titular de Justicia. Por lo mismo, tiene que abocarse -y esa fue una de sus instrucciones iniciales- a seguir siendo ministro a pesar de la muy evidente pérdida de foco que producen estas acusaciones\", sostuvo el abogado. Sin embargo, la oposición ha redoblado las críticas por la demora. El diputado, timonel del PPD y presidente de la comisión investigadora, Raúl Soto,  aseveró que dicha diligencia \"es necesaria para el trabajo adecuado de la instancia y para la transparencia, cosa que hasta la fecha no ha ocurrido\". En la misma línea, la diputada y presidenta del FA, Gael Yeomans, expresó: \"Lo primero que me sorprende es que sigan tratando de ocultar los decretos. La defensa que ha tenido el ministro Rabat ha sido simplemente por mantenerlo en el cargo, sin hacerse cargo de las acusaciones de por medio, ni de los argumentos jurídicos que sí tiene esta acusación constitucional en cada uno de sus capítulos\". \"El ministro Rabat debe salir de su cargo, debe asumir su responsabilidad política por haber liberado a violadores de niños. Por su parte, quienes rechacen la acusación constitucional también van a tener que darle explicaciones a la ciudadanía\", manifestó.",
+          "url": "https://www.cooperativa.cl/noticias/pais/judicial/defensor-en-la-ac-el-ministro-rabat-esta-convencido-de-que-su/2026-11-22/102512.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261122/imag/foto_0000001320261122102512.png",
+          "published_raw": "Sun, 22 Nov 2026 10:25:12 -0300",
+          "published_at": "2026-11-22T10:25:12-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 4,
+          "score_institutional": 11,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 2,
+          "score_actor": 5,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 6,
+          "political_evidence": 16,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": null,
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-015"
+          "cluster_id": "PML-EVENT-005"
         }
       ]
     }
@@ -415,25 +421,25 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Analista: El Gobierno se ahorraría muchos malos ratos si incorporara al Partido Libertario",
+        "cluster_id": "PML-EVENT-011",
+        "title": "Caso Firmas: Araya niega vendetta y pide que Fiscalía y Senado investiguen a Castro y Vodanovic",
         "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
+        "event_type": "POLITICAL_STATEMENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/analista-el-gobierno-se-ahorraria-muchos-malos-ratos-si-incorporara-al/2026-11-21/091156.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/caso-firmas-araya-niega-vendetta-y-pide-que-fiscalia-y-senado/2026-11-22/142600.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 49.6,
-          "level": "BAJA",
+          "score": 55.9,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 54,
-            "freshness": 72,
+            "political_impact": 53,
+            "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 34
+            "continuity": 30
           }
         },
         "coverage": {
@@ -441,71 +447,71 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-21T09:11:56-0300",
-        "last_seen": "2026-11-21T09:11:56-0300",
+        "first_seen": "2026-11-22T14:26:00-0300",
+        "last_seen": "2026-11-22T14:26:00-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Analista: El Gobierno se ahorraría muchos malos ratos si incorporara al Partido Libertario",
-            "description": "El académico Guillermo Bustamante , director del Doctorado en Comunicación de la Universidad de Los Andes, abordó este sábado en Cooperativa la polémica que enfrenta el Gobierno con el Partido Nacional Libertario , y aseguró que el \"fuego amigo\" es lo que más perjudica a la administración del Presidente José Antonio Kast . El conflicto político se dio tras la amenaza de Libertarios sobre una posible acusación constitucional contra la ministra de Salud , May Chomali , por el financiamiento a tratamientos de hormonización para menores de edad en el Presupuesto 2027 . En entrevista con El Diario de Cooperativa , el analista sostuvo que, más allá de los argumentos jurídicos de la acción, la arremetida libertaria desnuda la incapacidad del oficialismo para articular acuerdos prelegislativos con sectores afines antes de ingresar las partidas al Parlamento. Para Bustamante, el intento de enjuiciar políticamente a la titular del Minsal confirma una tendencia de la colectividad a extremar posiciones , desordenando la base de apoyo legislativo del Ejecutivo. \" El Partido Nacional Libertario tiende a sobredimensionar algunas cosas . Es cierto que no está dentro del Gobierno , pero el fuego amigo es lo que le hace más mal al Gobierno de José Antonio Kast \", advirtió. La advertencia libertaria de una acusación constitucional contra la ministra de Salud, May Chomalí, abrió un conflicto político en el Congreso. (FOTO: ATON) En opinión del experto, más allá de analizar una posible acusación constitucional contra Chomali, \"la mirada es un poco más política y tiene que ver con por qué no hay una negociación previa antes de presentar los presupuestos , antes de generar algún proyecto de ley que incorpore al Partido Nacional Libertario y que sea mucho más cercano a todo el gobierno \". \"En esta línea, el Ejecutivo se podría ahorrar muchos malos ratos y mostrar una gobernabilidad mucho más relevante si incorporara al Partido Nacional Libertario en este tipo de espacio\", puntualizó en Cooperativa . De acuerdo con el planteamiento de Bustamante, el nudo del problema descansa en la improvisación en el trámite legislativo, ya que el Ejecutivo no previó ni negoció con antelación las materias sensibles del erario público con fuerzas que no integran el gabinete ministerial, pero que se han autodefinido como \"oposición amigable\". Miradas parlamentarias Frente a la caída de la norma presupuestaria, la diputada del Partido Social Cristiano (PSC) Sara Concha lamentó \"profundamente que algunos senadores hayan rechazado la indicación presentada por el Gobierno en la Ley de Presupuesto , que buscaba prohibir el financiamiento de tratamientos de hormonización en menores de edad\". \"Cuando hablamos de salud y desarrollo de nuestros niños, debemos actuar con la máxima responsabilidad \", afirmó la parlamentaria. En esta línea, pidió al Ejecutivo \" entregar máxima urgencia a nuestro proyecto de ley , que busca prohibir prácticas y tratamientos en cirugías que tengan por objeto obstaculizar o impedir el sano desarrollo psíquico o físico de nuestros niños , niñas y adolescentes \". En tanto, desde la UDI, e l diputado Daniel Lilayu remarcó la necesidad de separar las discrepancias programáticas de las herramientas sancionatorias de última ratio . \"No desconocemos la importancia de revisar y de eliminar el financiamiento de las terapias hormonales, y creemos que esa discusión tiene que darse con responsabilidad y seriedad, pero una cosa es tener diferencias y otra muy distinta es amenazar con una acusación constitucional a una ministra de Salud que está muy bien evaluada , por lo demás \", advirtió el integrante de la Comisión de Salud de la Cámara Baja. \"Hoy Chile tiene urgencias mucho más importantes. No podemos distraernos en disputas políticas. Necesitamos unidad y soluciones concretas para todos los chilenos \", enfatizó el parlamentario.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/analista-el-gobierno-se-ahorraria-muchos-malos-ratos-si-incorporara-al/2026-11-21/091156.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261121/imag/foto_0000001320261121091156.jpg",
-            "published_raw": "Sat, 21 Nov 2026 09:11:56 -0300",
-            "published_at": "2026-11-21T09:11:56-0300",
+            "title": "Caso Firmas: Araya niega vendetta y pide que Fiscalía y Senado investiguen a Castro y Vodanovic",
+            "description": "El senador PPD Pedro Araya llamó a su par del PS Juan Luis Castro \"a que deje de estar inventando historias y armando una posverdad que no es\"  en el marco del denominado  caso Firmas,  y pidió que la Comisión de Ética de la Cámara Alta abra de oficio una investigación contra él y Paulina Vodanovic. Araya se involucró en el caso el martes,  al leer ceremoniosamente la carta redactada por Ximena Órdenes (bancada PPD-independientes) que, encontrándose en la gira por Asia junto al Presidente Kast, denunció que su permiso constitucional había sido retirado sin su conocimiento, lo que implicaba alterar los quórum de las discusiones legislativas del Presupuesto 2027.  Las declaraciones de la senadora motivaron a la Fiscalía abrir una investigación por supuesta falsificación de firmas, mientras que Fidel Espinoza -senador del PS que también vio revocado su permiso sin su conocimiento- atribuyó la polémica a una desprolijidad administrativa y no a un delito. El senador Juan Luis Castro -que tramitó los permisos- sostuvo el sábado en El Mercurio que la estrategia fue ideada por la timonel PS y también parlamentaria, Paulina Vodanovic, y acusó que la situación fue \"magnificada\" por Araya, aunque aclaró que \"no quería imaginar\" que la carta leída por él corresponda a una vendetta política por haber sido removido de la presidencia de la Comisión de Constitución. Ante ello, Araya reaccionó: \"Yo termino leyendo la carta porque la senadora Órdenes llamó al senador (PPD Ricardo) Celis, que no le contestó el teléfono porque estaba en reunión con el ministro (de Hacienda, Jorge) Quiroz. Ella, en segundo lugar, procede a llamarme y yo sí le contesto\". \"Entonces, sería bueno que el senador Castro deje de estar inventando historias y trate de armar una posverdad que no es, y que asuma la responsabilidad por el tremendo lío en que metió a la centroizquierda y al PS por el escándalo del caso Firmas\", afirmó el senador PPD. \"No me corresponde a mí pronunciarme qué es lo que ocurrió al interior del Comité Socialista con el senador Castro o la senadora Vodanovic; tendrá que ser el Ministerio Público el que determine la responsabilidad de ellos dos y cómo ocurrieron los hechos. Dicho eso, creo que el Senado tiene que abrir de oficio una investigación en la Comisión de Ética para ver el actuar de ambos senadores\", planteó también.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/caso-firmas-araya-niega-vendetta-y-pide-que-fiscalia-y-senado/2026-11-22/142600.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261122/imag/foto_0000000220261122142600.png",
+            "published_raw": "Sun, 22 Nov 2026 14:26:00 -0300",
+            "published_at": "2026-11-22T14:26:00-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 9,
+            "score_institutional": 6,
             "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 2,
-            "score_ideology": 0,
-            "score_actor": 6,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 2,
+            "score_actor": 3,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 18,
+            "political_evidence": 12,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
+            "cluster_id": "PML-EVENT-011"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 19,
+          "bonus": 21,
           "labels": [
             "Estado e instituciones",
-            "Elecciones y opinión pública"
+            "Congreso y proceso legislativo"
           ],
-          "chile_utility": 68.6
+          "chile_utility": 76.9
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
         "cluster_id": "PML-EVENT-004",
-        "title": "Sumario por hurto y ley Karin: Lincolao explicó despidos previos a renuncia de subsecretaria Rossi",
+        "title": "Alcaldes piden al Congreso frenar recorte del 58,3% a la Ley Cholito en el Presupuesto 2027",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/sumario-por-hurto-y-ley-karin-lincolao-explico-despidos-previos-a/2026-11-19/163849.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/municipales/alcaldes-piden-al-congreso-frenar-recorte-del-58-3-a-la-ley-cholito-en/2026-11-20/191512.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 45.6,
+          "score": 49.9,
           "level": "BAJA",
           "components": {
-            "political_impact": 80,
-            "freshness": 25,
+            "political_impact": 83,
+            "freshness": 40,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 34
+            "continuity": 30
           }
         },
         "coverage": {
@@ -513,33 +519,33 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-19T16:38:49-0300",
-        "last_seen": "2026-11-19T16:38:49-0300",
+        "first_seen": "2026-11-20T19:15:12-0300",
+        "last_seen": "2026-11-20T19:15:12-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Sumario por hurto y ley Karin: Lincolao explicó despidos previos a renuncia de subsecretaria Rossi",
-            "description": "La ministra de Ciencia, Tecnología e Innovación, Ximena Lincolao , explicó este jueves los motivos detrás de los sumarios y despidos previos ocurridos al interior de la cartera, que marcaron la renuncia de la subsecretaria Carolina Rossi . Las salidas se ejecutaron de manera sorpresiva en momentos en que la ministra se encontraba en el extranjero -en el marco de su agenda en Silicon Valley y la cumbre de la APEC - y mientras la subsecretaria Rossi oficiaba como ministra subrogante, sin haber sido informada de la determinación. La medida afectó a Juan José Tagle , asesor jurídico a honorarios estrechamente vinculado al gabinete de Rossi, además de Magdalena Calcagni y Tomás Rivero, profesionales pertenecientes a la División de Tecnologías Emergentes. [Lea también] Gobierno intervino el Ministerio de Ciencia por conflicto entre ministra Lincolao y subsecretaria Rossi Al ser consultada por la situación, la ministra Lincolao explicó que \"yo estaba en una comisión de servicio. La subsecretaria (Rossi) era la ministra y la subsecretaria subrogante (Carolina Calvo) . Entre ellas dos conversaron este tema el día anterior\". \"Los despidos venían por un sumario que existía a una persona por hurto, la otra persona tenía otro sumario, una Ley Karin , y la otra persona tenía problemas de gestión . Estas son personas a honorarios, y otra persona que era un jefe de división: dos de honorarios y uno jefe de división\", indicó la secretaria de Estado. Lincolao hizo hincapié en que \"yo vengo de una escuela donde no se habla de las razones por las cuales las personas son destituidas, por respeto a las personas. Pero, lamentablemente, me veo obligada a dar este detalle para que se sepa que esto no tiene que ver con desvinculaciones a los otros funcionarios\". Con la dimisión de Carolina Rossi, la cartera registra ya la segunda renuncia en su subsecretaría. Su partida se suma a la salida previa del exsubsecretario  Rafael Araos , quien al dejar el cargo había señalado diferencias de gestión y visión con el Gobierno. \"Aprecio el trabajo que hicieron los dos subsecretarios\" Consultada por los medios a su ingreso al encuentro Emprende Tu Mente (ETM), la secretaria de Estado evitó responder directamente si ha considerado renunciar, asegurando que su relación con el Gobierno \"es excelente\". Frente a la insistencia de los reporteros sobre una eventual crisis en la cartera de Ciencia, la ministra respondió que ese es \"el foco de algunos, no el foco de todos\". Finalmente, Lincolao se refirió a los sumarios previos a la salida de la ahora exsubsecretaria Rossi: \" Yo aprecio el trabajo que hicieron los dos subsecretarios muchísimo. Les deseo lo mejor, pero esas son cosas que ocurren\" , aseveró. \"(Con) lo que nosotros nos tenemos que quedar es que Chile no puede quedarse en esa parte, tiene que quedarse en la grande: esta. Y ese es el foco mío: elevar al país, sacar al país de estar al sur del mundo, y eso es lo que está haciendo acá \", concluyó. Con todo, \" cuando se vive un momento transformador como éste, siempre van a haber situaciones: alguna resistencia al cambio o cosas de ese tipo. Y lo que tenemos que pensar es que en 10 años, nos vamos a acordar de este minuto, del liderazgo y de la fuerza y firmeza que tuvimos para hacer lo que es necesario Reacciones desde el Congreso El jefe de bancada del Partido Republicano, el diputado Benjamín Moreno , comentó que \"se pueden ir dos subsecretarios perfectamente, pero evidentemente uno ve las cosas que se van haciendo en el Ministerio y ahí uno puede poner en la balanza y decir 'se están haciendo cosas que son convenientes en materia de ciencias e innovación, sí o no', se están firmando convenios importantes y ahí cada uno podrá tener su análisis en esta materia\". \"Hay formas de trabajar que no siempre acomodan con todos y la ministra Lincolao me imagino tiene una forma, una energía, una rapidez para trabajar, que quizás no siempre va calzando con todos\", añadió. Moreno sostuvo que \" si hay un ministro o subsecretario que cuenta con el respaldo del Presidente Kast, cuenta con mi respaldo , y si él encuentra que es bueno, yo encuentro que es bueno\". Desde la oposición, el diputado socialista Daniel Manouchehri, que preside la Comisión de Ciencia , aseveró: \"La pregunta de fondo es:  ¿por qué no sacaron antes a la subsecretaria? Porque las denuncias por Ley Karin que tenía eran anteriores, y las situaciones que se han denunciado eran bien escandalosas: una subsecretaria que intervenía a favor de funcionarios que fueron despedidos por situaciones muy graves, como robarse un matero, unas cosas que además de graves son situaciones bien ordinarias que estaban aconteciendo\". \"Nosotros vemos que este sigue siendo un Gobierno poco serio y pareciera que esta vez sí le pudieron doblar la mano al segundo piso. Yo volvería a insistirle al segundo piso a que deje trabajar a sus ministros\", agregó. A su vez, el exministro de Ciencia Flavio Salazar relevó que en el mundo académico existe una \" preocupación por cómo, en cierta medida, el Ministerio ha hecho noticia principalmente por los temas internos , más que por la aplicación de una mirada estratégica o programática que implique avances para el desarrollo de la ciencia, el conocimiento y las tecnologías, que son los objetivos que tiene\".",
-            "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/sumario-por-hurto-y-ley-karin-lincolao-explico-despidos-previos-a/2026-11-19/163849.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261119/imag/foto_0000000220261119163849.png",
-            "published_raw": "Thu, 19 Nov 2026 16:38:49 -0300",
-            "published_at": "2026-11-19T16:38:49-0300",
+            "title": "Alcaldes piden al Congreso frenar recorte del 58,3% a la Ley Cholito en el Presupuesto 2027",
+            "description": "Un grupo de alcaldes de distintos sectores políticos se reunió este viernes en la Plaza de la Constitución para solicitar al Congreso un aumento de los recursos destinados al Programa de Tenencia Responsable de Animales de Compañía en la Ley de Presupuesto 2027, el principal instrumento para implementar la denominada Ley Cholito . Ver esta publicación en Instagram Una publicación compartida por Asociación Chilena de Municipalidades (@achmchile) En 2026, el financiamiento del programa alcanzó los 3.635 millones de pesos , pero para el Presupuesto 2027, el Ejecutivo propuso inicialmente una rebaja de casi el 86% , dejando el fondo en 514 millones de pesos. No obstante, durante el debate del proyecto en el Senado, el Gobierno accedió a incorporar 1.000 millones adicionales, lo que elevó la propuesta a 1.514 millones de pesos. Pese a esa modificación, el monto sigue siendo un 58,3% inferior al asignado en el año actual , una reducción que tanto municipios como organizaciones civiles consideran insuficiente para sostener los programas de atención y cuidado de mascotas. Asociación Chilena de Municipalidades: \"Necesitamos recursos\" El Programa de Tenencia Responsable de Animales de Compañía depende de la Subsecretaría de Desarrollo Regional y Administrativo, entidad encargada de canalizar los recursos hacia los municipios y otras entidades para financiar esterilizaciones, vacunaciones, implementación de microchips, atención veterinaria y campañas educativas. El alcalde de Zapallar, Gustavo Alessandri, presidente de la Asociación Chilena de Municipalidades,  indicó que \"la Ley Cholito necesita financiamiento. Se trabaja en todas las municipalidades del país y para eso necesitamos recursos\" . \"La salud de un perro, de un gato, que incluye la Ley Cholito, es fundamental. Necesitamos recursos para fomentar la responsabilidad y los animales son parte de una familia. Sin recursos, es imposible poder cumplir los objetivos que tiene la ley \", enfatizó el jefe comunal. Por su parte, el alcalde de Estación Central. Felipe Muñoz, explicó que su comuna \"se caracterizaba por contar con una gran cantidad de perros callejeros. Afortunadamente, es un tema a través de este programa que hemos logrado controlar\". \"Sin embargo, hoy vemos cómo para el Gobierno este no es un tema importante : un consenso de parte de todos los alcaldes de Chile, de manera que se pueda reponer y finalmente poder contar hoy día los municipios con los recursos que nos permitan mantener estas políticas tan bien valoradas por la comunidad \", aseveró. Oposición acusa \"descriterio\" y oficialismo pide \"ser realistas\" La reducción presupuestaria también generó reacciones en el Congreso. La diputada Lorena Fries (Frente Amplio) calificó la rebaja del financiamiento del programa como \"un descriterio , no solo porque hoy día las mascotas en Chile tienen una importancia brutal para todas las familias, sino que porque se necesita que tengan todas las condiciones\". \"La falta de presupuesto para un país que hoy día tiene muchísimas mascotas, me parece que políticamente es descriteriado \", resaltó la parlamentaria. Por su parte, la diputada Ximena Ossandón (RN) aseguró no estar de acuerdo \"con que se rebaje el presupuesto en esta materia, pero sí hay que ser muy realista y tenemos que avanzar porque hoy día lo que necesitamos es una política pública de tenencia responsable de animales y no solo un plan \". El antecedente de Kast y el próximo paso en la Cámara Baja La discusión presupuestaria reabrió además el debate sobre la postura que tuvo el presidente José Antonio Kast frente a la Ley Cholito cuando ejercía como diputado. En mayo de 2017, durante la votación que permitió despachar la normativa en el Congreso, se registraron 100 votos a favor, dos abstenciones y un único voto en contra, correspondiente al ahora Mandatario. Ante los cuestionamientos por el recorte para el próximo año, el Ejecutivo señaló que existen proyectos previamente adjudicados por alrededor de 3.000 millones de pesos que continuarán ejecutándose durante 2027. Por ahora, el futuro del presupuesto del Programa de Tenencia Responsable de Animales de Compañía quedará en manos de la Cámara Baja , instancia que deberá revisar la rebaja del 58,3% durante el tercer trámite constitucional para definir si confirma o rechaza el recorte.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/municipales/alcaldes-piden-al-congreso-frenar-recorte-del-58-3-a-la-ley-cholito-en/2026-11-20/191512.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261120/imag/foto_0000000220261120191512.jpg",
+            "published_raw": "Fri, 20 Nov 2026 19:15:12 -0300",
+            "published_at": "2026-11-20T19:15:12-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
             "score_institutional": 8,
-            "score_elections": 0,
-            "score_international": 1,
-            "score_conflict": 1,
-            "score_policy": 0,
-            "score_ideology": 1,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 3,
+            "score_ideology": 0,
             "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 16,
+            "political_evidence": 17,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Relaciones internacionales",
+            "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
             "cluster_id": "PML-EVENT-004"
@@ -551,9 +557,10 @@
           "bonus": 22,
           "labels": [
             "Estado e instituciones",
-            "Congreso y proceso legislativo"
+            "Congreso y proceso legislativo",
+            "Economía y políticas públicas"
           ],
-          "chile_utility": 67.6
+          "chile_utility": 71.9
         },
         "repeated_in_general_top5": false
       },
@@ -570,11 +577,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.3,
-          "level": "MEDIA",
+          "score": 48.3,
+          "level": "BAJA",
           "components": {
             "political_impact": 51,
-            "freshness": 88,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -622,7 +629,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 61.3
+          "chile_utility": 57.3
         },
         "repeated_in_general_top5": false
       }
@@ -631,20 +638,20 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 24,
-      "maximum_relevance": 64.4,
+      "event_count": 23,
+      "maximum_relevance": 60.7,
       "leading_story": "La derrota republicana abre la puerta a una nueva era en el Supremo de Estados Unidos"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 4,
-      "maximum_relevance": 57.5,
-      "leading_story": "Fotogalería | La votación de los españoles en Ciudad de México"
+      "event_count": 3,
+      "maximum_relevance": 51.7,
+      "leading_story": "Doce horas en campaña con Pedro Sánchez: “La última vez que la ultraderecha gobernó no había democracia”"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 3,
-      "maximum_relevance": 54,
+      "maximum_relevance": 50.3,
       "leading_story": "El último socialista"
     },
     {
@@ -661,15 +668,11 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-027", "PML-EVENT-026", "PML-EVENT-020", "PML-EVENT-015"],
-      "exited_top5": ["PML-EVENT-022", "PML-EVENT-002", "PML-EVENT-010", "PML-EVENT-021"],
-      "retained_top5": "PML-EVENT-003"
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
