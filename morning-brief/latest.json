@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-22",
-    "data_latest_timestamp": "2026-11-22T15:12:47-0300",
-    "data_age_hours": 1,
-    "generated_at": "2026-11-22T16:14:49-0300",
+    "data_latest_timestamp": "2026-11-22T18:08:52-0300",
+    "data_age_hours": 4.3,
+    "generated_at": "2026-11-22T22:28:20-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,39 +16,39 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 31 eventos políticos rankeados. El principal evento se concentra en Estados Unidos y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 3 áreas geográficas y 2 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 33 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Conflictos y seguridad.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 1 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 31,
-    "topics": 1,
-    "geographies": 3,
+    "ranked_events": 33,
+    "topics": 2,
+    "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 56.8,
-    "maximum_relevance": 60.7
+    "average_top5_relevance": 56.2,
+    "maximum_relevance": 58.1
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-026",
-      "title": "La derrota republicana abre la puerta a una nueva era en el Supremo de Estados Unidos",
-      "url": "https://elpais.com/us/2026-11-22/la-derrota-republicana-abre-la-puerta-a-una-nueva-era-en-el-supremo-de-estados-unidos.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_CRISIS",
+      "cluster_id": "PML-EVENT-018",
+      "title": "El exilio que Colombia no cuenta después de diez años del acuerdo de paz",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261122-el-exilio-que-colombia-no-cuenta-despu%C3%A9s-de-diez-a%C3%B1os-del-acuerdo-de-paz",
+      "representative_source": "France 24",
+      "topic": "Conflictos y seguridad",
+      "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
-        "group": "Estados Unidos",
-        "country": "No identificado / Internacional"
+        "group": "América Latina",
+        "country": "Colombia / América Latina"
       },
       "relevance": {
-        "score": 60.7,
+        "score": 58.1,
         "level": "MEDIA",
-        "editorial_utility": 60.7
+        "editorial_utility": 58.1
       },
       "selection": {
-        "reason": "PML 60.7",
+        "reason": "PML 58.1",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -56,19 +56,19 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "France 24"
       },
-      "first_seen": "2026-11-22T01:30:01-0300",
-      "last_seen": "2026-11-22T01:30:01-0300",
+      "first_seen": "2026-11-22T17:38:49-0300",
+      "last_seen": "2026-11-22T17:38:49-0300",
       "entities": [
-        "supremo",
-        "senado",
-        "trump"
+        "colombia",
+        "farc",
+        "onu"
       ],
-      "event_terms": "supremo",
+      "event_terms": "guerra",
       "analysis": {
-        "summary": "La mayoría demócrata en el Senado dificulta que Trump nombre más jueces conservadores antes de dejar el poder, salvo que uno de los seis actuales dimita y la Casa Blanca corra a designarle sustituto",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "En noviembre de 2016, el Estado colombiano y la extinta guerrilla de las FARC firmaron un histórico acuerdo de paz para poner fin a décadas de violencia. Para más de un millón de personas a las que la guerra había obligado a cruzar la frontera, según la Comisión de la Verdad y la ONU, la noticia encendió una ola de esperanza.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Colombia / América Latina.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -78,110 +78,37 @@
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "La derrota republicana abre la puerta a una nueva era en el Supremo de Estados Unidos",
-          "description": "La mayoría demócrata en el Senado dificulta que Trump nombre más jueces conservadores antes de dejar el poder, salvo que uno de los seis actuales dimita y la Casa Blanca corra a designarle sustituto",
-          "url": "https://elpais.com/us/2026-11-22/la-derrota-republicana-abre-la-puerta-a-una-nueva-era-en-el-supremo-de-estados-unidos.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/5NA3AEBX5ZGZ3HNQI6VEZL5NHE.jpg?auth=76894f2afeb61bbf58dd039a2f85a662e16e573124ce3a753494a9486c2e2733",
-          "published_raw": "Sun, 22 Nov 2026 04:30:01 GMT",
-          "published_at": "2026-11-22T01:30:01-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "source_id": "france24_latam",
+          "source": "France 24",
+          "title": "El exilio que Colombia no cuenta después de diez años del acuerdo de paz",
+          "description": "En noviembre de 2016, el Estado colombiano y la extinta guerrilla de las FARC firmaron un histórico acuerdo de paz para poner fin a décadas de violencia. Para más de un millón de personas a las que la guerra había obligado a cruzar la frontera, según la Comisión de la Verdad y la ONU, la noticia encendió una ola de esperanza. Una década después, y a pesar de su papel activo en la promoción de la paz desde el exterior, el exilio sigue siendo la segunda victimización del conflicto y una de las más ignoradas. ",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261122-el-exilio-que-colombia-no-cuenta-despu%C3%A9s-de-diez-a%C3%B1os-del-acuerdo-de-paz",
+          "image_url": "https://s.france24.com/media/display/6ba4a3ee-e6ab-11f1-a629-13439ca2fe89/w:1024/p:16x9/08b222daa59cd9cb47991bbe605dbb5da80cd7f2w.jpg",
+          "published_raw": "Sun, 22 Nov 2026 20:38:49 GMT",
+          "published_at": "2026-11-22T17:38:49-0300",
+          "country": "Colombia",
+          "region": "América Latina",
           "language": "es",
-          "score_institutional": 2,
+          "score_institutional": 0,
           "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
+          "score_international": 1,
+          "score_conflict": 4,
           "score_policy": 0,
-          "score_ideology": 1,
+          "score_ideology": 0,
           "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
+          "political_evidence": 5,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-026"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-018"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-006",
-      "title": "Criteria: Aprobación a Kast repuntó tras desplome de las últimas semanas",
-      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/criteria-aprobacion-a-kast-repunto-tras-desplome-de-las-ultimas-semanas/2026-11-22/142756.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 57.3,
-        "level": "MEDIA",
-        "editorial_utility": 60.3
-      },
-      "selection": {
-        "reason": "PML 57.3; fallback editorial controlado; aporta diversidad geográfica; nuevo tipo de evento",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-22T14:27:56-0300",
-      "last_seen": "2026-11-22T14:27:56-0300",
-      "entities": "chile",
-      "event_terms": [],
-      "analysis": {
-        "summary": "La aprobación del Presidente José Antonio Kast aumentó en cinco puntos porcentuales y llegó al 23% luego de fuertes caídas registradas en las últimas semanas , reveló la reciente encuesta Criteria , publicada este domingo . El muestreo se realizó entre el 19 y 20 de noviembre a través de un panel online, que reunió 802 casos, entre mujeres y hombres de 18 o más años, de niveles socioeconómicos ABCD, residentes de todo el país.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Criteria: Aprobación a Kast repuntó tras desplome de las últimas semanas",
-          "description": "La aprobación del Presidente José Antonio Kast aumentó en cinco puntos porcentuales y llegó al 23% luego de fuertes caídas registradas en las últimas semanas , reveló la reciente encuesta Criteria , publicada este domingo . El muestreo se realizó entre el 19 y 20 de noviembre a través de un panel online, que reunió 802 casos, entre mujeres y hombres de 18 o más años, de niveles socioeconómicos ABCD, residentes de todo el país. [Lea también] Criteria: Aprobación a Kast cayó a 18% y el 79% rechaza mantener a Rabat en Justicia El sondeo arrojó que la desaprobación del Mandatario disminuyó en 4 puntos porcentuales respecto a la medición anterior y se ubicó en un 68% , mientras que un 9% declaró no saber qué responder (-1%). Respecto a la evaluación del Gabinete , los ministros mejor evaluados son Iván Poduje (Vivienda) y May Chomali (Salud) , con 48% cada uno , y la titular de Bienes Nacionales, Catalina Parot, con 44% . En contraste, entre los peores evaluados se encuentra el titular de Justicia, Fernando Rabat (73% de desaprobación) , su par de Hacienda, Jorge Quiroz (70%) , y el ministro del Trabajo, Tomás Rau (57%) . Urgencias ciudadanas En cuanto a las prioridades ciudadanas , la encuesta mostró que las urgencias se concentran en materia económica y seguridad: el alza del costo de la vida lidera las preocupaciones (52%) , seguida por l a falta de empleo (43%) y la delincuencia (42%). También aparece el estancamiento económico (31%) , el narcotráfico y crimen organizado (28%) y la corrupción (22%) . Asimismo, los resultados del estudio indicaron que la visión sobre la situación actual del país es predominantemente negativa: la frase \"Chile está peor\" es la más repetida (22%) , seguida por el alza del costo de la vida e inflación (14%) y la idea de que el Gobierno es incapaz (13%). Finalmente, un 46% de los encuestados se inclinó por un crecimiento económico y sostenido (-2% respecto a junio de 2025) para mejorar la calidad de vida; un 28% optó por la igualdad social y una distribución más equitativa (+3%) , y el 26% se ubicó en una posición neutra .",
-          "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/criteria-aprobacion-a-kast-repunto-tras-desplome-de-las-ultimas-semanas/2026-11-22/142756.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261122/imag/foto_0000000220261122142756.jpg",
-          "published_raw": "Sun, 22 Nov 2026 14:27:56 -0300",
-          "published_at": "2026-11-22T14:27:56-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 4,
-          "score_elections": 2,
-          "score_international": 0,
-          "score_conflict": 3,
-          "score_policy": 4,
-          "score_ideology": 0,
-          "score_actor": 2,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 15,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-006"
-        }
-      ]
-    },
-    {
-      "position": 3,
       "cluster_id": "PML-EVENT-001",
       "title": "\"No los podemos dejar sin plata\": Presupuesto de Agricultura enfrenta semana definitoria en comisión mixta",
       "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/no-los-podemos-dejar-sin-plata-presupuesto-de-agricultura-enfrenta/2026-11-22/151247.html",
@@ -195,10 +122,10 @@
       "relevance": {
         "score": 56.4,
         "level": "MEDIA",
-        "editorial_utility": 51.4
+        "editorial_utility": 65.4
       },
       "selection": {
-        "reason": "PML 56.4; fallback editorial controlado; diversidad relajada para completar el brief",
+        "reason": "PML 56.4; fallback editorial controlado; aporta diversidad temática; aporta diversidad geográfica",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -260,86 +187,10 @@
       ]
     },
     {
-      "position": 4,
-      "cluster_id": "PML-EVENT-020",
-      "title": "Diez años del acuerdo de paz en Colombia: la guerra que terminó y las promesas que quedaron a medias",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261122-diez-a%C3%B1os-del-acuerdo-de-paz-en-colombia-la-guerra-que-termin%C3%B3-y-las-promesas-que-quedaron-a-medias",
-      "representative_source": "France 24",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Colombia / América Latina"
-      },
-      "relevance": {
-        "score": 55.7,
-        "level": "MEDIA",
-        "editorial_utility": 47.7
-      },
-      "selection": {
-        "reason": "PML 55.7; fallback editorial controlado; diversidad relajada para completar el brief; aporta diversidad geográfica",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-11-21T23:35:38-0300",
-      "last_seen": "2026-11-21T23:35:38-0300",
-      "entities": [
-        "colombia",
-        "farc"
-      ],
-      "event_terms": "guerra",
-      "analysis": {
-        "summary": "El 24 de noviembre de 2016, el Estado colombiano y las FARC firmaron en Bogotá el acuerdo de paz que desarmó a la guerrilla más antigua del continente. Diez años después, France 24 en Español habló con víctimas y expertos para hacer un balance. Todos reconocen que el pacto cambió al país, pero coinciden en que se cumplió a medias.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Colombia / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Diez años del acuerdo de paz en Colombia: la guerra que terminó y las promesas que quedaron a medias",
-          "description": "El 24 de noviembre de 2016, el Estado colombiano y las FARC firmaron en Bogotá el acuerdo de paz que desarmó a la guerrilla más antigua del continente. Diez años después, France 24 en Español habló con víctimas y expertos para hacer un balance. Todos reconocen que el pacto cambió al país, pero coinciden en que se cumplió a medias. Hoy su futuro depende del ultraderechista Abelardo de la Espriella, un presidente que ganó las elecciones con la promesa de mano dura contra los grupos armados.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261122-diez-a%C3%B1os-del-acuerdo-de-paz-en-colombia-la-guerra-que-termin%C3%B3-y-las-promesas-que-quedaron-a-medias",
-          "image_url": "https://s.france24.com/media/display/93e7317a-dc81-11ec-8b43-005056bf30b7/w:1024/p:16x9/AP20306768553179.jpg",
-          "published_raw": "Sun, 22 Nov 2026 02:35:38 GMT",
-          "published_at": "2026-11-21T23:35:38-0300",
-          "country": "Colombia",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
-          "score_international": 0,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-020"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-005",
-      "title": "Defensor en la AC: \"El ministro Rabat está convencido de que su interpretación fue correcta\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/judicial/defensor-en-la-ac-el-ministro-rabat-esta-convencido-de-que-su/2026-11-22/102512.html",
+      "position": 3,
+      "cluster_id": "PML-EVENT-007",
+      "title": "Criteria: Aprobación a Kast repuntó tras desplome de las últimas semanas",
+      "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/criteria-aprobacion-a-kast-repunto-tras-desplome-de-las-ultimas-semanas/2026-11-22/142756.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
@@ -348,12 +199,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 54,
+        "score": 56.1,
         "level": "MEDIA",
-        "editorial_utility": 43
+        "editorial_utility": 52.1
       },
       "selection": {
-        "reason": "PML 54; fallback editorial controlado; diversidad relajada para completar el brief",
+        "reason": "PML 56.1; fallback editorial controlado; diversidad relajada para completar el brief",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -363,16 +214,12 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-22T10:25:12-0300",
-      "last_seen": "2026-11-22T10:25:12-0300",
-      "entities": "congreso",
-      "event_terms": [
-        "tribunal",
-        "judicial",
-        "oposicion"
-      ],
+      "first_seen": "2026-11-22T14:27:56-0300",
+      "last_seen": "2026-11-22T14:27:56-0300",
+      "entities": "chile",
+      "event_terms": [],
       "analysis": {
-        "summary": "El ministro de Justicia, Fernando Rabat, respondió formalmente a la acusación constitucional presentada en su contra  por las polémicas rebajas de condena a pedófilos y criminales de lesa humanidad, y cuestionó que los parlamentarios busquen acusarlo políticamente por no compartir diferentes interpretaciones que -sostuvo- pueden existir en una materia jurídica.",
+        "summary": "La aprobación del Presidente José Antonio Kast aumentó en cinco puntos porcentuales y llegó al 23% luego de fuertes caídas registradas en las últimas semanas , reveló la reciente encuesta Criteria , publicada este domingo . El muestreo se realizó entre el 19 y 20 de noviembre a través de un panel online, que reunió 802 casos, entre mujeres y hombres de 18 o más años, de niveles socioeconómicos ABCD, residentes de todo el país.",
         "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
@@ -385,30 +232,176 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Defensor en la AC: \"El ministro Rabat está convencido de que su interpretación fue correcta\"",
-          "description": "El ministro de Justicia, Fernando Rabat, respondió formalmente a la acusación constitucional presentada en su contra  por las polémicas rebajas de condena a pedófilos y criminales de lesa humanidad, y cuestionó que los parlamentarios busquen acusarlo políticamente por no compartir diferentes interpretaciones que -sostuvo- pueden existir en una materia jurídica. La respuesta fue redactada e ingresada el viernes al Congreso por el abogado que defenderá a Rabat ante el libelo: Juan Ignacio Piña,  que coincidió con él en el Caso Riggs y, además, representó con éxito a la exministra Carolina Tohá cuando enfrentaba en octubre de 2024 una acusación impulsada por Republicanos. En el escrito, de acuerdo con El Mercurio,  Piña niega que Rabat haya incurrido en infracciones constitucionales y cuestiona que se pretenda establecer su responsabilidad política por decisiones adoptadas en materias donde existen distintas interpretaciones jurídicas posibles. \"Una interpretación que el máximo tribunal ha compartido en numerosos fallos podrá ser discutida, e incluso desestimada en definitiva; pero no puede calificarse de insostenible bajo todo método de interpretación sin calificar de igual modo a los jueces que la adoptaron\", reza el documento. Por lo tanto, \"la cuestión que corresponde resolver no es si los acusadores (parlamentarios) comparten la interpretación jurídica adoptada por el Ministerio de Justicia y Derechos Humanos, sino si las actuaciones concretas que se imputan constituyen efectivamente una infracción de la Constitución Política o de las leyes que sea personalmente atribuible\", afirma el texto.  Sostuvo que no había expresa irretroactividad, pero sí jurisprudencia de la Suprema Según consigna el diario, en contestación al capítulo uno de la acusación, Piña defiende que, en 2022, cuando se modificó la ley que regula las rebajas de condena y se excluyó del beneficio a sentenciados por pedofilia, no se determinó si dicho cambio era retroactivo o no.  \"No existe una norma que ordene aplicar la nueva exclusión a delitos cometidos antes de su vigencia. Existe, en cambio, una garantía constitucional que se aplicó (por Rabat) y una controversia jurisprudencial que el propio libelo reconoce\", sostiene el escrito.  Respecto al capítulo dos de la AC, que acusa a Justicia de rebajar condenas a criminales de lesa humanidad, el texto de la defensa respondió que la legislación no establecía una exclusión expresa para estos delitos y que el ministro carecía de atribuciones para incorporar esos requisitos adicionales. El documento también destaca que los dos condenados cuyos decretos de rebaja fueron firmados por Rabat cumplieron cerca del 90% de sus respectivas penas privativas de libertad, por lo que \"no hubo impunidad y sí hubo una señal de rehabilitación que la ley ordena considerar\". Además, cuestionó que los parlamentarios acusadores invoquen el Estatuto de Roma como fundamento para atribuir responsabilidad constitucional al ministro, puesto que el propio libelo \"reconoce que no se aplica directamente a estos casos\". Por último, sobre el capítulo tres -que acusa a Rabat de dar datos errados, imprecisos y parciales cuando fue citado al Congreso-, la contestación sostiene que el desacuerdo se relaciona con el alcance de distintas disposiciones de la Ley 19.856 y no con la entrega deliberada de información falsa. \"Una conclusión jurídica extraída de una premisa normativa verdadera puede ser discutida; incluso puede ser errada, pero no es una mentira\", plantea el documento. [Lea también]  Los argumentos de la acusación constitucional al ministro Fernando Rabat Piña: Este no es un problema de si Rabat dio o no la pelea hasta el final En una entrevista a La Tercera, Piña señaló que ingresaron la contestación el viernes para cumplir con \"una instrucción bastante clara del ministro: nos pidió que intentemos resolver esto rápidamente, porque es muy difícil abocarse a las tareas propias del Ministerio teniendo un foco de desatención, entre otras cosas\". El defensor de Rabat calificó de \"satisfactorio\" que la acusación se vote el 30 de noviembre -como está previsto- y consideró como \"una posibilidad real\" invocar la cuestión previa, pero aclaró que eso no está definido todavía y que deben evaluarlo.  De todos modos, Piña sostuvo que \"este no es un problema de si (el titular de Justicia) no dio la pelea hasta el final (oponiéndose en tribunales a rebajar las condenas). De alguna manera, la Corte Suprema durante mucho tiempo dio señales bastante claras respecto de cómo se interpretaba esto\". \"El ministro tenía una jurisprudencia consistente de la Corte Suprema de la que tenía que hacerse cargo. Esa jurisprudencia acredita que su postura es una interpretación bastante plausible.  Y no solo eso: es una interpretación de la que el ministro está convencido -y de la que yo también lo estoy- de que es la correcta\", dijo el abogado.  También expresó su desacuerdo sobre los parlamentarios que acusan que hubo un \"giro\" desde febrero en el criterio de los fallos de la Corte Suprema que atendían casos de rebajas de condena: \"Ojalá dijeran zig-zag, sería más honesto (...). A pesar de que (Rabat) ya tenía unos fallos donde se empezó a resolver de una manera distinta y se empezaron a rechazar los amparos (ingresados por los condenados para disminuir su pena), él 'no acogió ese giro'. Lo que pasa es que en realidad aquí no asistimos a ningún 'giro'. Solo empezamos a ver un cambio en la integración de la Sala (Penal)\". Por lo tanto, \"aquí hay dos interpretaciones perfectamente conformes con el texto legal y con los principios invocados. Yo no tengo ninguna duda de que una es mejor en Derecho que la otra, pero incluso llegando a la conclusión de que fueran 50 y 50, ¿cómo vamos a transformar en una infracción constitucional grave optar por una de esas dos interpretaciones legítimas? Ese es el problema de base\", argumentó Piña. [Lea también] Criteria: Aprobación a Kast cayó a 18% y el 79% rechaza mantener a Rabat en Justicia \"Mañana (lunes) estarán\" entregados todos los decretos a la comisión investigadora El defensor también sostuvo que \"mañana (lunes) estarán\" entregados a la comisión investigadora todos los decretos firmados por el Gobierno que dictaron una rebaja de condena sin una orden judicial que lo obligase. \"Todavía estamos dentro de plazo y esto no se pierde de vista, pero la verdad es que la comisión nos pidió que estuvieran para mañana (lunes), y mañana estarán. Hemos tenido que revisar una inmensa cantidad de decretos, anonimizarlos ahí donde corresponde para resguardar los derechos de los ciudadanos (víctimas) que están (identificados)\", señaló. \"En principio me voy a hacer cargo yo. El ministro tiene una cartera muy exigente;  tengo el privilegio de conocerla muy bien y sé lo difícil que es ser titular de Justicia. Por lo mismo, tiene que abocarse -y esa fue una de sus instrucciones iniciales- a seguir siendo ministro a pesar de la muy evidente pérdida de foco que producen estas acusaciones\", sostuvo el abogado. Sin embargo, la oposición ha redoblado las críticas por la demora. El diputado, timonel del PPD y presidente de la comisión investigadora, Raúl Soto,  aseveró que dicha diligencia \"es necesaria para el trabajo adecuado de la instancia y para la transparencia, cosa que hasta la fecha no ha ocurrido\". En la misma línea, la diputada y presidenta del FA, Gael Yeomans, expresó: \"Lo primero que me sorprende es que sigan tratando de ocultar los decretos. La defensa que ha tenido el ministro Rabat ha sido simplemente por mantenerlo en el cargo, sin hacerse cargo de las acusaciones de por medio, ni de los argumentos jurídicos que sí tiene esta acusación constitucional en cada uno de sus capítulos\". \"El ministro Rabat debe salir de su cargo, debe asumir su responsabilidad política por haber liberado a violadores de niños. Por su parte, quienes rechacen la acusación constitucional también van a tener que darle explicaciones a la ciudadanía\", manifestó.",
-          "url": "https://www.cooperativa.cl/noticias/pais/judicial/defensor-en-la-ac-el-ministro-rabat-esta-convencido-de-que-su/2026-11-22/102512.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261122/imag/foto_0000001320261122102512.png",
-          "published_raw": "Sun, 22 Nov 2026 10:25:12 -0300",
-          "published_at": "2026-11-22T10:25:12-0300",
+          "title": "Criteria: Aprobación a Kast repuntó tras desplome de las últimas semanas",
+          "description": "La aprobación del Presidente José Antonio Kast aumentó en cinco puntos porcentuales y llegó al 23% luego de fuertes caídas registradas en las últimas semanas , reveló la reciente encuesta Criteria , publicada este domingo . El muestreo se realizó entre el 19 y 20 de noviembre a través de un panel online, que reunió 802 casos, entre mujeres y hombres de 18 o más años, de niveles socioeconómicos ABCD, residentes de todo el país. [Lea también] Criteria: Aprobación a Kast cayó a 18% y el 79% rechaza mantener a Rabat en Justicia El sondeo arrojó que la desaprobación del Mandatario disminuyó en 4 puntos porcentuales respecto a la medición anterior y se ubicó en un 68% , mientras que un 9% declaró no saber qué responder (-1%). Respecto a la evaluación del Gabinete , los ministros mejor evaluados son Iván Poduje (Vivienda) y May Chomali (Salud) , con 48% cada uno , y la titular de Bienes Nacionales, Catalina Parot, con 44% . En contraste, entre los peores evaluados se encuentra el titular de Justicia, Fernando Rabat (73% de desaprobación) , su par de Hacienda, Jorge Quiroz (70%) , y el ministro del Trabajo, Tomás Rau (57%) . Urgencias ciudadanas En cuanto a las prioridades ciudadanas , la encuesta mostró que las urgencias se concentran en materia económica y seguridad: el alza del costo de la vida lidera las preocupaciones (52%) , seguida por l a falta de empleo (43%) y la delincuencia (42%). También aparece el estancamiento económico (31%) , el narcotráfico y crimen organizado (28%) y la corrupción (22%) . Asimismo, los resultados del estudio indicaron que la visión sobre la situación actual del país es predominantemente negativa: la frase \"Chile está peor\" es la más repetida (22%) , seguida por el alza del costo de la vida e inflación (14%) y la idea de que el Gobierno es incapaz (13%). Finalmente, un 46% de los encuestados se inclinó por un crecimiento económico y sostenido (-2% respecto a junio de 2025) para mejorar la calidad de vida; un 28% optó por la igualdad social y una distribución más equitativa (+3%) , y el 26% se ubicó en una posición neutra .",
+          "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/criteria-aprobacion-a-kast-repunto-tras-desplome-de-las-ultimas-semanas/2026-11-22/142756.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261122/imag/foto_0000000220261122142756.jpg",
+          "published_raw": "Sun, 22 Nov 2026 14:27:56 -0300",
+          "published_at": "2026-11-22T14:27:56-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 11,
+          "score_institutional": 4,
+          "score_elections": 2,
+          "score_international": 0,
+          "score_conflict": 3,
+          "score_policy": 4,
+          "score_ideology": 0,
+          "score_actor": 2,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 15,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-007"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-014",
+      "title": "Órdenes y caso Firmas: Quienes me conocen saben que no me prestaría para esa maniobra",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/ordenes-y-caso-firmas-quienes-me-conocen-saben-que-no-me-prestaria-para/2026-11-22/180852.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 55.7,
+        "level": "MEDIA",
+        "editorial_utility": 48.7
+      },
+      "selection": {
+        "reason": "PML 55.7; fallback editorial controlado; diversidad relajada para completar el brief",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-22T18:08:52-0300",
+      "last_seen": "2026-11-22T18:08:52-0300",
+      "entities": "senado",
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "La senadora independiente Ximena Órdenes , integrante de la bancada del PPD, abordó este domingo la polémica en torno a la supuesta falsificación de su firma en la Cámara Alta , mientras acompañaba al Presidente José Antonio Kast en su gira por Asia. El denominado \"Caso Firmas\" estalló esta semana, luego de que el senador  PPD Pedro Araya leyó una carta redactada por Órdenes quien, encontrándose en el exterior, denunció que su permiso constitucional fue retirado sin su…",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Órdenes y caso Firmas: Quienes me conocen saben que no me prestaría para esa maniobra",
+          "description": "La senadora independiente Ximena Órdenes , integrante de la bancada del PPD, abordó este domingo la polémica en torno a la supuesta falsificación de su firma en la Cámara Alta , mientras acompañaba al Presidente José Antonio Kast en su gira por Asia. El denominado \"Caso Firmas\" estalló esta semana, luego de que el senador  PPD Pedro Araya leyó una carta redactada por Órdenes quien, encontrándose en el exterior, denunció que su permiso constitucional fue retirado sin su conocimiento, lo que implicaba alterar los quórums de las discusiones legislativas del Presupuesto 2027 . La situación motivó a la Fiscalía a abrir una investigación por supuesta falsificación de firmas, mientras que Fidel Espinoza (PS) , que también vio revocado su permiso sin conocimiento, atribuyó la polémica a una desprolijidad administrativa y no a un delito . En conversación con La Tercera , la parlamentaria independiente-PPD aseguró: \"Nunca fui consultada sobre el retiro del permiso constitucional, y de haberlo sido, tampoco habría estado de acuerdo\" . \"Viajé con un permiso constitucional en contexto de una gira presidencial que involucraba a senadores de ambos sectores, con lo cual e sta herramienta permite que ni el oficialismo ni la oposición adquieran una ventaja coyuntural en las votaciones\", explicó. En ese sentido, enfatizó que \"quienes me conocen saben que no me prestaría para este tipo de maniobras\" , la cual fue atribuida por el jefe de comité del Socialismo Democrático, Juan Luis Castro, a la timonel socialista, Paulina Vodanovic . [Lea también]   Caso Firmas: Araya niega vendetta y pide que Fiscalía y Senado investiguen a Castro y Vodanovic En cuanto a la presunta desprolijidad administrativa , Órdenes sostuvo que \"la firma es una constancia de aceptación personal que requiere siempre de consentimiento. Por eso, considero que a partir de este episodio es urgente mejorar protocolos internos, dentro de cada comité y/o de la secretaría \". \" Esto está lejos de ser un mero 'malentendido reglamentario' como se ha intentado describir \", afirmó. Por último, respecto de la investigación de la Fiscalía , la parlamentaria apuntó: \"Hay que respetar las atribuciones de cada institución y en este caso, el Ministerio Público tendrá que hacer su labor. Desde el Senado, habrá que contribuir con todos los antecedentes que sean requeridos y que permitan esclarecer lo ocurrido \".",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/ordenes-y-caso-firmas-quienes-me-conocen-saben-que-no-me-prestaria-para/2026-11-22/180852.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261122/imag/foto_0000000220261122180852.jpg",
+          "published_raw": "Sun, 22 Nov 2026 18:08:52 -0300",
+          "published_at": "2026-11-22T18:08:52-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 5,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 1,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 11,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-014"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-028",
+      "title": "Los demócratas se aseguran la mayor victoria en la Cámara de Representantes desde 1992",
+      "url": "https://elpais.com/us/2026-11-22/los-democratas-se-aseguran-la-mayor-victoria-en-la-camara-de-representantes-desde-1992.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "No identificado",
+        "country": "No identificado / Internacional"
+      },
+      "relevance": {
+        "score": 54.8,
+        "level": "MEDIA",
+        "editorial_utility": 44.8
+      },
+      "selection": {
+        "reason": "PML 54.8; fallback editorial controlado; diversidad relajada para completar el brief",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-22T16:08:03-0300",
+      "last_seen": "2026-11-22T16:08:03-0300",
+      "entities": "senado",
+      "event_terms": "victoria",
+      "analysis": {
+        "summary": "La obtención de un escaño en Carolina del Norte deja en 258 la mayoría del partido, que también controla ampliamente el Senado (56-44). Aún quedan otras cuatro contiendas por resolver",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Los demócratas se aseguran la mayor victoria en la Cámara de Representantes desde 1992",
+          "description": "La obtención de un escaño en Carolina del Norte deja en 258 la mayoría del partido, que también controla ampliamente el Senado (56-44). Aún quedan otras cuatro contiendas por resolver",
+          "url": "https://elpais.com/us/2026-11-22/los-democratas-se-aseguran-la-mayor-victoria-en-la-camara-de-representantes-desde-1992.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/KAXT7MFKPBO2FP3IK4FJ4CKNNA.jpg?auth=91b27eacb58fc65bf4a9a6df5e8b123778e621ba74e8ed8ef70ca8d02c63c142",
+          "published_raw": "Sun, 22 Nov 2026 19:08:03 GMT",
+          "published_at": "2026-11-22T16:08:03-0300",
+          "country": "No identificado",
+          "region": "Internacional",
+          "language": "es",
+          "score_institutional": 2,
           "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 5,
+          "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 16,
+          "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
           "secondary_topic": null,
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-005"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-028"
         }
       ]
     }
@@ -421,7 +414,7 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-011",
+        "cluster_id": "PML-EVENT-004",
         "title": "Caso Firmas: Araya niega vendetta y pide que Fiscalía y Senado investiguen a Castro y Vodanovic",
         "topic": "Instituciones y gobierno",
         "event_type": "POLITICAL_STATEMENT",
@@ -432,11 +425,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 55.9,
+          "score": 54.6,
           "level": "MEDIA",
           "components": {
             "political_impact": 53,
-            "freshness": 100,
+            "freshness": 95,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -454,7 +447,7 @@
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
             "title": "Caso Firmas: Araya niega vendetta y pide que Fiscalía y Senado investiguen a Castro y Vodanovic",
-            "description": "El senador PPD Pedro Araya llamó a su par del PS Juan Luis Castro \"a que deje de estar inventando historias y armando una posverdad que no es\"  en el marco del denominado  caso Firmas,  y pidió que la Comisión de Ética de la Cámara Alta abra de oficio una investigación contra él y Paulina Vodanovic. Araya se involucró en el caso el martes,  al leer ceremoniosamente la carta redactada por Ximena Órdenes (bancada PPD-independientes) que, encontrándose en la gira por Asia junto al Presidente Kast, denunció que su permiso constitucional había sido retirado sin su conocimiento, lo que implicaba alterar los quórum de las discusiones legislativas del Presupuesto 2027.  Las declaraciones de la senadora motivaron a la Fiscalía abrir una investigación por supuesta falsificación de firmas, mientras que Fidel Espinoza -senador del PS que también vio revocado su permiso sin su conocimiento- atribuyó la polémica a una desprolijidad administrativa y no a un delito. El senador Juan Luis Castro -que tramitó los permisos- sostuvo el sábado en El Mercurio que la estrategia fue ideada por la timonel PS y también parlamentaria, Paulina Vodanovic, y acusó que la situación fue \"magnificada\" por Araya, aunque aclaró que \"no quería imaginar\" que la carta leída por él corresponda a una vendetta política por haber sido removido de la presidencia de la Comisión de Constitución. Ante ello, Araya reaccionó: \"Yo termino leyendo la carta porque la senadora Órdenes llamó al senador (PPD Ricardo) Celis, que no le contestó el teléfono porque estaba en reunión con el ministro (de Hacienda, Jorge) Quiroz. Ella, en segundo lugar, procede a llamarme y yo sí le contesto\". \"Entonces, sería bueno que el senador Castro deje de estar inventando historias y trate de armar una posverdad que no es, y que asuma la responsabilidad por el tremendo lío en que metió a la centroizquierda y al PS por el escándalo del caso Firmas\", afirmó el senador PPD. \"No me corresponde a mí pronunciarme qué es lo que ocurrió al interior del Comité Socialista con el senador Castro o la senadora Vodanovic; tendrá que ser el Ministerio Público el que determine la responsabilidad de ellos dos y cómo ocurrieron los hechos. Dicho eso, creo que el Senado tiene que abrir de oficio una investigación en la Comisión de Ética para ver el actuar de ambos senadores\", planteó también.",
+            "description": "El senador PPD Pedro Araya llamó a su par del PS Juan Luis Castro \"a que deje de estar inventando historias y armando una posverdad que no es\"  en el marco del denominado  caso Firmas,  y pidió que la Comisión de Ética de la Cámara Alta abra de oficio una investigación contra él y Paulina Vodanovic. Araya se involucró en el caso el martes,  al leer ceremoniosamente la carta redactada por Ximena Órdenes (bancada PPD-independientes) que, encontrándose en la gira por Asia junto al Presidente Kast, denunció que su permiso constitucional había sido retirado sin su conocimiento, lo que implicaba alterar los quórum de las discusiones legislativas del Presupuesto 2027.  Las declaraciones de la senadora motivaron a la Fiscalía abrir una investigación por supuesta falsificación de firmas, mientras que Fidel Espinoza -senador del PS que también vio revocado su permiso sin su conocimiento- atribuyó la polémica a una desprolijidad administrativa y no a un delito. El senador Juan Luis Castro -que tramitó los permisos- sostuvo el sábado en El Mercurio que la estrategia fue ideada por la timonel PS y también parlamentaria, Paulina Vodanovic, y acusó que la situación fue \"magnificada\" por Araya, aunque aclaró que \"no quería imaginar\" que la carta leída por él corresponda a una vendetta política por haber sido removido de la presidencia de la Comisión de Constitución. Ante ello, Araya reaccionó: \"Yo termino leyendo la carta porque la senadora Órdenes llamó al senador (PPD Ricardo) Celis, que no le contestó el teléfono porque estaba en reunión con el ministro (de Hacienda, Jorge) Quiroz. Ella, en segundo lugar, procede a llamarme y yo sí le contesto\". \"Entonces, sería bueno que el senador Castro deje de estar inventando historias y trate de armar una posverdad que no es, y que asuma la responsabilidad por el tremendo lío en que metió a la centroizquierda y al PS por el escándalo del caso Firmas\", afirmó el senador PPD. \"No me corresponde a mí pronunciarme qué es lo que ocurrió al interior del Comité Socialista con el senador Castro o la senadora Vodanovic; tendrá que ser el Ministerio Público el que determine la responsabilidad de ellos dos y cómo ocurrieron los hechos. Dicho eso, creo que el Senado tiene que abrir de oficio una investigación en la Comisión de Ética para ver el actuar de ambos senadores\", planteó también. Soto: No tenemos pensado romper relaciones políticas con el PS Por su parte, el presidente del Partido Por la Democracia, diputado Raúl Soto , condenó la controversia y aseveró que es un \"hecho de máxima gravedad, no se le puede bajar el perfil\". En conversación con \"Mesa Central\" de Canal 13 , el parlamentario adelantó que los senadores de la colectividad \" se van a reunir el día martes, una vez que regrese la senadora Ximena Órdenes para resolver los pasos a seguir y las determinaciones políticas que ellos van a tomar. Nosotros como partido vamos a esperar esa resolución y vamos a apoyar lo que autónomamente decidan\". En esa línea, sostuvo que \"la verdad que los problemas se han generado por dedisiones que ha tomado efectivamente el PS , de los cuales el PPD es más bien víctima\". Sin embargo, descartó romper la coalición: \" No tenemos pensado, bajo ningún punto de vista, romper relaciones políticas con el PS. Tenemos un trabajo histórico que es muy importante y que queremos cuidar y proyectar hacia el futuro\". \" Decir que esto es una práctica habitual o normal sería decir que el Poder Legislativo actúa con infracción a la ley de forma permanente y eso no corresponde. No es así. Siempre tiene que haber autorización y consentimiento del parlamentario el cual se le va a usar la firma y en este caso, el punto es que eso no ocurrió\", cerró. &nbsp;",
             "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/caso-firmas-araya-niega-vendetta-y-pide-que-fiscalia-y-senado/2026-11-22/142600.html",
             "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261122/imag/foto_0000000220261122142600.png",
             "published_raw": "Sun, 22 Nov 2026 14:26:00 -0300",
@@ -462,21 +455,21 @@
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 6,
+            "score_institutional": 9,
             "score_elections": 0,
             "score_international": 0,
             "score_conflict": 0,
             "score_policy": 1,
             "score_ideology": 2,
-            "score_actor": 3,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 12,
+            "political_evidence": 17,
             "primary_topic": "Instituciones y gobierno",
             "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-011"
+            "cluster_id": "PML-EVENT-004"
           }
         ],
         "article_count": 1,
@@ -487,13 +480,13 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 76.9
+          "chile_utility": 75.6
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 2,
-        "cluster_id": "PML-EVENT-004",
+        "cluster_id": "PML-EVENT-005",
         "title": "Alcaldes piden al Congreso frenar recorte del 58,3% a la Ley Cholito en el Presupuesto 2027",
         "topic": "Instituciones y gobierno",
         "event_type": "INSTITUTIONAL_DECISION",
@@ -548,7 +541,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-004"
+            "cluster_id": "PML-EVENT-005"
           }
         ],
         "article_count": 1,
@@ -566,25 +559,25 @@
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-014",
-        "title": "Schneider y Kaiser protagonizaron cruce en redes por identidad de género",
+        "cluster_id": "PML-EVENT-006",
+        "title": "Defensor en la AC: \"El ministro Rabat está convencido de que su interpretación fue correcta\"",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/schneider-y-kaiser-protagonizaron-cruce-en-redes-por-identidad-de-genero/2026-11-21/185840.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/judicial/defensor-en-la-ac-el-ministro-rabat-esta-convencido-de-que-su/2026-11-22/102512.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 48.3,
-          "level": "BAJA",
+          "score": 52.2,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 51,
-            "freshness": 72,
+            "political_impact": 50,
+            "freshness": 88,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 30
+            "continuity": 32
           }
         },
         "coverage": {
@@ -592,36 +585,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-21T18:58:40-0300",
-        "last_seen": "2026-11-21T18:58:40-0300",
+        "first_seen": "2026-11-22T10:25:12-0300",
+        "last_seen": "2026-11-22T10:25:12-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Schneider y Kaiser protagonizaron cruce en redes por identidad de género",
-            "description": "El debate sobre el reconocimiento de la identidad de género y el respeto hacia las personas trans sumó un nuevo enfrentamiento político, luego de que la diputada Emilia Schneider (Frente Amplio) y Johannes Kaiser (Partido Nacional Libertario) intercambiaran mensajes a través de X. La controversia surgió después de que el excandidato presidencial realizara comentarios transfóbicos en contra de la parlamentaria  en una entrevista con \"Mesa Central\" de T13 , refiriéndose a ella como \"el señor Schneider\" , y luego, como \"el o la excolega Schneider\" . El timonel libertario propinó tales insultos en medio de la discusión legislativa sobre el financiamiento público de tratamientos hormonales . Este sábado, el exdiputado volvió a arremeter contra la diputada y defendió sus declaraciones: \"Si tienes un problema conmigo por decir la verdad, entonces el problema no es conmigo. Es con la verdad\" . Si tienes un problema conmigo por decir la verdad entonces el problema no es conmigo. Es con la verdad. — Johannes Kaiser (@Jou_Kaiser) November 21, 2026 Schneider le respondió con un texto publicado en la misma red social: \"No entiende el punto, se lo aclaro: me tiene sin cuidado la 'verdad' que usted crea sobre mí. Tanta fijación dice más de usted que de mí . Lo importante: Chile tiene una ley de identidad de género que reconoce a las personas trans y eso sí que es verdad. E implica respeto\". En ese sentido, la diputada frenteamplista señaló que el debate no debería depender de las convicciones personales de cada legislador , sino del respeto hacia la identidad de las personas y el impacto que pueden tener los discursos públicos. \" ¿En qué aporta al debate tratar a una persona de una forma distinta a cómo se presenta ante el mundo? Nadie le pide una convicción interna, porque a nadie le importa. Es respeto, porque si no, el mensaje que queda es que es válido pasar a llevar a personas trans porque no estás de acuerdo, y de ahí a la violencia callejera no hay tantos pasos \", aseveró. No entiende el punto, se lo aclaro: me tiene sin cuidado la “verdad” que usted crea sobre mi. Tanta fijación dice más de usted que de mi. Lo importante: Chile tiene una ley de identidad de género que reconoce a las personas trans y eso sí que es verdad. E implica respeto. En qué aporta al debate tratar a una persona de una forma distinta a cómo se presenta ante el mundo? Nadie le pide una convicción interna, porque a nadie le importa. Es respeto, porque sino el mensaje que queda es que es válido pasar a llevar a personas trans porque no estás de acuerdo, y de ahí a la violencia callejera no hay tantos pasos. El problema no es con usted, el problema es el efecto que tienen sus palabras y gustitos en la sociedad. Cuando hablo de usted yo hablo de sus ideas fracasadas y respondo sus mentiras, usted habla de mi identidad y mis genitales. Rarísimo. — Emilia Schneider (@emischneiderv) November 21, 2026 Por lo anterior, también cuestionó que Kaiser abordara aspectos de su identidad personal, en lugar de centrarse en las diferencias políticas y legislativas que mantienen . \"El problema no es con usted, el problema es el efecto que tienen sus palabras y gustitos en la sociedad. Cuando hablo de usted, yo hablo de sus ideas fracasadas y respondo sus mentiras, usted habla de mi identidad y mis genitales . Rarísimo\", enfatizó. Kaiser: \"Más allá de la cortesía, no tengo por qué ocultar mi convicción interna\" Posteriormente, el líder libertario refutó: \"Usted no entiende el punto. Más allá de la cortesía, no tengo por qué ocultar mi convicción interna, respaldada por la observación empírica e ideológica \". En cuanto a su crítica hacia las terapias hormonales , relevó que \"sale a la palestra esencialmente porque empuja a otra gente, especialmente a menores de edad, por un camino doloroso y que termina para muchos con sus cuerpos destrozados, al igual que sus vidas, sin mejorar de manera alguna su salud mental\". Sobre el caso particular de Schneider, el exdiputado agregó: \" Lamento desde el fondo de mi alta el calvario que usted sufre, pero eso no le autoriza a empujar a otros al mismo destino . Menos por ley. Menos en base a engaños. Ya basta\". Usted no entiende el punto. Más allá de la cortesía, no tengo por que ocultar mi convicción interna, respaldada por la observación empírica y la biología. El por qué sale a la palestra es esencialmente porque empuja a otra gente, especialmente a menores de edad, por un camino doloroso y que termina para muchos con sus cuerpos destrozados, al igual que sus vidas, sin mejorar de manera alguna su salud mental. Yo lamento desde el fondo de mi alma el calvario que Usted sufre, pero eso no le autoriza a empujar a otros al mismo destino. Menos por ley. Menos en base a engaños. Ya basta. — Johannes Kaiser (@Jou_Kaiser) November 21, 2026 La parlamentaria volvió a responderle , aclarando: \" De calvario nada, soy una persona muy en paz conmigo misma . Nadie le pide cortesía, no importa. Lo que dice no es cierto, y lo expliqué ayer en la misma radio donde fue a tirar la piedra y esconder la mano con cobardía sobre mí \". Por último, respecto de la discusión legislativa misma, la frenteamplista insistió en que  \"nadie empuja a ningún niño o niña a nada, eso no se lo acepto. Es usted el que quiere imponer una visión que no tiene respaldo en la ciencia\" . De calvario nada, soy una persona muy en paz conmigo misma. Nadie le pide cortesía, no importa. Lo que dice no es cierto, y lo expliqué latamente ayer en la misma radio donde usted fue a tirar la piedra y esconder la mano con cobardía sobre mi. Porque apenas lo interrumpen recula. Nadie empuja a ningún niño o niña a nada, eso no se lo acepto. Es usted el que quiere imponer una visión que NO tiene respaldo en la ciencia. Lo que estamos defendiendo es precisamente la posibilidad de tomar decisiones difíciles con criterio médico y familiar. No es imponer, pero usted si quiere prohibir programas que no existen y cerrar una discusión sin la voz de familias ni sociedades científicas. Chile entero conoce su falta de rigor y altura. Vea a su ex camarada el presidente Kast, otra cosa es con guitarra. Ser un polemista es una cosa, hacerse cargo es otra. Saludos! — Emilia Schneider (@emischneiderv) November 21, 2026",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/schneider-y-kaiser-protagonizaron-cruce-en-redes-por-identidad-de-genero/2026-11-21/185840.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261121/imag/foto_0000000220261121185840.jpg",
-            "published_raw": "Sat, 21 Nov 2026 18:58:40 -0300",
-            "published_at": "2026-11-21T18:58:40-0300",
+            "title": "Defensor en la AC: \"El ministro Rabat está convencido de que su interpretación fue correcta\"",
+            "description": "El ministro de Justicia, Fernando Rabat, respondió formalmente a la acusación constitucional presentada en su contra  por las polémicas rebajas de condena a pedófilos y criminales de lesa humanidad, y cuestionó que los parlamentarios busquen acusarlo políticamente por no compartir diferentes interpretaciones que -sostuvo- pueden existir en una materia jurídica. La respuesta fue redactada e ingresada el viernes al Congreso por el abogado que defenderá a Rabat ante el libelo: Juan Ignacio Piña,  que coincidió con él en el Caso Riggs y, además, representó con éxito a la exministra Carolina Tohá cuando enfrentaba en octubre de 2024 una acusación impulsada por Republicanos. En el escrito, de acuerdo con El Mercurio,  Piña niega que Rabat haya incurrido en infracciones constitucionales y cuestiona que se pretenda establecer su responsabilidad política por decisiones adoptadas en materias donde existen distintas interpretaciones jurídicas posibles. \"Una interpretación que el máximo tribunal ha compartido en numerosos fallos podrá ser discutida, e incluso desestimada en definitiva; pero no puede calificarse de insostenible bajo todo método de interpretación sin calificar de igual modo a los jueces que la adoptaron\", reza el documento. Por lo tanto, \"la cuestión que corresponde resolver no es si los acusadores (parlamentarios) comparten la interpretación jurídica adoptada por el Ministerio de Justicia y Derechos Humanos, sino si las actuaciones concretas que se imputan constituyen efectivamente una infracción de la Constitución Política o de las leyes que sea personalmente atribuible\", afirma el texto.  Sostuvo que no había expresa irretroactividad, pero sí jurisprudencia de la Suprema Según consigna el diario, en contestación al capítulo uno de la acusación, Piña defiende que, en 2022, cuando se modificó la ley que regula las rebajas de condena y se excluyó del beneficio a sentenciados por pedofilia, no se determinó si dicho cambio era retroactivo o no.  \"No existe una norma que ordene aplicar la nueva exclusión a delitos cometidos antes de su vigencia. Existe, en cambio, una garantía constitucional que se aplicó (por Rabat) y una controversia jurisprudencial que el propio libelo reconoce\", sostiene el escrito.  Respecto al capítulo dos de la AC, que acusa a Justicia de rebajar condenas a criminales de lesa humanidad, el texto de la defensa respondió que la legislación no establecía una exclusión expresa para estos delitos y que el ministro carecía de atribuciones para incorporar esos requisitos adicionales. El documento también destaca que los dos condenados cuyos decretos de rebaja fueron firmados por Rabat cumplieron cerca del 90% de sus respectivas penas privativas de libertad, por lo que \"no hubo impunidad y sí hubo una señal de rehabilitación que la ley ordena considerar\". Además, cuestionó que los parlamentarios acusadores invoquen el Estatuto de Roma como fundamento para atribuir responsabilidad constitucional al ministro, puesto que el propio libelo \"reconoce que no se aplica directamente a estos casos\". Por último, sobre el capítulo tres -que acusa a Rabat de dar datos errados, imprecisos y parciales cuando fue citado al Congreso-, la contestación sostiene que el desacuerdo se relaciona con el alcance de distintas disposiciones de la Ley 19.856 y no con la entrega deliberada de información falsa. \"Una conclusión jurídica extraída de una premisa normativa verdadera puede ser discutida; incluso puede ser errada, pero no es una mentira\", plantea el documento. [Lea también]  Los argumentos de la acusación constitucional al ministro Fernando Rabat Piña: Este no es un problema de si Rabat dio o no la pelea hasta el final En una entrevista a La Tercera, Piña señaló que ingresaron la contestación el viernes para cumplir con \"una instrucción bastante clara del ministro: nos pidió que intentemos resolver esto rápidamente, porque es muy difícil abocarse a las tareas propias del Ministerio teniendo un foco de desatención, entre otras cosas\". El defensor de Rabat calificó de \"satisfactorio\" que la acusación se vote el 30 de noviembre -como está previsto- y consideró como \"una posibilidad real\" invocar la cuestión previa, pero aclaró que eso no está definido todavía y que deben evaluarlo.  De todos modos, Piña sostuvo que \"este no es un problema de si (el titular de Justicia) no dio la pelea hasta el final (oponiéndose en tribunales a rebajar las condenas). De alguna manera, la Corte Suprema durante mucho tiempo dio señales bastante claras respecto de cómo se interpretaba esto\". \"El ministro tenía una jurisprudencia consistente de la Corte Suprema de la que tenía que hacerse cargo. Esa jurisprudencia acredita que su postura es una interpretación bastante plausible.  Y no solo eso: es una interpretación de la que el ministro está convencido -y de la que yo también lo estoy- de que es la correcta\", dijo el abogado.  También expresó su desacuerdo sobre los parlamentarios que acusan que hubo un \"giro\" desde febrero en el criterio de los fallos de la Corte Suprema que atendían casos de rebajas de condena: \"Ojalá dijeran zig-zag, sería más honesto (...). A pesar de que (Rabat) ya tenía unos fallos donde se empezó a resolver de una manera distinta y se empezaron a rechazar los amparos (ingresados por los condenados para disminuir su pena), él 'no acogió ese giro'. Lo que pasa es que en realidad aquí no asistimos a ningún 'giro'. Solo empezamos a ver un cambio en la integración de la Sala (Penal)\". Por lo tanto, \"aquí hay dos interpretaciones perfectamente conformes con el texto legal y con los principios invocados. Yo no tengo ninguna duda de que una es mejor en Derecho que la otra, pero incluso llegando a la conclusión de que fueran 50 y 50, ¿cómo vamos a transformar en una infracción constitucional grave optar por una de esas dos interpretaciones legítimas? Ese es el problema de base\", argumentó Piña. [Lea también] Criteria: Aprobación a Kast cayó a 18% y el 79% rechaza mantener a Rabat en Justicia \"Mañana (lunes) estarán\" entregados todos los decretos a la comisión investigadora El defensor también sostuvo que \"mañana (lunes) estarán\" entregados a la comisión investigadora todos los decretos firmados por el Gobierno que dictaron una rebaja de condena sin una orden judicial que lo obligase. \"Todavía estamos dentro de plazo y esto no se pierde de vista, pero la verdad es que la comisión nos pidió que estuvieran para mañana (lunes), y mañana estarán. Hemos tenido que revisar una inmensa cantidad de decretos, anonimizarlos ahí donde corresponde para resguardar los derechos de los ciudadanos (víctimas) que están (identificados)\", señaló. \"En principio me voy a hacer cargo yo. El ministro tiene una cartera muy exigente;  tengo el privilegio de conocerla muy bien y sé lo difícil que es ser titular de Justicia. Por lo mismo, tiene que abocarse -y esa fue una de sus instrucciones iniciales- a seguir siendo ministro a pesar de la muy evidente pérdida de foco que producen estas acusaciones\", sostuvo el abogado. Sin embargo, la oposición ha redoblado las críticas por la demora. El diputado, timonel del PPD y presidente de la comisión investigadora, Raúl Soto,  aseveró que dicha diligencia \"es necesaria para el trabajo adecuado de la instancia y para la transparencia, cosa que hasta la fecha no ha ocurrido\". En la misma línea, la diputada y presidenta del FA, Gael Yeomans, expresó: \"Lo primero que me sorprende es que sigan tratando de ocultar los decretos. La defensa que ha tenido el ministro Rabat ha sido simplemente por mantenerlo en el cargo, sin hacerse cargo de las acusaciones de por medio, ni de los argumentos jurídicos que sí tiene esta acusación constitucional en cada uno de sus capítulos\". \"El ministro Rabat debe salir de su cargo, debe asumir su responsabilidad política por haber liberado a violadores de niños. Por su parte, quienes rechacen la acusación constitucional también van a tener que darle explicaciones a la ciudadanía\", manifestó.",
+            "url": "https://www.cooperativa.cl/noticias/pais/judicial/defensor-en-la-ac-el-ministro-rabat-esta-convencido-de-que-su/2026-11-22/102512.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261122/imag/foto_0000001320261122102512.png",
+            "published_raw": "Sun, 22 Nov 2026 10:25:12 -0300",
+            "published_at": "2026-11-22T10:25:12-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 3,
+            "score_institutional": 11,
             "score_elections": 0,
             "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 1,
+            "score_conflict": 0,
+            "score_policy": 0,
             "score_ideology": 0,
-            "score_actor": 3,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 8,
+            "political_evidence": 16,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Conflictos y seguridad",
+            "secondary_topic": null,
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-014"
+            "cluster_id": "PML-EVENT-006"
           }
         ],
         "article_count": 1,
@@ -629,7 +622,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 57.3
+          "chile_utility": 61.2
         },
         "repeated_in_general_top5": false
       }
@@ -637,14 +630,20 @@
   },
   "topics": [
     {
+      "topic": "Conflictos y seguridad",
+      "event_count": 2,
+      "maximum_relevance": 58.1,
+      "leading_story": "El exilio que Colombia no cuenta después de diez años del acuerdo de paz"
+    },
+    {
       "topic": "Instituciones y gobierno",
-      "event_count": 23,
-      "maximum_relevance": 60.7,
-      "leading_story": "La derrota republicana abre la puerta a una nueva era en el Supremo de Estados Unidos"
+      "event_count": 25,
+      "maximum_relevance": 56.4,
+      "leading_story": "\"No los podemos dejar sin plata\": Presupuesto de Agricultura enfrenta semana definitoria en comisión mixta"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 3,
+      "event_count": 2,
       "maximum_relevance": 51.7,
       "leading_story": "Doce horas en campaña con Pedro Sánchez: “La última vez que la ultraderecha gobernó no había democracia”"
     },
@@ -659,12 +658,6 @@
       "event_count": 1,
       "maximum_relevance": 35.8,
       "leading_story": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 1,
-      "maximum_relevance": 35.4,
-      "leading_story": "\"Bandas carcelarias están transformando a Ecuador en un narcoestado\": 'WSJ'"
     }
   ],
   "changes_since_yesterday": {
@@ -672,7 +665,7 @@
     "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["France 24", "Cooperativa", "EL PAÍS"],
     "source_count": 3
   },
   "system": {
