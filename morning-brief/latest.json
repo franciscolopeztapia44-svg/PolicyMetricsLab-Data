@@ -3,10 +3,10 @@
     "product": "PML Morning Brief",
     "version": "0.2.4",
     "status": "validated",
-    "date": "2026-11-24",
-    "data_latest_timestamp": "2026-11-24T16:55:51-0300",
-    "data_age_hours": 2.2,
-    "generated_at": "2026-11-24T19:06:50-0300",
+    "date": "2026-11-25",
+    "data_latest_timestamp": "2026-11-25T01:26:22-0300",
+    "data_age_hours": 3.3,
+    "generated_at": "2026-11-25T04:43:00-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,22 +16,248 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 30 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 2 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 31 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 30,
+    "ranked_events": 31,
     "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 57.6,
-    "maximum_relevance": 62.5
+    "average_top5_relevance": 60.6,
+    "maximum_relevance": 67.1
   },
   "top_stories": [
     {
       "position": 1,
+      "cluster_id": "PML-EVENT-023",
+      "title": "Brasil retira definitivamente a su embajador en Buenos Aires tras un nuevo ataque en plena crisis bilateral",
+      "url": "https://elpais.com/america/2026-11-25/brasil-retira-definitivamente-a-su-embajador-de-buenos-aires-tras-un-nuevo-ataque-en-plena-crisis-bilateral.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Instituciones y gobierno",
+      "event_type": "CONFLICT_ESCALATION",
+      "geography": {
+        "group": "América Latina",
+        "country": "No identificado / América Latina"
+      },
+      "relevance": {
+        "score": 67.1,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 67.1
+      },
+      "selection": {
+        "reason": "PML 67.1",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-24T21:32:05-0300",
+      "last_seen": "2026-11-24T21:32:05-0300",
+      "entities": [
+        "brasil",
+        "lula",
+        "milei"
+      ],
+      "event_terms": [
+        "ataque",
+        "crisis"
+      ],
+      "analysis": {
+        "summary": "Lula decide no invitar al presidente Milei a su toma de posesión, en enero, según el digital brasileño UOL",
+        "why_it_matters": "Es relevante por sus implicancias para la seguridad, la acción estatal, la diplomacia y las relaciones internacionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
+        "watch_next": [
+          "Comunicados oficiales, decisiones diplomáticas y medidas anunciadas por los actores directamente involucrados.",
+          "Cambios verificables en la situación de seguridad o en la respuesta de organismos internacionales.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "Brasil retira definitivamente a su embajador en Buenos Aires tras un nuevo ataque en plena crisis bilateral",
+          "description": "Lula decide no invitar al presidente Milei a su toma de posesión, en enero, según el digital brasileño UOL",
+          "url": "https://elpais.com/america/2026-11-25/brasil-retira-definitivamente-a-su-embajador-de-buenos-aires-tras-un-nuevo-ataque-en-plena-crisis-bilateral.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/RS6OEBZLOFGRVB5JKUBD4GXWTE.jpg?auth=fdf4986e596bbe6d0c6f48c44169113734514a0390e60cfcf1295aac8d03fa4f",
+          "published_raw": "Wed, 25 Nov 2026 00:32:05 GMT",
+          "published_at": "2026-11-24T21:32:05-0300",
+          "country": "No identificado",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 1,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 3,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Relaciones internacionales",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-023"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-005",
+      "title": "Comisión mixta aprobó recursos para sitios de memoria y oficinas de expresidentes",
+      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/comision-mixta-aprobo-recursos-para-sitios-de-memoria-y-oficinas-de/2026-11-24/212107.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 62.5,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 65.5
+      },
+      "selection": {
+        "reason": "PML 62.5; aporta diversidad geográfica; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-24T21:21:07-0300",
+      "last_seen": "2026-11-24T21:21:07-0300",
+      "entities": "senado",
+      "event_terms": [],
+      "analysis": {
+        "summary": "La  comisión mixta  conformada para resolver las discrepancias entre la Cámara Baja y el Senado respecto al proyecto de ley de Presupuesto 2027 sesionó este martes y repuso las partidas de los ministerios del Interior, Agricultura, Mujer y Cultura - que habían quedado pendientes en las etapas previas - además de otras asignaciones específicas.",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Comisión mixta aprobó recursos para sitios de memoria y oficinas de expresidentes",
+          "description": "La  comisión mixta  conformada para resolver las discrepancias entre la Cámara Baja y el Senado respecto al proyecto de ley de Presupuesto 2027 sesionó este martes y repuso las partidas de los ministerios del Interior, Agricultura, Mujer y Cultura - que habían quedado pendientes en las etapas previas - además de otras asignaciones específicas. La instancia -conformada por cinco diputados y cinco senadores- aprobó recursos para los sitios de memoria y el financiamiento de los gastos de oficina de los expresidentes   de la República , que habían sido rechazados dos veces por parte del oficialismo en la Cámara Baja . Concluida esta labor, faltan sólo las votaciones finales, este miércoles -en sesión matinal en la Cámara, y en la tarde en el Senado-, para que quede despachado definitivamente el Presupuesto 2027, el primero elaborado por el Gobierno de José Antonio Kast . \" El proceso ha sido muy fluido, relativamente rápido \", comentó una vez terminado el trabajo de la comisión mixta el ministro de Hacienda, Jorge Quiroz . \"Los temas se fueron acotando, repusimos (los recursos para) los sitios de memoria , los expresidentes en lo que respecta a las asignaciones, a los gastos de representación y otros, que van a ser de ahora en adelante girados desde la Segpres y, por lo tanto, sujetos al control de la Contraloría General de la República\", destacó el jefe de la billetera fiscal. Participaron en la comisión los diputados Agustín Romero (Partido Republicano), Diego Schalper (RN), Flor Weisse (UDI), Jorge Brito (Frente Amplio) y Daniel Manouchehri (Partido Socialista); y los senadores Javier Macaya (UDI), Rodolfo Carter (independiente-Partido Republicano), María José Gatica (Renovación Nacional), Paulina Vodanovic y Daniella Cicardini (PS).",
+          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/comision-mixta-aprobo-recursos-para-sitios-de-memoria-y-oficinas-de/2026-11-24/212107.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261124/imag/foto_0000000220261124212107.jpg",
+          "published_raw": "Tue, 24 Nov 2026 21:21:07 -0300",
+          "published_at": "2026-11-24T21:21:07-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
+          "score_ideology": 1,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 13,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-005"
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "cluster_id": "PML-EVENT-017",
+      "title": "De la Espriella confirma que un atentado deja sin luz al sur de Colombia",
+      "url": "https://elpais.com/america-colombia/2026-11-25/de-la-espriella-confirma-que-un-atentado-deja-sin-luz-al-sur-de-colombia.html",
+      "representative_source": "EL PAÍS",
+      "topic": "Conflictos y seguridad",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "América Latina",
+        "country": "Colombia / América Latina"
+      },
+      "relevance": {
+        "score": 57.3,
+        "level": "MEDIA",
+        "editorial_utility": 64.3
+      },
+      "selection": {
+        "reason": "PML 57.3; fallback editorial controlado; aporta diversidad temática; nuevo tipo de evento",
+        "tier": "FALLBACK",
+        "strict_eligible": false,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "EL PAÍS"
+      },
+      "first_seen": "2026-11-25T01:26:22-0300",
+      "last_seen": "2026-11-25T01:26:22-0300",
+      "entities": "colombia",
+      "event_terms": [],
+      "analysis": {
+        "summary": "El apagón afectó a municipios de cinco departamentos y el presidente alerta que es una retaliación de los grupos armados a su política de seguridad",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Colombia / América Latina.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "elpais_america",
+          "source": "EL PAÍS",
+          "title": "De la Espriella confirma que un atentado deja sin luz al sur de Colombia",
+          "description": "El apagón afectó a municipios de cinco departamentos y el presidente alerta que es una retaliación de los grupos armados a su política de seguridad",
+          "url": "https://elpais.com/america-colombia/2026-11-25/de-la-espriella-confirma-que-un-atentado-deja-sin-luz-al-sur-de-colombia.html",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/7V7HKHVJ5JB6JCWEGEGLRZMKRE.jpg?auth=1838d295176589ddb5e774ac0dd08759674f22a7a002a864d71d4535bd9015e6",
+          "published_raw": "Wed, 25 Nov 2026 04:26:22 GMT",
+          "published_at": "2026-11-25T01:26:22-0300",
+          "country": "Colombia",
+          "region": "América Latina",
+          "language": "es",
+          "score_institutional": 1,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 2,
+          "score_policy": 0,
+          "score_ideology": 0,
+          "score_actor": 1,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 4,
+          "primary_topic": "Conflictos y seguridad",
+          "secondary_topic": "Instituciones y gobierno",
+          "decision": "ACCEPT",
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-017"
+        }
+      ]
+    },
+    {
+      "position": 4,
       "cluster_id": "PML-EVENT-014",
       "title": "Exministro Gajardo por acusación constitucional: Rabat infringió la ley de rebaja de condenas",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/exministro-gajardo-por-acusacion-constitucional-rabat-infringio-la-ley/2026-11-24/083730.html",
@@ -43,12 +269,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 62.5,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 62.5
+        "score": 60.5,
+        "level": "MEDIA",
+        "editorial_utility": 55.5
       },
       "selection": {
-        "reason": "PML 62.5",
+        "reason": "PML 60.5; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -104,24 +330,24 @@
       ]
     },
     {
-      "position": 2,
-      "cluster_id": "PML-EVENT-017",
-      "title": "Colombia: esto se sabe de la toma de rehenes en un supermercado de la turística ciudad de Cartagena",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261124-colombia-esto-se-sabe-de-la-toma-de-rehenes-en-un-supermercado-de-la-tur%C3%ADstica-ciudad-de-cartagena",
+      "position": 5,
+      "cluster_id": "PML-EVENT-024",
+      "title": "Los afectados del Ueno Bank en Paraguay se unen para conseguir su dinero de vuelta",
+      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261125-los-afectados-del-ueno-bank-en-paraguay-se-unen-para-conseguir-su-dinero-de-vuelta",
       "representative_source": "France 24",
-      "topic": "Conflictos y seguridad",
+      "topic": "Instituciones y gobierno",
       "event_type": "GENERAL_POLITICAL_EVENT",
       "geography": {
         "group": "América Latina",
-        "country": "Colombia / América Latina"
+        "country": "Paraguay / América Latina"
       },
       "relevance": {
-        "score": 57.3,
+        "score": 55.8,
         "level": "MEDIA",
-        "editorial_utility": 69.3
+        "editorial_utility": 48.8
       },
       "selection": {
-        "reason": "PML 57.3; fallback editorial controlado; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 55.8; fallback editorial controlado; diversidad relajada para completar el brief",
         "tier": "FALLBACK",
         "strict_eligible": false,
         "selector": "PML Top Stories Selector v0.3"
@@ -131,13 +357,13 @@
         "source_count": 1,
         "sources": "France 24"
       },
-      "first_seen": "2026-11-24T16:05:02-0300",
-      "last_seen": "2026-11-24T16:05:02-0300",
-      "entities": "colombia",
+      "first_seen": "2026-11-24T21:26:31-0300",
+      "last_seen": "2026-11-24T21:26:31-0300",
+      "entities": [],
       "event_terms": [],
       "analysis": {
-        "summary": "Veinticinco personas siguen como rehenes en un supermercado de la ciudad colombiana de Cartagena, aseguró este martes 23 de noviembre el presidente Abelardo de La Espriella. Fuerzas militares y policiales están desplegadas en la zona. Inicialmente 30 personas fueron retenidas, pero cinco mujeres mayores fueron ya liberadas por los hombres armados que irrumpieron en el establecimiento.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Colombia / América Latina.",
+        "summary": "Tres semanas después de la intervención de Ueno Bank, que llevó a la caída del presidente Santiago Peña, el Banco Central de Paraguay asegura que el 97% de los depositantes ya recibió su dinero de vuelta. Pero el principal grupo de afectados por el Ueno Bank no concuerda con la visión optimista. “No es real. Están inflando los números.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Paraguay / América Latina.",
         "watch_next": [
           "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
           "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
@@ -149,255 +375,30 @@
         {
           "source_id": "france24_latam",
           "source": "France 24",
-          "title": "Colombia: esto se sabe de la toma de rehenes en un supermercado de la turística ciudad de Cartagena",
-          "description": "Veinticinco personas siguen como rehenes en un supermercado de la ciudad colombiana de Cartagena, aseguró este martes 23 de noviembre el presidente Abelardo de La Espriella. Fuerzas militares y policiales están desplegadas en la zona. Inicialmente 30 personas fueron retenidas, pero cinco mujeres mayores fueron ya liberadas por los hombres armados que irrumpieron en el establecimiento.",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261124-colombia-esto-se-sabe-de-la-toma-de-rehenes-en-un-supermercado-de-la-tur%C3%ADstica-ciudad-de-cartagena",
-          "image_url": "https://s.france24.com/media/display/2ad1b1ca-e838-11f1-b80b-95e072ff0a91/w:1024/p:16x9/27b428fa1abdb6879464db235a05db2558fbe06e.jpg",
-          "published_raw": "Tue, 24 Nov 2026 19:05:02 GMT",
-          "published_at": "2026-11-24T16:05:02-0300",
-          "country": "Colombia",
+          "title": "Los afectados del Ueno Bank en Paraguay se unen para conseguir su dinero de vuelta",
+          "description": "Tres semanas después de la intervención de Ueno Bank, que llevó a la caída del presidente Santiago Peña, el Banco Central de Paraguay asegura que el 97% de los depositantes ya recibió su dinero de vuelta. Pero el principal grupo de afectados por el Ueno Bank no concuerda con la visión optimista. “No es real. Están inflando los números. Solo se les devolvió a la gente que tenía pocos ahorros, entre 300.000 y 400.000 guaraníes (de 47 a 63 dólares), pero no a la gente que tenía ahorros mayores\".",
+          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261125-los-afectados-del-ueno-bank-en-paraguay-se-unen-para-conseguir-su-dinero-de-vuelta",
+          "image_url": "https://s.france24.com/media/display/e28daaf0-e85e-11f1-af5a-29d00e23de9a/w:1024/p:16x9/b9fa170b2e335c93d8b4b1c39fca0665866fc827w.jpg",
+          "published_raw": "Wed, 25 Nov 2026 00:26:31 GMT",
+          "published_at": "2026-11-24T21:26:31-0300",
+          "country": "Paraguay",
           "region": "América Latina",
           "language": "es",
           "score_institutional": 1,
           "score_elections": 0,
           "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
+          "score_conflict": 0,
+          "score_policy": 1,
           "score_ideology": 0,
           "score_actor": 1,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-017"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-024",
-      "title": "El Gobierno de Bolivia y Estados Unidos denuncian que la Justicia boliviana es una red de narcotráfico",
-      "url": "https://elpais.com/america/2026-11-24/el-gobierno-de-bolivia-y-estados-unidos-denuncian-que-la-justicia-boliviana-es-una-red-de-narcotrafico.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "No identificado / América Latina"
-      },
-      "relevance": {
-        "score": 57.5,
-        "level": "MEDIA",
-        "editorial_utility": 52.5
-      },
-      "selection": {
-        "reason": "PML 57.5; fallback editorial controlado",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-24T06:30:00-0300",
-      "last_seen": "2026-11-24T06:30:00-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "Al menos 10 jueces y fiscales están detenidos preventivamente en la cárcel desde que Washington publicó dos listas de ciudadanos a los que les removía la visa ",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "El Gobierno de Bolivia y Estados Unidos denuncian que la Justicia boliviana es una red de narcotráfico",
-          "description": "Al menos 10 jueces y fiscales están detenidos preventivamente en la cárcel desde que Washington publicó dos listas de ciudadanos a los que les removía la visa ",
-          "url": "https://elpais.com/america/2026-11-24/el-gobierno-de-bolivia-y-estados-unidos-denuncian-que-la-justicia-boliviana-es-una-red-de-narcotrafico.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/56YFTSYYEBCFDH2APXQRZTONDI.jpg?auth=ca9ef4601595234d495e0cb9e1a276fbdb43df2d843981334d4968f7c9d3ff27",
-          "published_raw": "Tue, 24 Nov 2026 09:30:00 GMT",
-          "published_at": "2026-11-24T06:30:00-0300",
-          "country": "No identificado",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 1,
-          "score_conflict": 1,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 0,
-          "score_noise": 0,
-          "score_accident": 0,
           "political_evidence": 3,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Relaciones internacionales",
+          "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
           "cluster_id": "PML-EVENT-024"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-001",
-      "title": "Diputado Leiva fustigó a Arenas por sus dichos contra el PS: \"Es el vocero del Gobierno y no un bot\"",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/diputado-leiva-fustigo-a-arenas-por-sus-dichos-contra-el-ps-es-el/2026-11-24/113710.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 55.5,
-        "level": "MEDIA",
-        "editorial_utility": 49.5
-      },
-      "selection": {
-        "reason": "PML 55.5; fallback editorial controlado; diversidad relajada para completar el brief",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-24T11:37:10-0300",
-      "last_seen": "2026-11-24T11:37:10-0300",
-      "entities": [
-        "congreso",
-        "chile"
-      ],
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "El diputado Raúl Leiva , jefe de bancada del Partido Socialista, respondió este martes en El Primer Café de Cooperativa al subsecretario Gonzalo Arenas , quien acusó al PS de ejercer una oposición intransigente y habló de una \"decadencia\" de la colectividad. \"Creo que un gobierno que el propio Presidente señala que tiene que tener un ánimo dialogante no puede partir de la descalificación permanente.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Diputado Leiva fustigó a Arenas por sus dichos contra el PS: \"Es el vocero del Gobierno y no un bot\"",
-          "description": "El diputado Raúl Leiva , jefe de bancada del Partido Socialista, respondió este martes en El Primer Café de Cooperativa al subsecretario Gonzalo Arenas , quien acusó al PS de ejercer una oposición intransigente y habló de una \"decadencia\" de la colectividad. \"Creo que un gobierno que el propio Presidente señala que tiene que tener un ánimo dialogante no puede partir de la descalificación permanente. El subsecretario Arenas es el vocero del gobierno y no un bot de redes sociales \", afirmó Leiva. El diputado calificó los dichos de Arenas como \"una falta de respeto\" y recordó que el subsecretario ya había pedido disculpas por sus dichos sobre el Partido de la Gente . \"Yo también puedo tener muchas diferencias con el Partido Comunista, tengo muchas diferencias con el Partido Republicano, pero nunca les he tratado ni de decadentes ni los descalifico ni los cancelo. Menos debe hacerlo un vocero de Gobierno, ese no es su rol \", sostuvo. Caso firmas: \"Aquí hay un problema muy grave\" Leiva también abordó el retiro de los permisos constitucionales de los senadores Ximena Órdenes (independiente-PPD) y Fidel Espinoza (PS), quienes señalaron que la gestión se hizo sin su conocimiento mientras acompañaban al Presidente José Antonio Kast en su gira por Asia. Tras el reclamo de Órdenes, la Fiscalía Regional de Valparaíso abrió de oficio una investigación por la eventual falsificación de su firma . \"Comparto de que aquí hay un problema muy grave dentro del Comité Socialista, PPD y Partido Liberal \", dijo el diputado, quien distinguió entre el daño a la reputación del comité que encabeza el senador Juan Luis Castro y las eventuales responsabilidades penales que investiga el Ministerio Público. \"Aquí no hay nadie que esté sobre la ley; ningún ciudadano, ni tampoco un senador ni un Presidente de la República pueden abstraerse de la labor de la justicia\", afirmó. Guzmán respaldó a Arenas y Carmona cuestionó sus dichos El diputado Jorge Guzmán , vicepresidente de Evópoli, respaldó al subsecretario. Citó como ejemplo la votación del proyecto de sala cuna universal en la Cámara . Según Guzmán, el PPD llegó a acuerdos con el Ejecutivo mientras dos diputados socialistas votaron en contra de la idea de legislar. \"Yo veo al Partido Socialista no solo bailando al ritmo del Frente Amplio y del Partido Comunista, sino que también los veo medio secuestrados y medio con el síndrome de Estocolmo , medio enamorados de esa forma de hacer política\", dijo Guzmán. El presidente del PC, Lautaro Carmona , reprochó a Arenas el tono de sus declaraciones. \"Le falta más temple para saber en qué momento hacer tales o cuales afirmaciones\", sostuvo. Desde el Partido Republicano, Ignacio Dulger extendió la crítica al conjunto del sector. \"Yo creo que es una decadencia de la oposición\", afirmó. Bancada de diputados PS arremete contra Gonzalo Arenas A través de una declaración pública, la bancada de diputadas y diputados del Partido Socialista arremetió contra las declaraciones de Arenas, asegurando que mantendrán su labor fiscalizadora ante la actual administración y descartando haber clausurado el diálogo en el Congreso . \" Tenemos un mandato constitucional para fiscalizar y legislar . Pero , además , frente a un Gobierno empobrecedor que beneficia a los más ricos y libera pederastas hacer nuestro trabajo es un imperativo moral . Las consecuencias de los 8 meses de administración del actual Gobierno todo el país lo sufre: una recesión técnica , mayor cesantía , mayor costo de la vida y, en general, un desastre en todos los índices económicos \", arremetieron los parlamentarios PS. \"Además, el ministro de Hacienda ha intentado realizar de forma constante recortes presupuestarios en áreas sociales sensibles. Si el Gobierno pretende que ante esta realidad seamos una oposición dócil o indiferente están muy equivocados \", se añadió en el escrito. En la misma línea, defendieron el uso de herramientas constitucionales frente a las polémicas que han sacudido al Ministerio de Justicia, dando cuenta que \" si el Gobierno pretende que no utilicemos dichos mecanismos constitucionales para defender a las víctimas, nuevamente, están muy equivocados \". Asimismo, los diputados socialistas descartaron un bloqueo legislativo y acusaron que el portavoz de Palacio desconoce el trámite real de las leyes en el Parlamento , citando mociones propias que han recibido urgencias por parte del Gobierno. Finalmente, hicieron \"un llamado al vocero para que recapacite respecto a su rol . Lleva un mes en el cargo y ha generado diversas polémicas y problemas al propio Ejecutivo . Su ignorancia en temas internacionales demostrada en sus declaraciones sobre el buque Danstar, el ninguneo realizado al Partido De La Gente, o cuando calificó como 'procedimiento impecable' la rebaja de condenas realizadas por el Ministerio de Justicia y luego el Presidente de la República tuvo que contradecirlo diciendo que esto fue un error\". \"Comprendemos que el vocero no tenga resultados positivos que comunicar al país y prefiera centrarse en nuestro partido. La bancada Socialista seguirá ejerciendo con responsabilidad su labor legislativa y fiscalizadora ante un Gobierno que le hace mal Chile\", cerró el comunicado.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/diputado-leiva-fustigo-a-arenas-por-sus-dichos-contra-el-ps-es-el/2026-11-24/113710.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261124/imag/foto_0000000220261124113710.jpg",
-          "published_raw": "Tue, 24 Nov 2026 11:37:10 -0300",
-          "published_at": "2026-11-24T11:37:10-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 10,
-          "score_elections": 1,
-          "score_international": 1,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 3,
-          "score_actor": 6,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 21,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Ideología y competencia política",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-007",
-      "title": "Bassa admitió que ligar rebaja de condenas con red de pedofilia internacional fue un disparate",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/bassa-admitio-que-ligar-rebaja-de-condenas-con-red-de-pedofilia/2026-11-24/164748.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 55.3,
-        "level": "MEDIA",
-        "editorial_utility": 46.3
-      },
-      "selection": {
-        "reason": "PML 55.3; fallback editorial controlado; diversidad relajada para completar el brief",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-24T16:47:48-0300",
-      "last_seen": "2026-11-24T16:47:48-0300",
-      "entities": [
-        "milei",
-        "chile"
-      ],
-      "event_terms": "oposicion",
-      "analysis": {
-        "summary": "El diputado frenteamplista Jaime Bassa reculó en sus dichos sobre una presunta \"red de pedofilia internacional\" vinculada a la cuestionada rebaja de condenas a violadores de menores de edad por parte del Ministerio de Justicia , y afirmó que se \"explicó mal\" . \"Ésta es la forma en la que operan los amigos de Paul Schäfer, los amigos de Epstein, los amigos de Milei. Esto no es un error .",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Bassa admitió que ligar rebaja de condenas con red de pedofilia internacional fue un disparate",
-          "description": "El diputado frenteamplista Jaime Bassa reculó en sus dichos sobre una presunta \"red de pedofilia internacional\" vinculada a la cuestionada rebaja de condenas a violadores de menores de edad por parte del Ministerio de Justicia , y afirmó que se \"explicó mal\" . \"Ésta es la forma en la que operan los amigos de Paul Schäfer, los amigos de Epstein, los amigos de Milei. Esto no es un error . Esta es una manifestación más de una red de pedofilia internacional \", señaló el exvicepresidente de la Convención Constitucional en una intervención en la Cámara Baja, el martes 27 de noviembre. En el marco de una entrevista concedida al programa \"Última Mirada\" de CNN Chile , el parlamentario y exconvencional constituyente enfrentó ahora las recriminaciones y advertencias de querellas generadas luego de dirigir sus cuestionamientos contra el ministro de Justicia , Fernando Rabat . \" Aquí no hay una red internacional de pedofilia , pero lo que sí hay es que hay una cultura , principalmente de ciertos sectores de la derecha , de relativizar , de ningunear el abuso sexual , y al frente tienes una historia popular plebeya que se vincula con la hacienda: violencia sexual de los patrones sobre los inquilinos, hasta el día de hoy\", puntualizó Bassa. El parlamentario reconoció el impacto de sus palabras y señaló: \"Puedo asumir que me expliqué mal\". (FOTO: ATON) Durante la conversación, el legislador reconoció  que sus términos provocaron una fuerte controversia en el debate público :   \"Cuando uno de nosotros dice algo disparatado, como decir, por ejemplo, que esto es una manifestación de cómo operan las redes de pedofilia internacional , que fue una cosa que yo dije , que es un escándalo brutal , la reacción intrapartidaria es muy dura : 'Cómo se te ocurre hacer una acusación como esa'\". \" Puedo asumir que me expliqué mal , pero se me interpretó muy mal : 'N o tienes pruebas , es una acusación muy dura y yo creo que no estaba acusando a nadie \", enfatizó Bassa. Fractura entre la ciudadanía y la definición institucional Pese a asumir que su formulación no fue la adecuada, el diputado defendió el fondo de la molestia ciudadana frente a estas materias , contraponiendo la respuesta del mundo político formal con el sentir de la opinión pública. En esa línea, el frenteamplista justificó su intervención indicando que \" lo que entiende la gente afuera es muy claro y evidente : por fin alguien le pone los puntos sobre las íes y dice las cosas como son \". La controversia se originó tras sus críticas contra el ministro de Justicia, Fernando Rabat, en el debate por la rebaja de condenas a violadores de menores. (FOTO: ATON) Bassa explicó que su postura \"no es la definición jurídico-institucional a la cual la clase política está acostumbrada a operar, sino que es cómo la ciudadanía ha estado históricamente viviendo las relaciones de poder desde el otro extremo del pode r, desde el extremo de la persona que sufre abuso, desde el extremo de la persona que demanda una vida digna\". Finalmente, descartó que exista una red internacional articulada en este caso puntual, aunque redirigió sus dardos políticos hacia la oposición por su tratamiento histórico frente a los delitos sexuales.",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/bassa-admitio-que-ligar-rebaja-de-condenas-con-red-de-pedofilia/2026-11-24/164748.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261124/imag/foto_0000001520261124164748.png",
-          "published_raw": "Tue, 24 Nov 2026 16:47:48 -0300",
-          "published_at": "2026-11-24T16:47:48-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 5,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 1,
-          "score_actor": 3,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 11,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Conflictos y seguridad",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-007"
         }
       ]
     }
@@ -410,7 +411,151 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-013",
+        "cluster_id": "PML-EVENT-006",
+        "title": "Senado postergó para este miércoles la votación del proyecto de Sala Cuna Universal",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senado-postergo-para-este-miercoles-la-votacion-del-proyecto-de-sala/2026-11-24/191754.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 53,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 54,
+            "freshness": 88,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 28
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-24T19:17:54-0300",
+        "last_seen": "2026-11-24T19:17:54-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Senado postergó para este miércoles la votación del proyecto de Sala Cuna Universal",
+            "description": "La Sala del Senado postergó para mañana, miércoles, la votación del proyecto de Sala Cuna Universal . El debate comenzó durante la jornada del martes, pero fue aplazada luego de que la senadora Yasna Provoste (Democracia Cristiana) solicitara una segunda discusión . La parlamentaria defendió la decisión y descartó que responda a una estrategia para retrasar la tramitación, asegurando que el objetivo es \"resguardar la calidad de la educación de nuestros niños y niñas\" , según reprodujo Emol .  La exministra de Educación manifestó su preocupación por los estándares de los establecimientos que podrán recibir recursos del sistema, advirtiendo que el proyecto no garantizaría que los fondos lleguen exclusivamente a instituciones con reconocimiento oficial o autorización de funcionamiento. \"Nosotros creemos que es importante que esta iniciativa resguarde la calidad\", enfatizó, junto con llamar al Gobierno a aprovechar las horas previas a la votación para alcanzar un acuerdo más amplio en el Senado. Provoste también cuestionó la fórmula de financiamiento , aunque valoró algunas modificaciones incorporadas durante el segundo trámite en la Cámara de Diputadas y Diputados, particularmente las limitaciones al copago y la creación de un fondo solidario dirigido al 60% de menores ingresos . \" Yo tengo una opinión contraria al cómo se financia , pero, más allá de eso, uno no puede sino valorar estas mejoras que ha tenido el proyecto en su tramitación\", señaló. La iniciativa elimina el requisito que actualmente obliga a las empresas con 20 o más trabajadoras a proporcionar sala cuna y crea un fondo solidario financiado mediante una cotización previsional de 0,30%, a cargo de empleadores y trabajadores independientes, según corresponda. Durante el debate legislativo también surgieron cuestionamientos por el impacto que la fórmula de financiamiento podría tener en el Seguro de Cesantía y las cotizaciones previsionales . Entre los argumentos a favor, algunos senadores sostuvieron que \"técnicamente se nos ha demostrado que esta medida no afecta las pensiones\". El proyecto contempla una implementación gradual: al primer año incorporará a trabajadoras regidas por el Código del Trabajo, incluidas las de casa particular; al tercer año sumará nuevos grupos de trabajadores, y al cuarto año alcanzará a todos los dependientes, independientes y funcionarios del sector público. Rau: \"Me voy a morir de vergüenza por decirles a las mujeres de nuestro país: 'Sigan esperando'\" Desde el Gobierno, el ministro del Trabajo, Tomás Rau , manifestó su molestia por la nueva postergación de la votación del proyecto de Sala Cuna Universal. \" Seguir dilatando esta discusión creo que no contribuye y, más bien, perjudica . Ayer recibimos a la senadora; yo nunca voy a negar una reunión de trabajo, incluso a alguien que haga maniobras dilatorias de un proyecto tan importante y tan necesario para Chile que sabemos que lo vamos a aprobar\", sostuvo el secretario de Estado. En esa línea, Rau expresó su preocupación por un eventual nuevo retraso en la aprobación de la iniciativa: \"Si eso no ocurre (su votación), me voy a morir de vergüenza por decirles a las mujeres de nuestro país: 'Sigan esperando '\".",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senado-postergo-para-este-miercoles-la-votacion-del-proyecto-de-sala/2026-11-24/191754.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261124/imag/foto_0000000120261124191754.jpg",
+            "published_raw": "Tue, 24 Nov 2026 19:17:54 -0300",
+            "published_at": "2026-11-24T19:17:54-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 5,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 2,
+            "score_ideology": 0,
+            "score_actor": 3,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 11,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-006"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 74
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-001",
+        "title": "Diputado Leiva fustigó a Arenas por sus dichos contra el PS: \"Es el vocero del Gobierno y no un bot\"",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/diputado-leiva-fustigo-a-arenas-por-sus-dichos-contra-el-ps-es-el/2026-11-24/113710.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 51.7,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 55,
+            "freshness": 80,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 32
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-24T11:37:10-0300",
+        "last_seen": "2026-11-24T11:37:10-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Diputado Leiva fustigó a Arenas por sus dichos contra el PS: \"Es el vocero del Gobierno y no un bot\"",
+            "description": "El diputado Raúl Leiva , jefe de bancada del Partido Socialista, respondió este martes en El Primer Café de Cooperativa al subsecretario Gonzalo Arenas , quien acusó al PS de ejercer una oposición intransigente y habló de una \"decadencia\" de la colectividad. \"Creo que un gobierno que el propio Presidente señala que tiene que tener un ánimo dialogante no puede partir de la descalificación permanente. El subsecretario Arenas es el vocero del gobierno y no un bot de redes sociales \", afirmó Leiva. El diputado calificó los dichos de Arenas como \"una falta de respeto\" y recordó que el subsecretario ya había pedido disculpas por sus dichos sobre el Partido de la Gente . \"Yo también puedo tener muchas diferencias con el Partido Comunista, tengo muchas diferencias con el Partido Republicano, pero nunca les he tratado ni de decadentes ni los descalifico ni los cancelo. Menos debe hacerlo un vocero de Gobierno, ese no es su rol \", sostuvo. Caso firmas: \"Aquí hay un problema muy grave\" Leiva también abordó el retiro de los permisos constitucionales de los senadores Ximena Órdenes (independiente-PPD) y Fidel Espinoza (PS), quienes señalaron que la gestión se hizo sin su conocimiento mientras acompañaban al Presidente José Antonio Kast en su gira por Asia. Tras el reclamo de Órdenes, la Fiscalía Regional de Valparaíso abrió de oficio una investigación por la eventual falsificación de su firma . \"Comparto de que aquí hay un problema muy grave dentro del Comité Socialista, PPD y Partido Liberal \", dijo el diputado, quien distinguió entre el daño a la reputación del comité que encabeza el senador Juan Luis Castro y las eventuales responsabilidades penales que investiga el Ministerio Público. \"Aquí no hay nadie que esté sobre la ley; ningún ciudadano, ni tampoco un senador ni un Presidente de la República pueden abstraerse de la labor de la justicia\", afirmó. Guzmán respaldó a Arenas y Carmona cuestionó sus dichos El diputado Jorge Guzmán , vicepresidente de Evópoli, respaldó al subsecretario. Citó como ejemplo la votación del proyecto de sala cuna universal en la Cámara . Según Guzmán, el PPD llegó a acuerdos con el Ejecutivo mientras dos diputados socialistas votaron en contra de la idea de legislar. \"Yo veo al Partido Socialista no solo bailando al ritmo del Frente Amplio y del Partido Comunista, sino que también los veo medio secuestrados y medio con el síndrome de Estocolmo , medio enamorados de esa forma de hacer política\", dijo Guzmán. El presidente del PC, Lautaro Carmona , reprochó a Arenas el tono de sus declaraciones. \"Le falta más temple para saber en qué momento hacer tales o cuales afirmaciones\", sostuvo. Desde el Partido Republicano, Ignacio Dulger extendió la crítica al conjunto del sector. \"Yo creo que es una decadencia de la oposición\", afirmó. Bancada de diputados PS arremete contra Gonzalo Arenas A través de una declaración pública, la bancada de diputadas y diputados del Partido Socialista arremetió contra las declaraciones de Arenas, asegurando que mantendrán su labor fiscalizadora ante la actual administración y descartando haber clausurado el diálogo en el Congreso . \" Tenemos un mandato constitucional para fiscalizar y legislar . Pero , además , frente a un Gobierno empobrecedor que beneficia a los más ricos y libera pederastas hacer nuestro trabajo es un imperativo moral . Las consecuencias de los 8 meses de administración del actual Gobierno todo el país lo sufre: una recesión técnica , mayor cesantía , mayor costo de la vida y, en general, un desastre en todos los índices económicos \", arremetieron los parlamentarios PS. \"Además, el ministro de Hacienda ha intentado realizar de forma constante recortes presupuestarios en áreas sociales sensibles. Si el Gobierno pretende que ante esta realidad seamos una oposición dócil o indiferente están muy equivocados \", se añadió en el escrito. En la misma línea, defendieron el uso de herramientas constitucionales frente a las polémicas que han sacudido al Ministerio de Justicia, dando cuenta que \" si el Gobierno pretende que no utilicemos dichos mecanismos constitucionales para defender a las víctimas, nuevamente, están muy equivocados \". Asimismo, los diputados socialistas descartaron un bloqueo legislativo y acusaron que el portavoz de Palacio desconoce el trámite real de las leyes en el Parlamento , citando mociones propias que han recibido urgencias por parte del Gobierno. Finalmente, hicieron \"un llamado al vocero para que recapacite respecto a su rol . Lleva un mes en el cargo y ha generado diversas polémicas y problemas al propio Ejecutivo . Su ignorancia en temas internacionales demostrada en sus declaraciones sobre el buque Danstar, el ninguneo realizado al Partido De La Gente, o cuando calificó como 'procedimiento impecable' la rebaja de condenas realizadas por el Ministerio de Justicia y luego el Presidente de la República tuvo que contradecirlo diciendo que esto fue un error\". \"Comprendemos que el vocero no tenga resultados positivos que comunicar al país y prefiera centrarse en nuestro partido. La bancada Socialista seguirá ejerciendo con responsabilidad su labor legislativa y fiscalizadora ante un Gobierno que le hace mal Chile\", cerró el comunicado.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/diputado-leiva-fustigo-a-arenas-por-sus-dichos-contra-el-ps-es-el/2026-11-24/113710.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261124/imag/foto_0000000220261124113710.jpg",
+            "published_raw": "Tue, 24 Nov 2026 11:37:10 -0300",
+            "published_at": "2026-11-24T11:37:10-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 10,
+            "score_elections": 1,
+            "score_international": 1,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 3,
+            "score_actor": 6,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 21,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Ideología y competencia política",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-001"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 72.7
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
+        "cluster_id": "PML-EVENT-011",
         "title": "Caso Firmas: Senador Castro pidió unidad en la oposición y reconoció haber cometido un error",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -421,11 +566,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 53.2,
-          "level": "MEDIA",
+          "score": 51.2,
+          "level": "BAJA",
           "components": {
             "political_impact": 50,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 42
@@ -465,7 +610,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-013"
+            "cluster_id": "PML-EVENT-011"
           }
         ],
         "article_count": 1,
@@ -476,151 +621,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 74.2
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-006",
-        "title": "Presidente Kast pone el empleo en el centro de la cuenta regresiva al 11 de marzo",
-        "topic": "Economía y políticas públicas",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/presidente-kast-pone-el-empleo-en-el-centro-de-la-cuenta-regresiva-al-11/2026-11-23/123348.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 49,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 55,
-            "freshness": 62,
-            "source_count": 30,
-            "geographic_scope": 55,
-            "continuity": 28
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-23T12:33:48-0300",
-        "last_seen": "2026-11-23T12:33:48-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Presidente Kast pone el empleo en el centro de la cuenta regresiva al 11 de marzo",
-            "description": "El Presidente José Antonio Kast retomó este lunes su agenda en La Moneda tras regresar de su gira internacional por Vietnam, China y Japón , y como primera actividad encabezó un consejo de Gabinete para revisar junto a sus ministros las prioridades de los próximos meses . Al término de la reunión, el Mandatario entregó una declaración acompañado por casi todo su equipo ministerial. Las únicas ausencias fueron las de la ministra de Salud, May Chomalí, y el ministro del Trabajo, Tomás Rau, quienes informaron que tenían otras reuniones programadas. 🇨🇱 El Presidente de la República, José Antonio Kast, encabezó un nuevo Consejo de Gabinete en el Palacio de La Moneda, instancia de coordinación y trabajo junto a los ministros para avanzar en las prioridades del país. https://t.co/24CiOq1qqb — Gobierno de Chile (@GobiernodeChile) November 23, 2026 Cuenta regresiva de 100 días Durante su intervención, el jefe de Estado anunció que a partir del próximo lunes comenzará una cuenta regresiva de 100 días hasta el 11 de marzo , fecha en que se cumplirá el primer año de su Administración. Según detalló, durante ese período el Gobierno intensificará su trabajo y presentará un balance de los avances alcanzados: \"Son 100 días donde vamos a trabajar con aún mayor intensidad en esta emergencia que aún sigue latente en Chile, que es el tema de empleo . Vamos a ir enfocando todas nuestras políticas, como lo hemos hecho hasta ahora, en ese tema\". , enfatizó. \"Estos 100 días solo vamos a redoblar nuestros esfuerzos.  Primero, en materia de trabajo, vamos a ir acelerando aún más la ejecución de obras que señalamos cuando planteamos el Chile Despega . Vamos a poner más fuerza en lo que es el Modo Empleo, que también está funcionando\", subrayó. El Mandatario precisó que, aunque el foco de los próximos 100 días estará puesto principalmente en el empleo, su Administración no abandonará las medidas en seguridad, salud, educación, vivienda y alivio al costo de la vida . \"No nos vamos a desenfocar por ruidos políticos\" Las palabras del Presidente se produjeron luego de que la última encuesta Criteria mostrara un aumento de cinco puntos en su aprobación , llegando al 23% , tras haber registrado su nivel más bajo la semana pasada. \"¿Miramos las encuestas? Obviamente miramos las encuestas. ¿Definen nuestro actuar? No lo han definido jamás. Porque hay puntos de suma importancia que tenemos que seguir poniendo sobre la mesa\", aseveró. En esa línea, Kast apuntó que \"hemos ido mostrando que el trabajo bien hecho trae efectos positivos para nuestra nación. ¿Nos queda todavía el tema del desempleo? Sí. ¿Hay ruidos políticos en el ambiente? Sí. Pero no nos vamos a desenfocar de nuestro objetivo por los ruidos políticos que puedan existir\".",
-            "url": "https://www.cooperativa.cl/noticias/pais/presidente-kast/presidente-kast-pone-el-empleo-en-el-centro-de-la-cuenta-regresiva-al-11/2026-11-23/123348.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261123/imag/foto_0000000220261123123348.jpg",
-            "published_raw": "Mon, 23 Nov 2026 12:33:48 -0300",
-            "published_at": "2026-11-23T12:33:48-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 4,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 5,
-            "score_ideology": 0,
-            "score_actor": 2,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 13,
-            "primary_topic": "Economía y políticas públicas",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 18,
-          "labels": [
-            "Estado e instituciones",
-            "Economía y políticas públicas"
-          ],
-          "chile_utility": 67
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-002",
-        "title": "Caso Firmas: Brigada de Cibercrimen de la PDI realizó diligencias en el Senado",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/caso-firmas-brigada-de-cibercrimen-de-la-pdi-realizo-diligencias-en-el/2026-11-23/190110.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 50.9,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 57,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 38
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-23T19:01:10-0300",
-        "last_seen": "2026-11-23T19:01:10-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Caso Firmas: Brigada de Cibercrimen de la PDI realizó diligencias en el Senado",
-            "description": "La Brigada del Cibercrimen de la Policía de Investigaciones (PDI) llegó este lunes por la tarde a dependencias del Congreso Nacional para recopilar antecedentes en el marco de la investigación del denominado caso Firmas . El escándalo indaga el presunto uso no autorizado de firmas para retirar los permisos constitucionales de viaje de los senadores opositores  Ximena Órdenes (independiente-PPD) y Fidel Espinoza (Partido Socialista) durante la tramitación del Presupuesto 2027 , lo que habría incidido en el cálculo de los quórum de votación mientras ambos viajaban con el Presidente José Antonio Kast en Asia . Por encargo del fiscal jefe de la Unidad Anticorrupción de Valparaíso, Claudio Rebeco , los detectives fueron recibidos por el contralor interno del Senado,  Reynaldo Núñez , en una diligencia previamente coordinada con Luis Rojas , secretario general de la Corporación. El caso ha generado tensiones en la oposición, luego de que el senador Juan Luis Castro (PS), jefe del comité del Socialismo Democrático en el Senado, entregara versiones contrapuestas sobre quién sugirió el retiro de los permisos: mientras el fin de semana apuntó a la también senadora y timonel de la colectividad, Paulina Vodanovic , esta mañana aseguró asumir la responsabilidad. En medio de la controversia, el diputado Raúl Soto , presidente del PPD, reconoció que existe \" una crisis que está radicada en el Senado de la República; un quiebre de confianza , decisiones que han sido equivocadas\", aunque llamó a dejar que el Ministerio Público realice su trabajo. Por su parte, Vodanovic evitó profundizar en las diferencias y señaló: \"Me voy a quedar con las últimas declaraciones del senador Castro de hoy en la mañana , porque esto ya tiene una vertiente que es sede de investigación. Vamos a hacer todos los esfuerzos por recuperar el trabajo en conjunto de toda la oposición\". Ante la controversia, la presidenta de la Cámara Alta, Paulina Núñez (Renovación Nacional), anunció un conjunto de medidas para evitar que se repitan situaciones similares , entre ellas la implementación de un sistema virtual de firma electrónica avanzada que permita validar cada documento directamente por el parlamentario solicitante. \"Se acabaron los permisos constitucionales de menos de 30 días\", enfatizó la líder del Senado, que también informó que se votará una modificación al reglamento para aumentar las sanciones de la Comisión de Ética y que todos los antecedentes serán derivados a dicha instancia. Órdenes sobre Castro: \"Cuando eso ocurre en política, uno da un paso al costado\" Este martes se reunirán por primera vez los integrantes del comité PS-PPD-Partido Liberal desde que estalló el escándalo , instancia en la que se abordará, entre otros temas, la continuidad de Castro en la jefatura de la bancada . En la previa del encuentro, Órdenes cuestionó en CNN Chile la actuación del líder del comité y afirmó que \"cometió un error desde el inicio al no reconocer: 'Mire, acá, a lo menos, hay un error'\". Además, la senadora planteó que \"cuando eso ocurre en política, generalmente uno da un paso al costado. Esto es inadmisible\". Gobierno acusa \"falta a la convivencia democrática gravísima\" Desde La Moneda, en tanto, el subsecretario y vocero de Gobierno, Gonzalo Arenas , calificó los hechos como \"una falta a la convivencia democrática gravísima\" , por lo que pidió que \"la Justicia investigue a fondo\". \"El llamado caso Firmas demuestra cómo algunos están dispuestos incluso a saltarse la ley con tal de trabar la labor del Gobierno . Se trataron de alterar los quórum constitucionales votando la Ley de Presupuesto\", sostuvo el portavoz del Ejecutivo.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/caso-firmas-brigada-de-cibercrimen-de-la-pdi-realizo-diligencias-en-el/2026-11-23/190110.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261123/imag/foto_0000000220261123190110.jpg",
-            "published_raw": "Mon, 23 Nov 2026 19:01:10 -0300",
-            "published_at": "2026-11-23T19:01:10-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 9,
-            "score_elections": 1,
-            "score_international": 1,
-            "score_conflict": 1,
-            "score_policy": 1,
-            "score_ideology": 2,
-            "score_actor": 6,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 21,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Ideología y competencia política",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-002"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 21,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 71.9
+          "chile_utility": 72.2
         },
         "repeated_in_general_top5": false
       }
@@ -629,41 +630,45 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 20,
-      "maximum_relevance": 62.5,
-      "leading_story": "Exministro Gajardo por acusación constitucional: Rabat infringió la ley de rebaja de condenas"
+      "event_count": 23,
+      "maximum_relevance": 67.1,
+      "leading_story": "Brasil retira definitivamente a su embajador en Buenos Aires tras un nuevo ataque en plena crisis bilateral"
     },
     {
       "topic": "Conflictos y seguridad",
-      "event_count": 4,
+      "event_count": 5,
       "maximum_relevance": 57.3,
-      "leading_story": "Colombia: esto se sabe de la toma de rehenes en un supermercado de la turística ciudad de Cartagena"
+      "leading_story": "De la Espriella confirma que un atentado deja sin luz al sur de Colombia"
     },
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 2,
-      "maximum_relevance": 50.7,
+      "event_count": 1,
+      "maximum_relevance": 48.7,
       "leading_story": "Negar a Antígona"
     },
     {
       "topic": "Ideología y competencia política",
-      "event_count": 2,
-      "maximum_relevance": 50.3,
-      "leading_story": "El trascendental voto de las mujeres, que superan en 1,2 millones a los hombres en el censo y son mayoría entre los indecisos"
+      "event_count": 1,
+      "maximum_relevance": 36,
+      "leading_story": "André Janones, el general del ejército digital de Lula: “Quiero contribuir al fin de la extrema derecha en el mundo”"
     },
     {
       "topic": "Economía y políticas públicas",
-      "event_count": 2,
-      "maximum_relevance": 49,
-      "leading_story": "Presidente Kast pone el empleo en el centro de la cuenta regresiva al 11 de marzo"
+      "event_count": 1,
+      "maximum_relevance": 35.8,
+      "leading_story": "\"Ni un peso menos\": los chilenos protestan contra los presupuestos del Gobierno Kast"
     }
   ],
   "changes_since_yesterday": {
-    "status": "not_available",
-    "data": []
+    "status": "available",
+    "data": {
+      "entered_top5": ["PML-EVENT-023", "PML-EVENT-005"],
+      "exited_top5": ["PML-EVENT-001", "PML-EVENT-007"],
+      "retained_top5": ["PML-EVENT-017", "PML-EVENT-014", "PML-EVENT-024"]
+    }
   },
   "sources": {
-    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
+    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
     "source_count": 3
   },
   "system": {
