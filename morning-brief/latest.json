@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-25",
-    "data_latest_timestamp": "2026-11-25T01:26:22-0300",
-    "data_age_hours": 3.3,
-    "generated_at": "2026-11-25T04:43:00-0300",
+    "data_latest_timestamp": "2026-11-25T15:10:38-0300",
+    "data_age_hours": 0.9,
+    "generated_at": "2026-11-25T16:02:22-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,23 +16,99 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 31 eventos políticos rankeados. El principal evento se concentra en América Latina y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 27 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 31,
-    "topics": 2,
+    "ranked_events": 27,
+    "topics": 1,
     "geographies": 2,
-    "representative_sources": 3,
-    "average_top5_relevance": 60.6,
-    "maximum_relevance": 67.1
+    "representative_sources": 2,
+    "average_top5_relevance": 61.7,
+    "maximum_relevance": 65.4
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-023",
+      "cluster_id": "PML-EVENT-001",
+      "title": "Cámara aprobó Presupuesto 2027 y lo despachó a su último trámite en el Senado",
+      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-aprobo-presupuesto-2027-y-lo-despacho-a-su-ultimo-tramite-en-el/2026-11-25/145127.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_DECISION",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 65.4,
+        "level": "MEDIA-ALTA",
+        "editorial_utility": 65.4
+      },
+      "selection": {
+        "reason": "PML 65.4",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-25T14:51:27-0300",
+      "last_seen": "2026-11-25T14:51:27-0300",
+      "entities": [
+        "senado",
+        "chile"
+      ],
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "La Cámara de Diputadas y Diputados aprobó este miércoles el informe de la comisión mixta sobre el Presupuesto 2027 . El texto, que resuelve las diferencias entre ambas cámaras , pasó al Senado para su última votación. El informe recibió 113 votos a favor, nueve en contra y nueve abstenciones .",
+        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
+          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Cámara aprobó Presupuesto 2027 y lo despachó a su último trámite en el Senado",
+          "description": "La Cámara de Diputadas y Diputados aprobó este miércoles el informe de la comisión mixta sobre el Presupuesto 2027 . El texto, que resuelve las diferencias entre ambas cámaras , pasó al Senado para su última votación. El informe recibió 113 votos a favor, nueve en contra y nueve abstenciones . Los votos de rechazo provinieron principalmente del Partido Nacional Libertario (PNL), mientras que las abstenciones se registraron en las bancadas del Frente Amplio (FA) y del Partido Comunista (PC). La votación abarcó 10 asuntos pendientes , entre ellos la reposición de las partidas de los ministerios del Interior, de Agricultura, de la Mujer y la Equidad de Género y de las Culturas, las Artes y el Patrimonio . El acuerdo también incluyó recursos para sitios de memoria y para el funcionamiento de las oficinas de los expresidentes de la República. Antes de la votación, una diputada del Partido Republicano recordó el natalicio del dictador Augusto Pinochet y se refirió a él como presidente. La intervención provocó reclamos de la oposición e interrumpió por momentos el debate en la Sala. PRESUPUESTO 2027 📰 | Cámara supera últimos nudos del Presupuesto 2027. https://t.co/DdwRG4Zqf7 https://t.co/0svotO68x9 — Diputadas y Diputados de Chile (@Camara_cl) 25 de noviembre de 2026 La UDI valoró el acuerdo y los republicanos reiteraron sus reparos El diputado Jaime Coloma (UDI) valoró que los recursos destinados a las oficinas de los expresidentes pasen al Ministerio Secretaría General de la Presidencia (Segpres), aunque señaló que su partido habría preferido eliminar esas asignaciones. \"Logramos que de una vez por todas los fondos del expresidente pasen a Segpres, porque ahora Contraloría va a poder fiscalizar todos los fondos, asignaciones y también las oficinas de los expresidentes de la República \", subrayó. Por su parte, el diputado Agustín Romero (Partido Republicano) reiteró el rechazo de su colectividad al financiamiento de los sitios de memoria y a las asignaciones al Instituto Nacional de Derechos Humanos (INDH) . \"Mantenemos esa posición y con la misma claridad seguiremos trabajando para que nunca más en Chile se financien terapias hormonales para transición de género en menores de 18 años\", manifestó. Schneider: \"Le hemos doblado la mano a un Gobierno que quería recortar aún más\" Desde la oposición, la diputada Emilia Schneider (FA) afirmó que durante la tramitación se logró contener la rebaja de horas docentes en los servicios locales de educación pública, así como los recortes previstos para la educación superior. \" Le hemos doblado la mano a un Gobierno que quería recortar aún más . Porque el primer Presupuesto que presentó el Gobierno destruía la educación chilena\", sostuvo. La diputada destacó que \"se reponen las becas TIC y los computadores, pese a que en un momento el Gobierno insistió en prestar los computadores, un absurdo\". El Senado revisará el Presupuesto y Sala Cuna Universal La votación del informe de la comisión mixta quedó prevista para la tarde de este miércoles en el Senado. En la tabla también figura el proyecto de Sala Cuna Universal . La sesión se realizará en medio de la polémica por el \"caso firmas\" . El diputado de la bancada del PPD Jaime Araya , hermano del senador Pedro Araya (PPD), cuestionó al senador Juan Luis Castro (PS) , aunque descartó que la controversia afecte la relación entre los partidos del Socialismo Democrático. \"Que haya un senador, Juan Luis Castro, que sea cobarde, que tenga actitudes miserables, que ensucie la marca Socialismo Democrático, no significa que eso vaya a afectar las relaciones entre los partidos, mucho menos la relación colaborativa entre las bancadas \", expresó. Araya llamó a Castro \"a que actúe con generosidad, dé un paso al costado , descomprima este tema y, lo más importante, asuma su responsabilidad\". Libertarios plantearon renegociar el acuerdo por la presidencia del Senado La senadora Vanessa Kaiser y el presidente del PNL, el diputado Johannes Kaiser , plantearon renegociar el acuerdo administrativo que rige la conducción del Senado. La colectividad rechaza que el próximo año la presidencia de la corporación quede en manos del PS, dados los cuestionamientos a su comité de senadores por el \"caso firmas\". El jefe de la Unidad Regional Anticorrupción de Valparaíso, Claudio Rebeco , confirmó que los senadores socialistas Juan Luis Castro y Paulina Vodanovic tienen la calidad de imputados en la investigación.",
+          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-aprobo-presupuesto-2027-y-lo-despacho-a-su-ultimo-tramite-en-el/2026-11-25/145127.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261125/imag/foto_0000000220261125145127.jpg",
+          "published_raw": "Wed, 25 Nov 2026 14:51:27 -0300",
+          "published_at": "2026-11-25T14:51:27-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 2,
+          "score_ideology": 2,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 16,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-001"
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "cluster_id": "PML-EVENT-021",
       "title": "Brasil retira definitivamente a su embajador en Buenos Aires tras un nuevo ataque en plena crisis bilateral",
       "url": "https://elpais.com/america/2026-11-25/brasil-retira-definitivamente-a-su-embajador-de-buenos-aires-tras-un-nuevo-ataque-en-plena-crisis-bilateral.html",
       "representative_source": "EL PAÍS",
@@ -43,12 +119,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 67.1,
+        "score": 63.4,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 67.1
+        "editorial_utility": 66.4
       },
       "selection": {
-        "reason": "PML 67.1",
+        "reason": "PML 63.4; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -106,13 +182,159 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-023"
+          "cluster_id": "PML-EVENT-021"
         }
       ]
     },
     {
-      "position": 2,
-      "cluster_id": "PML-EVENT-005",
+      "position": 3,
+      "cluster_id": "PML-EVENT-012",
+      "title": "Caso Firmas: Fiscalía investiga a los senadores Castro y Vodanovic como imputados",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/caso-firmas-fiscalia-investiga-a-los-senadores-castro-y-vodanovic-como/2026-11-25/150312.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 61.3,
+        "level": "MEDIA",
+        "editorial_utility": 57.3
+      },
+      "selection": {
+        "reason": "PML 61.3; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-25T15:03:12-0300",
+      "last_seen": "2026-11-25T15:03:12-0300",
+      "entities": [],
+      "event_terms": [],
+      "analysis": {
+        "summary": "La Fiscalía de Valparaíso confirmó que los senadores socialistas Juan Luis Castro y Paulina Vodanovic tienen la calidad de imputados en el denominado \"caso firmas\" . La investigación busca esclarecer cómo se incorporaron las firmas de los senadores Ximena Órdenes y Fidel Espinoza a una solicitud para retirar sus permisos constitucionales mientras ambos acompañaban al Presidente José Antonio Kast en su gira por Asia.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Caso Firmas: Fiscalía investiga a los senadores Castro y Vodanovic como imputados",
+          "description": "La Fiscalía de Valparaíso confirmó que los senadores socialistas Juan Luis Castro y Paulina Vodanovic tienen la calidad de imputados en el denominado \"caso firmas\" . La investigación busca esclarecer cómo se incorporaron las firmas de los senadores Ximena Órdenes y Fidel Espinoza a una solicitud para retirar sus permisos constitucionales mientras ambos acompañaban al Presidente José Antonio Kast en su gira por Asia. La Fundación Fuerza Ciudadana presentó la querella contra Castro y luego la amplió a Vodanovic, presidenta del Partido Socialista, y a la propia colectividad. El jefe de la Unidad Regional Anticorrupción de Valparaíso, Claudio Rebeco , explicó que Castro \"tiene la calidad de imputado porque se trata de una querella a su respecto\". Sobre Vodanovic, señaló que, si es citada a declarar, corresponde informarle de sus derechos en esa misma calidad. Fiscalía indaga cómo se incorporaron las firmas al documento Rebeco explicó que, si Órdenes y Espinoza no firmaron el documento , \"alguien, a través de algún mecanismo, insertó su firma escaneada en formato PDF\". La fiscal regional de Valparaíso, Claudia Perivancich , señaló a 24 Horas que \"hay antecedentes que podrían dar cuenta de un delito\". Entre las posibles figuras penales mencionó la falsedad documental y la usurpación de nombre .",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/caso-firmas-fiscalia-investiga-a-los-senadores-castro-y-vodanovic-como/2026-11-25/150312.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261125/imag/foto_0000000220261125150312.png",
+          "published_raw": "Wed, 25 Nov 2026 15:03:12 -0300",
+          "published_at": "2026-11-25T15:03:12-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 2,
+          "score_elections": 0,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 1,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 7,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-012"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-003",
+      "title": "¿Y si cae la acusación contra Rabat? La UDI ve un \"bochorno\" y el FA apunta a la minoría opositora",
+      "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/y-si-cae-la-acusacion-contra-rabat-la-udi-ve-un-bochorno-y-el-fa/2026-11-25/110811.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "INSTITUTIONAL_CRISIS",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 59.8,
+        "level": "MEDIA",
+        "editorial_utility": 52.8
+      },
+      "selection": {
+        "reason": "PML 59.8; diversidad relajada para completar el brief",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 1,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-25T11:08:11-0300",
+      "last_seen": "2026-11-25T11:08:11-0300",
+      "entities": "congreso",
+      "event_terms": "oposicion",
+      "analysis": {
+        "summary": "El vicepresidente de la UDI, Eduardo Cretton , afirmó en El Primer Café de Cooperativa que, si la Cámara rechaza el lunes la acusación constitucional contra el ministro de Justicia, Fernando Rabat , sería un \"tremendo bochorno para la oposición\" . La secretaria general del Frente Amplio, Constanza Martínez , defendió que su sector exija responsabilidades políticas por las rebajas de condena, aun si carece de los votos para aprobar el libelo.",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "¿Y si cae la acusación contra Rabat? La UDI ve un \"bochorno\" y el FA apunta a la minoría opositora",
+          "description": "El vicepresidente de la UDI, Eduardo Cretton , afirmó en El Primer Café de Cooperativa que, si la Cámara rechaza el lunes la acusación constitucional contra el ministro de Justicia, Fernando Rabat , sería un \"tremendo bochorno para la oposición\" . La secretaria general del Frente Amplio, Constanza Martínez , defendió que su sector exija responsabilidades políticas por las rebajas de condena, aun si carece de los votos para aprobar el libelo. \"Yo creo que si el día lunes esto se rechaza, va a ser un tremendo bochorno para la oposición, porque perdió tiempo en esto\" , sostuvo Cretton. El diputado gremialista reconoció la baja aprobación del Gobierno y argumentó que la izquierda no ha logrado capitalizarla porque \"la gente los ve más preocupados de la acusación constitucional que de solucionar los problemas concretos de los chilenos\". En el debate, Cecilia Rovaretti le recordó que la derecha también impulsó acusaciones que fracasaron cuando era oposición, ante lo cual Cretton admitió que la crítica alcanza a su sector y sostuvo que la ciudadanía percibe \"una tremenda desconexión entre lo que hacemos en el Congreso con lo que pasa en la calle\" . Martínez: \"Para mí eso no es un bochorno\" Consultada por las consecuencias políticas del caso, Martínez retomó la expresión de Cretton: \"El bochorno que supuestamente podemos pasar es simplemente porque hoy día hay minoría en la Cámara; para mí eso no es un bochorno \". La dirigenta frenteamplista sostuvo que Rabat le mintió al Congreso al explicar las rebajas de condena y cuestionó que aún se desconozca qué participación tuvo el presidente José Antonio Kast en la decisión. \"Todavía no sabemos por qué se incluyeron a violadores de derechos humanos, no sabemos por qué se cambió de postura, no sabemos si el Presidente estaba de acuerdo con esto\" , afirmó. El Ministerio de Justicia entregó el lunes más de 1.800 decretos de rebaja de condena a la comisión revisora . Al día siguiente, Rabat defendió la legalidad de sus decisiones y aseguró haber cumplido con la Constitución y la ley. De cara a la votación, el presidente de la Democracia Cristiana, Álvaro Ortiz , abordó en El Primer Café adelantó la postura del diputado independiente Felipe Camaño . \"Él, Felipe Camaño, nos dijo a la bancada, a nuestro equipo de asesores de la bancada, que él va a votar a favor de la acusación constitucional, y creemos en su palabra \", señaló.",
+          "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/y-si-cae-la-acusacion-contra-rabat-la-udi-ve-un-bochorno-y-el-fa/2026-11-25/110811.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261125/imag/foto_0000000220261125110811.jpg",
+          "published_raw": "Wed, 25 Nov 2026 11:08:11 -0300",
+          "published_at": "2026-11-25T11:08:11-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 9,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 0,
+          "score_ideology": 2,
+          "score_actor": 4,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 16,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Ideología y competencia política",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-003"
+        }
+      ]
+    },
+    {
+      "position": 5,
+      "cluster_id": "PML-EVENT-006",
       "title": "Comisión mixta aprobó recursos para sitios de memoria y oficinas de expresidentes",
       "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/comision-mixta-aprobo-recursos-para-sitios-de-memoria-y-oficinas-de/2026-11-24/212107.html",
       "representative_source": "Cooperativa",
@@ -123,12 +345,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 62.5,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 65.5
+        "score": 58.7,
+        "level": "MEDIA",
+        "editorial_utility": 49.7
       },
       "selection": {
-        "reason": "PML 62.5; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 58.7; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -179,226 +401,7 @@
           "secondary_topic": "Economía y políticas públicas",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-005"
-        }
-      ]
-    },
-    {
-      "position": 3,
-      "cluster_id": "PML-EVENT-017",
-      "title": "De la Espriella confirma que un atentado deja sin luz al sur de Colombia",
-      "url": "https://elpais.com/america-colombia/2026-11-25/de-la-espriella-confirma-que-un-atentado-deja-sin-luz-al-sur-de-colombia.html",
-      "representative_source": "EL PAÍS",
-      "topic": "Conflictos y seguridad",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Colombia / América Latina"
-      },
-      "relevance": {
-        "score": 57.3,
-        "level": "MEDIA",
-        "editorial_utility": 64.3
-      },
-      "selection": {
-        "reason": "PML 57.3; fallback editorial controlado; aporta diversidad temática; nuevo tipo de evento",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "EL PAÍS"
-      },
-      "first_seen": "2026-11-25T01:26:22-0300",
-      "last_seen": "2026-11-25T01:26:22-0300",
-      "entities": "colombia",
-      "event_terms": [],
-      "analysis": {
-        "summary": "El apagón afectó a municipios de cinco departamentos y el presidente alerta que es una retaliación de los grupos armados a su política de seguridad",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Conflictos y seguridad y la sitúa en Colombia / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "De la Espriella confirma que un atentado deja sin luz al sur de Colombia",
-          "description": "El apagón afectó a municipios de cinco departamentos y el presidente alerta que es una retaliación de los grupos armados a su política de seguridad",
-          "url": "https://elpais.com/america-colombia/2026-11-25/de-la-espriella-confirma-que-un-atentado-deja-sin-luz-al-sur-de-colombia.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/7V7HKHVJ5JB6JCWEGEGLRZMKRE.jpg?auth=1838d295176589ddb5e774ac0dd08759674f22a7a002a864d71d4535bd9015e6",
-          "published_raw": "Wed, 25 Nov 2026 04:26:22 GMT",
-          "published_at": "2026-11-25T01:26:22-0300",
-          "country": "Colombia",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 2,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 4,
-          "primary_topic": "Conflictos y seguridad",
-          "secondary_topic": "Instituciones y gobierno",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-017"
-        }
-      ]
-    },
-    {
-      "position": 4,
-      "cluster_id": "PML-EVENT-014",
-      "title": "Exministro Gajardo por acusación constitucional: Rabat infringió la ley de rebaja de condenas",
-      "url": "https://www.cooperativa.cl/noticias/pais/politica/exministro-gajardo-por-acusacion-constitucional-rabat-infringio-la-ley/2026-11-24/083730.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 60.5,
-        "level": "MEDIA",
-        "editorial_utility": 55.5
-      },
-      "selection": {
-        "reason": "PML 60.5; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-24T08:37:30-0300",
-      "last_seen": "2026-11-24T08:37:30-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "El exministro de Justicia, Jaime Gajardo , planteó en Cooperativa que el actual líder de la cartera, Fernando Rabat, infringió la ley de rebaja de condenas, valorando los argumentos jurídicos de la acusación constitucional en su contra . En conversación con El Diario de Cooperativa , Gajardo aseveró que \"la defensa del ministro acusado principalmente se basa en que él tenía dos posibles interpretaciones posibles: una que permitía la liberación y rebaja de condena de personas…",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Exministro Gajardo por acusación constitucional: Rabat infringió la ley de rebaja de condenas",
-          "description": "El exministro de Justicia, Jaime Gajardo , planteó en Cooperativa que el actual líder de la cartera, Fernando Rabat, infringió la ley de rebaja de condenas, valorando los argumentos jurídicos de la acusación constitucional en su contra . En conversación con El Diario de Cooperativa , Gajardo aseveró que \"la defensa del ministro acusado principalmente se basa en que él tenía dos posibles interpretaciones posibles: una que permitía la liberación y rebaja de condena de personas que abusaron sexualmente de niños y la otra es la que rechazaba. Entonces él sostiene que ambas interpretaciones eran plausibles y que por ende no existiría una infracción constitucional\". \"Hay una interpretación factible, no corresponde, o mejor dicho, el ministro tiene que rechazar las solicitudes de rebaja de condenas a violadores y abusadores sexuales de niños cuando estas llegan a su conocimiento. Eso es lo que establece la ley, esa es la reforma del año 2022, lo que corresponde además con el conjunto de leyes que se han aprobado en los últimos 10 años\", insistió. El exministro recordó que la interpretación de la defensa de Rabat \"no toma en consideración la Ley de Garantías y Derechos de la Niñez , que le dice 'si usted tiene distintas interpretaciones, tiene que escoger aquella que proteja de mejor forma los derechos de los niños, niñas y adolescentes' y eso es precisamente lo contrario a lo que hace el ministro\". \"Echa por tierra todo lo que hemos construido en materia de ejecución penal, eso es muy complejo. Se puede tener rebajas de condena como medidas de reinserción, eso está bien, es razonable\", recalcó. \"Hay claridad de que el ministro infringió la ley de rebaja de condenas, porque él debió haber rechazado todas las solicitudes de rebaja de condenas de aquellas personas que habían abusado o violado a niños, niñas y adolescentes y no hizo eso, hizo lo contrario\", lamentó. Para Gajardo, el libelo contra Rabat \"es una acusación seria, que tiene fundamentos, que da cuenta de un accionar del ministro de Justicia que es incomprensible, que además está basado en antecedentes jurídicos erróneos, que no se condice lo que él hizo con las explicaciones que se están dando hoy día\".",
-          "url": "https://www.cooperativa.cl/noticias/pais/politica/exministro-gajardo-por-acusacion-constitucional-rabat-infringio-la-ley/2026-11-24/083730.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261124/imag/foto_0000000220261124083730.jpg",
-          "published_raw": "Tue, 24 Nov 2026 08:37:30 -0300",
-          "published_at": "2026-11-24T08:37:30-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 4,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 0,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 5,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": null,
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-014"
-        }
-      ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-024",
-      "title": "Los afectados del Ueno Bank en Paraguay se unen para conseguir su dinero de vuelta",
-      "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261125-los-afectados-del-ueno-bank-en-paraguay-se-unen-para-conseguir-su-dinero-de-vuelta",
-      "representative_source": "France 24",
-      "topic": "Instituciones y gobierno",
-      "event_type": "GENERAL_POLITICAL_EVENT",
-      "geography": {
-        "group": "América Latina",
-        "country": "Paraguay / América Latina"
-      },
-      "relevance": {
-        "score": 55.8,
-        "level": "MEDIA",
-        "editorial_utility": 48.8
-      },
-      "selection": {
-        "reason": "PML 55.8; fallback editorial controlado; diversidad relajada para completar el brief",
-        "tier": "FALLBACK",
-        "strict_eligible": false,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "France 24"
-      },
-      "first_seen": "2026-11-24T21:26:31-0300",
-      "last_seen": "2026-11-24T21:26:31-0300",
-      "entities": [],
-      "event_terms": [],
-      "analysis": {
-        "summary": "Tres semanas después de la intervención de Ueno Bank, que llevó a la caída del presidente Santiago Peña, el Banco Central de Paraguay asegura que el 97% de los depositantes ya recibió su dinero de vuelta. Pero el principal grupo de afectados por el Ueno Bank no concuerda con la visión optimista. “No es real. Están inflando los números.",
-        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Paraguay / América Latina.",
-        "watch_next": [
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
-          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
-          null
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "france24_latam",
-          "source": "France 24",
-          "title": "Los afectados del Ueno Bank en Paraguay se unen para conseguir su dinero de vuelta",
-          "description": "Tres semanas después de la intervención de Ueno Bank, que llevó a la caída del presidente Santiago Peña, el Banco Central de Paraguay asegura que el 97% de los depositantes ya recibió su dinero de vuelta. Pero el principal grupo de afectados por el Ueno Bank no concuerda con la visión optimista. “No es real. Están inflando los números. Solo se les devolvió a la gente que tenía pocos ahorros, entre 300.000 y 400.000 guaraníes (de 47 a 63 dólares), pero no a la gente que tenía ahorros mayores\".",
-          "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261125-los-afectados-del-ueno-bank-en-paraguay-se-unen-para-conseguir-su-dinero-de-vuelta",
-          "image_url": "https://s.france24.com/media/display/e28daaf0-e85e-11f1-af5a-29d00e23de9a/w:1024/p:16x9/b9fa170b2e335c93d8b4b1c39fca0665866fc827w.jpg",
-          "published_raw": "Wed, 25 Nov 2026 00:26:31 GMT",
-          "published_at": "2026-11-24T21:26:31-0300",
-          "country": "Paraguay",
-          "region": "América Latina",
-          "language": "es",
-          "score_institutional": 1,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 0,
-          "score_actor": 1,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 3,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-024"
+          "cluster_id": "PML-EVENT-006"
         }
       ]
     }
@@ -411,7 +414,79 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-006",
+        "cluster_id": "PML-EVENT-015",
+        "title": "Diputado Moreno: Pedimos que no exista, con fondos públicos, hormonización de menores de 18 años",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/diputado-moreno-pedimos-que-no-exista-con-fondos-publicos/2026-11-25/083120.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 51.8,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 50,
+            "freshness": 88,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 28
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-25T08:31:20-0300",
+        "last_seen": "2026-11-25T08:31:20-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Diputado Moreno: Pedimos que no exista, con fondos públicos, hormonización de menores de 18 años",
+            "description": "Benjamín Moreno , jefe de la bancada de diputados republicanos, comentó en Cooperativa los cuestionamientos de su partido al financiamiento público a terapias hormonales en menores de edad. En conversación con El Diario de Cooperativa , el parlamentario detalló que \"lo que estamos pidiendo es que no exista, con financiamiento público, hormonización de menores de 18 años y que no existan terapias que no estén basadas en la evidencia\" . \"En muchos casos lo que se hace acá son terapias transafirmativas, que no es decirle al niño con disforia de género 'te vamos a poner profesionales al servicio'. No, tú tienes disforia de género y te vamos a ayudar a transitar\", añadió. Moreno recalcó que \"nosotros estamos señalando que la disforia de género existe, que es un tema donde tienes que prestar acompañamiento, pero donde el Estado no puede tomar una definición de decir que las terapias son todas transafirmativas\". \"Este programa tiene dos patitas, una en el Ministerio de Salud y otra en Desarrollo Social, y tú no puedes dejar desprotegidas ninguna de las dos áreas, pero lo que nosotros estamos pidiendo es que acá se entregue un servicio, terapias, basadas en la evidencia\", puntualizó.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/diputado-moreno-pedimos-que-no-exista-con-fondos-publicos/2026-11-25/083120.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261125/imag/foto_0000000220261125083120.jpg",
+            "published_raw": "Wed, 25 Nov 2026 08:31:20 -0300",
+            "published_at": "2026-11-25T08:31:20-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 2,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 0,
+            "score_actor": 2,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 5,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-015"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 72.8
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-007",
         "title": "Senado postergó para este miércoles la votación del proyecto de Sala Cuna Universal",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -422,11 +497,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 53,
-          "level": "MEDIA",
+          "score": 49,
+          "level": "BAJA",
           "components": {
             "political_impact": 54,
-            "freshness": 88,
+            "freshness": 72,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 28
@@ -466,7 +541,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-006"
+            "cluster_id": "PML-EVENT-007"
           }
         ],
         "article_count": 1,
@@ -477,103 +552,31 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 74
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-001",
-        "title": "Diputado Leiva fustigó a Arenas por sus dichos contra el PS: \"Es el vocero del Gobierno y no un bot\"",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/diputado-leiva-fustigo-a-arenas-por-sus-dichos-contra-el-ps-es-el/2026-11-24/113710.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 51.7,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 55,
-            "freshness": 80,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 32
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-24T11:37:10-0300",
-        "last_seen": "2026-11-24T11:37:10-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Diputado Leiva fustigó a Arenas por sus dichos contra el PS: \"Es el vocero del Gobierno y no un bot\"",
-            "description": "El diputado Raúl Leiva , jefe de bancada del Partido Socialista, respondió este martes en El Primer Café de Cooperativa al subsecretario Gonzalo Arenas , quien acusó al PS de ejercer una oposición intransigente y habló de una \"decadencia\" de la colectividad. \"Creo que un gobierno que el propio Presidente señala que tiene que tener un ánimo dialogante no puede partir de la descalificación permanente. El subsecretario Arenas es el vocero del gobierno y no un bot de redes sociales \", afirmó Leiva. El diputado calificó los dichos de Arenas como \"una falta de respeto\" y recordó que el subsecretario ya había pedido disculpas por sus dichos sobre el Partido de la Gente . \"Yo también puedo tener muchas diferencias con el Partido Comunista, tengo muchas diferencias con el Partido Republicano, pero nunca les he tratado ni de decadentes ni los descalifico ni los cancelo. Menos debe hacerlo un vocero de Gobierno, ese no es su rol \", sostuvo. Caso firmas: \"Aquí hay un problema muy grave\" Leiva también abordó el retiro de los permisos constitucionales de los senadores Ximena Órdenes (independiente-PPD) y Fidel Espinoza (PS), quienes señalaron que la gestión se hizo sin su conocimiento mientras acompañaban al Presidente José Antonio Kast en su gira por Asia. Tras el reclamo de Órdenes, la Fiscalía Regional de Valparaíso abrió de oficio una investigación por la eventual falsificación de su firma . \"Comparto de que aquí hay un problema muy grave dentro del Comité Socialista, PPD y Partido Liberal \", dijo el diputado, quien distinguió entre el daño a la reputación del comité que encabeza el senador Juan Luis Castro y las eventuales responsabilidades penales que investiga el Ministerio Público. \"Aquí no hay nadie que esté sobre la ley; ningún ciudadano, ni tampoco un senador ni un Presidente de la República pueden abstraerse de la labor de la justicia\", afirmó. Guzmán respaldó a Arenas y Carmona cuestionó sus dichos El diputado Jorge Guzmán , vicepresidente de Evópoli, respaldó al subsecretario. Citó como ejemplo la votación del proyecto de sala cuna universal en la Cámara . Según Guzmán, el PPD llegó a acuerdos con el Ejecutivo mientras dos diputados socialistas votaron en contra de la idea de legislar. \"Yo veo al Partido Socialista no solo bailando al ritmo del Frente Amplio y del Partido Comunista, sino que también los veo medio secuestrados y medio con el síndrome de Estocolmo , medio enamorados de esa forma de hacer política\", dijo Guzmán. El presidente del PC, Lautaro Carmona , reprochó a Arenas el tono de sus declaraciones. \"Le falta más temple para saber en qué momento hacer tales o cuales afirmaciones\", sostuvo. Desde el Partido Republicano, Ignacio Dulger extendió la crítica al conjunto del sector. \"Yo creo que es una decadencia de la oposición\", afirmó. Bancada de diputados PS arremete contra Gonzalo Arenas A través de una declaración pública, la bancada de diputadas y diputados del Partido Socialista arremetió contra las declaraciones de Arenas, asegurando que mantendrán su labor fiscalizadora ante la actual administración y descartando haber clausurado el diálogo en el Congreso . \" Tenemos un mandato constitucional para fiscalizar y legislar . Pero , además , frente a un Gobierno empobrecedor que beneficia a los más ricos y libera pederastas hacer nuestro trabajo es un imperativo moral . Las consecuencias de los 8 meses de administración del actual Gobierno todo el país lo sufre: una recesión técnica , mayor cesantía , mayor costo de la vida y, en general, un desastre en todos los índices económicos \", arremetieron los parlamentarios PS. \"Además, el ministro de Hacienda ha intentado realizar de forma constante recortes presupuestarios en áreas sociales sensibles. Si el Gobierno pretende que ante esta realidad seamos una oposición dócil o indiferente están muy equivocados \", se añadió en el escrito. En la misma línea, defendieron el uso de herramientas constitucionales frente a las polémicas que han sacudido al Ministerio de Justicia, dando cuenta que \" si el Gobierno pretende que no utilicemos dichos mecanismos constitucionales para defender a las víctimas, nuevamente, están muy equivocados \". Asimismo, los diputados socialistas descartaron un bloqueo legislativo y acusaron que el portavoz de Palacio desconoce el trámite real de las leyes en el Parlamento , citando mociones propias que han recibido urgencias por parte del Gobierno. Finalmente, hicieron \"un llamado al vocero para que recapacite respecto a su rol . Lleva un mes en el cargo y ha generado diversas polémicas y problemas al propio Ejecutivo . Su ignorancia en temas internacionales demostrada en sus declaraciones sobre el buque Danstar, el ninguneo realizado al Partido De La Gente, o cuando calificó como 'procedimiento impecable' la rebaja de condenas realizadas por el Ministerio de Justicia y luego el Presidente de la República tuvo que contradecirlo diciendo que esto fue un error\". \"Comprendemos que el vocero no tenga resultados positivos que comunicar al país y prefiera centrarse en nuestro partido. La bancada Socialista seguirá ejerciendo con responsabilidad su labor legislativa y fiscalizadora ante un Gobierno que le hace mal Chile\", cerró el comunicado.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/partido-socialista/diputado-leiva-fustigo-a-arenas-por-sus-dichos-contra-el-ps-es-el/2026-11-24/113710.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261124/imag/foto_0000000220261124113710.jpg",
-            "published_raw": "Tue, 24 Nov 2026 11:37:10 -0300",
-            "published_at": "2026-11-24T11:37:10-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 10,
-            "score_elections": 1,
-            "score_international": 1,
-            "score_conflict": 0,
-            "score_policy": 0,
-            "score_ideology": 3,
-            "score_actor": 6,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 21,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Ideología y competencia política",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 21,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 72.7
+          "chile_utility": 70
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-011",
-        "title": "Caso Firmas: Senador Castro pidió unidad en la oposición y reconoció haber cometido un error",
+        "cluster_id": "PML-EVENT-005",
+        "title": "\"Virus o bacteria Rabat\": Diputados de oposición cuestionan licencias de Jiles y Parisi",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/caso-firmas-senador-castro-pidio-unidad-en-la-oposicion-y-reconocio/2026-11-24/104647.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/virus-o-bacteria-rabat-diputados-de-oposicion-cuestionan-licencias-de/2026-11-25/123155.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 51.2,
-          "level": "BAJA",
+          "score": 56.9,
+          "level": "MEDIA",
           "components": {
-            "political_impact": 50,
-            "freshness": 80,
+            "political_impact": 51,
+            "freshness": 100,
             "source_count": 30,
             "geographic_scope": 40,
-            "continuity": 42
+            "continuity": 46
           }
         },
         "coverage": {
@@ -581,47 +584,44 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-24T10:46:47-0300",
-        "last_seen": "2026-11-24T10:46:47-0300",
+        "first_seen": "2026-11-25T12:31:55-0300",
+        "last_seen": "2026-11-25T12:31:55-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "Caso Firmas: Senador Castro pidió unidad en la oposición y reconoció haber cometido un error",
-            "description": "En medio de la polémica por el caso Firmas, el senador Juan Luis Castro (PS) reconoció haber cometido un error al haber retirado los permisos constitucionales de dos parlamentarios con el fin de afectar un quórum. Castro lidera este martes una sesión de la Comisión de Salud del Senado, donde también se encuentra la senadora Ximena Órdenes (PPD) -afectada por el retiro de firmas-, y que se encuentra analizando los cambios la Ley Ricarte Soto. El parlamentario sostuvo que \"no tengo historia de andar haciendo ni pillerías ni cosas raras, yo soy bien derecho para mis cosas, doy la cara, voy al frente, digo lo que hago, si cometo un error digo 'cometí un error' y aquí cometimos el error\". \"No tengo ninguna necesidad de aferrarme a ninguna disposición, pero sí creo que en el momento político en que estamos el mundo del Socialismo Democrático y la oposición requieren unidad más que pegar, requieren convergencia de propósito más que diferencias que a veces parecen menores, pero que son más bien de la chimuchina, del diario vivir\", dijo. Castro volvió a decir que la idea surgió de la presidenta de su partido, Paulina Vodanovic, aunque le quitó responsabilidad recordando que él inició los trámites. \"La idea me la plantea ella, cuando yo llego a Sala y yo, como responsable político, la implemento y doy las instrucciones del caso, y después eso se operativiza por el coordinador administrativo (Javier Sánchez). Él es quien toma las firmas digitales, yo nunca he tomado un papel, falsificado una firma, tomado un documento, jamás en mi vida\", recalcó.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/caso-firmas-senador-castro-pidio-unidad-en-la-oposicion-y-reconocio/2026-11-24/104647.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261124/imag/foto_0000000220261124104647.jpg",
-            "published_raw": "Tue, 24 Nov 2026 10:46:47 -0300",
-            "published_at": "2026-11-24T10:46:47-0300",
+            "title": "\"Virus o bacteria Rabat\": Diputados de oposición cuestionan licencias de Jiles y Parisi",
+            "description": "Los diputados de oposición Héctor Barría (DC) y Cristián Tapia (ind-PPD) ironizaron sobre las licencias médicas que presentaron este martes las diputadas del PDG Pamela Jiles y Zandra Parisi . Ambas habían anunciado que apoyarían la acusación constitucional contra el ministro de Justicia, Fernando Rabat , pero estarán ausentes cuando la Cámara la vote el próximo lunes. \"Sería positivo una sanitización de todas las dependencias de esta Cámara de Diputados, porque el virus o bacteria Rabat puede afectar la salud de algunas parlamentarias y parlamentarios . No puede ser una excusa\", dijo Barría. Tapia, en tanto, sostuvo que \"es un poquito curioso que previo a la votación que vamos a tener el lunes, haya parlamentarios como que se están enfermando todos a la vez, o sea, como si fuera una peste que llegó. Espero que no sean licencias fraudulentas \". El diputado Diego Schalper (RN) respondió a Tapia: \"Si ese diputado lo que está insinuando es que esas licencias se han tomado de manera indebida, más que ampararse en el fuero acá y sentar un manto de dudas -que eso la verdad que de valiente tiene poco-, lo que tendría que hacer es ir a interponer un requerimiento a la Superintendencia de Salud \". Schalper también calificó de frívola la forma en que se ha abordado el tema y recordó que hay diputados que llevan meses en tratamiento por problemas graves de salud. Igualmente, el diputado señaló que su par Andrés Celis, que está con licencia, podría hacer un esfuerzo de asistir para votar la moción. En total, hay ocho diputados con licencia médica y una diputada con permiso parental, cuya asistencia el lunes todavía está en duda. Por otro lado, el diputado oficialista Jaime Mulet se encuentra de vacaciones, sin embargo, el presidente de la DC, Álvaro Ortiz, afirmó que este le garantizó que regresará para votar la acusación. Arenas: Sería extraño que quienes apoyan al Gobierno e incluso lo que no votaran a favor El vocero de Gobierno, Gonzalo Arenas , abordó la discusión y apuntó que el Ejecutivo está convencido de que la acusación carece de fundamento. \"Hemos hablado con muchos parlamentarios y estamos convencidos de que, con una acusación constitucional tan débi l, con tan pocos argumentos y en donde no se configura ninguna de las causales establecidas en la Constitución, nos parecería muy extraño que parlamentarios que apoyan al Gobierno o incluso que no apoyan al Gobierno votaran a favor \", aseveró. El Partido Nacional Libertario continúa definiendo su postura . En un principio, se informó que los diputados tendrían libertad de acción , sin embargo, el parlamentario Hans Marowski lo descartó y piensan votar en bloque, incluido su par Pierre Karlezi que dejó abierta su decisión. \"Nosotros no hemos dado libertad de acción. Nosotros estamos en un proceso de discusión y deliberación como partido y tenemos la intención de votar en bloque. El diputado Pierre Karlezi lo que hizo en realidad fue decir que iba a estudiar la acusación en su mérito\", sostuvo. En paralelo, la comisión revisora continua con las audiencias y tienen plazo hasta el viernes para entregar su informe, para luego ser votada el próximo lunes.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/virus-o-bacteria-rabat-diputados-de-oposicion-cuestionan-licencias-de/2026-11-25/123155.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261125/imag/foto_0000000220261125123155.jpg",
+            "published_raw": "Wed, 25 Nov 2026 12:31:55 -0300",
+            "published_at": "2026-11-25T12:31:55-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 3,
-            "score_elections": 0,
+            "score_institutional": 6,
+            "score_elections": 1,
             "score_international": 0,
             "score_conflict": 0,
             "score_policy": 1,
             "score_ideology": 0,
-            "score_actor": 4,
+            "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 8,
+            "political_evidence": 13,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
+            "secondary_topic": "Elecciones y opinión pública",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-011"
+            "cluster_id": "PML-EVENT-005"
           }
         ],
         "article_count": 1,
         "unique_sources": 1,
         "political_science_fit": {
-          "bonus": 21,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 72.2
+          "bonus": 9,
+          "labels": "Estado e instituciones",
+          "chile_utility": 65.9
         },
         "repeated_in_general_top5": false
       }
@@ -630,27 +630,27 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 23,
-      "maximum_relevance": 67.1,
-      "leading_story": "Brasil retira definitivamente a su embajador en Buenos Aires tras un nuevo ataque en plena crisis bilateral"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 5,
-      "maximum_relevance": 57.3,
-      "leading_story": "De la Espriella confirma que un atentado deja sin luz al sur de Colombia"
+      "event_count": 21,
+      "maximum_relevance": 65.4,
+      "leading_story": "Cámara aprobó Presupuesto 2027 y lo despachó a su último trámite en el Senado"
     },
     {
       "topic": "Elecciones y opinión pública",
       "event_count": 1,
-      "maximum_relevance": 48.7,
-      "leading_story": "Negar a Antígona"
+      "maximum_relevance": 50.3,
+      "leading_story": "El debate | ¿Para quién son los debates electorales a las diez de la noche?"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 2,
+      "maximum_relevance": 50.3,
+      "leading_story": "Colombia: rescatan a todos los rehenes tras más de 16 horas de toma en un supermercado de Cartagena"
     },
     {
       "topic": "Ideología y competencia política",
-      "event_count": 1,
-      "maximum_relevance": 36,
-      "leading_story": "André Janones, el general del ejército digital de Lula: “Quiero contribuir al fin de la extrema derecha en el mundo”"
+      "event_count": 2,
+      "maximum_relevance": 49.9,
+      "leading_story": "El futuro de la cooperación se juega en las elecciones del 29N"
     },
     {
       "topic": "Economía y políticas públicas",
@@ -660,15 +660,11 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-023", "PML-EVENT-005"],
-      "exited_top5": ["PML-EVENT-001", "PML-EVENT-007"],
-      "retained_top5": ["PML-EVENT-017", "PML-EVENT-014", "PML-EVENT-024"]
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
-    "representative_sources": ["EL PAÍS", "Cooperativa", "France 24"],
+    "representative_sources": ["Cooperativa", "EL PAÍS", "France 24"],
     "source_count": 3
   },
   "system": {
