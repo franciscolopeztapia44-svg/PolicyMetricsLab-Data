@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-25",
-    "data_latest_timestamp": "2026-11-25T15:10:38-0300",
-    "data_age_hours": 0.9,
-    "generated_at": "2026-11-25T16:02:22-0300",
+    "data_latest_timestamp": "2026-11-25T20:57:28-0300",
+    "data_age_hours": 3.5,
+    "generated_at": "2026-11-26T00:29:51-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -16,25 +16,25 @@
   },
   "summary": {
     "headline": "Panorama Político Diario",
-    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 27 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
-    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 3 tipos de evento político.",
+    "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 24 eventos políticos rankeados. El principal evento se concentra en Chile y pertenece al eje de Instituciones y gobierno.",
+    "diversity": "La selección cubre 1 temas, 2 áreas geográficas y 4 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
     "key_stories": 5,
-    "ranked_events": 27,
+    "ranked_events": 24,
     "topics": 1,
     "geographies": 2,
     "representative_sources": 2,
-    "average_top5_relevance": 61.7,
-    "maximum_relevance": 65.4
+    "average_top5_relevance": 61.3,
+    "maximum_relevance": 65.2
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-001",
-      "title": "Cámara aprobó Presupuesto 2027 y lo despachó a su último trámite en el Senado",
-      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-aprobo-presupuesto-2027-y-lo-despacho-a-su-ultimo-tramite-en-el/2026-11-25/145127.html",
+      "cluster_id": "PML-EVENT-004",
+      "title": "El Congreso aprobó la largamente esperada ley de Sala Cuna Universal",
+      "url": "https://www.cooperativa.cl/noticias/pais/mujer/el-congreso-aprobo-la-largamente-esperada-ley-de-sala-cuna-universal/2026-11-25/205728.html",
       "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
       "event_type": "INSTITUTIONAL_DECISION",
@@ -43,12 +43,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 65.4,
+        "score": 65.2,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 65.4
+        "editorial_utility": 65.2
       },
       "selection": {
-        "reason": "PML 65.4",
+        "reason": "PML 65.2",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -58,15 +58,17 @@
         "source_count": 1,
         "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-25T14:51:27-0300",
-      "last_seen": "2026-11-25T14:51:27-0300",
+      "first_seen": "2026-11-25T20:57:28-0300",
+      "last_seen": "2026-11-25T20:57:28-0300",
       "entities": [
+        "congreso",
         "senado",
-        "chile"
+        "chile",
+        "boric"
       ],
-      "event_terms": "oposicion",
+      "event_terms": [],
       "analysis": {
-        "summary": "La Cámara de Diputadas y Diputados aprobó este miércoles el informe de la comisión mixta sobre el Presupuesto 2027 . El texto, que resuelve las diferencias entre ambas cámaras , pasó al Senado para su última votación. El informe recibió 113 votos a favor, nueve en contra y nueve abstenciones .",
+        "summary": "Tras cerca de ocho años de debate, el Senado aprobó y despachó este miércoles el proyecto de Sala Cuna Universal , que busca equiparar el derecho entre trabajadoras, trabajadores -bajo el Código del Trabajo- e independientes con hijos de hasta dos años mediante la creación de un nuevo modelo de acceso y del Fondo de Sala Cuna.",
         "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
           "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
@@ -79,36 +81,36 @@
         {
           "source_id": "cooperativa_politica",
           "source": "Cooperativa",
-          "title": "Cámara aprobó Presupuesto 2027 y lo despachó a su último trámite en el Senado",
-          "description": "La Cámara de Diputadas y Diputados aprobó este miércoles el informe de la comisión mixta sobre el Presupuesto 2027 . El texto, que resuelve las diferencias entre ambas cámaras , pasó al Senado para su última votación. El informe recibió 113 votos a favor, nueve en contra y nueve abstenciones . Los votos de rechazo provinieron principalmente del Partido Nacional Libertario (PNL), mientras que las abstenciones se registraron en las bancadas del Frente Amplio (FA) y del Partido Comunista (PC). La votación abarcó 10 asuntos pendientes , entre ellos la reposición de las partidas de los ministerios del Interior, de Agricultura, de la Mujer y la Equidad de Género y de las Culturas, las Artes y el Patrimonio . El acuerdo también incluyó recursos para sitios de memoria y para el funcionamiento de las oficinas de los expresidentes de la República. Antes de la votación, una diputada del Partido Republicano recordó el natalicio del dictador Augusto Pinochet y se refirió a él como presidente. La intervención provocó reclamos de la oposición e interrumpió por momentos el debate en la Sala. PRESUPUESTO 2027 📰 | Cámara supera últimos nudos del Presupuesto 2027. https://t.co/DdwRG4Zqf7 https://t.co/0svotO68x9 — Diputadas y Diputados de Chile (@Camara_cl) 25 de noviembre de 2026 La UDI valoró el acuerdo y los republicanos reiteraron sus reparos El diputado Jaime Coloma (UDI) valoró que los recursos destinados a las oficinas de los expresidentes pasen al Ministerio Secretaría General de la Presidencia (Segpres), aunque señaló que su partido habría preferido eliminar esas asignaciones. \"Logramos que de una vez por todas los fondos del expresidente pasen a Segpres, porque ahora Contraloría va a poder fiscalizar todos los fondos, asignaciones y también las oficinas de los expresidentes de la República \", subrayó. Por su parte, el diputado Agustín Romero (Partido Republicano) reiteró el rechazo de su colectividad al financiamiento de los sitios de memoria y a las asignaciones al Instituto Nacional de Derechos Humanos (INDH) . \"Mantenemos esa posición y con la misma claridad seguiremos trabajando para que nunca más en Chile se financien terapias hormonales para transición de género en menores de 18 años\", manifestó. Schneider: \"Le hemos doblado la mano a un Gobierno que quería recortar aún más\" Desde la oposición, la diputada Emilia Schneider (FA) afirmó que durante la tramitación se logró contener la rebaja de horas docentes en los servicios locales de educación pública, así como los recortes previstos para la educación superior. \" Le hemos doblado la mano a un Gobierno que quería recortar aún más . Porque el primer Presupuesto que presentó el Gobierno destruía la educación chilena\", sostuvo. La diputada destacó que \"se reponen las becas TIC y los computadores, pese a que en un momento el Gobierno insistió en prestar los computadores, un absurdo\". El Senado revisará el Presupuesto y Sala Cuna Universal La votación del informe de la comisión mixta quedó prevista para la tarde de este miércoles en el Senado. En la tabla también figura el proyecto de Sala Cuna Universal . La sesión se realizará en medio de la polémica por el \"caso firmas\" . El diputado de la bancada del PPD Jaime Araya , hermano del senador Pedro Araya (PPD), cuestionó al senador Juan Luis Castro (PS) , aunque descartó que la controversia afecte la relación entre los partidos del Socialismo Democrático. \"Que haya un senador, Juan Luis Castro, que sea cobarde, que tenga actitudes miserables, que ensucie la marca Socialismo Democrático, no significa que eso vaya a afectar las relaciones entre los partidos, mucho menos la relación colaborativa entre las bancadas \", expresó. Araya llamó a Castro \"a que actúe con generosidad, dé un paso al costado , descomprima este tema y, lo más importante, asuma su responsabilidad\". Libertarios plantearon renegociar el acuerdo por la presidencia del Senado La senadora Vanessa Kaiser y el presidente del PNL, el diputado Johannes Kaiser , plantearon renegociar el acuerdo administrativo que rige la conducción del Senado. La colectividad rechaza que el próximo año la presidencia de la corporación quede en manos del PS, dados los cuestionamientos a su comité de senadores por el \"caso firmas\". El jefe de la Unidad Regional Anticorrupción de Valparaíso, Claudio Rebeco , confirmó que los senadores socialistas Juan Luis Castro y Paulina Vodanovic tienen la calidad de imputados en la investigación.",
-          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-aprobo-presupuesto-2027-y-lo-despacho-a-su-ultimo-tramite-en-el/2026-11-25/145127.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261125/imag/foto_0000000220261125145127.jpg",
-          "published_raw": "Wed, 25 Nov 2026 14:51:27 -0300",
-          "published_at": "2026-11-25T14:51:27-0300",
+          "title": "El Congreso aprobó la largamente esperada ley de Sala Cuna Universal",
+          "description": "Tras cerca de ocho años de debate, el Senado aprobó y despachó este miércoles el proyecto de Sala Cuna Universal , que busca equiparar el derecho entre trabajadoras, trabajadores -bajo el Código del Trabajo- e independientes con hijos de hasta dos años mediante la creación de un nuevo modelo de acceso y del Fondo de Sala Cuna. En su último trámite, los senadores sometieron a votación los cambios introducidos por la Cámara Baja, analizaron la nueva cotización que solventa el fondo, el derecho de los padres a acceder al beneficio y los establecimientos educacionales que podrán participar de la ley. La normativa termina con el requisito que exige proveer este derecho a las empresas que cuenten con 20 o más trabajadoras. Tras el cierre de la sesión, encabezado por la presidenta del Senado, Paulina Núñez (RN), los ministros del Trabajo, Tomás Rau ; de Educación, María Paz Arzola ; y de la Secretaría General de la Presidencia, José García Ruminot, se reunieron en el centro de la Sala junto a parlamentarios del oficialismo para celebrar y fotografiarse tras el respaldo obtenido en el hemiciclo. 👶 Una de las reformas más relevantes en materia de cuidados y trabajo ya es ley. El Senado despachó esta noche el proyecto de Sala Cuna Universal, que amplía el acceso a este derecho para trabajadoras, trabajadores e independientes, eliminando la exigencia que condicionaba el beneficio a empresas con 20 o más trabajadoras. La normativa busca avanzar en igualdad de oportunidades, corresponsabilidad parental y conciliación entre la vida laboral y familiar. 📲Más detalles en https://t.co/NoKV9p3Njs — Senado Chile (@Senado_Chile) November 26, 2026 Financiamiento y puntos pendientes El nuevo sistema será financiado a través del Fondo de Sala Cuna,   que se nutrirá con recursos provenientes del seguro de cesantía , tanto de las cuentas individuales de los trabajadores como del Fondo Solidario de Cesantía. Debido a la necesidad de reunir y alimentar los recursos de este fondo antes de iniciar los pagos, la normativa establece que la ley entrará en vigencia un año después de su promulgación. Pese al despacho de la iniciativa, quedaron algunos aspectos pendientes de definición como la fijación de un límite al copago en los casos en que la mensualidad cobrada por los jardines infantiles o salas cunas supere el monto del subsidio o subvención que el sistema defina próximamente para los beneficiarios. La senadora del Frente Amplio Beatriz Sánchez advirtió que \"este proyecto, desde el momento en que permite un copago sin techo, deja de ser universal, porque el copago puede hacer inviable el acceso \". En contraste, el senador Rojo Edwards (independiente-Renovación Nacional) defendió \"el derecho de los padres de proporcionar un copago\" y sostuvo que el copago comprometido por el Gobierno correspondería al 20% de la subvención, equivalente a unos 80.000 pesos.  El ministro Rau explicó que tras la promulgación se constituirá una comisión técnica para determinar los aportes y la sostenibilidad financiera del mecanismo . \"Uno de los cálculos fue con 6 UTM, que son un poquito más de 400.000 pesos, pero eso lo va a determinar una comisión de expertos\", señaló. La implementación comenzará en un plazo de 12 meses, incorporando inicialmente a hijos e hijas de trabajadoras regidas por el Código del Trabajo y trabajadoras de casa particular. La discusión de la Sala Cuna Universal se extendió durante ocho años y abarcó tres administraciones : El proyecto fue ingresado al final del segundo Gobierno de Sebastián Piñera, debatido mayoritariamente bajo el mandato de Gabriel Boric , y finalmente logró reunir el respaldo necesario para su aprobación bajo la gobernanza de José Antonio Kast. Un día histórico para Chile. 🇨🇱 Después de más de una década de espera, la Sala Cuna Universal es una realidad. Ya no dependerá de cuántas mujeres trabajen en una empresa: será un derecho para trabajadoras, trabajadores e independientes. 💙 #SalaCunaHistórica https://t.co/AEWtBYorVL — Gobierno de Chile (@GobiernodeChile) November 26, 2026 Presidenta del Senado: \"Esta es una verdadera política de Estado\" La presidenta de la Cámara Alta, Paulina Núñez , celebró la aprobación de la iniciativa y expresó que en el Congreso están \"muy emocionados, contentos y satisfechos, porque hoy ha sido un día histórico para Chile . No solo despachamos la Ley de Presupuestos, con amplios apoyos tanto en la Cámara como en el Senado, sino que también ponemos fin a una discriminación hacia las mujeres que se arrastraba por más de 100 años\". La parlamentaria valoró el resultado al recordar que la tramitación se extendió por varios años: \"Esta es una verdadera política de Estado , que nace con el Presidente Piñera, avanza con el Presidente Boric y se concreta con el Presidente Kast . Un logro que ha sido posible, principalmente, gracias al trabajo organizado de la sociedad civil y a la convicción de senadores y senadoras, más allá de las diferencias que pudieron existir en algunos puntos\", resaltó. \"Estamos en un momento crucial para decirles a todas las chilenas, especialmente a las madres trabajadoras, que nunca más tendrán que elegir entre el cuidado de sus hijos y su posibilidad de desarrollarse, ser económicamente independientes, desplegar sus talentos y salir adelante\" , concluyó.",
+          "url": "https://www.cooperativa.cl/noticias/pais/mujer/el-congreso-aprobo-la-largamente-esperada-ley-de-sala-cuna-universal/2026-11-25/205728.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261125/imag/foto_0000001320261125205728.jpg",
+          "published_raw": "Wed, 25 Nov 2026 20:57:28 -0300",
+          "published_at": "2026-11-25T20:57:28-0300",
           "country": "Chile",
           "region": "Chile",
           "language": "es",
-          "score_institutional": 6,
+          "score_institutional": 8,
           "score_elections": 1,
           "score_international": 0,
           "score_conflict": 0,
-          "score_policy": 2,
-          "score_ideology": 2,
+          "score_policy": 1,
+          "score_ideology": 0,
           "score_actor": 5,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 16,
+          "political_evidence": 15,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
+          "secondary_topic": "Elecciones y opinión pública",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-001"
+          "cluster_id": "PML-EVENT-004"
         }
       ]
     },
     {
       "position": 2,
-      "cluster_id": "PML-EVENT-021",
+      "cluster_id": "PML-EVENT-018",
       "title": "Brasil retira definitivamente a su embajador en Buenos Aires tras un nuevo ataque en plena crisis bilateral",
       "url": "https://elpais.com/america/2026-11-25/brasil-retira-definitivamente-a-su-embajador-de-buenos-aires-tras-un-nuevo-ataque-en-plena-crisis-bilateral.html",
       "representative_source": "EL PAÍS",
@@ -119,12 +121,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 63.4,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 66.4
+        "score": 61.4,
+        "level": "MEDIA",
+        "editorial_utility": 64.4
       },
       "selection": {
-        "reason": "PML 63.4; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 61.4; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -182,13 +184,121 @@
           "secondary_topic": "Relaciones internacionales",
           "decision": "ACCEPT",
           "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-021"
+          "cluster_id": "PML-EVENT-018"
         }
       ]
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-012",
+      "cluster_id": "PML-EVENT-001",
+      "title": "Congreso despachó el Presupuesto 2027, primero elaborado por el Gobierno de Kast",
+      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/congreso-despacho-el-presupuesto-2027-primero-elaborado-por-el-gobierno/2026-11-25/183722.html",
+      "representative_source": "Cooperativa",
+      "topic": "Instituciones y gobierno",
+      "event_type": "GENERAL_POLITICAL_EVENT",
+      "geography": {
+        "group": "Chile",
+        "country": "Chile"
+      },
+      "relevance": {
+        "score": 61.9,
+        "level": "MEDIA",
+        "editorial_utility": 57.9
+      },
+      "selection": {
+        "reason": "PML 61.9; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "tier": "STRICT",
+        "strict_eligible": true,
+        "selector": "PML Top Stories Selector v0.3"
+      },
+      "coverage": {
+        "article_count": 2,
+        "source_count": 1,
+        "sources": "Cooperativa"
+      },
+      "first_seen": "2026-11-25T14:51:27-0300",
+      "last_seen": "2026-11-25T18:37:22-0300",
+      "entities": [
+        "congreso",
+        "senado",
+        "chile"
+      ],
+      "event_terms": [
+        "oposicion",
+        "hospitales"
+      ],
+      "analysis": {
+        "summary": "El Congreso Nacional despachó definitivamente este miércoles el proyecto de Ley de Presupuestos 2027 , en lo que constituye la primera tramitación presupuestaria del Gobierno del Presidente José Antonio Kast . Mientras el Ejecutivo destacó el resultado como una señal de responsabilidad fiscal y continuidad, desde la oposición cuestionaron el carácter regresivo de la propuesta y sostuvieron que los recursos recuperados durante la discusión corresponden a programas y partidas…",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
+        "watch_next": [
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
+        ],
+        "status": "ready"
+      },
+      "articles": [
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Congreso despachó el Presupuesto 2027, primero elaborado por el Gobierno de Kast",
+          "description": "El Congreso Nacional despachó definitivamente este miércoles el proyecto de Ley de Presupuestos 2027 , en lo que constituye la primera tramitación presupuestaria del Gobierno del Presidente José Antonio Kast . Mientras el Ejecutivo destacó el resultado como una señal de responsabilidad fiscal y continuidad, desde la oposición cuestionaron el carácter regresivo de la propuesta y sostuvieron que los recursos recuperados durante la discusión corresponden a programas y partidas que ya existían. Tras la aprobación en la Cámara de Diputadas y Diputados y posteriormente en el Senado , el ministro de Hacienda, Jorge Quiroz , valoró el trabajo realizado durante la negociación y reconoció el apoyo de parlamentarios oficialistas para sacar adelante la iniciativa, despachada del Congreso con 136.000 millones de pesos más que lo planteado en el proyecto original . \"(La aprobación) ha sido con la colaboración de muchos amigos míos que vienen de la política y que me han ayudado, como los que tengo acá y me están acompañando, a caminar este proceso\", señaló el secretario de Estado en el Parlamento. \"Fue una votación muy contundente. Quiero agradecer a muchas personas, partiendo por las bancadas del oficialismo, tanto en la Cámara como en el Senado, los jefes de bancada y de partido. Quisiera también agradecer a muchos otros líderes de partidos que no son del oficialismo, algunos muy cercanos, que apoyaron en distintos minutos e instancias, y también a partidos que no son del Gobierno, pero que de modo constructivo estuvieron para los acuerdos\", resaltó jefe de Teatinos 120. Al referirse al foco del proyecto, Quiroz explicó que \"es un plan que contiene importantes aumentos en ítems de reactivación, como obras públicas y también viviendas . Responde al objetivo de la seguridad, al objetivo ciudadano, pero también mira los objetivos fiscales, la eficiencia del gasto y la estabilidad a futuro\". ¡#Presupuesto2027 aprobado! 🇨🇱 Más recursos para atender las necesidades de las familias chilenas, con cuatro grandes urgencias como prioridad: 📈 Crecimiento, trabajo y reconstrucción. 🚔 Un Chile más seguro. 👧 Proteger a los niños más vulnerables. 🤝 Proteger los beneficios sociales correctamente entregados. Desliza y conoce las principales medidas que contempla el presupuesto para el próximo año, desde la creación de empleos y el fortalecimiento de la seguridad hasta una mayor inversión en salud, educación y protección social. Un presupuesto que responde hoy, sin comprometer el mañana. #ParaVivirMejorAhora — Gobierno de Chile (@GobiernodeChile) November 25, 2026 Según Hacienda, el Presupuesto 2027 prioriza el crecimiento y el empleo, la seguridad y la niñez, y resguarda los beneficios sociales establecidos por ley, con responsabilidad fiscal. Así, por ejemplo, Obras Públicas contará con una cartera extraordinaria de 375.850 millones de pesos en 241 contratos en todas las regiones, orientada a crear empleo; la PDI crece 7,4% y Carabineros, 3,6%; la reparación de niñas, niños y adolescentes víctimas de graves vulneraciones aumenta 19,3%, y la Pensión Garantizada Universal (PGU)  suma 7 billones para 2,2 millones de personas mayores. \" Es un presupuesto que aumenta el gasto público, sube 1,7% en términos reales para el próximo año . Se cumplen, como siempre lo dijimos, todas las leyes que hay que cumplir en materia social. Y ponemos énfasis donde la ciudadanía nos ha pedido que estén los énfasis\", subrayó el ministro. Principales acuerdos En Educación, el acuerdo con la Cuarta Subcomisión Mixta de Presupuestos, presidida por la senadora Yasna Provoste (DC), destina 35.000 millones de pesos a las Becas Acceso TIC (\"Yo elijo mi PC\" ) , que entregan computadores a estudiantes de 7° básico, y suma recursos para la educación superior, escolar y parvularia. En Salud, el Presupuesto suma 28.208 millones para la Ley Ricarte Soto , que cubre tratamientos de alto costo, y destina 10.910 millones a Hospital Digital, que entrega atención de especialistas a distancia en horario continuado. Quiroz aseguró que \"la palabra recorte no es una buena palabra (para definir el erario aprobado), porque es un Presupuesto que aumenta el gasto , se cumplen todas las leyes que hay que cumplir en materia social. Siempre dijimos Ricarte Soto estaba financiada, después lo explicitamos mejor, gratuidad universitaria (también) y ponemos énfasis donde la ciudadanía nos ha pedido que estén los énfasis\". En Trabajo, el Presupuesto destina 41.395 millones de pesos a la Formación en el Puesto de Trabajo del Sence , que permite a las personas aprender un oficio mientras trabajan, y refuerza la capacitación en oficios. Para el sistema de pensiones, el Ejecutivo comprometió una asignación de hasta 2,2 millones de UTM, cerca de 160 millones de dólares, al Fondo Autónomo de Protección Previsional (FAPP). En regiones, el acuerdo con los gobernadores regionales y senadores del oficialismo y de la oposición suma 94.897 millones de pesos para inversión regional y permite que los gobiernos regionales ejecuten sus presupuestos desde enero. Junto con la ley, se acordó un protocolo con 36 compromisos de trabajo para 2027, entre ellos mesas técnicas en educación y vivienda, el monitoreo de las listas de espera en salud y un seguimiento trimestral de la inversión pública que prioriza los proyectos que generan empleo. Algunos de estos compromisos servirán de insumo para el Presupuesto 2028. 📊 El Congreso despachó el proyecto de Ley de Presupuestos 2027. La Sala del Senado aprobó el informe de la Comisión Mixta que resolvió las diferencias entre ambas cámaras, dejando la iniciativa en condiciones de convertirse en ley. Entre las materias abordadas estuvieron los recursos para Interior, Agricultura, Mujer y Equidad de Género, Culturas, Justicia, sitios de memoria, el Instituto Nacional de Deportes (IND), programas de Sence y la Ley de Seguridad Municipal. Durante el debate, senadoras y senadores valoraron la reposición de recursos para el deporte y los sitios de memoria, mientras que también plantearon reparos por recortes presupuestarios en programas vinculados al mundo rural y a las mujeres. Con esta votación concluye la tramitación legislativa del erario nacional para 2027. 📲 Más detalles en https://t.co/NoKV9p3Njs — Senado Chile (@Senado_Chile) November 25, 2026 Desde el oficialismo, el diputado UDI Jaime Coloma destacó que se incorporaran mecanismos de fiscalización sobre los recursos destinados a los expresidentes de la República . \"Como UDI, nos hubiera encantado poder poner fin a los fondos y las asignaciones de los expresidentes de la República, pero estoy feliz: logramos que, de una vez por todas, los fondos de los expresidentes pasen a Segpres, porque ahora Contraloría va a poder fiscalizar todos los fondos, asignaciones y también las oficinas de los expresidentes de la República \", afirmó. En contraste, el diputado republicano Agustín Romero manifestó su \"discrepancia con el financiamiento de los sitios de memoria y con las asignaciones al Instituto Nacional de Derechos Humanos , que objetamos profundamente\". Además, reiteró su rechazo al financiamiento de terapias hormonales para menores de 18 años en procesos de transición de género. Oposición cuestiona la estrategia presupuestaria del Gobierno Desde la oposición, y con un tono irónico, la senadora independiente Alejandra Sepúlveda cuestionó la estrategia de negociación de Quiroz y sostuvo que la recuperación de algunos recursos no representa necesariamente una ganancia para la ciudadanía, considerando que se trataba de programas que inicialmente contaban con financiamiento. \"Yo quiero reconocer la inteligencia del ministro. Teníamos 100, quita 70 y, después de quitar 70, tira y afloja, entrega 30 y creemos que todos ganamos. Y no es así, porque teníamos 100 antes\", planteó. Entre los recursos que la oposición logró recuperar durante la discusión se encuentran parte del financiamiento de la Ley Ricarte Soto, el programa de entrega de computadores y horas docentes en el Ministerio de Educación. Sin embargo, la legisladora por O'Higgins advirtió que otras partidas, como los recursos destinados a Prodemu y los 40.000 millones de pesos para Agricultura , no fueron restituidas. Sala Cuna Universal y tensiones en el Senado por caso Firmas Con el Presupuesto 2027 ya despachado, la atención del Congreso se trasladó al proyecto de Sala Cuna Universal , una iniciativa que ha transitado por tres gobiernos y que enfrenta su última etapa legislativa. La propuesta debe someterse hoy a 26 votaciones en tercer trámite constitucional . Aquellas disposiciones que no consiguieran mayoría tendrían que ser revisadas por una comisión mixta, lo que podría extender su tramitación. En paralelo, el Senado continuó enfrentando las repercusiones del denominado caso Firmas . La investigación busca esclarecer cómo se incorporaron las firmas de los senadores Ximena Órdenes (independiente-PPD) y Fidel Espinoza (Partido Socialista) a una solicitud para retirar sus permisos constitucionales mientras ambos acompañaban al Presidente José Antonio Kast en su gira por Asia. Los senadores de la bancada PPD solicitaron que el socialista Juan Luis Castro  evalúe dejar la jefatura del comité parlamentario que comparten ambas colectividades junto al Partido Liberal. El presidente del PPD, Raúl Soto , respaldó la actuación de los senadores de su partido y afirmó que la colectividad acompañará las gestiones para resolver las diferencias. \"Quiero también respaldar a los cuatro senadores del PPD que han actuado en esto de forma unida, coordinada; han tomado decisiones, tienen un curso de acción y como PPD nos limitamos a acompañarlos y apoyarlos en ese proceso para acercar posiciones\", señaló. Por su parte, la presidenta del PS, la senadora Paulina Vodanovic , llamó a abordar las diferencias mediante conversaciones privadas y descartó que exista una definición sobre eventuales compensaciones políticas. \"Las comisiones siempre pueden ser evaluadas; yo no sé eso de las tres comisiones. Yo creo que todas estas discusiones se tienen que dar en un ámbito privado entre los partidos, así que vamos a hacerlo con toda tranquilidad y tiempo, porque lo que sí hay es un muy buen ánimo de todas las partes \", declaró la timonel.",
+          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/congreso-despacho-el-presupuesto-2027-primero-elaborado-por-el-gobierno/2026-11-25/183722.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261125/imag/foto_0000002420261125183722.jpg",
+          "published_raw": "Wed, 25 Nov 2026 18:37:22 -0300",
+          "published_at": "2026-11-25T18:37:22-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 12,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 1,
+          "score_policy": 6,
+          "score_ideology": 2,
+          "score_actor": 9,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 31,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-001"
+        },
+        {
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Cámara aprobó Presupuesto 2027 y lo despachó a su último trámite en el Senado",
+          "description": "La Cámara de Diputadas y Diputados aprobó este miércoles el informe de la comisión mixta sobre el Presupuesto 2027 . El texto, que resuelve las diferencias entre ambas cámaras , pasó al Senado para su última votación. El informe recibió 113 votos a favor, nueve en contra y nueve abstenciones . Los votos de rechazo provinieron principalmente del Partido Nacional Libertario (PNL), mientras que las abstenciones se registraron en las bancadas del Frente Amplio (FA) y del Partido Comunista (PC). La votación abarcó 10 asuntos pendientes , entre ellos la reposición de las partidas de los ministerios del Interior, de Agricultura, de la Mujer y la Equidad de Género y de las Culturas, las Artes y el Patrimonio . El acuerdo también incluyó recursos para sitios de memoria y para el funcionamiento de las oficinas de los expresidentes de la República. Antes de la votación, una diputada del Partido Republicano recordó el natalicio del dictador Augusto Pinochet y se refirió a él como presidente. La intervención provocó reclamos de la oposición e interrumpió por momentos el debate en la Sala. PRESUPUESTO 2027 📰 | Cámara supera últimos nudos del Presupuesto 2027. https://t.co/DdwRG4Zqf7 https://t.co/0svotO68x9 — Diputadas y Diputados de Chile (@Camara_cl) 25 de noviembre de 2026 La UDI valoró el acuerdo y los republicanos reiteraron sus reparos El diputado Jaime Coloma (UDI) valoró que los recursos destinados a las oficinas de los expresidentes pasen al Ministerio Secretaría General de la Presidencia (Segpres), aunque señaló que su partido habría preferido eliminar esas asignaciones. \"Logramos que de una vez por todas los fondos del expresidente pasen a Segpres, porque ahora Contraloría va a poder fiscalizar todos los fondos, asignaciones y también las oficinas de los expresidentes de la República \", subrayó. Por su parte, el diputado Agustín Romero (Partido Republicano) reiteró el rechazo de su colectividad al financiamiento de los sitios de memoria y a las asignaciones al Instituto Nacional de Derechos Humanos (INDH) . \"Mantenemos esa posición y con la misma claridad seguiremos trabajando para que nunca más en Chile se financien terapias hormonales para transición de género en menores de 18 años\", manifestó. Schneider: \"Le hemos doblado la mano a un Gobierno que quería recortar aún más\" Desde la oposición, la diputada Emilia Schneider (FA) afirmó que durante la tramitación se logró contener la rebaja de horas docentes en los servicios locales de educación pública, así como los recortes previstos para la educación superior. \" Le hemos doblado la mano a un Gobierno que quería recortar aún más . Porque el primer Presupuesto que presentó el Gobierno destruía la educación chilena\", sostuvo. La diputada destacó que \"se reponen las becas TIC y los computadores, pese a que en un momento el Gobierno insistió en prestar los computadores, un absurdo\". El Senado revisará el Presupuesto y Sala Cuna Universal La votación del informe de la comisión mixta quedó prevista para la tarde de este miércoles en el Senado. En la tabla también figura el proyecto de Sala Cuna Universal . La sesión se realizará en medio de la polémica por el \"caso firmas\" . El diputado de la bancada del PPD Jaime Araya , hermano del senador Pedro Araya (PPD), cuestionó al senador Juan Luis Castro (PS) , aunque descartó que la controversia afecte la relación entre los partidos del Socialismo Democrático. \"Que haya un senador, Juan Luis Castro, que sea cobarde, que tenga actitudes miserables, que ensucie la marca Socialismo Democrático, no significa que eso vaya a afectar las relaciones entre los partidos, mucho menos la relación colaborativa entre las bancadas \", expresó. Araya llamó a Castro \"a que actúe con generosidad, dé un paso al costado , descomprima este tema y, lo más importante, asuma su responsabilidad\". Libertarios plantearon renegociar el acuerdo por la presidencia del Senado La senadora Vanessa Kaiser y el presidente del PNL, el diputado Johannes Kaiser , plantearon renegociar el acuerdo administrativo que rige la conducción del Senado. La colectividad rechaza que el próximo año la presidencia de la corporación quede en manos del PS, dados los cuestionamientos a su comité de senadores por el \"caso firmas\". El jefe de la Unidad Regional Anticorrupción de Valparaíso, Claudio Rebeco , confirmó que los senadores socialistas Juan Luis Castro y Paulina Vodanovic tienen la calidad de imputados en la investigación.",
+          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-aprobo-presupuesto-2027-y-lo-despacho-a-su-ultimo-tramite-en-el/2026-11-25/145127.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261125/imag/foto_0000000220261125145127.jpg",
+          "published_raw": "Wed, 25 Nov 2026 14:51:27 -0300",
+          "published_at": "2026-11-25T14:51:27-0300",
+          "country": "Chile",
+          "region": "Chile",
+          "language": "es",
+          "score_institutional": 6,
+          "score_elections": 1,
+          "score_international": 0,
+          "score_conflict": 0,
+          "score_policy": 2,
+          "score_ideology": 2,
+          "score_actor": 5,
+          "score_noise": 0,
+          "score_accident": 0,
+          "political_evidence": 16,
+          "primary_topic": "Instituciones y gobierno",
+          "secondary_topic": "Economía y políticas públicas",
+          "decision": "ACCEPT",
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-001"
+        }
+      ]
+    },
+    {
+      "position": 4,
+      "cluster_id": "PML-EVENT-009",
       "title": "Caso Firmas: Fiscalía investiga a los senadores Castro y Vodanovic como imputados",
       "url": "https://www.cooperativa.cl/noticias/pais/politica/senado/caso-firmas-fiscalia-investiga-a-los-senadores-castro-y-vodanovic-como/2026-11-25/150312.html",
       "representative_source": "Cooperativa",
@@ -199,12 +309,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 61.3,
+        "score": 60,
         "level": "MEDIA",
-        "editorial_utility": 57.3
+        "editorial_utility": 54
       },
       "selection": {
-        "reason": "PML 61.3; diversidad relajada para completar el brief; nuevo tipo de evento",
+        "reason": "PML 60; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -255,12 +365,12 @@
           "secondary_topic": "Ideología y competencia política",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-012"
+          "cluster_id": "PML-EVENT-009"
         }
       ]
     },
     {
-      "position": 4,
+      "position": 5,
       "cluster_id": "PML-EVENT-003",
       "title": "¿Y si cae la acusación contra Rabat? La UDI ve un \"bochorno\" y el FA apunta a la minoría opositora",
       "url": "https://www.cooperativa.cl/noticias/pais/gobierno/gabinete/y-si-cae-la-acusacion-contra-rabat-la-udi-ve-un-bochorno-y-el-fa/2026-11-25/110811.html",
@@ -272,12 +382,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 59.8,
+        "score": 58,
         "level": "MEDIA",
-        "editorial_utility": 52.8
+        "editorial_utility": 49
       },
       "selection": {
-        "reason": "PML 59.8; diversidad relajada para completar el brief",
+        "reason": "PML 58; diversidad relajada para completar el brief",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -331,79 +441,6 @@
           "cluster_id": "PML-EVENT-003"
         }
       ]
-    },
-    {
-      "position": 5,
-      "cluster_id": "PML-EVENT-006",
-      "title": "Comisión mixta aprobó recursos para sitios de memoria y oficinas de expresidentes",
-      "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/comision-mixta-aprobo-recursos-para-sitios-de-memoria-y-oficinas-de/2026-11-24/212107.html",
-      "representative_source": "Cooperativa",
-      "topic": "Instituciones y gobierno",
-      "event_type": "INSTITUTIONAL_DECISION",
-      "geography": {
-        "group": "Chile",
-        "country": "Chile"
-      },
-      "relevance": {
-        "score": 58.7,
-        "level": "MEDIA",
-        "editorial_utility": 49.7
-      },
-      "selection": {
-        "reason": "PML 58.7; diversidad relajada para completar el brief",
-        "tier": "STRICT",
-        "strict_eligible": true,
-        "selector": "PML Top Stories Selector v0.3"
-      },
-      "coverage": {
-        "article_count": 1,
-        "source_count": 1,
-        "sources": "Cooperativa"
-      },
-      "first_seen": "2026-11-24T21:21:07-0300",
-      "last_seen": "2026-11-24T21:21:07-0300",
-      "entities": "senado",
-      "event_terms": [],
-      "analysis": {
-        "summary": "La  comisión mixta  conformada para resolver las discrepancias entre la Cámara Baja y el Senado respecto al proyecto de ley de Presupuesto 2027 sesionó este martes y repuso las partidas de los ministerios del Interior, Agricultura, Mujer y Cultura - que habían quedado pendientes en las etapas previas - además de otras asignaciones específicas.",
-        "why_it_matters": "Es relevante porque involucra una decisión institucional que puede modificar reglas, prioridades o el desarrollo de la agenda pública. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
-        "watch_next": [
-          "Las siguientes etapas formales de la decisión y su implementación por las instituciones involucradas.",
-          "Nuevas resoluciones, actos administrativos o pronunciamientos oficiales vinculados al proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
-        ],
-        "status": "ready"
-      },
-      "articles": [
-        {
-          "source_id": "cooperativa_politica",
-          "source": "Cooperativa",
-          "title": "Comisión mixta aprobó recursos para sitios de memoria y oficinas de expresidentes",
-          "description": "La  comisión mixta  conformada para resolver las discrepancias entre la Cámara Baja y el Senado respecto al proyecto de ley de Presupuesto 2027 sesionó este martes y repuso las partidas de los ministerios del Interior, Agricultura, Mujer y Cultura - que habían quedado pendientes en las etapas previas - además de otras asignaciones específicas. La instancia -conformada por cinco diputados y cinco senadores- aprobó recursos para los sitios de memoria y el financiamiento de los gastos de oficina de los expresidentes   de la República , que habían sido rechazados dos veces por parte del oficialismo en la Cámara Baja . Concluida esta labor, faltan sólo las votaciones finales, este miércoles -en sesión matinal en la Cámara, y en la tarde en el Senado-, para que quede despachado definitivamente el Presupuesto 2027, el primero elaborado por el Gobierno de José Antonio Kast . \" El proceso ha sido muy fluido, relativamente rápido \", comentó una vez terminado el trabajo de la comisión mixta el ministro de Hacienda, Jorge Quiroz . \"Los temas se fueron acotando, repusimos (los recursos para) los sitios de memoria , los expresidentes en lo que respecta a las asignaciones, a los gastos de representación y otros, que van a ser de ahora en adelante girados desde la Segpres y, por lo tanto, sujetos al control de la Contraloría General de la República\", destacó el jefe de la billetera fiscal. Participaron en la comisión los diputados Agustín Romero (Partido Republicano), Diego Schalper (RN), Flor Weisse (UDI), Jorge Brito (Frente Amplio) y Daniel Manouchehri (Partido Socialista); y los senadores Javier Macaya (UDI), Rodolfo Carter (independiente-Partido Republicano), María José Gatica (Renovación Nacional), Paulina Vodanovic y Daniella Cicardini (PS).",
-          "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/comision-mixta-aprobo-recursos-para-sitios-de-memoria-y-oficinas-de/2026-11-24/212107.html",
-          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261124/imag/foto_0000000220261124212107.jpg",
-          "published_raw": "Tue, 24 Nov 2026 21:21:07 -0300",
-          "published_at": "2026-11-24T21:21:07-0300",
-          "country": "Chile",
-          "region": "Chile",
-          "language": "es",
-          "score_institutional": 6,
-          "score_elections": 0,
-          "score_international": 0,
-          "score_conflict": 0,
-          "score_policy": 1,
-          "score_ideology": 1,
-          "score_actor": 5,
-          "score_noise": 0,
-          "score_accident": 0,
-          "political_evidence": 13,
-          "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Economía y políticas públicas",
-          "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-006"
-        }
-      ]
     }
   ],
   "chile_brief": {
@@ -414,7 +451,79 @@
     "stories": [
       {
         "position": 1,
-        "cluster_id": "PML-EVENT-015",
+        "cluster_id": "PML-EVENT-006",
+        "title": "Comisión mixta aprobó recursos para sitios de memoria y oficinas de expresidentes",
+        "topic": "Instituciones y gobierno",
+        "event_type": "INSTITUTIONAL_DECISION",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/comision-mixta-aprobo-recursos-para-sitios-de-memoria-y-oficinas-de/2026-11-24/212107.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 56.7,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 79,
+            "freshness": 72,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-24T21:21:07-0300",
+        "last_seen": "2026-11-24T21:21:07-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Comisión mixta aprobó recursos para sitios de memoria y oficinas de expresidentes",
+            "description": "La  comisión mixta  conformada para resolver las discrepancias entre la Cámara Baja y el Senado respecto al proyecto de ley de Presupuesto 2027 sesionó este martes y repuso las partidas de los ministerios del Interior, Agricultura, Mujer y Cultura - que habían quedado pendientes en las etapas previas - además de otras asignaciones específicas. La instancia -conformada por cinco diputados y cinco senadores- aprobó recursos para los sitios de memoria y el financiamiento de los gastos de oficina de los expresidentes   de la República , que habían sido rechazados dos veces por parte del oficialismo en la Cámara Baja . Concluida esta labor, faltan sólo las votaciones finales, este miércoles -en sesión matinal en la Cámara, y en la tarde en el Senado-, para que quede despachado definitivamente el Presupuesto 2027, el primero elaborado por el Gobierno de José Antonio Kast . \" El proceso ha sido muy fluido, relativamente rápido \", comentó una vez terminado el trabajo de la comisión mixta el ministro de Hacienda, Jorge Quiroz . \"Los temas se fueron acotando, repusimos (los recursos para) los sitios de memoria , los expresidentes en lo que respecta a las asignaciones, a los gastos de representación y otros, que van a ser de ahora en adelante girados desde la Segpres y, por lo tanto, sujetos al control de la Contraloría General de la República\", destacó el jefe de la billetera fiscal. Participaron en la comisión los diputados Agustín Romero (Partido Republicano), Diego Schalper (RN), Flor Weisse (UDI), Jorge Brito (Frente Amplio) y Daniel Manouchehri (Partido Socialista); y los senadores Javier Macaya (UDI), Rodolfo Carter (independiente-Partido Republicano), María José Gatica (Renovación Nacional), Paulina Vodanovic y Daniella Cicardini (PS).",
+            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/comision-mixta-aprobo-recursos-para-sitios-de-memoria-y-oficinas-de/2026-11-24/212107.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261124/imag/foto_0000000220261124212107.jpg",
+            "published_raw": "Tue, 24 Nov 2026 21:21:07 -0300",
+            "published_at": "2026-11-24T21:21:07-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 6,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 1,
+            "score_ideology": 1,
+            "score_actor": 5,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 13,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Economía y políticas públicas",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-006"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 22,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 78.7
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-012",
         "title": "Diputado Moreno: Pedimos que no exista, con fondos públicos, hormonización de menores de 18 años",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
@@ -425,11 +534,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 51.8,
+          "score": 49.8,
           "level": "BAJA",
           "components": {
             "political_impact": 50,
-            "freshness": 88,
+            "freshness": 80,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 28
@@ -469,7 +578,7 @@
             "secondary_topic": "Economía y políticas públicas",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-015"
+            "cluster_id": "PML-EVENT-012"
           }
         ],
         "article_count": 1,
@@ -480,103 +589,31 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 72.8
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-007",
-        "title": "Senado postergó para este miércoles la votación del proyecto de Sala Cuna Universal",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senado-postergo-para-este-miercoles-la-votacion-del-proyecto-de-sala/2026-11-24/191754.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 49,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 54,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 28
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-24T19:17:54-0300",
-        "last_seen": "2026-11-24T19:17:54-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Senado postergó para este miércoles la votación del proyecto de Sala Cuna Universal",
-            "description": "La Sala del Senado postergó para mañana, miércoles, la votación del proyecto de Sala Cuna Universal . El debate comenzó durante la jornada del martes, pero fue aplazada luego de que la senadora Yasna Provoste (Democracia Cristiana) solicitara una segunda discusión . La parlamentaria defendió la decisión y descartó que responda a una estrategia para retrasar la tramitación, asegurando que el objetivo es \"resguardar la calidad de la educación de nuestros niños y niñas\" , según reprodujo Emol .  La exministra de Educación manifestó su preocupación por los estándares de los establecimientos que podrán recibir recursos del sistema, advirtiendo que el proyecto no garantizaría que los fondos lleguen exclusivamente a instituciones con reconocimiento oficial o autorización de funcionamiento. \"Nosotros creemos que es importante que esta iniciativa resguarde la calidad\", enfatizó, junto con llamar al Gobierno a aprovechar las horas previas a la votación para alcanzar un acuerdo más amplio en el Senado. Provoste también cuestionó la fórmula de financiamiento , aunque valoró algunas modificaciones incorporadas durante el segundo trámite en la Cámara de Diputadas y Diputados, particularmente las limitaciones al copago y la creación de un fondo solidario dirigido al 60% de menores ingresos . \" Yo tengo una opinión contraria al cómo se financia , pero, más allá de eso, uno no puede sino valorar estas mejoras que ha tenido el proyecto en su tramitación\", señaló. La iniciativa elimina el requisito que actualmente obliga a las empresas con 20 o más trabajadoras a proporcionar sala cuna y crea un fondo solidario financiado mediante una cotización previsional de 0,30%, a cargo de empleadores y trabajadores independientes, según corresponda. Durante el debate legislativo también surgieron cuestionamientos por el impacto que la fórmula de financiamiento podría tener en el Seguro de Cesantía y las cotizaciones previsionales . Entre los argumentos a favor, algunos senadores sostuvieron que \"técnicamente se nos ha demostrado que esta medida no afecta las pensiones\". El proyecto contempla una implementación gradual: al primer año incorporará a trabajadoras regidas por el Código del Trabajo, incluidas las de casa particular; al tercer año sumará nuevos grupos de trabajadores, y al cuarto año alcanzará a todos los dependientes, independientes y funcionarios del sector público. Rau: \"Me voy a morir de vergüenza por decirles a las mujeres de nuestro país: 'Sigan esperando'\" Desde el Gobierno, el ministro del Trabajo, Tomás Rau , manifestó su molestia por la nueva postergación de la votación del proyecto de Sala Cuna Universal. \" Seguir dilatando esta discusión creo que no contribuye y, más bien, perjudica . Ayer recibimos a la senadora; yo nunca voy a negar una reunión de trabajo, incluso a alguien que haga maniobras dilatorias de un proyecto tan importante y tan necesario para Chile que sabemos que lo vamos a aprobar\", sostuvo el secretario de Estado. En esa línea, Rau expresó su preocupación por un eventual nuevo retraso en la aprobación de la iniciativa: \"Si eso no ocurre (su votación), me voy a morir de vergüenza por decirles a las mujeres de nuestro país: 'Sigan esperando '\".",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/agenda-legislativa/senado-postergo-para-este-miercoles-la-votacion-del-proyecto-de-sala/2026-11-24/191754.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261124/imag/foto_0000000120261124191754.jpg",
-            "published_raw": "Tue, 24 Nov 2026 19:17:54 -0300",
-            "published_at": "2026-11-24T19:17:54-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 5,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 2,
-            "score_ideology": 0,
-            "score_actor": 3,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 11,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-007"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 21,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo"
-          ],
-          "chile_utility": 70
+          "chile_utility": 70.8
         },
         "repeated_in_general_top5": false
       },
       {
         "position": 3,
-        "cluster_id": "PML-EVENT-005",
-        "title": "\"Virus o bacteria Rabat\": Diputados de oposición cuestionan licencias de Jiles y Parisi",
+        "cluster_id": "PML-EVENT-002",
+        "title": "UDI: A Chile le ha ido bien cuando ha tenido oposiciones a la altura",
         "topic": "Instituciones y gobierno",
         "event_type": "GENERAL_POLITICAL_EVENT",
         "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/virus-o-bacteria-rabat-diputados-de-oposicion-cuestionan-licencias-de/2026-11-25/123155.html",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/udi-a-chile-le-ha-ido-bien-cuando-ha-tenido-oposiciones-a-la-altura/2026-11-25/112952.html",
         "geography": {
           "country": "Chile",
           "region": "Chile"
         },
         "relevance": {
-          "score": 56.9,
+          "score": 55.1,
           "level": "MEDIA",
           "components": {
-            "political_impact": 51,
-            "freshness": 100,
+            "political_impact": 52,
+            "freshness": 88,
             "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 46
+            "geographic_scope": 55,
+            "continuity": 32
           }
         },
         "coverage": {
@@ -584,36 +621,36 @@
           "source_count": 1,
           "sources": "Cooperativa"
         },
-        "first_seen": "2026-11-25T12:31:55-0300",
-        "last_seen": "2026-11-25T12:31:55-0300",
+        "first_seen": "2026-11-25T11:29:52-0300",
+        "last_seen": "2026-11-25T11:29:52-0300",
         "articles": [
           {
             "source_id": "cooperativa_politica",
             "source": "Cooperativa",
-            "title": "\"Virus o bacteria Rabat\": Diputados de oposición cuestionan licencias de Jiles y Parisi",
-            "description": "Los diputados de oposición Héctor Barría (DC) y Cristián Tapia (ind-PPD) ironizaron sobre las licencias médicas que presentaron este martes las diputadas del PDG Pamela Jiles y Zandra Parisi . Ambas habían anunciado que apoyarían la acusación constitucional contra el ministro de Justicia, Fernando Rabat , pero estarán ausentes cuando la Cámara la vote el próximo lunes. \"Sería positivo una sanitización de todas las dependencias de esta Cámara de Diputados, porque el virus o bacteria Rabat puede afectar la salud de algunas parlamentarias y parlamentarios . No puede ser una excusa\", dijo Barría. Tapia, en tanto, sostuvo que \"es un poquito curioso que previo a la votación que vamos a tener el lunes, haya parlamentarios como que se están enfermando todos a la vez, o sea, como si fuera una peste que llegó. Espero que no sean licencias fraudulentas \". El diputado Diego Schalper (RN) respondió a Tapia: \"Si ese diputado lo que está insinuando es que esas licencias se han tomado de manera indebida, más que ampararse en el fuero acá y sentar un manto de dudas -que eso la verdad que de valiente tiene poco-, lo que tendría que hacer es ir a interponer un requerimiento a la Superintendencia de Salud \". Schalper también calificó de frívola la forma en que se ha abordado el tema y recordó que hay diputados que llevan meses en tratamiento por problemas graves de salud. Igualmente, el diputado señaló que su par Andrés Celis, que está con licencia, podría hacer un esfuerzo de asistir para votar la moción. En total, hay ocho diputados con licencia médica y una diputada con permiso parental, cuya asistencia el lunes todavía está en duda. Por otro lado, el diputado oficialista Jaime Mulet se encuentra de vacaciones, sin embargo, el presidente de la DC, Álvaro Ortiz, afirmó que este le garantizó que regresará para votar la acusación. Arenas: Sería extraño que quienes apoyan al Gobierno e incluso lo que no votaran a favor El vocero de Gobierno, Gonzalo Arenas , abordó la discusión y apuntó que el Ejecutivo está convencido de que la acusación carece de fundamento. \"Hemos hablado con muchos parlamentarios y estamos convencidos de que, con una acusación constitucional tan débi l, con tan pocos argumentos y en donde no se configura ninguna de las causales establecidas en la Constitución, nos parecería muy extraño que parlamentarios que apoyan al Gobierno o incluso que no apoyan al Gobierno votaran a favor \", aseveró. El Partido Nacional Libertario continúa definiendo su postura . En un principio, se informó que los diputados tendrían libertad de acción , sin embargo, el parlamentario Hans Marowski lo descartó y piensan votar en bloque, incluido su par Pierre Karlezi que dejó abierta su decisión. \"Nosotros no hemos dado libertad de acción. Nosotros estamos en un proceso de discusión y deliberación como partido y tenemos la intención de votar en bloque. El diputado Pierre Karlezi lo que hizo en realidad fue decir que iba a estudiar la acusación en su mérito\", sostuvo. En paralelo, la comisión revisora continua con las audiencias y tienen plazo hasta el viernes para entregar su informe, para luego ser votada el próximo lunes.",
-            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/virus-o-bacteria-rabat-diputados-de-oposicion-cuestionan-licencias-de/2026-11-25/123155.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261125/imag/foto_0000000220261125123155.jpg",
-            "published_raw": "Wed, 25 Nov 2026 12:31:55 -0300",
-            "published_at": "2026-11-25T12:31:55-0300",
+            "title": "UDI: A Chile le ha ido bien cuando ha tenido oposiciones a la altura",
+            "description": "El vicepresidente de la UDI, Eduardo Cretton , afirmó en El Primer Café de Cooperativa que \"cuando a este país le ha ido bien, ha sido precisamente porque hemos tenido oposiciones que han estado a la altura\" . El diputado cuestionó la disposición del PS, el Frente Amplio y el PC a buscar acuerdos con el Gobierno de José Antonio Kast, un diagnóstico que abrió un debate con la DC y el FA. La discusión surgió a propósito del caso firmas en el Senado . Cretton sostuvo que en esos tres partidos ha predominado la tesis de \"ser una oposición frontal al Gobierno del Presidente José Antonio Kast y no tratar de buscar acuerdos\" . En cambio, destacó que la DC y el PPD han alcanzado entendimientos con el Ejecutivo en materia presupuestaria y en algunas propuestas del proyecto de reconstrucción. La DC recordó el acuerdo con el PC y el FA defendió su rol fiscalizador El presidente de la DC, Álvaro Ortiz , dijo que interpretaba las palabras de Cretton como una forma de atribuir a la oposición las dificultades del país. Recordó que su bancada ha respaldado iniciativas de seguridad del Ejecutivo y citó la votación que autorizó el endeudamiento por 25 mil millones de dólares solicitado por el Gobierno . \"El acuerdo que se logra en el Senado es entre la Democracia Cristiana, el ministro Quiroz, el Gobierno y el Partido Comunista. Qué prueba más concreta que no hay una oposición que se opone a todo \", afirmó Ortiz. La secretaria general del Frente Amplio, Constanza Martínez , retomó el planteamiento de Cretton cuando se le consultó por el llamado a construir acuerdos del documento de centroizquierda Existe una alternativa . La dirigenta defendió la decisión de su sector de frenar iniciativas del Ejecutivo y puso como ejemplo la reforma de seguridad. \"Al país le va bien cuando el Gobierno hace la pega. La oposición ha tenido que ser una oposición férrea y efectivamente hemos tenido que frenar proyectos de ley como la reforma de seguridad que querían proponer, que ni siquiera pasaba los filtros de constitucionalidad\", sostuvo Martínez.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/udi-a-chile-le-ha-ido-bien-cuando-ha-tenido-oposiciones-a-la-altura/2026-11-25/112952.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261125/imag/foto_0000000220261125112952.jpg",
+            "published_raw": "Wed, 25 Nov 2026 11:29:52 -0300",
+            "published_at": "2026-11-25T11:29:52-0300",
             "country": "Chile",
             "region": "Chile",
             "language": "es",
-            "score_institutional": 6,
+            "score_institutional": 7,
             "score_elections": 1,
             "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 1,
-            "score_ideology": 0,
+            "score_conflict": 1,
+            "score_policy": 0,
+            "score_ideology": 2,
             "score_actor": 5,
             "score_noise": 0,
             "score_accident": 0,
-            "political_evidence": 13,
+            "political_evidence": 16,
             "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Elecciones y opinión pública",
+            "secondary_topic": "Ideología y competencia política",
             "decision": "ACCEPT",
             "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-005"
+            "cluster_id": "PML-EVENT-002"
           }
         ],
         "article_count": 1,
@@ -621,7 +658,7 @@
         "political_science_fit": {
           "bonus": 9,
           "labels": "Estado e instituciones",
-          "chile_utility": 65.9
+          "chile_utility": 64.1
         },
         "repeated_in_general_top5": false
       }
@@ -630,27 +667,27 @@
   "topics": [
     {
       "topic": "Instituciones y gobierno",
-      "event_count": 21,
-      "maximum_relevance": 65.4,
-      "leading_story": "Cámara aprobó Presupuesto 2027 y lo despachó a su último trámite en el Senado"
-    },
-    {
-      "topic": "Elecciones y opinión pública",
-      "event_count": 1,
-      "maximum_relevance": 50.3,
-      "leading_story": "El debate | ¿Para quién son los debates electorales a las diez de la noche?"
-    },
-    {
-      "topic": "Conflictos y seguridad",
-      "event_count": 2,
-      "maximum_relevance": 50.3,
-      "leading_story": "Colombia: rescatan a todos los rehenes tras más de 16 horas de toma en un supermercado de Cartagena"
+      "event_count": 18,
+      "maximum_relevance": 65.2,
+      "leading_story": "El Congreso aprobó la largamente esperada ley de Sala Cuna Universal"
     },
     {
       "topic": "Ideología y competencia política",
       "event_count": 2,
       "maximum_relevance": 49.9,
       "leading_story": "El futuro de la cooperación se juega en las elecciones del 29N"
+    },
+    {
+      "topic": "Elecciones y opinión pública",
+      "event_count": 1,
+      "maximum_relevance": 48.3,
+      "leading_story": "El debate | ¿Para quién son los debates electorales a las diez de la noche?"
+    },
+    {
+      "topic": "Conflictos y seguridad",
+      "event_count": 2,
+      "maximum_relevance": 47.8,
+      "leading_story": "Colombia: rescatan a todos los rehenes tras más de 16 horas de toma en un supermercado de Cartagena"
     },
     {
       "topic": "Economía y políticas públicas",
