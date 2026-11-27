@@ -4,9 +4,9 @@
     "version": "0.2.4",
     "status": "validated",
     "date": "2026-11-27",
-    "data_latest_timestamp": "2026-11-27T08:52:30-0300",
-    "data_age_hours": 0,
-    "generated_at": "2026-11-27T08:54:25-0300",
+    "data_latest_timestamp": "2026-11-27T17:35:47-0300",
+    "data_age_hours": 0.3,
+    "generated_at": "2026-11-27T17:53:28-0300",
     "timezone": "America/Santiago",
     "relevance_model": "PML Relevance Score v0.3.1",
     "selector_model": "PML Top Stories Selector v0.1",
@@ -17,7 +17,7 @@
   "summary": {
     "headline": "Panorama Político Diario",
     "overview": "El Morning Brief de hoy selecciona 5 acontecimientos entre 34 eventos políticos rankeados. El principal evento se concentra en No identificado y pertenece al eje de Elecciones y opinión pública.",
-    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 2 tipos de evento político.",
+    "diversity": "La selección cubre 2 temas, 2 áreas geográficas y 3 tipos de evento político.",
     "why_it_matters": null
   },
   "metrics": {
@@ -26,14 +26,14 @@
     "topics": 2,
     "geographies": 2,
     "representative_sources": 3,
-    "average_top5_relevance": 63.6,
-    "maximum_relevance": 67.7
+    "average_top5_relevance": 59.9,
+    "maximum_relevance": 67.5
   },
   "top_stories": [
     {
       "position": 1,
-      "cluster_id": "PML-EVENT-007",
-      "title": "Campaña elecciones generales 29-N, en directo | El PP denuncia ante la Junta Electoral presuntas irregularidades en el voto por correo y el reparto de la propaganda electoral",
+      "cluster_id": "PML-EVENT-021",
+      "title": "Cierre de campaña de las elecciones generales del 29-N, en directo | Los partidos cierran la campaña con actos multitudinarios para animar la participación y a los indecisos",
       "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/cierre-de-campana-de-las-elecciones-generales-del-29-n-en-directo.html",
       "representative_source": "EL PAÍS",
       "topic": "Elecciones y opinión pública",
@@ -43,12 +43,12 @@
         "country": "No identificado / Internacional"
       },
       "relevance": {
-        "score": 67.7,
+        "score": 67.5,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 67.7
+        "editorial_utility": 67.5
       },
       "selection": {
-        "reason": "PML 67.7",
+        "reason": "PML 67.5",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -58,12 +58,12 @@
         "source_count": 1,
         "sources": "EL PAÍS"
       },
-      "first_seen": "2026-11-27T08:52:30-0300",
-      "last_seen": "2026-11-27T08:52:30-0300",
+      "first_seen": "2026-11-27T17:35:47-0300",
+      "last_seen": "2026-11-27T17:35:47-0300",
       "entities": [],
-      "event_terms": "eleccion",
+      "event_terms": [],
       "analysis": {
-        "summary": "Sánchez llama a “optimizar el voto” el 29-N y Feijóo trata de superar el “calladita” | El presidente del Gobierno confía en revalidar el Gobierno progresista sin depender de Junts | El popular cierra la campaña en Sevilla y el candidato socialista, en Madrid",
+        "summary": "Sánchez carga contra la derecha por convertir las elecciones en un referéndum contra él | Feijóo cierra la campaña en Sevilla: “Esta vez sí vamos a conseguirlo, no solo ganar, sino gobernar” | El Frente Amplio de Colau supera las expectativas y Abascal acusa al Gobierno de “mafia criminal”",
         "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Elecciones y opinión pública y la sitúa en No identificado / Internacional.",
         "watch_next": [
           "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
@@ -76,30 +76,30 @@
         {
           "source_id": "elpais_america",
           "source": "EL PAÍS",
-          "title": "Campaña elecciones generales 29-N, en directo | El PP denuncia ante la Junta Electoral presuntas irregularidades en el voto por correo y el reparto de la propaganda electoral",
-          "description": "Sánchez llama a “optimizar el voto” el 29-N y Feijóo trata de superar el “calladita” | El presidente del Gobierno confía en revalidar el Gobierno progresista sin depender de Junts | El popular cierra la campaña en Sevilla y el candidato socialista, en Madrid",
+          "title": "Cierre de campaña de las elecciones generales del 29-N, en directo | Los partidos cierran la campaña con actos multitudinarios para animar la participación y a los indecisos",
+          "description": "Sánchez carga contra la derecha por convertir las elecciones en un referéndum contra él | Feijóo cierra la campaña en Sevilla: “Esta vez sí vamos a conseguirlo, no solo ganar, sino gobernar” | El Frente Amplio de Colau supera las expectativas y Abascal acusa al Gobierno de “mafia criminal”",
           "url": "https://elpais.com/espana/elecciones-generales/2026-11-27/cierre-de-campana-de-las-elecciones-generales-del-29-n-en-directo.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/Z7AWQD32J5HEFBTG3ZDTY4E6UQ.JPG?auth=0787ad17111406e7d0a5ea3f7966f0791c0f552ce1709c63c2855174563d784c",
-          "published_raw": "Fri, 27 Nov 2026 11:52:30 GMT",
-          "published_at": "2026-11-27T08:52:30-0300",
+          "image_url": "https://imagenes.elpais.com/resizer/v2/ASY6USAQXVFQNARKVP3PKJPMHQ.jpg?auth=b295c1c14a1a9dff0da9c860ade40a02df912356a1d9a7598996b24e1b893960",
+          "published_raw": "Fri, 27 Nov 2026 20:35:47 GMT",
+          "published_at": "2026-11-27T17:35:47-0300",
           "country": "No identificado",
           "region": "Internacional",
           "language": "es",
-          "score_institutional": 2,
-          "score_elections": 4,
+          "score_institutional": 1,
+          "score_elections": 2,
           "score_international": 0,
           "score_conflict": 0,
           "score_policy": 0,
           "score_ideology": 1,
-          "score_actor": 2,
+          "score_actor": 0,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 9,
+          "political_evidence": 4,
           "primary_topic": "Elecciones y opinión pública",
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
-          "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-007"
+          "filter_confidence": "medium",
+          "cluster_id": "PML-EVENT-021"
         }
       ]
     },
@@ -116,12 +116,12 @@
         "country": "No identificado / América Latina"
       },
       "relevance": {
-        "score": 66,
+        "score": 62,
         "level": "MEDIA-ALTA",
-        "editorial_utility": 78
+        "editorial_utility": 74
       },
       "selection": {
-        "reason": "PML 66; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
+        "reason": "PML 62; aporta diversidad temática; aporta diversidad geográfica; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -178,7 +178,7 @@
     },
     {
       "position": 3,
-      "cluster_id": "PML-EVENT-010",
+      "cluster_id": "PML-EVENT-011",
       "title": "Ecuador vota en unas elecciones locales que medirán la fuerza de Noboa frente a un correísmo sin partido",
       "url": "https://www.france24.com/es/am%C3%A9rica-latina/20261126-ecuador-vota-en-unas-elecciones-locales-que-medir%C3%A1n-la-fuerza-de-noboa-frente-a-un-corre%C3%ADsmo-sin-partido",
       "representative_source": "France 24",
@@ -189,12 +189,12 @@
         "country": "Ecuador / América Latina"
       },
       "relevance": {
-        "score": 63.8,
-        "level": "MEDIA-ALTA",
-        "editorial_utility": 58.8
+        "score": 61.8,
+        "level": "MEDIA",
+        "editorial_utility": 56.8
       },
       "selection": {
-        "reason": "PML 63.8",
+        "reason": "PML 61.8",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -248,7 +248,7 @@
           "secondary_topic": "Instituciones y gobierno",
           "decision": "ACCEPT",
           "filter_confidence": "high",
-          "cluster_id": "PML-EVENT-010"
+          "cluster_id": "PML-EVENT-011"
         }
       ]
     },
@@ -265,12 +265,12 @@
         "country": "Chile"
       },
       "relevance": {
-        "score": 58.7,
+        "score": 56.7,
         "level": "MEDIA",
-        "editorial_utility": 58.7
+        "editorial_utility": 56.7
       },
       "selection": {
-        "reason": "PML 58.7; aporta diversidad geográfica",
+        "reason": "PML 56.7; aporta diversidad geográfica",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -330,23 +330,23 @@
     },
     {
       "position": 5,
-      "cluster_id": "PML-EVENT-022",
-      "title": "Gambia celebra unas reñidas elecciones en pleno éxodo de cayucos hacia Canarias",
-      "url": "https://elpais.com/internacional/2026-11-27/gambia-celebra-unas-renidas-elecciones-en-pleno-exodo-de-cayucos-hacia-canarias.html",
-      "representative_source": "EL PAÍS",
+      "cluster_id": "PML-EVENT-010",
+      "title": "Acusación contra Rabat: A las ausencias de Jiles y Parisi se suman las dudas de Teao",
+      "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/acusacion-contra-rabat-a-las-ausencias-de-jiles-y-parisi-se-suman-las/2026-11-26/143340.html",
+      "representative_source": "Cooperativa",
       "topic": "Instituciones y gobierno",
-      "event_type": "ELECTORAL_EVENT",
+      "event_type": "INSTITUTIONAL_CRISIS",
       "geography": {
-        "group": "No identificado",
-        "country": "No identificado / Internacional"
+        "group": "Chile",
+        "country": "Chile"
       },
       "relevance": {
-        "score": 61.9,
-        "level": "MEDIA",
-        "editorial_utility": 55.9
+        "score": 51.3,
+        "level": "BAJA",
+        "editorial_utility": 47.3
       },
       "selection": {
-        "reason": "PML 61.9; diversidad relajada para completar el brief",
+        "reason": "PML 51.3; diversidad relajada para completar el brief; nuevo tipo de evento",
         "tier": "STRICT",
         "strict_eligible": true,
         "selector": "PML Top Stories Selector v0.3"
@@ -354,50 +354,50 @@
       "coverage": {
         "article_count": 1,
         "source_count": 1,
-        "sources": "EL PAÍS"
+        "sources": "Cooperativa"
       },
-      "first_seen": "2026-11-27T01:30:01-0300",
-      "last_seen": "2026-11-27T01:30:01-0300",
+      "first_seen": "2026-11-26T14:33:40-0300",
+      "last_seen": "2026-11-26T14:33:40-0300",
       "entities": [],
       "event_terms": [],
       "analysis": {
-        "summary": "El presidente Adama Barrow aspira a un tercer mandato, pero Talib Bensouda, su rival emergente, seduce a jóvenes sin empleo que no ven más salida que la emigración",
-        "why_it_matters": "Es relevante porque forma parte de un proceso electoral y puede afectar su calendario, reglas, candidaturas, alianzas o resultados oficiales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en No identificado / Internacional.",
+        "summary": "El diputado Hotuiti Teao , independiente de la bancada UDI, dijo este jueves que se inclina por abstenerse cuando la Cámara de Diputadas y Diputados vote el lunes 30 de noviembre la acusación constitucional contra el ministro de Justicia, Fernando Rabat . A fines de octubre, Teao había adelantado que apoyaría una eventual acusación por las rebajas de penas a condenados por delitos sexuales contra menores de edad y por crímenes de lesa humanidad .",
+        "why_it_matters": "Es relevante porque forma parte de la agenda política y puede generar nuevas decisiones, declaraciones o respuestas institucionales. En esta edición, PML la clasifica dentro de Instituciones y gobierno y la sitúa en Chile.",
         "watch_next": [
-          "Anuncios oficiales sobre calendario, candidaturas, reglas o resultados del proceso electoral.",
-          "Decisiones de autoridades electorales o judiciales que modifiquen aspectos formales del proceso.",
-          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento."
+          "Nuevas decisiones o declaraciones oficiales directamente relacionadas con el acontecimiento.",
+          "Información adicional de fuentes independientes que confirme, precise o amplíe los hechos disponibles.",
+          null
         ],
         "status": "ready"
       },
       "articles": [
         {
-          "source_id": "elpais_america",
-          "source": "EL PAÍS",
-          "title": "Gambia celebra unas reñidas elecciones en pleno éxodo de cayucos hacia Canarias",
-          "description": "El presidente Adama Barrow aspira a un tercer mandato, pero Talib Bensouda, su rival emergente, seduce a jóvenes sin empleo que no ven más salida que la emigración",
-          "url": "https://elpais.com/internacional/2026-11-27/gambia-celebra-unas-renidas-elecciones-en-pleno-exodo-de-cayucos-hacia-canarias.html",
-          "image_url": "https://imagenes.elpais.com/resizer/v2/TGNSRSUJQZAQ5LLPBC25KTCWDE.jpg?auth=2516abf289984871e2d580585a13e562f70ba946ef5608bbe1885e043c64961b",
-          "published_raw": "Fri, 27 Nov 2026 04:30:01 GMT",
-          "published_at": "2026-11-27T01:30:01-0300",
-          "country": "No identificado",
-          "region": "Internacional",
+          "source_id": "cooperativa_politica",
+          "source": "Cooperativa",
+          "title": "Acusación contra Rabat: A las ausencias de Jiles y Parisi se suman las dudas de Teao",
+          "description": "El diputado Hotuiti Teao , independiente de la bancada UDI, dijo este jueves que se inclina por abstenerse cuando la Cámara de Diputadas y Diputados vote el lunes 30 de noviembre la acusación constitucional contra el ministro de Justicia, Fernando Rabat . A fines de octubre, Teao había adelantado que apoyaría una eventual acusación por las rebajas de penas a condenados por delitos sexuales contra menores de edad y por crímenes de lesa humanidad . Este jueves explicó que, con los antecedentes que ha revisado hasta ahora, no advierte una infracción a la Constitución , aunque aclaró que aún debe definir su voto. Las dudas de Teao se suman a las ausencias de las diputadas del Partido de la Gente (PDG) Pamela Jiles y Zandra Parisi . Ambas habían anunciado que votarían a favor del libelo, pero presentaron licencias médicas que las mantendrán fuera de la sesión . [Lea también] ¿Y si cae la acusación contra Rabat? La UDI ve un \"bochorno\" y el FA apunta a la minoría opositora El PDG busca votar en bloque y los libertarios descartan la libertad de acción La presidenta del PDG, Denisse Catalán , señaló que la mayoría de sus diputados se inclina por votar en bloque. Añadió que los parlamentarios conservan la llamada green card , un permiso para votar de manera distinta a la bancada, aunque prevé que su uso será excepcional. \"Se está descartando la posibilidad de libertad de acción. Los diputados están decidiendo en mayoría votar en bloque , lo cual es bastante positivo para mostrar una fuerza\", afirmó Catalán. [Lea también] Parisi habría sacado a Rabat en 24 horas, pero \"no sabe\" cómo votarán sus diputados la AC Por su parte, Hans Marowski , jefe de bancada y vicepresidente del Partido Nacional Libertario (PNL) , adelantó que sus ocho diputados votarán en el mismo sentido. \" No va a haber libertad de acción. Vamos a tomar una decisión como bancada y vamos a votar en bloque , porque creemos que nuestros ocho votos son lo suficientemente importantes como para marcar la posición de nuestro partido y para decirle a la gente que representamos lo que creemos correcto de acuerdo a nuestros propios principios\", sostuvo.",
+          "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/acusacion-contra-rabat-a-las-ausencias-de-jiles-y-parisi-se-suman-las/2026-11-26/143340.html",
+          "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261126/imag/foto_0000000220261126143340.png",
+          "published_raw": "Thu, 26 Nov 2026 14:33:40 -0300",
+          "published_at": "2026-11-26T14:33:40-0300",
+          "country": "Chile",
+          "region": "Chile",
           "language": "es",
-          "score_institutional": 1,
-          "score_elections": 1,
+          "score_institutional": 5,
+          "score_elections": 0,
           "score_international": 0,
           "score_conflict": 0,
-          "score_policy": 1,
+          "score_policy": 0,
           "score_ideology": 0,
-          "score_actor": 1,
+          "score_actor": 4,
           "score_noise": 0,
           "score_accident": 0,
-          "political_evidence": 4,
+          "political_evidence": 9,
           "primary_topic": "Instituciones y gobierno",
-          "secondary_topic": "Elecciones y opinión pública",
+          "secondary_topic": null,
           "decision": "ACCEPT",
-          "filter_confidence": "medium",
-          "cluster_id": "PML-EVENT-022"
+          "filter_confidence": "high",
+          "cluster_id": "PML-EVENT-010"
         }
       ]
     }
@@ -410,6 +410,147 @@
     "stories": [
       {
         "position": 1,
+        "cluster_id": "PML-EVENT-005",
+        "title": "Comisión revisora dio visto bueno a la AC contra Rabat: Recomendará a la Cámara que lo apruebe",
+        "topic": "Instituciones y gobierno",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/comision-revisora-dio-visto-bueno-a-la-ac-contra-rabat-recomendara-a-la/2026-11-27/120040.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 54.2,
+          "level": "MEDIA",
+          "components": {
+            "political_impact": 51,
+            "freshness": 95,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 32
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-27T12:00:40-0300",
+        "last_seen": "2026-11-27T12:00:40-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Comisión revisora dio visto bueno a la AC contra Rabat: Recomendará a la Cámara que lo apruebe",
+            "description": "La comisión encargada de revisar la acusación constitucional contra el ministro de Justicia , Fernando Rabat , aprobó el libelo y lo emitirá a la Sala de la Cámara Baja para su votación en el Pleno el lunes 30 de noviembre.   La instancia validó el documento con tres sufragios a favor (correspondientes a los diputados FA Lorena Fries, PC Lorena Pizarro y PPD Raúl Soto) y dos en contra (Carlos Chandía, de RN; y Germán Verdugo, del PNL), consignó T13. De esta forma, la instancia emitirá un informe favorable a la acusación, que será puesto a disposición de la Sala de la Cámara. Debido a la composición política de la comisión revisora, se preveía que el documento final recomiende al hemiciclo aprobar la procedencia del libelo acusatorio. La votación de los parlamentarios culmina una semana de audiencias de carácter técnico e institucional , ciclo en el cual la instancia legislativa recibió las exposiciones de diversos especialistas en el área penal y constitucional , además de los descargos formulados por el abogado defensor del secretario de Estado, Juan Ignacio Piña . El nudo central de la discusión se focalizó en determinar si los pronunciamientos emitidos por la Corte Suprema otorgaban sustento suficiente para que el Ministerio de Justicia cambiara su criterio administrativo y procediera a conceder rebajas de penas prescindiendo de una orden judicial específica para cada caso individual. Pese a la recomendación no vinculante, la resolución definitiva quedará radicada en la Sala de la Cámara de Diputadas y Diputados, corporación que sesionará el próximo lunes con el objetivo de votar y definir si se declara admisible la acusación constitucional contra la máxima autoridad de Justicia. Convicción en el oficialismo El presidente de la comisión revisora, diputado Raúl Soto (PPD) , remarcó que las exposiciones de especialistas reforzaron su postura a favor del libelo acusatorio , argumentando que existen faltas graves al ordenamiento jurídico vigente. Al fundamentar su evaluación tras escuchar a las partes, el parlamentario señaló que \"hemos estado toda la semana trabajando de forma intensa para escuchar los argumentos jurídicos , constitucionales , tanto a favor como en contra y poder hacernos un juicio propio respecto de lo que aquí ha ocurrido \". \"Debo decir que asumí este cargo con una convicción ética y política y que hoy día lo dejo con una convicción jurídica plena y absoluta de que el ministro Fernando Rabat infraccionó , incumplió la ley , la Constitución y los tratados internacionales, y que por lo tanto tiene responsabilidad política \", enfatizó Soto. Una postura opuesta manifestó el diputado Carlos Chandía (RN) , quien también integra la instancia fiscalizadora. Aunque expresó su desacuerdo de fondo con el actuar del titular de Justicia frente a las rebajas de penas, desestimó la procedencia jurídica del juicio político . \" Quiero partir diciendo que no comparto la decisión que tomó el ministro Rabat . Me estremece sus consecuencias y especialmente en el dolor que significa para una familia saber que quien cometió un delito sexual contra uno de sus hijos pueda salir libre antes de la casa. He dicho públicamente que el ministro debió asumir su responsabilidad política y mantengo intacta esa opinión \", comentó el diputado. Pese a esto, afirmó que \"una cosa es la responsabilidad política, que en nuestro sistema de gobierno corresponde hacer efectiva al presidente de la República, y otra muy distinta es la responsabilidad constitucional \". \"Durante estos días he escuchado atentamente a los invitados, he estudiado los antecedentes y he llegado al convencimiento que esta acusación no debe prosperar \", puntualizó.",
+            "url": "https://www.cooperativa.cl/noticias/pais/politica/camara-baja/comision-revisora-dio-visto-bueno-a-la-ac-contra-rabat-recomendara-a-la/2026-11-27/120040.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261127/imag/foto_0000000320261127120040.png",
+            "published_raw": "Fri, 27 Nov 2026 12:00:40 -0300",
+            "published_at": "2026-11-27T12:00:40-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 9,
+            "score_elections": 1,
+            "score_international": 0,
+            "score_conflict": 0,
+            "score_policy": 0,
+            "score_ideology": 0,
+            "score_actor": 4,
+            "score_noise": 0,
+            "score_accident": 0,
+            "political_evidence": 14,
+            "primary_topic": "Instituciones y gobierno",
+            "secondary_topic": "Elecciones y opinión pública",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-005"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 21,
+          "labels": [
+            "Estado e instituciones",
+            "Congreso y proceso legislativo"
+          ],
+          "chile_utility": 75.2
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 2,
+        "cluster_id": "PML-EVENT-013",
+        "title": "Campillai presentó querella criminal contra exgenerales de Carabineros",
+        "topic": "Conflictos y seguridad",
+        "event_type": "GENERAL_POLITICAL_EVENT",
+        "representative_source": "Cooperativa",
+        "url": "https://www.cooperativa.cl/noticias/pais/judicial/campillai-presento-querella-criminal-contra-exgenerales-de-carabineros/2026-11-26/123407.html",
+        "geography": {
+          "country": "Chile",
+          "region": "Chile"
+        },
+        "relevance": {
+          "score": 46.1,
+          "level": "BAJA",
+          "components": {
+            "political_impact": 52,
+            "freshness": 62,
+            "source_count": 30,
+            "geographic_scope": 40,
+            "continuity": 30
+          }
+        },
+        "coverage": {
+          "article_count": 1,
+          "source_count": 1,
+          "sources": "Cooperativa"
+        },
+        "first_seen": "2026-11-26T12:34:07-0300",
+        "last_seen": "2026-11-26T12:34:07-0300",
+        "articles": [
+          {
+            "source_id": "cooperativa_politica",
+            "source": "Cooperativa",
+            "title": "Campillai presentó querella criminal contra exgenerales de Carabineros",
+            "description": "La senadora independiente Fabiola Campillai presentó este jueves en el Centro de Justicia de Santiago una querella contra tres exgenerales de Carabineros , a siete años del disparo de una bomba lacrimógena que la dejó ciega en San Bernardo. La acción se dirige contra Mario Rozas , entonces general director de Carabineros, Ricardo Yáñez , quien encabezaba la Dirección Nacional de Orden y Seguridad, y Diego Olate , que ejercía como subdirector de la institución durante el estallido social de 2019. Campillai sostiene que los tres mandos conocían los apremios ilegítimos cometidos por carabineros durante las manifestaciones y no tomaron medidas para impedirlos . La querella les atribuye el delito de apremios ilegítimos en su faz omisiva con resultado de lesiones graves gravísimas. \"Hoy se cumplen siete años desde que el excapitán Maturana me dispara a mi rostro, me dejó ciega, sin gusto ni olfato. Y hoy presentamos una querella contra los exgenerales \", afirmó la legisladora, que explicó que a las otrora autoridades policiales las acusa de saber \"lo que estaba pasando y no hicieron nada para detenerlo\" . \"El alto mando recibía esta información todos los días de lo que ocurría, e incluso el general director dijo en un audio: ' A nadie voy a dar de baja por procedimiento policial '. O sea, no quisieron hacer nada por detener las graves violaciones a los derechos humanos \", arremetió Campillai. Acompañada por organizaciones que representan a víctimas del estallido social, la senadora pidió que la justicia incorpore su caso a las investigaciones sobre la responsabilidad del alto mando de Carabineros . El 26 de noviembre de 2019 , Campillai se dirigía a tomar locomoción para ir a su trabajo en San Bernardo cuando el entonces capitán de Carabineros Patricio Maturana disparó la bomba lacrimógena que la impactó en el rostro. Por ese hecho, el Tribunal Oral en lo Penal de San Bernardo lo condenó a 12 años y 183 días de presidio . Testimonio de las víctimas y la demanda de garantías de no repetición La interposición del libelo estuvo respaldada por distintas organizaciones y personas que padecieron lesiones durante las protestas . En el lugar se hizo presente la actriz María Paz Grandjean , quien resultó herida en su rostro al salir del Centro Cultural Gabriela Mistral (GAM) tras la suspensión de una función teatral . \"Es súper horrible cómo les ha cambiado la vida a las personas. Yo, dentro de las víctimas, soy una víctima privilegiada; tuve una querella que se ganó este año en la Corte Suprema. Lo que viven es una permanente revictimización , entonces las víctimas están en un estado de sobrevivencia permanente , de una salud mental sumamente frágil , pero ahí dando la pelea \", afirmó la actriz. \" Es súper fundamental dar esas garantías de no repetición . Es lento, es doloroso, es injusto en el sentido de que uno vive estigmatizaciones\", lamentó Grandjean. Diligencias solicitadas al Ministerio Público Junto con establecer la responsabilidad por omisión, la querella interpuesta por Campillai solicita una serie de diligencias directas a la Fiscalía. Entre ellas figura la entrega obligatoria de documentos y reportes internos de Carabineros vinculados a los operativos del periodo . De igual forma, la presentación pide recabar las declaraciones de los mandos policiales que tomaron conocimiento del ataque que la afectó mientras esperaba locomoción colectiva para trasladarse a su lugar de trabajo. Finalmente, el documento legal insta a que el Ministerio Público investigue con enfoque de género las agresiones sufridas por su hermana en el momento en que intentó prestarle auxilio.",
+            "url": "https://www.cooperativa.cl/noticias/pais/judicial/campillai-presento-querella-criminal-contra-exgenerales-de-carabineros/2026-11-26/123407.html",
+            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261126/imag/foto_0000000220261126123407.jpg",
+            "published_raw": "Thu, 26 Nov 2026 12:34:07 -0300",
+            "published_at": "2026-11-26T12:34:07-0300",
+            "country": "Chile",
+            "region": "Chile",
+            "language": "es",
+            "score_institutional": 3,
+            "score_elections": 0,
+            "score_international": 0,
+            "score_conflict": 4,
+            "score_policy": 1,
+            "score_ideology": 0,
+            "score_actor": 1,
+            "score_noise": 2,
+            "score_accident": 0,
+            "political_evidence": 7,
+            "primary_topic": "Conflictos y seguridad",
+            "secondary_topic": "Instituciones y gobierno",
+            "decision": "ACCEPT",
+            "filter_confidence": "high",
+            "cluster_id": "PML-EVENT-013"
+          }
+        ],
+        "article_count": 1,
+        "unique_sources": 1,
+        "political_science_fit": {
+          "bonus": 7,
+          "labels": "Seguridad y Estado",
+          "chile_utility": 53.1
+        },
+        "repeated_in_general_top5": false
+      },
+      {
+        "position": 3,
         "cluster_id": "PML-EVENT-004",
         "title": "El Congreso aprobó la largamente esperada ley de Sala Cuna Universal",
         "topic": "Instituciones y gobierno",
@@ -421,11 +562,11 @@
           "region": "Chile"
         },
         "relevance": {
-          "score": 52.9,
-          "level": "MEDIA",
+          "score": 49.9,
+          "level": "BAJA",
           "components": {
             "political_impact": 83,
-            "freshness": 52,
+            "freshness": 40,
             "source_count": 30,
             "geographic_scope": 40,
             "continuity": 30
@@ -476,177 +617,7 @@
             "Estado e instituciones",
             "Congreso y proceso legislativo"
           ],
-          "chile_utility": 74.9
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 2,
-        "cluster_id": "PML-EVENT-012",
-        "title": "Campillai presentó querella criminal contra exgenerales de Carabineros",
-        "topic": "Conflictos y seguridad",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/pais/judicial/campillai-presento-querella-criminal-contra-exgenerales-de-carabineros/2026-11-26/123407.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 48.6,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 52,
-            "freshness": 72,
-            "source_count": 30,
-            "geographic_scope": 40,
-            "continuity": 30
-          }
-        },
-        "coverage": {
-          "article_count": 1,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-26T12:34:07-0300",
-        "last_seen": "2026-11-26T12:34:07-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Campillai presentó querella criminal contra exgenerales de Carabineros",
-            "description": "La senadora independiente Fabiola Campillai presentó este jueves en el Centro de Justicia de Santiago una querella contra tres exgenerales de Carabineros , a siete años del disparo de una bomba lacrimógena que la dejó ciega en San Bernardo. La acción se dirige contra Mario Rozas , entonces general director de Carabineros, Ricardo Yáñez , quien encabezaba la Dirección Nacional de Orden y Seguridad, y Diego Olate , que ejercía como subdirector de la institución durante el estallido social de 2019. Campillai sostiene que los tres mandos conocían los apremios ilegítimos cometidos por carabineros durante las manifestaciones y no tomaron medidas para impedirlos . La querella les atribuye el delito de apremios ilegítimos en su faz omisiva con resultado de lesiones graves gravísimas. \"Hoy se cumplen siete años desde que el excapitán Maturana me dispara a mi rostro, me dejó ciega, sin gusto ni olfato. Y hoy presentamos una querella contra los exgenerales \", afirmó la legisladora, que explicó que a las otrora autoridades policiales las acusa de saber \"lo que estaba pasando y no hicieron nada para detenerlo\" . \"El alto mando recibía esta información todos los días de lo que ocurría, e incluso el general director dijo en un audio: ' A nadie voy a dar de baja por procedimiento policial '. O sea, no quisieron hacer nada por detener las graves violaciones a los derechos humanos \", arremetió Campillai. Acompañada por organizaciones que representan a víctimas del estallido social, la senadora pidió que la justicia incorpore su caso a las investigaciones sobre la responsabilidad del alto mando de Carabineros . El 26 de noviembre de 2019 , Campillai se dirigía a tomar locomoción para ir a su trabajo en San Bernardo cuando el entonces capitán de Carabineros Patricio Maturana disparó la bomba lacrimógena que la impactó en el rostro. Por ese hecho, el Tribunal Oral en lo Penal de San Bernardo lo condenó a 12 años y 183 días de presidio . Testimonio de las víctimas y la demanda de garantías de no repetición La interposición del libelo estuvo respaldada por distintas organizaciones y personas que padecieron lesiones durante las protestas . En el lugar se hizo presente la actriz María Paz Grandjean , quien resultó herida en su rostro al salir del Centro Cultural Gabriela Mistral (GAM) tras la suspensión de una función teatral . \"Es súper horrible cómo les ha cambiado la vida a las personas. Yo, dentro de las víctimas, soy una víctima privilegiada; tuve una querella que se ganó este año en la Corte Suprema. Lo que viven es una permanente revictimización , entonces las víctimas están en un estado de sobrevivencia permanente , de una salud mental sumamente frágil , pero ahí dando la pelea \", afirmó la actriz. \" Es súper fundamental dar esas garantías de no repetición . Es lento, es doloroso, es injusto en el sentido de que uno vive estigmatizaciones\", lamentó Grandjean. Diligencias solicitadas al Ministerio Público Junto con establecer la responsabilidad por omisión, la querella interpuesta por Campillai solicita una serie de diligencias directas a la Fiscalía. Entre ellas figura la entrega obligatoria de documentos y reportes internos de Carabineros vinculados a los operativos del periodo . De igual forma, la presentación pide recabar las declaraciones de los mandos policiales que tomaron conocimiento del ataque que la afectó mientras esperaba locomoción colectiva para trasladarse a su lugar de trabajo. Finalmente, el documento legal insta a que el Ministerio Público investigue con enfoque de género las agresiones sufridas por su hermana en el momento en que intentó prestarle auxilio.",
-            "url": "https://www.cooperativa.cl/noticias/pais/judicial/campillai-presento-querella-criminal-contra-exgenerales-de-carabineros/2026-11-26/123407.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261126/imag/foto_0000000220261126123407.jpg",
-            "published_raw": "Thu, 26 Nov 2026 12:34:07 -0300",
-            "published_at": "2026-11-26T12:34:07-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 3,
-            "score_elections": 0,
-            "score_international": 0,
-            "score_conflict": 4,
-            "score_policy": 1,
-            "score_ideology": 0,
-            "score_actor": 1,
-            "score_noise": 2,
-            "score_accident": 0,
-            "political_evidence": 7,
-            "primary_topic": "Conflictos y seguridad",
-            "secondary_topic": "Instituciones y gobierno",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-012"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 7,
-          "labels": "Seguridad y Estado",
-          "chile_utility": 55.6
-        },
-        "repeated_in_general_top5": false
-      },
-      {
-        "position": 3,
-        "cluster_id": "PML-EVENT-001",
-        "title": "Congreso despachó el Presupuesto 2027, primero elaborado por el Gobierno de Kast",
-        "topic": "Instituciones y gobierno",
-        "event_type": "GENERAL_POLITICAL_EVENT",
-        "representative_source": "Cooperativa",
-        "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/congreso-despacho-el-presupuesto-2027-primero-elaborado-por-el-gobierno/2026-11-25/183722.html",
-        "geography": {
-          "country": "Chile",
-          "region": "Chile"
-        },
-        "relevance": {
-          "score": 46.9,
-          "level": "BAJA",
-          "components": {
-            "political_impact": 60,
-            "freshness": 40,
-            "source_count": 32,
-            "geographic_scope": 55,
-            "continuity": 42
-          }
-        },
-        "coverage": {
-          "article_count": 2,
-          "source_count": 1,
-          "sources": "Cooperativa"
-        },
-        "first_seen": "2026-11-25T14:51:27-0300",
-        "last_seen": "2026-11-25T18:37:22-0300",
-        "articles": [
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Congreso despachó el Presupuesto 2027, primero elaborado por el Gobierno de Kast",
-            "description": "El Congreso Nacional despachó definitivamente este miércoles el proyecto de Ley de Presupuestos 2027 , en lo que constituye la primera tramitación presupuestaria del Gobierno del Presidente José Antonio Kast . Mientras el Ejecutivo destacó el resultado como una señal de responsabilidad fiscal y continuidad, desde la oposición cuestionaron el carácter regresivo de la propuesta y sostuvieron que los recursos recuperados durante la discusión corresponden a programas y partidas que ya existían. Tras la aprobación en la Cámara de Diputadas y Diputados y posteriormente en el Senado , el ministro de Hacienda, Jorge Quiroz , valoró el trabajo realizado durante la negociación y reconoció el apoyo de parlamentarios oficialistas para sacar adelante la iniciativa, despachada del Congreso con 136.000 millones de pesos más que lo planteado en el proyecto original . \"(La aprobación) ha sido con la colaboración de muchos amigos míos que vienen de la política y que me han ayudado, como los que tengo acá y me están acompañando, a caminar este proceso\", señaló el secretario de Estado en el Parlamento. \"Fue una votación muy contundente. Quiero agradecer a muchas personas, partiendo por las bancadas del oficialismo, tanto en la Cámara como en el Senado, los jefes de bancada y de partido. Quisiera también agradecer a muchos otros líderes de partidos que no son del oficialismo, algunos muy cercanos, que apoyaron en distintos minutos e instancias, y también a partidos que no son del Gobierno, pero que de modo constructivo estuvieron para los acuerdos\", resaltó jefe de Teatinos 120. Al referirse al foco del proyecto, Quiroz explicó que \"es un plan que contiene importantes aumentos en ítems de reactivación, como obras públicas y también viviendas . Responde al objetivo de la seguridad, al objetivo ciudadano, pero también mira los objetivos fiscales, la eficiencia del gasto y la estabilidad a futuro\". ¡#Presupuesto2027 aprobado! 🇨🇱 Más recursos para atender las necesidades de las familias chilenas, con cuatro grandes urgencias como prioridad: 📈 Crecimiento, trabajo y reconstrucción. 🚔 Un Chile más seguro. 👧 Proteger a los niños más vulnerables. 🤝 Proteger los beneficios sociales correctamente entregados. Desliza y conoce las principales medidas que contempla el presupuesto para el próximo año, desde la creación de empleos y el fortalecimiento de la seguridad hasta una mayor inversión en salud, educación y protección social. Un presupuesto que responde hoy, sin comprometer el mañana. #ParaVivirMejorAhora — Gobierno de Chile (@GobiernodeChile) November 25, 2026 Según Hacienda, el Presupuesto 2027 prioriza el crecimiento y el empleo, la seguridad y la niñez, y resguarda los beneficios sociales establecidos por ley, con responsabilidad fiscal. Así, por ejemplo, Obras Públicas contará con una cartera extraordinaria de 375.850 millones de pesos en 241 contratos en todas las regiones, orientada a crear empleo; la PDI crece 7,4% y Carabineros, 3,6%; la reparación de niñas, niños y adolescentes víctimas de graves vulneraciones aumenta 19,3%, y la Pensión Garantizada Universal (PGU)  suma 7 billones para 2,2 millones de personas mayores. \" Es un presupuesto que aumenta el gasto público, sube 1,7% en términos reales para el próximo año . Se cumplen, como siempre lo dijimos, todas las leyes que hay que cumplir en materia social. Y ponemos énfasis donde la ciudadanía nos ha pedido que estén los énfasis\", subrayó el ministro. Principales acuerdos En Educación, el acuerdo con la Cuarta Subcomisión Mixta de Presupuestos, presidida por la senadora Yasna Provoste (DC), destina 35.000 millones de pesos a las Becas Acceso TIC (\"Yo elijo mi PC\" ) , que entregan computadores a estudiantes de 7° básico, y suma recursos para la educación superior, escolar y parvularia. En Salud, el Presupuesto suma 28.208 millones para la Ley Ricarte Soto , que cubre tratamientos de alto costo, y destina 10.910 millones a Hospital Digital, que entrega atención de especialistas a distancia en horario continuado. Quiroz aseguró que \"la palabra recorte no es una buena palabra (para definir el erario aprobado), porque es un Presupuesto que aumenta el gasto , se cumplen todas las leyes que hay que cumplir en materia social. Siempre dijimos Ricarte Soto estaba financiada, después lo explicitamos mejor, gratuidad universitaria (también) y ponemos énfasis donde la ciudadanía nos ha pedido que estén los énfasis\". En Trabajo, el Presupuesto destina 41.395 millones de pesos a la Formación en el Puesto de Trabajo del Sence , que permite a las personas aprender un oficio mientras trabajan, y refuerza la capacitación en oficios. Para el sistema de pensiones, el Ejecutivo comprometió una asignación de hasta 2,2 millones de UTM, cerca de 160 millones de dólares, al Fondo Autónomo de Protección Previsional (FAPP). En regiones, el acuerdo con los gobernadores regionales y senadores del oficialismo y de la oposición suma 94.897 millones de pesos para inversión regional y permite que los gobiernos regionales ejecuten sus presupuestos desde enero. Junto con la ley, se acordó un protocolo con 36 compromisos de trabajo para 2027, entre ellos mesas técnicas en educación y vivienda, el monitoreo de las listas de espera en salud y un seguimiento trimestral de la inversión pública que prioriza los proyectos que generan empleo. Algunos de estos compromisos servirán de insumo para el Presupuesto 2028. 📊 El Congreso despachó el proyecto de Ley de Presupuestos 2027. La Sala del Senado aprobó el informe de la Comisión Mixta que resolvió las diferencias entre ambas cámaras, dejando la iniciativa en condiciones de convertirse en ley. Entre las materias abordadas estuvieron los recursos para Interior, Agricultura, Mujer y Equidad de Género, Culturas, Justicia, sitios de memoria, el Instituto Nacional de Deportes (IND), programas de Sence y la Ley de Seguridad Municipal. Durante el debate, senadoras y senadores valoraron la reposición de recursos para el deporte y los sitios de memoria, mientras que también plantearon reparos por recortes presupuestarios en programas vinculados al mundo rural y a las mujeres. Con esta votación concluye la tramitación legislativa del erario nacional para 2027. 📲 Más detalles en https://t.co/NoKV9p3Njs — Senado Chile (@Senado_Chile) November 25, 2026 Desde el oficialismo, el diputado UDI Jaime Coloma destacó que se incorporaran mecanismos de fiscalización sobre los recursos destinados a los expresidentes de la República . \"Como UDI, nos hubiera encantado poder poner fin a los fondos y las asignaciones de los expresidentes de la República, pero estoy feliz: logramos que, de una vez por todas, los fondos de los expresidentes pasen a Segpres, porque ahora Contraloría va a poder fiscalizar todos los fondos, asignaciones y también las oficinas de los expresidentes de la República \", afirmó. En contraste, el diputado republicano Agustín Romero manifestó su \"discrepancia con el financiamiento de los sitios de memoria y con las asignaciones al Instituto Nacional de Derechos Humanos , que objetamos profundamente\". Además, reiteró su rechazo al financiamiento de terapias hormonales para menores de 18 años en procesos de transición de género. Oposición cuestiona la estrategia presupuestaria del Gobierno Desde la oposición, y con un tono irónico, la senadora independiente Alejandra Sepúlveda cuestionó la estrategia de negociación de Quiroz y sostuvo que la recuperación de algunos recursos no representa necesariamente una ganancia para la ciudadanía, considerando que se trataba de programas que inicialmente contaban con financiamiento. \"Yo quiero reconocer la inteligencia del ministro. Teníamos 100, quita 70 y, después de quitar 70, tira y afloja, entrega 30 y creemos que todos ganamos. Y no es así, porque teníamos 100 antes\", planteó. \"Pero no recuperamos Prodemu , no recuperamos los 40 mil millones de Agricultura, se recuperó la ley Ricarte Soto, pero son recuperaciones, cosas que se tenían, que existían, que la gente las apreciaba\", reprochó. Entre los recursos que la oposición logró recuperar durante la discusión se encuentran parte del financiamiento de la Ley Ricarte Soto, el programa de entrega de computadores y horas docentes en el Ministerio de Educación. Sin embargo, la legisladora por O'Higgins advirtió que otras partidas, como los recursos destinados a Prodemu y los 40.000 millones de pesos para Agricultura , no fueron restituidas. Sala Cuna Universal y tensiones en el Senado por caso Firmas Con el Presupuesto 2027 ya despachado, la atención del Congreso se trasladó al proyecto de Sala Cuna Universal , una iniciativa que ha transitado por tres gobiernos y que enfrenta su última etapa legislativa. La propuesta debe someterse hoy a 26 votaciones en tercer trámite constitucional . Aquellas disposiciones que no consiguieran mayoría tendrían que ser revisadas por una comisión mixta, lo que podría extender su tramitación. En paralelo, el Senado continuó enfrentando las repercusiones del denominado caso Firmas . La investigación busca esclarecer cómo se incorporaron las firmas de los senadores Ximena Órdenes (independiente-PPD) y Fidel Espinoza (Partido Socialista) a una solicitud para retirar sus permisos constitucionales mientras ambos acompañaban al Presidente José Antonio Kast en su gira por Asia. Los senadores de la bancada PPD solicitaron que el socialista Juan Luis Castro  evalúe dejar la jefatura del comité parlamentario que comparten ambas colectividades junto al Partido Liberal. El presidente del PPD, Raúl Soto , respaldó la actuación de los senadores de su partido y afirmó que la colectividad acompañará las gestiones para resolver las diferencias. \"Quiero también respaldar a los cuatro senadores del PPD que han actuado en esto de forma unida, coordinada; han tomado decisiones, tienen un curso de acción y como PPD nos limitamos a acompañarlos y apoyarlos en ese proceso para acercar posiciones\", señaló. Por su parte, la presidenta del PS, la senadora Paulina Vodanovic , llamó a abordar las diferencias mediante conversaciones privadas y descartó que exista una definición sobre eventuales compensaciones políticas. \"Las comisiones siempre pueden ser evaluadas; yo no sé eso de las tres comisiones. Yo creo que todas estas discusiones se tienen que dar en un ámbito privado entre los partidos, así que vamos a hacerlo con toda tranquilidad y tiempo, porque lo que sí hay es un muy buen ánimo de todas las partes \", declaró la timonel.",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/congreso-despacho-el-presupuesto-2027-primero-elaborado-por-el-gobierno/2026-11-25/183722.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261125/imag/foto_0000002420261125183722.jpg",
-            "published_raw": "Wed, 25 Nov 2026 18:37:22 -0300",
-            "published_at": "2026-11-25T18:37:22-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 12,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 1,
-            "score_policy": 6,
-            "score_ideology": 2,
-            "score_actor": 9,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 31,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
-          },
-          {
-            "source_id": "cooperativa_politica",
-            "source": "Cooperativa",
-            "title": "Cámara aprobó Presupuesto 2027 y lo despachó a su último trámite en el Senado",
-            "description": "La Cámara de Diputadas y Diputados aprobó este miércoles el informe de la comisión mixta sobre el Presupuesto 2027 . El texto, que resuelve las diferencias entre ambas cámaras , pasó al Senado para su última votación. El informe recibió 113 votos a favor, nueve en contra y nueve abstenciones . Los votos de rechazo provinieron principalmente del Partido Nacional Libertario (PNL), mientras que las abstenciones se registraron en las bancadas del Frente Amplio (FA) y del Partido Comunista (PC). La votación abarcó 10 asuntos pendientes , entre ellos la reposición de las partidas de los ministerios del Interior, de Agricultura, de la Mujer y la Equidad de Género y de las Culturas, las Artes y el Patrimonio . El acuerdo también incluyó recursos para sitios de memoria y para el funcionamiento de las oficinas de los expresidentes de la República. Antes de la votación, una diputada del Partido Republicano recordó el natalicio del dictador Augusto Pinochet y se refirió a él como presidente. La intervención provocó reclamos de la oposición e interrumpió por momentos el debate en la Sala. PRESUPUESTO 2027 📰 | Cámara supera últimos nudos del Presupuesto 2027. https://t.co/DdwRG4Zqf7 https://t.co/0svotO68x9 — Diputadas y Diputados de Chile (@Camara_cl) 25 de noviembre de 2026 La UDI valoró el acuerdo y los republicanos reiteraron sus reparos El diputado Jaime Coloma (UDI) valoró que los recursos destinados a las oficinas de los expresidentes pasen al Ministerio Secretaría General de la Presidencia (Segpres), aunque señaló que su partido habría preferido eliminar esas asignaciones. \"Logramos que de una vez por todas los fondos del expresidente pasen a Segpres, porque ahora Contraloría va a poder fiscalizar todos los fondos, asignaciones y también las oficinas de los expresidentes de la República \", subrayó. Por su parte, el diputado Agustín Romero (Partido Republicano) reiteró el rechazo de su colectividad al financiamiento de los sitios de memoria y a las asignaciones al Instituto Nacional de Derechos Humanos (INDH) . \"Mantenemos esa posición y con la misma claridad seguiremos trabajando para que nunca más en Chile se financien terapias hormonales para transición de género en menores de 18 años\", manifestó. Schneider: \"Le hemos doblado la mano a un Gobierno que quería recortar aún más\" Desde la oposición, la diputada Emilia Schneider (FA) afirmó que durante la tramitación se logró contener la rebaja de horas docentes en los servicios locales de educación pública, así como los recortes previstos para la educación superior. \" Le hemos doblado la mano a un Gobierno que quería recortar aún más . Porque el primer Presupuesto que presentó el Gobierno destruía la educación chilena\", sostuvo. La diputada destacó que \"se reponen las becas TIC y los computadores, pese a que en un momento el Gobierno insistió en prestar los computadores, un absurdo\". El Senado revisará el Presupuesto y Sala Cuna Universal La votación del informe de la comisión mixta quedó prevista para la tarde de este miércoles en el Senado. En la tabla también figura el proyecto de Sala Cuna Universal . La sesión se realizará en medio de la polémica por el \"caso firmas\" . El diputado de la bancada del PPD Jaime Araya , hermano del senador Pedro Araya (PPD), cuestionó al senador Juan Luis Castro (PS) , aunque descartó que la controversia afecte la relación entre los partidos del Socialismo Democrático. \"Que haya un senador, Juan Luis Castro, que sea cobarde, que tenga actitudes miserables, que ensucie la marca Socialismo Democrático, no significa que eso vaya a afectar las relaciones entre los partidos, mucho menos la relación colaborativa entre las bancadas \", expresó. Araya llamó a Castro \"a que actúe con generosidad, dé un paso al costado , descomprima este tema y, lo más importante, asuma su responsabilidad\". Libertarios plantearon renegociar el acuerdo por la presidencia del Senado La senadora Vanessa Kaiser y el presidente del PNL, el diputado Johannes Kaiser , plantearon renegociar el acuerdo administrativo que rige la conducción del Senado. La colectividad rechaza que el próximo año la presidencia de la corporación quede en manos del PS, dados los cuestionamientos a su comité de senadores por el \"caso firmas\". El jefe de la Unidad Regional Anticorrupción de Valparaíso, Claudio Rebeco , confirmó que los senadores socialistas Juan Luis Castro y Paulina Vodanovic tienen la calidad de imputados en la investigación.",
-            "url": "https://www.cooperativa.cl/noticias/economia/presupuesto/camara-aprobo-presupuesto-2027-y-lo-despacho-a-su-ultimo-tramite-en-el/2026-11-25/145127.html",
-            "image_url": "https://www.cooperativa.cl/noticias/site/artic/20261125/imag/foto_0000000220261125145127.jpg",
-            "published_raw": "Wed, 25 Nov 2026 14:51:27 -0300",
-            "published_at": "2026-11-25T14:51:27-0300",
-            "country": "Chile",
-            "region": "Chile",
-            "language": "es",
-            "score_institutional": 6,
-            "score_elections": 1,
-            "score_international": 0,
-            "score_conflict": 0,
-            "score_policy": 2,
-            "score_ideology": 2,
-            "score_actor": 5,
-            "score_noise": 0,
-            "score_accident": 0,
-            "political_evidence": 16,
-            "primary_topic": "Instituciones y gobierno",
-            "secondary_topic": "Economía y políticas públicas",
-            "decision": "ACCEPT",
-            "filter_confidence": "high",
-            "cluster_id": "PML-EVENT-001"
-          }
-        ],
-        "article_count": 1,
-        "unique_sources": 1,
-        "political_science_fit": {
-          "bonus": 22,
-          "labels": [
-            "Estado e instituciones",
-            "Congreso y proceso legislativo",
-            "Economía y políticas públicas"
-          ],
-          "chile_utility": 68.9
+          "chile_utility": 71.9
         },
         "repeated_in_general_top5": false
       }
@@ -655,20 +626,26 @@
   "topics": [
     {
       "topic": "Elecciones y opinión pública",
-      "event_count": 4,
-      "maximum_relevance": 67.7,
-      "leading_story": "Campaña elecciones generales 29-N, en directo | El PP denuncia ante la Junta Electoral presuntas irregularidades en el voto por correo y el reparto de la propaganda electoral"
+      "event_count": 3,
+      "maximum_relevance": 67.5,
+      "leading_story": "Cierre de campaña de las elecciones generales del 29-N, en directo | Los partidos cierran la campaña con actos multitudinarios para animar la participación y a los indecisos"
     },
     {
       "topic": "Instituciones y gobierno",
       "event_count": 24,
-      "maximum_relevance": 66,
+      "maximum_relevance": 62,
       "leading_story": "Venezuela derogará la ley que castiga a quienes pidieron sanciones contra el país"
+    },
+    {
+      "topic": "Relaciones internacionales",
+      "event_count": 1,
+      "maximum_relevance": 56.2,
+      "leading_story": "La Secretaría de Relaciones Exteriores emite una queja formal ante el embajador Ronald Johnson por las líneas de denuncia de la DEA"
     },
     {
       "topic": "Conflictos y seguridad",
       "event_count": 4,
-      "maximum_relevance": 48.6,
+      "maximum_relevance": 46.1,
       "leading_story": "Campillai presentó querella criminal contra exgenerales de Carabineros"
     },
     {
@@ -679,12 +656,8 @@
     }
   ],
   "changes_since_yesterday": {
-    "status": "available",
-    "data": {
-      "entered_top5": ["PML-EVENT-007", "PML-EVENT-024", "PML-EVENT-010", "PML-EVENT-014", "PML-EVENT-022"],
-      "exited_top5": ["PML-EVENT-018", "PML-EVENT-009", "PML-EVENT-013", "PML-EVENT-020", "PML-EVENT-008"],
-      "retained_top5": []
-    }
+    "status": "not_available",
+    "data": []
   },
   "sources": {
     "representative_sources": ["EL PAÍS", "France 24", "Cooperativa"],
